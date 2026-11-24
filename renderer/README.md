@@ -1,10 +1,11 @@
 # Open Liveries renderer
 
-Draws a scheme from this dataset as SVG: from the left, from the right, or from below. It paints on one of
-three built-in aircraft shapes or on yours, described in a few measurements in meters. [GUIDE.md](GUIDE.md) is the way in for developers using it, with recipes; this is the reference. It's the
-reference drawing of [docs/COORDINATES.md](../docs/COORDINATES.md): when the spec and a picture disagree, one of them has a bug.
+Draws a scheme from this dataset as SVG from the left, the right or below. It paints on one of three built-in
+aircraft shapes or on yours, described in a few measurements in meters. [GUIDE.md](GUIDE.md) is the way in for
+developers, with recipes. This is the reference. It's also the reference drawing of
+[docs/COORDINATES.md](../docs/COORDINATES.md). When the spec and a picture disagree, one of them has a bug.
 
-- **No dependencies.** It returns SVG markup as a string, so it runs in a browser, in Node, or in a build step.
+- **No dependencies.** It returns SVG markup as a string, so it runs in a browser, in Node or in a build step.
 - **Any shape.** A scheme places everything as shares of each part, so the same scheme fits a 737, a 787 or a
   plane you made up.
 - **Logos are yours to draw.** The dataset describes and places logos but doesn't include them
@@ -12,7 +13,7 @@ reference drawing of [docs/COORDINATES.md](../docs/COORDINATES.md): when the spe
 
 ## Use it
 
-In a page, as an ES module (`dist/` is committed, so it can be served as is):
+In a page as an ES module. `dist/` is committed, so it can be served as is:
 
 ```html
 <div id="plane"></div>
@@ -34,7 +35,7 @@ writeFileSync('baw-right.svg', renderSide(scheme, { shape: SHAPES.widebody, side
 writeFileSync('baw-below.svg', renderBelow(scheme, { shape: SHAPES.widebody }));
 ```
 
-From the command line (from the repository root, after `npm run build`):
+From the command line at the repository root, after `npm run build`:
 
 ```sh
 node renderer/dist/cli.js liveries/SWA/colorado-one.json > colorado-one.svg            # left side, narrowbody
@@ -71,23 +72,24 @@ NEUTRAL, PROPELLER, UNPAINTED_FUSELAGE     // the colors for parts a scheme leav
 ```
 
 - `scheme` is a file from `liveries/` as parsed JSON. A scheme described only in words (no `fuselage`) draws
-  as a plain, unpainted aircraft, so show the airline's default scheme instead (`index.json` says which).
-- `shape` (a `Shape`) is a built-in shape, your own numbers (`AircraftShape`), or a measured type read from
-  `shapes/` (`MeasuredShape`). It defaults to the narrowbody. Pictures are 1000 wide, nose to tail cone in 900 of it
-  (a measured type whose tailplane reaches well behind the tail cone, the 717's, a little less, so it fits). Their height
-  follows the shape: a tall fin or long wings make a taller picture.
-- **Paint for one type:** on a measured shape, every function here draws the scheme's entry for that type (its
-  `types`, docs/COORDINATES.md › Paint for one type) over its own paint: Delta's white 717 nacelles, the A380s'
-  titles between the decks. `schemeOn(scheme, shape)` gives that scheme, for colors you read yourself (a 3D model's
-  wings and cowlings); give `renderTexture(scheme, 'engine', { shape })` the shape too, or pass it `schemeOn`'s scheme.
+  as a plain unpainted aircraft. Show the airline's default scheme instead. `index.json` says which.
+- `shape` (a `Shape`) is a built-in shape, your own numbers (`AircraftShape`) or a measured type read from
+  `shapes/` (`MeasuredShape`). It defaults to the narrowbody. Pictures are 1000 wide with nose to tail cone in 900 of
+  it. A measured type whose tailplane reaches well behind the tail cone (the 717) gets a little less so it fits. Their
+  height follows the shape, so a tall fin or long wings make a taller picture.
+- **Paint for one type:** on a measured shape every function here draws the scheme's entry for that type over its
+  own paint. That entry is its `types` (docs/COORDINATES.md › Paint for one type), like Delta's white 717 nacelles or
+  the A380s' titles between the decks. `schemeOn(scheme, shape)` gives that scheme for colors you read yourself,
+  such as a 3D model's wings and cowlings. Give `renderTexture(scheme, 'engine', { shape })` the shape too, or pass
+  it `schemeOn`'s scheme.
 - `drawnOn` is the shape the scheme was measured on (`shapes/` for its `drawnOn`). Give it when drawing on another
-  type, and the fuselage's paint, titles and logos are fitted by the two types' landmarks
-  ([docs/COORDINATES.md](../docs/COORDINATES.md), Landmarks); without it they're placed by their shares as written.
+  type and the fuselage's paint, titles and logos are fitted by the two types' landmarks
+  ([docs/COORDINATES.md](../docs/COORDINATES.md), Landmarks). Without it they're placed by their shares as written.
 - `idPrefix` starts the ids of each picture's clip paths. The ids are a hash of the picture, so the same picture
-  always gives the same markup and different pictures don't collide; set it to keep them apart from your page's own.
-- `logo(logo, box, view)` draws a logo: `logo` is the scheme's entry (its `mark`, `colors`, `description`),
-  `box` its place in the picture's pixels (`x`, `y`, `width`, `height`, upright), and `view` is `'left'`,
-  `'right'` or `'below'`. Return SVG markup, or `undefined` for the placeholder:
+  always gives the same markup and different pictures don't collide. Set it to keep them apart from your page's own.
+- `logo(logo, box, view)` draws a logo. `logo` is the scheme's entry (its `mark`, `colors`, `description`). `box`
+  is its place in the picture's pixels (`x`, `y`, `width`, `height`, upright). `view` is `'left'`, `'right'` or
+  `'below'`. Return SVG markup or `undefined` for the placeholder:
 
 ```js
 const marks = {
@@ -99,82 +101,83 @@ renderSide(scheme, { logo: (logo, box) => marks[logo.mark]?.(box) });
 
 ## In 3D
 
-The same drawing, as textures for a model. The viewer's 3D view
+The same drawing as textures for a model. The viewer's 3D view
 ([`examples/svg-viewer/src/three/`](../examples/svg-viewer/src/three/)) builds a three.js aircraft from any shape
 and paints it with these. Its `model.ts` is about 200 lines.
 
-- **Fuselage:** `renderTexture(scheme, 'fuselage', { shape })` is its paint unrolled: 2048 wide, nose at the left
-  edge, tail at the right.
-  - **Rows:** they go once round, from the belly's centerline at the bottom, up the left side to the crown at
-    mid-height, then down the right side.
+- **Fuselage:** `renderTexture(scheme, 'fuselage', { shape })` is its paint unrolled. It's 2048 wide with the nose
+  at the left edge and the tail at the right.
+  - **Rows:** they go once round. They start at the belly's centerline at the bottom and go up the left side to the
+    crown at mid-height, then down the right side.
   - **Texture coordinates:** a mesh round the fuselage takes u = how far along (0 to 1) and v = the angle from
-    the belly, up the left side, over 2π (three.js's default `flipY`).
+    the belly up the left side over 2π (three.js's default `flipY`).
   - **Proportions:** its height makes a pixel as tall as it is wide on the cabin, so lettering keeps its
     proportions.
   - **Matching outline:** `fuselageProfile(shape)` gives the crown and belly heights the pictures use, so a loft
     on it lines up.
-- **Fin:** `renderTexture(scheme, 'fin', { shape, side })` is the fin alone as seen from that side, in the side
+- **Fin:** `renderTexture(scheme, 'fin', { shape, side })` is the fin alone as seen from that side in the side
   view's frame. A flat fin's vertices take `sideProjection(shape).uv(x, height)` as texture coordinates on the left
-  face, and (1 − u, v) on the right face, with the right side's picture.
+  face. The right face takes (1 − u, v) with the right side's picture.
 - **Upper deck:** a measured shape's `fuselage.hump` (a 747's) is part of the fuselage's section in the 3D
-  example: over the upper half, the larger of the main tube's height and the deck's, joined smoothly, so the
-  fuselage texture runs on over it. The side view draws the hump over the fuselage, wearing the crown's paint carried
-  up; the below view doesn't show it (it's narrower than the tube).
-- **Engines:** `renderTexture(scheme, 'engine', { shape })` is a nacelle's paint (its cowling and areas), 1024 by 512: inlet
-  at the left, exhaust at the right; rows from the bottom up the side seen from the left to the top at mid-height,
-  then down the side seen from the right. Rows are even in the engine's height, not the angle round it: at angle a
-  from the bottom, v = (1 − cos a) / 4 up the left side and 1 − (1 − cos a) / 4 down the right. One texture serves
-  every engine.
+  example. Over the upper half the section is the larger of the main tube's height and the deck's, joined smoothly.
+  So the fuselage texture runs on over it. The side view draws the hump over the fuselage wearing the crown's paint
+  carried up. The below view doesn't show it because it's narrower than the tube.
+- **Engines:** `renderTexture(scheme, 'engine', { shape })` is a nacelle's paint (its cowling and areas) at 1024 by 512. The inlet is at the left and the exhaust at the right. Rows run from the bottom up the side seen from the left
+  to the top at mid-height, then down the side seen from the right. Rows are even in the engine's height, not the
+  angle round it. At angle a from the bottom, v = (1 − cos a) / 4 up the left side and 1 − (1 − cos a) / 4 down the
+  right. One texture serves every engine.
 - **Rear engines:** a measured shape's fuselage-mounted engine (`mount: 'fuselage'`) has a stub `pylon` from the
-  fuselage's side to the nacelle; `stubPylonColor(scheme, shape, engine, side)` is its color seen from that side.
+  fuselage's side to the nacelle. `stubPylonColor(scheme, shape, engine, side)` is its color seen from that side.
   A T-tail's tailplane (`stabilizer.mount: 'fin'`) is a surface like any other, at its height on the fin.
-- **Tail engines:** a measured shape's engine on the tail's centerline (`mount: 'tail'`: the MD-11's, the 727's)
-  wears the fin's paint carried down, so the fin's pictures (`renderTexture(scheme, 'fin', { shape, side })`) paint
-  it too: a nacelle (or an S-duct's intake) round its side-view outline takes `sideProjection(shape).uv` on each side
-  as the fin does. Its inlet lip is the scheme's `engines.inletLip`; its bare exhaust (`nozzle`) is metal.
-- **Propellers:** a measured shape's engine with a `propeller` (a turboprop's) has a spinner, in the engines' cowling
-  (`spinnerPaint`), and dark blades (`PROPELLER.blades`), never painted; the 3D example draws them still, with a faint
-  disc where they turn, and its nacelle as wide as its plan (`halfWidth`), with no inlet, fan or pylon.
+- **Tail engines:** a measured shape's engine on the tail's centerline (`mount: 'tail'`, like the MD-11's or the
+  727's) wears the fin's paint carried down. So the fin's pictures (`renderTexture(scheme, 'fin', { shape, side })`)
+  paint it too. A nacelle or an S-duct's intake round its side-view outline takes `sideProjection(shape).uv` on each
+  side as the fin does. Its inlet lip is the scheme's `engines.inletLip`. Its bare exhaust (`nozzle`) is metal.
+- **Propellers:** a measured shape's engine with a `propeller` (a turboprop's) has a spinner in the engines' cowling
+  (`spinnerPaint`) and dark blades (`PROPELLER.blades`) that are never painted. The 3D example draws the blades still
+  with a faint disc where they turn. It draws the nacelle as wide as its plan (`halfWidth`) with no inlet, fan or
+  pylon.
 - **Everything else:** wings, tailplane and winglets are flat colors. The scheme names them (`wings.top`,
-  `winglets.outer`, and so on), and `colorOf` resolves the names. Belly titles and logos aren't in any texture yet.
+  `winglets.outer` and so on) and `colorOf` resolves the names. Belly titles and logos aren't in any texture yet.
 
 ## A measured type
 
-`shapes/<ICAO type>.json` is a real type's outline, read off its manufacturer's dimensioned drawings
-([docs/SHAPES.md](../docs/SHAPES.md)): the fuselage's curves, the fin with its dorsal fillet and rudder hinge, the
-wing's and tailplane's plan, each nacelle's profile, every cabin window (both decks' rows on the A380), door and cockpit pane. Pass it parsed as
-`shape`, anywhere a shape is taken. `src/measured.ts` lays it out as the same `Geometry` the parametric shapes
-give, so every view and texture draws on it; the views use its measured outlines where they'd otherwise guess. A
-scheme's paint reaches forward over a fin's fillet from the leading edge (x 0), and its rudder color starts at
-the hinge line.
+`shapes/<ICAO type>.json` is a real type's outline read off its manufacturer's dimensioned drawings
+([docs/SHAPES.md](../docs/SHAPES.md)). It has the fuselage's curves, the fin with its dorsal fillet and rudder
+hinge, the wing's and tailplane's plan and each nacelle's profile. It also has every cabin window (both decks' rows
+on the A380), door and cockpit pane. Pass it parsed as `shape` anywhere a shape is taken. `src/measured.ts` lays it
+out as the same `Geometry` the parametric shapes give, so every view and texture draws on it. The views use its
+measured outlines where they'd otherwise guess. A scheme's paint reaches forward over a fin's fillet from the
+leading edge (x 0). Its rudder color starts at the hinge line.
 
 A type with a T-tail and its engines on the rear fuselage (`shapes/B712.json`, the 717) draws the same way:
 
-- **Side:** the near tailplane across the fin's top, in front of it, and the near nacelle over the fuselage with the
-  scheme's engine paint and titles; behind it, its stub pylon shows as the fairing aft of the nozzle. The far
+- **Side:** the near tailplane across the fin's top in front of it, and the near nacelle over the fuselage with the
+  scheme's engine paint and titles. Behind it the stub pylon shows as the fairing aft of the nozzle. The far
   tailplane and engine are hidden behind their near twins.
-- **Below:** the nacelles beside the tail on their stub pylons, the tailplane beyond them (the fuselage hides its
-  middle).
-- **Pylon color:** a stub pylon is the scheme's `engines.pylon`, else the fuselage's paint where it meets the body
-  (`stubPylonColor` gives it for a 3D model).
+- **Below:** the nacelles beside the tail on their stub pylons and the tailplane beyond them. The fuselage hides its
+  middle.
+- **Pylon color:** a stub pylon is the scheme's `engines.pylon`, else the fuselage's paint where it meets the body.
+  `stubPylonColor` gives it for a 3D model.
 
-A high-winged turboprop (`shapes/DH8D.json`, the Dash 8-400) draws the same way too: its wing's root is on the crown
-(`wing.z` there at the crown's height), so from the side the near wing is a band along the top of the fuselage, and
-the nacelle, which holds the wing, hangs from it with no pylon:
+A high-winged turboprop (`shapes/DH8D.json`, the Dash 8-400) draws the same way too. Its wing's root is on the crown
+(`wing.z` there at the crown's height). So from the side the near wing is a band along the top of the fuselage. The
+nacelle holds the wing and hangs from it with no pylon.
 
-- **Side:** the nacelle over the wing and the fuselage, and ahead of it the propeller: a faint disc seen edge on (a
-  lens a twelfth of its diameter thick, the blades turning) and the spinner, a rounded cone in the engines' cowling.
-- **Below:** the nacelle as wide as its plan (`halfWidth`), the disc and spinner ahead of it.
+- **Side:** the nacelle over the wing and the fuselage, and ahead of it the propeller. That's a faint disc seen edge
+  on (a lens a twelfth of its diameter thick, the blades turning) and the spinner as a rounded cone in the engines'
+  cowling.
+- **Below:** the nacelle as wide as its plan (`halfWidth`) with the disc and spinner ahead of it.
 
-A third engine on the tail's centerline (`shapes/MD11.json`, the MD-11F; `shapes/B722.json`, the 727-200F) is
-`engines[].mount: 'tail'`:
+A third engine on the tail's centerline is `engines[].mount: 'tail'`. That's `shapes/MD11.json` for the MD-11F and
+`shapes/B722.json` for the 727-200F.
 
-- **Side:** drawn over the fuselage and the fin's foot: the MD-11's nacelle through the fin's base (on its strut, the
-  fairing over its nozzle), the 727's S-duct intake on the crown ahead of the fin and its exhaust at the tail cone's
-  end. It wears the fin's paint carried down below the fin's root (the base and the areas that reach the root, which
-  run on across it; not the rudder), with the scheme's inlet lip and a bare metal nozzle; the scheme's engine areas
-  and engine titles are the other engines' (docs/COORDINATES.md).
-- **Below:** a straight duct's nacelle where it shows past the fuselage, in the fin's base colour; an S-duct's intake
+- **Side:** drawn over the fuselage and the fin's foot. The MD-11's nacelle goes through the fin's base on its strut,
+  with the fairing over its nozzle. The 727's S-duct intake sits on the crown ahead of the fin, and its exhaust at the
+  tail cone's end. It wears the fin's paint carried down below the fin's root. That's the base and the areas that
+  reach the root, which run on across it, but not the rudder. It has the scheme's inlet lip and a bare metal nozzle.
+  The scheme's engine areas and engine titles are the other engines' (docs/COORDINATES.md).
+- **Below:** a straight duct's nacelle where it shows past the fuselage, in the fin's base color. An S-duct's intake
   is out of sight on top.
 
 ## Your own shape
@@ -222,17 +225,17 @@ Measure them off a side view and a plan view of the aircraft, or off your model.
 }
 ```
 
-- The fin's root chord is where it meets the crown; `height` is from there to its tip.
-- Engines are listed for one side. Four-engined aircraft list two; `renderer/examples/quad.json` is one. An
-  engine below the wing gets a pylon up into it; one above or beside the fuselage (a tail-mounted engine)
-  doesn't. In the side view the outboard engine is the nearer: each one behind it is drawn first, its titles and
-  logos with it, so the nearer nacelle covers them.
-- `shapeProblems` (and the command line) reports a missing number or an impossible one (a leading edge behind its
-  trailing edge, a nose longer than half the fuselage).
+- The fin's root chord is where it meets the crown. `height` is from there to its tip.
+- Engines are listed for one side. Four-engined aircraft list two, and `renderer/examples/quad.json` is one. An
+  engine below the wing gets a pylon up into it. One above or beside the fuselage (a tail-mounted engine) doesn't.
+  In the side view the outboard engine is the nearer. Each one behind it is drawn first with its titles and logos,
+  so the nearer nacelle covers them.
+- `shapeProblems` and the command line report a missing number or an impossible one, like a leading edge behind
+  its trailing edge or a nose longer than half the fuselage.
 
-What a shape can't change is the spec's own conventions: the scheme's parts and their spaces
-([COORDINATES.md](../docs/COORDINATES.md)). A rear-engined jet's engine paint, for instance, is drawn on its
-nacelles wherever the shape puts them.
+A shape can't change the spec's own conventions. Those are the scheme's parts and their spaces
+([COORDINATES.md](../docs/COORDINATES.md)). For instance a rear-engined jet's engine paint is drawn on its nacelles
+wherever the shape puts them.
 
 ## Layout
 
@@ -246,11 +249,11 @@ nacelles wherever the shape puts them.
 - `src/colors.ts`: the renderer's own colors (neutral parts, glass, bare metal, outlines) and palette lookup.
 - `src/labels.ts`: titles and logos (yours, or the placeholder).
 - `src/side.ts`, `src/below.ts`: the views, in the spec's paint order. `src/side-parts.ts` maps the side view's parts
-  into the picture; `src/side-labels.ts` places its titles and logos.
+  into the picture. `src/side-labels.ts` places its titles and logos.
 - `src/paint.ts`: a part's paint through any mapping, shared by the views and the textures (`src/texture.ts`).
 - `src/scheme.ts`: a scheme's types, modeled on `schema/livery.schema.json`.
 - `src/cli.ts`: the command line.
 
-TypeScript compiled to ES modules in `dist/`, which is committed (with `.d.ts` types), like the viewer's `js/`.
-Build and lint from the repository root: `npm run build`, `npm run lint`, `npm run check` (renders
-everything and fails on a broken picture).
+TypeScript compiled to ES modules in `dist/`. Like the viewer's `js/` it's committed, with `.d.ts` types. Build and
+lint from the repository root with `npm run build`, `npm run lint` and `npm run check`. The last one renders
+everything and fails on a broken picture.

@@ -97,21 +97,21 @@ def stats() -> str:
         f"*Counted by `tools/stats.py` on {date.today().isoformat()}.*",
         "",
         f"- **{len(schemes)} schemes** from **{len({s['airline'] for s in schemes})} airlines**: {kinds}.",
-        f"- **{len(drawn)} drawn** (colored areas you can reproduce); the other {len(schemes) - len(drawn)} are "
-        f"described in words only so far. {sum(1 for s in schemes if s.get('titles'))} have their titles set out, "
+        f"- **{len(drawn)} drawn** with colored areas you can reproduce. The other {len(schemes) - len(drawn)} "
+        f"are described in words only so far. {sum(1 for s in schemes if s.get('titles'))} have their titles set out, "
         f"{sum(1 for s in schemes if s.get('logos'))} their logos placed.",
         f"- **{len({s['airline'] for s in standard})} airlines' everyday schemes** ({len(standard)} with freighter "
         f"and older variants), plus **{len(operators)} operators** that fly in another "
         f"airline's paint (regionals in their mainline's).",
         f"- **{len(airframes)} airframes tagged** (registration, usually its ICAO address, and the scheme it wears): "
-        f"{current} current, {past} past; {with_art} with their own tail art.",
+        f"{current} current and {past} past. {with_art} have their own tail art.",
         f"- **{count_leads()} leads**: special schemes seen on public lists, not yet researched.",
         "",
         table(Counter(s["confidence"] for s in schemes).most_common(), ("Scheme confidence", "Schemes")),
         "",
         table(Counter(a.get("confidence", "-") for a in airframes).most_common(), ("Airframe confidence", "Airframes")),
         "",
-        "Evidence behind each airframe's tag (its first source; most have more than one):",
+        "Evidence behind each airframe's tag, by its first source (most have more than one):",
         "",
         table(Counter(first_source_kind(a) for a in airframes).most_common(), ("Evidence", "Airframes")),
         "",

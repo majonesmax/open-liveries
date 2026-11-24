@@ -57,8 +57,8 @@ npm run build   # and commit renderer/dist and examples/svg-viewer/js with your 
 
 CI runs the same checks on every pull request.
 
-Files are written the way `tools/common.py` writes them: JSON indented by two spaces, UTF-8 as is, a newline at the
-end. Keep a scheme's ids stable once they're in, since airframes and apps refer to them.
+Files are written the way `tools/common.py` writes them. That's JSON indented by two spaces, UTF-8 as is and a
+newline at the end. Keep a scheme's ids stable once they're in, since airframes and apps refer to them.
 
 ## License
 
