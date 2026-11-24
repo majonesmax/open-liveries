@@ -1,0 +1,154 @@
+{
+  "_about": "777-8, built from the 777-9's measured outlines (b779/, Boeing D6-86073 Rev G 2.2.1; Boeing has published no general-dimensions sheet of the 777-8) with its two fuselage plugs taken out: plug.py on b779's snapped lines (side.snap.json, plan.snap.json; --ppm 69.8178, --nose 159 side and 167 plan, --plug 17.0:-3.734 --plug 44.3:-2.133), the front view as it is. Pixels of the 777-9's rasters. The plugs: 5.867 m in all, Boeing's 777-8 overall length (232 ft 6 in, 70.86 m: boeing.com's 777X page, the 777-8F Airport Compatibility Brochure) against the 777-9's (251 ft 9 in), the same tail; 3.734 m of it (12 ft 3 in) ahead of the main gear, the two types' printed wheelbases (93 ft 10 in on the 777-8F brochure and on the 2015 777X brochure's 777-8X, 106 ft 1 in on the 777-9), and the rest, 2.133 m, aft of it: 7 and 4 of the 777's 21 in frame pitches. The 777-8F brochure's door 1 (22 ft 2 in) and forward cargo door (38 ft 9 in) are the 777-9's, so the forward plug is behind them; its lower aft cargo door (157 ft 9 in) is the 777-9's large aft cargo door (177 ft 1 in) less the whole 5.867 m. Where in those stretches the plugs go isn't published for the 777-8: the forward one ahead of door 2 and the aft one between door 3 and the optional exit, as the 2015 777X brochure's 777-8X servicing plan draws its doors (door 2 at its passenger bridge, about 19.3 m; tabs on both sides at about 38.9 m, 43.2 m and 54.9 m: door 3, the exit and door 4 of a 777-9 with its plugs out, the aft one then 1.07 m shorter). Door 3 (42.72 m on the 777-9, door table 2.7.1) is hidden behind the flaps on the 777-9's sheet, so it's placed from the table, as wide as door 2, with the four windows round it left out (the -9 sheet's window gap round door 2). Windows: the 777-9's (drawn), moved with the plugs. Cockpit panes: the 777-9 sheet draws its windshield small and up to 18 cm below the crown, so the two don't meet over the nose; the 777X keeps the 777's flight deck, so the panes are the 777-300ER's (shapes/B77W.json, whose nose lies within 4 cm of this one's), in these pixels, as the 777-9's recipe now takes them, the windshield's forward edge put on this crown by build.py's rule.",
+  "out": "../../../../shapes/B778.json",
+  "length": 69.343,
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "refs": {
+    "side": {
+      "nose": 159,
+      "tail": 5000.4,
+      "cowlEnd": 2172.3
+    },
+    "plan": {
+      "nose": 167,
+      "centerline": 2852
+    },
+    "front": {
+      "centerline": 131.5,
+      "crownTop": 959
+    }
+  },
+  "windows": {
+    "x": [
+      8.193, 8.737, 9.267, 9.797, 10.334, 10.871, 11.401, 11.938, 12.475, 13.005, 13.542, 14.079, 14.617, 15.684,
+      16.221, 17.299, 18.366, 21.088, 22.162, 22.692, 23.229, 23.773, 24.296, 24.833, 25.377, 26.445, 26.982, 27.512,
+      28.049, 28.583, 29.116, 29.65, 30.183, 30.717, 31.251, 31.784, 32.318, 32.851, 33.385, 33.92, 34.453, 34.987,
+      35.52, 36.054, 36.587, 37.121, 37.655, 40.324, 40.869, 41.406, 41.936, 42.473, 43.01, 44.342, 45.681, 46.219,
+      46.748, 47.286, 47.823, 48.353, 48.89, 49.427, 49.957, 50.494, 51.031, 51.561, 52.098, 52.635, 53.165, 53.702,
+      54.239, 54.769
+    ],
+    "z": [0.272, 0.831],
+    "width": 0.372,
+    "note": "The 777-9's windows as its sheet draws them (D6-86073 2.2.1), moved with the 777-8's two plugs (7 and 4 windows out at the 0.533 m pitch); four left out round door 3, which the 777-9's sheet hides behind the flaps. No drawing of the 777-8's own cabin is published."
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "name": "door 1",
+      "box": [602, 1040, 663, 1161]
+    },
+    {
+      "kind": "door",
+      "box": [1511.3, 1041, 1574.3, 1159]
+    },
+    {
+      "kind": "door",
+      "box": [2849.4, 1041, 2912.4, 1159]
+    },
+    {
+      "kind": "door",
+      "box": [3224.4, 1040, 3285.4, 1158]
+    },
+    {
+      "kind": "door",
+      "box": [4045.4, 1040, 4108.4, 1158]
+    },
+    {
+      "kind": "cargo",
+      "side": "right",
+      "name": "forward cargo door",
+      "box": [891, 1175, 1080, 1316]
+    },
+    {
+      "kind": "cargo",
+      "side": "right",
+      "box": [3434.4, 1182, 3560.4, 1302]
+    },
+    {
+      "kind": "cargo",
+      "side": "right",
+      "box": [3819.4, 1214, 3883.4, 1293]
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [261.4, 1068.7],
+      [281.5, 1050.4],
+      [295.6, 1059.7],
+      [297.2, 1061.4],
+      [277.3, 1092.2],
+      [248.9, 1079.5],
+      [247.3, 1080.7]
+    ],
+    [
+      [295.6, 1079.7],
+      [308.1, 1059.7],
+      [329.8, 1059.7],
+      [331.4, 1061.4],
+      [321.4, 1100.5],
+      [319.8, 1102.2],
+      [301.4, 1095.5],
+      [288.9, 1094.7],
+      [287.3, 1093.0]
+    ],
+    [
+      [334.7, 1080.5],
+      [338.9, 1063.0],
+      [341.4, 1059.7],
+      [365.6, 1061.4],
+      [367.3, 1063.0],
+      [363.9, 1093.0],
+      [361.4, 1098.0],
+      [331.4, 1101.3],
+      [329.8, 1099.7]
+    ]
+  ],
+  "windshieldTolerance": 0.12,
+  "printed": {
+    "fuselage height": 6.2,
+    "fuselage width": 6.2,
+    "wingspan": 71.76,
+    "tailplane span": 24.56,
+    "engine out from the centerline": 10.64,
+    "overall length": 70.86,
+    "door 1 from the nose": 6.76,
+    "forward cargo door from the nose": 11.81
+  },
+  "meta": {
+    "id": "B778",
+    "name": "Boeing 777-8",
+    "types": ["B778"],
+    "confidence": "low",
+    "sources": [
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/airports/acaps/777X_Rev_G.pdf",
+        "title": "Boeing, 777-9 Airplane Characteristics for Airport Planning (D6-86073 Rev G, September 2025, preliminary information), 2.2.1 General Dimensions: Model 777-9, and 2.7.1 Door Locations",
+        "accessed": "2026-11-15",
+        "note": "The outlines are the 777-9's (shapes/B779.json, tools/trace/b779/) with the 777-8's two fuselage plugs taken out (tools/trace/b778/): the same wing, GE9X nacelles, tail and fuselage section, which every Boeing 777-8 source says it shares. Its door table (2.7.1) places door 3 (42.72 m on the 777-9), which the sheet's side view hides behind the flaps. Fuselage height, width, tailplane span and engine position are the 777-9's printed figures. Its table puts all three lower cargo doors, the bulk door included, on the right (as D6-58329-2's 777-200LR/-300ER cargo-door figure draws them)."
+      },
+      {
+        "url": "https://www.boeing.com/resources/boeingdotcom/commercial/airports/acaps/777_8F_Brochure.pdf",
+        "title": "Boeing, 777-8F Airport Compatibility Brochure (June 2023, preliminary), size comparisons, door location comparisons, landing gear footprint",
+        "accessed": "2026-11-15",
+        "note": "The 777-8 passenger aircraft has the 777-8F's fuselage length (Boeing, 2023). Overall length 232 ft 6 in (70.86 m), span 235 ft 5 in (71.76 m), wheelbase 93 ft 10 in (106 ft 1 in on the 777-9): the plugs, 3.734 m ahead of the main gear and 2.133 m behind it. Door 1 at 22 ft 2 in and the forward cargo door at 38 ft 9 in, as the 777-9's; the lower aft cargo door at 157 ft 9 in, the 777-9's large one less both plugs."
+      },
+      {
+        "url": "https://www.boeing.com/commercial/777x",
+        "title": "Boeing, 777X (boeing.com product page): 777-8 and 777-9 dimensions",
+        "accessed": "2026-11-15",
+        "note": "777-8 length 232 ft 6 in (70.9 m), 777-9 251 ft 9 in (76.7 m); the same wingspan (235 ft 5 in extended, 212 ft 9 in folded) and height (64 ft 1 in)."
+      },
+      {
+        "url": "https://web.archive.org/web/20230213094036/https://www.boeing.com/resources/boeingdotcom/commercial/airports/acaps/777Xbrochure.pdf",
+        "title": "Boeing, 777X Airport Compatibility Brochure (May 2015, preliminary), 777-8X general arrangement and servicing arrangement",
+        "accessed": "2026-11-15",
+        "note": "The 777-8 as first designed (69.8 m, 1.07 m shorter behind the wing than today's; the same 93 ft 10 in wheelbase). Its servicing plan places door 2 at its passenger bridge (about 19.3 m from the nose) and draws door tabs on both sides at about 38.9, 43.2 and 54.9 m: the 777-9's door 3, optional exit and door 4 with the plugs out, so the forward plug is ahead of door 2 and the aft one between door 3 and the exit. Read off a small plan view, to about 0.3 m. The door positions here follow from that, not from a 777-8 door table (none is published): confidence low."
+      }
+    ]
+  }
+}

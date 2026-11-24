@@ -1,0 +1,1162 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "MAA",
+  "name": "mas (2022 livery)",
+  "kind": "standard",
+  "from": "2022",
+  "confidence": "medium",
+  "drawnOn": "A332",
+  "description": "White A330 freighter with a big lowercase 'mas' in dark teal over the forward fuselage, a small striped green cube at its top-left and a Mexican flag behind the cockpit. The tail is a patchwork of fine green patterns (checks, stripes, dots and cubes in dark teal, mid green, lime and white) over the fin and the aft fuselage behind the wing, breaking up at its front into scattered small cubes; the engines and winglets carry the same patchwork. Drawn as a simplified patchwork of our own: big cube-face facets in the four tones over a mid-green ground, thirteen small light-green cubes ahead of it, not a trace of the artwork.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:EI-MYY_Airbus_A330-200F_MAS_Air_Cargo_Frankfurt_25.6.77_(52533671690).jpg",
+      "title": "EI-MYY Airbus A330-200F MAS Air Cargo Frankfurt 25.6.77 (52533671690).jpg (CC BY-SA 2.0, Colin Cooke Photo)",
+      "accessed": "2026-11-20",
+      "note": "A330-200P2F EI-MYY, left side from below on approach to Frankfurt, 2022-06-25 (the file name's '25.6.77' is a typo for 2022: Commons dates it 2022-06-25). Fitted to shapes/A332.json (door 1 pinned, camera 8° below): the title, cube and flag, the pattern's front edges, the fin."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:EI-MAA_(55091319501).jpg",
+      "title": "EI-MAA (55091319501).jpg (CC BY-SA 4.0, Liam Thompson)",
+      "accessed": "2026-11-20",
+      "note": "A330-200 EI-MAA, left side from ahead, taxiing at LAX, 2026-02-11: the same scheme still worn in 2026 (title, cube, flag, patterned fin, aft fuselage and engines)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:MAS_Air_Cargo,_EI-MAE,_Airbus_A330-343(P2F)_(53213336866).jpg",
+      "title": "MAS Air Cargo, EI-MAE, Airbus A330-343(P2F) (53213336866).jpg (CC BY-SA 2.0, Anna Zvereva)",
+      "accessed": "2026-11-20",
+      "note": "A330-300P2F EI-MAE, right side climbing out, 2023-08-17: the right side's patterned fin, aft fuselage and engines; this airframe (flown by Galistair Malta for MasAir) carried no 'mas' title then."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F1F2F2",
+      "official": false
+    },
+    "teal": {
+      "hex": "#17605D",
+      "name": "dark teal (title)",
+      "official": false
+    },
+    "darkGreen": {
+      "hex": "#0A4840",
+      "official": false
+    },
+    "lime": {
+      "hex": "#6DBE4B",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C4C8CC",
+      "official": false
+    },
+    "green": {
+      "hex": "#5FAE72",
+      "name": "mid green (the patchwork's ground)",
+      "official": false
+    },
+    "pale": {
+      "hex": "#CFE3C6",
+      "name": "pale green-white (fine stripes and checks, averaged)",
+      "official": false
+    },
+    "cube": {
+      "hex": "#9DC8A2",
+      "name": "light green (the small cubes' fine stripes, averaged)",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "windows": "hidden",
+    "areas": [
+      {
+        "name": "scattered cube 1",
+        "color": "cube",
+        "points": [
+          [
+            0.693,
+            0.415
+          ],
+          [
+            0.7,
+            0.48
+          ],
+          [
+            0.707,
+            0.415
+          ],
+          [
+            0.707,
+            0.285
+          ],
+          [
+            0.7,
+            0.22
+          ],
+          [
+            0.693,
+            0.285
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "scattered cube 2",
+        "color": "cube",
+        "points": [
+          [
+            0.693,
+            -0.385
+          ],
+          [
+            0.7,
+            -0.32
+          ],
+          [
+            0.707,
+            -0.385
+          ],
+          [
+            0.707,
+            -0.515
+          ],
+          [
+            0.7,
+            -0.58
+          ],
+          [
+            0.693,
+            -0.515
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "scattered cube 3",
+        "color": "cube",
+        "points": [
+          [
+            0.709,
+            0.715
+          ],
+          [
+            0.716,
+            0.78
+          ],
+          [
+            0.723,
+            0.715
+          ],
+          [
+            0.723,
+            0.585
+          ],
+          [
+            0.716,
+            0.52
+          ],
+          [
+            0.709,
+            0.585
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "scattered cube 4",
+        "color": "lime",
+        "points": [
+          [
+            0.709,
+            0.015
+          ],
+          [
+            0.716,
+            0.08
+          ],
+          [
+            0.723,
+            0.015
+          ],
+          [
+            0.723,
+            -0.115
+          ],
+          [
+            0.716,
+            -0.18
+          ],
+          [
+            0.709,
+            -0.115
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "scattered cube 5",
+        "color": "cube",
+        "points": [
+          [
+            0.709,
+            -0.685
+          ],
+          [
+            0.716,
+            -0.62
+          ],
+          [
+            0.723,
+            -0.685
+          ],
+          [
+            0.723,
+            -0.815
+          ],
+          [
+            0.716,
+            -0.88
+          ],
+          [
+            0.709,
+            -0.815
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "scattered cube 6",
+        "color": "cube",
+        "points": [
+          [
+            0.725,
+            0.465
+          ],
+          [
+            0.732,
+            0.53
+          ],
+          [
+            0.739,
+            0.465
+          ],
+          [
+            0.739,
+            0.335
+          ],
+          [
+            0.732,
+            0.27
+          ],
+          [
+            0.725,
+            0.335
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "scattered cube 7",
+        "color": "cube",
+        "points": [
+          [
+            0.725,
+            -0.285
+          ],
+          [
+            0.732,
+            -0.22
+          ],
+          [
+            0.739,
+            -0.285
+          ],
+          [
+            0.739,
+            -0.415
+          ],
+          [
+            0.732,
+            -0.48
+          ],
+          [
+            0.725,
+            -0.415
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "scattered cube 8",
+        "color": "cube",
+        "points": [
+          [
+            0.741,
+            0.815
+          ],
+          [
+            0.748,
+            0.88
+          ],
+          [
+            0.755,
+            0.815
+          ],
+          [
+            0.755,
+            0.685
+          ],
+          [
+            0.748,
+            0.62
+          ],
+          [
+            0.741,
+            0.685
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "scattered cube 9",
+        "color": "cube",
+        "points": [
+          [
+            0.741,
+            0.115
+          ],
+          [
+            0.748,
+            0.18
+          ],
+          [
+            0.755,
+            0.115
+          ],
+          [
+            0.755,
+            -0.015
+          ],
+          [
+            0.748,
+            -0.08
+          ],
+          [
+            0.741,
+            -0.015
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "scattered cube 10",
+        "color": "lime",
+        "points": [
+          [
+            0.741,
+            -0.585
+          ],
+          [
+            0.748,
+            -0.52
+          ],
+          [
+            0.755,
+            -0.585
+          ],
+          [
+            0.755,
+            -0.715
+          ],
+          [
+            0.748,
+            -0.78
+          ],
+          [
+            0.741,
+            -0.715
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "scattered cube 11",
+        "color": "cube",
+        "points": [
+          [
+            0.756,
+            0.515
+          ],
+          [
+            0.763,
+            0.58
+          ],
+          [
+            0.77,
+            0.515
+          ],
+          [
+            0.77,
+            0.385
+          ],
+          [
+            0.763,
+            0.32
+          ],
+          [
+            0.756,
+            0.385
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "scattered cube 12",
+        "color": "cube",
+        "points": [
+          [
+            0.756,
+            -0.235
+          ],
+          [
+            0.763,
+            -0.17
+          ],
+          [
+            0.77,
+            -0.235
+          ],
+          [
+            0.77,
+            -0.365
+          ],
+          [
+            0.763,
+            -0.43
+          ],
+          [
+            0.756,
+            -0.365
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "scattered cube 13",
+        "color": "cube",
+        "points": [
+          [
+            0.756,
+            -0.835
+          ],
+          [
+            0.763,
+            -0.77
+          ],
+          [
+            0.77,
+            -0.835
+          ],
+          [
+            0.77,
+            -0.965
+          ],
+          [
+            0.763,
+            -1.03
+          ],
+          [
+            0.756,
+            -0.965
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "the patchwork's ground: mid green from just ahead of the fin's root to the tail",
+        "color": "green",
+        "points": [
+          [
+            0.772,
+            1.0
+          ],
+          [
+            0.776,
+            0.55
+          ],
+          [
+            0.771,
+            0.1
+          ],
+          [
+            0.775,
+            -0.4
+          ],
+          [
+            0.767,
+            -1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "name": "dark facet, upper",
+        "color": "darkGreen",
+        "points": [
+          [
+            0.79,
+            0.25
+          ],
+          [
+            0.835,
+            0.25
+          ],
+          [
+            0.865,
+            0.85
+          ],
+          [
+            0.82,
+            0.85
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "name": "pale striped facet, lower",
+        "color": "pale",
+        "points": [
+          [
+            0.785,
+            -0.75
+          ],
+          [
+            0.835,
+            -0.75
+          ],
+          [
+            0.86,
+            -0.15
+          ],
+          [
+            0.81,
+            -0.15
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "name": "lime checked facet",
+        "color": "lime",
+        "points": [
+          [
+            0.84,
+            -0.3
+          ],
+          [
+            0.885,
+            -0.3
+          ],
+          [
+            0.915,
+            0.35
+          ],
+          [
+            0.87,
+            0.35
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "name": "dark facet, lower aft",
+        "color": "darkGreen",
+        "points": [
+          [
+            0.875,
+            -0.95
+          ],
+          [
+            0.925,
+            -0.95
+          ],
+          [
+            0.95,
+            -0.4
+          ],
+          [
+            0.9,
+            -0.4
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "name": "pale striped facet on the tail cone",
+        "color": "pale",
+        "points": [
+          [
+            0.905,
+            0.0
+          ],
+          [
+            0.955,
+            0.0
+          ],
+          [
+            0.985,
+            0.7
+          ],
+          [
+            0.935,
+            0.7
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "name": "lime facet at the tail cone",
+        "color": "lime",
+        "points": [
+          [
+            0.955,
+            -0.6
+          ],
+          [
+            0.99,
+            -0.6
+          ],
+          [
+            1.01,
+            0.0
+          ],
+          [
+            0.975,
+            0.0
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "green",
+    "areas": [
+      {
+        "name": "pale striped facet at the tip's trailing corner",
+        "color": "pale",
+        "points": [
+          [
+            0.45,
+            1.05
+          ],
+          [
+            1.05,
+            1.05
+          ],
+          [
+            1.05,
+            0.8
+          ],
+          [
+            0.75,
+            0.72
+          ]
+        ]
+      },
+      {
+        "name": "lime facet at the tip's leading edge",
+        "color": "lime",
+        "points": [
+          [
+            -0.05,
+            1.05
+          ],
+          [
+            0.45,
+            1.05
+          ],
+          [
+            0.55,
+            0.88
+          ],
+          [
+            0.1,
+            0.78
+          ]
+        ]
+      },
+      {
+        "name": "big dark checked facet, upper middle",
+        "color": "darkGreen",
+        "points": [
+          [
+            0.15,
+            0.62
+          ],
+          [
+            0.5,
+            0.75
+          ],
+          [
+            0.8,
+            0.6
+          ],
+          [
+            0.45,
+            0.47
+          ]
+        ]
+      },
+      {
+        "name": "lime checked facet, middle",
+        "color": "lime",
+        "points": [
+          [
+            0.05,
+            0.4
+          ],
+          [
+            0.4,
+            0.5
+          ],
+          [
+            0.62,
+            0.38
+          ],
+          [
+            0.28,
+            0.27
+          ]
+        ]
+      },
+      {
+        "name": "pale striped facet, aft middle",
+        "color": "pale",
+        "points": [
+          [
+            0.65,
+            0.55
+          ],
+          [
+            1.05,
+            0.68
+          ],
+          [
+            1.05,
+            0.42
+          ],
+          [
+            0.8,
+            0.4
+          ]
+        ]
+      },
+      {
+        "name": "dark dotted facet, aft lower",
+        "color": "darkGreen",
+        "points": [
+          [
+            0.62,
+            0.38
+          ],
+          [
+            0.95,
+            0.42
+          ],
+          [
+            1.05,
+            0.2
+          ],
+          [
+            0.75,
+            0.15
+          ]
+        ]
+      },
+      {
+        "name": "pale striped facet at the root's leading edge",
+        "color": "pale",
+        "points": [
+          [
+            -0.05,
+            0.28
+          ],
+          [
+            0.25,
+            0.25
+          ],
+          [
+            0.3,
+            0.05
+          ],
+          [
+            -0.05,
+            0.0
+          ]
+        ]
+      },
+      {
+        "name": "dark checked facet at the root",
+        "color": "darkGreen",
+        "points": [
+          [
+            0.3,
+            0.2
+          ],
+          [
+            0.6,
+            0.24
+          ],
+          [
+            0.7,
+            0.05
+          ],
+          [
+            0.35,
+            -0.05
+          ]
+        ]
+      },
+      {
+        "name": "lime facet at the root's trailing edge",
+        "color": "lime",
+        "points": [
+          [
+            0.72,
+            0.12
+          ],
+          [
+            1.05,
+            0.15
+          ],
+          [
+            1.05,
+            -0.05
+          ],
+          [
+            0.75,
+            -0.05
+          ]
+        ]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "winglets": {
+    "outer": "green",
+    "inner": "green",
+    "areas": [
+      {
+        "name": "dark and pale stripes, as one dark band",
+        "color": "darkGreen",
+        "points": [
+          [
+            -0.1,
+            0.35
+          ],
+          [
+            1.1,
+            0.45
+          ],
+          [
+            1.1,
+            0.7
+          ],
+          [
+            -0.1,
+            0.6
+          ]
+        ]
+      }
+    ],
+    "confidence": "low",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "engines": {
+    "cowling": "green",
+    "inletLip": "lip",
+    "areas": [
+      {
+        "name": "pale striped facet",
+        "color": "pale",
+        "points": [
+          [
+            0.08,
+            0.2
+          ],
+          [
+            0.35,
+            0.75
+          ],
+          [
+            0.55,
+            0.3
+          ],
+          [
+            0.28,
+            -0.2
+          ]
+        ]
+      },
+      {
+        "name": "dark facet",
+        "color": "darkGreen",
+        "points": [
+          [
+            0.4,
+            -0.1
+          ],
+          [
+            0.62,
+            0.35
+          ],
+          [
+            0.82,
+            -0.15
+          ],
+          [
+            0.58,
+            -0.6
+          ]
+        ]
+      },
+      {
+        "name": "lime facet",
+        "color": "lime",
+        "points": [
+          [
+            0.1,
+            -0.4
+          ],
+          [
+            0.32,
+            -0.25
+          ],
+          [
+            0.45,
+            -0.85
+          ],
+          [
+            0.15,
+            -0.95
+          ]
+        ]
+      },
+      {
+        "name": "lime facet aft, upper",
+        "color": "lime",
+        "points": [
+          [
+            0.62,
+            0.45
+          ],
+          [
+            0.82,
+            0.85
+          ],
+          [
+            0.95,
+            0.45
+          ],
+          [
+            0.78,
+            0.15
+          ]
+        ]
+      }
+    ],
+    "confidence": "low",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "titles": [
+    {
+      "text": "mas",
+      "place": "fuselage",
+      "at": [
+        0.152,
+        -0.035
+      ],
+      "height": 0.66,
+      "length": 0.142,
+      "color": "teal",
+      "style": "All lowercase, a heavy rounded geometric sans with a single-storey a, tightly set, over the forward fuselage behind the door; x-height measured 0.48 (about 2.6 m); `height` is the matching cap height.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Montserrat Bold",
+          "Futura Bold",
+          "Avenir Next Heavy"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.72
+      }
+    }
+  ],
+  "logos": [
+    {
+      "mark": "MAA/cube",
+      "place": "fuselage",
+      "at": [
+        0.139,
+        0.365
+      ],
+      "height": 0.31,
+      "colors": [
+        "darkGreen",
+        "lime",
+        "white"
+      ],
+      "description": "MasAir's cube: a small isometric cube drawn in green and white stripes, its top face lighter, set at the top-left of the 'm' like a superscript.",
+      "reference": "https://commons.wikimedia.org/wiki/File:EI-MYY_Airbus_A330-200F_MAS_Air_Cargo_Frankfurt_25.6.77_(52533671690).jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "MAA/mexico-flag",
+      "place": "fuselage",
+      "at": [
+        0.073,
+        0.24
+      ],
+      "height": 0.14,
+      "colors": [
+        "#006847",
+        "#FFFFFF",
+        "#CE1126"
+      ],
+      "description": "A small Mexican flag behind the cockpit windows, ahead of the forward door.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "notes": "MasAir (Mas Air Cargo, Mexico) flies A330-200 and A330-300 freighters, several registered in Ireland (EI-) and some flown for it by Galistair Malta. The patchwork is far too fine to draw (hundreds of small check, stripe, dot and cube tiles): drawn as a simplified patchwork of our own (revised 2026-11-20 at the owner's review): a mid-green ground with big rhombus and parallelogram facets in dark teal, lime and a pale green-white (the fine stripes and checks averaged), sized like the photo's facets (about a third of the fuselage's height, a quarter of the fin's chord), and thirteen small hexagonal cubes in staggered columns over x 0.70-0.77 ahead of it, light green (two lime), thinning forward. The facets' places follow the photos' layout loosely, not cell by cell; the real front edge is ragged. Measured on EI-MYY (2022-06-25): 'mas' runs x 0.152-0.294 with a 2.6 m x-height; the patchwork's dense front edge stands nearly upright at x 0.77 (just ahead of the fin's root), the scattered cubes reach forward to x 0.69. EI-MAA at LAX (2026-02-11) shows the same scheme. The right side's title isn't seen in any photo (the one right-side photo, EI-MAE in 2023, has no title at all): drawn as on the left, reading normally from that side. EI-MAE flew without titles in 2022-2023; whether it still does isn't known. The A330-200s' windows are plugged (EI-MYY), but EI-MAA (2026) still shows window frames: drawn hidden. Engines carry four facets on a mid-green cowling; the winglets a dark band on green. Area count: 20 fuselage (13 small cubes, the ground, 6 facets), 9 fin, 4 engine, 1 winglet: 34. The title's face measured 2026-11-20 on the photo fit: its a has two stories (Futura's has one), and Montserrat Bold follows the letters closest, so it comes first.",
+  "history": "New in the LAX round 2 (2026-11-20); MAA had no scheme here before."
+}

@@ -1,0 +1,312 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "KLM",
+  "name": "2014 refresh",
+  "kind": "standard",
+  "from": "2014",
+  "confidence": "high",
+  "drawnOn": "A21N",
+  "description": "KLM blue over almost the whole fuselage, nose included, with a white belly under a thin dark-blue line; white 'KLM' under the crown and 'Royal Dutch Airlines' over the forward windows; a white fin carrying the blue crown and 'KLM'; pale gray engines with the blue crown logo.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:PH-AXB_at_HEL_20260929.jpg",
+      "title": "PH-AXB at HEL 20260929 (CC BY 4.0, VynedJ)",
+      "accessed": "2026-11-13",
+      "note": "A321neo from the left, 2026-09-29: titles, crown, fin, belly line."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A321-252NX_(c-n_12144,_PH-AXB)_2024-11-18_Andre_Gerwing_Collection_ID_022526.jpg",
+      "title": "Airbus A321-252NX PH-AXB, 2024-11-18 (CC BY-SA 4.0, André Gerwing)",
+      "accessed": "2026-11-13",
+      "note": "Left side from below: the white belly and its dark-blue edge, engines with the crown."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:PH-AXB_at_AMS_20261006.jpg",
+      "title": "PH-AXB at AMS 20261006 (CC BY 4.0, VynedJ)",
+      "accessed": "2026-11-13",
+      "note": "Nose: blue radome, cockpit."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:KLM_Airbus_A321neo_(PH-AXA)_@_MAN,_2025-07-16_(03).jpg",
+      "title": "KLM Airbus A321neo (PH-AXA) @ MAN, 2025-07-16 (CC BY-SA 4.0, Mike Peel)",
+      "accessed": "2026-11-13",
+      "note": "Front: the same scheme."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/KLM#Livery",
+      "title": "Wikipedia: KLM, livery",
+      "accessed": "2026-11-13",
+      "note": "Scheme history."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:KLM_Cityhopper,_PH-EZK,_Embraer_ERJ-190STD.jpg",
+      "title": "KLM Cityhopper, PH-EZK, Embraer ERJ-190STD, 2020-03-10 (CC BY-SA 2.0, Anna Zvereva)",
+      "accessed": "2026-11-15",
+      "note": "Left side from below: the fin's white runs down its root fairing to the blue body."
+    }
+  ],
+  "palette": {
+    "blue": {
+      "hex": "#1E9BDC",
+      "name": "KLM blue",
+      "official": false
+    },
+    "navy": {
+      "hex": "#0B2A6F",
+      "official": false
+    },
+    "white": {
+      "hex": "#F3F5F7",
+      "official": false
+    },
+    "finWhite": {
+      "hex": "#E9ECEF",
+      "official": false
+    },
+    "cowl": {
+      "hex": "#D6DADF",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC5",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "name": "bare metal inlet lip",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "blue",
+    "areas": [
+      {
+        "name": "dark-blue line over the belly",
+        "color": "navy",
+        "below": [
+          [
+            0,
+            -0.17
+          ],
+          [
+            0.75,
+            -0.22
+          ],
+          [
+            1,
+            -0.32
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "white belly",
+        "color": "white",
+        "below": [
+          [
+            0,
+            -0.21
+          ],
+          [
+            0.75,
+            -0.26
+          ],
+          [
+            1,
+            -0.36
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "finWhite",
+    "fillet": "finWhite",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      5
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "engines": {
+    "cowling": "cowl",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "KLM/crown",
+      "place": "fuselage",
+      "at": [
+        0.19,
+        0.8
+      ],
+      "height": 0.16,
+      "colors": [
+        "white"
+      ],
+      "description": "The KLM crown: a small cross over four balls in an arc on a short bar, centered over the 'KLM' title.",
+      "reference": "https://commons.wikimedia.org/wiki/File:KLM_logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "KLM/crown",
+      "place": "fin",
+      "at": [
+        0.42,
+        0.5
+      ],
+      "height": 0.15,
+      "colors": [
+        "blue"
+      ],
+      "description": "The crown over the fin's 'KLM'.",
+      "reference": "https://commons.wikimedia.org/wiki/File:KLM_logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "KLM/logo",
+      "place": "engines",
+      "at": [
+        0.45,
+        0.15
+      ],
+      "height": 0.45,
+      "colors": [
+        "blue"
+      ],
+      "description": "The full KLM logo (crown over 'KLM') in blue on the side of each cowling.",
+      "reference": "https://commons.wikimedia.org/wiki/File:KLM_logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "KLM",
+      "place": "fuselage",
+      "at": [
+        0.165,
+        0.29
+      ],
+      "height": 0.42,
+      "color": "white",
+      "style": "The KLM wordmark: bold, slightly extended geometric sans capitals, upright, over the windows just aft of door 1.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Bold Extended",
+          "Eurostile Extended Bold",
+          "Arial Black"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "length": 0.055
+    },
+    {
+      "text": "Royal Dutch Airlines",
+      "place": "fuselage",
+      "at": [
+        0.2245,
+        0.29
+      ],
+      "height": 0.2,
+      "color": "white",
+      "style": "Small white upright sans, mixed case, right after 'KLM' on the same baseline.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Frutiger",
+          "Myriad Pro",
+          "Helvetica Neue"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.7
+      },
+      "length": 0.113
+    },
+    {
+      "text": "KLM",
+      "place": "fin",
+      "at": [
+        0.25,
+        0.23
+      ],
+      "height": 0.14,
+      "color": "blue",
+      "style": "The KLM wordmark in blue under the crown, low on the fin.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Bold Extended",
+          "Eurostile Extended Bold",
+          "Arial Black"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "length": 0.69
+    }
+  ],
+  "notes": "Measured on the A321neo. The sharklets' color isn't clear in the photos and is left out. Each aircraft's name in small script under the cockpit and the small Dutch flag by the registration aren't drawn. Re-checked 2026-11-15 on PH-AXB (left side, side-on, Helsinki 2026-09-29): the titles' lengths measured (KLM x 0.165-0.22, Royal Dutch Airlines 0.2245-0.338, fin KLM 0.69 of the chord from 0.25); lowercase 0.7 of the capitals; both titles' baseline is on the window tops (they had run across the windows) and 'KLM' is about 0.42 tall, the crown above it. KLM's 737s carry the same layout; it wasn't re-measured on them (no recent side-on 737-800 photo on Commons).",
+  "history": "Replaces Skyarium v1's approximation. KLM's blue-and-white scheme dates from the 1970s; the 2014 refresh is the version with the larger white 'KLM' and 'Royal Dutch Airlines' on the forward fuselage. Older wide-bodies still wearing the pre-2014 titles should be described separately."
+}

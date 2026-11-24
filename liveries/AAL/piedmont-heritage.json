@@ -1,0 +1,453 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "piedmont-heritage",
+  "airline": "AAL",
+  "name": "Piedmont heritage",
+  "kind": "retro",
+  "from": "2023-09",
+  "confidence": "medium",
+  "drawnOn": "A321",
+  "description": "Fuselage: Silver/gray fuselage. Cheatlines: A medium-blue cheatline through the windows from the nose (wrapping the cockpit) to the tail. Tail: White fin with a blue Piedmont 'speedbird' logo, 'PIEDMONT' in red capitals and blue/red pinstripes with 'A321' below. Engines: Silver. Winglets: Blue sharklets. Titles: Standard 'American' forward. Artwork: none. Colors hex: approximate.",
+  "sources": [
+    {
+      "url": "https://www.airportspotting.com/american-airlines-adds-new-piedmont-and-psa-retro-liveries/",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:N581UW_(aircraft)",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:AAL_Piedmont_Retro_N581UW_LAX_Apr_7_2026.jpg",
+      "title": "AAL Piedmont Retro N581UW LAX Apr 7 2026 (CC BY-SA 4.0)",
+      "accessed": "2026-11-12",
+      "note": "Left side climbing out of LAX, 2026-04-07, Liam Thompson: the blue cheatline and how it meets the nose, the fin's logo, title and pinstripes, the blue wingtip fence."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#EDEFF1",
+      "official": false
+    },
+    "blue": {
+      "hex": "#2E7CC4",
+      "official": false
+    },
+    "red": {
+      "hex": "#D52B36",
+      "official": false
+    },
+    "titleGray": {
+      "hex": "#36495A",
+      "official": false
+    },
+    "cowl": {
+      "hex": "#C9CDD2",
+      "official": false
+    },
+    "metal": {
+      "hex": "#A8AEB5",
+      "name": "polished inlet lip",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#C3C7CC",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "cheatline: blue through the windows, from the nose tip under the cockpit windows to the tail cone",
+        "color": "blue",
+        "points": [
+          [
+            0.006,
+            0.0
+          ],
+          [
+            0.025,
+            0.14
+          ],
+          [
+            0.055,
+            0.24
+          ],
+          [
+            1,
+            0.24
+          ],
+          [
+            1,
+            -0.1
+          ],
+          [
+            0.2,
+            -0.1
+          ],
+          [
+            0.08,
+            -0.07
+          ],
+          [
+            0.03,
+            -0.04
+          ],
+          [
+            0.01,
+            -0.02
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2
+        ],
+        "smooth": true
+      }
+    ],
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      2
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "red pinstripe",
+        "color": "red",
+        "points": [
+          [
+            0.0,
+            0.17
+          ],
+          [
+            1.0,
+            0.23
+          ],
+          [
+            1.0,
+            0.244
+          ],
+          [
+            0.0,
+            0.184
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2
+        ]
+      },
+      {
+        "name": "blue pinstripe 1, ahead of 'A321'",
+        "color": "blue",
+        "points": [
+          [
+            0.0,
+            0.12
+          ],
+          [
+            0.31,
+            0.139
+          ],
+          [
+            0.31,
+            0.15
+          ],
+          [
+            0.0,
+            0.131
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2
+        ]
+      },
+      {
+        "name": "blue pinstripe 1, behind 'A321'",
+        "color": "blue",
+        "points": [
+          [
+            0.62,
+            0.157
+          ],
+          [
+            1.0,
+            0.18
+          ],
+          [
+            1.0,
+            0.191
+          ],
+          [
+            0.62,
+            0.168
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2
+        ]
+      },
+      {
+        "name": "blue pinstripe 2, ahead of 'A321'",
+        "color": "blue",
+        "points": [
+          [
+            0.0,
+            0.095
+          ],
+          [
+            0.31,
+            0.114
+          ],
+          [
+            0.31,
+            0.125
+          ],
+          [
+            0.0,
+            0.106
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2
+        ]
+      },
+      {
+        "name": "blue pinstripe 2, behind 'A321'",
+        "color": "blue",
+        "points": [
+          [
+            0.62,
+            0.132
+          ],
+          [
+            1.0,
+            0.155
+          ],
+          [
+            1.0,
+            0.166
+          ],
+          [
+            0.62,
+            0.143
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2
+        ]
+      },
+      {
+        "name": "blue pinstripe 3, ahead of 'A321'",
+        "color": "blue",
+        "points": [
+          [
+            0.0,
+            0.07
+          ],
+          [
+            0.31,
+            0.089
+          ],
+          [
+            0.31,
+            0.1
+          ],
+          [
+            0.0,
+            0.081
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2
+        ]
+      },
+      {
+        "name": "blue pinstripe 3, behind 'A321'",
+        "color": "blue",
+        "points": [
+          [
+            0.62,
+            0.107
+          ],
+          [
+            1.0,
+            0.13
+          ],
+          [
+            1.0,
+            0.141
+          ],
+          [
+            0.62,
+            0.118
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "confidence": "low",
+    "sourceRefs": [
+      2
+    ]
+  },
+  "winglets": {
+    "outer": "blue",
+    "confidence": "medium",
+    "sourceRefs": [
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "cowl",
+    "inletLip": "metal",
+    "confidence": "medium",
+    "sourceRefs": [
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "AAL/piedmont-speedbird",
+      "place": "fin",
+      "at": [
+        0.5,
+        0.63
+      ],
+      "height": 0.3,
+      "colors": [
+        "blue"
+      ],
+      "description": "Piedmont's 1970s bird: four parallel blue strokes sweeping up and aft from a horizontal blue swoosh that tapers at both ends, above the PIEDMONT title.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2
+      ]
+    },
+    {
+      "mark": "AAL/flight-symbol",
+      "place": "fuselage",
+      "at": [
+        0.18,
+        0.42
+      ],
+      "height": 0.12,
+      "colors": [
+        "#C30019",
+        "#0078D2",
+        "#36495A"
+      ],
+      "description": "American's 2013 flight symbol (an abstract eagle head / 'A' in red, blue and light blue), just ahead of the title.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "PIEDMONT",
+      "place": "fin",
+      "at": [
+        0.2,
+        0.37
+      ],
+      "height": 0.05,
+      "color": "red",
+      "style": "Piedmont's logotype: heavy, wide, squared italic capitals with a slab-like D and E, across the fin under the bird.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2
+      ],
+      "length": 0.72,
+      "type": {
+        "similar": [
+          "Eurostile Bold Extended",
+          "Microgramma Bold Extended"
+        ],
+        "weight": 800,
+        "slantDeg": 12,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "A321",
+      "place": "fin",
+      "at": [
+        0.3,
+        0.115
+      ],
+      "height": 0.055,
+      "color": "blue",
+      "style": "The type in blue italic capitals between the two sets of pinstripes, under the red line.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2
+      ],
+      "type": {
+        "similar": [
+          "Eurostile Bold Extended",
+          "Microgramma Bold Extended"
+        ],
+        "weight": 700,
+        "slantDeg": 12,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "length": 0.33
+    },
+    {
+      "text": "American",
+      "place": "fuselage",
+      "at": [
+        0.195,
+        0.29
+      ],
+      "height": 0.24,
+      "color": "titleGray",
+      "style": "American's 2013 wordmark: a humanist sans, semibold, upright, mixed case, smaller than on the standard scheme.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2
+      ],
+      "length": 0.09,
+      "type": {
+        "similar": [
+          "Frutiger Bold",
+          "Myriad Pro Semibold"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      }
+    }
+  ],
+  "notes": "Drawn from one dated photo of N581UW (left side, 2026-04-07); the Commons category has no other photo in this scheme. Base reads white above the cheatline; under it the fuselage darkens towards the belly, which may be a light gray lower fuselage or only shade: not drawn as a split. Belly, wing undersides and the right side not seen. Small 'Piedmont Pacemaker' script by the nose is too small to read reliably and is left out. Sources disagree on whether N581UW is Piedmont or PSA; dated Commons photos (Piedmont N581UW Apr 2026; PSA N582UW Nov 2025) settle it. Re-checked 2026-11-15 on N581UW (2026-04-07): 'American' x 0.194-0.284 as drawn; 'A321' on the fin fills the gap in the blue pinstripes (x 0.30-0.63); 'PIEDMONT' left as drawn (the photo is a climbing three-quarter view: its ends read 0.12-0.85 of the chord, within the error of the view). The cheatline's rounded nose drawn as a curve. No measured A321 shape yet.",
+  "history": "Previously on A319 N744P."
+}

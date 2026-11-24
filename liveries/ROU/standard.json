@@ -1,0 +1,464 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "ROU",
+  "name": "Air Canada Rouge (2017 refresh)",
+  "kind": "standard",
+  "from": "2017",
+  "confidence": "medium",
+  "drawnOn": "A321",
+  "description": "White fuselage; the aft fuselage red from a line rising from the belly ahead of the aft door to the fin root, crossed by a white diagonal stripe; 'AIR CANADA' small in red capitals with the roundel, and 'rouge' large in dark-red script lower case over the forward windows; the fin white with a red tip and a large red disc carrying a white maple leaf; red engines and winglets.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Air_Canada_Rouge",
+      "title": "Wikipedia: Air Canada Rouge",
+      "accessed": "2026-11-13"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Air_Canada_Rouge_A321_C-GKFB_@YYZ.jpg",
+      "title": "Air Canada Rouge A321 C-GKFB @YYZ.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "C-GKFB (A321) left side, 2025-10-13: geometry, titles, fin."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:C-FJQH_-_Airbus_A321-211_-_Air_Canada_Rouge_LIR_260225.jpg",
+      "title": "C-FJQH - Airbus A321-211 - Air Canada Rouge LIR 260225.jpg (CC BY 2.0)",
+      "accessed": "2026-11-13",
+      "note": "C-FJQH (A321) left side on the ground, 2025-02-27: the same scheme."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F6",
+      "official": false
+    },
+    "red": {
+      "hex": "#D7141A",
+      "official": false,
+      "name": "Rouge red"
+    },
+    "wine": {
+      "hex": "#9E1B32",
+      "official": false,
+      "name": "'rouge' title dark red"
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "red aft fuselage and tail cone",
+        "color": "red",
+        "points": [
+          [
+            0.673,
+            -1
+          ],
+          [
+            0.695,
+            -0.83
+          ],
+          [
+            0.771,
+            -0.446
+          ],
+          [
+            0.798,
+            -0.099
+          ],
+          [
+            0.815,
+            0.283
+          ],
+          [
+            0.836,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2
+        ],
+        "smooth": true
+      },
+      {
+        "name": "white diagonal stripe across the red, from the fin root down and back",
+        "color": "white",
+        "points": [
+          [
+            0.851,
+            0.633,
+            1
+          ],
+          [
+            0.864,
+            0.636,
+            1
+          ],
+          [
+            0.883,
+            -1.0
+          ],
+          [
+            0.891,
+            -1.0
+          ],
+          [
+            0.8941368078175895,
+            -1
+          ],
+          [
+            0.8778501628664495,
+            -1
+          ],
+          [
+            0.872,
+            -1.0
+          ],
+          [
+            0.859,
+            0.012
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          2
+        ],
+        "smooth": true
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "red disc",
+        "color": "red",
+        "points": [
+          [
+            1.237,
+            0.323
+          ],
+          [
+            1.187,
+            0.459
+          ],
+          [
+            1.071,
+            0.586
+          ],
+          [
+            0.876,
+            0.696
+          ],
+          [
+            0.602,
+            0.78
+          ],
+          [
+            0.275,
+            0.832
+          ],
+          [
+            -0.048,
+            0.85
+          ],
+          [
+            -0.297,
+            0.832
+          ],
+          [
+            -0.428,
+            0.78
+          ],
+          [
+            -0.438,
+            0.696
+          ],
+          [
+            -0.358,
+            0.586
+          ],
+          [
+            -0.222,
+            0.459
+          ],
+          [
+            -0.06,
+            0.323
+          ],
+          [
+            0.109,
+            0.186
+          ],
+          [
+            0.276,
+            0.059
+          ],
+          [
+            0.434,
+            -0.05
+          ],
+          [
+            0.582,
+            -0.134
+          ],
+          [
+            0.719,
+            -0.187
+          ],
+          [
+            0.844,
+            -0.205
+          ],
+          [
+            0.957,
+            -0.187
+          ],
+          [
+            1.056,
+            -0.134
+          ],
+          [
+            1.139,
+            -0.05
+          ],
+          [
+            1.202,
+            0.059
+          ],
+          [
+            1.238,
+            0.186
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "white maple leaf on the disc (simplified)",
+        "color": "white",
+        "points": [
+          [
+            0.821,
+            0.728
+          ],
+          [
+            1.027,
+            0.5
+          ],
+          [
+            1.007,
+            0.019
+          ],
+          [
+            0.779,
+            -0.032
+          ],
+          [
+            0.209,
+            0.297
+          ],
+          [
+            0.4,
+            0.399
+          ],
+          [
+            0.627,
+            0.5
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "red tip",
+        "color": "red",
+        "points": [
+          [
+            0,
+            0.88
+          ],
+          [
+            1,
+            0.88
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2
+        ]
+      }
+    ],
+    "mirrored": false,
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "red",
+    "inner": "red",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "red",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "ROU/leaf-disc",
+      "place": "fin",
+      "at": [
+        0.589,
+        0.323
+      ],
+      "height": 0.55,
+      "colors": [
+        "red",
+        "white"
+      ],
+      "description": "Rouge's tail: a large red disc, cropped by the fin's edges, with a big white maple leaf tilted on it.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Air_Canada_Rouge_logo.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "ACA/roundel",
+      "place": "fuselage",
+      "at": [
+        0.145,
+        0.612
+      ],
+      "height": 0.225,
+      "colors": [
+        "red",
+        "white"
+      ],
+      "description": "The small Air Canada roundel in red ahead of 'AIR CANADA'.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "AIR CANADA",
+      "place": "fuselage",
+      "at": [
+        0.16,
+        0.501
+      ],
+      "height": 0.157,
+      "color": "red",
+      "style": "Small, widely spaced red capitals above 'rouge'.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "length": 0.0977198697068404,
+      "type": {
+        "similar": [
+          "Futura Medium",
+          "Avenir Next Medium"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "rouge",
+      "place": "fuselage",
+      "at": [
+        0.141,
+        0.065
+      ],
+      "height": 0.325,
+      "color": "wine",
+      "style": "'rouge' in a large, informal, brush-like script lower case in dark red over the forward windows, the g's tail dropping well below.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Kaufmann Script Bold",
+          "Brush Script MT"
+        ],
+        "weight": 700,
+        "slantDeg": 6,
+        "width": "normal",
+        "strokes": "brush",
+        "case": "lower",
+        "xHeight": 1.0
+      },
+      "length": 0.124
+    }
+  ],
+  "notes": "Drawn from C-GKFB (A321, Oct 2025). The fin's disc and leaf are simplified; the leaf's exact shape is in the logo entry's reference. Re-checked 2026-11-15 on C-GKFB: 'rouge' runs x 0.141 to 0.264, its lowercase from y 0.065 (just under the windows) to 0.39; it has no capitals or ascenders, so its height is the lowercase's and xHeight is 1 (it had been drawn 0.53 tall). The red's front edge re-measured: a convex curve from the belly about x 0.67 (a long thin sliver along the belly) up through the window line ahead of the aft door (x 0.80; it had been drawn behind the door) to the fin's root; it and the white stripe are smooth, the stripe's square top kept as corners.",
+  "history": "Replaces Skyarium v1's approximate standard (a few colors from memory). The current scheme refreshed Rouge's 2013 launch livery; the year (2017) is from memory."
+}

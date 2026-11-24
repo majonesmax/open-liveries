@@ -1,0 +1,56 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "AAE",
+  "airframes": [
+    {
+      "registration": "9H-FLM",
+      "hex": "4d2056",
+      "type": "B744",
+      "livery": "fly-meta",
+      "confidence": "high",
+      "lastSeen": "2026-03-19",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:9H-FLM_Boeing_747-409F_Fly_Meta_MST_19.3.26_(55194815648).jpg",
+          "title": "9H-FLM Boeing 747-409F Fly Meta MST 19.3.26 (Colin Cooke Photo, CC BY-SA 4.0)",
+          "accessed": "2026-11-20",
+          "note": "All-white Fly Meta paint at Maastricht, 2026-03-19."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_747_of_Air_Atlanta_Europe",
+          "title": "Commons: Current Boeing 747 of Air Atlanta Europe",
+          "accessed": "2026-11-20",
+          "note": "Lists 9H-AKA (747-400BDSF), 9H-AKJ, 9H-FLM and 9H-WFF (747-400F) as Air Atlanta Europe's current 747s."
+        },
+        {
+          "url": "https://api.adsb.lol/v2/type/B744",
+          "title": "adsb.lol live feed",
+          "accessed": "2026-11-20",
+          "note": "Transponder 4d2056 = 9H-FLM, flying as ABD5563 on 2026-11-20."
+        }
+      ],
+      "notes": "Flies under Air Atlanta Icelandic's ABD callsign as well as AAE's."
+    },
+    {
+      "registration": "9H-WFF",
+      "type": "B744",
+      "livery": "fly-meta",
+      "confidence": "high",
+      "lastSeen": "2026-03-19",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:9H-WFF_Boeing_747-446(BDSF)_Fly_Meta_MST_19.3.26_(55194815633).jpg",
+          "title": "9H-WFF Boeing 747-446(BDSF) Fly Meta MST 19.3.26 (Colin Cooke Photo, CC BY-SA 4.0)",
+          "accessed": "2026-11-20",
+          "note": "Fly Meta paint at Maastricht, 2026-03-19."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_747_of_Air_Atlanta_Europe",
+          "title": "Commons: Current Boeing 747 of Air Atlanta Europe",
+          "accessed": "2026-11-20",
+          "note": "Lists 9H-AKA (747-400BDSF), 9H-AKJ, 9H-FLM and 9H-WFF (747-400F) as Air Atlanta Europe's current 747s."
+        }
+      ]
+    }
+  ]
+}

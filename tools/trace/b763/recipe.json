@@ -1,0 +1,142 @@
+{
+  "_about": "767-300 Freighter, from Boeing D6-58328 Rev K 2.2.3 (page index 29): side, plan and front views on one sheet. Pixels of layers.py rasters at scale 20, line centres. The sheet prints no fuselage length: the scale is the plan's 54.94 m overall length (nose to tail cone, 311.9 pt), so 'length' is the nose-to-tail-cone distance at that scale. A plain wingtip.",
+  "out": "../../../../shapes/B763.json",
+  "length": 53.72,
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "refs": {
+    "side": {
+      "nose": 118,
+      "tail": 6218,
+      "cowlEnd": 2640
+    },
+    "plan": {
+      "nose": 118,
+      "centerline": 2842
+    },
+    "front": {
+      "centerline": 2897,
+      "crownTop": 1104
+    }
+  },
+  "windows": {
+    "from": 1,
+    "to": 0,
+    "pitch": 0.5,
+    "width": 0.25,
+    "z": [0.6, 1.0],
+    "note": "The 767-300F has no cabin windows. A passenger 767-300 (also B763) has them; this shape doesn't."
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [695, 1286, 822, 1497]
+    },
+    {
+      "kind": "cargo",
+      "box": [1271, 1278, 1656, 1483]
+    },
+    {
+      "kind": "cargo",
+      "box": [1235, 1508, 1626, 1722]
+    },
+    {
+      "kind": "cargo",
+      "box": [4057, 1508, 4449, 1722]
+    },
+    {
+      "kind": "cargo",
+      "box": [4678, 1553, 4781, 1705]
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [316, 1320],
+      [344, 1327],
+      [347, 1328],
+      [349, 1330],
+      [349, 1331],
+      [327, 1375],
+      [325, 1377],
+      [314, 1377],
+      [301, 1376],
+      [289, 1375],
+      [278, 1374],
+      [276, 1372],
+      [277, 1370],
+      [280, 1365],
+      [282, 1362],
+      [303, 1334],
+      [310, 1326]
+    ],
+    [
+      [356, 1334],
+      [359, 1331],
+      [365, 1329],
+      [379, 1327],
+      [394, 1325],
+      [397, 1325],
+      [399, 1327],
+      [399, 1328],
+      [386, 1393],
+      [385, 1395],
+      [383, 1397],
+      [380, 1396],
+      [355, 1387],
+      [344, 1383],
+      [339, 1381],
+      [337, 1380],
+      [335, 1378],
+      [335, 1377],
+      [346, 1354]
+    ],
+    [
+      [455, 1329],
+      [456, 1336],
+      [457, 1349],
+      [459, 1376],
+      [459, 1381],
+      [457, 1383],
+      [454, 1385],
+      [447, 1387],
+      [401, 1399],
+      [397, 1400],
+      [396, 1400],
+      [394, 1398],
+      [394, 1397],
+      [400, 1369],
+      [408, 1332],
+      [409, 1328],
+      [410, 1326],
+      [412, 1324],
+      [420, 1324],
+      [453, 1327]
+    ]
+  ],
+  "printed": {
+    "fuselage height": 5.41,
+    "fuselage width": 5.03,
+    "wingspan": 47.57,
+    "tailplane span": 18.62,
+    "engine out from the centerline": 7.92,
+    "overall length": 54.94
+  },
+  "meta": {
+    "id": "B763",
+    "name": "Boeing 767-300 Freighter",
+    "types": ["B763"],
+    "confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/airports/acaps/767_REV_K.pdf",
+        "title": "Boeing, 767 Airplane Characteristics for Airport Planning (D6-58328 Rev K, December 2024), 2.2.3 General Dimensions: Model 767-300 Freighter",
+        "accessed": "2026-11-15",
+        "note": "Dimensions and outlines read off the side, plan and front views (tools/trace/b763/); the figures are the aircraft's measurements, not a copy of the drawing. The freighter: no cabin windows, the main-deck cargo door forward."
+      }
+    ]
+  }
+}

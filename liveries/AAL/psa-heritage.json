@@ -1,0 +1,484 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "psa-heritage",
+  "airline": "AAL",
+  "name": "PSA heritage",
+  "kind": "retro",
+  "from": "2023-09",
+  "confidence": "medium",
+  "drawnOn": "A321",
+  "description": "Fuselage: Silver/white fuselage. Cheatlines: Orange (top), red and magenta/hot-pink stripes along the window line nose to tail, sweeping up into the fin. Tail: White fin with the orange/red/magenta stripes sweeping diagonally; 'PSA' in black capitals. Engines: Silver. Winglets: Orange sharklets. Titles: Standard 'American' forward. Artwork: PSA 'smile' painted under the nose (black curved line). Colors hex: approximate.",
+  "sources": [
+    {
+      "url": "https://www.airportspotting.com/american-airlines-adds-new-piedmont-and-psa-retro-liveries/",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:N582UW_(aircraft)",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:American_Airlines_Airbus_A321_PSA_retrojet_N582UW_departing_Boston_November_2025_1.jpg",
+      "title": "American Airlines Airbus A321 PSA retrojet N582UW departing Boston November 2025 1 (CC BY 4.0)",
+      "accessed": "2026-11-12",
+      "note": "Left side from below, 2025-11-18, 4300streetcar: the cheatline nose to tail, the fin's bands, orange wingtip fences, plain silver belly and wing undersides."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:American_Airlines_Airbus_A321_PSA_retrojet_N582UW_departing_Boston_November_2025_2.jpg",
+      "title": "American Airlines Airbus A321 PSA retrojet N582UW departing Boston November 2025 2 (CC BY 4.0)",
+      "accessed": "2026-11-12",
+      "note": "Left side from below, 2025-11-18, 4300streetcar: the fin's bands reaching the trailing edge; the cheatline at the tail cone."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:American_Airlines_PSA_retro_livery.jpg",
+      "title": "American Airlines PSA retro livery (CC0)",
+      "accessed": "2026-11-12",
+      "note": "Left side on the ground, 2024-02-15: the nose (the bands wrapping it, the black smile, black radome tip), titles, the fin side-on with 'PS…' behind the tailplane."
+    }
+  ],
+  "palette": {
+    "silver": {
+      "hex": "#C3C7CB",
+      "name": "silver (American's metallic base)",
+      "official": false
+    },
+    "orange": {
+      "hex": "#F26A2E",
+      "official": false
+    },
+    "red": {
+      "hex": "#C42E45",
+      "official": false
+    },
+    "black": {
+      "hex": "#1B1B1D",
+      "official": false
+    },
+    "titleGray": {
+      "hex": "#36495A",
+      "official": false
+    },
+    "cowl": {
+      "hex": "#CDD0D4",
+      "official": false
+    },
+    "metal": {
+      "hex": "#A8AEB5",
+      "name": "polished inlet lip",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#BFC3C8",
+      "official": false
+    }
+  },
+  "finish": "metallic",
+  "fuselage": {
+    "base": "silver",
+    "areas": [
+      {
+        "name": "orange cheatline through the windows, wrapping the upper nose",
+        "color": "orange",
+        "points": [
+          [
+            0.0,
+            0.05
+          ],
+          [
+            0.02,
+            0.18
+          ],
+          [
+            0.05,
+            0.25
+          ],
+          [
+            0.1,
+            0.3
+          ],
+          [
+            0.8,
+            0.3,
+            1
+          ],
+          [
+            1,
+            0.2
+          ],
+          [
+            1,
+            -0.02
+          ],
+          [
+            0.8,
+            0.04,
+            1
+          ],
+          [
+            0.1,
+            0.04
+          ],
+          [
+            0.06,
+            -0.06
+          ],
+          [
+            0.03,
+            -0.2
+          ],
+          [
+            0.005,
+            -0.2
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3,
+          4
+        ],
+        "smooth": true
+      },
+      {
+        "name": "red cheatline under the windows, sweeping down round the chin",
+        "color": "red",
+        "points": [
+          [
+            0.005,
+            -0.2
+          ],
+          [
+            0.03,
+            -0.2
+          ],
+          [
+            0.06,
+            -0.06
+          ],
+          [
+            0.1,
+            0.04
+          ],
+          [
+            0.8,
+            0.04,
+            1
+          ],
+          [
+            1,
+            -0.02
+          ],
+          [
+            1,
+            -0.3
+          ],
+          [
+            0.8,
+            -0.28,
+            1
+          ],
+          [
+            0.1,
+            -0.28
+          ],
+          [
+            0.075,
+            -0.33
+          ],
+          [
+            0.05,
+            -0.5
+          ],
+          [
+            0.03,
+            -0.72
+          ],
+          [
+            0.012,
+            -0.6
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3,
+          4
+        ],
+        "smooth": true
+      },
+      {
+        "name": "the PSA smile: a thin black curve under the red on the lower nose",
+        "color": "black",
+        "points": [
+          [
+            0.028,
+            -0.8
+          ],
+          [
+            0.048,
+            -0.56
+          ],
+          [
+            0.072,
+            -0.36
+          ],
+          [
+            0.1,
+            -0.3
+          ],
+          [
+            0.1,
+            -0.325
+          ],
+          [
+            0.075,
+            -0.39
+          ],
+          [
+            0.052,
+            -0.6
+          ],
+          [
+            0.034,
+            -0.83
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          4
+        ],
+        "smooth": true
+      }
+    ],
+    "radome": {
+      "color": "black",
+      "to": 0.012
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3,
+      4
+    ]
+  },
+  "fin": {
+    "base": "silver",
+    "areas": [
+      {
+        "name": "orange band: up the fin behind a silver leading-edge strip, across the top to the trailing edge",
+        "color": "orange",
+        "points": [
+          [
+            0.17,
+            0
+          ],
+          [
+            0.2,
+            0.5
+          ],
+          [
+            0.22,
+            0.85
+          ],
+          [
+            0.3,
+            0.92
+          ],
+          [
+            1,
+            0.92
+          ],
+          [
+            1,
+            0.75
+          ],
+          [
+            0.63,
+            0.7
+          ],
+          [
+            0.41,
+            0.5
+          ],
+          [
+            0.25,
+            0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3,
+          4
+        ],
+        "smooth": true
+      },
+      {
+        "name": "red band inside the orange, reaching the trailing edge below it",
+        "color": "red",
+        "points": [
+          [
+            0.25,
+            0
+          ],
+          [
+            0.41,
+            0.5
+          ],
+          [
+            0.63,
+            0.7
+          ],
+          [
+            1,
+            0.75
+          ],
+          [
+            1,
+            0.48
+          ],
+          [
+            0.7,
+            0.42
+          ],
+          [
+            0.5,
+            0.25
+          ],
+          [
+            0.33,
+            0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3,
+          4
+        ],
+        "smooth": true
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3,
+      4
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray",
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3
+    ]
+  },
+  "winglets": {
+    "outer": "orange",
+    "inner": "orange",
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3,
+      4
+    ]
+  },
+  "engines": {
+    "cowling": "cowl",
+    "inletLip": "metal",
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3,
+      4
+    ]
+  },
+  "logos": [
+    {
+      "mark": "AAL/flight-symbol",
+      "place": "fuselage",
+      "at": [
+        0.18,
+        0.44
+      ],
+      "height": 0.12,
+      "colors": [
+        "#C30019",
+        "#0078D2",
+        "#36495A"
+      ],
+      "description": "American's 2013 flight symbol (an abstract eagle head / 'A' in red, blue and light blue), just ahead of the title.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "PSA",
+      "place": "fin",
+      "at": [
+        0.58,
+        0.06
+      ],
+      "height": 0.1,
+      "color": "black",
+      "style": "Heavy italic sans capitals, low on the fin by the trailing edge; in every photo the tailplane hides the end of the word.",
+      "confidence": "low",
+      "sourceRefs": [
+        3,
+        4
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Black Oblique",
+          "Futura Extra Bold Oblique"
+        ],
+        "weight": 800,
+        "slantDeg": 12,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "length": 0.35
+    },
+    {
+      "text": "American",
+      "place": "fuselage",
+      "at": [
+        0.2,
+        0.33
+      ],
+      "height": 0.22,
+      "color": "titleGray",
+      "style": "American's 2013 wordmark: a humanist sans, semibold, upright, mixed case, smaller than on the standard scheme.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3,
+        4
+      ],
+      "length": 0.085,
+      "type": {
+        "similar": [
+          "Frutiger Bold",
+          "Myriad Pro Semibold"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      }
+    }
+  ],
+  "notes": "Drawn from three dated photos of N582UW (2024-02-15, 2025-11-18), all of the left side. The fin title shows only as 'PS' before the tailplane; 'PSA' is from the scheme's description. The belly is plain silver in the departing shots; the right side not seen. Re-checked 2026-11-15: the cheatlines' wrap round the nose, the smile and the fin's sweeping bands drawn as curves (straight runs kept straight by corners at their aft ends); 'American' (x 0.20-0.285) agrees with the doors on the 2024-02-15 photo; 'PSA' on the fin is given a length of 0.35 of the chord, an estimate, since the tailplane hides its end in every photo. No measured A321 shape yet.",
+  "history": "Previously on A319 N742PS."
+}

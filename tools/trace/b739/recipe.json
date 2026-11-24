@@ -1,0 +1,115 @@
+{
+  "_about": "737-900/-900ER with winglets, from Boeing D6-58325-6 2.2.14 (page index 44): side, plan and front views on one sheet. Pixels of layers.py rasters at scale 12, line centres.",
+  "out": "../../../../shapes/B739.json",
+  "length": 40.67,
+  "wingtip": "blended",
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "refs": {
+    "side": { "nose": 83, "tail": 4542, "cowlEnd": 2046 },
+    "plan": { "nose": 84, "centerline": 2087 },
+    "front": { "centerline": 2054, "crownTop": 918.5 }
+  },
+  "windows": {
+    "from": 6.098,
+    "to": 33.53,
+    "pitch": 0.508,
+    "width": 0.25,
+    "z": [0.362, 0.693],
+    "note": "Boeing's drawing has no cabin windows: placed at the 737's 20 in (0.508 m) frame pitch, on the overwing exits' windows, from the first door to the aft door; height as on the 737-800's shape."
+  },
+  "doors": [
+    { "kind": "door", "box": [585, 998, 680, 1203] },
+    { "kind": "exit", "box": [2061, 1045, 2115, 1149] },
+    { "kind": "exit", "box": [2181, 1045, 2234, 1149] },
+    { "kind": "door", "box": [3822, 998, 3917, 1203] },
+    { "kind": "cargo", "box": [951, 1244, 1086, 1345] },
+    { "kind": "cargo", "box": [3394, 1227, 3528, 1336] }
+  ],
+  "cockpitPanes": [
+    [
+      [226, 1095],
+      [224, 1093],
+      [231, 1086],
+      [242, 1077],
+      [257, 1065],
+      [265, 1059],
+      [274, 1053],
+      [281, 1049],
+      [282, 1049],
+      [287, 1051],
+      [290, 1054],
+      [290, 1055],
+      [288, 1059],
+      [283, 1068],
+      [270, 1091],
+      [267, 1096],
+      [264, 1099],
+      [257, 1099],
+      [248, 1098],
+      [232, 1096]
+    ],
+    [
+      [289, 1057],
+      [292, 1054],
+      [296, 1054],
+      [329, 1060],
+      [331, 1062],
+      [329, 1070],
+      [319, 1106],
+      [317, 1113],
+      [315, 1115],
+      [313, 1115],
+      [291, 1108],
+      [270, 1101],
+      [267, 1098],
+      [267, 1097],
+      [270, 1091],
+      [285, 1064]
+    ],
+    [
+      [371, 1056],
+      [378, 1056],
+      [383, 1060],
+      [394, 1070],
+      [399, 1075],
+      [399, 1076],
+      [397, 1078],
+      [391, 1081],
+      [328, 1111],
+      [321, 1114],
+      [320, 1114],
+      [318, 1112],
+      [318, 1110],
+      [321, 1098],
+      [330, 1064],
+      [333, 1061],
+      [348, 1059]
+    ]
+  ],
+  "printed": {
+    "fuselage width": 3.76,
+    "wingspan": 35.79,
+    "tailplane span": 14.35,
+    "engine out from the centerline": 4.83,
+    "overall length": 42.11
+  },
+  "meta": {
+    "id": "B739",
+    "name": "Boeing 737-900ER with winglets",
+    "types": ["B739"],
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://archive.aoe.vt.edu/mason/Mason_f/B737.pdf",
+        "title": "Boeing, 737 Airplane Characteristics for Airport Planning (D6-58325-6), 2.2.14 General Dimensions, Model 737-900, -900ER with Winglets",
+        "accessed": "2026-11-15",
+        "note": "Dimensions and outlines read off the side, plan and front views (tools/trace/b739/); the figures are the aircraft's measurements, not a copy of the drawing. Cabin windows aren't drawn there: see cabin.windows.note. This revision (2006) shows no mid-cabin exit; -900ERs that have one carry it aft of the wing."
+      }
+    ]
+  }
+}

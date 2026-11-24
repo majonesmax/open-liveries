@@ -1,0 +1,27 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "HLF",
+  "airframes": [
+    {
+      "registration": "B-226Y",
+      "hex": "78219a",
+      "type": "B77L",
+      "livery": "yellow",
+      "lastSeen": "2025-04-28",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:B-226Y_Boeing_777-F_Central_Airlines_Brussels_28.4.25_(54523814288).jpg",
+          "title": "Commons: B-226Y Boeing 777-F Central Airlines Brussels 28.4.25 (yellow, ex-DHL)",
+          "accessed": "2026-11-20"
+        },
+        {
+          "url": "https://api.adsb.lol/v2/type/B77L",
+          "title": "adsb.lol: HLF8848 transmitting as 78219a, B-226Y, B77L",
+          "accessed": "2026-11-20"
+        }
+      ],
+      "notes": "Hex from adsb.lol's live feed (the transponder's own address, with the registration), 2026-11-20. Ex-DHL 777F."
+    }
+  ]
+}

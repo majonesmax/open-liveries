@@ -1,0 +1,118 @@
+{
+  "_about": "A220-300, built from the A220-100's measured outlines (bcs1/, the A220 ACP's A220-100 sheets, which are drawn to one scale) with the two fuselage plugs added back: plug.py on bcs1's snapped lines (side.snap.json, plan.snap.json; --ppm 89.404, --nose 102.5 side and 59.5 plan, --plug 9:2.16 --plug 21.84:1.554), the front view as it is. Pixels of the A220-100's rasters. Not traced on the A220-300's own sheets (Figure 1 sheets 1-2, page index 116-117): they're distorted along the body, not by one squeeze. They draw door 1 0.5 m aft and the aft door 1.0 m forward of the door-distance figure's 4.83 and 29.46 m (Figure 11, page index 141), so their door-to-door distance (23.1 m) is shorter than the A220-100's 20.9 m plus the 3.7 m of plugs between the doors, which the photos' 7 more windows confirm; and the engine inlet 1.05 m forward of the 12.17 m their own plan prints (K). Their overall figures (length, height, width, spans) agree with the A220-100's plus the plugs, so nothing of them is kept that this doesn't already give. The plugs are from the two types' printed door, exit, inlet and wing-tip distances. Doors and the overwing exit (not drawn) are placed from Figure 11 (distances to their forward edges; the exit 0.61 m wide as in the photos); cabin windows measured on Wikimedia Commons photos (the shape's sources).",
+  "out": "../../../../shapes/BCS3.json",
+  "length": 38.689,
+  "wingtip": "winglet",
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "refs": {
+    "side": {
+      "nose": 102.5,
+      "tail": 3561.5,
+      "cowlEnd": 1503
+    },
+    "plan": {
+      "nose": 59.5,
+      "centerline": 1640.5
+    },
+    "front": {
+      "centerline": 1704.5,
+      "crownTop": 629.5
+    }
+  },
+  "windows": {
+    "x": [
+      6.692, 7.233, 7.774, 8.314, 8.855, 9.396, 9.937, 10.477, 11.018, 11.559, 12.1, 12.641, 13.181, 13.722, 14.263,
+      14.804, 16.726, 17.639, 18.212, 18.739, 19.289, 19.823, 20.356, 20.89, 21.424, 21.957, 22.491, 23.025, 23.558,
+      24.092, 24.596, 25.127, 25.659, 26.193, 26.71, 27.274, 27.8, 28.379, 28.898
+    ],
+    "atExits": true,
+    "width": 0.32,
+    "z": [0.37, 0.78],
+    "note": "Measured on two side-on Wikimedia Commons photos of the left side (N337DU and YL-BTC, the shape's sources), scaled between the two doors' middles (from the door-distance figure): they agree within 0.10 m. 16 windows from 1.36 m behind door 1's middle at a 0.54 m pitch (the A220-100's 12 and the 2.16 m plug's 4), the exit's own window, two more 0.95 and 0.91 m apart, then 21 at about 0.533 m to 0.6 m ahead of the aft door; the 8 the wing hides in both photos placed at that pitch (the A220-100's 7 and one more, over the 1.55 m plug's three frames less the one YL-BTC shows). The band and width are the A220-100's: the same fuselage and windows."
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [538.0, 662, 620.0, 837]
+    },
+    {
+      "kind": "exit",
+      "box": [1466.8, 691, 1521.3, 773]
+    },
+    {
+      "kind": "door",
+      "box": [2737.1, 667, 2816.0, 837]
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [310, 718],
+      [314, 718],
+      [316, 720],
+      [289, 747],
+      [281, 753],
+      [267, 759],
+      [252, 761],
+      [222, 769],
+      [219, 767],
+      [279, 726],
+      [288, 722]
+    ],
+    [
+      [335, 718],
+      [366, 719],
+      [370, 720],
+      [377, 726],
+      [379, 730],
+      [380, 750],
+      [377, 756],
+      [372, 761],
+      [355, 767],
+      [339, 768],
+      [303, 761],
+      [297, 759],
+      [294, 756],
+      [295, 753],
+      [325, 723]
+    ]
+  ],
+  "printed": {
+    "fuselage length": 38.689,
+    "fuselage height": 3.721,
+    "fuselage width": 3.505,
+    "wingspan": 34.983,
+    "tailplane span": 12.263,
+    "engine inlet from the nose": 12.167
+  },
+  "meta": {
+    "id": "BCS3",
+    "name": "Airbus A220-300",
+    "types": ["BCS3"],
+    "confidence": "medium",
+    "sources": [
+      {
+        "url": "https://mediaassets.airbus.com/pm_38_945_945825-4xwkn1oo4y.pdf?fileName=a220-aircraft-characteristics-publication-acp-oct-2026.pdf",
+        "title": "Airbus, A220 Aircraft Characteristics Publication (BD500-3AB48-13800-00, Issue 013-01, 2026-10-29), A220-300 Aircraft description: Figure 1 General aircraft dimensions; Figure 11 Door distance from nose",
+        "accessed": "2026-11-15",
+        "note": "The A220-300's general-dimensions sheets are distorted along the body (their doors up to 1 m from where Figure 11 puts them, the engine inlet 1.05 m forward of their own printed 12.17 m), so the outlines are the A220-100's (tools/trace/bcs1/, the same document's A220-100 sheets) with the 2.16 m and 1.55 m fuselage plugs added back; this sheet's printed figures are the checks. Doors and the overwing exit from Figure 11. No cabin windows drawn: they're from the photos below. Confidence medium: built by plugs, not traced on its own sheet."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Delta_Air_Lines_Airbus_A220-300_N337DU_on_final_approach_to_Boston_July_2026.jpg",
+        "title": "4300streetcar, Delta Air Lines Airbus A220-300 N337DU on final approach to Boston, 2026-07-08 (Wikimedia Commons, CC BY 4.0)",
+        "accessed": "2026-11-15",
+        "note": "Cabin windows: each visible window's middle (left side, side-on from below and ahead). Only measurements are taken from the photo (window and door positions along the cabin, scaled between the doors' middles as the general-dimensions sheet places them); nothing of it is copied."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Airbus_A220-300_-_BD-500-1A11_(c-n_55423,_YL-BTC)_2026-04-10_Andre_Gerwing_Collection_ID_028269.jpg",
+        "title": "André Gerwing, Airbus A220-300 - BD-500-1A11 (c-n 55423, YL-BTC) 2026-04-10 (Wikimedia Commons, CC BY-SA 4.0)",
+        "accessed": "2026-11-15",
+        "note": "Cabin windows: each visible window's middle, reading 0.10 m aft of N337DU's throughout. Only measurements are taken from the photo (window and door positions along the cabin, scaled between the doors' middles as the general-dimensions sheet places them); nothing of it is copied."
+      }
+    ]
+  }
+}

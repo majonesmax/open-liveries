@@ -1,0 +1,121 @@
+{
+  "_about": "A330-300, from Airbus AC A330 (Dec 01/25) 2-2-0 General Aircraft Dimensions, A330-300 sheets 1 (side, front: page index 59) and 2 (plan: page index 60). Pixels of layers.py --mode strokes-in-fill rasters, line centres: the side at scale 16 turned level (--rotate -0.46), the plan at scale 15.147 (the side sheet's 81.56 px a meter; that sheet is drawn larger). Scaled by the printed 63.67 m overall length from the nose to the tail cone, which also gives the printed 5.64 m fuselage height. The windows behind the wing's lines and one behind a dimension line are placed at the drawing's pitch (windowsAlso); door 3 (the overwing Type I door) is drawn only above the wing: its height is a door 3's.",
+  "out": "../../../../shapes/A333.json",
+  "length": 63.67,
+  "wingtip": "winglet",
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "refs": {
+    "side": {
+      "nose": 142,
+      "tail": 5335,
+      "cowlEnd": 2455,
+      "windowRow": [1100, 1162],
+      "windowBand": [1113, 1157],
+      "windowsAlso": [1334.5, 2804, 2848, 2892, 2935, 2978, 3022, 3109, 3152, 3196, 3240, 3283, 3326, 3370, 3414, 3457],
+      "windowGap": 5
+    },
+    "plan": {
+      "nose": 158,
+      "centerline": 2675
+    },
+    "front": {
+      "centerline": 2657,
+      "crownTop": 446
+    }
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [566, 1066, 664, 1219]
+    },
+    {
+      "kind": "door",
+      "box": [1528, 1069, 1623, 1221]
+    },
+    {
+      "kind": "exit",
+      "box": [3034, 1070, 3094, 1192]
+    },
+    {
+      "kind": "door",
+      "box": [4249, 1050, 4345, 1202]
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [242, 1143],
+      [248, 1137],
+      [270, 1117],
+      [276, 1112],
+      [298, 1112],
+      [300, 1114],
+      [299, 1116],
+      [292, 1127],
+      [283, 1141],
+      [281, 1143],
+      [279, 1144],
+      [257, 1145],
+      [244, 1145]
+    ],
+    [
+      [343, 1115],
+      [343, 1149],
+      [340, 1152],
+      [330, 1152],
+      [310, 1151],
+      [306, 1150],
+      [303, 1149],
+      [301, 1147],
+      [300, 1143],
+      [300, 1140],
+      [302, 1134],
+      [310, 1123],
+      [316, 1115],
+      [318, 1113],
+      [320, 1112],
+      [329, 1112],
+      [341, 1113]
+    ],
+    [
+      [356, 1150],
+      [356, 1113],
+      [358, 1111],
+      [384, 1111],
+      [386, 1112],
+      [389, 1115],
+      [398, 1127],
+      [399, 1129],
+      [399, 1149],
+      [397, 1151],
+      [395, 1152],
+      [358, 1152]
+    ]
+  ],
+  "printed": {
+    "fuselage height": 5.64,
+    "fuselage width": 5.64,
+    "wingspan": 60.3,
+    "tailplane span": 19.4,
+    "engine out from the centerline": 9.37,
+    "overall length": 63.7
+  },
+  "meta": {
+    "id": "A333",
+    "name": "Airbus A330-300",
+    "types": ["A333"],
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://www.aircraft.airbus.com/sites/default/files/2025-12/AC_A330_20251201.pdf",
+        "title": "Airbus, A330 Aircraft Characteristics: Airport and Maintenance Planning (Dec 01/25), 2-2-0 General Aircraft Dimensions, A330-300 sheets 1 and 2",
+        "accessed": "2026-11-15",
+        "note": "Dimensions and outlines read off the side, plan and front views (tools/trace/a333/); the figures are the aircraft's measurements, not a copy of the drawing. The side view is turned level from the sheet's ground attitude (0.46\u00b0). Engine out from the centerline: half the printed 18.74 m between the engines. The cabin windows are the drawing's; those behind the wing's lines are placed at its pitch."
+      }
+    ]
+  }
+}

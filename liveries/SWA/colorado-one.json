@@ -1,0 +1,1076 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "colorado-one",
+  "airline": "SWA",
+  "name": "Colorado One (Colorado flag)",
+  "kind": "special",
+  "description": "Fuselage: Colorado flag: dark blue crown and dark blue belly, white band through the window line, nose dark blue; a huge red 'C' encircling a gold/yellow disc on the forward fuselage just behind the cockpit door. Cheatlines: White middle band between blue top and bottom, running full length. Tail: Heart fin with white 'Southwest'. Engines: Dark blue cowlings. Winglets: approximate: gray/white. Titles: 'Southwest' white on lower fin; 'Colorado One' small by cockpit. Artwork: Colorado flag 'C' and gold disc. Colors hex: approximate.",
+  "confidence": "medium",
+  "drawnOn": "B738",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Southwest_Airlines_fleet",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:N8690A_(aircraft)",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Southwest_Airlines’_Colorado_One_N8690A.jpg",
+      "title": "Southwest Airlines’ Colorado One N8690A.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-12",
+      "note": "N8690A from the right, landing in cloud, 2025-12-14: the bands, the C opening forward on this side, engine, fin (measured from this one). Re-checked 2026-11-15: flipped and fitted to the measured 737-800 shape (tools/photo_trace.py, doors pinned); the crown and belly edges, the C, the disc, the fin's bands and the titles measured on it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Southwest's_Colorado_One_N230WN_Departs_Santa_Barbara_Into_the_Marine_Layer.jpg",
+      "title": "Southwest's Colorado One N230WN Departs Santa Barbara Into the Marine Layer.jpg (CC BY 2.0)",
+      "accessed": "2026-11-12",
+      "note": "N230WN (the previous Colorado One, a 737-700) from the left, 2024-07-23: on the left side the C opens aft."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N8690A_Boeing_737-8H4_s_n_36916_(53693445414).jpg",
+      "title": "N8690A Boeing 737-8H4 s n 36916 (53693445414).jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-12",
+      "note": "N8690A in standard Heart paint, 2024-01-08: the Colorado scheme went on to it after that."
+    }
+  ],
+  "palette": {
+    "blue": {
+      "hex": "#304CB2",
+      "name": "Bold Blue",
+      "official": true
+    },
+    "red": {
+      "hex": "#D5152B",
+      "official": false
+    },
+    "yellow": {
+      "hex": "#F9B612",
+      "official": false
+    },
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B4B9C0",
+      "official": false
+    },
+    "wingletGray": {
+      "hex": "#D3D6DA",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "name": "bare metal inlet lip",
+      "official": false
+    },
+    "coBlue": {
+      "hex": "#1E3A86",
+      "official": false
+    },
+    "coRed": {
+      "hex": "#E0392F",
+      "official": false
+    },
+    "coGold": {
+      "hex": "#F2AE14",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "blue crown, over the cockpit and back along the top; it pales out over and behind the wing in the 2025 photo",
+        "color": "coBlue",
+        "points": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            -0.15
+          ],
+          [
+            0.006,
+            0.064
+          ],
+          [
+            0.015,
+            0.145
+          ],
+          [
+            0.024,
+            0.188
+          ],
+          [
+            0.039,
+            0.163
+          ],
+          [
+            0.053,
+            0.124
+          ],
+          [
+            0.068,
+            0.124
+          ],
+          [
+            0.083,
+            0.128
+          ],
+          [
+            0.112,
+            0.175
+          ],
+          [
+            0.13,
+            0.191
+          ],
+          [
+            0.154,
+            0.234
+          ],
+          [
+            0.177,
+            0.28
+          ],
+          [
+            0.201,
+            0.292
+          ],
+          [
+            0.28,
+            0.39
+          ],
+          [
+            0.365,
+            0.472
+          ],
+          [
+            0.389,
+            0.49
+          ],
+          [
+            0.436,
+            0.477
+          ],
+          [
+            0.483,
+            0.463
+          ],
+          [
+            0.529,
+            0.438
+          ],
+          [
+            0.565,
+            0.45
+          ],
+          [
+            0.6,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3,
+          4
+        ],
+        "smooth": true
+      },
+      {
+        "name": "blue belly, from behind the nose gear to the tail, rising aft under the aft door",
+        "color": "coBlue",
+        "points": [
+          [
+            0.058,
+            -1
+          ],
+          [
+            0.08,
+            -0.83
+          ],
+          [
+            0.11,
+            -0.72
+          ],
+          [
+            0.139,
+            -0.655
+          ],
+          [
+            0.198,
+            -0.54
+          ],
+          [
+            0.28,
+            -0.5
+          ],
+          [
+            0.36,
+            -0.48
+          ],
+          [
+            0.5,
+            -0.5
+          ],
+          [
+            0.608,
+            -0.51
+          ],
+          [
+            0.667,
+            -0.386
+          ],
+          [
+            0.726,
+            -0.289
+          ],
+          [
+            0.785,
+            -0.201
+          ],
+          [
+            0.833,
+            -0.115
+          ],
+          [
+            0.874,
+            -0.015
+          ],
+          [
+            0.904,
+            0.121
+          ],
+          [
+            0.934,
+            0.286
+          ],
+          [
+            1,
+            0.3
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3,
+          4
+        ],
+        "smooth": true
+      },
+      {
+        "name": "red C (its outer circle; the opening painted over it)",
+        "color": "coRed",
+        "points": [
+          [
+            0.3598,
+            -0.039
+          ],
+          [
+            0.3589,
+            0.108
+          ],
+          [
+            0.3561,
+            0.257
+          ],
+          [
+            0.3516,
+            0.415
+          ],
+          [
+            0.3453,
+            0.593
+          ],
+          [
+            0.3376,
+            0.867
+          ],
+          [
+            0.3286,
+            1
+          ],
+          [
+            0.3185,
+            1
+          ],
+          [
+            0.3075,
+            1
+          ],
+          [
+            0.2959,
+            1
+          ],
+          [
+            0.2841,
+            1
+          ],
+          [
+            0.2722,
+            1
+          ],
+          [
+            0.2607,
+            1
+          ],
+          [
+            0.2497,
+            1
+          ],
+          [
+            0.2395,
+            1
+          ],
+          [
+            0.2305,
+            0.867
+          ],
+          [
+            0.2228,
+            0.593
+          ],
+          [
+            0.2166,
+            0.415
+          ],
+          [
+            0.212,
+            0.26
+          ],
+          [
+            0.2092,
+            0.112
+          ],
+          [
+            0.2083,
+            -0.036
+          ],
+          [
+            0.2092,
+            -0.186
+          ],
+          [
+            0.212,
+            -0.344
+          ],
+          [
+            0.2166,
+            -0.52
+          ],
+          [
+            0.2228,
+            -0.753
+          ],
+          [
+            0.2305,
+            -1
+          ],
+          [
+            0.2395,
+            -1
+          ],
+          [
+            0.2497,
+            -1
+          ],
+          [
+            0.2607,
+            -1
+          ],
+          [
+            0.2722,
+            -1
+          ],
+          [
+            0.2841,
+            -1
+          ],
+          [
+            0.2959,
+            -1
+          ],
+          [
+            0.3075,
+            -1
+          ],
+          [
+            0.3185,
+            -1
+          ],
+          [
+            0.3286,
+            -1
+          ],
+          [
+            0.3376,
+            -1
+          ],
+          [
+            0.3453,
+            -0.753
+          ],
+          [
+            0.3516,
+            -0.52
+          ],
+          [
+            0.3561,
+            -0.345
+          ],
+          [
+            0.3589,
+            -0.188
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3,
+          4
+        ],
+        "smooth": true
+      },
+      {
+        "name": "the C's opening, forward on the right side",
+        "color": "white",
+        "points": [
+          [
+            0.204,
+            0.333
+          ],
+          [
+            0.2144,
+            0.275
+          ],
+          [
+            0.2467,
+            -0.061
+          ],
+          [
+            0.2616,
+            -0.052
+          ],
+          [
+            0.2645,
+            -0.134
+          ],
+          [
+            0.2514,
+            -0.199
+          ],
+          [
+            0.2099,
+            -0.356
+          ],
+          [
+            0.1988,
+            -0.41
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2
+        ],
+        "side": "right"
+      },
+      {
+        "name": "the C's opening, aft on the left side",
+        "color": "white",
+        "points": [
+          [
+            0.3642,
+            0.325
+          ],
+          [
+            0.3537,
+            0.274
+          ],
+          [
+            0.3215,
+            -0.061
+          ],
+          [
+            0.3065,
+            -0.052
+          ],
+          [
+            0.3036,
+            -0.134
+          ],
+          [
+            0.3167,
+            -0.199
+          ],
+          [
+            0.3582,
+            -0.358
+          ],
+          [
+            0.3694,
+            -0.413
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          3
+        ],
+        "side": "left"
+      },
+      {
+        "name": "gold disc inside the C",
+        "color": "coGold",
+        "points": [
+          [
+            0.3214,
+            -0.039
+          ],
+          [
+            0.3205,
+            0.064
+          ],
+          [
+            0.3177,
+            0.163
+          ],
+          [
+            0.3133,
+            0.256
+          ],
+          [
+            0.3073,
+            0.337
+          ],
+          [
+            0.3003,
+            0.403
+          ],
+          [
+            0.2924,
+            0.447
+          ],
+          [
+            0.2841,
+            0.462
+          ],
+          [
+            0.2758,
+            0.447
+          ],
+          [
+            0.2679,
+            0.403
+          ],
+          [
+            0.2608,
+            0.337
+          ],
+          [
+            0.2549,
+            0.256
+          ],
+          [
+            0.2504,
+            0.163
+          ],
+          [
+            0.2476,
+            0.064
+          ],
+          [
+            0.2467,
+            -0.039
+          ],
+          [
+            0.2476,
+            -0.143
+          ],
+          [
+            0.2504,
+            -0.245
+          ],
+          [
+            0.2549,
+            -0.343
+          ],
+          [
+            0.2608,
+            -0.432
+          ],
+          [
+            0.2679,
+            -0.507
+          ],
+          [
+            0.2758,
+            -0.557
+          ],
+          [
+            0.2841,
+            -0.576
+          ],
+          [
+            0.2924,
+            -0.557
+          ],
+          [
+            0.3003,
+            -0.507
+          ],
+          [
+            0.3073,
+            -0.432
+          ],
+          [
+            0.3133,
+            -0.343
+          ],
+          [
+            0.3177,
+            -0.245
+          ],
+          [
+            0.3205,
+            -0.143
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3,
+          4
+        ],
+        "smooth": true
+      },
+      {
+        "name": "blue dorsal fillet, the fin's blue run forward",
+        "color": "blue",
+        "points": [
+          [
+            0.762,
+            1
+          ],
+          [
+            0.8,
+            0.93
+          ],
+          [
+            0.985,
+            0.93
+          ],
+          [
+            0.985,
+            1
+          ]
+        ]
+      }
+    ],
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3,
+      4
+    ]
+  },
+  "fin": {
+    "base": "blue",
+    "areas": [
+      {
+        "name": "pinstripe under the red",
+        "color": "white",
+        "above": [
+          [
+            0,
+            0.2
+          ],
+          [
+            0.177,
+            0.241
+          ],
+          [
+            0.504,
+            0.329
+          ],
+          [
+            0.723,
+            0.407
+          ],
+          [
+            0.883,
+            0.482
+          ],
+          [
+            1,
+            0.54
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "red band",
+        "color": "red",
+        "above": [
+          [
+            0,
+            0.213
+          ],
+          [
+            0.081,
+            0.235
+          ],
+          [
+            0.416,
+            0.324
+          ],
+          [
+            0.65,
+            0.404
+          ],
+          [
+            0.803,
+            0.479
+          ],
+          [
+            1,
+            0.555
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "pinstripe under the yellow",
+        "color": "white",
+        "above": [
+          [
+            0,
+            0.285
+          ],
+          [
+            0.18,
+            0.38
+          ],
+          [
+            0.315,
+            0.455
+          ],
+          [
+            0.489,
+            0.6
+          ],
+          [
+            0.645,
+            0.741
+          ],
+          [
+            0.8,
+            0.88
+          ],
+          [
+            0.895,
+            0.948
+          ],
+          [
+            0.97,
+            1.0
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "yellow band",
+        "color": "yellow",
+        "above": [
+          [
+            0,
+            0.3
+          ],
+          [
+            0.126,
+            0.377
+          ],
+          [
+            0.246,
+            0.452
+          ],
+          [
+            0.427,
+            0.597
+          ],
+          [
+            0.561,
+            0.738
+          ],
+          [
+            0.692,
+            0.877
+          ],
+          [
+            0.766,
+            0.946
+          ],
+          [
+            0.82,
+            1.0
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "leading-edge pinstripe along the yellow",
+        "color": "white",
+        "points": [
+          [
+            0.003,
+            0.3
+          ],
+          [
+            0.025,
+            0.3
+          ],
+          [
+            0.025,
+            1.0
+          ],
+          [
+            0.003,
+            1.0
+          ]
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3,
+      4
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "wingletGray",
+    "inner": "wingletGray"
+  },
+  "engines": {
+    "cowling": "coBlue",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3,
+      4
+    ]
+  },
+  "logos": [
+    {
+      "mark": "SWA/heart",
+      "place": "fuselage",
+      "at": [
+        0.169,
+        0.546
+      ],
+      "height": 0.13,
+      "colors": [
+        "blue",
+        "red",
+        "yellow"
+      ],
+      "description": "The small Southwest Heart above and just aft of the forward passenger door.",
+      "reference": "https://commons.wikimedia.org/wiki/Category:Southwest_Airlines",
+      "side": "both",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mark": "SWA/us-flag",
+      "place": "fin",
+      "at": [
+        0.02,
+        0.05
+      ],
+      "height": 0.055,
+      "colors": [
+        "red",
+        "white",
+        "#1F2A5C"
+      ],
+      "description": "A small US flag ahead of the fin title, at the fin's root.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Southwest",
+      "place": "fin",
+      "at": [
+        0.084,
+        0.03
+      ],
+      "height": 0.12,
+      "color": "white",
+      "style": "The Southwest wordmark: bold, upright, rounded humanist sans, capital S, on the blue at the fin's root.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3,
+        4
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Bold",
+          "Gotham Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      },
+      "length": 0.86
+    },
+    {
+      "text": "Colorado",
+      "place": "fuselage",
+      "at": [
+        0.071,
+        -0.1
+      ],
+      "height": 0.05,
+      "color": "#2A2A2A",
+      "style": "The state's name, small under the cockpit windows, semi-bold; 'One' follows it in a lighter weight. On the right it reads from the aft end: 'Colorado' aft, 'One' forward.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3,
+        4
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Demi Bold",
+          "Gotham Medium"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      },
+      "length": 0.0195,
+      "side": "right"
+    },
+    {
+      "text": "One",
+      "place": "fuselage",
+      "at": [
+        0.06,
+        -0.1
+      ],
+      "height": 0.05,
+      "color": "#2A2A2A",
+      "style": "'One' after 'Colorado', lighter.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3,
+        4
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Regular",
+          "Gotham Book"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      },
+      "length": 0.009,
+      "side": "right"
+    },
+    {
+      "text": "Colorado",
+      "place": "fuselage",
+      "at": [
+        0.06,
+        -0.1
+      ],
+      "height": 0.05,
+      "color": "#2A2A2A",
+      "style": "The state's name, small under the cockpit windows, semi-bold; 'One' follows it in a lighter weight. The left side isn't in a photo of N8690A: placed as the right side's mirror (reading nose to tail).",
+      "confidence": "low",
+      "sourceRefs": [
+        2,
+        3,
+        4
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Demi Bold",
+          "Gotham Medium"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      },
+      "length": 0.0195,
+      "side": "left"
+    },
+    {
+      "text": "One",
+      "place": "fuselage",
+      "at": [
+        0.0815,
+        -0.1
+      ],
+      "height": 0.05,
+      "color": "#2A2A2A",
+      "style": "'One' after 'Colorado', lighter.",
+      "confidence": "low",
+      "sourceRefs": [
+        2,
+        3,
+        4
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Regular",
+          "Gotham Book"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      },
+      "length": 0.009,
+      "side": "left"
+    }
+  ],
+  "notes": "Original Colorado One (2012) marked the 5,000th 737 built (N230WN). Drawn from the only current photo, N8690A from the right in cloud (Dec 2025). The left side is taken from the previous Colorado One, N230WN (July 2024), where the C opens aft: the flag reads the same way on both sides rather than mirrored. Not confirmed on N8690A's left side. The crown's blue fades from view aft of the wing in the 2025 photo (cloud); drawn ending there, which may be the light. Re-checked 2026-11-15 on the same photo, flipped and fitted to the measured 737-800 shape: the crown's lower edge runs under the cockpit windows (y about 0.07 at the nose, not 0.65) and rises to about 0.47 behind the C; the belly's upper edge sits about y −0.5 (lower than first drawn) and rises aft to pass under the aft door; the C and the disc redrawn as true circles (2.9 m and 1.4 m radius on the side, centred about 10.8 m back), all smooth; the fin's bands re-measured (as shares of the photo's chord: the measured shape's fin is narrower than the photo's). 'Colorado One' is two weights, so it's a pair of titles per side; it sits about y −0.1, well under the cockpit windows. The aft belly and tail cone are in cloud: their edge there is the least certain. Nose re-measured 2026-11-15 (probe): the crown's blue comes down to the nose tip itself and its edge rises to about y 0.19 just ahead of the cockpit windows; the lower nose and radome's underside are white, the belly's blue starting at the belly behind the nose gear (x about 0.06) and rising to y −0.54 by x 0.2."
+}

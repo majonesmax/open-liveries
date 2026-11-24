@@ -1,0 +1,20 @@
+{
+  "_about": "T.O. 1C-130A-2-2 page 1-3's front view: layers.py --mode image --threshold 170 at scale 2.9895 (the side's scale, from its tips 40.48 m apart against the printed 132 ft 8 in), clip 140,1330,1800 (scan px: 140,1330,1797,1800). Pixels of that raster, line centres; the left half. The wing's upper surface runs over the top of the fuselage (the high wing's centre section); the nacelles hide its underside across them (bridged). The tailplane is drawn as one line along the wing's upper surface (both lines on it); its height is the side view's (recipe stabilizerZ).",
+  "fuselage.section": [
+    [2462, 866], [2380, 874], [2300, 902], [2250, 948], [2222, 1010], [2216, 1080], [2224, 1150],
+    [2255, 1222], [2300, 1270], [2380, 1308], [2462, 1322]
+  ],
+  "wing.upper": [
+    [2216, 847], [2000, 846], [1500, 843], [1000, 839], [700, 836], [325, 832], [150, 836], [60, 845]
+  ],
+  "wing.lower": [
+    [2225, 955], [2100, 954], [1940, 952], "hidden", [1800, 945], [1600, 940], [1400, 933], [1330, 930],
+    "hidden", [1190, 925], [975, 912], [600, 893], [325, 878], [150, 866], [60, 852]
+  ],
+  "stabilizer.upper": [
+    [2216, 847], [2000, 846], [1700, 845], [1510, 848]
+  ],
+  "stabilizer.lower": [
+    [2216, 847], [2000, 846], [1700, 845], [1510, 848]
+  ]
+}

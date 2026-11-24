@@ -1,0 +1,198 @@
+{
+  "_about": "Embraer EMB-145XR (ERJ-145XR), from Embraer's Airport Planning Manual APM-145/1100, Revision 16 (Nov 29/24): 2.2 Airplane Dimensions (page index 17-18: span 21.00 m, the rest as the EMB-145's), Figure 2.2.2 EMB-145XR Airplane General Dimensions (page index 20), Figure 2.7.1 Door Clearances (page index 32-33, for all the EMB-145s). Figure 2.2.2 is drawn at 0.910 of Figure 2.2.1's scale: rendered at 17.588 (16 / 0.9097, from the two figures' nose-to-tail extents, both 29.87 m) so its rasters lie on the EMB-145's; laid over each other they differ only at the winglets, the ventral strakes under the tail cone (not modelled) and a nose antenna. The EMB-145's placed points (e145/) moved onto these rasters (plug.py with no plugs: --shift 4,23 side, 33,168 plan, 258,129 front) and snapped; the winglet placed here. The EMB-145's references, doors and cockpit panes moved by the same shift. Scaled by the printed 27.93 m fuselage length. A T-tail with two AE 3007A1E nacelles on stub pylons on the rear fuselage, winglets. Doors and windows as the EMB-145's (Figure 2.7.1 serves all the models). One window is crossed by the winglet's lines (windowsAlso). After smooth.py, tipmeet.py starts the winglet on the wing's tip (docs/SHAPES.md: the side drawing's winglet leaves the wing 0.5 m behind the tip's leading edge, where the front view's bend hides it).",
+  "out": "../../../../shapes/E45X.json",
+  "length": 27.93,
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "engines": {
+    "mount": "fuselage"
+  },
+  "stabilizer": {
+    "mount": "fin"
+  },
+  "refs": {
+    "side": {
+      "nose": 133,
+      "tail": 6059,
+      "cowlEnd": 5112,
+      "windowRow": [
+        876,
+        959
+      ],
+      "windowGap": 5,
+      "windowMinWidth": 50,
+      "windowInset": 3,
+      "windowsAlso": [
+        4149
+      ]
+    },
+    "plan": {
+      "nose": 143,
+      "centerline": 2373
+    },
+    "front": {
+      "centerline": 2568,
+      "crownTop": 818
+    }
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [
+        1094,
+        773,
+        1257,
+        1137
+      ],
+      "side": "left",
+      "name": "main door"
+    },
+    {
+      "kind": "door",
+      "box": [
+        1369,
+        825,
+        1515,
+        1137
+      ],
+      "side": "right",
+      "name": "service door"
+    },
+    {
+      "kind": "exit",
+      "box": [
+        3222,
+        838,
+        3328,
+        1030
+      ],
+      "name": "emergency exit"
+    },
+    {
+      "kind": "cargo",
+      "box": [
+        4814,
+        966,
+        5027,
+        1178
+      ],
+      "side": "left",
+      "name": "baggage door"
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [
+        656,
+        903
+      ],
+      [
+        704,
+        872
+      ],
+      [
+        754,
+        839
+      ],
+      [
+        792,
+        813
+      ],
+      [
+        842,
+        820
+      ],
+      [
+        844,
+        829
+      ],
+      [
+        756,
+        915
+      ],
+      [
+        746,
+        919
+      ],
+      [
+        704,
+        912
+      ],
+      [
+        656,
+        904
+      ]
+    ],
+    [
+      [
+        866,
+        825
+      ],
+      [
+        942,
+        828
+      ],
+      [
+        950,
+        837
+      ],
+      [
+        950,
+        923
+      ],
+      [
+        940,
+        934
+      ],
+      [
+        804,
+        916
+      ],
+      [
+        792,
+        908
+      ],
+      [
+        794,
+        896
+      ],
+      [
+        859,
+        829
+      ]
+    ]
+  ],
+  "printed": {
+    "fuselage length": 27.93,
+    "fuselage height": 2.28,
+    "fuselage width": 2.28,
+    "wingspan": 21.0,
+    "tailplane span": 7.55,
+    "overall length": 29.87,
+    "main door from the nose": 4.9,
+    "service door from the nose": 6.17,
+    "emergency exit from the nose": 14.77,
+    "baggage door from the nose": 22.51
+  },
+  "meta": {
+    "id": "E45X",
+    "name": "Embraer ERJ-145XR",
+    "types": [
+      "E45X"
+    ],
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://www.embraer.com/media/2q1d040a/erj-emb-145_apm_140.pdf",
+        "title": "Embraer, EMB-145 Airport Planning Manual (APM-145/1100, Revision 16, Nov 29/24), 2.2 Airplane Dimensions, Figure 2.2.2 EMB-145XR Airplane General Dimensions, Figure 2.7.1 Door Clearances",
+        "accessed": "2026-11-16",
+        "note": "Dimensions and outlines read off Figure 2.2.2's side, plan and front views, drawn at 0.910 of Figure 2.2.1's scale and evened out to it (tools/trace/e45x/: the EMB-145's points moved onto it and snapped, the winglets placed here); the figures are the aircraft's measurements, not a copy of the drawing. The ventral strakes under the tail cone aren't in the shape. The right side's service door is placed from Figure 2.7.1 as on the EMB-145."
+      }
+    ]
+  },
+  "wingtip": "winglet"
+}

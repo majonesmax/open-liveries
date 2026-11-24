@@ -1,0 +1,385 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "cargo",
+  "airline": "AFR",
+  "name": "Air France Cargo (2009 livery)",
+  "kind": "standard",
+  "from": "2022",
+  "confidence": "medium",
+  "drawnOn": "B77L",
+  "description": "The passenger scheme on the two 777Fs with 'CARGO' added: all white, 'AIRFRANCE' in big navy extended capitals with the red hallmark after it, 'CARGO' in gray capitals of the same face tucked under 'FRANCE'; the navy and red fin stripes; the seahorse roundel by the nose and on the white engines.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Air_France_F-HUVA_A350-900.jpg",
+      "title": "Air France F-HUVA A350-900 (CC BY-SA 4.0, Zima Savolainen-Schtakleff)",
+      "accessed": "2026-11-13",
+      "note": "Left side, 2026-09-26: title, hallmark, roundel, fin stripes, navy winglet."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:F-HTYQ_-_Airbus_A350-941_-_Air_France_SJO_220126.jpg",
+      "title": "F-HTYQ - Airbus A350-941 - Air France SJO 220126 (CC BY 4.0, kitmasterbloke)",
+      "accessed": "2026-11-13",
+      "note": "Right side, 2026-01-24: fin close-up (stripes, mirrored), title and hallmark, roundel."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A220-300_-_BD-500-1A11_(c-n_55187,_F-HZUN)_2025-05-16_Andre_Gerwing_Collection_ID_023716.jpg",
+      "title": "Airbus A220-300 F-HZUN, 2025-05-16 (CC BY-SA 4.0, André Gerwing)",
+      "accessed": "2026-11-13",
+      "note": "Right side from below: white belly, white engines with the roundel."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:F-HTYP_@_CDG,_2024-08-14.jpg",
+      "title": "F-HTYP @ CDG, 2024-08-14 (CC BY-SA 2.0, Anna Zvereva)",
+      "accessed": "2026-11-13",
+      "note": "Left side: the same layout."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Air_France#Livery",
+      "title": "Wikipedia: Air France, livery",
+      "accessed": "2026-11-13",
+      "note": "History of the schemes: the 2009 refresh of the fin stripes and wordmark."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:777F_Air_France_Cargo.jpg",
+      "title": "777F Air France Cargo.jpg (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "777F F-GUOB, right side, 2022-05-31, freshly repainted: 'AIRFRANCE' with the hallmark, 'CARGO' in gray under 'FRANCE', the seahorse by the nose and on the engine."
+    },
+    {
+      "url": "https://www.air-journal.fr/2022-04-25-en-attendant-les-a350f-air-france-repeint-ses-777f-photos-video-5235375.html",
+      "title": "Air Journal: Air France repaints its 777Fs (2022-04-25)",
+      "accessed": "2026-11-13",
+      "note": "F-GUOB repainted in April 2022, F-GUOC to follow (seen repainted at Prestwick in July 2022)."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F6",
+      "official": false
+    },
+    "navy": {
+      "hex": "#051C5B",
+      "official": false
+    },
+    "red": {
+      "hex": "#E1251B",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC5",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "name": "bare metal inlet lip",
+      "official": false
+    },
+    "gold": {
+      "hex": "#F2C200",
+      "official": false
+    },
+    "gray": {
+      "hex": "#5F6670",
+      "official": false,
+      "name": "'CARGO' gray"
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "windows": "hidden",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "mirrored": true,
+    "areas": [
+      {
+        "name": "wide navy stripe",
+        "color": "navy",
+        "points": [
+          [
+            0.22,
+            0
+          ],
+          [
+            0.46,
+            0
+          ],
+          [
+            0.58,
+            1
+          ],
+          [
+            0.16,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "middle navy stripe",
+        "color": "navy",
+        "points": [
+          [
+            0.5,
+            0
+          ],
+          [
+            0.6,
+            0
+          ],
+          [
+            0.76,
+            1
+          ],
+          [
+            0.64,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "thin navy stripe",
+        "color": "navy",
+        "points": [
+          [
+            0.64,
+            0
+          ],
+          [
+            0.69,
+            0
+          ],
+          [
+            0.88,
+            1
+          ],
+          [
+            0.81,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "red stripe, tapering out toward the tip",
+        "color": "red",
+        "points": [
+          [
+            0.73,
+            0
+          ],
+          [
+            0.92,
+            0
+          ],
+          [
+            0.92,
+            0.3
+          ],
+          [
+            0.9,
+            0.66
+          ],
+          [
+            0.86,
+            0.66
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "navy",
+    "confidence": "medium",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "AFR/hallmark",
+      "place": "fuselage",
+      "at": [
+        0.418,
+        0.42
+      ],
+      "height": 0.38,
+      "colors": [
+        "red"
+      ],
+      "description": "The Air France hallmark: a single red slash leaning forward like '/', thin at its foot and widening to the top, set just after the title's last letter (aft of it on the left side, ahead of it on the right, since it follows the text).",
+      "reference": "https://commons.wikimedia.org/wiki/File:Air_France_Logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "AFR/seahorse",
+      "place": "fuselage",
+      "at": [
+        0.095,
+        0.3
+      ],
+      "height": 0.32,
+      "colors": [
+        "navy",
+        "white"
+      ],
+      "description": "A small roundel with Air France's winged seahorse (hippocampe ailé) in navy line work, between the cockpit and the forward door.",
+      "reference": "https://en.wikipedia.org/wiki/Air_France#Corporate_identity",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "AFR/seahorse",
+      "place": "engines",
+      "at": [
+        0.45,
+        0.2
+      ],
+      "height": 0.35,
+      "colors": [
+        "navy",
+        "white"
+      ],
+      "description": "The same seahorse roundel on the engine cowling.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        2
+      ]
+    },
+    {
+      "mark": "AFR/eu-flag",
+      "place": "fin",
+      "at": [
+        0.3,
+        0.88
+      ],
+      "height": 0.07,
+      "colors": [
+        "gold",
+        "navy"
+      ],
+      "description": "A small ring of twelve gold stars (the European flag) on the wide navy stripe near the tip, added in 2022.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Flag_of_Europe.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "AIRFRANCE",
+      "place": "fuselage",
+      "at": [
+        0.137,
+        0.245
+      ],
+      "height": 0.36,
+      "color": "navy",
+      "length": 0.256,
+      "style": "Navy, heavy, extended geometric capitals with no space between AIR and FRANCE, upright, over the forward window line from just aft of door 1.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Heavy Extended",
+          "Univers 83 Extra Black Extended",
+          "Eurostile Extended Black"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "CARGO",
+      "place": "fuselage",
+      "at": [
+        0.262,
+        -0.035
+      ],
+      "height": 0.38,
+      "color": "gray",
+      "style": "'CARGO' in mid-gray, the same wide capitals as 'AIRFRANCE' and about the same height, right under 'FRANCE', ending level with its E.",
+      "confidence": "medium",
+      "sourceRefs": [
+        5
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Heavy Extended",
+          "Univers 83 Extra Black Extended",
+          "Eurostile Extended Black"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "length": 0.1
+    }
+  ],
+  "notes": "The 2009 passenger scheme (AFR/standard) plus a gray 'CARGO' title, on F-GUOB (repainted April 2022) and F-GUOC (July 2022). Measured from F-GUOB's right side (2022-05-31) against the standard's title: 'CARGO' starts under the F of FRANCE and ends under its E, its top almost touching AIRFRANCE's baseline. No Commons photo of either from 2024-2026 yet; FlightAware logs show F-GUOC flying in June 2025. On the 777F the fin's EU stars and winglets aren't checked (no winglets: raked tips). Before 2022 both wore 'AIR FRANCE CARGO' in one line (the 2009 cargo titles). Freighters have no cabin windows. Lengths taken from A350s: on the A220 the title runs about x 0.2–0.4 with the hallmark tighter to it. The EU stars on the fin show on both A350s photographed in 2026 but may not be on the whole fleet. A dark band round the A350's engine aft of the fan cowl is probably the reverser seam and isn't drawn. A320-family winglets and the far underside weren't checked; the belly shows white from below. drawnOn B77L (2026-11-15): the freighters are 777Fs, but the 'AIRFRANCE' title's shares were taken from the A350 standard, not re-measured on a 777F (the one 777F photo, 2022, is a right-side three-quarter view); CARGO is placed against it.",
+  "history": "New file. Air France's 777Fs were repainted in 2022 from 'AIR FRANCE CARGO' titles to the current AIRFRANCE titles with 'CARGO' under; A350Fs on order should arrive in it."
+}

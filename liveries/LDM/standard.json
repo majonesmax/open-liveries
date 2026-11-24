@@ -1,0 +1,283 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "LDM",
+  "name": "Lauda Europe livery",
+  "kind": "standard",
+  "confidence": "medium",
+  "drawnOn": "A320",
+  "description": "White A320s with huge red 'LAUDA' capitals over the forward cabin and a thin red cheatline low along the fuselage from nose to tail. White fin carrying a big red 'L': a stroke sweeping down from the whole fin tip to the root, its foot running aft along the root, leaving white in the leading-edge corner and a white rounded panel aft. White engines with red 'LAUDA' over a red line.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:9H-LOR_-_Airbus_A320-214_-_Lauda_Europe_STN_131225.jpg",
+      "accessed": "2026-11-13",
+      "title": "9H-LOR, Lauda Europe A320, STN (CC BY 4.0)",
+      "note": "Left side, 2025-12: titles, cheatline, the red L on the fin, engines."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Laudamotion_logo.svg",
+      "accessed": "2026-11-13",
+      "title": "Laudamotion logo (Commons)",
+      "note": "The earlier 'laudamotion' identity, for reference."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "red": {
+      "hex": "#C92A3B",
+      "official": false,
+      "name": "Lauda red"
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false,
+      "name": "bare metal inlet lip"
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "red cheatline",
+        "color": "red",
+        "below": [
+          [
+            0,
+            -0.3
+          ],
+          [
+            0.4,
+            -0.335
+          ],
+          [
+            0.7,
+            -0.32
+          ],
+          [
+            0.9,
+            -0.27
+          ],
+          [
+            1,
+            -0.25
+          ]
+        ],
+        "above": [
+          [
+            0,
+            -0.36
+          ],
+          [
+            0.4,
+            -0.395
+          ],
+          [
+            0.7,
+            -0.38
+          ],
+          [
+            0.9,
+            -0.33
+          ],
+          [
+            1,
+            -0.31
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      }
+    ],
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "fin": {
+    "base": "red",
+    "areas": [
+      {
+        "name": "white leading-edge corner",
+        "color": "white",
+        "points": [
+          [
+            -0.05,
+            -0.05
+          ],
+          [
+            0.44,
+            -0.05
+          ],
+          [
+            0.42,
+            0
+          ],
+          [
+            0.25,
+            0.2
+          ],
+          [
+            0.12,
+            0.45
+          ],
+          [
+            0.06,
+            0.7
+          ],
+          [
+            0.03,
+            1.05
+          ],
+          [
+            -0.05,
+            1.05
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "white aft panel inside the L",
+        "color": "white",
+        "points": [
+          [
+            0.55,
+            0.3
+          ],
+          [
+            0.9,
+            0.96
+          ],
+          [
+            1.05,
+            0.96
+          ],
+          [
+            1.05,
+            0.21
+          ],
+          [
+            0.62,
+            0.21
+          ],
+          [
+            0.56,
+            0.24
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "wings": {
+    "top": "#B9BEC5",
+    "under": "#C9CDD2"
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "areas": [
+      {
+        "name": "red line",
+        "color": "red",
+        "below": [
+          [
+            0.3,
+            -0.45
+          ],
+          [
+            1,
+            -0.45
+          ]
+        ],
+        "above": [
+          [
+            0.3,
+            -0.55
+          ],
+          [
+            1,
+            -0.55
+          ]
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "titles": [
+    {
+      "text": "LAUDA",
+      "place": "fuselage",
+      "at": [
+        0.157,
+        -0.04
+      ],
+      "height": 0.55,
+      "length": 0.289,
+      "color": "red",
+      "style": "Huge heavy geometric sans capitals over the forward windows, wide round D and pointed A's.",
+      "confidence": "high",
+      "sourceRefs": [
+        0
+      ],
+      "type": {
+        "similar": [
+          "Futura Bold",
+          "Century Gothic Bold"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "LAUDA",
+      "place": "engines",
+      "at": [
+        0.34,
+        -0.15
+      ],
+      "height": 0.4,
+      "length": 0.4,
+      "color": "red",
+      "style": "As the fuselage title, on the cowling above the red line.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ],
+      "type": {
+        "similar": [
+          "Futura Bold",
+          "Century Gothic Bold"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Lauda Europe (Ryanair group, Malta AOC) flies A320s for Ryanair's network; the scheme is its own, not Ryanair's. Drawn from one clear left-side photo; the belly, winglets (A320 wingtip fences) and right side aren't measured. A red mark on the tailplane root seen in the photo isn't drawn. Re-checked 2026-11-15 on 9H-LOR (left, 2025-12-15), reading x between the doors' known places on the A320 shape and heights against the window line: LAUDA runs x 0.157-0.446 (from 0.185-0.425) and its capitals reach y ~0.51, a third of the way from the windows' top to the crown (it had been drawn to 0.77, cap 0.55 from 0.8). The cheatline is level, straight between its points. photo_trace's fit of this photo missed the aft door by 40 px (it put the camera 18° below), so it wasn't used.",
+  "history": "New entry. The Lauda scheme followed the 2018-2020 'laudamotion' livery after the rebrand to Lauda."
+}

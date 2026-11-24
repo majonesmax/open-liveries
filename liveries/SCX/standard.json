@@ -1,0 +1,375 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "SCX",
+  "name": "2018 livery",
+  "kind": "standard",
+  "from": "2018",
+  "confidence": "medium",
+  "drawnOn": "B738",
+  "description": "Orange forward fuselage with 'sun country' in white lower case over the windows; above the wing the orange gives way to a white upper fuselage, the orange continuing as a band under it; behind the wing a navy lower fuselage with fine topographic contour lines rises to the fin; the fin navy with the orange sun-and-S; royal-blue engines.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Sun_Country_Airlines-_New_Livery.jpg",
+      "title": "Sun Country Airlines- New Livery.jpg (Commons)",
+      "accessed": "2026-11-13",
+      "note": "December 2018: the new livery introduced that year."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Sun_Country_Boeing_737-800_N856SY_FDK_MD1.jpg",
+      "title": "Sun Country Boeing 737-800 N856SY FDK MD1.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "N856SY left side, 2024-08-28: geometry, title, fin."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Boeing_737-82R(WL)_(N843SY,_msn_40721,_ln_3600)_(2-9-2026).jpg",
+      "title": "Boeing 737-82R(WL) (N843SY, msn 40721, ln 3600) (2-9-2026).jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "N843SY, 2026-02-09: the scheme still current in 2026."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Sun_Country_Boeing_737-800_N805SY_MD1.jpg",
+      "title": "Sun Country Boeing 737-800 N805SY MD1.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "N805SY, 2026-10-13: still in the earlier blue scheme (with lower-case titles)."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F2F3F5",
+      "official": false
+    },
+    "orange": {
+      "hex": "#E8541E",
+      "official": false,
+      "name": "Sun Country orange"
+    },
+    "navy": {
+      "hex": "#1B2A7A",
+      "official": false,
+      "name": "navy"
+    },
+    "blue": {
+      "hex": "#2747B5",
+      "official": false,
+      "name": "engine royal blue"
+    },
+    "contour": {
+      "hex": "#3B4FA0",
+      "official": false,
+      "name": "contour lines"
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false
+    },
+    "flagRed": {
+      "hex": "#B22234",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "orange forward fuselage, carried aft as a band under the white",
+        "color": "orange",
+        "smooth": true,
+        "points": [
+          [
+            0,
+            1
+          ],
+          [
+            0.4211822660098522,
+            1
+          ],
+          [
+            0.421,
+            0.9
+          ],
+          [
+            0.458,
+            0.427
+          ],
+          [
+            0.483,
+            0.125
+          ],
+          [
+            0.532,
+            -0.272
+          ],
+          [
+            0.594,
+            -0.458
+          ],
+          [
+            0.686,
+            -0.379
+          ],
+          [
+            0.778,
+            -0.07
+          ],
+          [
+            0.828,
+            0.41
+          ],
+          [
+            0.846,
+            1.0
+          ],
+          [
+            0.8491379310344828,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            0,
+            -1
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "navy lower aft fuselage and tail cone (fine contour lines over it)",
+        "color": "navy",
+        "smooth": true,
+        "points": [
+          [
+            0.5566502463054187,
+            -1
+          ],
+          [
+            0.563,
+            -1.0
+          ],
+          [
+            0.624,
+            -0.682
+          ],
+          [
+            0.692,
+            -0.546
+          ],
+          [
+            0.791,
+            -0.184
+          ],
+          [
+            0.838,
+            0.404
+          ],
+          [
+            0.855,
+            1.0
+          ],
+          [
+            0.8583743842364532,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2
+        ]
+      }
+    ],
+    "radome": {
+      "color": "orange"
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "navy",
+    "areas": [
+      {
+        "name": "orange sun round the S (rays and ring, simplified)",
+        "color": "orange",
+        "points": [
+          [
+            0.05,
+            0.12
+          ],
+          [
+            0.6,
+            0.0
+          ],
+          [
+            1.0,
+            0.1
+          ],
+          [
+            1.0,
+            0.85
+          ],
+          [
+            0.6,
+            0.98
+          ],
+          [
+            0.25,
+            0.9
+          ],
+          [
+            0.05,
+            0.55
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      }
+    ],
+    "mirrored": false,
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "navy",
+    "inner": "navy",
+    "confidence": "low",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "blue",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "SCX/sun-s",
+      "place": "fin",
+      "at": [
+        0.55,
+        0.5
+      ],
+      "height": 0.8,
+      "colors": [
+        "orange",
+        "navy"
+      ],
+      "description": "Sun Country's sun: a navy capital S inside an orange ring of sun rays, large across the fin; also small on the winglets.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Sun_Country_Airlines_logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "SCX/sun-s",
+      "place": "winglets",
+      "at": [
+        0.5,
+        0.5
+      ],
+      "height": 0.4,
+      "colors": [
+        "orange",
+        "navy"
+      ],
+      "description": "The sun-and-S on the winglets.",
+      "confidence": "low",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "SCX/us-flag",
+      "place": "fuselage",
+      "at": [
+        0.834,
+        0.206
+      ],
+      "height": 0.122,
+      "colors": [
+        "flagRed",
+        "white",
+        "navy"
+      ],
+      "description": "A small US flag after the registration.",
+      "confidence": "low",
+      "sourceRefs": [
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "sun country",
+      "place": "fuselage",
+      "at": [
+        0.149,
+        -0.048
+      ],
+      "height": 0.6,
+      "color": "white",
+      "style": "Sun Country's wordmark: medium-weight rounded lower case in white over the forward windows, the y descending.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Gotham Rounded Medium",
+          "Avenir Next Rounded Medium"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.91
+      },
+      "length": 0.267
+    }
+  ],
+  "notes": "Drawn from N856SY (Aug 2024), checked on N843SY (Feb 2026). The navy's contour lines and the fin's rays are reduced to their color fields. A few aircraft still wear the earlier blue scheme (blue with light rays forward, an orange line, white below) with the new lower-case titles: N805SY in October 2026. Re-checked 2026-11-15 on N856SY fitted to the measured 737-800 shape (its windows land on the shape's): the fuselage areas match the photo; the title runs x 0.149 to 0.416, its baseline a little below the windows (y -0.05, it had been drawn on the window line), the t's top at y 0.55, lowercase 0.91 of it (Sun Country's lettering has very short ascenders).",
+  "history": "Replaces Skyarium v1's approximate standard (a few colors from memory). The 2018 livery replaced the blue scheme, which survives on a few aircraft."
+}

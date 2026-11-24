@@ -1,0 +1,315 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "EJA",
+  "name": "NetJets pinstripe",
+  "kind": "standard",
+  "confidence": "low",
+  "drawnOn": "E55P",
+  "description": "White all over with thin pinstripes (navy, gold and red) running from the nose along the side below the windows to the tail, sweeping up at the back; no airline titles on the fuselage.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/NetJets",
+      "title": "Wikipedia: NetJets",
+      "accessed": "2026-11-13"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:NetJets_Embraer_Phenom_300_N469QS_BWI_MD1.jpg",
+      "title": "NetJets Embraer Phenom 300 N469QS BWI MD1.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "N469QS (Phenom 300) left side from below, 2025-09-25: the pinstripes."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F2F2F0",
+      "official": false
+    },
+    "navy": {
+      "hex": "#1F2547",
+      "official": false,
+      "name": "pinstripe navy"
+    },
+    "red": {
+      "hex": "#9E1B32",
+      "official": false,
+      "name": "pinstripe red"
+    },
+    "gold": {
+      "hex": "#B79A5B",
+      "official": false,
+      "name": "pinstripe gold"
+    },
+    "wingGray": {
+      "hex": "#C8CCD1",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "navy pinstripe",
+        "color": "navy",
+        "points": [
+          [
+            0.013,
+            -1.0
+          ],
+          [
+            0.224,
+            -0.268
+          ],
+          [
+            0.445,
+            -0.316
+          ],
+          [
+            0.666,
+            -0.453
+          ],
+          [
+            0.798,
+            -0.587
+          ],
+          [
+            0.886,
+            -0.728
+          ],
+          [
+            0.912,
+            -0.313
+          ],
+          [
+            0.912,
+            -0.537
+          ],
+          [
+            0.886,
+            -1.0
+          ],
+          [
+            0.798,
+            -0.833
+          ],
+          [
+            0.666,
+            -0.609
+          ],
+          [
+            0.445,
+            -0.442
+          ],
+          [
+            0.224,
+            -0.387
+          ],
+          [
+            0.013,
+            -1.0
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "gold pinstripe",
+        "color": "gold",
+        "points": [
+          [
+            0.013,
+            -1.0
+          ],
+          [
+            0.224,
+            -0.442
+          ],
+          [
+            0.445,
+            -0.501
+          ],
+          [
+            0.666,
+            -0.692
+          ],
+          [
+            0.798,
+            -1.0
+          ],
+          [
+            0.886,
+            -1.0
+          ],
+          [
+            0.912,
+            -0.66
+          ],
+          [
+            0.912,
+            -0.967
+          ],
+          [
+            0.886,
+            -1.0
+          ],
+          [
+            0.798,
+            -1.0
+          ],
+          [
+            0.666,
+            -0.835
+          ],
+          [
+            0.445,
+            -0.579
+          ],
+          [
+            0.224,
+            -0.513
+          ],
+          [
+            0.013,
+            -1.0
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "red pinstripe",
+        "color": "red",
+        "points": [
+          [
+            0.013,
+            -1.0
+          ],
+          [
+            0.224,
+            -0.513
+          ],
+          [
+            0.445,
+            -0.579
+          ],
+          [
+            0.666,
+            -0.835
+          ],
+          [
+            0.798,
+            -1.0
+          ],
+          [
+            0.886,
+            -1.0
+          ],
+          [
+            0.912,
+            -0.967
+          ],
+          [
+            0.912,
+            -1.0
+          ],
+          [
+            0.886,
+            -1.0
+          ],
+          [
+            0.798,
+            -1.0
+          ],
+          [
+            0.666,
+            -1.0
+          ],
+          [
+            0.445,
+            -0.753
+          ],
+          [
+            0.225,
+            -0.656
+          ],
+          [
+            0.013,
+            -1.0
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1
+        ]
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "plain",
+    "confidence": "low",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "mirrored": true,
+    "confidence": "low",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "white",
+    "inner": "white",
+    "areas": [
+      {
+        "name": "pinstripes near the tip",
+        "color": "navy",
+        "points": [
+          [
+            0,
+            0.6
+          ],
+          [
+            1,
+            0.7
+          ],
+          [
+            1,
+            0.8
+          ],
+          [
+            0,
+            0.7
+          ]
+        ]
+      }
+    ],
+    "confidence": "low",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "confidence": "low",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "logos": [],
+  "titles": [],
+  "notes": "Business jets of many types (Phenom 300, Citation Latitude, Challenger 350, Global, Gulfstream...), drawn here from one Phenom 300 (N469QS, Sept 2025). The stripes' colors and spacing are approximate at this resolution, and their path differs by type. NetJets Europe (NJE) uses a similar scheme. Re-checked 2026-11-15 on N469QS: the drawn stripes don't match the photo and need redrawing from a side-on photo. On the aircraft the three lines run nearly level along the side just under the windows from the nose to the engine, then sweep UP behind it, widening onto the fin's lower part (navy over red); the drawn ones start at the belly under the nose and drop back to the belly near the tail. No side-on Phenom 300 photo was found in this pass.",
+  "history": "Replaces Skyarium v1's approximate standard (a few colors from memory)."
+}

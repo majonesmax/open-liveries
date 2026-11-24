@@ -1,0 +1,475 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "IGO",
+  "name": "IndiGo livery",
+  "kind": "standard",
+  "from": "2006",
+  "confidence": "high",
+  "drawnOn": "A21N",
+  "description": "White upper body over a deep indigo lower body that dips in a long wave: high just under the windows over the wing, low behind it, sweeping up again into the fin; a light-blue stripe rides the wave at the nose and runs up the tail. Indigo 'IndiGo' wordmark ahead of the wing and again on the fin above light-blue and indigo diagonal bands; indigo engines with 'goIndiGo.in'.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:VT-IRZ_IndiGo_Airbus_A321-252NX_MSN_11998_VGHS.jpg",
+      "title": "VT-IRZ IndiGo Airbus A321-252NX MSN 11998 VGHS (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "A321neo from the right, side-on on the runway, 2025-10-24: the wave, stripes, titles, fin."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:(SGP-Singapore)_IndiGo_Airbus_A321-252NX_VT-NCR_@_WSSS_2026-03-11.jpg",
+      "title": "IndiGo Airbus A321-252NX VT-NCR @ WSSS 2026-03-11 (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "From the right and below on approach: the indigo belly, engines, sharklets."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:VT-NLA_(5_Oct_2026).jpg",
+      "title": "VT-NLA (5 Oct 2026) (CC0)",
+      "accessed": "2026-11-13",
+      "note": "A321XLR from the right and below, 2026-10-05: the same scheme on the newest type."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "indigo": {
+      "hex": "#1F2F9E",
+      "name": "IndiGo blue",
+      "official": false
+    },
+    "lightBlue": {
+      "hex": "#5DB1E4",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B7BCC3",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "name": "bare metal inlet lip",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "light-blue stripe along the wave at the nose",
+        "color": "lightBlue",
+        "points": [
+          [
+            0.31,
+            0.11
+          ],
+          [
+            0.27,
+            0.06
+          ],
+          [
+            0.214,
+            -0.04
+          ],
+          [
+            0.16,
+            -0.19
+          ],
+          [
+            0.084,
+            -0.52
+          ],
+          [
+            0.058,
+            -0.68
+          ],
+          [
+            0.04,
+            -0.85
+          ],
+          [
+            0.1,
+            -0.9
+          ],
+          [
+            0.25,
+            -0.3
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0
+        ],
+        "smooth": true
+      },
+      {
+        "name": "light-blue stripe up to the fin",
+        "color": "lightBlue",
+        "points": [
+          [
+            0.66,
+            -0.7
+          ],
+          [
+            0.7,
+            -0.56
+          ],
+          [
+            0.76,
+            -0.38
+          ],
+          [
+            0.8,
+            -0.13
+          ],
+          [
+            0.826,
+            0.22
+          ],
+          [
+            0.843,
+            1.0
+          ],
+          [
+            0.853,
+            1.0
+          ],
+          [
+            0.836,
+            0.2
+          ],
+          [
+            0.81,
+            -0.2
+          ],
+          [
+            0.772,
+            -0.5
+          ],
+          [
+            0.72,
+            -0.72
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ],
+        "smooth": true
+      },
+      {
+        "name": "indigo lower body (the wave) and tail",
+        "color": "indigo",
+        "points": [
+          [
+            0.0,
+            -0.95
+          ],
+          [
+            0.052,
+            -0.83
+          ],
+          [
+            0.074,
+            -0.66
+          ],
+          [
+            0.106,
+            -0.52
+          ],
+          [
+            0.16,
+            -0.34
+          ],
+          [
+            0.214,
+            -0.15
+          ],
+          [
+            0.267,
+            0.0
+          ],
+          [
+            0.321,
+            0.04
+          ],
+          [
+            0.429,
+            0.03
+          ],
+          [
+            0.509,
+            -0.02
+          ],
+          [
+            0.563,
+            -0.15
+          ],
+          [
+            0.617,
+            -0.34
+          ],
+          [
+            0.671,
+            -0.55
+          ],
+          [
+            0.705,
+            -0.72
+          ],
+          [
+            0.76,
+            -0.5
+          ],
+          [
+            0.8,
+            -0.3
+          ],
+          [
+            0.83,
+            0.0
+          ],
+          [
+            0.85,
+            0.5
+          ],
+          [
+            0.857,
+            1.0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            0,
+            -1
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ],
+        "smooth": true
+      }
+    ],
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "mirrored": true,
+    "areas": [
+      {
+        "name": "light-blue band",
+        "color": "lightBlue",
+        "points": [
+          [
+            1,
+            0.93
+          ],
+          [
+            0.11,
+            0
+          ],
+          [
+            0.22,
+            0
+          ],
+          [
+            1,
+            0.76
+          ]
+        ]
+      },
+      {
+        "name": "indigo lower aft fin",
+        "color": "indigo",
+        "points": [
+          [
+            1,
+            0.56
+          ],
+          [
+            0.35,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "indigo",
+    "inner": "indigo",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "indigo",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "IGO/dot-plane",
+      "place": "fuselage",
+      "at": [
+        0.055,
+        -0.15
+      ],
+      "height": 0.2,
+      "colors": [
+        "indigo"
+      ],
+      "description": "IndiGo's symbol: a small aircraft seen from above, made of square dots, flying up and to the front, under the cockpit windows.",
+      "reference": "https://commons.wikimedia.org/wiki/File:IndiGo_Airlines_logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0
+      ]
+    },
+    {
+      "mark": "IGO/india-flag",
+      "place": "fuselage",
+      "at": [
+        0.79,
+        0.26
+      ],
+      "height": 0.12,
+      "colors": [
+        "#FF9933",
+        "#FFFFFF",
+        "#138808"
+      ],
+      "description": "Small Indian tricolor ahead of the registration by the aft door.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Flag_of_India.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "IndiGo",
+      "place": "fuselage",
+      "at": [
+        0.138,
+        0.21
+      ],
+      "height": 0.41,
+      "length": 0.142,
+      "color": "indigo",
+      "style": "The IndiGo wordmark: a light, round geometric sans in mixed case (capital I and G), widely set, through and above the forward windows.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Regular",
+          "Century Gothic"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.73
+      }
+    },
+    {
+      "text": "IndiGo",
+      "place": "fin",
+      "at": [
+        0.22,
+        0.55
+      ],
+      "height": 0.12,
+      "color": "indigo",
+      "style": "The wordmark on the upper fin, set along the light-blue band (about 40° to the fin root, rising aft), above it.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Regular",
+          "Century Gothic"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.73
+      },
+      "rotationDeg": 40,
+      "length": 0.8
+    },
+    {
+      "text": "goIndiGo.in",
+      "place": "engines",
+      "at": [
+        0.17,
+        0.0
+      ],
+      "height": 0.25,
+      "color": "white",
+      "style": "The web address in white on the outboard cowling, the same round sans, bolder.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Demi Bold",
+          "Century Gothic Bold"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.73
+      },
+      "length": 0.53
+    }
+  ],
+  "notes": "Commons' recent photos are all from the right; the left is taken to be the same with the fin bands mirrored and the titles in the same places. Drawn from the A321neo (longer than the generic body): the wave's crest and trough sit relative to the wing. The scheme has been essentially unchanged since launch (2006), refreshed only in small details; ATR 72s carry the same. Re-checked 2026-11-15 on VT-IRZ (right side, side-on): the fuselage title runs x 0.138 to 0.28 as drawn (lowercase 0.73 of the I); the fin title runs about 0.8 of the chord where it starts; the engine's 'goIndiGo.in' from 0.17 to 0.70 of the nacelle. The wave and both light-blue stripes are curves along their whole length: smooth.",
+  "history": "Replaced Skyarium v1's approximation. IndiGo's scheme since its first A320 (2006)."
+}

@@ -1,0 +1,117 @@
+{
+  "_about": "ATR 72-500/-600 (AT75, AT76), from ATR's ATR 72-500 spec sheet (ATR family brochure, 2019, its page 20, published on atr-aircraft.com): a dimensioned side, plan and front view, vector, drawn as an illustration (shaded, its lines from black to pale grey: layers.py --mode lines --contrast 20). ATR's Airport Planning Manuals aren't public (its customer portal); the 72-600's own fact sheet draws the same three views (same printed figures) as a picture, so the 72-500 sheet's vector drawing is used: the 72-600 is the same airframe (27.166 m, 27.05 m span, 3.93 m propellers, the same six-bladed 568F). The plan view is drawn turned 45 degrees, rendered at scale 40.33 (the side's scale by the nose-to-tail length) and turned level; the front view at 39.70 (by the printed 27.05 m span). Pixels of those rasters, line centres. Scaled by the printed 27.166 m length, nose to tail cone. The plan draws the nacelles 4.4% further out than the front view and the printed 8.10 m between the propellers: the engine's place is the front view's propeller disc. Doors as the left side view draws them: the forward cargo door (left only: Commons photos of the right side show none there), the forward exit and the aft door (on both sides: the right side's forward exit and aft service door are about opposite, as photos show).",
+  "out": "../../../../shapes/AT76.json",
+  "length": 27.166,
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "stabilizer": {
+    "mount": "fin"
+  },
+  "propeller": {
+    "blades": 6,
+    "x": 2050,
+    "hub": 1138,
+    "front": [1765.5, 2578.5],
+    "spinner": [1934, 2093],
+    "spinnerHeight": [1072, 1205]
+  },
+  "refs": {
+    "side": {
+      "nose": 155,
+      "tail": 5836,
+      "windowRow": [1255, 1360],
+      "windowGap": 5,
+      "windowMinWidth": 30,
+      "windowInset": 3
+    },
+    "plan": {
+      "nose": 146.5,
+      "centerline": 2969
+    },
+    "front": {
+      "centerline": 3020,
+      "crownTop": 1083
+    }
+  },
+  "doors": [
+    {
+      "kind": "cargo",
+      "box": [909, 1179, 1201, 1556],
+      "side": "left"
+    },
+    {
+      "kind": "exit",
+      "box": [1301, 1207, 1411, 1397]
+    },
+    {
+      "kind": "door",
+      "box": [4232, 1146, 4398, 1526]
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [510, 1265],
+      [590, 1165],
+      [628, 1165],
+      [628, 1281]
+    ],
+    [
+      [641, 1165],
+      [685, 1165],
+      [728, 1265],
+      [641, 1281]
+    ]
+  ],
+  "printed": {
+    "fuselage length": 27.166,
+    "wingspan": 27.05,
+    "engine out from the centerline": 4.05,
+    "propellers apart": 8.1,
+    "propeller diameter": 3.93
+  },
+  "meta": {
+    "id": "AT76",
+    "name": "ATR 72-600",
+    "types": ["AT76", "AT75"],
+    "confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.atr-aircraft.com/wp-content/uploads/2020/07/72-500.pdf",
+        "title": "ATR, ATR 72-500 (ATR family brochure, 2019, page 20): side, plan and front views with their dimensions",
+        "accessed": "2026-11-16",
+        "note": "Outlines read off the sheet's three views (tools/trace/at76/); the figures are the aircraft's measurements, not a copy of the drawing. ATR's Airport Planning Manuals aren't published on its public site; this is ATR's own dimensioned drawing, drawn as an illustration, so its confidence is medium. The 72-600 is the same airframe as the 72-500 (ATR's 72-600 fact sheet prints the same dimensions over the same views, as a picture). The plan view is drawn turned and was turned level; it draws the nacelles 4.4% further out than the front view and the printed propeller spacing, which the shape keeps. Doors from the side view; their sides from photos (below)."
+      },
+      {
+        "url": "https://www.atr-aircraft.com/wp-content/uploads/2020/07/Factsheets_-_ATR_72-600.pdf",
+        "title": "ATR, ATR 72-600 fact sheet",
+        "accessed": "2026-11-16",
+        "note": "The 72-600's dimensions: the same as the 72-500's."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Binter_Canarias_ATR_72-600_(EC-MXQ)_@_TFS,_Jan_2019.jpg",
+        "title": "Binter Canarias ATR 72-600 EC-MXQ, right side (CC BY-SA 2.0)",
+        "accessed": "2026-11-16",
+        "note": "Door sides only: no cargo door forward on the right; a forward exit and an aft door, about opposite the left's."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:EC-MJG_-_Binter_Canarias_-_ATR72-600_(36575659514).jpg",
+        "title": "Binter Canarias ATR 72-600 EC-MJG, left side (CC BY-SA 2.0)",
+        "accessed": "2026-11-16",
+        "note": "Door sides only: the forward cargo door, forward exit and aft passenger door on the left, as the sheet draws them."
+      }
+    ]
+  },
+  "windows": {
+    "z": [0.022, 0.495],
+    "width": 0.273,
+    "x": [
+      5.842, 6.399, 6.927, 7.436, 7.983, 8.512, 9.059, 9.606, 10.133, 10.68, 11.23, 11.777, 12.342, 12.889, 13.434,
+      14.003, 14.572, 15.138, 15.704, 16.251, 16.78, 17.308, 17.836, 18.363, 18.891
+    ],
+    "note": "Each window's middle as the side view draws it (its two outlines' edges along the row): the shape's own window search can't separate them where the propeller's blade crosses the row."
+  }
+}

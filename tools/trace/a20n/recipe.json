@@ -1,0 +1,110 @@
+{
+  "_about": "A320neo with sharklets, from Airbus AC A320 (Jul 01/26) 2-2-0 A320neo sheets (side, front: page index 47; plan: 48). Pixels of layers.py rasters at scale 20, line centres.",
+  "out": "../../../../shapes/A20N.json",
+  "length": 37.57,
+  "wingtip": "sharklet",
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "refs": {
+    "side": {
+      "nose": 203,
+      "tail": 6241,
+      "cowlEnd": 2588,
+      "windowRow": [1360, 1418],
+      "windowsAlso": [1364, 3452, 3537]
+    },
+    "plan": {
+      "nose": 249,
+      "centerline": 3064
+    },
+    "front": {
+      "centerline": 3223,
+      "crownTop": 1194
+    }
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [933, 1255, 1094, 1573]
+    },
+    {
+      "kind": "exit",
+      "box": [2488, 1323, 2583, 1514]
+    },
+    {
+      "kind": "exit",
+      "box": [2626, 1322, 2720, 1513]
+    },
+    {
+      "kind": "door",
+      "box": [4883, 1228, 5046, 1542]
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [426, 1431],
+      [456, 1400],
+      [497, 1359],
+      [551, 1359],
+      [555, 1363],
+      [506, 1426],
+      [502, 1430],
+      [491, 1431],
+      [441, 1435],
+      [430, 1435]
+    ],
+    [
+      [512, 1431],
+      [508, 1427],
+      [509, 1425],
+      [551, 1371],
+      [555, 1366],
+      [562, 1359],
+      [623, 1359],
+      [627, 1363],
+      [627, 1443],
+      [623, 1447],
+      [608, 1447]
+    ],
+    [
+      [629, 1443],
+      [629, 1363],
+      [633, 1359],
+      [703, 1359],
+      [713, 1368],
+      [726, 1381],
+      [726, 1440],
+      [725, 1442],
+      [721, 1446],
+      [719, 1447],
+      [633, 1447]
+    ]
+  ],
+  "printed": {
+    "fuselage height": 4.14,
+    "fuselage width": 3.95,
+    "wingspan": 35.8,
+    "tailplane span": 12.45,
+    "engine out from the centerline": 5.75,
+    "fin tip above the crown": 5.87,
+    "winglet height": 2.43
+  },
+  "meta": {
+    "id": "A20N",
+    "name": "Airbus A320neo with sharklets",
+    "types": ["A20N"],
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://aircraft.airbus.com/en/customer-care/fleet-wide-care/airport-operations-and-aircraft-characteristics/aircraft-characteristics",
+        "title": "Airbus, A320 Aircraft Characteristics: Airport and Maintenance Planning (Jul 01/26), 2-2-0 General Aircraft Dimensions, A320neo sheets",
+        "accessed": "2026-11-15",
+        "note": "Dimensions and outlines read off the side, plan and front views (tools/trace/a20n/); the figures are the aircraft's measurements, not a copy of the drawing."
+      }
+    ]
+  }
+}

@@ -1,0 +1,1375 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "freedom-one",
+  "airline": "SWA",
+  "name": "Freedom One (US flag)",
+  "kind": "special",
+  "from": "2021",
+  "description": "Fuselage: US flag: forward fuselage and nose navy blue with scattered white stars (blue canton) back to about the wing leading edge; aft of that red and white stripes ripple along the fuselage to the tail in irregular folds (gray shading on the white). Cheatlines: the flag's stripes instead. Tail: from June 2026 Independence One's fin (navy, a white band and a red band along the leading edge and tip on the Heart's lines) with white 'Southwest'; the Heart fin before. Engines: navy at the front; aft of a diagonal edge, red, white and red flag stripes over the cowling; no stars on the cowling. Winglets: navy with '250' (2026; gray before). Titles: 'Southwest' white on the lower fin; 'Freedom One' small under the cockpit until 2026, replaced in 2026 by the America250 mark ('AMERICA' over '250'). Artwork: US flag. Colors hex: approximate.",
+  "confidence": "medium",
+  "drawnOn": "B738",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Southwest_Airlines_fleet",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/southwest-airlines-announces-partnership-with-america250-and-unveils-independence-one-in-celebration-of-giving-people-the-freedom-to-fly-for-55-years-302754776.html",
+      "accessed": "2026-11-22",
+      "note": "Southwest's release of 2026-04-27: 'the America250 logo flying proudly on Independence One, Liberty One, and Freedom One all year long'."
+    },
+    {
+      "url": "https://commons.wikimedia.org/w/index.php?search=N500WR+Freedom+One",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Southwest_Boeing_737-800_N500WR_BWI_MD5.jpg",
+      "title": "Southwest Boeing 737-800 N500WR BWI MD5.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-12",
+      "note": "N500WR from the left and a little below, 2025-10-16: the starred navy field, the rippling stripes, engine, fin."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N500WR_Southwest_Airlines_Boeing_737-8H4_s_n_36898_\"Freedom_One\"_(54863408667).jpg",
+      "title": "N500WR Southwest Airlines Boeing 737-8H4 s n 36898 \"Freedom One\" (54863408667).jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-12",
+      "note": "N500WR, 2025-10-18: the same scheme."
+    },
+    {
+      "url": "https://mma.prnewswire.com/media/2967015/Liberty_One_joins_Freedom_One_as_part_of_Southwest_s_Specialty_Fleet__1.jpg",
+      "title": "Liberty One joins Freedom One as part of Southwest's Specialty Fleet (airline press photo)",
+      "accessed": "2026-11-22",
+      "note": "Airline press photo with the 2026-04-27 release (measured only, not copied): N500WR's left side, level, beside N8719Q: the America250 mark under the cockpit where 'Freedom One' was (no 'Freedom One' lettering seen), navy winglets with '250'. A wide lens and the jet at an angle: too distorted to fit."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Freedom_One_at_SBA_(2_of_4)_(53020469315).jpg",
+      "title": "Freedom One at SBA (2 of 4) (53020469315).jpg (CC BY 2.0, Glenn Beltz)",
+      "accessed": "2026-11-22",
+      "note": "N500WR's left side, level, on its takeoff run, 2023-06-14: the stripes and the navy field's edge measured from this one (fitted to shapes/B738.json within about 10 px)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Freedom_One_at_SBA_(4_of_4)_(53020469425).jpg",
+      "title": "Freedom One at SBA (4 of 4) (53020469425).jpg (CC BY 2.0, Glenn Beltz)",
+      "accessed": "2026-11-22",
+      "note": "N500WR's right side, 2023-06-14: its stripes ripple differently from the left's (not drawn)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Southwest_Boeing_737-8_MAX_N1776R_BWI_MD1.jpg",
+      "title": "Southwest Boeing 737-8 MAX N1776R BWI MD1.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-23",
+      "note": "Independence One (N1776R), 2026-04-30: its fin, measured on the Heart fin's lines, copied here as this jet's fin since June 2026."
+    },
+    {
+      "url": "https://community.infiniteflight.com/t/661849/4183",
+      "title": "Southwest livery tracking thread, Infinite Flight community",
+      "accessed": "2026-11-23",
+      "note": "Infinite Flight community forum, Southwest livery-tracking thread (evidence only, nothing measured): spotters report N500WR repainted at GEG 2026-06-17 to 06-20 with Independence One's red, white and navy fin, and photograph it with that fin at SAN on 2026-07-01."
+    }
+  ],
+  "palette": {
+    "blue": {
+      "hex": "#304CB2",
+      "name": "Bold Blue",
+      "official": true
+    },
+    "red": {
+      "hex": "#D5152B",
+      "official": false
+    },
+    "yellow": {
+      "hex": "#F9B612",
+      "official": false
+    },
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B4B9C0",
+      "official": false
+    },
+    "wingletGray": {
+      "hex": "#D3D6DA",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "name": "bare metal inlet lip",
+      "official": false
+    },
+    "navy": {
+      "hex": "#1B2350",
+      "official": false
+    },
+    "flagRed": {
+      "hex": "#D8202A",
+      "official": false
+    },
+    "flagWhite": {
+      "hex": "#F2F2F0",
+      "official": false
+    },
+    "finNavy": {
+      "hex": "#16204F",
+      "official": false
+    },
+    "cream": {
+      "hex": "#EEEBE3",
+      "official": false
+    },
+    "sweepRed": {
+      "hex": "#E0202E",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "flagWhite",
+    "areas": [
+      {
+        "name": "flag stripe, red, 1 of 7 from the crown, rippling",
+        "color": "flagRed",
+        "points": [
+          [
+            0.3,
+            1
+          ],
+          [
+            1.0,
+            1
+          ],
+          [
+            1.0,
+            0.72
+          ],
+          [
+            0.98,
+            0.68
+          ],
+          [
+            0.965,
+            0.58
+          ],
+          [
+            0.955,
+            0.51
+          ],
+          [
+            0.945,
+            0.58
+          ],
+          [
+            0.93,
+            0.74
+          ],
+          [
+            0.915,
+            0.78
+          ],
+          [
+            0.9,
+            0.66
+          ],
+          [
+            0.885,
+            0.52
+          ],
+          [
+            0.87,
+            0.43
+          ],
+          [
+            0.855,
+            0.38
+          ],
+          [
+            0.835,
+            0.35
+          ],
+          [
+            0.815,
+            0.4
+          ],
+          [
+            0.8,
+            0.5
+          ],
+          [
+            0.785,
+            0.68
+          ],
+          [
+            0.765,
+            0.84
+          ],
+          [
+            0.74,
+            0.84
+          ],
+          [
+            0.715,
+            0.74
+          ],
+          [
+            0.7,
+            0.66
+          ],
+          [
+            0.68,
+            0.57
+          ],
+          [
+            0.665,
+            0.555
+          ],
+          [
+            0.65,
+            0.56
+          ],
+          [
+            0.635,
+            0.64
+          ],
+          [
+            0.62,
+            0.78
+          ],
+          [
+            0.6,
+            0.86
+          ],
+          [
+            0.56,
+            0.88
+          ],
+          [
+            0.53,
+            0.82
+          ],
+          [
+            0.515,
+            0.72
+          ],
+          [
+            0.505,
+            0.67
+          ],
+          [
+            0.49,
+            0.66
+          ],
+          [
+            0.47,
+            0.71
+          ],
+          [
+            0.45,
+            0.8
+          ],
+          [
+            0.42,
+            0.88
+          ],
+          [
+            0.36,
+            0.9
+          ],
+          [
+            0.3,
+            0.9
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "flag stripe, red, 3 of 7 from the crown, rippling",
+        "color": "flagRed",
+        "points": [
+          [
+            0.3,
+            0.29
+          ],
+          [
+            0.34,
+            0.31
+          ],
+          [
+            0.36,
+            0.33
+          ],
+          [
+            0.38,
+            0.38
+          ],
+          [
+            0.4,
+            0.44
+          ],
+          [
+            0.42,
+            0.51
+          ],
+          [
+            0.44,
+            0.53
+          ],
+          [
+            0.46,
+            0.51
+          ],
+          [
+            0.47,
+            0.46
+          ],
+          [
+            0.48,
+            0.39
+          ],
+          [
+            0.5,
+            0.3
+          ],
+          [
+            0.52,
+            0.26
+          ],
+          [
+            0.54,
+            0.27
+          ],
+          [
+            0.56,
+            0.32
+          ],
+          [
+            0.58,
+            0.38
+          ],
+          [
+            0.6,
+            0.45
+          ],
+          [
+            0.62,
+            0.48
+          ],
+          [
+            0.635,
+            0.47
+          ],
+          [
+            0.645,
+            0.39
+          ],
+          [
+            0.655,
+            0.27
+          ],
+          [
+            0.67,
+            0.12
+          ],
+          [
+            0.69,
+            0.04
+          ],
+          [
+            0.72,
+            0.05
+          ],
+          [
+            0.75,
+            0.16
+          ],
+          [
+            0.78,
+            0.29
+          ],
+          [
+            0.795,
+            0.29
+          ],
+          [
+            0.81,
+            0.19
+          ],
+          [
+            0.82,
+            0.09
+          ],
+          [
+            0.83,
+            0.01
+          ],
+          [
+            0.845,
+            -0.05
+          ],
+          [
+            0.87,
+            -0.07
+          ],
+          [
+            0.9,
+            -0.06
+          ],
+          [
+            0.93,
+            -0.04
+          ],
+          [
+            0.95,
+            -0.08
+          ],
+          [
+            0.97,
+            -0.14
+          ],
+          [
+            1.0,
+            -0.2
+          ],
+          [
+            1.0,
+            -0.55
+          ],
+          [
+            0.98,
+            -0.55
+          ],
+          [
+            0.96,
+            -0.53
+          ],
+          [
+            0.95,
+            -0.48
+          ],
+          [
+            0.92,
+            -0.45
+          ],
+          [
+            0.88,
+            -0.43
+          ],
+          [
+            0.86,
+            -0.35
+          ],
+          [
+            0.84,
+            -0.2
+          ],
+          [
+            0.83,
+            -0.07
+          ],
+          [
+            0.81,
+            0.03
+          ],
+          [
+            0.785,
+            0.05
+          ],
+          [
+            0.76,
+            -0.05
+          ],
+          [
+            0.73,
+            -0.13
+          ],
+          [
+            0.7,
+            -0.13
+          ],
+          [
+            0.67,
+            -0.02
+          ],
+          [
+            0.65,
+            0.11
+          ],
+          [
+            0.63,
+            0.16
+          ],
+          [
+            0.6,
+            0.14
+          ],
+          [
+            0.56,
+            0.13
+          ],
+          [
+            0.53,
+            0.13
+          ],
+          [
+            0.5,
+            0.18
+          ],
+          [
+            0.48,
+            0.25
+          ],
+          [
+            0.46,
+            0.27
+          ],
+          [
+            0.44,
+            0.26
+          ],
+          [
+            0.42,
+            0.22
+          ],
+          [
+            0.38,
+            0.2
+          ],
+          [
+            0.34,
+            0.19
+          ],
+          [
+            0.3,
+            0.17
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "flag stripe, red, 5 of 7 from the crown, rippling",
+        "color": "flagRed",
+        "points": [
+          [
+            0.3,
+            -0.09
+          ],
+          [
+            0.318,
+            -0.074
+          ],
+          [
+            0.335,
+            -0.076
+          ],
+          [
+            0.352,
+            -0.093
+          ],
+          [
+            0.37,
+            -0.123
+          ],
+          [
+            0.387,
+            -0.158
+          ],
+          [
+            0.405,
+            -0.189
+          ],
+          [
+            0.422,
+            -0.208
+          ],
+          [
+            0.44,
+            -0.212
+          ],
+          [
+            0.458,
+            -0.199
+          ],
+          [
+            0.475,
+            -0.172
+          ],
+          [
+            0.492,
+            -0.138
+          ],
+          [
+            0.51,
+            -0.105
+          ],
+          [
+            0.527,
+            -0.081
+          ],
+          [
+            0.545,
+            -0.073
+          ],
+          [
+            0.562,
+            -0.081
+          ],
+          [
+            0.58,
+            -0.105
+          ],
+          [
+            0.597,
+            -0.138
+          ],
+          [
+            0.66,
+            -0.15
+          ],
+          [
+            0.7,
+            -0.18
+          ],
+          [
+            0.72,
+            -0.3
+          ],
+          [
+            0.74,
+            -0.37
+          ],
+          [
+            0.78,
+            -0.38
+          ],
+          [
+            0.82,
+            -0.36
+          ],
+          [
+            0.84,
+            -0.44
+          ],
+          [
+            0.855,
+            -0.52
+          ],
+          [
+            0.862,
+            -0.56,
+            1
+          ],
+          [
+            0.855,
+            -0.59
+          ],
+          [
+            0.84,
+            -0.62
+          ],
+          [
+            0.82,
+            -0.64
+          ],
+          [
+            0.78,
+            -0.65
+          ],
+          [
+            0.74,
+            -0.62
+          ],
+          [
+            0.72,
+            -0.52
+          ],
+          [
+            0.7,
+            -0.32
+          ],
+          [
+            0.66,
+            -0.35
+          ],
+          [
+            0.597,
+            -0.424
+          ],
+          [
+            0.58,
+            -0.391
+          ],
+          [
+            0.562,
+            -0.367
+          ],
+          [
+            0.545,
+            -0.359
+          ],
+          [
+            0.527,
+            -0.367
+          ],
+          [
+            0.51,
+            -0.391
+          ],
+          [
+            0.492,
+            -0.424
+          ],
+          [
+            0.475,
+            -0.458
+          ],
+          [
+            0.458,
+            -0.485
+          ],
+          [
+            0.44,
+            -0.498
+          ],
+          [
+            0.422,
+            -0.494
+          ],
+          [
+            0.405,
+            -0.474
+          ],
+          [
+            0.387,
+            -0.443
+          ],
+          [
+            0.37,
+            -0.409
+          ],
+          [
+            0.352,
+            -0.379
+          ],
+          [
+            0.335,
+            -0.361
+          ],
+          [
+            0.318,
+            -0.36
+          ],
+          [
+            0.3,
+            -0.376
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          6,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "flag stripe, red, 7 of 7 from the crown, rippling",
+        "color": "flagRed",
+        "points": [
+          [
+            0.3,
+            -0.661
+          ],
+          [
+            0.318,
+            -0.646
+          ],
+          [
+            0.335,
+            -0.647
+          ],
+          [
+            0.352,
+            -0.665
+          ],
+          [
+            0.37,
+            -0.695
+          ],
+          [
+            0.387,
+            -0.729
+          ],
+          [
+            0.405,
+            -0.76
+          ],
+          [
+            0.422,
+            -0.78
+          ],
+          [
+            0.44,
+            -0.784
+          ],
+          [
+            0.458,
+            -0.77
+          ],
+          [
+            0.475,
+            -0.743
+          ],
+          [
+            0.492,
+            -0.709
+          ],
+          [
+            0.51,
+            -0.676
+          ],
+          [
+            0.527,
+            -0.653
+          ],
+          [
+            0.545,
+            -0.644
+          ],
+          [
+            0.562,
+            -0.653
+          ],
+          [
+            0.58,
+            -0.676
+          ],
+          [
+            0.597,
+            -0.709
+          ],
+          [
+            0.615,
+            -0.743
+          ],
+          [
+            0.632,
+            -0.77
+          ],
+          [
+            0.65,
+            -0.784
+          ],
+          [
+            0.68,
+            -0.72
+          ],
+          [
+            0.71,
+            -0.78
+          ],
+          [
+            0.73,
+            -0.88
+          ],
+          [
+            0.745,
+            -1.0
+          ],
+          [
+            0.3,
+            -1.0
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "navy field with white stars, nose to the wing",
+        "color": "navy",
+        "points": [
+          [
+            0,
+            1
+          ],
+          [
+            0.3,
+            1
+          ],
+          [
+            0.306,
+            0.75
+          ],
+          [
+            0.32,
+            0.5
+          ],
+          [
+            0.335,
+            0.3
+          ],
+          [
+            0.347,
+            0.15
+          ],
+          [
+            0.357,
+            0.0
+          ],
+          [
+            0.375,
+            -0.2
+          ],
+          [
+            0.405,
+            -0.33
+          ],
+          [
+            0.436,
+            -0.45
+          ],
+          [
+            0.442,
+            -1
+          ],
+          [
+            0,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "navy dorsal fillet, the fin's navy run forward",
+        "color": "finNavy",
+        "points": [
+          [
+            0.762,
+            1
+          ],
+          [
+            0.8,
+            0.93
+          ],
+          [
+            0.985,
+            0.93
+          ],
+          [
+            0.985,
+            1
+          ]
+        ],
+        "sourceRefs": [
+          8,
+          9
+        ],
+        "confidence": "low"
+      }
+    ],
+    "radome": {
+      "color": "navy",
+      "to": 0.025
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      6,
+      3,
+      4
+    ]
+  },
+  "fin": {
+    "base": "finNavy",
+    "areas": [
+      {
+        "name": "white band",
+        "color": "cream",
+        "above": [
+          [
+            0,
+            0.213
+          ],
+          [
+            0.081,
+            0.235
+          ],
+          [
+            0.416,
+            0.324
+          ],
+          [
+            0.65,
+            0.404
+          ],
+          [
+            0.803,
+            0.479
+          ],
+          [
+            1,
+            0.555
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "red band along the leading edge and tip",
+        "color": "sweepRed",
+        "above": [
+          [
+            0,
+            0.3
+          ],
+          [
+            0.126,
+            0.377
+          ],
+          [
+            0.246,
+            0.452
+          ],
+          [
+            0.427,
+            0.597
+          ],
+          [
+            0.561,
+            0.738
+          ],
+          [
+            0.692,
+            0.877
+          ],
+          [
+            0.766,
+            0.946
+          ],
+          [
+            0.82,
+            1.0
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "white leading edge along the red",
+        "color": "cream",
+        "points": [
+          [
+            0,
+            0.3
+          ],
+          [
+            0.025,
+            0.3
+          ],
+          [
+            0.025,
+            1.0
+          ],
+          [
+            0,
+            1.0
+          ]
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      8,
+      9
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "navy",
+    "inner": "navy",
+    "confidence": "medium",
+    "sourceRefs": [
+      5
+    ]
+  },
+  "engines": {
+    "cowling": "navy",
+    "inletLip": "lip",
+    "areas": [
+      {
+        "name": "white over the cowling aft of a diagonal edge (the flag's stripes)",
+        "color": "flagWhite",
+        "points": [
+          [
+            0.21,
+            1
+          ],
+          [
+            0.78,
+            1
+          ],
+          [
+            0.78,
+            -1
+          ],
+          [
+            0.71,
+            -1
+          ],
+          [
+            0.62,
+            -0.61
+          ],
+          [
+            0.52,
+            -0.22
+          ],
+          [
+            0.37,
+            0.22
+          ],
+          [
+            0.24,
+            0.8
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "red stripe over the top of the cowling",
+        "color": "flagRed",
+        "points": [
+          [
+            0.21,
+            1
+          ],
+          [
+            0.78,
+            1
+          ],
+          [
+            0.78,
+            0.39
+          ],
+          [
+            0.6,
+            0.39
+          ],
+          [
+            0.44,
+            0.49
+          ],
+          [
+            0.275,
+            0.69
+          ],
+          [
+            0.24,
+            0.8
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "red stripe over the lower aft cowling",
+        "color": "flagRed",
+        "points": [
+          [
+            0.555,
+            -0.41
+          ],
+          [
+            0.78,
+            -0.41
+          ],
+          [
+            0.78,
+            -1
+          ],
+          [
+            0.71,
+            -1
+          ],
+          [
+            0.62,
+            -0.61
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "bare metal exhaust nozzle aft of the cowling",
+        "color": "lip",
+        "points": [
+          [
+            0.78,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            0.78,
+            -1
+          ]
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      5,
+      6
+    ]
+  },
+  "logos": [
+    {
+      "mark": "SWA/heart",
+      "place": "fuselage",
+      "at": [
+        0.183,
+        0.523
+      ],
+      "height": 0.13,
+      "colors": [
+        "blue",
+        "red",
+        "yellow"
+      ],
+      "description": "The small Southwest Heart above and just aft of the forward passenger door.",
+      "reference": "https://commons.wikimedia.org/wiki/Category:Southwest_Airlines",
+      "side": "both",
+      "confidence": "medium",
+      "sourceRefs": [
+        3,
+        4
+      ]
+    },
+    {
+      "mark": "SWA/flag-stars",
+      "place": "fuselage",
+      "at": [
+        0.253,
+        -0.066
+      ],
+      "height": 1.6,
+      "colors": [
+        "white"
+      ],
+      "description": "About thirty large white five-pointed stars scattered over the navy field in offset rows, from the forward door to the wing, the windows running through them.",
+      "confidence": "medium",
+      "sourceRefs": [
+        3,
+        4
+      ]
+    },
+    {
+      "mark": "SWA/america250",
+      "place": "fuselage",
+      "at": [
+        0.05,
+        -0.08
+      ],
+      "height": 0.42,
+      "colors": [
+        "white",
+        "flagRed"
+      ],
+      "description": "The America250 mark under the cockpit windows, where 'Freedom One' was until 2026: 'AMERICA' in small white capitals over a large looping '250' in red and white. About 1.9 m back (centered), 0.6-0.7 m tall overall.",
+      "reference": "https://www.prnewswire.com/news-releases/southwest-airlines-announces-partnership-with-america250-and-unveils-independence-one-in-celebration-of-giving-people-the-freedom-to-fly-for-55-years-302754776.html",
+      "confidence": "medium",
+      "sourceRefs": [
+        5,
+        1
+      ]
+    },
+    {
+      "mark": "SWA/america250",
+      "place": "winglets",
+      "at": [
+        0.5,
+        0.25
+      ],
+      "height": 0.12,
+      "colors": [
+        "white",
+        "flagRed"
+      ],
+      "description": "'250' low on the navy winglet's outer face.",
+      "confidence": "medium",
+      "sourceRefs": [
+        5
+      ]
+    },
+    {
+      "mark": "SWA/us-flag",
+      "place": "fin",
+      "at": [
+        0.02,
+        0.05
+      ],
+      "height": 0.055,
+      "colors": [
+        "sweepRed",
+        "white",
+        "finNavy"
+      ],
+      "description": "A small US flag ahead of the fin title.",
+      "confidence": "medium",
+      "sourceRefs": [
+        8,
+        9
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Southwest",
+      "place": "fin",
+      "at": [
+        0.084,
+        0.03
+      ],
+      "height": 0.12,
+      "color": "white",
+      "style": "The Southwest wordmark, white on the navy at the fin's root.",
+      "confidence": "medium",
+      "sourceRefs": [
+        8,
+        9
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Bold",
+          "Gotham Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      },
+      "length": 0.86
+    }
+  ],
+  "notes": "Very similar to Liberty One (N8719Q); tell apart by type (737-800 vs MAX 8 split-tip winglet/serrated nacelles) and registration. Drawn from Oct 2025 photos of N500WR (left side). The stripes' ripples are drawn as an even wave: the real folds (with gray shading on the white) vary along the fuselage. The 2026 America250 decal is not in these photos. Re-checked 2026-11-15: the fin is the state jets' Heart fin as re-measured on Colorado One (the same fin on every 737), copied with its 'Southwest' title and flag. 'Freedom One' measured on the October 2025 left photo against the nose and the forward door (2.1-3.0 m back), two weights, a pair of titles per side (the right mirrored: no right-side photo shows it legibly), on Colorado One's line under the cockpit windows. The rippling stripes, traced as points along their waves, made smooth. 2026-11-22 (the maintainer saw N500WR and said it had changed): Southwest's 2026-04-27 release says the America250 logo flies on Freedom One all year, and its press photo of N500WR's left side with Liberty One shows the America250 mark under the cockpit where 'Freedom One' was (no 'Freedom One' seen) and navy winglets with '250'. No repaint: the stripes, the navy field, the fin and the engines match the 2023 and 2025 photos. Drawn: the mark (both sides; the right assumed), navy winglets, 'Freedom One' removed. Also fixed from the photos: the stripes re-measured off a level 2023 left-side photo (SBA, 2 of 4) as points along their real folds (crown stripe dipping in four lobes, the window stripe cresting at 0.44 and 0.62 and diving behind the wing, the lower stripe ending in a fold by the aft door, a white belly aft of the wing), and the navy field's aft edge moved forward. Still the left side's stripes on both sides: the right's ripple differently (SBA 4 of 4). Measured: the crown stripe's lower edge 0.42-1.0 (over the crown, unseen from the ground, kept narrow); the window stripe 0.30-0.66 and 0.79-1.0 (its trough behind the wing inferred); the lower stripe aft of the wing (0.70-0.86); the navy edge above y -0.2. Hidden by the wing and engine in every photo, so kept from the first drawing: the lower stripe ahead of 0.66, the belly stripe ahead of the wing's trailing edge, the navy edge below y -0.2. The gray fold shading on the white isn't drawn. No dated Commons photo of N500WR from 2026 was found. 2026-11-23: the fin is now Independence One's (navy, white and red on the Heart's lines, white 'Southwest', the small flag), copied from SWA/independence-one with its palette (its navy as finNavy). The swap rests on dated spotter photos in the Infinite Flight forum's Southwest livery thread, evidence only: nothing is measured from them, and Southwest hasn't announced it; no Commons photo since. The fin's geometry is Independence One's measured fin, drawn on a 737 MAX 8; fin space is shares of the fin's height and chord, and the Heart's lines it uses are the same on every 737 (re-measured on Colorado One), so it carries to the 737-800. The dorsal fillet is drawn navy with the fin (assumed, low). 2026-11-23: engine cowlings measured off the left side (N500WR, 2026 press photo; the same on the 2023 SBA photo): navy from the inlet back to a diagonal edge (at the top about a fifth of the way back, reaching the bottom near the cowl's end), then a red stripe over the top, white, and a red stripe low and aft; the cowl's paint ends at x 0.78 (the type's cowl end), bare metal nozzle behind. No star on the cowling in any photo (the star by the inlet is the fuselage's). One side measured: the other drawn the same."
+}

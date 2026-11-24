@@ -1,0 +1,287 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "AAL",
+  "airframes": [
+    {
+      "registration": "N578UW",
+      "livery": "us-airways-heritage",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://simpleflying.com/american-special-liveries/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N578UW_(aircraft)",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "a76df8",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "A321",
+      "from": "2015",
+      "lastSeen": "2026-10-20",
+      "status": "active: Commons photos Miami 20 Feb 2026 and Charlotte 20 Oct 2026."
+    },
+    {
+      "registration": "N579UW",
+      "livery": "allegheny-heritage",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://airlinegeeks.com/2023/10/11/first-look-american-debuts-refreshed-allegheny-retro-jet/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N579UW_(aircraft)",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "a771af",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "A321",
+      "from": "2023-10",
+      "lastSeen": "2026-11-14",
+      "status": "active: Commons photos Apr-Jun 2025."
+    },
+    {
+      "registration": "N580UW",
+      "livery": "america-west-heritage",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://airlinegeeks.com/2023/10/13/livery-of-the-week-a-first-look-at-the-refreshed-america-west-heritage-livery/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N580UW_(aircraft)",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "a777bf",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "A321",
+      "from": "2023-10",
+      "lastSeen": "2026-11-14",
+      "status": "active (presumed): Commons photo Tampa Nov 2023; listed in 2026 sources."
+    },
+    {
+      "registration": "N581UW",
+      "livery": "piedmont-heritage",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://www.airportspotting.com/american-airlines-adds-new-piedmont-and-psa-retro-liveries/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N581UW_(aircraft)",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "a77b76",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "A321",
+      "from": "2023-09",
+      "lastSeen": "2026-11-14",
+      "status": "active: Commons photo 'AAL Piedmont Retro N581UW LAX Apr 7 2026'."
+    },
+    {
+      "registration": "N582UW",
+      "livery": "psa-heritage",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://www.airportspotting.com/american-airlines-adds-new-piedmont-and-psa-retro-liveries/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N582UW_(aircraft)",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "a77f2d",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "A321",
+      "from": "2023-09",
+      "lastSeen": "2025-11-18",
+      "status": "active: Commons photos departing Boston 18 Nov 2025."
+    },
+    {
+      "registration": "N840NN",
+      "livery": "american-100-america250-commemorative",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://simpleflying.com/stars-stripes-america-liveries-flying/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://sites.google.com/view/aafleetsite/speical-liveries",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "ab8112",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "B738",
+      "from": "2026",
+      "lastSeen": "2026",
+      "status": "active (presumed): Listed by Simple Flying (2026) and a fan fleet site; Commons photo of N840NN from Apr 2025 predates it.",
+      "notes": "The only dated photo of the America250 mark (2026-07-04) is of N953NN, as a decal on the standard scheme; nothing shows N840NN with it."
+    },
+    {
+      "registration": "N905NN",
+      "livery": "astrojet",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://simpleflying.com/american-special-liveries/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N905NN_(aircraft)",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "ac82f8",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "B738",
+      "from": "2013",
+      "lastSeen": "2026-11-14",
+      "status": "active: Commons photo 26 Oct 2026 (AAL680)."
+    },
+    {
+      "registration": "N915NN",
+      "livery": "twa-heritage",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://simpleflying.com/american-special-liveries/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N915NN_(aircraft)",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "acaa77",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "B738",
+      "from": "2014",
+      "lastSeen": "2026-11-14",
+      "status": "active: Commons photos at BWI 28 Aug 2024; listed on 2026 fan fleet list."
+    },
+    {
+      "registration": "N916NN",
+      "livery": "reno-air-heritage",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://simpleflying.com/american-special-liveries/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N916NN_(aircraft)",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "acae2e",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "B738",
+      "lastSeen": "2021-11-03",
+      "status": "active (presumed): Commons photo 3 Nov 2021; still on 2026 fan fleet list. No newer dated photo found.",
+      "notes": "Commons photos from 2013–2015 show it still in the old polished scheme, so the 2014 date is doubtful; when it was painted isn't settled."
+    },
+    {
+      "registration": "N917NN",
+      "livery": "aircal-heritage",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://simpleflying.com/american-special-liveries/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N917NN_(aircraft)",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "acb1e5",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "B738",
+      "from": "2014",
+      "lastSeen": "2026-11-14",
+      "status": "active: Commons photo 11 Apr 2025."
+    },
+    {
+      "registration": "N921NN",
+      "livery": "tri-color-1968",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://airlinegeeks.com/2017/12/14/american-quietly-adds-new-polished-aluminum-retro-livery-to-a-boeing-737-800/",
+          "accessed": "2026-11-18"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N921NN_(aircraft)",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "hex": "acc31a",
+      "hexSource": "derived from the N-number (tools/nnumber.py)",
+      "type": "B738",
+      "from": "2013",
+      "status": "active (presumed): Commons photo YVR Jul 2013; FlightAware photos 2023; kept as American's 1968 heritage jet."
+    },
+    {
+      "registration": "N735AT",
+      "livery": "flagship",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://news.aa.com/news/news-details/2025/American-Airlines-unveils-special-Flagship-livery-ahead-of-centennial-year-CENT-10/default.aspx",
+          "title": "American Airlines: American Airlines unveils special Flagship livery ahead of centennial year (2025-10)",
+          "accessed": "2026-11-22",
+          "note": "777-300ER N735AT 'Flagship DFW' in a livery after American's first DC-3 Flagships (1936), for the 2026 centennial; painted at Grissom, in service from November 2025."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N735AT_Haneda_Airport_30-5-2026_-_2.jpg",
+          "title": "N735AT Haneda Airport 30-5-2026 - 2.jpg (CC BY 4.0)",
+          "accessed": "2026-11-22",
+          "note": "N735AT left side taxiing at Haneda, 2026-05-30, from above and nearly side-on: fitted to shapes/B77W.json (doors 1 and 5, nose, tail, fin tip; within 10 px, 0.4 m). The cheatline, the fin's red band, the titles and the roundel read off it."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N735AT_B777-300ER,_American_(retro_livery),_Miami_02-20-26.jpg",
+          "title": "N735AT B777-300ER, American (retro livery), Miami 02-20-26.jpg (CC BY 4.0)",
+          "accessed": "2026-11-22",
+          "note": "Right side landing at Miami, 2026-02-20: the same layout mirrored; 'FLAGSHIP DFW' under the cockpit."
+        }
+      ],
+      "hex": "a9ddb0",
+      "hexSource": "derived from the N-number (tools/nnumber.py), 2026-11-22",
+      "type": "B77W",
+      "from": "2025-10",
+      "lastSeen": "2026-05-30",
+      "status": "active: unveiled October 2025; Commons photos London 4 Jan, Miami 20 Feb and Haneda 30 May 2026."
+    },
+    {
+      "registration": "N953NN",
+      "livery": "american-100-america250-commemorative",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N953NN.jpg",
+          "title": "N953NN.jpg (CC BY-SA 4.0)",
+          "accessed": "2026-11-22",
+          "note": "N953NN right side from below and ahead, landing at Palm Springs, 2026-07-04: flipped nose-left and fitted to shapes/B738.json (doors, nose, tail, fin tip; within about 25 px, 0.7 m: a three-quarter view). The emblem's middle and height read off it."
+        }
+      ],
+      "hex": "ad4105",
+      "hexSource": "derived from the N-number (tools/nnumber.py), 2026-11-22",
+      "type": "B738",
+      "from": "2026",
+      "lastSeen": "2026-07-04",
+      "status": "active: Commons photo at Palm Springs 4 Jul 2026 with the America250 emblem."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "HAL",
+  "airframes": [
+    {
+      "registration": "N227HA",
+      "hex": "a1fbb2",
+      "type": "A21N",
+      "livery": "moana-live-action",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://news.alaskaair.com/company/three-new-hawaiian-airlines-liveries-set-sail-this-summer-for-disneys-live-action-moana/",
+          "accessed": "2026-11-22",
+          "note": "The airline names N227HA as the first live-action Moana jet, unveiled 2026-06-11."
+        }
+      ],
+      "hexSource": "derived from the N-number (tools/nnumber.py)",
+      "from": "2026-06-11",
+      "status": "active: unveiled 2026-06-11 (airline); no open photo yet."
+    },
+    {
+      "registration": "N375HA",
+      "hex": "a4470e",
+      "type": "A332",
+      "livery": "oneworld",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://news.alaskaair.com/images-videos/hawaiian-airlines-oneworld-airbus-a330-livery",
+          "accessed": "2026-11-22",
+          "note": "The airline's press images show N375HA in the scheme (unveiled 2026-06-30)."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N375HA_(55568037164).jpg",
+          "accessed": "2026-11-22",
+          "note": "In the scheme on 2026-09-13 (Commons)."
+        }
+      ],
+      "hexSource": "derived from the N-number (tools/nnumber.py)",
+      "from": "2026-06-30",
+      "status": "active: Commons photo 2026-09-13."
+    }
+  ]
+}

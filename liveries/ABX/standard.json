@@ -1,0 +1,297 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "ABX",
+  "name": "ABX Air (red X tail)",
+  "kind": "standard",
+  "confidence": "low",
+  "drawnOn": "B763",
+  "description": "White fuselage with two thin red pinstripes along the upper side from behind the titles to the tail; the aft fuselage under the fin red behind a sweeping navy-edged line from the crown behind the wing down toward the belly; a red fin with a big white 'X' outlined in navy; 'ABX AIR' in navy capitals ahead of the wing.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/ABX_Air",
+      "title": "Wikipedia: ABX Air",
+      "accessed": "2026-11-13",
+      "note": "767 fleet; aircraft flown for DHL and Amazon in their colors."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:ABX_Air_Boeing_767_at_LAX_(54239571072).jpg",
+      "title": "ABX Air Boeing 767 at LAX (54239571072).jpg (CC BY 2.0)",
+      "accessed": "2026-11-13",
+      "note": "ABX 767 right side on approach, 2024-10-13: the only recent photo of the scheme found; the left side is assumed to mirror it."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F6",
+      "official": false
+    },
+    "red": {
+      "hex": "#E01F3D",
+      "official": false,
+      "name": "ABX red"
+    },
+    "navy": {
+      "hex": "#1B2A4A",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "upper red pinstripe",
+        "color": "red",
+        "below": [
+          [
+            0.32,
+            0.42
+          ],
+          [
+            0.79,
+            0.42
+          ]
+        ],
+        "above": [
+          [
+            0.32,
+            0.385
+          ],
+          [
+            0.79,
+            0.385
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "lower red pinstripe",
+        "color": "red",
+        "below": [
+          [
+            0.32,
+            0.31
+          ],
+          [
+            0.81,
+            0.31
+          ]
+        ],
+        "above": [
+          [
+            0.32,
+            0.275
+          ],
+          [
+            0.81,
+            0.275
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "navy edge of the red aft fuselage",
+        "color": "navy",
+        "points": [
+          [
+            0.65,
+            1
+          ],
+          [
+            0.725,
+            0.62
+          ],
+          [
+            0.785,
+            0.36
+          ],
+          [
+            0.845,
+            -0.35
+          ],
+          [
+            0.87,
+            -1
+          ],
+          [
+            0.885,
+            -1
+          ],
+          [
+            0.86,
+            -0.35
+          ],
+          [
+            0.8,
+            0.36
+          ],
+          [
+            0.74,
+            0.62
+          ],
+          [
+            0.665,
+            1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0
+        ],
+        "smooth": true
+      },
+      {
+        "name": "red aft fuselage",
+        "color": "red",
+        "points": [
+          [
+            0.665,
+            1
+          ],
+          [
+            0.74,
+            0.62
+          ],
+          [
+            0.8,
+            0.36
+          ],
+          [
+            0.86,
+            -0.35
+          ],
+          [
+            0.885,
+            -1
+          ],
+          [
+            0.95,
+            -1
+          ],
+          [
+            0.95,
+            1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0
+        ],
+        "smooth": true
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "hidden",
+    "confidence": "low",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "fin": {
+    "base": "red",
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "low",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "logos": [
+    {
+      "mark": "ABX/x",
+      "place": "fin",
+      "at": [
+        0.5,
+        0.5
+      ],
+      "height": 0.8,
+      "colors": [
+        "white",
+        "navy"
+      ],
+      "description": "A huge 'X' filling the red fin: a broad white stroke from the top of the trailing edge down to the root by the leading edge, crossed by a narrower one, both outlined in navy.",
+      "reference": "https://commons.wikimedia.org/wiki/File:ABX_Air_Boeing_767_at_LAX_(54239571072).jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ]
+    },
+    {
+      "mark": "ABX/x",
+      "place": "fuselage",
+      "at": [
+        0.74,
+        -0.45
+      ],
+      "height": 0.15,
+      "colors": [
+        "red"
+      ],
+      "description": "A small red 'X' low on the aft fuselage behind the wing.",
+      "reference": "https://commons.wikimedia.org/wiki/File:ABX_Air_Boeing_767_at_LAX_(54239571072).jpg",
+      "confidence": "low",
+      "sourceRefs": [
+        0
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "ABX AIR",
+      "place": "fuselage",
+      "at": [
+        0.17,
+        0.0
+      ],
+      "height": 0.43,
+      "color": "navy",
+      "style": "'ABX AIR' in heavy, slightly condensed navy capitals ahead of the wing.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ],
+      "length": 0.155,
+      "type": {
+        "similar": [
+          "Helvetica Neue Heavy",
+          "Arial Black"
+        ],
+        "weight": 800,
+        "slantDeg": 10,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Only a right-side photo (a 767 at LAX, October 2024) shows the current scheme; the left side is assumed to mirror it, and the red aft fuselage's lower edge is partly hidden by the wing. Many ABX 767s fly in DHL paint (tag them BCS/standard) or Amazon Prime Air paint instead. Re-checked 2026-11-15 on the same right-side photo (2024-10, a 767-300; foreshortened, nose nearer, so shares aft were read ~0.03 forward of a straight nose-to-tail reading, checked on the fin root at 0.79): ABX AIR is italic (~10°) and runs x 0.17-0.325 with its cap top at y ~0.43 (it had been ~30% too tall); the red aft fuselage's forward edge is a concave sweep meeting the crown at ~0.665, just ahead of the fin, not 0.595, and the pinstripes run from the title's aft end to that edge (0.32-0.8). The edge below the window line is hidden by the wing and tailplane and stays approximate.",
+  "history": "Replaces Skyarium v1's approximate standard (a few colors from memory). Earlier ABX schemes still appear on Commons photos from the 2010s; the red X tail is the current one."
+}

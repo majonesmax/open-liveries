@@ -1,0 +1,444 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "ARG",
+  "name": "2010 livery",
+  "kind": "standard",
+  "from": "2010",
+  "description": "Celeste (sky-blue) nose and crown over a white body: the whole nose is blue, its edge sweeping up to run just above the windows and taper to the crown under the fin. White italic 'AerolíneasArgentinas' on the blue. White fin with a celeste top and a celeste condor-wing sweep low on it, pointing forward. Light gray engines with the blue condor; celeste winglets.",
+  "confidence": "medium",
+  "drawnOn": "B738",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:737-800_AEROL%C3%8DNEAS_ARGENTINAS_SBPA_(35206667886).jpg",
+      "title": "737-800 AEROLÍNEAS ARGENTINAS SBPA (CC BY-SA 2.0)",
+      "accessed": "2026-11-13",
+      "note": "LV-CXT, left side, three-quarter front, 2017-06-08: the blue nose and crown, titles, fin, engine logo, winglet."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:AA_Boeing_737-800_LV-GUC.jpg",
+      "title": "AA Boeing 737-800 LV-GUC (CC BY 3.0)",
+      "accessed": "2026-11-13",
+      "note": "Right side, near-orthographic, 2020-02-20: positions along the fuselage, title length, the blue's lower edge."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:An_Aerolineas_Argentina_Boeing_737-800_attached_to_an_London_Supply_jetbridge_at_El_Calafate_Airport.jpg",
+      "title": "Aerolíneas Argentinas 737-800 at El Calafate (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "LV-CXT, left side, 2024-03-21: the scheme unchanged."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Cataratas_del_Iguaz%C3%BA_International_Airport_(98011).jpg",
+      "title": "Cataratas del Iguazú International Airport (98011) (CC BY-SA 3.0)",
+      "accessed": "2026-11-13",
+      "note": "LV-GVA (737 MAX 8) from the right front: the all-blue nose and the SkyTeam logo and flag by the door."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#EEF0F2",
+      "official": false
+    },
+    "celeste": {
+      "hex": "#3AA9E0",
+      "name": "celeste (Argentine sky blue)",
+      "official": false
+    },
+    "silver": {
+      "hex": "#B9C2CB",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC5",
+      "official": false
+    },
+    "cowl": {
+      "hex": "#E4E7EA",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "name": "bare metal inlet lip",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "silver pinstripe under the blue",
+        "color": "silver",
+        "points": [
+          [
+            0.055,
+            -1.0
+          ],
+          [
+            0.06,
+            -1.0
+          ],
+          [
+            0.075,
+            -0.6
+          ],
+          [
+            0.096,
+            -0.29
+          ],
+          [
+            0.12,
+            0.0
+          ],
+          [
+            0.15,
+            0.15
+          ],
+          [
+            0.2,
+            0.22
+          ],
+          [
+            0.35,
+            0.25
+          ],
+          [
+            0.6,
+            0.4,
+            1
+          ],
+          [
+            0.6,
+            0.36,
+            1
+          ],
+          [
+            0.35,
+            0.2
+          ],
+          [
+            0.2,
+            0.17
+          ],
+          [
+            0.155,
+            0.1
+          ],
+          [
+            0.125,
+            -0.05
+          ],
+          [
+            0.102,
+            -0.33
+          ],
+          [
+            0.083,
+            -0.62
+          ],
+          [
+            0.07,
+            -1.0
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0
+        ],
+        "smooth": true
+      },
+      {
+        "name": "celeste nose and crown",
+        "color": "celeste",
+        "points": [
+          [
+            0.0,
+            1.0
+          ],
+          [
+            0.0,
+            -1.0
+          ],
+          [
+            0.06,
+            -1.0
+          ],
+          [
+            0.075,
+            -0.6
+          ],
+          [
+            0.096,
+            -0.29
+          ],
+          [
+            0.12,
+            0.0
+          ],
+          [
+            0.15,
+            0.15
+          ],
+          [
+            0.2,
+            0.22
+          ],
+          [
+            0.35,
+            0.25
+          ],
+          [
+            0.62,
+            0.42
+          ],
+          [
+            0.81,
+            0.57
+          ],
+          [
+            0.87,
+            0.78
+          ],
+          [
+            0.9,
+            1.0
+          ],
+          [
+            0.9,
+            1.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1,
+          3
+        ],
+        "smooth": true
+      }
+    ],
+    "radome": {
+      "color": "celeste",
+      "to": 0.025
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "celeste top",
+        "color": "celeste",
+        "above": [
+          [
+            0,
+            0.38
+          ],
+          [
+            1,
+            0.457
+          ]
+        ]
+      },
+      {
+        "name": "celeste condor-wing sweep, pointing forward",
+        "color": "celeste",
+        "points": [
+          [
+            0.3,
+            0.174
+          ],
+          [
+            0.42,
+            0.225
+          ],
+          [
+            0.54,
+            0.272
+          ],
+          [
+            0.72,
+            0.31
+          ],
+          [
+            0.89,
+            0.337
+          ],
+          [
+            1,
+            0.345
+          ],
+          [
+            1,
+            0.085
+          ],
+          [
+            0.8,
+            0.095
+          ],
+          [
+            0.56,
+            0.12
+          ],
+          [
+            0.42,
+            0.145
+          ]
+        ]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "celeste",
+    "inner": "celeste",
+    "areas": [
+      {
+        "name": "white root",
+        "color": "white",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0.2
+          ],
+          [
+            0,
+            0.25
+          ]
+        ]
+      }
+    ],
+    "confidence": "low",
+    "sourceRefs": [
+      0,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "cowl",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "ARG/condor",
+      "place": "engines",
+      "at": [
+        0.24,
+        0.02
+      ],
+      "height": 0.18,
+      "colors": [
+        "celeste"
+      ],
+      "description": "Aerolíneas Argentinas' condor (2010): a gliding bird reduced to a sharp Z-like blade, a long lower stroke pointing aft and an upper wing stroke pointing forward, joined by a diagonal; celeste on the cowling's outboard face.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Logo_wordmark_Aerol%C3%ADneas_Argentinas_(2010).svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ]
+    },
+    {
+      "mark": "ARG/skyteam",
+      "place": "fuselage",
+      "at": [
+        0.085,
+        0.19
+      ],
+      "height": 0.3,
+      "colors": [
+        "white"
+      ],
+      "description": "The SkyTeam logo in white on the blue, between the cockpit and the forward door.",
+      "reference": "https://commons.wikimedia.org/wiki/Category:SkyTeam",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "mark": "ARG/flag",
+      "place": "fuselage",
+      "at": [
+        0.085,
+        -0.05
+      ],
+      "height": 0.15,
+      "colors": [
+        "#75AADB",
+        "white",
+        "#F6B40E"
+      ],
+      "description": "A small Argentine flag under the SkyTeam logo.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1,
+        3
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "AerolíneasArgentinas",
+      "place": "fuselage",
+      "at": [
+        0.142,
+        0.28
+      ],
+      "height": 0.29,
+      "color": "white",
+      "style": "The 2010 wordmark: one run with no space, a light-to-regular humanist sans italic in mixed case, white on the celeste above the windows from just behind the forward door to over the wing root.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Frutiger 56 Italic",
+          "Myriad Pro Italic"
+        ],
+        "weight": 500,
+        "slantDeg": 12,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.58
+      },
+      "length": 0.25
+    }
+  ],
+  "notes": "Drawn from LV-CXT (left, 2017 and 2024) and LV-GUC (right, 2020); the 737 MAXs (LV-GVA) wear the same. No dated photo from below was found: the belly aft of the nose is taken as the white base. Fine gold-and-white 'sun ray' lines cross the fin's celeste near the trailing edge and the condor sweep; too fine to draw. Small marks vary by airframe and aren't drawn: an 'Argentina' country-brand logo (LV-CXT) or a round sun emblem (LV-GUC) by the aft door, the type ('BOEING 737-800') over the aft windows. The A330s and the ex-Austral E190s wear the same scheme. The silver pinstripe under the blue is seen clearly only on the nose. Re-checked 2026-11-15 on LV-GUC (737-800, the commonest type), placed by its doors and overwing exits: the wordmark runs 0.142 to 0.392 (length 0.25), its lowercase about 0.58 of the capitals (a low-resolution measure); the celeste's lower edge and the pinstripe are curves, now drawn smooth (the pinstripe's square aft end kept as corners).",
+  "history": "Replaces Skyarium v1's approximation. The 2010 scheme replaced the white scheme with dark blue and aqua cheatlines; no newer standard scheme has been announced as of 2026."
+}

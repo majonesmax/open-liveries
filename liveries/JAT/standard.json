@@ -1,0 +1,356 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "JAT",
+  "name": "Standard livery",
+  "kind": "standard",
+  "description": "White, with huge 'JetSMART' titles over the forward cabin: a red script 'Jet' and navy block 'SMART'; 'JetSMART.com' small over the aft windows. The white fin carries a photograph of a South American animal, different on every aircraft. Navy engines with a red ring behind a white lip; red-tipped winglets.",
+  "confidence": "medium",
+  "drawnOn": "A21N",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Hamburg-Finkenwerder_Airport_JetSMART_Airbus_A321-271NX_CC-DIS_(DSC09523).jpg",
+      "title": "Hamburg-Finkenwerder Airport JetSMART Airbus A321-271NX CC-DIS (DSC09523) (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Left side, level, 2025-04-26 (delivery): titles, engines, winglet, fin; measured from it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Hamburg-Finkenwerder_Airport_JetSMART_Airbus_A321-271NX_CC-DIS_(DSC09553).jpg",
+      "title": "Hamburg-Finkenwerder Airport JetSMART Airbus A321-271NX CC-DIS (DSC09553) (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Right side, 2025-04-26: the same titles reading forward."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:CC-AWX.jpg",
+      "title": "CC-AWX (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "A320neo from below left, 2025-07-21: white belly, engine rings, red winglet tips, a sea lion on the fin."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F5",
+      "official": false
+    },
+    "navy": {
+      "hex": "#1D3B78",
+      "official": false
+    },
+    "red": {
+      "hex": "#DF2939",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC5",
+      "official": false
+    },
+    "lip": {
+      "hex": "#D4D7DB",
+      "name": "inlet lip",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [],
+    "radome": {
+      "color": "white",
+      "to": 0.025
+    },
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "white",
+    "inner": "white",
+    "areas": [
+      {
+        "name": "red tip",
+        "color": "red",
+        "points": [
+          [
+            0,
+            0.4
+          ],
+          [
+            1,
+            0.45
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "navy",
+    "inletLip": "lip",
+    "areas": [
+      {
+        "name": "red ring",
+        "color": "red",
+        "points": [
+          [
+            0.06,
+            -1
+          ],
+          [
+            0.17,
+            -1
+          ],
+          [
+            0.17,
+            1
+          ],
+          [
+            0.06,
+            1
+          ]
+        ]
+      },
+      {
+        "name": "white line behind the red",
+        "color": "white",
+        "points": [
+          [
+            0.17,
+            -1
+          ],
+          [
+            0.2,
+            -1
+          ],
+          [
+            0.2,
+            1
+          ],
+          [
+            0.17,
+            1
+          ]
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "JAT/flag",
+      "place": "fuselage",
+      "at": [
+        0.075,
+        0.25
+      ],
+      "height": 0.15,
+      "colors": [
+        "#D52B1E",
+        "white",
+        "#0039A6"
+      ],
+      "description": "The flag of the operating company's country behind the cockpit (Chile on CC- aircraft; Argentina, Peru or Colombia on those of the local subsidiaries; seen with Colombia's on CC-AWX). Not yet applied on the delivery photos.",
+      "confidence": "low",
+      "sourceRefs": [
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Jet",
+      "place": "fuselage",
+      "at": [
+        0.135,
+        0.07
+      ],
+      "height": 0.8,
+      "color": "red",
+      "style": "Brush script, upright-ish and bouncy: a tall looped capital J dropping below the line, small lowercase 'et', run up against 'SMART'.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Pacifico",
+          "Kaushan Script"
+        ],
+        "weight": 600,
+        "slantDeg": 5,
+        "width": "normal",
+        "strokes": "brush",
+        "case": "mixed",
+        "xHeight": 0.58
+      },
+      "length": 0.075,
+      "side": "left"
+    },
+    {
+      "text": "SMART",
+      "place": "fuselage",
+      "at": [
+        0.215,
+        -0.07
+      ],
+      "height": 0.76,
+      "color": "navy",
+      "style": "Heavy upright sans capitals, slightly condensed, across the windows ahead of the wing; its baseline a little below the script's.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Gotham Black",
+          "Montserrat ExtraBold"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "length": 0.17,
+      "side": "left"
+    },
+    {
+      "text": "Jet",
+      "place": "fuselage",
+      "at": [
+        0.31,
+        0.07
+      ],
+      "height": 0.8,
+      "color": "red",
+      "style": "Brush script, upright-ish and bouncy: a tall looped capital J dropping below the line, small lowercase 'et', run up against 'SMART'.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Pacifico",
+          "Kaushan Script"
+        ],
+        "weight": 600,
+        "slantDeg": 5,
+        "width": "normal",
+        "strokes": "brush",
+        "case": "mixed",
+        "xHeight": 0.58
+      },
+      "length": 0.075,
+      "side": "right"
+    },
+    {
+      "text": "SMART",
+      "place": "fuselage",
+      "at": [
+        0.135,
+        -0.07
+      ],
+      "height": 0.76,
+      "color": "navy",
+      "style": "Heavy upright sans capitals, slightly condensed, across the windows ahead of the wing; its baseline a little below the script's.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Gotham Black",
+          "Montserrat ExtraBold"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "length": 0.17,
+      "side": "right"
+    },
+    {
+      "text": "JetSMART.com",
+      "place": "fuselage",
+      "at": [
+        0.704,
+        0.35
+      ],
+      "height": 0.18,
+      "color": "red",
+      "parts": [
+        {
+          "text": "Jet",
+          "color": "red"
+        },
+        {
+          "text": "SMART.com",
+          "color": "navy"
+        }
+      ],
+      "style": "Bold sans, mixed case: the web address's first word, over the aft windows.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Gotham Bold",
+          "Montserrat Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "length": 0.088
+    }
+  ],
+  "notes": "Measured from CC-DIS (A321neo, delivery, 2025-04-26, left side); CC-AWX (A320neo, 2025-07-21, from below) agrees. The fin's animal photograph differs on every aircraft (a squirrel monkey on CC-DIS, a sea lion on CC-AWX), so the fin is left white; its common name is painted small by the forward door (e.g. 'Mono Ardilla'), also per aircraft. The wordmark is drawn as titles, so no logo shape. Belly white. Re-checked 2026-11-15 on CC-DIS (A321neo, 2025-04-26): titles' places agree; the aft JetSMART.com runs x ~0.70-0.79 (length 0.088); the script Jet's lowercase stands 0.58 of its J. Measured on the A321neo although the A320neo is the commoner type (no level side-on A320neo photo cited): drawnOn A21N; on an A320neo the titles sit a little further aft as shares.",
+  "history": "New: JetSMART wasn't in Skyarium v1's table. Its scheme hasn't changed since launch (2016)."
+}

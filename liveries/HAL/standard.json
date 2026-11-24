@@ -1,0 +1,606 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "HAL",
+  "name": "Pualani (2017 livery)",
+  "kind": "standard",
+  "from": "2017-01",
+  "confidence": "medium",
+  "drawnOn": "A21N",
+  "description": "White fuselage with a silver-gray lei of flowers across the middle; behind the wing the aft fuselage turns purple, its front a fringe of magenta flowers, wrapping the tail cone; 'HAWAIIAN' in widely spaced purple capitals over the forward windows; the fin purple shading to magenta at the tip, with Pualani (a woman's face in profile, a coral hibiscus in her dark hair) in white, facing forward.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Hawaiian_Airlines",
+      "title": "Wikipedia: Hawaiian Airlines (livery history)",
+      "accessed": "2026-11-13",
+      "note": "The refreshed Pualani, the lei pattern and the purple aft fuselage."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N208HA_@_LAX,_2023-11-03.jpg",
+      "title": "N208HA @ LAX, 2023-11-03.jpg (CC BY-SA 2.0)",
+      "accessed": "2026-11-13",
+      "note": "N208HA (A321neo) left side, climbing, 2023-11-03: geometry, title, aft purple, fin."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Hawaiian_A332_N382HA_8-15-2025.jpg",
+      "title": "Hawaiian A332 N382HA 8-15-2025.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "N382HA (A330) right side at Honolulu, 2025-08-15: the scheme still worn in 2025, after the Alaska merger."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:2021-10-08_16_57_58_Hawaiian_Airlines_Boeing_717_(N490HA)_at_Lihue_Airport_in_Lihue,_Kauai,_Hawaii.jpg",
+      "title": "Hawaiian Airlines Boeing 717 (N490HA) at Lihue Airport, 2021-10-08 (CC BY-SA 4.0, Famartin)",
+      "accessed": "2026-11-15",
+      "note": "717-200, right side from above, 2021-10-08: the gray lei's flowers on the upper body from behind the title to the engine."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:11-APR-2022_-_HA284_LIH-HNL_(B717-200_-_N488HA)_(01).jpg",
+      "title": "11-APR-2022 - HA284 LIH-HNL (B717-200 - N488HA) (01) (CC BY 4.0, Simply Aviation)",
+      "accessed": "2026-11-15",
+      "note": "717-200, left side looking aft from the forward door, 2022-04-11: the lei's flowers above the windows along the body."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Boeing_717,_N483HA,_Hawaiian_Airlines.jpg",
+      "title": "Boeing 717, N483HA, Hawaiian Airlines, 2019-03-23 (CC BY-SA 2.0, Bill Abbott)",
+      "accessed": "2026-11-15",
+      "note": "717-200, left side, level, 2019-03-23, flat light: no lei visible on the body; the purple with lilac flowers starts at the engine, no magenta fringe on the body."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F3F4",
+      "official": false
+    },
+    "purple": {
+      "hex": "#46276F",
+      "official": false,
+      "name": "Hawaiian purple"
+    },
+    "magenta": {
+      "hex": "#C4207A",
+      "official": false,
+      "name": "magenta (flowers, fin tip)"
+    },
+    "coral": {
+      "hex": "#F05A4F",
+      "official": false,
+      "name": "hibiscus coral"
+    },
+    "gray": {
+      "hex": "#DEDCD9",
+      "official": false,
+      "name": "lei gray (a lacy pattern; drawn pale)"
+    },
+    "title": {
+      "hex": "#3F2A6E",
+      "official": false,
+      "name": "title purple"
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "cowl": {
+      "hex": "#E6E7E9",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "silver-gray lei of flowers across the middle, from behind the second door down and back under the wing (pattern simplified to its band)",
+        "color": "gray",
+        "points": [
+          [
+            0.34,
+            0.601
+          ],
+          [
+            0.433,
+            1.0
+          ],
+          [
+            0.567,
+            1.0
+          ],
+          [
+            0.708,
+            0.207
+          ],
+          [
+            0.72,
+            -1.0
+          ],
+          [
+            0.6564992596095217,
+            -1
+          ],
+          [
+            0.5267753817055112,
+            -1
+          ],
+          [
+            0.507,
+            0.111
+          ],
+          [
+            0.406,
+            0.112
+          ],
+          [
+            0.331,
+            0.192
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "magenta flower fringe at the front of the aft purple",
+        "color": "magenta",
+        "points": [
+          [
+            0.695416422980725,
+            -1
+          ],
+          [
+            0.707,
+            -1.0
+          ],
+          [
+            0.726,
+            -0.452
+          ],
+          [
+            0.778,
+            0.059
+          ],
+          [
+            0.827,
+            0.463
+          ],
+          [
+            0.851,
+            1.0
+          ],
+          [
+            0.8569879795428244,
+            1
+          ],
+          [
+            0.8843590956036982,
+            1
+          ],
+          [
+            0.87,
+            -0.166
+          ],
+          [
+            0.8335630202954094,
+            -1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "purple aft fuselage and tail cone",
+        "color": "purple",
+        "points": [
+          [
+            0.8335630202954094,
+            -1
+          ],
+          [
+            0.87,
+            -0.166
+          ],
+          [
+            0.8843590956036982,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "purple",
+    "areas": [
+      {
+        "name": "magenta toward the tip (a gradient)",
+        "color": "magenta",
+        "points": [
+          [
+            0,
+            0.8
+          ],
+          [
+            1,
+            0.82
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "white",
+    "inner": "white",
+    "confidence": "low",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "cowl",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "HAL/pualani",
+      "place": "fin",
+      "at": [
+        0.431,
+        0.564
+      ],
+      "height": 0.75,
+      "colors": [
+        "white",
+        "coral",
+        "purple"
+      ],
+      "description": "Pualani ('flower of the sky'): a Hawaiian woman's face in profile, white, facing forward, her dark-purple hair framing it with a coral hibiscus behind her ear, filling the aft fin.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Hawaiian_Airlines_logo_2017.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "HAWAIIAN",
+      "place": "fuselage",
+      "at": [
+        0.144,
+        0.261
+      ],
+      "height": 0.29,
+      "color": "title",
+      "style": "Widely spaced, upright medium-weight capitals in purple, over the forward windows behind the door.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "length": 0.154,
+      "type": {
+        "similar": [
+          "Gotham Medium",
+          "Avenir Next Medium"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "types": {
+    "B712": {
+      "note": "Measured on the 717 (N483HA, left side, level, 2019-03-23; N490HA, right side from above, 2021-10-08; N488HA, 2022): 'HAWAIIAN' large under the windows; the lei as gray flowers on the upper body, a spray above the forward windows and a cluster across the windows round the overwing exits, down toward the wing root (artwork reduced to two patches, the same both sides); no magenta fringe: the aft purple starts at the fin's root on the crown, lilac petals at its front, and runs forward under the engine to the wing's trailing edge low down; lilac petals across the middle of each nacelle.",
+      "confidence": "medium",
+      "sourceRefs": [
+        3,
+        4,
+        5
+      ],
+      "palette": {
+        "lilac": {
+          "hex": "#8270B6",
+          "official": false,
+          "name": "lilac petals (717)"
+        }
+      },
+      "fuselage": {
+        "areas": [
+          {
+            "name": "gray lei, a spray of flowers above the forward windows",
+            "color": "gray",
+            "points": [
+              [
+                0.183,
+                0.45
+              ],
+              [
+                0.2,
+                0.78
+              ],
+              [
+                0.235,
+                0.83
+              ],
+              [
+                0.252,
+                0.6
+              ],
+              [
+                0.232,
+                0.3
+              ],
+              [
+                0.2,
+                0.3
+              ]
+            ],
+            "smooth": true,
+            "confidence": "low",
+            "sourceRefs": [
+              3,
+              4
+            ]
+          },
+          {
+            "name": "gray lei, a cluster of flowers across the windows round the overwing exits, down toward the wing root",
+            "color": "gray",
+            "points": [
+              [
+                0.334,
+                0.95
+              ],
+              [
+                0.462,
+                0.97
+              ],
+              [
+                0.547,
+                0.55
+              ],
+              [
+                0.587,
+                0.3
+              ],
+              [
+                0.614,
+                0.1
+              ],
+              [
+                0.643,
+                -0.4
+              ],
+              [
+                0.42,
+                -0.4
+              ],
+              [
+                0.411,
+                0.0
+              ],
+              [
+                0.37,
+                0.5
+              ]
+            ],
+            "smooth": true,
+            "confidence": "low",
+            "sourceRefs": [
+              3,
+              4
+            ]
+          },
+          {
+            "name": "purple aft fuselage and tail cone, from the fin's root on the crown forward under the engine to low behind the wing",
+            "color": "purple",
+            "points": [
+              [
+                0.806,
+                1
+              ],
+              [
+                0.79,
+                0.5
+              ],
+              [
+                0.77,
+                0.0
+              ],
+              [
+                0.752,
+                -0.6
+              ],
+              [
+                0.752,
+                -1
+              ],
+              [
+                1,
+                -1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "smooth": true,
+            "confidence": "medium",
+            "sourceRefs": [
+              5,
+              3
+            ]
+          },
+          {
+            "name": "lilac petals at the purple's front on the crown",
+            "color": "lilac",
+            "points": [
+              [
+                0.806,
+                1
+              ],
+              [
+                0.8,
+                0.75
+              ],
+              [
+                0.818,
+                0.52
+              ],
+              [
+                0.836,
+                0.517
+              ],
+              [
+                0.854,
+                1
+              ]
+            ],
+            "smooth": true,
+            "confidence": "low",
+            "sourceRefs": [
+              5
+            ]
+          }
+        ]
+      },
+      "engines": {
+        "areas": [
+          {
+            "name": "lilac and purple petals across the nacelle's middle, rising aft at the front",
+            "color": "lilac",
+            "points": [
+              [
+                0.245,
+                -1
+              ],
+              [
+                0.245,
+                -0.35
+              ],
+              [
+                0.33,
+                0.1
+              ],
+              [
+                0.42,
+                0.5
+              ],
+              [
+                0.47,
+                1
+              ],
+              [
+                0.7,
+                1
+              ],
+              [
+                0.7,
+                -1
+              ]
+            ],
+            "smooth": true,
+            "confidence": "medium",
+            "sourceRefs": [
+              5,
+              3
+            ]
+          }
+        ]
+      },
+      "titles": [
+        {
+          "text": "HAWAIIAN",
+          "place": "fuselage",
+          "at": [
+            0.18,
+            -0.328
+          ],
+          "height": 0.364,
+          "color": "title",
+          "style": "The same capitals, large, under the windows from just behind the forward door to ahead of the overwing exits.",
+          "confidence": "high",
+          "sourceRefs": [
+            5,
+            3
+          ],
+          "length": 0.265,
+          "type": {
+            "similar": [
+              "Gotham Medium",
+              "Avenir Next Medium"
+            ],
+            "weight": 600,
+            "slantDeg": 0,
+            "width": "extended",
+            "strokes": "uniform",
+            "case": "upper"
+          }
+        }
+      ]
+    }
+  },
+  "notes": "Drawn from N208HA (A321neo, Nov 2023, climbing and tilted) and checked against the A330 N382HA in August 2025, after the Alaska Air Group merger: the Hawaiian brand and this scheme carry on. The gray lei and the magenta flowers are artwork reduced to bands. Hawaiian's 787-9s were moved to Alaska's 'global' livery; the A330s, A321neos and 717s keep this one. Re-checked 2026-11-15 on N208HA: the title runs from just behind the forward door (x 0.144) to just ahead of the second door (0.298), about 1 m longer than first drawn; its baseline sits about half a window's height above the window tops, as drawn. Drawn on the A321neo, the type it was measured on; the A330-200 is about as common in the fleet (and the 717), but the only recent A330 photo (N382HA, 2025) is an oblique ramp view, too foreshortened to measure from: on the A330 the title starts nearer the nose as a share (about 0.09 on that photo). The lei and the flower fringe are artwork reduced to bands, left as polygons. On the 717 (sources 3-5, 2019-2022) the lei is there too, as gray flowers on the upper body from behind the title back to the engine (faint in flat light: N483HA's left side shows none), and the purple with lilac flowers starts at the engine with no magenta fringe on the body; drawn on the 717's shape these come from `types.B712`, measured on N483HA (side-on) and N490HA, with the title under the windows as there.",
+  "history": "Replaces Skyarium v1's approximate standard (a few colors from memory). The 2017 livery refreshed the long-running Pualani scheme; Hawaiian became part of Alaska Air Group in September 2024."
+}

@@ -1,0 +1,343 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "TOM",
+  "name": "TUI wave (2016)",
+  "kind": "standard",
+  "from": "2016",
+  "confidence": "medium",
+  "drawnOn": "B38M",
+  "description": "Sky-blue aircraft with a white wave: the lower fuselage is white, its edge rising from the chin to a crest just above the windows over the wing, then sweeping down to the belly at the tail; a dark navy wedge grows along the aft crown into the fin's root. Big red 'TUI' over the forward windows, the red TUI smile on the sky-blue fin, 'TUI.COM' on the engines.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:G-TUMX_(53418902520).jpg",
+      "title": "G-TUMX (53418902520).jpg (CC BY-SA 2.0)",
+      "accessed": "2026-11-13",
+      "note": "737 MAX 8 G-TUMX from the left, 2023-12-24: geometry of the wave, navy wedge, titles and fin. Re-check 2026-11-15: the wave's crest and the title's ends."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:G-TUMX_TUI_Boeing_737-8_MAX_EMA_9-8-2026.jpg",
+      "title": "G-TUMX TUI Boeing 737-8 MAX EMA 9-8-2026.jpg (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "From below, 2026-08-09: white/silver belly, blue sides, unchanged scheme."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:G-TUMT_(aircraft)",
+      "accessed": "2026-11-13",
+      "note": "G-TUMT, 2021-2026, both sides: the same."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:TUI_Logo_2016.svg",
+      "title": "TUI Logo 2016.svg",
+      "accessed": "2026-11-13",
+      "note": "The smile and wordmark; red #D40E14 read from the file."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:G-TUMT_TUI_Airways_Boeing_737_MAX-8.jpg",
+      "title": "G-TUMT TUI Airways Boeing 737 MAX-8.jpg (CC BY-SA 2.0)",
+      "accessed": "2026-11-15",
+      "note": "737-8 G-TUMT right side, 2021-09-13, side-on: fitted to the measured 737-800 shape (doors pinned, camera 7° below) for the wave's crest and the title (re-check 2026-11-15)."
+    }
+  ],
+  "palette": {
+    "skyBlue": {
+      "hex": "#70CBF4",
+      "name": "TUI light blue",
+      "official": false
+    },
+    "navy": {
+      "hex": "#092A5E",
+      "official": false
+    },
+    "white": {
+      "hex": "#EEF1F4",
+      "official": false
+    },
+    "red": {
+      "hex": "#D40E14",
+      "name": "TUI red",
+      "official": false
+    },
+    "cowl": {
+      "hex": "#E6E9EC",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "name": "bare metal inlet lip",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "skyBlue",
+    "areas": [
+      {
+        "name": "white wave, lower fuselage",
+        "color": "white",
+        "points": [
+          [
+            0,
+            -0.17
+          ],
+          [
+            0.033,
+            -0.23
+          ],
+          [
+            0.08,
+            -0.3
+          ],
+          [
+            0.147,
+            -0.25
+          ],
+          [
+            0.213,
+            -0.12
+          ],
+          [
+            0.28,
+            0.0
+          ],
+          [
+            0.33,
+            0.15
+          ],
+          [
+            0.37,
+            0.28
+          ],
+          [
+            0.41,
+            0.38
+          ],
+          [
+            0.45,
+            0.45
+          ],
+          [
+            0.49,
+            0.42
+          ],
+          [
+            0.53,
+            0.25
+          ],
+          [
+            0.57,
+            0.05
+          ],
+          [
+            0.613,
+            -0.12
+          ],
+          [
+            0.68,
+            -0.32
+          ],
+          [
+            0.75,
+            -0.46
+          ],
+          [
+            0.81,
+            -0.6
+          ],
+          [
+            0.87,
+            -0.9
+          ],
+          [
+            0.89,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            0,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          4
+        ],
+        "smooth": true
+      },
+      {
+        "name": "navy wedge along the aft crown",
+        "color": "navy",
+        "points": [
+          [
+            0.56,
+            1.0
+          ],
+          [
+            0.947,
+            1.0
+          ],
+          [
+            0.967,
+            0.59
+          ],
+          [
+            0.913,
+            0.13
+          ],
+          [
+            0.847,
+            0.12
+          ],
+          [
+            0.747,
+            0.24
+          ],
+          [
+            0.647,
+            0.38
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          2
+        ],
+        "smooth": true
+      }
+    ],
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "skyBlue",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      2
+    ]
+  },
+  "wings": {
+    "top": "#B9BEC5",
+    "under": "#C9CDD2"
+  },
+  "winglets": {
+    "outer": "skyBlue",
+    "inner": "skyBlue",
+    "confidence": "medium",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "engines": {
+    "cowling": "cowl",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "logos": [
+    {
+      "mark": "TOM/smile",
+      "place": "fin",
+      "at": [
+        0.65,
+        0.3
+      ],
+      "height": 0.37,
+      "colors": [
+        "red"
+      ],
+      "description": "The TUI smile: a thick red U-shaped curve, its left end turned out as a short horizontal bar (the 'T'), with a round red dot above its right end (the 'i'); it reads as a smiling face and as 'tui'.",
+      "reference": "https://commons.wikimedia.org/wiki/File:TUI_Logo_2016.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        3
+      ]
+    },
+    {
+      "mark": "TOM/smile",
+      "place": "winglets",
+      "at": [
+        0.5,
+        0.6
+      ],
+      "height": 0.2,
+      "colors": [
+        "red"
+      ],
+      "description": "A small red smile on the winglet's outer face.",
+      "reference": "https://commons.wikimedia.org/wiki/File:TUI_Logo_2016.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "TUI",
+      "place": "fuselage",
+      "at": [
+        0.155,
+        -0.07
+      ],
+      "height": 0.65,
+      "color": "red",
+      "style": "The TUI wordmark: heavy rounded-terminal capitals, wide and upright, red, the cabin windows running through the letters, just aft of the front door.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        4
+      ],
+      "type": {
+        "similar": [
+          "Arial Rounded MT Bold",
+          "VAG Rounded Bold"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "length": 0.088
+    },
+    {
+      "text": "TUI.COM",
+      "place": "engines",
+      "at": [
+        0.2,
+        -0.1
+      ],
+      "height": 0.25,
+      "color": "navy",
+      "style": "Navy capitals across the cowling's outboard side.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ],
+      "type": {
+        "similar": [
+          "Arial Rounded MT Bold"
+        ],
+        "weight": 600,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "length": 0.6
+    }
+  ],
+  "notes": "Drawn from the 737 MAX 8; the 737-800s and 787s of TUI Airways and the TUI airlines in Germany (TUI), Belgium (JAF), the Netherlands (TFL) and the Nordics (BLX) wear the same scheme. The cabin windows in the photo sit about 0.07 higher than the generic y 0.13, so the wave's crest and the title are placed relative to the windows. Between the navy wedge and the sky blue the paint fades through a mid blue (not drawn). Re-checked 2026-11-15 on G-TUMX (left) and G-TUMT (right, fitted to the 737-800 shape): the white wave's crest is much higher than drawn, about y 0.45 (some 0.6 m over the window tops, two photos agree), at x 0.45; the wave drawn as a curve. Forward of the wing and aft of it the old points held.",
+  "history": "Replaces Skyarium v1's approximation (white with red and light-blue bands). The 2016 TUI scheme replaced Thomson Airways' (UK) and the other TUI airlines' earlier brands as they took the TUI name in 2016-2017."
+}

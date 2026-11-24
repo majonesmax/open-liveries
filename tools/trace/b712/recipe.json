@@ -1,0 +1,113 @@
+{
+  "_about": "717-200, from Boeing D6-58330 Rev B (November 2014; the copy on boeing.com's airport planning page, May 2023) 2.2 General Dimensions (page index 11): side, plan and front views on one sheet, the aircraft as blue filled paths and its windows, doors, tailplane-over-the-fin and pylon as thin blue strokes. Pixels of layers.py rasters at scale 20, line centres. Scaled by the printed 34.3 m (112 ft 8 in) from the nose to the tail cone. A T-tail (the tailplane on the fin's top: `stabilizer.mount`) and two engines on the rear fuselage on stub pylons (`engines.mount`, `pylon`). The sheet draws the cabin windows (closed outlines) and the left side's doors; the right side's service door is placed from 2.7.2's partial plan, the cargo doors (on the right) are drawn and checked against 2.7.1's door table. Heights above the crown are checked against 2.3's ground clearances (the middle of each range less the crown's, L): the fin's top E, the tailplane's tip G, the nacelle's middle H; good to about 0.15 m (the ranges are the aircraft's attitudes and loads).",
+  "out": "../../../../shapes/B712.json",
+  "length": 34.34,
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "engines": {
+    "mount": "fuselage"
+  },
+  "stabilizer": {
+    "mount": "fin"
+  },
+  "refs": {
+    "side": {
+      "nose": 171,
+      "tail": 5528,
+      "windowRow": [895, 965],
+      "windowGap": 5,
+      "windowMinWidth": 20,
+      "windowInset": 1,
+      "windowBand": [902, 958],
+      "windowsAlso": [
+        3876
+      ]
+    },
+    "plan": {
+      "nose": 175,
+      "centerline": 2402
+    },
+    "front": {
+      "centerline": 2397,
+      "crownTop": 805
+    }
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [783, 795, 922, 1082],
+      "side": "left",
+      "name": "main entry door"
+    },
+    {
+      "kind": "door",
+      "box": [817, 887, 926, 1079],
+      "side": "right",
+      "name": "service door"
+    },
+    {
+      "kind": "exit",
+      "box": [2850, 869, 2930, 1014]
+    },
+    {
+      "kind": "exit",
+      "box": [3010, 869, 3090, 1014]
+    },
+    {
+      "kind": "cargo",
+      "box": [1617, 1158, 1827, 1276],
+      "side": "right",
+      "name": "forward cargo door"
+    },
+    {
+      "kind": "cargo",
+      "box": [3931, 1159, 4073, 1272],
+      "side": "right",
+      "name": "aft cargo door"
+    }
+  ],
+  "cockpitPanes": [
+    [[550, 862], [585, 862], [587, 868], [559, 912], [505, 912], [503, 906]],
+    [[603, 862], [645, 862], [647, 867], [625, 948], [619, 948], [570, 920], [568, 913], [600, 866]],
+    [[666, 863], [705, 864], [722, 869], [726, 874], [726, 912], [645, 948], [638, 945], [636, 940], [657, 868]],
+    [[645, 811], [668, 811], [670, 815], [655, 852], [616, 852], [614, 847], [640, 813]]
+  ],
+  "printed": {
+    "fuselage width": 3.34,
+    "wingspan": 28.45,
+    "tailplane span": 11.23,
+    "overall length": 37.8,
+    "engine out from the centerline": 3.3,
+    "nacelle width": 1.93,
+    "engine inlet from the nose": 23.75,
+    "wing root leading edge from the nose": 16.05,
+    "wing tip trailing edge from the nose": 23.9,
+    "main entry door from the nose": 4.38,
+    "service door from the nose": 4.51,
+    "forward cargo door from the nose": 9.94,
+    "aft cargo door from the nose": 24.56,
+    "fin tip above the crown": 4.25,
+    "tailplane tip above the crown": 3.15,
+    "nacelle middle below the crown": 1.65
+  },
+  "meta": {
+    "id": "B712",
+    "name": "Boeing 717-200",
+    "types": [
+      "B712"
+    ],
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/airports/acaps/717.pdf",
+        "title": "Boeing, 717 Airplane Characteristics for Airport Planning (D6-58330 Rev B, November 2014), 2.2 General Dimensions, 2.3 Ground Clearances, 2.7.1 Forward and Aft Cargo Door Clearances, 2.7.2 Door Clearances: Model 717-200",
+        "accessed": "2026-11-15",
+        "note": "Dimensions and outlines read off the side, plan and front views of 2.2 (tools/trace/b712/); the figures are the aircraft's measurements, not a copy of the drawing. A T-tail (the tailplane on the fin's top) and two BR715 nacelles on the rear fuselage, each on a stub pylon. The sheet draws the cabin windows and the left side's doors: the main entry door sits within 1 cm of 2.7.2's printed 4.38 m to its middle. The right side's service door is placed from 2.7.2's partial plan (its opening 4.14-4.84 m from the nose, 27.3 in wide, 48.5 in tall, its sill with the main door's). The cargo doors (on the right) are at 2.7.1's table (9.94 m and 24.56 m to their middles); the sheet draws the forward one 0.28 m aft of that, the aft one 0.14 m. Heights above the crown are checked against 2.3's ground clearances, each the middle of its range (the aircraft's attitudes and loads) less the crown's: good to about 0.15 m. The plan prints the engine 3.30 m (10 ft 10 in) from the centerline, where both the plan and the front view draw the nacelle's middle at 2.87 m, the nacelle as wide as printed (1.94 m against 1.93) and 0.25 m clear of the fuselage; the shape keeps the drawing's (−13%)."
+      }
+    ]
+  }
+}

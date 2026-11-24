@@ -1,0 +1,397 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "GLO",
+  "name": "2015 livery",
+  "kind": "standard",
+  "from": "2015",
+  "description": "Fuselage: white forward, silver-gray aft of a slanting edge just ahead of the tail. Cheatlines: none. Tail: orange fin with a big white disc toward the trailing edge, a gray crescent behind it; below the fin an orange lobe and a white crescent sweep down onto the gray rear fuselage, like the O of the logo drawn large. Engines: silver-gray. Titles: a huge orange 'GOL' across the forward fuselage, its O carrying a gray inner crescent. Artwork: none beyond the wordmark.",
+  "confidence": "medium",
+  "drawnOn": "B738",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:PS-GRE_B737_MAX_8,_GOL,_Miami_02-20-26_(55145534922).jpg",
+      "title": "PS-GRE, Gol Boeing 737 MAX 8 at Miami, CC BY 4.0",
+      "accessed": "2026-11-13",
+      "note": "Right side, 2026-02-20: everything measured from this (side-on, in flight)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:PS-GRH_@_MIA,_2025-04-26.jpg",
+      "title": "PS-GRH @ MIA, 2025-04-26 (CC0)",
+      "accessed": "2026-11-13",
+      "note": "Right side, 2025-04-26: same scheme, three-quarter view."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Avi%C3%A3o_da_Empresa_Gol_em_Crate%C3%BAs_Cear%C3%A1.jpg",
+      "title": "PR-XME at Crateús, CC BY-SA 4.0",
+      "accessed": "2026-11-13",
+      "note": "Left side, 2020-02-18, low resolution: 'GOL' reads G-O-L nose to tail on this side, the fin's disc again toward the trailing edge."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Gol_Linhas_A%C3%A9reas_Inteligentes_logo_(2015,_without_the_slogan).svg",
+      "title": "Gol logo (2015)",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "orange": {
+      "hex": "#F2591A",
+      "official": false
+    },
+    "gray": {
+      "hex": "#AEB2B8",
+      "name": "silver",
+      "official": false
+    },
+    "lip": {
+      "hex": "#B8BCC2",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "silver-gray rear fuselage",
+        "color": "gray",
+        "points": [
+          [
+            0.742,
+            1.0
+          ],
+          [
+            0.79,
+            -1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "white crescent under the fin's leading edge",
+        "color": "white",
+        "points": [
+          [
+            0.79,
+            1.0
+          ],
+          [
+            0.849,
+            1.0
+          ],
+          [
+            0.857,
+            0.26
+          ],
+          [
+            0.868,
+            -0.16
+          ],
+          [
+            0.857,
+            -0.03
+          ],
+          [
+            0.835,
+            0.22
+          ],
+          [
+            0.81,
+            0.53
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "orange lobe under the fin",
+        "color": "orange",
+        "points": [
+          [
+            0.849,
+            1.0
+          ],
+          [
+            0.906,
+            1.0
+          ],
+          [
+            0.929,
+            0.75
+          ],
+          [
+            0.907,
+            -0.05
+          ],
+          [
+            0.882,
+            -0.25
+          ],
+          [
+            0.868,
+            -0.16
+          ],
+          [
+            0.857,
+            0.26
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "foot of the white disc",
+        "color": "white",
+        "points": [
+          [
+            0.906,
+            1.0
+          ],
+          [
+            0.913,
+            1.0
+          ],
+          [
+            0.929,
+            0.8
+          ],
+          [
+            0.946,
+            1.0
+          ],
+          [
+            0.953,
+            1.0
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0
+        ]
+      }
+    ],
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "orange",
+    "areas": [
+      {
+        "name": "gray crescent along the trailing edge",
+        "color": "gray",
+        "points": [
+          [
+            1.0,
+            0.67
+          ],
+          [
+            0.707,
+            0.67
+          ],
+          [
+            0.457,
+            0.612
+          ],
+          [
+            0.402,
+            0.574
+          ],
+          [
+            0.643,
+            0.487
+          ],
+          [
+            0.833,
+            0.348
+          ],
+          [
+            0.93,
+            0.209
+          ],
+          [
+            0.976,
+            0.07
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ]
+      },
+      {
+        "name": "white disc",
+        "color": "white",
+        "points": [
+          [
+            0.35,
+            0.574
+          ],
+          [
+            0.269,
+            0.557
+          ],
+          [
+            0.245,
+            0.509
+          ],
+          [
+            0.276,
+            0.434
+          ],
+          [
+            0.344,
+            0.34
+          ],
+          [
+            0.434,
+            0.235
+          ],
+          [
+            0.53,
+            0.13
+          ],
+          [
+            0.624,
+            0.035
+          ],
+          [
+            0.69,
+            0.0
+          ],
+          [
+            0.927,
+            0.0
+          ],
+          [
+            0.959,
+            0.035
+          ],
+          [
+            0.953,
+            0.13
+          ],
+          [
+            0.918,
+            0.235
+          ],
+          [
+            0.851,
+            0.34
+          ],
+          [
+            0.749,
+            0.434
+          ],
+          [
+            0.618,
+            0.509
+          ],
+          [
+            0.476,
+            0.557
+          ]
+        ]
+      },
+      {
+        "name": "white at the root of the leading edge",
+        "color": "white",
+        "points": [
+          [
+            0.0,
+            0.157
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.225,
+            0.0
+          ]
+        ]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "winglets": {
+    "outer": "gray",
+    "inner": "gray",
+    "confidence": "medium",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "engines": {
+    "cowling": "gray",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "titles": [
+    {
+      "text": "GOL",
+      "place": "fuselage",
+      "at": [
+        0.159,
+        -0.42
+      ],
+      "height": 1.0,
+      "length": 0.191,
+      "color": "orange",
+      "style": "The Gol wordmark, huge across the forward fuselage from below the windows nearly to the crown: heavy rounded geometric capitals, the O a ring with a gray crescent shading its inner side.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Gotham Rounded Bold",
+          "Futura Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Measured on the right side (the clean side-on photo); the left side is taken as the same span (G forward, reading nose to tail), seen only in a low-resolution photo. The wordmark is the logo, so it's drawn as a title, no mark shape. The O's gray crescent isn't drawn. The rear-fuselage gray, crescent and lobe were measured on a 737 MAX 8; the fuselage outline under the fin is partly hidden by the stabilizer, so those shapes are medium/low confidence. Not seen from below. Re-checked 2026-11-15 on PS-GRE (737 MAX 8, the 737-800's fuselage; drawnOn B738, the commonest type), placed by its doors and overwing exits: GOL runs 0.159 to 0.350 (it was drawn 0.149 long) from about the window line's depth below the windows to just under the crown (cap height 1.0, not 1.4, which ran past the crown); PS-GRH (2025, oblique) agrees. The rear gray's forward edge reads about 0.5 m further aft on PS-GRE (0.756 at the crown, 0.807 at the belly) but only one photo shows it side-on, so it is left.",
+  "history": "Replaces Skyarium v1's approximation. Introduced with Gol's 2015 rebrand, replacing the 2000s scheme (white with an orange fin and the small lowercase 'gol' square logo); a few older 737-700/800s may still carry that one."
+}

@@ -1,0 +1,351 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "americas-green-airline",
+  "airline": "FFT",
+  "name": "America's Green Airline (Powered by Pratt & Whitney)",
+  "kind": "special",
+  "confidence": "medium",
+  "drawnOn": "A21N",
+  "description": "Frontier's A321neo N603FR, 'Frederick the Bald Eagle', in a green special promoting its Pratt & Whitney GTF engines: the front of the fuselage white with the usual green 'FRONTIER' titles; over the wing the white fades through a pale mint into a deep green that covers the whole rear fuselage, the fin and the engines; 'America's Green Airline' in lime green over the rear windows and 'POWERED BY PRATT & WHITNEY' in white under them; the bald eagle spreads its wings across the green fin, its head and talons painted on the rear fuselage round the aft door; lime sharklets. No teal line or web address.",
+  "sources": [
+    {
+      "url": "https://www.flyfrontier.com/plane-tails/endangered-animals/frederick-the-bald-eagle/",
+      "title": "Frontier Airlines plane tails: Frederick the Bald Eagle",
+      "accessed": "2026-11-22",
+      "note": "Frontier's page for the animal on N603FR."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N603FR_@_MIA,_2022-12-02.jpg",
+      "title": "N603FR @ MIA, 2022-12-02.jpg (CC BY-SA 2.0, Michael Steffen)",
+      "accessed": "2026-11-22",
+      "note": "Left side, side-on, true colors, 2022-12-02: fitted to the measured A321neo shape (tools/photo_trace.py, doors pinned); the fade, titles, colors measured on it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A321-271NX_-_Frontier_Airlines_-_N603FR.jpg",
+      "title": "Airbus A321-271NX - Frontier Airlines - N603FR.jpg (CC BY-SA 4.0, Oleg Yunakov)",
+      "accessed": "2026-11-22",
+      "note": "Left side through a tinted terminal window, 2023-07-14 (colors unusable): fitted; the titles' ends and the fade's start checked on it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N603FR_JFK_Landing_4R_F9_A321_271_NX_Frederick_The_Bald_Eagle_Small_(54110203648).png",
+      "title": "N603FR JFK Landing 4R F9 A321 271 NX Frederick The Bald Eagle Small (54110203648).png (CC BY-SA 2.0, Mark Bess)",
+      "accessed": "2026-11-22",
+      "note": "Right side landing, 2024-11-01, the newest open photo: fitted flipped; the right side's titles cover the same stretch as the left's ('N603FR' sits aft of 'America's' on this side)."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F4F5F5",
+      "official": false
+    },
+    "green": {
+      "hex": "#0B6E4F",
+      "official": false,
+      "name": "Frontier green"
+    },
+    "bodyGreen": {
+      "hex": "#00704F",
+      "official": false,
+      "name": "the rear fuselage's and fin's green (#017B62 in sun, #004E3B in shade on the 2022 photo)"
+    },
+    "mint": {
+      "hex": "#7DD3BE",
+      "official": false,
+      "name": "the fade's middle, white to green"
+    },
+    "lime": {
+      "hex": "#9BD475",
+      "official": false,
+      "name": "'America's Green Airline' and the sharklets"
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false,
+      "name": "bare metal inlet lip"
+    },
+    "flagRed": {
+      "hex": "#B22234",
+      "official": false
+    },
+    "flagNavy": {
+      "hex": "#1F2A5C",
+      "official": false
+    },
+    "eagleBrown": {
+      "hex": "#4A3424",
+      "official": false,
+      "name": "the eagle's wings (art)"
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "the fade's pale middle over the wing root (white to mint to green), drawn as one band with straight, upright edges",
+        "color": "mint",
+        "points": [
+          [
+            0.425,
+            -1
+          ],
+          [
+            0.425,
+            1
+          ],
+          [
+            0.465,
+            1
+          ],
+          [
+            0.465,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "name": "deep green from over the wing to the tail, crown to belly",
+        "color": "bodyGreen",
+        "points": [
+          [
+            0.465,
+            -1
+          ],
+          [
+            0.465,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2,
+          3
+        ]
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2,
+      3
+    ]
+  },
+  "fin": {
+    "base": "bodyGreen",
+    "fillet": "bodyGreen",
+    "mirrored": false,
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      3
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "lime",
+    "inner": "lime",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      3
+    ]
+  },
+  "engines": {
+    "cowling": "bodyGreen",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      3
+    ]
+  },
+  "logos": [
+    {
+      "mark": "FFT/animal-tail",
+      "place": "fin",
+      "at": [
+        0.55,
+        0.55
+      ],
+      "height": 0.85,
+      "colors": [
+        "bodyGreen",
+        "eagleBrown"
+      ],
+      "description": "Frederick the bald eagle, photographic: wings spread up the green fin toward its tip, its white head and yellow beak and its talons painted on the rear fuselage either side of the aft door (the art runs down off the fin). No sky behind it, as on the standard tails: the fin's ground is the scheme's green.",
+      "reference": "https://www.flyfrontier.com/plane-tails/endangered-animals/frederick-the-bald-eagle/",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "mark": "FFT/us-flag",
+      "place": "fuselage",
+      "at": [
+        0.778,
+        0.26
+      ],
+      "height": 0.1,
+      "colors": [
+        "flagRed",
+        "white",
+        "flagNavy"
+      ],
+      "description": "A small US flag after the registration over the rear windows.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        3
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "FRONTIER",
+      "mark": "FFT/wordmark",
+      "place": "fuselage",
+      "at": [
+        0.133,
+        -0.112
+      ],
+      "height": 0.59,
+      "color": "green",
+      "style": "Frontier's wordmark, as on the standard scheme (measured there on N638FR; it sits the same on N603FR's photos, x 0.13 to 0.45).",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2,
+        3
+      ],
+      "length": 0.316,
+      "type": {
+        "similar": [
+          "Eurostile Extended Black",
+          "Microgramma Bold Extended"
+        ],
+        "weight": 900,
+        "slantDeg": 12,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "America's Green Airline",
+      "place": "fuselage",
+      "at": [
+        0.505,
+        0.27
+      ],
+      "height": 0.2,
+      "length": 0.215,
+      "color": "lime",
+      "style": "Lime-green bold geometric sans, mixed case, over the rear windows from just behind the wing's root to ahead of the registration.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Montserrat Bold",
+          "Gotham Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      }
+    },
+    {
+      "text": "POWERED BY",
+      "place": "fuselage",
+      "at": [
+        0.645,
+        -0.07
+      ],
+      "height": 0.09,
+      "length": 0.062,
+      "color": "white",
+      "style": "White condensed capitals under the rear windows, regular weight; 'PRATT & WHITNEY' follows in bold.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Roboto Condensed",
+          "Oswald"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "condensed",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "PRATT & WHITNEY",
+      "place": "fuselage",
+      "at": [
+        0.709,
+        -0.07
+      ],
+      "height": 0.09,
+      "length": 0.067,
+      "color": "white",
+      "style": "Bold, after 'POWERED BY'.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Roboto Condensed Bold",
+          "Oswald Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "condensed",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Drawn on three open photos of N603FR (2022-12 left side-on, 2023-07 left through tinted glass, 2024-11 right), each fitted to the measured A321neo shape. The fade from white to green runs over the wing's root: white to about x 0.415 at the crown and below the windows, full green from about 0.49; drawn as one mint band (0.425 to 0.465) between white and green with upright straight edges. The belly under the fade is hidden by the engine and gear in every photo: the edges are carried down upright, not seen. The right side matches the left (titles over the same stretch; on the right 'N603FR' comes before 'America's' from the tail). The eagle is per-jet art (airframes/FFT.json `art`); its head and talons on the rear fuselage are left to the art, not drawn as areas. The animal's name under the cockpit ('Frederick THE BALD EAGLE') and the registration aren't drawn. Currency: N603FR flies (adsb.lol 2026-11-13); the newest open photo of the paint is 2024-11-01, and a spotter lead lists it in 2026."
+}

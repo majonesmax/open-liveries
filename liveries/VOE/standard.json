@@ -1,0 +1,594 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "VOE",
+  "name": "Gingham livery",
+  "kind": "standard",
+  "confidence": "medium",
+  "drawnOn": "A319",
+  "description": "White fuselage with 'VOLOTEA' in heavy aubergine capitals ahead of the wing and a small slogan under it. The fin is a red-and-white gingham of diamonds (red, white, and red-hatched squares tilted 45°), one diamond aubergine near the root; the check carries on, in pastel olive, mustard, pink and purple, over the aft fuselage and fades out toward the wing. Engines white with a red gingham diamond.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A319-112_(c-n_2879,_EC-NGL)_2026-10-06_Andre_Gerwing_Collection_ID_031283.jpg",
+      "title": "Airbus A319-112 (c-n 2879, EC-NGL) 2026-10-06 Andre Gerwing Collection ID 031283.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "A319 EC-NGL, right side, 2026-10-06: the fin's gingham measured from this one, title, aft pattern, engines."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A319-112_(c-n_2879,_EC-NGL)_2026-10-06_Andre_Gerwing_Collection_ID_031275.jpg",
+      "title": "Airbus A319-112 (c-n 2879, EC-NGL) 2026-10-06 Andre Gerwing Collection ID 031275.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "EC-NGL, right side, taking off, 2026-10-06."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A319-111,_EC-MUT,_Airbus_One.jpg",
+      "title": "Airbus A319-111, EC-MUT, Airbus One.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "A319 EC-MUT, right side, 2020-01-29."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:EI-FXM_Airbus_A319_Volotea_(36139857642).jpg",
+      "title": "EI-FXM Airbus A319 Volotea (36139857642).jpg (CC0)",
+      "accessed": "2026-11-13",
+      "note": "A319 EI-FXM close, right side, 2017-07-31: title and engine."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F6",
+      "official": false
+    },
+    "red": {
+      "hex": "#C8102E",
+      "official": false
+    },
+    "hatch": {
+      "hex": "#EBB0BA",
+      "official": false
+    },
+    "aubergine": {
+      "hex": "#3F2A45",
+      "official": false
+    },
+    "pastel": {
+      "hex": "#EEE7E2",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "windows": "plain",
+    "areas": [
+      {
+        "name": "pastel gingham over the aft fuselage (drawn as its average tint)",
+        "color": "pastel",
+        "points": [
+          [
+            0.63,
+            1
+          ],
+          [
+            0.66,
+            0
+          ],
+          [
+            0.71,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0,
+          2
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "fin": {
+    "base": "hatch",
+    "areas": [
+      {
+        "name": "white check",
+        "color": "white",
+        "points": [
+          [
+            0.45,
+            0.998
+          ],
+          [
+            0.343,
+            0.903
+          ],
+          [
+            0.706,
+            0.808
+          ],
+          [
+            0.858,
+            0.903
+          ]
+        ]
+      },
+      {
+        "name": "white check",
+        "color": "white",
+        "points": [
+          [
+            0.846,
+            0.617
+          ],
+          [
+            0.742,
+            0.522
+          ],
+          [
+            0.934,
+            0.426
+          ],
+          [
+            1.047,
+            0.522
+          ]
+        ]
+      },
+      {
+        "name": "white check",
+        "color": "white",
+        "points": [
+          [
+            0.267,
+            0.808
+          ],
+          [
+            0.21,
+            0.712
+          ],
+          [
+            0.506,
+            0.617
+          ],
+          [
+            0.593,
+            0.712
+          ]
+        ]
+      },
+      {
+        "name": "white check",
+        "color": "white",
+        "points": [
+          [
+            0.657,
+            0.426
+          ],
+          [
+            0.586,
+            0.331
+          ],
+          [
+            0.761,
+            0.236
+          ],
+          [
+            0.84,
+            0.331
+          ]
+        ]
+      },
+      {
+        "name": "white check",
+        "color": "white",
+        "points": [
+          [
+            0.166,
+            0.617
+          ],
+          [
+            0.131,
+            0.522
+          ],
+          [
+            0.38,
+            0.426
+          ],
+          [
+            0.436,
+            0.522
+          ]
+        ]
+      },
+      {
+        "name": "white check",
+        "color": "white",
+        "points": [
+          [
+            0.527,
+            0.236
+          ],
+          [
+            0.476,
+            0.14
+          ],
+          [
+            0.634,
+            0.045
+          ],
+          [
+            0.693,
+            0.14
+          ]
+        ]
+      },
+      {
+        "name": "white check",
+        "color": "white",
+        "points": [
+          [
+            0.102,
+            0.426
+          ],
+          [
+            0.079,
+            0.331
+          ],
+          [
+            0.293,
+            0.236
+          ],
+          [
+            0.333,
+            0.331
+          ]
+        ]
+      },
+      {
+        "name": "white check",
+        "color": "white",
+        "points": [
+          [
+            0.059,
+            0.236
+          ],
+          [
+            0.042,
+            0.14
+          ],
+          [
+            0.229,
+            0.045
+          ],
+          [
+            0.259,
+            0.14
+          ]
+        ]
+      },
+      {
+        "name": "red check",
+        "color": "red",
+        "points": [
+          [
+            0.706,
+            0.808
+          ],
+          [
+            0.593,
+            0.712
+          ],
+          [
+            0.846,
+            0.617
+          ],
+          [
+            0.977,
+            0.712
+          ]
+        ]
+      },
+      {
+        "name": "red check",
+        "color": "red",
+        "points": [
+          [
+            -0.171,
+            0.998
+          ],
+          [
+            -0.172,
+            0.903
+          ],
+          [
+            0.267,
+            0.808
+          ],
+          [
+            0.343,
+            0.903
+          ]
+        ]
+      },
+      {
+        "name": "red check",
+        "color": "red",
+        "points": [
+          [
+            0.934,
+            0.426
+          ],
+          [
+            0.84,
+            0.331
+          ],
+          [
+            0.995,
+            0.236
+          ],
+          [
+            1.094,
+            0.331
+          ]
+        ]
+      },
+      {
+        "name": "red check",
+        "color": "red",
+        "points": [
+          [
+            0.506,
+            0.617
+          ],
+          [
+            0.436,
+            0.522
+          ],
+          [
+            0.657,
+            0.426
+          ],
+          [
+            0.742,
+            0.522
+          ]
+        ]
+      },
+      {
+        "name": "red check",
+        "color": "red",
+        "points": [
+          [
+            0.761,
+            0.236
+          ],
+          [
+            0.693,
+            0.14
+          ],
+          [
+            0.837,
+            0.045
+          ],
+          [
+            0.91,
+            0.14
+          ]
+        ]
+      },
+      {
+        "name": "red check",
+        "color": "red",
+        "points": [
+          [
+            0.38,
+            0.426
+          ],
+          [
+            0.333,
+            0.331
+          ],
+          [
+            0.527,
+            0.236
+          ],
+          [
+            0.586,
+            0.331
+          ]
+        ]
+      },
+      {
+        "name": "aubergine check",
+        "color": "aubergine",
+        "points": [
+          [
+            0.293,
+            0.236
+          ],
+          [
+            0.259,
+            0.14
+          ],
+          [
+            0.432,
+            0.045
+          ],
+          [
+            0.476,
+            0.14
+          ]
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "#B9BEC5",
+    "under": "#C9CDD2"
+  },
+  "winglets": {
+    "outer": "red",
+    "inner": "red",
+    "confidence": "medium",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "areas": [
+      {
+        "name": "red-hatched aft cowling",
+        "color": "hatch",
+        "points": [
+          [
+            0.45,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            0.45,
+            -1
+          ]
+        ]
+      },
+      {
+        "name": "red diamond",
+        "color": "red",
+        "points": [
+          [
+            0.3,
+            0
+          ],
+          [
+            0.55,
+            0.85
+          ],
+          [
+            0.8,
+            0
+          ],
+          [
+            0.55,
+            -0.85
+          ]
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      3
+    ]
+  },
+  "logos": [
+    {
+      "mark": "VOE/diamond",
+      "place": "winglets",
+      "at": [
+        0.5,
+        0.5
+      ],
+      "height": 0.3,
+      "colors": [
+        "white"
+      ],
+      "description": "A small white diamond on the red wingtip fence.",
+      "confidence": "low",
+      "sourceRefs": [
+        0
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "VOLOTEA",
+      "place": "fuselage",
+      "at": [
+        0.19,
+        0.07
+      ],
+      "height": 0.39,
+      "color": "aubergine",
+      "style": "Heavy, slightly condensed geometric capitals with sharp V and A, over the forward windows.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Gotham Black",
+          "Montserrat ExtraBold"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "length": 0.182
+    },
+    {
+      "text": "MAMÁ, LLEGO EN UN RATO",
+      "place": "fuselage",
+      "at": [
+        0.19,
+        -0.12
+      ],
+      "height": 0.09,
+      "color": "aubergine",
+      "style": "Small condensed capitals under the title: a slogan ('Mum, I'll be there soon'); others vary by aircraft.",
+      "confidence": "low",
+      "sourceRefs": [
+        0
+      ],
+      "type": {
+        "similar": [
+          "Gotham Condensed Medium",
+          "Roboto Condensed"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "condensed",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "length": 0.096
+    }
+  ],
+  "notes": "Only the right side was in hand (all four photos); the left is assumed to carry the same design (mirrored on the fin). The aft fuselage's pastel gingham (olive, mustard, pink, purple diamonds fading forward) is drawn as one average tint; the hatched squares are drawn as one pink. The slogan under the title is per aircraft. 'from' left out: no dated source in hand for this scheme's introduction. Re-checked 2026-11-15 on EC-NGL (A319, 2026-10-06, flipped): 'VOLOTEA' runs x 0.193-0.375 and the slogan 0.193-0.289; their heights agree.",
+  "history": "Replaced Skyarium v1's approximation (magenta and black)."
+}

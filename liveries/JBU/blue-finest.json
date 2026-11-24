@@ -1,0 +1,310 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "blue-finest",
+  "airline": "JBU",
+  "name": "Blue Finest (NYPD)",
+  "kind": "special",
+  "confidence": "medium",
+  "drawnOn": "A320",
+  "description": "Fuselage: Deep royal blue (NYPD blue) from the nose to the aft door, belly included; behind the aft door the fuselage is white with a broad green band across the window line and a second green band low down, after the NYPD flag. Tail: Blue fin with about twenty white stars in a rounded cluster across its middle. Engines: Blue with white 'jetblue.com', polished lips. Winglets: Green wingtip fences. Titles: White 'jetBlue' forward; 'HONORED TO SUPPORT NEW YORK'S FINEST' in small white italic capitals above the aft windows; 'Blue Finest' small under the cockpit. Artwork: the NYPD flag's colors and stars.",
+  "sources": [
+    {
+      "url": "https://simpleflying.com/jetblue-special-liveries-guide/",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/w/index.php?search=N531JL",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:JetBlue_A320-200_arriving_at_BOS.jpg",
+      "title": "JetBlue A320-200 arriving at BOS (CC0)",
+      "accessed": "2026-11-12",
+      "note": "Right side, 2024-07-26: N531JL with 'Blue Finest' under the cockpit; the blue body, star-covered fin, green and white aft fuselage, green wingtip fences. Main geometry source."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:JetBlue_Airways_A320-232,_N531JL,_named_Blue_Finest,_MSN_1650_(12_2001),_as_B6_1168_West_Palm_Beach_(PBI)_-_White_Plains_(HPN),_Flight_time_2_27_(51271700737).jpg",
+      "title": "JetBlue Airways A320-232, N531JL, named Blue Finest ... (51271700737) (CC BY 2.0)",
+      "accessed": "2026-11-12",
+      "note": "From below and behind, 2021-06-18: the green bands on the white aft fuselage seen from underneath."
+    }
+  ],
+  "notes": "Registration settled: the 2024-07-26 photo shows N531JL with 'Blue Finest' under the cockpit (the N569JB pairing in a hobbyist list is wrong). Drawn from one right-side photo; the left side wasn't seen clearly, and the lower green band is only seen from below (low). Re-checked 2026-11-15: 'jetBlue' placed as on the standard (measured in metres on the A321neo N2017J and checked on A320s: x 0.174-0.356 of an A320, cap 1.57 m, lowercase 0.76 of the capitals); 'jetblue.com' on the A320's nacelle x 0.43-0.79 (read off N615JB and N627JB); the name under the cockpit given its length.",
+  "from": "2014",
+  "palette": {
+    "blue": {
+      "hex": "#262E96",
+      "name": "NYPD blue",
+      "official": false
+    },
+    "green": {
+      "hex": "#0F7A55",
+      "official": false
+    },
+    "white": {
+      "hex": "#F0F1F2",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC5",
+      "official": false
+    },
+    "metal": {
+      "hex": "#B8BDC3",
+      "name": "polished inlet lip",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "blue",
+    "areas": [
+      {
+        "name": "white aft fuselage behind the aft door",
+        "color": "white",
+        "points": [
+          [
+            0.785,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            0.79,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2
+        ]
+      },
+      {
+        "name": "green band across the window line",
+        "color": "green",
+        "points": [
+          [
+            0.786,
+            0.25
+          ],
+          [
+            1,
+            0.25
+          ],
+          [
+            1,
+            -0.11
+          ],
+          [
+            0.787,
+            -0.11
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2
+        ]
+      },
+      {
+        "name": "lower green band",
+        "color": "green",
+        "points": [
+          [
+            0.788,
+            -0.45
+          ],
+          [
+            1,
+            -0.45
+          ],
+          [
+            1,
+            -0.75
+          ],
+          [
+            0.789,
+            -0.75
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          2,
+          3
+        ]
+      }
+    ],
+    "radome": {
+      "color": "blue"
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      2
+    ]
+  },
+  "fin": {
+    "base": "blue",
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "green",
+    "inner": "green",
+    "confidence": "medium",
+    "sourceRefs": [
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "blue",
+    "inletLip": "metal",
+    "confidence": "medium",
+    "sourceRefs": [
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "JBU/nypd-stars",
+      "place": "fin",
+      "at": [
+        0.6,
+        0.37
+      ],
+      "height": 0.5,
+      "colors": [
+        "white"
+      ],
+      "description": "About twenty small white five-pointed stars in a rounded cluster (loosely a ring with stars inside), across the middle of the fin a little aft of center; the stars of the NYPD flag.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "jetBlue",
+      "place": "fuselage",
+      "at": [
+        0.174,
+        0.0
+      ],
+      "height": 0.76,
+      "color": "white",
+      "style": "The jetBlue logotype in white: heavy rounded sans, over the forward windows just aft of the forward door.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2
+      ],
+      "type": {
+        "similar": [
+          "Gotham Rounded Bold",
+          "VAG Rounded Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.76
+      },
+      "length": 0.182
+    },
+    {
+      "text": "HONORED TO SUPPORT NEW YORK'S FINEST",
+      "place": "fuselage",
+      "at": [
+        0.614,
+        0.3
+      ],
+      "height": 0.09,
+      "color": "white",
+      "style": "Small white italic sans capitals just above the windows, ending at the aft door, the registration under its aft end.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2
+      ],
+      "type": {
+        "similar": [
+          "Gotham Bold Italic",
+          "Helvetica Neue Bold Italic"
+        ],
+        "weight": 700,
+        "slantDeg": 12,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "length": 0.127
+    },
+    {
+      "text": "Blue Finest",
+      "place": "fuselage",
+      "at": [
+        0.06,
+        -0.2
+      ],
+      "height": 0.08,
+      "color": "white",
+      "style": "Small white italic sans below the cockpit windows (the aircraft's name).",
+      "confidence": "medium",
+      "sourceRefs": [
+        2
+      ],
+      "type": {
+        "similar": [
+          "Gotham Bold Italic"
+        ],
+        "weight": 700,
+        "slantDeg": 10,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.7
+      },
+      "length": 0.025
+    },
+    {
+      "text": "jetblue.com",
+      "place": "engines",
+      "at": [
+        0.43,
+        0.0
+      ],
+      "height": 0.25,
+      "color": "white",
+      "style": "Bold rounded lower case along the cowling's side.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2
+      ],
+      "type": {
+        "similar": [
+          "Gotham Rounded Bold",
+          "VAG Rounded Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "length": 0.36
+    }
+  ]
+}

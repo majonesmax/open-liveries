@@ -1,0 +1,222 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "EVA",
+  "airframes": [
+    {
+      "registration": "B-16722",
+      "livery": "hello-kitty-sanrio-characters-besties-jet",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://www.evaair.com/en-global/fly-prepare/flying-with-eva/hello-kitty-jet/default.html",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-16722_(aircraft)",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "8990e4",
+      "hexSource": "looked up: hexdb.io community database (2026-11-12); not verified against the national register",
+      "type": "B77W",
+      "from": "2024",
+      "lastSeen": "2026-05-07",
+      "status": "active: Commons photos at Taoyuan Feb and May 2026; EVA's Sept 2026 schedule lists Chicago-Taipei (BR55/56) as a Hello Kitty route."
+    },
+    {
+      "registration": "B-16781",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/EVA_Air#Fleet",
+          "title": "Wikipedia: EVA Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "EVA Air Cargo: nine 777Fs."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-16781_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "899121",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "status": "active: in Commons' 'Current Boeing 777F of EVA Air Cargo'"
+    },
+    {
+      "registration": "B-16782",
+      "livery": "cargo",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/EVA_Air#Fleet",
+          "title": "Wikipedia: EVA Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "EVA Air Cargo: nine 777Fs."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-16782_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "899123",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "lastSeen": "2026-02-04",
+      "status": "active: in Commons' 'Current Boeing 777F of EVA Air Cargo'"
+    },
+    {
+      "registration": "B-16783",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/EVA_Air#Fleet",
+          "title": "Wikipedia: EVA Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "EVA Air Cargo: nine 777Fs."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-16783_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "899124",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "status": "active: in Commons' 'Current Boeing 777F of EVA Air Cargo'"
+    },
+    {
+      "registration": "B-16785",
+      "livery": "cargo",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/EVA_Air#Fleet",
+          "title": "Wikipedia: EVA Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "EVA Air Cargo: nine 777Fs."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-16785_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "899134",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "lastSeen": "2026-11-14",
+      "status": "active: in Commons' 'Current Boeing 777F of EVA Air Cargo'"
+    },
+    {
+      "registration": "B-16786",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/EVA_Air#Fleet",
+          "title": "Wikipedia: EVA Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "EVA Air Cargo: nine 777Fs."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-16786_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "899137",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "status": "hexdb lists it as an EVA 777F; Wikipedia counts nine 777Fs; no Commons photo found"
+    },
+    {
+      "registration": "B-16787",
+      "livery": "cargo",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/EVA_Air#Fleet",
+          "title": "Wikipedia: EVA Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "EVA Air Cargo: nine 777Fs."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-16787_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "89912d",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "lastSeen": "2026-11-14",
+      "status": "active: in Commons' 'Current Boeing 777F of EVA Air Cargo'"
+    },
+    {
+      "registration": "B-16788",
+      "livery": "cargo",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/EVA_Air#Fleet",
+          "title": "Wikipedia: EVA Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "EVA Air Cargo: nine 777Fs."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-16788_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "899133",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "lastSeen": "2026-02-04",
+      "status": "active: in Commons' 'Current Boeing 777F of EVA Air Cargo'"
+    },
+    {
+      "registration": "B-16789",
+      "livery": "cargo",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/EVA_Air#Fleet",
+          "title": "Wikipedia: EVA Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "EVA Air Cargo: nine 777Fs."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-16789_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "899135",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "lastSeen": "2026-11-14",
+      "status": "active: in Commons' 'Current Boeing 777F of EVA Air Cargo'"
+    },
+    {
+      "registration": "B-16790",
+      "livery": "cargo",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/EVA_Air#Fleet",
+          "title": "Wikipedia: EVA Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "EVA Air Cargo: nine 777Fs."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-16790_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "899082",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "lastSeen": "2026-11-14",
+      "status": "active: in Commons' 'Current Boeing 777F of EVA Air Cargo'"
+    }
+  ]
+}

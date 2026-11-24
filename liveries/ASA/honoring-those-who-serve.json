@@ -1,0 +1,533 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "honoring-those-who-serve",
+  "airline": "ASA",
+  "name": "Honoring Those Who Serve (2024, six branches)",
+  "kind": "special",
+  "confidence": "medium",
+  "drawnOn": "B38M",
+  "description": "Fuselage: White forward fuselage; rear fuselage and belly royal blue behind a straight diagonal from the belly under the engine up to the crown just behind the wing. Cheatlines: A red pinstripe (with thin white) runs diagonally along the white/blue boundary from the lower nose up across the wing root. Tail: Royal-blue fin with the Alaska Native man's face in cream and periwinkle swooshes (the flag seen above the fin root in side views is the far winglet). Engines: Royal-blue cowlings with a gold/yellow ringed inlet lip area. Winglets: Stars-and-stripes. Titles: 'HONORING THOSE WHO SERVE' in blue serif capitals above the forward windows; 'Alaska' script in gray/silver below the windows; circular blue badge with gold stars near the nose. Artwork: Symbols of Air Force, Army, Navy, Marine Corps, Coast Guard and Space Force (insignia aft). Colors hex: approximate.",
+  "sources": [
+    {
+      "url": "https://www.alaskaair.com/content/travel-info/our-aircraft/737-8-max-honoring-those-who-serve",
+      "title": "Alaska Airlines: Honoring Those Who Serve Boeing 737-8 MAX",
+      "accessed": "2026-11-14",
+      "note": "Alaska's page: N806AK, the fourth in the series, 'nearly identical' to the other three; six stars and six stripes on the cowls for the six branches. Its photo shows the left side from below."
+    },
+    {
+      "url": "https://www.alaskaair.com/content/travel-info/our-aircraft/e175-honoring-those-who-serve",
+      "title": "Alaska Airlines: Honoring Those Who Serve Embraer 175",
+      "accessed": "2026-11-14",
+      "note": "Alaska's page: N651QX (Horizon), the third; the same red stripe and blue body, 'Horizon Air Salutes' medallion by the nose, five stars and five stripes on the cowls. Its photo shows the right side."
+    },
+    {
+      "url": "https://www.alaskaair.com/content/travel-info/our-aircraft/737-800-honoring-those-who-serve",
+      "title": "Alaska Airlines: Honoring Those Who Serve Boeing 737-800",
+      "accessed": "2026-11-14",
+      "note": "Alaska's page: N570AS, the second, 'nearly identical' to the first. Its photo shows the left side from below."
+    },
+    {
+      "url": "https://www.alaskaair.com/content/travel-info/our-aircraft/739-alaska-airlines-salutes",
+      "title": "Alaska Airlines: Honoring Those Who Serve 737-900ER",
+      "accessed": "2026-11-14",
+      "note": "Alaska's page: N265AK, the first, painted with Boeing. Its photo shows the right side."
+    },
+    {
+      "url": "https://simpleflying.com/alaska-airlines-honors-us-armed-forces-new-livery-6-branches/",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:N806AK_(aircraft)",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://simpleflying.com/stars-stripes-america-liveries-flying/",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:N570AS_(aircraft)",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://news.alaskaair.com/newsroom/alaska-airlines-salutes-military-heroes-with-patriotic-themed-aircraft/",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:N265AK_(aircraft)",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N806AK_@_JFK,_2024-07-15.png",
+      "title": "N806AK @ JFK, 2024-07-15 (CC BY-SA 2.0)",
+      "accessed": "2026-11-12",
+      "note": "Right side, 737 MAX 8 on the runway, 2024-07-15: the diagonal split and its red stripe, fin, engines, titles; geometry measured from it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N570AS_ANC_Roll_Out_7R_AS_B737_890_Honoring_Those_Who_Serve_Beacon_Small.png",
+      "title": "N570AS ANC Roll Out 7R AS B737 890 Honoring Those Who Serve (CC BY-SA 2.0)",
+      "accessed": "2026-11-12",
+      "note": "Right side, 737-800, 2025-06-06: the same layout on N570AS; fin swooshes and the flag winglet."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Honoring_Those_Who_Serve_932.jpg",
+      "title": "Honoring Those Who Serve 932 (CC BY-SA 4.0)",
+      "accessed": "2026-11-12",
+      "note": "N265AK (737-900ER) from below left, 2019-08-30: the left side mirrors the right; blue belly aft of the split, flag winglets."
+    }
+  ],
+  "notes": "Same scheme family on N570AS (B738, 2007 airframe), N265AK (B739ER, 2016) and Horizon E175 N651QX (2019). Drawn from N806AK (right side, 2024) and checked on N570AS (right, 2025) and N265AK (left, 2019): the layout matches on all three, scaled to the type. On N806AK the split meets the crown just behind the wing and the belly under the engine. Registration in white above the rear windows (varies by airframe, not drawn). Simple Flying (2026) reports America250 decals were added; they aren't in these photos. Alaska's four pages (737-900ER N265AK, 737-800 N570AS, E175 N651QX, 737-8 N806AK) show one design on all four, with only the medallion's wording (Horizon's on the E175), the quotes by the doors and the count of stars and cowl stripes (five, six on the MAX 8) differing: one scheme, four airframes. Re-checked 2026-11-15 (drawn on the 737-8, N806AK): the split is straight as seen from the side, so its blue edge and the red pinstripe are now just their end points (the renderer draws an edge straight in side view); they had been traced as points along it. Titles' lengths kept; 'Alaska' lowercase about 0.55 of its A.",
+  "from": "2024-06",
+  "palette": {
+    "white": {
+      "hex": "#F3F3F1",
+      "official": false
+    },
+    "royal": {
+      "hex": "#2440A8",
+      "official": false
+    },
+    "red": {
+      "hex": "#C0282D",
+      "official": false
+    },
+    "navy": {
+      "hex": "#1D2E7A",
+      "official": false
+    },
+    "silver": {
+      "hex": "#A9AEB5",
+      "official": false
+    },
+    "periwinkle": {
+      "hex": "#8FA0E0",
+      "official": false
+    },
+    "cream": {
+      "hex": "#F1EEE4",
+      "official": false
+    },
+    "gold": {
+      "hex": "#D9A93A",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC5",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "royal-blue aft fuselage and belly, behind a straight diagonal from the belly under the engine to the crown over the wing's trailing edge",
+        "color": "royal",
+        "points": [
+          [
+            0.262,
+            -1.0
+          ],
+          [
+            0.613,
+            1.0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "name": "red pinstripe just ahead of the split (a thin white gap between it and the blue)",
+        "color": "red",
+        "points": [
+          [
+            0.246,
+            -1.0
+          ],
+          [
+            0.597,
+            1.0
+          ],
+          [
+            0.606,
+            1.0
+          ],
+          [
+            0.255,
+            -1.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          10,
+          11
+        ]
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      10,
+      11,
+      12
+    ]
+  },
+  "fin": {
+    "base": "royal",
+    "rudder": "royal",
+    "areas": [
+      {
+        "name": "upper periwinkle swoosh, from the leading edge near the tip down to the trailing edge",
+        "color": "periwinkle",
+        "points": [
+          [
+            0,
+            0.88
+          ],
+          [
+            0.45,
+            0.84
+          ],
+          [
+            1,
+            0.78
+          ],
+          [
+            1,
+            0.7
+          ],
+          [
+            0.45,
+            0.77
+          ],
+          [
+            0,
+            0.81
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          10,
+          11
+        ]
+      },
+      {
+        "name": "lower periwinkle swoosh, from the leading edge down and back to the root",
+        "color": "periwinkle",
+        "points": [
+          [
+            0,
+            0.31
+          ],
+          [
+            0.3,
+            0.12
+          ],
+          [
+            0.56,
+            0
+          ],
+          [
+            0.36,
+            0
+          ],
+          [
+            0,
+            0.19
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          10,
+          11
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      10,
+      11
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "stabilizer": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "white",
+    "inner": "white",
+    "areas": [
+      {
+        "name": "red stripes running root to tip",
+        "color": "red",
+        "points": [
+          [
+            0.15,
+            0
+          ],
+          [
+            0.27,
+            0
+          ],
+          [
+            0.27,
+            0.55
+          ],
+          [
+            0.15,
+            0.55
+          ]
+        ]
+      },
+      {
+        "name": "red stripe",
+        "color": "red",
+        "points": [
+          [
+            0.45,
+            0
+          ],
+          [
+            0.57,
+            0
+          ],
+          [
+            0.57,
+            0.55
+          ],
+          [
+            0.45,
+            0.55
+          ]
+        ]
+      },
+      {
+        "name": "red stripe",
+        "color": "red",
+        "points": [
+          [
+            0.75,
+            0
+          ],
+          [
+            0.87,
+            0
+          ],
+          [
+            0.87,
+            1
+          ],
+          [
+            0.75,
+            1
+          ]
+        ]
+      },
+      {
+        "name": "blue canton with white stars, at the tip's leading edge",
+        "color": "navy",
+        "points": [
+          [
+            0,
+            0.55
+          ],
+          [
+            0.62,
+            0.55
+          ],
+          [
+            0.62,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      11,
+      12
+    ]
+  },
+  "engines": {
+    "cowling": "royal",
+    "inletLip": "lip",
+    "pylon": "royal",
+    "areas": [
+      {
+        "name": "ring of thin gold pinstripes on blue behind the lip (drawn as one band)",
+        "color": "gold",
+        "points": [
+          [
+            0.05,
+            -1
+          ],
+          [
+            0.2,
+            -1
+          ],
+          [
+            0.2,
+            1
+          ],
+          [
+            0.05,
+            1
+          ]
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      10,
+      11,
+      12
+    ]
+  },
+  "logos": [
+    {
+      "mark": "ASA/native-face",
+      "place": "fin",
+      "at": [
+        0.5,
+        0.36
+      ],
+      "height": 0.53,
+      "colors": [
+        "cream",
+        "royal"
+      ],
+      "description": "Alaska's Native man's face, in cream on the royal-blue fin (the standard tail's face, recolored).",
+      "confidence": "high",
+      "sourceRefs": [
+        10,
+        11
+      ]
+    },
+    {
+      "mark": "ASA/salutes-those-who-serve-roundel",
+      "place": "fuselage",
+      "at": [
+        0.096,
+        -0.16
+      ],
+      "height": 0.57,
+      "colors": [
+        "royal",
+        "gold",
+        "white"
+      ],
+      "description": "A round badge behind the cockpit: a blue disc with five gold stars round a small central emblem, ringed in white with 'ALASKA AIRLINES SALUTES' and 'THOSE WHO SERVE' lettered round it.",
+      "confidence": "medium",
+      "sourceRefs": [
+        10,
+        11
+      ]
+    },
+    {
+      "mark": "ASA/armed-forces-insignia",
+      "place": "fuselage",
+      "at": [
+        0.735,
+        -0.52
+      ],
+      "height": 0.4,
+      "colors": [
+        "gold",
+        "red",
+        "white"
+      ],
+      "description": "Small insignia and text panel low on the aft fuselage by the cargo door (the service branches' emblems); too small to read from the photos.",
+      "confidence": "low",
+      "sourceRefs": [
+        10
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "HONORING THOSE WHO SERVE",
+      "place": "fuselage",
+      "at": [
+        0.179,
+        0.34
+      ],
+      "height": 0.16,
+      "color": "navy",
+      "style": "Serif capitals, regular to semibold, above the forward windows from behind the door to over the wing.",
+      "confidence": "high",
+      "sourceRefs": [
+        10,
+        11,
+        12
+      ],
+      "type": {
+        "similar": [
+          "Trajan Pro",
+          "Times New Roman"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "contrast",
+        "case": "upper"
+      },
+      "length": 0.265
+    },
+    {
+      "text": "Alaska",
+      "place": "fuselage",
+      "at": [
+        0.182,
+        -0.37
+      ],
+      "height": 0.57,
+      "color": "silver",
+      "style": "The 2016 Alaska wordmark in silver-gray, below the forward windows.",
+      "confidence": "high",
+      "sourceRefs": [
+        10,
+        11,
+        12
+      ],
+      "type": {
+        "similar": [
+          "Kaufmann Bold",
+          "Futura Bold Oblique"
+        ],
+        "weight": 800,
+        "slantDeg": 16,
+        "width": "normal",
+        "strokes": "brush",
+        "case": "mixed",
+        "xHeight": 0.55
+      },
+      "length": 0.13
+    }
+  ]
+}

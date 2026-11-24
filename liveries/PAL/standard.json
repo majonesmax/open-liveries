@@ -1,0 +1,345 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "PAL",
+  "name": "Eurowhite (1986)",
+  "kind": "standard",
+  "from": "1986",
+  "confidence": "high",
+  "drawnOn": "A21N",
+  "description": "All-white fuselage with 'Philippines' in dark bold italics ahead of the wing and a small Philippine flag by the rear door; the fin carries the logo's two sails: a red triangle along the trailing edge and a deep blue one along the leading edge with a yellow sunburst rising from the root, a white band between them widening to the tip. The logo again on the winglets.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Philippine_Airlines",
+      "accessed": "2026-11-13",
+      "note": "Branding: the 'Eurowhite' livery by Landor Associates, adopted in 1986; 'Philippines' in italics on the forward fuselage, the logo on the tail and winglets, the flag near the rear."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Centrair_c20250510_1302a.jpg",
+      "title": "Centrair c20250510 1302a (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "RP-C9933, A321neo, from the left and above, 2025-05-10: the left side's titles, flag and fin."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:RP-C9930_-_Airbus_A321-271N_-_Philippine_Airlines_SIN_230325.jpg",
+      "title": "RP-C9930 - Airbus A321-271N - Philippine Airlines SIN 230325 (CC BY 2.0)",
+      "accessed": "2026-11-13",
+      "note": "A321neo from the right, level, 2025-03-23: proportions of the title, flag and fin art."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Philippine_Airlines%27_A350-1000_(RP-C3510).jpg",
+      "title": "Philippine Airlines' A350-1000 (RP-C3510) (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "A350-1000 from the right and below, 2026-03-16: white belly, winglet logo; it also wears an '85 years' anniversary mark aft of the wing, not part of the standard scheme."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F4F5F6",
+      "official": false
+    },
+    "red": {
+      "hex": "#E2231A",
+      "official": false
+    },
+    "blue": {
+      "hex": "#26307A",
+      "official": false
+    },
+    "sun": {
+      "hex": "#F8A51C",
+      "official": false
+    },
+    "titleNavy": {
+      "hex": "#1E2235",
+      "official": false
+    },
+    "cowl": {
+      "hex": "#E6E8EA",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "name": "bare metal inlet lip",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B4B9C0",
+      "official": false
+    },
+    "phRed": {
+      "hex": "#CE1126",
+      "official": false
+    },
+    "phBlue": {
+      "hex": "#0038A8",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [],
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2,
+      3
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "blue sail along the leading edge",
+        "color": "blue",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0.49,
+            0
+          ],
+          [
+            0.08,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "yellow sunburst rising from the root into the blue",
+        "color": "sun",
+        "points": [
+          [
+            0.5,
+            0.0
+          ],
+          [
+            0.426,
+            0.329
+          ],
+          [
+            0.247,
+            0.588
+          ],
+          [
+            0.344,
+            0.345
+          ],
+          [
+            0.075,
+            0.6
+          ],
+          [
+            0.273,
+            0.342
+          ],
+          [
+            -0.057,
+            0.577
+          ],
+          [
+            0.219,
+            0.32
+          ],
+          [
+            -0.133,
+            0.523
+          ],
+          [
+            0.187,
+            0.28
+          ],
+          [
+            -0.151,
+            0.441
+          ],
+          [
+            0.177,
+            0.225
+          ],
+          [
+            -0.12,
+            0.333
+          ],
+          [
+            0.188,
+            0.157
+          ],
+          [
+            -0.054,
+            0.208
+          ],
+          [
+            0.216,
+            0.081
+          ],
+          [
+            0.031,
+            0.071
+          ],
+          [
+            0.257,
+            0.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "red sail along the trailing edge",
+        "color": "red",
+        "points": [
+          [
+            0.51,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0.86,
+            1
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "white",
+    "inner": "white",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2,
+      3
+    ]
+  },
+  "engines": {
+    "cowling": "cowl",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2,
+      3
+    ]
+  },
+  "logos": [
+    {
+      "mark": "PAL/sails",
+      "place": "winglets",
+      "at": [
+        0.55,
+        0.6
+      ],
+      "height": 0.6,
+      "colors": [
+        "red",
+        "white",
+        "blue",
+        "sun"
+      ],
+      "description": "The PAL logo on the outer face of each winglet (sharklets, A350 wingtips): a red and a deep blue triangular sail meeting at the bottom with a white wedge between them, a yellow sunburst at the foot of the blue. The fin's art is the same mark enlarged.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Philippine_Airlines_logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mark": "PAL/ph-flag",
+      "place": "fuselage",
+      "at": [
+        0.875,
+        0.15
+      ],
+      "height": 0.32,
+      "colors": [
+        "phBlue",
+        "phRed",
+        "white",
+        "#FCD116"
+      ],
+      "description": "The Philippine flag, hoist forward, aft of the rear door below the window line.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Philippines.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Philippines",
+      "place": "fuselage",
+      "at": [
+        0.159,
+        0.29
+      ],
+      "height": 0.28,
+      "color": "titleNavy",
+      "style": "The PAL wordmark: bold oblique grotesque, capital P, almost black navy, above the windows just aft of the forward door.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Bold Italic",
+          "Arial Bold Italic"
+        ],
+        "weight": 700,
+        "slantDeg": 12,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.73
+      },
+      "length": 0.134
+    }
+  ],
+  "notes": "Drawn from 2025-2026 photos of A321neos and an A350-1000. The fin art is the same on both sides, blue at the leading edge (mirrored true). The sunburst's ray count is simplified. No belly title: the belly is white. Colors by eye. Re-checked 2026-11-15 on RP-C9930 (right, level): 'Philippines' runs x 0.159 to 0.293, its baseline just above the windows (as drawn), lowercase 0.73 of the P; the flag at x 0.876 as drawn. The fin's sails are straight-edged.",
+  "history": "Replaces Skyarium v1's approximation. The 1986 'Eurowhite' livery (Landor Associates) replaced the earlier red-white-blue cheatline schemes; minor refreshes since (the title and logo artwork) without changing the layout."
+}

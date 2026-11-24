@@ -1,0 +1,436 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "AJT",
+  "name": "Amerijet (star A)",
+  "kind": "standard",
+  "confidence": "low",
+  "drawnOn": "B763",
+  "description": "White fuselage with a red pinstripe over a navy one the length of the side; a red curve sweeps down from the fin's root into a navy lower tail cone; 'AMERIJET' in navy with its star-A first letter and 'INTERNATIONAL' in red under it ahead of the wing; a navy fin with the star-A logo (a navy star crossed by red and white bars) low on it; navy winglets with the logo.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Amerijet_International",
+      "title": "Wikipedia: Amerijet International",
+      "accessed": "2026-11-13",
+      "note": "767-300F/767-200F fleet based in Miami."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N269CM_Boeing_767-333ER(BDSF)_Amerijet_International_BGI_20.11.25_(54959295871).jpg",
+      "title": "N269CM Boeing 767-333ER(BDSF) Amerijet International BGI 20.11.25 (54959295871).jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "N269CM (767-300) right side, 2025-11-20. Right-side photo only; the left side is assumed to mirror it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N237CM_Boeing_767-333EF(BCF)_Amerijet_International_BGI_11.10.24_(54091399749).jpg",
+      "title": "N237CM Boeing 767-333EF(BCF) Amerijet International BGI 11.10.24 (CC BY-SA 2.0, Colin Cooke)",
+      "accessed": "2026-11-15",
+      "note": "N237CM left side, 2024-10-11: the star-A ahead of MERIJET on the left, INTERNATIONAL under its aft end."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N349CM_Boeing_767-323ER_Amerijet_International_MIA_17.1.23_(52746876822).jpg",
+      "title": "N349CM Boeing 767-323ER Amerijet International MIA 17.1.23 (CC BY-SA 2.0, Colin Cooke)",
+      "accessed": "2026-11-15",
+      "note": "N349CM right side, level, 2023-01-17: the right side's layout, star-A aft of MERIJET."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Amerijet,_N432AX,_Boeing_767-323ER(BDSF)_(53089765091).jpg",
+      "title": "Amerijet, N432AX, Boeing 767-323ER(BDSF) (CC BY-SA 2.0, Anna Zvereva)",
+      "accessed": "2026-11-15",
+      "note": "N432AX right side, 2023-06-25: agrees with N349CM."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F6",
+      "official": false
+    },
+    "navy": {
+      "hex": "#1F2C7A",
+      "official": false,
+      "name": "Amerijet navy"
+    },
+    "red": {
+      "hex": "#E0303A",
+      "official": false,
+      "name": "Amerijet red"
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "red pinstripe",
+        "color": "red",
+        "below": [
+          [
+            0.03,
+            0.14
+          ],
+          [
+            0.84,
+            0.14
+          ]
+        ],
+        "above": [
+          [
+            0.03,
+            0.1
+          ],
+          [
+            0.84,
+            0.1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "navy pinstripe",
+        "color": "navy",
+        "below": [
+          [
+            0.03,
+            0.03
+          ],
+          [
+            0.86,
+            0.03
+          ]
+        ],
+        "above": [
+          [
+            0.03,
+            -0.01
+          ],
+          [
+            0.86,
+            -0.01
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "red curve from the fin root",
+        "color": "red",
+        "points": [
+          [
+            0.8,
+            1
+          ],
+          [
+            0.84,
+            0.4
+          ],
+          [
+            0.88,
+            0.1
+          ],
+          [
+            0.9,
+            0.1
+          ],
+          [
+            0.86,
+            0.4
+          ],
+          [
+            0.82,
+            1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "navy lower tail",
+        "color": "navy",
+        "points": [
+          [
+            0.86,
+            0.4
+          ],
+          [
+            0.9,
+            0.05
+          ],
+          [
+            0.96,
+            -0.1
+          ],
+          [
+            1,
+            -0.1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            0.88,
+            -1
+          ],
+          [
+            0.9,
+            -0.3
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1
+        ]
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "hidden",
+    "confidence": "low",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "fin": {
+    "base": "navy",
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "navy",
+    "inner": "navy",
+    "confidence": "medium",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "AJT/star-a",
+      "place": "fin",
+      "at": [
+        0.35,
+        0.35
+      ],
+      "height": 0.4,
+      "colors": [
+        "navy",
+        "white",
+        "red"
+      ],
+      "description": "Amerijet's star-A: a five-pointed navy star outlined in white, its upper left arm formed by an 'A' and crossed by red and white horizontal bars that run out to the fin's leading edge.",
+      "reference": "https://commons.wikimedia.org/wiki/File:N269CM_Boeing_767-333ER(BDSF)_Amerijet_International_BGI_20.11.25_(54959295871).jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "AJT/star-a",
+      "place": "fuselage",
+      "at": [
+        0.15,
+        0.0
+      ],
+      "height": 0.45,
+      "colors": [
+        "navy",
+        "red"
+      ],
+      "description": "The star-A as the first letter of 'AMERIJET'.",
+      "reference": "https://commons.wikimedia.org/wiki/File:N269CM_Boeing_767-333ER(BDSF)_Amerijet_International_BGI_20.11.25_(54959295871).jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ],
+      "side": "left"
+    },
+    {
+      "mark": "AJT/star-a",
+      "place": "winglets",
+      "at": [
+        0.5,
+        0.5
+      ],
+      "height": 0.3,
+      "colors": [
+        "white",
+        "red"
+      ],
+      "description": "The star-A on the navy winglets.",
+      "reference": "https://commons.wikimedia.org/wiki/File:N269CM_Boeing_767-333ER(BDSF)_Amerijet_International_BGI_20.11.25_(54959295871).jpg",
+      "confidence": "low",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "AJT/star-a",
+      "place": "fuselage",
+      "at": [
+        0.284,
+        0.0
+      ],
+      "height": 0.45,
+      "colors": [
+        "navy",
+        "red"
+      ],
+      "description": "The star-A as the first letter of 'AMERIJET'.",
+      "reference": "https://commons.wikimedia.org/wiki/File:N269CM_Boeing_767-333ER(BDSF)_Amerijet_International_BGI_20.11.25_(54959295871).jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        3,
+        4
+      ],
+      "side": "right"
+    }
+  ],
+  "titles": [
+    {
+      "text": "MERIJET",
+      "place": "fuselage",
+      "at": [
+        0.175,
+        -0.11
+      ],
+      "height": 0.32,
+      "color": "navy",
+      "style": "'MERIJET' after the star-A in heavy, wide navy capitals.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "length": 0.14,
+      "type": {
+        "similar": [
+          "Eurostile Extended Black",
+          "Microgramma Bold Extended"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "side": "left"
+    },
+    {
+      "text": "INTERNATIONAL",
+      "place": "fuselage",
+      "at": [
+        0.22,
+        -0.4
+      ],
+      "height": 0.12,
+      "color": "red",
+      "style": "'INTERNATIONAL' small in red capitals under the title.",
+      "confidence": "low",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "length": 0.08,
+      "type": {
+        "similar": [
+          "Helvetica Neue Medium"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "side": "left"
+    },
+    {
+      "text": "MERIJET",
+      "place": "fuselage",
+      "at": [
+        0.124,
+        -0.11
+      ],
+      "height": 0.32,
+      "color": "navy",
+      "style": "'MERIJET' after the star-A in heavy, wide navy capitals.",
+      "confidence": "medium",
+      "sourceRefs": [
+        3,
+        4
+      ],
+      "length": 0.14,
+      "type": {
+        "similar": [
+          "Eurostile Extended Black",
+          "Microgramma Bold Extended"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "side": "right"
+    },
+    {
+      "text": "INTERNATIONAL",
+      "place": "fuselage",
+      "at": [
+        0.124,
+        -0.4
+      ],
+      "height": 0.12,
+      "color": "red",
+      "style": "'INTERNATIONAL' small in red capitals under the title.",
+      "confidence": "low",
+      "sourceRefs": [
+        3,
+        4
+      ],
+      "length": 0.077,
+      "type": {
+        "similar": [
+          "Helvetica Neue Medium"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "side": "right"
+    }
+  ],
+  "notes": "Drawn from one right-side photo of 767-300 N269CM (November 2025). Right-side photo only; the left side is assumed to mirror it. Re-checked 2026-11-15 with left (N237CM 2024-10-11) and right (N349CM 2023-01-17, N432AX 2023-06-25) photos: the star-A is the A of AMERIJET, so it sits ahead of MERIJET on the left and aft of it on the right, with INTERNATIONAL under the name's end as read; each side now has its own title pair and star (the right had shown the star forward and INTERNATIONAL aft). Right side: MERIJET x 0.124-0.264, INTERNATIONAL 0.124-0.201, star centred at 0.284.",
+  "history": "Replaces Skyarium v1's approximate standard (a few colors from memory)."
+}

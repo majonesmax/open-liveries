@@ -1,0 +1,231 @@
+{
+  "_about": "Passenger MD-11, from the same sheet and the same placed points as the MD-11F (md11/: its *.anchors.json; snap them into one working folder and build both from it). Boeing's 2.2 draws the passenger aircraft: its cabin windows (closed outlines, one piece each; five hidden behind the winglet placed at the pitch) and four doors a side, the lower-deck cargo doors (right) at 2.7.3's figures as on the freighter, the bulk cargo door (left) as drawn. Everything else as md11/recipe.json says.",
+  "out": "../../../../shapes/MD11-passenger.json",
+  "length": 58.65,
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "wingtip": "winglet",
+  "tailEngine": {
+    "duct": "straight",
+    "strut": [
+      1318,
+      1505
+    ]
+  },
+  "refs": {
+    "side": {
+      "nose": 39.5,
+      "tail": 1583.5,
+      "cowlEnd": 745,
+      "tailCowlEnd": 1580,
+      "tailExhaust": 1621,
+      "windowRow": [
+        463,
+        482
+      ],
+      "windowGap": 1,
+      "windowMinWidth": 8,
+      "windowInset": 1,
+      "windowBand": [
+        466,
+        479
+      ],
+      "windowsAlso": [
+        1153.7,
+        1166.8,
+        1180,
+        1193.2,
+        1206.3
+      ]
+    },
+    "plan": {
+      "nose": 37.5,
+      "centerline": 848.75
+    },
+    "front": {
+      "centerline": 768.5,
+      "crownTop": 337.75
+    }
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [
+        165,
+        448,
+        191,
+        497
+      ],
+      "name": "door 1"
+    },
+    {
+      "kind": "door",
+      "box": [
+        414,
+        448,
+        440,
+        497
+      ],
+      "name": "door 2"
+    },
+    {
+      "kind": "door",
+      "box": [
+        781,
+        448,
+        805,
+        497
+      ],
+      "name": "door 3"
+    },
+    {
+      "kind": "door",
+      "box": [
+        1268,
+        448,
+        1295,
+        497
+      ],
+      "name": "door 4"
+    },
+    {
+      "kind": "cargo",
+      "box": [
+        479,
+        501,
+        549,
+        545
+      ],
+      "side": "right"
+    },
+    {
+      "kind": "cargo",
+      "box": [
+        1172,
+        501,
+        1219,
+        545
+      ],
+      "side": "right"
+    },
+    {
+      "kind": "cargo",
+      "box": [
+        1314,
+        513,
+        1338,
+        544
+      ],
+      "side": "left"
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [
+        66,
+        463
+      ],
+      [
+        78,
+        454
+      ],
+      [
+        88,
+        448
+      ],
+      [
+        99,
+        448
+      ],
+      [
+        94,
+        463
+      ]
+    ],
+    [
+      [
+        99,
+        448
+      ],
+      [
+        113,
+        448
+      ],
+      [
+        109,
+        470
+      ],
+      [
+        101,
+        468
+      ],
+      [
+        94,
+        464
+      ]
+    ],
+    [
+      [
+        114,
+        448
+      ],
+      [
+        133,
+        448
+      ],
+      [
+        135,
+        455
+      ],
+      [
+        135,
+        467
+      ],
+      [
+        133,
+        470
+      ],
+      [
+        115,
+        470
+      ],
+      [
+        110,
+        468
+      ]
+    ]
+  ],
+  "printed": {
+    "fuselage width": 6.02,
+    "fuselage height": 6.02,
+    "wingspan": 51.97,
+    "tailplane span": 18.03,
+    "overall length": 61.62,
+    "engine out from the centerline": 8.18,
+    "nacelle width": 2.92,
+    "engine inlet from the nose": 23.11,
+    "wing root leading edge from the nose": 24.23,
+    "wing tip leading edge from the nose": 41.61,
+    "fin tip above the tail engine": 6.24
+  },
+  "meta": {
+    "id": "MD11-passenger",
+    "name": "McDonnell Douglas MD-11",
+    "types": [
+      "MD11"
+    ],
+    "confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/airports/acaps/MD11.pdf",
+        "title": "Boeing, MD-11 Airplane Characteristics for Airport Planning (Rev E), 2.2 General Airplane Dimensions, 2.3 Ground Clearances, 2.7.3 Cargo Loading Doors, Lower Deck",
+        "accessed": "2026-11-15",
+        "note": "Dimensions and outlines read off the side, plan and front views of 2.2 (tools/trace/md11/); the figures are the aircraft's measurements, not a copy of the drawing. The passenger MD-11: the sheet draws its windows (five behind the winglet placed at the pitch) and four doors a side; the lower-deck cargo doors (right) from 2.7.3's figures, the bulk cargo door (left) as drawn. The sheet is a picture of about 26 px a meter and not quite to one scale: scaled by its printed 58.6 m to the tail cone, its overall length, span, engine position and inlet are within 0.8% of their printed figures, but its plan draws the tailplane 4% short of the printed 18.03 m and the wing's root and the wingtip dimension point 0.35 m and 0.9 m ahead of their printed distances (the shape keeps the drawing's), its side view the tube 1.7% taller than the printed 6.02 m (fit to it: fit_height.py) and its front view the fuselage's circle 5% large (tied to the side by the circle's centre). The tail engine (engines[0], mount tail, a straight duct) runs through the fin's base on a strut from the crown, the fin's leading edge standing on its top, a fairing over its nozzle; the fin's tip is 6.24 m above its inlet's top in 2.3's ground clearances (the middles of L and U), as here. The nacelles are the CF6-80C2's the sheet draws."
+      }
+    ]
+  }
+}

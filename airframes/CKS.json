@@ -1,0 +1,70 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "CKS",
+  "airframes": [
+    {
+      "registration": "N773CK",
+      "hex": "aa7468",
+      "hexSource": "derived from the N-number (FAA sequential assignment); checked by validate.py",
+      "type": "B77L",
+      "livery": "BCS/standard",
+      "lastSeen": "2026-06-12",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:(JPN-Chiba)_Kalitta_Air_Boeing_777-F_N773CK_@_RJAA_2026-06-12.jpg",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Kalitta_Air",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "status": "Commons photo at Narita, 12 Jun 2026: full DHL paint, 'Operated by Kalitta Air' by the door."
+    },
+    {
+      "registration": "N774CK",
+      "hex": "aa781f",
+      "hexSource": "derived from the N-number (FAA sequential assignment); checked by validate.py",
+      "type": "B77L",
+      "livery": "BCS/standard",
+      "lastSeen": "2025-09-12",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:DHL_N774CK_run_K4233(Hong_Kong_International_Airport_to_United_States_Ted_Stevens_Anchorage_International_Airport)_12-09-2025.jpg",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Kalitta_Air",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "status": "Commons photo at Hong Kong, 12 Sep 2025: full DHL paint."
+    },
+    {
+      "registration": "N775CK",
+      "hex": "aa7bd6",
+      "hexSource": "derived from the N-number (FAA sequential assignment); checked by validate.py",
+      "type": "B77L",
+      "livery": "BCS/standard",
+      "lastSeen": "2025-04-02",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:20250402_Boeing_777-F_of_DHL_Aviation_(N775CK)_landing_at_SYD.jpg",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Leipzig_Halle_Airport_Kalitta_Air_DHL_Aviation_Boeing_777-F_N775CK_(DSC07744).jpg",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Kalitta_Air",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "status": "Commons photos at Leipzig, 2 Mar 2025, and Sydney, 2 Apr 2025: full DHL paint."
+    }
+  ]
+}

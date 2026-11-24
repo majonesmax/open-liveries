@@ -1,0 +1,11 @@
+{
+  "_about": "Boeing MDC K9099 (MD-90-30/-30ER), 2.3 Ground Clearances (page index 17): its front view, at the side view's scale, layers.py --mode strokes --color 0.137,0.122,0.125 at scale 20, clip 160,220,497,307. Pixels of that raster, line centres; the right half as drawn (the aircraft's left side). The stub pylon is the short box between the fuselage and the nacelle (pylon.upper, pylon.lower).",
+  "fuselage.section": [[3009, 790], [3100, 800], [3197, 850], [3288, 950], [3324, 1050], [3331, 1110], [3320, 1200], [3293, 1250], [3235, 1350], [3150, 1420], [3009, 1445]],
+  "wing.upper": [[3330, 1259], [3700, 1257], [4200, 1251], [4800, 1244], [5400, 1237], [5900, 1234]],
+  "wing.lower": [[3400, 1374], [3700, 1350], [3900, 1338], [4500, 1310], [5000, 1285], [5500, 1261], [5880, 1243]],
+  "stabilizer.upper": [[3062, 170], [3500, 192], [4000, 236], [4100, 247]],
+  "stabilizer.lower": [[3062, 246], [3500, 257], [4000, 265], [4100, 262]],
+  "engine.inlet": [[3545, 901], [3677, 956], [3732, 1088], [3677, 1220], [3545, 1272], [3413, 1220], [3358, 1088], [3413, 956], [3545, 901]],
+  "pylon.upper": [[3331, 1052], [3356, 1052]],
+  "pylon.lower": [[3331, 1145], [3356, 1145]]
+}

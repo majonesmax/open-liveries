@@ -1,0 +1,1309 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "illinois-one",
+  "airline": "SWA",
+  "name": "Illinois One (Illinois flag)",
+  "kind": "special",
+  "from": "2022-09",
+  "description": "Fuselage: White base; an enormous stylized bald eagle spans the whole fuselage: the white eagle head with yellow-orange beak and red banner at the nose, dark brown/maroon wings with black feather shapes sweeping aft along the window line to the tail; a stars-and-stripes shield (blue chief with white stars, red/white vertical stripes, gold border) with green olive leaves over the wing root; an orange/yellow rising sun near the tail. Cheatlines: None. Tail: Heart fin with white 'Southwest'. Engines: Brown/maroon with feather artwork (approximate). Winglets: White. Titles: 'Southwest' white on lower fin; 'Illinois One' small by cockpit. Artwork: Illinois state seal elements (eagle, shield, sunrise). Colors hex: approximate.",
+  "confidence": "medium",
+  "drawnOn": "B738",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Southwest_Airlines_fleet",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:N8619F_(aircraft)",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N8619F_B737-800,_Southwest_(Illinois_One_livery),_Austin_12-06-25_(55089828518).jpg",
+      "title": "N8619F B737-800, Southwest (Illinois One livery), Austin 12-06-25 (55089828518).jpg (CC BY 4.0)",
+      "accessed": "2026-11-12",
+      "note": "N8619F from the left, broadside, 2025-12-06: eagle head and banner, wings, shield, sun, fin."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Southwest_Boeing_737-800_N8619F_Illinois_One_BWI_MD1.jpg",
+      "title": "Southwest Boeing 737-800 N8619F Illinois One BWI MD1.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-12",
+      "note": "N8619F, 2026-04-30: the scheme still on the airframe."
+    }
+  ],
+  "palette": {
+    "blue": {
+      "hex": "#304CB2",
+      "name": "Bold Blue",
+      "official": true
+    },
+    "red": {
+      "hex": "#D5152B",
+      "official": false
+    },
+    "yellow": {
+      "hex": "#F9B612",
+      "official": false
+    },
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B4B9C0",
+      "official": false
+    },
+    "wingletGray": {
+      "hex": "#D3D6DA",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "name": "bare metal inlet lip",
+      "official": false
+    },
+    "maroon": {
+      "hex": "#6E1A17",
+      "official": false
+    },
+    "featherBlue": {
+      "hex": "#22378C",
+      "official": false
+    },
+    "beak": {
+      "hex": "#F26A1B",
+      "official": false
+    },
+    "bannerRed": {
+      "hex": "#D7262A",
+      "official": false
+    },
+    "shieldBlue": {
+      "hex": "#344CA0",
+      "official": false
+    },
+    "gold": {
+      "hex": "#E7B416",
+      "official": false
+    },
+    "sunOrange": {
+      "hex": "#E8661A",
+      "official": false
+    },
+    "sunYellow": {
+      "hex": "#F6A623",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "eagle's wings, dark maroon with black feather lines, from behind the head to the tail",
+        "color": "maroon",
+        "points": [
+          [
+            0.221,
+            0.599
+          ],
+          [
+            0.298,
+            0.602
+          ],
+          [
+            0.401,
+            0.61
+          ],
+          [
+            0.516,
+            0.555
+          ],
+          [
+            0.608,
+            0.517
+          ],
+          [
+            0.751,
+            0.451
+          ],
+          [
+            0.854,
+            0.419
+          ],
+          [
+            0.871,
+            0.207
+          ],
+          [
+            0.854,
+            -0.074
+          ],
+          [
+            0.883,
+            -1.0
+          ],
+          [
+            0.837,
+            -1.0
+          ],
+          [
+            0.722,
+            -1.0
+          ],
+          [
+            0.608,
+            -1.0
+          ],
+          [
+            0.493,
+            -1.0
+          ],
+          [
+            0.379,
+            -1.0
+          ],
+          [
+            0.275,
+            -1.0
+          ],
+          [
+            0.238,
+            -1.0
+          ],
+          [
+            0.253,
+            -0.473
+          ],
+          [
+            0.296,
+            -0.15
+          ],
+          [
+            0.247,
+            0.109
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ]
+      },
+      {
+        "name": "blue feather tips along the lower aft fuselage",
+        "color": "featherBlue",
+        "points": [
+          [
+            0.676,
+            -0.422
+          ],
+          [
+            0.779,
+            -0.426
+          ],
+          [
+            0.865,
+            -0.587
+          ],
+          [
+            0.825,
+            -0.862
+          ],
+          [
+            0.722,
+            -0.695
+          ],
+          [
+            0.665,
+            -0.625
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ]
+      },
+      {
+        "name": "rising sun's rays round the aft door",
+        "color": "sunYellow",
+        "points": [
+          [
+            0.928,
+            -1.0
+          ],
+          [
+            0.928,
+            -0.847
+          ],
+          [
+            0.927,
+            -0.542
+          ],
+          [
+            0.926,
+            -0.356
+          ],
+          [
+            0.923,
+            -0.206
+          ],
+          [
+            0.919,
+            -0.084
+          ],
+          [
+            0.914,
+            0.022
+          ],
+          [
+            0.909,
+            0.114
+          ],
+          [
+            0.903,
+            0.192
+          ],
+          [
+            0.896,
+            0.254
+          ],
+          [
+            0.889,
+            0.3
+          ],
+          [
+            0.881,
+            0.329
+          ],
+          [
+            0.874,
+            0.341
+          ],
+          [
+            0.867,
+            0.337
+          ],
+          [
+            0.859,
+            0.317
+          ],
+          [
+            0.852,
+            0.284
+          ],
+          [
+            0.845,
+            0.241
+          ],
+          [
+            0.839,
+            0.188
+          ],
+          [
+            0.834,
+            0.129
+          ],
+          [
+            0.829,
+            0.063
+          ],
+          [
+            0.825,
+            -0.008
+          ],
+          [
+            0.822,
+            -0.085
+          ],
+          [
+            0.821,
+            -0.167
+          ],
+          [
+            0.82,
+            -0.255
+          ],
+          [
+            0.82,
+            -0.352
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "rising sun",
+        "color": "sunOrange",
+        "points": [
+          [
+            0.893,
+            -0.53
+          ],
+          [
+            0.893,
+            -0.454
+          ],
+          [
+            0.892,
+            -0.385
+          ],
+          [
+            0.89,
+            -0.324
+          ],
+          [
+            0.888,
+            -0.27
+          ],
+          [
+            0.885,
+            -0.225
+          ],
+          [
+            0.881,
+            -0.191
+          ],
+          [
+            0.878,
+            -0.166
+          ],
+          [
+            0.874,
+            -0.151
+          ],
+          [
+            0.87,
+            -0.146
+          ],
+          [
+            0.867,
+            -0.152
+          ],
+          [
+            0.863,
+            -0.168
+          ],
+          [
+            0.86,
+            -0.194
+          ],
+          [
+            0.858,
+            -0.227
+          ],
+          [
+            0.856,
+            -0.267
+          ],
+          [
+            0.855,
+            -0.313
+          ],
+          [
+            0.855,
+            -0.365
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "shield's gold border",
+        "color": "gold",
+        "points": [
+          [
+            0.364,
+            0.726
+          ],
+          [
+            0.424,
+            0.557
+          ],
+          [
+            0.482,
+            0.408
+          ],
+          [
+            0.479,
+            0.085
+          ],
+          [
+            0.47,
+            -0.161
+          ],
+          [
+            0.447,
+            -0.482
+          ],
+          [
+            0.401,
+            -1.0
+          ],
+          [
+            0.381,
+            -0.525
+          ],
+          [
+            0.366,
+            -0.227
+          ],
+          [
+            0.362,
+            0.199
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ]
+      },
+      {
+        "name": "shield's white field",
+        "color": "white",
+        "points": [
+          [
+            0.37,
+            0.589
+          ],
+          [
+            0.424,
+            0.457
+          ],
+          [
+            0.475,
+            0.337
+          ],
+          [
+            0.473,
+            0.067
+          ],
+          [
+            0.464,
+            -0.143
+          ],
+          [
+            0.443,
+            -0.426
+          ],
+          [
+            0.402,
+            -0.787
+          ],
+          [
+            0.384,
+            -0.476
+          ],
+          [
+            0.37,
+            -0.209
+          ],
+          [
+            0.368,
+            0.198
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ]
+      },
+      {
+        "name": "shield's red stripe 1 of 5",
+        "color": "bannerRed",
+        "points": [
+          [
+            0.376,
+            0.151
+          ],
+          [
+            0.385,
+            0.132
+          ],
+          [
+            0.378,
+            -0.608
+          ],
+          [
+            0.369,
+            -0.55
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ]
+      },
+      {
+        "name": "shield's red stripe 2 of 5",
+        "color": "bannerRed",
+        "points": [
+          [
+            0.394,
+            0.115
+          ],
+          [
+            0.403,
+            0.097
+          ],
+          [
+            0.396,
+            -0.52
+          ],
+          [
+            0.387,
+            -0.47
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ]
+      },
+      {
+        "name": "shield's red stripe 3 of 5",
+        "color": "bannerRed",
+        "points": [
+          [
+            0.413,
+            0.08
+          ],
+          [
+            0.422,
+            0.062
+          ],
+          [
+            0.415,
+            -0.444
+          ],
+          [
+            0.406,
+            -0.399
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ]
+      },
+      {
+        "name": "shield's red stripe 4 of 5",
+        "color": "bannerRed",
+        "points": [
+          [
+            0.432,
+            0.044
+          ],
+          [
+            0.441,
+            0.026
+          ],
+          [
+            0.434,
+            -0.375
+          ],
+          [
+            0.424,
+            -0.333
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ]
+      },
+      {
+        "name": "shield's red stripe 5 of 5",
+        "color": "bannerRed",
+        "points": [
+          [
+            0.45,
+            0.009
+          ],
+          [
+            0.459,
+            -0.009
+          ],
+          [
+            0.452,
+            -0.31
+          ],
+          [
+            0.443,
+            -0.27
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ]
+      },
+      {
+        "name": "shield's blue chief",
+        "color": "shieldBlue",
+        "points": [
+          [
+            0.37,
+            0.589
+          ],
+          [
+            0.424,
+            0.457
+          ],
+          [
+            0.475,
+            0.337
+          ],
+          [
+            0.472,
+            -0.037
+          ],
+          [
+            0.422,
+            0.07
+          ],
+          [
+            0.369,
+            0.18
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ]
+      },
+      {
+        "name": "eagle's orange beak",
+        "color": "beak",
+        "points": [
+          [
+            0.097,
+            0.024
+          ],
+          [
+            0.121,
+            0.055
+          ],
+          [
+            0.129,
+            -0.092
+          ],
+          [
+            0.155,
+            -0.299
+          ],
+          [
+            0.129,
+            -0.379
+          ],
+          [
+            0.115,
+            -0.313
+          ],
+          [
+            0.104,
+            -0.541
+          ],
+          [
+            0.097,
+            -0.373
+          ],
+          [
+            0.095,
+            -0.131
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ]
+      },
+      {
+        "name": "banner, lower end ('STATE')",
+        "color": "bannerRed",
+        "points": [
+          [
+            0.056,
+            -0.414
+          ],
+          [
+            0.081,
+            -0.328
+          ],
+          [
+            0.115,
+            -0.468
+          ],
+          [
+            0.118,
+            -0.666
+          ],
+          [
+            0.089,
+            -0.793
+          ],
+          [
+            0.066,
+            -0.578
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ]
+      },
+      {
+        "name": "banner, rising past the forward door ('SOVEREIGNTY')",
+        "color": "bannerRed",
+        "points": [
+          [
+            0.081,
+            0.744
+          ],
+          [
+            0.095,
+            0.791
+          ],
+          [
+            0.115,
+            0.513
+          ],
+          [
+            0.121,
+            0.076
+          ],
+          [
+            0.109,
+            0.04
+          ],
+          [
+            0.101,
+            0.371
+          ],
+          [
+            0.084,
+            0.522
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ]
+      },
+      {
+        "name": "banner along the crown ('NATIONAL UNION')",
+        "color": "bannerRed",
+        "points": [
+          [
+            0.109,
+            1.0
+          ],
+          [
+            0.155,
+            1.0
+          ],
+          [
+            0.195,
+            0.846
+          ],
+          [
+            0.235,
+            0.653
+          ],
+          [
+            0.195,
+            0.606
+          ],
+          [
+            0.155,
+            0.77
+          ],
+          [
+            0.115,
+            0.724
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ]
+      },
+      {
+        "name": "blue dorsal fillet, the fin's blue run forward",
+        "color": "blue",
+        "points": [
+          [
+            0.762,
+            1
+          ],
+          [
+            0.8,
+            0.93
+          ],
+          [
+            0.985,
+            0.93
+          ],
+          [
+            0.985,
+            1
+          ]
+        ]
+      }
+    ],
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3
+    ]
+  },
+  "fin": {
+    "base": "blue",
+    "areas": [
+      {
+        "name": "pinstripe under the red",
+        "color": "white",
+        "above": [
+          [
+            0,
+            0.2
+          ],
+          [
+            0.177,
+            0.241
+          ],
+          [
+            0.504,
+            0.329
+          ],
+          [
+            0.723,
+            0.407
+          ],
+          [
+            0.883,
+            0.482
+          ],
+          [
+            1,
+            0.54
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "red band",
+        "color": "red",
+        "above": [
+          [
+            0,
+            0.213
+          ],
+          [
+            0.081,
+            0.235
+          ],
+          [
+            0.416,
+            0.324
+          ],
+          [
+            0.65,
+            0.404
+          ],
+          [
+            0.803,
+            0.479
+          ],
+          [
+            1,
+            0.555
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "pinstripe under the yellow",
+        "color": "white",
+        "above": [
+          [
+            0,
+            0.285
+          ],
+          [
+            0.18,
+            0.38
+          ],
+          [
+            0.315,
+            0.455
+          ],
+          [
+            0.489,
+            0.6
+          ],
+          [
+            0.645,
+            0.741
+          ],
+          [
+            0.8,
+            0.88
+          ],
+          [
+            0.895,
+            0.948
+          ],
+          [
+            0.97,
+            1.0
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "yellow band",
+        "color": "yellow",
+        "above": [
+          [
+            0,
+            0.3
+          ],
+          [
+            0.126,
+            0.377
+          ],
+          [
+            0.246,
+            0.452
+          ],
+          [
+            0.427,
+            0.597
+          ],
+          [
+            0.561,
+            0.738
+          ],
+          [
+            0.692,
+            0.877
+          ],
+          [
+            0.766,
+            0.946
+          ],
+          [
+            0.82,
+            1.0
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "leading-edge pinstripe along the yellow",
+        "color": "white",
+        "points": [
+          [
+            0.003,
+            0.3
+          ],
+          [
+            0.025,
+            0.3
+          ],
+          [
+            0.025,
+            1.0
+          ],
+          [
+            0.003,
+            1.0
+          ]
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "wingletGray",
+    "inner": "wingletGray"
+  },
+  "engines": {
+    "cowling": "maroon",
+    "inletLip": "lip",
+    "confidence": "low",
+    "sourceRefs": [
+      2,
+      3
+    ]
+  },
+  "logos": [
+    {
+      "mark": "SWA/heart",
+      "place": "fuselage",
+      "at": [
+        0.151,
+        0.396
+      ],
+      "height": 0.13,
+      "colors": [
+        "blue",
+        "red",
+        "yellow"
+      ],
+      "description": "The small Southwest Heart above and just aft of the forward passenger door.",
+      "reference": "https://commons.wikimedia.org/wiki/Category:Southwest_Airlines",
+      "side": "both",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ]
+    },
+    {
+      "mark": "SWA/us-flag",
+      "place": "fin",
+      "at": [
+        0.02,
+        0.05
+      ],
+      "height": 0.055,
+      "colors": [
+        "red",
+        "white",
+        "#1F2A5C"
+      ],
+      "description": "A small US flag ahead of the fin title, at the fin's root.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ]
+    },
+    {
+      "mark": "SWA/illinois-eagle",
+      "place": "fuselage",
+      "at": [
+        0.167,
+        -0.06
+      ],
+      "height": 1.4,
+      "colors": [
+        "white",
+        "#111111",
+        "beak",
+        "featherBlue"
+      ],
+      "description": "The seal's eagle drawn huge: its white head with black outline and a blue eye fills the forward fuselage round the forward door, beak open, the red banner of the state motto in its beak (white serif capitals 'STATE SOVEREIGNTY NATIONAL UNION'); black feather strokes over the maroon wings that run the length of the cabin.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ]
+    },
+    {
+      "mark": "SWA/illinois-shield",
+      "place": "fuselage",
+      "at": [
+        0.422,
+        -0.017
+      ],
+      "height": 1.6,
+      "colors": [
+        "gold",
+        "shieldBlue",
+        "white",
+        "bannerRed",
+        "#3FA34D"
+      ],
+      "description": "The seal's shield over the wing root: blue chief with 13 white stars, red and white stripes, a gold border; green olive leaves on either side.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Southwest",
+      "place": "fin",
+      "at": [
+        0.084,
+        0.03
+      ],
+      "height": 0.12,
+      "color": "white",
+      "style": "The Southwest wordmark: bold, upright, rounded humanist sans, capital S, on the blue at the fin's root.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Bold",
+          "Gotham Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      },
+      "length": 0.86
+    },
+    {
+      "text": "Illinois",
+      "place": "fuselage",
+      "at": [
+        0.0512,
+        -0.1
+      ],
+      "height": 0.05,
+      "color": "#2A2A2A",
+      "style": "The state's name, small under the cockpit windows, semi-bold; 'One' follows it in a lighter weight.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Demi Bold",
+          "Gotham Medium"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "length": 0.0166,
+      "side": "left"
+    },
+    {
+      "text": "One",
+      "place": "fuselage",
+      "at": [
+        0.0688,
+        -0.1
+      ],
+      "height": 0.05,
+      "color": "#2A2A2A",
+      "style": "'One' after the name, lighter.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Regular",
+          "Gotham Book"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "length": 0.0107,
+      "side": "left"
+    },
+    {
+      "text": "Illinois",
+      "place": "fuselage",
+      "at": [
+        0.0629,
+        -0.1
+      ],
+      "height": 0.05,
+      "color": "#2A2A2A",
+      "style": "The state's name, small under the cockpit windows, semi-bold; 'One' follows it in a lighter weight. On the right it reads from the aft end: the name aft, 'One' forward. The right side isn't legible in a photo: placed as the left's mirror.",
+      "confidence": "low",
+      "sourceRefs": [
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Demi Bold",
+          "Gotham Medium"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "length": 0.0166,
+      "side": "right"
+    },
+    {
+      "text": "One",
+      "place": "fuselage",
+      "at": [
+        0.0512,
+        -0.1
+      ],
+      "height": 0.05,
+      "color": "#2A2A2A",
+      "style": "'One' after the name, lighter.",
+      "confidence": "low",
+      "sourceRefs": [
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Regular",
+          "Gotham Book"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "length": 0.0107,
+      "side": "right"
+    }
+  ],
+  "notes": "Drawn from the Dec 2025 photo of N8619F (left side). The engine is mostly hidden behind the shield and wing in it: maroon by what shows (low confidence). The black feather strokes, the stars and the leaves are described, not drawn. Re-checked 2026-11-15: the fin is the state jets' Heart fin as re-measured on Colorado One (the same fin on every 737), copied with its 'Southwest' title and flag. 'Illinois One' measured on the December 2025 left photo against the nose and the forward door (1.9-3.3 m back), two weights, a pair of titles per side (the right mirrored: both photos are of the left side), on Colorado One's line under the cockpit windows. The rising sun's round edge made smooth; the eagle, shield and banner are art drawn as polygons with real corners.",
+  "history": "Previously on N918WN."
+}

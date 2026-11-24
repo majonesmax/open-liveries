@@ -1,0 +1,12 @@
+{
+  "_about": "Bombardier CRJ700 Airport Planning Manual (CSP B-020, Revision 15), 00-02-02 Figure 1 Aircraft Dimensions sheet 2: page index 31, layers.py --mode strokes --color 0,0,0 at scale 20, clip 70,105,460,390 (plan). Pixels of that raster, line centres; the upper half (the aircraft's right side, the same as its left). The tail cone runs on under the tailplane's root as a dashed line: bridged to its end. The stub pylon's leading edge is a short line between nacelle and fuselage; its trailing edge runs from the exhaust in to the fuselage. The plan view stops the wing where the winglet starts (a straight line across the tip, 11.17 m out).",
+  "fuselage.halfWidth": [[167, 2821], [200, 2776], [300, 2708], [450, 2630], [600, 2585], [800, 2540], [1000, 2514], [1500, 2514], [3000, 2511], [5000, 2511], [5300, 2515], [5600, 2532], [5900, 2578], [6100, 2616], [6300, 2660], [6500, 2706], [6700, 2742], "hidden", {"free": [7020, 2786]}],
+  "wing.leading": [[3225, 2511], [3270, 2460], [3400, 2240], [3800, 1530], [4117, 1000], [4349, 600], [4450, 430], [4550, 242]],
+  "wing.trailing": [[4371, 2511], [4377, 2400], [4401, 2000], [4415, 1745], [4488, 1500], [4636, 1000], [4754, 600], [4842, 300], [4850, 245]],
+  "stabilizer.leading": [[6779, 2740], [6806, 2700], [6940, 2500], [7140, 2200], [7274, 2000], [7341, 1900], [7400, 1860], [7500, 1842], [7600, 1837], [7636, 1840]],
+  "stabilizer.trailing": [[7341, 2780], [7366, 2700], [7430, 2500], [7525, 2200], [7588, 2000], [7615, 1900], [7636, 1845]],
+  "engine.outer": [[5200, 2117], [5400, 2116], [5550, 2119]],
+  "engine.inner": [[5200, 2465], [5400, 2468], [5550, 2470]],
+  "pylon.leading": [[5232, 2511], [5232, 2470]],
+  "pylon.trailing": [[6075, 2615], [6000, 2492], [5940, 2400]]
+}

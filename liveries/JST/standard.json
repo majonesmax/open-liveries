@@ -1,0 +1,274 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "JST",
+  "name": "Standard livery",
+  "kind": "standard",
+  "from": "2004",
+  "confidence": "medium",
+  "drawnOn": "A21N",
+  "description": "Silver fuselage with an orange underside that starts under the forward cabin and sweeps up to fill the tail; big navy 'Jetstar' titles over the forward windows with the orange star after them and 'All day, every day, low fares' below; an orange fin with a large white star and 'Jet' in navy reading upward at its foot; orange sharklets.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Jetstar_-_VH-OFW_-_Sydney_Airport_-_24122024.jpg",
+      "title": "Jetstar - VH-OFW - Sydney Airport - 24122024 (CC BY-SA 4.0, Kypros1992)",
+      "accessed": "2026-11-13",
+      "note": "A321neo, left side from below, 2024-12-24: orange underside, titles, fin star and 'Jet'."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Jetstar_Airbus_A321neo_VH-OFE_Denpasar_2023_(05).jpg",
+      "title": "Jetstar Airbus A321neo VH-OFE Denpasar 2023 (05) (CC BY-SA 4.0, Bahnfrend)",
+      "accessed": "2026-11-13",
+      "note": "Right side, level, 2023: title heights and the slogan; orange sharklets."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Jetstar",
+      "title": "Jetstar (Wikipedia)",
+      "accessed": "2026-11-13",
+      "note": "Launched 2004 as Qantas' low-cost arm, in silver and orange."
+    }
+  ],
+  "palette": {
+    "silver": {
+      "hex": "#C5C9CE",
+      "official": false
+    },
+    "orange": {
+      "hex": "#FF5A1F",
+      "name": "Jetstar orange",
+      "official": false
+    },
+    "navy": {
+      "hex": "#16203A",
+      "official": false
+    },
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "slogan": {
+      "hex": "#F04A23",
+      "official": false
+    },
+    "cowl": {
+      "hex": "#D3D6DA",
+      "official": false
+    },
+    "metal": {
+      "hex": "#B4B8BD",
+      "official": false
+    }
+  },
+  "finish": "metallic",
+  "fuselage": {
+    "base": "silver",
+    "areas": [
+      {
+        "name": "orange underside sweeping up to the tail",
+        "color": "orange",
+        "below": [
+          [
+            0,
+            -1
+          ],
+          [
+            0.19,
+            -1
+          ],
+          [
+            0.23,
+            -0.72
+          ],
+          [
+            0.32,
+            -0.55
+          ],
+          [
+            0.45,
+            -0.42
+          ],
+          [
+            0.76,
+            -0.36
+          ],
+          [
+            0.79,
+            -0.1
+          ],
+          [
+            0.805,
+            0.4
+          ],
+          [
+            0.82,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ],
+        "smooth": true
+      }
+    ],
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "fin": {
+    "base": "orange",
+    "rudder": "orange",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "winglets": {
+    "outer": "orange",
+    "inner": "orange",
+    "confidence": "medium",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "cowl",
+    "inletLip": "metal",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "JST/star",
+      "place": "fin",
+      "at": [
+        0.5,
+        0.52
+      ],
+      "height": 0.55,
+      "colors": [
+        "white"
+      ],
+      "description": "The Jetstar star: a large white five-pointed star with slightly rounded, tapering points, upper-middle of the orange fin toward the trailing edge.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Jetstar_logo.svg",
+      "side": "both",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ]
+    },
+    {
+      "mark": "JST/star",
+      "place": "fuselage",
+      "at": [
+        0.355,
+        0.22
+      ],
+      "height": 0.55,
+      "colors": [
+        "orange"
+      ],
+      "description": "The orange star right after the 'Jetstar' title, slightly lower and tilted, as in the wordmark.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Jetstar_logo.svg",
+      "side": "both",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "JST/jet-tail",
+      "place": "fin",
+      "at": [
+        0.38,
+        0.18
+      ],
+      "height": 0.8,
+      "colors": [
+        "navy"
+      ],
+      "description": "'Jet' in the heavy navy Jetstar lowercase, turned to read upward along the fin's leading edge; the J's tail runs down off the fin onto the orange rear fuselage, the t reaches about halfway up the fin.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Jetstar",
+      "place": "fuselage",
+      "at": [
+        0.18,
+        0.0
+      ],
+      "height": 0.6,
+      "color": "navy",
+      "style": "Heavy rounded geometric sans, capital J and lowercase, tight spacing, running over the forward windows; the orange star follows it.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Gotham Rounded Bold",
+          "VAG Rounded Bold",
+          "Nunito Black"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.78
+      },
+      "length": 0.145
+    },
+    {
+      "text": "All day, every day, low fares",
+      "place": "fuselage",
+      "at": [
+        0.18,
+        -0.32
+      ],
+      "height": 0.13,
+      "color": "slogan",
+      "style": "Small orange-red italic sans under the title, running on under the star.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Frutiger Bold Italic",
+          "Myriad Pro Semibold Italic"
+        ],
+        "weight": 600,
+        "slantDeg": 10,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "length": 0.21
+    }
+  ],
+  "notes": "Drawn from A321neos; the A320s and 787-8s wear the same scheme. The slogan's wording may differ on some aircraft or older paint ('All day, every day low fares'). Jetstar Japan (JJP) and Jetstar Asia (JSA, closed 2025) used the same design. Re-checked 2026-11-15 on VH-OFW (A321neo, from below; perspective, so shares are good to about 0.01): the wordmark runs about 0.145 with its lowercase 0.78 of the J, the slogan about 0.21 (it runs on under the star); the orange underside's edge is a sweep, now drawn smooth. drawnOn is the A321neo: the A320s photographed in 2025 (VH-VFY, VH-X3J) wear the older silver scheme with the orange star aft and 'Jet' on the fin, not this one, and that scheme isn't drawn yet.",
+  "history": "Replaces Skyarium v1's approximation."
+}

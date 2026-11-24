@@ -1,0 +1,404 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "QTR",
+  "name": "Oryx livery (2006)",
+  "kind": "standard",
+  "from": "2006",
+  "confidence": "medium",
+  "drawnOn": "A35K",
+  "description": "Pale silver-gray all over. A big burgundy oryx head on the gray fin, facing the nose, its two long horns sweeping back to the fin's top trailing corner. 'QATAR' in large burgundy serif capitals across the forward windows, 'القطرية' in gray above the windows ahead of the wing; the oryx again on the engines; burgundy winglets on the A350s.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:(GBR-Greater_Manchester)_Qatar_Airways_Airbus_A350-1041_A7-AOC_@_EGCC_2025-06-09.jpg",
+      "title": "(GBR-Greater Manchester) Qatar Airways Airbus A350-1041 A7-AOC @ EGCC 2025-06-09 (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Right side, level, 2025-06-09: the fin's oryx, title sizes and places, the gray Arabic title, engine, winglet."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Qatar_Boeing_777-300ER_A7-BEP_IAD_VA1.jpg",
+      "title": "Qatar Boeing 777-300ER A7-BEP IAD VA1 (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Left side from below, 2025-04-30: the left side's titles (QATAR forward, Arabic aft), oryx facing the nose on the left too, the gray belly."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:A7-BCH_-_Boeing_787-8_Dreamliner_-_Qatar_Airways_LGW_120225.jpg",
+      "title": "A7-BCH - Boeing 787-8 Dreamliner - Qatar Airways LGW 120225 (CC BY 2.0)",
+      "accessed": "2026-11-13",
+      "note": "Left side, 2025: fin and titles on a 787."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:(AUS-Victoria)_Qatar_Airways_Boeing_777-3DZER_A7-BEK_@_YMML_2025-12-06.jpg",
+      "title": "(AUS-Victoria) Qatar Airways Boeing 777-3DZER A7-BEK @ YMML 2025-12-06 (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Right side, 2025-12-06 (with a sponsor decal mid-cabin): tail and titles agree."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Qatar_Airways#Livery",
+      "title": "Qatar Airways, 'Livery' (Wikipedia)",
+      "accessed": "2026-11-13",
+      "note": "Burgundy 'Qatar' on light gray on both sides, Arabic close by in darker gray and smaller; burgundy oryx on a gray fin; unveiled 2006."
+    }
+  ],
+  "palette": {
+    "gray": {
+      "hex": "#C4C6C9",
+      "name": "Qatar silver-gray",
+      "official": false
+    },
+    "burgundy": {
+      "hex": "#5C0632",
+      "name": "Qatar burgundy",
+      "official": false
+    },
+    "titleGray": {
+      "hex": "#6F757B",
+      "name": "Arabic title gray",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BDC2",
+      "official": false
+    },
+    "lip": {
+      "hex": "#CDD0D4",
+      "name": "bare metal inlet lip",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "gray",
+    "areas": [],
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "gray",
+    "areas": [
+      {
+        "name": "oryx, upper horn",
+        "color": "burgundy",
+        "points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            0.9,
+            0.98
+          ],
+          [
+            0.6,
+            0.88
+          ],
+          [
+            0.38,
+            0.77
+          ],
+          [
+            0.2,
+            0.58
+          ],
+          [
+            0.28,
+            0.58
+          ],
+          [
+            0.46,
+            0.7
+          ],
+          [
+            0.68,
+            0.8
+          ],
+          [
+            1.0,
+            0.88
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          2
+        ],
+        "smooth": true
+      },
+      {
+        "name": "oryx, lower horn",
+        "color": "burgundy",
+        "points": [
+          [
+            1.0,
+            0.82
+          ],
+          [
+            0.7,
+            0.73
+          ],
+          [
+            0.45,
+            0.66
+          ],
+          [
+            0.3,
+            0.57
+          ],
+          [
+            0.4,
+            0.56
+          ],
+          [
+            0.58,
+            0.62
+          ],
+          [
+            0.8,
+            0.67
+          ],
+          [
+            1.0,
+            0.71
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          2
+        ],
+        "smooth": true
+      },
+      {
+        "name": "oryx, head and neck",
+        "color": "burgundy",
+        "points": [
+          [
+            0.19,
+            0.53
+          ],
+          [
+            0.14,
+            0.4
+          ],
+          [
+            0.15,
+            0.27
+          ],
+          [
+            0.19,
+            0.15
+          ],
+          [
+            0.3,
+            0.06
+          ],
+          [
+            0.45,
+            0.0
+          ],
+          [
+            0.95,
+            -0.03
+          ],
+          [
+            1.0,
+            0.05
+          ],
+          [
+            1.0,
+            0.5
+          ],
+          [
+            0.9,
+            0.53
+          ],
+          [
+            0.5,
+            0.55
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          2
+        ],
+        "smooth": true
+      },
+      {
+        "name": "the ear and cheek, the gray showing through the head",
+        "color": "gray",
+        "points": [
+          [
+            0.26,
+            0.41
+          ],
+          [
+            0.45,
+            0.4
+          ],
+          [
+            0.55,
+            0.27
+          ],
+          [
+            0.5,
+            0.12
+          ],
+          [
+            0.46,
+            0.06
+          ],
+          [
+            0.42,
+            0.15
+          ],
+          [
+            0.38,
+            0.27
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0
+        ],
+        "smooth": true
+      }
+    ],
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "burgundy",
+    "inner": "burgundy",
+    "confidence": "low",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "engines": {
+    "cowling": "gray",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "QTR/oryx",
+      "place": "fin",
+      "at": [
+        0.55,
+        0.48
+      ],
+      "height": 1.0,
+      "colors": [
+        "burgundy",
+        "gray"
+      ],
+      "description": "The Qatar Airways oryx: a stylised Arabian oryx head in burgundy facing the nose, a pale ear and cheek line within it, two long thin horns sweeping back and up. On the fin it fills almost the whole span (drawn as the fin's areas).",
+      "reference": "https://commons.wikimedia.org/wiki/File:Qatar_Airways_logo.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "QTR/oryx",
+      "place": "engines",
+      "at": [
+        0.7,
+        0.15
+      ],
+      "height": 0.4,
+      "colors": [
+        "burgundy"
+      ],
+      "description": "The oryx, small, on the aft outboard side of each cowling.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Qatar_Airways_logo.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "QATAR",
+      "place": "fuselage",
+      "at": [
+        0.115,
+        -0.046
+      ],
+      "height": 0.47,
+      "length": 0.191,
+      "color": "burgundy",
+      "style": "Large serif capitals with a long swash tail on the Q, across the forward windows.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Trajan Pro Bold",
+          "Times New Roman Bold"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "contrast",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "القطرية",
+      "place": "fuselage",
+      "at": [
+        0.406,
+        0.33
+      ],
+      "height": 0.29,
+      "color": "titleGray",
+      "style": "'Al Qatariya' in a naskh-style Arabic, mid gray, above the windows ahead of the wing.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Noto Naskh Arabic Bold",
+          "Geeza Pro Bold"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "contrast",
+        "case": "mixed"
+      },
+      "length": 0.083
+    }
+  ],
+  "notes": "Drawn from 2025 photos (A350-1000 A7-AOC from the right, 777-300ER A7-BEP and 787-8 A7-BCH from the left). Titles read 'QATAR' alone, as Wikipedia describes. The fin's gray carries faint darker-gray streaks behind the oryx, left out. The oryx's fine inner lines (eye, mane strokes) are simplified to one gray ear-and-cheek shape. Winglets burgundy on the A350s; 777s and 787s have raked tips in gray. Small Qatar flag and oneworld badge near the doors not drawn. Re-checked 2026-11-15 on A7-AOC (A350-1000, right side, side-on): 'QATAR' runs x 0.115 to 0.306 (longer than first drawn), baseline just under the windows (y -0.05), capitals to y 0.42 (they had been drawn reaching most of the way to the crown); the Arabic title x 0.406 to 0.489, above the windows (y 0.33 to 0.62). On the 777-300ER (A7-BEK) the title starts at the same place behind the forward door and is a little shorter as a share. The oryx's outlines are curves: smooth.",
+  "history": "Replaced Skyarium v1's approximation (a few remembered colors, 2026-11-12). The oryx branding was unveiled in 2006 (Wikipedia, 'Livery'); before it, a white-bodied scheme with the earlier 1997 logo."
+}

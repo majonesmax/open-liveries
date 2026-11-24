@@ -1,0 +1,289 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "TKJ",
+  "name": "AJet (2024)",
+  "kind": "standard",
+  "from": "2023-11",
+  "confidence": "high",
+  "drawnOn": "A21N",
+  "description": "White fuselage with a sky-blue tail: the blue wraps the whole rear fuselage behind a straight diagonal that rises from the belly just aft of the wing to the fin's root. Fin sky blue with a big white stylised 'A'. 'AJet' large on the forward fuselage: the 'A' is the blue two-tone logo letter, 'Jet' in heavy navy rounded lowercase. Blue winglets with a white A; white engines.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:TC-LUR_(aircraft)",
+      "accessed": "2026-11-13"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A321-271NX_(c-n_11658,_TC-LUR)_2026-05-08_Andre_Gerwing_Collection_ID_028688.jpg",
+      "accessed": "2026-11-13",
+      "title": "Airbus A321-271NX TC-LUR, 2026-05-08 (CC BY-SA 4.0)",
+      "note": "Right side, level, 2026-05-08: the blue tail wrap's diagonal, fin A, titles, sharklet."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Hannover_Airport_AJet_Airbus_A321-271NX_TC-LUR_(DSC08814).jpg",
+      "accessed": "2026-11-13",
+      "title": "TC-LUR at Hannover, 2025-04-05 (CC BY-SA 4.0)",
+      "note": "Right side, 2025-04-05: still with a small 'AnadoluJet' title aft (gone by 2026)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:TC-OHB_(aircraft)",
+      "accessed": "2026-11-13"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:AJet_TC-OHB_Boeing_737-MAX_8_Frankfurt_am_Main_Airport_(cropped).jpg",
+      "accessed": "2026-11-13",
+      "title": "AJet TC-OHB 737 MAX 8 at Frankfurt, 2026-02-23 (CC BY-SA 4.0)",
+      "note": "Left side, 2026-02-23: the title reads with the A forward; fin A, winglet, engines."
+    },
+    {
+      "url": "https://onemileatatime.com/news/anadolujet-rebrand-ajet",
+      "accessed": "2026-11-13",
+      "title": "AnadoluJet rebrands as AJet",
+      "note": "Livery unveiled 24 Nov 2023; flying as AJet from 31 Mar 2024."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F6",
+      "official": false
+    },
+    "blue": {
+      "hex": "#2296E2",
+      "name": "sky blue",
+      "official": false
+    },
+    "navy": {
+      "hex": "#1C2A78",
+      "official": false
+    },
+    "aDark": {
+      "hex": "#2463C8",
+      "official": false
+    },
+    "cowl": {
+      "hex": "#E6E8EB",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "name": "bare metal inlet lip",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B4B9C0",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "windows": "plain",
+    "areas": [
+      {
+        "name": "blue tail wrap behind a diagonal (straight from the side)",
+        "color": "blue",
+        "points": [
+          [
+            0.76,
+            -1
+          ],
+          [
+            0.845,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          1,
+          4
+        ]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      4
+    ]
+  },
+  "fin": {
+    "base": "blue",
+    "mirrored": true,
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      4
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "blue",
+    "inner": "blue",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      4
+    ]
+  },
+  "engines": {
+    "cowling": "cowl",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      4
+    ]
+  },
+  "logos": [
+    {
+      "mark": "TKJ/a",
+      "place": "fin",
+      "at": [
+        0.38,
+        0.42
+      ],
+      "height": 0.66,
+      "colors": [
+        "white"
+      ],
+      "description": "A stylised capital A in white, three pieces: a thick diagonal leg running down toward the leading edge, a slim vertical leg aft, and a chevron crossbar at the foot; it fills most of the fin and leans forward on both sides.",
+      "reference": "https://commons.wikimedia.org/wiki/File:AJet_logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        4
+      ]
+    },
+    {
+      "mark": "TKJ/a",
+      "place": "fuselage",
+      "at": [
+        0.19,
+        0.12
+      ],
+      "height": 1.1,
+      "colors": [
+        "blue",
+        "aDark"
+      ],
+      "description": "The A as the first letter of the 'AJet' title, in two blues (the diagonal leg darker, the rest sky blue), standing taller than 'Jet'.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        4
+      ],
+      "side": "left"
+    },
+    {
+      "mark": "TKJ/a",
+      "place": "fuselage",
+      "at": [
+        0.28,
+        0.08
+      ],
+      "height": 1.1,
+      "colors": [
+        "blue",
+        "aDark"
+      ],
+      "description": "The A as the first letter of the 'AJet' title, in two blues (the diagonal leg darker, the rest sky blue), standing taller than 'Jet'.",
+      "confidence": "high",
+      "sourceRefs": [
+        1
+      ],
+      "side": "right"
+    },
+    {
+      "mark": "TKJ/a",
+      "place": "winglets",
+      "at": [
+        0.4,
+        0.75
+      ],
+      "height": 0.25,
+      "colors": [
+        "white"
+      ],
+      "description": "Small white A near the winglet tip.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        4
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Jet",
+      "place": "fuselage",
+      "at": [
+        0.225,
+        -0.32
+      ],
+      "height": 0.71,
+      "length": 0.11,
+      "color": "navy",
+      "style": "Heavy geometric rounded lowercase with a capital J (the J's tail curls left under the A), navy, across the forward windows; the word is 'AJet' with the A drawn as the logo. Left side: the A forward, 'Jet' aft of it (placed off the 737-8 TC-OHB, the only left-side photo).",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        4
+      ],
+      "type": {
+        "similar": [
+          "Gilroy Bold",
+          "Poppins SemiBold",
+          "Futura Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.7
+      },
+      "side": "left"
+    },
+    {
+      "text": "Jet",
+      "place": "fuselage",
+      "at": [
+        0.141,
+        -0.32
+      ],
+      "height": 0.71,
+      "length": 0.097,
+      "color": "navy",
+      "style": "Heavy geometric rounded lowercase with a capital J (the J's tail curls left under the A), navy, across the forward windows; the word is 'AJet' with the A drawn as the logo. Right side: the A aft, 'Jet' forward of it toward the nose (A321neo TC-LUR, 2026-05-08).",
+      "confidence": "high",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "Gilroy Bold",
+          "Poppins SemiBold",
+          "Futura Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.7
+      },
+      "side": "right"
+    }
+  ],
+  "notes": "On the right side the word reads the same way (A aft, toward the tail, Jet toward the nose), so its position mirrors. Until about 2025 some aircraft also had a small 'AnadoluJet' title on the aft lower fuselage (TC-LUR, 2025-04-05); gone in 2026 photos. Aircraft still in AnadoluJet or Turkish Airlines paint fly as TKJ during the transition. Fin and wrap seen on both the A321neo and the 737 MAX 8. Re-checked 2026-11-15: 'AJet' reads A first from both sides, so the title and its A are a pair per side (before, the right side drew the A forward of 'Jet'); the tail wrap's diagonal reduced to its two ends (straight from the side); 'Jet' cap height 0.71, lowercase 0.7 of it.",
+  "history": "Replaced Skyarium v1's approximation (a few colors from memory) with the current scheme drawn from dated Commons photos. The scheme replaced AnadoluJet's (Turkish Airlines' brand) from the rebrand in 2023–24."
+}

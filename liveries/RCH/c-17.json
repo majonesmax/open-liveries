@@ -1,0 +1,163 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "c-17",
+  "airline": "RCH",
+  "name": "C-17 gray (Air Mobility Command)",
+  "kind": "standard",
+  "from": "1993",
+  "confidence": "medium",
+  "drawnOn": "C17",
+  "description": "Overall gray, the radome and engines too. 'U.S. AIR FORCE' in dark gray capitals behind the flight deck, above the crew door. A small U.S. flag high on the fin above the command's letters and the base's tail band; the low-visibility star-and-bar on the aft fuselage behind the wing. Each jet's tail band, serial and unit badges differ, and aren't drawn.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:RIAT_2017_07-7172_(52674485961).jpg",
+      "title": "RIAT 2017 07-7172 (Commons)",
+      "accessed": "2026-11-18",
+      "note": "07-7172 (60th/349th AMW, Travis), left side, RIAT 2017: the gray, the title, the fin's flag, the aft insignia."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Boeing_C-17A_III_Globemaster_(serial_07-7188)_of_the_USAF_at_RIAT_Fairford_16July2018_arp.jpg",
+      "title": "Boeing C-17A (07-7188) at RIAT 2018 (Commons)",
+      "accessed": "2026-11-18",
+      "note": "07-7188 (437th/315th AW), left front quarter: the same scheme on a Charleston jet."
+    }
+  ],
+  "palette": {
+    "gray": {
+      "hex": "#8F9BA2",
+      "official": false,
+      "name": "C-17 gray (sampled from the photos, sunlit to shade)"
+    },
+    "letter": {
+      "hex": "#3A4146",
+      "official": false,
+      "name": "lettering gray"
+    },
+    "insignia": {
+      "hex": "#6B777F",
+      "official": false,
+      "name": "low-visibility insignia gray"
+    },
+    "flagRed": {
+      "hex": "#B22234"
+    },
+    "white": {
+      "hex": "#F2F3F5"
+    },
+    "navy": {
+      "hex": "#3C3B6E"
+    }
+  },
+  "finish": "matte",
+  "fuselage": {
+    "base": "gray",
+    "radome": {
+      "color": "gray"
+    },
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "fin": {
+    "base": "gray",
+    "confidence": "high",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "wings": {
+    "top": "gray",
+    "under": "gray"
+  },
+  "stabilizer": {
+    "top": "gray",
+    "under": "gray"
+  },
+  "winglets": {
+    "outer": "gray",
+    "inner": "gray"
+  },
+  "engines": {
+    "cowling": "gray",
+    "inletLip": "gray",
+    "pylon": "gray",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "RCH/us-flag",
+      "place": "fin",
+      "at": [
+        0.34,
+        0.52
+      ],
+      "height": 0.07,
+      "colors": [
+        "flagRed",
+        "white",
+        "navy"
+      ],
+      "description": "A small U.S. flag high on the fin, the canton forward on both sides.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ]
+    },
+    {
+      "mark": "RCH/star-and-bar",
+      "place": "fuselage",
+      "at": [
+        0.729,
+        0.04
+      ],
+      "height": 0.19,
+      "colors": [
+        "insignia"
+      ],
+      "description": "The national insignia in low-visibility gray: a star in a ring, a bar either side, outlined, behind the wing.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "U.S. AIR FORCE",
+      "place": "fuselage",
+      "at": [
+        0.08,
+        0.16
+      ],
+      "height": 0.14,
+      "length": 0.113,
+      "color": "letter",
+      "style": "Dark gray block capitals behind the flight deck.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Futura Medium",
+          "Avenir Next Medium"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Measured off the RIAT 2017 photo of 07-7172 (left side), anchored at the nose tip and the tail cone: the title 0.080-0.193 along, its caps from y 0.16 to 0.30; the insignia centred 0.729 along; the flag a third back on the fin's chord at half its height. The gray is a midtone of the photo's sunlit (#ACBAC2) and shaded (#526269) sides. Air Mobility Command's jets; other services' and nations' C-17s (the RAF's, RCAF's, RAAF's, India's, Qatar's, NATO's) are gray too with their own markings, and aren't this scheme.",
+  "commonest": true
+}

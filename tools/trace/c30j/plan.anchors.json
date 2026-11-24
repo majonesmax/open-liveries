@@ -1,0 +1,101 @@
+{
+  "_about": "T.O. 1C-130A-2-2 page 1-3's plan view, drawn nose down on the page: the scan's crop 140,0,1797,1260 turned 90 degrees clockwise (nose left) and saved at 72 dpi, then layers.py --mode image --threshold 170 at scale 2.9715 with --xscale 1.0321: the side's scale across (its tips 40.48 m apart against the printed 132 ft 8 in) and lengthwise (the plan is drawn 3.1% short lengthwise: its nose-to-tail-cone 3536 px at this scale against the side's 3530). Pixels of that raster, line centres; the upper half. From above the high wing hides the fuselage's side under it (bridged), and the tailplane the tail cone's side under it (bridged).",
+  "fuselage.halfWidth": [
+    [137, 2443],
+    [150, 2412],
+    [200, 2390],
+    [300, 2345],
+    [400, 2296],
+    [500, 2256],
+    [600, 2228],
+    [700, 2208],
+    [800, 2197],
+    [900, 2192],
+    [1200, 2190],
+    [1450, 2190],
+    "hidden",
+    [2120, 2194],
+    [2500, 2194],
+    [2900, 2193],
+    [2950, 2193],
+    "hidden",
+    [3540, 2330],
+    [3580, 2365],
+    [3620, 2392],
+    [3650, 2425],
+    [3673, 2443]
+  ],
+  "wing.leading": [
+    [1498, 2190],
+    [1500, 1700],
+    [1503, 1300],
+    [1510, 800],
+    [1517, 300],
+    [1522, 150],
+    [1535, 95],
+    [1560, 68],
+    [1610, 56]
+  ],
+  "wing.trailing": [
+    [2075, 2190],
+    [2072, 1760],
+    [2040, 1400],
+    [1990, 1000],
+    [1940, 600],
+    [1895, 300],
+    [1875, 150],
+    [1860, 100],
+    [1835, 82],
+    [1760, 70],
+    [1700, 64],
+    [1640, 57],
+    [1610, 56]
+  ],
+  "stabilizer.leading": [
+    [3095, 2190],
+    [3110, 2150],
+    [3150, 1900],
+    [3200, 1650],
+    [3235, 1520],
+    [3260, 1490],
+    [3300, 1483]
+  ],
+  "stabilizer.trailing": [
+    [3535, 2295],
+    [3520, 2100],
+    [3500, 1850],
+    [3480, 1650],
+    [3465, 1520],
+    [3450, 1490],
+    [3420, 1483],
+    [3300, 1483]
+  ],
+  "nacelle.outer": [
+    [1135, 1848],
+    [1150, 1825],
+    [1200, 1800],
+    [1300, 1786],
+    [1480, 1782]
+  ],
+  "nacelle.inner": [
+    [1135, 1848],
+    [1150, 1870],
+    [1200, 1890],
+    [1300, 1897],
+    [1480, 1902]
+  ],
+  "nacelle2.outer": [
+    [1135, 1250],
+    [1150, 1230],
+    [1200, 1212],
+    [1300, 1206],
+    [1490, 1205]
+  ],
+  "nacelle2.inner": [
+    [1135, 1250],
+    [1150, 1272],
+    [1200, 1295],
+    [1300, 1306],
+    [1490, 1310]
+  ]
+}

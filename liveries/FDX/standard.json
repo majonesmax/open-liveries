@@ -1,0 +1,311 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "FDX",
+  "name": "FedEx Express (1994 livery)",
+  "kind": "standard",
+  "from": "1994",
+  "confidence": "medium",
+  "drawnOn": "B763",
+  "description": "White fuselage; the aft fuselage behind a curve from the belly behind the wing to the fin's root is FedEx purple, as is the fin, which carries 'FedEx' in white and orange; 'FedEx' huge over the forward fuselage in purple and orange with 'Express' in gray under the 'Ex'; white engines with a small 'FedEx'.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/FedEx_Express",
+      "title": "Wikipedia: FedEx Express",
+      "accessed": "2026-11-13",
+      "note": "The 1994 Landor rebrand and livery."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:FedEx_Express_Boeing_767-300F_N168FE_on_final_approach_to_Boston_July_2026_1.jpg",
+      "title": "FedEx Express Boeing 767-300F N168FE on final approach to Boston July 2026 1.jpg (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "N168FE (767-300F) left side, 2026-07-08: geometry, titles."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F2F3F5",
+      "official": false
+    },
+    "purple": {
+      "hex": "#4D148C",
+      "official": false,
+      "name": "FedEx purple (PMS 2685)"
+    },
+    "orange": {
+      "hex": "#FF6600",
+      "official": false,
+      "name": "FedEx Express orange"
+    },
+    "gray": {
+      "hex": "#8E8E93",
+      "official": false,
+      "name": "'Express' gray"
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "purple aft fuselage and tail cone",
+        "color": "purple",
+        "points": [
+          [
+            0.748,
+            -1
+          ],
+          [
+            0.754,
+            -0.665
+          ],
+          [
+            0.761,
+            -0.464
+          ],
+          [
+            0.785,
+            -0.181
+          ],
+          [
+            0.801,
+            0.018
+          ],
+          [
+            0.818,
+            0.309
+          ],
+          [
+            0.826,
+            0.551
+          ],
+          [
+            0.829,
+            0.82
+          ],
+          [
+            0.829,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "sourceRefs": [
+          1
+        ],
+        "smooth": true
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "hidden",
+    "confidence": "medium",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "fin": {
+    "base": "purple",
+    "mirrored": false,
+    "confidence": "high",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "purple",
+    "inner": "purple",
+    "confidence": "low",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "logos": [],
+  "titles": [
+    {
+      "text": "FedEx",
+      "place": "fuselage",
+      "at": [
+        0.143,
+        0.046
+      ],
+      "height": 0.833,
+      "color": "purple",
+      "parts": [
+        {
+          "text": "Fed",
+          "color": "purple"
+        },
+        {
+          "text": "Ex",
+          "color": "orange"
+        }
+      ],
+      "style": "The FedEx logotype ('Fed' purple, 'Ex' orange; the arrow in the white space between E and x), very large over the forward fuselage.",
+      "confidence": "high",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "Futura Bold",
+          "Univers 67 Bold Condensed"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "length": 0.17
+    },
+    {
+      "text": "Express",
+      "place": "fuselage",
+      "at": [
+        0.247,
+        -0.299
+      ],
+      "height": 0.286,
+      "color": "gray",
+      "style": "'Express' in gray under the 'Ex', regular weight.",
+      "confidence": "high",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "Futura Book",
+          "Avenir Next Regular"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.75
+      },
+      "length": 0.078
+    },
+    {
+      "text": "FedEx",
+      "place": "fin",
+      "at": [
+        0.215,
+        0.304
+      ],
+      "height": 0.15,
+      "color": "white",
+      "parts": [
+        {
+          "text": "Fed",
+          "color": "white"
+        },
+        {
+          "text": "Ex",
+          "color": "orange"
+        }
+      ],
+      "style": "'Fed' in white on the purple fin.",
+      "confidence": "high",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "Futura Bold"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "length": 0.54
+    },
+    {
+      "text": "FedEx",
+      "place": "engines",
+      "at": [
+        0.28,
+        0.1
+      ],
+      "height": 0.2,
+      "color": "purple",
+      "style": "A small FedEx logotype on the cowling.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "Futura Bold"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "length": 0.25
+    },
+    {
+      "text": "The World On Time",
+      "place": "fuselage",
+      "at": [
+        0.038,
+        -0.15
+      ],
+      "height": 0.08,
+      "color": "gray",
+      "style": "A small slogan under the cockpit.",
+      "confidence": "low",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "Futura Book Oblique"
+        ],
+        "weight": 400,
+        "slantDeg": 10,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      },
+      "length": 0.067
+    }
+  ],
+  "notes": "Drawn from N168FE (767-300F, July 2026). The FedEx logo is a wordmark, drawn as titles. Freighters have no windows. Re-checked 2026-11-15 on N168FE: 'Express' runs x 0.247 to 0.325 under the 'Ex', 'The World On Time' 0.038 to 0.105 under the cockpit, the engine's 'FedEx' 0.28 to 0.53 of the nacelle; the wordmark's lowercase stands about 0.72 of its capitals. One photo, from a little ahead, so the big title's place was left as drawn. Re-traced 2026-11-20 on N168FE with tools/photo_trace.py: the aft purple's edge was 0.025 to 0.05 aft all the way up, meeting the crown behind the fin's root and leaving a strip of white crown under the fin (seen in a 3D view); it reaches the crown at the fin's root (0.829).",
+  "history": "Replaces Skyarium v1's approximate standard (a few colors from memory). The FedEx livery came with the 1994 rebrand from Federal Express."
+}

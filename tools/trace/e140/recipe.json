@@ -1,0 +1,212 @@
+{
+  "_about": "Embraer ERJ-140 (EMB-135KE/KL), built from the EMB-145's snapped lines (e145/, Figure 2.2.1 of APM-145/1100) with the two plugs the ERJ-140's own Airport Planning Manual gives taken out (plug.py on e145's *.snap.json, as the 777-8 from the 777-9): APM-145/1521, Revision 8 (Nov 29/24), 2.2 Airplane Dimensions (page index 17: fuselage 26.51 m, overall 28.45 m), Figure 2.2.1 (page index 18: nose to main gear 13.53 m) and Figure 2.7.1 Door Clearances (page index 27-28). 0.91 m at 9.0 m from the nose (ahead of the wing: the nose-to-main-gear 13.53 m against the EMB-145's 14.44 m) and 0.51 m at 18.0 m (behind it: the rest of the 1.42 m). The baggage door then sits at 21.09 m (Figure 2.7.1: 21.12 m). Not snapped to the ERJ-140's own figure: its views aren't to one scale (the side 5.2% and the plan 3.9% short lengthwise against their spans and the front view, the side drawn 1.41 degrees nose down), and evened out they still put the main door 0.26 m aft of the printed 4.90 m and draw 9 windows ahead of the overwing exit. Its door figure prints the exit 12.79 m from the nose, the ERJ-135's figure (the two manuals share the sheet). Side-on photos of ERJ-140s (Wikimedia Commons: N823AE, CFIF, public domain; N820AE, Aeroprints.com, CC BY-SA 3.0, right side) show 10 windows ahead of the exit and 5 behind it, the EMB-145's 11 and 6 less one in each plug, and N823AE's exit about 13.9 m from the nose (scaled by its 26.51 m): the plugs' 13.86 m. Windows, doors and cockpit panes are the EMB-145's, moved by the plugs (one window in each plug dropped). Rebuild: e140/derive.py (the EMB-145's work directory to this one), then build.py and smooth.py.",
+  "out": "../../../../shapes/E135-erj140.json",
+  "length": 26.51,
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "engines": {
+    "mount": "fuselage"
+  },
+  "stabilizer": {
+    "mount": "fin"
+  },
+  "refs": {
+    "side": {
+      "nose": 129,
+      "tail": 5754,
+      "cowlEnd": 4807,
+      "windowRow": [
+        853,
+        936
+      ],
+      "windowGap": 5,
+      "windowMinWidth": 50,
+      "windowInset": 3
+    },
+    "plan": {
+      "nose": 110,
+      "centerline": 2205
+    },
+    "front": {
+      "centerline": 2310,
+      "crownTop": 689
+    }
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [
+        1090,
+        750,
+        1253,
+        1114
+      ],
+      "side": "left",
+      "name": "main door"
+    },
+    {
+      "kind": "door",
+      "box": [
+        1365,
+        802,
+        1511,
+        1114
+      ],
+      "side": "right",
+      "name": "service door"
+    },
+    {
+      "kind": "exit",
+      "box": [
+        3025,
+        815,
+        3131,
+        1007
+      ],
+      "name": "emergency exit"
+    },
+    {
+      "kind": "cargo",
+      "box": [
+        4509,
+        943,
+        4722,
+        1155
+      ],
+      "side": "left",
+      "name": "baggage door"
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [
+        652,
+        880
+      ],
+      [
+        700,
+        849
+      ],
+      [
+        750,
+        816
+      ],
+      [
+        788,
+        790
+      ],
+      [
+        838,
+        797
+      ],
+      [
+        840,
+        806
+      ],
+      [
+        752,
+        892
+      ],
+      [
+        742,
+        896
+      ],
+      [
+        700,
+        889
+      ],
+      [
+        652,
+        881
+      ]
+    ],
+    [
+      [
+        862,
+        802
+      ],
+      [
+        938,
+        805
+      ],
+      [
+        946,
+        814
+      ],
+      [
+        946,
+        900
+      ],
+      [
+        936,
+        911
+      ],
+      [
+        800,
+        893
+      ],
+      [
+        788,
+        885
+      ],
+      [
+        790,
+        873
+      ],
+      [
+        855,
+        806
+      ]
+    ]
+  ],
+  "printed": {
+    "fuselage length": 26.51,
+    "fuselage height": 2.28,
+    "fuselage width": 2.28,
+    "wingspan": 20.04,
+    "tailplane span": 7.55,
+    "overall length": 28.45,
+    "main door from the nose": 4.9,
+    "service door from the nose": 6.17,
+    "emergency exit from the nose": 12.79,
+    "baggage door from the nose": 21.12
+  },
+  "meta": {
+    "id": "E135-erj140",
+    "name": "Embraer ERJ-140",
+    "types": [
+      "E135"
+    ],
+    "confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.embraer.com/media/3cknpwik/erj-140_apm_140-1.pdf",
+        "title": "Embraer, ERJ-140 Airport Planning Manual (APM-145/1521, Revision 8, Nov 29/24), 2.2 Airplane Dimensions, Figure 2.2.1 Airplane General Dimensions, Figure 2.7.1 Door Clearances",
+        "accessed": "2026-11-16",
+        "note": "The fuselage, overall length and nose-to-main-gear figures give the two plugs taken out of the EMB-145's measured lines (tools/trace/e140/); the figures are the aircraft's measurements, not a copy of the drawing. Figure 2.2.1 isn't drawn to one scale and isn't used for the outlines; its door figure's 12.79 m to the overwing exit is the ERJ-135's (the photos and the plugs put it at 13.86 m)."
+      },
+      {
+        "url": "https://www.embraer.com/media/2q1d040a/erj-emb-145_apm_140.pdf",
+        "title": "Embraer, EMB-145 Airport Planning Manual (APM-145/1100, Revision 16, Nov 29/24), Figure 2.2.1 EMB-145 Airplane General Dimensions, Figure 2.7.1 Door Clearances",
+        "accessed": "2026-11-16",
+        "note": "The outlines: the EMB-145 shape (E145) less the two plugs."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:American_Eagle_Airlines_Embraer_ERJ_140LR_(N823AE)_taxiing_at_O%27Hare_International_Airport.jpg",
+        "title": "Wikimedia Commons, American Eagle Airlines Embraer ERJ 140LR (N823AE) taxiing at O'Hare International Airport (CFIF, public domain)",
+        "accessed": "2026-11-16",
+        "note": "Left side: window count ahead of and behind the overwing exit, and the exit and door positions; measurements only."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:N820AE_Embraer_Emb.140_American_Eagle_(7552123248).jpg",
+        "title": "Wikimedia Commons, N820AE Embraer Emb.140 American Eagle (Aeroprints.com, CC BY-SA 3.0)",
+        "accessed": "2026-11-16",
+        "note": "Right side: 5 windows behind the overwing exit, as on N823AE; measurements only."
+      }
+    ]
+  }
+}

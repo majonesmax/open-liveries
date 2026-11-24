@@ -1,0 +1,80 @@
+{
+  "name": "quad",
+  "fuselage": {
+    "length": 68.5,
+    "radius": 3.2,
+    "nose": {
+      "crown": 14.0,
+      "belly": 5.5,
+      "tip": -0.25
+    },
+    "tail": {
+      "crownFrom": 58.0,
+      "crownEnd": 0.7,
+      "bellyFrom": 50.0,
+      "bellyEnd": 0.4
+    }
+  },
+  "cabin": {
+    "from": 7.5,
+    "to": 57.5,
+    "pitch": 0.55,
+    "doors": [
+      [7.5, 8.6],
+      [17.5, 18.6],
+      [30.5, 31.6],
+      [44.0, 45.1],
+      [52.5, 53.6]
+    ]
+  },
+  "cockpit": {
+    "from": 4.0,
+    "to": 6.0
+  },
+  "fin": {
+    "rootLeading": 54.0,
+    "rootTrailing": 66.5,
+    "tipLeading": 63.5,
+    "tipTrailing": 69.0,
+    "height": 10.5
+  },
+  "stabilizer": {
+    "rootLeading": 58.5,
+    "rootTrailing": 67.5,
+    "tipLeading": 65.0,
+    "tipTrailing": 68.6,
+    "span": 11.0,
+    "height": 0.5,
+    "dihedralDeg": 6
+  },
+  "wing": {
+    "rootLeading": 24.0,
+    "rootTrailing": 38.0,
+    "tipLeading": 46.0,
+    "tipTrailing": 49.5,
+    "span": 34.2,
+    "height": -1.9,
+    "dihedralDeg": 3
+  },
+  "winglet": {
+    "height": 1.8,
+    "sweep": 1.6,
+    "tipChord": 1.0
+  },
+  "engines": [
+    {
+      "front": 22.5,
+      "back": 29.0,
+      "radius": 1.45,
+      "height": -4.0,
+      "out": 11.6
+    },
+    {
+      "front": 29.5,
+      "back": 36.0,
+      "radius": 1.4,
+      "height": -3.0,
+      "out": 21.0
+    }
+  ]
+}

@@ -1,0 +1,604 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "AIC",
+  "name": "2023 livery (the Vista)",
+  "kind": "standard",
+  "from": "2023",
+  "confidence": "high",
+  "drawnOn": "A20N",
+  "description": "White body with huge red AIR INDIA capitals through the windows; a red belly fairing outlined by a thin gold line that rises from the nose gear, runs above the wing root and drops behind the wing; the fin carries 'the Vista', a corner of a window frame: a red top band, a gold band turning down, a purple band down the fin's forward part, and a red jharokha-lattice panel filling the rest, running down over the tail cone. Red engines with a gold front ring; gold sharklets.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:VT-RTN.jpg",
+      "title": "VT-RTN.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "A320neo VT-RTN from the right, 2024-12-23, side-on at take-off: geometry of the belly, gold line, titles, fin and tail cone."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:VT-JRF_@_JFK,_2024-11-04.png",
+      "title": "VT-JRF @ JFK, 2024-11-04 (CC BY-SA 2.0)",
+      "accessed": "2026-11-13",
+      "note": "A350-900 from the left: the same layout on the left side, flag and Star Alliance star by the cockpit."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Air_India_Airbus_A321NEO_New_Livery.jpg",
+      "title": "Air India Airbus A321NEO New Livery (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "A321neo VT-TVA from the left and below, 2026-09-15: the red belly with gold AIR INDIA under it, gold sharklets, engine ring."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:VT-JRF_-_Airbus_A350-941_-_Air_India_LHR_200326.jpg",
+      "title": "VT-JRF - Airbus A350-941 - Air India LHR 200326 (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "From the right and below, 2026-03-20: the belly lettering, winglet art."
+    },
+    {
+      "url": "https://www.airindia.com/in/en/newsroom/press-release/air-india-unveils-new-brand-identity.html",
+      "title": "Air India unveils new global brand identity (2023-08-10)",
+      "accessed": "2026-11-13",
+      "note": "The Vista, the red/aubergine/gold palette; first aircraft repainted late 2023 (A350 VT-JRA delivered in it, 2024-01)."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F6",
+      "official": false
+    },
+    "red": {
+      "hex": "#D7192F",
+      "name": "Air India red",
+      "official": false
+    },
+    "gold": {
+      "hex": "#B48E55",
+      "name": "gold",
+      "official": false
+    },
+    "purple": {
+      "hex": "#5A2A82",
+      "name": "aubergine/purple",
+      "official": false
+    },
+    "lattice": {
+      "hex": "#B3141F",
+      "name": "darker red of the lattice pattern",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B7BCC3",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "name": "bare metal inlet lip",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "red belly fairing",
+        "color": "red",
+        "points": [
+          [
+            0.226,
+            -1
+          ],
+          [
+            0.232,
+            -0.62
+          ],
+          [
+            0.25,
+            -0.33
+          ],
+          [
+            0.304,
+            -0.285
+          ],
+          [
+            0.42,
+            -0.31
+          ],
+          [
+            0.533,
+            -0.37
+          ],
+          [
+            0.585,
+            -0.55
+          ],
+          [
+            0.605,
+            -0.8
+          ],
+          [
+            0.613,
+            -1
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          2
+        ],
+        "smooth": true
+      },
+      {
+        "name": "gold line round the belly fairing",
+        "color": "gold",
+        "points": [
+          [
+            0.152,
+            -1
+          ],
+          [
+            0.162,
+            -0.62
+          ],
+          [
+            0.186,
+            -0.3
+          ],
+          [
+            0.21,
+            -0.215
+          ],
+          [
+            0.304,
+            -0.185
+          ],
+          [
+            0.418,
+            -0.215
+          ],
+          [
+            0.562,
+            -0.305
+          ],
+          [
+            0.622,
+            -0.44
+          ],
+          [
+            0.648,
+            -0.56
+          ],
+          [
+            0.664,
+            -0.8
+          ],
+          [
+            0.672,
+            -1
+          ],
+          [
+            0.662,
+            -1
+          ],
+          [
+            0.654,
+            -0.8
+          ],
+          [
+            0.638,
+            -0.58
+          ],
+          [
+            0.613,
+            -0.47
+          ],
+          [
+            0.555,
+            -0.34
+          ],
+          [
+            0.418,
+            -0.255
+          ],
+          [
+            0.304,
+            -0.225
+          ],
+          [
+            0.214,
+            -0.255
+          ],
+          [
+            0.192,
+            -0.33
+          ],
+          [
+            0.17,
+            -0.62
+          ],
+          [
+            0.162,
+            -1
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          2
+        ],
+        "smooth": true
+      },
+      {
+        "name": "purple band over the tail cone, the fin's band run down",
+        "color": "purple",
+        "points": [
+          [
+            0.82,
+            1
+          ],
+          [
+            0.848,
+            1
+          ],
+          [
+            0.868,
+            -1
+          ],
+          [
+            0.842,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "gold band over the tail cone",
+        "color": "gold",
+        "points": [
+          [
+            0.848,
+            1
+          ],
+          [
+            0.867,
+            1
+          ],
+          [
+            0.885,
+            -1
+          ],
+          [
+            0.868,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "red tail cone (the lattice panel run down)",
+        "color": "red",
+        "points": [
+          [
+            0.867,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            0.885,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "mirrored": true,
+    "areas": [
+      {
+        "name": "red top band of the Vista frame",
+        "color": "red",
+        "points": [
+          [
+            0.94,
+            0.885
+          ],
+          [
+            0.144,
+            0.725
+          ],
+          [
+            0.193,
+            0.57
+          ],
+          [
+            0.828,
+            0.735
+          ]
+        ]
+      },
+      {
+        "name": "gold band, turning down at the forward corner",
+        "color": "gold",
+        "points": [
+          [
+            0.828,
+            0.735
+          ],
+          [
+            0.193,
+            0.57
+          ],
+          [
+            0.156,
+            0.375
+          ],
+          [
+            0.305,
+            0.0
+          ],
+          [
+            0.416,
+            0.0
+          ],
+          [
+            0.247,
+            0.48
+          ],
+          [
+            0.775,
+            0.6
+          ]
+        ]
+      },
+      {
+        "name": "red lattice panel",
+        "color": "red",
+        "points": [
+          [
+            0.775,
+            0.6
+          ],
+          [
+            0.247,
+            0.48
+          ],
+          [
+            0.416,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.62
+          ]
+        ]
+      },
+      {
+        "name": "purple band down the forward fin",
+        "color": "purple",
+        "points": [
+          [
+            0.156,
+            0.375
+          ],
+          [
+            0.025,
+            0.365
+          ],
+          [
+            0.159,
+            0.0
+          ],
+          [
+            0.305,
+            0.0
+          ]
+        ]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "gold",
+    "inner": "gold",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "red",
+    "inletLip": "gold",
+    "areas": [
+      {
+        "name": "gold front ring",
+        "color": "gold",
+        "points": [
+          [
+            0,
+            -1
+          ],
+          [
+            0.12,
+            -1
+          ],
+          [
+            0.12,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "AIC/jharokha-lattice",
+      "place": "fin",
+      "at": [
+        0.55,
+        0.35
+      ],
+      "height": 0.4,
+      "colors": [
+        "lattice",
+        "red"
+      ],
+      "description": "The jharokha lattice: a repeating pattern of interlocking eight-petalled rosettes (Indian window screen), drawn in a slightly darker red over the red panel of the fin and the tail cone.",
+      "reference": "https://commons.wikimedia.org/wiki/File:VT-RTN.jpg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "AIC/star-alliance",
+      "place": "fuselage",
+      "at": [
+        0.109,
+        0.32
+      ],
+      "height": 0.19,
+      "colors": [
+        "#7B8087"
+      ],
+      "description": "Small Star Alliance five-pointed star roundel in gray, just behind the cockpit above the forward door.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Star_Alliance_Logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "AIC/india-flag",
+      "place": "fuselage",
+      "at": [
+        0.77,
+        0.05
+      ],
+      "height": 0.08,
+      "colors": [
+        "#FF9933",
+        "#FFFFFF",
+        "#138808"
+      ],
+      "description": "Small Indian tricolor by the registration near the aft door; on the left side a second one by the cockpit, above the star.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Flag_of_India.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "AIR INDIA",
+      "place": "fuselage",
+      "at": [
+        0.162,
+        -0.05
+      ],
+      "height": 0.595,
+      "length": 0.315,
+      "color": "red",
+      "style": "The 2023 wordmark: very large, heavy geometric capitals with stencil-like notches (the A's crossbar a cut, a gap in the first stroke of the R and N), running through the window line from just behind the forward door.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Futura Bold",
+          "Avenir Next Heavy"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "AIR INDIA",
+      "place": "belly",
+      "at": [
+        0.27,
+        -1
+      ],
+      "height": 0.55,
+      "length": 0.32,
+      "color": "gold",
+      "style": "The wordmark in gold on the red belly fairing, reading nose-left from below, straddling the centerline.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Futura Bold",
+          "Avenir Next Heavy"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Drawn from 2024-2026 photos of the A320neo/A321neo and A350 in the 2023 scheme. The fin layout is the same on both sides relative to the direction of flight. Widebodies (A350, 787, 777) carry red/purple/gold art on the winglets/raked tips; the A320 family has plain gold sharklets. Exact brand hexes not published in a source found; colors matched by eye. Many older aircraft still wear the 2007 scheme (standard-2007), and ex-Vistara A320neo/A321neo/787-9 aircraft fly in Vistara's aubergine scheme with 'Operated by Air India' titles until repainted. Re-checked 2026-11-15 on VT-RTN (flipped, fitted to the measured A320 shape): the title runs x 0.162 to 0.477, its baseline about 0.84 m under the windows' middle and its capitals' tops 0.89 m over it (y -0.05 to 0.54, placed by the windows: the fit tilts a little along the fuselage); it had been drawn about 0.27 m taller. The belly fairing's red and its gold outline are curves (smooth); their places agree with the photo within the fit's error.",
+  "history": "Replaced Skyarium v1's approximation. Introduced 2023-08 (unveiled 2023-08-10; first A350 delivered in it 2024-01), replacing the 2007 red-swan / Konark-wheel scheme, which still flies on part of the fleet (standard-2007)."
+}

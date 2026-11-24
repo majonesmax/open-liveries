@@ -1,0 +1,370 @@
+{
+  "ADY": {
+    "wears": "ABY/standard",
+    "note": "Air Arabia Abu Dhabi: Air Arabia's scheme, its own small titles."
+  },
+  "AHK": {
+    "wears": "BCS/standard",
+    "note": "Air Hong Kong: DHL's Hong Kong airline, A330Fs in DHL paint (B-LDQ titled DHL on Commons, 2025-05-07; B-LDZ at Sydney, 2025-11-17)."
+  },
+  "AKX": {
+    "wears": "ANA/standard",
+    "note": "ANA Wings: ANA's domestic regional, in ANA paint."
+  },
+  "ANE": {
+    "wears": "IBE/standard",
+    "note": "Flies in its mainline's paint."
+  },
+  "APG": {
+    "wears": "AIQ/standard",
+    "note": "Philippines AirAsia: the same red airasia.com scheme, Philippine flag."
+  },
+  "ARE": {
+    "wears": "TAM/standard",
+    "note": "LATAM Airlines Colombia (ex-Aires): the LATAM group scheme."
+  },
+  "ASH": {
+    "wears": "UAL/express",
+    "note": "Mesa Airlines: United Express only (E175), now part of Republic Airways Holdings (merger closed 25 Nov 2025) but still flying under its own certificate. Of six E175s photographed 2025-2026, four wear the 2019 scheme (N89304, N85373, N87319, N85369) and two still the 2010 one (N85358, N89349), so UAL/express-2010 should be tagged by airframe."
+  },
+  "AWI": {
+    "wears": "AAL/eagle",
+    "note": "Air Wisconsin: American Eagle only since 2024 (CRJ200). Replaces the AAL/standard entry in operators.json; no 2025-2026 Commons photo found in 'Current CRJ200 of Air Wisconsin', so not photo-checked."
+  },
+  "AWQ": {
+    "wears": "AIQ/standard",
+    "note": "Indonesia AirAsia: the same red airasia.com scheme, Indonesian flag."
+  },
+  "AXM": {
+    "wears": "AIQ/standard",
+    "note": "Malaysia AirAsia: the same red airasia.com scheme as Thai AirAsia, Malaysian flag."
+  },
+  "BLX": {
+    "wears": "TOM/standard",
+    "note": "TUI fly Nordic: same TUI scheme, SE- registered 737s."
+  },
+  "BOX": {
+    "wears": "BCS/standard",
+    "note": "AeroLogic (Leipzig): 777Fs in DHL paint with small 'AeroLogic' titles by the door (D-AALO on Commons, 2025-08-16)."
+  },
+  "CFE": {
+    "wears": "BAW/standard",
+    "note": "BA CityFlyer (London City Embraers, A320s from Edinburgh/LCY) flies in British Airways' paint."
+  },
+  "CLH": {
+    "wears": "DLH/standard",
+    "note": "Lufthansa CityLine: flies its CRJ900s and Airbuses in Lufthansa's livery with 'Lufthansa' titles. A few CRJs may still carry the pre-2018 scheme until retired."
+  },
+  "CNM": {
+    "wears": "CCA/standard",
+    "note": "Air China Inner Mongolia: believed to fly Air China's paint (unchecked)."
+  },
+  "CSG": {
+    "wears": "CSN/cargo",
+    "note": "China Southern Airlines Cargo (FAA JO 7340.2: CSG = CHINA SOUTHERN AIRLINES CARGO, telephony SOUTHERN CARGO): China Southern's 777Fs, now flown under their own code, in China Southern's kapok scheme with cargo titles (B-223N, CSG2569 on adsb.lol 2026-11-20, hexdb owner 'China Southern Cargo', flag CSG; on Commons in that paint 2025-08-02). The 777Fs are tagged 'cargo' in airframes/CSN.json."
+  },
+  "DAE": {
+    "wears": "BCS/standard",
+    "note": "DHL Aero Expreso (Panama): DHL's Latin American airline, 757Fs in DHL yellow (HP-1910DAE on Commons at Guatemala City, 2024-08-30)."
+  },
+  "DHK": {
+    "wears": "BCS/standard",
+    "note": "DHL Air UK: already mapped in operators.json; 777F G-DHMC (2026-03-01) and 767s in DHL paint confirm it."
+  },
+  "DHX": {
+    "wears": "BCS/standard",
+    "note": "DHL International Aviation ME (Bahrain): 757/767 freighters in DHL paint (A9C-DHT on Commons, 2026-07-23 and 2026-09-29)."
+  },
+  "EAI": {
+    "wears": "EIN/standard",
+    "note": "Emerald Airlines, ATR 72-600s as Aer Lingus Regional in the 2019 scheme with 'Aer Lingus Regional' titles; ICAO code unsure, check."
+  },
+  "EAQ": {
+    "wears": "QFA/standard",
+    "note": "QantasLink (Eastern Australia Airlines): Qantas paint with 'QantasLink' titles."
+  },
+  "EDV": {
+    "wears": "DAL/connection",
+    "note": "Endeavor Air: Delta Connection only (CRJ900). Checked: N933XJ (Jun 2026) carries 'DELTA' / 'CONNECTION' titles."
+  },
+  "EFW": {
+    "wears": "BAW/standard",
+    "note": "BA Euroflyer (Gatwick short-haul A320s) flies in British Airways' paint."
+  },
+  "EJU": {
+    "wears": "EZY/standard",
+    "note": "Flies in its mainline's paint."
+  },
+  "ENY": {
+    "wears": "AAL/eagle",
+    "note": "Envoy Air: American Eagle only (E175, E170, ERJ145). Checked on Commons: E175s N216NN (Aug 2026), N286NN (Jul 2026), N239NN (Jun 2026), N339HG (Feb 2026) all carry 'American Eagle' titles."
+  },
+  "EST": {
+    "wears": "SAS/standard",
+    "note": "Xfly (ex Regional Jet), CRJ900s flying for SAS in SAS paint; ICAO code unsure, check."
+  },
+  "EUK": {
+    "wears": "EIN/standard",
+    "note": "Aer Lingus UK, A321neos in the 2019 scheme."
+  },
+  "EWL": {
+    "wears": "EWG/standard",
+    "note": "Eurowings Europe (Malta, IATA E6): flies Eurowings' A320-family aircraft (9H- registered) in full Eurowings paint under its own code. Its Austrian predecessor EWE ceased in 2023."
+  },
+  "EZS": {
+    "wears": "EZY/standard",
+    "note": "Flies in its mainline's paint."
+  },
+  "FCM": {
+    "wears": "FIN/standard",
+    "note": "Norra (Nordic Regional Airlines), ATRs and E190s for Finnair in Finnair paint; ICAO code from memory (a sub-agent suggested NRD), check."
+  },
+  "GAP": {
+    "wears": "PAL/standard",
+    "note": "PAL Express: Dash 8-400s and ATRs in Philippine Airlines paint."
+  },
+  "GJS": {
+    "wears": "UAL/express",
+    "note": "GoJet: United Express only (CRJ550). Commons photos 2023-2025 (N539GJ, N543GJ, N544GJ) show the 2019 scheme. Caution: the FAA registry (Nov 2026) now lists the GJ-series CRJ550s under SkyWest / SkyWest Leasing, and several are photographed as SkyWest-flown, so GoJet may have little or no flying left in 2026."
+  },
+  "GLG": {
+    "wears": "AVA/standard",
+    "note": "Avianca Ecuador (ex-Aerogal): Avianca's paint, Ecuadorian flag."
+  },
+  "HOP": {
+    "wears": "AFR/standard",
+    "note": "Air France Hop's regional jets wear Air France's paint (some still with HOP! titles; check)."
+  },
+  "IBK": {
+    "wears": "NOZ/standard",
+    "note": "Norwegian Air International (Ireland AOC), largely wound down; any remaining 737s in Norwegian paint."
+  },
+  "IBS": {
+    "wears": "IBE/standard",
+    "note": "Flies in its mainline's paint."
+  },
+  "JAC": {
+    "wears": "JAL/standard",
+    "note": "Japan Air Commuter: ATRs in JAL's Tsurumaru scheme."
+  },
+  "JAF": {
+    "wears": "TOM/standard",
+    "note": "TUI fly Belgium (ex-Jetairfly): same TUI scheme, OO- registered 737s and 787s."
+  },
+  "JAP": {
+    "wears": "JAT/standard",
+    "note": "JetSMART Peru: the group's paint, Peruvian flag."
+  },
+  "JES": {
+    "wears": "JAT/standard",
+    "note": "JetSMART Argentina: the group's paint, Argentine flag and its own animal on each fin."
+  },
+  "JIA": {
+    "wears": "AAL/eagle",
+    "note": "PSA Airlines: American Eagle only (CRJ700, CRJ900). Checked: CRJ900s N641NN (Jan 2026), N607NN (Oct 2025), N618NN (Jan 2025) carry 'American Eagle'."
+  },
+  "JJP": {
+    "wears": "JST/standard",
+    "note": "Jetstar Japan: Jetstar paint."
+  },
+  "JLJ": {
+    "wears": "JAL/standard",
+    "note": "J-Air: E170/E190s in JAL's Tsurumaru scheme."
+  },
+  "JTA": {
+    "wears": "JAL/standard",
+    "note": "Japan Transocean Air: 737-800s in JAL's Tsurumaru scheme."
+  },
+  "JZA": {
+    "wears": "ACA/standard",
+    "note": "Flies in its mainline's paint."
+  },
+  "KII": {
+    "wears": "BCS/standard",
+    "note": "Kalitta Charters II (FAA JO 7340.2: KII = KALITTA CHARTERS II LLC, telephony DRAGSTER): 737-800 converted freighters flown for DHL Express under a CMI deal since 2022 (ch-aviation: N318FL, N325FL), in DHL paint (AirHistory.net files N325FL and N326FL as 'DHL International', N326FL at Cincinnati 2024-09-02: evidence only). N326FL (hexdb: owner DHL Air) flew as KII833 Cedar Rapids-Kansas City, a DHL route, on 2026-11-20. No open photo of a KII 737 found: medium confidence."
+  },
+  "KLC": {
+    "wears": "KLM/standard",
+    "note": "Flies in its mainline's paint."
+  },
+  "LAN": {
+    "wears": "TAM/standard",
+    "note": "Flies in its mainline's paint."
+  },
+  "LAP": {
+    "wears": "TAM/standard",
+    "note": "LATAM Airlines Paraguay: the LATAM group scheme."
+  },
+  "LCO": {
+    "wears": "TAM/standard",
+    "note": "LATAM Cargo Chile: the LATAM scheme with 'LATAM Cargo' titles on its 767/777 freighters."
+  },
+  "LNE": {
+    "wears": "TAM/standard",
+    "note": "Flies in its mainline's paint."
+  },
+  "LPE": {
+    "wears": "TAM/standard",
+    "note": "Flies in its mainline's paint."
+  },
+  "LRC": {
+    "wears": "AVA/standard",
+    "note": "Avianca Costa Rica (ex-LACSA): Avianca's paint, Costa Rican flag."
+  },
+  "LTG": {
+    "wears": "TAM/standard",
+    "note": "LATAM Cargo Brasil (ex-ABSA): the LATAM scheme with 'LATAM Cargo' titles."
+  },
+  "LXJ": {
+    "wears": "EJA/standard",
+    "note": "Flies in its mainline's paint."
+  },
+  "MAC": {
+    "wears": "ABY/standard",
+    "note": "Air Arabia Maroc: Air Arabia's scheme."
+  },
+  "MAY": {
+    "wears": "RYR/standard",
+    "note": "Malta Air (Ryanair group, 9H- registrations): runs Ryanair's German bases incl. Berlin; nearly all aircraft in full Ryanair paint (e.g. 9H-VVJ, 2025), a few with small 'Malta Air' titles or the Maltese flag."
+  },
+  "NAX": {
+    "wears": "NOZ/standard",
+    "note": "Flies in its mainline's paint."
+  },
+  "NJE": {
+    "wears": "EJA/standard",
+    "note": "Flies in its mainline's paint."
+  },
+  "NJS": {
+    "wears": "QFA/standard",
+    "note": "National Jet Express (Cobham), flying for QantasLink in its paint."
+  },
+  "NSZ": {
+    "wears": "NOZ/standard",
+    "note": "Flies in its mainline's paint."
+  },
+  "NTH": {
+    "wears": "JAL/standard",
+    "note": "Hokkaido Air System: JAL's Tsurumaru scheme."
+  },
+  "NWK": {
+    "wears": "QFA/standard",
+    "note": "Network Aviation, for QantasLink/Qantas: Qantas paint."
+  },
+  "OAL": {
+    "wears": "AEE/standard",
+    "note": "Olympic Air, Aegean's subsidiary; Dash 8s and ATRs in Aegean colors."
+  },
+  "OZW": {
+    "wears": "VOZ/standard",
+    "note": "Virgin Australia Regional Airlines (ex-Skywest): Virgin Australia paint."
+  },
+  "PDT": {
+    "wears": "AAL/eagle",
+    "note": "Piedmont Airlines: American Eagle only (ERJ145). No 2025-2026 Commons photo found in 'Current Embraer ERJ 145 of Piedmont Airlines'; the scheme is assumed the same as other Eagle jets (not photo-checked)."
+  },
+  "PGA": {
+    "wears": "TAP/express",
+    "note": "Portugália, flying as TAP Express (E190/E195) in TAP's 2017 colors with 'express' in the emblem and on the fin (TAP/express)."
+  },
+  "QLK": {
+    "wears": "QFA/standard",
+    "note": "Flies in its mainline's paint."
+  },
+  "QXE": {
+    "wears": "ASA/regional-horizon",
+    "note": "Horizon Air: Alaska only (E175; Q400s retired 2023). Its E175s carry 'Alaska' with 'HORIZON' after it (N657QX, Jul 2026), unlike SkyWest's Alaska E175s ('SkyWest'): hence a separate variant, ASA/regional-horizon."
+  },
+  "RAC": {
+    "wears": "JAL/standard",
+    "note": "Ryukyu Air Commuter: JAL's Tsurumaru scheme."
+  },
+  "RBG": {
+    "wears": "ABY/standard",
+    "note": "Air Arabia Egypt: Air Arabia's scheme."
+  },
+  "RLK": {
+    "wears": "ANZ/standard",
+    "note": "Air Nelson: Air New Zealand Link Q300s in Air NZ paint."
+  },
+  "RUK": {
+    "wears": "RYR/standard",
+    "note": "Ryanair UK (G-RUK.. 737-800s): full Ryanair paint with a small Union flag by the registration."
+  },
+  "SLI": {
+    "wears": "AMX/standard",
+    "note": "Aeroméxico Connect: Embraer regional jets in Aeroméxico's paint."
+  },
+  "SRQ": {
+    "wears": "CEB/standard",
+    "note": "Cebgo: ATRs in Cebu Pacific paint, some with 'cebgo' titles."
+  },
+  "SSQ": {
+    "wears": "QFA/standard",
+    "note": "QantasLink (Sunstate): Qantas paint with 'QantasLink' titles."
+  },
+  "SZS": {
+    "wears": "SAS/standard",
+    "note": "SAS Connect (Ireland AOC), A320neos in the 2019 scheme."
+  },
+  "TAI": {
+    "wears": "AVA/standard",
+    "note": "Avianca El Salvador (ex-TACA): Avianca's paint, Salvadoran flag."
+  },
+  "TAX": {
+    "wears": "AIQ/standard",
+    "note": "Thai AirAsia X: the AirAsia scheme on A330s."
+  },
+  "TFL": {
+    "wears": "TOM/standard",
+    "note": "TUI fly Netherlands (ex-Arkefly): same TUI scheme, PH- registered 737s and 787s."
+  },
+  "TNO": {
+    "wears": "TPA/standard",
+    "note": "Avianca Cargo México (AeroUnion, rebranded 24 June 2025): its A330-300P2Fs fly Avianca Cargo's paint, N338QT in the green scheme with a small 'Mexico' under 'avianca' (LAX, Commons 2026-03-07); N337QT still red (tagged in airframes/TNO.json)."
+  },
+  "TUI": {
+    "wears": "TOM/standard",
+    "note": "TUI fly Deutschland: the same TUI wave scheme on 737-800/MAX (D-ATUx, D-AMAx); big at German airports incl. Berlin and Frankfurt."
+  },
+  "TVF": {
+    "wears": "TRA/standard",
+    "note": "Flies in its mainline's paint."
+  },
+  "TVJ": {
+    "wears": "VJC/standard",
+    "note": "Thai Vietjet Air: VietJet's scheme with Thai details."
+  },
+  "UCA": {
+    "wears": "UAL/express",
+    "note": "CommutAir: United Express only (ERJ145). All four ERJ145s photographed in 2025 (N10156, N31131, N11192, N11184) wear the 2019 scheme."
+  },
+  "VOC": {
+    "wears": "VOI/standard",
+    "note": "Volaris Costa Rica: Volaris's own scheme, a Costa Rican flag by the registration (N547VL at Guatemala City, Commons 2025-10-02; N548VL at San José, 2026-01-24)."
+  },
+  "VOS": {
+    "wears": "VOI/standard",
+    "note": "Volaris El Salvador: Volaris's own scheme (pixel tail, 'volaris' titles, magenta engines), a Salvadoran flag by the registration (N549VL at Guatemala City, Commons 2024-08-30)."
+  },
+  "WEN": {
+    "wears": "WJA/standard",
+    "note": "Flies in its mainline's paint."
+  },
+  "WHT": {
+    "wears": "TAP/standard",
+    "note": "White Airways' ATR 72s wet-leased to TAP Express in TAP colors."
+  },
+  "WMT": {
+    "wears": "WZZ/standard",
+    "note": "Flies in its mainline's paint."
+  },
+  "WUK": {
+    "wears": "WZZ/standard",
+    "note": "Flies in its mainline's paint."
+  },
+  "XAX": {
+    "wears": "AIQ/standard",
+    "note": "AirAsia X: the AirAsia scheme on A330s."
+  }
+}

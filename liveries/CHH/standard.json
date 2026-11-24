@@ -1,0 +1,437 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "CHH",
+  "name": "Dapeng red and gold",
+  "kind": "standard",
+  "description": "White forward; from under the forward fuselage a red line and a gold band sweep up to the window line and on aft, where the red rises over the crown so the whole rear fuselage is red, the gold sweeping down beneath it to the belly. Red fin with the golden Dapeng bird (concentric feather arcs and a big wing stroke ending in a spiral). Red winglets with the gold bird. The small Dapeng emblem, '海南航空' and 'Hainan Airlines' in red over the forward windows; a small 'HNA' badge behind the cockpit; doors outlined in red-orange.",
+  "confidence": "medium",
+  "drawnOn": "B789",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Hainan_Airlines,_B-208S,_Boeing_787-9_Dreamliner_(54009596034).jpg",
+      "title": "Hainan Airlines, B-208S, Boeing 787-9 Dreamliner (CC BY-SA 2.0)",
+      "accessed": "2026-11-13",
+      "note": "Right side, square-on, 2024-08-24: the red and gold sweep, title positions."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:B-303Z_Airbus_A330-343E_Hainan_Airlines,_Manchester.jpg",
+      "title": "B-303Z Airbus A330-343E Hainan Airlines, Manchester (CC BY 2.0)",
+      "accessed": "2026-11-13",
+      "note": "Left side from behind, 2024-07-29: the fin art on the left, titles' order on the left, winglets."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:20250502_Airbus_A320-251N_of_Hainan_Airlines_(B-32K5)_taxiing_at_CGO_01.jpg",
+      "title": "20250502 Airbus A320-251N of Hainan Airlines (B-32K5) taxiing at CGO 01 (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Left side, 2025-05-02: the narrow-body layout, HNA badge, door outlines, sharklets."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Hainan_Airlines_Boeing_787-9_B-207V_departing_Boston_June_2025.jpg",
+      "title": "Hainan Airlines Boeing 787-9 B-207V departing Boston June 2025 (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "From below-right, 2025-06: white belly ahead of the sweep, the sweep wrapping the aft belly."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Hainan_Airlines",
+      "accessed": "2026-11-13",
+      "note": "The Dapeng bird logo."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F6",
+      "official": false
+    },
+    "red": {
+      "hex": "#D8141E",
+      "official": false
+    },
+    "gold": {
+      "hex": "#F6C200",
+      "official": false
+    },
+    "cowl": {
+      "hex": "#E2E4E7",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "gold sweep",
+        "color": "gold",
+        "points": [
+          [
+            0.14,
+            -0.88
+          ],
+          [
+            0.22,
+            -0.5
+          ],
+          [
+            0.3,
+            -0.1
+          ],
+          [
+            0.38,
+            0.15
+          ],
+          [
+            0.46,
+            0.3
+          ],
+          [
+            0.52,
+            0.55
+          ],
+          [
+            0.57,
+            0.85
+          ],
+          [
+            0.6,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            0.8,
+            -1.0
+          ],
+          [
+            0.7,
+            -0.7
+          ],
+          [
+            0.6,
+            -0.48
+          ],
+          [
+            0.52,
+            -0.3
+          ],
+          [
+            0.46,
+            -0.15
+          ],
+          [
+            0.38,
+            -0.12
+          ],
+          [
+            0.3,
+            -0.35
+          ],
+          [
+            0.22,
+            -0.68
+          ],
+          [
+            0.16,
+            -0.93
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "name": "red aft body",
+        "color": "red",
+        "points": [
+          [
+            0.14,
+            -0.88
+          ],
+          [
+            0.22,
+            -0.5
+          ],
+          [
+            0.3,
+            -0.1
+          ],
+          [
+            0.38,
+            0.15
+          ],
+          [
+            0.46,
+            0.3
+          ],
+          [
+            0.52,
+            0.55
+          ],
+          [
+            0.57,
+            0.85
+          ],
+          [
+            0.6,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            0.85,
+            -1.0
+          ],
+          [
+            0.8,
+            -0.62
+          ],
+          [
+            0.7,
+            -0.36
+          ],
+          [
+            0.6,
+            -0.15
+          ],
+          [
+            0.52,
+            0.0
+          ],
+          [
+            0.46,
+            0.08
+          ],
+          [
+            0.38,
+            0.05
+          ],
+          [
+            0.3,
+            -0.2
+          ],
+          [
+            0.22,
+            -0.58
+          ],
+          [
+            0.15,
+            -0.9
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "red",
+    "mirrored": true,
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "wings": {
+    "top": "#BCC1C7",
+    "under": "#C9CDD2",
+    "confidence": "medium",
+    "sourceRefs": [
+      3
+    ]
+  },
+  "winglets": {
+    "outer": "red",
+    "inner": "red",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "cowl",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "CHH/dapeng",
+      "place": "fin",
+      "at": [
+        0.4,
+        0.45
+      ],
+      "height": 0.8,
+      "colors": [
+        "gold"
+      ],
+      "description": "The Dapeng (the mythical great bird) in gold on the red fin: three concentric feather arcs in the upper-aft corner, a long tapering wing stroke sweeping down and forward across the fin, ending in a spiral curl low on the fin near the leading edge. It sweeps the same way relative to flight on both sides.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Hainan_Airlines_logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "CHH/dapeng",
+      "place": "fuselage",
+      "at": [
+        0.155,
+        0.35
+      ],
+      "height": 0.26,
+      "colors": [
+        "red"
+      ],
+      "description": "The Dapeng emblem in red, small, ahead of the Chinese title on both sides.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "CHH/dapeng",
+      "place": "winglets",
+      "at": [
+        0.45,
+        0.6
+      ],
+      "height": 0.3,
+      "colors": [
+        "gold"
+      ],
+      "description": "The Dapeng in gold on the red winglet.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "海南航空",
+      "place": "fuselage",
+      "at": [
+        0.169,
+        0.25
+      ],
+      "height": 0.24,
+      "length": 0.068,
+      "color": "red",
+      "style": "Bold Chinese sans, a little stylised. On the right side the characters start at the nose, so they read right to left as seen.",
+      "type": {
+        "similar": [
+          "Source Han Sans SC Bold",
+          "PingFang SC Semibold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform"
+      },
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "text": "Hainan Airlines",
+      "place": "fuselage",
+      "at": [
+        0.26,
+        0.25
+      ],
+      "height": 0.22,
+      "length": 0.141,
+      "color": "red",
+      "style": "Bold italic sans, upper and lower case, after the Chinese.",
+      "type": {
+        "similar": [
+          "Futura Bold Oblique",
+          "Helvetica Neue Bold Italic"
+        ],
+        "weight": 700,
+        "slantDeg": 10,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.66
+      },
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "text": "HNA",
+      "place": "fuselage",
+      "at": [
+        0.07,
+        0.3
+      ],
+      "height": 0.1,
+      "color": "red",
+      "style": "Small bold italic capitals over tiny Chinese ('海航集团' or similar), the group's badge behind the cockpit.",
+      "type": {
+        "similar": [
+          "Helvetica Neue Bold Italic"
+        ],
+        "weight": 700,
+        "slantDeg": 10,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "confidence": "medium",
+      "sourceRefs": [
+        2
+      ]
+    }
+  ],
+  "notes": "Measured on the 787-9 (B-208S, right side) and checked on the A320neo and A330 from the left; the sweep's curves are approximate (oblique photos). 'Hainan Airlines' starts about x 0.31 on the 787; set nearer the Chinese here as on the A320neo. The door outlines in red-orange aren't drawn. Colors by eye. Re-checked 2026-11-15: kept as measured on the 787-9 (drawnOn B789). The commonest type is the 737-800, where the sweep is laid out differently: on B-7172 (2024-11-25, right side, fitted to the B738 shape) the red reaches the window line only at x ~0.6 and the crown just ahead of the fin, a second gold band runs from there up the fin's leading edge, and the titles sit at x 0.19-0.27 (Chinese) and 0.28-0.43; drawn on the 737 from these areas the red covers the aft windows from x ~0.45. A 737 version needs the sweep redrawn from 737 photos (not done in this re-check). Hainan Airlines' lowercase 0.66 of the capitals.",
+  "history": "New entry (not in Skyarium v1): Hainan Airlines, HNA Group's flagship, flies its own red-and-gold Dapeng scheme under its own code."
+}

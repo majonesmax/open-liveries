@@ -1,0 +1,116 @@
+{
+  "_about": "Embraer 195, from APM 1997 Rev 11 (Oct 09/15; the figure Oct 07/08) Figure 2.1 General Aircraft Dimensions (page index 33): side, plan and front views on one sheet, black vector lines. Unlike the E190's figure, drawn to one scale both ways (its printed 38.67 m length, 28.72 m span and 10.57 m height agree within 0.3%), so no --xscale. Scaled by the printed 38.67 m overall length, nose to tail cone. The E190's (e190/) points moved by the two fuselage plugs (plug.py: 0.81 m ahead of the wing, from the printed nose-to-main-gear 14.64 m against 13.83 m; 1.62 m behind it, from the aft door's move), then snapped to this sheet. Pixels of layers.py rasters at scale 16, line centres. Windows joined to other lines (the overwing exit's own; one crossed by the winglet's lines) and one hidden behind the winglet (placed midway between its neighbours) are listed in windowsAlso.",
+  "out": "../../../../shapes/E195.json",
+  "length": 38.67,
+  "wingtip": "winglet",
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "refs": {
+    "side": {
+      "nose": 43.5,
+      "tail": 6070.5,
+      "cowlEnd": 2479,
+      "windowRow": [946, 1006],
+      "windowGap": 5,
+      "windowsAlso": [2609, 3497.5, 3611.5]
+    },
+    "plan": {
+      "nose": 44.5,
+      "centerline": 2279
+    },
+    "front": {
+      "centerline": 2289,
+      "crownTop": 834.5
+    }
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [778, 839, 924, 1143]
+    },
+    {
+      "kind": "exit",
+      "box": [2571, 927, 2650, 1069]
+    },
+    {
+      "kind": "door",
+      "box": [4726, 860, 4856, 1143]
+    },
+    {
+      "kind": "cargo",
+      "box": [1107, 1161, 1291, 1321]
+    },
+    {
+      "kind": "cargo",
+      "box": [4253, 1160, 4438, 1316]
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [318, 991],
+      [316, 988],
+      [319, 985],
+      [330, 977],
+      [408, 923],
+      [411, 921],
+      [414, 920],
+      [451, 920],
+      [453, 922],
+      [439, 940],
+      [397, 989],
+      [393, 994],
+      [372, 994],
+      [330, 992]
+    ],
+    [
+      [433, 996],
+      [431, 995],
+      [428, 992],
+      [426, 988],
+      [425, 985],
+      [425, 982],
+      [426, 979],
+      [429, 972],
+      [437, 962],
+      [466, 927],
+      [472, 921],
+      [475, 920],
+      [528, 920],
+      [544, 921],
+      [548, 924],
+      [549, 926],
+      [550, 931],
+      [550, 989],
+      [549, 996],
+      [548, 998],
+      [543, 1003],
+      [540, 1004]
+    ]
+  ],
+  "printed": {
+    "fuselage height": 3.35,
+    "fuselage width": 3.01,
+    "wingspan": 28.72,
+    "tailplane span": 12.09
+  },
+  "meta": {
+    "id": "E195",
+    "name": "Embraer 195",
+    "types": [
+      "E195"
+    ],
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://www.embraercommercialaviation.com/wp-content/uploads/2017/02/APM_E195.pdf",
+        "title": "Embraer, Embraer 195 Airport Planning Manual (APM 1997 Rev 11, Oct 09/15), Section 2, Figure 2.1 General Aircraft Dimensions; 2.5 cabin cross-section",
+        "accessed": "2026-11-15",
+        "note": "Read from the Internet Archive's copy of 2024-10-08 (web.archive.org/web/20241008225517/...): Embraer's link now goes nowhere. Dimensions and outlines read off the side, plan and front views (tools/trace/e195/); the figures are the aircraft's measurements, not a copy of the drawing."
+      }
+    ]
+  }
+}

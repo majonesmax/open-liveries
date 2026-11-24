@@ -1,0 +1,110 @@
+{
+  "_about": "757-200, from Boeing D6-58327 Rev H 2.2.1 (page index 19): side, plan and front views on one sheet. Pixels of layers.py rasters at scale 20, line centres. Scaled by the printed 46.97 m from the nose to the tail cone (the side view's dimension, line centre to line centre); the plan's 47.32 m overall length is to the fin tip's trailing corner. The sheet draws the cabin windows (thin strokes, closed outlines); seven behind the wing's lines are placed at the drawing's own pitch. The nacelle is the PW2000's (a short fan cowl, the core's nozzle behind). A plain wingtip: the document has no winglet sheet.",
+  "out": "../../../../shapes/B752.json",
+  "length": 46.97,
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "refs": {
+    "side": {
+      "nose": 121,
+      "tail": 5195,
+      "cowlEnd": 2392,
+      "windowRow": [1060, 1115],
+      "windowGap": 5,
+      "windowMinWidth": 20,
+      "windowInset": 1,
+      "windowBand": [1067, 1110],
+      "windowsAlso": [2937, 2993, 3049, 3105, 3160, 3216, 3272]
+    },
+    "plan": {
+      "nose": 125,
+      "centerline": 2148
+    },
+    "front": {
+      "centerline": 2176,
+      "crownTop": 904
+    }
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [623, 995, 710, 1193]
+    },
+    {
+      "kind": "door",
+      "box": [1589, 995, 1677, 1193]
+    },
+    {
+      "kind": "exit",
+      "box": [2317, 1036, 2380, 1134]
+    },
+    {
+      "kind": "exit",
+      "box": [2412, 1036, 2475, 1134]
+    },
+    {
+      "kind": "door",
+      "box": [4208, 995, 4296, 1193]
+    },
+    {
+      "kind": "cargo",
+      "box": [1227, 1225, 1378, 1340]
+    },
+    {
+      "kind": "cargo",
+      "box": [3479, 1216, 3629, 1336]
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [329, 1077],
+      [333, 1077],
+      [303, 1133],
+      [241, 1135],
+      [258, 1117],
+      [276, 1092],
+      [286, 1083]
+    ],
+    [
+      [339, 1077],
+      [380, 1079],
+      [369, 1140],
+      [310, 1133]
+    ],
+    [
+      [410, 1080],
+      [435, 1081],
+      [442, 1123],
+      [374, 1140],
+      [385, 1081]
+    ]
+  ],
+  "printed": {
+    "fuselage height": 4.01,
+    "fuselage width": 3.76,
+    "wingspan": 38.05,
+    "tailplane span": 15.21,
+    "engine out from the centerline": 6.48,
+    "overall length": 47.32,
+    "engine inlet from the nose": 16.61,
+    "nacelle width": 2.69
+  },
+  "meta": {
+    "id": "B752",
+    "name": "Boeing 757-200 (PW2000 nacelles), plain wingtips",
+    "types": ["B752"],
+    "confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/airports/acaps/757_Rev_H.pdf",
+        "title": "Boeing, 757 Airplane Characteristics for Airport Planning (D6-58327 Rev H, December 2024), 2.2.1 General Dimensions: Model 757-200, -200PF; 2.7.1 Door Clearances",
+        "accessed": "2026-11-15",
+        "note": "Dimensions and outlines read off the side, plan and front views (tools/trace/b752/); the figures are the aircraft's measurements, not a copy of the drawing. Plain wingtips (the document has no winglet sheet; many US 757-200s now fly with blended winglets, which this shape doesn't have) and the PW2000's nacelle (a short fan cowl, the core's nozzle behind; the RB211's is longer). The sheet draws the cabin windows; the seven behind the wing's lines in the drawing are placed at its own window pitch. Doors 1, 2 and 4 and the cargo doors sit within 1 cm of the door table (2.7.1). Checks over 1.5%: the side view draws the fuselage 4.19 m tall between its own dimension arrows, labelled 4.01 m (+4.5%), and its belly 0.12 m lower aft of the wing, so over the middle third it reads +6.0%; the plan's width is as printed and the front view's section is 3.93 m tall, so it's the side view's drawing, kept here. The front view draws the nacelle 2.34 m across where the sheet prints 2.46 m (RR) and 2.69 m (PW); kept the drawing's."
+      }
+    ]
+  }
+}

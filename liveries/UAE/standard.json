@@ -1,0 +1,632 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "UAE",
+  "name": "2023 livery",
+  "kind": "standard",
+  "from": "2023-03",
+  "confidence": "medium",
+  "drawnOn": "A359",
+  "description": "White, with a big gold 'Emirates' over the forward windows and 'الإمارات' aft of it. The tail is the UAE flag drawn as a rippling ribbon: green, white and black bands (the white and black read with fine ripple lines) sweeping down toward the nose, and a red band ahead of them that runs off the fin and down the rear fuselage almost to the belly. A red panel with 'Emirates' under the belly, gold calligraphy logo on the engines, red winglets.",
+  "sources": [
+    {
+      "url": "https://www.emirates.com/media-centre/emirates-unveils-new-signature-livery-for-its-fleet/",
+      "title": "Emirates unveils new signature livery for its fleet (press release, 16 March 2023; cited by Wikipedia)",
+      "accessed": "2026-11-13",
+      "note": "A flowing, 3D UAE flag on the tail; red wingtips with the logo in white calligraphy, the flag's colors on their inner faces. Read through Wikipedia's 'Livery' section."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:A6-EXL_landing_at_Glasgow.jpg",
+      "title": "A6-EXL landing at Glasgow (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "A350-900, right side from below, 2026-04-30: the fin, the red sweep to the lower fuselage, red belly title, red winglets, engine logo."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Emirates_A350-900_Bologna_Airport_-_2025.jpg",
+      "title": "Emirates A350-900 Bologna Airport - 2025 (A6-EXH, CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Right side, level, 2026-02-12 (file date): title sizes and places, the Arabic title aft of the English."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:20250402_Airbus_A380-861_of_Emirates_(A6-EOE)_landing_at_SYD.jpg",
+      "title": "Airbus A380-861 of Emirates (A6-EOE) landing at SYD (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "2025-04-02, right side: the new tail at its clearest (the fuselage wears a Wimbledon decal; the tail and red sweep are standard)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Emirates_A350_(A6-EXA).png",
+      "title": "Emirates A350 (A6-EXA) (CC0)",
+      "accessed": "2026-11-13",
+      "note": "2024-11-05, right side from below: belly panel and the winglet."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:A6-ENP_-_Boeing_777-31H(ER)_-_Emirates_SIN_220325.jpg",
+      "title": "A6-ENP - Boeing 777-31H(ER) - Emirates SIN 220325 (CC BY 2.0)",
+      "accessed": "2026-11-13",
+      "note": "Left side in the earlier scheme, 2025: on the left too the English title is forward and the Arabic aft."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F5",
+      "official": false
+    },
+    "red": {
+      "hex": "#D71921",
+      "name": "Emirates red",
+      "official": false
+    },
+    "green": {
+      "hex": "#00843D",
+      "name": "flag green",
+      "official": false
+    },
+    "black": {
+      "hex": "#16181B",
+      "name": "flag black",
+      "official": false
+    },
+    "flagWhite": {
+      "hex": "#D9DCDF",
+      "name": "the flag's white, read through its fine black ripple lines",
+      "official": false
+    },
+    "gold": {
+      "hex": "#A98C4E",
+      "name": "Emirates gold",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#C3C7CC",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C6CACF",
+      "name": "bare metal inlet lip",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "red sweep, from the fin down the rear fuselage",
+        "color": "red",
+        "points": [
+          [
+            0.857,
+            1
+          ],
+          [
+            0.853,
+            0.12
+          ],
+          [
+            0.82,
+            -0.5
+          ],
+          [
+            0.783,
+            -0.85,
+            1
+          ],
+          [
+            0.8,
+            -0.8
+          ],
+          [
+            0.85,
+            -0.5
+          ],
+          [
+            0.878,
+            0.12
+          ],
+          [
+            0.89,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "red belly panel between the wings",
+        "color": "red",
+        "points": [
+          [
+            0.37,
+            -1
+          ],
+          [
+            0.37,
+            -0.86
+          ],
+          [
+            0.39,
+            -0.8
+          ],
+          [
+            0.58,
+            -0.8
+          ],
+          [
+            0.6,
+            -0.86
+          ],
+          [
+            0.6,
+            -1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          4
+        ]
+      }
+    ],
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2,
+      3
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "flag green, along the top of the trailing half",
+        "color": "green",
+        "points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            0.9,
+            1.0
+          ],
+          [
+            0.62,
+            0.88
+          ],
+          [
+            0.53,
+            0.7
+          ],
+          [
+            0.3,
+            0.585
+          ],
+          [
+            0.44,
+            0.44
+          ],
+          [
+            0.62,
+            0.53
+          ],
+          [
+            0.81,
+            0.69
+          ],
+          [
+            1.0,
+            0.73
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "flag white (rippled), under the green",
+        "color": "flagWhite",
+        "points": [
+          [
+            1.0,
+            0.73
+          ],
+          [
+            0.81,
+            0.69
+          ],
+          [
+            0.62,
+            0.53
+          ],
+          [
+            0.44,
+            0.44
+          ],
+          [
+            0.33,
+            0.43
+          ],
+          [
+            0.36,
+            0.1
+          ],
+          [
+            0.43,
+            0.086
+          ],
+          [
+            0.55,
+            0.2
+          ],
+          [
+            0.79,
+            0.4
+          ],
+          [
+            1.0,
+            0.44
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "flag black (rippled)",
+        "color": "black",
+        "points": [
+          [
+            1.0,
+            0.44
+          ],
+          [
+            0.79,
+            0.4
+          ],
+          [
+            0.55,
+            0.2
+          ],
+          [
+            0.43,
+            0.086
+          ],
+          [
+            0.4,
+            -0.05
+          ],
+          [
+            0.65,
+            -0.05
+          ],
+          [
+            0.81,
+            0.155
+          ],
+          [
+            1.0,
+            0.19
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "red band, the flag's hoist, running off the root onto the fuselage",
+        "color": "red",
+        "points": [
+          [
+            0.29,
+            0.585
+          ],
+          [
+            0.216,
+            0.44
+          ],
+          [
+            0.15,
+            0.32
+          ],
+          [
+            0.13,
+            0.155
+          ],
+          [
+            0.07,
+            -0.05
+          ],
+          [
+            0.35,
+            -0.05
+          ],
+          [
+            0.353,
+            0.155
+          ],
+          [
+            0.33,
+            0.32
+          ],
+          [
+            0.33,
+            0.44
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          3
+        ],
+        "smooth": true
+      }
+    ],
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      3
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "red",
+    "inner": "green",
+    "confidence": "low",
+    "sourceRefs": [
+      0,
+      1,
+      4
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "UAE/calligraphy",
+      "place": "engines",
+      "at": [
+        0.55,
+        0.05
+      ],
+      "height": 0.36,
+      "colors": [
+        "gold"
+      ],
+      "description": "The Emirates logo: the name in Arabic calligraphy (Diwani-style), a compact knot of strokes about as tall as wide, in gold on the outboard side of each cowling.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Emirates_logo.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "UAE/calligraphy",
+      "place": "winglets",
+      "at": [
+        0.45,
+        0.55
+      ],
+      "height": 0.25,
+      "colors": [
+        "white"
+      ],
+      "description": "The calligraphy logo, small, in white on the red winglet's outer face.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Emirates_logo.svg",
+      "confidence": "low",
+      "sourceRefs": [
+        1,
+        4
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Emirates",
+      "place": "fuselage",
+      "at": [
+        0.15,
+        -0.137
+      ],
+      "height": 0.65,
+      "length": 0.225,
+      "color": "gold",
+      "style": "The Emirates wordmark: a large, bold, high-contrast serif with flared, calligraphic serifs, upper and lower case, standing across the forward windows.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Minion Pro Bold",
+          "Times New Roman Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "contrast",
+        "case": "mixed",
+        "xHeight": 0.66
+      }
+    },
+    {
+      "text": "الإمارات",
+      "place": "fuselage",
+      "at": [
+        0.386,
+        0.1
+      ],
+      "height": 0.3,
+      "color": "gold",
+      "style": "'Emirates' in Arabic, a calligraphic naskh-like bold, above the windows just aft of the English title.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        5
+      ],
+      "type": {
+        "similar": [
+          "Noto Naskh Arabic Bold",
+          "Geeza Pro Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "contrast",
+        "case": "mixed"
+      },
+      "length": 0.068
+    },
+    {
+      "text": "Emirates",
+      "place": "belly",
+      "at": [
+        0.4,
+        -1
+      ],
+      "height": 0.3,
+      "length": 0.17,
+      "color": "white",
+      "style": "The wordmark in white on the red belly panel, reading along the fuselage.",
+      "confidence": "low",
+      "sourceRefs": [
+        1,
+        4
+      ],
+      "type": {
+        "similar": [
+          "Minion Pro Bold",
+          "Times New Roman Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "contrast",
+        "case": "mixed"
+      }
+    }
+  ],
+  "types": {
+    "A388": {
+      "note": "Measured on A6-EOE (right side, 2025-04-02): 'Emirates' between the decks, x 0.127 to about 0.395 (its 'E' behind the wingtip), baseline under the main deck's windows, capitals to just under the upper deck's windows, lowercase about 0.8 of the capitals. The Arabic title is covered by a decal on that jet and placed by the A350's spacing.",
+      "confidence": "medium",
+      "sourceRefs": [
+        3
+      ],
+      "titles": [
+        {
+          "text": "Emirates",
+          "place": "fuselage",
+          "at": [
+            0.127,
+            -0.157
+          ],
+          "height": 0.495,
+          "length": 0.265,
+          "color": "gold",
+          "style": "The Emirates wordmark, larger than on the twins, between the decks: its capitals' tops just under the upper deck's windows, the main deck's windows through the lower part of its letters.",
+          "confidence": "medium",
+          "sourceRefs": [
+            3
+          ],
+          "type": {
+            "similar": [
+              "Minion Pro Bold",
+              "Times New Roman Bold"
+            ],
+            "weight": 700,
+            "slantDeg": 0,
+            "width": "normal",
+            "strokes": "contrast",
+            "case": "mixed",
+            "xHeight": 0.8
+          }
+        },
+        {
+          "text": "الإمارات",
+          "place": "fuselage",
+          "at": [
+            0.402,
+            -0.1
+          ],
+          "height": 0.35,
+          "color": "gold",
+          "style": "'Emirates' in Arabic, aft of the English title. Not seen on A6-EOE (a Wimbledon decal covers it): placed between the decks with the A350's gap and size, the main deck's windows through it.",
+          "confidence": "low",
+          "sourceRefs": [
+            2,
+            5
+          ],
+          "type": {
+            "similar": [
+              "Noto Naskh Arabic Bold",
+              "Geeza Pro Bold"
+            ],
+            "weight": 700,
+            "slantDeg": 0,
+            "width": "normal",
+            "strokes": "contrast",
+            "case": "mixed"
+          },
+          "length": 0.063
+        },
+        {
+          "text": "Emirates",
+          "place": "belly",
+          "at": [
+            0.4,
+            -1
+          ],
+          "height": 0.3,
+          "length": 0.17,
+          "color": "white",
+          "style": "The wordmark in white on the red belly panel, reading along the fuselage.",
+          "confidence": "low",
+          "sourceRefs": [
+            1,
+            4
+          ],
+          "type": {
+            "similar": [
+              "Minion Pro Bold",
+              "Times New Roman Bold"
+            ],
+            "weight": 700,
+            "slantDeg": 0,
+            "width": "normal",
+            "strokes": "contrast",
+            "case": "mixed"
+          }
+        }
+      ]
+    }
+  },
+  "notes": "Drawn from 2024-2026 photos of A350-900s (delivered in this scheme) and A380 A6-EOE, all from the right; the fin is drawn from the right face reflected (the flag sweeps toward the nose on both sides) and the titles' order (English forward, Arabic aft) is confirmed on the left in the earlier scheme. The flag is simplified: on the aircraft its bands are drawn as two overlapping ripples of the ribbon, the white and black with fine parallel lines; the stepped edge between the ripples is smoothed here. Where the red ends on the lower fuselage varies with type (lower and further forward on the A380). Belly panel extent seen only obliquely. The winglets' inner faces carry the flag's colors (press release); drawn as green, the one color the schema allows. No 'emirates.com' on this scheme. Still being applied: in 2025-2026 most of the fleet (777s, many A380s) wears the earlier scheme, standard-1999. Re-checked 2026-11-15 on the Bologna A350-900 (right side, level; drawnOn A359, the type delivered in it): 'Emirates' runs x 0.166 to 0.409, baseline about 0.9 m under the windows' middle (y -0.137) and its capitals' tops y 0.51 (height 0.65; it had been drawn reaching nearly to the crown), lowercase 0.66 of the E; the Arabic title x 0.423 to 0.498, from the windows' bottom (y 0.02) to y 0.38. The red sweep re-measured on the same photo against the aft door (about x 0.84 on the A350-900): it leaves the crown at the fin's root leading edge (x 0.857 to 0.89), drops almost straight to the window line and curves forward to a point low on the side (x 0.783, y -0.85) under the aft door; it had been drawn 7 m further forward, ending at y -0.55. The fin's red band meets it at the root on the A350; on a type whose fin sits further forward the two only nearly meet. It and the flag's ribbon edges are smooth. Titles respaced 2026-11-15 off the Bologna A350 photo (side-on): English 0.15–0.375, Arabic 0.386–0.454, a gap between. On the A380 (A6-EOE, source 3) 'Emirates' sits between the decks: its capitals' tops just under the upper deck's windows, the main deck's windows through the lower part of its letters; drawn on the A380's shape the titles come from `types.A388`, measured there. The A380 isn't Emirates' commonest type (the 777-300ER is), so drawnOn stays.",
+  "history": "Replaced Skyarium v1's approximation (a few remembered colors, 2026-11-12). The 2023 refresh replaced the 1999 flag-tail scheme (standard-1999), which still flies on most of the fleet while aircraft are repainted, many during cabin retrofits."
+}

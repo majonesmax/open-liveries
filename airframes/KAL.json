@@ -1,0 +1,549 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "KAL",
+  "airframes": [
+    {
+      "registration": "HL8005",
+      "hex": "71c005",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:HL8005_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Korean_Air_Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Korean_Air_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Fleet (Jan 2026): 4 747-400ERF, 7 747-8F, 12 777F."
+        }
+      ],
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "HL8043",
+      "hex": "71c043",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:HL8043_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Korean_Air_Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Korean_Air_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Fleet (Jan 2026): 4 747-400ERF, 7 747-8F, 12 777F."
+        }
+      ],
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "HL8044",
+      "hex": "71c044",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:HL8044_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Korean_Air_Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Korean_Air_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Fleet (Jan 2026): 4 747-400ERF, 7 747-8F, 12 777F."
+        }
+      ]
+    },
+    {
+      "registration": "HL8045",
+      "hex": "71c045",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "livery": "cargo",
+      "lastSeen": "2026-03-22",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:HL8045_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Korean_Air_Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Korean_Air_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Fleet (Jan 2026): 4 747-400ERF, 7 747-8F, 12 777F."
+        }
+      ]
+    },
+    {
+      "registration": "HL8046",
+      "hex": "71c046",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:HL8046_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Korean_Air_Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Korean_Air_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Fleet (Jan 2026): 4 747-400ERF, 7 747-8F, 12 777F."
+        }
+      ]
+    },
+    {
+      "registration": "HL8075",
+      "hex": "71c075",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:HL8075_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Korean_Air_Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Korean_Air_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Fleet (Jan 2026): 4 747-400ERF, 7 747-8F, 12 777F."
+        }
+      ],
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "HL8076",
+      "hex": "71c076",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:HL8076_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Korean_Air_Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Korean_Air_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Fleet (Jan 2026): 4 747-400ERF, 7 747-8F, 12 777F."
+        }
+      ]
+    },
+    {
+      "registration": "HL8077",
+      "hex": "71c077",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "livery": "cargo",
+      "lastSeen": "2025-10-24",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:HL8077_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Korean_Air_Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Korean_Air_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Fleet (Jan 2026): 4 747-400ERF, 7 747-8F, 12 777F."
+        }
+      ]
+    },
+    {
+      "registration": "HL8226",
+      "hex": "71c226",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "livery": "cargo",
+      "lastSeen": "2026-11-14",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:HL8226_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Korean_Air_Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Korean_Air_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Fleet (Jan 2026): 4 747-400ERF, 7 747-8F, 12 777F."
+        }
+      ]
+    },
+    {
+      "registration": "HL8251",
+      "hex": "71c251",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:HL8251_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Korean_Air_Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Korean_Air_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Fleet (Jan 2026): 4 747-400ERF, 7 747-8F, 12 777F."
+        }
+      ],
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "HL8252",
+      "hex": "71c252",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:HL8252_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Korean_Air_Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Korean_Air_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Fleet (Jan 2026): 4 747-400ERF, 7 747-8F, 12 777F."
+        }
+      ],
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "HL8285",
+      "hex": "71c285",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "livery": "cargo",
+      "lastSeen": "2024-12-23",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:HL8285_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Korean_Air_Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Korean_Air_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Fleet (Jan 2026): 4 747-400ERF, 7 747-8F, 12 777F."
+        }
+      ]
+    },
+    {
+      "registration": "HL7609",
+      "hex": "71be09",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B748",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:HL7609_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_747-8F_of_Korean_Air_Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Korean_Air_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Fleet (Jan 2026): 4 747-400ERF, 7 747-8F, 12 777F."
+        }
+      ]
+    },
+    {
+      "registration": "HL7610",
+      "hex": "71be10",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B748",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:HL7610_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_747-8F_of_Korean_Air_Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Korean_Air_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Fleet (Jan 2026): 4 747-400ERF, 7 747-8F, 12 777F."
+        }
+      ]
+    },
+    {
+      "registration": "HL7617",
+      "hex": "71be17",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B748",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:HL7617_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_747-8F_of_Korean_Air_Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Korean_Air_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Fleet (Jan 2026): 4 747-400ERF, 7 747-8F, 12 777F."
+        }
+      ]
+    },
+    {
+      "registration": "HL7623",
+      "hex": "71be23",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B748",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:HL7623_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_747-8F_of_Korean_Air_Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Korean_Air_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Fleet (Jan 2026): 4 747-400ERF, 7 747-8F, 12 777F."
+        }
+      ],
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "HL7624",
+      "hex": "71be24",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B748",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:HL7624_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_747-8F_of_Korean_Air_Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Korean_Air_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Fleet (Jan 2026): 4 747-400ERF, 7 747-8F, 12 777F."
+        }
+      ],
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "HL7629",
+      "hex": "71be29",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B748",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:HL7629_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_747-8F_of_Korean_Air_Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Korean_Air_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Fleet (Jan 2026): 4 747-400ERF, 7 747-8F, 12 777F."
+        }
+      ],
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "HL7639",
+      "hex": "71be39",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B748",
+      "livery": "cargo",
+      "lastSeen": "2026-03-13",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:HL7639_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_747-8F_of_Korean_Air_Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Korean_Air_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Fleet (Jan 2026): 4 747-400ERF, 7 747-8F, 12 777F."
+        }
+      ]
+    },
+    {
+      "registration": "HL7601",
+      "hex": "71be01",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B744",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:HL7601_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_747-400ERF_of_Korean_Air_Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Korean_Air_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Fleet (Jan 2026): 4 747-400ERF, 7 747-8F, 12 777F."
+        }
+      ]
+    },
+    {
+      "registration": "HL7602",
+      "hex": "71be02",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B744",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:HL7602_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_747-400ERF_of_Korean_Air_Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Korean_Air_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Fleet (Jan 2026): 4 747-400ERF, 7 747-8F, 12 777F."
+        }
+      ],
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "HL7603",
+      "hex": "71be03",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B744",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:HL7603_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_747-400ERF_of_Korean_Air_Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Korean_Air_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Fleet (Jan 2026): 4 747-400ERF, 7 747-8F, 12 777F."
+        }
+      ]
+    },
+    {
+      "registration": "HL7605",
+      "hex": "71be05",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B744",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:HL7605_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_747-400ERF_of_Korean_Air_Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Korean_Air_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Fleet (Jan 2026): 4 747-400ERF, 7 747-8F, 12 777F."
+        }
+      ]
+    }
+  ]
+}

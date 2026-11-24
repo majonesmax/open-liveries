@@ -1,0 +1,192 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "WJA",
+  "airframes": [
+    {
+      "registration": "C-FMXG",
+      "hex": "c0220d",
+      "type": "B38M",
+      "livery": "sunwing",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:C-FMXG_B737_MAX_8,_Sunwing_WestJet,_Cancun_03-09-26_(55176379234).jpg",
+          "title": "C-FMXG B737 MAX 8, Sunwing WestJet, Cancun 03-09-26 (55176379234).jpg",
+          "accessed": "2026-11-22",
+          "note": "Photo 2026-03-09 (CC BY 4.0)."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:C-FMXG_-_Boeing_737_MAX_8_-_Sunwing_Airlines_LIR_260225.jpg",
+          "title": "C-FMXG - Boeing 737 MAX 8 - Sunwing Airlines LIR 260225.jpg",
+          "accessed": "2026-11-22",
+          "note": "Photo 2025-02-27 (CC BY 2.0)."
+        }
+      ],
+      "hexSource": "looked up: hexdb.io community database (2026-11-22); not verified against the Canadian register",
+      "lastSeen": "2026-03-09",
+      "status": "Newest open photo in this paint 2026-03-09."
+    },
+    {
+      "registration": "C-GFEH",
+      "hex": "c0524c",
+      "type": "B738",
+      "livery": "sunwing",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:C-GFEH_B737-800,_WestJet,_Sunwing_scheme,_Cancun_03-09-26_(55176495560).jpg",
+          "title": "C-GFEH B737-800, WestJet, Sunwing scheme, Cancun 03-09-26 (55176495560).jpg",
+          "accessed": "2026-11-22",
+          "note": "Photo 2026-03-09 (CC BY 4.0)."
+        }
+      ],
+      "hexSource": "looked up: hexdb.io community database (2026-11-22); not verified against the Canadian register",
+      "lastSeen": "2026-03-09",
+      "status": "Newest open photo in this paint 2026-03-09."
+    },
+    {
+      "registration": "C-FJVE",
+      "hex": "c019eb",
+      "type": "B738",
+      "livery": "sunwing",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:WestJet_737-8DC_C-FJVE_@YYZ.jpg",
+          "title": "WestJet 737-8DC C-FJVE @YYZ.jpg",
+          "accessed": "2026-11-22",
+          "note": "Photo 2025-10-13 (CC BY-SA 4.0)."
+        }
+      ],
+      "hexSource": "looked up: hexdb.io community database (2026-11-22); not verified against the Canadian register",
+      "lastSeen": "2025-10-13",
+      "status": "Newest open photo in this paint 2025-10-13."
+    },
+    {
+      "registration": "C-GISM",
+      "hex": "c05ba9",
+      "type": "B38M",
+      "livery": "swoop",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:C-GISM_B737_MAX_8,_WestJet_ex_Swoop,_Cancun_03-09-26_(55176175066).jpg",
+          "title": "C-GISM B737 MAX 8, WestJet ex Swoop, Cancun 03-09-26 (55176175066).jpg",
+          "accessed": "2026-11-22",
+          "note": "Photo 2026-03-09 (CC BY 4.0)."
+        }
+      ],
+      "hexSource": "looked up: hexdb.io community database (2026-11-22); not verified against the Canadian register",
+      "lastSeen": "2026-03-09",
+      "status": "Newest open photo in this paint 2026-03-09."
+    },
+    {
+      "registration": "C-GYLP",
+      "hex": "c08536",
+      "type": "B38M",
+      "livery": "swoop",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:C-GYLP_B737_MAX_8,_WestJet_ex_Swoop,_Cancun_03-09-26_(55176395263).jpg",
+          "title": "C-GYLP B737 MAX 8, WestJet ex Swoop, Cancun 03-09-26 (55176395263).jpg",
+          "accessed": "2026-11-22",
+          "note": "Photo 2026-03-09 (CC BY 4.0)."
+        }
+      ],
+      "hexSource": "looked up: hexdb.io community database (2026-11-22); not verified against the Canadian register",
+      "lastSeen": "2026-03-09",
+      "status": "Newest open photo in this paint 2026-03-09."
+    },
+    {
+      "registration": "C-GORP",
+      "hex": "c06b6a",
+      "type": "B38M",
+      "livery": "toronto-blue-jays",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://worldairlinenews.com/2026/06/23/westjet-introduces-a-toronto-blue-jays-logo-jet-on-c-gorp/",
+          "accessed": "2026-11-22",
+          "note": "The Blue Jays jet is C-GORP (WestJet's release gives tail #386)."
+        },
+        {
+          "url": "https://westjet.mediaroom.com/2026-06-23-From-runway-to-home-run-WestJet-unveils-Toronto-Blue-Jays-co-branded-aircraft",
+          "accessed": "2026-11-22"
+        }
+      ],
+      "hexSource": "looked up: hexdb.io community database (2026-11-22); adsb.lol saw it under this address on 2026-11-22",
+      "from": "2026-06-23",
+      "lastSeen": "2026-11-22",
+      "status": "Flying 2026-11-22 (adsb.lol live, callsign WJA2230). No open photo in the Jays paint yet."
+    },
+    {
+      "registration": "C-GORP",
+      "hex": "c06b6a",
+      "type": "B38M",
+      "livery": "swoop",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:C-GORP_B737_MAX_8,_WestJet_ex_Swoop,_Cancun_03-08-26_(55174655034).jpg",
+          "title": "C-GORP B737 MAX 8, WestJet ex Swoop, Cancun 03-08-26 (55174655034).jpg",
+          "accessed": "2026-11-22",
+          "note": "Photo 2026-03-08 (CC BY 4.0): still in Swoop's scheme."
+        }
+      ],
+      "hexSource": "looked up: hexdb.io community database (2026-11-22)",
+      "to": "2026-06-23",
+      "lastSeen": "2026-03-08",
+      "status": "repainted into the Blue Jays special for its 2026-06-23 unveiling. In Swoop paint since it joined Swoop in June 2022 (aviation press).",
+      "from": "2022-06"
+    },
+    {
+      "registration": "C-GMXB",
+      "hex": "c066b0",
+      "type": "B38M",
+      "livery": "royalton",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:C-GMXB_B737-800,_Sunwing_(Royalton_Luxury_Resort),_Cancun_03-08-26_(55171157737).jpg",
+          "title": "C-GMXB B737-800, Sunwing (Royalton Luxury Resort), Cancun 03-08-26 (55171157737).jpg",
+          "accessed": "2026-11-22",
+          "note": "Photo 2026-03-08 (CC BY 4.0)."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Sunwing_Airlines_Boeing_737-8_MAX_C-GMXB_at_Montr%C3%A9al-Trudeau_International_Airport.jpg",
+          "title": "Sunwing Airlines Boeing 737-8 MAX C-GMXB at Montréal-Trudeau International Airport.jpg",
+          "accessed": "2026-11-22",
+          "note": "Photo 2023-06-02 (CC0)."
+        }
+      ],
+      "hexSource": "looked up: hexdb.io and adsbdb community databases (2026-11-22, both c066b0); not verified against the Canadian register",
+      "lastSeen": "2026-03-08",
+      "status": "Newest open photo in this paint 2026-03-08 (Cancún, flying for WestJet)."
+    },
+    {
+      "registration": "C-GWJN",
+      "hex": "c07fb8",
+      "type": "B38M",
+      "livery": "childrens-drawings",
+      "from": "2026",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://wwwapps.tc.gc.ca/saf-sec-sur/2/ccarcs-riacc/RchSimpRes.aspx?cn=%7c%7c&mn=%7c%7c&sn=%7c%7c&on=%7c%7c&m=%7cGWJN%7c&cl=&ls=&lang=en",
+          "title": "Transport Canada, Canadian Civil Aircraft Register: C-GWJN",
+          "accessed": "2026-11-22",
+          "note": "WestJet 737-8, registered 2026-02-24; address C07FB8."
+        },
+        {
+          "url": "https://www.westjet.com/en-ca/who-we-are/history",
+          "title": "WestJet: Our history",
+          "accessed": "2026-11-22",
+          "note": "The 30th birthday in February 2026; doesn't name the aircraft."
+        }
+      ],
+      "hexSource": "Transport Canada's Canadian Civil Aircraft Register (24 Bit Address, 2026-11-22); hexdb.io and adsbdb don't know the mark yet",
+      "status": "The maintainer saw it in the children's drawings scheme (tail 340, logged 2026-11-22); no photo or press source."
+    }
+  ]
+}

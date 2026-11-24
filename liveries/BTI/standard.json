@@ -1,0 +1,282 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "BTI",
+  "name": "2019 'greener tails' livery",
+  "kind": "standard",
+  "from": "2019-11",
+  "confidence": "high",
+  "drawnOn": "BCS3",
+  "description": "White fuselage with lime-green from a diagonal behind the wing (rising from the belly to the fin's root) back to just ahead of the tail cone, which stays white. All-green fin with 'Baltic' in dark gray low on it; large dark-gray lowercase 'airBaltic' over the forward windows; green engines and winglets with dark 'airBaltic'.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A220-300_-_BD-500-1A11_(c-n_55308,_YL-ABW)_2025-09-04_Andre_Gerwing_Collection_ID_025500.jpg",
+      "accessed": "2026-11-13",
+      "title": "YL-ABW, 2025-09-04 (CC BY-SA 4.0)",
+      "note": "Right side, square on: green aft sweep, titles, fin title, engine, winglet."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A220-300_-_BD-500-1A11_(c-n_55162,_YL-ABH)_2025-10-22_Andre_Gerwing_Collection_ID_027055.jpg",
+      "accessed": "2026-11-13",
+      "title": "YL-ABH, 2025-10-22 (CC BY-SA 4.0)",
+      "note": "Left side from below: the same on the left, belly title, engines."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:YL-AAP_AirBaltic_Airbus_A220-300_approaching_BRU_16_August_2025.jpg",
+      "accessed": "2026-11-13",
+      "title": "YL-AAP approaching BRU (CC BY-SA 4.0)",
+      "note": "2025-08-16: an early A220 still in the pre-2019 version (white aft fuselage)."
+    },
+    {
+      "url": "https://worldairlinenews.com/2019/11/29/airbaltic-revises-its-livery-with-greener-tails/",
+      "accessed": "2026-11-13",
+      "title": "airBaltic revises its livery with 'greener tails' (World Airline News, 2019-11-29)",
+      "note": "YL-AAU the first, November 2019; all new aircraft to follow."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:AirBaltic_logo.svg",
+      "accessed": "2026-11-13",
+      "title": "airBaltic logo (Commons)"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:YL-ABW_@_TLL,_2024-11-10.jpg",
+      "title": "YL-ABW @ TLL, 2024-11-10 (CC BY-SA 2.0, Anna Zvereva)",
+      "accessed": "2026-11-15",
+      "note": "Right side on the runway, near level, 2024-11-10: the body title against the windows (the window line runs through its lower half)."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "green": {
+      "hex": "#84BD00",
+      "official": false,
+      "name": "airBaltic lime green",
+      "pantone": "376 C (unconfirmed)"
+    },
+    "dark": {
+      "hex": "#2F3237",
+      "official": false,
+      "name": "dark gray titles"
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false,
+      "name": "bare metal inlet lip"
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "green aft sweep: its forward edge bows aft as it rises to the fin's root; its aft edge drops almost straight from the fin's trailing edge to the belly, under the tailplane",
+        "color": "green",
+        "points": [
+          [
+            0.683,
+            -1
+          ],
+          [
+            0.711,
+            -0.52
+          ],
+          [
+            0.757,
+            0
+          ],
+          [
+            0.778,
+            0.61
+          ],
+          [
+            0.79,
+            1
+          ],
+          [
+            0.93,
+            1
+          ],
+          [
+            0.92,
+            0
+          ],
+          [
+            0.918,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ],
+        "smooth": true
+      }
+    ],
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "fin": {
+    "base": "green",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "wings": {
+    "top": "#B9BEC5",
+    "under": "#C9CDD2"
+  },
+  "winglets": {
+    "outer": "green",
+    "inner": "green",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "green",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "BTI/wordmark",
+      "place": "winglets",
+      "at": [
+        0.4,
+        0.3
+      ],
+      "height": 0.12,
+      "colors": [
+        "dark"
+      ],
+      "description": "Small 'airBaltic' in dark gray near the winglet's root. Lettering; a logo entry only because titles can't sit on winglets.",
+      "reference": "https://commons.wikimedia.org/wiki/File:AirBaltic_logo.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "airBaltic",
+      "place": "fuselage",
+      "at": [
+        0.174,
+        0.051
+      ],
+      "height": 0.5,
+      "length": 0.18,
+      "color": "dark",
+      "style": "Large bold geometric sans, lowercase with a capital B, across the forward windows: the window line runs through the letters' lower half (windows from about 0.2 to 0.53 of the capitals' height above the baseline).",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        5
+      ],
+      "type": {
+        "similar": [
+          "Gotham Bold",
+          "Montserrat Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.73
+      }
+    },
+    {
+      "text": "Baltic",
+      "place": "fin",
+      "at": [
+        0.3,
+        0.06
+      ],
+      "height": 0.2,
+      "length": 0.62,
+      "color": "dark",
+      "style": "The second half of the name, in the same lettering, low on the green fin.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Gotham Bold",
+          "Montserrat Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.73
+      }
+    },
+    {
+      "text": "airBaltic",
+      "place": "engines",
+      "at": [
+        0.25,
+        0.1
+      ],
+      "height": 0.3,
+      "length": 0.5,
+      "color": "dark",
+      "style": "As the fuselage title, across the outboard side of the green cowling.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Gotham Bold",
+          "Montserrat Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.73
+      }
+    },
+    {
+      "text": "airBaltic",
+      "place": "belly",
+      "at": [
+        0.35,
+        -1
+      ],
+      "height": 0.5,
+      "color": "dark",
+      "style": "Large dark title along the belly, read from below.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    }
+  ],
+  "notes": "All-A220-300 fleet. Early deliveries (e.g. YL-AAP, seen 2025) keep the pre-November-2019 version: the same, but with the aft fuselage white (green only on the fin, engines and winglets). The aft edge of the green, where it meets the white tail cone, is hard to see under the tailplane: medium confidence. Several aircraft wear Baltic-flag specials. Re-checked 2026-11-15 on YL-ABW (right side, side-on) and YL-ABH (left): the green's forward edge is a curve (about 0.5 m further aft mid-height than the straight line it was) (its aft edge then drawn reaching the belly at x 0.825: see below); lowercase 0.73 of the capital B. Re-measured 2026-11-15 on the corrected A220-300 shape (BCS3), fitted to YL-ABW (right, flipped, level) and YL-ABH (left, from below): the body title runs x 0.174-0.354 (it had been 0.17-0.325), its baseline about 0.25 m under the windows' bottoms and its capitals' tops about 0.6 m over their tops (placed against the windows: y 0.051, height 0.50; it had sat with its baseline on the window line, the letters above it), YL-ABW's 2024 runway photo agreeing; 'Baltic' on the fin x 0.30-0.92 at its baseline (y 0.06, cap 0.20): on the left its 'c' ends close to the trailing edge as photographed, on the right the title covers the same stretch; the green's forward edge meets the crown at x 0.79, just ahead of the fin's root leading edge (0.796), so the fillet's aft part and the fin's green meet the body's; its aft edge runs from the fin's trailing edge at the root (x 0.93) almost straight down to the belly at 0.918 on both photos, where it had been drawn reaching the belly at 0.825: the tail cone aft of it is white.",
+  "history": "Replaced Skyarium v1's approximation. The 'greener tails' version (green sweep onto the aft fuselage) replaced the 2016-2019 white-aft version from YL-AAU in November 2019."
+}

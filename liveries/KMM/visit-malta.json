@@ -1,0 +1,428 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "visit-malta",
+  "airline": "KMM",
+  "name": "Visit Malta",
+  "kind": "special",
+  "confidence": "medium",
+  "drawnOn": "A20N",
+  "description": "KM Malta's scheme with the rear fuselage in Visit Malta's coloured facets on A320neo 9H-NEC: from a sky-blue wedge behind the wing, straight-edged facets of red with a yellow and an orange stripe and a green patterned band slanting up toward the fin; the red fin with the white Maltese cross in lighter and darker red facets; a larger 'malta' over the forward windows, 'Explore more stories' in script over the windows ahead of the wing; red engines with 'VisitMalta'.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:9H-NEC_at_LHR_20250728.jpg",
+      "title": "9H-NEC at LHR 20250728.jpg (CC BY-SA 4.0, Mike Burdett)",
+      "accessed": "2026-11-22",
+      "note": "9H-NEC right side, side-on on the runway at Heathrow, 2025-07-28: flipped and fitted to the measured A320neo shape (nose, fin tip, both doors, within 5 px); the facets' corners and the title's ends read off it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:9H-NEC_LHR_310325.jpg",
+      "title": "9H-NEC LHR 310325.jpg (CC BY 2.0, kitmasterbloke)",
+      "accessed": "2026-11-22",
+      "note": "9H-NEC right side, Heathrow, 2025-04-13: the same."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:KM_Malta_A320-251(N),_9H-NEC,_MSN_9049_(09_2019),_as_KM_100_Malta_(MLA)_-_London_(LHR),_Flight_time_2_57_(54883434035).jpg",
+      "title": "KM Malta A320-251(N), 9H-NEC, … KM 100 Malta (MLA) - London (LHR) (54883434035).jpg (CC0, Charles from Port Chester)",
+      "accessed": "2026-11-22",
+      "note": "9H-NEC right forward fuselage, 2025-09-13: the larger 'malta' and the script, still in this paint."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:KM_Malta_Airlines_9H-NEE_A320-251N.jpg",
+      "title": "KM Malta Airlines 9H-NEE A320-251N.jpg (CC BY-SA 4.0, Zima Savolainen)",
+      "accessed": "2026-11-22",
+      "note": "A320neo 9H-NEE taxiing at Amsterdam, right side, 2026-02-21. Flipped and fitted to shapes/A20N.json on its doors, crown, belly and fin tip (within about 20 px, 0.5 m; the nose and tail left out, the camera ahead of the aircraft): the red's front edge, the crimson band, the title's ends and height, the fin's darker tip and the cross's middle and size (the fin read by eye off the fin's edges)."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F2F2F2",
+      "official": false
+    },
+    "red": {
+      "hex": "#D42A45",
+      "name": "KM Malta red",
+      "official": false
+    },
+    "crimson": {
+      "hex": "#9B2443",
+      "name": "the darker band and fin tip",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    },
+    "skyBlue": {
+      "hex": "#3FB4E3",
+      "official": false,
+      "name": "the facets' sky blue"
+    },
+    "yellow": {
+      "hex": "#F2A81D",
+      "official": false,
+      "name": "the facets' yellow"
+    },
+    "orange": {
+      "hex": "#EE6A24",
+      "official": false,
+      "name": "the facets' orange"
+    },
+    "green": {
+      "hex": "#3C9A4A",
+      "official": false,
+      "name": "the patterned green band"
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "windows": "plain",
+    "areas": [
+      {
+        "name": "sky-blue wedge from the crown over the wing down to the belly behind it",
+        "color": "skyBlue",
+        "points": [
+          [
+            0.595,
+            1
+          ],
+          [
+            0.637,
+            1
+          ],
+          [
+            0.667,
+            0.252
+          ],
+          [
+            0.688,
+            0.086
+          ],
+          [
+            0.688,
+            -1
+          ],
+          [
+            0.664,
+            -1
+          ],
+          [
+            0.66,
+            0.017
+          ],
+          [
+            0.648,
+            0.275
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "red rear fuselage behind the blue, in lighter and darker red facets (drawn as one red)",
+        "color": "red",
+        "points": [
+          [
+            0.637,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            0.688,
+            -1
+          ],
+          [
+            0.688,
+            0.086
+          ],
+          [
+            0.667,
+            0.252
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "yellow facet low behind the blue",
+        "color": "yellow",
+        "points": [
+          [
+            0.688,
+            0.086
+          ],
+          [
+            0.7275,
+            -0.198
+          ],
+          [
+            0.711,
+            -1
+          ],
+          [
+            0.688,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "orange stripe slanting up from behind the wing toward the fin's root",
+        "color": "orange",
+        "points": [
+          [
+            0.702,
+            -0.173
+          ],
+          [
+            0.8365,
+            0.738
+          ],
+          [
+            0.844,
+            0.592
+          ],
+          [
+            0.727,
+            -0.427
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "green patterned band slanting up from the belly toward the tailplane",
+        "color": "green",
+        "points": [
+          [
+            0.807,
+            -1
+          ],
+          [
+            0.88,
+            0.582
+          ],
+          [
+            0.889,
+            0.422
+          ],
+          [
+            0.823,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "fin": {
+    "base": "red",
+    "areas": [
+      {
+        "name": "darker crimson tip above a line slanting down toward the trailing edge",
+        "color": "crimson",
+        "points": [
+          [
+            0,
+            0.82
+          ],
+          [
+            1,
+            0.67
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      }
+    ],
+    "confidence": "low",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "wings": {
+    "top": "#B9BEC5",
+    "under": "#C9CDD2"
+  },
+  "winglets": {
+    "outer": "red",
+    "inner": "red",
+    "areas": [
+      {
+        "name": "white root",
+        "color": "white",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0.18
+          ],
+          [
+            0,
+            0.18
+          ]
+        ]
+      }
+    ],
+    "confidence": "low",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "red",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "titles": [
+    {
+      "text": "malta",
+      "place": "fuselage",
+      "at": [
+        0.175,
+        -0.005
+      ],
+      "height": 0.57,
+      "length": 0.172,
+      "color": "red",
+      "style": "'malta' in bold rounded red lower case, larger than on the standard scheme: across the forward windows from behind the door to ahead of the wing.",
+      "type": {
+        "similar": [
+          "Montserrat ExtraBold",
+          "Gotham Rounded Bold"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.72
+      },
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        2
+      ]
+    },
+    {
+      "text": "VisitMalta",
+      "place": "engines",
+      "at": [
+        0.3,
+        -0.1
+      ],
+      "height": 0.18,
+      "length": 0.4,
+      "color": "white",
+      "style": "Small white 'VisitMalta' with the Maltese cross after it on the nacelle's side (the tourism authority's mark).",
+      "type": {
+        "similar": [
+          "Arial Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      },
+      "confidence": "low",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "logos": [
+    {
+      "mark": "KMM/cross",
+      "place": "fin",
+      "at": [
+        0.55,
+        0.34
+      ],
+      "height": 0.68,
+      "colors": [
+        "white"
+      ],
+      "description": "The Maltese cross in white, very large across the red fin's lower two thirds: four arms, each a V-notched wedge narrowing to the middle (eight points), its aft arm reaching the trailing edge.",
+      "reference": "https://commons.wikimedia.org/wiki/File:KM_Malta_Airlines_logo.png",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "KMM/cross",
+      "place": "winglets",
+      "at": [
+        0.5,
+        0.6
+      ],
+      "height": 0.22,
+      "colors": [
+        "white"
+      ],
+      "description": "The Maltese cross small in white on the red sharklet.",
+      "reference": "https://commons.wikimedia.org/wiki/File:KM_Malta_Airlines_logo.png",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "notes": "Measured on 9H-NEC's right side (2025-07-28) flipped and fitted to shapes/A20N.json; only right-side open photos, so the left side is assumed the same. The facets are straight-edged polygons (as painted); the red's lighter and darker facets, the green band's pattern and the fin's facets and pattern aren't drawn (the fin is KMM/standard's). 'malta' x 0.175-0.347, baseline y about 0, x-height to 0.41, ascenders to 0.56 (the standard's is 0.21 tall). Not drawn: the 'Explore more stories' script (x 0.46-0.56, y 0.49), the flags by the registration. Newest open photo 2025-09-13; flight-tracking photo sites list 9H-NEC into 2026 (leads only, paint not checked).",
+  "history": "New 2026-11-22; was a lead from an earlier sweep."
+}

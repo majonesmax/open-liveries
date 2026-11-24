@@ -1,0 +1,21 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "retro-1960s",
+  "airline": "EIN",
+  "name": "Retro 1960s (75th anniversary)",
+  "kind": "retro",
+  "confidence": "high",
+  "description": "Fuselage: White upper fuselage, light gray/silver lower fuselage. Cheatlines: A thin dark-green cheatline through the window line nose to tail. Tail: White fin with several horizontal dark-green stripes and a green shamrock in a white circle. Engines: Gray/white. Winglets: Wingtip fences (approximate). Titles: 'AER LINGUS · IRISH INTERNATIONAL' in small dark-green capitals above the forward windows; small Irish flag. Artwork: none. Colors hex: approximate.",
+  "sources": [
+    {
+      "url": "https://airlinegeeks.com/2024/05/10/livery-of-the-week-aer-lingus-retro-scheme/",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:EI-DVM_(aircraft)",
+      "accessed": "2026-11-12"
+    }
+  ],
+  "notes": "Common at UK airports.",
+  "from": "2011-03"
+}

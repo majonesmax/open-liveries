@@ -1,0 +1,16 @@
+{
+  "_about": "Boeing MDC K9099 (MD-90-30/-30ER), 2.2 General Airplane Dimensions (page index 16): its plan, layers.py --mode strokes --color 0.137,0.122,0.125 at scale 24.8126 (the side view's scale: 2.3's side view is drawn 1.2406 times 2.2's), clip 127,102,492,366. Pixels of that raster, line centres; the lower half (the aircraft's left side; the upper half's wing is under a detail callout). The fuselage's end is under the tailplane and the fin's top fairing: bridged to the tail cone's end. The stub pylon's leading edge is a short line between fuselage and nacelle; its trailing edge runs straight out from the fuselage behind the nozzle.",
+  "fuselage.halfWidth": [
+    [250, 3522], [300, 3640], [400, 3700], [600, 3762], [850, 3800], [1000, 3810], [1400, 3816], [2500, 3816],
+    [3500, 3816], [4500, 3816], [5500, 3816], [6000, 3816], [6400, 3810], [6600, 3798], [6800, 3778], [7000, 3743],
+    [7200, 3705], [7400, 3660], "hidden", {"free": [7829, 3590]}
+  ],
+  "wing.leading": [[3960, 3818], [4012, 3850], [4096, 4000], [4310, 4400], [4738, 5200], [5166, 6000], [5326, 6300], [5390, 6390], [5460, 6428], [5530, 6436]],
+  "wing.trailing": [[5158, 3830], [5158, 4300], [5172, 4440], [5230, 4800], [5385, 5600], [5502, 6200], [5567, 6385], [5628, 6410]],
+  "stabilizer.leading": [[7535, 3595], [7587, 3700], [7798, 4000], [8081, 4400], [8194, 4560], [8222, 4598]],
+  "stabilizer.trailing": [[8112, 3560], [8155, 3700], [8247, 4000], [8370, 4400], [8429, 4590], [8432, 4600]],
+  "engine.outer": [[6100, 4225], [6250, 4230], [6400, 4225]],
+  "engine.inner": [[6100, 3857], [6200, 3855], [6300, 3851]],
+  "pylon.leading": [[6120, 3816], [6120, 3855]],
+  "pylon.trailing": [[7230, 3705], [7230, 3898]]
+}

@@ -1,0 +1,949 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "green",
+  "airline": "SWU",
+  "name": "Forest tail (green)",
+  "kind": "standard",
+  "confidence": "medium",
+  "drawnOn": "DH8D",
+  "description": "The standard layout in greens: 'skyalps' with 'sky' in light green and 'alps' in dark green, and a forest on the tail: pale green sky at the top of the fin, green trees through its middle and dark, nearly black green at its foot and over the tail cone, the white ring-and-mountain mark over it.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:9H-MATI_Bombardier_DHC-8-402Q_Dash_8_SkyAlps_LGW_28.8.24.jpg",
+      "title": "9H-MATI Bombardier DHC-8-402Q Dash 8 SkyAlps LGW 28.8.24 (CC BY-SA 2.0, Colin Cooke Photo)",
+      "accessed": "2026-11-21",
+      "note": "Dash 8-400 9H-MATI landing at Gatwick, left side, level, 2024-08-28. Fitted to shapes/DH8D.json (doors within 16 px): the title's ends and heights, the tail's dark area's edge, the fin logo; the fin's colour fields read with photo_trace fields."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:SkyAlps,_9H-MATI,_De_Havilland_Canada_Dash_8-400.jpg",
+      "title": "SkyAlps, 9H-MATI, De Havilland Canada Dash 8-400 (CC BY-SA 2.0, Anna Zvereva)",
+      "accessed": "2026-11-21",
+      "note": "Right side taxiing, 2024-05-19: the same from the right (title forward, the forest fin)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Antwerp_Bombardier_Dash_8-Q402_9H-SOP_during_Stampe_Forever_Fly_In_2026_01.jpg",
+      "title": "Antwerp Bombardier Dash 8-Q402 9H-SOP during Stampe Forever Fly In 2026 01 (CC BY-SA 4.0, Ad Meskens)",
+      "accessed": "2026-11-21",
+      "note": "9H-SOP at Antwerp, right side, 2026-05-17: the green scheme on a second aircraft, still current."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:SkyAlps,_9H-EVA,_De_Havilland_Canada_Dash_8-400_(52928247209).jpg",
+      "title": "SkyAlps, 9H-EVA, De Havilland Canada Dash 8-400 (CC BY-SA 2.0, Anna Zvereva)",
+      "accessed": "2026-11-21",
+      "note": "9H-EVA taxiing, left side, 2023-05-11: the blue scheme: plain blue fin and tail, the title in two blues, same layout."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:SkyAlps,_9H-PET,_De_Havilland_Canada_Dash_8-400_(54007320899).jpg",
+      "title": "SkyAlps, 9H-PET, De Havilland Canada Dash 8-400 (CC BY-SA 2.0, Anna Zvereva)",
+      "accessed": "2026-11-21",
+      "note": "9H-PET landing at Innsbruck, left side, 2024-08-27: the blue scheme."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:9H-ALE_-_De_Havilland_Canada_Dash_8-400_-_SkyAlps_STN_140424.jpg",
+      "title": "9H-ALE - De Havilland Canada Dash 8-400 - SkyAlps STN 140424 (CC BY 2.0, kitmasterbloke)",
+      "accessed": "2026-11-21",
+      "note": "9H-ALE in flight, distant, 2024-04-14: the blue scheme."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F0F1F3",
+      "official": false
+    },
+    "pale": {
+      "hex": "#C9E39C",
+      "name": "pale green",
+      "official": false
+    },
+    "green": {
+      "hex": "#5FAA45",
+      "official": false
+    },
+    "dark": {
+      "hex": "#0E2219",
+      "name": "forest black",
+      "official": false
+    },
+    "lightGreen": {
+      "hex": "#78A948",
+      "official": false
+    },
+    "darkGreen": {
+      "hex": "#145E20",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "windows": "plain",
+    "areas": [
+      {
+        "name": "forest-dark tail from behind the aft door",
+        "color": "dark",
+        "smooth": true,
+        "points": [
+          [
+            0.825,
+            -1
+          ],
+          [
+            0.844,
+            -0.47
+          ],
+          [
+            0.861,
+            0.17
+          ],
+          [
+            0.875,
+            0.8
+          ],
+          [
+            0.879,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "dark",
+    "areas": [
+      {
+        "name": "the long dorsal fairing ahead of the fin's leading edge stays white",
+        "color": "white",
+        "points": [
+          [
+            -4,
+            -0.3
+          ],
+          [
+            -0.035,
+            -0.3
+          ],
+          [
+            -0.035,
+            0.3
+          ],
+          [
+            -4,
+            0.3
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "pale field of the forest art (photo-traced)",
+        "color": "pale",
+        "smooth": true,
+        "points": [
+          [
+            0.33,
+            0.9714
+          ],
+          [
+            0.42,
+            0.9714
+          ],
+          [
+            0.46,
+            0.9571
+          ],
+          [
+            0.56,
+            0.8571
+          ],
+          [
+            0.59,
+            0.5357
+          ],
+          [
+            0.61,
+            0.5071
+          ],
+          [
+            0.55,
+            0.4429
+          ],
+          [
+            0.56,
+            0.1429
+          ],
+          [
+            0.54,
+            0.1286
+          ],
+          [
+            0.49,
+            0.1357
+          ],
+          [
+            0.44,
+            0.1857
+          ],
+          [
+            0.43,
+            0.2786
+          ],
+          [
+            0.45,
+            0.2929
+          ],
+          [
+            0.42,
+            0.3286
+          ],
+          [
+            0.29,
+            0.3286
+          ],
+          [
+            0.25,
+            0.35
+          ],
+          [
+            0.21,
+            0.4071
+          ],
+          [
+            0.19,
+            0.4571
+          ],
+          [
+            0.2,
+            0.4786
+          ],
+          [
+            0.23,
+            0.5
+          ],
+          [
+            0.32,
+            0.5
+          ],
+          [
+            0.34,
+            0.5143
+          ],
+          [
+            0.34,
+            0.5429
+          ],
+          [
+            0.26,
+            0.5714
+          ],
+          [
+            0.13,
+            0.5643
+          ],
+          [
+            0.15,
+            0.6143
+          ],
+          [
+            0.15,
+            0.65
+          ],
+          [
+            0.12,
+            0.6786
+          ],
+          [
+            0.14,
+            0.8357
+          ],
+          [
+            0.21,
+            0.8929
+          ],
+          [
+            0.21,
+            0.9357
+          ],
+          [
+            0.32,
+            0.9571
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "dark field of the forest art (photo-traced)",
+        "color": "dark",
+        "smooth": true,
+        "points": [
+          [
+            0.31,
+            1.0
+          ],
+          [
+            0.94,
+            1.0
+          ],
+          [
+            0.94,
+            0.9857
+          ],
+          [
+            0.98,
+            0.9643
+          ],
+          [
+            0.96,
+            0.9429
+          ],
+          [
+            0.96,
+            0.8929
+          ],
+          [
+            1.0,
+            0.8643
+          ],
+          [
+            1.0,
+            0.65
+          ],
+          [
+            0.97,
+            0.6
+          ],
+          [
+            0.94,
+            0.6071
+          ],
+          [
+            0.79,
+            0.7214
+          ],
+          [
+            0.72,
+            0.7571
+          ],
+          [
+            0.65,
+            0.8286
+          ],
+          [
+            0.57,
+            0.8571
+          ],
+          [
+            0.56,
+            0.9
+          ],
+          [
+            0.51,
+            0.9357
+          ],
+          [
+            0.48,
+            0.9357
+          ],
+          [
+            0.42,
+            0.9714
+          ],
+          [
+            0.33,
+            0.9714
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "green field of the forest art (photo-traced)",
+        "color": "green",
+        "smooth": true,
+        "points": [
+          [
+            0.16,
+            0.5714
+          ],
+          [
+            0.26,
+            0.5714
+          ],
+          [
+            0.34,
+            0.5429
+          ],
+          [
+            0.34,
+            0.5143
+          ],
+          [
+            0.32,
+            0.5
+          ],
+          [
+            0.23,
+            0.5
+          ],
+          [
+            0.2,
+            0.4786
+          ],
+          [
+            0.2,
+            0.4286
+          ],
+          [
+            0.25,
+            0.35
+          ],
+          [
+            0.29,
+            0.3286
+          ],
+          [
+            0.42,
+            0.3286
+          ],
+          [
+            0.45,
+            0.2929
+          ],
+          [
+            0.43,
+            0.2643
+          ],
+          [
+            0.3,
+            0.2643
+          ],
+          [
+            0.28,
+            0.25
+          ],
+          [
+            0.26,
+            0.2214
+          ],
+          [
+            0.28,
+            0.0786
+          ],
+          [
+            0.26,
+            0.0571
+          ],
+          [
+            0.22,
+            0.0643
+          ],
+          [
+            0.11,
+            0.15
+          ],
+          [
+            0.04,
+            0.15
+          ],
+          [
+            0.03,
+            0.1357
+          ],
+          [
+            0.0,
+            0.1357
+          ],
+          [
+            0.0,
+            0.2429
+          ],
+          [
+            0.02,
+            0.2357
+          ],
+          [
+            0.07,
+            0.2643
+          ],
+          [
+            0.07,
+            0.3214
+          ],
+          [
+            0.1,
+            0.3429
+          ],
+          [
+            0.11,
+            0.5357
+          ],
+          [
+            0.12,
+            0.5571
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "green field of the forest art (photo-traced)",
+        "color": "green",
+        "smooth": true,
+        "points": [
+          [
+            0.49,
+            0.9357
+          ],
+          [
+            0.56,
+            0.9
+          ],
+          [
+            0.58,
+            0.85
+          ],
+          [
+            0.65,
+            0.8286
+          ],
+          [
+            0.72,
+            0.7571
+          ],
+          [
+            0.79,
+            0.7214
+          ],
+          [
+            0.94,
+            0.6071
+          ],
+          [
+            0.97,
+            0.6
+          ],
+          [
+            0.96,
+            0.5429
+          ],
+          [
+            0.93,
+            0.5571
+          ],
+          [
+            0.84,
+            0.5643
+          ],
+          [
+            0.8,
+            0.5357
+          ],
+          [
+            0.68,
+            0.5357
+          ],
+          [
+            0.64,
+            0.5143
+          ],
+          [
+            0.6,
+            0.5143
+          ],
+          [
+            0.56,
+            0.8571
+          ],
+          [
+            0.51,
+            0.8929
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "dark field of the forest art (photo-traced)",
+        "color": "dark",
+        "smooth": true,
+        "points": [
+          [
+            0.17,
+            0.9357
+          ],
+          [
+            0.21,
+            0.9357
+          ],
+          [
+            0.21,
+            0.8929
+          ],
+          [
+            0.16,
+            0.8643
+          ],
+          [
+            0.13,
+            0.8071
+          ],
+          [
+            0.12,
+            0.6786
+          ],
+          [
+            0.15,
+            0.65
+          ],
+          [
+            0.15,
+            0.6143
+          ],
+          [
+            0.11,
+            0.5357
+          ],
+          [
+            0.1,
+            0.3429
+          ],
+          [
+            0.08,
+            0.3214
+          ],
+          [
+            0.05,
+            0.3214
+          ],
+          [
+            0.01,
+            0.3571
+          ],
+          [
+            0.03,
+            0.4571
+          ],
+          [
+            0.0,
+            0.4857
+          ],
+          [
+            0.0,
+            0.5571
+          ],
+          [
+            0.04,
+            0.5929
+          ],
+          [
+            0.04,
+            0.8143
+          ],
+          [
+            0.07,
+            0.8643
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "pale field of the forest art (photo-traced)",
+        "color": "pale",
+        "smooth": true,
+        "points": [
+          [
+            0.0,
+            1.0
+          ],
+          [
+            0.07,
+            1.0
+          ],
+          [
+            0.15,
+            0.9714
+          ],
+          [
+            0.18,
+            0.9429
+          ],
+          [
+            0.07,
+            0.8643
+          ],
+          [
+            0.04,
+            0.8143
+          ],
+          [
+            0.04,
+            0.6929
+          ],
+          [
+            0.02,
+            0.6286
+          ],
+          [
+            0.0,
+            0.6286
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "green field of the forest art (photo-traced)",
+        "color": "green",
+        "smooth": true,
+        "points": [
+          [
+            0.07,
+            1.0
+          ],
+          [
+            0.31,
+            1.0
+          ],
+          [
+            0.33,
+            0.9643
+          ],
+          [
+            0.27,
+            0.9429
+          ],
+          [
+            0.18,
+            0.9357
+          ],
+          [
+            0.15,
+            0.9714
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "pale field of the forest art (photo-traced)",
+        "color": "pale",
+        "smooth": true,
+        "points": [
+          [
+            0.0,
+            0.4214
+          ],
+          [
+            0.02,
+            0.4214
+          ],
+          [
+            0.01,
+            0.3571
+          ],
+          [
+            0.03,
+            0.3286
+          ],
+          [
+            0.07,
+            0.3214
+          ],
+          [
+            0.07,
+            0.2643
+          ],
+          [
+            0.02,
+            0.2357
+          ],
+          [
+            0.0,
+            0.2429
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0
+        ]
+      }
+    ],
+    "confidence": "low",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "titles": [
+    {
+      "text": "skyalps",
+      "parts": [
+        {
+          "text": "sky",
+          "color": "lightGreen"
+        },
+        {
+          "text": "alps",
+          "color": "darkGreen"
+        }
+      ],
+      "place": "fuselage",
+      "at": [
+        0.19,
+        -0.248
+      ],
+      "height": 0.9,
+      "length": 0.25,
+      "color": "darkGreen",
+      "style": "Big heavy slanted lower case across the windows from behind the forward door to the propeller, 'sky' in the lighter shade and 'alps' in the darker.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Futura Bold Oblique",
+          "Avenir Next Heavy Italic"
+        ],
+        "weight": 800,
+        "slantDeg": 8,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.63
+      }
+    },
+    {
+      "text": "skyalps.com",
+      "parts": [
+        {
+          "text": "sky",
+          "color": "lightGreen"
+        },
+        {
+          "text": "alps.com",
+          "color": "darkGreen"
+        }
+      ],
+      "place": "engines",
+      "at": [
+        0.27,
+        -0.1
+      ],
+      "height": 0.45,
+      "length": 0.6,
+      "color": "darkGreen",
+      "style": "The name again with '.com', smaller, along the nacelle's side above the wing.",
+      "confidence": "low",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Futura Bold Oblique",
+          "Avenir Next Heavy Italic"
+        ],
+        "weight": 800,
+        "slantDeg": 8,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.63
+      }
+    }
+  ],
+  "logos": [
+    {
+      "mark": "SWU/mountain",
+      "place": "fin",
+      "at": [
+        0.475,
+        0.388
+      ],
+      "height": 0.58,
+      "colors": [
+        "white"
+      ],
+      "description": "SkyAlps' mark: a white open ring (a gap at its top) round a stylised mountain ridge drawn as an M, in the middle of the fin.",
+      "reference": "https://commons.wikimedia.org/wiki/File:9H-MATI_Bombardier_DHC-8-402Q_Dash_8_SkyAlps_LGW_28.8.24.jpg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "SWU/forest",
+      "place": "fin",
+      "at": [
+        0.5,
+        0.5
+      ],
+      "height": 1.0,
+      "colors": [
+        "pale",
+        "green",
+        "dark"
+      ],
+      "description": "The forest art over the fin and tail cone: conifer silhouettes in greens against a pale green sky, darkening to near black at the fin's foot; the areas carry its colour fields.",
+      "reference": "https://commons.wikimedia.org/wiki/File:9H-MATI_Bombardier_DHC-8-402Q_Dash_8_SkyAlps_LGW_28.8.24.jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "notes": "Measured on 9H-MATI (Dash 8-400, left side, Gatwick, 2024-08-28) fitted to the Dash 8-400 shape; the blue aircraft were checked against it (9H-EVA 2023, 9H-PET and 9H-ALE 2024) and carry the same layout. The title runs x 0.19-0.44, baseline under the windows (y -0.25), ascenders to y 0.66 (about 2.5 m), lower case 0.63 of that, slanted. The tail's colour starts on the fuselage on a slanted line from the belly at x 0.825 to the crown at x 0.88, behind the aft door, and covers the tail cone. 'skyalps.com' on the nacelle is placed against the nacelle's ends in the photo (the nearer nacelle is out of the fuselage's plane), low confidence. SkyAlps flies its Dash 8s on its own Maltese certificate under ICAO SWU (9H-MATI flew as SWU1919 when the maintainer saw it); its fins are blue (standard) or a green forest (green), aircraft by aircraft. The fin's fields come straight off the photo (photo_trace fields, 0.5 m and up), the logo's disc hidden, so they're rough: what reads right is pale above and forward, trees in green through the middle and toward the trailing edge, dark at the foot. Worn by 9H-MATI and 9H-SOP (airframes/SWU.json). The long dorsal fairing ahead of the fin's leading edge is white (a white fin area left of its leading edge: the Dash 8 shape draws the dorsal in the fin's base colour otherwise).",
+  "history": "New 2026-11-21 (the maintainer's sightings: 9H-MATI, callsign SWU1919)."
+}

@@ -1,0 +1,594 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "EWG",
+  "name": "2015 livery",
+  "kind": "standard",
+  "from": "2015",
+  "confidence": "medium",
+  "drawnOn": "A320",
+  "description": "White aircraft with the Eurowings 'wing' sweeping over the tail: a cyan band across the fin tip, a white gap and a thin gray line, then a big burgundy and magenta sweep from the middle of the fin down across the aft fuselage to the belly, with a cyan swoosh on the fuselage running up into the fin's leading edge. 'Eurowings' in burgundy over the forward windows, the small wing symbol below the cockpit.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:D-AEWS_(aircraft)",
+      "accessed": "2026-11-13",
+      "note": "A320 D-AEWS, left side, 2025-10-17 (Andre Gerwing): the scheme's main photo. Re-checked 2026-11-15: fitted to the measured A320 shape (doors pinned, level), the title measured on it and the tail's areas overlaid (within about 0.2 m)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Eurowings_Logo.svg",
+      "title": "Eurowings Logo.svg (2015 logo)",
+      "accessed": "2026-11-13",
+      "note": "The tail's colors repeat the 2015 logo's: burgundy, magenta, two cyans and gray; hex values read from the SVG, not published as paint."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:D-AENI_(aircraft)",
+      "accessed": "2026-11-13",
+      "note": "A320neo D-AENI from the right, 2025-04/06: the same design mirrored (sweeps forward on the right too)."
+    },
+    {
+      "url": "https://www.airliners.de/eurowings-neues-corporate-design-hausschrift/88554",
+      "title": "Eurowings überarbeitet Corporate Design (airliners.de, 2026)",
+      "accessed": "2026-11-13",
+      "note": "June 2026 brand refresh: reduced logo, new typeface 'Eurowings Type', Eurowings Burgundy kept. No livery change seen on aircraft photographed through 2026-09."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:D-AENH_(aircraft)",
+      "accessed": "2026-11-13",
+      "note": "A320neo D-AENH, 2025-10 to 2026-05: same scheme."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F6",
+      "official": false
+    },
+    "burgundy": {
+      "hex": "#8F174F",
+      "name": "Eurowings Burgundy",
+      "official": false
+    },
+    "magenta": {
+      "hex": "#B4175E",
+      "official": false
+    },
+    "cyan": {
+      "hex": "#7BCBE2",
+      "official": false
+    },
+    "blue": {
+      "hex": "#089BC9",
+      "official": false
+    },
+    "gray": {
+      "hex": "#C8C4C3",
+      "official": false
+    },
+    "cowl": {
+      "hex": "#E4E6E9",
+      "official": false
+    },
+    "lip": {
+      "hex": "#BFC3C8",
+      "name": "bare metal inlet lip",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "cyan swoosh rising into the fin",
+        "color": "cyan",
+        "points": [
+          [
+            0.678,
+            0.12,
+            1
+          ],
+          [
+            0.704,
+            0.4
+          ],
+          [
+            0.746,
+            0.68
+          ],
+          [
+            0.775,
+            0.83
+          ],
+          [
+            0.803,
+            1.0
+          ],
+          [
+            0.795,
+            0.82
+          ],
+          [
+            0.775,
+            0.41
+          ],
+          [
+            0.746,
+            0.07
+          ],
+          [
+            0.718,
+            0.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ],
+        "smooth": true
+      },
+      {
+        "name": "the swoosh's darker lower edge",
+        "color": "blue",
+        "points": [
+          [
+            0.678,
+            0.11,
+            1
+          ],
+          [
+            0.732,
+            0.08
+          ],
+          [
+            0.775,
+            0.36
+          ],
+          [
+            0.795,
+            0.63,
+            1
+          ],
+          [
+            0.781,
+            0.31
+          ],
+          [
+            0.746,
+            0.03
+          ],
+          [
+            0.712,
+            0.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ],
+        "smooth": true
+      },
+      {
+        "name": "burgundy sweep, belly to fin root",
+        "color": "burgundy",
+        "points": [
+          [
+            0.734,
+            -1.0
+          ],
+          [
+            0.746,
+            -0.45
+          ],
+          [
+            0.775,
+            -0.01
+          ],
+          [
+            0.795,
+            0.3
+          ],
+          [
+            0.809,
+            0.62
+          ],
+          [
+            0.906,
+            0.89
+          ],
+          [
+            0.877,
+            0.24
+          ],
+          [
+            0.86,
+            -0.16
+          ],
+          [
+            0.846,
+            -0.75
+          ],
+          [
+            0.821,
+            -1.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "magenta in the sweep, under the fin",
+        "color": "magenta",
+        "points": [
+          [
+            0.781,
+            -0.02
+          ],
+          [
+            0.809,
+            0.52
+          ],
+          [
+            0.821,
+            0.66
+          ],
+          [
+            0.906,
+            0.89
+          ],
+          [
+            0.889,
+            0.37
+          ],
+          [
+            0.846,
+            -0.08
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "gray line between the sweeps",
+        "color": "gray",
+        "points": [
+          [
+            0.846,
+            -0.75
+          ],
+          [
+            0.877,
+            0.07
+          ],
+          [
+            0.895,
+            0.12
+          ],
+          [
+            0.873,
+            -1.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "burgundy tail cone",
+        "color": "burgundy",
+        "points": [
+          [
+            0.873,
+            -1.0
+          ],
+          [
+            0.895,
+            -0.12
+          ],
+          [
+            0.917,
+            0.11
+          ],
+          [
+            0.991,
+            0.33,
+            1
+          ],
+          [
+            1.0,
+            0.33
+          ],
+          [
+            1.0,
+            -1.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ],
+        "smooth": true
+      }
+    ],
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      2,
+      4
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "mirrored": true,
+    "areas": [
+      {
+        "name": "cyan tip band",
+        "color": "cyan",
+        "points": [
+          [
+            -0.05,
+            1.05
+          ],
+          [
+            1.06,
+            1.05
+          ],
+          [
+            1.048,
+            0.824
+          ],
+          [
+            0.566,
+            0.714
+          ],
+          [
+            0.267,
+            0.632
+          ],
+          [
+            -0.05,
+            0.585
+          ]
+        ]
+      },
+      {
+        "name": "darker cyan, the band's lower half",
+        "color": "blue",
+        "points": [
+          [
+            -0.05,
+            0.6
+          ],
+          [
+            0.341,
+            0.714
+          ],
+          [
+            1.046,
+            0.925
+          ],
+          [
+            1.048,
+            0.824
+          ],
+          [
+            0.566,
+            0.714
+          ],
+          [
+            0.272,
+            0.628
+          ],
+          [
+            -0.05,
+            0.585
+          ]
+        ]
+      },
+      {
+        "name": "gray line under the cyan",
+        "color": "gray",
+        "points": [
+          [
+            0.044,
+            0.588
+          ],
+          [
+            1.048,
+            0.824
+          ],
+          [
+            1.085,
+            0.623
+          ],
+          [
+            0.459,
+            0.61
+          ]
+        ]
+      },
+      {
+        "name": "gray line along the leading edge",
+        "color": "gray",
+        "points": [
+          [
+            0.018,
+            0.33
+          ],
+          [
+            0.107,
+            0.388
+          ],
+          [
+            0.083,
+            0.037
+          ],
+          [
+            0.009,
+            -0.05
+          ],
+          [
+            -0.068,
+            -0.05
+          ]
+        ]
+      },
+      {
+        "name": "burgundy sweep",
+        "color": "burgundy",
+        "points": [
+          [
+            0.107,
+            0.388
+          ],
+          [
+            0.994,
+            0.476
+          ],
+          [
+            0.735,
+            -0.073
+          ],
+          [
+            0.097,
+            -0.073
+          ],
+          [
+            0.092,
+            0.073
+          ]
+        ]
+      },
+      {
+        "name": "magenta at the root",
+        "color": "magenta",
+        "points": [
+          [
+            0.172,
+            -0.073
+          ],
+          [
+            0.308,
+            0.174
+          ],
+          [
+            0.623,
+            0.128
+          ],
+          [
+            0.735,
+            -0.073
+          ]
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "wings": {
+    "top": "#B9BEC5",
+    "under": "#C9CDD2"
+  },
+  "winglets": {
+    "outer": "white",
+    "inner": "white",
+    "confidence": "low",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "engines": {
+    "cowling": "cowl",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "logos": [
+    {
+      "mark": "EWG/wings",
+      "place": "fuselage",
+      "at": [
+        0.071,
+        -0.08
+      ],
+      "height": 0.23,
+      "colors": [
+        "burgundy",
+        "magenta",
+        "blue"
+      ],
+      "description": "The Eurowings 'wings' symbol: three or four parallel slanted bars stacked like feathers, leaning forward, cyan on top then burgundy/magenta; below the cockpit windows.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Eurowings_Logo.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Eurowings",
+      "place": "fuselage",
+      "at": [
+        0.158,
+        0.34
+      ],
+      "height": 0.35,
+      "color": "burgundy",
+      "style": "The Eurowings wordmark: bold, upright humanist sans in mixed case, over the forward windows from just aft of the front door.",
+      "confidence": "high",
+      "sourceRefs": [
+        0
+      ],
+      "type": {
+        "similar": [
+          "Myriad Pro Bold",
+          "Source Sans 3 Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.68
+      },
+      "length": 0.163
+    },
+    {
+      "text": "Member of LUFTHANSA GROUP",
+      "place": "fuselage",
+      "at": [
+        0.585,
+        -0.08
+      ],
+      "height": 0.07,
+      "color": "#3A3D44",
+      "style": "Small dark gray lettering in two lines ('Member of' small italic over 'LUFTHANSA GROUP' capitals) aft of the wing, under the registration.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Medium"
+        ],
+        "weight": 500,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      },
+      "length": 0.045
+    }
+  ],
+  "notes": "Left side drawn from D-AEWS (A320, 2025-10-17, Düsseldorf); right side seen on D-AENI and D-AENH. A320neos also carry a temporary 'A320neo – less noise, less fuel, less CO2' sticker under the title (not drawn). The registration is preceded by small EU and German flags. The belly isn't seen in the photos used: left white. A June 2026 brand refresh (new logo and typeface) hasn't reached the paint on aircraft photographed through September 2026. Re-checked 2026-11-15 on D-AEWS fitted to the A320 shape: the title's baseline is just above the windows (y 0.34; it had been drawn across them), cap 0.35, running x 0.158-0.321; lowercase 0.68 of the E; the swooshes drawn as curves.",
+  "history": "Replaces Skyarium v1's approximation (a purple fin with a magenta band). The 2015 scheme replaced Germanwings' and the old Eurowings' liveries."
+}

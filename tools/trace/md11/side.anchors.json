@@ -1,0 +1,28 @@
+{
+  "_about": "Boeing MD-11 Airplane Characteristics for Airport Planning (Rev E), 2.2 General Airplane Dimensions: page index 13, a picture, stored upside down: layers.py --mode image --unrotate --rotate 180 at scale 4, clip 95,250,520,475 (side). Pixels of that raster, line centres. The tail engine's nacelle runs through the fin's base: its top runs under the fin as drawn to below the rudder's trailing edge, then up its foot to the fairing over the nozzle; its bottom runs to the nozzle and up under that fairing.",
+  "fuselage.crown": [
+    [40, 489], [46, 476], [60, 465], [90, 444], [140, 423], [230, 409], [400, 405], [700, 405], [1000, 406],
+    [1200, 407], [1290, 412], [1400, 416], [1500, 420], [1572, 422], [1583, 430]
+  ],
+  "fuselage.belly": [
+    [40, 495], [46, 506], [65, 516], [100, 527], [150, 538], [250, 555], [330, 562], [500, 566], [640, 566],
+    "hidden", [810, 566], [1000, 566], [1100, 563], [1250, 554], [1400, 520], [1500, 497], [1583, 477]
+  ],
+  "fin.leading": [[1369, 323], [1420, 268], [1475, 212], [1515, 165], [1527, 154], [1540, 151]],
+  "fin.trailing": [[1551, 316], [1585, 233], [1620, 152]],
+  "fin.rudder": [[1489, 305], [1530, 233], [1573, 158]],
+  "engine.top": [[653, 530], [662, 513], [700, 510], [742, 525], [770, 537], [800, 549]],
+  "engine.bottom": [[653, 580], [662, 594], [705, 598], [738, 591], [748, 580], [800, 567]],
+  "wingtip.leading": [[1150, 484], [1170, 460], [1192, 436]],
+  "wingtip.trailing": [[1197, 488], [1207, 462], [1216, 437]],
+  "tail.top": [
+    [1284, 345], [1286, 328], [1295, 322], [1330, 321], [1369, 324], [1420, 330], [1480, 337], [1546, 342], "hidden", {"free": [1551, 316]},
+    [1610, 320], [1650, 323], [1655, 340], [1659, 362]
+  ],
+  "tail.bottom": [
+    [1284, 345], [1286, 385], [1298, 397], [1400, 401], [1480, 404], [1560, 407], [1581, 402], [1620, 389],
+    [1621, 368], [1659, 364]
+  ],
+  "tail.nozzleTop": [[1582, 350], [1620, 362], [1622, 367], [1668, 376]],
+  "tail.nozzleBottom": [[1582, 399], [1620, 389], [1622, 382], [1668, 377]]
+}

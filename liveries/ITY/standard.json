@@ -1,0 +1,341 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "ITY",
+  "name": "Blue livery",
+  "kind": "standard",
+  "from": "2021",
+  "confidence": "high",
+  "drawnOn": "A20N",
+  "description": "Bright blue all over, belly included. The ITA wordmark in silver-white over the forward windows with 'AIRWAYS' in spaced capitals under it. A paler blue fin, faintly patterned with icons of Italy, with green-white-red stripes running up its trailing edge and down over the tail cone. White engines with the tricolor flash.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:EI-INA_@_AMS,_2023-05-05.jpg",
+      "title": "EI-INA @ AMS, 2023-05-05.jpg (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "A320neo EI-INA, left side, 2023-05-05: positions of the wordmark, the fin and its tricolor, the engine."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:EI-INC_@_AMS,_2023-08-06.jpg",
+      "title": "EI-INC @ AMS, 2023-08-06.jpg (CC BY-SA 2.0)",
+      "accessed": "2026-11-13",
+      "note": "A320neo EI-INC, right side, 2023-08-06: the tricolor mirrored front to back on the right."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:ITA_airways_EI-HOM_A320-272N.jpg",
+      "title": "ITA airways EI-HOM A320-272N.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "A320neo EI-HOM, left side, 2024-11-17. Re-checked 2026-11-15: fitted to the measured A320 shape (doors pinned, level): the fin's tricolor measured on it with tools/photo_trace.py probe."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:EI-HJD_@_NCE,_2024-01-18.jpg",
+      "title": "EI-HJD @ NCE, 2024-01-18.jpg (CC BY-SA 2.0)",
+      "accessed": "2026-11-13",
+      "note": "A320neo EI-HJD from below, 2024-01-18: blue belly, white engines."
+    }
+  ],
+  "palette": {
+    "blue": {
+      "hex": "#1B5FCF",
+      "official": false
+    },
+    "finBlue": {
+      "hex": "#2D80D2",
+      "official": false
+    },
+    "silver": {
+      "hex": "#DDE1E7",
+      "official": false
+    },
+    "green": {
+      "hex": "#008C45",
+      "official": false
+    },
+    "white": {
+      "hex": "#F4F5F0",
+      "official": false
+    },
+    "red": {
+      "hex": "#CD212A",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    },
+    "cowl": {
+      "hex": "#F2F3F5",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "blue",
+    "windows": "plain",
+    "areas": [
+      {
+        "name": "green stripe over the tail cone",
+        "color": "green",
+        "points": [
+          [
+            0.897,
+            0.8
+          ],
+          [
+            0.909,
+            0.8
+          ],
+          [
+            0.9,
+            -1
+          ],
+          [
+            0.886,
+            -1
+          ]
+        ]
+      },
+      {
+        "name": "white stripe over the tail cone",
+        "color": "white",
+        "points": [
+          [
+            0.909,
+            0.8
+          ],
+          [
+            0.923,
+            0.8
+          ],
+          [
+            0.912,
+            -1
+          ],
+          [
+            0.9,
+            -1
+          ]
+        ]
+      },
+      {
+        "name": "red stripe over the tail cone",
+        "color": "red",
+        "points": [
+          [
+            0.923,
+            0.8
+          ],
+          [
+            0.939,
+            0.8
+          ],
+          [
+            0.926,
+            -1
+          ],
+          [
+            0.912,
+            -1
+          ]
+        ]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "fin": {
+    "base": "finBlue",
+    "areas": [
+      {
+        "name": "green stripe",
+        "color": "green",
+        "points": [
+          [
+            0.717,
+            0
+          ],
+          [
+            0.777,
+            0
+          ],
+          [
+            0.55,
+            1
+          ],
+          [
+            0.37,
+            1
+          ]
+        ],
+        "sourceRefs": [
+          2
+        ],
+        "confidence": "high"
+      },
+      {
+        "name": "white stripe",
+        "color": "white",
+        "points": [
+          [
+            0.777,
+            0
+          ],
+          [
+            0.85,
+            0
+          ],
+          [
+            0.78,
+            1
+          ],
+          [
+            0.55,
+            1
+          ]
+        ],
+        "sourceRefs": [
+          2
+        ],
+        "confidence": "high"
+      },
+      {
+        "name": "red stripe",
+        "color": "red",
+        "points": [
+          [
+            0.85,
+            0
+          ],
+          [
+            0.935,
+            0
+          ],
+          [
+            0.99,
+            1
+          ],
+          [
+            0.78,
+            1
+          ]
+        ],
+        "sourceRefs": [
+          2
+        ],
+        "confidence": "high"
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "wings": {
+    "top": "#B9BEC5",
+    "under": "#C9CDD2"
+  },
+  "engines": {
+    "cowling": "cowl",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "logos": [
+    {
+      "mark": "ITY/tricolor-flash",
+      "place": "engines",
+      "at": [
+        0.3,
+        0.1
+      ],
+      "height": 0.4,
+      "colors": [
+        "green",
+        "red"
+      ],
+      "description": "ITA's tricolor flash: a slanted green stroke rising forward with a smaller red wedge behind it (the white between is the cowling).",
+      "reference": "https://en.wikipedia.org/wiki/ITA_Airways",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "ITA",
+      "place": "fuselage",
+      "at": [
+        0.177,
+        0.15
+      ],
+      "height": 0.33,
+      "color": "silver",
+      "style": "The ITA wordmark: wide geometric capitals of thin-to-medium uniform stroke, the A's crossbar a small red wedge; over the forward windows.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Futura Medium",
+          "Gilroy Medium"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "length": 0.112
+    },
+    {
+      "text": "AIRWAYS",
+      "place": "fuselage",
+      "at": [
+        0.188,
+        -0.08
+      ],
+      "height": 0.15,
+      "length": 0.092,
+      "color": "silver",
+      "style": "Spaced capitals centered under ITA, the window line between them.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Futura Medium",
+          "Gilroy Medium"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "The fin carries a faint pattern of small line icons (Italian landmarks and symbols) in a slightly lighter blue; not drawn. The ITA wordmark is lettering, so it's a title; its red crossbar wedge is described, not drawn. The tricolor on the fin runs parallel to the trailing edge, constant in width (so wider as a share near the tip). Winglets not seen clearly. Re-checked 2026-11-15 on EI-HOM (A320neo, fitted to the A320 shape): the fin's tricolor is narrower and further aft than drawn (at the root x 0.72-0.94, at the tip 0.37-0.99; about 0.4 m at the root); the tail-cone stripes agree. The titles start about 0.9 m further aft than drawn: ITA x 0.177-0.289, its foot on the window bottoms; AIRWAYS x 0.188-0.28 under the windows.",
+  "history": "Replaced Skyarium v1's approximation (green and navy). ITA Airways launched in October 2021 as Alitalia's successor with this blue scheme; ex-Alitalia aircraft were repainted into it."
+}

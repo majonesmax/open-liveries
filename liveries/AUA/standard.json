@@ -1,0 +1,224 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "AUA",
+  "name": "2018 livery",
+  "kind": "standard",
+  "from": "2018-03",
+  "confidence": "high",
+  "drawnOn": "A320",
+  "description": "White fuselage with a large red 'Austrian' over the forward windows. The fin is the Austrian flag set on a slant: red tip, a broad white band sloping down aft, a red wedge at the root, with the red Austrian arrow on the white. The red runs down onto the rear fuselage and round the tail cone, its forward edge slanting back from the fin's leading edge to the belly. Red wingtips.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Austrian_Airlines",
+      "accessed": "2026-11-13",
+      "note": "The 2018 livery, introduced with the rebrand in March 2018."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Hamburg_Airport_Austrian_Airlines_Airbus_A320-214_OE-LZC_(DSC00595).jpg",
+      "title": "Hamburg Airport Austrian Airlines Airbus A320-214 OE-LZC, 2023-06-11 (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Left side, level: titles, fin bands and arrow, the red tail block."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A320-214_(c-n_5278,_OE-LZC)_2026-10-07_Andre_Gerwing_Collection_ID_031492.jpg",
+      "title": "Airbus A320-214 OE-LZC, 2026-10-07 (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Left side climbing, from below: the red block under the tail, red wingtip fences."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:OE-LZC_(aircraft)",
+      "accessed": "2026-11-13"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Hamburg_Airport_Austrian_Airlines_Airbus_A320-214_OE-LZC_(DSC00501).jpg",
+      "title": "Hamburg Airport Austrian Airlines Airbus A320-214 OE-LZC (DSC00501).jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-15",
+      "note": "A320 OE-LZC right side, 2023-06-11: the red block's straight forward edge and the title from the right (re-check 2026-11-15)."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F6",
+      "official": false
+    },
+    "red": {
+      "hex": "#D9232E",
+      "name": "Austrian red",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "red tail block, forward edge slanting back from the fin root to the belly, round the tail cone (straight from the side)",
+        "color": "red",
+        "points": [
+          [
+            0.8,
+            1
+          ],
+          [
+            0.873,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      }
+    ],
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "mirrored": true,
+    "areas": [
+      {
+        "name": "red tip, its lower edge sloping down aft",
+        "color": "red",
+        "points": [
+          [
+            0,
+            0.66
+          ],
+          [
+            1,
+            0.53
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "red wedge at the root, widest at the leading edge",
+        "color": "red",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0.22
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          1
+        ]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "winglets": {
+    "outer": "red",
+    "inner": "red",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "AUA/arrow",
+      "place": "fin",
+      "at": [
+        0.61,
+        0.345
+      ],
+      "height": 0.34,
+      "colors": [
+        "red"
+      ],
+      "description": "The Austrian arrow (also read as a stylised bird): a long blade from the leading edge slanting down aft, folding back into a short stroke that points down; red on the white band.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Austrian_Airlines_logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Austrian",
+      "place": "fuselage",
+      "at": [
+        0.218,
+        0.06
+      ],
+      "height": 0.6,
+      "length": 0.225,
+      "color": "red",
+      "style": "The Austrian wordmark: a bold, slightly condensed serif with bracketed slab-like serifs, mixed case, upright; set low so the letters cross the window line.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2,
+        4
+      ],
+      "type": {
+        "similar": [
+          "Roboto Slab Bold",
+          "Rockwell Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "contrast",
+        "case": "mixed",
+        "xHeight": 0.72
+      }
+    }
+  ],
+  "notes": "Not drawn: the registration with the Austrian flag and 'Member of Lufthansa Group' small ahead of the red block, a Star Alliance star by the cockpit. On the 787 and 777 the red block's edge follows the fin root further aft. Whether the arrow is mirrored on the right side to point forward isn't confirmed from a right-side photo here. The 2018 scheme replaced the 2003 one (red-white-red tail with the arrow on red, 'Austrian' in gray); by 2026 the fleet is repainted. Re-checked 2026-11-15: the title's lowercase measured at 0.72 of the capitals; the red block's forward edge reduced to its two ends (straight from the side). tools/photo_trace.py couldn't fit the OE-LZC photos (all three are strongly three-quarter views: doors 50 px off), so no edges were moved; by eye on the side-on right-side photo the title's capitals reach about two-thirds of the way to the crown, so its cap height went from 0.44 to 0.6.",
+  "history": "Replaced Skyarium v1's approximation."
+}

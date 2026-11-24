@@ -1,0 +1,118 @@
+{
+  "_about": "787-8, from Boeing D6-58333 Rev Q 2.2.1 (page index 20): side, plan and front views on one sheet, a picture (about 45 px a meter at scale 8). Line centres. The 787-9's points moved by the two shorter plugs onto this sheet and snapped; the wing's plan points placed here. Scaled by the printed 56.72 m overall length from the nose to the tail cone's tip; the drawn doors 1, 2 and 4 then land within 0.1 m of the door-location table (2.7.1). Door 3, hidden behind the wing, is placed from the table; the windows behind the wing's lines at the drawing's pitch. The cockpit panes are the 787-9's (the same nose), which land on this sheet's drawn panes.",
+  "out": "../../../../shapes/B788.json",
+  "length": 56.72,
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "refs": {
+    "side": {
+      "nose": 48.5,
+      "tail": 2592,
+      "cowlEnd": 1092,
+      "windowRow": [530, 559],
+      "windowGap": 5,
+      "windowInset": 2,
+      "windowsAlso": [1241, 1268, 1296, 1323, 1350, 1378, 1405, 1433, 1569, 1597, 1624, 1652]
+    },
+    "plan": {
+      "nose": 48.5,
+      "centerline": 1411
+    },
+    "front": {
+      "centerline": 1416,
+      "crownTop": 466
+    }
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [304, 509, 358, 597]
+    },
+    {
+      "kind": "door",
+      "box": [708, 509, 762, 597]
+    },
+    {
+      "kind": "door",
+      "box": [1474, 509, 1528, 597]
+    },
+    {
+      "kind": "door",
+      "box": [1976, 509, 2029, 597]
+    },
+    {
+      "kind": "cargo",
+      "box": [481, 605, 606, 685]
+    },
+    {
+      "kind": "cargo",
+      "box": [1657, 605, 1783, 685]
+    },
+    {
+      "kind": "cargo",
+      "box": [1893, 624, 1944, 685]
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [159, 530],
+      [161, 532],
+      [161, 534],
+      [156, 540],
+      [149, 547],
+      [137, 555],
+      [133, 558],
+      [122, 558],
+      [120, 556],
+      [120, 554],
+      [125, 549],
+      [141, 536],
+      [147, 533],
+      [156, 530]
+    ],
+    [
+      [172, 533],
+      [177, 530],
+      [181, 530],
+      [193, 533],
+      [195, 535],
+      [198, 541],
+      [199, 548],
+      [199, 550],
+      [198, 552],
+      [193, 555],
+      [181, 561],
+      [179, 561],
+      [153, 558],
+      [151, 556],
+      [151, 554],
+      [156, 548],
+      [157, 547]
+    ]
+  ],
+  "printed": {
+    "fuselage height": 5.94,
+    "fuselage width": 5.77,
+    "wingspan": 60.12,
+    "tailplane span": 19.81,
+    "engine out from the centerline": 9.73
+  },
+  "meta": {
+    "id": "B788",
+    "name": "Boeing 787-8",
+    "types": ["B788"],
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/boeingdotcom/commercial/airports/acaps/787.pdf",
+        "title": "Boeing, 787 Airplane Characteristics for Airport Planning (D6-58333 Rev Q, October 2025), 2.2.1 General Dimensions: Model 787-8; 2.7.1 Door Locations",
+        "accessed": "2026-11-15",
+        "note": "Dimensions and outlines read off the side, plan and front views (tools/trace/b788/), starting from the 787-9's points moved by the two shorter fuselage plugs; the figures are the aircraft's measurements, not a copy of the drawing. Door 3 is placed from the door-location table; the cockpit panes are the 787-9's (the same nose). The sheet prints the engine 9.73 m out; its drawing has it at 9.94 m, as the 787-9's sheet prints (9.91 m) for the same wing, so the shape keeps the drawing's."
+      }
+    ]
+  }
+}

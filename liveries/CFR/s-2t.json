@@ -1,0 +1,316 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "s-2t",
+  "airline": "CFR",
+  "name": "CAL FIRE white and red (S-2T airtanker)",
+  "kind": "standard",
+  "from": "2016",
+  "confidence": "low",
+  "drawnOn": "S2P",
+  "description": "CAL FIRE's scheme on its Grumman S-2T (Marsh S-2F3AT Turbo Tracker) airtankers, as on the C-130H (CFR/standard) placed for the S-2: overall white, the nacelles black. Across the aft fuselage ahead of the tail, leaning forward from the crown to the belly, a thin black line, a broad red band, two thin black pinstripes on white, a second red band and a thin black line. 'CAL FIRE' in red bold italic capitals with a black drop shadow on the nose under the cockpit, 'CAL' over 'FIRE' stepped aft on the left; the base's name in small script above it (not drawn). A red 'PROPELLER' warning stripe in the propellers' plane. On the fin, as on the C-130H: a black tip with 'CAL FIRE' in white, red with the tanker number in big white figures shadowed in black, a black stripe between thin white lines, white below. The registration in big black italic capitals on the aft fuselage. No measured shape for the S-2 (under 25 m, so no card drawing in Skyarium): its shares are read off side-on photos as shares of the fuselage's length and depth, so its colours and their order are right, their exact places approximate.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:S-2F3AT_Tracker_-_N450DF.jpg",
+      "title": "CAL FIRE S-2T N450DF (Tanker 93), 2018-04-14, left side (Tequask, CC BY-SA 4.0)",
+      "accessed": "2026-11-22",
+      "note": "The measuring photo (only measurements are taken), nearly side-on: positions as shares of the fuselage from the nose (155 px) to the tail cone's end (1700 px), heights from its crown and belly at each place (no shape to fit). The stripes' edges (each read on two rows, above and below the nacelle, and drawn straight in side view), the titles, the prop stripe, the fin's bands and lettering, the registration."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:CAL_FIRE_Chico_S-2T_Airtanker_93_N450DF_(2024)-104A6791.jpg",
+      "title": "CAL FIRE S-2T N450DF (Tanker 93) at Chico, 2024-11-14, left side (Frank Schulenburg, CC BY-SA 4.0)",
+      "accessed": "2026-11-22",
+      "note": "The scheme unchanged six years on (a check, taken from ahead so not measured): the same stripes, 'FIRE' (the nose and 'CAL' under a cover), the fin, the registration."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Grumman_S-2F3AT_Tracker_%E2%80%98N426DF_-_88%E2%80%99_(29658253143).jpg",
+      "title": "CAL FIRE S-2T N426DF (Tanker 88) at McClellan, 2016-03-05 (Alan Wilson, CC BY-SA 2.0)",
+      "accessed": "2026-11-22",
+      "note": "Another of the fleet in the same scheme (not measured)."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F2F4F7"
+    },
+    "red": {
+      "hex": "#D0202E",
+      "official": false,
+      "name": "CAL FIRE red (as on the C-130H, CFR/standard)"
+    },
+    "black": {
+      "hex": "#1C1F24"
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "windows": "plain",
+    "areas": [
+      {
+        "name": "the red 'PROPELLER' warning stripe in the propellers' plane, from the cockpit's foot down to the wing's root",
+        "color": "red",
+        "points": [
+          [0.207, 0.46],
+          [0.213, 0.46],
+          [0.213, -0.48],
+          [0.207, -0.48]
+        ],
+        "confidence": "low",
+        "sourceRefs": [0]
+      },
+      {
+        "name": "the thin black line leading the stripes",
+        "color": "black",
+        "points": [
+          [0.6525, 1.0],
+          [0.654, 1.0],
+          [0.5899, -1.0],
+          [0.5844, -1.0]
+        ],
+        "confidence": "low",
+        "sourceRefs": [0, 1]
+      },
+      {
+        "name": "the first broad red band",
+        "color": "red",
+        "points": [
+          [0.6628, 1.0],
+          [0.7087, 1.0],
+          [0.6433, -1.0],
+          [0.5947, -1.0]
+        ],
+        "confidence": "low",
+        "sourceRefs": [0, 1]
+      },
+      {
+        "name": "the first black pinstripe",
+        "color": "black",
+        "points": [
+          [0.7145, 1.0],
+          [0.7184, 1.0],
+          [0.6538, -1.0],
+          [0.6499, -1.0]
+        ],
+        "confidence": "low",
+        "sourceRefs": [0, 1]
+      },
+      {
+        "name": "the second black pinstripe",
+        "color": "black",
+        "points": [
+          [0.7275, 1.0],
+          [0.7313, 1.0],
+          [0.6668, -1.0],
+          [0.6629, -1.0]
+        ],
+        "confidence": "low",
+        "sourceRefs": [0, 1]
+      },
+      {
+        "name": "the second broad red band",
+        "color": "red",
+        "points": [
+          [0.7372, 1.0],
+          [0.7884, 1.0],
+          [0.7211, -1.0],
+          [0.6735, -1.0]
+        ],
+        "confidence": "low",
+        "sourceRefs": [0, 1]
+      },
+      {
+        "name": "the thin black line closing the stripes, carried up into the fin's black stripe",
+        "color": "black",
+        "points": [
+          [0.7945, 1.0],
+          [0.7991, 1.0],
+          [0.7314, -1.0],
+          [0.7269, -1.0]
+        ],
+        "confidence": "low",
+        "sourceRefs": [0, 1]
+      }
+    ],
+    "confidence": "low",
+    "sourceRefs": [0, 1, 2]
+  },
+  "fin": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "the black stripe low on the fin",
+        "color": "black",
+        "points": [
+          [0, 0.187],
+          [1, 0.187],
+          [1, 0.213],
+          [0, 0.213]
+        ],
+        "confidence": "low",
+        "sourceRefs": [0, 1]
+      },
+      {
+        "name": "the red panel, the rudder's too, between thin white lines",
+        "color": "red",
+        "points": [
+          [0, 0.226],
+          [1, 0.226],
+          [1, 0.758],
+          [0, 0.758]
+        ],
+        "confidence": "low",
+        "sourceRefs": [0, 1]
+      },
+      {
+        "name": "the black tip",
+        "color": "black",
+        "points": [
+          [0, 0.784],
+          [1, 0.784],
+          [1, 1],
+          [0, 1]
+        ],
+        "confidence": "low",
+        "sourceRefs": [0, 1]
+      }
+    ],
+    "confidence": "low",
+    "sourceRefs": [0, 1]
+  },
+  "wings": {
+    "top": "white",
+    "under": "white"
+  },
+  "stabilizer": {
+    "top": "white",
+    "under": "white"
+  },
+  "engines": {
+    "cowling": "black",
+    "inletLip": "black",
+    "confidence": "medium",
+    "sourceRefs": [0, 1]
+  },
+  "titles": [
+    {
+      "text": "CAL",
+      "place": "fuselage",
+      "side": "left",
+      "at": [0.09, -0.238],
+      "height": 0.165,
+      "length": 0.0628,
+      "color": "red",
+      "style": "Red bold italic capitals with a black drop shadow, the upper line of the stacked 'CAL FIRE' on the nose under the cockpit, forward on the left.",
+      "confidence": "low",
+      "sourceRefs": [0],
+      "type": {
+        "similar": ["Helvetica Neue Heavy Italic", "Arial Black"],
+        "weight": 900,
+        "slantDeg": 12,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "FIRE",
+      "place": "fuselage",
+      "side": "left",
+      "at": [0.1152, -0.491],
+      "height": 0.197,
+      "length": 0.077,
+      "color": "red",
+      "style": "The lower line, set aft of 'CAL' on the left.",
+      "confidence": "low",
+      "sourceRefs": [0, 1],
+      "type": {
+        "similar": ["Helvetica Neue Heavy Italic", "Arial Black"],
+        "weight": 900,
+        "slantDeg": 12,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "CAL",
+      "place": "fuselage",
+      "side": "right",
+      "at": [0.1294, -0.238],
+      "height": 0.165,
+      "length": 0.0628,
+      "color": "red",
+      "style": "On the right the stack placed as the C-130H's right side has it (CAL above and aft, FIRE forward): no photo of an S-2T's right side was used.",
+      "confidence": "low",
+      "sourceRefs": [0],
+      "type": {
+        "similar": ["Helvetica Neue Heavy Italic", "Arial Black"],
+        "weight": 900,
+        "slantDeg": 12,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "FIRE",
+      "place": "fuselage",
+      "side": "right",
+      "at": [0.09, -0.491],
+      "height": 0.197,
+      "length": 0.077,
+      "color": "red",
+      "style": "The lower line on the right, forward (as on the C-130H's right side).",
+      "confidence": "low",
+      "sourceRefs": [0],
+      "type": {
+        "similar": ["Helvetica Neue Heavy Italic", "Arial Black"],
+        "weight": 900,
+        "slantDeg": 12,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "N450DF",
+      "registration": true,
+      "place": "fuselage",
+      "at": [0.796, -0.448],
+      "height": 0.335,
+      "length": 0.123,
+      "color": "black",
+      "style": "The aircraft's registration (N450DF in the measuring photo) in big black italic capitals on the aft fuselage under the tailplane.",
+      "confidence": "low",
+      "sourceRefs": [0, 1],
+      "type": {
+        "similar": ["Helvetica Neue Bold Italic", "Arial Bold Italic"],
+        "weight": 800,
+        "slantDeg": 12,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "CAL FIRE",
+      "place": "fin",
+      "at": [0.07, 0.813],
+      "height": 0.106,
+      "length": 0.87,
+      "color": "white",
+      "style": "White bold capitals across the black tip.",
+      "confidence": "low",
+      "sourceRefs": [0, 1],
+      "type": {
+        "similar": ["Helvetica Neue Heavy", "Arial Black"],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Measured off N450DF's left side (2018-04-14) without a shape: x as a share from the nose tip to the tail cone's end (1545 px), y from the crown and belly at each place (the fuselage 271 px deep at the titles, 205 px at the stripes), each stripe edge read above and below the nacelle and drawn straight in side view to the crown and belly. The fin's bands by height from its root at the crown (310 px to the tip). 'CAL' from 0.090 to 0.153 of the length, 'FIRE' from 0.115 to 0.192; the registration from 0.796 to 0.919. Every S-2T is drawn with tanker 93's number; the registration is the aircraft's own (`registration`). Not drawn: the base's name in script over the title ('Chico'), 'PROPELLER' lettered down the prop stripe, the red bands on the wings and the folded wing's red, the black walkway and 'HOT LOAD' arrow. The nose is white in 2018 and under a cover in 2024. Right-side titles placed by the C-130H's (no right-side photo used). The tanker number on the fin (118 on N466DF, 93 on N450DF) isn't drawn: it's each plane's own and nothing in the feeds or the FAA registry ties a registration to it, so one plane's number on every plane would be wrong."
+}

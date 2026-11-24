@@ -1,0 +1,390 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "w-1970s",
+  "airline": "WA1926",
+  "name": "The big W (DC-10s, 1970s–80s)",
+  "kind": "standard",
+  "from": "1972",
+  "to": "1987-04",
+  "confidence": "medium",
+  "drawnOn": "MD11",
+  "description": "Western's DC-10 scheme: white, a red band through the windows from the W back to the tail, the big red W on the nose's side under the cockpit, 'Western' in black lower case over the windows ahead of the wing, and a white fin lettered 'Western' in black on a slant. Bare metal engines.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Western_DC-10.jpg",
+      "title": "Western DC-10, N901WA in flight (public domain)",
+      "accessed": "2026-11-23",
+      "note": "Left side, nearly side-on: the band, the W, the title and the fin measured on it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Western_Airlines_DC-10_1_Tilt_Corrected.jpg",
+      "title": "Western Airlines DC-10 (CC BY-SA 3.0)",
+      "accessed": "2026-11-23",
+      "note": "Right side taxiing: the same layout."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:New_Western_Airlines_DC-10.jpg",
+      "title": "New Western Airlines DC-10 (public domain, San Diego Air & Space Museum)",
+      "accessed": "2026-11-23",
+      "note": "Three-quarter front: the W from the nose's side."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F3F1",
+      "official": false
+    },
+    "red": {
+      "hex": "#D0301E",
+      "name": "Western red",
+      "official": false
+    },
+    "black": {
+      "hex": "#1C1C1E",
+      "official": false
+    },
+    "metal": {
+      "hex": "#B8BCC2",
+      "official": false
+    },
+    "radome": {
+      "hex": "#232427",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "windows": "plain",
+    "areas": [
+      {
+        "name": "red band through the windows, from the W to the tail",
+        "color": "red",
+        "points": [
+          [
+            0.185,
+            0.205
+          ],
+          [
+            0.23,
+            0.212
+          ],
+          [
+            0.25,
+            0.209
+          ],
+          [
+            0.495,
+            0.212
+          ],
+          [
+            0.51,
+            0.22
+          ],
+          [
+            0.685,
+            0.214
+          ],
+          [
+            0.7,
+            0.223
+          ],
+          [
+            0.725,
+            0.226
+          ],
+          [
+            0.79,
+            0.233
+          ],
+          [
+            0.81,
+            0.229
+          ],
+          [
+            0.845,
+            0.206
+          ],
+          [
+            0.88,
+            0.166
+          ],
+          [
+            0.905,
+            0.129
+          ],
+          [
+            0.935,
+            0.066
+          ],
+          [
+            0.955,
+            0.007
+          ],
+          [
+            0.965,
+            -0.034
+          ],
+          [
+            0.98,
+            -0.118
+          ],
+          [
+            0.985,
+            -0.15
+          ],
+          [
+            0.995,
+            -0.225
+          ],
+          [
+            0.995,
+            -1
+          ],
+          [
+            0.985,
+            -1
+          ],
+          [
+            0.98,
+            -0.867
+          ],
+          [
+            0.975,
+            -0.713
+          ],
+          [
+            0.97,
+            -0.617
+          ],
+          [
+            0.965,
+            -0.549
+          ],
+          [
+            0.96,
+            -0.494
+          ],
+          [
+            0.95,
+            -0.406
+          ],
+          [
+            0.945,
+            -0.37
+          ],
+          [
+            0.935,
+            -0.308
+          ],
+          [
+            0.93,
+            -0.283
+          ],
+          [
+            0.91,
+            -0.194
+          ],
+          [
+            0.895,
+            -0.144
+          ],
+          [
+            0.875,
+            -0.088
+          ],
+          [
+            0.85,
+            -0.033
+          ],
+          [
+            0.82,
+            0.012
+          ],
+          [
+            0.795,
+            0.034
+          ],
+          [
+            0.765,
+            0.044
+          ],
+          [
+            0.7,
+            0.039
+          ],
+          [
+            0.685,
+            0.031
+          ],
+          [
+            0.535,
+            0.034
+          ],
+          [
+            0.505,
+            0.041
+          ],
+          [
+            0.495,
+            0.031
+          ],
+          [
+            0.23,
+            0.029
+          ],
+          [
+            0.185,
+            0.019
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "radome": {
+      "color": "radome",
+      "to": 0.008
+    },
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "wings": {
+    "top": "metal",
+    "under": "metal"
+  },
+  "engines": {
+    "cowling": "metal",
+    "inletLip": "metal",
+    "confidence": "medium",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "logos": [
+    {
+      "mark": "WA1926/w",
+      "place": "fuselage",
+      "at": [
+        0.155,
+        -0.15
+      ],
+      "height": 0.75,
+      "colors": [
+        "red",
+        "red"
+      ],
+      "description": "Western's big italic W in red on the nose's side, its top level with the band.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Western",
+      "place": "fuselage",
+      "at": [
+        0.3,
+        0.42
+      ],
+      "height": 0.2,
+      "length": 0.09,
+      "color": "black",
+      "style": "Bold sans, upper and lower case, over the windows ahead of the wing.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Bold",
+          "Arial Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      }
+    },
+    {
+      "text": "Western",
+      "place": "fin",
+      "at": [
+        0.45,
+        0.08
+      ],
+      "height": 0.24,
+      "length": 0.85,
+      "rotationDeg": 55,
+      "color": "black",
+      "style": "Bold sans, upper and lower case, rising across the fin.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Bold",
+          "Arial Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      },
+      "side": "left"
+    },
+    {
+      "text": "Western",
+      "place": "fin",
+      "at": [
+        0.55,
+        0.12
+      ],
+      "height": 0.24,
+      "length": 0.85,
+      "rotationDeg": 55,
+      "color": "black",
+      "style": "Bold sans, upper and lower case, rising across the fin.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Bold",
+          "Arial Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      },
+      "side": "right"
+    }
+  ],
+  "notes": "Measured 2026-11-23 on N901WA (Commons). Drawn on the MD-11 (a stretched DC-10 with the same tail engine) until a DC-10 shape exists. For ghost flights."
+}

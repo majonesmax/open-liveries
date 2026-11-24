@@ -1,0 +1,441 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "CAO",
+  "name": "Air China Cargo (Air China phoenix livery)",
+  "kind": "standard",
+  "description": "Air China's phoenix scheme with cargo titles: white with a thin blue line and a broader blue band along the fuselage, the red phoenix on a white fin; up front the Chinese flag, 'AIR CHINA' in black block capitals followed by 'CARGO' in thin italic capitals (black on the 777F, red on the A330), then '中国国际货运航空' in black.",
+  "confidence": "medium",
+  "drawnOn": "B77L",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:B-225C_B777_AIR_CHINA_CARGO_(54699055971).jpg",
+      "title": "B-225C B777 AIR CHINA CARGO (54699055971).jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "777F B-225C, left side, 2025-08-04: titles measured, flag, blue lines, fin."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:B-6090_A330_AIR_CHINA_CARGO.jpg",
+      "title": "B-6090 A330 AIR CHINA CARGO.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "A330-200P2F B-6090, right side, 2026-01-10: same layout; 'CARGO' in red on the A330s."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Air_China_Cargo",
+      "title": "Wikipedia: Air China Cargo",
+      "accessed": "2026-11-13",
+      "note": "ICAO CAO, callsign AIR CHINA FREIGHT; fleet (Oct 2025): 777F, 747-400F, A330-200P2F."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:20240307_Airbus_A321-251NX_of_Air_China_(B-32CC)_at_CGO_01.jpg",
+      "title": "20240307 Airbus A321-251NX of Air China (B-32CC) at CGO 01 (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Left side, 2024-03-07: the two blue lines, flag, titles, Star Alliance badge, the phoenix."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:(SGP-Singapore)_Air_China_Airbus_A321-251NX_B-327T_@_WSSS_2025-11-19.jpg",
+      "title": "Air China Airbus A321-251NX B-327T @ WSSS 2025-11-19 (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Right side, 2025-11-19: the same titles in the same order from the nose; the phoenix is the same artwork, so it faces aft on the right."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F6",
+      "official": false
+    },
+    "blue": {
+      "hex": "#1A4FA0",
+      "official": false
+    },
+    "red": {
+      "hex": "#E1251B",
+      "name": "phoenix red",
+      "official": false
+    },
+    "black": {
+      "hex": "#1A1A1A",
+      "official": false
+    },
+    "flagRed": {
+      "hex": "#DE2910",
+      "name": "PRC flag red",
+      "official": true
+    },
+    "flagYellow": {
+      "hex": "#FFDE00",
+      "name": "PRC flag yellow",
+      "official": true
+    },
+    "badge": {
+      "hex": "#8A8F96",
+      "official": false
+    },
+    "cowl": {
+      "hex": "#E6E8EB",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "thin blue line under the windows",
+        "color": "blue",
+        "points": [
+          [
+            0.018,
+            0.05
+          ],
+          [
+            0.06,
+            0.075
+          ],
+          [
+            0.3,
+            0.09
+          ],
+          [
+            0.8,
+            0.07
+          ],
+          [
+            0.96,
+            0.0
+          ],
+          [
+            0.96,
+            -0.02
+          ],
+          [
+            0.8,
+            0.03
+          ],
+          [
+            0.3,
+            0.05
+          ],
+          [
+            0.06,
+            0.045
+          ],
+          [
+            0.018,
+            0.05
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "blue band, nose to tail cone",
+        "color": "blue",
+        "points": [
+          [
+            0.0,
+            0.02
+          ],
+          [
+            0.04,
+            -0.03
+          ],
+          [
+            0.3,
+            -0.045
+          ],
+          [
+            0.8,
+            -0.08
+          ],
+          [
+            0.87,
+            -0.15
+          ],
+          [
+            0.935,
+            -0.35
+          ],
+          [
+            0.935,
+            -0.62
+          ],
+          [
+            0.87,
+            -0.33
+          ],
+          [
+            0.8,
+            -0.21
+          ],
+          [
+            0.3,
+            -0.17
+          ],
+          [
+            0.04,
+            -0.17
+          ],
+          [
+            0.0,
+            -0.2
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "windows": "hidden",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "mirrored": false,
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "wings": {
+    "top": "#BCC1C7",
+    "under": "#C9CDD2",
+    "confidence": "low"
+  },
+  "winglets": {
+    "outer": "white",
+    "inner": "white",
+    "confidence": "medium",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "cowl",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "CCA/phoenix",
+      "place": "fin",
+      "at": [
+        0.58,
+        0.42
+      ],
+      "height": 0.49,
+      "colors": [
+        "red"
+      ],
+      "description": "The phoenix: a red bird drawn in a few calligraphic strokes, a small crested head with a beak on one side at mid-height, a U-shaped body stroke curving under, and three long feathers sweeping up and away to the opposite top corner, the middle one curling into a spiral. Its strokes also read as the letters 'VIP'. On the left the head faces the nose; the right side shows the same artwork, head aft.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Air_China_Logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "CCA/phoenix",
+      "place": "winglets",
+      "at": [
+        0.45,
+        0.65
+      ],
+      "height": 0.22,
+      "colors": [
+        "red"
+      ],
+      "description": "The phoenix, small, near the winglet's tip. (A330s; the 777F has raked tips.)",
+      "confidence": "high",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "CCA/flag-china",
+      "place": "fuselage",
+      "at": [
+        0.189,
+        0.29
+      ],
+      "height": 0.21,
+      "colors": [
+        "flagRed",
+        "flagYellow"
+      ],
+      "description": "The flag of the People's Republic of China: red, one large and four small yellow stars at the hoist's top corner; ahead of 'AIR CHINA' on both sides.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Flag_of_the_People%27s_Republic_of_China.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "AIR CHINA",
+      "place": "fuselage",
+      "at": [
+        0.231,
+        0.236
+      ],
+      "height": 0.2,
+      "length": 0.07,
+      "color": "black",
+      "style": "Heavy italic capitals, geometric, the A drawn as a pointed arch; behind the flag.",
+      "type": {
+        "similar": [
+          "Futura Bold Oblique",
+          "ITC Avant Garde Gothic Bold Oblique"
+        ],
+        "weight": 800,
+        "slantDeg": 12,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "side": "left"
+    },
+    {
+      "text": "CARGO",
+      "place": "fuselage",
+      "at": [
+        0.313,
+        0.236
+      ],
+      "height": 0.245,
+      "color": "black",
+      "style": "'CARGO' in thin, slightly calligraphic italic capitals straight after 'AIR CHINA' (red on the A330-200P2Fs).",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Optima Italic",
+          "Palatino Italic"
+        ],
+        "weight": 400,
+        "slantDeg": 12,
+        "width": "extended",
+        "strokes": "contrast",
+        "case": "upper"
+      },
+      "length": 0.065,
+      "side": "left"
+    },
+    {
+      "text": "AIR CHINA",
+      "place": "fuselage",
+      "at": [
+        0.308,
+        0.236
+      ],
+      "height": 0.2,
+      "length": 0.07,
+      "color": "black",
+      "style": "Heavy italic capitals, geometric, the A drawn as a pointed arch; behind the flag.",
+      "type": {
+        "similar": [
+          "Futura Bold Oblique",
+          "ITC Avant Garde Gothic Bold Oblique"
+        ],
+        "weight": 800,
+        "slantDeg": 12,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "side": "right"
+    },
+    {
+      "text": "CARGO",
+      "place": "fuselage",
+      "at": [
+        0.231,
+        0.236
+      ],
+      "height": 0.245,
+      "color": "black",
+      "style": "'CARGO' in thin, slightly calligraphic italic capitals straight after 'AIR CHINA' (red on the A330-200P2Fs).",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Optima Italic",
+          "Palatino Italic"
+        ],
+        "weight": 400,
+        "slantDeg": 12,
+        "width": "extended",
+        "strokes": "contrast",
+        "case": "upper"
+      },
+      "length": 0.065,
+      "side": "right"
+    },
+    {
+      "text": "中国国际货运航空",
+      "place": "fuselage",
+      "at": [
+        0.414,
+        0.31
+      ],
+      "height": 0.29,
+      "length": 0.158,
+      "color": "black",
+      "style": "'Air China Cargo' in Chinese, black, eight characters, behind the English titles.",
+      "type": {
+        "similar": [
+          "STXingkai",
+          "Ma Shan Zheng"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "brush"
+      },
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "notes": "Air China Cargo flies under its own code (CAO), every aircraft in this scheme: Air China's (CCA/standard) with cargo titles in place of the airline's, no Star Alliance badge. Measured on the 777F B-225C (left, 2025-08-04). On the A330-200P2Fs (converted from Air China airliners, delivered to Jan 2026) 'CARGO' is red and the winglets carry small phoenixes; on the 747-400Fs not checked. The blue lines match the airliners'. The phoenix mark is Air China's (CCA/phoenix). Re-checked 2026-11-15: 'AIR CHINA' and 'CARGO' are different lettering read as one line, so each side has its own pair: on the right side (B-6090, 2026-01-10) the line reads AIR CHINA CARGO from aft to fore, AIR CHINA at the aft end of the stretch the left side's pair covers (it had been drawn reversed, CARGO AIR CHINA). Titles' places and lengths agree with B-225C.",
+  "history": "New file. Air China Cargo's freighters have worn the parent's phoenix scheme with cargo titles."
+}

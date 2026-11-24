@@ -1,0 +1,21 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "boac-retro",
+  "airline": "BAW",
+  "name": "BOAC (1964-74) retro (BA100)",
+  "kind": "retro",
+  "confidence": "medium",
+  "description": "Fuselage: White upper fuselage, dark navy window band, gray lower fuselage (approximate). Cheatlines: Navy band through windows. Tail: Dark navy fin with the gold BOAC Speedbird. Engines: approximate. Titles: 'BOAC' in navy. Colors hex: approximate.",
+  "sources": [
+    {
+      "url": "https://www.flightglobal.com/air-transport/collectors-offered-parts-of-ba-747-400-which-carried-boac-heritage-livery/155679.article",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://www.scramble.nl/civil-news/british-airways-boac-retro-b747-scrapped",
+      "accessed": "2026-11-12"
+    }
+  ],
+  "notes": "History entry; no longer exists.",
+  "from": "2019-02"
+}

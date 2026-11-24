@@ -1,0 +1,476 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "UAE",
+  "airframes": [
+    {
+      "registration": "A6-EFL",
+      "type": "B77L",
+      "livery": "cargo-1999",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:A6-EFL_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Emirates_SkyCargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Emirates_SkyCargo",
+          "accessed": "2026-11-13",
+          "note": "Fleet (Oct 2026): 19 777F, 2 777-300ERSF."
+        }
+      ],
+      "notes": "Latest Commons photo 2020-12 (flag tail of 1999); not seen since."
+    },
+    {
+      "registration": "A6-EFM",
+      "type": "B77L",
+      "livery": "cargo-1999",
+      "lastSeen": "2026-11-14",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:A6-EFM_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Emirates_SkyCargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Emirates_SkyCargo",
+          "accessed": "2026-11-13",
+          "note": "Fleet (Oct 2026): 19 777F, 2 777-300ERSF."
+        }
+      ],
+      "hex": "89631d"
+    },
+    {
+      "registration": "A6-EFN",
+      "type": "B77L",
+      "livery": "cargo",
+      "lastSeen": "2026-11-14",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:A6-EFN_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Emirates_SkyCargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Emirates_SkyCargo",
+          "accessed": "2026-11-13",
+          "note": "Fleet (Oct 2026): 19 777F, 2 777-300ERSF."
+        }
+      ],
+      "notes": "Repainted: the rippled 2023 flag in a 2026-03-19 photo (STN).",
+      "hex": "8963a1"
+    },
+    {
+      "registration": "A6-EFO",
+      "type": "B77L",
+      "livery": "cargo-1999",
+      "lastSeen": "2024-03-25",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:A6-EFO_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Emirates_SkyCargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Emirates_SkyCargo",
+          "accessed": "2026-11-13",
+          "note": "Fleet (Oct 2026): 19 777F, 2 777-300ERSF."
+        }
+      ]
+    },
+    {
+      "registration": "A6-EFS",
+      "type": "B77L",
+      "livery": "cargo-1999",
+      "lastSeen": "2026-04-03",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:A6-EFS_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Emirates_SkyCargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Emirates_SkyCargo",
+          "accessed": "2026-11-13",
+          "note": "Fleet (Oct 2026): 19 777F, 2 777-300ERSF."
+        }
+      ]
+    },
+    {
+      "registration": "A6-EFT",
+      "type": "B77L",
+      "livery": "cargo-1999",
+      "lastSeen": "2023-06-18",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:A6-EFT_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Emirates_SkyCargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Emirates_SkyCargo",
+          "accessed": "2026-11-13",
+          "note": "Fleet (Oct 2026): 19 777F, 2 777-300ERSF."
+        }
+      ],
+      "notes": "Latest Commons photo 2023-06."
+    },
+    {
+      "registration": "A6-EFU",
+      "type": "B77L",
+      "livery": "cargo-1999",
+      "lastSeen": "2024-10-07",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:A6-EFU_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Emirates_SkyCargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Emirates_SkyCargo",
+          "accessed": "2026-11-13",
+          "note": "Fleet (Oct 2026): 19 777F, 2 777-300ERSF."
+        }
+      ]
+    },
+    {
+      "registration": "A6-EFV",
+      "type": "B77L",
+      "livery": "cargo",
+      "lastSeen": "2026-11-14",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:A6-EFV_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Emirates_SkyCargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Emirates_SkyCargo",
+          "accessed": "2026-11-13",
+          "note": "Fleet (Oct 2026): 19 777F, 2 777-300ERSF."
+        }
+      ],
+      "notes": "Repainted in the 2023 scheme (Liege 2026-03-19, HKG 2026-09-29).",
+      "hex": "896614"
+    },
+    {
+      "registration": "A6-EFX",
+      "type": "B77L",
+      "livery": "cargo",
+      "lastSeen": "2026-11-14",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:A6-EFX_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Emirates_SkyCargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Emirates_SkyCargo",
+          "accessed": "2026-11-13",
+          "note": "Fleet (Oct 2026): 19 777F, 2 777-300ERSF."
+        }
+      ],
+      "hex": "896616"
+    },
+    {
+      "registration": "A6-EFZ",
+      "type": "B77L",
+      "livery": "cargo",
+      "lastSeen": "2026-09-27",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:A6-EFZ_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Emirates_SkyCargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Emirates_SkyCargo",
+          "accessed": "2026-11-13",
+          "note": "Fleet (Oct 2026): 19 777F, 2 777-300ERSF."
+        }
+      ]
+    },
+    {
+      "registration": "A6-EWK",
+      "type": "B77L",
+      "livery": "cargo",
+      "lastSeen": "2026-04-04",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:A6-EWK_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Emirates_SkyCargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Emirates_SkyCargo",
+          "accessed": "2026-11-13",
+          "note": "Fleet (Oct 2026): 19 777F, 2 777-300ERSF."
+        }
+      ],
+      "notes": "Delivered 2026 in the 2023 scheme."
+    },
+    {
+      "registration": "A6-EWL",
+      "type": "B77L",
+      "livery": "cargo",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Emirates_SkyCargo",
+          "accessed": "2026-11-13",
+          "note": "Fleet (Oct 2026): 19 777F, 2 777-300ERSF."
+        },
+        {
+          "url": "https://www.airfleets.net/listing/b777-1-msndesc.htm",
+          "accessed": "2026-11-13",
+          "note": "777 production list: active with Emirates."
+        }
+      ],
+      "notes": "Delivered 2026 (first flight 2026-03-20 per airfleets.net); new 777Fs arrive in the 2023 scheme. No Commons photo found."
+    },
+    {
+      "registration": "A6-EWM",
+      "type": "B77L",
+      "livery": "cargo",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Emirates_SkyCargo",
+          "accessed": "2026-11-13",
+          "note": "Fleet (Oct 2026): 19 777F, 2 777-300ERSF."
+        },
+        {
+          "url": "https://www.airfleets.net/listing/b777-1-msndesc.htm",
+          "accessed": "2026-11-13",
+          "note": "777 production list: active with Emirates."
+        }
+      ],
+      "notes": "Delivered 2026 (first flight 2026-04-07 per airfleets.net); no Commons photo found."
+    },
+    {
+      "registration": "A6-EWN",
+      "type": "B77L",
+      "livery": "cargo",
+      "lastSeen": "2026-10-05",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:A6-EWN_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Emirates_SkyCargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Emirates_SkyCargo",
+          "accessed": "2026-11-13",
+          "note": "Fleet (Oct 2026): 19 777F, 2 777-300ERSF."
+        }
+      ]
+    },
+    {
+      "registration": "A6-EWO",
+      "type": "B77L",
+      "livery": "cargo",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Emirates_SkyCargo",
+          "accessed": "2026-11-13",
+          "note": "Fleet (Oct 2026): 19 777F, 2 777-300ERSF."
+        },
+        {
+          "url": "https://www.airfleets.net/listing/b777-1-msndesc.htm",
+          "accessed": "2026-11-13",
+          "note": "777 production list: active with Emirates."
+        }
+      ],
+      "notes": "Delivered mid-2026 (airfleets.net); no Commons photo found."
+    },
+    {
+      "registration": "A6-EWP",
+      "type": "B77L",
+      "livery": "cargo",
+      "lastSeen": "2026-09-29",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:A6-EWP_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Emirates_SkyCargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Emirates_SkyCargo",
+          "accessed": "2026-11-13",
+          "note": "Fleet (Oct 2026): 19 777F, 2 777-300ERSF."
+        }
+      ]
+    },
+    {
+      "registration": "A6-EWQ",
+      "type": "B77L",
+      "livery": "cargo",
+      "lastSeen": "2026-09-09",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:A6-EWQ_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Emirates_SkyCargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Emirates_SkyCargo",
+          "accessed": "2026-11-13",
+          "note": "Fleet (Oct 2026): 19 777F, 2 777-300ERSF."
+        }
+      ]
+    },
+    {
+      "registration": "A6-EBK",
+      "hex": "8960d2",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77W",
+      "livery": "cargo",
+      "from": "2026-06",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://www.emirates.com/media-centre/emirates-becomes-first-airline-cargo-carrier-to-deploy-the-boeing-777-300ersf/",
+          "accessed": "2026-11-13",
+          "note": "Emirates' first 777-300ERSF, in service June 2026."
+        },
+        {
+          "url": "https://www.ch-aviation.com/news/167848-emirates-takes-first-b777-300ersf-post-conversion",
+          "accessed": "2026-11-13",
+          "note": "Ferried to Abu Dhabi for repainting 2026-05-28."
+        }
+      ],
+      "notes": "777-300ER converted to a freighter by IAI; repainted as a freighter in 2026. Scheme taken to be the 2023 SkyCargo one (no dated photo of it as a freighter found).",
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "A6-EVG",
+      "livery": "uae-flag",
+      "confidence": "high",
+      "type": "A388",
+      "hex": "8964b5",
+      "hexSource": "looked up: hexdb.io and adsbdb agree (2026-11-22); not verified against the national register",
+      "from": "2026-05",
+      "lastSeen": "2026-07-28",
+      "sources": [
+        {
+          "url": "https://www.emirates.com/media-centre/emirates-unveils-a-striking-new-uae-flag-livery-on-its-a380/",
+          "title": "Emirates: UAE flag livery on its A380 (press release, 8 May 2026)",
+          "accessed": "2026-11-22",
+          "note": "Names A6-EVG (World Airline News' copy)."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:A6-EVG_(aircraft)",
+          "title": "A6-EVG on Commons",
+          "accessed": "2026-11-22",
+          "note": "2026-07-01 (Auckland, right side) and 2026-07-28 (left side, landing) in the flag scheme; 2025 photos in the plain 2023 scheme."
+        }
+      ],
+      "status": "active: unveiled 8 May 2026; Commons photos 1 and 28 July 2026; webcam sighting 2026-11-03 (lead)."
+    },
+    {
+      "registration": "A6-EOD",
+      "livery": "nba",
+      "confidence": "medium",
+      "type": "A388",
+      "hex": "89639d",
+      "hexSource": "looked up: hexdb.io and adsbdb agree (2026-11-22); not verified against the national register",
+      "from": "2024-10",
+      "lastSeen": "2025-11-11",
+      "sources": [
+        {
+          "url": "https://www.emirates.com/media-centre/emirates-introduces-bold-nba-livery-ahead-of-emirates-nba-cup/",
+          "title": "Emirates introduces bold NBA livery (press release, 18 October 2024)",
+          "accessed": "2026-11-22",
+          "note": "A6-EOD (Business Wire's and AirlineGeeks' copies)."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:A6-EOD_NCE_(54917538991).jpg",
+          "title": "A6-EOD NCE (CC BY-SA 4.0)",
+          "accessed": "2026-11-22",
+          "note": "Right side at Nice, 2025-11-11: still in the NBA scheme."
+        }
+      ],
+      "status": "active (presumed): newest open photo Nice 2025-11-11; JetPhotos at JFK 2025-12-11 (lead); no repaint reported."
+    },
+    {
+      "registration": "A6-EOE",
+      "livery": "wimbledon",
+      "confidence": "medium",
+      "type": "A388",
+      "hex": "89639e",
+      "hexSource": "looked up: hexdb.io and adsbdb agree (2026-11-22); not verified against the national register",
+      "from": "2024-06",
+      "lastSeen": "2025-04-02",
+      "sources": [
+        {
+          "url": "https://www.emirates.com/media-centre/emirates-steps-into-court-as-official-airline-partner-of-wimbledon/",
+          "title": "Emirates steps into court as Official Airline Partner of Wimbledon (press release, 28 June 2024)",
+          "accessed": "2026-11-22"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:A6-EOE_(aircraft)",
+          "title": "A6-EOE on Commons",
+          "accessed": "2026-11-22",
+          "note": "Both sides at Sydney, 2025-04-02, in the Wimbledon scheme."
+        }
+      ],
+      "status": "active (presumed): newest open photos Sydney 2025-04-02; webcam sighting 2026-11-03 (lead); no removal reported."
+    }
+  ]
+}

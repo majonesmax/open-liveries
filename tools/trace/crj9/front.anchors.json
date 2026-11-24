@@ -1,0 +1,11 @@
+{
+  "_about": "Bombardier CRJ900 Airport Planning Manual (CSP C-020, Revision 11), 00-02-02 Figure 4 Aircraft Dimensions sheet 1: page index 37, layers.py --mode strokes --color 0,0,0 at scale 17.733, clip 90,110,500,240 (front; the sheet draws it 1.353 times the side view, from its printed 24.85 m span: rendered to the side scale). Pixels of that raster, line centres; the right half as drawn (the aircraft left side).",
+  "fuselage.section": [[3354, 1150], [3420, 1158], [3500, 1184], [3550, 1218], [3600, 1268], [3640, 1331], [3666, 1450], [3655, 1550], [3640, 1620], [3600, 1656], [3550, 1706], [3500, 1738]],
+  "wing.upper": [[3700, 1660], [4300, 1670], [5000, 1664], [5800, 1653], [6000, 1650], [6050, 1616], [6100, 1550], [6150, 1485], [6200, 1420], [6240, 1384]],
+  "wing.lower": [[3700, 1814], [4300, 1777], [5000, 1722], [5800, 1686], [6000, 1678], [6080, 1610], [6120, 1553], [6180, 1467], [6240, 1384]],
+  "stabilizer.upper": [[3400, 572], [3700, 604], [4000, 636], [4300, 668], [4340, 673]],
+  "stabilizer.lower": [[3400, 630], [3700, 651], [4000, 670], [4300, 691], [4340, 694]],
+  "engine.inlet": [[3888, 1113], [4015, 1166], [4068, 1292], [4015, 1419], [3888, 1472], [3761, 1419], [3708, 1292], [3761, 1166], [3888, 1113]],
+  "pylon.upper": [[3668, 1312], [3705, 1303]],
+  "pylon.lower": [[3668, 1382], [3712, 1372]]
+}

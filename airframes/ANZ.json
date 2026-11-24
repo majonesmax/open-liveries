@@ -1,0 +1,44 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "ANZ",
+  "airframes": [
+    {
+      "registration": "ZK-NZE",
+      "livery": "all-black",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:ZK-NZE_(aircraft)",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "c820d1",
+      "hexSource": "looked up: hexdb.io community database (2026-11-12); not verified against the national register",
+      "type": "B789",
+      "from": "2014",
+      "lastSeen": "2026-08-25",
+      "status": "active: Commons photos 30 Apr 2026 (NZ6 AKL-LAX) and 25 Aug 2026."
+    },
+    {
+      "registration": "ZK-OKQ",
+      "livery": "all-black",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:ZK-OKQ_(aircraft)",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:ZK-NZE_(aircraft)",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "c81e22",
+      "hexSource": "looked up: hexdb.io community database (2026-11-12); not verified against the national register",
+      "type": "B77W",
+      "from": "2011",
+      "lastSeen": "2026-04-08",
+      "status": "active: Commons photo 8 Apr 2026 (approach, apparently LAX)."
+    }
+  ]
+}

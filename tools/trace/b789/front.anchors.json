@@ -1,0 +1,48 @@
+{
+  "_about": "Boeing D6-58333 Rev Q, 2.2.2 General Dimensions, 787-9: page index 21, a picture; layers.py --mode image at scale 8, clip 128,570,490,676 (front; the image's right half is the aircraft's left side; centerline x 1452). Pixels of that raster, line centres. The front view's tailplane and wing are drawn about 3% and 1% narrower than the plan's: it gives only heights.",
+  "fuselage.section": [
+    [1452, 445],
+    [1480, 448],
+    [1500, 454],
+    [1530, 470],
+    [1544, 480],
+    [1562, 500],
+    [1574, 520],
+    [1584, 550],
+    [1588, 580]
+  ],
+  "wing.upper": [
+    [1600, 604],
+    [1700, 600],
+    [1800, 591],
+    [1900, 582],
+    [2000, 574],
+    [2200, 548],
+    [2400, 526],
+    [2600, 502],
+    [2700, 491],
+    [2800, 481],
+    [2860, 465]
+  ],
+  "wing.lower": [
+    [2000, 602],
+    [2200, 571],
+    [2400, 542],
+    [2600, 515],
+    [2700, 502],
+    [2800, 484],
+    [2860, 465]
+  ],
+  "stabilizer.upper": [
+    [1592, 532],
+    [1700, 522],
+    [1800, 511],
+    [1900, 500]
+  ],
+  "stabilizer.lower": [
+    [1592, 555],
+    [1700, 538],
+    [1800, 522],
+    [1900, 505]
+  ]
+}

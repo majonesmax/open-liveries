@@ -1,0 +1,629 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "ANA",
+  "name": "Triton Blue",
+  "kind": "standard",
+  "from": "1982",
+  "confidence": "high",
+  "drawnOn": "B789",
+  "description": "White, with a Triton Blue cheatline that starts as a sliver under the nose, widens aft and climbs through the window line to sweep up into the fin, and a Mohican Blue band appearing under it ahead of the wing and running with it to the tail. Triton Blue fin with a Mohican Blue strip along its trailing edge and big white 'ANA' set diagonally up it. 'ANA' with its two-bar slash ahead of the wing, 'Inspiration of JAPAN' over the windows. White engines.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/All_Nippon_Airways",
+      "accessed": "2026-11-13",
+      "note": "Triton Blue livery introduced 1982-83, keeping the earlier Mohican Blue."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:ANA_JA936A_787-9_HND_26-09-2024.jpg",
+      "title": "ANA JA936A 787-9 HND 26-09-2024 (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Left side, level, 2024-09-26: the geometry of both bands, the fin, titles and logos (measured)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:JA142A_HND_2025-03-20.jpg",
+      "title": "JA142A HND 2025-03-20 (CC BY-SA 2.0)",
+      "accessed": "2026-11-13",
+      "note": "A321neo left side, 2025-03-20: the same scheme on a narrow-body, the ANA logo close up, sharklet."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:ANA_B787-10_JA982A_l_FUK_RJFF_l_06-JUN-2025_(55135494129).jpg",
+      "title": "ANA B787-10 JA982A, FUK, 2025-06-06 (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "787-10 and 767-300 from the left: the bands and fin on two more types."
+    },
+    {
+      "url": "https://www.ana.co.jp/group/en/70th/archives/ap13/",
+      "accessed": "2026-11-13",
+      "note": "ANA's own history of the Triton Blue and Mohican Blue."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F5F7",
+      "official": false
+    },
+    "triton": {
+      "hex": "#1F3F9E",
+      "name": "Triton Blue",
+      "official": false
+    },
+    "mohican": {
+      "hex": "#1BA6E4",
+      "name": "Mohican Blue",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC5",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "name": "bare metal inlet lip",
+      "official": false
+    },
+    "starGray": {
+      "hex": "#8E9399",
+      "official": false
+    },
+    "red": {
+      "hex": "#D7263D",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "Triton Blue cheatline, from a sliver under the nose up into the fin",
+        "color": "triton",
+        "points": [
+          [
+            0.023,
+            -0.266
+          ],
+          [
+            0.034,
+            -0.234
+          ],
+          [
+            0.098,
+            -0.231
+          ],
+          [
+            0.162,
+            -0.172
+          ],
+          [
+            0.259,
+            -0.056
+          ],
+          [
+            0.323,
+            -0.018
+          ],
+          [
+            0.388,
+            0.036
+          ],
+          [
+            0.452,
+            0.088
+          ],
+          [
+            0.517,
+            0.163
+          ],
+          [
+            0.581,
+            0.252
+          ],
+          [
+            0.646,
+            0.371
+          ],
+          [
+            0.71,
+            0.422
+          ],
+          [
+            0.774,
+            0.531
+          ],
+          [
+            0.826,
+            0.731
+          ],
+          [
+            0.843,
+            1.0
+          ],
+          [
+            0.8427835051546392,
+            1
+          ],
+          [
+            0.9387886597938144,
+            1
+          ],
+          [
+            0.939,
+            1.0
+          ],
+          [
+            0.871,
+            0.297
+          ],
+          [
+            0.807,
+            0.16
+          ],
+          [
+            0.742,
+            0.15
+          ],
+          [
+            0.646,
+            0.191
+          ],
+          [
+            0.613,
+            0.147
+          ],
+          [
+            0.517,
+            0.048
+          ],
+          [
+            0.42,
+            -0.061
+          ],
+          [
+            0.343,
+            -0.146
+          ],
+          [
+            0.285,
+            -0.227
+          ],
+          [
+            0.259,
+            -0.244
+          ],
+          [
+            0.162,
+            -0.288
+          ],
+          [
+            0.098,
+            -0.308
+          ],
+          [
+            0.034,
+            -0.309
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          1,
+          2,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "Mohican Blue band under it, from ahead of the wing to the tail cone",
+        "color": "mohican",
+        "points": [
+          [
+            0.285,
+            -0.227
+          ],
+          [
+            0.343,
+            -0.146
+          ],
+          [
+            0.42,
+            -0.061
+          ],
+          [
+            0.517,
+            0.048
+          ],
+          [
+            0.613,
+            0.147
+          ],
+          [
+            0.646,
+            0.191
+          ],
+          [
+            0.742,
+            0.15
+          ],
+          [
+            0.807,
+            0.16
+          ],
+          [
+            0.871,
+            0.297
+          ],
+          [
+            0.939,
+            1.0
+          ],
+          [
+            0.9387886597938144,
+            1
+          ],
+          [
+            0.9774484536082474,
+            1
+          ],
+          [
+            0.977,
+            1.0
+          ],
+          [
+            0.936,
+            0.199
+          ],
+          [
+            0.871,
+            0.037
+          ],
+          [
+            0.807,
+            -0.034
+          ],
+          [
+            0.742,
+            -0.062
+          ],
+          [
+            0.646,
+            0.001
+          ],
+          [
+            0.613,
+            -0.056
+          ],
+          [
+            0.517,
+            -0.133
+          ],
+          [
+            0.42,
+            -0.213
+          ],
+          [
+            0.343,
+            -0.252
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          1,
+          2,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "ANA logo's slash: Triton Blue bar",
+        "color": "triton",
+        "points": [
+          [
+            0.202,
+            0.235
+          ],
+          [
+            0.211,
+            0.232
+          ],
+          [
+            0.223,
+            0.42
+          ],
+          [
+            0.215,
+            0.423
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "ANA logo's slash: Mohican Blue bar",
+        "color": "mohican",
+        "points": [
+          [
+            0.211,
+            0.232
+          ],
+          [
+            0.215,
+            0.231
+          ],
+          [
+            0.227,
+            0.417
+          ],
+          [
+            0.224,
+            0.419
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      }
+    ],
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2,
+      3
+    ]
+  },
+  "fin": {
+    "base": "triton",
+    "areas": [
+      {
+        "name": "white leading edge",
+        "color": "white",
+        "points": [
+          [
+            -0.05,
+            0
+          ],
+          [
+            0.05,
+            0
+          ],
+          [
+            0.06,
+            1.05
+          ],
+          [
+            -0.05,
+            1.05
+          ]
+        ]
+      },
+      {
+        "name": "Mohican Blue strip along the trailing edge",
+        "color": "mohican",
+        "points": [
+          [
+            0.9,
+            -0.05
+          ],
+          [
+            1.05,
+            -0.05
+          ],
+          [
+            1.05,
+            1.05
+          ],
+          [
+            0.78,
+            1.05
+          ]
+        ]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2,
+      3
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "triton",
+    "areas": [
+      {
+        "name": "Mohican Blue trailing strip",
+        "color": "mohican",
+        "points": [
+          [
+            0.8,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0.85,
+            1
+          ]
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "pylon": "white",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "ANA/japan-flag",
+      "place": "fuselage",
+      "at": [
+        0.14,
+        0.386
+      ],
+      "height": 0.26,
+      "colors": [
+        "white",
+        "red"
+      ],
+      "description": "The Japanese flag (Hinomaru), a white field with a red disc, small in a thin gray outline, just ahead of the ANA logo.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Flag_of_Japan.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "ANA/star-alliance",
+      "place": "fuselage",
+      "at": [
+        0.073,
+        0.307
+      ],
+      "height": 0.16,
+      "colors": [
+        "starGray"
+      ],
+      "description": "Star Alliance's five-triangle star, small and gray, aft of the cockpit windows by the first door.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Star_Alliance_Logo.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "ANA/wordmark",
+      "place": "winglets",
+      "at": [
+        0.45,
+        0.45
+      ],
+      "height": 0.3,
+      "colors": [
+        "white"
+      ],
+      "description": "On narrow-body sharklets: 'ANA' in white, reading up the winglet, on the Triton Blue.",
+      "reference": "https://commons.wikimedia.org/wiki/File:All_Nippon_Airways_Logo.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "ANA",
+      "place": "fuselage",
+      "at": [
+        0.154,
+        0.259
+      ],
+      "height": 0.27,
+      "length": 0.043,
+      "color": "triton",
+      "style": "The ANA wordmark: heavy, wide, italic capitals whose A's have a slanted left leg and an upright right leg, the N leaning to match; followed by the two-bar slash (drawn as areas). Ahead of the wing over the forward windows.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Eurostile Extended Black",
+          "Microgramma Bold Extended"
+        ],
+        "weight": 800,
+        "slantDeg": 18,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "Inspiration of JAPAN",
+      "place": "fuselage",
+      "at": [
+        0.329,
+        0.324
+      ],
+      "height": 0.16,
+      "color": "triton",
+      "style": "Slogan over the windows between doors 1 and 2: an upright humanist sans, regular weight, 'JAPAN' in capitals.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Frutiger 55 Roman",
+          "Myriad Pro Regular"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.66
+      },
+      "length": 0.124
+    },
+    {
+      "text": "ANA",
+      "place": "fin",
+      "at": [
+        0.45,
+        0.13
+      ],
+      "height": 0.2,
+      "color": "white",
+      "style": "The ANA wordmark in white, very large, set diagonally (about 50 degrees) reading up the fin toward the tip, from low mid-chord [0.45, 0.13] to the trailing edge's strip at about [0.95, 0.62]. The schema has no rotation, so a horizontal rendering overflows: draw it rotated.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Eurostile Extended Black",
+          "Microgramma Bold Extended"
+        ],
+        "weight": 800,
+        "slantDeg": 18,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "rotationDeg": 50,
+      "length": 0.7
+    }
+  ],
+  "notes": "Drawn from 2024-25 photos of a 787-9 (measured), an A321neo and a 787-10/767. The Triton Blue band is level with the windows aft of the wing (the windows sit in it), and below them ahead of the wing. Belly not seen squarely: white, as the lower sides show. Not drawn: the registration, the type ('BOEING 787-9') and a small flag by the aft door. The sharklets' inner face wasn't seen. Some 777s and 787s carry 'Inspiration of JAPAN'; it is fleet-wide by 2025 photos. Many specials (Star Wars, Pokémon, the A380 'Flying Honu' turtles, Star Alliance) are not this scheme. Re-checked 2026-11-15 on JA936A: title lengths measured (ANA 0.043, the slogan 0.124, its lowercase 0.66 of its capitals; the fin's ANA runs about 0.7 of the chord where it starts); the two bands' edges are sweeping curves, now drawn smooth through the measured points.",
+  "history": "Replaced Skyarium v1's approximation. Triton Blue has been ANA's standard since 1982-83, replacing the Mohican scheme (light-blue cheatline and a stylised Leonardo helicopter on the fin)."
+}

@@ -1,0 +1,268 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "DLA",
+  "name": "Standard",
+  "kind": "standard",
+  "confidence": "medium",
+  "drawnOn": "E195",
+  "description": "White fuselage with a small dark-blue 'AirDolomiti' over the forward windows. Teal fin with a white leading-edge strip and the white Air Dolomiti mark (a diamond with chevrons); teal runs down onto the rear fuselage on a diagonal from the fin to the belly. Teal winglets, gray engines.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Air_Dolomiti",
+      "accessed": "2026-11-13",
+      "note": "ICAO DLA; Lufthansa subsidiary keeping its own identity; E190/E195 fleet."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:I-ADJY_AIRCRAFT_Embraer_E195LR_-1b.jpg",
+      "title": "I-ADJY Embraer E195LR, 2026-03-05 (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Right side from below: teal tail block, fin, titles, winglets."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:I-ADJY_AIRCRAFT_Embraer_E195LR_-1c.jpg",
+      "title": "I-ADJY Embraer E195LR, 2026-03-05 (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Right side, closer: the fin mark and nose chevron."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:Current_Embraer_195_of_Air_Dolomiti",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F6",
+      "official": false
+    },
+    "teal": {
+      "hex": "#1D9BB2",
+      "official": false
+    },
+    "navy": {
+      "hex": "#1E2B5C",
+      "official": false
+    },
+    "cone": {
+      "hex": "#C9CCD0",
+      "official": false
+    },
+    "cowl": {
+      "hex": "#D3D6DA",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "teal tail block",
+        "color": "teal",
+        "points": [
+          [
+            0.81,
+            1.0
+          ],
+          [
+            0.765,
+            -1.0
+          ],
+          [
+            0.953,
+            -1
+          ],
+          [
+            0.953,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "gray tail cone",
+        "color": "cone",
+        "points": [
+          [
+            0.953,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0.953,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      }
+    ],
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "teal",
+    "mirrored": true,
+    "areas": [
+      {
+        "name": "white leading-edge strip, widening into the dorsal fairing",
+        "color": "white",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0.35,
+            0
+          ],
+          [
+            0.13,
+            0.45
+          ],
+          [
+            0.12,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "winglets": {
+    "outer": "teal",
+    "inner": "teal",
+    "confidence": "high",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "cowl",
+    "confidence": "low",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "DLA/diamond",
+      "place": "fin",
+      "at": [
+        0.7,
+        0.36
+      ],
+      "height": 0.39,
+      "colors": [
+        "white"
+      ],
+      "description": "The Air Dolomiti mark: a flat diamond (rhombus) beside two nested chevrons pointing the same way, like folded paper; white on the teal.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Air_Dolomiti_logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "DLA/diamond",
+      "place": "fuselage",
+      "at": [
+        0.068,
+        -0.1
+      ],
+      "height": 0.2,
+      "colors": [
+        "teal"
+      ],
+      "description": "Small teal mark behind the nose.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Air_Dolomiti_logo.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "DLA/diamond",
+      "place": "winglets",
+      "at": [
+        0.5,
+        0.6
+      ],
+      "height": 0.2,
+      "colors": [
+        "white"
+      ],
+      "description": "Small white mark on the teal winglet.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Air_Dolomiti_logo.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "AirDolomiti",
+      "place": "fuselage",
+      "at": [
+        0.158,
+        0.27
+      ],
+      "height": 0.21,
+      "length": 0.088,
+      "color": "navy",
+      "style": "Compact geometric sans in mixed case, the two words run together, medium-bold, over the forward windows; the 'D' drawn open.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Demi Bold",
+          "Futura Medium"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.7
+      }
+    }
+  ],
+  "notes": "Only right-side photos checked; the left is assumed to match. The year this scheme was introduced isn't confirmed (an older version flew on the ATRs). Not drawn: 'Lufthansa Group' small under the title, registration with Italian and EU flags aft. Re-checked 2026-11-15 on I-ADJY (E195, right, 2026-03-05): the title (x 0.157-0.248) agrees; lowercase ~0.70 of the capitals; the teal block's forward edge is a straight diagonal as seen from the side: its points along the line replaced by the two ends.",
+  "history": "New in the dataset (Skyarium v1 had no Air Dolomiti entry)."
+}

@@ -1,0 +1,543 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "APJ",
+  "name": "Peach livery",
+  "kind": "standard",
+  "from": "2012",
+  "confidence": "high",
+  "drawnOn": "A320",
+  "description": "A white nose cut off by a curved diagonal from the crown ahead of the wing down to the belly under the cockpit; behind it the whole aircraft fuchsia, with a deeper magenta wedge low under the wing and the upper rear lilac-purple, a white belly under the tail. Fuchsia fin with lilac at the tip and a pale pink swirl, giant white lowercase 'peach' set diagonally up the fin, its 'p' dropping onto the fuselage. Magenta 'peach' over the forward windows on the white; fuchsia engines; deep magenta sharklets with white 'peach'.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Peach_Aviation",
+      "accessed": "2026-11-13",
+      "note": "Peach began flying in March 2012 in this scheme; it kept it after absorbing Vanilla Air in 2019."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:JA216P_@_FUK,_2025-03-28.jpg",
+      "title": "JA216P @ FUK, 2025-03-28 (CC BY-SA 4.0, Eric Salard)",
+      "accessed": "2026-11-13",
+      "note": "A320neo left side, slightly from above: all the color boundaries, titles, fin, engine and sharklets (measured)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Peach_A320-251N_JA219P_l_TPE_RCTP_l_11-JAN-2026_(55070133389).jpg",
+      "title": "Peach A320-251N JA219P, TPE, 2026-01-11 (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Right side, taking off: the same layout mirrored (the white nose's diagonal, lilac rear, fin lettering)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Peach_Airbus_A320-251N_(JA218P_12064)_(54728838683).jpg",
+      "title": "Peach A320-251N JA218P, 2025-08-18 (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Left side, level, from a distance: overall proportions."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "fuchsia": {
+      "hex": "#CC3E98",
+      "official": false
+    },
+    "deepMagenta": {
+      "hex": "#8E1C6A",
+      "official": false
+    },
+    "lilac": {
+      "hex": "#B477D6",
+      "official": false
+    },
+    "pink": {
+      "hex": "#EBA8E4",
+      "official": false
+    },
+    "titleMagenta": {
+      "hex": "#AE2482",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#BFC3C9",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "name": "bare metal inlet lip",
+      "official": false
+    },
+    "red": {
+      "hex": "#D7263D",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "fuchsia, everything aft of the white nose's curved diagonal",
+        "color": "fuchsia",
+        "points": [
+          [
+            0.329,
+            0.908
+          ],
+          [
+            0.297,
+            0.226
+          ],
+          [
+            0.266,
+            0.025
+          ],
+          [
+            0.236,
+            -0.154
+          ],
+          [
+            0.205,
+            -0.309
+          ],
+          [
+            0.174,
+            -0.409
+          ],
+          [
+            0.144,
+            -0.504
+          ],
+          [
+            0.113,
+            -0.625
+          ],
+          [
+            0.082,
+            -0.759
+          ],
+          [
+            0.072,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0.329,
+            1
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          1,
+          2,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "deeper magenta wedge low under the wing",
+        "color": "deepMagenta",
+        "points": [
+          [
+            0.6,
+            0.24
+          ],
+          [
+            0.69,
+            -0.139
+          ],
+          [
+            0.724,
+            -0.665
+          ],
+          [
+            0.738,
+            -1.0
+          ],
+          [
+            0.738,
+            -1
+          ],
+          [
+            0.419,
+            -1
+          ],
+          [
+            0.419,
+            -1.0
+          ],
+          [
+            0.447,
+            -0.564
+          ],
+          [
+            0.509,
+            -0.126
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "lilac upper rear, its forward edge a diagonal from the crown over the wing down to the belly",
+        "color": "lilac",
+        "points": [
+          [
+            0.566,
+            1
+          ],
+          [
+            0.605,
+            0.255
+          ],
+          [
+            0.69,
+            -0.139
+          ],
+          [
+            0.724,
+            -0.665
+          ],
+          [
+            0.738,
+            -1.0
+          ],
+          [
+            0.738,
+            -1
+          ],
+          [
+            0.746,
+            -1
+          ],
+          [
+            0.746,
+            -0.73
+          ],
+          [
+            0.774,
+            -0.205
+          ],
+          [
+            0.828,
+            0.153
+          ],
+          [
+            0.814,
+            0.717
+          ],
+          [
+            0.814,
+            1
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "name": "white under the tail",
+        "color": "white",
+        "points": [
+          [
+            0.738,
+            -1.0
+          ],
+          [
+            0.746,
+            -0.73
+          ],
+          [
+            0.774,
+            -0.205
+          ],
+          [
+            0.828,
+            0.153
+          ],
+          [
+            0.87,
+            -0.013
+          ],
+          [
+            0.927,
+            -0.139
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            0.738,
+            -1
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "name": "pale pink swirl along the tail cone (from the fin's ring)",
+        "color": "pink",
+        "points": [
+          [
+            0.848,
+            0.171
+          ],
+          [
+            0.882,
+            0.452
+          ],
+          [
+            0.927,
+            0.509
+          ],
+          [
+            1.0,
+            0.128
+          ],
+          [
+            1.0,
+            -0.667
+          ],
+          [
+            0.927,
+            -0.096
+          ],
+          [
+            0.87,
+            0.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      }
+    ],
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2,
+      3
+    ]
+  },
+  "fin": {
+    "base": "fuchsia",
+    "areas": [
+      {
+        "name": "lilac at the tip",
+        "color": "lilac",
+        "above": [
+          [
+            0,
+            0.91
+          ],
+          [
+            1,
+            0.82
+          ]
+        ]
+      },
+      {
+        "name": "lilac low on the leading edge",
+        "color": "lilac",
+        "points": [
+          [
+            -0.05,
+            -0.05
+          ],
+          [
+            0.3,
+            -0.05
+          ],
+          [
+            0.3,
+            0
+          ],
+          [
+            0.08,
+            0.25
+          ],
+          [
+            -0.05,
+            0.32
+          ]
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "deepMagenta",
+    "areas": [
+      {
+        "name": "white-gray leading edge",
+        "color": "white",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0.22,
+            0
+          ],
+          [
+            0.22,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "fuchsia",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "APJ/wordmark",
+      "place": "winglets",
+      "at": [
+        0.55,
+        0.5
+      ],
+      "height": 0.45,
+      "colors": [
+        "white"
+      ],
+      "description": "The 'peach' wordmark in white reading up the sharklet, on the deep magenta.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Peach_Aviation_logo.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "APJ/japan-flag",
+      "place": "fuselage",
+      "at": [
+        0.814,
+        -0.252
+      ],
+      "height": 0.1,
+      "colors": [
+        "white",
+        "red"
+      ],
+      "description": "A small Japanese flag ahead of the registration, on the white under the tail.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Flag_of_Japan.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "peach",
+      "place": "fuselage",
+      "at": [
+        0.159,
+        0.241
+      ],
+      "height": 0.42,
+      "length": 0.091,
+      "color": "titleMagenta",
+      "style": "The Peach wordmark over the forward windows on the white: lowercase geometric sans, medium-bold, upright, round bowls, the p's stem topped by a small hook to the left.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Century Gothic Bold",
+          "Futura Medium"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.75
+      }
+    },
+    {
+      "text": "peach",
+      "place": "fin",
+      "at": [
+        0.4,
+        0.02
+      ],
+      "height": 0.3,
+      "color": "white",
+      "style": "The wordmark huge and white, set diagonally (about 55 degrees) reading up the fin from the root to the tip, the 'p' at the leading edge's root with its descender dropping onto the fuselage, the 'h' reaching the tip by the trailing edge. The schema has no rotation: draw it rotated.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Century Gothic Bold",
+          "Futura Medium"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.75
+      },
+      "rotationDeg": 55,
+      "length": 1.0
+    }
+  ],
+  "notes": "Drawn from 2025-26 photos of A320neos (the A320ceos wear the same). A thin purple line edges the white nose's diagonal; a pale pink ring sweeps round the fin's lower half behind the lettering (only its run along the tail cone is drawn). Belly not seen squarely: the colors are taken to wrap under as the lower sides show. The far sharklet's inner face is white at the leading edge and magenta behind, the 'peach' lettering on it as on the outer face. Not drawn: the registration and type. Re-checked 2026-11-15 on JA216P (A320neo; drawnOn A320, the measured shape with the same fuselage): the wordmark's lowercase is 0.75 of its ascenders (type.xHeight), the fin's turned wordmark runs about 1.0 of the root chord, its baseline starting 0.4 back (at 0.08 the letters, which stand forward of the baseline, fell off the leading edge); the white nose's diagonal is a curve, now drawn smooth through its measured points.",
+  "history": "Replaced Skyarium v1's approximation. Peach's only standard scheme since its first flights in 2012; the ex-Vanilla Air A320s were repainted into it after the 2019 merger."
+}

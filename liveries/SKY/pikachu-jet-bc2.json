@@ -1,0 +1,57 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "pikachu-jet-bc2",
+  "airline": "SKY",
+  "name": "Pikachu Jet BC2 (ピカチュウジェット BC2)",
+  "kind": "special",
+  "from": "2022-05-30",
+  "confidence": "low",
+  "description": "Skymark's second Pokémon jet (737-800 JA73NG): a light-blue sea wave from the nose to the tail along the lower fuselage and over the cabin, a large Wailord along the forward fuselage, Pikachu riding a Magikarp-shaped float aft, Shaymin (Sky Forme) by the nose, bubbles and clouds; white crown; Skymark's navy fin and star kept, a 'Pokémon' logo at its root; small 'SKY' with the star block under the cockpit.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:SKYMARK_AIRLINES_B737-86N_JA73NG_RJTT_HND_30-AUG-2022_(52324601880).jpg",
+      "title": "SKYMARK AIRLINES B737-86N JA73NG RJTT HND 30-AUG-2022 (52324601880).jpg (CC BY-SA 2.0, Steven Byles)",
+      "accessed": "2026-11-22",
+      "note": "JA73NG left side taking off, 2022-08-30: the layout and colours."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:HANEDA_INTERNATIONAL_AIRPORT_28-FEB-2023_(52890870432).jpg",
+      "title": "HANEDA INTERNATIONAL AIRPORT 28-FEB-2023 (52890870432).jpg (CC BY-SA 2.0, Steven Byles)",
+      "accessed": "2026-11-22",
+      "note": "JA73NG left side taxiing, 2023-02-28: unchanged."
+    },
+    {
+      "url": "https://www.aviationwire.jp/?p=344457",
+      "title": "Aviation Wire (2026-05-29): Skymark's Pikachu Jet merchandise",
+      "accessed": "2026-11-22",
+      "note": "BC1 (JA73AB) in service from 2021-06-21, BC2 (737-800 JA73NG) from 2022-05-30; BC1's flight-tag key ring sold on board from 2026-06-01."
+    },
+    {
+      "url": "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_aircraft",
+      "title": "Bulbapedia: Pokémon aircraft",
+      "accessed": "2026-11-22",
+      "note": "BC2 shows Pikachu, Wailord, Magikarp and Shaymin (Sky Forme) in a sea scene; planned to fly about five years."
+    }
+  ],
+  "logos": [
+    {
+      "mark": "SKY/pikachu-bc2",
+      "licensed": "The Pokémon Company",
+      "place": "fuselage",
+      "at": [
+        0.5,
+        0
+      ],
+      "height": 1.6,
+      "colors": [],
+      "description": "Wailord, Pikachu, Magikarp and Shaymin over a light-blue sea along the fuselage (Pokémon artwork, never drawn from here).",
+      "confidence": "low",
+      "sourceRefs": [
+        0,
+        3
+      ]
+    }
+  ],
+  "notes": "Described in words only: the open photos (2022-08-30, 2023-02-28, left side) are from ahead and from far, and the design covers the whole cabin; the right side has no open photo. Named in May 2026 (Aviation Wire), planned to fly about five years from 2022, so current. Its sea fields could be drawn from a side-on open photo.",
+  "history": "New 2026-11-22."
+}

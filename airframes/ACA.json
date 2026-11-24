@@ -1,0 +1,178 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "ACA",
+  "airframes": [
+    {
+      "registration": "C-GNBN",
+      "hex": "c06724",
+      "type": "BCS3",
+      "livery": "trans-canada-air-lines",
+      "from": "2021-02",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Air_Canada_A220_C-GNBN_in_Trans_Canada_livery.jpg",
+          "title": "Air Canada A220 C-GNBN in Trans Canada livery.jpg",
+          "accessed": "2026-11-22",
+          "note": "Photo 2026-09-29 (CC BY-SA 4.0), Toronto, in the scheme."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Air_Canada_A220-300_C-GNBN_@YYZ.jpg",
+          "title": "Air Canada A220-300 C-GNBN @YYZ.jpg",
+          "accessed": "2026-11-22",
+          "note": "Photo 2025-10-13 (CC BY-SA 4.0)."
+        },
+        {
+          "url": "https://wwwapps.tc.gc.ca/saf-sec-sur/2/ccarcs-riacc/RchSimpRes.aspx?cn=%7c%7c&mn=%7c%7c&sn=%7c%7c&on=%7c%7c&m=%7cGNBN%7c&cl=&ls=&lang=en",
+          "title": "Transport Canada, Canadian Civil Aircraft Register: C-GNBN",
+          "accessed": "2026-11-22",
+          "note": "Air Canada A220-300 (BD-500-1A11), registered 2021-04-23; address C06724."
+        }
+      ],
+      "hexSource": "Transport Canada's Canadian Civil Aircraft Register (24 Bit Address, 2026-11-22); hexdb.io and adsbdb agree",
+      "lastSeen": "2026-09-29",
+      "status": "Newest open photo in this paint 2026-09-29 (Toronto)."
+    },
+    {
+      "registration": "C-GEGC",
+      "hex": "c04fd7",
+      "type": "A333",
+      "livery": "fly-the-flag-2026",
+      "from": "2025-11-27",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:C-GEGC_Airbus_A330-343E_at_Heathrow_19th_July_2026.jpg",
+          "title": "C-GEGC Airbus A330-343E at Heathrow 19th July 2026.jpg",
+          "accessed": "2026-11-22",
+          "note": "Photo 2026-07-19 (CC BY-SA 4.0), Heathrow, still in the scheme after the Games."
+        },
+        {
+          "url": "https://www.aircanada.com/media/fly-the-flag-air-canada-unveils-celebratory-canadian-olympic-and-paralympic-team-livery-featuring-canadian-athletes-headed-to-the-milano-cortina-2026-winter-games/",
+          "title": "Air Canada news release (2025-11-27)",
+          "accessed": "2026-11-22",
+          "note": "Unveiled on fin 940, an A330."
+        },
+        {
+          "url": "https://wwwapps.tc.gc.ca/saf-sec-sur/2/ccarcs-riacc/RchSimpRes.aspx?cn=%7c%7c&mn=%7c%7c&sn=%7c%7c&on=%7c%7c&m=%7cGEGC%7c&cl=&ls=&lang=en",
+          "title": "Transport Canada, Canadian Civil Aircraft Register: C-GEGC",
+          "accessed": "2026-11-22",
+          "note": "Air Canada A330-343; address C04FD7."
+        }
+      ],
+      "hexSource": "Transport Canada's Canadian Civil Aircraft Register (24 Bit Address, 2026-11-22); hexdb.io and adsbdb agree",
+      "lastSeen": "2026-07-19",
+      "status": "Newest open photo in this paint 2026-07-19; no word on when it comes off. airportwebcams.net shows it in the scheme on 2026-11-03 (evidence only)."
+    },
+    {
+      "registration": "C-GHLM",
+      "hex": "c0584f",
+      "type": "A333",
+      "livery": "star-alliance",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:C-GHLM_LHR_170325.jpg",
+          "title": "C-GHLM LHR 170325.jpg",
+          "accessed": "2026-11-22",
+          "note": "Photo 2025-03-17 (CC BY 2.0), Heathrow, in Star Alliance colours."
+        },
+        {
+          "url": "https://wwwapps.tc.gc.ca/saf-sec-sur/2/ccarcs-riacc/RchSimpRes.aspx?cn=%7c%7c&mn=%7c%7c&sn=%7c%7c&on=%7c%7c&m=%7cGHLM%7c&cl=&ls=&lang=en",
+          "title": "Transport Canada, Canadian Civil Aircraft Register: C-GHLM",
+          "accessed": "2026-11-22",
+          "note": "Air Canada A330-343, registered 2001-08-16; address C0584F."
+        }
+      ],
+      "hexSource": "Transport Canada's Canadian Civil Aircraft Register (24 Bit Address, 2026-11-22); hexdb.io and adsbdb agree",
+      "lastSeen": "2025-03-17",
+      "status": "Newest open photo in this paint 2025-03-17; nothing newer found (medium)."
+    },
+    {
+      "registration": "C-FVNB",
+      "hex": "c038c8",
+      "type": "B789",
+      "livery": "excellence-awards",
+      "from": "2024-05",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Air_Canada_C-FVNB(Congratulations_livery)_run_AC8(Hong_Kong_International_Airport_to_Canada_Vancouver_International_Airport)_28-05-2025.jpg",
+          "title": "Air Canada C-FVNB(Congratulations livery) run AC8(Hong Kong International Airport to Canada Vancouver International Airport) 28-05-2025.jpg",
+          "accessed": "2026-11-22",
+          "note": "Photo 2025-05-28 (CC BY-SA 4.0): the 2024 version ('CONGRATULATIONS')."
+        },
+        {
+          "url": "https://wwwapps.tc.gc.ca/saf-sec-sur/2/ccarcs-riacc/RchSimpRes.aspx?cn=%7c%7c&mn=%7c%7c&sn=%7c%7c&on=%7c%7c&m=%7cFVNB%7c&cl=&ls=&lang=en",
+          "title": "Transport Canada, Canadian Civil Aircraft Register: C-FVNB",
+          "accessed": "2026-11-22",
+          "note": "Air Canada 787-9; address C038C8."
+        }
+      ],
+      "hexSource": "Transport Canada's Canadian Civil Aircraft Register (24 Bit Address, 2026-11-22); hexdb.io and adsbdb agree",
+      "lastSeen": "2025-05-28",
+      "status": "The 2024 Excellence Awards version; newest open photo 2025-05-28, nothing since (low on whether it's still on)."
+    },
+    {
+      "registration": "C-FSBV",
+      "hex": "c02fb8",
+      "type": "B789",
+      "livery": "excellence-awards-2025",
+      "from": "2025-04",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Air_Canada_-_Boeing_787-9_Dreamliner_(Excellence_2025_Livery)_C-FSBV_(55156244385).jpg",
+          "title": "Air Canada - Boeing 787-9 Dreamliner (Excellence 2025 Livery) C-FSBV (55156244385).jpg",
+          "accessed": "2026-11-23",
+          "note": "Photo 2026-03-13 (CC BY-SA 4.0): still in the 2025 version; Commons also has it 2025-05-30, 2025-06-02 and 2025-08-24 at Beijing."
+        },
+        {
+          "url": "https://www.aircanada.com/media/honouring-air-canadas-excellence-award-recipients-2025/",
+          "title": "Air Canada newsroom: Honouring Air Canada's Excellence Award Recipients (2025)",
+          "accessed": "2026-11-22",
+          "note": "The 2025 recipients' names on fin 852; the registration C-FSBV shows on its photo (2025-04-08)."
+        },
+        {
+          "url": "https://wwwapps.tc.gc.ca/saf-sec-sur/2/ccarcs-riacc/RchSimpRes.aspx?cn=%7c%7c&mn=%7c%7c&sn=%7c%7c&on=%7c%7c&m=%7cFSBV%7c&cl=&ls=&lang=en",
+          "title": "Transport Canada, Canadian Civil Aircraft Register: C-FSBV",
+          "accessed": "2026-11-22",
+          "note": "Air Canada 787-9; address C02FB8."
+        }
+      ],
+      "hexSource": "Transport Canada's Canadian Civil Aircraft Register (24 Bit Address, 2026-11-22); hexdb.io and adsbdb agree",
+      "lastSeen": "2026-03-13",
+      "status": "The 2025 Excellence Awards version (ACA/excellence-awards-2025, drawn), painted April 2025; newest open photo 2026-03-13."
+    },
+    {
+      "registration": "C-FIVM",
+      "hex": "c0174f",
+      "type": "B77W",
+      "livery": "excellence-awards",
+      "from": "2026-05",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/C-FIVM",
+          "title": "adsbdb: C-FIVM, Boeing 777-300ER, Air Canada, Mode S C0174F",
+          "accessed": "2026-11-23",
+          "note": "The hex; not checked against Transport Canada's register (its page didn't answer)."
+        },
+        {
+          "url": "https://www.jetphotos.com/registration/C-FIVM",
+          "title": "JetPhotos: C-FIVM",
+          "accessed": "2026-11-22",
+          "note": "Evidence only: the 2026 Excellence Awards version, 2026-05-31."
+        },
+        {
+          "url": "https://www.airportwebcams.net/",
+          "title": "airportwebcams.net",
+          "accessed": "2026-11-03",
+          "note": "Evidence only: seen in it 2026-11-03."
+        }
+      ],
+      "lastSeen": "2026-11-23",
+      "status": "active: the maintainer saw it fly overhead on 2026-11-23 in a special livery; the 2026 version of the Excellence Awards scheme (on a 777-300ER, the scheme is described only)."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "KMM",
+  "airframes": [
+    {
+      "registration": "9H-NEC",
+      "hex": "4d21dc",
+      "type": "A20N",
+      "livery": "visit-malta",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:9H-NEC_at_LHR_20250728.jpg",
+          "title": "9H-NEC at LHR 20250728.jpg",
+          "accessed": "2026-11-22",
+          "note": "Photo 2025-07-28 (CC BY-SA 4.0)."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:KM_Malta_A320-251(N),_9H-NEC,_MSN_9049_(09_2019),_as_KM_100_Malta_(MLA)_-_London_(LHR),_Flight_time_2_57_(54883434035).jpg",
+          "title": "KM Malta A320-251(N), 9H-NEC (54883434035).jpg",
+          "accessed": "2026-11-22",
+          "note": "Photo 2025-09-13 (CC0)."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:9H-NEC_LHR_310325.jpg",
+          "title": "9H-NEC LHR 310325.jpg",
+          "accessed": "2026-11-22",
+          "note": "Photo 2025-04-13 (CC BY 2.0)."
+        }
+      ],
+      "hexSource": "looked up: hexdb.io community database (2026-11-22); not verified against the Maltese register",
+      "lastSeen": "2025-09-13",
+      "status": "Newest open photo in this paint 2025-09-13."
+    }
+  ]
+}

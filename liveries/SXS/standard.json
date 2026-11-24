@@ -1,0 +1,504 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "SXS",
+  "name": "2010 livery (sun tail)",
+  "kind": "standard",
+  "from": "2010",
+  "confidence": "high",
+  "drawnOn": "B38M",
+  "description": "White upper fuselage over a dark-blue belly from the nose aft; behind the rear door the blue sweeps up to the crown and takes the whole tail cone. An orange band with a white pinstripe and a thin orange line rises from the dorsal fin onto the fin's root; the rest of the fin white with a blue half-sunburst of rays. 'SunExpress' in blue above the forward windows, the sun roundel by the nose, 'sunexpress.com' big on the belly and in white on the dark-blue engines.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:TC-SMA_(Boeing_737-8_MAX)",
+      "accessed": "2026-11-13"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Boeing_737-8_MAX_(cn_63603,_TC-SMA)_2024-06-04_Andre_Gerwing_Collection_ID_019759.jpg",
+      "accessed": "2026-11-13",
+      "title": "Boeing 737-8 MAX TC-SMA, 2024-06-04 (CC BY-SA 4.0)",
+      "note": "Left side, level, 2024-06-04: belly split, tail sweep and stripes, sunburst, titles, engine."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Boeing_737-8_MAX_(cn_63603,_TC-SMA)_2024-06-06_Andre_Gerwing_Collection_ID_019949.jpg",
+      "accessed": "2026-11-13",
+      "title": "Boeing 737-8 MAX TC-SMA, 2024-06-06 (CC BY-SA 4.0)",
+      "note": "Left side from below, climbing, 2024-06-06: 'sunexpress.com' on the belly, engine title, winglets."
+    },
+    {
+      "url": "https://www.nycaviation.com/2010/04/spy-photos-sunexpress-new-livery-revealed/8812",
+      "accessed": "2026-11-13",
+      "title": "SunExpress new livery revealed (2010)",
+      "note": "Introduced with the new corporate identity, spring 2010."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F6",
+      "official": false
+    },
+    "navy": {
+      "hex": "#1E3A8C",
+      "name": "SunExpress blue",
+      "official": false
+    },
+    "orange": {
+      "hex": "#F26A2E",
+      "official": false
+    },
+    "ray": {
+      "hex": "#2A4FA2",
+      "official": false
+    },
+    "bellyText": {
+      "hex": "#3E5CA6",
+      "name": "belly title (a lighter blue than the belly)",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "name": "bare metal inlet lip",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B4B9C0",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "windows": "plain",
+    "areas": [
+      {
+        "name": "dark-blue belly, sweeping up to the crown behind the rear door",
+        "color": "navy",
+        "points": [
+          [
+            0.03,
+            -0.8
+          ],
+          [
+            0.06,
+            -0.55
+          ],
+          [
+            0.12,
+            -0.44
+          ],
+          [
+            0.5,
+            -0.43
+          ],
+          [
+            0.85,
+            -0.42
+          ],
+          [
+            0.858,
+            -0.15
+          ],
+          [
+            0.85,
+            0.25
+          ],
+          [
+            0.82,
+            0.6
+          ],
+          [
+            0.78,
+            0.88
+          ],
+          [
+            0.743,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            0.03,
+            -1
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          1,
+          2
+        ],
+        "smooth": true
+      },
+      {
+        "name": "orange band on the dorsal fin",
+        "color": "orange",
+        "points": [
+          [
+            0.775,
+            1
+          ],
+          [
+            0.83,
+            0.94
+          ],
+          [
+            0.9,
+            0.92
+          ],
+          [
+            0.9,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "mirrored": true,
+    "areas": [
+      {
+        "name": "dark blue at the root",
+        "color": "navy",
+        "points": [
+          [
+            -0.2,
+            0
+          ],
+          [
+            1.05,
+            0
+          ],
+          [
+            1.05,
+            0.11
+          ],
+          [
+            0,
+            0.05
+          ],
+          [
+            -0.2,
+            0.03
+          ]
+        ]
+      },
+      {
+        "name": "orange band",
+        "color": "orange",
+        "points": [
+          [
+            -0.2,
+            0.03
+          ],
+          [
+            0,
+            0.05
+          ],
+          [
+            1.05,
+            0.11
+          ],
+          [
+            1.05,
+            0.19
+          ],
+          [
+            0.2,
+            0.12
+          ],
+          [
+            0,
+            0.1
+          ]
+        ]
+      },
+      {
+        "name": "thin orange line over a white pinstripe",
+        "color": "orange",
+        "points": [
+          [
+            0,
+            0.115
+          ],
+          [
+            0.25,
+            0.13
+          ],
+          [
+            0.45,
+            0.15
+          ],
+          [
+            0.25,
+            0.14
+          ],
+          [
+            0,
+            0.125
+          ]
+        ]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "navy",
+    "inner": "navy",
+    "areas": [
+      {
+        "name": "orange tip over a white line",
+        "color": "orange",
+        "points": [
+          [
+            0,
+            0.86
+          ],
+          [
+            1,
+            0.86
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "name": "white line",
+        "color": "white",
+        "points": [
+          [
+            0,
+            0.82
+          ],
+          [
+            1,
+            0.82
+          ],
+          [
+            1,
+            0.86
+          ],
+          [
+            0,
+            0.86
+          ]
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "navy",
+    "inletLip": "lip",
+    "areas": [
+      {
+        "name": "white top",
+        "color": "white",
+        "points": [
+          [
+            0,
+            0.38
+          ],
+          [
+            1,
+            0.38
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "name": "orange line",
+        "color": "orange",
+        "points": [
+          [
+            0,
+            0.28
+          ],
+          [
+            1,
+            0.28
+          ],
+          [
+            1,
+            0.38
+          ],
+          [
+            0,
+            0.38
+          ]
+        ]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "SXS/sun",
+      "place": "fin",
+      "at": [
+        0.36,
+        0.52
+      ],
+      "height": 0.5,
+      "colors": [
+        "ray"
+      ],
+      "description": "Half a sunburst: seven blue rays fanning over an unseen horizon, the outer ones nearly flat, the middle pair upright and longest; no disc. Sits mid-fin toward the trailing edge.",
+      "reference": "https://commons.wikimedia.org/wiki/File:SunExpress_Logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "SXS/sun-roundel",
+      "place": "fuselage",
+      "at": [
+        0.065,
+        -0.14
+      ],
+      "height": 0.64,
+      "colors": [
+        "navy",
+        "orange",
+        "white"
+      ],
+      "description": "The full sun roundel below the cockpit windows: blue rays over a white upper half, an orange horizon line, a blue lower half.",
+      "reference": "https://commons.wikimedia.org/wiki/File:SunExpress_Logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "SunExpress",
+      "place": "fuselage",
+      "at": [
+        0.164,
+        0.33
+      ],
+      "height": 0.38,
+      "length": 0.184,
+      "color": "navy",
+      "style": "Bold humanist sans in mixed case (capital S and E), blue, just above the windows from aft of the forward door.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Frutiger Bold",
+          "Myriad Pro Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.65
+      }
+    },
+    {
+      "text": "sunexpress.com",
+      "place": "engines",
+      "at": [
+        0.08,
+        -0.15
+      ],
+      "height": 0.28,
+      "color": "white",
+      "style": "Bold lowercase in white on the dark-blue cowling, under the orange line.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Frutiger Bold",
+          "Myriad Pro Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower"
+      },
+      "length": 0.77
+    },
+    {
+      "text": "sunexpress.com",
+      "place": "belly",
+      "at": [
+        0.12,
+        -1
+      ],
+      "height": 0.5,
+      "length": 0.35,
+      "color": "bellyText",
+      "style": "Very large bold lowercase along the dark-blue belly from the nose gear toward the wing, a lighter blue than the belly; reads from the left side.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2
+      ],
+      "type": {
+        "similar": [
+          "Frutiger Bold",
+          "Myriad Pro Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower"
+      }
+    }
+  ],
+  "notes": "Most of the fleet (737-800 and 737 MAX 8) wears this; several specials fly (e.g. 'Impressions of Istanbul', Eintracht Frankfurt, Star Trek, Crystal Palace). Newest Commons photos of a standard aircraft found were 2024; the scheme hasn't changed since. The far (right) side not checked; assumed symmetric. Each aircraft's registration ending is repeated in blue on the fin tip and nose-gear door; not drawn. Re-checked 2026-11-15 on TC-SMA (2024-06-04): the belly's sweeps drawn as curves; 'SunExpress' lowercase 0.65 of its capitals; the engine title runs most of the cowling.",
+  "history": "Replaced Skyarium v1's approximation (a few colors from memory) with the current scheme drawn from dated Commons photos. The 2010 scheme replaced SunExpress's earlier yellow-and-blue livery."
+}

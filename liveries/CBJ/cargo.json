@@ -1,0 +1,209 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "cargo",
+  "airline": "CBJ",
+  "name": "Freighter (white tail)",
+  "kind": "standard",
+  "confidence": "medium",
+  "drawnOn": "A332",
+  "description": "All white, windows plugged. A large red phoenix on the white fin; forward, the small red phoenix, 首都航空 in black and a large 'Capital Airlines' in black italic over the plugged window line; under the forward cabin the blue JDA mark with 江西国际货运 (Jiangxi International Cargo). White engines.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:B-32MG_BUD_05.04.26_(55191729954).jpg",
+      "title": "B-32MG BUD 05.04.26 (CC BY-SA 4.0, Michael Steffen)",
+      "accessed": "2026-11-21",
+      "note": "A330-243(P2F) B-32MG taking off at Budapest, left side, 2026-04-05. Fitted to shapes/A332.json (doors within 12 px): the titles, logos and the Jiangxi International Cargo mark."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:20251130_Airbus_A330-243(P2F)_of_Capital_Airlines_(B-32MG)_landing_at_CGO.jpg",
+      "title": "20251130 Airbus A330-243(P2F) of Capital Airlines (B-32MG) landing at CGO (CC BY-SA 4.0, Windmemories)",
+      "accessed": "2026-11-21",
+      "note": "Left side landing at Zhengzhou, 2025-11-30: the same."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:B-32MG@PEK_(20250913082330).jpg",
+      "title": "B-32MG@PEK (CC BY-SA 4.0, N509FZ)",
+      "accessed": "2026-11-21",
+      "note": "Right side from below, 2025-09-13: the right side matches (phoenix on the white fin, titles forward)."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#EFEFEF",
+      "official": false
+    },
+    "red": {
+      "hex": "#DF1F14",
+      "name": "Capital red",
+      "official": false
+    },
+    "ink": {
+      "hex": "#211F21",
+      "official": false
+    },
+    "blue": {
+      "hex": "#1F5BA8",
+      "name": "JDA blue",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "windows": "hidden",
+    "areas": [],
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "#B9BEC5",
+    "under": "#C9CDD2"
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "titles": [
+    {
+      "text": "首都航空",
+      "place": "fuselage",
+      "at": [
+        0.186,
+        0.25
+      ],
+      "height": 0.18,
+      "length": 0.06,
+      "color": "ink",
+      "style": "The Chinese name in black brush characters behind the small phoenix.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Kaiti SC",
+          "STKaiti"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "brush",
+        "case": "mixed"
+      }
+    },
+    {
+      "text": "Capital Airlines",
+      "place": "fuselage",
+      "at": [
+        0.284,
+        0.24
+      ],
+      "height": 0.26,
+      "length": 0.111,
+      "color": "ink",
+      "style": "Large black bold italic sans across the plugged window line, larger than on the passenger aircraft.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Bold Italic",
+          "Arial Bold Italic"
+        ],
+        "weight": 700,
+        "slantDeg": 12,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      }
+    }
+  ],
+  "logos": [
+    {
+      "mark": "CBJ/phoenix",
+      "place": "fin",
+      "at": [
+        0.508,
+        0.4
+      ],
+      "height": 0.44,
+      "colors": [
+        "red"
+      ],
+      "description": "The phoenix in red on the white fin: head and crest facing forward over sweeping feathers.",
+      "reference": "https://commons.wikimedia.org/wiki/File:B-32MG_BUD_05.04.26_(55191729954).jpg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "CBJ/phoenix",
+      "place": "fuselage",
+      "at": [
+        0.161,
+        0.39
+      ],
+      "height": 0.29,
+      "colors": [
+        "red"
+      ],
+      "description": "The small red phoenix ahead of the Chinese name.",
+      "reference": "https://commons.wikimedia.org/wiki/File:B-32MG_BUD_05.04.26_(55191729954).jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "CBJ/jda",
+      "place": "fuselage",
+      "at": [
+        0.247,
+        -0.33
+      ],
+      "height": 0.17,
+      "colors": [
+        "blue",
+        "ink"
+      ],
+      "description": "Jiangxi International Cargo's blue 'JDA' mark followed by 江西国际货运 and 'JIANGXI INTERNATIONAL CARGO' small, under the forward cabin.",
+      "reference": "https://commons.wikimedia.org/wiki/File:B-32MG_BUD_05.04.26_(55191729954).jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "notes": "B-32MG only so far (an A330-200 converted to a freighter): measured on its left side at Budapest (2026-04-05, taking off, nose up; the fit takes the pitch out) on the A330-200 shape with the windows hidden. The titles' baselines read slanted in this nose-up view; drawn at their mean. 'Capital Airlines' runs x 0.284-0.395 with a cap height about 0.26 of the body's height, about twice the passenger scheme's. The JDA mark says it flies for Jiangxi International Cargo; whether it uses Capital's CBJ callsign on every flight isn't sourced here (the maintainer's sighting did). A main-deck cargo door on the forward left side isn't drawn (doors belong to the shape).",
+  "history": "New 2026-11-21 (the maintainer's sightings: B-32MG)."
+}

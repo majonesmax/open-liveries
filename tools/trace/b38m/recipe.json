@@ -1,0 +1,98 @@
+{
+  "_about": "737-8 (MAX 8), from Boeing D6-38A004 Rev K 2.2.2 (page index 25): side, plan and front views on one sheet, a picture rather than vector paths. Pixels of layers.py --mode image rasters at scale 12, line centres.",
+  "out": "../../../../shapes/B38M.json",
+  "length": 39.12,
+  "wingtip": "split",
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "refs": {
+    "side": {
+      "nose": 68,
+      "tail": 3456,
+      "cowlEnd": 1517,
+      "windowRow": [822, 848],
+      "windowsAlso": [960, 1889, 1932, 1978, 2222]
+    },
+    "plan": { "nose": 68, "centerline": 1624 },
+    "front": { "centerline": 1655, "crownTop": 728.5 }
+  },
+  "doors": [
+    { "kind": "door", "box": [470, 757, 545, 914] },
+    { "kind": "exit", "box": [1497, 807, 1540, 889] },
+    { "kind": "exit", "box": [1582, 807, 1625, 889] },
+    { "kind": "door", "box": [2802, 757, 2870, 914] },
+    { "kind": "cargo", "box": [759, 953, 864, 1029] },
+    { "kind": "cargo", "box": [2442, 946, 2547, 1029] }
+  ],
+  "cockpitPanes": [
+    [
+      [209, 830],
+      [229, 810],
+      [233, 807],
+      [250, 807],
+      [252, 809],
+      [252, 818],
+      [235, 835],
+      [211, 835],
+      [209, 833]
+    ],
+    [
+      [245, 826],
+      [254, 817],
+      [258, 814],
+      [265, 810],
+      [292, 810],
+      [294, 812],
+      [294, 815],
+      [291, 825],
+      [284, 840],
+      [282, 842],
+      [278, 845],
+      [268, 845],
+      [258, 842],
+      [247, 838],
+      [245, 836]
+    ],
+    [
+      [291, 834],
+      [299, 816],
+      [302, 812],
+      [304, 810],
+      [308, 807],
+      [339, 807],
+      [341, 809],
+      [341, 825],
+      [337, 833],
+      [335, 835],
+      [296, 845],
+      [293, 845],
+      [291, 843]
+    ]
+  ],
+  "printed": {
+    "fuselage height": 4.01,
+    "fuselage width": 3.76,
+    "wingspan": 35.92,
+    "tailplane span": 14.35,
+    "engine out from the centerline": 4.82,
+    "overall length": 39.47
+  },
+  "meta": {
+    "id": "B38M",
+    "name": "Boeing 737-8 (737 MAX 8)",
+    "types": ["B38M"],
+    "confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/boeingdotcom/commercial/airports/acaps/737MAX_RevK.pdf",
+        "title": "Boeing, 737 MAX Airplane Characteristics for Airport Planning (D6-38A004 Rev K, July 2025), 2.2.2 General Dimensions: Model 737-8 / -8-200 / BBJ MAX 8",
+        "accessed": "2026-11-15",
+        "note": "Dimensions and outlines read off the side, plan and front views (tools/trace/b38m/); the figures are the aircraft's measurements, not a copy of the drawing. The sheet is a picture of about 24 pixels a meter, so the outlines are good to about 5 cm, not the 1 cm of the vector sheets. The Advanced Technology winglet's lower blade isn't traced."
+      }
+    ]
+  }
+}

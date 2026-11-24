@@ -1,0 +1,54 @@
+{
+  "_about": "Embraer 175-E2, APM 5824 Rev 25 Figure 2.3 General Aircraft Dimensions: page index 21, layers.py --mode strokes-in-fill at scale 13.33 (the front view is drawn 1.2003 times the side's, from its printed 31.39 m span and 6.04 m track: rendered to the side's scale), clip 138,520,428,620 (front; its right half). Pixels of that raster, line centres; centerline x 1914.7. Placed here (the E190-E2's front points don't fit its wing and tailplane).",
+  "fuselage.section": [
+    [1915, 641],
+    [1960, 645],
+    [2010, 662],
+    [2050, 690],
+    [2075, 730],
+    [2088, 780],
+    [2090, 830]
+  ],
+  "wing.upper": [
+    [2125, 914],
+    [2200, 909],
+    [2300, 899],
+    [2400, 889],
+    [2500, 879],
+    [2600, 871],
+    [2800, 854],
+    [3000, 838],
+    [3200, 823],
+    [3400, 808],
+    [3600, 795],
+    [3700, 789],
+    [3762, 792]
+  ],
+  "wing.lower": [
+    [2150, 963],
+    [2200, 955],
+    "hidden",
+    [2600, 908],
+    [2800, 885],
+    [3000, 862],
+    [3200, 844],
+    [3400, 826],
+    [3600, 809],
+    [3700, 799],
+    [3762, 792]
+  ],
+  "stabilizer.upper": [
+    [2095, 736],
+    [2200, 723],
+    [2300, 711],
+    [2420, 700],
+    [2442, 705]
+  ],
+  "stabilizer.lower": [
+    [2100, 767],
+    [2200, 750],
+    [2300, 734],
+    [2420, 715],
+    [2442, 705]
+  ]
+}

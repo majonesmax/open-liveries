@@ -1,0 +1,1469 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "dunkin",
+  "airline": "JBU",
+  "name": "Dunkin' (Brewing Altitude)",
+  "kind": "special",
+  "confidence": "medium",
+  "drawnOn": "A320",
+  "from": "2025-05",
+  "description": "Fuselage: Dunkin' orange crown and belly with a broad raspberry-pink wave sweeping through the middle from the pink nose: its upper edge crests above the forward windows and again over the wing and dips to the window line between and aft of the wing, its lower edge rises from the chin to the forward door's foot, falls low behind the wing and rises again aft; behind the aft door the pink takes the whole tail cone, with orange round the stabilizer's root. Titles: 'jetBlue', an arrow and a small airplane, then 'DUNKIN'' in white along the forward windows. Tail: a tilted Dunkin' coffee cup: a pink cup outlined in thick white with a big white 'D', its white lid band across the fin and a white sip hole in the pink lid above; orange outside the cup at the fin's root and along the trailing edge. The cup's rounded white outline runs from the fin down onto the rear fuselage as one shape, its foot at the belly under the stabilizer. Engines and wingtip fences orange.",
+  "sources": [
+    {
+      "url": "https://www.businesswire.com/news/home/20250512190550/en/JetBlue-Runs-on-Dunkin-With-New-Special-Livery",
+      "title": "JetBlue: JetBlue Runs on Dunkin' With New Special Livery (2025-05-12)",
+      "accessed": "2026-11-22",
+      "note": "Unveiled in Boston 12 May 2025 on A320 N643JB, named 'Brewing Altitude', for the airlines' 20-year partnership; Dunkin' pink and orange."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:JetBlue_N643JB_Airbus_A320_ORD0926_(55562107725).jpg",
+      "title": "JetBlue N643JB Airbus A320 ORD0926 (55562107725).jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-22",
+      "note": "N643JB left side taxiing at Chicago O'Hare, 2026-09-11, near level: fitted to shapes/A320.json (doors and fin tip; within about 16 px, 0.4 m). Every edge, title and the tail's cup read off it."
+    },
+    {
+      "url": "https://airlinegeeks.com/2025/08/15/livery-of-the-week-jetblue-s-dunkin-livery/",
+      "title": "AirlineGeeks: Livery of the Week: JetBlue's Dunkin' Livery (2025-08-15)",
+      "accessed": "2026-11-22",
+      "note": "Description of the design; not measured from."
+    }
+  ],
+  "palette": {
+    "orange": {
+      "hex": "#EE6F22",
+      "official": false,
+      "name": "Dunkin' orange"
+    },
+    "pink": {
+      "hex": "#B3245A",
+      "official": false,
+      "name": "Dunkin' pink (a deep raspberry on the aircraft)"
+    },
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false,
+      "name": "polished inlet lip"
+    },
+    "flagRed": {
+      "hex": "#B22234",
+      "official": false
+    },
+    "navy": {
+      "hex": "#14275A",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "orange",
+    "areas": [
+      {
+        "name": "the pink sweep: the nose, a wide wave through the middle whose upper edge crests and dips twice along the windows and whose lower edge rises from the chin to the forward door, then the whole tail cone",
+        "color": "pink",
+        "smooth": true,
+        "points": [
+          [
+            0,
+            1
+          ],
+          [
+            0.0384,
+            1.0
+          ],
+          [
+            0.0527,
+            0.5285
+          ],
+          [
+            0.0688,
+            0.3424
+          ],
+          [
+            0.0848,
+            0.3215
+          ],
+          [
+            0.1103,
+            0.4034
+          ],
+          [
+            0.1295,
+            0.4351
+          ],
+          [
+            0.1423,
+            0.4488
+          ],
+          [
+            0.168,
+            0.4385
+          ],
+          [
+            0.1937,
+            0.4205
+          ],
+          [
+            0.2711,
+            0.2006
+          ],
+          [
+            0.2969,
+            0.1717
+          ],
+          [
+            0.3226,
+            0.1577
+          ],
+          [
+            0.3419,
+            0.1656
+          ],
+          [
+            0.3611,
+            0.2032
+          ],
+          [
+            0.3803,
+            0.2574
+          ],
+          [
+            0.4251,
+            0.4196
+          ],
+          [
+            0.4443,
+            0.4488
+          ],
+          [
+            0.47,
+            0.4695
+          ],
+          [
+            0.5021,
+            0.4316
+          ],
+          [
+            0.5732,
+            0.1788
+          ],
+          [
+            0.5925,
+            0.1498
+          ],
+          [
+            0.6375,
+            0.1283
+          ],
+          [
+            0.6567,
+            0.1553
+          ],
+          [
+            0.6823,
+            0.2412
+          ],
+          [
+            0.7078,
+            0.3689
+          ],
+          [
+            0.727,
+            0.409
+          ],
+          [
+            0.7463,
+            0.4401
+          ],
+          [
+            0.7912,
+            0.4601
+          ],
+          [
+            0.8183,
+            0.3938
+          ],
+          [
+            0.8219,
+            1.0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            0.8168,
+            -1.0
+          ],
+          [
+            0.8116,
+            -0.6091
+          ],
+          [
+            0.8052,
+            -0.5305
+          ],
+          [
+            0.7923,
+            -0.4322
+          ],
+          [
+            0.7665,
+            -0.3016
+          ],
+          [
+            0.728,
+            -0.2403
+          ],
+          [
+            0.7151,
+            -0.2402
+          ],
+          [
+            0.6895,
+            -0.3
+          ],
+          [
+            0.664,
+            -0.4212
+          ],
+          [
+            0.6512,
+            -0.4649
+          ],
+          [
+            0.6384,
+            -0.4979
+          ],
+          [
+            0.6192,
+            -0.5238
+          ],
+          [
+            0.5999,
+            -0.534
+          ],
+          [
+            0.5742,
+            -0.5156
+          ],
+          [
+            0.5484,
+            -0.4443
+          ],
+          [
+            0.5355,
+            -0.3943
+          ],
+          [
+            0.5096,
+            -0.2708
+          ],
+          [
+            0.4967,
+            -0.2271
+          ],
+          [
+            0.4775,
+            -0.2421
+          ],
+          [
+            0.4006,
+            -0.4309
+          ],
+          [
+            0.3493,
+            -0.4847
+          ],
+          [
+            0.2979,
+            -0.4772
+          ],
+          [
+            0.2528,
+            -0.4359
+          ],
+          [
+            0.2399,
+            -0.3867
+          ],
+          [
+            0.2011,
+            -0.221
+          ],
+          [
+            0.1882,
+            -0.1926
+          ],
+          [
+            0.1561,
+            -0.1645
+          ],
+          [
+            0.1368,
+            -0.1668
+          ],
+          [
+            0.1112,
+            -0.206
+          ],
+          [
+            0.0729,
+            -0.4097
+          ],
+          [
+            0.0601,
+            -0.4686
+          ],
+          [
+            0.0473,
+            -0.5199
+          ],
+          [
+            0.0344,
+            -0.5312
+          ],
+          [
+            0.028,
+            -1.0
+          ],
+          [
+            0,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "orange on the tail cone behind the cup, from the fin's trailing edge down round the stabilizer's root",
+        "color": "orange",
+        "smooth": true,
+        "points": [
+          [
+            0.9099,
+            1.0
+          ],
+          [
+            0.9647,
+            1.0
+          ],
+          [
+            0.9615,
+            0.5459
+          ],
+          [
+            0.9571,
+            0.2778
+          ],
+          [
+            0.9521,
+            0.0475
+          ],
+          [
+            0.9445,
+            -0.1225
+          ],
+          [
+            0.933,
+            -0.205
+          ],
+          [
+            0.9189,
+            -0.2471
+          ],
+          [
+            0.9042,
+            -0.2509
+          ],
+          [
+            0.8959,
+            -0.2492
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "the cup's white outline on the rear fuselage, carried on from the fin's (they meet at the fin's root)",
+        "color": "white",
+        "smooth": true,
+        "points": [
+          [
+            0.9167,
+            0.5578
+          ],
+          [
+            0.9133,
+            0.3106
+          ],
+          [
+            0.91,
+            0.1166
+          ],
+          [
+            0.9067,
+            -0.0589
+          ],
+          [
+            0.9033,
+            -0.2313
+          ],
+          [
+            0.9,
+            -0.4158
+          ],
+          [
+            0.8967,
+            -0.6467
+          ],
+          [
+            0.8933,
+            -1.0
+          ],
+          [
+            0.8922,
+            -1.0
+          ],
+          [
+            0.8908,
+            -1.0
+          ],
+          [
+            0.8889,
+            -1.0
+          ],
+          [
+            0.8869,
+            -1.0
+          ],
+          [
+            0.8847,
+            -1.0
+          ],
+          [
+            0.8825,
+            -1.0
+          ],
+          [
+            0.8746,
+            -1.0
+          ],
+          [
+            0.8667,
+            -0.7172
+          ],
+          [
+            0.8587,
+            -0.5856
+          ],
+          [
+            0.8508,
+            -0.4906
+          ],
+          [
+            0.8429,
+            -0.415
+          ],
+          [
+            0.8349,
+            -0.3495
+          ],
+          [
+            0.827,
+            -0.2921
+          ],
+          [
+            0.819,
+            -0.2399
+          ],
+          [
+            0.8111,
+            -0.1916
+          ],
+          [
+            0.8088,
+            -0.1728
+          ],
+          [
+            0.8068,
+            -0.1459
+          ],
+          [
+            0.8053,
+            -0.1133
+          ],
+          [
+            0.8043,
+            -0.0773
+          ],
+          [
+            0.804,
+            -0.0401
+          ],
+          [
+            0.8044,
+            -0.0042
+          ],
+          [
+            0.8067,
+            0.1018
+          ],
+          [
+            0.8088,
+            0.2125
+          ],
+          [
+            0.8108,
+            0.3321
+          ],
+          [
+            0.8127,
+            0.4682
+          ],
+          [
+            0.8146,
+            0.6416
+          ],
+          [
+            0.8163,
+            1.0
+          ],
+          [
+            0.92,
+            1.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "the cup's pink inside the outline, on the rear fuselage",
+        "color": "pink",
+        "smooth": true,
+        "points": [
+          [
+            0.9069,
+            0.5402
+          ],
+          [
+            0.9035,
+            0.3085
+          ],
+          [
+            0.9001,
+            0.1237
+          ],
+          [
+            0.8967,
+            -0.0436
+          ],
+          [
+            0.8933,
+            -0.2071
+          ],
+          [
+            0.8899,
+            -0.3791
+          ],
+          [
+            0.8865,
+            -0.5829
+          ],
+          [
+            0.8859,
+            -0.6145
+          ],
+          [
+            0.8851,
+            -0.6396
+          ],
+          [
+            0.8841,
+            -0.6559
+          ],
+          [
+            0.8829,
+            -0.6612
+          ],
+          [
+            0.8817,
+            -0.6552
+          ],
+          [
+            0.8805,
+            -0.6387
+          ],
+          [
+            0.8726,
+            -0.523
+          ],
+          [
+            0.8648,
+            -0.4346
+          ],
+          [
+            0.8569,
+            -0.3622
+          ],
+          [
+            0.849,
+            -0.3005
+          ],
+          [
+            0.8412,
+            -0.246
+          ],
+          [
+            0.8333,
+            -0.1964
+          ],
+          [
+            0.8255,
+            -0.151
+          ],
+          [
+            0.8176,
+            -0.1086
+          ],
+          [
+            0.8163,
+            -0.0984
+          ],
+          [
+            0.8151,
+            -0.0833
+          ],
+          [
+            0.8142,
+            -0.0644
+          ],
+          [
+            0.8137,
+            -0.0431
+          ],
+          [
+            0.8135,
+            -0.021
+          ],
+          [
+            0.8137,
+            0.0004
+          ],
+          [
+            0.8162,
+            0.1148
+          ],
+          [
+            0.8185,
+            0.2353
+          ],
+          [
+            0.8206,
+            0.3675
+          ],
+          [
+            0.8226,
+            0.5234
+          ],
+          [
+            0.8245,
+            0.7467
+          ],
+          [
+            0.8263,
+            1.0
+          ],
+          [
+            0.9103,
+            1.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      }
+    ],
+    "radome": {
+      "color": "pink"
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "fin": {
+    "base": "pink",
+    "rudder": "pink",
+    "mirrored": true,
+    "areas": [
+      {
+        "name": "orange outside the cup: under the cup's walls, from the leading edge's root to the trailing edge (the cup covers its middle)",
+        "color": "orange",
+        "points": [
+          [
+            -0.1,
+            0.2623
+          ],
+          [
+            1.1,
+            0.3786
+          ],
+          [
+            1.1,
+            -0.2
+          ],
+          [
+            -0.1,
+            -0.2
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "the cup's white outline and lid band, rounded, running down to the fin's root and on onto the body",
+        "color": "white",
+        "smooth": true,
+        "points": [
+          [
+            0,
+            0.6907
+          ],
+          [
+            0.1284,
+            0.6682
+          ],
+          [
+            0.2498,
+            0.6456
+          ],
+          [
+            0.3649,
+            0.623
+          ],
+          [
+            0.4742,
+            0.6005
+          ],
+          [
+            0.578,
+            0.5779
+          ],
+          [
+            0.6768,
+            0.5553
+          ],
+          [
+            0.7709,
+            0.5328
+          ],
+          [
+            0.8606,
+            0.5102
+          ],
+          [
+            0.9463,
+            0.4876
+          ],
+          [
+            0.9611,
+            0.4826
+          ],
+          [
+            0.9743,
+            0.4758
+          ],
+          [
+            0.9852,
+            0.4677
+          ],
+          [
+            0.9934,
+            0.4587
+          ],
+          [
+            0.9983,
+            0.4491
+          ],
+          [
+            1.0,
+            0.4396
+          ],
+          [
+            1.0645,
+            0.4396
+          ],
+          [
+            1.0609,
+            0.3786
+          ],
+          [
+            1.0,
+            0.3786
+          ],
+          [
+            0.899,
+            0.3278
+          ],
+          [
+            0.8899,
+            0.2769
+          ],
+          [
+            0.8815,
+            0.226
+          ],
+          [
+            0.8737,
+            0.1751
+          ],
+          [
+            0.8666,
+            0.1242
+          ],
+          [
+            0.8599,
+            0.0733
+          ],
+          [
+            0.8537,
+            0.0225
+          ],
+          [
+            0.844,
+            -0.0284
+          ],
+          [
+            0.8259,
+            -0.0793
+          ],
+          [
+            0.8029,
+            -0.1302
+          ],
+          [
+            0.7798,
+            -0.1811
+          ],
+          [
+            0.7568,
+            -0.232
+          ],
+          [
+            0.7337,
+            -0.2829
+          ],
+          [
+            0.7107,
+            -0.3337
+          ],
+          [
+            0.6876,
+            -0.3846
+          ],
+          [
+            0.6646,
+            -0.4355
+          ],
+          [
+            0.6571,
+            -0.4478
+          ],
+          [
+            0.6468,
+            -0.4581
+          ],
+          [
+            0.6342,
+            -0.4658
+          ],
+          [
+            0.62,
+            -0.4706
+          ],
+          [
+            0.605,
+            -0.4722
+          ],
+          [
+            0.59,
+            -0.4705
+          ],
+          [
+            0.5352,
+            -0.458
+          ],
+          [
+            0.4803,
+            -0.4454
+          ],
+          [
+            0.4255,
+            -0.4329
+          ],
+          [
+            0.3707,
+            -0.4203
+          ],
+          [
+            0.3158,
+            -0.4078
+          ],
+          [
+            0.261,
+            -0.3953
+          ],
+          [
+            0.2061,
+            -0.3827
+          ],
+          [
+            0.1513,
+            -0.3702
+          ],
+          [
+            0.0965,
+            -0.3576
+          ],
+          [
+            0.0804,
+            -0.3517
+          ],
+          [
+            0.0665,
+            -0.342
+          ],
+          [
+            0.056,
+            -0.3292
+          ],
+          [
+            0.0494,
+            -0.3142
+          ],
+          [
+            0.0474,
+            -0.2981
+          ],
+          [
+            0.05,
+            -0.2821
+          ],
+          [
+            0.0659,
+            -0.2347
+          ],
+          [
+            0.0803,
+            -0.1873
+          ],
+          [
+            0.0942,
+            -0.1399
+          ],
+          [
+            0.1076,
+            -0.0925
+          ],
+          [
+            0.1201,
+            -0.0451
+          ],
+          [
+            0.1291,
+            0.0023
+          ],
+          [
+            0.1008,
+            0.0498
+          ],
+          [
+            0.0701,
+            0.0972
+          ],
+          [
+            0.0366,
+            0.1446
+          ],
+          [
+            0.0,
+            0.192
+          ],
+          [
+            -0.0521,
+            0.192
+          ],
+          [
+            -0.0849,
+            0.6907
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "the cup's pink inside the outline",
+        "color": "pink",
+        "smooth": true,
+        "points": [
+          [
+            0,
+            0.4806
+          ],
+          [
+            0.0946,
+            0.468
+          ],
+          [
+            0.1869,
+            0.4554
+          ],
+          [
+            0.277,
+            0.4428
+          ],
+          [
+            0.365,
+            0.4302
+          ],
+          [
+            0.4508,
+            0.4175
+          ],
+          [
+            0.5347,
+            0.4049
+          ],
+          [
+            0.6166,
+            0.3923
+          ],
+          [
+            0.6966,
+            0.3797
+          ],
+          [
+            0.7748,
+            0.3671
+          ],
+          [
+            0.7859,
+            0.3643
+          ],
+          [
+            0.7962,
+            0.3596
+          ],
+          [
+            0.805,
+            0.3535
+          ],
+          [
+            0.8116,
+            0.3465
+          ],
+          [
+            0.8153,
+            0.3391
+          ],
+          [
+            0.816,
+            0.3319
+          ],
+          [
+            0.8101,
+            0.2804
+          ],
+          [
+            0.8047,
+            0.2289
+          ],
+          [
+            0.7997,
+            0.1773
+          ],
+          [
+            0.7951,
+            0.1258
+          ],
+          [
+            0.7908,
+            0.0743
+          ],
+          [
+            0.7869,
+            0.0227
+          ],
+          [
+            0.7774,
+            -0.0288
+          ],
+          [
+            0.7585,
+            -0.0804
+          ],
+          [
+            0.735,
+            -0.1319
+          ],
+          [
+            0.7115,
+            -0.1834
+          ],
+          [
+            0.688,
+            -0.235
+          ],
+          [
+            0.6646,
+            -0.2865
+          ],
+          [
+            0.6411,
+            -0.338
+          ],
+          [
+            0.6176,
+            -0.3896
+          ],
+          [
+            0.6134,
+            -0.3965
+          ],
+          [
+            0.6076,
+            -0.4023
+          ],
+          [
+            0.6005,
+            -0.4067
+          ],
+          [
+            0.5925,
+            -0.4095
+          ],
+          [
+            0.5841,
+            -0.4105
+          ],
+          [
+            0.5757,
+            -0.4096
+          ],
+          [
+            0.5214,
+            -0.3982
+          ],
+          [
+            0.4671,
+            -0.3868
+          ],
+          [
+            0.4129,
+            -0.3754
+          ],
+          [
+            0.3586,
+            -0.3639
+          ],
+          [
+            0.3043,
+            -0.3525
+          ],
+          [
+            0.2501,
+            -0.3411
+          ],
+          [
+            0.1958,
+            -0.3296
+          ],
+          [
+            0.1415,
+            -0.3182
+          ],
+          [
+            0.1321,
+            -0.3149
+          ],
+          [
+            0.124,
+            -0.3094
+          ],
+          [
+            0.1178,
+            -0.302
+          ],
+          [
+            0.114,
+            -0.2933
+          ],
+          [
+            0.1128,
+            -0.284
+          ],
+          [
+            0.1144,
+            -0.2747
+          ],
+          [
+            0.1318,
+            -0.225
+          ],
+          [
+            0.1474,
+            -0.1753
+          ],
+          [
+            0.1622,
+            -0.1257
+          ],
+          [
+            0.1761,
+            -0.076
+          ],
+          [
+            0.188,
+            -0.0263
+          ],
+          [
+            0.1805,
+            0.0234
+          ],
+          [
+            0.1513,
+            0.0731
+          ],
+          [
+            0.119,
+            0.1228
+          ],
+          [
+            0.0833,
+            0.1725
+          ],
+          [
+            0.0438,
+            0.2222
+          ],
+          [
+            0.0,
+            0.2719
+          ],
+          [
+            -0.0556,
+            0.2719
+          ],
+          [
+            -0.0671,
+            0.4806
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "the lid's white sip hole",
+        "color": "white",
+        "smooth": true,
+        "points": [
+          [
+            0.629,
+            0.743
+          ],
+          [
+            0.792,
+            0.705
+          ],
+          [
+            0.874,
+            0.608
+          ],
+          [
+            0.816,
+            0.537
+          ],
+          [
+            0.691,
+            0.568
+          ],
+          [
+            0.563,
+            0.684
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "stabilizer": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "orange",
+    "inner": "orange",
+    "confidence": "medium",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "orange",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "JBU/dunkin-d",
+      "place": "fin",
+      "at": [
+        0.43,
+        0.165
+      ],
+      "height": 0.33,
+      "colors": [
+        "white"
+      ],
+      "description": "Dunkin's big rounded white 'D' on the cup, tilted with it. On the aircraft its foot runs about 0.4 m below the fin's root onto the body; drawn on the fin here (a logo is on one part), its foot at the root.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "JBU/arrow-plane",
+      "place": "fuselage",
+      "at": [
+        0.38,
+        0.23
+      ],
+      "height": 0.33,
+      "colors": [
+        "white"
+      ],
+      "description": "A white arrow into a small airplane between 'jetBlue' and 'DUNKIN'', over the windows.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "JBU/us-flag",
+      "place": "fuselage",
+      "at": [
+        0.685,
+        0.4
+      ],
+      "height": 0.138,
+      "colors": [
+        "flagRed",
+        "white",
+        "navy"
+      ],
+      "description": "A small US flag ahead of the registration over the rear windows.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "jetBlue",
+      "place": "fuselage",
+      "at": [
+        0.167,
+        0.03
+      ],
+      "height": 0.45,
+      "length": 0.167,
+      "color": "white",
+      "style": "The jetBlue wordmark in white, along the forward windows behind the door.",
+      "confidence": "high",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "Gotham Rounded Bold",
+          "VAG Rounded Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      }
+    },
+    {
+      "text": "DUNKIN'",
+      "place": "fuselage",
+      "at": [
+        0.424,
+        0.021
+      ],
+      "height": 0.425,
+      "length": 0.212,
+      "color": "white",
+      "style": "Dunkin's wordmark: heavy rounded capitals in white, the apostrophe after it, a small ® at its foot.",
+      "confidence": "high",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "VAG Rounded Black",
+          "Arial Rounded MT Bold"
+        ],
+        "weight": 900,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Drawn from one photo, N643JB's left side at O'Hare on 2026-09-11 (the newest; Commons has no right side). Redrawn 2026-11-22: the pink sweep's edges read off the photo column by column on the measured A320 (tools/photo_trace.py fit, within 10 px) and drawn as smooth curves; its lower edge behind the engine and under the wing isn't seen and is interpolated. The cup's walls, foot and lid band are lines fitted to the photo's edges in side-view meters, rounded at the corners as painted, and split at the fin's root into fin areas and fuselage areas from the same outline, so the two meet there (on other types the fin's part isn't fitted and the joint is approximate). The wave's paler swirl inside the pink (under the wing's trailing edge and aft) is left out; the cup's foot behind the stabilizer and under the belly is carried on from the edges either side. The small lettering by the nose and forward door (the aircraft's name, 'Brewing Altitude', per JetBlue) isn't drawn. Colours set against the photo's whites (overcast: the paint reads darker than it is)."
+}

@@ -1,0 +1,179 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "PGT",
+  "name": "flypgs.com (yellow tail)",
+  "kind": "standard",
+  "confidence": "high",
+  "drawnOn": "A21N",
+  "description": "Plain white fuselage with 'flypgs.com' huge in crimson rounded lowercase over the forward windows; sunflower-yellow fin with 'PEGASUS' in crimson serif capitals running diagonally up it parallel to the leading edge; yellow winglets with a small white winged horse; white engines.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:TC-RDE_(aircraft)",
+      "accessed": "2026-11-13"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A321-251NX_(c-n_11240,_TC-RDE)_2026-04-15_Andre_Gerwing_Collection_ID_028440.jpg",
+      "accessed": "2026-11-13",
+      "title": "Airbus A321-251NX TC-RDE, 2026-04-15 (CC BY-SA 4.0)",
+      "note": "Left side from below, 2026-04-15: titles, fin, winglets."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A321-251NX_(c-n_11240,_TC-RDE)_2026-06-08_Andre_Gerwing_Collection_ID_029474.jpg",
+      "accessed": "2026-11-13",
+      "title": "Airbus A321-251NX TC-RDE, 2026-06-08 (CC BY-SA 4.0)",
+      "note": "Right side from below, 2026-06-08."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F6",
+      "official": false
+    },
+    "yellow": {
+      "hex": "#F6B40E",
+      "official": false
+    },
+    "crimson": {
+      "hex": "#DB1A3C",
+      "official": false
+    },
+    "cowl": {
+      "hex": "#E6E8EB",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "name": "bare metal inlet lip",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B4B9C0",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "yellow",
+    "mirrored": true,
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "yellow",
+    "inner": "yellow",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "cowl",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "PGT/winged-horse",
+      "place": "winglets",
+      "at": [
+        0.45,
+        0.7
+      ],
+      "height": 0.25,
+      "colors": [
+        "white"
+      ],
+      "description": "Pegasus' winged-horse emblem, small, white, on the yellow winglet near its tip.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Pegasus_Airlines_logo.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "flypgs.com",
+      "place": "fuselage",
+      "at": [
+        0.135,
+        0.27
+      ],
+      "height": 0.58,
+      "length": 0.225,
+      "color": "crimson",
+      "style": "Very large rounded bold lowercase in crimson, ascenders reaching the crown, letters straddling the forward windows from just aft of the forward door to over the wing root. Re-checked 2026-11-15: its baseline runs along the window tops (the descenders cross the windows), the ascenders nearly to the crown; lowercase about 0.68 of the ascenders.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "VAG Rounded Bold",
+          "Nunito ExtraBold",
+          "Arial Rounded MT Bold"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.68
+      }
+    },
+    {
+      "text": "PEGASUS",
+      "place": "fin",
+      "at": [
+        0.15,
+        0.08
+      ],
+      "height": 0.2,
+      "color": "crimson",
+      "style": "Heavy flared-serif capitals in crimson, set on a line rising at about 50° parallel to the fin's leading edge, from near the root to near the tip (the baseline climbs from y 0.1 to 0.85 while x runs 0.2 to 0.47); reads bottom to top on both sides.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Friz Quadrata Bold",
+          "Albertus Extra Bold"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "contrast",
+        "case": "upper"
+      },
+      "rotationDeg": 47,
+      "length": 0.95
+    }
+  ],
+  "notes": "The fin title climbs the fin at about 47° from its root near the leading edge to near the tip at the trailing edge, reading upward toward the tail on the left and downward toward the nose on the right (TC-RDE both sides, 2026); its length (0.95 of the chord where it starts) re-measured 2026-11-15. The yellow stops at the fin root. Each aircraft carries a person's name in small script under the cockpit (e.g. 'Yağmur Alya'); not drawn. Belly white as seen from below.",
+  "history": "Replaced Skyarium v1's approximation (a few colors from memory) with the current scheme drawn from dated Commons photos."
+}

@@ -1,0 +1,1199 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "tennessee-one",
+  "airline": "SWA",
+  "name": "Tennessee One (Tennessee flag)",
+  "kind": "special",
+  "description": "Fuselage: Entire fuselage red; a large blue disc with white outline containing three white stars on the forward fuselage over the wing-forward cabin; aft, a white-edged blue band (the flag's fly-end bar) curves up over the rear fuselage into the tail. Cheatlines: None. Tail: Heart fin with white 'Southwest'. Engines: Blue with red (approximate). Winglets: White. Titles: 'Southwest' white on lower fin; 'Tennessee One' small by cockpit. Artwork: Tennessee tristar. Colors hex: approximate.",
+  "confidence": "medium",
+  "drawnOn": "B738",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Southwest_Airlines_fleet",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:N8555Z_(aircraft)",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Southwest_Airlines_Tennessee_One_N8555Z_@IND.jpg",
+      "title": "Southwest Airlines Tennessee One N8555Z @IND.jpg (CC BY 4.0)",
+      "accessed": "2026-11-12",
+      "note": "N8555Z from the left, 2026-07-18: the tristar disc, the white-edged blue tail, the engine, fin."
+    }
+  ],
+  "palette": {
+    "blue": {
+      "hex": "#304CB2",
+      "name": "Bold Blue",
+      "official": true
+    },
+    "red": {
+      "hex": "#D5152B",
+      "official": false
+    },
+    "yellow": {
+      "hex": "#F9B612",
+      "official": false
+    },
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B4B9C0",
+      "official": false
+    },
+    "wingletGray": {
+      "hex": "#D3D6DA",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "name": "bare metal inlet lip",
+      "official": false
+    },
+    "tnBlue": {
+      "hex": "#10309A",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "red",
+    "areas": [
+      {
+        "name": "white ring round the disc",
+        "color": "white",
+        "points": [
+          [
+            0.429,
+            0.002
+          ],
+          [
+            0.428,
+            0.167
+          ],
+          [
+            0.425,
+            0.33
+          ],
+          [
+            0.421,
+            0.486
+          ],
+          [
+            0.415,
+            0.635
+          ],
+          [
+            0.408,
+            0.773
+          ],
+          [
+            0.399,
+            0.897
+          ],
+          [
+            0.389,
+            1
+          ],
+          [
+            0.378,
+            1
+          ],
+          [
+            0.367,
+            1
+          ],
+          [
+            0.354,
+            1
+          ],
+          [
+            0.341,
+            1
+          ],
+          [
+            0.328,
+            1
+          ],
+          [
+            0.315,
+            1
+          ],
+          [
+            0.302,
+            1
+          ],
+          [
+            0.289,
+            1
+          ],
+          [
+            0.278,
+            1
+          ],
+          [
+            0.267,
+            1
+          ],
+          [
+            0.257,
+            0.897
+          ],
+          [
+            0.248,
+            0.773
+          ],
+          [
+            0.241,
+            0.635
+          ],
+          [
+            0.235,
+            0.486
+          ],
+          [
+            0.231,
+            0.33
+          ],
+          [
+            0.228,
+            0.167
+          ],
+          [
+            0.227,
+            0.002
+          ],
+          [
+            0.228,
+            -0.163
+          ],
+          [
+            0.231,
+            -0.326
+          ],
+          [
+            0.235,
+            -0.482
+          ],
+          [
+            0.241,
+            -0.631
+          ],
+          [
+            0.248,
+            -0.769
+          ],
+          [
+            0.257,
+            -0.893
+          ],
+          [
+            0.267,
+            -1
+          ],
+          [
+            0.278,
+            -1
+          ],
+          [
+            0.289,
+            -1
+          ],
+          [
+            0.302,
+            -1
+          ],
+          [
+            0.315,
+            -1
+          ],
+          [
+            0.328,
+            -1
+          ],
+          [
+            0.341,
+            -1
+          ],
+          [
+            0.354,
+            -1
+          ],
+          [
+            0.367,
+            -1
+          ],
+          [
+            0.378,
+            -1
+          ],
+          [
+            0.389,
+            -1
+          ],
+          [
+            0.399,
+            -0.893
+          ],
+          [
+            0.408,
+            -0.769
+          ],
+          [
+            0.415,
+            -0.631
+          ],
+          [
+            0.421,
+            -0.482
+          ],
+          [
+            0.425,
+            -0.326
+          ],
+          [
+            0.428,
+            -0.163
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2
+        ],
+        "smooth": true
+      },
+      {
+        "name": "blue disc",
+        "color": "tnBlue",
+        "points": [
+          [
+            0.422,
+            0.002
+          ],
+          [
+            0.421,
+            0.156
+          ],
+          [
+            0.418,
+            0.306
+          ],
+          [
+            0.414,
+            0.452
+          ],
+          [
+            0.409,
+            0.59
+          ],
+          [
+            0.402,
+            0.718
+          ],
+          [
+            0.394,
+            0.834
+          ],
+          [
+            0.385,
+            0.935
+          ],
+          [
+            0.375,
+            1
+          ],
+          [
+            0.364,
+            1
+          ],
+          [
+            0.352,
+            1
+          ],
+          [
+            0.34,
+            1
+          ],
+          [
+            0.328,
+            1
+          ],
+          [
+            0.316,
+            1
+          ],
+          [
+            0.304,
+            1
+          ],
+          [
+            0.292,
+            1
+          ],
+          [
+            0.281,
+            1
+          ],
+          [
+            0.271,
+            0.935
+          ],
+          [
+            0.262,
+            0.834
+          ],
+          [
+            0.254,
+            0.718
+          ],
+          [
+            0.247,
+            0.59
+          ],
+          [
+            0.242,
+            0.452
+          ],
+          [
+            0.238,
+            0.306
+          ],
+          [
+            0.235,
+            0.156
+          ],
+          [
+            0.234,
+            0.002
+          ],
+          [
+            0.235,
+            -0.152
+          ],
+          [
+            0.238,
+            -0.302
+          ],
+          [
+            0.242,
+            -0.448
+          ],
+          [
+            0.247,
+            -0.586
+          ],
+          [
+            0.254,
+            -0.714
+          ],
+          [
+            0.262,
+            -0.83
+          ],
+          [
+            0.271,
+            -0.931
+          ],
+          [
+            0.281,
+            -1
+          ],
+          [
+            0.292,
+            -1
+          ],
+          [
+            0.304,
+            -1
+          ],
+          [
+            0.316,
+            -1
+          ],
+          [
+            0.328,
+            -1
+          ],
+          [
+            0.34,
+            -1
+          ],
+          [
+            0.352,
+            -1
+          ],
+          [
+            0.364,
+            -1
+          ],
+          [
+            0.375,
+            -1
+          ],
+          [
+            0.385,
+            -0.931
+          ],
+          [
+            0.394,
+            -0.83
+          ],
+          [
+            0.402,
+            -0.714
+          ],
+          [
+            0.409,
+            -0.586
+          ],
+          [
+            0.414,
+            -0.448
+          ],
+          [
+            0.418,
+            -0.302
+          ],
+          [
+            0.421,
+            -0.152
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2
+        ],
+        "smooth": true
+      },
+      {
+        "name": "star, upper",
+        "color": "white",
+        "points": [
+          [
+            0.291,
+            1.0
+          ],
+          [
+            0.302,
+            0.47
+          ],
+          [
+            0.335,
+            0.54
+          ],
+          [
+            0.309,
+            0.288
+          ],
+          [
+            0.32,
+            0.02
+          ],
+          [
+            0.293,
+            0.16
+          ],
+          [
+            0.268,
+            -0.029
+          ],
+          [
+            0.277,
+            0.254
+          ],
+          [
+            0.249,
+            0.428
+          ],
+          [
+            0.282,
+            0.445
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2
+        ]
+      },
+      {
+        "name": "star, aft",
+        "color": "white",
+        "points": [
+          [
+            0.354,
+            0.505
+          ],
+          [
+            0.375,
+            0.262
+          ],
+          [
+            0.404,
+            0.421
+          ],
+          [
+            0.388,
+            0.13
+          ],
+          [
+            0.409,
+            -0.077
+          ],
+          [
+            0.379,
+            -0.021
+          ],
+          [
+            0.365,
+            -0.252
+          ],
+          [
+            0.36,
+            -0.002
+          ],
+          [
+            0.329,
+            0.002
+          ],
+          [
+            0.358,
+            0.165
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2
+        ]
+      },
+      {
+        "name": "star, lower",
+        "color": "white",
+        "points": [
+          [
+            0.323,
+            -0.015
+          ],
+          [
+            0.319,
+            -0.305
+          ],
+          [
+            0.345,
+            -0.444
+          ],
+          [
+            0.318,
+            -0.492
+          ],
+          [
+            0.316,
+            -1.0
+          ],
+          [
+            0.301,
+            -0.562
+          ],
+          [
+            0.273,
+            -0.813
+          ],
+          [
+            0.29,
+            -0.399
+          ],
+          [
+            0.273,
+            -0.152
+          ],
+          [
+            0.302,
+            -0.238
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2
+        ]
+      },
+      {
+        "name": "white stripe ahead of the blue tail",
+        "color": "white",
+        "points": [
+          [
+            0.808,
+            1
+          ],
+          [
+            0.84,
+            0.59
+          ],
+          [
+            0.864,
+            0.28
+          ],
+          [
+            0.882,
+            -0.04
+          ],
+          [
+            0.896,
+            -0.43
+          ],
+          [
+            0.902,
+            -0.77
+          ],
+          [
+            0.905,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2
+        ],
+        "smooth": true
+      },
+      {
+        "name": "blue tail cone (the flag's fly-end bar)",
+        "color": "tnBlue",
+        "points": [
+          [
+            0.83,
+            1
+          ],
+          [
+            0.858,
+            0.51
+          ],
+          [
+            0.878,
+            0.21
+          ],
+          [
+            0.894,
+            -0.13
+          ],
+          [
+            0.904,
+            -0.56
+          ],
+          [
+            0.908,
+            -0.85
+          ],
+          [
+            0.91,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2
+        ],
+        "smooth": true
+      },
+      {
+        "name": "blue dorsal fillet, the fin's blue run forward",
+        "color": "blue",
+        "points": [
+          [
+            0.762,
+            1
+          ],
+          [
+            0.8,
+            0.93
+          ],
+          [
+            0.985,
+            0.93
+          ],
+          [
+            0.985,
+            1
+          ]
+        ]
+      }
+    ],
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      2
+    ]
+  },
+  "fin": {
+    "base": "blue",
+    "areas": [
+      {
+        "name": "pinstripe under the red",
+        "color": "white",
+        "above": [
+          [
+            0,
+            0.2
+          ],
+          [
+            0.177,
+            0.241
+          ],
+          [
+            0.504,
+            0.329
+          ],
+          [
+            0.723,
+            0.407
+          ],
+          [
+            0.883,
+            0.482
+          ],
+          [
+            1,
+            0.54
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "red band",
+        "color": "red",
+        "above": [
+          [
+            0,
+            0.213
+          ],
+          [
+            0.081,
+            0.235
+          ],
+          [
+            0.416,
+            0.324
+          ],
+          [
+            0.65,
+            0.404
+          ],
+          [
+            0.803,
+            0.479
+          ],
+          [
+            1,
+            0.555
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "pinstripe under the yellow",
+        "color": "white",
+        "above": [
+          [
+            0,
+            0.285
+          ],
+          [
+            0.18,
+            0.38
+          ],
+          [
+            0.315,
+            0.455
+          ],
+          [
+            0.489,
+            0.6
+          ],
+          [
+            0.645,
+            0.741
+          ],
+          [
+            0.8,
+            0.88
+          ],
+          [
+            0.895,
+            0.948
+          ],
+          [
+            0.97,
+            1.0
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "yellow band",
+        "color": "yellow",
+        "above": [
+          [
+            0,
+            0.3
+          ],
+          [
+            0.126,
+            0.377
+          ],
+          [
+            0.246,
+            0.452
+          ],
+          [
+            0.427,
+            0.597
+          ],
+          [
+            0.561,
+            0.738
+          ],
+          [
+            0.692,
+            0.877
+          ],
+          [
+            0.766,
+            0.946
+          ],
+          [
+            0.82,
+            1.0
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "leading-edge pinstripe along the yellow",
+        "color": "white",
+        "points": [
+          [
+            0.003,
+            0.3
+          ],
+          [
+            0.025,
+            0.3
+          ],
+          [
+            0.025,
+            1.0
+          ],
+          [
+            0.003,
+            1.0
+          ]
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "wingletGray",
+    "inner": "wingletGray"
+  },
+  "engines": {
+    "cowling": "red",
+    "inletLip": "lip",
+    "areas": [
+      {
+        "name": "the disc's white ring, continued",
+        "color": "white",
+        "points": [
+          [
+            0,
+            1
+          ],
+          [
+            0.65,
+            1
+          ],
+          [
+            0.7000000000000001,
+            0.39
+          ],
+          [
+            0.66,
+            -0.17
+          ],
+          [
+            0.56,
+            -0.56
+          ],
+          [
+            0.39,
+            -0.89
+          ],
+          [
+            0.25,
+            -1
+          ],
+          [
+            0,
+            -1
+          ]
+        ]
+      },
+      {
+        "name": "the disc's blue, continued",
+        "color": "tnBlue",
+        "points": [
+          [
+            0,
+            1
+          ],
+          [
+            0.6,
+            1
+          ],
+          [
+            0.65,
+            0.39
+          ],
+          [
+            0.61,
+            -0.17
+          ],
+          [
+            0.51,
+            -0.56
+          ],
+          [
+            0.34,
+            -0.89
+          ],
+          [
+            0.2,
+            -1
+          ],
+          [
+            0,
+            -1
+          ]
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "SWA/heart",
+      "place": "fuselage",
+      "at": [
+        0.151,
+        0.378
+      ],
+      "height": 0.13,
+      "colors": [
+        "blue",
+        "red",
+        "yellow"
+      ],
+      "description": "The small Southwest Heart above and just aft of the forward passenger door.",
+      "reference": "https://commons.wikimedia.org/wiki/Category:Southwest_Airlines",
+      "side": "both",
+      "confidence": "medium",
+      "sourceRefs": [
+        2
+      ]
+    },
+    {
+      "mark": "SWA/us-flag",
+      "place": "fin",
+      "at": [
+        0.02,
+        0.05
+      ],
+      "height": 0.055,
+      "colors": [
+        "red",
+        "white",
+        "#1F2A5C"
+      ],
+      "description": "A small US flag ahead of the fin title, at the fin's root.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Southwest",
+      "place": "fin",
+      "at": [
+        0.084,
+        0.03
+      ],
+      "height": 0.12,
+      "color": "white",
+      "style": "The Southwest wordmark: bold, upright, rounded humanist sans, capital S, on the blue at the fin's root.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Bold",
+          "Gotham Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      },
+      "length": 0.86
+    },
+    {
+      "text": "Tennessee",
+      "place": "fuselage",
+      "at": [
+        0.0502,
+        -0.1
+      ],
+      "height": 0.05,
+      "color": "white",
+      "style": "The state's name, small under the cockpit windows, semi-bold; 'One' follows it in a lighter weight.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Demi Bold",
+          "Gotham Medium"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "length": 0.0175,
+      "side": "left"
+    },
+    {
+      "text": "One",
+      "place": "fuselage",
+      "at": [
+        0.0689,
+        -0.1
+      ],
+      "height": 0.05,
+      "color": "white",
+      "style": "'One' after the name, lighter.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Regular",
+          "Gotham Book"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "length": 0.0071,
+      "side": "left"
+    },
+    {
+      "text": "Tennessee",
+      "place": "fuselage",
+      "at": [
+        0.0585,
+        -0.1
+      ],
+      "height": 0.05,
+      "color": "white",
+      "style": "The state's name, small under the cockpit windows, semi-bold; 'One' follows it in a lighter weight. On the right it reads from the aft end: the name aft, 'One' forward. The right side isn't legible in a photo: placed as the left's mirror.",
+      "confidence": "low",
+      "sourceRefs": [
+        2
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Demi Bold",
+          "Gotham Medium"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "length": 0.0175,
+      "side": "right"
+    },
+    {
+      "text": "One",
+      "place": "fuselage",
+      "at": [
+        0.0502,
+        -0.1
+      ],
+      "height": 0.05,
+      "color": "white",
+      "style": "'One' after the name, lighter.",
+      "confidence": "low",
+      "sourceRefs": [
+        2
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Regular",
+          "Gotham Book"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "length": 0.0071,
+      "side": "right"
+    }
+  ],
+  "notes": "FAA model shown as 737-800. Drawn from the July 2026 photo of N8555Z (left side). The disc is drawn as a circle on the skin, cut by the crown and the belly as it is in the photo; whether it continues across the belly is not seen. Re-checked 2026-11-15: the fin is the state jets' Heart fin as re-measured on Colorado One (the same fin on every 737), copied with its 'Southwest' title and flag. 'Tennessee One' measured on the July 2026 left photo against the nose and the forward door (1.8-2.8 m back), two weights, a pair of titles per side (the right mirrored: the only photo shows the left), on Colorado One's line under the cockpit windows. The white stripe ahead of the blue tail is a curve, and wider than first drawn: about 0.8 m at the crown narrowing to 0.2 m at the belly (it had been 0.15 m throughout); its edges re-measured on the photo (side-on: the door probes within 0.002 of the 737-800's) and made smooth, as are the disc and its ring.",
+  "history": "Previously N922WN and N8620H."
+}

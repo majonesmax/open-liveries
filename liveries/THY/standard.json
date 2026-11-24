@@ -1,0 +1,220 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "THY",
+  "name": "Standard (red tail, goose roundel)",
+  "kind": "standard",
+  "confidence": "high",
+  "drawnOn": "A21N",
+  "description": "All-white fuselage with 'TURKISH AIRLINES' in heavy dark-blue capitals above the forward windows; a large pale-gray goose watermark on the rear fuselage behind the wing; red fin with the white-ringed red roundel and white goose low and aft on it; red winglets carrying a small roundel; white engines.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:TC-LSY_(aircraft)",
+      "accessed": "2026-11-13"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A321-271NX_(c-n_9415,_TC-LSY)_2026-08-06_Andre_Gerwing_Collection_ID_030777.jpg",
+      "accessed": "2026-11-13",
+      "title": "Airbus A321-271NX TC-LSY, 2026-08-06 (CC BY-SA 4.0)",
+      "note": "Left side from below-front, 2026-08-06: titles, fin roundel, gray goose aft of the wing, red winglets."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:TC-LSY_-_Airbus_A321-271NX_-_Turkish_Airlines_landing_BHX_180124.jpg",
+      "accessed": "2026-11-13",
+      "title": "TC-LSY landing BHX, 2024-01-19 (CC BY 2.0)",
+      "note": "Left side, 2024-01-19: same layout; titles and goose watermark."
+    },
+    {
+      "url": "https://www.aerotelegraph.com/rot-von-turkish-airlines-hat-jetzt-einen-namen",
+      "accessed": "2026-11-13",
+      "title": "Turkish Airlines Red is now an official Pantone colour",
+      "note": "2024: PANTONE 7620 named 'Turkish Airlines Red'; no hex published."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Turkish_Airlines_logo_2019_compact.svg",
+      "accessed": "2026-11-13",
+      "title": "Turkish Airlines logo (Commons)",
+      "note": "The tail roundel for reference."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:TC-LSY_(51992885076).jpg",
+      "title": "TC-LSY (51992885076).jpg (CC BY-SA 2.0)",
+      "accessed": "2026-11-15",
+      "note": "A321neo TC-LSY left side, side-on, 2022-04-09: the title's ends and its baseline against the windows (re-check 2026-11-15)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:TC-LSY_-_Airbus_A321-271NX_-_Turkish_Airlines_BHX_180124.jpg",
+      "title": "TC-LSY - Airbus A321-271NX - Turkish Airlines BHX 180124.jpg (CC BY 2.0)",
+      "accessed": "2026-11-15",
+      "note": "A321neo TC-LSY right side, side-on, 2024-01-19: second check of the title's ends."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F2F3F5",
+      "official": false
+    },
+    "red": {
+      "hex": "#D0202C",
+      "name": "Turkish Airlines Red",
+      "pantone": "7620 C",
+      "official": false
+    },
+    "navy": {
+      "hex": "#232F7A",
+      "official": false
+    },
+    "goose": {
+      "hex": "#D7DADF",
+      "name": "watermark gray",
+      "official": false
+    },
+    "cowl": {
+      "hex": "#E3E5E8",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "name": "bare metal inlet lip",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B4B9C0",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "red",
+    "mirrored": true,
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "red",
+    "inner": "red",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "cowl",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "THY/goose-roundel",
+      "place": "fin",
+      "at": [
+        0.52,
+        0.38
+      ],
+      "height": 0.72,
+      "colors": [
+        "white",
+        "red",
+        "white"
+      ],
+      "description": "A white ring round a red disc holding a white stylised wild goose: a crescent wing whose convex edge faces forward on the left side, a short spike pointing forward from its foot and a long pointed tail running down and aft to the ring; set low on the fin, its aft edge almost touching the trailing edge. Same artwork on both sides (not mirrored).",
+      "reference": "https://commons.wikimedia.org/wiki/File:Turkish_Airlines_logo_2019_compact.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "THY/goose",
+      "place": "fuselage",
+      "at": [
+        0.66,
+        -0.15
+      ],
+      "height": 1.1,
+      "colors": [
+        "goose"
+      ],
+      "description": "The goose alone, very large, as a pale-gray outline watermark on the rear fuselage behind the wing, over and below the window line.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Turkish_Airlines_logo_2019_compact.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "THY/goose-roundel",
+      "place": "winglets",
+      "at": [
+        0.5,
+        0.75
+      ],
+      "height": 0.25,
+      "colors": [
+        "white",
+        "red",
+        "white"
+      ],
+      "description": "Small white roundel with the red goose near the top of each winglet's outer face.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "TURKISH AIRLINES",
+      "place": "fuselage",
+      "at": [
+        0.127,
+        0.34
+      ],
+      "height": 0.26,
+      "length": 0.258,
+      "color": "navy",
+      "style": "Heavy, slightly wide sans capitals in dark blue, above the windows from just aft of the forward door. Re-measured 2026-11-15: starts just aft of the forward door's frame, its baseline a hair above the window tops, cap height about 0.65 m.",
+      "confidence": "high",
+      "sourceRefs": [
+        5,
+        6
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Heavy",
+          "Arial Black"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Each aircraft also carries a city name in small dark capitals under the cockpit (e.g. 'NEVŞEHİR') and a small star by the cockpit; not drawn. The belly wasn't seen squarely; photos from below-front show it white. Wide-bodies (A330, A350, 777, 787) carry the same scheme at their own proportions. When this scheme was introduced isn't sourced here (around 2010, unverified), so `from` is left out.",
+  "history": "Replaced Skyarium v1's approximation (a few colors from memory) with the current scheme drawn from dated Commons photos."
+}

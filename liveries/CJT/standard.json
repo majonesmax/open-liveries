@@ -1,0 +1,246 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "CJT",
+  "name": "Cargojet (maple leaf globe)",
+  "kind": "standard",
+  "confidence": "low",
+  "drawnOn": "B763",
+  "description": "White fuselage with a red pinstripe over a black one sweeping from under the cockpit down and back along the side; 'CARGOJET' in huge, widely spaced black capitals over the middle of the fuselage with a red oval swoosh round 'JET' and a small red maple leaf over the J; a black fin with a red maple leaf in front of a gray globe and gray speed lines.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Cargojet",
+      "title": "Wikipedia: Cargojet",
+      "accessed": "2026-11-13",
+      "note": "Canada's cargo airline: 767, 757, 777F."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:CARGOJET_BOEING_767F_C-FDIJ_(51464683982).jpg",
+      "title": "CARGOJET BOEING 767F C-FDIJ (51464683982).jpg (CC BY 2.0)",
+      "accessed": "2026-11-13",
+      "note": "C-FDIJ (767-300) right side climbing, 2021-09-01: the only clear photo found (no 2024–2026 one). Right-side photo only; the left side is assumed to mirror it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Cologne_Bonn_Airport_Cargojet_Airways_Boeing_767-39HER(BDSF)_C-FDIJ_(DSC04334).jpg",
+      "title": "Cologne Bonn Airport Cargojet Airways Boeing 767-39HER(BDSF) C-FDIJ (DSC04334).jpg (CC BY-SA 4.0, MarcelX42)",
+      "accessed": "2026-11-15",
+      "note": "C-FDIJ left side, level, 2023-04-30: title, swoosh and pinstripes re-measured."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F2F3F5",
+      "official": false
+    },
+    "black": {
+      "hex": "#1A1C22",
+      "official": false
+    },
+    "red": {
+      "hex": "#D52B1E",
+      "official": false,
+      "name": "Cargojet red"
+    },
+    "gray": {
+      "hex": "#9DA3AA",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "red pinstripe",
+        "color": "red",
+        "below": [
+          [
+            0.08,
+            -0.2
+          ],
+          [
+            0.2,
+            -0.02
+          ],
+          [
+            0.66,
+            -0.03
+          ]
+        ],
+        "above": [
+          [
+            0.08,
+            -0.22
+          ],
+          [
+            0.2,
+            -0.06
+          ],
+          [
+            0.66,
+            -0.07
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          2
+        ],
+        "smooth": true
+      },
+      {
+        "name": "black pinstripe",
+        "color": "black",
+        "below": [
+          [
+            0.07,
+            -0.15
+          ],
+          [
+            0.2,
+            0.06
+          ],
+          [
+            0.5,
+            0.06
+          ],
+          [
+            0.8,
+            0.08
+          ]
+        ],
+        "above": [
+          [
+            0.07,
+            -0.17
+          ],
+          [
+            0.2,
+            0.03
+          ],
+          [
+            0.5,
+            0.03
+          ],
+          [
+            0.8,
+            0.05
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          2
+        ],
+        "smooth": true
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "hidden",
+    "confidence": "low",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "fin": {
+    "base": "black",
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "low",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "CJT/leaf-globe",
+      "place": "fin",
+      "at": [
+        0.4,
+        0.4
+      ],
+      "height": 0.35,
+      "colors": [
+        "red",
+        "gray",
+        "white"
+      ],
+      "description": "A red maple leaf overlapping a gray globe (latitude and longitude lines), with gray horizontal speed lines trailing from the leading edge.",
+      "reference": "https://commons.wikimedia.org/wiki/File:CARGOJET_BOEING_767F_C-FDIJ_(51464683982).jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "CJT/swoosh",
+      "place": "fuselage",
+      "at": [
+        0.63,
+        0.45
+      ],
+      "height": 0.56,
+      "colors": [
+        "red"
+      ],
+      "description": "A thin red open oval swoosh round 'JET', with a small red maple leaf over the J.",
+      "reference": "https://commons.wikimedia.org/wiki/File:CARGOJET_BOEING_767F_C-FDIJ_(51464683982).jpg",
+      "confidence": "low",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "CARGOJET",
+      "place": "fuselage",
+      "at": [
+        0.356,
+        0.29
+      ],
+      "height": 0.23,
+      "color": "black",
+      "style": "'CARGOJET' in widely spaced, slanted black capitals above the window line over the wing.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "length": 0.345,
+      "type": {
+        "similar": [
+          "Eurostile Extended Bold Oblique",
+          "Microgramma Bold Extended"
+        ],
+        "weight": 700,
+        "slantDeg": 12,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Drawn from one right-side photo of 767-300 C-FDIJ (2021); no 2024–2026 Commons photo was found, though the scheme is believed unchanged. Right-side photo only; the left side is assumed to mirror it. Re-checked 2026-11-15 on a level left-side photo (C-FDIJ, 2023-04-30): CARGOJET is far smaller than drawn, its capitals between y 0.29 and 0.52 above the stripes (it had filled the fuselage's middle, cap 0.6), running x 0.356-0.70; the pinstripes, black over red, run level just above the middle from x 0.2 aft and dip toward the belly under the cockpit (they had been drawn as one long slope from high at the nose to low at the tail), the red ending in the swoosh round JET (~0.66), the black at ~0.8.",
+  "history": "Replaces Skyarium v1's approximate standard (a few colors from memory)."
+}

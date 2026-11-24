@@ -1,0 +1,308 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "WZZ",
+  "name": "2015 livery",
+  "kind": "standard",
+  "from": "2015",
+  "confidence": "high",
+  "drawnOn": "A21N",
+  "description": "White forward fuselage with the big outlined 'wizz' wordmark by the door; from the wing aft the fuselage is all magenta, and a straight diagonal of deep blue-violet rises from the belly behind the wing to the crown at the fin, so the tail cone is blue. The fin is magenta at the top and leading edge, blue below a diagonal that climbs to the trailing edge's tip. Magenta engines and sharklets with white 'wizzair.com'.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Wizz_Air,_9H-WDS,_Airbus_A321-271NX_(54431445547).jpg",
+      "accessed": "2026-11-13",
+      "title": "Wizz Air, 9H-WDS, A321neo (CC BY-SA 2.0)",
+      "note": "Left side, 2025-03-30: the white front, magenta from the wing aft, the blue sweep, fin split, titles, engine."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:G-WUKV_Airbus_A321-271NX_-_Wizz_Air_UK_LGW_Approach_030525.jpg",
+      "accessed": "2026-11-13",
+      "title": "G-WUKV on approach to LGW (CC BY 2.0)",
+      "note": "Left side from slightly below, 2025-05-04: magenta belly under the wing with 'wizzair.com' belly title, sharklets, engines."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:9H-WNF_-_Airbus_A321-271NX_-_Wizz_Air_LGW_110225.jpg",
+      "accessed": "2026-11-13",
+      "title": "9H-WNF at LGW (CC BY 2.0)",
+      "note": "Left side at night, 2025-03-02: same layout."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Wizz_Air_logo_2015.svg",
+      "accessed": "2026-11-13",
+      "title": "Wizz Air logo 2015 (Commons)"
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "magenta": {
+      "hex": "#C6007E",
+      "official": false
+    },
+    "violet": {
+      "hex": "#2E2D88",
+      "official": false,
+      "name": "Wizz blue-violet"
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false,
+      "name": "bare metal inlet lip"
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "magenta from the wing aft",
+        "color": "magenta",
+        "points": [
+          [
+            0.43,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            0.41,
+            -1
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "blue-violet diagonal to the tail (straight from the side)",
+        "color": "violet",
+        "points": [
+          [
+            0.665,
+            -1
+          ],
+          [
+            0.81,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "fin": {
+    "base": "magenta",
+    "areas": [
+      {
+        "name": "blue-violet lower aft triangle",
+        "color": "violet",
+        "points": [
+          [
+            -0.05,
+            -0.05
+          ],
+          [
+            -0.05,
+            0.08
+          ],
+          [
+            1.05,
+            0.83
+          ],
+          [
+            1.05,
+            -0.05
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "#B9BEC5",
+    "under": "#C9CDD2"
+  },
+  "winglets": {
+    "outer": "magenta",
+    "inner": "magenta",
+    "confidence": "medium",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "magenta",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "WZZ/wizzair-com",
+      "place": "winglets",
+      "at": [
+        0.5,
+        0.45
+      ],
+      "height": 0.2,
+      "colors": [
+        "white"
+      ],
+      "description": "'wizzair.com' in white lowercase along the magenta sharklet. Lettering; a logo entry only because titles can't sit on winglets.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Wizz_Air_logo_2015.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "wizz",
+      "place": "fuselage",
+      "at": [
+        0.133,
+        -0.06
+      ],
+      "height": 0.6,
+      "length": 0.122,
+      "color": "violet",
+      "style": "The Wizz wordmark: big, heavy, slanted lowercase drawn in outline only (a blue-violet outline with a thin magenta inner line, white inside); the 'i' a stem with the dot below as a ring. Re-measured 2026-11-15 on 9H-WDS (side-on): the letters run from just under the window line to about halfway to the crown; they are nearly all one height (the i's stem a little taller), hence xHeight 0.9.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Futura Extra Bold Oblique (outlined)",
+          "Avenir Next Heavy Italic (outlined)"
+        ],
+        "weight": 800,
+        "slantDeg": 12,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.9
+      }
+    },
+    {
+      "text": "wizzair.com",
+      "place": "fuselage",
+      "at": [
+        0.6,
+        0.28
+      ],
+      "height": 0.26,
+      "length": 0.121,
+      "color": "white",
+      "style": "Bold rounded lowercase over the rear windows on the magenta.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Arial Rounded MT Bold",
+          "VAG Rounded Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower"
+      }
+    },
+    {
+      "text": "wizzair.com",
+      "place": "engines",
+      "at": [
+        0.1,
+        0.05
+      ],
+      "height": 0.3,
+      "length": 0.45,
+      "color": "white",
+      "style": "As the fuselage's, on the outboard side of the cowling.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Arial Rounded MT Bold",
+          "VAG Rounded Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower"
+      }
+    },
+    {
+      "text": "wizzair.com",
+      "place": "belly",
+      "at": [
+        0.4,
+        -1
+      ],
+      "height": 0.4,
+      "color": "white",
+      "style": "Large white lowercase along the magenta belly under the wing.",
+      "confidence": "low",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    }
+  ],
+  "notes": "Measured on A321neos (2025); A320s/A321ceos wear the same. Wizz Air Malta (9H-) and Wizz Air UK (G-) aircraft wear it unchanged. Where the magenta begins under the wing is hidden in the photos; the belly is only glimpsed (blurred) on approach. Re-checked 2026-11-15 on 9H-WDS (A321neo, side-on): 'wizz' and the aft 'wizzair.com' given measured lengths; the belly title has no photo that shows it clearly enough to measure its length.",
+  "history": "Replaced Skyarium v1's approximation. The 2015 scheme replaced Wizz's earlier white aircraft with a purple fin and magenta 'wizzair.com' titles."
+}

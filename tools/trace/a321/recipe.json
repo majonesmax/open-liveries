@@ -1,0 +1,105 @@
+{
+  "_about": "A321neo ACF with sharklets, from Airbus AC A321 (Jul 01/26) 2-2-0, A321neo-ACF/XLR sheets 1 (side, front: page index 72) and 2 (plan: 73). Pixels of layers.py rasters at scale 20, line centres.",
+  "out": "../../../../shapes/A21N.json",
+  "length": 44.51,
+  "wingtip": "sharklet",
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "refs": {
+    "side": {
+      "nose": 122.5,
+      "tail": 7195.5,
+      "cowlEnd": 3188,
+      "windowRow": [1268, 1325],
+      "windowsAlso": [4019, 4107]
+    },
+    "plan": {
+      "nose": 127,
+      "centerline": 3072
+    },
+    "front": {
+      "centerline": 3122,
+      "crownTop": 1214.5
+    }
+  },
+  "doors": [
+    { "kind": "door", "box": [848, 1148, 1009, 1465] },
+    { "kind": "exit", "box": [3054, 1230, 3148, 1420] },
+    { "kind": "exit", "box": [3191, 1229, 3285, 1419] },
+    { "kind": "door", "box": [4342, 1174, 4486, 1453] },
+    { "kind": "door", "box": [5840, 1128, 6002, 1442] }
+  ],
+  "cockpitPanes": [
+    [
+      [421, 1243],
+      [449, 1242],
+      [467, 1242],
+      [471, 1246],
+      [469, 1249],
+      [427, 1293],
+      [413, 1307],
+      [407, 1308],
+      [359, 1314],
+      [357, 1314],
+      [353, 1310],
+      [384, 1279]
+    ],
+    [
+      [513, 1326],
+      [428, 1309],
+      [426, 1308],
+      [422, 1304],
+      [426, 1299],
+      [468, 1255],
+      [482, 1241],
+      [503, 1240],
+      [525, 1239],
+      [542, 1239],
+      [546, 1243],
+      [546, 1322],
+      [542, 1326]
+    ],
+    [
+      [548, 1322],
+      [548, 1243],
+      [552, 1239],
+      [613, 1239],
+      [615, 1240],
+      [620, 1244],
+      [631, 1253],
+      [636, 1258],
+      [636, 1315],
+      [631, 1320],
+      [626, 1323],
+      [620, 1326],
+      [552, 1326]
+    ]
+  ],
+  "printed": {
+    "fuselage height": 4.14,
+    "fuselage width": 3.95,
+    "wingspan": 35.8,
+    "tailplane span": 12.45,
+    "engine out from the centerline": 5.75,
+    "fin tip above the crown": 5.87,
+    "winglet height": 2.43
+  },
+  "meta": {
+    "id": "A21N",
+    "name": "Airbus A321neo (ACF) with sharklets",
+    "types": ["A21N"],
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://aircraft.airbus.com/en/customer-care/fleet-wide-care/airport-operations-and-aircraft-characteristics/aircraft-characteristics",
+        "title": "Airbus, A321 Aircraft Characteristics: Airport and Maintenance Planning (Jul 01/26), 2-2-0 General Aircraft Dimensions, A321neo-ACF / A321neo-XLR sheets 1 and 2 (FIGURE-2-2-0-991-012-A01)",
+        "accessed": "2026-11-15",
+        "note": "Dimensions and outlines read off the side, plan and front views (tools/trace/a321/); the figures are the aircraft's measurements, not a copy of the drawing."
+      }
+    ]
+  }
+}

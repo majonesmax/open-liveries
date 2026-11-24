@@ -1,0 +1,756 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "JJA",
+  "name": "Standard (orange dots)",
+  "kind": "standard",
+  "description": "White fuselage with an orange band along the lower side from the nose, tapering out behind the wing. An orange fin scattered with light-orange discs and two sky-blue discs cut by its edges, 'JEJUair' in white low on the fin. 'JEJUair' huge in orange italic across the forward windows (a small sky-blue tick over the 'i'), 제주항공 in orange near the tail, orange winglets and orange lower engine cowls.",
+  "confidence": "high",
+  "drawnOn": "B738",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:(JPN-Chiba)_Jeju_Air_Boeing_737_MAX_8_HL8594_@_RJAA_2026-06-12.jpg",
+      "title": "(JPN-Chiba) Jeju Air Boeing 737 MAX 8 HL8594 @ RJAA 2026-06-12 (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Right side, level, 2026-06-12: band, titles, fin discs, engine, winglet."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:(KOR-Incheon)_Jeju_Air_Boeing_737_MAX_8_HL8523_@_RKSI_2026-06-04.jpg",
+      "title": "(KOR-Incheon) Jeju Air Boeing 737 MAX 8 HL8523 @ RKSI 2026-06-04 (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Left side from below, 2026-06-04: left-side title place, the orange band from below, belly title, fin discs on the left (same relation to the leading edge)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Jeju_Air_Boeing_737-8_MAX_HL8524_landing_at_Taoyuan_February_2026.jpg",
+      "title": "Jeju Air Boeing 737-8 MAX HL8524 landing at Taoyuan February 2026 (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Right side, 2026-02-04, daylight colors."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F2F2F0",
+      "official": false
+    },
+    "orange": {
+      "hex": "#F2621B",
+      "name": "Jeju orange",
+      "official": false
+    },
+    "dot": {
+      "hex": "#FA9E1B",
+      "name": "light orange",
+      "official": false
+    },
+    "sky": {
+      "hex": "#3DB8E6",
+      "official": false
+    },
+    "gray": {
+      "hex": "#6E6E72",
+      "official": false
+    },
+    "lip": {
+      "hex": "#BFC4C9",
+      "name": "bare metal inlet lip",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B7BCC2",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "orange band along the lower side, tapering aft",
+        "color": "orange",
+        "above": [
+          [
+            0,
+            -0.85
+          ],
+          [
+            0.1,
+            -0.85
+          ],
+          [
+            0.6,
+            -0.85
+          ],
+          [
+            0.8,
+            -0.82
+          ],
+          [
+            1,
+            -0.82
+          ]
+        ],
+        "below": [
+          [
+            0,
+            -0.62
+          ],
+          [
+            0.03,
+            -0.45
+          ],
+          [
+            0.12,
+            -0.38
+          ],
+          [
+            0.6,
+            -0.4
+          ],
+          [
+            0.72,
+            -0.52
+          ],
+          [
+            0.8,
+            -0.8
+          ],
+          [
+            1,
+            -0.8
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ],
+        "smooth": true
+      }
+    ],
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "orange",
+    "mirrored": true,
+    "areas": [
+      {
+        "name": "large light-orange disc, upper trailing",
+        "color": "dot",
+        "points": [
+          [
+            1,
+            0.56
+          ],
+          [
+            0.989,
+            0.621
+          ],
+          [
+            0.931,
+            0.669
+          ],
+          [
+            0.847,
+            0.696
+          ],
+          [
+            0.753,
+            0.696
+          ],
+          [
+            0.669,
+            0.669
+          ],
+          [
+            0.611,
+            0.621
+          ],
+          [
+            0.59,
+            0.56
+          ],
+          [
+            0.611,
+            0.499
+          ],
+          [
+            0.669,
+            0.451
+          ],
+          [
+            0.753,
+            0.424
+          ],
+          [
+            0.847,
+            0.424
+          ],
+          [
+            0.931,
+            0.451
+          ],
+          [
+            0.989,
+            0.499
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "light-orange disc, mid",
+        "color": "dot",
+        "points": [
+          [
+            0.655,
+            0.29
+          ],
+          [
+            0.646,
+            0.329
+          ],
+          [
+            0.62,
+            0.36
+          ],
+          [
+            0.581,
+            0.378
+          ],
+          [
+            0.539,
+            0.378
+          ],
+          [
+            0.5,
+            0.36
+          ],
+          [
+            0.474,
+            0.329
+          ],
+          [
+            0.465,
+            0.29
+          ],
+          [
+            0.474,
+            0.251
+          ],
+          [
+            0.5,
+            0.22
+          ],
+          [
+            0.539,
+            0.202
+          ],
+          [
+            0.581,
+            0.202
+          ],
+          [
+            0.62,
+            0.22
+          ],
+          [
+            0.646,
+            0.251
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "light-orange disc, toward the leading edge",
+        "color": "dot",
+        "points": [
+          [
+            0.453,
+            0.33
+          ],
+          [
+            0.441,
+            0.378
+          ],
+          [
+            0.407,
+            0.416
+          ],
+          [
+            0.357,
+            0.437
+          ],
+          [
+            0.303,
+            0.437
+          ],
+          [
+            0.253,
+            0.416
+          ],
+          [
+            0.219,
+            0.378
+          ],
+          [
+            0.207,
+            0.33
+          ],
+          [
+            0.219,
+            0.282
+          ],
+          [
+            0.253,
+            0.244
+          ],
+          [
+            0.303,
+            0.223
+          ],
+          [
+            0.357,
+            0.223
+          ],
+          [
+            0.407,
+            0.244
+          ],
+          [
+            0.441,
+            0.282
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "small light-orange disc near the tip",
+        "color": "dot",
+        "points": [
+          [
+            0.468,
+            0.85
+          ],
+          [
+            0.452,
+            0.876
+          ],
+          [
+            0.408,
+            0.897
+          ],
+          [
+            0.345,
+            0.908
+          ],
+          [
+            0.275,
+            0.908
+          ],
+          [
+            0.212,
+            0.897
+          ],
+          [
+            0.168,
+            0.876
+          ],
+          [
+            0.152,
+            0.85
+          ],
+          [
+            0.168,
+            0.824
+          ],
+          [
+            0.212,
+            0.803
+          ],
+          [
+            0.275,
+            0.792
+          ],
+          [
+            0.345,
+            0.792
+          ],
+          [
+            0.408,
+            0.803
+          ],
+          [
+            0.452,
+            0.824
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "blue disc cut by the leading edge",
+        "color": "sky",
+        "points": [
+          [
+            0.253,
+            0.7
+          ],
+          [
+            0.238,
+            0.735
+          ],
+          [
+            0.195,
+            0.763
+          ],
+          [
+            0.134,
+            0.778
+          ],
+          [
+            0.066,
+            0.778
+          ],
+          [
+            0.005,
+            0.763
+          ],
+          [
+            0,
+            0.735
+          ],
+          [
+            0,
+            0.7
+          ],
+          [
+            0,
+            0.665
+          ],
+          [
+            0.005,
+            0.637
+          ],
+          [
+            0.066,
+            0.622
+          ],
+          [
+            0.134,
+            0.622
+          ],
+          [
+            0.195,
+            0.637
+          ],
+          [
+            0.238,
+            0.665
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "blue disc cut by the trailing edge",
+        "color": "sky",
+        "points": [
+          [
+            1,
+            0.27
+          ],
+          [
+            1,
+            0.305
+          ],
+          [
+            1,
+            0.333
+          ],
+          [
+            0.989,
+            0.348
+          ],
+          [
+            0.951,
+            0.348
+          ],
+          [
+            0.918,
+            0.333
+          ],
+          [
+            0.895,
+            0.305
+          ],
+          [
+            0.886,
+            0.27
+          ],
+          [
+            0.895,
+            0.235
+          ],
+          [
+            0.918,
+            0.207
+          ],
+          [
+            0.951,
+            0.192
+          ],
+          [
+            0.989,
+            0.192
+          ],
+          [
+            1,
+            0.207
+          ],
+          [
+            1,
+            0.235
+          ]
+        ],
+        "smooth": true
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "stabilizer": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "orange",
+    "inner": "orange",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "areas": [
+      {
+        "name": "orange lower cowl",
+        "color": "orange",
+        "points": [
+          [
+            0.15,
+            -0.45
+          ],
+          [
+            1,
+            -0.45
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            0.15,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          2
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "JJA/kr-flag",
+      "place": "fuselage",
+      "at": [
+        0.83,
+        0.3
+      ],
+      "height": 0.06,
+      "colors": [
+        "white",
+        "#CD2E3A",
+        "#0047A0",
+        "#111111"
+      ],
+      "description": "A small Taegukgi ahead of the registration above the rear windows.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Korea.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "JEJUair",
+      "place": "fuselage",
+      "at": [
+        0.155,
+        -0.01
+      ],
+      "height": 0.69,
+      "color": "orange",
+      "length": 0.23,
+      "style": "The Jeju Air wordmark: very heavy italic sans, 'JEJU' in capitals and 'air' lower case, tightly set, a small sky-blue tick over the 'i'; across the forward windows from just aft of door 1.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Futura Heavy Oblique",
+          "Avenir Next Heavy Italic"
+        ],
+        "weight": 850,
+        "slantDeg": 12,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.75
+      }
+    },
+    {
+      "text": "JEJUair",
+      "place": "fin",
+      "at": [
+        0.37,
+        0.06
+      ],
+      "height": 0.1,
+      "color": "white",
+      "length": 0.47,
+      "style": "The wordmark in white low on the fin.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Futura Heavy Oblique",
+          "Avenir Next Heavy Italic"
+        ],
+        "weight": 850,
+        "slantDeg": 12,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.75
+      }
+    },
+    {
+      "text": "JEJUair",
+      "place": "belly",
+      "at": [
+        0.3,
+        -1
+      ],
+      "height": 0.35,
+      "color": "orange",
+      "length": 0.2,
+      "style": "The wordmark under the belly ahead of the wing (partly seen).",
+      "confidence": "low",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "Futura Heavy Oblique",
+          "Avenir Next Heavy Italic"
+        ],
+        "weight": 850,
+        "slantDeg": 12,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.75
+      }
+    },
+    {
+      "text": "제주항공",
+      "place": "fuselage",
+      "at": [
+        0.645,
+        0.25
+      ],
+      "height": 0.2,
+      "color": "orange",
+      "length": 0.06,
+      "style": "Hangul name in orange above the rear windows, a medium-weight sans.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Noto Sans KR Medium",
+          "Apple SD Gothic Neo Medium"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      }
+    },
+    {
+      "text": "AEKYUNG GROUP",
+      "place": "fuselage",
+      "at": [
+        0.665,
+        -0.2
+      ],
+      "height": 0.07,
+      "color": "gray",
+      "length": 0.05,
+      "style": "Small gray capitals below the rear windows (the parent group).",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Medium"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Drawn from 737 MAX 8s HL8594 (2026-06-12, right), HL8523 (2026-06-04, left from below) and HL8524 (2026-02-04). The same scheme is worn by the 737-800s. The engine cowls carry 'www.jejuair.net' in orange on the white (not drawn as a title). The orange band's underside: the belly centerline looks white with the wordmark on it in HL8523 (partly hidden by the engine), so the band is drawn as a lower-side stripe only. No dedicated logo symbol: Jeju Air's logo is its wordmark, drawn as titles. Re-checked 2026-11-15: drawn for the 737-800 (the commonest type; the MAX 8 photographed has the same fuselage); the wordmark's lowercase 'air' measured at 0.75 of its capitals (HL8523); the fin's discs are circles and the band's edges curves, now drawn smooth.",
+  "history": "Replaced Skyarium v1's approximation. Jeju Air's scheme since its 2006 start, the dotted tail added in a later refresh (date not confirmed)."
+}

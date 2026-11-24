@@ -1,0 +1,364 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "WGN",
+  "name": "Western Global",
+  "kind": "standard",
+  "confidence": "medium",
+  "drawnOn": "B744",
+  "description": "All-white freighter with 'WESTERN GLOBAL' in huge navy heavy italic capitals along the forward two thirds of the main deck. On the white fin, four parallel navy stripes rise from the root toward the top trailing corner, broken by the WGA globe: a black-outlined globe with 'WGA' in bold black italic capitals slanted up across it. White engines.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N452SN.jpg",
+      "title": "N452SN.jpg (CC BY-SA 4.0, Liam Thompson)",
+      "accessed": "2026-11-20",
+      "note": "747-400(BCF) N452SN, left side, nearly level, taxiing at Narita, 2026-06-11. Fitted to shapes/B744-passenger.json (the converted freighter's long upper deck; doors pinned): the title's ends and height, the four fin stripes, the globe's place and size, white engines and winglets."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Boeing_747-446(F)_%E2%80%98N344KD%E2%80%99_Western_Global_Airlines.jpg",
+      "title": "Boeing 747-446(F) 'N344KD' Western Global Airlines.jpg (CC BY-SA 2.0, Hawkeye UK)",
+      "accessed": "2026-11-20",
+      "note": "747-400(BCF) N344KD, right side taking off at Narita, 2019-03-16: the right-side title over the same stretch, reading normally; the fin's stripes mirrored (rising toward the trailing edge) and 'WGA' reading normally."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N356KD.jpg",
+      "title": "N356KD.jpg (CC BY 2.0, Atlantic Aviation Media)",
+      "accessed": "2026-11-20",
+      "note": "747-400(BCF) N356KD, right side from ahead, 2020-06-14: the same layout; white engines with bare-metal lips."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F2F3F4",
+      "official": false
+    },
+    "navy": {
+      "hex": "#1F3878",
+      "official": false
+    },
+    "black": {
+      "hex": "#16191F",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C4C8CC",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "windows": "hidden",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "navy stripe 1 of four, rising from the fin's root toward the top trailing corner (under the globe)",
+        "color": "navy",
+        "points": [
+          [
+            0.27,
+            -0.031,
+            1
+          ],
+          [
+            0.36,
+            0.267
+          ],
+          [
+            0.47,
+            0.57
+          ],
+          [
+            0.692,
+            0.878
+          ],
+          [
+            1.282,
+            1.149,
+            1
+          ],
+          [
+            1.218,
+            1.044,
+            1
+          ],
+          [
+            0.786,
+            0.797
+          ],
+          [
+            0.565,
+            0.517
+          ],
+          [
+            0.445,
+            0.241
+          ],
+          [
+            0.343,
+            -0.03,
+            1
+          ]
+        ],
+        "smooth": true,
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "navy stripe 2 of four, rising from the fin's root toward the top trailing corner (under the globe)",
+        "color": "navy",
+        "points": [
+          [
+            0.361,
+            -0.029,
+            1
+          ],
+          [
+            0.461,
+            0.237
+          ],
+          [
+            0.593,
+            0.499
+          ],
+          [
+            0.808,
+            0.774
+          ],
+          [
+            1.208,
+            1.013,
+            1
+          ],
+          [
+            1.194,
+            0.94,
+            1
+          ],
+          [
+            0.862,
+            0.715
+          ],
+          [
+            0.656,
+            0.463
+          ],
+          [
+            0.539,
+            0.215
+          ],
+          [
+            0.433,
+            -0.028,
+            1
+          ]
+        ],
+        "smooth": true,
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "navy stripe 3 of four, rising from the fin's root toward the top trailing corner (under the globe)",
+        "color": "navy",
+        "points": [
+          [
+            0.452,
+            -0.028,
+            1
+          ],
+          [
+            0.555,
+            0.211
+          ],
+          [
+            0.677,
+            0.45
+          ],
+          [
+            0.88,
+            0.693
+          ],
+          [
+            1.194,
+            0.908,
+            1
+          ],
+          [
+            1.178,
+            0.841,
+            1
+          ],
+          [
+            0.92,
+            0.639
+          ],
+          [
+            0.74,
+            0.414
+          ],
+          [
+            0.622,
+            0.194
+          ],
+          [
+            0.524,
+            -0.027,
+            1
+          ]
+        ],
+        "smooth": true,
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "navy stripe 4 of four, rising from the fin's root toward the top trailing corner (under the globe)",
+        "color": "navy",
+        "points": [
+          [
+            0.542,
+            -0.026,
+            1
+          ],
+          [
+            0.645,
+            0.185
+          ],
+          [
+            0.757,
+            0.396
+          ],
+          [
+            0.936,
+            0.616
+          ],
+          [
+            1.178,
+            0.809,
+            1
+          ],
+          [
+            1.162,
+            0.75,
+            1
+          ],
+          [
+            0.964,
+            0.571
+          ],
+          [
+            0.814,
+            0.369
+          ],
+          [
+            0.714,
+            0.172
+          ],
+          [
+            0.625,
+            -0.025,
+            1
+          ]
+        ],
+        "smooth": true,
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "winglets": {
+    "outer": "white",
+    "inner": "white",
+    "confidence": "medium",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      2
+    ]
+  },
+  "titles": [
+    {
+      "text": "WESTERN GLOBAL",
+      "place": "fuselage",
+      "at": [
+        0.094,
+        -0.163
+      ],
+      "height": 0.545,
+      "length": 0.464,
+      "color": "navy",
+      "style": "Huge heavy italic sans capitals in navy, a wide word space, along the main deck from just behind the cockpit to the wing's root; its foot just under the main deck's window line. Reads normally on the right over the same stretch.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Black Oblique",
+          "Univers 85 Extra Black Oblique"
+        ],
+        "weight": 900,
+        "slantDeg": 12,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "logos": [
+    {
+      "mark": "WGN/globe",
+      "place": "fin",
+      "at": [
+        0.548,
+        0.369
+      ],
+      "height": 0.652,
+      "colors": [
+        "black",
+        "white"
+      ],
+      "description": "The WGA globe: a white disc outlined in black with black meridian and latitude arcs, and 'WGA' in bold black italic capitals, each letter outlined in white, set across it slanting up toward the tail; it sits over the four navy stripes, which stop at a white gap round it. Mirrored on the right (it still slants up toward the tail, the letters reading normally).",
+      "reference": "https://commons.wikimedia.org/wiki/File:N452SN.jpg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "notes": "Western Global's 747-400s are converted passenger aircraft (BCF/BDSF) with the long upper deck: measured on shapes/B744-passenger.json, drawn for B744. On N452SN the title runs x 0.094-0.558 with its capitals about 2.7 m tall, the globe about 6 m across centred 64.3 m back and 7.3 m up. The main-deck windows are plated over (painted white): hidden. The stripes pass behind the globe (the logo is drawn over them); in the photos they stop at a thin white gap round the globe and the letters. The MD-11Fs carry the same titles and tail (not measured here). N258SN (photographed at LAX 2026-02-11) flies for Western Global in a plain scheme of its own, white with a navy belly, fin and engines and no titles: not drawn. No 2024-2026 right-side photo: the right side is from 2019-2020, the scheme unchanged on the 2026 left side. Colours by eye.",
+  "history": "New in the LAX round (2026-11-20); Western Global had no scheme here before."
+}

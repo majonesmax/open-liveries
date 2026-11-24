@@ -1,0 +1,1873 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "x-at-kw-ani",
+  "airline": "ASA",
+  "name": "Xáat Kwáani (\"Salmon People\")",
+  "kind": "special",
+  "confidence": "medium",
+  "drawnOn": "B738",
+  "description": "Fuselage: Whole fuselage in blues: dark midnight blue base with lighter Atlas blue areas (Alaska named the palette Midnight Blue, Atlas Blue, White and Pink). Cheatlines: None; instead a single stylized white salmon in Northwest Coast formline style runs the full length of the fuselage. Tail: A second formline salmon dives down the fin (replaces the usual Alaska Native man). Engines: Atlas-blue cowlings, midnight blue low down. Winglets: Repeat the stylized salmon from the tail. Titles: A white 'Alaska' title over the wing root on Atlas blue, riding over the window line, about half the standard size; 'Xáat Kwáani / SALMON PEOPLE' small in pink on the nose. Artwork: Formline salmon by Tlingit/Athabascan artist Crystal Kaakeeyáa Worl; pink splashes accent the salmon; 'Xáat Kwáani' means Salmon People in Tlingit. Colors hex: not published; colors approximate.",
+  "sources": [
+    {
+      "url": "https://www.alaskaair.com/content/travel-info/our-aircraft/737-800-salmon",
+      "title": "Alaska Airlines: X̱áat Ḵwáani Salmon Livery",
+      "accessed": "2026-11-14",
+      "note": "Alaska's own page for the aircraft; its photo shows the right side from ahead: the title aft of the wing root on Atlas blue, over the window line."
+    },
+    {
+      "url": "https://simpleflying.com/alaska-airlines-boeing-737-new-livery/",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://airlinegeeks.com/2023/05/11/alaska-airlines-debuts-new-salmon-themed-livery/",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:N559AS_(aircraft)",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Delta_Air_Lines_Boeing_757-200_landing_in_TPA.jpg",
+      "title": "Delta Air Lines Boeing 757-200 landing in TPA (CC BY 4.0)",
+      "accessed": "2026-11-12",
+      "note": "N559AS taxiing in the foreground, left side from slightly above, Tampa 2023-11-07: the whole left side in Xáat Kwáani; geometry measured from it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N559AS_JFK_Landing_22L_AS_B737_890_X̱áat_Ḵwáani_Salmon_People_Small_(52934329815).png",
+      "title": "N559AS JFK Landing 22L AS B737 890 X̱áat Ḵwáani Salmon People (CC BY-SA 2.0)",
+      "accessed": "2026-11-12",
+      "note": "Left side from below, 2023-05-29: belly, engines, winglets, the nose lettering."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Xáat_Kwáani_(Salmon_People)_Departs_Santa_Barbara_(54115151459).jpg",
+      "title": "Xáat Kwáani (Salmon People) Departs Santa Barbara (CC BY 2.0)",
+      "accessed": "2026-11-12",
+      "note": "Right side, 2024-07-16: the right side carries the same layout of big shapes."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Xáat_Kwáani_Arrival_at_Santa_Barbara_(54725401871).jpg",
+      "title": "Xáat Kwáani Arrival at Santa Barbara (CC BY 4.0)",
+      "accessed": "2026-11-12",
+      "note": "From behind, 2025-03-24: still in the scheme in 2025; the fin's salmon tail."
+    }
+  ],
+  "history": "Same airframe previously wore 'Salmon-Thirty-Salmon II' (whole-body king salmon, 2012) which was retired April 2023 and replaced by this design. The original Salmon-Thirty-Salmon (2005) was on 737-400 N792AS.",
+  "notes": "Drawn from the left side (Tampa 2023-11-07, Commons file named for a Delta 757; N559AS taxis in the foreground) and the left from below (JFK 2023-05-29); the right side (2024-07-16) shows the same big shapes. A 2025-03-24 photo shows it still flying in the scheme. The formline is far too intricate for areas: only the big fields are drawn (navy snout, blue cap, blue upper aft fuselage, navy lower aft); the rest is in the logo entries. Commons category for N559AS also holds older Salmon-Thirty-Salmon II photos (2018-2019), not used. Re-checked 2026-11-15 (drawn on the 737-800): the lower aft midnight's edge, a curve rising to the tail cone, made smooth; the rest left as fixed from Alaska's own page. 'Xáat Kwáani' by the cockpit measured on the 2024 right-side photo against the nose and the forward door: 1.7-3.3 m back (x 0.045-0.087). Re-drawn 2026-11-18 at the big masses' scale (docs/LOGOS.md): each side's fields sampled from its own photo (left: JFK 2023-05-29; right: Santa Barbara departure) onto a grid of cells about a third of a metre along by a quarter up, each cell its dominant paint (white, midnight, Atlas), a 3x3 majority pass taking out the linework, the masses' outlines smoothed; the engines, wing and gear in front of the body masked and filled from around them. The fin from the right side's photo (the left's is behind the tailplane), placed by its corners as seen. Pink is only ever thin accents: not an area. The Atlas patch behind the title and the cap round the cockpit are kept as measured (the wing hides the first in the JFK photo). The formline itself stays the logos'.",
+  "from": "2023-05",
+  "palette": {
+    "white": {
+      "hex": "#F4F5F7",
+      "name": "White",
+      "official": false
+    },
+    "midnight": {
+      "hex": "#1B2672",
+      "name": "Midnight Blue",
+      "official": false
+    },
+    "atlas": {
+      "hex": "#2F80DD",
+      "name": "Atlas Blue",
+      "official": false
+    },
+    "pink": {
+      "hex": "#EE6F8A",
+      "name": "Pink",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC5",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "midnight-blue field, left side (the formline's big masses, sampled)",
+        "color": "midnight",
+        "side": "left",
+        "smooth": true,
+        "points": [
+          [
+            0.0,
+            0.61
+          ],
+          [
+            0.0302,
+            0.61
+          ],
+          [
+            0.056,
+            0.15
+          ],
+          [
+            0.0647,
+            0.15
+          ],
+          [
+            0.0819,
+            0.38
+          ],
+          [
+            0.0991,
+            0.38
+          ],
+          [
+            0.1078,
+            0.265
+          ],
+          [
+            0.1164,
+            0.265
+          ],
+          [
+            0.125,
+            -0.08
+          ],
+          [
+            0.1595,
+            -0.54
+          ],
+          [
+            0.2198,
+            -0.54
+          ],
+          [
+            0.2371,
+            -0.31
+          ],
+          [
+            0.2457,
+            -0.425
+          ],
+          [
+            0.306,
+            -0.425
+          ],
+          [
+            0.3405,
+            0.035
+          ],
+          [
+            0.4267,
+            0.035
+          ],
+          [
+            0.4526,
+            1.0
+          ],
+          [
+            0.556,
+            1.0
+          ],
+          [
+            0.5647,
+            -0.885
+          ],
+          [
+            0.5733,
+            -0.885
+          ],
+          [
+            0.5991,
+            -0.54
+          ],
+          [
+            0.625,
+            -0.54
+          ],
+          [
+            0.6509,
+            -0.195
+          ],
+          [
+            0.6767,
+            -0.54
+          ],
+          [
+            0.7112,
+            -0.54
+          ],
+          [
+            0.7198,
+            -0.425
+          ],
+          [
+            0.7371,
+            -0.425
+          ],
+          [
+            0.7457,
+            -0.31
+          ],
+          [
+            0.7716,
+            -0.31
+          ],
+          [
+            0.7888,
+            0.035
+          ],
+          [
+            0.7974,
+            0.035
+          ],
+          [
+            0.806,
+            -0.08
+          ],
+          [
+            0.8147,
+            -0.08
+          ],
+          [
+            0.8491,
+            -0.425
+          ],
+          [
+            0.8578,
+            -0.425
+          ],
+          [
+            0.8966,
+            -0.885
+          ],
+          [
+            0.8966,
+            -1.0
+          ],
+          [
+            0.0,
+            -1.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          5
+        ]
+      },
+      {
+        "name": "midnight-blue field, left side (the formline's big masses, sampled)",
+        "color": "midnight",
+        "side": "left",
+        "smooth": true,
+        "points": [
+          [
+            0.9138,
+            0.38
+          ],
+          [
+            0.9267,
+            0.495
+          ],
+          [
+            0.9397,
+            1.0
+          ],
+          [
+            0.9397,
+            -0.08
+          ],
+          [
+            0.9138,
+            0.15
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          5
+        ]
+      },
+      {
+        "name": "midnight-blue field, left side (the formline's big masses, sampled)",
+        "color": "midnight",
+        "side": "left",
+        "smooth": true,
+        "points": [
+          [
+            0.9052,
+            -0.885
+          ],
+          [
+            0.9353,
+            -0.195
+          ],
+          [
+            0.944,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -0.195
+          ],
+          [
+            0.9784,
+            -0.54
+          ],
+          [
+            0.9698,
+            -1.0
+          ],
+          [
+            0.9052,
+            -1.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          5
+        ]
+      },
+      {
+        "name": "Atlas-blue field, left side (the formline's big masses, sampled)",
+        "color": "atlas",
+        "side": "left",
+        "smooth": true,
+        "points": [
+          [
+            0.0,
+            1.0
+          ],
+          [
+            0.1207,
+            1.0
+          ],
+          [
+            0.1207,
+            0.725
+          ],
+          [
+            0.0991,
+            0.38
+          ],
+          [
+            0.0819,
+            0.38
+          ],
+          [
+            0.0647,
+            0.15
+          ],
+          [
+            0.056,
+            0.15
+          ],
+          [
+            0.0302,
+            0.61
+          ],
+          [
+            0.0,
+            0.61
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          5
+        ]
+      },
+      {
+        "name": "Atlas-blue field, left side (the formline's big masses, sampled)",
+        "color": "atlas",
+        "side": "left",
+        "smooth": true,
+        "points": [
+          [
+            0.181,
+            1.0
+          ],
+          [
+            0.4483,
+            1.0
+          ],
+          [
+            0.4483,
+            0.61
+          ],
+          [
+            0.4353,
+            0.725
+          ],
+          [
+            0.3405,
+            0.725
+          ],
+          [
+            0.3319,
+            0.61
+          ],
+          [
+            0.3233,
+            0.61
+          ],
+          [
+            0.3147,
+            0.725
+          ],
+          [
+            0.2716,
+            0.725
+          ],
+          [
+            0.2629,
+            0.61
+          ],
+          [
+            0.2284,
+            0.61
+          ],
+          [
+            0.2198,
+            0.725
+          ],
+          [
+            0.2112,
+            0.725
+          ],
+          [
+            0.2026,
+            0.61
+          ],
+          [
+            0.194,
+            0.61
+          ],
+          [
+            0.181,
+            0.725
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          5
+        ]
+      },
+      {
+        "name": "Atlas-blue field, left side (the formline's big masses, sampled)",
+        "color": "atlas",
+        "side": "left",
+        "smooth": true,
+        "points": [
+          [
+            0.569,
+            1.0
+          ],
+          [
+            0.5991,
+            1.0
+          ],
+          [
+            0.6121,
+            0.725
+          ],
+          [
+            0.6121,
+            0.61
+          ],
+          [
+            0.5991,
+            0.495
+          ],
+          [
+            0.569,
+            0.495
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          5
+        ]
+      },
+      {
+        "name": "Atlas-blue field, left side (the formline's big masses, sampled)",
+        "color": "atlas",
+        "side": "left",
+        "smooth": true,
+        "points": [
+          [
+            0.681,
+            1.0
+          ],
+          [
+            0.7888,
+            1.0
+          ],
+          [
+            0.8017,
+            0.38
+          ],
+          [
+            0.8017,
+            0.035
+          ],
+          [
+            0.7543,
+            0.035
+          ],
+          [
+            0.694,
+            0.725
+          ],
+          [
+            0.681,
+            0.725
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          5
+        ]
+      },
+      {
+        "name": "Atlas-blue field, left side (the formline's big masses, sampled)",
+        "color": "atlas",
+        "side": "left",
+        "smooth": true,
+        "points": [
+          [
+            0.9741,
+            -0.54
+          ],
+          [
+            1.0,
+            -0.195
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            0.9741,
+            -1.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          5
+        ]
+      },
+      {
+        "name": "midnight-blue field, right side (the formline's big masses, sampled)",
+        "color": "midnight",
+        "side": "right",
+        "smooth": true,
+        "points": [
+          [
+            0.0259,
+            -0.76
+          ],
+          [
+            0.0474,
+            -0.4
+          ],
+          [
+            0.0647,
+            -0.4
+          ],
+          [
+            0.0733,
+            -0.28
+          ],
+          [
+            0.0905,
+            -0.28
+          ],
+          [
+            0.125,
+            0.2
+          ],
+          [
+            0.1336,
+            0.2
+          ],
+          [
+            0.1422,
+            -0.4
+          ],
+          [
+            0.1638,
+            -0.88
+          ],
+          [
+            0.1638,
+            -1.0
+          ],
+          [
+            0.0259,
+            -1.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6
+        ]
+      },
+      {
+        "name": "midnight-blue field, right side (the formline's big masses, sampled)",
+        "color": "midnight",
+        "side": "right",
+        "smooth": true,
+        "points": [
+          [
+            0.1379,
+            0.2
+          ],
+          [
+            0.1595,
+            0.2
+          ],
+          [
+            0.1681,
+            0.08
+          ],
+          [
+            0.1853,
+            0.08
+          ],
+          [
+            0.2155,
+            -0.16
+          ],
+          [
+            0.2155,
+            -0.28
+          ],
+          [
+            0.2026,
+            -0.4
+          ],
+          [
+            0.194,
+            -0.4
+          ],
+          [
+            0.1681,
+            -0.16
+          ],
+          [
+            0.1509,
+            -0.16
+          ],
+          [
+            0.1379,
+            -0.28
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6
+        ]
+      },
+      {
+        "name": "midnight-blue field, right side (the formline's big masses, sampled)",
+        "color": "midnight",
+        "side": "right",
+        "smooth": true,
+        "points": [
+          [
+            0.2586,
+            0.2
+          ],
+          [
+            0.2716,
+            0.32
+          ],
+          [
+            0.2888,
+            0.32
+          ],
+          [
+            0.3017,
+            0.2
+          ],
+          [
+            0.3017,
+            0.08
+          ],
+          [
+            0.2716,
+            -0.16
+          ],
+          [
+            0.2586,
+            -0.16
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6
+        ]
+      },
+      {
+        "name": "midnight-blue field, right side (the formline's big masses, sampled)",
+        "color": "midnight",
+        "side": "right",
+        "smooth": true,
+        "points": [
+          [
+            0.319,
+            -0.16
+          ],
+          [
+            0.3319,
+            -0.04
+          ],
+          [
+            0.3491,
+            -0.04
+          ],
+          [
+            0.3621,
+            -0.16
+          ],
+          [
+            0.3621,
+            -0.52
+          ],
+          [
+            0.3319,
+            -0.76
+          ],
+          [
+            0.319,
+            -0.64
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6
+        ]
+      },
+      {
+        "name": "midnight-blue field, right side (the formline's big masses, sampled)",
+        "color": "midnight",
+        "side": "right",
+        "smooth": true,
+        "points": [
+          [
+            0.431,
+            -0.88
+          ],
+          [
+            0.444,
+            -0.16
+          ],
+          [
+            0.5172,
+            -0.16
+          ],
+          [
+            0.5172,
+            -0.52
+          ],
+          [
+            0.4957,
+            -0.76
+          ],
+          [
+            0.4871,
+            -1.0
+          ],
+          [
+            0.431,
+            -1.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6
+        ]
+      },
+      {
+        "name": "midnight-blue field, right side (the formline's big masses, sampled)",
+        "color": "midnight",
+        "side": "right",
+        "smooth": true,
+        "points": [
+          [
+            0.4569,
+            0.68
+          ],
+          [
+            0.4698,
+            1.0
+          ],
+          [
+            0.5216,
+            1.0
+          ],
+          [
+            0.5345,
+            0.8
+          ],
+          [
+            0.5345,
+            0.44
+          ],
+          [
+            0.5216,
+            0.32
+          ],
+          [
+            0.5129,
+            0.32
+          ],
+          [
+            0.4957,
+            0.56
+          ],
+          [
+            0.4871,
+            0.44
+          ],
+          [
+            0.4698,
+            0.44
+          ],
+          [
+            0.4569,
+            0.56
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6
+        ]
+      },
+      {
+        "name": "midnight-blue field, right side (the formline's big masses, sampled)",
+        "color": "midnight",
+        "side": "right",
+        "smooth": true,
+        "points": [
+          [
+            0.6466,
+            -0.64
+          ],
+          [
+            0.6681,
+            -0.16
+          ],
+          [
+            0.681,
+            -0.76
+          ],
+          [
+            0.681,
+            -1.0
+          ],
+          [
+            0.6466,
+            -1.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6
+        ]
+      },
+      {
+        "name": "midnight-blue field, right side (the formline's big masses, sampled)",
+        "color": "midnight",
+        "side": "right",
+        "smooth": true,
+        "points": [
+          [
+            0.6724,
+            -0.04
+          ],
+          [
+            0.6853,
+            0.08
+          ],
+          [
+            0.694,
+            0.08
+          ],
+          [
+            0.7155,
+            -0.16
+          ],
+          [
+            0.7155,
+            -0.28
+          ],
+          [
+            0.7026,
+            -0.4
+          ],
+          [
+            0.694,
+            -0.4
+          ],
+          [
+            0.6853,
+            -0.28
+          ],
+          [
+            0.6724,
+            -0.4
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6
+        ]
+      },
+      {
+        "name": "midnight-blue field, right side (the formline's big masses, sampled)",
+        "color": "midnight",
+        "side": "right",
+        "smooth": true,
+        "points": [
+          [
+            0.7414,
+            0.2
+          ],
+          [
+            0.7543,
+            0.32
+          ],
+          [
+            0.7716,
+            1.0
+          ],
+          [
+            0.7802,
+            1.0
+          ],
+          [
+            0.7888,
+            0.68
+          ],
+          [
+            0.8017,
+            0.56
+          ],
+          [
+            0.8017,
+            -0.4
+          ],
+          [
+            0.7716,
+            -0.16
+          ],
+          [
+            0.7629,
+            -0.16
+          ],
+          [
+            0.7414,
+            0.08
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6
+        ]
+      },
+      {
+        "name": "midnight-blue field, right side (the formline's big masses, sampled)",
+        "color": "midnight",
+        "side": "right",
+        "smooth": true,
+        "points": [
+          [
+            0.8103,
+            0.56
+          ],
+          [
+            0.8319,
+            0.32
+          ],
+          [
+            0.8664,
+            0.32
+          ],
+          [
+            0.8793,
+            0.2
+          ],
+          [
+            0.8793,
+            0.08
+          ],
+          [
+            0.8664,
+            -0.04
+          ],
+          [
+            0.8491,
+            -0.04
+          ],
+          [
+            0.8233,
+            0.2
+          ],
+          [
+            0.8103,
+            0.08
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6
+        ]
+      },
+      {
+        "name": "midnight-blue field, right side (the formline's big masses, sampled)",
+        "color": "midnight",
+        "side": "right",
+        "smooth": true,
+        "points": [
+          [
+            0.7241,
+            -0.88
+          ],
+          [
+            0.7457,
+            -0.64
+          ],
+          [
+            0.7629,
+            -0.64
+          ],
+          [
+            0.7716,
+            -0.52
+          ],
+          [
+            0.7974,
+            -0.52
+          ],
+          [
+            0.806,
+            0.56
+          ],
+          [
+            0.8147,
+            -0.16
+          ],
+          [
+            0.8233,
+            -0.28
+          ],
+          [
+            0.8319,
+            -0.28
+          ],
+          [
+            0.8405,
+            -0.4
+          ],
+          [
+            0.8491,
+            -0.4
+          ],
+          [
+            0.875,
+            -0.76
+          ],
+          [
+            0.8836,
+            -0.76
+          ],
+          [
+            0.8922,
+            -0.88
+          ],
+          [
+            0.9009,
+            -0.88
+          ],
+          [
+            0.9267,
+            -0.52
+          ],
+          [
+            0.944,
+            0.2
+          ],
+          [
+            0.9871,
+            0.68
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -0.52
+          ],
+          [
+            0.9612,
+            -1.0
+          ],
+          [
+            0.7241,
+            -1.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6
+        ]
+      },
+      {
+        "name": "Atlas-blue field, right side (the formline's big masses, sampled)",
+        "color": "atlas",
+        "side": "right",
+        "smooth": true,
+        "points": [
+          [
+            0.0,
+            1.0
+          ],
+          [
+            0.1078,
+            1.0
+          ],
+          [
+            0.1207,
+            0.32
+          ],
+          [
+            0.1207,
+            0.08
+          ],
+          [
+            0.0905,
+            -0.28
+          ],
+          [
+            0.0733,
+            -0.28
+          ],
+          [
+            0.0647,
+            -0.4
+          ],
+          [
+            0.0474,
+            -0.4
+          ],
+          [
+            0.0216,
+            -1.0
+          ],
+          [
+            0.0,
+            -1.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6
+        ]
+      },
+      {
+        "name": "Atlas-blue field, right side (the formline's big masses, sampled)",
+        "color": "atlas",
+        "side": "right",
+        "smooth": true,
+        "points": [
+          [
+            0.2241,
+            0.56
+          ],
+          [
+            0.2457,
+            0.8
+          ],
+          [
+            0.2629,
+            0.8
+          ],
+          [
+            0.2845,
+            0.44
+          ],
+          [
+            0.2845,
+            0.32
+          ],
+          [
+            0.2543,
+            0.32
+          ],
+          [
+            0.2457,
+            0.2
+          ],
+          [
+            0.2371,
+            0.2
+          ],
+          [
+            0.2241,
+            0.32
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6
+        ]
+      },
+      {
+        "name": "Atlas-blue field, right side (the formline's big masses, sampled)",
+        "color": "atlas",
+        "side": "right",
+        "smooth": true,
+        "points": [
+          [
+            0.3793,
+            -0.64
+          ],
+          [
+            0.3922,
+            -0.52
+          ],
+          [
+            0.4009,
+            -0.52
+          ],
+          [
+            0.4181,
+            -0.04
+          ],
+          [
+            0.4267,
+            -0.04
+          ],
+          [
+            0.4397,
+            -0.16
+          ],
+          [
+            0.4397,
+            -0.88
+          ],
+          [
+            0.4267,
+            -1.0
+          ],
+          [
+            0.3793,
+            -1.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6
+        ]
+      },
+      {
+        "name": "Atlas-blue field, right side (the formline's big masses, sampled)",
+        "color": "atlas",
+        "side": "right",
+        "smooth": true,
+        "points": [
+          [
+            0.5259,
+            1.0
+          ],
+          [
+            0.5603,
+            1.0
+          ],
+          [
+            0.5603,
+            0.56
+          ],
+          [
+            0.5474,
+            0.44
+          ],
+          [
+            0.5388,
+            0.44
+          ],
+          [
+            0.5259,
+            0.8
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6
+        ]
+      },
+      {
+        "name": "Atlas-blue field, right side (the formline's big masses, sampled)",
+        "color": "atlas",
+        "side": "right",
+        "smooth": true,
+        "points": [
+          [
+            0.5776,
+            -0.16
+          ],
+          [
+            0.5905,
+            -0.04
+          ],
+          [
+            0.5991,
+            -0.04
+          ],
+          [
+            0.6121,
+            -0.16
+          ],
+          [
+            0.6121,
+            -0.52
+          ],
+          [
+            0.5991,
+            -0.64
+          ],
+          [
+            0.5905,
+            -0.64
+          ],
+          [
+            0.5776,
+            -0.52
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6
+        ]
+      },
+      {
+        "name": "Atlas-blue field, right side (the formline's big masses, sampled)",
+        "color": "atlas",
+        "side": "right",
+        "smooth": true,
+        "points": [
+          [
+            0.569,
+            1.0
+          ],
+          [
+            0.6121,
+            1.0
+          ],
+          [
+            0.6121,
+            0.56
+          ],
+          [
+            0.5991,
+            0.44
+          ],
+          [
+            0.569,
+            0.8
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6
+        ]
+      },
+      {
+        "name": "Atlas-blue field, right side (the formline's big masses, sampled)",
+        "color": "atlas",
+        "side": "right",
+        "smooth": true,
+        "points": [
+          [
+            0.7155,
+            1.0
+          ],
+          [
+            0.7672,
+            1.0
+          ],
+          [
+            0.7672,
+            0.56
+          ],
+          [
+            0.7457,
+            0.2
+          ],
+          [
+            0.7371,
+            0.2
+          ],
+          [
+            0.7155,
+            0.44
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6
+        ]
+      },
+      {
+        "name": "Atlas-blue field, right side (the formline's big masses, sampled)",
+        "color": "atlas",
+        "side": "right",
+        "smooth": true,
+        "points": [
+          [
+            0.8448,
+            1.0
+          ],
+          [
+            0.8664,
+            1.0
+          ],
+          [
+            0.8922,
+            0.56
+          ],
+          [
+            0.9138,
+            0.56
+          ],
+          [
+            0.9138,
+            -0.04
+          ],
+          [
+            0.8922,
+            -0.04
+          ],
+          [
+            0.875,
+            0.2
+          ],
+          [
+            0.8664,
+            0.56
+          ],
+          [
+            0.8578,
+            0.56
+          ],
+          [
+            0.8448,
+            0.68
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6
+        ]
+      },
+      {
+        "name": "Atlas-blue cap round the cockpit windows",
+        "color": "atlas",
+        "points": [
+          [
+            0.025,
+            0.1
+          ],
+          [
+            0.06,
+            -0.1
+          ],
+          [
+            0.1,
+            -0.1
+          ],
+          [
+            0.1,
+            0.3
+          ],
+          [
+            0.105,
+            1
+          ],
+          [
+            0.05,
+            0.9
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          4
+        ]
+      },
+      {
+        "name": "Atlas-blue upper fuselage from over the wing to ahead of the fin, behind the white 'Alaska' title",
+        "color": "atlas",
+        "points": [
+          [
+            0.41,
+            1
+          ],
+          [
+            0.8,
+            1
+          ],
+          [
+            0.8,
+            0.55
+          ],
+          [
+            0.63,
+            0.5
+          ],
+          [
+            0.615,
+            -0.12
+          ],
+          [
+            0.455,
+            -0.15
+          ],
+          [
+            0.42,
+            0.4
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          4,
+          6
+        ]
+      }
+    ],
+    "radome": {
+      "color": "midnight"
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      4,
+      5,
+      6
+    ]
+  },
+  "fin": {
+    "base": "atlas",
+    "rudder": "atlas",
+    "areas": [
+      {
+        "name": "the salmon's white fin rays and forms, sampled",
+        "color": "white",
+        "smooth": true,
+        "points": [
+          [
+            0.0,
+            0.917
+          ],
+          [
+            0.2083,
+            0.917
+          ],
+          [
+            0.2917,
+            1.0
+          ],
+          [
+            0.5,
+            1.0
+          ],
+          [
+            0.5,
+            0.583
+          ],
+          [
+            0.2083,
+            0.583
+          ],
+          [
+            0.0,
+            0.75
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6
+        ]
+      },
+      {
+        "name": "the salmon's white fin rays and forms, sampled",
+        "color": "white",
+        "smooth": true,
+        "points": [
+          [
+            0.0,
+            0.25
+          ],
+          [
+            0.125,
+            0.167
+          ],
+          [
+            0.2917,
+            0.167
+          ],
+          [
+            0.375,
+            0.083
+          ],
+          [
+            0.4583,
+            0.25
+          ],
+          [
+            0.5417,
+            1.0
+          ],
+          [
+            0.7083,
+            1.0
+          ],
+          [
+            0.8333,
+            0.75
+          ],
+          [
+            0.8333,
+            0.333
+          ],
+          [
+            0.625,
+            0.0
+          ],
+          [
+            0.125,
+            0.0
+          ],
+          [
+            0.0,
+            0.083
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      6
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "stabilizer": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "atlas",
+    "inner": "atlas",
+    "confidence": "low",
+    "sourceRefs": [
+      5
+    ]
+  },
+  "engines": {
+    "cowling": "atlas",
+    "inletLip": "lip",
+    "pylon": "midnight",
+    "areas": [
+      {
+        "name": "midnight lower cowling",
+        "color": "midnight",
+        "points": [
+          [
+            0,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            -0.2
+          ],
+          [
+            0.6,
+            0
+          ],
+          [
+            0.3,
+            -0.3
+          ],
+          [
+            0,
+            -0.4
+          ]
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      4,
+      5
+    ]
+  },
+  "logos": [
+    {
+      "mark": "ASA/xaat-kwaani-salmon",
+      "place": "fuselage",
+      "at": [
+        0.5,
+        0.0
+      ],
+      "height": 2.0,
+      "colors": [
+        "white",
+        "midnight",
+        "atlas",
+        "pink"
+      ],
+      "description": "Crystal Kaakeeyáa Worl's Tlingit formline salmon, nose to tail: heavy midnight-blue formline (ovoids, U-forms, split-U shapes) over a mostly white body, Atlas-blue fills, pink accents. The salmon's head is forward with its snout at the nose, the tail fanned on the fin.",
+      "confidence": "medium",
+      "sourceRefs": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "mark": "ASA/xaat-kwaani-eye",
+      "place": "fuselage",
+      "at": [
+        0.226,
+        0.15
+      ],
+      "height": 1.08,
+      "colors": [
+        "atlas",
+        "midnight",
+        "white"
+      ],
+      "description": "The salmon's big eye: concentric Atlas-blue and midnight rings round a white disc with three dots, above and across the windows behind the forward door.",
+      "confidence": "medium",
+      "sourceRefs": [
+        4,
+        5
+      ]
+    },
+    {
+      "mark": "ASA/xaat-kwaani-eye",
+      "place": "fuselage",
+      "at": [
+        0.846,
+        0.19
+      ],
+      "height": 0.78,
+      "colors": [
+        "atlas",
+        "midnight",
+        "white",
+        "pink"
+      ],
+      "description": "A second formline face with a ringed eye and pink cheek marks just ahead of the fin.",
+      "confidence": "medium",
+      "sourceRefs": [
+        4
+      ]
+    },
+    {
+      "mark": "ASA/xaat-kwaani-tail",
+      "place": "fin",
+      "at": [
+        0.5,
+        0.55
+      ],
+      "height": 0.9,
+      "colors": [
+        "white",
+        "atlas",
+        "pink",
+        "midnight"
+      ],
+      "description": "The salmon's tail on the fin: white formline fin rays fanned at the top, a column of pink dots, white split-U forms lower down on Atlas blue.",
+      "confidence": "medium",
+      "sourceRefs": [
+        4,
+        7
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Alaska",
+      "place": "fuselage",
+      "at": [
+        0.476,
+        0.1
+      ],
+      "height": 0.7,
+      "color": "white",
+      "style": "The 2016 Alaska wordmark in white over the wing root, its baseline just under the tops of the windows, on Atlas blue; about half the standard length.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        4,
+        6
+      ],
+      "type": {
+        "similar": [
+          "Kaufmann Bold",
+          "Futura Bold Oblique"
+        ],
+        "weight": 800,
+        "slantDeg": 16,
+        "width": "normal",
+        "strokes": "brush",
+        "case": "mixed",
+        "xHeight": 0.55
+      },
+      "length": 0.13
+    },
+    {
+      "text": "Xáat Kwáani",
+      "place": "fuselage",
+      "at": [
+        0.045,
+        -0.17
+      ],
+      "height": 0.12,
+      "color": "pink",
+      "style": "Small italic sans in pink on the navy nose, 'SALMON PEOPLE' in tiny capitals under it.",
+      "confidence": "medium",
+      "sourceRefs": [
+        4,
+        5
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Demi Bold Italic",
+          "Futura Medium Oblique"
+        ],
+        "weight": 600,
+        "slantDeg": 10,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.7
+      },
+      "length": 0.042
+    }
+  ]
+}

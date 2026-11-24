@@ -1,0 +1,107 @@
+{
+  "_about": "777F, from Boeing D6-58329-2 Rev G 2.2.3 (page index 18): side, plan and front views on one sheet. Pixels of layers.py rasters at scale 20, line centres. The 777's raked wingtip has no device: no wingtip points.",
+  "out": "../../../../shapes/B77L.json",
+  "length": 62.94,
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "refs": {
+    "side": { "nose": 122, "tail": 5245.5, "cowlEnd": 2192 },
+    "plan": { "nose": 122, "centerline": 2757 },
+    "front": { "centerline": 2731.5, "crownTop": 798 }
+  },
+  "windows": {
+    "from": 1,
+    "to": 0,
+    "pitch": 0.5,
+    "width": 0.25,
+    "z": [0.6, 1.0],
+    "note": "The 777F has no cabin windows. A 777-200LR (also B77L) has them; this shape doesn't."
+  },
+  "doors": [
+    { "kind": "door", "box": [623, 1065, 715, 1225] },
+    { "kind": "cargo", "box": [3262, 938, 3613, 1227], "side": "left" },
+    { "kind": "cargo", "box": [971, 1233, 1201, 1392], "side": "right" },
+    { "kind": "cargo", "box": [3381, 1247, 3611, 1407], "side": "right" },
+    { "kind": "cargo", "box": [3852, 1260, 3941, 1409], "side": "right" }
+  ],
+  "cockpitPanes": [
+    [
+      [282, 1098],
+      [284, 1100],
+      [284, 1101],
+      [281, 1106],
+      [274, 1117],
+      [265, 1131],
+      [263, 1134],
+      [261, 1136],
+      [228, 1136],
+      [226, 1134],
+      [231, 1129],
+      [242, 1119],
+      [252, 1110],
+      [260, 1103],
+      [264, 1100],
+      [270, 1099],
+      [278, 1098]
+    ],
+    [
+      [275, 1139],
+      [273, 1137],
+      [274, 1135],
+      [290, 1109],
+      [295, 1101],
+      [297, 1099],
+      [322, 1099],
+      [324, 1101],
+      [324, 1104],
+      [322, 1112],
+      [317, 1131],
+      [313, 1146],
+      [311, 1148],
+      [309, 1148]
+    ],
+    [
+      [322, 1145],
+      [333, 1101],
+      [335, 1099],
+      [347, 1099],
+      [356, 1100],
+      [364, 1101],
+      [366, 1103],
+      [366, 1106],
+      [362, 1138],
+      [361, 1141],
+      [359, 1143],
+      [352, 1144],
+      [337, 1146],
+      [329, 1147],
+      [324, 1147]
+    ]
+  ],
+  "printed": {
+    "fuselage height": 6.2,
+    "fuselage width": 6.2,
+    "wingspan": 64.8,
+    "tailplane span": 21.53,
+    "engine out from the centerline": 9.61,
+    "overall length": 63.73
+  },
+  "meta": {
+    "id": "B77L",
+    "name": "Boeing 777F",
+    "types": ["B77L"],
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/airports/acaps/777-200LR-300ER-F_Rev_G.pdf",
+        "title": "Boeing, 777-200LR/-300ER/-Freighter Airplane Characteristics for Airport Planning (D6-58329-2 Rev G, December 2024), 2.2.3 General Dimensions: Model 777F",
+        "accessed": "2026-11-15",
+        "note": "Dimensions and outlines read off the side, plan and front views (tools/trace/b77l/); the figures are the aircraft's measurements, not a copy of the drawing. The freighter: no cabin windows, the main-deck cargo door aft of the wing."
+      }
+    ]
+  }
+}

@@ -1,0 +1,676 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "express",
+  "airline": "TAP",
+  "name": "TAP Express (2017 livery)",
+  "kind": "standard",
+  "from": "2017",
+  "confidence": "medium",
+  "drawnOn": "E195",
+  "description": "TAP's 2017 scheme as flown by Portugália for TAP Express (E190/E195): white, the TAP emblem very large just behind the cockpit (green T, red P) with 'express' in small white lower case reading upward in the P's stem; 'AIR PORTUGAL' in dark gray ahead of the wing, 'flytap.com' at the rear. The fin is the emblem cropped as on TAP's own jets (lime along the leading edge, a deeper green at its foot, red aft of a slanting line with two white bars), with 'express' in white set vertically on the red where TAP's jets carry 'AIR PORTUGAL'.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:CS-TTX_18-6-22_Schiphol_(52644239201).jpg",
+      "title": "CS-TTX 18-6-22 Schiphol (52644239201).jpg (CC BY 2.0, Pete Macklin)",
+      "accessed": "2026-11-22",
+      "note": "E195 CS-TTX taxiing at Schiphol, left side, side-on, 2022-06-18. Fitted to shapes/E195.json (nose, tail, fin tip and both doors within 9 px): the emblem's middle and size, 'express' in its stem, the titles' ends and heights, the fin's green, white and red fields, its white bars and the fin's 'express'."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:CS-TAY_TAP_E195_EGCC.jpg",
+      "title": "CS-TAY TAP E195 EGCC.jpg (CC BY 4.0, Oscaracton)",
+      "accessed": "2026-11-22",
+      "note": "E195 CS-TAY at Manchester, right side, 2026-05-25: the emblem reads T then P from the right too, 'express' in its stem upright reading upward (not mirrored); the fin unmirrored (green at the trailing edge on the right), 'express!' with an exclamation mark at its top on this jet; 'AIR' aft of 'PORTUGAL'."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:CS-TAX_Embraer_195_TAP_Express_tailfin_OPO_01.jpg",
+      "title": "CS-TAX Embraer 195 TAP Express tailfin OPO 01.jpg (CC BY-SA 4.0, Bene Riobó)",
+      "accessed": "2026-11-22",
+      "note": "E195 CS-TAX's fin close, left side, Porto, 2026-08-03: the same fin in 2026, 'express' reading upward in white; a small white wedge in the lime part halfway up (not on CS-TTX, not drawn)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Embraer_195AR_(190-200IGW)_%E2%80%98CS-TTX%E2%80%99_TAP_Express_(53695860782).jpg",
+      "title": "Embraer 195AR (190-200IGW) 'CS-TTX' TAP Express (53695860782).jpg (CC BY-SA 2.0, Alan Wilson)",
+      "accessed": "2026-11-22",
+      "note": "CS-TTX at Lisbon, left side, 2022-09-17: the titles and emblem as at Schiphol."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Embraer_190LR_(190-100LR)_%E2%80%98CS-TPQ%E2%80%99_TAP_Express_(53752293017).jpg",
+      "title": "Embraer 190LR (190-100LR) 'CS-TPQ' TAP Express (53752293017).jpg (CC BY-SA 2.0, Alan Wilson)",
+      "accessed": "2026-11-22",
+      "note": "E190 CS-TPQ at Lisbon, left side, 2022-09-19: the same scheme on the E190."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Portug%C3%A1lia",
+      "title": "Portugália (Wikipedia)",
+      "accessed": "2026-11-22",
+      "note": "Portugália Airlines (PGA) flies TAP Express's Embraer E190s and E195s for TAP."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F2F3F5",
+      "official": false
+    },
+    "lime": {
+      "hex": "#8CC63F",
+      "official": false
+    },
+    "green": {
+      "hex": "#3AA935",
+      "official": false
+    },
+    "red": {
+      "hex": "#E3102B",
+      "official": false
+    },
+    "gray": {
+      "hex": "#2E3236",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    },
+    "rudderRed": {
+      "hex": "#C80F27",
+      "official": false
+    },
+    "crimson": {
+      "hex": "#B0122C",
+      "name": "the P's stem behind 'express'",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      3
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "mirrored": false,
+    "areas": [
+      {
+        "name": "deeper green at the leading edge's foot (the T's stem)",
+        "color": "green",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0.2,
+            0
+          ],
+          [
+            0.045,
+            0.185
+          ],
+          [
+            0,
+            0.226
+          ]
+        ],
+        "side": "left"
+      },
+      {
+        "name": "lime along the leading edge (the T), above the white notch at its foot",
+        "color": "lime",
+        "points": [
+          [
+            0,
+            0.226
+          ],
+          [
+            0.045,
+            0.185
+          ],
+          [
+            0.55,
+            0.186
+          ],
+          [
+            0.05,
+            0.726
+          ],
+          [
+            0,
+            0.726
+          ]
+        ],
+        "side": "left"
+      },
+      {
+        "name": "red (the P), aft of a line slanting up from the root to the leading edge",
+        "color": "red",
+        "points": [
+          [
+            0.69,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0.726
+          ],
+          [
+            0.05,
+            0.726
+          ]
+        ],
+        "side": "left"
+      },
+      {
+        "name": "upper white bar (the P's counter)",
+        "color": "white",
+        "points": [
+          [
+            0.684,
+            0.7
+          ],
+          [
+            1,
+            0.7
+          ],
+          [
+            1,
+            0.553
+          ],
+          [
+            0.793,
+            0.553
+          ]
+        ],
+        "side": "left"
+      },
+      {
+        "name": "lower white bar at the trailing edge",
+        "color": "white",
+        "points": [
+          [
+            0.915,
+            0.265
+          ],
+          [
+            1,
+            0.265
+          ],
+          [
+            1,
+            0.03
+          ],
+          [
+            0.98,
+            0.03
+          ]
+        ],
+        "side": "left"
+      },
+      {
+        "name": "right face: red over the whole fin, under the green and white",
+        "color": "red",
+        "side": "right",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "right face: lime strip along the trailing edge, aft of a line straight up the fin as seen from the side (written as the left face's picture: x is 1 - the right face's)",
+        "color": "lime",
+        "side": "right",
+        "points": [
+          [
+            0.89,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0.012,
+            0
+          ],
+          [
+            0.073,
+            0.258
+          ],
+          [
+            0.26,
+            0.648
+          ],
+          [
+            0.484,
+            0.844
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "right face: white at the leading edge's foot",
+        "color": "white",
+        "side": "right",
+        "points": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0.258
+          ],
+          [
+            0.434,
+            0.258
+          ],
+          [
+            0.36,
+            0.129
+          ],
+          [
+            0.3,
+            0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "right face: white bar at the leading edge",
+        "color": "white",
+        "side": "right",
+        "points": [
+          [
+            1,
+            0.555
+          ],
+          [
+            0.68,
+            0.555
+          ],
+          [
+            0.956,
+            0.719
+          ],
+          [
+            1,
+            0.719
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "#B9BEC5",
+    "under": "#C9CDD2"
+  },
+  "winglets": {
+    "outer": "lime",
+    "inner": "white",
+    "areas": [
+      {
+        "name": "red lower part",
+        "color": "red",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0.42
+          ],
+          [
+            0,
+            0.42
+          ]
+        ]
+      }
+    ],
+    "confidence": "low",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "titles": [
+    {
+      "text": "AIR",
+      "place": "fuselage",
+      "side": "left",
+      "at": [
+        0.299,
+        0.43
+      ],
+      "height": 0.15,
+      "length": 0.023,
+      "color": "gray",
+      "style": "'AIR' in bold capitals, ahead of 'PORTUGAL', over the windows ahead of the wing.",
+      "type": {
+        "similar": [
+          "Helvetica Neue Medium",
+          "Arial"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        3
+      ]
+    },
+    {
+      "text": "PORTUGAL",
+      "place": "fuselage",
+      "side": "left",
+      "at": [
+        0.325,
+        0.43
+      ],
+      "height": 0.15,
+      "length": 0.073,
+      "color": "gray",
+      "style": "'PORTUGAL' in regular capitals after 'AIR'.",
+      "type": {
+        "similar": [
+          "Helvetica Neue Medium",
+          "Arial"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        3
+      ]
+    },
+    {
+      "text": "PORTUGAL",
+      "place": "fuselage",
+      "side": "right",
+      "at": [
+        0.299,
+        0.43
+      ],
+      "height": 0.15,
+      "length": 0.073,
+      "color": "gray",
+      "style": "'PORTUGAL' in regular capitals; on the right side it's forward, 'AIR' reading first from aft.",
+      "type": {
+        "similar": [
+          "Helvetica Neue Medium",
+          "Arial"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "text": "AIR",
+      "place": "fuselage",
+      "side": "right",
+      "at": [
+        0.376,
+        0.43
+      ],
+      "height": 0.15,
+      "length": 0.023,
+      "color": "gray",
+      "style": "'AIR' in bold capitals, aft of 'PORTUGAL' on the right side.",
+      "type": {
+        "similar": [
+          "Helvetica Neue Medium",
+          "Arial"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "text": "flytap.com",
+      "place": "fuselage",
+      "at": [
+        0.698,
+        0.43
+      ],
+      "height": 0.16,
+      "length": 0.068,
+      "color": "gray",
+      "style": "Lower-case web address over the rear windows.",
+      "type": {
+        "similar": [
+          "Helvetica Neue",
+          "Arial"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.7
+      },
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "text": "express",
+      "mark": "TAP/express",
+      "place": "fin",
+      "at": [
+        0.869,
+        0.108
+      ],
+      "rotationDeg": 90,
+      "height": 0.12,
+      "length": 0.68,
+      "color": "white",
+      "style": "TAP Express's 'express' in white lower case, set vertically on the red reading upward from near the root to about 0.7 of the span, where TAP's own jets carry 'AIR PORTUGAL'; light, rounded humanist letters.",
+      "type": {
+        "similar": [
+          "Frutiger Light",
+          "Myriad Pro"
+        ],
+        "weight": 300,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.72
+      },
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ],
+      "side": "left"
+    },
+    {
+      "text": "express",
+      "mark": "TAP/express",
+      "place": "fin",
+      "at": [
+        0.265,
+        0.76
+      ],
+      "rotationDeg": -90,
+      "height": 0.12,
+      "length": 1.3,
+      "color": "white",
+      "style": "On the right face 'express' also reads upward, upright (the picture isn't mirrored): just forward of the lime strip at the trailing edge, its letters' tops facing aft. Given as its top end (a right-side title is anchored at its aft end, here the top), turned -90° so it reads up. Its length is a share of the chord at its top end (where it's anchored), so it reads larger than the left side's 0.68 for the same run, about 3.2 m.",
+      "type": {
+        "similar": [
+          "Frutiger Light",
+          "Myriad Pro"
+        ],
+        "weight": 300,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.72
+      },
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ],
+      "side": "right"
+    }
+  ],
+  "logos": [
+    {
+      "mark": "TAP/logo-express",
+      "place": "fuselage",
+      "at": [
+        0.215,
+        0.02
+      ],
+      "height": 1.7,
+      "colors": [
+        "lime",
+        "green",
+        "red",
+        "white",
+        "crimson"
+      ],
+      "description": "The TAP emblem as on TAP's own jets (a blocky green T, lime with a deeper green stripe, a small white upward arrow standing for the A; then a red P with a white square counter), very large just behind the cockpit door, with 'express' in small white lower case set vertically, reading upward, in the P's stem (a darker crimson there). Reads T then P, left to right, on both sides; the 'express' is upright on both.",
+      "reference": "https://commons.wikimedia.org/wiki/File:CS-TTX_18-6-22_Schiphol_(52644239201).jpg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "mark": "SAL/star-alliance",
+      "place": "fuselage",
+      "at": [
+        0.12,
+        0.3
+      ],
+      "height": 0.12,
+      "colors": [
+        "gray"
+      ],
+      "description": "Small Star Alliance star outline between the cockpit and the forward door (seen on CS-TAY's right side).",
+      "reference": "https://www.staralliance.com",
+      "confidence": "low",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "TAP/portugal-flag",
+      "place": "fuselage",
+      "at": [
+        0.729,
+        0.19
+      ],
+      "height": 0.12,
+      "colors": [
+        "green",
+        "red"
+      ],
+      "description": "Small Portuguese flag after the registration, under the rear windows.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        2
+      ]
+    }
+  ],
+  "notes": "Measured on CS-TTX (E195, left side, Schiphol, 2022-06-18) fitted to the E195 shape within 9 px, and checked on CS-TAY (right side, 2026-05-25) and CS-TAX's fin (2026-08-03). The emblem spans x 0.149-0.282, from y -0.62 to 0.68 (its middle at (0.215, 0.02)), 'express' in the P's stem at x 0.216-0.233. 'AIR' x 0.299-0.322 and 'PORTUGAL' 0.325-0.398, baseline y 0.43, capitals 0.15 tall; 'flytap.com' x 0.698-0.766. On the fin the red's front edge runs straight from (0.69, 0) at the root up to the leading edge at 0.726 (a vertical line seen from the side); the lime stops above a white notch at the foot (y 0.186), a deeper green under it at the leading edge; the fin's 'express' runs up from (0.869, 0.108) about 3.2 m. 2017-2019 photos show 'PORTUGAL' alone on the fuselage (no 'AIR'); since about 2022 'AIR PORTUGAL'. CS-TAY (2026) has 'express!' on the fin and a small exclamation dot by the emblem's 'express'; CS-TAX's fin a small white wedge in the lime halfway up: neither drawn. CS-TAW was photographed with an all-white fin (2023-05-11), not tagged. Small 'Operated by Portugália Airlines' under the emblem, not drawn. The right face isn't the left's picture flipped share for share: CS-TAY's right side (2026) shows the lime as a strip along the trailing edge, aft of a line straight up the fin, red forward of it with the white bars at the leading edge, and 'express' reading upward next to the lime; so the fin carries its areas and title per side, the right side's read off CS-TAY by eye (fin shares at each height from the leading and trailing edges, no fit: the photo is a three-quarter view).",
+  "history": "New 2026-11-22. Until then PGA (TAP Express) wore TAP/standard through operators.json; its E-Jets carry this variant, the emblem and fin with 'express'."
+}

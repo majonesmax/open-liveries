@@ -1,0 +1,60 @@
+{
+  "_about": "Embraer 170, from APM-1346 Rev 17 (Oct 09/15; the figure May 11/07) Figure 2.1 General Aircraft Dimensions (page index 29): side, plan and front views on one sheet, black vector lines. Unlike the E175's figure, drawn to one scale both ways (its printed 29.90 m length and 10.00 m tailplane span agree within 0.1%; the front view 0.34% larger, from its 26.00 m span and 5.20 m track: rendered to the side's scale). Scaled by the printed 29.90 m overall length, nose to tail cone. The E175's (e75l/) points moved by its two fuselage plugs taken out (plug.py: 0.80 m ahead of the wing, from the wheelbases, 11.40 m against 10.60 m; 0.97 m behind it, from the nose-to-aft-cargo-door figures, 20.00 m against 18.23 m, less the forward plug), then snapped to this sheet; the original wing tip and its small winglet (26.00 m span, against the E175's enhanced tip), the front view and the nacelle placed here. Pixels of layers.py rasters at scale 16 (the front at 15.946), line centres. The cargo doors are dashed in the side view and drawn on the upper (right) side of the plan in Figure 2.6: on the right. One window behind the winglet (at the row's pitch) is in windowsAlso. After smooth.py, tipmeet.py starts the winglet on the wing's tip (docs/SHAPES.md: its side edges from the tip's edges at the wing's height, then the drawing above their lowest quarter; its front line from the tip), as the E175's was; without it the winglet stood 0.75 m aft of the tip in 3D.",
+  "out": "../../../../shapes/E170.json",
+  "length": 29.9,
+  "wingtip": "winglet",
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "refs": {
+    "side": {
+      "nose": 133.5,
+      "tail": 4986.5,
+      "cowlEnd": 2070,
+      "windowRow": [1042, 1101],
+      "windowGap": 5,
+      "windowsAlso": [3058]
+    },
+    "plan": {
+      "nose": 151.5,
+      "centerline": 2383
+    },
+    "front": {
+      "centerline": 2239.5,
+      "crownTop": 900
+    }
+  },
+  "doors": [
+    {"kind": "door", "box": [900, 947, 1048, 1243]},
+    {"kind": "door", "box": [3584, 953, 3718, 1244]},
+    {"kind": "cargo", "box": [1242, 1264, 1433, 1428], "side": "right"},
+    {"kind": "cargo", "box": [3097, 1263, 3288, 1424], "side": "right"}
+  ],
+  "cockpitPanes": [
+    [[405, 1085], [522, 1002], [563, 1004], [500, 1083], [493, 1087]],
+    [[640, 1093], [565, 1088], [556, 1083], [553, 1075], [556, 1065], [575, 1040], [590, 1018], [600, 1006], [610, 1003], [630, 1003], [640, 1006], [645, 1013], [645, 1085]]
+  ],
+  "printed": {
+    "fuselage height": 3.35,
+    "fuselage width": 3.01,
+    "wingspan": 26.0,
+    "tailplane span": 10.0
+  },
+  "meta": {
+    "id": "E170",
+    "name": "Embraer 170",
+    "types": ["E170"],
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://www.embraercommercialaviation.com/wp-content/uploads/2017/02/APM_E170.pdf",
+        "title": "Embraer, Embraer 170 Airport Planning Manual (APM-1346 Rev 17, Oct 09/15), Section 2, Figure 2.1 General Aircraft Dimensions; Figure 2.4 cabin cross-section; Figure 2.6 Door Dimensions",
+        "accessed": "2026-11-16",
+        "note": "Read from the Internet Archive's copy of 2025-09-15 (web.archive.org/web/20250915110042/...): Embraer's link now goes nowhere. Dimensions and outlines read off the side, plan and front views (tools/trace/e170/), starting from the E175's placed points less its two fuselage plugs; the figures are the aircraft's measurements, not a copy of the drawing."
+      }
+    ]
+  }
+}

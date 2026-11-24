@@ -1,0 +1,733 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "kunpeng",
+  "airline": "CSZ",
+  "name": "Kunpeng (鲲鹏号, 'Amazing Shenzhen')",
+  "kind": "special",
+  "from": "2026-06-30",
+  "confidence": "medium",
+  "drawnOn": "A359",
+  "commemorates": "Shenzhen Airlines' first A350-900 (ex-Air China), and Shenzhen, 'Pengcheng', the city of the roc",
+  "description": "Shenzhen Airlines' first A350, painted as the Kunpeng, the great roc of Chinese legend that Shenzhen's nickname 'Pengcheng' (鹏城) refers to. The roc's head is the nose: a blue head with a white eye and a yellow-orange hooked beak at the nose tip; its feathers stream back along the forward fuselage in violet shading to bright pink, with a dark indigo wing shape low down ahead of the wing and white dots like spray. A thin pink line carries on aft under the windows. The middle of the fuselage is white with colourful Lingnan folk-art figures over the windows ahead of the third door (a fish-lantern dragon from the Shatoujiao fish-lantern dance, a qilin). From behind the wing the lower fuselage turns cyan-blue, rising to the crown ahead of the fin, with Shenzhen's skyline drawn in navy along the lower rear and '深圳 SHENZHEN' in navy calligraphy by the last door. 'Shenzhen Airlines' and '深圳航空' in navy over the forward windows. The fin cyan at its root shading through blue to violet at the tip, with the airline's gold Kunpeng. White engines with the city's 'Amazing Shenzhen' script.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:B-32F0@PEK_(20261005121537).jpg",
+      "title": "B-32F0@PEK (20261005121537).jpg (CC BY-SA 4.0, N509FZ)",
+      "accessed": "2026-11-22",
+      "note": "A350-900 B-32F0 taxiing at Beijing Capital, right side, side-on, 2026-10-05. Flipped and fitted to shapes/A359.json (nose, tail, fin tip, first and last doors; within about 40 px, 1.5 m): the art's major colour fields, the titles, the fin's Kunpeng. Its 'fields' read helped place the masses; the areas are drawn smooth through a few probed points each, not traced."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:B-32F0@PEK_(20261006103118).jpg",
+      "title": "B-32F0@PEK (20261006103118).jpg (CC BY-SA 4.0, N509FZ)",
+      "accessed": "2026-11-22",
+      "note": "B-32F0 on approach at Beijing, right side from below, 2026-10-06: the belly white under the art, the head and beak, the engines' script."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Shenzhen_Airlines_B-32F0(Amazing_Shenzhen_livery)_run_ZH9117(Shenzhen_Baoan_International_Airport_to_Beijing_Capital_International_Airport)_13-10-2026(1).jpg",
+      "title": "Shenzhen Airlines B-32F0 (Amazing Shenzhen livery) run ZH9117 … 13-10-2026(1).jpg (CC BY-SA 4.0, LN9267)",
+      "accessed": "2026-11-22",
+      "note": "B-32F0 climbing out of Shenzhen, right side, 2026-10-13 (hazy): the same; its uploader names it the Amazing Shenzhen livery."
+    },
+    {
+      "url": "https://www.sznews.com/news/content/2026-07/01/content_32106119.htm",
+      "title": "Shenzhen News (深圳新闻网), 2026-07-01: Shenzhen Airlines' first A350 'Kunpeng' (鲲鹏号) debuts",
+      "accessed": "2026-11-22",
+      "note": "Seen through a search result's summary (the page didn't load for us): the livery is named 鲲鹏号, built round the Kunpeng to echo Shenzhen's nickname 鹏城, with Lingnan intangible-heritage elements (the ao fish, the Shatoujiao fish-lantern dance, the qilin); the aircraft joined the fleet on 30 June 2026 and flew its first service, ZH9101 to Beijing Capital, on 1 July 2026."
+    },
+    {
+      "url": "https://news.qq.com/rain/a/20260521A06QFN00",
+      "title": "Tencent News, 2026-05-21: Shenzhen Airlines' first A350's livery appears",
+      "accessed": "2026-11-22",
+      "note": "B-32F0, about three years old, transferred from Air China (left Air China service 18 April 2026 for painting); a blue and purple roc across the fuselage."
+    },
+    {
+      "url": "https://flyingphotosmagazinenews.blogspot.com/2026/06/fleet-shenzhen-airlines-welcomes-1st.html",
+      "title": "Flying Photos Magazine News, 2026-06-23: Shenzhen Airlines welcomes its first A350-900",
+      "accessed": "2026-11-22",
+      "note": "Calls it the 'Amazing Shenzhen' livery; ex-Air China B-32F0 (msn 614), the first of five A350s Air China passes to Shenzhen Airlines."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F2F2F2",
+      "official": false
+    },
+    "violet": {
+      "hex": "#8A5BD6",
+      "name": "the roc's violet feathers",
+      "official": false
+    },
+    "pink": {
+      "hex": "#E4418F",
+      "name": "the roc's pink feathers",
+      "official": false
+    },
+    "indigo": {
+      "hex": "#3B2D9A",
+      "name": "the dark wing shape",
+      "official": false
+    },
+    "headBlue": {
+      "hex": "#2456C8",
+      "name": "the roc's head",
+      "official": false
+    },
+    "yellow": {
+      "hex": "#F2B233",
+      "name": "the beak",
+      "official": false
+    },
+    "cyan": {
+      "hex": "#27A6DE",
+      "name": "the rear's blue",
+      "official": false
+    },
+    "blue": {
+      "hex": "#2E7FDB",
+      "official": false
+    },
+    "navy": {
+      "hex": "#1F2F86",
+      "name": "the skyline and lettering",
+      "official": false
+    },
+    "gold": {
+      "hex": "#D7A85A",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    },
+    "skyline": {
+      "hex": "#3A4BB0",
+      "name": "the skyline's blue-violet mass",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "windows": "plain",
+    "areas": [
+      {
+        "name": "the roc's feathers forward and the thin line on aft under the windows (pink)",
+        "color": "pink",
+        "smooth": true,
+        "points": [
+          [
+            0.02,
+            0.3
+          ],
+          [
+            0.035,
+            0.526
+          ],
+          [
+            0.063,
+            0.549
+          ],
+          [
+            0.099,
+            0.537
+          ],
+          [
+            0.153,
+            0.461
+          ],
+          [
+            0.212,
+            0.385
+          ],
+          [
+            0.282,
+            0.211
+          ],
+          [
+            0.36,
+            0.08
+          ],
+          [
+            0.52,
+            0.06
+          ],
+          [
+            0.606,
+            -0.06
+          ],
+          [
+            0.668,
+            -0.15,
+            1
+          ],
+          [
+            0.608,
+            -0.22
+          ],
+          [
+            0.521,
+            -0.07
+          ],
+          [
+            0.36,
+            -0.2
+          ],
+          [
+            0.198,
+            -0.511
+          ],
+          [
+            0.133,
+            -0.537
+          ],
+          [
+            0.067,
+            -0.419
+          ],
+          [
+            0.027,
+            -0.3
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "violet forward part of the feathers",
+        "color": "violet",
+        "smooth": true,
+        "points": [
+          [
+            0.02,
+            0.3
+          ],
+          [
+            0.035,
+            0.526
+          ],
+          [
+            0.063,
+            0.549
+          ],
+          [
+            0.099,
+            0.537
+          ],
+          [
+            0.125,
+            0.5
+          ],
+          [
+            0.11,
+            0.1
+          ],
+          [
+            0.08,
+            -0.3
+          ],
+          [
+            0.067,
+            -0.419
+          ],
+          [
+            0.027,
+            -0.3
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "dark indigo wing shape low on the forward fuselage",
+        "color": "indigo",
+        "smooth": true,
+        "points": [
+          [
+            0.11,
+            -0.2
+          ],
+          [
+            0.15,
+            -0.04
+          ],
+          [
+            0.21,
+            -0.06
+          ],
+          [
+            0.25,
+            -0.25
+          ],
+          [
+            0.2,
+            -0.48
+          ],
+          [
+            0.13,
+            -0.45
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "the roc's head at the nose",
+        "color": "headBlue",
+        "smooth": true,
+        "points": [
+          [
+            0.01,
+            0.05
+          ],
+          [
+            0.02,
+            0.35
+          ],
+          [
+            0.045,
+            0.48
+          ],
+          [
+            0.07,
+            0.4
+          ],
+          [
+            0.07,
+            0.1
+          ],
+          [
+            0.05,
+            -0.08
+          ],
+          [
+            0.02,
+            -0.1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "the beak, at the nose tip",
+        "color": "yellow",
+        "smooth": true,
+        "points": [
+          [
+            0.008,
+            -0.1
+          ],
+          [
+            0.03,
+            -0.07
+          ],
+          [
+            0.055,
+            -0.2
+          ],
+          [
+            0.04,
+            -0.42
+          ],
+          [
+            0.015,
+            -0.3
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "cyan-blue rear fuselage, its front edge rising from the belly behind the wing to the crown ahead of the fin",
+        "color": "cyan",
+        "smooth": true,
+        "points": [
+          [
+            0.53,
+            -1,
+            1
+          ],
+          [
+            0.549,
+            -0.479
+          ],
+          [
+            0.625,
+            -0.1
+          ],
+          [
+            0.665,
+            0.196
+          ],
+          [
+            0.711,
+            0.382
+          ],
+          [
+            0.753,
+            0.546
+          ],
+          [
+            0.783,
+            0.664
+          ],
+          [
+            0.82,
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          2
+        ]
+      },
+      {
+        "name": "magenta under the folk-art figures, low behind the wing",
+        "color": "pink",
+        "smooth": true,
+        "points": [
+          [
+            0.5,
+            -0.25
+          ],
+          [
+            0.62,
+            -0.15
+          ],
+          [
+            0.68,
+            -0.2
+          ],
+          [
+            0.66,
+            -0.6
+          ],
+          [
+            0.55,
+            -0.7
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "Shenzhen's skyline in navy along the lower rear (its mass; the buildings' outlines not drawn)",
+        "color": "skyline",
+        "smooth": true,
+        "points": [
+          [
+            0.62,
+            -1,
+            1
+          ],
+          [
+            0.64,
+            -0.5
+          ],
+          [
+            0.7,
+            -0.3
+          ],
+          [
+            0.8,
+            -0.25
+          ],
+          [
+            0.88,
+            -0.3
+          ],
+          [
+            0.91,
+            -0.55
+          ],
+          [
+            0.92,
+            -1,
+            1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "cyan",
+    "areas": [
+      {
+        "name": "blue through the middle",
+        "color": "blue",
+        "points": [
+          [
+            0,
+            0.45
+          ],
+          [
+            1,
+            0.45
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "name": "violet tip",
+        "color": "violet",
+        "points": [
+          [
+            0,
+            0.82
+          ],
+          [
+            1,
+            0.82
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "wings": {
+    "top": "#B9BEC5",
+    "under": "#C9CDD2"
+  },
+  "winglets": {
+    "outer": "blue",
+    "inner": "blue",
+    "confidence": "low",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "titles": [
+    {
+      "text": "深圳航空",
+      "place": "fuselage",
+      "at": [
+        0.167,
+        0.24
+      ],
+      "height": 0.17,
+      "length": 0.073,
+      "color": "navy",
+      "style": "The Chinese name in navy over the forward windows, on the feathers' white above them, nearest the nose.",
+      "type": {
+        "similar": [
+          "Noto Sans SC Bold",
+          "Microsoft YaHei Bold"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ]
+    },
+    {
+      "text": "Shenzhen Airlines",
+      "place": "fuselage",
+      "at": [
+        0.287,
+        0.26
+      ],
+      "height": 0.15,
+      "length": 0.177,
+      "color": "navy",
+      "style": "'Shenzhen Airlines' in heavy navy upper and lower case aft of the Chinese, over the windows above the wing.",
+      "type": {
+        "similar": [
+          "Arial Black",
+          "Helvetica Neue Heavy"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ]
+    },
+    {
+      "text": "SHENZHEN",
+      "place": "fuselage",
+      "at": [
+        0.799,
+        -0.25
+      ],
+      "height": 0.07,
+      "length": 0.062,
+      "color": "navy",
+      "style": "Small navy capitals under the '深圳' calligraphy by the last door.",
+      "type": {
+        "similar": [
+          "Arial Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "confidence": "low",
+      "sourceRefs": [
+        0
+      ]
+    },
+    {
+      "text": "Amazing Shenzhen",
+      "place": "engines",
+      "at": [
+        0.2,
+        -0.1
+      ],
+      "height": 0.15,
+      "length": 0.45,
+      "color": "blue",
+      "style": "The city's 'Amazing Shenzhen' brand in a light script on the nacelle's side.",
+      "type": {
+        "similar": [
+          "Brush Script MT",
+          "Pacifico"
+        ],
+        "weight": 400,
+        "slantDeg": 10,
+        "width": "normal",
+        "strokes": "contrast",
+        "case": "mixed"
+      },
+      "confidence": "low",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "logos": [
+    {
+      "mark": "CSZ/kunpeng",
+      "place": "fin",
+      "at": [
+        0.68,
+        0.23
+      ],
+      "height": 0.56,
+      "colors": [
+        "gold"
+      ],
+      "description": "The airline's gold Kunpeng on the fin's lower half, as on its standard scheme.",
+      "reference": "https://commons.wikimedia.org/wiki/File:B-32F0@PEK_(20261005121537).jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ]
+    },
+    {
+      "mark": "CSZ/shenzhen-calligraphy",
+      "place": "fuselage",
+      "at": [
+        0.83,
+        0.1
+      ],
+      "height": 0.5,
+      "colors": [
+        "navy"
+      ],
+      "description": "'深圳' (Shenzhen) in large navy brush calligraphy on the blue just ahead of the last door, 'SHENZHEN' under it.",
+      "reference": "https://commons.wikimedia.org/wiki/File:B-32F0@PEK_(20261005121537).jpg",
+      "confidence": "low",
+      "sourceRefs": [
+        0
+      ]
+    },
+    {
+      "mark": "CSZ/fish-lantern-dragon",
+      "place": "fuselage",
+      "at": [
+        0.63,
+        0.25
+      ],
+      "height": 0.6,
+      "colors": [
+        "#E85A9A",
+        "#F2C94C",
+        "#7FD0B8",
+        "#3FA7E0"
+      ],
+      "description": "Lingnan folk-art figures over the windows ahead of the third door: a pastel dragon from the Shatoujiao fish-lantern dance (pink, yellow, mint and blue), with a small qilin and a yellow ao fish ahead of it.",
+      "reference": "https://commons.wikimedia.org/wiki/File:B-32F0@PEK_(20261005121537).jpg",
+      "confidence": "low",
+      "sourceRefs": [
+        0,
+        3
+      ]
+    }
+  ],
+  "notes": "Only right-side open photos exist (2026-10-05, 10-06, 10-13; the maintainer's own sighting at Heathrow is also the right side). The left side is assumed to be the same design with the roc's head at the nose (areas drawn for both sides): not checked. Drawn from B-32F0's right side flipped and fitted to the A359 shape (within about 1.5 m: the doors and the nose disagree), the major colour masses placed through probed points as smooth areas; the art's linework (feather lines, white spray dots, the skyline's buildings, the folk figures) is the logos' or not drawn. The feathers run from the nose to about x 0.28 above the windows and to 0.2 below; the thin pink line goes on to 0.67; the rear's cyan leaves the belly at 0.53 and reaches the crown at 0.82. Titles: '深圳航空' x 0.167-0.240 and 'Shenzhen Airlines' 0.287-0.464. The fin's colours shade continuously (drawn as three bands). Shortly after entering service a painted section by a door was patched with film and later repainted (NetEase, 2026-07-14); not visible in the October photos.",
+  "history": "New 2026-11-22 (the maintainer's sightings: B-32F0, hex 781fb3, at Heathrow). B-32F0 left Air China on 18 April 2026, was painted, joined Shenzhen Airlines on 30 June 2026 and flew its first service on 1 July 2026."
+}

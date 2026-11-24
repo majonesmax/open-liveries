@@ -1,0 +1,779 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "FJI",
+  "name": "2013 masi livery",
+  "kind": "standard",
+  "from": "2013",
+  "confidence": "high",
+  "drawnOn": "B38M",
+  "description": "White fuselage with 'FIJI' in tall dark inline capitals over the forward windows and 'AIRWAYS' beneath; the rear fuselage and tail cone wrapped in dark masi (tapa cloth) pattern. The fin rust-red with the white masi rosette, a band of masi pattern across its top and the dark corner at its forward root; white engines ringed by a narrow masi band; dark winglets.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:DQ-FAD_(aircraft)",
+      "accessed": "2026-11-16"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Fiji_Airways_(DQ-FAD)_Boeing_737_MAX_8_departing_Sydney_Airport_(1).jpg",
+      "title": "Fiji Airways (DQ-FAD) Boeing 737 MAX 8 departing Sydney Airport (1).jpg (CC BY-SA 3.0 au, Bidgee)",
+      "accessed": "2026-11-16",
+      "note": "737 MAX 8 DQ-FAD from the left, near side-on, 2025-09-28: fitted to shapes/B38M.json with photo_trace.py (doors pinned); titles, the aft masi panel, the fin's bands and rosette, engine band, flag and roundel measured here."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Fiji_Airways_Boeing_737_MAX-8_DQ-FAB.jpg",
+      "title": "Fiji Airways Boeing 737 MAX-8 DQ-FAB.jpg (CC BY 4.0, ThatAustralianBall)",
+      "accessed": "2026-11-16",
+      "note": "737 MAX 8 DQ-FAB from the left and above at Nadi, 2026-05-19: the scheme current in 2026, fin, engine band, winglets, the masi panel wrapping the tail cone."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Fiji_Airways_Boeing_737_MAX-8_DQ-FAB_closeup.jpg",
+      "title": "Fiji Airways Boeing 737 MAX-8 DQ-FAB closeup.jpg (CC BY 4.0, ThatAustralianBall)",
+      "accessed": "2026-11-16",
+      "note": "DQ-FAB's nose from the left, 2026-05-19: the island name, the Fijian flag, the small navy roundel by the forward door."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Fiji_Airways_Boeing_737_on_final_approach_to_Wellington_airport_in_front_of_snow-covered_Kaikoura_ranges.jpg",
+      "title": "Fiji Airways Boeing 737 on final approach to Wellington airport in front of snow-covered Kaikoura ranges.jpg (public domain, Pseudopanax)",
+      "accessed": "2026-11-16",
+      "note": "737 MAX 8 DQ-FAH from the right and below, 2023-08-09 (small): the right side's 'FIJI' over 'AIRWAYS' with no dots, the white belly."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Fiji_Airways_(DQ-FAN)_Airbus_A350-941_at_Sydney_Airport_(3).jpg",
+      "title": "Fiji Airways (DQ-FAN) Airbus A350-941 at Sydney Airport (3).jpg (CC BY-SA 3.0 au, Bidgee)",
+      "accessed": "2026-11-16",
+      "note": "A350-900 DQ-FAN from the left, near side-on, 2024-04-16: fitted to shapes/A359.json (doors pinned); the A350's titles ('AIRWAYS' with three dots), aft panel, fin bands, rosette and the dark corner at the fin's forward root measured here."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Fiji_Airways_(DQ-FAI)_Airbus_A350-941_taxiing_at_SYD,_Jan_2026_02.jpg",
+      "title": "Fiji Airways (DQ-FAI) Airbus A350-941 taxiing at SYD, Jan 2026 02.jpg (CC BY-SA 4.0, DaHuzyBru)",
+      "accessed": "2026-11-16",
+      "note": "A350-900 DQ-FAI from the right, 2026-01-02: the right side reads '...AIRWAYS', the dots aft as on the left; 'FIJI' over the same stretch behind door 1."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:DQ-FAM.jpg",
+      "title": "DQ-FAM.jpg (CC BY-SA 4.0, Liam Thompson)",
+      "accessed": "2026-11-16",
+      "note": "A350-900 DQ-FAM from the left and below on approach, 2026-07-26: the scheme in 2026, both engines' masi bands, dark sharklet tips, white belly up to the aft panel."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Fiji_Airways_DQ-FJW_run_FJ392(Hong_Kong_International_Airport_to_Fiji_Nadi_International_Airport)_12-07-2026.jpg",
+      "title": "Fiji Airways DQ-FJW run FJ392(...) 12-07-2026.jpg (CC BY-SA 4.0, LN9267)",
+      "accessed": "2026-11-16",
+      "note": "A330-300 DQ-FJW from the right, 2026-07-12: 'FIJI' over 'AIRWAYS' with no dots; not measured (see notes)."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Fiji_Airways",
+      "title": "Fiji Airways (Wikipedia)",
+      "accessed": "2026-11-16",
+      "note": "Rebrand from Air Pacific to Fiji Airways (27 June 2013); masi logo by Fijian masi artist Makereta Matemosi; fleet (July 2026: 5 737 MAX 8, 1 737-800, 4 A350-900, 3 A330-200, 1 A330-300)."
+    },
+    {
+      "url": "https://www.businesstraveller.com/business-travel/2025/04/01/oneworld-welcomes-fiji-airways-as-full-alliance-member/",
+      "title": "oneworld welcomes Fiji Airways as full alliance member (Business Traveller, 2025-04-01)",
+      "accessed": "2026-11-16",
+      "note": "Full oneworld member from 1 April 2025: why the roundel by the door."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F6F6F4",
+      "official": false
+    },
+    "masi": {
+      "hex": "#2A1F1C",
+      "official": false
+    },
+    "rust": {
+      "hex": "#93452B",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    },
+    "oneworldNavy": {
+      "hex": "#1B2A5C",
+      "official": false
+    },
+    "flagBlue": {
+      "hex": "#68BFE5",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "masi panel round the rear fuselage and tail cone",
+        "color": "masi",
+        "points": [
+          [
+            0.774,
+            -1
+          ],
+          [
+            0.774,
+            1
+          ],
+          [
+            1.02,
+            1
+          ],
+          [
+            1.02,
+            -1
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      }
+    ],
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2,
+      4
+    ]
+  },
+  "fin": {
+    "base": "rust",
+    "mirrored": true,
+    "areas": [
+      {
+        "name": "masi band across the top",
+        "color": "masi",
+        "points": [
+          [
+            0,
+            0.64
+          ],
+          [
+            1,
+            0.645
+          ],
+          [
+            1,
+            1.02
+          ],
+          [
+            0,
+            1.02
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "dark corner at the forward root (the body's masi carried up)",
+        "color": "masi",
+        "points": [
+          [
+            0,
+            -0.02
+          ],
+          [
+            0.17,
+            -0.02
+          ],
+          [
+            0.022,
+            0.14
+          ],
+          [
+            0,
+            0.155
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "winglets": {
+    "outer": "masi",
+    "inner": "masi",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "areas": [
+      {
+        "name": "forward ring of the masi band",
+        "color": "masi",
+        "points": [
+          [
+            0.24,
+            -1
+          ],
+          [
+            0.265,
+            -1
+          ],
+          [
+            0.265,
+            1
+          ],
+          [
+            0.24,
+            1
+          ]
+        ],
+        "confidence": "medium"
+      },
+      {
+        "name": "aft ring of the masi band",
+        "color": "masi",
+        "points": [
+          [
+            0.47,
+            -1
+          ],
+          [
+            0.495,
+            -1
+          ],
+          [
+            0.495,
+            1
+          ],
+          [
+            0.47,
+            1
+          ]
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2,
+      7
+    ]
+  },
+  "logos": [
+    {
+      "mark": "FJI/masi-rosette",
+      "place": "fin",
+      "at": [
+        0.535,
+        0.313
+      ],
+      "height": 0.42,
+      "colors": [
+        "white"
+      ],
+      "description": "The Fiji Airways masi symbol, designed by Makereta Matemosi: a white rosette on the rust field, an outer ring of triangles and short bars round a ring of rust, a small many-pointed star with a diamond at its centre. Upright, the same on both sides.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Fiji_Airways_(DQ-FAD)_Boeing_737_MAX_8_departing_Sydney_Airport_(1).jpg",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mark": "FJI/masi",
+      "place": "fin",
+      "at": [
+        0.55,
+        0.82
+      ],
+      "height": 0.36,
+      "colors": [
+        "white",
+        "masi"
+      ],
+      "description": "Masi (Fijian tapa cloth) pattern: rows of white geometric motifs (triangles, arrow and cross shapes, bars) on dark brown-black, as on the tapa cloth the brand is drawn from. The fin's top band, from the rust field's upper edge to the tip (the areas paint its dark ground).",
+      "reference": "https://commons.wikimedia.org/wiki/File:Fiji_Airways_(DQ-FAD)_Boeing_737_MAX_8_departing_Sydney_Airport_(1).jpg",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mark": "FJI/masi",
+      "place": "fuselage",
+      "at": [
+        0.887,
+        0.0
+      ],
+      "height": 2.0,
+      "colors": [
+        "white",
+        "masi"
+      ],
+      "description": "Masi (Fijian tapa cloth) pattern: rows of white geometric motifs (triangles, arrow and cross shapes, bars) on dark brown-black, as on the tapa cloth the brand is drawn from. The panel round the rear fuselage and tail cone, belly to crown, carrying on up the fillet into the fin's forward root; its forward edge has a column of short dark bars a little ahead of it, like a tapa border.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Fiji_Airways_(DQ-FAD)_Boeing_737_MAX_8_departing_Sydney_Airport_(1).jpg",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mark": "FJI/masi",
+      "place": "engines",
+      "at": [
+        0.37,
+        0.0
+      ],
+      "height": 2.0,
+      "colors": [
+        "masi",
+        "white"
+      ],
+      "description": "A narrow ring of masi pattern round the nacelle, small dark motifs on white between two thin dark rings (the areas paint the rings), about x 0.24 to 0.49 of the nacelle.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Fiji_Airways_(DQ-FAD)_Boeing_737_MAX_8_departing_Sydney_Airport_(1).jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mark": "ONE/oneworld-roundel",
+      "place": "fuselage",
+      "at": [
+        0.146,
+        0.324
+      ],
+      "height": 0.085,
+      "colors": [
+        "oneworldNavy",
+        "white"
+      ],
+      "description": "The small oneworld roundel (a navy disc with the white swirl) just aft of the forward door, above the window line; Fiji Airways is a full member from April 2025.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mark": "FJI/fiji-flag",
+      "place": "fuselage",
+      "at": [
+        0.104,
+        -0.029
+      ],
+      "height": 0.11,
+      "colors": [
+        "flagBlue",
+        "#C8102E",
+        "white",
+        "#012169"
+      ],
+      "description": "A small Fijian flag (light blue ensign with the Union Flag and the shield) ahead of the forward door, on the window line, after the aircraft's island name in small dark capitals.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Flag_of_Fiji.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "FIJI",
+      "place": "fuselage",
+      "at": [
+        0.163,
+        -0.056
+      ],
+      "height": 0.567,
+      "color": "masi",
+      "style": "The 'FIJI' wordmark: tall geometric capitals in dark brown-black, widely spaced, each stroke split lengthwise by a thin white line (an inline, like masi cloth's ruled lines); over the windows (they show through) behind the forward door.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2,
+        4
+      ],
+      "type": {
+        "similar": [
+          "Josefin Sans SemiBold",
+          "Futura Medium"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "length": 0.106
+    },
+    {
+      "text": "AIRWAYS",
+      "place": "fuselage",
+      "at": [
+        0.172,
+        -0.31
+      ],
+      "height": 0.166,
+      "color": "masi",
+      "style": "'AIRWAYS' in plain geometric capitals, medium weight, dark brown-black, under 'FIJI' from just behind its 'F'.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2,
+        4
+      ],
+      "type": {
+        "similar": [
+          "Montserrat Medium",
+          "Gotham Medium"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "length": 0.085
+    }
+  ],
+  "types": {
+    "A359": {
+      "note": "Measured on DQ-FAN (A350-900, left, 2024-04-16), checked on DQ-FAI (right, 2026-01-02) and DQ-FAM (2026-07-26). The A350 differs from the 737 MAX in ways people notice: 'AIRWAYS' is followed by three dots (aft of the word on both sides: 'AIRWAYS...' on the left, '...AIRWAYS' on the right); the masi corner at the fin's forward root is much bigger (the rust field's forward edge is upright, meeting the leading edge 35% up); the top masi band starts 70% up; the aft panel starts 10 m from the tail cone's end.",
+      "confidence": "high",
+      "sourceRefs": [
+        5,
+        6,
+        7
+      ],
+      "fuselage": {
+        "areas": [
+          {
+            "name": "masi panel round the rear fuselage and tail cone",
+            "color": "masi",
+            "points": [
+              [
+                0.846,
+                -1
+              ],
+              [
+                0.846,
+                1
+              ],
+              [
+                1.02,
+                1
+              ],
+              [
+                1.02,
+                -1
+              ]
+            ],
+            "confidence": "high",
+            "sourceRefs": [
+              5,
+              7
+            ]
+          }
+        ]
+      },
+      "fin": {
+        "areas": [
+          {
+            "name": "masi band across the top",
+            "color": "masi",
+            "points": [
+              [
+                0,
+                0.7
+              ],
+              [
+                1,
+                0.697
+              ],
+              [
+                1,
+                1.02
+              ],
+              [
+                0,
+                1.02
+              ]
+            ],
+            "confidence": "high",
+            "sourceRefs": [
+              5,
+              6
+            ]
+          },
+          {
+            "name": "masi corner at the forward root (the rust field's forward edge upright)",
+            "color": "masi",
+            "points": [
+              [
+                0,
+                -0.02
+              ],
+              [
+                0.375,
+                -0.02
+              ],
+              [
+                0.224,
+                0.161
+              ],
+              [
+                0,
+                0.35
+              ]
+            ],
+            "confidence": "high",
+            "sourceRefs": [
+              5,
+              6
+            ]
+          }
+        ]
+      },
+      "logos": [
+        {
+          "mark": "FJI/masi-rosette",
+          "place": "fin",
+          "at": [
+            0.584,
+            0.325
+          ],
+          "height": 0.465,
+          "colors": [
+            "white"
+          ],
+          "description": "The Fiji Airways masi symbol, designed by Makereta Matemosi: a white rosette on the rust field, an outer ring of triangles and short bars round a ring of rust, a small many-pointed star with a diamond at its centre. Upright, the same on both sides.",
+          "reference": "https://commons.wikimedia.org/wiki/File:Fiji_Airways_(DQ-FAN)_Airbus_A350-941_at_Sydney_Airport_(3).jpg",
+          "confidence": "high",
+          "sourceRefs": [
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "mark": "FJI/masi",
+          "place": "fin",
+          "at": [
+            0.55,
+            0.85
+          ],
+          "height": 0.3,
+          "colors": [
+            "white",
+            "masi"
+          ],
+          "description": "Masi (Fijian tapa cloth) pattern: rows of white geometric motifs (triangles, arrow and cross shapes, bars) on dark brown-black, as on the tapa cloth the brand is drawn from. The fin's top band, from the rust field's upper edge to the tip (the areas paint its dark ground).",
+          "reference": "https://commons.wikimedia.org/wiki/File:Fiji_Airways_(DQ-FAN)_Airbus_A350-941_at_Sydney_Airport_(3).jpg",
+          "confidence": "high",
+          "sourceRefs": [
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "mark": "FJI/masi",
+          "place": "fuselage",
+          "at": [
+            0.923,
+            0.0
+          ],
+          "height": 2.0,
+          "colors": [
+            "white",
+            "masi"
+          ],
+          "description": "Masi (Fijian tapa cloth) pattern: rows of white geometric motifs (triangles, arrow and cross shapes, bars) on dark brown-black, as on the tapa cloth the brand is drawn from. The panel round the rear fuselage and tail cone, belly to crown, carrying on up the fillet into the fin's forward root; its forward edge has a column of short dark bars a little ahead of it, like a tapa border.",
+          "reference": "https://commons.wikimedia.org/wiki/File:Fiji_Airways_(DQ-FAN)_Airbus_A350-941_at_Sydney_Airport_(3).jpg",
+          "confidence": "high",
+          "sourceRefs": [
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "mark": "FJI/masi",
+          "place": "engines",
+          "at": [
+            0.37,
+            0.0
+          ],
+          "height": 2.0,
+          "colors": [
+            "masi",
+            "white"
+          ],
+          "description": "A narrow ring of masi pattern round the nacelle, small dark motifs on white between two thin dark rings (the areas paint the rings), about x 0.24 to 0.49 of the nacelle.",
+          "reference": "https://commons.wikimedia.org/wiki/File:Fiji_Airways_(DQ-FAN)_Airbus_A350-941_at_Sydney_Airport_(3).jpg",
+          "confidence": "medium",
+          "sourceRefs": [
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "mark": "ONE/oneworld-roundel",
+          "place": "fuselage",
+          "at": [
+            0.118,
+            0.241
+          ],
+          "height": 0.05,
+          "colors": [
+            "oneworldNavy",
+            "white"
+          ],
+          "description": "The small oneworld roundel (a navy disc with the white swirl) just aft of the forward door, above the window line; Fiji Airways is a full member from April 2025.",
+          "confidence": "medium",
+          "sourceRefs": [
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "mark": "FJI/fiji-flag",
+          "place": "fuselage",
+          "at": [
+            0.084,
+            -0.051
+          ],
+          "height": 0.075,
+          "colors": [
+            "flagBlue",
+            "#C8102E",
+            "white",
+            "#012169"
+          ],
+          "description": "A small Fijian flag (light blue ensign with the Union Flag and the shield) ahead of the forward door, on the window line, after the aircraft's island name in small dark capitals.",
+          "reference": "https://commons.wikimedia.org/wiki/File:Flag_of_Fiji.svg",
+          "confidence": "medium",
+          "sourceRefs": [
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "titles": [
+        {
+          "text": "FIJI",
+          "place": "fuselage",
+          "at": [
+            0.123,
+            -0.12
+          ],
+          "height": 0.57,
+          "color": "masi",
+          "style": "The 'FIJI' wordmark: tall geometric capitals in dark brown-black, widely spaced, each stroke split lengthwise by a thin white line (an inline, like masi cloth's ruled lines); over the windows (they show through) behind the forward door.",
+          "confidence": "high",
+          "sourceRefs": [
+            5,
+            6,
+            7
+          ],
+          "type": {
+            "similar": [
+              "Josefin Sans SemiBold",
+              "Futura Medium"
+            ],
+            "weight": 600,
+            "slantDeg": 0,
+            "width": "normal",
+            "strokes": "uniform",
+            "case": "upper"
+          },
+          "length": 0.11
+        },
+        {
+          "text": "AIRWAYS. . .",
+          "place": "fuselage",
+          "at": [
+            0.1335,
+            -0.437
+          ],
+          "height": 0.176,
+          "color": "masi",
+          "style": "'AIRWAYS' in plain geometric capitals, medium weight, dark brown-black, under 'FIJI' from just behind its 'F'. The A350 adds three dots after it, aft.",
+          "confidence": "high",
+          "sourceRefs": [
+            5,
+            7
+          ],
+          "type": {
+            "similar": [
+              "Montserrat Medium",
+              "Gotham Medium"
+            ],
+            "weight": 500,
+            "slantDeg": 0,
+            "width": "normal",
+            "strokes": "uniform",
+            "case": "upper"
+          },
+          "length": 0.113,
+          "side": "left"
+        },
+        {
+          "text": ". . .AIRWAYS",
+          "place": "fuselage",
+          "at": [
+            0.1335,
+            -0.437
+          ],
+          "height": 0.176,
+          "color": "masi",
+          "style": "'AIRWAYS' in plain geometric capitals, medium weight, dark brown-black, under 'FIJI' from just behind its 'F'. The A350 adds three dots, aft of the word: on the right they come first.",
+          "confidence": "high",
+          "sourceRefs": [
+            6
+          ],
+          "type": {
+            "similar": [
+              "Montserrat Medium",
+              "Gotham Medium"
+            ],
+            "weight": 500,
+            "slantDeg": 0,
+            "width": "normal",
+            "strokes": "uniform",
+            "case": "upper"
+          },
+          "length": 0.113,
+          "side": "right"
+        }
+      ]
+    }
+  },
+  "notes": "Measured on the 737 MAX 8 (the commonest type: 5 of 14 jets, July 2026) from DQ-FAD (left, near side-on, 2025-09-28) fitted to shapes/B38M.json, checked on DQ-FAB (2026-05-19). 'FIJI' runs x 0.163 to 0.269 across the window line (the windows show through), capitals about 1.6 m tall; 'AIRWAYS' x 0.172 to 0.257 below the windows. The masi pattern's motifs are artwork (logo entries FJI/masi); the areas carry its dark ground, so the panel, fin band and engine band read as dark, as they do from a distance. The column of short dark bars just ahead of the aft panel (x 0.76) isn't drawn. The A350 has its own paint in `types` (A359). The A330s (DQ-FJT/FJV/FJW, and the 737-800) weren't measured: on DQ-FJW (2026-07-12) 'AIRWAYS' has no dots (a small (R) after it) and the aft panel starts at the last door, so they take this scheme as placed. Each jet carries its island name ('ISLAND OF GAU', 'ISLAND OF KADAVU'…) in small dark capitals under the cockpit, and its registration and type small and dark aft. The right side is mirrored from the left on the evidence of DQ-FAH (2023) and DQ-FAI (2026); belly white. A330-200 DQ-FJU wears the oneworld scheme (not drawn here).",
+  "history": "Introduced with the rebrand from Air Pacific to Fiji Airways (logo announced August 2012, flown from 2013), the masi symbol by artist Makereta Matemosi; still current. New to Open Liveries in 2026-11 (no earlier approximation)."
+}

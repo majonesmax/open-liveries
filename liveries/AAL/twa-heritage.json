@@ -1,0 +1,421 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "twa-heritage",
+  "airline": "AAL",
+  "name": "TWA heritage",
+  "kind": "retro",
+  "confidence": "medium",
+  "drawnOn": "B738",
+  "description": "Fuselage: Overall silver/gray (American's current metallic base). Cheatlines: Two red cheatlines (a thick one with a thin one above) starting at the nose below the cockpit, running under the windows the full length and sweeping down to the tail cone. Tail: Silver fin with a large red rectangle (rounded) on the upper fin containing 'TWA' in white bold capitals. Engines: Silver/bare. Winglets: Silver/gray. Titles: Standard American 'American' title with flight symbol forward above the windows. Artwork: none. Colors hex: approximate.",
+  "sources": [
+    {
+      "url": "https://simpleflying.com/american-special-liveries/",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:N915NN_(aircraft)",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:American_Boeing_737-800_N915NN_BWI_MD3.jpg",
+      "title": "American Boeing 737-800 N915NN BWI MD3 (CC BY-SA 4.0, Acroterion)",
+      "accessed": "2026-11-12",
+      "note": "Left side from below, 2024-08-28: both cheatlines nose to tail, the fin's red panel and TWA, the American title."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:American_Boeing_737-800_N915NN_BWI_MD2.jpg",
+      "title": "American Boeing 737-800 N915NN BWI MD2 (CC BY-SA 4.0, Acroterion)",
+      "accessed": "2026-11-12",
+      "note": "Left front quarter, 2024-08-28: where the cheatlines start at the nose; engines, winglets."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:American_N915NN_B737-823_DFW.jpg",
+      "title": "American N915NN B737-823 DFW (CC BY-SA 4.0, NS777)",
+      "accessed": "2026-11-12",
+      "note": "Left side on the ground, 2022-12-18: heights of the cheatlines against the windows; fin panel."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N915NN_KMIA_(33009908174).jpg",
+      "title": "N915NN KMIA (CC BY-SA 2.0, Venkat Mangudi)",
+      "accessed": "2026-11-15",
+      "note": "Left side, level and side-on, 2017-02-13 (the same heritage paint as 2022-2024): where TWA sits across the fin's red panel."
+    }
+  ],
+  "from": "2014",
+  "palette": {
+    "silver": {
+      "hex": "#C9CDD2",
+      "name": "American's metallic silver",
+      "official": false
+    },
+    "red": {
+      "hex": "#B8202E",
+      "official": false
+    },
+    "white": {
+      "hex": "#F2F3F4",
+      "official": false
+    },
+    "titleGray": {
+      "hex": "#36495A",
+      "official": false
+    },
+    "flightRed": {
+      "hex": "#C30019",
+      "official": false
+    },
+    "flightBlue": {
+      "hex": "#0078D2",
+      "official": false
+    },
+    "flightNavy": {
+      "hex": "#36495A",
+      "official": false
+    },
+    "cowl": {
+      "hex": "#D3D6DA",
+      "official": false
+    },
+    "lip": {
+      "hex": "#B4B9BF",
+      "official": false
+    }
+  },
+  "finish": "metallic",
+  "fuselage": {
+    "base": "silver",
+    "areas": [
+      {
+        "name": "upper (thin) cheatline, just under the windows",
+        "color": "red",
+        "above": [
+          [
+            0,
+            -0.06
+          ],
+          [
+            0.06,
+            -0.04
+          ],
+          [
+            0.2,
+            -0.02
+          ],
+          [
+            0.5,
+            -0.04
+          ],
+          [
+            0.7,
+            -0.08
+          ],
+          [
+            0.85,
+            -0.16
+          ],
+          [
+            0.95,
+            -0.18
+          ],
+          [
+            1,
+            -0.15
+          ]
+        ],
+        "below": [
+          [
+            0,
+            -0.03
+          ],
+          [
+            0.06,
+            -0.01
+          ],
+          [
+            0.2,
+            0.03
+          ],
+          [
+            0.8,
+            0.03
+          ],
+          [
+            0.93,
+            0.0
+          ],
+          [
+            1,
+            -0.05
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3,
+          4
+        ],
+        "smooth": true
+      },
+      {
+        "name": "lower (thick) cheatline, widening aft and sweeping up into the tail cone",
+        "color": "red",
+        "above": [
+          [
+            0,
+            -0.11
+          ],
+          [
+            0.06,
+            -0.12
+          ],
+          [
+            0.2,
+            -0.12
+          ],
+          [
+            0.4,
+            -0.15
+          ],
+          [
+            0.55,
+            -0.23
+          ],
+          [
+            0.7,
+            -0.35
+          ],
+          [
+            0.85,
+            -0.5
+          ],
+          [
+            0.95,
+            -0.45
+          ],
+          [
+            1,
+            -0.35
+          ]
+        ],
+        "below": [
+          [
+            0,
+            -0.08
+          ],
+          [
+            0.06,
+            -0.07
+          ],
+          [
+            0.2,
+            -0.05
+          ],
+          [
+            0.5,
+            -0.07
+          ],
+          [
+            0.7,
+            -0.11
+          ],
+          [
+            0.85,
+            -0.19
+          ],
+          [
+            0.95,
+            -0.21
+          ],
+          [
+            1,
+            -0.18
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3,
+          4
+        ],
+        "smooth": true
+      }
+    ],
+    "radome": {
+      "color": "silver",
+      "to": 0.02
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3,
+      4
+    ]
+  },
+  "fin": {
+    "base": "silver",
+    "areas": [
+      {
+        "name": "red panel, rounded corners",
+        "color": "red",
+        "points": [
+          [
+            0.1,
+            0.12
+          ],
+          [
+            0.9,
+            0.12
+          ],
+          [
+            0.94,
+            0.16
+          ],
+          [
+            0.94,
+            0.7
+          ],
+          [
+            0.9,
+            0.74
+          ],
+          [
+            0.12,
+            0.74
+          ],
+          [
+            0.07,
+            0.7
+          ],
+          [
+            0.06,
+            0.16
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3,
+          4
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3,
+      4
+    ]
+  },
+  "wings": {
+    "top": "silver",
+    "under": "silver",
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3
+    ]
+  },
+  "winglets": {
+    "outer": "silver",
+    "inner": "silver",
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3
+    ]
+  },
+  "engines": {
+    "cowling": "cowl",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      3,
+      4
+    ]
+  },
+  "logos": [
+    {
+      "mark": "AAL/flight-symbol",
+      "place": "fuselage",
+      "at": [
+        0.195,
+        0.33
+      ],
+      "height": 0.26,
+      "colors": [
+        "flightRed",
+        "flightBlue",
+        "flightNavy"
+      ],
+      "description": "American's 2013 flight symbol: a stylised eagle's head and wing in red, light blue and dark blue, ahead of the 'American' title.",
+      "confidence": "high",
+      "sourceRefs": [
+        2,
+        4
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "American",
+      "place": "fuselage",
+      "at": [
+        0.208,
+        0.24
+      ],
+      "height": 0.24,
+      "color": "titleGray",
+      "style": "American's standard title: mixed-case sans, semibold, upright, above the forward windows.",
+      "confidence": "high",
+      "sourceRefs": [
+        2,
+        4
+      ],
+      "type": {
+        "similar": [
+          "Proxima Nova Semibold",
+          "Gotham Medium"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.73
+      },
+      "length": 0.122
+    },
+    {
+      "text": "TWA",
+      "place": "fin",
+      "at": [
+        0.21,
+        0.33
+      ],
+      "height": 0.14,
+      "color": "white",
+      "style": "Heavy, wide, slightly slanted capitals, close together, across the middle of the red panel.",
+      "confidence": "high",
+      "sourceRefs": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Black Extended Oblique",
+          "Univers 73 Black Extended"
+        ],
+        "weight": 900,
+        "slantDeg": 10,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "length": 0.7
+    }
+  ],
+  "notes": "Drawn from 2022–2024 left-side photos. The two cheatlines meet near the nose tip and diverge aft with a silver gap between them; their exact heights at the tail cone, and whether they continue under the belly, aren't clear in the photos. The right side and the belly weren't checked. Re-checked 2026-11-15 on N915NN (left, 2022-12-18, near level), measured against the doors: 'American' x 0.208-0.330 and the Flight Symbol at 0.195, further aft than first drawn (as on the AirCal and Reno Air 737s); 'TWA' on the fin with baseline 0.33, cap 0.14; the cheatlines' sweeps drawn as curves. The title's cap height measures about 0.67 m (0.33), a little over the 0.24 drawn: left as noise. 'TWA' re-measured 2026-11-15 on the level 2017 photo (N915NN at Miami): at its baseline the lettering runs from x 0.21 (the T's crossbar, the italic's left end) to 0.91 of the chord, so its T clears the red panel's leading edge at the cap height on the swept 737 fin; it had started at 0.10, the T poking past the panel's edge. The right side isn't photographed: the title covers the same stretch there, its A close to the panel's leading edge."
+}

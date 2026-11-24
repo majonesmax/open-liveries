@@ -1,0 +1,414 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "CAL",
+  "name": "Plum blossom (A350-era nose)",
+  "kind": "standard",
+  "from": "2016",
+  "description": "White, with a lavender swath and a navy band sweeping back from the nose under the cockpit to a point ahead of the wing, and a lilac-gray belly. White fin, lilac at the root rising toward the trailing edge, carrying a big pink plum blossom with red stamens. 'CHINA AIRLINES' in navy serif capitals over the windows, a small red seal after it, a SkyTeam badge behind the cockpit.",
+  "confidence": "high",
+  "drawnOn": "A21N",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:(GBR-London)_China_Airlines_Airbus_A350-941_B-18906_@_EGLL_2025-06-17.jpg",
+      "title": "China Airlines Airbus A350-941 B-18906 @ EGLL 2025-06-17 (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Left side, 2025-06-17: nose swath, belly line, title and seal, fin."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:China_Airlines_A321neo.jpg",
+      "title": "China Airlines A321neo (B-18112), 2025-07-13 (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Left side climbing: the same scheme on the A321neo; SkyTeam badge, seal, fin."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:China_Airlines_Airbus_A321neo_B-18102_departing_Taoyuan_February_2026.jpg",
+      "title": "China Airlines Airbus A321neo B-18102 departing Taoyuan February 2026 (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "From below-left, 2026-02-15: still this scheme in 2026; winglets white with navy and light-blue roots."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/China_Airlines",
+      "accessed": "2026-11-13",
+      "note": "The plum blossom logo (1995)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:China_Airlines_Airbus_A321neo_B-18106_at_Taoyuan_February_2026.jpg",
+      "title": "China Airlines Airbus A321neo B-18106 at Taoyuan February 2026.jpg (CC BY 4.0, 4300streetcar)",
+      "accessed": "2026-11-15",
+      "note": "A321neo B-18106 from the left, slightly above, 2026-02-04: the title, seal and badge measured on the commonest type (2026-11-15 re-check); the nose swath agrees with the A350 measurement within a few tenths of a metre."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F6",
+      "official": false
+    },
+    "lavender": {
+      "hex": "#8E95D6",
+      "official": false
+    },
+    "navy": {
+      "hex": "#23338A",
+      "official": false
+    },
+    "lilac": {
+      "hex": "#BDB9D6",
+      "name": "lilac-gray belly and fin root",
+      "official": false
+    },
+    "pink": {
+      "hex": "#F08AA6",
+      "name": "plum blossom pink",
+      "official": false
+    },
+    "red": {
+      "hex": "#C8102E",
+      "official": false
+    },
+    "cowl": {
+      "hex": "#E6E8EB",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    },
+    "badge": {
+      "hex": "#5A5F66",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "lilac-gray belly",
+        "color": "lilac",
+        "below": [
+          [
+            0.0,
+            -0.8
+          ],
+          [
+            0.1,
+            -0.52
+          ],
+          [
+            0.25,
+            -0.45
+          ],
+          [
+            0.5,
+            -0.45
+          ],
+          [
+            0.85,
+            -0.4
+          ],
+          [
+            1.0,
+            -0.3
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ],
+        "smooth": true
+      },
+      {
+        "name": "lavender swath from the nose",
+        "color": "lavender",
+        "points": [
+          [
+            0.0,
+            0.15
+          ],
+          [
+            0.05,
+            0.12
+          ],
+          [
+            0.16,
+            -0.08
+          ],
+          [
+            0.25,
+            -0.43
+          ],
+          [
+            0.16,
+            -0.46
+          ],
+          [
+            0.05,
+            -0.31
+          ],
+          [
+            0.0,
+            -0.31
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1,
+          4
+        ]
+      },
+      {
+        "name": "navy band under the swath, from the nose to a point under the forward door's aft",
+        "color": "navy",
+        "points": [
+          [
+            0.0,
+            -0.08
+          ],
+          [
+            0.05,
+            -0.12
+          ],
+          [
+            0.12,
+            -0.33
+          ],
+          [
+            0.05,
+            -0.31
+          ],
+          [
+            0.0,
+            -0.31
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1,
+          4
+        ]
+      }
+    ],
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "mirrored": true,
+    "areas": [
+      {
+        "name": "lilac root, rising aft (a gradient in the paint)",
+        "color": "lilac",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0.5
+          ],
+          [
+            0.6,
+            0.3
+          ],
+          [
+            0,
+            0.1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "wings": {
+    "top": "#BCC1C7",
+    "under": "#C9CDD2",
+    "confidence": "low"
+  },
+  "winglets": {
+    "outer": "white",
+    "inner": "white",
+    "areas": [
+      {
+        "name": "navy root",
+        "color": "navy",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0.12
+          ],
+          [
+            0,
+            0.12
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2
+        ]
+      },
+      {
+        "name": "lavender band above it",
+        "color": "lavender",
+        "points": [
+          [
+            0,
+            0.12
+          ],
+          [
+            1,
+            0.12
+          ],
+          [
+            1,
+            0.25
+          ],
+          [
+            0,
+            0.25
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "cowl",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "CAL/plum-blossom",
+      "place": "fin",
+      "at": [
+        0.42,
+        0.32
+      ],
+      "height": 0.52,
+      "colors": [
+        "pink",
+        "red"
+      ],
+      "description": "The plum blossom (Taiwan's national flower): a five-petalled flower seen face-on, petals pink shading to white toward the middle, a ring of red stamens with dark tips at the center, outlined in thin dark red.",
+      "reference": "https://commons.wikimedia.org/wiki/File:China_Airlines_Logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "CAL/seal",
+      "place": "fuselage",
+      "at": [
+        0.364,
+        0.42
+      ],
+      "height": 0.2,
+      "colors": [
+        "red"
+      ],
+      "description": "A small red seal (a chop), tall and rounded, just after 'CHINA AIRLINES'.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "mark": "CAL/skyteam",
+      "place": "fuselage",
+      "at": [
+        0.063,
+        0.25
+      ],
+      "height": 0.22,
+      "colors": [
+        "badge"
+      ],
+      "description": "The SkyTeam badge: a small gray roundel of swirling lines with 'SKYTEAM' round its top, behind the cockpit.",
+      "reference": "https://commons.wikimedia.org/wiki/File:SkyTeam_Logo_2010.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "CHINA AIRLINES",
+      "place": "fuselage",
+      "at": [
+        0.21,
+        0.32
+      ],
+      "height": 0.22,
+      "length": 0.145,
+      "color": "navy",
+      "style": "Serif capitals with flared, classical strokes, regular weight, widely set over the windows.",
+      "type": {
+        "similar": [
+          "Trajan Pro",
+          "Optima",
+          "Times New Roman"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "contrast",
+        "case": "upper"
+      },
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        4
+      ]
+    }
+  ],
+  "notes": "Measured on the A350 (B-18906, left side); the A321neo (2022 on) carries the same, and a February 2026 photo of B-18102 still shows it, so no newer scheme was seen on the A321neo. The A350-1000 and 787-10 deliveries weren't found on Commons to check. The fin's lilac is a gradient fading upward, drawn here as one flat area. Older types (737-800, A330, 777, 747F) were delivered in the 1995 plum-blossom scheme without this nose; whether all have been repainted isn't checked. Colors by eye. Re-checked 2026-11-15 on the A321neo (the commonest type, B-18106): the title starts at 0.21 and runs 0.145 of the A321neo (on the A350 it sat at 0.306, run 0.156), the seal right after it; the swath agrees with the A350 drawing except its navy band, which ends in a point about 0.12 back, well short of the lavender's point (the A350 drawing ran it to the end). Its edges are near-straight in the side view and kept as polygons: tracing it against a constant radius near the tapering nose put it too low.",
+  "history": "Replaces Skyarium v1's approximation. The plum blossom has been on the fin since 1995; this variant with the lavender and navy nose came with the A350s (from 2016) and the A321neo."
+}

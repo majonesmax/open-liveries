@@ -1,0 +1,400 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "FFT",
+  "name": "Green FRONTIER titles (animal tails)",
+  "kind": "standard",
+  "confidence": "high",
+  "drawnOn": "A21N",
+  "description": "White fuselage; 'FRONTIER' in huge, heavy, slanted green capitals over the forward windows; a thin teal line from an arrow point under the cockpit runs aft below the windows, ending in a short teal bar behind the wing under 'FLYFRONTIER.COM'; each aircraft's fin is a photographic North American animal on a sky-blue background, the sky and clouds running down onto the rear fuselage round the aft door; green engines with a wide teal inlet ring.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Frontier_Airlines#Livery",
+      "title": "Wikipedia: Frontier Airlines livery",
+      "accessed": "2026-11-13",
+      "note": "The animal tails and the green 'FRONTIER' titles."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Frontier_Airlines_Airbus_A321neo_N638FR_KDEN_June_27_2025.jpg",
+      "title": "Frontier Airlines Airbus A321neo N638FR KDEN June 27 2025.jpg (CC0)",
+      "accessed": "2026-11-13",
+      "note": "N638FR left side, 2025-06-27: geometry, titles, the teal line, the sky on the rear fuselage."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Frontier_Airbus_A321neo_N655FR_BWI_MD1.jpg",
+      "title": "Frontier Airbus A321neo N655FR BWI MD1.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "N655FR left side from ahead, 2026-09-24: the same layout (pronghorn tail); engine colors."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F2F3F4",
+      "official": false
+    },
+    "green": {
+      "hex": "#0B6E4F",
+      "official": false,
+      "name": "Frontier green"
+    },
+    "teal": {
+      "hex": "#1597BF",
+      "official": false,
+      "name": "teal line and inlet ring"
+    },
+    "sky": {
+      "hex": "#5FA2E6",
+      "official": false,
+      "name": "tail sky blue"
+    },
+    "skyPale": {
+      "hex": "#B4CBE3",
+      "official": false,
+      "name": "sky and cloud on the rear fuselage"
+    },
+    "engineGreen": {
+      "hex": "#007C5A",
+      "official": false,
+      "name": "engine green"
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "titleGray": {
+      "hex": "#3E5560",
+      "official": false,
+      "name": "'FLY' and '.COM'"
+    },
+    "flagRed": {
+      "hex": "#B22234",
+      "official": false
+    },
+    "flagNavy": {
+      "hex": "#1F2A5C",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "sky and clouds from the fin running down round the aft door (the animal's background)",
+        "color": "skyPale",
+        "points": [
+          [
+            0.81,
+            0.945
+          ],
+          [
+            0.794,
+            0.328
+          ],
+          [
+            0.77,
+            -0.116
+          ],
+          [
+            0.746,
+            -0.578
+          ],
+          [
+            0.739010989010989,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0.8214285714285714,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "thin teal line from an arrow point under the cockpit, aft below the windows",
+        "color": "teal",
+        "points": [
+          [
+            0.103,
+            -0.258
+          ],
+          [
+            0.115,
+            -0.216
+          ],
+          [
+            0.672,
+            -0.227
+          ],
+          [
+            0.672,
+            -0.279
+          ],
+          [
+            0.115,
+            -0.279
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "teal arrowhead at the line's front",
+        "color": "teal",
+        "points": [
+          [
+            0.103,
+            -0.258
+          ],
+          [
+            0.135,
+            -0.186
+          ],
+          [
+            0.135,
+            -0.322
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "teal bar behind the wing, under the web address",
+        "color": "teal",
+        "points": [
+          [
+            0.665,
+            -0.258
+          ],
+          [
+            0.734,
+            -0.258
+          ],
+          [
+            0.738,
+            -0.415
+          ],
+          [
+            0.672,
+            -0.415
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2
+        ]
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "sky",
+    "areas": [
+      {
+        "name": "paler sky and cloud low on the fin",
+        "color": "skyPale",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0.3
+          ],
+          [
+            0,
+            0.45
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      }
+    ],
+    "mirrored": false,
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "teal",
+    "inner": "teal",
+    "confidence": "low",
+    "sourceRefs": [
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "engineGreen",
+    "inletLip": "teal",
+    "areas": [
+      {
+        "name": "wide teal inlet ring",
+        "color": "teal",
+        "points": [
+          [
+            0,
+            -1
+          ],
+          [
+            0.12,
+            -1
+          ],
+          [
+            0.12,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "FFT/animal-tail",
+      "place": "fin",
+      "at": [
+        0.55,
+        0.5
+      ],
+      "height": 0.8,
+      "colors": [
+        "sky",
+        "skyPale"
+      ],
+      "description": "A photographic North American animal (each aircraft its own: a pronghorn, a warbler, a bear, a fox...) standing or perched on the fin, facing forward, on a sky-blue background with clouds; its name is written under the cockpit.",
+      "reference": "https://en.wikipedia.org/wiki/Frontier_Airlines",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "FFT/us-flag",
+      "place": "fuselage",
+      "at": [
+        0.77,
+        0.333
+      ],
+      "height": 0.121,
+      "colors": [
+        "flagRed",
+        "white",
+        "flagNavy"
+      ],
+      "description": "A small US flag after the registration over the rear windows.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "FRONTIER",
+      "mark": "FFT/wordmark",
+      "place": "fuselage",
+      "at": [
+        0.133,
+        -0.112
+      ],
+      "height": 0.59,
+      "color": "green",
+      "style": "Frontier's wordmark: very heavy, slanted, squarish capitals in green (the F's arm cut to a sharp point), across the forward windows from behind the door to the wing.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "length": 0.316,
+      "type": {
+        "similar": [
+          "Eurostile Extended Black",
+          "Microgramma Bold Extended"
+        ],
+        "weight": 900,
+        "slantDeg": 12,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "FLYFRONTIER.COM",
+      "place": "fuselage",
+      "at": [
+        0.628,
+        -0.126
+      ],
+      "height": 0.152,
+      "color": "green",
+      "style": "The web address in small slanted capitals above the teal bar: 'FLY' and '.COM' lighter gray-green, 'FRONTIER' bold green.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "length": 0.097,
+      "type": {
+        "similar": [
+          "Eurostile Bold",
+          "Avenir Next Demi Bold Italic"
+        ],
+        "weight": 600,
+        "slantDeg": 10,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Drawn from N638FR (A321neo, June 2025, nearly side-on) and checked on N655FR (Sept 2026). The fin and the sky round the aft door are photographic artwork that differs per aircraft: only its sky background is drawn. The animal's name under the cockpit isn't drawn. Re-checked 2026-11-15 on N638FR (near side-on), cross-checked on N655FR: 'FRONTIER' runs x 0.133 to 0.449, its 'IE' over the second door and the 'R' well past it (it had been drawn ending at that door), cap height from 0.9 m below to 0.7 m above the window line's middle (y -0.11 to 0.48; it had been drawn reaching nearly to the crown); the web address 0.628 to 0.726. Measured on the A321neo, the commonest type in the fleet now; on an A320neo the title ends about over the overwing exits.",
+  "history": "Replaces Skyarium v1's approximate standard (a few colors from memory). It followed the 2001 Airbus-era livery (Wikipedia); the animal tails were kept. Year of introduction not confirmed from a dated source, so 'from' is left empty."
+}

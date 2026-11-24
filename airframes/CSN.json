@@ -1,0 +1,434 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "CSN",
+  "airframes": [
+    {
+      "registration": "B-2010",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_China_Southern_Cargo",
+          "title": "Commons: Current Boeing 777F of China Southern Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-2010_(aircraft)",
+          "title": "Commons: B-2010 (aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/China_Southern_Airlines_fleet",
+          "title": "Wikipedia: China Southern Airlines fleet (July 2026: 19 777F)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "type": "B77L",
+      "hex": "7800eb",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register"
+    },
+    {
+      "registration": "B-2026",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_China_Southern_Cargo",
+          "title": "Commons: Current Boeing 777F of China Southern Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-2026_(Boeing_777F)",
+          "title": "Commons: B-2026 (Boeing 777F)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/China_Southern_Airlines_fleet",
+          "title": "Wikipedia: China Southern Airlines fleet (July 2026: 19 777F)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "type": "B77L",
+      "hex": "780da8",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register"
+    },
+    {
+      "registration": "B-2027",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_China_Southern_Cargo",
+          "title": "Commons: Current Boeing 777F of China Southern Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-2027_(aircraft)",
+          "title": "Commons: B-2027 (aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/China_Southern_Airlines_fleet",
+          "title": "Wikipedia: China Southern Airlines fleet (July 2026: 19 777F)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "type": "B77L",
+      "hex": "780da9",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register"
+    },
+    {
+      "registration": "B-2028",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_China_Southern_Cargo",
+          "title": "Commons: Current Boeing 777F of China Southern Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-2028_(Boeing_777F)",
+          "title": "Commons: B-2028 (Boeing 777F)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/China_Southern_Airlines_fleet",
+          "title": "Wikipedia: China Southern Airlines fleet (July 2026: 19 777F)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "type": "B77L",
+      "hex": "780daa",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register"
+    },
+    {
+      "registration": "B-2041",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_China_Southern_Cargo",
+          "title": "Commons: Current Boeing 777F of China Southern Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-2041_(aircraft)",
+          "title": "Commons: B-2041 (aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/China_Southern_Airlines_fleet",
+          "title": "Wikipedia: China Southern Airlines fleet (July 2026: 19 777F)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "type": "B77L",
+      "hex": "780aeb",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register"
+    },
+    {
+      "registration": "B-2042",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_China_Southern_Cargo",
+          "title": "Commons: Current Boeing 777F of China Southern Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-2042_(aircraft)",
+          "title": "Commons: B-2042 (aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/China_Southern_Airlines_fleet",
+          "title": "Wikipedia: China Southern Airlines fleet (July 2026: 19 777F)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "type": "B77L",
+      "hex": "780aec",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register"
+    },
+    {
+      "registration": "B-2071",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_China_Southern_Cargo",
+          "title": "Commons: Current Boeing 777F of China Southern Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-2071_(aircraft)",
+          "title": "Commons: B-2071 (aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/China_Southern_Airlines_fleet",
+          "title": "Wikipedia: China Southern Airlines fleet (July 2026: 19 777F)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "type": "B77L",
+      "hex": "7804c6",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register"
+    },
+    {
+      "registration": "B-2072",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_China_Southern_Cargo",
+          "title": "Commons: Current Boeing 777F of China Southern Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-2072_(aircraft)",
+          "title": "Commons: B-2072 (aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/China_Southern_Airlines_fleet",
+          "title": "Wikipedia: China Southern Airlines fleet (July 2026: 19 777F)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "type": "B77L",
+      "hex": "7804c7",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register"
+    },
+    {
+      "registration": "B-2073",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_China_Southern_Cargo",
+          "title": "Commons: Current Boeing 777F of China Southern Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-2073_(aircraft)",
+          "title": "Commons: B-2073 (aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/China_Southern_Airlines_fleet",
+          "title": "Wikipedia: China Southern Airlines fleet (July 2026: 19 777F)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "type": "B77L",
+      "hex": "7805a9",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "B-2075",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_China_Southern_Cargo",
+          "title": "Commons: Current Boeing 777F of China Southern Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-2075_(aircraft)",
+          "title": "Commons: B-2075 (aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/China_Southern_Airlines_fleet",
+          "title": "Wikipedia: China Southern Airlines fleet (July 2026: 19 777F)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "type": "B77L",
+      "hex": "7805aa",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register"
+    },
+    {
+      "registration": "B-2080",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_China_Southern_Cargo",
+          "title": "Commons: Current Boeing 777F of China Southern Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-2080_(aircraft)",
+          "title": "Commons: B-2080 (aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/China_Southern_Airlines_fleet",
+          "title": "Wikipedia: China Southern Airlines fleet (July 2026: 19 777F)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "type": "B77L",
+      "hex": "7807bb",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register"
+    },
+    {
+      "registration": "B-2081",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_China_Southern_Cargo",
+          "title": "Commons: Current Boeing 777F of China Southern Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-2081_(aircraft)",
+          "title": "Commons: B-2081 (aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/China_Southern_Airlines_fleet",
+          "title": "Wikipedia: China Southern Airlines fleet (July 2026: 19 777F)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "type": "B77L",
+      "hex": "780654",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "B-20EM",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_China_Southern_Cargo",
+          "title": "Commons: Current Boeing 777F of China Southern Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-20EM_(aircraft)",
+          "title": "Commons: B-20EM (aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/China_Southern_Airlines_fleet",
+          "title": "Wikipedia: China Southern Airlines fleet (July 2026: 19 777F)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "type": "B77L",
+      "hex": "781940",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "B-222W",
+      "livery": "cargo",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_China_Southern_Cargo",
+          "title": "Commons: Current Boeing 777F of China Southern Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-222W_(aircraft)",
+          "title": "Commons: B-222W (aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/China_Southern_Airlines_fleet",
+          "title": "Wikipedia: China Southern Airlines fleet (July 2026: 19 777F)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "type": "B77L",
+      "hex": "781ebc",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "status": "Commons photo at Prestwick, 2025-05-26."
+    },
+    {
+      "registration": "B-223G",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_China_Southern_Cargo",
+          "title": "Commons: Current Boeing 777F of China Southern Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-223G_(aircraft)",
+          "title": "Commons: B-223G (aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/China_Southern_Airlines_fleet",
+          "title": "Wikipedia: China Southern Airlines fleet (July 2026: 19 777F)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "type": "B77L",
+      "hex": "781f03",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register"
+    },
+    {
+      "registration": "B-226C",
+      "livery": "cargo",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_China_Southern_Cargo",
+          "title": "Commons: Current Boeing 777F of China Southern Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-226C_(aircraft)",
+          "title": "Commons: B-226C (aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/China_Southern_Airlines_fleet",
+          "title": "Wikipedia: China Southern Airlines fleet (July 2026: 19 777F)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "type": "B77L",
+      "status": "Commons photo over Halstead, 2025-09-26.",
+      "notes": "Hex not in hexdb.io."
+    },
+    {
+      "registration": "B-226D",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_China_Southern_Cargo",
+          "title": "Commons: Current Boeing 777F of China Southern Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-226D_(aircraft)",
+          "title": "Commons: B-226D (aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/China_Southern_Airlines_fleet",
+          "title": "Wikipedia: China Southern Airlines fleet (July 2026: 19 777F)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "type": "B77L",
+      "notes": "Hex not in hexdb.io."
+    }
+  ]
+}

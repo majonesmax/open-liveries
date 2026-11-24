@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "ba-better-world",
+  "airline": "BAW",
+  "name": "BA Better World",
+  "kind": "special",
+  "confidence": "high",
+  "description": "Fuselage: Forward and lower fuselage in pale aqua/turquoise blues with soft watercolor-style curved bands; aft upper fuselage white. Cheatlines: Curving light-blue/teal sweeps. Tail: BA Chatham-style flag fin rendered in pale blue, teal and white instead of red/white/blue. Engines: Teal/blue cowlings. Winglets: Sharklets (teal, approximate). Titles: 'BA Better World' in white forward; 'Our most important journey yet' in dark blue script-like type above the aft windows; small British Airways Speedmarque. Artwork: none. Colors hex: approximate.",
+  "sources": [
+    {
+      "url": "https://www.airportspotting.com/british-airways-launches-new-sustainability-campaign-and-special-livery/",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:G-TTNA_(aircraft)",
+      "accessed": "2026-11-12"
+    }
+  ],
+  "from": "2021"
+}

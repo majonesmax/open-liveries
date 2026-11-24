@@ -1,0 +1,404 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "cargo",
+  "airline": "EVA",
+  "name": "EVA Air Cargo",
+  "kind": "standard",
+  "confidence": "high",
+  "drawnOn": "B77L",
+  "description": "EVA's passenger scheme on the 777Fs: white above, dark green below an orange pinstripe, a light-green sweep up into the green fin with the EVA globe; 'EVA AIR' in wide light-green capitals with 'Cargo' after it in gray, larger than the passenger title, ahead of the wing.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:B-17807_B787-10,_EVA_Air,_Taipei_Taoyuan_11-08-25_(55045368401).jpg",
+      "title": "B-17807 B787-10, EVA Air, Taipei Taoyuan (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Left side, 2025-11-07: title, belly, orange pinstripe, light-green aft sweep, fin."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:(SGP-Singapore)_EVA_Air_Boeing_777-36NER_B-16723_@_WSSS_2025-08-30.jpg",
+      "title": "EVA Air Boeing 777-36NER B-16723 @ WSSS 2025-08-30 (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Right side, square-on, 2025-08-30: positions measured here."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:(VNM-Ho_Chi_Minh_City)_EVA_Air_Boeing_777-35EER_B-16717_@_VVTS_2025-10-08.jpg",
+      "title": "EVA Air Boeing 777-35EER B-16717 @ VVTS 2025-10-08 (CC BY 4.0)",
+      "accessed": "2026-11-13"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/EVA_Air",
+      "accessed": "2026-11-13",
+      "note": "The globe logo; the green and orange of the Evergreen Group."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:EVA_Air_Cargo_Boeing_777F_B-16790_departing_Taoyuan_February_2026_1.jpg",
+      "title": "EVA Air Cargo Boeing 777F B-16790 departing Taoyuan February 2026 1.jpg (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Left side, 2026-02-15."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Boeing_777-F_‘B-16790’_EVA_Air_Cargo_(55497155117).jpg",
+      "title": "Boeing 777-F 'B-16790' EVA Air Cargo (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Left side, taxiing, 2026-03-16: 'EVA AIR' green with 'Cargo' gray after it; sweep, pinstripe, fin."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:EVA_Air_Cargo_Boeing_777F_B-16790_departing_Taoyuan_February_2026_2.jpg",
+      "title": "EVA Air Cargo Boeing 777F B-16790 departing Taoyuan February 2026 2.jpg (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Right side from below, 2026-02-15: dark-green belly, orange pinstripe, green sweep and fin as on the passenger jets."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F6",
+      "official": false
+    },
+    "green": {
+      "hex": "#1E9E57",
+      "name": "Evergreen green (light)",
+      "official": false
+    },
+    "darkGreen": {
+      "hex": "#0E4A2E",
+      "official": false
+    },
+    "orange": {
+      "hex": "#E8591A",
+      "official": false
+    },
+    "badge": {
+      "hex": "#5A5F66",
+      "official": false
+    },
+    "cowl": {
+      "hex": "#E2E4E7",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    },
+    "cargoGray": {
+      "hex": "#8A8E93",
+      "official": false,
+      "name": "'Cargo' gray"
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "light-green sweep up to the fin (its forward edge a concave curve from the crown down to the pinstripe)",
+        "color": "green",
+        "points": [
+          [
+            0.83,
+            1.0
+          ],
+          [
+            0.818,
+            0.8
+          ],
+          [
+            0.805,
+            0.575
+          ],
+          [
+            0.783,
+            0.25
+          ],
+          [
+            0.76,
+            0.02
+          ],
+          [
+            0.737,
+            -0.155
+          ],
+          [
+            0.72,
+            -0.2,
+            1
+          ],
+          [
+            0.8,
+            -0.5,
+            1
+          ],
+          [
+            0.87,
+            -0.55,
+            1
+          ],
+          [
+            1.0,
+            -0.5
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ],
+        "smooth": true
+      },
+      {
+        "name": "orange pinstripe",
+        "color": "orange",
+        "below": [
+          [
+            0.0,
+            -0.465
+          ],
+          [
+            0.01,
+            -0.435
+          ],
+          [
+            0.09,
+            -0.335
+          ],
+          [
+            0.48,
+            -0.185
+          ],
+          [
+            0.7,
+            -0.195
+          ],
+          [
+            0.87,
+            -0.465
+          ],
+          [
+            1.0,
+            -0.415
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ],
+        "smooth": true
+      },
+      {
+        "name": "dark green belly",
+        "color": "darkGreen",
+        "below": [
+          [
+            0.0,
+            -0.5
+          ],
+          [
+            0.01,
+            -0.47
+          ],
+          [
+            0.09,
+            -0.37
+          ],
+          [
+            0.48,
+            -0.22
+          ],
+          [
+            0.7,
+            -0.23
+          ],
+          [
+            0.87,
+            -0.5
+          ],
+          [
+            1.0,
+            -0.45
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ],
+        "smooth": true
+      }
+    ],
+    "windows": "hidden",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "fin": {
+    "base": "green",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "wings": {
+    "top": "#BCC1C7",
+    "under": "#C9CDD2",
+    "confidence": "low"
+  },
+  "engines": {
+    "cowling": "cowl",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "EVA/globe",
+      "place": "fin",
+      "at": [
+        0.35,
+        0.47
+      ],
+      "height": 0.49,
+      "colors": [
+        "white",
+        "orange",
+        "green"
+      ],
+      "description": "The EVA globe: a white disc ringed in orange, with thin orange meridians and parallels drawn on it like a wire globe, and a green four-pointed star (long vertical and horizontal points, short diagonals) at its center.",
+      "reference": "https://commons.wikimedia.org/wiki/File:EVA_Air_logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "EVA AIR",
+      "place": "fuselage",
+      "at": [
+        0.229,
+        0.05
+      ],
+      "height": 0.46,
+      "length": 0.166,
+      "color": "green",
+      "style": "EVA's wordmark in bold, wide light-green capitals, bigger than on the passenger jets, ahead of the wing above the mid-line.",
+      "type": {
+        "similar": [
+          "Eurostile Extended Black",
+          "Helvetica Neue Black Extended"
+        ],
+        "weight": 900,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "confidence": "medium",
+      "sourceRefs": [
+        4,
+        5
+      ],
+      "side": "left"
+    },
+    {
+      "text": "Cargo",
+      "place": "fuselage",
+      "at": [
+        0.418,
+        0.05
+      ],
+      "height": 0.46,
+      "length": 0.103,
+      "color": "cargoGray",
+      "style": "'Cargo' straight after 'EVA AIR', a bold rounded sans in mid gray, mixed case, the C as tall as EVA AIR's capitals.",
+      "confidence": "medium",
+      "sourceRefs": [
+        5
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Bold",
+          "Arial Rounded MT Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.75
+      },
+      "side": "left"
+    },
+    {
+      "text": "EVA AIR",
+      "place": "fuselage",
+      "at": [
+        0.355,
+        0.05
+      ],
+      "height": 0.46,
+      "length": 0.166,
+      "color": "green",
+      "style": "EVA's wordmark in bold, wide light-green capitals, bigger than on the passenger jets, ahead of the wing above the mid-line.",
+      "type": {
+        "similar": [
+          "Eurostile Extended Black",
+          "Helvetica Neue Black Extended"
+        ],
+        "weight": 900,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "confidence": "medium",
+      "sourceRefs": [
+        4,
+        5
+      ],
+      "side": "right"
+    },
+    {
+      "text": "Cargo",
+      "place": "fuselage",
+      "at": [
+        0.229,
+        0.05
+      ],
+      "height": 0.46,
+      "length": 0.103,
+      "color": "cargoGray",
+      "style": "'Cargo' straight after 'EVA AIR', a bold rounded sans in mid gray, mixed case, the C as tall as EVA AIR's capitals.",
+      "confidence": "medium",
+      "sourceRefs": [
+        5
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Bold",
+          "Arial Rounded MT Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.75
+      },
+      "side": "right"
+    }
+  ],
+  "notes": "The passenger scheme (standard.json) with 'Cargo' added after the title and the title enlarged and moved aft (freighters have no forward windows to sit over). Measured on 777F B-16790 (left, 2026). No Star Alliance badge was seen on the freighters. On the right side 'Cargo' is hidden behind the engine in the one photo; it is assumed to be there too. Title positions from oblique photos (±0.03). Re-checked 2026-11-15: the sweep and the pinstripe and belly lines as on the standard (curves); the 'Cargo' lowercase measured at 0.75 of its capital on B-16790.",
+  "history": "Added with the cargo divisions (2026-11-13). EVA's 777Fs have flown this since the first delivery (2016)."
+}

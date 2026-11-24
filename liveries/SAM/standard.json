@@ -1,0 +1,887 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "SAM",
+  "name": "U.S. Air Force executive scheme (Special Air Mission)",
+  "kind": "standard",
+  "from": "1998",
+  "confidence": "medium",
+  "drawnOn": "B752",
+  "description": "The 89th Airlift Wing's executive jets, as Air Force One's scheme without the presidential seal: white over a light blue lower fuselage, the split a thin gold pinstripe edged in a darker line, running down from the cockpit's side window to the window line's foot and straight back until it meets the belly ahead of the tail cone. The nose blue up to the cockpit windows. 'UNITED STATES OF AMERICA' in near-black serif capitals above the windows. On the fin a light blue leading-edge band and root, a white panel edged in the gold pinstripe with the U.S. flag and, below it, the aircraft's number. The engines light blue, the wings and tailplane gray. Drawn on the C-32A (757-200); the C-40B and C-40C (737-700 BBJ) wear the same scheme, placed for their shape in `types.B737`. No national insignia and no seal on either.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Vice_president_arrives_at_Kentucky_Air_Guard_Base_06.jpg",
+      "title": "C-32A 98-0002 at the Kentucky Air National Guard Base, Louisville, 2017-03-11, left side (U.S. Air National Guard, public domain)",
+      "accessed": "2026-11-22",
+      "note": "The measuring photo for the C-32A's fuselage (only measurements are taken). Taken from ahead of the left wing, so it was first rectified on the fuselage's side by its three doors' corners (L1, L2 and L4 on shapes/B752.json), then fitted (tools/photo_trace.py: nose, tail cone, fin tip, doors, crown and belly, within 0.4 m). The pinstripe's top edge 0.66-0.74 m below the centerline from the cockpit back, rising a little toward the tail; its start at the side window's aft corner; 'UNITED STATES OF AMERICA' from 14.5 to 32.5 m back, the caps 0.57 m; '80002' under the flag."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:USAF_C-32_98-0002_landing_at_Los_Angeles.jpg",
+      "title": "C-32A 98-0002 landing at Los Angeles, 2026-06-26, left side from below (Liam Thompson, CC BY-SA 4.0)",
+      "accessed": "2026-11-22",
+      "note": "The most side-on photo, the measuring photo for the C-32A's fin (only measurements are taken), fitted to shapes/B752.json within 0.4 m: the gold pinstripe's forward edge on the fin at 0.24-0.30 of the chord (a straight line on the fin as built), its lower forward corner and the lower edge running aft to the root; the flag centered at 0.67 of the chord, half way up; the pinstripe meeting the belly 43.8 m back; the title from 14.5 to 31.9 m back. Its fin has no number (2026)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Vice_President_Pence_and_SECAF_Barrett_lands_at_Peterson_(6178639).jpeg",
+      "title": "C-32A 98-0001 at Peterson AFB, 2020-04-18, left side (U.S. Air Force photo by Staff Sgt. Alexandra Longfellow, public domain)",
+      "accessed": "2026-11-22",
+      "note": "A check: the same scheme on 98-0001, close: the pinstripe gold with thin dark edges, about 0.12 m; the blue up to the cockpit windows; '80001' under the flag."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Boeing_C-32A_%E2%80%9890016%E2%80%99_(09-0016)_-_13th_June_2021.jpg",
+      "title": "C-32A 09-0016 in flight, 2021-06-13, left side (HawkeyeUK, CC BY-SA 2.0)",
+      "accessed": "2026-11-22",
+      "note": "The fin number's place (only measurements are taken): '90016' under the flag, its middle about half a flag's width forward of the flag's, its caps about 0.4 of the flag's height."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:AirForce2.jpg",
+      "title": "C-32A at Cape Canaveral AFS, 2006-07-01, right side (Kim Shiflett, NASA, public domain)",
+      "accessed": "2026-11-22",
+      "note": "The right side: the same split and pinstripe, the title reading from the tail forward over the wing, the flag's canton forward, the number under it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Ukrainian_President_Zelensky_Arrival_at_Joint_Base_Andrews_-_221221-F-TM624-0028_(52722317301).jpg",
+      "title": "C-40B 01-0041 at Joint Base Andrews, 2022-12-21, left side (89th Airlift Wing, public domain)",
+      "accessed": "2026-11-22",
+      "note": "The measuring photo for the C-40B's fuselage (only measurements are taken): rectified on the fuselage's side by the L1 door's, the overwing exit's and the aft door's corners (shapes/B737.json): the pinstripe's top edge 0.645 m below the centerline, 0.09 m deep; its start at the side window's aft corner; 'UNITED STATES OF AMERICA' from 8.8 to 22.0 m back, the caps 0.35 m; '10041' under the flag."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Boeing_C-40B_10040_USAF_(14397367401).jpg",
+      "title": "C-40B 01-0040 at Cologne/Bonn, 2014-06-11, right side (Lars Steffens, CC BY-SA 2.0)",
+      "accessed": "2026-11-22",
+      "note": "The measuring photo for the C-40B's fin (only measurements are taken), nearly side-on, flipped: the gold pinstripe's forward edge at 0.19-0.32 of the chord (a straight line on the fin as built), the lower corner and the lower edge reaching the root at 0.6; the flag centered at 0.68 of the chord, 0.48 up; '10040' under it; the stripe meeting the belly about 27.9 m back."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:SECAF_Arrives_at_Peterson_Space_Force_Base_05-27-25_(9072748).jpg",
+      "title": "C-40C 09-0540 at Peterson SFB, 2025-05-27, right side (U.S. Space Force photo by 2nd Lt. Jacob Willoughby, public domain)",
+      "accessed": "2026-11-22",
+      "note": "A check, the newest of the 737s: the C-40C in the same scheme, the number '90540' under the flag."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:932d_Airlift_Wing_Boeing_C-40C_Clipper_09-0540.jpg",
+      "title": "C-40C 09-0540 at Scott AFB, 2011-11-18, left front quarter (U.S. Air Force, public domain)",
+      "accessed": "2026-11-22",
+      "note": "A check, close: the nose blue to the cockpit windows, the pinstripe's start, the blue nacelles with bare inlet lips."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:220529-F-FV908-191_(52108607725).jpg",
+      "title": "C-32A at Joint Base San Antonio-Kelly Field, 2022-05-29, left side, close (Joint Base San Antonio, public domain)",
+      "accessed": "2026-11-22",
+      "note": "A close check of the nose: the blue up to the cockpit windows' frames, the pinstripe starting at the side window's aft corner."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:U.S._Air_Force_98-0002.jpg",
+      "title": "C-32A 98-0002 departing John Wayne Airport, 2026-06-25, right side from below (Liam Thompson, CC BY-SA 4.0)",
+      "accessed": "2026-11-22",
+      "note": "The right side in 2026: the flag's canton forward, no number on the fin."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:76th_AS_Last_C-40_on_ramp.jpg",
+      "title": "C-40B 02-0042 at Ramstein, 2019-06-07 (U.S. Air Force photo by Tech. Sgt. Timothy Moore, public domain)",
+      "accessed": "2026-11-22",
+      "note": "Not this scheme: the Ramstein C-40B was white with a thin blue cheatline when the 76th Airlift Squadron gave it up (the mission moved to Andrews). Whether it was repainted since isn't known here."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F4"
+    },
+    "blue": {
+      "hex": "#3D7FC6",
+      "official": false,
+      "name": "the executive fleet's light blue (sampled from the photos: #3365AA in shade to #4788DF in sun)"
+    },
+    "gold": {
+      "hex": "#B8975E",
+      "official": false,
+      "name": "the pinstripe's gold (#95723C in shade to #DBC19E in sun)"
+    },
+    "edge": {
+      "hex": "#161A22",
+      "official": false,
+      "name": "the pinstripe's thin dark edges"
+    },
+    "letter": {
+      "hex": "#1A1E26",
+      "name": "the lettering's near-black"
+    },
+    "wingGray": {
+      "hex": "#B9BEC3",
+      "official": false,
+      "name": "the wings' and tailplane's gray"
+    },
+    "lip": {
+      "hex": "#C7CACE",
+      "official": false,
+      "name": "the engine inlets' bare metal lip"
+    },
+    "flagRed": {
+      "hex": "#B22234"
+    },
+    "flagWhite": {
+      "hex": "#FFFFFF"
+    },
+    "flagBlue": {
+      "hex": "#3C3B6E"
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "radome": {
+      "color": "blue"
+    },
+    "windows": "plain",
+    "areas": [
+      {
+        "name": "the light blue below the pinstripe: the nose and radome up to the cockpit windows, then the whole lower fuselage back to where the stripe meets the belly ahead of the tail cone",
+        "color": "blue",
+        "points": [
+          [
+            0.0,
+            1.0
+          ],
+          [
+            0.023,
+            1.0
+          ],
+          [
+            0.023,
+            0.8649
+          ],
+          [
+            0.0358,
+            0.2715
+          ],
+          [
+            0.049,
+            0.1301
+          ],
+          [
+            0.0596,
+            0.0877
+          ],
+          [
+            0.0632,
+            0.1412
+          ],
+          [
+            0.0809,
+            -0.1936
+          ],
+          [
+            0.6387,
+            -0.1946
+          ],
+          [
+            0.9329,
+            -1.0
+          ],
+          [
+            0.0,
+            -1.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "name": "the pinstripe's dark edges: down from the side window's aft corner, then straight back along the fuselage to the belly",
+        "color": "edge",
+        "points": [
+          [
+            0.0632,
+            0.1412
+          ],
+          [
+            0.0809,
+            -0.1936
+          ],
+          [
+            0.6387,
+            -0.1946
+          ],
+          [
+            0.9329,
+            -1.0
+          ],
+          [
+            0.9218,
+            -1.0
+          ],
+          [
+            0.6387,
+            -0.2338
+          ],
+          [
+            0.0819,
+            -0.2387
+          ],
+          [
+            0.0606,
+            0.1031
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "name": "the pinstripe's gold between its dark edges",
+        "color": "gold",
+        "points": [
+          [
+            0.0628,
+            0.1343
+          ],
+          [
+            0.0811,
+            -0.2018
+          ],
+          [
+            0.6387,
+            -0.2017
+          ],
+          [
+            0.931,
+            -1.0
+          ],
+          [
+            0.9238,
+            -1.0
+          ],
+          [
+            0.6387,
+            -0.2265
+          ],
+          [
+            0.0817,
+            -0.2304
+          ],
+          [
+            0.0611,
+            0.1101
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "blue",
+    "rudder": "white",
+    "fillet": "blue",
+    "areas": [
+      {
+        "name": "the gold pinstripe round the white panel: along the blue leading-edge band, round the panel's lower forward corner and down to the root ahead of the trailing edge",
+        "color": "gold",
+        "points": [
+          [
+            0.1977,
+            1.05
+          ],
+          [
+            0.1977,
+            0.97
+          ],
+          [
+            0.2494,
+            0.85
+          ],
+          [
+            0.2676,
+            0.7
+          ],
+          [
+            0.2797,
+            0.5
+          ],
+          [
+            0.2882,
+            0.35
+          ],
+          [
+            0.31,
+            0.19
+          ],
+          [
+            0.36,
+            0.165
+          ],
+          [
+            0.432,
+            0.13
+          ],
+          [
+            0.572,
+            0.09
+          ],
+          [
+            0.887,
+            0.0
+          ],
+          [
+            1.05,
+            0.0
+          ],
+          [
+            1.05,
+            1.05
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          3
+        ]
+      },
+      {
+        "name": "the white panel aft of the blue leading-edge band, the rudder with it",
+        "color": "white",
+        "points": [
+          [
+            0.2396,
+            1.05
+          ],
+          [
+            0.2396,
+            0.97
+          ],
+          [
+            0.2823,
+            0.85
+          ],
+          [
+            0.2948,
+            0.7
+          ],
+          [
+            0.3018,
+            0.5
+          ],
+          [
+            0.3076,
+            0.35
+          ],
+          [
+            0.3236,
+            0.2007
+          ],
+          [
+            0.3733,
+            0.1757
+          ],
+          [
+            0.445,
+            0.1407
+          ],
+          [
+            0.5847,
+            0.1007
+          ],
+          [
+            0.9395,
+            0.0
+          ],
+          [
+            1.05,
+            0.0
+          ],
+          [
+            1.05,
+            1.05
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          3
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      3
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "stabilizer": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "engines": {
+    "cowling": "blue",
+    "inletLip": "lip",
+    "pylon": "white",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "SAM/us-flag",
+      "place": "fin",
+      "at": [
+        0.668,
+        0.49
+      ],
+      "height": 0.15,
+      "colors": [
+        "flagRed",
+        "flagWhite",
+        "flagBlue"
+      ],
+      "description": "The U.S. flag on the fin's white panel, the canton forward on both sides.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "UNITED STATES OF AMERICA",
+      "place": "fuselage",
+      "at": [
+        0.3081,
+        0.3279
+      ],
+      "height": 0.2437,
+      "length": 0.3839,
+      "color": "letter",
+      "style": "Near-black serif capitals, widely spaced, along the upper fuselage above the windows from ahead of the wing to behind it: the lettering of the Declaration of Independence, as on Air Force One.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Adobe Caslon Pro",
+          "Big Caslon",
+          "Libre Caslon Text",
+          "Times New Roman"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "contrast",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "90016",
+      "registration": true,
+      "place": "fin",
+      "at": [
+        0.515,
+        0.295
+      ],
+      "height": 0.063,
+      "length": 0.243,
+      "color": "letter",
+      "style": "The aircraft's own number (90016 for 09-0016: the last digit of the fiscal year and the last four of the serial) in black capitals on the fin's white panel under the flag, a little forward of it. Not on 98-0002 in 2026 (the photos of 2026-06-25/26): its number is gone.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Bold",
+          "Arial Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "SAM is our own key for the 89th Airlift Wing's executive jets, after their callsign (ICAO's SAM designator, if any, isn't used here): an app picks this scheme for a 'SAM' callsign on a C-32A or C-40 (B752, B737 or the feeds' C32/C40), not for the wing's C-37 Gulfstreams (GLF5/GLF6) or other Air Force 757s and 737s. Measured on photos rectified on the fuselage's side by the doors' corners and fitted to shapes/B752.json and shapes/B737.json (tools/photo_trace.py). On the C-32A: the blue covers the nose up to the cockpit windows' foot (about 0.04 m below the centerline across the side window); the pinstripe starts at the side window's aft corner (2.97 m back, 0.17 m up), drops to 0.65 m below the centerline by 3.8 m back and runs straight there to the wing, then rises gently (to 0.38 m below at 44 m) and meets the belly 43.8 m back: straight edges as on the aircraft, a gold band about 0.12 m deep between thin dark edges (each about 0.02 m). The fin (fin space): the light blue leading-edge band's aft edge is the gold pinstripe's forward edge, a straight line on the fin as built (at 0.30 of the chord near the root to 0.24 near the tip), round a corner low on the fin and aft along a lower edge sloping down to the root at 0.89 of the chord, blue below it; the panel and rudder white. The flag centered at 0.67 of the chord, half way up, 0.15 of the fin's height; the number under it, 0.06 tall. 'UNITED STATES OF AMERICA' from 14.5 to 32.5 m back, its caps 0.57 m: a high-contrast serif (Caslon is the usual reading, as on Air Force One; widely spaced). The number on the fin is a `registration` title (the measured 90016): each jet letters its own, the last digit of its fiscal year and the last four of its serial (98-0001 is 80001, 01-0040 is 10040, 09-0540 is 90540). 98-0002 has no number on its fin in the photos of 2026-06 (LAX and SNA): drawn anyway, as on the rest. Not drawn: the Air Force's star-and-bar and the presidential seal (neither is on these jets in any photo checked, 2006-2026: the seal is the VC-25's, by the door), the small 'U.S. AIR FORCE'-style stencils, the 'AIR FORCE TWO' callsign (not a marking), the dark anti-glare above the cockpit (none: the blue stops at the windows), the wings' and tailplane's real gray (sampled, not confirmed). Left for later: the VC-25A (a 747-200B: needs a B742 shape), the VC-25B (747-8, not flying yet), the C-37A/B (Gulfstream V and G550: no shape), and the Ramstein C-40B 02-0042, white with a thin blue cheatline in 2019 (not this scheme; whether it was repainted since isn't checked).",
+  "commonest": true,
+  "types": {
+    "B737": {
+      "note": "The C-40B and C-40C (737-700 BBJ, shapes/B737.json: the 737-700 with winglets) in the same scheme, measured on 01-0041 (Andrews 2022, left, rectified by the doors and overwing exit) and 01-0040 (Cologne/Bonn 2014, right, fin): the nose blue up to the cockpit windows' foot, the pinstripe from the side window's aft corner (2.93 m back) down to 0.645 m below the centerline by 4.1 m and straight back to meet the belly about 28 m back, 0.09 m deep; the fin's pinstripe from 0.30 of the chord near the tip to 0.21 low down, its corner and lower edge reaching the root at 0.60; the flag at 0.68 of the chord, 0.48 up; the number under it; the title from 8.8 to 22.0 m back, caps 0.35 m. The C-40C 09-0540 (2011, 2025) wears the same. Winglets gray.",
+      "confidence": "medium",
+      "sourceRefs": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "fuselage": {
+        "areas": [
+          {
+            "name": "the light blue below the pinstripe: the nose and radome up to the cockpit windows, then the whole lower fuselage back to where the stripe meets the belly ahead of the tail cone",
+            "color": "blue",
+            "points": [
+              [
+                0.0,
+                1.0
+              ],
+              [
+                0.041,
+                1.0
+              ],
+              [
+                0.041,
+                0.5243
+              ],
+              [
+                0.0528,
+                0.3687
+              ],
+              [
+                0.0668,
+                0.2097
+              ],
+              [
+                0.0855,
+                0.1706
+              ],
+              [
+                0.0911,
+                0.1882
+              ],
+              [
+                0.1274,
+                -0.174
+              ],
+              [
+                0.8748,
+                -1.0
+              ],
+              [
+                0.0,
+                -1.0
+              ]
+            ],
+            "confidence": "medium",
+            "sourceRefs": [
+              5,
+              6,
+              7
+            ]
+          },
+          {
+            "name": "the pinstripe's dark edges: down from the side window's aft corner, then straight back along the fuselage to the belly",
+            "color": "edge",
+            "points": [
+              [
+                0.0911,
+                0.1882
+              ],
+              [
+                0.1274,
+                -0.174
+              ],
+              [
+                0.8748,
+                -1.0
+              ],
+              [
+                0.8645,
+                -1.0
+              ],
+              [
+                0.1285,
+                -0.2077
+              ],
+              [
+                0.0882,
+                0.157
+              ]
+            ],
+            "confidence": "medium",
+            "sourceRefs": [
+              5,
+              6,
+              7
+            ]
+          },
+          {
+            "name": "the pinstripe's gold between its dark edges",
+            "color": "gold",
+            "points": [
+              [
+                0.0905,
+                0.1817
+              ],
+              [
+                0.1276,
+                -0.1807
+              ],
+              [
+                0.8726,
+                -1.0
+              ],
+              [
+                0.8666,
+                -1.0
+              ],
+              [
+                0.1283,
+                -0.201
+              ],
+              [
+                0.0888,
+                0.1632
+              ]
+            ],
+            "confidence": "medium",
+            "sourceRefs": [
+              5,
+              6,
+              7
+            ]
+          }
+        ]
+      },
+      "fin": {
+        "areas": [
+          {
+            "name": "the gold pinstripe round the white panel: along the blue leading-edge band, round the panel's lower forward corner and down to the root ahead of the trailing edge",
+            "color": "gold",
+            "points": [
+              [
+                0.2958,
+                1.05
+              ],
+              [
+                0.2958,
+                0.97
+              ],
+              [
+                0.2781,
+                0.85
+              ],
+              [
+                0.2438,
+                0.7
+              ],
+              [
+                0.2187,
+                0.5
+              ],
+              [
+                0.207,
+                0.35
+              ],
+              [
+                0.215,
+                0.19
+              ],
+              [
+                0.267,
+                0.16
+              ],
+              [
+                0.337,
+                0.11
+              ],
+              [
+                0.469,
+                0.056
+              ],
+              [
+                0.6,
+                0.0
+              ],
+              [
+                1.05,
+                0.0
+              ],
+              [
+                1.05,
+                1.05
+              ]
+            ],
+            "confidence": "medium",
+            "sourceRefs": [
+              6,
+              7
+            ]
+          },
+          {
+            "name": "the white panel aft of the blue leading-edge band, the rudder with it",
+            "color": "white",
+            "points": [
+              [
+                0.3706,
+                1.05
+              ],
+              [
+                0.3706,
+                0.97
+              ],
+              [
+                0.3296,
+                0.85
+              ],
+              [
+                0.2819,
+                0.7
+              ],
+              [
+                0.247,
+                0.5
+              ],
+              [
+                0.2307,
+                0.35
+              ],
+              [
+                0.2311,
+                0.1992
+              ],
+              [
+                0.2827,
+                0.1692
+              ],
+              [
+                0.3521,
+                0.1192
+              ],
+              [
+                0.4834,
+                0.0652
+              ],
+              [
+                0.6601,
+                0.0
+              ],
+              [
+                1.05,
+                0.0
+              ],
+              [
+                1.05,
+                1.05
+              ]
+            ],
+            "confidence": "medium",
+            "sourceRefs": [
+              6,
+              7
+            ]
+          }
+        ]
+      },
+      "winglets": {
+        "outer": "wingGray",
+        "inner": "wingGray"
+      },
+      "logos": [
+        {
+          "mark": "SAM/us-flag",
+          "place": "fin",
+          "at": [
+            0.68,
+            0.484
+          ],
+          "height": 0.136,
+          "colors": [
+            "flagRed",
+            "flagWhite",
+            "flagBlue"
+          ],
+          "description": "The U.S. flag on the fin's white panel, the canton forward on both sides.",
+          "confidence": "medium",
+          "sourceRefs": [
+            6,
+            7
+          ]
+        }
+      ],
+      "titles": [
+        {
+          "text": "UNITED STATES OF AMERICA",
+          "place": "fuselage",
+          "at": [
+            0.2735,
+            0.3163
+          ],
+          "height": 0.1376,
+          "length": 0.4111,
+          "color": "letter",
+          "style": "Near-black serif capitals, widely spaced, along the upper fuselage above the windows from ahead of the wing to behind it: the lettering of the Declaration of Independence, as on Air Force One.",
+          "confidence": "medium",
+          "sourceRefs": [
+            5,
+            6,
+            7
+          ],
+          "type": {
+            "similar": [
+              "Adobe Caslon Pro",
+              "Big Caslon",
+              "Libre Caslon Text",
+              "Times New Roman"
+            ],
+            "weight": 400,
+            "slantDeg": 0,
+            "width": "extended",
+            "strokes": "contrast",
+            "case": "upper"
+          }
+        },
+        {
+          "text": "10040",
+          "registration": true,
+          "place": "fin",
+          "at": [
+            0.47,
+            0.282
+          ],
+          "height": 0.055,
+          "length": 0.34,
+          "color": "letter",
+          "style": "The aircraft's own number (10040 for 01-0040) in black capitals on the fin's white panel under the flag, a little forward of it.",
+          "confidence": "medium",
+          "sourceRefs": [
+            6,
+            7
+          ],
+          "type": {
+            "similar": [
+              "Helvetica Neue Bold",
+              "Arial Bold"
+            ],
+            "weight": 700,
+            "slantDeg": 0,
+            "width": "normal",
+            "strokes": "uniform",
+            "case": "upper"
+          }
+        }
+      ]
+    }
+  }
+}

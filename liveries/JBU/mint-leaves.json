@@ -1,0 +1,551 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "mint-leaves",
+  "airline": "JBU",
+  "name": "2023 livery, Mint Leaves (the Mint A321s)",
+  "kind": "standard",
+  "from": "2023-06",
+  "confidence": "medium",
+  "drawnOn": "A21N",
+  "description": "JetBlue's 2023 livery as worn by its Mint-configured A321s: the whole fuselage JetBlue blue, 'jetBlue' very large in white over the forward windows; from behind the wing the 'Mint Leaves' pattern, rounded leaf-shaped tiles (each a rectangle with one or two corners rounded off) in white, mint aqua, sea blue and a pale stone, set in two rows on a navy ground round the rear fuselage and up the fin in a grid. Blue engines; mint-aqua sharklets. Not a special: the pattern is the 2023 scheme's tail design for the Mint fleet (other jets carry other patterns: Spotlight on the A320s).",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N4083J_@_LHR,_2025-04-19.jpg",
+      "title": "N4083J @ LHR, 2025-04-19.jpg (CC BY 2.0, Charles)",
+      "accessed": "2026-11-22",
+      "note": "A321neo (LR, Mint) N4083J taxiing at Heathrow, left side, side-on, 2025-04-19. Fitted to shapes/A21N.json (nose, tail, fin tip, first and last doors; within 20 px, about 1 m): the navy ground's front edge, each tile's corners, the title's ends and height. The fin's grid read by eye off its edges (its top half behind a Virgin Atlantic tail)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N2193J_(55228737847).jpg",
+      "title": "N2193J (55228737847).jpg (CC BY-SA 4.0, Liam Thompson)",
+      "accessed": "2026-11-22",
+      "note": "A321neo N2193J ('StateMint Piece'), the maintainer's sighting, climbing, left side from below, 2026-04-07: the same pattern, tile for tile as far as the angle shows; the fin's top whole (aqua and white tiles at the leading edge, navy at the trailing edge); tiles on the lower rear and belly."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:JetBlue_Airways_Airbus_A321neo_N2199J_on_final_approach_to_Boston_June_2026.jpg",
+      "title": "JetBlue Airways Airbus A321neo N2199J on final approach to Boston June 2026.jpg (CC BY 4.0, 4300streetcar)",
+      "accessed": "2026-11-22",
+      "note": "N2199J ('Mint Chocolate Chip') from the right, 2026-06-17: the pattern on the right side; the tiles are laid out the same way along the body."
+    },
+    {
+      "url": "https://airlinegeeks.com/2024/05/24/livery-of-the-week-jetblue-s-newest-paint-scheme/",
+      "title": "AirlineGeeks: Livery of the Week, JetBlue's newest paint scheme (2024-05-24)",
+      "accessed": "2026-11-22",
+      "note": "The 2023 livery: an all-blue fuselage; patterns for the first time running from the fin onto the rear fuselage; 'Mint Leaves' on the first jet, A321 N982JB (Mint); Spotlight from October 2023 on an A320."
+    },
+    {
+      "url": "https://onemileatatime.com/news/new-jetblue-livery/",
+      "title": "One Mile at a Time: New JetBlue livery, now with some variations",
+      "accessed": "2026-11-22",
+      "note": "Debuted June 2023, the first complete design refresh; the tail patterns extended onto the body and belly; a bigger logo; winglets in accent colours."
+    }
+  ],
+  "palette": {
+    "blue": {
+      "hex": "#1D3FB0",
+      "name": "JetBlue blue",
+      "official": false
+    },
+    "navy": {
+      "hex": "#0E1F66",
+      "name": "the pattern's ground",
+      "official": false
+    },
+    "white": {
+      "hex": "#F2F2F2",
+      "official": false
+    },
+    "mint": {
+      "hex": "#5FD3CF",
+      "name": "mint aqua",
+      "official": false
+    },
+    "sea": {
+      "hex": "#3E8FB8",
+      "name": "sea blue",
+      "official": false
+    },
+    "sky": {
+      "hex": "#7EC3EA",
+      "name": "light blue",
+      "official": false
+    },
+    "stone": {
+      "hex": "#D9D4C7",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "blue",
+    "windows": "plain",
+    "areas": [
+      {
+        "name": "navy ground of the pattern, from just behind the wing to the tail",
+        "color": "navy",
+        "points": [
+          [
+            0.585,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            0.601,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "white leaf, upper row (first), its top forward corner rounded",
+        "color": "white",
+        "smooth": true,
+        "points": [
+          [
+            0.625,
+            0.132,
+            1
+          ],
+          [
+            0.629,
+            0.475
+          ],
+          [
+            0.647,
+            0.897
+          ],
+          [
+            0.694,
+            1,
+            1
+          ],
+          [
+            0.669,
+            0.348,
+            1
+          ],
+          [
+            0.667,
+            0.138,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "mint leaf, upper row (registration on it), its lower forward corner rounded",
+        "color": "mint",
+        "smooth": true,
+        "points": [
+          [
+            0.694,
+            1,
+            1
+          ],
+          [
+            0.728,
+            1,
+            1
+          ],
+          [
+            0.731,
+            -0.02,
+            1
+          ],
+          [
+            0.697,
+            -0.012
+          ],
+          [
+            0.673,
+            0.172,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "white leaf, upper row, over the aft door",
+        "color": "white",
+        "smooth": true,
+        "points": [
+          [
+            0.734,
+            -0.02,
+            1
+          ],
+          [
+            0.735,
+            0.488
+          ],
+          [
+            0.759,
+            1,
+            1
+          ],
+          [
+            0.81,
+            1,
+            1
+          ],
+          [
+            0.815,
+            -0.144,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "white leaf, upper row, under the fin",
+        "color": "white",
+        "smooth": true,
+        "points": [
+          [
+            0.818,
+            -0.164,
+            1
+          ],
+          [
+            0.815,
+            0.364
+          ],
+          [
+            0.833,
+            0.664
+          ],
+          [
+            0.871,
+            0.711,
+            1
+          ],
+          [
+            0.876,
+            -0.308,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "mint leaf, upper row, under the tailplane",
+        "color": "mint",
+        "smooth": true,
+        "points": [
+          [
+            0.879,
+            -0.339,
+            1
+          ],
+          [
+            0.879,
+            0.436
+          ],
+          [
+            0.9,
+            1,
+            1
+          ],
+          [
+            0.944,
+            1,
+            1
+          ],
+          [
+            0.949,
+            -0.6,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "sea-blue leaf, lower row, behind the wing",
+        "color": "sea",
+        "smooth": true,
+        "points": [
+          [
+            0.61,
+            -0.076,
+            1
+          ],
+          [
+            0.652,
+            -0.07,
+            1
+          ],
+          [
+            0.688,
+            -0.328
+          ],
+          [
+            0.696,
+            -0.688,
+            1
+          ],
+          [
+            0.645,
+            -0.695,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "sea-blue leaf, lower row, under the aft door",
+        "color": "sea",
+        "smooth": true,
+        "points": [
+          [
+            0.737,
+            -0.112,
+            1
+          ],
+          [
+            0.782,
+            -0.168,
+            1
+          ],
+          [
+            0.817,
+            -0.568
+          ],
+          [
+            0.825,
+            -1,
+            1
+          ],
+          [
+            0.768,
+            -0.799,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "stone leaf, lower row, under the fin",
+        "color": "stone",
+        "smooth": true,
+        "points": [
+          [
+            0.819,
+            -0.28,
+            1
+          ],
+          [
+            0.876,
+            -0.47,
+            1
+          ],
+          [
+            0.877,
+            -0.75,
+            1
+          ],
+          [
+            0.828,
+            -0.58
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "fin": {
+    "base": "navy",
+    "areas": [
+      {
+        "name": "mint tile at the tip's leading edge",
+        "color": "mint",
+        "points": [
+          [
+            0,
+            1
+          ],
+          [
+            0.17,
+            1
+          ],
+          [
+            0.45,
+            0.84
+          ],
+          [
+            0,
+            0.84
+          ]
+        ]
+      },
+      {
+        "name": "white tile, second row, leading edge",
+        "color": "white",
+        "points": [
+          [
+            0,
+            0.82
+          ],
+          [
+            0.45,
+            0.82
+          ],
+          [
+            0.77,
+            0.43
+          ],
+          [
+            0,
+            0.43
+          ]
+        ]
+      },
+      {
+        "name": "mint tile, second row, trailing edge",
+        "color": "mint",
+        "points": [
+          [
+            0.47,
+            0.82
+          ],
+          [
+            1,
+            0.82
+          ],
+          [
+            1,
+            0.43
+          ],
+          [
+            0.79,
+            0.43
+          ]
+        ]
+      },
+      {
+        "name": "light-blue tile, third row",
+        "color": "sky",
+        "points": [
+          [
+            0.2,
+            0.41
+          ],
+          [
+            0.78,
+            0.41
+          ],
+          [
+            0.91,
+            0.06
+          ],
+          [
+            0.47,
+            0.06
+          ]
+        ]
+      }
+    ],
+    "confidence": "low",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "wings": {
+    "top": "#B9BEC5",
+    "under": "#C9CDD2"
+  },
+  "winglets": {
+    "outer": "mint",
+    "inner": "mint",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "blue",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "titles": [
+    {
+      "text": "jetBlue",
+      "place": "fuselage",
+      "at": [
+        0.117,
+        0.0
+      ],
+      "height": 0.545,
+      "length": 0.153,
+      "color": "white",
+      "style": "The jetBlue wordmark very large in white over the forward windows, from just behind the forward door.",
+      "type": {
+        "similar": [
+          "Gotham Rounded Bold",
+          "VAG Rounded Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "notes": "Measured on N4083J (left side, Heathrow, 2025-04-19) fitted to the A21N shape; checked on N2193J (2026-04-07) and N2199J (right side, 2026-06-17). The navy ground starts at about x 0.59; the upper row of leaves runs from the window line to the crown (x 0.625-0.95), the lower row under it (x 0.61-0.88); more leaves on the belly and lower rear seen from below aren't drawn. The tiles' corners are read to about 1 m; which corners are rounded is drawn as photographed on N4083J. The fin's grid (a column line straight up the fin as seen from the side, rows at 0.43 and 0.83) is read by eye off its edges: low. Each Mint jet's name is lettered small under the cockpit ('Minternationally Known' on N4083J, 'StateMint Piece' on N2193J), not drawn. The right side is assumed to carry the same tiles at the same places (N2199J agrees in the large).",
+  "history": "New 2026-11-22: the maintainer saw N2193J (all blue, art behind the wing), which isn't a special but JetBlue's 2023 livery with the Mint Leaves pattern; JBU/standard stays the 2014 white scheme, still the commonest."
+}

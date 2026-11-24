@@ -1,0 +1,191 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "fly-meta",
+  "airline": "AAE",
+  "name": "Fly Meta",
+  "kind": "standard",
+  "confidence": "medium",
+  "drawnOn": "B744",
+  "description": "Air Atlanta Europe's 747-400 freighters flown for Fly Meta (飛元時代): all white, with 'Fly Meta' in sky-blue rounded lowercase over the forward main deck and '飛元時代' in the same blue under it; on the white fin the Fly Meta mark, a sky-blue ribbon folded into a large triangular loop above a small one. White engines.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:9H-WFF_Boeing_747-446(BDSF)_Fly_Meta_MST_19.3.26_(55194815633).jpg",
+      "title": "9H-WFF Boeing 747-446(BDSF) Fly Meta MST 19.3.26 (55194815633).jpg (CC BY-SA 4.0, Colin Cooke Photo)",
+      "accessed": "2026-11-20",
+      "note": "747-400(BDSF) 9H-WFF, right side nearly level at Maastricht, 2026-03-19 (Commons date 2026-04-08). Flipped and fitted to shapes/B744-passenger.json (outline landmarks; within 10 px): the titles' ends and heights, the fin mark's place and size, the mark on the right winglet."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:9H-FLM_Boeing_747-409F_Fly_Meta_MST_19.3.26_(55194815648).jpg",
+      "title": "9H-FLM Boeing 747-409F Fly Meta MST 19.3.26 (55194815648).jpg (CC BY-SA 4.0, Colin Cooke Photo)",
+      "accessed": "2026-11-20",
+      "note": "747-400F 9H-FLM, left side from ahead at Maastricht, 2026-03-19 (Commons date 2026-04-08): the same layout on the left, the mark mirrored (sloping up toward the tail on both sides), the left winglet bare grey. Too oblique to fit; used by eye."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F5",
+      "official": false
+    },
+    "sky": {
+      "hex": "#2F8FDA",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C4C8CC",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "windows": "hidden",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "titles": [
+    {
+      "text": "Fly Meta",
+      "place": "fuselage",
+      "at": [
+        0.178,
+        0.147
+      ],
+      "height": 0.418,
+      "length": 0.146,
+      "color": "sky",
+      "style": "Rounded geometric sans in sky blue, capital F and M with lowercase, over the forward main deck behind the upper deck's windows; the y's tail drops below the baseline.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Nunito SemiBold",
+          "VAG Rounded"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.62
+      }
+    },
+    {
+      "text": "飛元時代",
+      "place": "fuselage",
+      "at": [
+        0.231,
+        -0.207
+      ],
+      "height": 0.2,
+      "length": 0.093,
+      "color": "sky",
+      "style": "The Chinese name in the same blue, a plain sans (hei) style, under 'Meta' and ending with it (the aft end of the title block on the left); a small dot between 飛 and 元.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "Noto Sans SC Medium",
+          "Source Han Sans Medium"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform"
+      },
+      "side": "left"
+    },
+    {
+      "text": "飛元時代",
+      "place": "fuselage",
+      "at": [
+        0.182,
+        -0.207
+      ],
+      "height": 0.2,
+      "length": 0.093,
+      "color": "sky",
+      "style": "As on the left, but under the forward word: on the right 'Meta' is forward, and the Chinese sits under it, ending at the block's forward end.",
+      "confidence": "high",
+      "sourceRefs": [
+        0
+      ],
+      "type": {
+        "similar": [
+          "Noto Sans SC Medium",
+          "Source Han Sans Medium"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform"
+      },
+      "side": "right"
+    }
+  ],
+  "logos": [
+    {
+      "mark": "AAE/fly-meta",
+      "place": "fin",
+      "at": [
+        0.641,
+        0.471
+      ],
+      "height": 0.706,
+      "colors": [
+        "sky"
+      ],
+      "description": "Fly Meta's mark: a single sky-blue ribbon of even width folded into a large, roughly triangular loop with its sharp point at the top trailing corner, crossing down into a smaller triangular loop beneath it, the whole about 0.7 as wide as tall. Mirrored on the right (it sweeps up toward the tail on both sides).",
+      "reference": "https://commons.wikimedia.org/wiki/File:9H-WFF_Boeing_747-446(BDSF)_Fly_Meta_MST_19.3.26_(55194815633).jpg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "AAE/fly-meta",
+      "place": "winglets",
+      "side": "right",
+      "at": [
+        0.5,
+        0.45
+      ],
+      "height": 0.45,
+      "colors": [
+        "sky"
+      ],
+      "description": "The same mark, small, on the right winglet's outer face (9H-WFF).",
+      "reference": "https://commons.wikimedia.org/wiki/File:9H-WFF_Boeing_747-446(BDSF)_Fly_Meta_MST_19.3.26_(55194815633).jpg",
+      "confidence": "low",
+      "sourceRefs": [
+        0
+      ]
+    }
+  ],
+  "notes": "Measured on 9H-WFF's right side (the left from 9H-FLM is too oblique to fit): 'Fly Meta' runs x 0.178-0.324 (12.2-22.2 m back) with its capitals 2.0 m tall, its baseline 0.8 m above the centreline; '飛元時代' sits under 'Meta' on both sides: x 0.182-0.275 on the right (measured), 0.231-0.324 on the left (placed to end with 'Meta', as 9H-FLM shows; not fitted). The fin mark is about 7 m tall, centred 65.9 m back and 8.4 m up. 9H-FLM is a factory 747-400F (short upper deck), 9H-WFF a converted -400 (long upper deck): the titles sit at the same place on both. Winglets: 9H-WFF's right one is white with the mark; 9H-FLM's left one looks bare grey and unmarked, so the winglets' colour is left out and the winglet mark is drawn on the right only. Until early 2026 9H-FLM kept its former owner's blue belly cheatline under the Fly Meta titles (Commons 2024-11-27, 2025-02-08); the March 2026 photos show it repainted all white. Colours by eye.",
+  "history": "New in the LAX round (2026-11-20)."
+}

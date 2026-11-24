@@ -1,0 +1,385 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "GXA",
+  "name": "Blue and green swoosh",
+  "kind": "standard",
+  "confidence": "medium",
+  "drawnOn": "A320",
+  "description": "White upper fuselage over a bright blue lower one, the two split by a thin green line from under the nose that rises gently aft; behind the wing the line widens into a broad green band sweeping up to the crown ahead of the fin, and everything aft of it is blue. 'GLOBAL X' across the forward windows in thin wide capitals, GLO in blue, BAL in green and a big brushed X in blue. A blue fin with the white G mark (a ring open at the top right, a bar across its middle) and 'GLOBAL X' in white beneath it. Blue engines carrying the G in white; the wingtip fences green above, blue below.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A320-214_-_N276GX_-_Global_X_-_Guatemala_-_La_Aurora_(GUA_-_MGGT).jpg",
+      "title": "Airbus A320-214 - N276GX - Global X - Guatemala - La Aurora (GUA - MGGT) (GFDL 1.2, Oscar Josué Elvir Vasquez)",
+      "accessed": "2026-11-22",
+      "note": "A320 N276GX taking off at Guatemala City, left side, near level, 2026-03-17. Fitted to shapes/A320.json (doors pinned, within 19 px: a little yawed): the green line's and band's edges, the title's ends and height, the fin's G and title, the engine's G."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N276GX_-_KHPN_-_24-11-22.jpg",
+      "title": "N276GX - KHPN - 24-11-22 (CC BY-SA 4.0, Dave Montiverdi)",
+      "accessed": "2026-11-22",
+      "note": "Right side, three-quarter from ahead, at White Plains, 2022-11-24: the green band whole above the wing (wide at the crown, narrowing down to the thin line under the windows), the title reading GLOBAL X with the X by the forward door, the fences' green and blue, the colours in sunlight."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A320-214_(N276GX,_cn_2695)_(11-22-2022).jpg",
+      "title": "Airbus A320-214 (N276GX, cn 2695) (11-22-2022) (CC BY-SA 4.0, ZLEA)",
+      "accessed": "2026-11-22",
+      "note": "Right side at Daytona Beach, 2022-11-22: the same layout; not measured."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F5",
+      "official": false
+    },
+    "blue": {
+      "hex": "#0A9AD2",
+      "name": "GlobalX blue",
+      "official": false
+    },
+    "green": {
+      "hex": "#6DC43F",
+      "name": "GlobalX green",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "windows": "plain",
+    "areas": [
+      {
+        "name": "green: the thin line under the windows from the nose, widening behind the wing into the band that sweeps up to the crown (its forward edge)",
+        "color": "green",
+        "smooth": true,
+        "points": [
+          [
+            0.025,
+            -1,
+            1
+          ],
+          [
+            0.04,
+            -0.6
+          ],
+          [
+            0.083,
+            -0.52
+          ],
+          [
+            0.155,
+            -0.45
+          ],
+          [
+            0.245,
+            -0.39
+          ],
+          [
+            0.317,
+            -0.34
+          ],
+          [
+            0.45,
+            -0.26
+          ],
+          [
+            0.567,
+            -0.19
+          ],
+          [
+            0.615,
+            -0.08
+          ],
+          [
+            0.648,
+            0.2
+          ],
+          [
+            0.678,
+            0.55
+          ],
+          [
+            0.7,
+            0.82
+          ],
+          [
+            0.712,
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "blue lower fuselage, rising behind the green band to cover the whole rear fuselage and tail cone",
+        "color": "blue",
+        "smooth": true,
+        "points": [
+          [
+            0.028,
+            -1,
+            1
+          ],
+          [
+            0.045,
+            -0.65
+          ],
+          [
+            0.083,
+            -0.57
+          ],
+          [
+            0.155,
+            -0.5
+          ],
+          [
+            0.245,
+            -0.44
+          ],
+          [
+            0.317,
+            -0.39
+          ],
+          [
+            0.45,
+            -0.32
+          ],
+          [
+            0.567,
+            -0.26
+          ],
+          [
+            0.63,
+            -0.13
+          ],
+          [
+            0.672,
+            0.1
+          ],
+          [
+            0.705,
+            0.42
+          ],
+          [
+            0.733,
+            0.78
+          ],
+          [
+            0.752,
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "fin": {
+    "base": "blue",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "#B9BEC5",
+    "under": "#C9CDD2"
+  },
+  "winglets": {
+    "outer": "green",
+    "inner": "green",
+    "areas": [
+      {
+        "name": "the fence's lower half, under the wing",
+        "color": "blue",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0.45
+          ],
+          [
+            0,
+            0.45
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "blue",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "titles": [
+    {
+      "text": "GLOBALX",
+      "parts": [
+        {
+          "text": "GLO",
+          "color": "blue"
+        },
+        {
+          "text": "BAL",
+          "color": "green"
+        },
+        {
+          "text": "X",
+          "color": "blue"
+        }
+      ],
+      "place": "fuselage",
+      "at": [
+        0.177,
+        -0.006
+      ],
+      "height": 0.44,
+      "length": 0.24,
+      "color": "blue",
+      "style": "Thin, wide geometric capitals across the forward windows from behind the forward door: GLO in blue, BAL in green, then a bigger brushed X in blue, its strokes running a little above and below the letters. The G is the fin's G mark, a ring with a bar across.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Montserrat Regular",
+          "Avenir Next Regular"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "GLOBALX",
+      "place": "fin",
+      "at": [
+        0.32,
+        0.09
+      ],
+      "height": 0.1,
+      "length": 0.58,
+      "color": "white",
+      "style": "The same wordmark small in white, under the G mark, low on the fin.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Montserrat Regular",
+          "Avenir Next Regular"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "logos": [
+    {
+      "mark": "GXA/g",
+      "place": "fin",
+      "at": [
+        0.614,
+        0.455
+      ],
+      "height": 0.32,
+      "colors": [
+        "white"
+      ],
+      "description": "The GlobalX G: a thin white ring, open at the top right (from about one o'clock to three), with a straight bar across its middle that starts outside the ring on the left and ends at the ring's right side; in the fin's upper middle.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Airbus_A320-214_-_N276GX_-_Global_X_-_Guatemala_-_La_Aurora_(GUA_-_MGGT).jpg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "GXA/g",
+      "place": "engines",
+      "at": [
+        0.4,
+        0.05
+      ],
+      "height": 0.6,
+      "colors": [
+        "white"
+      ],
+      "description": "The G in white on the side of the blue cowl.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Airbus_A320-214_-_N276GX_-_Global_X_-_Guatemala_-_La_Aurora_(GUA_-_MGGT).jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "notes": "Measured on N276GX (A320, left side, Guatemala City, 2026-03-17) fitted to the A320 shape, checked on its two 2022 right-side photos. The green line leaves the belly just behind the radome and runs about 0.1 m deep under the windows, rising from y -0.52 behind the nose to -0.19 at the wing's trailing edge (the fit read it about 0.07 lower; raised to match how deep the blue reads on all three photos, the fit being least certain near the belly); behind the wing it widens into a band about 1.5 m wide that leans aft as it climbs, its forward edge reaching the crown at x 0.71, its aft edge (blue behind it) at x 0.75, ahead of the fin. The middle of the band is hidden by the wing in the left photo and drawn from the right-side ones. The title runs x 0.177-0.416, baseline at the windows' bottoms and capitals to y 0.44; the X reaches from y 0.0 to 0.57, a little bigger than the letters, drawn at their height. The lower blue looks darker under the nose in every photo (shade); one blue is drawn. A small US flag above the windows over the wing and the registration in white on the blue behind the wing aren't drawn. The tailplane looks light gray (not drawn). GlobalX's A321s are assumed to wear the same scheme; not checked.",
+  "history": "New 2026-11-22 (the maintainer's sightings: N276GX). Older databases name the airline Global Crossing Airlines, or wrongly Grixona."
+}

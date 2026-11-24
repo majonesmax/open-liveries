@@ -1,0 +1,713 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "lone-star-one",
+  "airline": "SWA",
+  "name": "Lone Star One (Texas flag)",
+  "kind": "special",
+  "from": "2024",
+  "description": "Fuselage: Texas flag wrapped on the fuselage: forward third (nose back to just ahead of the wing) solid royal blue with one large white five-pointed star on the side over the windows; behind that the upper half white and lower half red, the red/white split running roughly along the window line to the tail. Cheatlines: None. Tail: Standard Southwest 'Heart' fin: bold blue lower, then a red band, then a yellow-gold band along the top/leading edge, with thin white/silver pinstripes between; white 'Southwest' title on the blue at the base of the fin; small US flag. Engines: Blue cowlings with red lip/rear accents (approximate). Winglets: White/gray (approximate). Titles: 'Southwest' in white on the lower fin; small 'Lone Star One' script by the cockpit. Artwork: Texas flag. Colors hex: approximate; Southwest brand Bold Blue is commonly given as #304CB2 (unverified for this paint).",
+  "confidence": "medium",
+  "drawnOn": "B738",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Southwest_Airlines_fleet",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:N8660A_(aircraft)",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Boeing_737-8H4(WL)_'Lone_Star_One'_(N8660A,_msn_36654,_ln_5273)_(3-2-2024).jpg",
+      "title": "Boeing 737-8H4(WL) 'Lone Star One' (N8660A, msn 36654, ln 5273) (3-2-2024).jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-12",
+      "note": "N8660A from the left, 2024-03-02: the blue field, star and red/white split, fin, engine."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Southwest_Boeing_737-800_N8660A_\"Lone_Star_One\"_Departing_Santa_Barbara.jpg",
+      "title": "Southwest Boeing 737-800 N8660A \"Lone Star One\" Departing Santa Barbara.jpg (CC BY 2.0)",
+      "accessed": "2026-11-12",
+      "note": "N8660A from the right, climbing, 2024-04-26: the same layout on the right side."
+    }
+  ],
+  "palette": {
+    "blue": {
+      "hex": "#304CB2",
+      "name": "Bold Blue",
+      "official": true
+    },
+    "red": {
+      "hex": "#D5152B",
+      "official": false
+    },
+    "yellow": {
+      "hex": "#F9B612",
+      "official": false
+    },
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B4B9C0",
+      "official": false
+    },
+    "wingletGray": {
+      "hex": "#D3D6DA",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "name": "bare metal inlet lip",
+      "official": false
+    },
+    "texasBlue": {
+      "hex": "#26408F",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "red lower half, from the blue field aft",
+        "color": "red",
+        "points": [
+          [
+            0.401,
+            0.509
+          ],
+          [
+            0.44,
+            0.555
+          ],
+          [
+            0.49,
+            0.567
+          ],
+          [
+            0.564,
+            0.474
+          ],
+          [
+            0.62,
+            0.38
+          ],
+          [
+            0.687,
+            0.196
+          ],
+          [
+            0.732,
+            0.011
+          ],
+          [
+            0.847,
+            -0.292
+          ],
+          [
+            0.907,
+            -0.364
+          ],
+          [
+            0.944,
+            -0.381
+          ],
+          [
+            0.993,
+            -0.242
+          ],
+          [
+            1,
+            -0.242
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            0.46,
+            -1
+          ],
+          [
+            0.46,
+            -1.0
+          ],
+          [
+            0.455,
+            -0.377
+          ],
+          [
+            0.45,
+            -0.169
+          ],
+          [
+            0.437,
+            0.077
+          ],
+          [
+            0.423,
+            0.279
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ]
+      },
+      {
+        "name": "blue field, nose to ahead of the wing",
+        "color": "texasBlue",
+        "points": [
+          [
+            0.364,
+            1
+          ],
+          [
+            0.364,
+            1.0
+          ],
+          [
+            0.383,
+            0.66
+          ],
+          [
+            0.401,
+            0.509
+          ],
+          [
+            0.423,
+            0.279
+          ],
+          [
+            0.437,
+            0.077
+          ],
+          [
+            0.45,
+            -0.169
+          ],
+          [
+            0.455,
+            -0.377
+          ],
+          [
+            0.46,
+            -1.0
+          ],
+          [
+            0.46,
+            -1
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ]
+      },
+      {
+        "name": "white star on the blue field",
+        "color": "white",
+        "points": [
+          [
+            0.226,
+            1.0
+          ],
+          [
+            0.302,
+            0.326
+          ],
+          [
+            0.352,
+            0.491
+          ],
+          [
+            0.331,
+            0.014
+          ],
+          [
+            0.36,
+            -0.482
+          ],
+          [
+            0.303,
+            -0.241
+          ],
+          [
+            0.26,
+            -1.0
+          ],
+          [
+            0.271,
+            -0.128
+          ],
+          [
+            0.208,
+            -0.05
+          ],
+          [
+            0.261,
+            0.165
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ]
+      },
+      {
+        "name": "blue dorsal fillet, the fin's blue run forward",
+        "color": "blue",
+        "points": [
+          [
+            0.762,
+            1
+          ],
+          [
+            0.8,
+            0.93
+          ],
+          [
+            0.985,
+            0.93
+          ],
+          [
+            0.985,
+            1
+          ]
+        ]
+      }
+    ],
+    "radome": {
+      "color": "texasBlue",
+      "to": 0.025
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3
+    ]
+  },
+  "fin": {
+    "base": "blue",
+    "areas": [
+      {
+        "name": "pinstripe under the red",
+        "color": "white",
+        "above": [
+          [
+            0,
+            0.2
+          ],
+          [
+            0.177,
+            0.241
+          ],
+          [
+            0.504,
+            0.329
+          ],
+          [
+            0.723,
+            0.407
+          ],
+          [
+            0.883,
+            0.482
+          ],
+          [
+            1,
+            0.54
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "red band",
+        "color": "red",
+        "above": [
+          [
+            0,
+            0.213
+          ],
+          [
+            0.081,
+            0.235
+          ],
+          [
+            0.416,
+            0.324
+          ],
+          [
+            0.65,
+            0.404
+          ],
+          [
+            0.803,
+            0.479
+          ],
+          [
+            1,
+            0.555
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "pinstripe under the yellow",
+        "color": "white",
+        "above": [
+          [
+            0,
+            0.285
+          ],
+          [
+            0.18,
+            0.38
+          ],
+          [
+            0.315,
+            0.455
+          ],
+          [
+            0.489,
+            0.6
+          ],
+          [
+            0.645,
+            0.741
+          ],
+          [
+            0.8,
+            0.88
+          ],
+          [
+            0.895,
+            0.948
+          ],
+          [
+            0.97,
+            1.0
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "yellow band",
+        "color": "yellow",
+        "above": [
+          [
+            0,
+            0.3
+          ],
+          [
+            0.126,
+            0.377
+          ],
+          [
+            0.246,
+            0.452
+          ],
+          [
+            0.427,
+            0.597
+          ],
+          [
+            0.561,
+            0.738
+          ],
+          [
+            0.692,
+            0.877
+          ],
+          [
+            0.766,
+            0.946
+          ],
+          [
+            0.82,
+            1.0
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "leading-edge pinstripe along the yellow",
+        "color": "white",
+        "points": [
+          [
+            0.003,
+            0.3
+          ],
+          [
+            0.025,
+            0.3
+          ],
+          [
+            0.025,
+            1.0
+          ],
+          [
+            0.003,
+            1.0
+          ]
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "wingletGray",
+    "inner": "wingletGray"
+  },
+  "engines": {
+    "cowling": "texasBlue",
+    "inletLip": "lip",
+    "areas": [
+      {
+        "name": "red aft cowling",
+        "color": "red",
+        "points": [
+          [
+            0.6,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            0.78,
+            -1
+          ]
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3
+    ]
+  },
+  "logos": [
+    {
+      "mark": "SWA/heart",
+      "place": "fuselage",
+      "at": [
+        0.19,
+        0.354
+      ],
+      "height": 0.13,
+      "colors": [
+        "blue",
+        "red",
+        "yellow"
+      ],
+      "description": "The small Southwest Heart above and just aft of the forward passenger door.",
+      "reference": "https://commons.wikimedia.org/wiki/Category:Southwest_Airlines",
+      "side": "both",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ]
+    },
+    {
+      "mark": "SWA/us-flag",
+      "place": "fin",
+      "at": [
+        0.02,
+        0.05
+      ],
+      "height": 0.055,
+      "colors": [
+        "red",
+        "white",
+        "#1F2A5C"
+      ],
+      "description": "A small US flag ahead of the fin title, at the fin's root.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Southwest",
+      "place": "fin",
+      "at": [
+        0.084,
+        0.03
+      ],
+      "height": 0.12,
+      "color": "white",
+      "style": "The Southwest wordmark: bold, upright, rounded humanist sans, capital S, on the blue at the fin's root.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Bold",
+          "Gotham Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      },
+      "length": 0.86
+    },
+    {
+      "text": "Lone Star",
+      "place": "fuselage",
+      "at": [
+        0.0571,
+        -0.1
+      ],
+      "height": 0.05,
+      "color": "white",
+      "style": "The state's name, small under the cockpit windows, semi-bold; 'One' follows it in a lighter weight.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Demi Bold",
+          "Gotham Medium"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "length": 0.02,
+      "side": "left"
+    },
+    {
+      "text": "One",
+      "place": "fuselage",
+      "at": [
+        0.0778,
+        -0.1
+      ],
+      "height": 0.05,
+      "color": "white",
+      "style": "'One' after the name, lighter.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Regular",
+          "Gotham Book"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "length": 0.0086,
+      "side": "left"
+    },
+    {
+      "text": "Lone Star",
+      "place": "fuselage",
+      "at": [
+        0.0664,
+        -0.1
+      ],
+      "height": 0.05,
+      "color": "white",
+      "style": "The state's name, small under the cockpit windows, semi-bold; 'One' follows it in a lighter weight. On the right it reads from the aft end: the name aft, 'One' forward.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Demi Bold",
+          "Gotham Medium"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "length": 0.02,
+      "side": "right"
+    },
+    {
+      "text": "One",
+      "place": "fuselage",
+      "at": [
+        0.0571,
+        -0.1
+      ],
+      "height": 0.05,
+      "color": "white",
+      "style": "'One' after the name, lighter.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Regular",
+          "Gotham Book"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "length": 0.0086,
+      "side": "right"
+    }
+  ],
+  "notes": "Drawn from 2024 photos of N8660A. Belly not seen squarely: the red is taken to run under the aft fuselage and the blue under the nose, as the sides show. Re-checked 2026-11-15: the fin is the state jets' Heart fin, as re-measured on Colorado One (N8690A, the same 737-800 fin): copied from there with its 'Southwest' title and flag. 'Lone Star One' measured on the 2024 left photo against the nose and the forward door (2.2-3.3 m back, x 0.057-0.087), two weights, so a pair of titles per side; its height and its line under the cockpit windows are Colorado One's, where the title sits in the same place.",
+  "history": "Lone Star One since 1990: N352SW (737-300), then N931WN (737-700), now N8660A."
+}

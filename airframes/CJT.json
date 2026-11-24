@@ -1,0 +1,31 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "CJT",
+  "airframes": [
+    {
+      "registration": "C-GAZF",
+      "hex": "c04738",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B763",
+      "livery": "ATN/prime-air",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://hexdb.io/api/v1/aircraft/c04738",
+          "title": "hexdb.io aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Registered owner/operator given as 'Prime Air', operator flag CJT (community data)."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Amazon_Air#Fleet",
+          "title": "Wikipedia: Amazon Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "Amazon Air's contract operators and counts (as of January 2025)."
+        }
+      ],
+      "lastSeen": "2026-11-13",
+      "status": "flying as CJT2386 on adsb.lol, 2026-11-13",
+      "notes": "No open photo found; tagged because hexdb gives its owner as Prime Air and it flies Amazon's network: every Amazon 767 photographed 2023-2026 wears this paint. One of Cargojet's two Amazon 767s (Wikipedia)."
+    }
+  ]
+}

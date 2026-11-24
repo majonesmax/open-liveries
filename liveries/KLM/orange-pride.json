@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "orange-pride",
+  "airline": "KLM",
+  "name": "Orange Pride",
+  "kind": "special",
+  "confidence": "medium",
+  "description": "Fuselage: Forward fuselage from the nose to just ahead of the wing bright orange; aft of that standard KLM: sky-blue crown, white lower fuselage. Cheatlines: A thin dark-blue line under the windows (standard KLM). Tail: White fin with the blue KLM crown logo. Engines: White with blue KLM logo. Winglets: Raked tips. Titles: White 'KLM' crown and 'Royal Dutch Airlines' on the orange section. Artwork: none. Colors hex: approximate.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:PH-BVA_(aircraft)",
+      "accessed": "2026-11-12"
+    }
+  ],
+  "notes": "No KLM press source found.",
+  "from": "2016"
+}

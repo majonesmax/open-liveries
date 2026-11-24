@@ -1,0 +1,710 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "thin-lines",
+  "airline": "NCR",
+  "name": "National (thin-line version)",
+  "kind": "standard",
+  "confidence": "medium",
+  "drawnOn": "B744",
+  "description": "The 747-400BCF version of National's scheme: silver-white with 'NATIONAL' in big royal-blue heavy italic capitals over the forward main deck behind (left) or ahead of (right) a blue italic block, 'www.nationalairlines.com' small underneath, a thin red line curving up from the wing root to the crown, and two thin wavy blue lines running from above the wing back and up into the fin's root. On the fin three blue bands split by white lines sweep up to the trailing edge, a white strip along the leading edge. White engines, blue winglets.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N729CA_(52065123775).jpg",
+      "title": "N729CA (52065123775).jpg (CC BY-SA 2.0, Alec Wilson)",
+      "accessed": "2026-11-20",
+      "note": "747-400BCF N729CA, right side from below, landing, 2022-05-10. Flipped and fitted to shapes/B744-passenger.json (no doors in view; the camera angle is uncertain): the two thin lines, the title, block and small titles along the fuselage, the fin's bands, the blue winglet, white engines."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:National_Airlines_N729CA_12-09-2026.jpg",
+      "title": "National Airlines N729CA 12-09-2026.jpg (CC BY-SA 4.0, LN9267)",
+      "accessed": "2026-11-20",
+      "note": "N729CA, right side from above at Hong Kong, 2026-09-12: the same layout now, with the red line over the wing, no logo after the block, white engines."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:National_Airlines_B747-412(BCF)_N729CA_-_TPE_RCTP_-_24-MAY-2026.jpg",
+      "title": "National Airlines B747-412(BCF) N729CA - TPE RCTP - 24-MAY-2026.jpg (CC BY-SA 4.0, Steven Byles)",
+      "accessed": "2026-11-20",
+      "note": "N729CA, left side from below taking off, 2026-05-24: the block ahead of the title, the red line, the two thin lines, no logo; not fitted."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N537CA_Boeing_747-446F_National_Airline_Liege_18.3.26_(55184792881).jpg",
+      "title": "N537CA Boeing 747-446F National Airline Liege 18.3.26 (55184792881).jpg (CC BY-SA 4.0, Colin Cooke Photo)",
+      "accessed": "2026-11-20",
+      "note": "The -400F version (NCR/standard), fitted level: the red line's and the fin bands' geometry, carried over (see notes)."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#E9EDF0",
+      "official": false
+    },
+    "blue": {
+      "hex": "#1A3DB0",
+      "official": false
+    },
+    "red": {
+      "hex": "#E0283A",
+      "official": false
+    },
+    "grey": {
+      "hex": "#3A3D42",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C4C8CC",
+      "official": false
+    },
+    "engine": {
+      "hex": "#D9DDE1",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "windows": "hidden",
+    "areas": [
+      {
+        "name": "upper thin blue line, from above the wing back and up into the fin's root",
+        "color": "blue",
+        "points": [
+          [
+            0.584,
+            0.228,
+            1
+          ],
+          [
+            0.601,
+            0.239
+          ],
+          [
+            0.653,
+            0.211
+          ],
+          [
+            0.704,
+            0.16
+          ],
+          [
+            0.756,
+            0.192
+          ],
+          [
+            0.808,
+            0.292
+          ],
+          [
+            0.842,
+            0.57
+          ],
+          [
+            0.866,
+            1,
+            1
+          ],
+          [
+            0.878,
+            1,
+            1
+          ],
+          [
+            0.851,
+            0.55
+          ],
+          [
+            0.809,
+            0.226
+          ],
+          [
+            0.757,
+            0.138
+          ],
+          [
+            0.704,
+            0.114
+          ],
+          [
+            0.653,
+            0.166
+          ],
+          [
+            0.601,
+            0.193
+          ]
+        ],
+        "smooth": true,
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "name": "lower thin blue line, beside the upper and just below it",
+        "color": "blue",
+        "points": [
+          [
+            0.544,
+            0.059,
+            1
+          ],
+          [
+            0.565,
+            0.075
+          ],
+          [
+            0.626,
+            0.063
+          ],
+          [
+            0.719,
+            0.013
+          ],
+          [
+            0.776,
+            0.036
+          ],
+          [
+            0.833,
+            0.194
+          ],
+          [
+            0.859,
+            0.453
+          ],
+          [
+            0.885,
+            1,
+            1
+          ],
+          [
+            0.897,
+            1,
+            1
+          ],
+          [
+            0.867,
+            0.36
+          ],
+          [
+            0.835,
+            0.128
+          ],
+          [
+            0.777,
+            -0.018
+          ],
+          [
+            0.719,
+            -0.032
+          ],
+          [
+            0.626,
+            0.022
+          ],
+          [
+            0.565,
+            0.034
+          ]
+        ],
+        "smooth": true,
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "name": "thin red line curving up from the wing root to the crown",
+        "color": "red",
+        "points": [
+          [
+            0.5121,
+            -0.0107,
+            1
+          ],
+          [
+            0.5138,
+            -0.0315,
+            1
+          ],
+          [
+            0.5448,
+            0.1874
+          ],
+          [
+            0.5787,
+            0.4347
+          ],
+          [
+            0.607,
+            0.6636
+          ],
+          [
+            0.6268,
+            0.8792
+          ],
+          [
+            0.63,
+            1.0,
+            1
+          ],
+          [
+            0.6239,
+            1.0,
+            1
+          ],
+          [
+            0.6041,
+            0.741
+          ],
+          [
+            0.5758,
+            0.4915
+          ],
+          [
+            0.542,
+            0.2315
+          ]
+        ],
+        "smooth": true,
+        "confidence": "medium",
+        "sourceRefs": [
+          3,
+          1,
+          2
+        ]
+      },
+      {
+        "name": "the blue italic block ahead of the title (left)",
+        "color": "blue",
+        "points": [
+          [
+            0.072,
+            -0.08,
+            1
+          ],
+          [
+            0.116,
+            -0.08,
+            1
+          ],
+          [
+            0.14,
+            0.43,
+            1
+          ],
+          [
+            0.096,
+            0.43,
+            1
+          ]
+        ],
+        "side": "left",
+        "confidence": "low",
+        "sourceRefs": [
+          2
+        ]
+      },
+      {
+        "name": "the blue italic block aft of the title (right)",
+        "color": "blue",
+        "points": [
+          [
+            0.3953,
+            -0.08,
+            1
+          ],
+          [
+            0.4361,
+            -0.08,
+            1
+          ],
+          [
+            0.4143,
+            0.43,
+            1
+          ],
+          [
+            0.3736,
+            0.43,
+            1
+          ]
+        ],
+        "side": "right",
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "blue: the swoosh carried up the fin behind a white strip along the leading edge, over all but the lower trailing corner",
+        "color": "blue",
+        "points": [
+          [
+            0.045,
+            -0.04,
+            1
+          ],
+          [
+            0.0468,
+            0.0066
+          ],
+          [
+            0.0541,
+            0.134
+          ],
+          [
+            0.0439,
+            0.2929
+          ],
+          [
+            0.0699,
+            0.4523
+          ],
+          [
+            0.047,
+            0.6031
+          ],
+          [
+            0.0547,
+            0.7066
+          ],
+          [
+            0.1989,
+            0.7994
+          ],
+          [
+            0.5072,
+            0.8773
+          ],
+          [
+            1.0192,
+            0.9248
+          ],
+          [
+            1.3548,
+            0.939,
+            1
+          ],
+          [
+            1.4572,
+            0.2488,
+            1
+          ],
+          [
+            1.0119,
+            0.2415
+          ],
+          [
+            0.6473,
+            0.2157
+          ],
+          [
+            0.4923,
+            0.1221
+          ],
+          [
+            0.3799,
+            0.0409
+          ],
+          [
+            0.2943,
+            -0.0199
+          ],
+          [
+            0.29,
+            -0.04,
+            1
+          ]
+        ],
+        "smooth": true,
+        "confidence": "medium",
+        "sourceRefs": [
+          3,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "upper white line splitting the blue, from a point mid-fin to the trailing edge",
+        "color": "white",
+        "points": [
+          [
+            0.246,
+            0.2961,
+            1
+          ],
+          [
+            0.3099,
+            0.4081
+          ],
+          [
+            0.4694,
+            0.5251
+          ],
+          [
+            0.6973,
+            0.6148
+          ],
+          [
+            0.9908,
+            0.681
+          ],
+          [
+            1.4066,
+            0.7207,
+            1
+          ],
+          [
+            1.4099,
+            0.6973,
+            1
+          ],
+          [
+            1.0054,
+            0.6576
+          ],
+          [
+            0.7187,
+            0.5914
+          ],
+          [
+            0.4942,
+            0.5017
+          ],
+          [
+            0.3314,
+            0.3886
+          ]
+        ],
+        "smooth": true,
+        "confidence": "medium",
+        "sourceRefs": [
+          3,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "lower white line splitting the blue, from the root to the trailing edge",
+        "color": "white",
+        "points": [
+          [
+            0.2531,
+            0.0107,
+            1
+          ],
+          [
+            0.3327,
+            0.139
+          ],
+          [
+            0.4589,
+            0.256
+          ],
+          [
+            0.6677,
+            0.358
+          ],
+          [
+            1.0128,
+            0.4575
+          ],
+          [
+            1.4335,
+            0.5296,
+            1
+          ],
+          [
+            1.4365,
+            0.5023,
+            1
+          ],
+          [
+            1.0256,
+            0.4302
+          ],
+          [
+            0.6877,
+            0.3307
+          ],
+          [
+            0.4819,
+            0.2287
+          ],
+          [
+            0.3576,
+            0.1117
+          ],
+          [
+            0.2777,
+            -0.0085,
+            1
+          ]
+        ],
+        "smooth": true,
+        "confidence": "medium",
+        "sourceRefs": [
+          3,
+          0,
+          1
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      3
+    ]
+  },
+  "winglets": {
+    "outer": "blue",
+    "inner": "blue",
+    "confidence": "medium",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "engines": {
+    "cowling": "engine",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "titles": [
+    {
+      "text": "NATIONAL",
+      "place": "fuselage",
+      "side": "left",
+      "at": [
+        0.12,
+        -0.08
+      ],
+      "height": 0.51,
+      "length": 0.285,
+      "color": "blue",
+      "style": "Big heavy italic capitals behind the block; placed as on the -400F's left side (not fitted here).",
+      "confidence": "low",
+      "sourceRefs": [
+        2
+      ],
+      "type": {
+        "similar": [
+          "Futura Extra Bold Oblique",
+          "Helvetica Neue Black Italic"
+        ],
+        "weight": 800,
+        "slantDeg": 14,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "NATIONAL",
+      "place": "fuselage",
+      "side": "right",
+      "at": [
+        0.108,
+        -0.08
+      ],
+      "height": 0.51,
+      "length": 0.266,
+      "color": "blue",
+      "style": "As on the left, reading from its aft end, the block aft of it.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Futura Extra Bold Oblique",
+          "Helvetica Neue Black Italic"
+        ],
+        "weight": 800,
+        "slantDeg": 14,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "www.nationalairlines.com",
+      "place": "fuselage",
+      "at": [
+        0.101,
+        -0.3
+      ],
+      "height": 0.09,
+      "length": 0.145,
+      "color": "blue",
+      "style": "Small plain lowercase sans under the title's front half.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Arial",
+          "Helvetica"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower"
+      }
+    },
+    {
+      "text": "We Deliver The World",
+      "place": "fuselage",
+      "at": [
+        0.648,
+        0.31
+      ],
+      "height": 0.083,
+      "length": 0.123,
+      "color": "grey",
+      "style": "Small italic sans in dark grey above the thin lines, behind the wing.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Arial",
+          "Helvetica"
+        ],
+        "weight": 400,
+        "slantDeg": 10,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      }
+    }
+  ],
+  "notes": "Worn by the 747-400BCF N729CA (tagged in airframes/NCR.json); which of National's other converted 747s wear it isn't settled by 2024-2026 Commons photos. Fitted on N729CA 2022-05-10 (right, from below, no doors in view): along the fuselage the title runs x 0.108-0.374, the block 0.374-0.436, the lines leave the fuselage side pointed at x 0.54 (lower) and 0.58 (upper), under the wing. Heights: that fit put the title about 0.35 of the half-height lower than the level -400F photo does; the two schemes' titles are taken to sit alike, so the lines' heights here are shifted by the same amount (low certainty). The red line and the fin's three bands and two white lines are the -400F's, measured on N537CA (2026): N729CA's fin shows the same banding in 2022 and 2026 without the red line along the top; the red line over the wing is on N729CA in 2026 (both sides) and hidden by the wing in the 2022 photo. No logo after the block in the 2026 photos. Winglets blue with thin white lines (not drawn), inner faces unseen. Colours by eye.",
+  "history": "New in the LAX round (2026-11-20)."
+}

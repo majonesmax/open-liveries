@@ -1,0 +1,8 @@
+{
+  "_about": "Embraer 195-E2, APM 5824 Rev 25 Figure 2.2: page index 20, layers.py --mode strokes-in-fill at scale 13.667 (the front view is drawn 1.171 times the side's scale: its 35.12 m span's extension lines are 302.9 pt apart, the side's 41.60 m 306.5 pt), clip 168,520,480,618 (front; its right half). Pixels of that raster, line centres; centerline x 2133.5.",
+  "fuselage.section": [[2133, 666], [2180, 670], [2250, 708], [2290, 760], [2307, 820], [2310, 850], [2305, 900]],
+  "wing.upper": [[2400, 921], [2500, 907], [2600, 895], [2700, 884], [2900, 872], [3100, 861], [3500, 838], [3900, 816], [4100, 801], [4200, 792], [4207, 795]],
+  "wing.lower": [[2400, 980], [2500, 958], "hidden", [2900, 912], [3100, 895], [3500, 862], [3900, 835], [4100, 815], [4200, 799], [4207, 795]],
+  "stabilizer.upper": [[2300, 755], [2400, 743], [2500, 731], [2600, 720], [2700, 711], [2740, 709]],
+  "stabilizer.lower": [[2310, 790], [2400, 775], [2500, 759], [2600, 742], [2700, 717], [2740, 709]]
+}

@@ -1,0 +1,136 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "network-white",
+  "airline": "ABD",
+  "name": "Network Aviation (white)",
+  "kind": "standard",
+  "confidence": "medium",
+  "drawnOn": "B744",
+  "description": "Network Aviation Group's plainer version on an Air Atlanta Icelandic 747-400F: all white, white fin and engines, and only a large slate-grey 'Network' in plain semibold lowercase (capital N) over the forward main deck; a small 'operated by AIR ATLANTA ICELANDIC' ahead of door 1.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:TF-AKE_Boeing_747-409F_Network_Aviation_Air_Atlanta_Liege_29.4.25_(54566373847).jpg",
+      "title": "TF-AKE Boeing 747-409F Network Aviation Air Atlanta Liege 29.4.25 (CC BY-SA 2.0, Colin Cooke Photo)",
+      "accessed": "2026-11-20",
+      "note": "747-400F TF-AKE, left side from below, climbing out of Liège, 2025-04-29 (Commons date 2025-06-04). Fitted to shapes/B744.json (doors pinned): the title's ends and height, the small Air Atlanta title, white fin, engines and winglets."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:TF-AKE_Boeing_747-409F_Network_Aviation_op_by_Atlanta_Airlines_Liege_25.6.26.jpg",
+      "title": "TF-AKE Boeing 747-409F Network Aviation op by Atlanta Airlines Liege 25.6.26.jpg (CC BY-SA 4.0, Colin Cooke Photo)",
+      "accessed": "2026-11-20",
+      "note": "TF-AKE, right side from ahead, at Liège, 2026-06-25 (Commons date 2026-06-24): still all white with the same title over the same stretch, reading normally; the small Air Atlanta title ahead of door 1 on this side too."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F2F2F0",
+      "official": false
+    },
+    "slate": {
+      "hex": "#77899A",
+      "official": false
+    },
+    "navy": {
+      "hex": "#1E3F7A",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C4C8CC",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "windows": "hidden",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "winglets": {
+    "outer": "white",
+    "inner": "white",
+    "confidence": "medium",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "titles": [
+    {
+      "text": "Network",
+      "place": "fuselage",
+      "at": [
+        0.181,
+        -0.08
+      ],
+      "height": 0.42,
+      "length": 0.195,
+      "color": "slate",
+      "style": "Plain semibold sans, capital N and lowercase, upright, slate grey, from just behind door 1 to about two thirds of the way to the wing; larger and darker than on the blue version. The same stretch on the right.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Open Sans Semibold",
+          "Segoe UI Semibold"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.7
+      }
+    },
+    {
+      "text": "AIR ATLANTA",
+      "place": "fuselage",
+      "at": [
+        0.077,
+        -0.08
+      ],
+      "height": 0.05,
+      "length": 0.023,
+      "color": "navy",
+      "style": "Small dark capitals ahead of door 1 under a tiny 'OPERATED BY' and over 'ICELANDIC' (those not drawn).",
+      "confidence": "low",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Frutiger Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Flown by Air Atlanta Icelandic (ABD) for Network Aviation Group; tagged in airframes/ABD.json (TF-AKE). TF-AKE was also all white in 2024-10-25 (TF-AKE (25 Oct 2024).jpg). Measured on the left (2025): the title runs 12.4-25.8 m back, as on the blue version, its capital about 1.4 m tall; the left photo is steep from below, so its height is the least certain. Colours by eye.",
+  "history": "New in the LAX round (2026-11-20)."
+}

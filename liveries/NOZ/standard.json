@@ -1,0 +1,315 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "NOZ",
+  "name": "Red nose, tail heroes",
+  "kind": "standard",
+  "from": "2002",
+  "confidence": "medium",
+  "drawnOn": "B38M",
+  "description": "White with the whole nose section red back to about a quarter of the length, closed by a thin dark blue band; 'norwegian' in white on the red. The white fin carries a portrait of a Nordic 'tail hero' (each aircraft a different person) with a red name plate at the root, under a red tip cap and a dark blue stripe.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Norwegian_Air_Shuttle",
+      "accessed": "2026-11-13",
+      "title": "Wikipedia: Norwegian Air Shuttle (livery and tail fin heroes)"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Boeing_737-8_MAX_(c-n_43354,_LN-FGH)_2026-03-23_Andre_Gerwing_Collection_ID_028081.jpg",
+      "accessed": "2026-11-13",
+      "title": "Boeing 737-8 MAX (c-n 43354, LN-FGH) 2026-03-23 (CC BY-SA 4.0)",
+      "note": "Left side in flight, 2026-03-23: red nose and blue band, title, Anders Celsius tail, small titles aft."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Norwegian_LN-FGJ_B737-8MAX.jpg",
+      "accessed": "2026-11-13",
+      "title": "Norwegian LN-FGJ B737-8MAX (CC BY-SA 4.0)",
+      "note": "Right side in flight, 2025-07-21: the same layout on the right, Knud Rasmussen tail."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "red": {
+      "hex": "#D81939",
+      "name": "Norwegian red",
+      "official": false
+    },
+    "navy": {
+      "hex": "#1F2A5A",
+      "official": false
+    },
+    "cowl": {
+      "hex": "#E1E3E6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#BFC3C8",
+      "name": "bare metal inlet lip",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "red nose section, all round",
+        "color": "red",
+        "points": [
+          [
+            0,
+            -1
+          ],
+          [
+            0.247,
+            -1
+          ],
+          [
+            0.247,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "dark blue band closing the red",
+        "color": "navy",
+        "points": [
+          [
+            0.25,
+            -1
+          ],
+          [
+            0.259,
+            -1
+          ],
+          [
+            0.259,
+            1
+          ],
+          [
+            0.25,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      }
+    ],
+    "radome": {
+      "color": "red"
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "dark blue stripe under the cap",
+        "color": "navy",
+        "points": [
+          [
+            0,
+            0.81
+          ],
+          [
+            1,
+            0.81
+          ],
+          [
+            1,
+            0.833
+          ],
+          [
+            0,
+            0.833
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "red tip cap",
+        "color": "red",
+        "points": [
+          [
+            0.08,
+            0.858
+          ],
+          [
+            1,
+            0.858
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0.08,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "red name plate at the root",
+        "color": "red",
+        "points": [
+          [
+            0.0,
+            0.02
+          ],
+          [
+            0.55,
+            0.02
+          ],
+          [
+            0.55,
+            0.1
+          ],
+          [
+            0.0,
+            0.1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "winglets": {
+    "outer": "red",
+    "inner": "red",
+    "confidence": "low",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "cowl",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "NOZ/tail-hero",
+      "place": "fin",
+      "at": [
+        0.45,
+        0.38
+      ],
+      "height": 0.55,
+      "colors": [
+        "navy",
+        "red",
+        "#8A8F99"
+      ],
+      "description": "A drawn portrait of a Nordic hero (Anders Celsius, Knud Rasmussen, Thor Heyerdahl, Freddie Mercury ...), head and shoulders in dark blue-gray line art with touches of red and blue, often with a symbol of their work beside them; different on each aircraft. Their name in white on the red plate below, with a one-line description.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Boeing_737-8_MAX_(c-n_43354,_LN-FGH)_2026-03-23_Andre_Gerwing_Collection_ID_028081.jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "norwegian",
+      "place": "fuselage",
+      "at": [
+        0.079,
+        -0.21
+      ],
+      "height": 0.14,
+      "color": "white",
+      "style": "The Norwegian wordmark: bold rounded sans, all lowercase, with a small dark blue swoosh under 'an'; on the red, below the windows behind the cockpit.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Bold",
+          "Gotham Rounded Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.72
+      },
+      "length": 0.102
+    },
+    {
+      "text": "norwegian",
+      "place": "fuselage",
+      "at": [
+        0.731,
+        0.5
+      ],
+      "height": 0.08,
+      "color": "navy",
+      "style": "The wordmark again, small, above the windows behind the wing.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Bold",
+          "Gotham Rounded Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.72
+      },
+      "length": 0.054
+    }
+  ],
+  "notes": "Drawn on 737 MAX 8s (left and right sides agree). The tail portrait and the name on the plate change with each aircraft (airframe-specific: not drawn here). Small type text under the rear windows and the registration are left out. The winglet colors are only glimpsed (red, perhaps with the blue stripe): low confidence. The belly under the red nose is red all round as far as the photos show; the rest of the belly is assumed white (not seen from below). Engines are plain light gray. Re-checked 2026-11-15 on LN-FGH (side-on from below, 2026-03-23): the nose title is smaller than drawn (its lowercase about 0.8 m tall, about 0.08 of the fuselage's height; it had been drawn nearly twice that), running x 0.079-0.181 with its baseline at y -0.21; the aft title x 0.731-0.785. Both all-lowercase: height is a cap height with xHeight 0.72, so the lowercase comes out at the measured size.",
+  "history": "Replaced Skyarium v1's approximation (2026-11). The red-nose scheme with tail heroes dates from 2002 and has had only small changes (the old 'norwegian.no/.com' titles have gone)."
+}

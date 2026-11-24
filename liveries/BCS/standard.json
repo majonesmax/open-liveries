@@ -1,0 +1,638 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "BCS",
+  "name": "DHL (yellow and red)",
+  "kind": "standard",
+  "from": "2003",
+  "confidence": "high",
+  "drawnOn": "B77L",
+  "description": "DHL yellow all over with a dark red belly from nose to tail; the red italic 'DHL' wordmark huge over the forward fuselage, with its bundles of three red speed lines running out ahead of it to the nose and behind it, and three more long speed lines along the aft fuselage; 'DHL' with speed lines on the yellow fin; gray engines.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/European_Air_Transport_Leipzig",
+      "title": "Wikipedia: European Air Transport Leipzig",
+      "accessed": "2026-11-13",
+      "note": "DHL's Leipzig airline: 757, 767, 777F, A300, A330 freighters in DHL colors."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Leipzig_Halle_Airport_DHL_Air_UK_DHL_Aviation_Boeing_777-FZB_G-DHMC_(DSC02756).jpg",
+      "title": "Leipzig Halle Airport DHL Air UK DHL Aviation Boeing 777-FZB G-DHMC (DSC02756).jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "G-DHMC (777F) left side, 2026-03-01: geometry, stripes, titles, fin."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:D-AALO_Aerologic_for_DHL_Boeing_777-F_approaching_BRU_16_August_2025.jpg",
+      "title": "D-AALO Aerologic for DHL Boeing 777-F approaching BRU 16 August 2025.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "D-AALO (777F, AeroLogic) left side from below, 2025-08-16: the red belly, stripes."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:(JPN-Chiba)_Kalitta_Air_Boeing_777-F_N773CK_@_RJAA_2026-06-12.jpg",
+      "title": "(JPN-Chiba) Kalitta Air Boeing 777-F N773CK @ RJAA 2026-06-12.jpg (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "N773CK (777F, Kalitta for DHL) right side, 2026-06-12: the right side mirrors the left."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:DHL_Logo.svg",
+      "title": "DHL logo (Commons)",
+      "accessed": "2026-11-13",
+      "note": "The DHL wordmark with its speed lines."
+    }
+  ],
+  "palette": {
+    "yellow": {
+      "hex": "#FFCC00",
+      "official": false,
+      "name": "DHL yellow"
+    },
+    "red": {
+      "hex": "#D40511",
+      "official": false,
+      "name": "DHL red"
+    },
+    "engineGray": {
+      "hex": "#C9CCD0",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "yellow",
+    "areas": [
+      {
+        "name": "red belly",
+        "color": "red",
+        "below": [
+          [
+            0.0,
+            -0.55
+          ],
+          [
+            0.04,
+            -0.4
+          ],
+          [
+            0.3,
+            -0.36
+          ],
+          [
+            0.6,
+            -0.36
+          ],
+          [
+            0.8,
+            -0.45
+          ],
+          [
+            0.87,
+            -1.0
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          1,
+          2
+        ],
+        "smooth": true
+      },
+      {
+        "name": "nose speed line 1",
+        "color": "red",
+        "below": [
+          [
+            0.0,
+            0.0975
+          ],
+          [
+            0.092,
+            0.0975
+          ]
+        ],
+        "above": [
+          [
+            0.0,
+            0.04250000000000001
+          ],
+          [
+            0.092,
+            0.04250000000000001
+          ]
+        ]
+      },
+      {
+        "name": "nose speed line 2",
+        "color": "red",
+        "below": [
+          [
+            0.0,
+            -0.0325
+          ],
+          [
+            0.092,
+            -0.0325
+          ]
+        ],
+        "above": [
+          [
+            0.0,
+            -0.0875
+          ],
+          [
+            0.092,
+            -0.0875
+          ]
+        ]
+      },
+      {
+        "name": "nose speed line 3",
+        "color": "red",
+        "below": [
+          [
+            0.0,
+            -0.1625
+          ],
+          [
+            0.092,
+            -0.1625
+          ]
+        ],
+        "above": [
+          [
+            0.0,
+            -0.2175
+          ],
+          [
+            0.092,
+            -0.2175
+          ]
+        ]
+      },
+      {
+        "name": "speed line before the D 1",
+        "color": "red",
+        "below": [
+          [
+            0.1,
+            0.0975
+          ],
+          [
+            0.15,
+            0.0975
+          ]
+        ],
+        "above": [
+          [
+            0.1,
+            0.04250000000000001
+          ],
+          [
+            0.15,
+            0.04250000000000001
+          ]
+        ]
+      },
+      {
+        "name": "speed line before the D 2",
+        "color": "red",
+        "below": [
+          [
+            0.1,
+            -0.0325
+          ],
+          [
+            0.15,
+            -0.0325
+          ]
+        ],
+        "above": [
+          [
+            0.1,
+            -0.0875
+          ],
+          [
+            0.15,
+            -0.0875
+          ]
+        ]
+      },
+      {
+        "name": "speed line before the D 3",
+        "color": "red",
+        "below": [
+          [
+            0.1,
+            -0.1625
+          ],
+          [
+            0.15,
+            -0.1625
+          ]
+        ],
+        "above": [
+          [
+            0.1,
+            -0.2175
+          ],
+          [
+            0.15,
+            -0.2175
+          ]
+        ]
+      },
+      {
+        "name": "speed line after the L 1",
+        "color": "red",
+        "below": [
+          [
+            0.37,
+            0.0475
+          ],
+          [
+            0.395,
+            0.0475
+          ]
+        ],
+        "above": [
+          [
+            0.37,
+            -0.0075
+          ],
+          [
+            0.395,
+            -0.0075
+          ]
+        ]
+      },
+      {
+        "name": "speed line after the L 2",
+        "color": "red",
+        "below": [
+          [
+            0.37,
+            -0.0825
+          ],
+          [
+            0.395,
+            -0.0825
+          ]
+        ],
+        "above": [
+          [
+            0.37,
+            -0.1375
+          ],
+          [
+            0.395,
+            -0.1375
+          ]
+        ]
+      },
+      {
+        "name": "speed line after the L 3",
+        "color": "red",
+        "below": [
+          [
+            0.37,
+            -0.2125
+          ],
+          [
+            0.395,
+            -0.2125
+          ]
+        ],
+        "above": [
+          [
+            0.37,
+            -0.2675
+          ],
+          [
+            0.395,
+            -0.2675
+          ]
+        ]
+      },
+      {
+        "name": "aft speed line 1",
+        "color": "red",
+        "below": [
+          [
+            0.62,
+            0.1475
+          ],
+          [
+            0.93,
+            -0.0025000000000000022
+          ]
+        ],
+        "above": [
+          [
+            0.62,
+            0.0925
+          ],
+          [
+            0.93,
+            -0.057499999999999996
+          ]
+        ]
+      },
+      {
+        "name": "aft speed line 2",
+        "color": "red",
+        "below": [
+          [
+            0.62,
+            0.0275
+          ],
+          [
+            0.93,
+            -0.1225
+          ]
+        ],
+        "above": [
+          [
+            0.62,
+            -0.0275
+          ],
+          [
+            0.93,
+            -0.1775
+          ]
+        ]
+      },
+      {
+        "name": "aft speed line 3",
+        "color": "red",
+        "below": [
+          [
+            0.62,
+            -0.0925
+          ],
+          [
+            0.93,
+            -0.2425
+          ]
+        ],
+        "above": [
+          [
+            0.62,
+            -0.1475
+          ],
+          [
+            0.93,
+            -0.2975
+          ]
+        ]
+      }
+    ],
+    "radome": {
+      "color": "yellow"
+    },
+    "windows": "hidden",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2,
+      3
+    ]
+  },
+  "fin": {
+    "base": "yellow",
+    "areas": [
+      {
+        "name": "fin speed line before 'DHL' 1",
+        "color": "red",
+        "below": [
+          [
+            0.02,
+            0.451
+          ],
+          [
+            0.2,
+            0.451
+          ]
+        ],
+        "above": [
+          [
+            0.02,
+            0.429
+          ],
+          [
+            0.2,
+            0.429
+          ]
+        ]
+      },
+      {
+        "name": "fin speed line before 'DHL' 2",
+        "color": "red",
+        "below": [
+          [
+            0.02,
+            0.41600000000000004
+          ],
+          [
+            0.2,
+            0.41600000000000004
+          ]
+        ],
+        "above": [
+          [
+            0.02,
+            0.394
+          ],
+          [
+            0.2,
+            0.394
+          ]
+        ]
+      },
+      {
+        "name": "fin speed line before 'DHL' 3",
+        "color": "red",
+        "below": [
+          [
+            0.02,
+            0.381
+          ],
+          [
+            0.2,
+            0.381
+          ]
+        ],
+        "above": [
+          [
+            0.02,
+            0.359
+          ],
+          [
+            0.2,
+            0.359
+          ]
+        ]
+      },
+      {
+        "name": "fin speed line after 'DHL' 1",
+        "color": "red",
+        "below": [
+          [
+            0.8,
+            0.451
+          ],
+          [
+            0.98,
+            0.451
+          ]
+        ],
+        "above": [
+          [
+            0.8,
+            0.429
+          ],
+          [
+            0.98,
+            0.429
+          ]
+        ]
+      },
+      {
+        "name": "fin speed line after 'DHL' 2",
+        "color": "red",
+        "below": [
+          [
+            0.8,
+            0.41600000000000004
+          ],
+          [
+            0.98,
+            0.41600000000000004
+          ]
+        ],
+        "above": [
+          [
+            0.8,
+            0.394
+          ],
+          [
+            0.98,
+            0.394
+          ]
+        ]
+      },
+      {
+        "name": "fin speed line after 'DHL' 3",
+        "color": "red",
+        "below": [
+          [
+            0.8,
+            0.381
+          ],
+          [
+            0.98,
+            0.381
+          ]
+        ],
+        "above": [
+          [
+            0.8,
+            0.359
+          ],
+          [
+            0.98,
+            0.359
+          ]
+        ]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "engines": {
+    "cowling": "engineGray",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      3
+    ]
+  },
+  "logos": [],
+  "titles": [
+    {
+      "text": "DHL",
+      "place": "fuselage",
+      "at": [
+        0.148,
+        -0.27
+      ],
+      "height": 0.6,
+      "color": "red",
+      "style": "The DHL wordmark: heavy, wide, strongly slanted capitals cut through by horizontal yellow lines, in red, very large over the forward fuselage.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "length": 0.22,
+      "type": {
+        "similar": [
+          "Delivery Bold Italic",
+          "Eurostile Extended Black Italic"
+        ],
+        "weight": 900,
+        "slantDeg": 18,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "DHL",
+      "place": "fin",
+      "at": [
+        0.22,
+        0.36
+      ],
+      "height": 0.13,
+      "color": "red",
+      "style": "The DHL wordmark in red across the middle of the fin, between its speed lines.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "length": 0.55,
+      "type": {
+        "similar": [
+          "Delivery Bold Italic",
+          "Eurostile Extended Black Italic"
+        ],
+        "weight": 900,
+        "slantDeg": 18,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Drawn from 777Fs (G-DHMC 2026, D-AALO 2025, N773CK 2026). The DHL logo is a wordmark (drawn as titles; the speed lines as areas). The same scheme is worn by DHL's own airlines (EAT Leipzig, DHL Air UK, AeroLogic, Air Hong Kong, DHL Aero Expreso, DHL International Aviation ME) and by contractors' DHL-painted aircraft (Kalitta, ABX, ATI, Polar, Atlas, Southern...). The 757s, 767s, A300s and A330s wear it the same way; small operator titles ('Operated by Kalitta Air', 'AeroLogic') sit by the forward door. Re-checked 2026-11-15 on the 777F (G-DHMC 2026-03-01, N773CK 2026-06-12, D-AALO 2025-2026; every open photo is from below): the fuselage DHL had been drawn from just above the middle to the crown; on the photos its top is level with the forward door's top and its foot just under the lowest speed line before the D, with clear yellow above it, so it now runs y -0.27 to 0.33 (cap 0.6, from ~1.1). The speed lines after the L sit at the letters' foot, a little lower than those before the D (they had been drawn higher). The red belly's edge is a curve (smooth). The fin title reads 0.25-0.38 of the fin on G-DHMC but 0.33-0.42 on N773CK: left as drawn.",
+  "history": "Replaces Skyarium v1's approximate standard (a few colors from memory). The yellow and red scheme came with Deutsche Post's 2002–2003 rebrand of DHL, replacing the white aircraft with red 'DHL' titles."
+}

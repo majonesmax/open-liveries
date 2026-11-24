@@ -1,0 +1,198 @@
+{
+  "_about": "747-400 (passenger), from Boeing D6-58326-1 Rev F (December 2024) 2.2.1 General Dimensions: Model 747-400, -400 Combi, -400ER (page index 30): side, plan and front views on one sheet. Pixels of layers.py --mode fills rasters at scale 21, line centres; the windows and doors are the sheet's blue strokes (side_all.png: fills and strokes together). Scaled by the printed 68.63 m from the nose to the tail cone (the sheet's extension line there), which puts the front view's winglet tips 64.87 m apart (printed 64.44 m jig, 64.92 m at max weight). The upper deck: the crown above the main tube's level (mainCrown, side px) is the hump; the front view's crownTop is the main tube's (797: the hump's top at 727, 0.87 m higher as the side view draws it). The Combi's main-deck side cargo door is left out (a passenger 747-400's), and a dashed outline under the wing root that no 747-400 door matches. The main deck's windows that the wing's, fairing's and engines' lines hide in the drawing are placed at its 0.505 m pitch (windowsAlso), clear of the doors. The windshield's forward edge, drawn up to 18 cm under the outline, is put on it (windshieldTolerance 0.2: Boeing draws its panes low).",
+  "out": "../../../../shapes/B744-passenger.json",
+  "length": 68.63,
+  "wingtip": "winglet",
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "refs": {
+    "side": {
+      "nose": 218,
+      "tail": 5768,
+      "mainCrown": 1079,
+      "cowlEnd": 2378,
+      "cowlEnd2": 3077,
+      "windowRow": [1338, 1385],
+      "upperWindowRow": [1120, 1168],
+      "windowGap": 5,
+      "windowsAlso": [
+        1906.2,
+        1947.5,
+        1988.7,
+        2030.0,
+        2071.2,
+        2318.0,
+        2401.0,
+        2484.0,
+        2602.2,
+        2792.3,
+        3008.9,
+        3050.2,
+        3091.5,
+        3132.8,
+        3174.1,
+        3215.5,
+        3256.8,
+        3298.1,
+        3339.4,
+        3380.8,
+        3422.1,
+        3628.7,
+        3670.0,
+        3711.4,
+        3752.7,
+        3794.0,
+        3835.3,
+        3876.6,
+        4122.2
+      ],
+      "dropDoorWindows": true
+    },
+    "plan": {
+      "nose": 218,
+      "centerline": 3081.5
+    },
+    "front": {
+      "centerline": 2877.5,
+      "crownTop": 797
+    }
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [
+        946,
+        1286,
+        1031,
+        1436
+      ]
+    },
+    {
+      "kind": "door",
+      "box": [
+        1697,
+        1289,
+        1782,
+        1439
+      ]
+    },
+    {
+      "kind": "door",
+      "box": [
+        2652,
+        1289,
+        2738,
+        1439
+      ]
+    },
+    {
+      "kind": "door",
+      "box": [
+        3472,
+        1289,
+        3557,
+        1439
+      ]
+    },
+    {
+      "kind": "door",
+      "box": [
+        4636,
+        1289,
+        4721,
+        1439
+      ]
+    },
+    {
+      "kind": "door",
+      "box": [
+        1410,
+        1066,
+        1495,
+        1216
+      ]
+    },
+    {
+      "kind": "cargo",
+      "box": [
+        1193,
+        1487,
+        1405,
+        1618
+      ],
+      "side": "right"
+    },
+    {
+      "kind": "cargo",
+      "box": [
+        3759,
+        1468,
+        3972,
+        1598
+      ],
+      "side": "right"
+    },
+    {
+      "kind": "cargo",
+      "box": [
+        4110,
+        1464,
+        4205,
+        1578
+      ],
+      "side": "right"
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [590, 1150],
+      [612, 1130],
+      [640, 1108],
+      [661, 1108],
+      [631, 1146]
+    ],
+    [
+      [668, 1108],
+      [688, 1108],
+      [688, 1149],
+      [640, 1146]
+    ],
+    [
+      [695, 1108],
+      [727, 1108],
+      [727, 1151],
+      [695, 1149]
+    ]
+  ],
+  "printed": {
+    "fuselage width": 6.5,
+    "wingspan": 64.44,
+    "tailplane span": 22.17,
+    "engine out from the centerline": 11.68,
+    "outboard engine out from the centerline": 21.0,
+    "engine inlet from the nose": 24.05,
+    "outboard engine inlet from the nose": 32.77,
+    "overall length": 70.67
+  },
+  "meta": {
+    "id": "B744-passenger",
+    "name": "Boeing 747-400",
+    "types": [
+      "B744"
+    ],
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/boeingdotcom/commercial/airports/acaps/747-400_Rev_F.pdf",
+        "title": "Boeing, 747-400 Airplane Characteristics for Airport Planning (D6-58326-1 Rev F, December 2024), 2.2.1 General Dimensions: Model 747-400, -400 Combi, -400ER",
+        "accessed": "2026-11-15",
+        "note": "Dimensions and outlines read off the side, plan and front views (tools/trace/b744-passenger/); the figures are the aircraft's measurements, not a copy of the drawing. Scaled by the printed 68.63 m from the nose to the tail cone; the tailplane's tips reach 1.2 m behind it. The upper deck is fuselage.hump: the crown above the main tube's level (its top 0.87 m above it, from 5.6 m to 29.1 m), 3.65 m wide where it rises from the main tube's crown in the front view; the main tube's crown runs level beneath it, so paint on the fuselage is placed as on any type. The windows and doors are the sheet's (the upper deck's windows lie below the main crown's level, on the main tube's side); the main deck's windows hidden by the wing's, fairing's and engines' lines are placed at the drawing's 0.505 m pitch. Lower cargo doors forward and aft and the bulk door on the right, as the document's door clearances (2.7.6-2.7.8, right side views) draw them. The drawn nacelles sit at the RB211-524H's printed inlets (24.05 m, 32.77 m; 0.9-1.0% behind them): a CF6 or PW4000 747's are 0.4-1.0 m further forward. Engines out from the centerline from the plan's nacelle edges: the outboard within 0.9% of the printed 21 m; the inboard 11.97 m against a printed 11.68 m (+2.5%), which the front view's inlet (12.15 m) puts further out still: kept as drawn. Wingspan 64.74 m against 64.44 m printed at the jig (64.92 m at max weight)."
+      }
+    ]
+  },
+  "windshieldTolerance": 0.2
+}

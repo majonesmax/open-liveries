@@ -1,0 +1,666 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/majonesmax/open-liveries/main/schema/shape.schema.json",
+  "title": "Shape",
+  "description": "An aircraft type's outline, measured from its manufacturer's dimensioned drawings, for drawing a scheme on it (docs/SHAPES.md). Meters: x back from the nose tip, y out from the centerline (one side; the other mirrors it), z up from the fuselage's centerline. Lines are straight between their points.",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "types",
+    "confidence",
+    "sources",
+    "fuselage",
+    "fin",
+    "stabilizer",
+    "wing",
+    "engines",
+    "cabin",
+    "cockpit"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "description": "The JSON Schema this file follows, as a relative path.",
+      "type": "string"
+    },
+    "id": {
+      "description": "The file's name: an ICAO type designator, or one with a variant after a hyphen (e.g. 'A320', 'B738-winglets').",
+      "type": "string",
+      "pattern": "^[A-Z0-9]{2,4}(-[a-z0-9]+)*$"
+    },
+    "name": {
+      "description": "The type's name as people know it (Airbus A320neo).",
+      "type": "string"
+    },
+    "types": {
+      "description": "ICAO type designators drawn with this shape.",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "pattern": "^[A-Z0-9]{2,4}$"
+      }
+    },
+    "confidence": {
+      "description": "How closely the outline follows the type: high from a dimensioned manufacturer drawing, lower when parts are inferred.",
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ]
+    },
+    "sources": {
+      "description": "The documents the shape is measured from, each with when it was read.",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "url"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "url": {
+            "description": "Where the document is.",
+            "type": "string"
+          },
+          "title": {
+            "description": "What it is (the manufacturer's airport-planning document, its revision).",
+            "type": "string"
+          },
+          "accessed": {
+            "description": "When it was read (YYYY-MM-DD).",
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          },
+          "note": {
+            "description": "Which drawings in it were used, and anything to know about them.",
+            "type": "string"
+          }
+        }
+      }
+    },
+    "fuselage": {
+      "description": "The fuselage: its length and its crown, belly and half-width along it.",
+      "type": "object",
+      "required": [
+        "length",
+        "crown",
+        "belly",
+        "halfWidth"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "length": {
+          "description": "Nose tip to tail cone.",
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "crown": {
+          "description": "Side view: [x, z] along the top, nose tip to tail cone.",
+          "$ref": "#/$defs/line"
+        },
+        "belly": {
+          "description": "Side view: [x, z] along the bottom, nose tip to tail cone.",
+          "$ref": "#/$defs/line"
+        },
+        "halfWidth": {
+          "description": "Plan view: [x, y] along one side, nose tip to tail cone.",
+          "$ref": "#/$defs/line"
+        },
+        "widest": {
+          "description": "Front view: z of the cross-section's widest line (default 0).",
+          "type": "number"
+        },
+        "hump": {
+          "description": "An upper deck standing above the main tube (a 747's): `crown` is the main tube's own top beneath it, and paint on the fuselage stays on the main tube; the hump wears the crown's paint carried up.",
+          "type": "object",
+          "required": [
+            "crown",
+            "width"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "crown": {
+              "description": "Side view: [x, z] along the hump's top, from where it leaves the main crown to where it rejoins it.",
+              "$ref": "#/$defs/line"
+            },
+            "width": {
+              "description": "Front view: the upper deck's width at its widest.",
+              "type": "number"
+            },
+            "section": {
+              "description": "Front view: [y, z] of the fuselage's outline where the deck stands highest, from its top at the centerline down one side to where it meets the main tube's section: the deck's own cross-section.",
+              "$ref": "#/$defs/line"
+            }
+          }
+        }
+      }
+    },
+    "fin": {
+      "description": "The fin, from the side: its leading and trailing edges from the root on the crown to the tip.",
+      "type": "object",
+      "required": [
+        "leading",
+        "trailing"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "leading": {
+          "description": "Side view: [x, z] from the root, on the crown, to the tip.",
+          "$ref": "#/$defs/line"
+        },
+        "trailing": {
+          "description": "Side view: [x, z] from the root, on the crown, to the tip.",
+          "$ref": "#/$defs/line"
+        },
+        "fillet": {
+          "description": "Side view: [x, z] of a dorsal fillet's curve, from where it leaves the crown to where it meets the leading edge. Not part of the fin's space.",
+          "$ref": "#/$defs/line"
+        },
+        "rudder": {
+          "description": "Side view: [x, z] of the rudder's hinge line, root to tip; the rudder is aft of it.",
+          "$ref": "#/$defs/line"
+        }
+      }
+    },
+    "stabilizer": {
+      "description": "The tailplane: a surface (its plan view's edges and its height along the span), on the fuselage or on the fin.",
+      "type": "object",
+      "required": [
+        "leading",
+        "trailing",
+        "z"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "leading": {
+          "description": "Plan view: [y, x] from the root (at the fuselage's side, or the fin's on a T-tail) to the tip.",
+          "$ref": "#/$defs/line"
+        },
+        "trailing": {
+          "description": "Plan view: [y, x] from the root to the tip.",
+          "$ref": "#/$defs/line"
+        },
+        "z": {
+          "description": "Front view: [y, z] of the surface's middle, root to tip.",
+          "$ref": "#/$defs/line"
+        },
+        "mount": {
+          "description": "What it sits on: the fuselage (the default), or the fin (a T-tail: the 717, CRJ, MD-80), its root at the fin's side and its height there on the fin, high above the fuselage.",
+          "enum": [
+            "fuselage",
+            "fin"
+          ]
+        }
+      }
+    },
+    "wing": {
+      "$ref": "#/$defs/surface"
+    },
+    "wingtip": {
+      "description": "A device rising from the wing's tip. Left out: a plain tip.",
+      "type": "object",
+      "required": [
+        "kind",
+        "leading",
+        "trailing"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "kind": {
+          "description": "What the wingtip carries.",
+          "enum": [
+            "winglet",
+            "blended",
+            "sharklet",
+            "split",
+            "fence"
+          ]
+        },
+        "leading": {
+          "description": "Side view: [x, z] from where it leaves the wing to its tip.",
+          "$ref": "#/$defs/line"
+        },
+        "trailing": {
+          "description": "Side view: [x, z] from where it leaves the wing to its tip.",
+          "$ref": "#/$defs/line"
+        },
+        "front": {
+          "description": "Front view: [y, z] of its middle, from the wing to its tip.",
+          "$ref": "#/$defs/line"
+        }
+      }
+    },
+    "engines": {
+      "description": "One side's engines, inboard first (a tail engine, on the centerline, first). Under the wing, on the rear fuselage or on the tail (`mount`); a wing may have none.",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "x",
+          "y",
+          "top",
+          "bottom"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "x": {
+            "description": "Inlet lip and exhaust (the nozzle's end, not a plug's tip).",
+            "$ref": "#/$defs/range"
+          },
+          "cowlEnd": {
+            "description": "Where the fan cowl ends and the core or nozzle shows.",
+            "type": "number"
+          },
+          "mount": {
+            "description": "What it hangs from: the wing (the default), the fuselage (a rear-engined type: the 717, CRJ, MD-80), on a stub pylon from the fuselage's side, or the tail (on the centerline, y 0: the MD-11's through the fin's base, the 727's in the tail cone fed by an S-duct).",
+            "enum": [
+              "wing",
+              "fuselage",
+              "tail"
+            ]
+          },
+          "duct": {
+            "description": "On the tail: its air path. `straight` (the default): through its nacelle, the fin standing on its top (the MD-11, DC-10); `top` and `bottom` are the nacelle's, with the fairing over its nozzle. `s`: an S-duct from an intake on the crown ahead of the fin (the 727, L-1011); `top` and `bottom` are the intake's fairing, its bottom on the crown, and `nozzle` is the engine's exhaust at the tail cone's end.",
+            "enum": [
+              "straight",
+              "s"
+            ]
+          },
+          "strut": {
+            "description": "On the tail, a straight duct: from x to x along the nacelle, where a strut joins its bottom to the crown under it.",
+            "$ref": "#/$defs/range"
+          },
+          "halfWidth": {
+            "description": "Plan view, [x, y] along the nacelle's (or intake's) side from its own middle, inlet to exhaust: on the tail; on a wing where the nacelle isn't round (a turboprop's, deep and narrow).",
+            "$ref": "#/$defs/line"
+          },
+          "propeller": {
+            "description": "A propeller ahead of the nacelle (a turboprop's): its disc and spinner, on the nacelle's middle out from the centerline (`y`).",
+            "type": "object",
+            "required": [
+              "x",
+              "z",
+              "diameter",
+              "blades"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "x": {
+                "description": "Side view: the disc's plane, back from the nose.",
+                "type": "number"
+              },
+              "z": {
+                "description": "The hub's height.",
+                "type": "number"
+              },
+              "diameter": {
+                "description": "The disc's.",
+                "type": "number",
+                "exclusiveMinimum": 0
+              },
+              "blades": {
+                "description": "How many blades.",
+                "type": "integer",
+                "minimum": 2
+              },
+              "spinner": {
+                "description": "Side view: from its tip to its base (where it meets the nacelle), and its diameter there.",
+                "type": "object",
+                "required": [
+                  "x",
+                  "diameter"
+                ],
+                "additionalProperties": false,
+                "properties": {
+                  "x": {
+                    "description": "Tip and base.",
+                    "$ref": "#/$defs/range"
+                  },
+                  "diameter": {
+                    "description": "The spinner's diameter at its base.",
+                    "type": "number",
+                    "exclusiveMinimum": 0
+                  }
+                }
+              }
+            }
+          },
+          "nozzle": {
+            "description": "On the tail: the bare exhaust where it shows, from the side (a plug's cone included).",
+            "type": "object",
+            "required": [
+              "top",
+              "bottom"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "top": {
+                "description": "Side view: [x, z] along its top.",
+                "$ref": "#/$defs/line"
+              },
+              "bottom": {
+                "description": "Side view: [x, z] along its bottom.",
+                "$ref": "#/$defs/line"
+              }
+            }
+          },
+          "pylon": {
+            "description": "On the fuselage: the stub pylon from the fuselage's side (its root) out to the nacelle (its tip), as a surface: its plan view's edges, its middle height along it from the front, and its thickness there.",
+            "$ref": "#/$defs/pylon"
+          },
+          "y": {
+            "description": "The nacelle's center, out from the centerline.",
+            "type": "number"
+          },
+          "top": {
+            "description": "Side view: [x, z] along the top, inlet to exhaust (on the tail: its outline's top, which may run on past the exhaust over a fairing).",
+            "$ref": "#/$defs/line"
+          },
+          "bottom": {
+            "description": "Side view: [x, z] along the bottom, inlet to exhaust (on the tail: its outline's bottom; an S-duct intake's is the crown).",
+            "$ref": "#/$defs/line"
+          },
+          "inlet": {
+            "description": "Front view: the inlet's center height and size.",
+            "type": "object",
+            "required": [
+              "z",
+              "width",
+              "height"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "z": {
+                "description": "The inlet's center height.",
+                "type": "number"
+              },
+              "width": {
+                "description": "The inlet's width.",
+                "type": "number"
+              },
+              "height": {
+                "description": "The inlet's height.",
+                "type": "number"
+              }
+            }
+          }
+        }
+      }
+    },
+    "cabin": {
+      "description": "The cabin's windows and doors, from the side.",
+      "type": "object",
+      "required": [
+        "windows",
+        "doors"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "windows": {
+          "description": "The main deck's window line: its height, each window's width, and where along the fuselage each is.",
+          "type": "object",
+          "required": [
+            "z",
+            "width",
+            "x"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "z": {
+              "description": "Bottom and top.",
+              "$ref": "#/$defs/range"
+            },
+            "width": {
+              "description": "Each window's width.",
+              "type": "number"
+            },
+            "x": {
+              "description": "Each window's center.",
+              "type": "array",
+              "items": {
+                "type": "number"
+              }
+            },
+            "note": {
+              "description": "How the windows were placed, where the drawing doesn't show them.",
+              "type": "string"
+            },
+            "wouldBe": {
+              "description": "A type without windows (a freighter): where its passenger version's first and last window centers are along it, meters, so paint drawn beside windows is fitted as on that version.",
+              "$ref": "#/$defs/range"
+            }
+          }
+        },
+        "upperWindows": {
+          "description": "A second row of cabin windows above the first, on a double-deck cabin (the A380's upper deck, a 747's): as `windows`.",
+          "type": "object",
+          "required": [
+            "z",
+            "width",
+            "x"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "z": {
+              "description": "Bottom and top.",
+              "$ref": "#/$defs/range"
+            },
+            "width": {
+              "description": "Each upper-deck window's width.",
+              "type": "number"
+            },
+            "x": {
+              "description": "Each window's center.",
+              "type": "array",
+              "items": {
+                "type": "number"
+              }
+            },
+            "note": {
+              "description": "How the windows were placed, where the drawing doesn't show them.",
+              "type": "string"
+            }
+          }
+        },
+        "doors": {
+          "description": "The doors, emergency exits and cargo doors, as their outlines' boxes seen from the left: on both sides unless `side` says one.",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "kind",
+              "x",
+              "z"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "kind": {
+                "description": "A passenger door, an emergency exit, or a cargo door.",
+                "enum": [
+                  "door",
+                  "exit",
+                  "cargo"
+                ]
+              },
+              "x": {
+                "$ref": "#/$defs/range"
+              },
+              "z": {
+                "description": "Bottom and top.",
+                "$ref": "#/$defs/range"
+              },
+              "side": {
+                "description": "The one side it's on (a cargo door on the right only); left out, it's on both.",
+                "enum": [
+                  "left",
+                  "right"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "cockpit": {
+      "description": "The flight deck's windows, from the side.",
+      "type": "object",
+      "required": [
+        "windows"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "windows": {
+          "description": "Side view: each pane's outline, [x, z].",
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/line"
+          }
+        }
+      }
+    },
+    "checks": {
+      "description": "The source's printed dimensions against the shape's.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "dimension",
+          "printed",
+          "shape"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "dimension": {
+            "description": "Which dimension (overall length, fin height…).",
+            "type": "string"
+          },
+          "printed": {
+            "description": "The value printed in the source.",
+            "type": "number"
+          },
+          "shape": {
+            "description": "The same dimension measured on the shape.",
+            "type": "number"
+          },
+          "off": {
+            "description": "How far apart the two are.",
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "point": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      },
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "line": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/point"
+      },
+      "minItems": 2
+    },
+    "range": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      },
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "pylon": {
+      "type": "object",
+      "required": [
+        "leading",
+        "trailing",
+        "z",
+        "thickness"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "leading": {
+          "description": "Plan view: [y, x] from the root, at the fuselage's side, to the tip, at the nacelle.",
+          "$ref": "#/$defs/line"
+        },
+        "trailing": {
+          "description": "Plan view: [y, x] from the root to the tip.",
+          "$ref": "#/$defs/line"
+        },
+        "z": {
+          "description": "Front view: [y, z] of its middle, root to tip.",
+          "$ref": "#/$defs/line"
+        },
+        "thickness": {
+          "description": "Front view: its top to its bottom.",
+          "type": "number",
+          "exclusiveMinimum": 0
+        }
+      }
+    },
+    "surface": {
+      "description": "A wing or tailplane: its plan view's edges and its height along the span.",
+      "type": "object",
+      "required": [
+        "leading",
+        "trailing",
+        "z"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "leading": {
+          "description": "Plan view: [y, x] from the root, at the fuselage's side, to the tip.",
+          "$ref": "#/$defs/line"
+        },
+        "trailing": {
+          "description": "Plan view: [y, x] from the root to the tip.",
+          "$ref": "#/$defs/line"
+        },
+        "z": {
+          "description": "Front view: [y, z] of the surface's middle, root to tip. A high wing (the Dash 8's, ATR's) has its root on the crown: z there at or above the crown.",
+          "$ref": "#/$defs/line"
+        },
+        "fairings": {
+          "description": "A wing's flap track fairings (the canoes under its trailing edge), each as it hangs on the near side. Left out: none drawn.",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "y",
+              "x",
+              "depth"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "y": {
+                "description": "Its middle's distance out from the centerline, meters.",
+                "type": "number"
+              },
+              "x": {
+                "description": "Its front and aft ends, meters from the nose (the aft end behind the trailing edge).",
+                "$ref": "#/$defs/range"
+              },
+              "depth": {
+                "description": "How far its lowest point hangs below the wing's lower surface, meters.",
+                "type": "number"
+              },
+              "width": {
+                "description": "Its greatest width, meters, from the front view. Left out: as deep as it is.",
+                "type": "number"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

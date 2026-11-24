@@ -1,0 +1,512 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "reno-air-heritage",
+  "airline": "AAL",
+  "name": "Reno Air heritage",
+  "kind": "retro",
+  "confidence": "medium",
+  "drawnOn": "B738",
+  "description": "Fuselage: American's silver. Cheatlines: A teal cheatline low on the side, curving down to the bottom of the nose, with a thin gray pinstripe above it, running aft into a teal tail section. Tail: Silver upper fin; teal lower fin whose top edge is a ridge of three white snow-capped peaks rising aft. Engines: Silver. Winglets: Silver. Titles: Standard 'American' and flight symbol forward. Artwork: Mountain peaks on the fin. Colors hex: matched from photos.",
+  "sources": [
+    {
+      "url": "https://simpleflying.com/american-special-liveries/",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:N916NN_(aircraft)",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:American_737_in_the_Reno_Air_Heritage_Livery_(55002910782).jpg",
+      "title": "American 737 in the Reno Air Heritage Livery (CC BY 4.0, Glenn Beltz)",
+      "accessed": "2026-11-12",
+      "note": "Left front quarter, 2025-07-31: the teal cheatline from the nose, the fin's teal and mountains, the American title."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:American_Airlines_B737-823(W)_N916NN_%27Reno_Air%27_landing_at_Los_Angeles_International,_September_2023.jpg",
+      "title": "American Airlines B737-823(W) N916NN 'Reno Air' landing at Los Angeles International, September 2023 (CC BY-SA 4.0, Piemags Aviation)",
+      "accessed": "2026-11-12",
+      "note": "Left front quarter close up, 2023-09-26: the gray pinstripe over the teal cheatline, the three snow-capped peaks on the fin, engines."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Commercial_flight_AA2353_ORD_to_FLL_airplane_N916NN_Boeing_737-823.jpg",
+      "title": "Commercial flight AA2353 ORD to FLL airplane N916NN Boeing 737-823 (CC0)",
+      "accessed": "2026-11-12",
+      "note": "Right side from below, 2021-11-03: the nearest to a side view; where the cheatline meets the teal tail section and the peaks' places across the fin."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Reno_Air_livery_on_an_American_Airlines_737_(49506773858).jpg",
+      "title": "Reno Air livery on an American Airlines 737 (CC BY 2.0, Glenn Beltz)",
+      "accessed": "2026-11-12",
+      "note": "Right side at the gate, 2020-02-06: the cheatline's height against the windows and its curve at the nose."
+    }
+  ],
+  "notes": "Drawn from 2020–2025 photos (Commons has no newer one of the scheme; the airframe category's own 2013–2015 photos show N916NN in American's old polished scheme, so the Reno Air paint postdates them: worth checking the airframe's 2014 'from'). The teal tail section's extent on the lower aft fuselage and under the tail cone is read from one photo from below and is a low-confidence guess at its lower edge; the belly wasn't seen clearly. No 'Reno Air' titles seen anywhere. Re-checked 2026-11-15: the title and Flight Symbol measured against the doors on N916NN (2021-11-03, right side): 'American' x 0.213-0.331, the symbol at 0.198, both further aft than first drawn (the same place as on the AirCal and TWA 737s); the cheatline's rise at the nose and the teal tail section's sweep drawn as curves.",
+  "from": "2014",
+  "palette": {
+    "silver": {
+      "hex": "#C9CDD2",
+      "name": "American's metallic silver",
+      "official": false
+    },
+    "teal": {
+      "hex": "#127E6C",
+      "official": false
+    },
+    "pinstripe": {
+      "hex": "#6E757C",
+      "official": false
+    },
+    "snow": {
+      "hex": "#F4F6F7",
+      "official": false
+    },
+    "titleGray": {
+      "hex": "#36495A",
+      "official": false
+    },
+    "flightRed": {
+      "hex": "#C30019",
+      "official": false
+    },
+    "flightBlue": {
+      "hex": "#0078D2",
+      "official": false
+    },
+    "cowl": {
+      "hex": "#D3D6DA",
+      "official": false
+    },
+    "lip": {
+      "hex": "#B4B9BF",
+      "official": false
+    }
+  },
+  "finish": "metallic",
+  "fuselage": {
+    "base": "silver",
+    "areas": [
+      {
+        "name": "gray pinstripe over the cheatline",
+        "color": "pinstripe",
+        "below": [
+          [
+            0.012,
+            -0.31
+          ],
+          [
+            0.05,
+            -0.26
+          ],
+          [
+            0.1,
+            -0.21
+          ],
+          [
+            0.2,
+            -0.18
+          ],
+          [
+            0.82,
+            -0.18
+          ]
+        ],
+        "above": [
+          [
+            0.012,
+            -0.33
+          ],
+          [
+            0.05,
+            -0.28
+          ],
+          [
+            0.1,
+            -0.23
+          ],
+          [
+            0.2,
+            -0.2
+          ],
+          [
+            0.82,
+            -0.2
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          3,
+          5
+        ],
+        "smooth": true
+      },
+      {
+        "name": "teal cheatline, low from the nose, running aft under the windows",
+        "color": "teal",
+        "below": [
+          [
+            0.012,
+            -0.35
+          ],
+          [
+            0.05,
+            -0.3
+          ],
+          [
+            0.1,
+            -0.25
+          ],
+          [
+            0.2,
+            -0.22
+          ],
+          [
+            0.84,
+            -0.22
+          ]
+        ],
+        "above": [
+          [
+            0.012,
+            -0.41
+          ],
+          [
+            0.05,
+            -0.36
+          ],
+          [
+            0.1,
+            -0.31
+          ],
+          [
+            0.2,
+            -0.29
+          ],
+          [
+            0.84,
+            -0.29
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "smooth": true
+      },
+      {
+        "name": "teal tail section under the fin, the cheatline running into it",
+        "color": "teal",
+        "points": [
+          [
+            0.8,
+            -0.29,
+            1
+          ],
+          [
+            0.8,
+            -0.22,
+            1
+          ],
+          [
+            0.83,
+            0.4
+          ],
+          [
+            0.85,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -0.4
+          ],
+          [
+            0.9,
+            -0.33
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          2,
+          4
+        ],
+        "smooth": true
+      }
+    ],
+    "radome": {
+      "color": "silver",
+      "to": 0.02
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "fin": {
+    "base": "silver",
+    "areas": [
+      {
+        "name": "teal lower fin, its top a ridge of three peaks rising aft",
+        "color": "teal",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0.15
+          ],
+          [
+            0.21,
+            0.37
+          ],
+          [
+            0.32,
+            0.27
+          ],
+          [
+            0.47,
+            0.49
+          ],
+          [
+            0.58,
+            0.39
+          ],
+          [
+            0.74,
+            0.61
+          ],
+          [
+            0.86,
+            0.5
+          ],
+          [
+            1,
+            0.53
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "snow cap, forward peak",
+        "color": "snow",
+        "points": [
+          [
+            0.14,
+            0.3
+          ],
+          [
+            0.21,
+            0.37
+          ],
+          [
+            0.26,
+            0.315
+          ],
+          [
+            0.235,
+            0.29
+          ],
+          [
+            0.205,
+            0.31
+          ],
+          [
+            0.18,
+            0.285
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "snow cap, middle peak",
+        "color": "snow",
+        "points": [
+          [
+            0.4,
+            0.41
+          ],
+          [
+            0.47,
+            0.49
+          ],
+          [
+            0.53,
+            0.425
+          ],
+          [
+            0.5,
+            0.4
+          ],
+          [
+            0.47,
+            0.42
+          ],
+          [
+            0.44,
+            0.395
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "snow cap, aft peak",
+        "color": "snow",
+        "points": [
+          [
+            0.67,
+            0.53
+          ],
+          [
+            0.74,
+            0.61
+          ],
+          [
+            0.8,
+            0.545
+          ],
+          [
+            0.77,
+            0.52
+          ],
+          [
+            0.74,
+            0.54
+          ],
+          [
+            0.71,
+            0.515
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "wings": {
+    "top": "silver",
+    "under": "silver",
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3
+    ]
+  },
+  "winglets": {
+    "outer": "silver",
+    "inner": "silver",
+    "confidence": "medium",
+    "sourceRefs": [
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "cowl",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3
+    ]
+  },
+  "logos": [
+    {
+      "mark": "AAL/flight-symbol",
+      "place": "fuselage",
+      "at": [
+        0.198,
+        0.33
+      ],
+      "height": 0.26,
+      "colors": [
+        "flightRed",
+        "flightBlue",
+        "titleGray"
+      ],
+      "description": "American's 2013 flight symbol: a stylised eagle's head and wing in red, light blue and dark blue, ahead of the 'American' title.",
+      "confidence": "high",
+      "sourceRefs": [
+        2,
+        3
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "American",
+      "place": "fuselage",
+      "at": [
+        0.213,
+        0.24
+      ],
+      "height": 0.24,
+      "color": "titleGray",
+      "style": "American's standard title: mixed-case sans, semibold, upright, above the forward windows.",
+      "confidence": "high",
+      "sourceRefs": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "type": {
+        "similar": [
+          "Proxima Nova Semibold",
+          "Gotham Medium"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "length": 0.115
+    }
+  ]
+}

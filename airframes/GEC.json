@@ -1,0 +1,50 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "GEC",
+  "airframes": [
+    {
+      "registration": "D-ALFA",
+      "hex": "3c70c1",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the German register",
+      "type": "B77L",
+      "livery": "standard-1988",
+      "confidence": "medium",
+      "lastSeen": "2025-07-02",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Lufthansa_Cargo_D-ALFA_run_LH8463(Hong_Kong_International_Airport_to_Turkey_Istanbul_Airport)_02-07-2025.jpg",
+          "accessed": "2026-11-13",
+          "note": "Commons photo, 2025-07-02: still in the pre-2018 scheme."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Lufthansa_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Current fleet: 12 777F (July 2026)."
+        }
+      ],
+      "status": "pre-2018 scheme in a 2025-07-02 Commons photo; not seen since."
+    },
+    {
+      "registration": "D-ALFB",
+      "hex": "3c70c2",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the German register",
+      "type": "B77L",
+      "livery": "standard-1988",
+      "confidence": "medium",
+      "lastSeen": "2026-11-14",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Lufthansa_Cargo_D-ALFB_run_LH8471(Hong_Kong_International_Airport_to_Germany_Frankfurt_Airport)_12-03-2025.jpg",
+          "accessed": "2026-11-13",
+          "note": "Commons photo, 2025-03-12: still in the pre-2018 scheme."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Lufthansa_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Current fleet: 12 777F (July 2026)."
+        }
+      ],
+      "status": "pre-2018 scheme in a 2025-03-12 Commons photo; not seen since."
+    }
+  ]
+}

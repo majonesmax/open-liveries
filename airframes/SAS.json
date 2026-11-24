@@ -1,0 +1,27 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "SAS",
+  "airframes": [
+    {
+      "registration": "SE-ROG",
+      "hex": "4ac9e7",
+      "hexSource": "looked up: hexdb.io community database (2026-11-21); not verified against the national register",
+      "type": "A20N",
+      "livery": "standard-1998",
+      "lastSeen": "2026-10-07",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Airbus_A320-251N_(c-n_9089,_SE-ROG)_2026-10-07_Andre_Gerwing_Collection_ID_031334.jpg",
+          "title": "SE-ROG, 2026-10-07 (CC BY-SA 4.0, André Gerwing)",
+          "accessed": "2026-11-21"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Scandinavian_Airlines_System_(SAS)_SE-ROG_Airbus_A320-251N_(neo)_Stockholm-Arlanda_Airport_(ARN_ESSA)_(52712410578).jpg",
+          "title": "SE-ROG at Arlanda, 2023-02-25 (CC BY-SA 2.0, Mitchul Hope)",
+          "accessed": "2026-11-21"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,951 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "silver-1980s",
+  "airline": "WA1926",
+  "name": "Bare metal with the big W (1980s)",
+  "kind": "standard",
+  "from": "1981",
+  "to": "1987-04",
+  "confidence": "medium",
+  "drawnOn": "B733",
+  "description": "Western's last scheme: bare metal, a red-orange band through the windows with a thin navy line under it, from the big W behind the cockpit back to the tail. The W in red-orange edged in navy. A white fin lettered 'Western' in navy on a slant. Bare metal engines.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:4-10-85_Orange_County_N303WA_(52730539918).jpg",
+      "title": "4-10-85 Orange County N303WA (CC BY 2.0, Pete Macklin)",
+      "accessed": "2026-11-23",
+      "note": "737-300 N303WA, right side, side-on, 1985: everything measured on it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:4-10-88_N303WA_Orange_County_(54410236355).jpg",
+      "title": "4-10-88 N303WA Orange County (CC BY 2.0, Pete Macklin)",
+      "accessed": "2026-11-23",
+      "note": "The same jet: the same layout."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Boeing_727-247_Adv_N2810W_Western_Airlines,_Los_Angeles,_July_15_1984._(5529863007).jpg",
+      "title": "Boeing 727-247 Adv N2810W, Los Angeles, July 15 1984 (CC BY-SA 2.0)",
+      "accessed": "2026-11-23",
+      "note": "The same scheme on the 727."
+    }
+  ],
+  "palette": {
+    "metal": {
+      "hex": "#C3C7CC",
+      "name": "bare metal",
+      "official": false
+    },
+    "red": {
+      "hex": "#E0401F",
+      "name": "Western red-orange",
+      "official": false
+    },
+    "navy": {
+      "hex": "#1E2650",
+      "official": false
+    },
+    "white": {
+      "hex": "#F3F3F1",
+      "official": false
+    },
+    "radome": {
+      "hex": "#3A3D44",
+      "official": false
+    }
+  },
+  "finish": "metallic",
+  "fuselage": {
+    "base": "metal",
+    "windows": "plain",
+    "areas": [
+      {
+        "name": "red-orange band through the windows, from the W to the tail",
+        "color": "red",
+        "points": [
+          [
+            0.262,
+            0.278
+          ],
+          [
+            0.332,
+            0.27
+          ],
+          [
+            0.627,
+            0.267
+          ],
+          [
+            0.682,
+            0.252
+          ],
+          [
+            0.762,
+            0.211
+          ],
+          [
+            0.817,
+            0.164
+          ],
+          [
+            0.857,
+            0.112
+          ],
+          [
+            0.892,
+            0.048
+          ],
+          [
+            0.907,
+            0.015
+          ],
+          [
+            0.932,
+            -0.064
+          ],
+          [
+            0.952,
+            -0.136
+          ],
+          [
+            0.962,
+            -0.182
+          ],
+          [
+            0.972,
+            -0.213
+          ],
+          [
+            0.982,
+            -0.257
+          ],
+          [
+            0.987,
+            -0.288
+          ],
+          [
+            0.992,
+            -0.328
+          ],
+          [
+            0.997,
+            -0.39
+          ],
+          [
+            0.997,
+            -1
+          ],
+          [
+            0.927,
+            -1
+          ],
+          [
+            0.922,
+            -0.897
+          ],
+          [
+            0.917,
+            -0.777
+          ],
+          [
+            0.912,
+            -0.705
+          ],
+          [
+            0.907,
+            -0.648
+          ],
+          [
+            0.902,
+            -0.604
+          ],
+          [
+            0.897,
+            -0.569
+          ],
+          [
+            0.887,
+            -0.509
+          ],
+          [
+            0.877,
+            -0.457
+          ],
+          [
+            0.857,
+            -0.373
+          ],
+          [
+            0.837,
+            -0.312
+          ],
+          [
+            0.807,
+            -0.24
+          ],
+          [
+            0.762,
+            -0.168
+          ],
+          [
+            0.722,
+            -0.125
+          ],
+          [
+            0.677,
+            -0.088
+          ],
+          [
+            0.617,
+            -0.062
+          ],
+          [
+            0.422,
+            -0.06
+          ],
+          [
+            0.262,
+            -0.056
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "name": "thin navy line under the band",
+        "color": "navy",
+        "points": [
+          [
+            0.27,
+            -0.057
+          ],
+          [
+            0.62,
+            -0.063
+          ],
+          [
+            0.68,
+            -0.09
+          ],
+          [
+            0.73,
+            -0.133
+          ],
+          [
+            0.765,
+            -0.173
+          ],
+          [
+            0.805,
+            -0.236
+          ],
+          [
+            0.84,
+            -0.32
+          ],
+          [
+            0.855,
+            -0.365
+          ],
+          [
+            0.875,
+            -0.448
+          ],
+          [
+            0.885,
+            -0.498
+          ],
+          [
+            0.895,
+            -0.555
+          ],
+          [
+            0.9,
+            -0.589
+          ],
+          [
+            0.905,
+            -0.63
+          ],
+          [
+            0.91,
+            -0.682
+          ],
+          [
+            0.915,
+            -0.745
+          ],
+          [
+            0.92,
+            -0.837
+          ],
+          [
+            0.925,
+            -1
+          ],
+          [
+            0.995,
+            -1
+          ],
+          [
+            0.995,
+            -1
+          ],
+          [
+            0.915,
+            -1
+          ],
+          [
+            0.905,
+            -0.783
+          ],
+          [
+            0.9,
+            -0.717
+          ],
+          [
+            0.89,
+            -0.629
+          ],
+          [
+            0.875,
+            -0.532
+          ],
+          [
+            0.855,
+            -0.435
+          ],
+          [
+            0.845,
+            -0.4
+          ],
+          [
+            0.82,
+            -0.327
+          ],
+          [
+            0.8,
+            -0.281
+          ],
+          [
+            0.76,
+            -0.214
+          ],
+          [
+            0.72,
+            -0.167
+          ],
+          [
+            0.675,
+            -0.129
+          ],
+          [
+            0.62,
+            -0.103
+          ],
+          [
+            0.27,
+            -0.097
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "radome": {
+      "color": "radome",
+      "to": 0.008
+    },
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "metal",
+    "under": "metal"
+  },
+  "engines": {
+    "cowling": "metal",
+    "inletLip": "metal",
+    "confidence": "medium",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "logos": [
+    {
+      "mark": "WA1926/w-edged",
+      "place": "fuselage",
+      "at": [
+        0.215,
+        -0.19
+      ],
+      "height": 1.0,
+      "colors": [
+        "red",
+        "navy"
+      ],
+      "description": "The big italic W in red-orange edged in navy, behind the cockpit, the band running back from its top.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Western",
+      "place": "fin",
+      "at": [
+        0.45,
+        0.17
+      ],
+      "height": 0.2,
+      "length": 0.8,
+      "rotationDeg": 55,
+      "color": "navy",
+      "style": "Bold sans, upper and lower case, rising steeply across the fin.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Bold",
+          "Arial Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      },
+      "side": "left"
+    },
+    {
+      "text": "Western",
+      "place": "fin",
+      "at": [
+        0.55,
+        0.25
+      ],
+      "height": 0.2,
+      "length": 0.8,
+      "rotationDeg": 55,
+      "color": "navy",
+      "style": "Bold sans, upper and lower case, rising steeply across the fin.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Bold",
+          "Arial Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      },
+      "side": "right"
+    }
+  ],
+  "notes": "Measured 2026-11-23 on 737-300 N303WA (Commons, 1985), checked on 727-200 N2810W (1984). For ghost flights.",
+  "types": {
+    "B722": {
+      "note": "The 727's fin is shorter for its chord, so 'Western' runs shorter along it to fit as on N2810W (1984). The band starts in the W's last stroke, which sits a little farther back on the 727.",
+      "sourceRefs": [
+        2
+      ],
+      "titles": [
+        {
+          "text": "Western",
+          "place": "fin",
+          "at": [
+            0.48,
+            -0.3
+          ],
+          "height": 0.32,
+          "length": 0.52,
+          "rotationDeg": 40,
+          "color": "navy",
+          "style": "Bold sans, upper and lower case, rising steeply across the fin.",
+          "confidence": "medium",
+          "sourceRefs": [
+            2
+          ],
+          "type": {
+            "similar": [
+              "Helvetica Bold",
+              "Arial Bold"
+            ],
+            "weight": 700,
+            "slantDeg": 0,
+            "width": "normal",
+            "strokes": "uniform",
+            "case": "mixed"
+          },
+          "side": "left"
+        },
+        {
+          "text": "Western",
+          "place": "fin",
+          "at": [
+            0.6,
+            -0.25
+          ],
+          "height": 0.32,
+          "length": 0.52,
+          "rotationDeg": 40,
+          "color": "navy",
+          "style": "Bold sans, upper and lower case, rising steeply across the fin.",
+          "confidence": "medium",
+          "sourceRefs": [
+            2
+          ],
+          "type": {
+            "similar": [
+              "Helvetica Bold",
+              "Arial Bold"
+            ],
+            "weight": 700,
+            "slantDeg": 0,
+            "width": "normal",
+            "strokes": "uniform",
+            "case": "mixed"
+          },
+          "side": "right"
+        }
+      ],
+      "fuselage": {
+        "areas": [
+          {
+            "name": "red-orange band through the windows, from the W to the tail",
+            "color": "red",
+            "points": [
+              [
+                0.252,
+                0.26
+              ],
+              [
+                0.332,
+                0.262
+              ],
+              [
+                0.387,
+                0.28
+              ],
+              [
+                0.492,
+                0.263
+              ],
+              [
+                0.507,
+                0.267
+              ],
+              [
+                0.552,
+                0.264
+              ],
+              [
+                0.562,
+                0.266
+              ],
+              [
+                0.587,
+                0.258
+              ],
+              [
+                0.707,
+                0.237
+              ],
+              [
+                0.742,
+                0.222
+              ],
+              [
+                0.772,
+                0.228
+              ],
+              [
+                0.792,
+                0.247
+              ],
+              [
+                0.872,
+                0.31
+              ],
+              [
+                0.882,
+                0.324
+              ],
+              [
+                0.902,
+                0.368
+              ],
+              [
+                0.917,
+                0.38
+              ],
+              [
+                0.937,
+                0.39
+              ],
+              [
+                0.947,
+                0.436
+              ],
+              [
+                0.957,
+                0.504
+              ],
+              [
+                0.967,
+                0.557
+              ],
+              [
+                0.977,
+                0.631
+              ],
+              [
+                0.982,
+                0.685
+              ],
+              [
+                0.987,
+                0.757
+              ],
+              [
+                0.997,
+                1
+              ],
+              [
+                0.997,
+                -1
+              ],
+              [
+                0.967,
+                -1
+              ],
+              [
+                0.962,
+                -0.882
+              ],
+              [
+                0.957,
+                -0.737
+              ],
+              [
+                0.952,
+                -0.652
+              ],
+              [
+                0.947,
+                -0.587
+              ],
+              [
+                0.942,
+                -0.539
+              ],
+              [
+                0.932,
+                -0.458
+              ],
+              [
+                0.922,
+                -0.393
+              ],
+              [
+                0.912,
+                -0.34
+              ],
+              [
+                0.902,
+                -0.298
+              ],
+              [
+                0.892,
+                -0.269
+              ],
+              [
+                0.862,
+                -0.209
+              ],
+              [
+                0.827,
+                -0.161
+              ],
+              [
+                0.777,
+                -0.135
+              ],
+              [
+                0.727,
+                -0.106
+              ],
+              [
+                0.692,
+                -0.087
+              ],
+              [
+                0.577,
+                -0.068
+              ],
+              [
+                0.562,
+                -0.058
+              ],
+              [
+                0.552,
+                -0.062
+              ],
+              [
+                0.497,
+                -0.062
+              ],
+              [
+                0.382,
+                -0.053
+              ],
+              [
+                0.332,
+                -0.086
+              ],
+              [
+                0.252,
+                -0.088
+              ]
+            ],
+            "confidence": "medium",
+            "sourceRefs": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "name": "thin navy line under the band",
+            "color": "navy",
+            "points": [
+              [
+                0.27,
+                -0.088
+              ],
+              [
+                0.33,
+                -0.087
+              ],
+              [
+                0.385,
+                -0.053
+              ],
+              [
+                0.5,
+                -0.062
+              ],
+              [
+                0.55,
+                -0.064
+              ],
+              [
+                0.56,
+                -0.056
+              ],
+              [
+                0.575,
+                -0.067
+              ],
+              [
+                0.69,
+                -0.086
+              ],
+              [
+                0.725,
+                -0.104
+              ],
+              [
+                0.77,
+                -0.133
+              ],
+              [
+                0.805,
+                -0.148
+              ],
+              [
+                0.83,
+                -0.162
+              ],
+              [
+                0.865,
+                -0.215
+              ],
+              [
+                0.89,
+                -0.264
+              ],
+              [
+                0.905,
+                -0.31
+              ],
+              [
+                0.92,
+                -0.383
+              ],
+              [
+                0.93,
+                -0.443
+              ],
+              [
+                0.935,
+                -0.479
+              ],
+              [
+                0.945,
+                -0.565
+              ],
+              [
+                0.95,
+                -0.623
+              ],
+              [
+                0.955,
+                -0.694
+              ],
+              [
+                0.96,
+                -0.809
+              ],
+              [
+                0.965,
+                -1
+              ],
+              [
+                0.995,
+                -1
+              ],
+              [
+                0.995,
+                -1
+              ],
+              [
+                0.95,
+                -1
+              ],
+              [
+                0.945,
+                -0.801
+              ],
+              [
+                0.94,
+                -0.705
+              ],
+              [
+                0.935,
+                -0.637
+              ],
+              [
+                0.93,
+                -0.582
+              ],
+              [
+                0.92,
+                -0.499
+              ],
+              [
+                0.91,
+                -0.435
+              ],
+              [
+                0.9,
+                -0.383
+              ],
+              [
+                0.89,
+                -0.347
+              ],
+              [
+                0.86,
+                -0.274
+              ],
+              [
+                0.83,
+                -0.218
+              ],
+              [
+                0.805,
+                -0.199
+              ],
+              [
+                0.775,
+                -0.182
+              ],
+              [
+                0.725,
+                -0.146
+              ],
+              [
+                0.69,
+                -0.127
+              ],
+              [
+                0.575,
+                -0.108
+              ],
+              [
+                0.56,
+                -0.096
+              ],
+              [
+                0.55,
+                -0.104
+              ],
+              [
+                0.505,
+                -0.102
+              ],
+              [
+                0.38,
+                -0.094
+              ],
+              [
+                0.33,
+                -0.13
+              ],
+              [
+                0.27,
+                -0.131
+              ]
+            ],
+            "confidence": "medium",
+            "sourceRefs": [
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

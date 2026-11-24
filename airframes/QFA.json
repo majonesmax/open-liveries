@@ -1,0 +1,31 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "QFA",
+  "airframes": [
+    {
+      "registration": "VH-ZND",
+      "livery": "emily-kame-kngwarreye",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://worldairlinenews.com/2018/02/14/qantas-unveils-its-yam-dreaming-special-livery-on-dreamliner-vh-znd/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://airlinegeeks.com/2023/10/20/livery-of-the-week-qantas-emily-kame-kngwarreye-dreamliner/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:VH-ZND_(aircraft)",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "7c8067",
+      "hexSource": "looked up: hexdb.io community database (2026-11-12); not verified against the national register",
+      "type": "B789",
+      "from": "2018-02",
+      "lastSeen": "2025-04-13",
+      "status": "active: Commons photo departing Sydney 13 Apr 2025."
+    }
+  ]
+}

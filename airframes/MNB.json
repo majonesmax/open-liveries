@@ -1,0 +1,27 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "MNB",
+  "airframes": [
+    {
+      "registration": "TC-MCM",
+      "hex": "4bb46d",
+      "hexSource": "looked up: hexdb.io community database (2026-11-22); not verified against the national register",
+      "type": "A333",
+      "livery": "white",
+      "lastSeen": "2024-01-13",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:TC-MCM_(13_Jan_2024).jpg",
+          "title": "TC-MCM at Hong Kong, 2024-01-13 (CC0, Dltl2010)",
+          "accessed": "2026-11-22"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:TC-MCM_JFK_Landing_4R_MB_A330_343_F_25_Years_Small_(52554424120).png",
+          "title": "TC-MCM at JFK, 2022-12-10 (CC BY-SA 2.0, Mark Bess)",
+          "accessed": "2026-11-22"
+        }
+      ]
+    }
+  ]
+}

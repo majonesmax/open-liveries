@@ -1,0 +1,472 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "CEB",
+  "name": "2015 livery",
+  "kind": "standard",
+  "from": "2015",
+  "confidence": "medium",
+  "drawnOn": "A21N",
+  "description": "White upper fuselage over a yellow lower body whose edge waves from under the cockpit to the wing and up to the window line aft; the logo's bird in green and sky blue swept over the rear fuselage, the tail cone blue underneath; a yellow fin with a white sweep down its trailing half; big blue lower-case 'cebu pacific' titles, repeated on the belly.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Cebu_Pacific",
+      "accessed": "2026-11-13",
+      "note": "New logo revealed 1 June 2015; first A320 in the new livery delivered 22 January 2016; RP-C4101, the last aircraft in the 2005 livery, left the fleet in September 2026."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:RP-C4121_-_Airbus_A321-271NX_-_Cebu_Pacific_SIN_220325.jpg",
+      "title": "RP-C4121 - Airbus A321-271NX - Cebu Pacific SIN 220325 (CC BY 2.0)",
+      "accessed": "2026-11-13",
+      "note": "A321neo from the left and below, 2025-03-22: the yellow edge, rear-fuselage bird, fin, belly title, engines, sharklets."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:RP-C4125_CRK_2025-11-02.jpg",
+      "title": "RP-C4125 CRK 2025-11-02 (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "A321neo from the right, 2025-11-02: the right side, the fin's white sweep reversed."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:RP-C3901_NRT_2026-05-16.jpg",
+      "title": "RP-C3901 NRT 2026-05-16 (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "A330neo from the left rear, 2026-05-16: the same scheme on the widebodies."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F5",
+      "official": false
+    },
+    "yellow": {
+      "hex": "#EFC22B",
+      "official": false
+    },
+    "green": {
+      "hex": "#16A083",
+      "official": false
+    },
+    "sky": {
+      "hex": "#3FA9DC",
+      "official": false
+    },
+    "titleBlue": {
+      "hex": "#2F80C8",
+      "official": false
+    },
+    "cowl": {
+      "hex": "#E4E6E8",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "name": "bare metal inlet lip",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B4B9C0",
+      "official": false
+    },
+    "phRed": {
+      "hex": "#CE1126",
+      "official": false
+    },
+    "phBlue": {
+      "hex": "#0038A8",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "yellow lower body, waving up under the cockpit and to the window line aft, all yellow over the tail",
+        "color": "yellow",
+        "points": [
+          [
+            0.02,
+            -1
+          ],
+          [
+            0.02,
+            -0.5
+          ],
+          [
+            0.04,
+            -0.27
+          ],
+          [
+            0.07,
+            -0.1
+          ],
+          [
+            0.1,
+            -0.06
+          ],
+          [
+            0.14,
+            -0.1
+          ],
+          [
+            0.3,
+            -0.17
+          ],
+          [
+            0.45,
+            -0.2
+          ],
+          [
+            0.58,
+            -0.14
+          ],
+          [
+            0.66,
+            -0.04
+          ],
+          [
+            0.72,
+            0.1
+          ],
+          [
+            0.765,
+            0.4
+          ],
+          [
+            0.8,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ],
+        "smooth": true
+      },
+      {
+        "name": "sky-blue sweep from behind the bird's head into the tail cone's lower half",
+        "color": "sky",
+        "points": [
+          [
+            0.785,
+            0.22
+          ],
+          [
+            0.83,
+            0.16
+          ],
+          [
+            0.88,
+            0.06
+          ],
+          [
+            0.95,
+            0.04
+          ],
+          [
+            1,
+            0.08
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            0.9,
+            -1
+          ],
+          [
+            0.86,
+            -0.62
+          ],
+          [
+            0.82,
+            -0.32
+          ],
+          [
+            0.795,
+            -0.05
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ],
+        "smooth": true
+      },
+      {
+        "name": "yellow streak inside the blue",
+        "color": "yellow",
+        "points": [
+          [
+            0.8,
+            -0.02
+          ],
+          [
+            0.87,
+            -0.2
+          ],
+          [
+            0.95,
+            -0.3
+          ],
+          [
+            0.9,
+            -0.34
+          ],
+          [
+            0.82,
+            -0.16
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1
+        ],
+        "smooth": true
+      },
+      {
+        "name": "the bird: green head curling forward above the windows, its neck sweeping down and aft to the belly",
+        "color": "green",
+        "points": [
+          [
+            0.718,
+            0.08
+          ],
+          [
+            0.73,
+            0.33
+          ],
+          [
+            0.76,
+            0.5
+          ],
+          [
+            0.8,
+            0.48
+          ],
+          [
+            0.79,
+            0.4
+          ],
+          [
+            0.765,
+            0.36
+          ],
+          [
+            0.758,
+            0.2
+          ],
+          [
+            0.772,
+            0.0
+          ],
+          [
+            0.8,
+            -0.4
+          ],
+          [
+            0.828,
+            -0.78
+          ],
+          [
+            0.807,
+            -0.82
+          ],
+          [
+            0.78,
+            -0.45
+          ],
+          [
+            0.748,
+            -0.1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ],
+        "smooth": true
+      }
+    ],
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2,
+      3
+    ]
+  },
+  "fin": {
+    "base": "yellow",
+    "areas": [
+      {
+        "name": "white sweep down the trailing half, from the tip to the rudder's root",
+        "color": "white",
+        "points": [
+          [
+            0.35,
+            1
+          ],
+          [
+            0.85,
+            1
+          ],
+          [
+            0.9,
+            0.5
+          ],
+          [
+            1,
+            0.22
+          ],
+          [
+            1,
+            0.1
+          ],
+          [
+            0.9,
+            0.26
+          ],
+          [
+            0.75,
+            0.5
+          ],
+          [
+            0.55,
+            0.8
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ],
+        "smooth": true
+      }
+    ],
+    "mirrored": false,
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "yellow",
+    "inner": "yellow",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "cowl",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "CEB/ph-flag",
+      "place": "fuselage",
+      "at": [
+        0.085,
+        0.27
+      ],
+      "height": 0.08,
+      "colors": [
+        "phBlue",
+        "phRed",
+        "white",
+        "#FCD116"
+      ],
+      "description": "A small Philippine flag aft of the cockpit windows, below the first officer's window.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Philippines.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "cebu pacific",
+      "place": "fuselage",
+      "at": [
+        0.14,
+        0.06
+      ],
+      "height": 0.58,
+      "color": "titleBlue",
+      "style": "The Cebu Pacific wordmark: big, round, lower-case geometric sans in mid blue, ascenders high over the window line, from just aft of the forward door to over the wing.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Museo Sans Rounded 700",
+          "Nunito ExtraBold",
+          "Avenir Next Rounded Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.72
+      },
+      "length": 0.26
+    },
+    {
+      "text": "cebu pacific",
+      "place": "belly",
+      "at": [
+        0.36,
+        -1
+      ],
+      "height": 0.4,
+      "color": "titleBlue",
+      "style": "The wordmark again on the yellow belly, read from below, between the wing and the nose.",
+      "confidence": "low",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "Museo Sans Rounded 700",
+          "Nunito ExtraBold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.72
+      },
+      "length": 0.25
+    }
+  ],
+  "notes": "Drawn from 2025-2026 photos of A321neos and an A330neo. The fin's white sweep is painted as one artwork seen through the fin: trailing half at the tip on the left side, leading half on the right (mirrored false). The bird's head faces forward on both sides. The belly is seen only obliquely: the yellow is taken to run under the whole fuselage, and the belly title's exact place and size are approximate. Exact brand colors are not published; all colors by eye. Re-checked 2026-11-15 on RP-C4121 (left, from below; placed between the forward and aft doors): the title runs about x 0.14 to 0.40, starting just aft of the forward door (lowercase 0.72 of the ascenders); the belly title about as long (0.25, low). RP-C4125's right side is too far off and too blurred to measure. The yellow's waving edge, the bird's sweeps and the fin's white sweep are curves: smooth.",
+  "history": "Replaces Skyarium v1's approximation. The 2015 livery replaced the 2005 scheme (white with yellow and blue); RP-C4101, the last aircraft in it, left the fleet in September 2026."
+}

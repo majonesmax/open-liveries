@@ -1,0 +1,370 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "UAL",
+  "airframes": [
+    {
+      "registration": "N14102",
+      "livery": "her-art-here-new-york-new",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://airlinegeeks.com/?p=78675",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://united.mediaroom.com/2019-10-13-California-themed-United-Airlines-Plane-Soars-into-The-Friendly-Skies",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "a0a8da",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "B752",
+      "from": "2019-09",
+      "to": "2025-02",
+      "lastSeen": "2025-02-06",
+      "status": "retired: AirlineGeeks 6 Feb 2025: N14102 left the Amarillo paint shop 5 Feb 2025 in standard Evo Blue."
+    },
+    {
+      "registration": "N14106",
+      "livery": "her-art-here-california",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://airlinegeeks.com/?p=78675",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N14106_(aircraft)",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "a0a8de",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "B752",
+      "from": "2019-10",
+      "to": "2025",
+      "lastSeen": "2026-02-27",
+      "status": "retired: AirlineGeeks Feb 2025: in Amarillo for repaint; Commons photo 27 Feb 2026 at LAX shows standard United livery."
+    },
+    {
+      "registration": "N475UA",
+      "livery": "friend-ship",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://simpleflying.com/united-airlines-friendship-airbus-a320-guide/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N475UA_(aircraft)",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "a5d570",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "A320",
+      "from": "2010",
+      "lastSeen": "2026-04-03",
+      "status": "active: Commons photo dated 3 Apr 2026; Simple Flying (Mar 2025) says it was repainted (refreshed) in 2024 and still flies the retro colors."
+    },
+    {
+      "registration": "N75435",
+      "livery": "continental-skystreamer-blue-skyway-retro",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N75435_(aircraft)",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://www.airhistory.net/photo/478408/N75435",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "aa2bc4",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "B739",
+      "from": "2020",
+      "lastSeen": "2026-03-13",
+      "status": "active: Commons photos 28 Aug 2025 (BWI) and 13 Mar 2026."
+    },
+    {
+      "registration": "N78285",
+      "livery": "stars-and-stripes",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://simpleflying.com/united-airlines-stunning-boeing-737-787-america-250-liveries/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://airlinegeeks.com/?p=100376",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "aa9b82",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "B738",
+      "from": "2026-06",
+      "lastSeen": "2026-06-15",
+      "status": "active (presumed): Unveiled at IAD 15 Jun 2026 (Simple Flying, AirlineGeeks). No later photo found."
+    },
+    {
+      "registration": "N91007",
+      "livery": "stars-and-stripes",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://simpleflying.com/united-airlines-stunning-boeing-737-787-america-250-liveries/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N91007_(aircraft)",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://airlinegeeks.com/?p=100376",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "ac9923",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "B78X",
+      "from": "2026-06",
+      "lastSeen": "2026-08-12",
+      "status": "active: Unveiled at IAD 15 Jun 2026; Commons photo 12 Aug 2026."
+    },
+    {
+      "registration": "N14219",
+      "livery": "star-alliance",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://www.airhistory.net/photo/551390",
+          "title": "AirHistory.net photo 551390 (N14219 in the Star Alliance scheme)",
+          "accessed": "2026-11-22",
+          "note": "Evidence the airframe wears it, as cited on 2026-11-22 (the site refuses automated reads); not measured from."
+        }
+      ],
+      "hex": "a0acbb",
+      "hexSource": "derived from the N-number (tools/nnumber.py), 2026-11-22",
+      "type": "B738",
+      "lastSeen": "2026-11-22",
+      "status": "active: the maintainer caught it 2026-11-22 (drawn as United's standard then); AirHistory.net and FlightAware photos show it in the Star Alliance scheme. No openly licensed photo of it in this scheme yet (Commons' newest, 2015, are the 2010 scheme): drawn from its sisters N76516 and N26210."
+    },
+    {
+      "registration": "N26210",
+      "livery": "star-alliance",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N26210_(Boeing_737)_(aircraft)",
+          "accessed": "2026-11-22"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Boeing_737-824(WL)_(N26210,_msn_28770,_ln_056)_(6-21-2025).jpg",
+          "title": "Boeing 737-824(WL) (N26210, msn 28770, ln 056) (6-21-2025).jpg (CC BY-SA 4.0)",
+          "accessed": "2026-11-22",
+          "note": "Denver, 2025-06-21."
+        }
+      ],
+      "hex": "a288ff",
+      "hexSource": "derived from the N-number (tools/nnumber.py), 2026-11-22",
+      "type": "B738",
+      "lastSeen": "2025-06-21",
+      "status": "active: Commons photo 21 Jun 2025."
+    },
+    {
+      "registration": "N76516",
+      "livery": "star-alliance",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N76516_(aircraft)",
+          "accessed": "2026-11-22"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:United_Airlines_Boeing_737-800_N76516_departing_Boston_May_2025.jpg",
+          "title": "United Airlines Boeing 737-800 N76516 departing Boston May 2025.jpg (CC BY 4.0)",
+          "accessed": "2026-11-22",
+          "note": "Boston, 2025-05-11."
+        }
+      ],
+      "hex": "aa56b5",
+      "hexSource": "derived from the N-number (tools/nnumber.py), 2026-11-22",
+      "type": "B738",
+      "lastSeen": "2025-05-11",
+      "status": "active: Commons photo 11 May 2025."
+    },
+    {
+      "registration": "N14120",
+      "livery": "star-alliance",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N14120_(aircraft)",
+          "accessed": "2026-11-22"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N14120_B757-200,_United_(Star_Alliance),_Las_Vegas_02-08-24_(55180720383).jpg",
+          "title": "N14120 B757-200, United (Star Alliance), Las Vegas 02-08-24 (55180720383).jpg (CC BY 4.0)",
+          "accessed": "2026-11-22",
+          "note": "Las Vegas, 2024-02-08."
+        }
+      ],
+      "hex": "a0a91e",
+      "hexSource": "derived from the N-number (tools/nnumber.py), 2026-11-22",
+      "type": "B752",
+      "lastSeen": "2024-02-08",
+      "status": "active (presumed): Commons photo 8 Feb 2024, none newer."
+    },
+    {
+      "registration": "N218UA",
+      "livery": "star-alliance",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N218UA_(aircraft)",
+          "accessed": "2026-11-22"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:United_Boeing_777-200ER_N218UA_MD1.jpg",
+          "title": "United Boeing 777-200ER N218UA MD1.jpg (CC BY-SA 4.0)",
+          "accessed": "2026-11-22",
+          "note": "2026-07-01."
+        }
+      ],
+      "hex": "a1d8fd",
+      "hexSource": "derived from the N-number (tools/nnumber.py), 2026-11-22",
+      "type": "B772",
+      "lastSeen": "2026-07-01",
+      "status": "active: Commons photos 19 Apr and 1 Jul 2026."
+    },
+    {
+      "registration": "N76021",
+      "livery": "star-alliance",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N76021_(aircraft)",
+          "accessed": "2026-11-22"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N76021%40PEK_(20250929162656).jpg",
+          "title": "N76021@PEK (20250929162656).jpg (CC BY-SA 4.0)",
+          "accessed": "2026-11-22",
+          "note": "Beijing, 2025-09-29."
+        }
+      ],
+      "hex": "aa4440",
+      "hexSource": "derived from the N-number (tools/nnumber.py), 2026-11-22",
+      "type": "B772",
+      "lastSeen": "2025-09-29",
+      "status": "active: Commons photo 29 Sep 2025."
+    },
+    {
+      "registration": "N77022",
+      "livery": "star-alliance",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N77022_(aircraft)",
+          "accessed": "2026-11-22"
+        }
+      ],
+      "hex": "aa6bc0",
+      "hexSource": "derived from the N-number (tools/nnumber.py), 2026-11-22",
+      "type": "B772",
+      "lastSeen": "2025-01-24",
+      "status": "active: Commons photo at Hong Kong 24 Jan 2025."
+    },
+    {
+      "registration": "N78017",
+      "livery": "star-alliance",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N78017_(Star_Alliance_livery)",
+          "accessed": "2026-11-22"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N78017_HND_2026-05-20.jpg",
+          "title": "N78017 HND 2026-05-20.jpg (CC BY-SA 4.0)",
+          "accessed": "2026-11-22",
+          "note": "Haneda, 2026-05-20."
+        }
+      ],
+      "hex": "aa9321",
+      "hexSource": "derived from the N-number (tools/nnumber.py), 2026-11-22",
+      "type": "B772",
+      "lastSeen": "2026-05-20",
+      "status": "active: Commons photo 20 May 2026."
+    },
+    {
+      "registration": "N794UA",
+      "livery": "star-alliance",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N794UA_(aircraft)",
+          "accessed": "2026-11-22"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N794UA.jpg",
+          "title": "N794UA.jpg (CC BY-SA 4.0)",
+          "accessed": "2026-11-22",
+          "note": "2026-08-22."
+        }
+      ],
+      "hex": "aac8a4",
+      "hexSource": "derived from the N-number (tools/nnumber.py), 2026-11-22",
+      "type": "B772",
+      "lastSeen": "2026-08-22",
+      "status": "active: Commons photo 22 Aug 2026."
+    },
+    {
+      "registration": "N653UA",
+      "livery": "star-alliance",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N653UA_(aircraft)",
+          "accessed": "2026-11-22"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Boeing_767-322_ER.jpg",
+          "title": "Boeing 767-322 ER.jpg (CC BY-SA 4.0)",
+          "accessed": "2026-11-22",
+          "note": "N653UA, 2025-08-20."
+        }
+      ],
+      "hex": "a899a2",
+      "hexSource": "derived from the N-number (tools/nnumber.py), 2026-11-22",
+      "type": "B763",
+      "lastSeen": "2025-08-20",
+      "status": "active: Commons photo 20 Aug 2025."
+    },
+    {
+      "registration": "N76055",
+      "livery": "star-alliance",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N76055_(aircraft)",
+          "accessed": "2026-11-22"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N76055_at_DBV_20261017.jpg",
+          "title": "N76055 at DBV 20261017.jpg (CC BY 4.0)",
+          "accessed": "2026-11-22",
+          "note": "Dubrovnik, 2026-10-17."
+        }
+      ],
+      "hex": "aa44ad",
+      "hexSource": "derived from the N-number (tools/nnumber.py), 2026-11-22",
+      "type": "B764",
+      "lastSeen": "2026-10-17",
+      "status": "active: Commons photo 17 Oct 2026."
+    }
+  ]
+}

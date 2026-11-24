@@ -1,0 +1,267 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "LHX",
+  "name": "Lufthansa City (2018 livery)",
+  "kind": "standard",
+  "from": "2024-06",
+  "confidence": "medium",
+  "drawnOn": "A20N",
+  "description": "Lufthansa's 2018 livery with the title 'Lufthansa City': 'Lufthansa' in dark blue and 'City' in a lighter blue, over the forward windows. Otherwise as Lufthansa: white fuselage, dark-blue fin and rear fuselage on a straight diagonal, the white crane in a ring on the fin.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Lufthansa_City_Airlines",
+      "accessed": "2026-11-13",
+      "note": "ICAO LHX, callsign CITYAIR; brand 'Lufthansa City'; A319, A320neo, A220-300 on order."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A320-271N_(c-n_12656,_D-AIJR)_2026-06-09_Andre_Gerwing_Collection_ID_029506.jpg",
+      "title": "Airbus A320-271N D-AIJR, 2026-06-09 (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Left side from below: 'Lufthansa City' titles, blue block, fin crane."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:Current_Airbus_A320neo_of_Lufthansa_City_Airlines",
+      "accessed": "2026-11-13"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A320-271N_(c-n_9229,_D-AINX)_2025-03-18_Andre_Gerwing_Collection_ID_023133.jpg",
+      "title": "Lufthansa A320neo D-AINX, 2025-03-18 (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "The parent scheme's geometry, drawn from this for Lufthansa."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F6",
+      "official": false
+    },
+    "blue": {
+      "hex": "#05164D",
+      "name": "Lufthansa Blue",
+      "official": false
+    },
+    "yellow": {
+      "hex": "#FFAD00",
+      "name": "Lufthansa Yellow",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    },
+    "cityBlue": {
+      "hex": "#3A78D0",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "blue tail block, its forward edge a straight diagonal from the fin's leading edge to the belly",
+        "color": "blue",
+        "points": [
+          [
+            0.8,
+            1
+          ],
+          [
+            0.797,
+            0.83
+          ],
+          [
+            0.786,
+            0.47
+          ],
+          [
+            0.779,
+            0.3
+          ],
+          [
+            0.771,
+            0.187
+          ],
+          [
+            0.759,
+            0.0
+          ],
+          [
+            0.745,
+            -0.192
+          ],
+          [
+            0.738,
+            -0.3
+          ],
+          [
+            0.725,
+            -0.5
+          ],
+          [
+            0.715,
+            -0.65
+          ],
+          [
+            0.71,
+            -0.79
+          ],
+          [
+            0.705,
+            -1
+          ],
+          [
+            0.94,
+            -1
+          ],
+          [
+            0.94,
+            1
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          1,
+          2
+        ],
+        "smooth": true
+      }
+    ],
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      3
+    ]
+  },
+  "fin": {
+    "base": "blue",
+    "mirrored": true,
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      3
+    ]
+  },
+  "winglets": {
+    "outer": "white",
+    "inner": "white",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      3
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      3
+    ]
+  },
+  "logos": [
+    {
+      "mark": "DLH/crane-ring",
+      "place": "fin",
+      "at": [
+        0.52,
+        0.3
+      ],
+      "height": 0.46,
+      "colors": [
+        "white"
+      ],
+      "description": "The Lufthansa crane (Kranich): a stylised flying crane, wings raised in a V, neck stretched forward, inside a thin ring; white line art on the dark blue.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Lufthansa_Logo_2018.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        3
+      ]
+    },
+    {
+      "mark": "DLH/crane-ring",
+      "place": "fuselage",
+      "at": [
+        0.08,
+        0.0
+      ],
+      "height": 0.26,
+      "colors": [
+        "blue"
+      ],
+      "description": "Small dark-blue crane in a ring under the cockpit windows.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Lufthansa_Logo_2018.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        3
+      ]
+    },
+    {
+      "mark": "DLH/crane-ring",
+      "place": "winglets",
+      "at": [
+        0.5,
+        0.75
+      ],
+      "height": 0.2,
+      "colors": [
+        "blue"
+      ],
+      "description": "Small dark-blue crane in a ring near the top of the sharklet's outer face.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Lufthansa_Logo_2018.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        3
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Lufthansa City",
+      "place": "fuselage",
+      "at": [
+        0.16,
+        0.24
+      ],
+      "height": 0.42,
+      "color": "blue",
+      "parts": [
+        {
+          "text": "Lufthansa",
+          "color": "blue"
+        },
+        {
+          "text": " City",
+          "color": "cityBlue"
+        }
+      ],
+      "style": "Lufthansa Head: a bold, slightly tight grotesque, mixed case, upright, over the forward windows.",
+      "confidence": "high",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "official": "Lufthansa Head",
+        "similar": [
+          "Helvetica Neue Bold",
+          "Arial Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.7
+      },
+      "length": 0.241
+    }
+  ],
+  "notes": "Geometry follows Lufthansa's 2018 livery (DLH/standard); only the title differs. Not drawn: type and city name small under the windows, registration and flags ahead of the blue block, 'Member of Lufthansa Group'. Re-checked 2026-11-15: the blue block's forward edge now follows Lufthansa's as re-measured on the A320 in the 2026-11-15 pilot (a curve meeting the crown at x 0.8, smooth); the same paint is applied to the same A320neo airframes, and D-AIJR (2026-06-09) shows it so, though too obliquely to re-measure. The title (x 0.16-0.40, crossing the windows' top) agrees with D-AIJR; lowercase ~0.70 of the capitals.",
+  "history": "New in the dataset; Lufthansa City Airlines began scheduled flights on 26 June 2024 (Wikipedia). The 'Lufthansa City' title came with the later public brand name; its first paint date isn't confirmed here."
+}

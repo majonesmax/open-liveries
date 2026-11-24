@@ -1,0 +1,124 @@
+{
+  "_about": "A220-100, from the Airbus A220 Aircraft Characteristics Publication (BD500-3AB48-13800-00, Issue 013-01), A220-100 General aircraft dimensions sheets 2 (side: page index 73) and 1 (plan, front: page index 72). Vector line art in a pale yellow fill (layers.py --mode strokes-in-fill), line centres. Unlike the A220-300's, these sheets aren't squeezed: one scale (the printed 34.98 m length) fits the side's height and the plan's span and width within 0.3%. The A220-300's points moved by its two plugs (plug.py), the parts this different drawing places differently re-placed. The overwing exit isn't drawn: it's placed from the door-distance figure (Figure 11, page index 100: 13.11 m to its forward edge, as the figure's other distances are to the doors' forward edges), 0.61 m wide as its outline is in the photos, as tall as the A220-300's. Cabin windows: not drawn; measured on Wikimedia Commons photos (the shape's sources).",
+  "out": "../../../../shapes/BCS1.json",
+  "length": 34.976,
+  "wingtip": "winglet",
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "refs": {
+    "side": {
+      "nose": 102.5,
+      "tail": 3229.5,
+      "cowlEnd": 1310
+    },
+    "plan": {
+      "nose": 59.5,
+      "centerline": 1640.5
+    },
+    "front": {
+      "centerline": 1704.5,
+      "crownTop": 629.5
+    }
+  },
+  "windows": {
+    "x": [
+      6.64, 7.18, 7.716, 8.253, 8.79, 9.327, 9.859, 10.396, 10.933, 11.47, 12.002, 12.543, 14.448, 15.348, 15.966,
+      16.498, 17.031, 17.564, 18.097, 18.63, 19.162, 19.695, 20.234, 20.768, 21.297, 21.825, 22.36, 22.892, 23.459,
+      23.991, 24.573, 25.101
+    ],
+    "atExits": true,
+    "width": 0.32,
+    "z": [0.37, 0.78],
+    "note": "Measured on two side-on Wikimedia Commons photos of the left side (N124DU and N145DQ, the shape's sources), scaled between the two doors' middles: they agree within 2 cm. 12 windows from 1.31 m behind door 1's middle at a 0.537 m pitch, the exit's own window, two more 0.95 and 0.90 m apart, then 18 at about 0.533 m (two gaps of 0.57 and 0.58 m near the back) to 0.65 m ahead of the aft door; the 7 the wing hides in both photos placed at that pitch, the count from a photo of the right side where they show (HB-JBI). The band and width are the panes', the band evened out from the photos' view from below (about 9 degrees, from the doors' drawn top and bottom)."
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [538, 662, 620, 837]
+    },
+    {
+      "kind": "exit",
+      "box": [1275, 691, 1329, 773]
+    },
+    {
+      "kind": "door",
+      "box": [2405, 667, 2484, 837]
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [310, 718],
+      [314, 718],
+      [316, 720],
+      [289, 747],
+      [281, 753],
+      [267, 759],
+      [252, 761],
+      [222, 769],
+      [219, 767],
+      [279, 726],
+      [288, 722]
+    ],
+    [
+      [335, 718],
+      [366, 719],
+      [370, 720],
+      [377, 726],
+      [379, 730],
+      [380, 750],
+      [377, 756],
+      [372, 761],
+      [355, 767],
+      [339, 768],
+      [303, 761],
+      [297, 759],
+      [294, 756],
+      [295, 753],
+      [325, 723]
+    ]
+  ],
+  "printed": {
+    "fuselage length": 34.976,
+    "fuselage height": 3.721,
+    "fuselage width": 3.505,
+    "wingspan": 35.077,
+    "tailplane span": 12.268,
+    "engine inlet from the nose": 10.033
+  },
+  "meta": {
+    "id": "BCS1",
+    "name": "Airbus A220-100",
+    "types": ["BCS1"],
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://mediaassets.airbus.com/pm_38_945_945825-4xwkn1oo4y.pdf?fileName=a220-aircraft-characteristics-publication-acp-oct-2026.pdf",
+        "title": "Airbus, A220 Aircraft Characteristics Publication (BD500-3AB48-13800-00, Issue 013-01, 2026-10-29), A220-100 Aircraft description: Figure 1 General aircraft dimensions; Figure 11 Door distance from nose",
+        "accessed": "2026-11-15",
+        "note": "Dimensions and outlines read off the side, plan and front views (tools/trace/bcs1/); the figures are the aircraft's measurements, not a copy of the drawing. The A220-100's sheets are drawn to one scale both ways; the A220-300's points were moved by its fuselage plugs (2.16 m ahead of the wing, 1.55 m behind it, from the two types' printed door and wing distances) and snapped onto them. No cabin windows drawn: they're from the photos below."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:N124DU_A220-100,_Delta,_Salt_Lake_City._07-23-26_(55473334733).jpg",
+        "title": "Duncan Kirk, N124DU A220-100, Delta, Salt Lake City, 2026-07-23 (Wikimedia Commons, CC BY 4.0)",
+        "accessed": "2026-11-15",
+        "note": "Cabin windows: each visible window's middle, the panes' size and height band (left side, side-on from below). Only measurements are taken from the photo (window and door positions along the cabin, scaled between the doors' middles as the general-dimensions sheet places them); nothing of it is copied."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:N145DQ_A220-100,_Delta,_Salt_Lake_City_07-23-26.jpg",
+        "title": "Duncan Kirk, N145DQ A220-100, Delta, Salt Lake City, 2026-07-23 (Wikimedia Commons, CC BY 4.0)",
+        "accessed": "2026-11-15",
+        "note": "Cabin windows: each visible window's middle and the height band, agreeing with N124DU's within 2 cm. Only measurements are taken from the photo (window and door positions along the cabin, scaled between the doors' middles as the general-dimensions sheet places them); nothing of it is copied."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Airbus_A220-100_%E2%80%98HB-JBI%E2%80%99_Swiss_International_Air_Lines_(53751161228).jpg",
+        "title": "Alan Wilson, Airbus A220-100 'HB-JBI' Swiss International Air Lines, 2022-09-19 (Wikimedia Commons, CC BY-SA 2.0)",
+        "accessed": "2026-11-15",
+        "note": "The right side from near level, the wing below the windows: how many windows are over the wing (20 behind the exit, as on the left side). Only the count is taken."
+      }
+    ]
+  }
+}

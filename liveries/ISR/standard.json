@@ -1,0 +1,518 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "ISR",
+  "name": "Blue tail with the orange star",
+  "kind": "standard",
+  "confidence": "medium",
+  "drawnOn": "A320",
+  "description": "White fuselage with a thin navy band along the belly. Behind the wing a band of blue facets crosses the rear fuselage from the crown down to the belly: a pale blue wedge at the crown, a mid blue panel round the aft door and navy below it, leaving the tail cone white. A navy fin with a pale blue crescent at its top trailing corner and a lighter blue panel low on its leading edge and fillet, carrying Israir's orange star (a five-pointed star with a swoosh curling through it). Titles over the forward windows: the Hebrew name, the orange star, then 'ISRAIR' in heavy navy capitals. Navy engines.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A320-232_(cn_2587,_4X-ABW)_2024-06-04_Andre_Gerwing_Collection_ID_019905.jpg",
+      "title": "Airbus A320-232 (cn 2587, 4X-ABW) 2024-06-04 Andre Gerwing Collection ID 019905 (CC BY-SA 4.0, André Gerwing)",
+      "accessed": "2026-11-22",
+      "note": "A320 4X-ABW on approach, left side, near level, 2024-06-04. Fitted to shapes/A320.json (doors pinned, within 5 px): the rear facets' edges, the belly band, the fin's crescent and panel, the star's middle, the titles' ends and height. The light is dull: colours read against the fuselage's white and checked on the 2026 photos."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Salzburg_-_Maxglan_-_Flughafen_-_4X-ABX_(Israir)_-_2026_07_15-2.jpg",
+      "title": "Salzburg - Maxglan - Flughafen - 4X-ABX (Israir) - 2026 07 15-2 (CC BY-SA 4.0, Eweht)",
+      "accessed": "2026-11-22",
+      "note": "A320 4X-ABX at Salzburg, right side in sunlight, 2026-07-15: the same scheme current in 2026; on the right 'ISRAIR' is forward and the Hebrew name aft, the star between; the colours in sunlight."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin_Brandenburg_Airport_Israir_Airbus_A320-232_4X-ABT_(DSC06434).jpg",
+      "title": "Berlin Brandenburg Airport Israir Airbus A320-232 4X-ABT (DSC06434) (CC BY-SA 4.0, MarcelX42)",
+      "accessed": "2026-11-22",
+      "note": "4X-ABT, left side, 2024-11-03: the same scheme (with a promotional SKIDEAL sticker, not part of it)."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F2F2F3",
+      "official": false
+    },
+    "navy": {
+      "hex": "#202C6E",
+      "name": "Israir navy",
+      "official": false
+    },
+    "blue": {
+      "hex": "#4A72C4",
+      "name": "mid blue",
+      "official": false
+    },
+    "light": {
+      "hex": "#7EA2E6",
+      "name": "pale blue",
+      "official": false
+    },
+    "orange": {
+      "hex": "#EE6A2E",
+      "name": "Israir orange",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "windows": "plain",
+    "areas": [
+      {
+        "name": "navy band along the belly",
+        "color": "navy",
+        "smooth": true,
+        "points": [
+          [
+            0.05,
+            -1,
+            1
+          ],
+          [
+            0.066,
+            -0.75
+          ],
+          [
+            0.218,
+            -0.72
+          ],
+          [
+            0.461,
+            -0.73
+          ],
+          [
+            0.705,
+            -0.73
+          ],
+          [
+            0.8,
+            -0.78
+          ],
+          [
+            0.83,
+            -1,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "mid blue panel over the rear fuselage, from the crown to the belly, the aft door in it",
+        "color": "blue",
+        "smooth": true,
+        "points": [
+          [
+            0.659,
+            1,
+            1
+          ],
+          [
+            0.696,
+            0.32
+          ],
+          [
+            0.733,
+            -0.01
+          ],
+          [
+            0.77,
+            -0.356
+          ],
+          [
+            0.795,
+            -0.547
+          ],
+          [
+            0.81,
+            -1,
+            1
+          ],
+          [
+            0.84,
+            -1,
+            1
+          ],
+          [
+            0.822,
+            -0.454
+          ],
+          [
+            0.861,
+            -0.27
+          ],
+          [
+            0.885,
+            0.09
+          ],
+          [
+            0.909,
+            1,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "pale blue wedge at the crown, ahead of the panel",
+        "color": "light",
+        "points": [
+          [
+            0.659,
+            1
+          ],
+          [
+            0.729,
+            1
+          ],
+          [
+            0.733,
+            0.36
+          ],
+          [
+            0.696,
+            0.32
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "navy lower part of the panel",
+        "color": "navy",
+        "smooth": true,
+        "points": [
+          [
+            0.733,
+            -0.01,
+            1
+          ],
+          [
+            0.742,
+            0.1
+          ],
+          [
+            0.782,
+            -0.02
+          ],
+          [
+            0.825,
+            -0.157
+          ],
+          [
+            0.861,
+            -0.27,
+            1
+          ],
+          [
+            0.822,
+            -0.454
+          ],
+          [
+            0.84,
+            -1,
+            1
+          ],
+          [
+            0.81,
+            -1,
+            1
+          ],
+          [
+            0.795,
+            -0.547
+          ],
+          [
+            0.77,
+            -0.356
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "fin": {
+    "base": "navy",
+    "fillet": "blue",
+    "areas": [
+      {
+        "name": "pale blue crescent at the top trailing corner",
+        "color": "light",
+        "smooth": true,
+        "points": [
+          [
+            0.35,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            0.7,
+            1
+          ],
+          [
+            0.8,
+            0.84
+          ],
+          [
+            0.6,
+            0.94
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "lighter blue panel low on the leading edge",
+        "color": "blue",
+        "smooth": true,
+        "points": [
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0.27,
+            1
+          ],
+          [
+            0.15,
+            0.2
+          ],
+          [
+            0.29,
+            0.02
+          ],
+          [
+            0.3,
+            0,
+            1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "wings": {
+    "top": "#B9BEC5",
+    "under": "#C9CDD2"
+  },
+  "winglets": {
+    "outer": "navy",
+    "inner": "navy",
+    "confidence": "low",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "engines": {
+    "cowling": "navy",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "titles": [
+    {
+      "text": "ישראייר",
+      "place": "fuselage",
+      "at": [
+        0.154,
+        0.3
+      ],
+      "height": 0.28,
+      "length": 0.095,
+      "color": "navy",
+      "style": "The Hebrew name in heavy navy letters, forward of the star on the left side.",
+      "side": "left",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Arial Hebrew Bold",
+          "Noto Sans Hebrew Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      }
+    },
+    {
+      "text": "ISRAIR",
+      "place": "fuselage",
+      "at": [
+        0.292,
+        0.3
+      ],
+      "height": 0.28,
+      "length": 0.087,
+      "color": "navy",
+      "style": "'ISRAIR' in heavy navy capitals after the star.",
+      "side": "left",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Bold",
+          "Arial Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "ISRAIR",
+      "place": "fuselage",
+      "at": [
+        0.154,
+        0.3
+      ],
+      "height": 0.28,
+      "length": 0.087,
+      "color": "navy",
+      "style": "On the right 'ISRAIR' is forward.",
+      "side": "right",
+      "confidence": "high",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Bold",
+          "Arial Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "ישראייר",
+      "place": "fuselage",
+      "at": [
+        0.284,
+        0.3
+      ],
+      "height": 0.28,
+      "length": 0.095,
+      "color": "navy",
+      "style": "On the right the Hebrew name is aft of the star.",
+      "side": "right",
+      "confidence": "high",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "Arial Hebrew Bold",
+          "Noto Sans Hebrew Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      }
+    }
+  ],
+  "logos": [
+    {
+      "mark": "ISR/star",
+      "place": "fin",
+      "at": [
+        0.55,
+        0.5
+      ],
+      "height": 0.5,
+      "colors": [
+        "orange",
+        "navy"
+      ],
+      "description": "Israir's star: a big orange five-pointed star, tilted, its upper right arm cut by a navy swoosh that curls from inside the star up round its top like a comet's tail; in the middle of the navy fin.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Airbus_A320-232_(cn_2587,_4X-ABW)_2024-06-04_Andre_Gerwing_Collection_ID_019905.jpg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "ISR/star",
+      "place": "fuselage",
+      "at": [
+        0.267,
+        0.42
+      ],
+      "height": 0.18,
+      "colors": [
+        "orange",
+        "white"
+      ],
+      "description": "The star small in orange between the Hebrew and Latin names.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Airbus_A320-232_(cn_2587,_4X-ABW)_2024-06-04_Andre_Gerwing_Collection_ID_019905.jpg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "notes": "Measured on 4X-ABW (A320, left side, 2024-06-04) fitted to the A320 shape (within 5 px); 4X-ABX (2026, right) and 4X-ABT (2024, left) wear the same. The rear facets: the panel's forward edge leaves the crown at x 0.66 and reaches the belly at about 0.81, its aft edge from the crown at 0.91 to the belly at 0.84; the pale wedge is its top forward corner, x 0.66-0.73 at the crown; the navy fills the panel below a line from the window line at x 0.73 to its aft edge at x 0.86, y -0.27. The facets are overlapping translucent-looking shapes in paint, simplified here to three colours. The belly band's top edge sits at y -0.72 from just behind the nose. The fin's star centre and size are read by eye; its swoosh is the mark's. Titles: the Hebrew x 0.154-0.25, the star at 0.267, ISRAIR 0.292-0.379, baseline at the windows' tops (y 0.3), capitals to about 0.58. Several Israir jets carry promotional stickers or yellow-ribbon and 'Bring them home' titles (4X-ABI, 2024); not drawn. Israir's ATR 72s and A321s aren't checked.",
+  "history": "New 2026-11-22 (the maintainer's request)."
+}

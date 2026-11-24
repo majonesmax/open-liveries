@@ -1,0 +1,892 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "oneworld",
+  "airline": "ASA",
+  "name": "oneworld (member of oneworld)",
+  "kind": "alliance",
+  "confidence": "medium",
+  "drawnOn": "B739",
+  "description": "Fuselage: White forward/upper fuselage; standard Alaska midnight-blue sweep on the rear lower fuselage and belly with light-blue and lime-green bands. Cheatlines: Standard Alaska blue/green swooshes aft. Tail: Standard Alaska midnight-blue fin with the Alaska Native man and lime/teal stripe. Engines: White with the standard lime/blue swoosh low at the back. Winglets: Blue/green. Titles: Huge 'oneworld' (navy, 'one' bold) across the forward fuselage over the windows with small 'member of' above; 'Alaska' script in gray below it; small oneworld roundel near the nose. Artwork: none. Colors hex: approximate.",
+  "sources": [
+    {
+      "url": "https://www.alaskaair.com/content/travel-info/our-aircraft/737-oneworld",
+      "title": "Alaska Airlines: oneworld Livery",
+      "accessed": "2026-11-14",
+      "note": "Alaska's page; its photo shows N487AS's left side from ahead: 'member of oneworld' over the forward windows, the gray Alaska title under 'one'."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:N486AS_(aircraft)",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:N487AS_(aircraft)",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://www.airhistory.net/registration/N487AS",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N486AS_B737-900,_Alaska,_Miami_02-19-26JPG_(55146524934).jpg",
+      "title": "N486AS B737-900, Alaska, Miami 02-19-26 (CC BY 4.0)",
+      "accessed": "2026-11-12",
+      "note": "Left side, taxiing, 2026-02-19: the whole scheme side-on; geometry of the aft sweep, fin bands and titles measured from it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N487AS_ANC_Landing_15_AS_B737_990_ER_One_Wolrd_Small_(54572043701).png",
+      "title": "N487AS ANC Landing 15 AS B737 990 ER One World (CC BY-SA 2.0)",
+      "accessed": "2026-11-12",
+      "note": "Right side, N487AS landing at Anchorage, 2025-06-06: the same layout mirrored on the second aircraft."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N486AS_JFK_Landing_13L_AS_B737_990_ER_One_World_Small.png",
+      "title": "N486AS JFK Landing 13L AS B737 990 ER One World (CC BY-SA 2.0)",
+      "accessed": "2026-11-12",
+      "note": "Right side, 2022-06-25: winglet bands and engine swoosh."
+    }
+  ],
+  "notes": "N487AS also wears the oneworld scheme (Commons photo Anchorage 6 Jun 2025). N491AS is listed by Scramble.nl but not independently confirmed. Drawn from N486AS (left, 2026-02-19) and checked on N487AS (right, 2025-06-06): the aft sweep, fin and engines are Alaska's standard (2016) scheme; 'member of oneworld' and the gray Alaska title replace the standard navy 'Alaska' title. Registration in navy above the rear windows (not drawn). The wordmark's parts are titles of their own, so each side has its own set: on the right 'one' is aft of 'world' (N487AS, 2025-06-06). Re-checked 2026-11-15 (drawn on the 737-900ER, N486AS): the titles' lengths and places agree with the broadside 2026 photo; 'oneworld' is all lowercase, its x-height about 0.65 of the l's and d's height (recorded as xHeight, the title's height being the ascenders'); 'Alaska' lowercase about 0.55 of its A. The aft sweep is the standard's: its edges made smooth, with the silver-grey stripe ahead of the lime that the standard now has.",
+  "from": "2021",
+  "palette": {
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "midnight": {
+      "hex": "#14306B",
+      "official": false
+    },
+    "blue": {
+      "hex": "#1F6DB8",
+      "official": false
+    },
+    "atlas": {
+      "hex": "#52B3E3",
+      "official": false
+    },
+    "lime": {
+      "hex": "#B6D433",
+      "official": false
+    },
+    "oneworldNavy": {
+      "hex": "#1E1F6E",
+      "official": false
+    },
+    "silver": {
+      "hex": "#C3C8CE",
+      "name": "silver-grey stripe",
+      "official": false
+    },
+    "cream": {
+      "hex": "#F1EFE8",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC5",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "silver-grey stripe ahead of the lime (seen on every photo, sharp-edged: paint, not shade)",
+        "color": "silver",
+        "points": [
+          [
+            0.608,
+            -1.0
+          ],
+          [
+            0.64,
+            -0.93
+          ],
+          [
+            0.688,
+            -0.6
+          ],
+          [
+            0.727,
+            -0.17
+          ],
+          [
+            0.763,
+            0.2
+          ],
+          [
+            0.785,
+            0.43
+          ],
+          [
+            0.808,
+            0.75
+          ],
+          [
+            0.818,
+            1.0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          4,
+          5
+        ],
+        "smooth": true
+      },
+      {
+        "name": "lime band, the front of the aft sweep (rising from the belly behind the wing to the crown ahead of the fin)",
+        "color": "lime",
+        "points": [
+          [
+            0.62,
+            -1.0
+          ],
+          [
+            0.652,
+            -0.93
+          ],
+          [
+            0.7,
+            -0.6
+          ],
+          [
+            0.739,
+            -0.17
+          ],
+          [
+            0.775,
+            0.2
+          ],
+          [
+            0.797,
+            0.43
+          ],
+          [
+            0.815,
+            0.75
+          ],
+          [
+            0.822,
+            1.0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          4,
+          5
+        ],
+        "smooth": true
+      },
+      {
+        "name": "Atlas (light) blue band",
+        "color": "atlas",
+        "points": [
+          [
+            0.642,
+            -1.0
+          ],
+          [
+            0.674,
+            -0.93
+          ],
+          [
+            0.722,
+            -0.6
+          ],
+          [
+            0.761,
+            -0.17
+          ],
+          [
+            0.797,
+            0.2
+          ],
+          [
+            0.819,
+            0.43
+          ],
+          [
+            0.837,
+            0.75
+          ],
+          [
+            0.844,
+            1.0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          4,
+          5
+        ],
+        "smooth": true
+      },
+      {
+        "name": "mid-blue band",
+        "color": "blue",
+        "points": [
+          [
+            0.665,
+            -1.0
+          ],
+          [
+            0.697,
+            -0.93
+          ],
+          [
+            0.745,
+            -0.6
+          ],
+          [
+            0.784,
+            -0.17
+          ],
+          [
+            0.82,
+            0.2
+          ],
+          [
+            0.842,
+            0.43
+          ],
+          [
+            0.86,
+            0.75
+          ],
+          [
+            0.867,
+            1.0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          4
+        ],
+        "smooth": true
+      },
+      {
+        "name": "midnight-blue tail cone and rear belly",
+        "color": "midnight",
+        "points": [
+          [
+            0.68,
+            -1.0
+          ],
+          [
+            0.712,
+            -0.93
+          ],
+          [
+            0.76,
+            -0.6
+          ],
+          [
+            0.799,
+            -0.17
+          ],
+          [
+            0.835,
+            0.2
+          ],
+          [
+            0.857,
+            0.43
+          ],
+          [
+            0.875,
+            0.75
+          ],
+          [
+            0.882,
+            1.0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          4,
+          5
+        ],
+        "smooth": true
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      4,
+      5,
+      6
+    ]
+  },
+  "fin": {
+    "base": "midnight",
+    "rudder": "midnight",
+    "areas": [
+      {
+        "name": "Atlas-blue wedge at the root's leading edge (the fuselage sweep running up the fin)",
+        "color": "atlas",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0.24
+          ],
+          [
+            0.46,
+            0
+          ]
+        ]
+      },
+      {
+        "name": "lower lime stripe, from the leading edge down and back to the root",
+        "color": "lime",
+        "points": [
+          [
+            0,
+            0.25
+          ],
+          [
+            0,
+            0.3
+          ],
+          [
+            0.56,
+            0
+          ],
+          [
+            0.48,
+            0
+          ]
+        ]
+      },
+      {
+        "name": "upper lime stripe near the tip",
+        "color": "lime",
+        "points": [
+          [
+            0,
+            0.88
+          ],
+          [
+            0.5,
+            0.82
+          ],
+          [
+            0.93,
+            0.72
+          ],
+          [
+            0.9,
+            0.69
+          ],
+          [
+            0.5,
+            0.78
+          ],
+          [
+            0,
+            0.84
+          ]
+        ]
+      },
+      {
+        "name": "Atlas-blue sliver under the upper stripe",
+        "color": "atlas",
+        "points": [
+          [
+            0.55,
+            0.76
+          ],
+          [
+            0.95,
+            0.68
+          ],
+          [
+            0.95,
+            0.63
+          ],
+          [
+            0.65,
+            0.71
+          ]
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      4,
+      5
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "stabilizer": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "white",
+    "inner": "white",
+    "areas": [
+      {
+        "name": "midnight root",
+        "color": "midnight",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0.18
+          ],
+          [
+            0,
+            0.32
+          ]
+        ]
+      },
+      {
+        "name": "Atlas-blue band",
+        "color": "atlas",
+        "points": [
+          [
+            0,
+            0.32
+          ],
+          [
+            1,
+            0.18
+          ],
+          [
+            1,
+            0.26
+          ],
+          [
+            0,
+            0.4
+          ]
+        ]
+      },
+      {
+        "name": "lime band",
+        "color": "lime",
+        "points": [
+          [
+            0,
+            0.4
+          ],
+          [
+            1,
+            0.26
+          ],
+          [
+            1,
+            0.32
+          ],
+          [
+            0,
+            0.46
+          ]
+        ]
+      }
+    ],
+    "confidence": "low",
+    "sourceRefs": [
+      4,
+      6
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "wingGray",
+    "areas": [
+      {
+        "name": "lime stripe sweeping up toward the exhaust",
+        "color": "lime",
+        "points": [
+          [
+            0.3,
+            -1
+          ],
+          [
+            0.49,
+            -0.49
+          ],
+          [
+            0.75,
+            0.15
+          ],
+          [
+            1,
+            0.6
+          ],
+          [
+            1,
+            -1
+          ]
+        ]
+      },
+      {
+        "name": "Atlas blue",
+        "color": "atlas",
+        "points": [
+          [
+            0.36,
+            -1
+          ],
+          [
+            0.55,
+            -0.49
+          ],
+          [
+            0.81,
+            0.15
+          ],
+          [
+            1.06,
+            0.6
+          ],
+          [
+            1,
+            -1
+          ]
+        ]
+      },
+      {
+        "name": "midnight, low at the back",
+        "color": "midnight",
+        "points": [
+          [
+            0.44,
+            -1
+          ],
+          [
+            0.63,
+            -0.49
+          ],
+          [
+            0.89,
+            0.15
+          ],
+          [
+            1.14,
+            0.6
+          ],
+          [
+            1,
+            -1
+          ]
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      4,
+      6
+    ]
+  },
+  "logos": [
+    {
+      "mark": "ASA/native-face",
+      "place": "fin",
+      "at": [
+        0.59,
+        0.35
+      ],
+      "height": 0.53,
+      "colors": [
+        "cream",
+        "midnight"
+      ],
+      "description": "Alaska's Native man's face in cream on the midnight-blue fin, as on the standard tail.",
+      "confidence": "high",
+      "sourceRefs": [
+        4,
+        5
+      ]
+    },
+    {
+      "mark": "ONE/oneworld-roundel",
+      "place": "fuselage",
+      "at": [
+        0.106,
+        0.16
+      ],
+      "height": 0.27,
+      "colors": [
+        "oneworldNavy",
+        "white"
+      ],
+      "description": "The small oneworld roundel (a navy disc with 'oneworld' in white) just behind the cockpit, between it and the forward door.",
+      "confidence": "medium",
+      "sourceRefs": [
+        4,
+        5
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "member of",
+      "place": "fuselage",
+      "at": [
+        0.171,
+        0.37
+      ],
+      "height": 0.18,
+      "color": "oneworldNavy",
+      "style": "Small lowercase geometric sans, light, above the start of 'oneworld'.",
+      "confidence": "high",
+      "sourceRefs": [
+        4,
+        5
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Regular",
+          "Futura Book"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.7
+      },
+      "length": 0.08,
+      "side": "left"
+    },
+    {
+      "text": "one",
+      "place": "fuselage",
+      "at": [
+        0.176,
+        -0.11
+      ],
+      "height": 0.91,
+      "color": "oneworldNavy",
+      "style": "The oneworld wordmark: 'one' heavy, across the forward windows.",
+      "confidence": "high",
+      "sourceRefs": [
+        4,
+        5
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Heavy",
+          "Futura Heavy"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.65
+      },
+      "length": 0.12,
+      "side": "left"
+    },
+    {
+      "text": "world",
+      "place": "fuselage",
+      "at": [
+        0.3,
+        -0.11
+      ],
+      "height": 0.91,
+      "color": "oneworldNavy",
+      "style": "The oneworld wordmark: 'world' thin, straight after 'one'.",
+      "confidence": "high",
+      "sourceRefs": [
+        4,
+        5
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Ultra Light",
+          "Futura Light"
+        ],
+        "weight": 300,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.65
+      },
+      "length": 0.155,
+      "side": "left"
+    },
+    {
+      "text": "member of",
+      "place": "fuselage",
+      "at": [
+        0.375,
+        0.37
+      ],
+      "height": 0.18,
+      "color": "oneworldNavy",
+      "style": "Small lowercase geometric sans, light, above the start of 'oneworld'. On the right the wordmark reads from its aft end: 'one' aft, 'world' forward.",
+      "confidence": "high",
+      "sourceRefs": [
+        4,
+        5
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Regular",
+          "Futura Book"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.7
+      },
+      "length": 0.08,
+      "side": "right"
+    },
+    {
+      "text": "one",
+      "place": "fuselage",
+      "at": [
+        0.335,
+        -0.11
+      ],
+      "height": 0.91,
+      "color": "oneworldNavy",
+      "style": "The oneworld wordmark: 'one' heavy, across the forward windows. On the right the wordmark reads from its aft end: 'one' aft, 'world' forward.",
+      "confidence": "high",
+      "sourceRefs": [
+        4,
+        5
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Heavy",
+          "Futura Heavy"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.65
+      },
+      "length": 0.12,
+      "side": "right"
+    },
+    {
+      "text": "world",
+      "place": "fuselage",
+      "at": [
+        0.176,
+        -0.11
+      ],
+      "height": 0.91,
+      "color": "oneworldNavy",
+      "style": "The oneworld wordmark: 'world' thin, straight after 'one'. On the right the wordmark reads from its aft end: 'one' aft, 'world' forward.",
+      "confidence": "high",
+      "sourceRefs": [
+        4,
+        5
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Ultra Light",
+          "Futura Light"
+        ],
+        "weight": 300,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.65
+      },
+      "length": 0.155,
+      "side": "right"
+    },
+    {
+      "text": "Alaska",
+      "place": "fuselage",
+      "at": [
+        0.175,
+        -0.48
+      ],
+      "height": 0.4,
+      "color": "silver",
+      "style": "The 2016 Alaska wordmark in silver-gray, below 'oneworld'.",
+      "confidence": "high",
+      "sourceRefs": [
+        4,
+        5
+      ],
+      "type": {
+        "similar": [
+          "Kaufmann Bold",
+          "Futura Bold Oblique"
+        ],
+        "weight": 800,
+        "slantDeg": 16,
+        "width": "normal",
+        "strokes": "brush",
+        "case": "mixed",
+        "xHeight": 0.55
+      },
+      "length": 0.09
+    }
+  ]
+}

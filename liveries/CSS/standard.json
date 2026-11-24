@@ -1,0 +1,396 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "CSS",
+  "name": "SF Airlines (black and red)",
+  "kind": "standard",
+  "confidence": "low",
+  "drawnOn": "B744",
+  "description": "White upper fuselage; a red belly under bundles of thin black pinstripes along the lower side; behind the wing the lower fuselage turns black, with gray speed streaks and a red stripe sweeping up to a black fin; the fin carries SF's white ring logo (black 'SF', red dot) and a red lower trailing corner; 'AIRLINES' and '顺丰航空' in black beside the SF ring ahead of the wing; black engines with the SF ring.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/SF_Airlines",
+      "title": "Wikipedia: SF Airlines",
+      "accessed": "2026-11-13",
+      "note": "SF Express's airline: 747-400F, 777F, 767F, 757F, 737F fleet."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:SF_Airlines_-_Boeing_747_-_B-2423_-_01.jpg",
+      "title": "SF Airlines - Boeing 747 - B-2423 - 01.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "B-2423 (747-400F) right side taxiing, 2025-01-26. Right-side photo only; the left side is assumed to mirror it."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F2F3F5",
+      "official": false
+    },
+    "black": {
+      "hex": "#1C1C1E",
+      "official": false,
+      "name": "SF black"
+    },
+    "red": {
+      "hex": "#D4202C",
+      "official": false,
+      "name": "SF red"
+    },
+    "gray": {
+      "hex": "#8A8E94",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "red belly",
+        "color": "red",
+        "below": [
+          [
+            0.06,
+            -0.62
+          ],
+          [
+            0.5,
+            -0.62
+          ],
+          [
+            0.95,
+            -0.55
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "black pinstripes (as a dark band)",
+        "color": "black",
+        "below": [
+          [
+            0.12,
+            -0.46
+          ],
+          [
+            0.5,
+            -0.46
+          ]
+        ],
+        "above": [
+          [
+            0.12,
+            -0.6
+          ],
+          [
+            0.5,
+            -0.6
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "black aft fuselage",
+        "color": "black",
+        "points": [
+          [
+            0.45,
+            -0.62
+          ],
+          [
+            0.6,
+            -0.3
+          ],
+          [
+            0.72,
+            0.1
+          ],
+          [
+            0.8,
+            0.6
+          ],
+          [
+            0.83,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -0.55
+          ],
+          [
+            0.6,
+            -0.62
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "gray streak",
+        "color": "gray",
+        "points": [
+          [
+            0.5,
+            -0.45
+          ],
+          [
+            0.6,
+            -0.2
+          ],
+          [
+            0.68,
+            -0.05
+          ],
+          [
+            0.7,
+            -0.12
+          ],
+          [
+            0.62,
+            -0.32
+          ],
+          [
+            0.54,
+            -0.5
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "red stripe",
+        "color": "red",
+        "points": [
+          [
+            0.6,
+            -0.5
+          ],
+          [
+            0.72,
+            -0.15
+          ],
+          [
+            0.84,
+            0.3
+          ],
+          [
+            0.92,
+            0.5
+          ],
+          [
+            0.92,
+            0.38
+          ],
+          [
+            0.85,
+            0.15
+          ],
+          [
+            0.74,
+            -0.25
+          ],
+          [
+            0.64,
+            -0.55
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1
+        ]
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "hidden",
+    "confidence": "low",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "fin": {
+    "base": "black",
+    "areas": [
+      {
+        "name": "red lower trailing corner",
+        "color": "red",
+        "points": [
+          [
+            0.55,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0.15
+          ],
+          [
+            0.75,
+            0.08
+          ]
+        ]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "low",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "engines": {
+    "cowling": "black",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "CSS/sf-ring",
+      "place": "fin",
+      "at": [
+        0.45,
+        0.65
+      ],
+      "height": 0.5,
+      "colors": [
+        "white",
+        "black",
+        "red"
+      ],
+      "description": "SF Express's mark: a thick white ring broken at the top-left and bottom-right like a target, round a black 'SF' with a small red dot.",
+      "reference": "https://commons.wikimedia.org/wiki/File:SF_Airlines_-_Boeing_747_-_B-2423_-_01.jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "CSS/sf-ring",
+      "place": "fuselage",
+      "at": [
+        0.19,
+        0.12
+      ],
+      "height": 0.45,
+      "colors": [
+        "black",
+        "red"
+      ],
+      "description": "The SF ring in black (red dot) ahead of the titles.",
+      "reference": "https://commons.wikimedia.org/wiki/File:SF_Airlines_-_Boeing_747_-_B-2423_-_01.jpg",
+      "confidence": "low",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "CSS/sf-ring",
+      "place": "engines",
+      "at": [
+        0.45,
+        0.0
+      ],
+      "height": 0.8,
+      "colors": [
+        "white",
+        "black",
+        "red"
+      ],
+      "description": "The SF ring on the black cowlings.",
+      "reference": "https://commons.wikimedia.org/wiki/File:SF_Airlines_-_Boeing_747_-_B-2423_-_01.jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "AIRLINES",
+      "place": "fuselage",
+      "at": [
+        0.22,
+        0.22
+      ],
+      "height": 0.24,
+      "color": "black",
+      "style": "'AIRLINES' in heavy black capitals beside the SF ring.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ],
+      "length": 0.1,
+      "type": {
+        "similar": [
+          "Helvetica Neue Bold",
+          "Arial Black"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "顺丰航空",
+      "place": "fuselage",
+      "at": [
+        0.22,
+        -0.12
+      ],
+      "height": 0.3,
+      "color": "black",
+      "style": "The Chinese name in black under 'AIRLINES', its four characters medium-weight and widely spaced to run as long as AIRLINES.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ],
+      "length": 0.1,
+      "type": {
+        "similar": [
+          "Heiti Bold",
+          "Source Han Sans Bold"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform"
+      }
+    }
+  ],
+  "notes": "Drawn from one right-side photo of 747-400F B-2423 (January 2025); the aft fuselage's streaks are simplified. Right-side photo only; the left side is assumed to mirror it. The narrowbodies (737/757) wear a simpler version. Re-checked 2026-11-15 on B-2423: the Chinese name sits a small gap under AIRLINES (it had been drawn touching it) and is lettered lighter and spaced out; lengths agree. This is the 747-400F, not SF's commonest type (the 757-200F, then 767-300F and 737F); a redraw on the 757 from its own photos is the larger job left.",
+  "history": "Replaces Skyarium v1's approximate standard (a few colors from memory)."
+}

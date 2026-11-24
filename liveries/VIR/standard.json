@@ -1,0 +1,360 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "VIR",
+  "name": "2019 livery",
+  "kind": "standard",
+  "from": "2019",
+  "confidence": "high",
+  "drawnOn": "A35K",
+  "description": "White fuselage with very large thin lower-case 'virgin atlantic' in deep slate purple running from behind the cockpit to the wing, repeated under the belly. All-red fin with the white Virgin signature, the red flowing down over the fuselage under the fin. Red engines, red wingtips. The flying lady holding a Union flag under the cockpit.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:G-VTEA.jpg",
+      "title": "G-VTEA.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "A350-1000 G-VTEA from below left, 2026-07-29: positions of the titles, the red tail and its wrap onto the fuselage, engines."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:G-VPOP.jpg",
+      "title": "G-VPOP.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "A350-1000 G-VPOP from below left, 2026-08-12."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:G-VLUX.jpg",
+      "title": "G-VLUX.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "A350-1000 G-VLUX from below left, 2026-09-12: the belly title and the flying lady."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Virgin_Atlantic",
+      "accessed": "2026-11-13",
+      "title": "Virgin Atlantic (Wikipedia)",
+      "note": "The 2019 livery came with the first A350-1000, G-VLUX."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Better_Virgin_Atlantic_Boeing_787-9_Dreamliner_G-VOWS_arriving_SFO_ref_L1180157.jpg",
+      "accessed": "2026-11-22",
+      "title": "Better Virgin Atlantic Boeing 787-9 Dreamliner G-VOWS arriving SFO (CC BY-SA 4.0, Bill Abbott)",
+      "note": "787-9 left side, level, 2025-12-06: the 'virgin atlantic' lettering measured (rectified by the window row) and the fin's signature traced."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Virgin_Atlantic_Airways_G-VCRU_Boeing_787-9_Dreamliner_London_Heathrow_Airport_(LHR_EGLL)_(52676881087).jpg",
+      "accessed": "2026-11-22",
+      "title": "Virgin Atlantic Airways G-VCRU Boeing 787-9 (CC BY-SA 2.0, Mitchul Hope)",
+      "note": "787-9 left side, 2023-02-06: the same lettering, to check the first (seen climbing, more foreshortened)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Virgin_Atlantic_Boeing_787-9_G-VAHH_MD1.jpg",
+      "accessed": "2026-11-22",
+      "title": "Virgin Atlantic Boeing 787-9 G-VAHH MD1 (CC BY-SA 4.0, Acroterion)",
+      "note": "787-9 right side from below, 2026-05-09: the signature reads normally there and rises toward the nose, as on the left it rises toward the tail."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F6",
+      "official": false
+    },
+    "red": {
+      "hex": "#D6082A",
+      "official": false
+    },
+    "ink": {
+      "hex": "#3A3346",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    },
+    "core": {
+      "hex": "#B9BDC3",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "windows": "plain",
+    "areas": [
+      {
+        "name": "red under the fin, wrapping down the aft fuselage",
+        "color": "red",
+        "points": [
+          [
+            0.84,
+            1
+          ],
+          [
+            0.845,
+            0.6
+          ],
+          [
+            0.855,
+            0.1
+          ],
+          [
+            0.87,
+            -0.35
+          ],
+          [
+            0.89,
+            -0.6
+          ],
+          [
+            0.92,
+            -0.7
+          ],
+          [
+            0.95,
+            -0.62
+          ],
+          [
+            0.965,
+            -0.35
+          ],
+          [
+            0.975,
+            0.1
+          ],
+          [
+            0.98,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ],
+        "smooth": true
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "red",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "#B9BEC5",
+    "under": "#C9CDD2"
+  },
+  "winglets": {
+    "outer": "red",
+    "inner": "red",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "red",
+    "inletLip": "lip",
+    "areas": [
+      {
+        "name": "gray aft cowling and core",
+        "color": "core",
+        "points": [
+          [
+            0.72,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            0.72,
+            -1
+          ]
+        ]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "VIR/flying-lady",
+      "place": "fuselage",
+      "at": [
+        0.08,
+        -0.12
+      ],
+      "height": 0.22,
+      "colors": [
+        "red",
+        "#1F2A5C",
+        "white"
+      ],
+      "description": "The flying lady nose art: a pin-up figure in red reclining, holding a Union flag, under the cockpit windows; the aircraft's name in small script beside her.",
+      "reference": "https://commons.wikimedia.org/wiki/File:G-VTEA.jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "virgin atlantic",
+      "place": "fuselage",
+      "at": [
+        0.12,
+        0.0
+      ],
+      "height": 0.92,
+      "length": 0.35,
+      "color": "ink",
+      "style": "Very large thin monoline lower-case letters, upright and loosely spaced: round, open forms (a single-storey a, its bowl hung from a flat bar; a g with an open tail), the stems' tops cut on a slant; the baseline at the bottom of the windows and the ascenders near the crown. Not the script of the fin.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "type": {
+        "similar": [
+          "Futura Light",
+          "Century Gothic"
+        ],
+        "weight": 300,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.7
+      },
+      "mark": "VIR/wordmark"
+    },
+    {
+      "text": "virgin atlantic",
+      "place": "belly",
+      "at": [
+        0.13,
+        -1
+      ],
+      "height": 0.9,
+      "length": 0.32,
+      "color": "ink",
+      "style": "The same thin lower-case title under the forward belly, read from below.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "type": {
+        "similar": [
+          "Futura Light",
+          "Century Gothic"
+        ],
+        "weight": 300,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.7
+      },
+      "mark": "VIR/wordmark"
+    },
+    {
+      "text": "Virgin",
+      "place": "fin",
+      "at": [
+        0.31,
+        0.2
+      ],
+      "height": 0.3,
+      "length": 0.62,
+      "color": "white",
+      "style": "The Virgin signature: a hand-lettered script, a tall V with a ball at its top, the letters leaning and rising about 25° along the fin, a long swash under them crossed by the g's descender. It reads normally on both sides and rises toward the tail on the left side and toward the nose on the right.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2,
+        4,
+        6
+      ],
+      "type": {
+        "similar": [
+          "Brush Script MT",
+          "Kaushan Script"
+        ],
+        "weight": 700,
+        "slantDeg": 10,
+        "width": "normal",
+        "strokes": "brush",
+        "case": "mixed"
+      },
+      "rotationDeg": 25,
+      "mark": "VIR/signature",
+      "side": "left"
+    },
+    {
+      "text": "Virgin",
+      "place": "fin",
+      "at": [
+        0.12,
+        0.27
+      ],
+      "height": 0.3,
+      "length": 0.69,
+      "color": "white",
+      "style": "The same signature on the right side: rising toward the nose, so it's turned the other way and starts aft.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2,
+        4,
+        6
+      ],
+      "type": {
+        "similar": [
+          "Brush Script MT",
+          "Kaushan Script"
+        ],
+        "weight": 700,
+        "slantDeg": 10,
+        "width": "normal",
+        "strokes": "brush",
+        "case": "mixed"
+      },
+      "rotationDeg": -25,
+      "mark": "VIR/signature",
+      "side": "right"
+    }
+  ],
+  "notes": "The Virgin signature on the fin is a script wordmark, drawn as a title (two: it rises toward the tail on the left side and toward the nose on the right, G-VAHH) that names its mark. Re-measured 2026-11-22: the fuselage lettering is about 8.4 times as long as its l is tall (G-VOWS, by its window row); on G-VTEA it runs x 0.12-0.47 with the l's top at the crown, so its height is 0.92 (it was 0.62, which spread the letters half as wide again); the belly's the same size. The fuselage and belly lettering isn't the script: thin upright lower-case letters for both words (G-VOWS, G-VCRU). Earlier 'silver' scheme (silver-gray fuselage, red 'virgin atlantic' titles, red tail) is still on part of the 787-9 and remaining A330-300 fleet; not drawn here. The red wrap's lower edge is seen from below only at a distance. Re-checked 2026-11-15 on G-VTEA: the title's lowercase about 0.7 of the l's height; the red wrap's lower edge drawn as a curve. The fuselage title is thin outlined lettering: the reference renderer, spreading a stand-in to the measured length, draws it heavier than it is.",
+  "history": "Replaced Skyarium v1's approximation (purple belly, red bands). The 2019 livery (white body, purple titles) replaced the silver scheme flown since 2006, from G-VLUX onward."
+}

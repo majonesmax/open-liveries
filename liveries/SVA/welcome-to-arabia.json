@@ -1,0 +1,409 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "welcome-to-arabia",
+  "airline": "SVA",
+  "name": "Saudi, Welcome to Arabia (Saudi Tourism Authority)",
+  "kind": "special",
+  "from": "2026-01",
+  "confidence": "medium",
+  "drawnOn": "B789",
+  "description": "White forward, with 'روح السعودية' ('Spirit of Saudi', the Saudi Tourism Authority's brand) in large purple calligraphy over the forward windows and a small Saudi flag ahead of it; no 'Saudia' titles. The rear half is the campaign's artwork: a smiling young boy's portrait behind the wing, then fields of Arabic decorative motifs back to the tail: royal blue with orange arabesques, a teal-on-purple diamond band, red with purple chevrons, purple, teal and green roundels, and a purple tail cone. Deep purple fin with the white Saudia emblem, purple engines with the emblem in white.",
+  "sources": [
+    {
+      "url": "https://www.zawya.com/en/press-release/companies-news/saudia-unveils-welcome-to-arabia-livery-in-collaboration-with-the-saudi-tourism-authority-f23mv2mh",
+      "title": "Saudia unveils 'Welcome to Arabia' livery in collaboration with the Saudi Tourism Authority (press release via Zawya, January 2026)",
+      "accessed": "2026-11-22",
+      "note": "Unveiled in Jeddah on 18 January 2026 on a 787-9, with the STA; to fly the international network through a year-round campaign. With Aerotime's report (HZ-ARF; colourful, a smiling young boy, Arabic decorative patterns, deep purple on the tail, engines and lettering)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:HZ-ARF_Boeing_787-9_Saudia_LGW_24.1.26_(55058428846).jpg",
+      "title": "HZ-ARF Boeing 787-9 Saudia LGW 24.1.26 (Colin Cooke Photo, CC BY-SA 4.0)",
+      "accessed": "2026-11-22",
+      "note": "Right side, landing at Gatwick, 2026-01-24, six days after the unveiling (the only open photo): flipped nose-left and fitted to shapes/B789.json (nose, tail, fin tip, the first and last doors; within 5 px). Everything measured on it."
+    },
+    {
+      "url": "https://www.aerotime.aero/articles/saudia-introduces-boeing-787-dreamliner-new-livery/amp",
+      "title": "Saudia introduces Boeing 787 Dreamliner draped in new celebratory livery (Aerotime, January 2026)",
+      "accessed": "2026-11-22",
+      "note": "HZ-ARF; deep purple on the tail, engines and 'Saudi, Welcome to Arabia' lettering."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F4F5F4",
+      "official": false
+    },
+    "purple": {
+      "hex": "#8A2276",
+      "name": "the campaign's deep purple (fin, engines, calligraphy)",
+      "official": false
+    },
+    "portrait": {
+      "hex": "#3A2C2A",
+      "name": "the portrait's panel, its dark hair and shadows (the portrait itself isn't drawn)",
+      "official": false
+    },
+    "royalBlue": {
+      "hex": "#3B49B0",
+      "official": false
+    },
+    "teal": {
+      "hex": "#2FB6A0",
+      "official": false
+    },
+    "red": {
+      "hex": "#D63A4A",
+      "official": false
+    },
+    "flagGreen": {
+      "hex": "#006C35",
+      "official": true,
+      "name": "Saudi flag green"
+    },
+    "wingGray": {
+      "hex": "#B9BEC5",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "the portrait's panel behind the wing, its forward edge the boy's hair",
+        "color": "portrait",
+        "smooth": true,
+        "points": [
+          [
+            0.605,
+            1
+          ],
+          [
+            0.588,
+            0.4
+          ],
+          [
+            0.583,
+            0.1
+          ],
+          [
+            0.59,
+            -0.5
+          ],
+          [
+            0.6,
+            -1
+          ],
+          [
+            0.7,
+            -1
+          ],
+          [
+            0.7,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "royal blue motif field with orange arabesques (a thin teal and magenta strip at its front)",
+        "color": "royalBlue",
+        "points": [
+          [
+            0.7,
+            1
+          ],
+          [
+            0.7,
+            -1
+          ],
+          [
+            0.753,
+            -1
+          ],
+          [
+            0.753,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "teal diamonds on purple, a narrow upright band",
+        "color": "teal",
+        "points": [
+          [
+            0.753,
+            1
+          ],
+          [
+            0.753,
+            -1
+          ],
+          [
+            0.775,
+            -1
+          ],
+          [
+            0.775,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "red with purple chevrons",
+        "color": "red",
+        "points": [
+          [
+            0.775,
+            1
+          ],
+          [
+            0.775,
+            -1
+          ],
+          [
+            0.84,
+            -1
+          ],
+          [
+            0.84,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "purple",
+        "color": "purple",
+        "points": [
+          [
+            0.84,
+            1
+          ],
+          [
+            0.84,
+            -1
+          ],
+          [
+            0.86,
+            -1
+          ],
+          [
+            0.86,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "teal and green roundels",
+        "color": "teal",
+        "points": [
+          [
+            0.86,
+            1
+          ],
+          [
+            0.86,
+            -1
+          ],
+          [
+            0.92,
+            -1
+          ],
+          [
+            0.92,
+            1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "purple tail cone",
+        "color": "purple",
+        "points": [
+          [
+            0.92,
+            1
+          ],
+          [
+            0.92,
+            -1
+          ],
+          [
+            1.0,
+            -1
+          ],
+          [
+            1.0,
+            1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1
+        ]
+      }
+    ],
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "fin": {
+    "base": "purple",
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "engines": {
+    "cowling": "purple",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "SVA/emblem-2023",
+      "place": "fin",
+      "at": [
+        0.61,
+        0.44
+      ],
+      "height": 0.37,
+      "colors": [
+        "white"
+      ],
+      "description": "The 2023 Saudia emblem in white on the purple fin.",
+      "reference": "https://commons.wikimedia.org/wiki/File:HZ-AR29_Boeing_787-10_Saudia_Arabian_Airlines_LHR_3.1.25.jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "SVA/emblem-2023",
+      "place": "engines",
+      "at": [
+        0.5,
+        0.1
+      ],
+      "height": 0.45,
+      "colors": [
+        "white"
+      ],
+      "description": "The emblem in white on each purple cowling.",
+      "reference": "https://commons.wikimedia.org/wiki/File:HZ-AR29_Boeing_787-10_Saudia_Arabian_Airlines_LHR_3.1.25.jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "SVA/flag-saudi",
+      "place": "fuselage",
+      "at": [
+        0.139,
+        0.45
+      ],
+      "height": 0.14,
+      "colors": [
+        "flagGreen",
+        "white"
+      ],
+      "description": "A small Saudi flag (green, white shahada and sword) above the windows behind the first door.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Flag_of_Saudi_Arabia.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "SVA/welcome-to-arabia-portrait",
+      "licensed": "Saudi Tourism Authority",
+      "place": "fuselage",
+      "at": [
+        0.645,
+        0.1
+      ],
+      "height": 1.6,
+      "colors": [
+        "portrait"
+      ],
+      "description": "The campaign's portrait of a smiling young boy with dark curly hair, head and shoulders, filling the side behind the wing from the crown to low on the side. The Saudi Tourism Authority's campaign artwork, a real child's face: described, never drawn.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "روح السعودية",
+      "place": "fuselage",
+      "at": [
+        0.17,
+        -0.1
+      ],
+      "height": 0.64,
+      "length": 0.155,
+      "color": "purple",
+      "style": "'Rouh Al Saudia' ('Spirit of Saudi'), the Saudi Tourism Authority's brand name, in large flowing purple calligraphy over the forward windows, its tall strokes from below the windows nearly to the crown, 'روح' small above the rest.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Aref Ruqaa Bold",
+          "Noto Nastaliq Urdu Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "brush",
+        "case": "mixed"
+      }
+    }
+  ],
+  "notes": "Measured on the only open photo, the right side six days after the unveiling (flipped); the left side isn't seen in an open photo and is taken to carry the same layout, the title in the same place reading normally. The motif fields are drawn as upright bands of their main colour; on the aircraft each is a dense pattern (orange arabesques on the blue, teal diamonds on purple, purple chevrons on the red, teal and green roundels), and the stepped magenta motif along the fin's root and the pink on the tail cone aren't drawn. The boy's portrait is the Saudi Tourism Authority's artwork and a real child's face: described as a licensed logo, never drawn; its panel is painted one dark tone so a renderer without it shows where it is. The belly isn't seen: the bands are drawn round it as on the side. No 'Saudia' or 'السعودية' titles on this side, and no English 'Welcome to Arabia' lettering seen; the press's 'lettering' is taken to be the calligraphy. Status: unveiled 2026-01-18 for a year-round campaign; the newest open photo is 2026-01-24 (lead: a Reddit post the maintainer found, 2026-11-22).",
+  "history": "HZ-ARF was delivered in 2017 (Commons photos that year in the 2012 scheme) and carried a G20 decal in 2020 (Commons)."
+}

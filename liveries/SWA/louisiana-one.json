@@ -1,0 +1,29 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "louisiana-one",
+  "airline": "SWA",
+  "name": "Louisiana One (Louisiana flag)",
+  "kind": "special",
+  "confidence": "low",
+  "description": "Fuselage: Louisiana flag: blue fuselage with the white pelican feeding chicks in a nest and the 'UNION JUSTICE CONFIDENCE' ribbon (approximate; based on the earlier N946WN version). Tail: Heart fin. Titles: 'Southwest'. Artwork: Pelican. Colors hex: approximate.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Southwest_Airlines_fleet",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Southwest_Boeing_737-700_N946WN_BWI_MD1.jpg",
+      "title": "Southwest Boeing 737-700 N946WN BWI MD1.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-12",
+      "note": "N946WN, the previous Louisiana One, in standard Heart paint on 2025-10-15: the scheme has left it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Southwest_Boeing_737-700_N946WN_BWI_MD2.jpg",
+      "title": "Southwest Boeing 737-700 N946WN BWI MD2.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-12",
+      "note": "N946WN in standard Heart paint again on 2026-02-12."
+    }
+  ],
+  "history": "Previously N946WN (2018).",
+  "notes": "FAA: Boeing 737-8 (MAX 8). Described only: no photo of N8977G (or any airframe) in the current Louisiana One scheme was found on Wikimedia Commons, and N946WN, which carried it before, is in standard paint in Oct 2025 and Feb 2026 photos."
+}

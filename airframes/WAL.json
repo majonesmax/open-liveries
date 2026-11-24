@@ -1,0 +1,26 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "WAL",
+  "airframes": [
+    {
+      "registration": "N801WA",
+      "hex": "aae789",
+      "type": "MD83",
+      "livery": "polished",
+      "lastSeen": "2024-08-30",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:McDonnell_Douglas_MD-83_-_N801WA_-_World_Atlantic_Airlines_%26_Boeing_737-8_MAX_-_N801AK_-_Alaska_Airlines_-_La_Aurora_International_Airport,_Guatemala_City.jpg",
+          "title": "N801WA at Guatemala City, 2024-08-30 (CC BY-SA 2.0, Rene Hernandez2)",
+          "accessed": "2026-11-22"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:McDonnell_Douglas_MD-83_-_N801WA_-_World_Atlantic_Airlines_-_La_Aurora_International_Airport,_Guatemala_City.jpg",
+          "title": "N801WA at Guatemala City, 2024-08-30 (CC BY-SA 2.0, Rene Hernandez2)",
+          "accessed": "2026-11-22"
+        }
+      ]
+    }
+  ]
+}

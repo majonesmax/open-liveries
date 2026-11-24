@@ -1,0 +1,472 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "GIA",
+  "name": "Nature's wing (2009)",
+  "kind": "standard",
+  "from": "2009",
+  "confidence": "medium",
+  "drawnOn": "B738",
+  "description": "White fuselage with the Garuda bird and 'Garuda Indonesia' in blue above the forward windows; the fin is the 'nature's wing': diagonal bands of deep blue and sky blue rising aft, over teal at the root, with a white leading edge, and the blues and teal run down over the rear fuselage. Blue winglets with lighter stripes.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Garuda_Indonesia",
+      "accessed": "2026-11-13",
+      "note": "2009 rebranding by Landor Associates: the 'nature's wing' tail graphic in blue and aqua; the 1985 Garuda bird kept as the logo with minor changes; customised logotype."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Garuda_Boeing_737_PK-GFI_Jakarta_2025_(02).jpg",
+      "title": "Garuda Boeing 737 PK-GFI Jakarta 2025 (02) (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "737-800 from the left, 2025: titles, logo, fin bands, rear-fuselage colors, winglet."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Garuda_Boeing_737_PK-GFV_Jakarta_2025_(01).jpg",
+      "title": "Garuda Boeing 737 PK-GFV Jakarta 2025 (01) (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "737-800 from the right, 2025: the same on the right side."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Garuda_Indonesia_(PK-GHG)_Airbus_A330-941_departing_at_Sydney_Airport.jpg",
+      "title": "Garuda Indonesia (PK-GHG) Airbus A330-941 departing at Sydney Airport (CC BY-SA 3.0 AU)",
+      "accessed": "2026-11-13",
+      "note": "A330neo from the left, 2025-09-28: the scheme on a widebody (it also carries an 'Ayo Pakai Masker' slogan and a mask on the nose, not part of the standard scheme)."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "blue": {
+      "hex": "#16478F",
+      "official": false
+    },
+    "sky": {
+      "hex": "#5EA8DF",
+      "official": false
+    },
+    "aqua": {
+      "hex": "#7FC7D9",
+      "official": false
+    },
+    "teal": {
+      "hex": "#2E9FA2",
+      "official": false
+    },
+    "titleBlue": {
+      "hex": "#1D3F7A",
+      "official": false
+    },
+    "cowl": {
+      "hex": "#E4E6E9",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "name": "bare metal inlet lip",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B4B9C0",
+      "official": false
+    },
+    "idRed": {
+      "hex": "#E70011",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "sky blue over the rear fuselage, from a diagonal edge falling forward from the fin's root to behind the wing",
+        "color": "sky",
+        "points": [
+          [
+            0.8,
+            1
+          ],
+          [
+            0.78,
+            0.75
+          ],
+          [
+            0.745,
+            0.3
+          ],
+          [
+            0.705,
+            -0.3
+          ],
+          [
+            0.665,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ],
+        "smooth": true
+      },
+      {
+        "name": "teal band rising aft across the lower rear fuselage",
+        "color": "teal",
+        "points": [
+          [
+            0.67,
+            -0.97
+          ],
+          [
+            0.72,
+            -0.4
+          ],
+          [
+            0.85,
+            -0.08
+          ],
+          [
+            1,
+            0.08
+          ],
+          [
+            1,
+            -0.35
+          ],
+          [
+            0.9,
+            -0.5
+          ],
+          [
+            0.76,
+            -1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1
+        ],
+        "smooth": true
+      },
+      {
+        "name": "deep blue under the tail cone",
+        "color": "blue",
+        "points": [
+          [
+            0.88,
+            -0.62
+          ],
+          [
+            1,
+            -0.42
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            0.84,
+            -1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1
+        ]
+      }
+    ],
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2,
+      3
+    ]
+  },
+  "fin": {
+    "base": "blue",
+    "areas": [
+      {
+        "name": "upper sky-blue band, rising aft",
+        "color": "sky",
+        "below": [
+          [
+            0,
+            0.24
+          ],
+          [
+            1,
+            0.68
+          ]
+        ],
+        "above": [
+          [
+            0,
+            0.17
+          ],
+          [
+            1,
+            0.61
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "lower sky-blue band",
+        "color": "sky",
+        "below": [
+          [
+            0,
+            0.02
+          ],
+          [
+            1,
+            0.44
+          ]
+        ],
+        "above": [
+          [
+            0,
+            -0.04
+          ],
+          [
+            1,
+            0.38
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "aqua at the root",
+        "color": "aqua",
+        "below": [
+          [
+            0,
+            -0.15
+          ],
+          [
+            1,
+            0.15
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "white leading edge, widening to the dorsal fillet",
+        "color": "white",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0.36,
+            0
+          ],
+          [
+            0.03,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "blue",
+    "areas": [
+      {
+        "name": "light stripes",
+        "color": "sky",
+        "below": [
+          [
+            0,
+            0.5
+          ],
+          [
+            1,
+            0.75
+          ]
+        ],
+        "above": [
+          [
+            0,
+            0.42
+          ],
+          [
+            1,
+            0.67
+          ]
+        ]
+      },
+      {
+        "name": "lower stripe",
+        "color": "sky",
+        "below": [
+          [
+            0,
+            0.25
+          ],
+          [
+            1,
+            0.45
+          ]
+        ],
+        "above": [
+          [
+            0,
+            0.18
+          ],
+          [
+            1,
+            0.38
+          ]
+        ]
+      }
+    ],
+    "confidence": "low",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "cowl",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "GIA/garuda",
+      "place": "fuselage",
+      "at": [
+        0.2,
+        0.39
+      ],
+      "height": 0.47,
+      "colors": [
+        "blue",
+        "sky"
+      ],
+      "description": "The Garuda bird: a small head and beak facing forward over five swept wing strokes, the upper strokes deep blue, the lower ones lighter blue; just ahead of the title.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Garuda_Indonesia_Logo.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "GIA/id-flag",
+      "place": "fuselage",
+      "at": [
+        0.176,
+        0.5
+      ],
+      "height": 0.1,
+      "colors": [
+        "idRed",
+        "white"
+      ],
+      "description": "A small Indonesian flag (red over white) above the forward door.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Flag_of_Indonesia.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "GIA/skyteam",
+      "place": "fuselage",
+      "at": [
+        0.11,
+        0.0
+      ],
+      "height": 0.2,
+      "colors": [
+        "titleBlue"
+      ],
+      "description": "The SkyTeam member badge (the swirl and 'SKYTEAM') in a small ring below the cockpit side window.",
+      "reference": "https://commons.wikimedia.org/wiki/File:SkyTeam_Logo_2018.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Garuda Indonesia",
+      "place": "fuselage",
+      "at": [
+        0.231,
+        0.39
+      ],
+      "height": 0.36,
+      "color": "titleBlue",
+      "style": "The 2009 logotype: a light-to-regular humanist sans in mixed case, open letters with a curled G, dark blue, above the windows behind the bird.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Frutiger 55 Roman",
+          "Myriad Pro Regular",
+          "Lato Regular"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "length": 0.187
+    }
+  ],
+  "notes": "Drawn from 2025 photos of 737-800s, checked on an A330neo. The fin's band positions are measured on one photo and simplified to two light bands; the rear-fuselage bands are simplified (low confidence). The belly and the winglets' inner faces aren't seen squarely: the belly is taken as white. Colors by eye from overcast photos. Re-checked 2026-11-15 on PK-GFI (left, from ahead: too oblique for photo_trace's fit, so placed between the forward door and the overwing exits): the title runs about x 0.231 to 0.418 (lowercase 0.72 of the capitals), the bird logo just ahead of it centred x 0.20; its capitals reach y 0.75 (height 0.36; they had been drawn 0.25, visibly smaller than the photo's), baseline y 0.39 as drawn. The rear fuselage's sky-blue and teal edges are curves: smooth; the fin's bands are straight.",
+  "history": "Replaces Skyarium v1's approximation. The 2009 'nature's wing' scheme (Landor Associates) replaced the 1985 Landor livery (white with the large Garuda bird on a dark blue tail)."
+}

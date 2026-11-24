@@ -1,0 +1,701 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "imua-one",
+  "airline": "SWA",
+  "name": "Imua One (Hawaii)",
+  "kind": "special",
+  "from": "2023",
+  "description": "Fuselage: Sunrise gradient from periwinkle/purple-blue at the nose through magenta and orange to yellow at the tail, overlaid with black Polynesian/Hawaiian pattern art (triangles, waves, chevrons, spirals) along the whole fuselage; black hibiscus/plumeria flowers near the nose. Cheatlines: None. Tail: Heart fin with white 'Southwest'. Engines: Pink/red with black triangle patterns. Winglets: approximate. Titles: 'Southwest' white on lower fin; 'Imua One' small by cockpit. Artwork: Hawaii-themed design honoring Southwest's Hawaii employees and communities ('Imua' = move forward). Colors hex: approximate.",
+  "confidence": "medium",
+  "drawnOn": "B38M",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Southwest_Airlines_fleet",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/w/index.php?search=Imua+One",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Southwest_Boeing_737-8_MAX_N8710M_Imua_One_BWI_MD1.jpg",
+      "title": "Southwest Boeing 737-8 MAX N8710M Imua One BWI MD1.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-12",
+      "note": "N8710M from the left and below, 2026-02-26: the sunrise colors nose to tail, the black patterns, engines, fin (measured from this one, levelled)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Southwest_Boeing_737-8_MAX_N8710M_Imua_One_BWI_MD2.jpg",
+      "title": "Southwest Boeing 737-8 MAX N8710M Imua One BWI MD2.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-12",
+      "note": "N8710M from the left and behind, 2026-02-26: the aft patterns and the black-and-yellow tail cone."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Southwest_Airlines_Boeing_737-8_MAX_N8710M_\"Imua_One\"_on_final_approach_to_Santa_Barbara.jpg",
+      "title": "Southwest Airlines Boeing 737-8 MAX N8710M \"Imua One\" on final approach to Santa Barbara.jpg (CC BY 2.0)",
+      "accessed": "2026-11-12",
+      "note": "N8710M from the right, 2023-10-19: the right side carries the same sequence."
+    }
+  ],
+  "palette": {
+    "blue": {
+      "hex": "#304CB2",
+      "name": "Bold Blue",
+      "official": true
+    },
+    "red": {
+      "hex": "#D5152B",
+      "official": false
+    },
+    "yellow": {
+      "hex": "#F9B612",
+      "official": false
+    },
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B4B9C0",
+      "official": false
+    },
+    "wingletGray": {
+      "hex": "#D3D6DA",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "name": "bare metal inlet lip",
+      "official": false
+    },
+    "imuaBlue": {
+      "hex": "#6C74D6",
+      "official": false
+    },
+    "imuaPurple": {
+      "hex": "#A85BB0",
+      "official": false
+    },
+    "imuaCoral": {
+      "hex": "#EE5468",
+      "official": false
+    },
+    "imuaOrange": {
+      "hex": "#F4892C",
+      "official": false
+    },
+    "imuaGold": {
+      "hex": "#F6B22A",
+      "official": false
+    },
+    "imuaYellow": {
+      "hex": "#F4CB2C",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "imuaBlue",
+    "areas": [
+      {
+        "name": "sunrise gradient, purple-magenta from here aft",
+        "color": "imuaPurple",
+        "points": [
+          [
+            0.17,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            0.2,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "name": "sunrise gradient, coral pink from here aft",
+        "color": "imuaCoral",
+        "points": [
+          [
+            0.27,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            0.3,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "name": "sunrise gradient, orange from here aft",
+        "color": "imuaOrange",
+        "points": [
+          [
+            0.45,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            0.47,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "name": "sunrise gradient, golden orange from here aft",
+        "color": "imuaGold",
+        "points": [
+          [
+            0.58,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            0.6,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "name": "sunrise gradient, yellow from here aft",
+        "color": "imuaYellow",
+        "points": [
+          [
+            0.7,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            0.71,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "name": "blue dorsal fillet, the fin's blue run forward",
+        "color": "blue",
+        "points": [
+          [
+            0.762,
+            1
+          ],
+          [
+            0.8,
+            0.93
+          ],
+          [
+            0.985,
+            0.93
+          ],
+          [
+            0.985,
+            1
+          ]
+        ]
+      }
+    ],
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3,
+      4
+    ]
+  },
+  "fin": {
+    "base": "blue",
+    "areas": [
+      {
+        "name": "pinstripe under the red",
+        "color": "white",
+        "above": [
+          [
+            0,
+            0.2
+          ],
+          [
+            0.177,
+            0.241
+          ],
+          [
+            0.504,
+            0.329
+          ],
+          [
+            0.723,
+            0.407
+          ],
+          [
+            0.883,
+            0.482
+          ],
+          [
+            1,
+            0.54
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "red band",
+        "color": "red",
+        "above": [
+          [
+            0,
+            0.213
+          ],
+          [
+            0.081,
+            0.235
+          ],
+          [
+            0.416,
+            0.324
+          ],
+          [
+            0.65,
+            0.404
+          ],
+          [
+            0.803,
+            0.479
+          ],
+          [
+            1,
+            0.555
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "pinstripe under the yellow",
+        "color": "white",
+        "above": [
+          [
+            0,
+            0.285
+          ],
+          [
+            0.18,
+            0.38
+          ],
+          [
+            0.315,
+            0.455
+          ],
+          [
+            0.489,
+            0.6
+          ],
+          [
+            0.645,
+            0.741
+          ],
+          [
+            0.8,
+            0.88
+          ],
+          [
+            0.895,
+            0.948
+          ],
+          [
+            0.97,
+            1.0
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "yellow band",
+        "color": "yellow",
+        "above": [
+          [
+            0,
+            0.3
+          ],
+          [
+            0.126,
+            0.377
+          ],
+          [
+            0.246,
+            0.452
+          ],
+          [
+            0.427,
+            0.597
+          ],
+          [
+            0.561,
+            0.738
+          ],
+          [
+            0.692,
+            0.877
+          ],
+          [
+            0.766,
+            0.946
+          ],
+          [
+            0.82,
+            1.0
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "leading-edge pinstripe along the yellow",
+        "color": "white",
+        "points": [
+          [
+            0.003,
+            0.3
+          ],
+          [
+            0.025,
+            0.3
+          ],
+          [
+            0.025,
+            1.0
+          ],
+          [
+            0.003,
+            1.0
+          ]
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3,
+      4
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "wingletGray",
+    "inner": "wingletGray"
+  },
+  "engines": {
+    "cowling": "imuaCoral",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3,
+      4
+    ]
+  },
+  "logos": [
+    {
+      "mark": "SWA/heart",
+      "place": "fuselage",
+      "at": [
+        0.095,
+        0.4
+      ],
+      "height": 0.13,
+      "colors": [
+        "blue",
+        "red",
+        "yellow"
+      ],
+      "description": "The small Southwest Heart above and just aft of the forward passenger door.",
+      "reference": "https://commons.wikimedia.org/wiki/Category:Southwest_Airlines",
+      "side": "both",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mark": "SWA/us-flag",
+      "place": "fin",
+      "at": [
+        0.02,
+        0.05
+      ],
+      "height": 0.055,
+      "colors": [
+        "red",
+        "white",
+        "#1F2A5C"
+      ],
+      "description": "A small US flag ahead of the fin title, at the fin's root.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mark": "SWA/imua-pattern",
+      "place": "fuselage",
+      "at": [
+        0.55,
+        0
+      ],
+      "height": 2,
+      "colors": [
+        "#111111"
+      ],
+      "description": "Black Polynesian-style patterns over the whole sunrise from the forward door aft: large hibiscus or plumeria flowers on the blue at the nose, then bold triangles, chevrons, waves, spirals, turtles and ladder bands, covering roughly a third to a half of the surface; the tail cone in black and yellow diagonal bars.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mark": "SWA/imua-pattern",
+      "place": "engines",
+      "at": [
+        0.5,
+        0
+      ],
+      "height": 1.6,
+      "colors": [
+        "#111111"
+      ],
+      "description": "Black triangles and bands over the coral cowlings.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Southwest",
+      "place": "fin",
+      "at": [
+        0.084,
+        0.03
+      ],
+      "height": 0.12,
+      "color": "white",
+      "style": "The Southwest wordmark: bold, upright, rounded humanist sans, capital S, on the blue at the fin's root.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3,
+        4
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Bold",
+          "Gotham Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      },
+      "length": 0.86
+    },
+    {
+      "text": "Imua",
+      "place": "fuselage",
+      "at": [
+        0.0658,
+        -0.1
+      ],
+      "height": 0.05,
+      "color": "white",
+      "style": "The state's name, small under the cockpit windows, semi-bold; 'One' follows it in a lighter weight.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3,
+        4
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Demi Bold",
+          "Gotham Medium"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "length": 0.0131,
+      "side": "left"
+    },
+    {
+      "text": "One",
+      "place": "fuselage",
+      "at": [
+        0.08,
+        -0.1
+      ],
+      "height": 0.05,
+      "color": "white",
+      "style": "'One' after the name, lighter.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3,
+        4
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Regular",
+          "Gotham Book"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "length": 0.0108,
+      "side": "left"
+    },
+    {
+      "text": "Imua",
+      "place": "fuselage",
+      "at": [
+        0.0777,
+        -0.1
+      ],
+      "height": 0.05,
+      "color": "white",
+      "style": "The state's name, small under the cockpit windows, semi-bold; 'One' follows it in a lighter weight. On the right it reads from the aft end: the name aft, 'One' forward.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3,
+        4
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Demi Bold",
+          "Gotham Medium"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "length": 0.0131,
+      "side": "right"
+    },
+    {
+      "text": "One",
+      "place": "fuselage",
+      "at": [
+        0.0658,
+        -0.1
+      ],
+      "height": 0.05,
+      "color": "white",
+      "style": "'One' after the name, lighter.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3,
+        4
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Regular",
+          "Gotham Book"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "length": 0.0108,
+      "side": "right"
+    }
+  ],
+  "notes": "Drawn from Feb 2026 photos of N8710M. The fuselage is a continuous sunrise gradient (periwinkle at the nose through magenta, coral and orange to yellow at the tail): drawn here as bands at where each color is strongest. The black patterns are described, not drawn. Re-checked 2026-11-15: the fin is the state jets' Heart fin as re-measured on Colorado One (the same fin on every 737), copied with its 'Southwest' title and flag. 'Imua One' measured on the 2023 right-side photo against the nose and the forward door (2.5-3.45 m back), two weights, a pair of titles per side (the left mirrored; the 2026 photos are from behind and too oblique to read it), on Colorado One's line under the cockpit windows. The sunrise bands are a gradient, kept as straight cuts. Drawn on the 737-8 (no measured shape; it's within 0.1 m of the 737-800's fuselage, so shapes/B738.json is close)."
+}

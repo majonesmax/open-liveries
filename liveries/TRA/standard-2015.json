@@ -1,0 +1,464 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard-2015",
+  "airline": "TRA",
+  "name": "2015 livery",
+  "kind": "standard",
+  "from": "2015-03",
+  "confidence": "medium",
+  "drawnOn": "B738",
+  "description": "White fuselage with a large green lowercase 'transavia' over the forward cabin; white fin with a big green disc (cropped by the fin's edges) holding a white 't'; white engines with a green 't' disc; small colored marks along the belly (maroon ahead of the wing, navy behind it); white sharklets.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:PH-YHU_at_AMS_20261006.jpg",
+      "accessed": "2026-11-13",
+      "title": "PH-YHU at AMS (CC BY 4.0)",
+      "note": "Left side, 2026-10-06: the 2015 scheme on an A321neo: title, fin disc, engine."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Transavia_Airbus_A321-251NX_PH-YHY.jpg",
+      "accessed": "2026-11-13",
+      "title": "Transavia A321neo PH-YHY (CC0)",
+      "note": "Front three-quarter, 2024-07-22: title, engine disc, belly marks, white sharklets."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:F-HXSA_A320neo_Transavia_France_OPO_01.jpg",
+      "accessed": "2026-11-13",
+      "title": "F-HXSA A320neo Transavia France, Porto (CC BY-SA 4.0)",
+      "note": "Right side, 2026-08-03: fin disc, colored belly marks (maroon forward, navy aft)."
+    },
+    {
+      "url": "https://madegooddesigns.com/?p=118939",
+      "accessed": "2026-11-13",
+      "title": "Transavia brand history (Made Good Designs)",
+      "note": "2015 identity presented 2015-03-10, first on 737-800 PH-HZE; icons painted on the belly."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Transavia_logo.svg",
+      "accessed": "2026-11-13",
+      "title": "Transavia logo (Commons)"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Flughafen_Innsbruck_(IMG_20260312_082745).jpg",
+      "title": "Flughafen Innsbruck (IMG 20260312 082745).jpg (CC BY-SA 4.0, Simon Legner)",
+      "accessed": "2026-11-15",
+      "note": "737-800 PH-HXI left side, side-on, 2026-03-12: the title's ends and height, placed by the doors and windows (re-check 2026-11-15)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Flughafen_Innsbruck_(IMG_20260312_082740).jpg",
+      "title": "Flughafen Innsbruck (IMG 20260312 082740).jpg (CC BY-SA 4.0, Simon Legner)",
+      "accessed": "2026-11-15",
+      "note": "737-800 PH-HXI left side, 2026-03-12: second check of the title (ends agree within 0.004)."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "green": {
+      "hex": "#00A651",
+      "official": false,
+      "name": "Transavia green (2015)"
+    },
+    "maroon": {
+      "hex": "#7A2232",
+      "official": false
+    },
+    "navy": {
+      "hex": "#1E2350",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false,
+      "name": "bare metal inlet lip"
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "belly mark ahead of the wing (maroon)",
+        "color": "maroon",
+        "points": [
+          [
+            0.17,
+            -1
+          ],
+          [
+            0.3,
+            -1
+          ],
+          [
+            0.3,
+            -0.8
+          ],
+          [
+            0.17,
+            -0.8
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "belly mark behind the wing (navy)",
+        "color": "navy",
+        "points": [
+          [
+            0.58,
+            -1
+          ],
+          [
+            0.71,
+            -1
+          ],
+          [
+            0.71,
+            -0.82
+          ],
+          [
+            0.58,
+            -0.82
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0,
+          2
+        ]
+      }
+    ],
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "green disc",
+        "color": "green",
+        "points": [
+          [
+            1.1,
+            0.47
+          ],
+          [
+            1.08,
+            0.576
+          ],
+          [
+            1.02,
+            0.675
+          ],
+          [
+            0.924,
+            0.76
+          ],
+          [
+            0.8,
+            0.825
+          ],
+          [
+            0.655,
+            0.866
+          ],
+          [
+            0.5,
+            0.88
+          ],
+          [
+            0.345,
+            0.866
+          ],
+          [
+            0.2,
+            0.825
+          ],
+          [
+            0.076,
+            0.76
+          ],
+          [
+            -0.02,
+            0.675
+          ],
+          [
+            -0.08,
+            0.576
+          ],
+          [
+            -0.1,
+            0.47
+          ],
+          [
+            -0.08,
+            0.364
+          ],
+          [
+            -0.02,
+            0.265
+          ],
+          [
+            0.076,
+            0.18
+          ],
+          [
+            0.2,
+            0.115
+          ],
+          [
+            0.345,
+            0.074
+          ],
+          [
+            0.5,
+            0.06
+          ],
+          [
+            0.655,
+            0.074
+          ],
+          [
+            0.8,
+            0.115
+          ],
+          [
+            0.924,
+            0.18
+          ],
+          [
+            1.02,
+            0.265
+          ],
+          [
+            1.08,
+            0.364
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          2
+        ],
+        "smooth": true
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      2
+    ]
+  },
+  "wings": {
+    "top": "#B9BEC5",
+    "under": "#C9CDD2"
+  },
+  "winglets": {
+    "outer": "white",
+    "inner": "white",
+    "confidence": "medium",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "areas": [
+      {
+        "name": "green disc",
+        "color": "green",
+        "points": [
+          [
+            0.52,
+            0.0
+          ],
+          [
+            0.513,
+            0.16
+          ],
+          [
+            0.493,
+            0.31
+          ],
+          [
+            0.461,
+            0.438
+          ],
+          [
+            0.42,
+            0.537
+          ],
+          [
+            0.372,
+            0.599
+          ],
+          [
+            0.32,
+            0.62
+          ],
+          [
+            0.268,
+            0.599
+          ],
+          [
+            0.22,
+            0.537
+          ],
+          [
+            0.179,
+            0.438
+          ],
+          [
+            0.147,
+            0.31
+          ],
+          [
+            0.127,
+            0.16
+          ],
+          [
+            0.12,
+            0.0
+          ],
+          [
+            0.127,
+            -0.16
+          ],
+          [
+            0.147,
+            -0.31
+          ],
+          [
+            0.179,
+            -0.438
+          ],
+          [
+            0.22,
+            -0.537
+          ],
+          [
+            0.268,
+            -0.599
+          ],
+          [
+            0.32,
+            -0.62
+          ],
+          [
+            0.372,
+            -0.599
+          ],
+          [
+            0.42,
+            -0.537
+          ],
+          [
+            0.461,
+            -0.438
+          ],
+          [
+            0.493,
+            -0.31
+          ],
+          [
+            0.513,
+            -0.16
+          ]
+        ],
+        "smooth": true
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "TRA/t",
+      "place": "fin",
+      "at": [
+        0.5,
+        0.47
+      ],
+      "height": 0.45,
+      "colors": [
+        "white"
+      ],
+      "description": "The 't' monogram in white on the green disc.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Transavia_logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "mark": "TRA/t",
+      "place": "engines",
+      "at": [
+        0.32,
+        0.0
+      ],
+      "height": 0.45,
+      "colors": [
+        "white"
+      ],
+      "description": "The 't' in white on the engine's green disc.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Transavia_logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "transavia",
+      "place": "fuselage",
+      "at": [
+        0.18,
+        0.03
+      ],
+      "height": 0.6,
+      "length": 0.385,
+      "color": "green",
+      "style": "Large heavy rounded lowercase over the forward cabin, starting just aft of the forward door, the windows running through its lower half (measured on the 737-800, the scheme's commonest type, 2026-11-15; on the A320/A321neo it was measured at x 0.17, length 0.33, cap 1.0).",
+      "confidence": "high",
+      "sourceRefs": [
+        5,
+        6
+      ],
+      "type": {
+        "similar": [
+          "Gilroy Bold",
+          "Poppins SemiBold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.7
+      }
+    }
+  ],
+  "notes": "Still the commonest Transavia scheme in late 2026 (all 737-800s and many A320neo-family aircraft; Transavia France too). The belly marks are a row of colored icons seen only edge-on in these photos: drawn as two plain patches, low confidence. Re-checked 2026-11-15: re-measured on the 737-800 (PH-HXI, two photos, 2026), the type most of the fleet in this scheme flies; the title's lowercase 0.7 of the t; the discs drawn as circles (smooth).",
+  "history": "Introduced March 2015 on PH-HZE, replacing the green-and-blue scheme; superseded by the 2025 livery on new deliveries from September 2025.",
+  "commonest": true
+}

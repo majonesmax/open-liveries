@@ -1,0 +1,704 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "bcrf-pink",
+  "airline": "DAL",
+  "name": "BCRF pink ribbon",
+  "kind": "special",
+  "confidence": "medium",
+  "drawnOn": "B764",
+  "from": "2015",
+  "commemorates": "Delta's partnership with the Breast Cancer Research Foundation (BCRF).",
+  "description": "Delta's white scheme with the navy belly and standard fin, wrapped in a pink ribbon: a ribbon loop round the forward fuselage behind the forward door, its strands running down and back to the belly, and a broad pink swoosh (shading pink to red) from the crown ahead of the fin down to the wing root. 'DELTA' with the widget forward; 'BCRF' with a small pink ribbon and 'Breast Cancer Research Foundation' under the cockpit.",
+  "sources": [
+    {
+      "url": "https://www.deltamuseum.org/delta-history/delta-brand/aircraft-livery_group/special-livery",
+      "title": "Delta Flight Museum: special liveries",
+      "accessed": "2026-11-22",
+      "note": "Ship 1821 (N845MH) first wore pink in 2010; repainted in 2015 with the pink ribbon wrapped round the fuselage, for the Breast Cancer Research Foundation."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N845MH_Boeing_767-423ER_Delta_Air_Lines_(43654249300).jpg",
+      "title": "N845MH Boeing 767-423ER Delta Air Lines (43654249300).jpg (CC BY-SA 2.0)",
+      "accessed": "2026-11-22",
+      "note": "N845MH right side on the ground, 2017-07-31, side-on: flipped nose-left; every position read off it by hand (no measured 767-400 shape: shares of the length nose to tail cone, heights through the side view's sin(y·90°))."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Delta_Air_Lines_Boeing_767-400ER_ATL-MAD.jpg",
+      "title": "Delta Air Lines Boeing 767-400ER ATL-MAD.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-22",
+      "note": "N845MH at LAX, 2024-02-25 (left side, distant): the same scheme still flying."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N845mh_(25442809048).jpg",
+      "title": "N845mh (25442809048).jpg (CC BY 2.0)",
+      "accessed": "2026-11-22",
+      "note": "N845MH, 2017-04-09: the left side, the ribbon's loop round the forward door."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F3F1",
+      "official": false
+    },
+    "navy": {
+      "hex": "#0B1F45",
+      "official": false,
+      "name": "Delta blue (navy)"
+    },
+    "red": {
+      "hex": "#C8102E",
+      "official": false,
+      "name": "widget red"
+    },
+    "darkRed": {
+      "hex": "#8E0A22",
+      "official": false,
+      "name": "widget's shaded facet"
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false,
+      "name": "polished inlet lip"
+    },
+    "flagRed": {
+      "hex": "#C8102E",
+      "official": false
+    },
+    "pink": {
+      "hex": "#E8337A",
+      "official": false,
+      "name": "BCRF pink (gradient to red on the aircraft)"
+    },
+    "ribbon": {
+      "hex": "#E0284E",
+      "official": false,
+      "name": "ribbon pink-red"
+    },
+    "gray": {
+      "hex": "#3A3F4A",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "navy belly, from behind the radome to a rounded end before the tail",
+        "color": "navy",
+        "points": [
+          [
+            0.025,
+            -0.75
+          ],
+          [
+            0.08,
+            -0.62
+          ],
+          [
+            0.3,
+            -0.58
+          ],
+          [
+            0.55,
+            -0.48
+          ],
+          [
+            0.68,
+            -0.45
+          ],
+          [
+            0.74,
+            -0.5
+          ],
+          [
+            0.775,
+            -0.7
+          ],
+          [
+            0.785,
+            -1
+          ],
+          [
+            0.02,
+            -1
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2
+        ],
+        "smooth": true
+      },
+      {
+        "name": "pink swoosh from the crown ahead of the fin down to the wing root",
+        "color": "pink",
+        "smooth": true,
+        "points": [
+          [
+            0.87,
+            1.0,
+            1
+          ],
+          [
+            0.654,
+            1.0
+          ],
+          [
+            0.597,
+            0.579
+          ],
+          [
+            0.552,
+            0.067
+          ],
+          [
+            0.529,
+            -0.373,
+            1
+          ],
+          [
+            0.558,
+            -0.48,
+            1
+          ],
+          [
+            0.609,
+            -0.017
+          ],
+          [
+            0.694,
+            0.152
+          ],
+          [
+            0.779,
+            0.383
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          2
+        ]
+      },
+      {
+        "name": "ribbon: the forward strand, from under the forward windows down and back to the belly (straight)",
+        "color": "ribbon",
+        "smooth": false,
+        "points": [
+          [
+            0.234,
+            -0.205,
+            1
+          ],
+          [
+            0.296,
+            -0.205,
+            1
+          ],
+          [
+            0.393,
+            -1.0,
+            1
+          ],
+          [
+            0.331,
+            -1.0,
+            1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          2
+        ]
+      },
+      {
+        "name": "ribbon: the aft strand, from the loop's foot down and back to the belly (straight)",
+        "color": "ribbon",
+        "smooth": false,
+        "points": [
+          [
+            0.498,
+            -0.373,
+            1
+          ],
+          [
+            0.529,
+            -0.144,
+            1
+          ],
+          [
+            0.586,
+            -1.0,
+            1
+          ],
+          [
+            0.552,
+            -1.0,
+            1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          2
+        ]
+      },
+      {
+        "name": "ribbon loop round the forward fuselage (outer edge)",
+        "color": "ribbon",
+        "smooth": true,
+        "points": [
+          [
+            0.549,
+            0.025
+          ],
+          [
+            0.543,
+            -0.216
+          ],
+          [
+            0.525,
+            -0.45
+          ],
+          [
+            0.498,
+            -0.659
+          ],
+          [
+            0.467,
+            -0.768
+          ],
+          [
+            0.435,
+            -0.659
+          ],
+          [
+            0.409,
+            -0.45
+          ],
+          [
+            0.391,
+            -0.216
+          ],
+          [
+            0.385,
+            0.025
+          ],
+          [
+            0.391,
+            0.27
+          ],
+          [
+            0.409,
+            0.519
+          ],
+          [
+            0.435,
+            0.777
+          ],
+          [
+            0.467,
+            0.98
+          ],
+          [
+            0.498,
+            0.777
+          ],
+          [
+            0.525,
+            0.519
+          ],
+          [
+            0.543,
+            0.27
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          2
+        ]
+      },
+      {
+        "name": "the loop's white inside",
+        "color": "white",
+        "smooth": true,
+        "points": [
+          [
+            0.522,
+            0.084
+          ],
+          [
+            0.518,
+            -0.051
+          ],
+          [
+            0.506,
+            -0.167
+          ],
+          [
+            0.487,
+            -0.247
+          ],
+          [
+            0.466,
+            -0.277
+          ],
+          [
+            0.444,
+            -0.247
+          ],
+          [
+            0.426,
+            -0.167
+          ],
+          [
+            0.413,
+            -0.051
+          ],
+          [
+            0.409,
+            0.084
+          ],
+          [
+            0.413,
+            0.223
+          ],
+          [
+            0.426,
+            0.35
+          ],
+          [
+            0.444,
+            0.444
+          ],
+          [
+            0.466,
+            0.48
+          ],
+          [
+            0.487,
+            0.444
+          ],
+          [
+            0.506,
+            0.35
+          ],
+          [
+            0.518,
+            0.223
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          2
+        ]
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "plain",
+    "confidence": "low",
+    "sourceRefs": [
+      2,
+      3
+    ]
+  },
+  "fin": {
+    "base": "navy",
+    "areas": [
+      {
+        "name": "widget, bright upper facet",
+        "color": "red",
+        "points": [
+          [
+            0.073,
+            0.737
+          ],
+          [
+            0.99,
+            0.732
+          ],
+          [
+            0.99,
+            0.601
+          ],
+          [
+            0.589,
+            0.395
+          ],
+          [
+            0.028,
+            0.57
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "widget, shaded left facet",
+        "color": "darkRed",
+        "points": [
+          [
+            0.028,
+            0.57
+          ],
+          [
+            0.589,
+            0.395
+          ],
+          [
+            0.762,
+            -0.031
+          ],
+          [
+            0.614,
+            -0.031
+          ],
+          [
+            0.021,
+            0.439
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "widget, bright lower-right facet",
+        "color": "red",
+        "points": [
+          [
+            0.773,
+            0.32
+          ],
+          [
+            1.002,
+            0.452
+          ],
+          [
+            0.995,
+            0.219
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "widget, shaded lower-right facet",
+        "color": "darkRed",
+        "points": [
+          [
+            0.773,
+            0.32
+          ],
+          [
+            0.995,
+            0.219
+          ],
+          [
+            1.01,
+            -0.057
+          ],
+          [
+            0.86,
+            -0.057
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2
+        ]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "stabilizer": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "engines": {
+    "cowling": "navy",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "DAL/widget",
+      "place": "fuselage",
+      "at": [
+        0.172,
+        0.23
+      ],
+      "height": 0.33,
+      "colors": [
+        "red",
+        "darkRed"
+      ],
+      "description": "Delta's widget ahead of 'DELTA' (aft of it as seen on the right side).",
+      "confidence": "medium",
+      "sourceRefs": [
+        2
+      ]
+    },
+    {
+      "mark": "DAL/bcrf-ribbon",
+      "place": "fuselage",
+      "at": [
+        0.2,
+        -0.45
+      ],
+      "height": 0.4,
+      "colors": [
+        "ribbon"
+      ],
+      "description": "A small pink awareness ribbon after 'BCRF' under the cockpit, 'Breast Cancer Research Foundation' in small gray capitals beside it.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2
+      ]
+    },
+    {
+      "mark": "DAL/widget",
+      "place": "fin",
+      "at": [
+        0.5,
+        0.5
+      ],
+      "height": 0.8,
+      "colors": [
+        "red",
+        "darkRed",
+        "navy"
+      ],
+      "description": "The widget drawn huge across the fin, cropped by its edges: a bright red upper facet, darker red facets below, split by a navy Y.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "DAL/widget",
+      "place": "belly",
+      "at": [
+        0.38,
+        -1
+      ],
+      "height": 0.35,
+      "colors": [
+        "white"
+      ],
+      "description": "A white widget ahead of the belly 'DELTA'.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "DELTA",
+      "place": "fuselage",
+      "at": [
+        0.189,
+        0.08
+      ],
+      "height": 0.3,
+      "length": 0.136,
+      "color": "navy",
+      "style": "Delta's wordmark, spaced navy capitals over the forward windows.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2
+      ],
+      "type": {
+        "similar": [
+          "Gotham Medium",
+          "Montserrat SemiBold"
+        ],
+        "weight": 600,
+        "slantDeg": 8,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "BCRF",
+      "place": "fuselage",
+      "at": [
+        0.092,
+        -0.607
+      ],
+      "height": 0.28,
+      "length": 0.07,
+      "color": "gray",
+      "style": "'BCRF' in dark gray capitals under the cockpit.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2
+      ],
+      "type": {
+        "similar": [
+          "Gotham Book",
+          "Montserrat"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "DELTA",
+      "place": "belly",
+      "at": [
+        0.4,
+        -1
+      ],
+      "height": 0.4,
+      "color": "white",
+      "style": "The same capitals in white under the navy belly, ahead of and under the wing; read from below.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2
+      ],
+      "length": 0.14,
+      "type": {
+        "similar": [
+          "Whitney Semibold",
+          "Gotham Medium"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Drawn from the right side (N845MH, 2017-07-31, flipped) read by hand: no measured 767-400 shape, so positions are shares of the length (within about 0.02) and heights through sin(y·90°) from a centreline and radius read at mid-fuselage. The ribbon is art: its big masses only, the loop as a pink ellipse with a white inside, the strands straight; the swoosh's pink-to-red shading drawn flat. The left side (2017-04-09, 2024-02-25) shows the same layout; the right side's widget is aft of 'DELTA' as the standard's. The navy belly and fin are Delta's standard (copied). Still flying in it: Commons 2024-02-25; a November 2025 photo elsewhere (lead only).",
+  "history": "Delta's 'pink plane' since 2010 (a 757 before it); this design from 2015."
+}

@@ -1,0 +1,43 @@
+# Every push and pull request: the data validates, the tools lint and type-check, the renderer and viewer lint and
+# pass their tests, and the committed build output matches the source.
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  data-and-tools:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install "jsonschema>=4.18" ruff mypy types-jsonschema numpy pillow
+      - name: Validate the data
+        run: python -I tools/validate.py
+      - name: Lint and type-check the tools
+        run: |
+          ruff check
+          ruff format --check
+          mypy
+
+  renderer:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run format:check
+      - run: npm test
+      - name: The committed build output matches the source
+        run: npm run check:built

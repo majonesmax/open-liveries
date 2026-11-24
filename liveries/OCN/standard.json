@@ -1,0 +1,468 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "OCN",
+  "name": "2023 livery",
+  "kind": "standard",
+  "from": "2023-09",
+  "confidence": "high",
+  "drawnOn": "A320",
+  "description": "White fuselage with a big mid-blue lower-case 'discover' and a yellow dot over the forward windows. The fin is horizontal bands of blue getting lighter towards a yellow tip, with a big pale circle (a sun) across the lower bands; deep blue runs down from the fin onto the rear fuselage on a straight diagonal, like Lufthansa's.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Discover_Airlines",
+      "accessed": "2026-11-13",
+      "note": "ICAO OCN; flew as Eurowings Discover from 2021, new identity as Discover Airlines announced September 2023."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:D-AIUW_AIRCRAFT_Airbus_A320-214_(2).jpg",
+      "title": "D-AIUW AIRCRAFT Airbus A320-214 (2), 2025-11-27 (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Left side, level: title, blue tail block, fin bands and circle."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:D-AIKI_AIRCRAFT_Airbus_A330-343_-1b.jpg",
+      "title": "D-AIKI A330-343, 2026-06-14 (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Left side on the A330 at Frankfurt: the same layout."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:Discover_Airlines_livery_(2023%E2%80%93)",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F6",
+      "official": false
+    },
+    "deepBlue": {
+      "hex": "#1E3F96",
+      "official": false
+    },
+    "blue": {
+      "hex": "#3D7FCB",
+      "official": false
+    },
+    "midBlue": {
+      "hex": "#5BA3DF",
+      "official": false
+    },
+    "paleBlue": {
+      "hex": "#8EC3EC",
+      "official": false
+    },
+    "sunOnBlue": {
+      "hex": "#6FA3DB",
+      "official": false
+    },
+    "sunOnPale": {
+      "hex": "#B3D7F2",
+      "official": false
+    },
+    "yellow": {
+      "hex": "#F7C21B",
+      "official": false
+    },
+    "titleBlue": {
+      "hex": "#2F72C4",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "deep-blue tail block, forward edge a straight diagonal from the fin's leading edge to the belly",
+        "color": "deepBlue",
+        "points": [
+          [
+            0.8,
+            1.0
+          ],
+          [
+            0.73,
+            -1.0
+          ],
+          [
+            0.948,
+            -1
+          ],
+          [
+            0.948,
+            1
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      }
+    ],
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "blue",
+    "mirrored": true,
+    "areas": [
+      {
+        "name": "deep-blue root band",
+        "color": "deepBlue",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0.18
+          ],
+          [
+            0,
+            0.18
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "sun circle over the blue band",
+        "color": "sunOnBlue",
+        "points": [
+          [
+            0.209,
+            0.364
+          ],
+          [
+            0.205,
+            0.32
+          ],
+          [
+            0.209,
+            0.276
+          ],
+          [
+            0.219,
+            0.232
+          ],
+          [
+            0.236,
+            0.19
+          ],
+          [
+            0.241,
+            0.18
+          ],
+          [
+            0.979,
+            0.18
+          ],
+          [
+            0.984,
+            0.19
+          ],
+          [
+            1.001,
+            0.232
+          ],
+          [
+            1.011,
+            0.276
+          ],
+          [
+            1.015,
+            0.32
+          ],
+          [
+            1.011,
+            0.364
+          ],
+          [
+            1.001,
+            0.408
+          ],
+          [
+            0.984,
+            0.45
+          ],
+          [
+            0.961,
+            0.49
+          ],
+          [
+            0.931,
+            0.527
+          ],
+          [
+            0.896,
+            0.56
+          ],
+          [
+            0.871,
+            0.58
+          ],
+          [
+            0.349,
+            0.58
+          ],
+          [
+            0.324,
+            0.56
+          ],
+          [
+            0.289,
+            0.527
+          ],
+          [
+            0.259,
+            0.49
+          ],
+          [
+            0.236,
+            0.45
+          ],
+          [
+            0.219,
+            0.408
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "pale band",
+        "color": "paleBlue",
+        "points": [
+          [
+            0,
+            0.58
+          ],
+          [
+            1,
+            0.58
+          ],
+          [
+            1,
+            0.71
+          ],
+          [
+            0,
+            0.71
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "sun circle over the pale band",
+        "color": "sunOnPale",
+        "points": [
+          [
+            0.408,
+            0.614
+          ],
+          [
+            0.364,
+            0.59
+          ],
+          [
+            0.349,
+            0.58
+          ],
+          [
+            0.871,
+            0.58
+          ],
+          [
+            0.856,
+            0.59
+          ],
+          [
+            0.812,
+            0.614
+          ],
+          [
+            0.765,
+            0.634
+          ],
+          [
+            0.715,
+            0.648
+          ],
+          [
+            0.663,
+            0.657
+          ],
+          [
+            0.61,
+            0.66
+          ],
+          [
+            0.557,
+            0.657
+          ],
+          [
+            0.505,
+            0.648
+          ],
+          [
+            0.455,
+            0.634
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "mid-blue band",
+        "color": "midBlue",
+        "points": [
+          [
+            0,
+            0.71
+          ],
+          [
+            1,
+            0.71
+          ],
+          [
+            1,
+            0.84
+          ],
+          [
+            0,
+            0.84
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "yellow tip",
+        "color": "yellow",
+        "points": [
+          [
+            0,
+            0.84
+          ],
+          [
+            1,
+            0.84
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          1
+        ]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "winglets": {
+    "outer": "white",
+    "inner": "white",
+    "confidence": "medium",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "OCN/sun-dot",
+      "place": "fuselage",
+      "at": [
+        0.428,
+        -0.09
+      ],
+      "height": 0.17,
+      "colors": [
+        "yellow"
+      ],
+      "description": "The yellow dot that ends the 'discover' wordmark, like a full stop or a small sun.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Logo_Discover_Airlines.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "discover",
+      "place": "fuselage",
+      "at": [
+        0.183,
+        -0.04
+      ],
+      "height": 0.75,
+      "length": 0.236,
+      "color": "titleBlue",
+      "style": "Big lower-case rounded geometric sans, bold, upright, crossing the forward window line.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Nunito Black",
+          "Gotham Rounded Bold",
+          "Avenir Next Heavy"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.66
+      }
+    }
+  ],
+  "notes": "The sun circle is a lighter tint of each band it crosses; drawn here in two tints. Not drawn: 'Lufthansa Group' small aft, registration and flags. A few aircraft may still wear the 2021 Eurowings Discover titles. On the A330 the blue block's diagonal sits further aft, following the fin. Re-checked 2026-11-15 on D-AIUW (A320, 2025): title place and length (0.236, behind the forward door) agree; lowercase 0.66 of the ascenders. The blue block's edge is a straight diagonal; the sun circle's arcs are densely sampled (24 points) between real corners at the bands, so left as polygons. The tail block's forward edge is a straight diagonal as seen from the side: its points along the line replaced by the two ends (2026-11-15).",
+  "history": "New in the dataset (Skyarium v1 had no Discover entry). Replaced the Eurowings Discover scheme of 2021."
+}

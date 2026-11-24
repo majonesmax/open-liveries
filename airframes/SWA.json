@@ -1,0 +1,442 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "SWA",
+  "airframes": [
+    {
+      "registration": "N1776R",
+      "livery": "independence-one",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://www.prnewswire.com/news-releases/southwest-airlines-announces-partnership-with-america250-and-unveils-independence-one-in-celebration-of-giving-people-the-freedom-to-fly-for-55-years-302754776.html",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://airlinegeeks.com/2026/04/28/first-look-southwest-rolls-out-u-s-250th-anniversary-livery/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/w/index.php?search=N1776R",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "a13668",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "B38M",
+      "from": "2026-04",
+      "lastSeen": "2026",
+      "status": "active: Entered service 29 Apr 2026 (DAL-PHL); Commons photos at BWI 2026."
+    },
+    {
+      "registration": "N214WN",
+      "livery": "maryland-one",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Southwest_Airlines_fleet",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N214WN_(aircraft)",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "a1ca5f",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "B737",
+      "from": "2005",
+      "lastSeen": "2026-11-14",
+      "status": "active: Commons photo at Indianapolis Oct 2025."
+    },
+    {
+      "registration": "N280WN",
+      "livery": "missouri-one",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Southwest_Airlines_fleet",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N280WN_(aircraft)",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "a2cffc",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "B737",
+      "from": "2015",
+      "lastSeen": "2026-05-03",
+      "status": "active: Commons photo 'Missouri One' uploaded/dated 2026-05-03."
+    },
+    {
+      "registration": "N500WR",
+      "livery": "freedom-one",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Southwest_Airlines_fleet",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://www.prnewswire.com/news-releases/southwest-airlines-announces-partnership-with-america250-and-unveils-independence-one-in-celebration-of-giving-people-the-freedom-to-fly-for-55-years-302754776.html",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/w/index.php?search=N500WR+Freedom+One",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "a63bf4",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "B738",
+      "from": "2021",
+      "lastSeen": "2026-11-14",
+      "status": "active: Several Commons BWI photos uploaded 2026; carries America250 logo during 2026 per Southwest."
+    },
+    {
+      "registration": "N8555Z",
+      "livery": "tennessee-one",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Southwest_Airlines_fleet",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N8555Z_(aircraft)",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "abbd0a",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "B738",
+      "lastSeen": "2026-07-18",
+      "status": "active: Commons photo at Indianapolis 18 Jul 2026."
+    },
+    {
+      "registration": "N8619F",
+      "livery": "illinois-one",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Southwest_Airlines_fleet",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N8619F_(aircraft)",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "abd627",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "B738",
+      "from": "2022-09",
+      "lastSeen": "2025-12-06",
+      "status": "active: Commons photo at Austin 6 Dec 2025."
+    },
+    {
+      "registration": "N8646B",
+      "livery": "nevada-one",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Southwest_Airlines_fleet",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N8646B_(aircraft)",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "abe0df",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "B738",
+      "from": "2023-05",
+      "lastSeen": "2026-11-14",
+      "status": "active: Commons photo 21 Jun 2025; further 2026 Commons uploads."
+    },
+    {
+      "registration": "N8653A",
+      "livery": "california-one",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Southwest_Airlines_fleet",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N8653A_(aircraft)",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "abe42c",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "B738",
+      "lastSeen": "2026-07-16",
+      "status": "active: Commons photo 16 Jul 2026."
+    },
+    {
+      "registration": "N8655D",
+      "livery": "new-mexico-one",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Southwest_Airlines_fleet",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/w/index.php?search=N8655D+New+Mexico+One",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "abe475",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "B738",
+      "from": "2023-07",
+      "lastSeen": "2026-11-14",
+      "status": "active: Commons photo landing at Boston July 2025."
+    },
+    {
+      "registration": "N8660A",
+      "livery": "lone-star-one",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Southwest_Airlines_fleet",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N8660A_(aircraft)",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "abe77a",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "B738",
+      "from": "2024",
+      "lastSeen": "2024-03-02",
+      "status": "active: Commons photo 'Lone Star One' N8660A dated 2 Mar 2024; further Commons uploads of N8660A at Santa Barbara exist (dates not verified). Wikipedia lists it as current."
+    },
+    {
+      "registration": "N8690A",
+      "livery": "colorado-one",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Southwest_Airlines_fleet",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N8690A_(aircraft)",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "abf29f",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "B738",
+      "lastSeen": "2026-11-14",
+      "status": "active: Commons photo 14 Dec 2025.",
+      "notes": "In standard paint in January 2024, so Colorado One went on after that."
+    },
+    {
+      "registration": "N8710M",
+      "livery": "imua-one",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Southwest_Airlines_fleet",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/w/index.php?search=Imua+One",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "abfc71",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "B38M",
+      "from": "2023",
+      "lastSeen": "2026-11-14",
+      "status": "active: Commons photos at BWI and Santa Barbara uploaded 2026."
+    },
+    {
+      "registration": "N8719Q",
+      "livery": "liberty-one",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://www.prnewswire.com/news-releases/southwest-airlines-announces-partnership-with-america250-and-unveils-independence-one-in-celebration-of-giving-people-the-freedom-to-fly-for-55-years-302754776.html",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Southwest_Airlines_fleet",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N8719Q_(aircraft)",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "abfdaf",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "B38M",
+      "from": "2026-04",
+      "lastSeen": "2026-11-14",
+      "status": "active: Commons photos 27 Apr 2026 and DCA 6 May 2026."
+    },
+    {
+      "registration": "N871HK",
+      "livery": "the-herbert-d-kelleher",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Southwest_Airlines_fleet",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/w/index.php?search=N871HK",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "abfac6",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "B38M",
+      "from": "2022",
+      "lastSeen": "2026-11-14",
+      "status": "active: Commons photo at Cancun 8 Mar 2026."
+    },
+    {
+      "registration": "N8977G",
+      "livery": "louisiana-one",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Southwest_Airlines_fleet",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "ac62a9",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "B38M",
+      "status": "active per Wikipedia: Wikipedia lists N8977G as current; no photo evidence found."
+    },
+    {
+      "registration": "N9019R",
+      "livery": "florida-one",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Southwest_Airlines_fleet",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "ac7686",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "B38M",
+      "status": "active per Wikipedia: Wikipedia fleet page lists N9019R as current Florida One; no photo or press evidence found.",
+      "notes": "Commons photos show Florida One still on N945WN in April 2026; only Wikipedia names N9019R.",
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "N945WN",
+      "livery": "florida-one",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Southwest_Boeing_737-700_N945WN_BWI_MD2.jpg",
+          "title": "Southwest Boeing 737-700 N945WN BWI MD2.jpg (CC BY-SA 4.0)",
+          "accessed": "2026-11-12",
+          "note": "N945WN from the right, broadside, 2026-04-09: the seal, the saltire's red, engines, fin (measured from this one)."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Southwest_Boeing_737-700_N945WN_\"Florida_One\"_Inbound_to_Santa_Barbara.jpg",
+          "title": "Southwest Boeing 737-700 N945WN \"Florida One\" Inbound to Santa Barbara.jpg (CC BY 2.0)",
+          "accessed": "2026-11-12",
+          "note": "N945WN from the left and ahead, 2025-01-23: the same layout on the left side."
+        }
+      ],
+      "hex": "ad21bc",
+      "hexSource": "derived from the N-number",
+      "type": "B737",
+      "lastSeen": "2026-04-09",
+      "status": "photographed in Florida One, 2026-04-09"
+    },
+    {
+      "registration": "N955WN",
+      "livery": "arizona-one",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Southwest_Airlines_fleet",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/w/index.php?search=N955WN+Arizona+One",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "ad493b",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "B737",
+      "lastSeen": "2026",
+      "status": "active: Commons 'N955WN Arizona One BWI' photos uploaded 2026; Wikipedia lists current."
+    },
+    {
+      "registration": "N922WN",
+      "livery": "tennessee-one",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:538_8-3-20_N922WN_Tennessee_One_Los_Angeles_(52619260256).jpg",
+          "title": "538 8-3-20 N922WN Tennessee One Los Angeles (52619260256).jpg",
+          "accessed": "2026-11-22",
+          "note": "Photo 2020-03-08 (CC BY 2.0): Tennessee One, heart tail."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Commercial_flight_WN3547_ATL_to_FLL_airplane_N922WN_Boeing_737-7H4.jpg",
+          "title": "Commercial flight WN3547 ATL to FLL airplane N922WN Boeing 737-7H4.jpg",
+          "accessed": "2026-11-22",
+          "note": "Photo 2021-11-15 (CC0): in the standard Heart scheme."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Southwest_Airlines_fleet",
+          "accessed": "2026-11-22",
+          "note": "Repainted into the standard Heart livery in April 2021 (uncited there); Tennessee One moved to N8620H, then N8555Z."
+        }
+      ],
+      "hex": "acc799",
+      "hexSource": "derived from the N-number (tools/nnumber.py)",
+      "type": "B737",
+      "to": "2021-04",
+      "lastSeen": "2020-03-08",
+      "status": "repainted: standard Heart in a Commons photo of 2021-11-15; Wikipedia says April 2021. Still flies (adsb.lol 2026-11-22) in the standard scheme.",
+      "from": "2016"
+    },
+    {
+      "registration": "N781WN",
+      "livery": "new-mexico-one",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N781WN_-_Boeing_737-7H4_-_Southwest_Airlines_(52058694338).jpg",
+          "title": "N781WN - Boeing 737-7H4 - Southwest Airlines (52058694338).jpg",
+          "accessed": "2026-11-22",
+          "note": "Photo 2022-05-08 (CC BY 2.0): New Mexico One, heart tail."
+        },
+        {
+          "url": "https://www.krqe.com/news/albuquerque-metro/new-mexico-one-and-the-southwest-specialty-fleet/",
+          "accessed": "2026-11-22",
+          "note": "KRQE 2024-04-10 (via Wikipedia's Southwest fleet page): N781WN retired June 2023; the scheme repainted onto N8655D a month later."
+        }
+      ],
+      "hex": "aa963e",
+      "hexSource": "derived from the N-number (tools/nnumber.py)",
+      "type": "B737",
+      "to": "2023-06",
+      "lastSeen": "2022-05-08",
+      "status": "retired June 2023 (KRQE); New Mexico One is now N8655D.",
+      "from": "2000"
+    }
+  ]
+}

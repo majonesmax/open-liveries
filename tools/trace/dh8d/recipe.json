@@ -1,0 +1,124 @@
+{
+  "_about": "Dash 8-400 (DHC-8-402), from the Dash 8 Series 400 Airport Planning Manual (Bombardier, Dec 05/2014), Figure 2-2 Aircraft Dimensions (page index 26): side, plan and front views on one sheet; Figure 2-4 Maximum Ground Clearances (page index 28); Figure 2-11 passenger compartment cross section (page index 40: 106.0 in, 2.69 m, wide); Figures 2-18 to 2-22 door clearances (page index 49-58); Figure 2-26 sheet 3 emergency exits (page index 65). Black strokes (layers.py --mode strokes --color 0,0,0). The side view is drawn at the ground attitude, turned level (--rotate -1.26, from its crown and belly); the plan is drawn turned 31.92 degrees and 0.896 times the side's size, rendered to the side's scale (22.32) and turned level; the front view at 20.08 (its propellers 8.80 m apart, as printed). Pixels of those rasters, line centres. Scaled by the printed 31.04 m (101 ft 10 in) fuselage length, nose to tail cone. The side view draws 10 cabin windows ahead of the propeller and 5 behind the nacelle; the 15 the nacelle hides are placed on the same pitch (windowsAlso). Doors: the forward passenger (airstair) door and the aft passenger door on the left (Figures 2-18, 2-19: views on the L/H side), the aft baggage door on the left (Figure 2-22: a view inboard on the L/H side), the forward baggage door/Type I exit on the right (Figure 2-21: R/H side; drawn dashed in the left side view), the aft service door/Type I exit on the right (Figure 2-20: R/H side, at the aft passenger door's 21.88 m, its clear opening 1.48 m tall against the passenger door's 1.64 m: the passenger door's box, its top lowered by the difference). The propeller: 6 blades (Dowty R408, 1. Scope), its disc from the front view, its plane and the spinner from the side view.",
+  "out": "../../../../shapes/DH8D.json",
+  "length": 31.04,
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "stabilizer": {
+    "mount": "fin"
+  },
+  "propeller": {
+    "blades": 6,
+    "x": 2897,
+    "hub": 1803,
+    "front": [2182.5, 3169.5],
+    "spinner": [2710, 2955],
+    "spinnerHeight": [1700, 1905]
+  },
+  "refs": {
+    "side": {
+      "nose": 207,
+      "tail": 7665,
+      "windowRow": [1910, 2025],
+      "windowGap": 5,
+      "windowMinWidth": 40,
+      "windowInset": 3,
+      "dropDoorWindows": true,
+      "windowsAlso": [2930, 3055, 3180, 3305, 3430, 3556, 3681, 3806, 3931, 4056, 4181, 4306, 4431, 4556, 4682]
+    },
+    "plan": {
+      "nose": 1153,
+      "centerline": 4096.5
+    },
+    "front": {
+      "centerline": 3731,
+      "crownTop": 1286
+    }
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [1314, 1786, 1483, 2216],
+      "side": "left"
+    },
+    {
+      "kind": "cargo",
+      "box": [1737, 1875, 1870, 2210],
+      "side": "right"
+    },
+    {
+      "kind": "door",
+      "box": [5378, 1790, 5547, 2217],
+      "side": "left",
+      "name": "aft passenger door"
+    },
+    {
+      "kind": "door",
+      "box": [5378, 1828, 5547, 2217],
+      "side": "right",
+      "name": "aft service door"
+    },
+    {
+      "kind": "cargo",
+      "box": [5745, 1847, 6062, 2228],
+      "side": "left"
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [615, 1930],
+      [750, 1828],
+      [876, 1829],
+      [775, 1941]
+    ],
+    [
+      [876, 1829],
+      [1050, 1834],
+      [1050, 1944],
+      [780, 1941]
+    ],
+    [
+      [1050, 1834],
+      [1100, 1848],
+      [1145, 1885],
+      [1100, 1928],
+      [1050, 1944]
+    ]
+  ],
+  "printed": {
+    "fuselage length": 31.04,
+    "fuselage width": 2.69,
+    "wingspan": 28.42,
+    "tailplane span": 9.27,
+    "overall length": 32.83,
+    "engine out from the centerline": 4.4,
+    "propellers apart": 8.8,
+    "propeller diameter": 4.11,
+    "aft passenger door from the nose": 21.88,
+    "aft service door from the nose": 21.88
+  },
+  "meta": {
+    "id": "DH8D",
+    "name": "De Havilland Canada Dash 8-400",
+    "types": ["DH8D"],
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://customer.aero.bombardier.com/webd/BAG/CustSite/BRAD/RACSDocument.nsf/51aae8b2b3bfdf6685256c300045ff31/ec63f8639ff3ab9d85257c1500635bd8/$FILE/ATTNBEOB.pdf/D8400-APM.pdf",
+        "title": "Bombardier, Dash 8 Series 400 Airport Planning Manual (Dec 05/2014): Figure 2-2 Aircraft Dimensions, Figure 2-4 Ground Clearances, Figure 2-11 Passenger Compartment Cross Section, Figures 2-18 to 2-22 Door Clearances, Figure 2-26 Emergency Exit Locations",
+        "accessed": "2026-11-16",
+        "note": "Dimensions and outlines read off Figure 2-2's side, plan and front views (tools/trace/dh8d/); the figures are the aircraft's measurements, not a copy of the drawing. The side view is drawn at the ground attitude and was turned level (1.26 degrees); the plan view is drawn turned and 0.896 times the side view's size and was rendered to its scale. The side view draws the fuselage 2.55 m tall, as the ground clearances put the crown 2.57 m over the belly (Figure 2-4) and the front view 2.59 m; the cross section prints its width (2.69 m), which the plan and front view draw. The nacelle hides 15 cabin windows in the side view: they're placed on the drawn windows' pitch. Doors' sides from each door's own clearance figure: the forward passenger (airstair) door, aft passenger door and aft baggage door on the left; the forward baggage door/Type I exit and the aft service door on the right (the service door at the passenger door's place, as its figure prints it, its opening 0.16 m shorter). Six-bladed propellers, 4.11 m across (Figure 2-26 sheet 3, Scope)."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Porter_Airlines_(Dash8-400)_12.jpg",
+        "title": "Porter Airlines Dash 8-400 C-GLQE, right side (Fabian Roudra Baroi, CC BY-SA 4.0)",
+        "accessed": "2026-11-16",
+        "note": "Checked only: the cabin window row runs unbroken behind the propeller and nacelle, at about the drawn windows' pitch (0.50 m between the forward baggage door and the aft service door), as the windows placed behind the nacelle assume. No measurement taken from it."
+      }
+    ]
+  }
+}

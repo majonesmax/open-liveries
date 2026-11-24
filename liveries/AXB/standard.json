@@ -1,0 +1,519 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "AXB",
+  "name": "2023 livery (tail art)",
+  "kind": "standard",
+  "from": "2023",
+  "confidence": "medium",
+  "drawnOn": "B38M",
+  "description": "White body with an orange belly that rises from behind the nose gear to just under the windows over the wing and drops away behind it; big orange lowercase 'express' under small 'AIR INDIA' capitals at the front; the fin is white with a pale gray Indian-textile pattern and, along its rear lower part, folded ribbons of orange, gray, red and teal that run down into a teal band and an orange tail cone. Orange engines and winglets with a white 'AIX'.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:VT-BWH.jpg",
+      "title": "VT-BWH.jpg (CC BY-SA 2.0)",
+      "accessed": "2026-11-13",
+      "note": "737-8 VT-BWH from the right, front three-quarters, at Bangkok Suvarnabhumi (undated upload, 2024-2025): titles, fin ribbons and pattern, tail cone, engine."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:VT-BXY_Air_India_Express.jpg",
+      "title": "VT-BXY Air India Express (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "737-8 VT-BXY from the right and below on approach, 2024-12-23: the orange belly and its 'AIX', engines, winglets, tail cone bands."
+    },
+    {
+      "url": "https://www.airindiaexpress.com/media-centre",
+      "title": "Air India Express media centre: new brand identity (2023-10-18)",
+      "accessed": "2026-11-13",
+      "note": "The new identity with 'tail art' fins inspired by Indian textiles; unveiled on the 737-8 in October 2023."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F2F3F4",
+      "official": false
+    },
+    "orange": {
+      "hex": "#EE6A2B",
+      "name": "AIX orange",
+      "official": false
+    },
+    "teal": {
+      "hex": "#48A6B4",
+      "official": false
+    },
+    "red": {
+      "hex": "#C8372D",
+      "official": false
+    },
+    "gray": {
+      "hex": "#8E9CA2",
+      "official": false
+    },
+    "lace": {
+      "hex": "#C8CDD1",
+      "name": "pale gray of the textile pattern",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B7BCC3",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "name": "bare metal inlet lip",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "orange belly, rising from behind the nose gear and dropping behind the wing",
+        "color": "orange",
+        "points": [
+          [
+            0.15,
+            -1
+          ],
+          [
+            0.19,
+            -0.8
+          ],
+          [
+            0.24,
+            -0.52
+          ],
+          [
+            0.3,
+            -0.32
+          ],
+          [
+            0.36,
+            -0.22
+          ],
+          [
+            0.5,
+            -0.2
+          ],
+          [
+            0.54,
+            -0.3
+          ],
+          [
+            0.57,
+            -0.55
+          ],
+          [
+            0.6,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ],
+        "smooth": true
+      },
+      {
+        "name": "teal band in front of the tail cone",
+        "color": "teal",
+        "points": [
+          [
+            0.9,
+            1
+          ],
+          [
+            0.925,
+            1
+          ],
+          [
+            0.905,
+            -1
+          ],
+          [
+            0.88,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "gray pinstripe",
+        "color": "gray",
+        "points": [
+          [
+            0.925,
+            1
+          ],
+          [
+            0.935,
+            1
+          ],
+          [
+            0.915,
+            -1
+          ],
+          [
+            0.905,
+            -1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "orange tail cone",
+        "color": "orange",
+        "points": [
+          [
+            0.935,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            0.915,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "mirrored": true,
+    "areas": [
+      {
+        "name": "orange ribbon along the trailing edge",
+        "color": "orange",
+        "points": [
+          [
+            1,
+            0.57
+          ],
+          [
+            0.974,
+            0.565
+          ],
+          [
+            0.533,
+            0.395
+          ],
+          [
+            0.68,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      {
+        "name": "gray ribbon fold",
+        "color": "gray",
+        "points": [
+          [
+            0.983,
+            0.45
+          ],
+          [
+            0.721,
+            0.3
+          ],
+          [
+            0.823,
+            0
+          ],
+          [
+            0.854,
+            0
+          ],
+          [
+            0.779,
+            0.27
+          ],
+          [
+            0.982,
+            0.405
+          ]
+        ]
+      },
+      {
+        "name": "red ribbon",
+        "color": "red",
+        "points": [
+          [
+            0.604,
+            0.365
+          ],
+          [
+            0.491,
+            0.39
+          ],
+          [
+            0.68,
+            0
+          ],
+          [
+            0.823,
+            0
+          ]
+        ]
+      },
+      {
+        "name": "teal ribbon at the root",
+        "color": "teal",
+        "points": [
+          [
+            0.634,
+            0.185
+          ],
+          [
+            0.495,
+            0.14
+          ],
+          [
+            0.57,
+            0
+          ],
+          [
+            0.696,
+            0
+          ]
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "orange",
+    "inner": "orange",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "orange",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "AXB/tail-art",
+      "place": "fin",
+      "at": [
+        0.35,
+        0.62
+      ],
+      "height": 0.7,
+      "colors": [
+        "lace",
+        "white"
+      ],
+      "description": "Tail art: a pale gray lace-like Indian textile pattern (rosettes, paisleys, borders) over the white upper and forward fin. The 2023 identity gives aircraft different textile-inspired tail patterns; this is the gray one seen on VT-BWH and VT-BXY.",
+      "reference": "https://commons.wikimedia.org/wiki/File:VT-BWH.jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "AXB/aix",
+      "place": "winglets",
+      "at": [
+        0.5,
+        0.5
+      ],
+      "height": 0.3,
+      "colors": [
+        "white"
+      ],
+      "description": "'AIX' in white rounded capitals on the orange winglet, reading up the winglet.",
+      "reference": "https://commons.wikimedia.org/wiki/File:VT-BXY_Air_India_Express.jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "AXB/india-flag",
+      "place": "fuselage",
+      "at": [
+        0.075,
+        0.3
+      ],
+      "height": 0.12,
+      "colors": [
+        "#FF9933",
+        "#FFFFFF",
+        "#138808"
+      ],
+      "description": "Small Indian tricolor by the forward door, under the cockpit side windows.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Flag_of_India.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "express",
+      "place": "fuselage",
+      "at": [
+        0.154,
+        -0.05
+      ],
+      "height": 0.6,
+      "length": 0.217,
+      "color": "orange",
+      "style": "Large rounded, heavy lowercase (x-height about 0.56 of the fuselage's half-height), the 'x' drawn as two crossing curves, the 'p' dropping below; sits across the window line from just behind the forward door.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Nunito ExtraBold",
+          "Varela Round"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 1.0
+      }
+    },
+    {
+      "text": "AIR INDIA",
+      "place": "fuselage",
+      "at": [
+        0.262,
+        0.58
+      ],
+      "height": 0.2,
+      "length": 0.096,
+      "color": "orange",
+      "style": "Small bold geometric capitals above the start of 'express', the Air India group wordmark.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Futura Bold",
+          "Avenir Next Heavy"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "AIX",
+      "place": "engines",
+      "at": [
+        0.2,
+        -0.1
+      ],
+      "height": 0.45,
+      "color": "white",
+      "style": "White rounded capitals, the X as two crossing curves, on the outboard cowling.",
+      "confidence": "low",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Nunito ExtraBold",
+          "Varela Round"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "length": 0.3
+    },
+    {
+      "text": "AIX",
+      "place": "belly",
+      "at": [
+        0.3,
+        -1
+      ],
+      "height": 0.5,
+      "length": 0.18,
+      "color": "white",
+      "style": "Large white 'AIX' along the orange belly, readable from below.",
+      "confidence": "low",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "Nunito ExtraBold",
+          "Varela Round"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Commons has only right-side photos (VT-BWH, VT-BXY, 2024); the left side is taken to be the same with the fin mirrored, titles in the same place. Fin tail art differs between aircraft (several textile patterns/colors); the ribbons and orange/teal tail cone look common to all. The A320/A321 fleet taken over from AirAsia India and Air India carries the same scheme. Older 737-800s may still wear the pre-2023 Air India Express scheme (white with orange/red tail art of Indian landmarks) until repainted. Belly 'AIX' only glimpsed from a steep angle. Re-checked 2026-11-15 on VT-BWH and VT-BXY (both from ahead, so placed between the forward door and the overwing exits, whose places on the 737-8 are known): 'express' runs about x 0.154 to 0.371 (it had been drawn starting 0.9 m further forward and running past the exits); it has no ascenders, so its height is its lowercase's (xHeight 1, height 0.6, the lowercase as first drawn); 'AIR INDIA' sits over its aft half, x 0.262 to 0.358, not over its start, its baseline just above the lowercase's tops. The heights are left as drawn: neither photo is near side-on. The orange belly's edge is a curve: smooth. The engine's 'AIX' length is a guess from the oblique views (low).",
+  "history": "Replaced Skyarium v1's approximation. Introduced 2023-10 with the AIX rebrand (Air India Express + AIX Connect, ex-AirAsia India, merged 2024-10); replaced the 2005-2023 white scheme with landmark tail art."
+}

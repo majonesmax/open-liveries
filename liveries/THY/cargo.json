@@ -1,0 +1,286 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "cargo",
+  "airline": "THY",
+  "name": "Turkish Cargo",
+  "kind": "standard",
+  "confidence": "high",
+  "drawnOn": "A332",
+  "description": "Turkish Airlines' scheme on the freighters: all white, no goose watermark; 'TURKISH CARGO' in heavy dark-blue capitals along the forward fuselage with a small Turkish flag after it; red fin with the white-ringed goose roundel; red winglets with a small roundel; under the belly at the wing, the red roundel and 'TURKISH CARGO' again.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:TC-LSY_(aircraft)",
+      "accessed": "2026-11-13"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A321-271NX_(c-n_9415,_TC-LSY)_2026-08-06_Andre_Gerwing_Collection_ID_030777.jpg",
+      "accessed": "2026-11-13",
+      "title": "Airbus A321-271NX TC-LSY, 2026-08-06 (CC BY-SA 4.0)",
+      "note": "Left side from below-front, 2026-08-06: titles, fin roundel, gray goose aft of the wing, red winglets."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:TC-LSY_-_Airbus_A321-271NX_-_Turkish_Airlines_landing_BHX_180124.jpg",
+      "accessed": "2026-11-13",
+      "title": "TC-LSY landing BHX, 2024-01-19 (CC BY 2.0)",
+      "note": "Left side, 2024-01-19: same layout; titles and goose watermark."
+    },
+    {
+      "url": "https://www.aerotelegraph.com/rot-von-turkish-airlines-hat-jetzt-einen-namen",
+      "accessed": "2026-11-13",
+      "title": "Turkish Airlines Red is now an official Pantone colour",
+      "note": "2024: PANTONE 7620 named 'Turkish Airlines Red'; no hex published."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Turkish_Airlines_logo_2019_compact.svg",
+      "accessed": "2026-11-13",
+      "title": "Turkish Airlines logo (Commons)",
+      "note": "The tail roundel for reference."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:TC-JOY_A330F_Turkish_Cargo_ARN_01.jpg",
+      "title": "TC-JOY A330F Turkish Cargo ARN 01.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "A330-200F TC-JOY, left side, level, 2024-01-05: title place and size, flag, fin, winglets."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:TC-LJN_Boeing_777-FF2_Turkish_Cargo_Liege_18.3.26_(55168523810).jpg",
+      "title": "TC-LJN Boeing 777-FF2 Turkish Cargo Liege 18.3.26 (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "777F TC-LJN, right side, 2026-03-18: the same title and flag on the 777F; no goose watermark aft."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Turkish_Cargo_TC-LJS_run_TK6426(Jordan_Amman_Queen_Alia_International_Airport_to_Hong_Kong_International_Airport)_14-07-2025.jpg",
+      "title": "Turkish Cargo TC-LJS ... 14-07-2025.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "777F TC-LJS from below, 2025-07-14: the belly roundel and belly 'TURKISH CARGO'."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Turkish_Cargo",
+      "title": "Wikipedia: Turkish Cargo",
+      "accessed": "2026-11-13",
+      "note": "Freighter fleet late 2025: ten A330-200F, nine 777F (twelve by mid-2026)."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F2F3F5",
+      "official": false
+    },
+    "red": {
+      "hex": "#D0202C",
+      "name": "Turkish Airlines Red",
+      "pantone": "7620 C",
+      "official": false
+    },
+    "navy": {
+      "hex": "#232F7A",
+      "official": false
+    },
+    "goose": {
+      "hex": "#D7DADF",
+      "name": "watermark gray",
+      "official": false
+    },
+    "cowl": {
+      "hex": "#E3E5E8",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "name": "bare metal inlet lip",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B4B9C0",
+      "official": false
+    },
+    "flagRed": {
+      "hex": "#E30A17",
+      "official": false,
+      "name": "Turkish flag red"
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "windows": "hidden",
+    "confidence": "high",
+    "sourceRefs": [
+      5,
+      6
+    ]
+  },
+  "fin": {
+    "base": "red",
+    "mirrored": true,
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "red",
+    "inner": "red",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "cowl",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "THY/goose-roundel",
+      "place": "fin",
+      "at": [
+        0.52,
+        0.38
+      ],
+      "height": 0.72,
+      "colors": [
+        "white",
+        "red",
+        "white"
+      ],
+      "description": "A white ring round a red disc holding a white stylised wild goose: a crescent wing whose convex edge faces forward on the left side, a short spike pointing forward from its foot and a long pointed tail running down and aft to the ring; set low on the fin, its aft edge almost touching the trailing edge. Same artwork on both sides (not mirrored).",
+      "reference": "https://commons.wikimedia.org/wiki/File:Turkish_Airlines_logo_2019_compact.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "THY/goose-roundel",
+      "place": "winglets",
+      "at": [
+        0.5,
+        0.75
+      ],
+      "height": 0.25,
+      "colors": [
+        "white",
+        "red",
+        "white"
+      ],
+      "description": "Small white roundel with the red goose near the top of each winglet's outer face.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "THY/goose-roundel",
+      "place": "belly",
+      "at": [
+        0.39,
+        -1
+      ],
+      "height": 0.45,
+      "colors": [
+        "red",
+        "white",
+        "red"
+      ],
+      "description": "The goose roundel in red with a white goose, under the belly ahead of the belly title.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Turkish_Airlines_logo_2019_compact.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        7
+      ]
+    },
+    {
+      "mark": "THY/turkish-flag",
+      "place": "fuselage",
+      "at": [
+        0.49,
+        0.32
+      ],
+      "height": 0.09,
+      "colors": [
+        "flagRed",
+        "white"
+      ],
+      "description": "A small Turkish flag (white crescent and star on red) just aft of the title.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Flag_of_Turkey.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        5,
+        6
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "TURKISH CARGO",
+      "place": "fuselage",
+      "at": [
+        0.178,
+        0.28
+      ],
+      "height": 0.33,
+      "length": 0.236,
+      "color": "navy",
+      "style": "Heavy dark-blue capitals, the passenger title's lettering with 'CARGO' for 'AIRLINES', along the forward fuselage above the mid-line.",
+      "confidence": "high",
+      "sourceRefs": [
+        5,
+        6
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Heavy",
+          "Arial Black"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "TURKISH CARGO",
+      "place": "belly",
+      "at": [
+        0.43,
+        -1
+      ],
+      "height": 0.3,
+      "length": 0.16,
+      "color": "navy",
+      "style": "The same title under the belly behind the roundel, reading tail to nose (readable from below with the nose to the right).",
+      "confidence": "low",
+      "sourceRefs": [
+        7
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Heavy",
+          "Arial Black"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "rotationDeg": 180
+    }
+  ],
+  "notes": "The passenger scheme (standard.json) with 'TURKISH CARGO' for 'TURKISH AIRLINES', no rear goose watermark, and belly markings. Measured on A330-200F TC-JOY (left, level) and checked on 777Fs TC-LJN (right, March 2026) and TC-LJS (below, July 2025): the two types carry the same layout. City names under the cockpit (e.g. 'ERGENE') and the star by the cockpit not drawn. The belly title is partly hidden by the gear in the one photo from below, so its start and length are estimates.",
+  "history": "Added with the cargo divisions (2026-11-13). Turkish Cargo's brand dates from 2000; this layout is the current Turkish Airlines scheme's."
+}

@@ -1,0 +1,592 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "RAM",
+  "name": "Dreamliner livery",
+  "kind": "standard",
+  "confidence": "medium",
+  "drawnOn": "B789",
+  "description": "White forward, the rear body Moroccan red from a curve that falls from the crown over the wing to the lower side at the tail; under it, parted by a thin white line, a green sweep (dark green, bright green along its lower front edge) that runs from the crown over the wing down and aft to a point near the last door. White fin with a big open red ring leaning back and the green star of Morocco's flag at its open lower-left end; the body's red runs up into the fin's lower trailing corner. 'الخطوط الملكية المغربية' and 'Royal Air Maroc' in red on the forward body: the Arabic on top on the left side, the English on top on the right. White engines.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:CN-RGZ@PEK_(20200422125724).jpg",
+      "title": "CN-RGZ@PEK (20200422125724).jpg (CC BY-SA 4.0, N509FZ)",
+      "accessed": "2026-11-20",
+      "note": "787-9 CN-RGZ in flight, left side, 2020-04-22: measured on the 787-9 shape (fit 6–30 px): red, green sweep, fin, the left side's titles."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:CN-RGY_Boeing_787-9_Royal_Air_Maroc_Istanbul_IST_8.5.23_(52897635569).jpg",
+      "title": "CN-RGY Boeing 787-9 Royal Air Maroc Istanbul IST 8.5.23 (52897635569).jpg (CC BY-SA 2.0, Colin Cooke Photo)",
+      "accessed": "2026-11-20",
+      "note": "787-9 CN-RGY, right side at Istanbul, 2023-05-08: flipped and fitted (3–13 px) for the right side's titles."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Royal_Air_Maroc_Boeing_787-9_CN-RHA_MD1.jpg",
+      "title": "Royal Air Maroc Boeing 787-9 CN-RHA MD1.jpg (CC BY-SA 4.0, Acroterion)",
+      "accessed": "2026-11-20",
+      "note": "787-9 CN-RHA in flight, right side, 2025-08-10: the scheme unchanged in 2025."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Royal_Air_Maroc,_CN-RGX,_Boeing_787-9_Dreamliner_(49596553238).jpg",
+      "title": "Royal Air Maroc, CN-RGX, Boeing 787-9 Dreamliner (49596553238).jpg (CC BY-SA 2.0, Anna Zvereva)",
+      "accessed": "2026-11-20",
+      "note": "CN-RGX, left side, 2020-01-11: the left side's titles (Arabic on top)."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Royal_Air_Maroc",
+      "title": "Wikipedia: Royal Air Maroc",
+      "accessed": "2026-11-20",
+      "note": "787-8 and 787-9 fleet."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F2F3F5",
+      "official": false
+    },
+    "red": {
+      "hex": "#C8102E",
+      "official": false,
+      "name": "Moroccan red"
+    },
+    "green": {
+      "hex": "#0A6B3A",
+      "official": false,
+      "name": "flag green"
+    },
+    "lightGreen": {
+      "hex": "#5DBB46",
+      "official": false,
+      "name": "bright green"
+    },
+    "wingGray": {
+      "hex": "#C4C8CD",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "red rear body, from the crown over the wing falling to the lower side at the tail",
+        "color": "red",
+        "smooth": true,
+        "points": [
+          [
+            0.465,
+            1
+          ],
+          [
+            0.4823,
+            0.834
+          ],
+          [
+            0.5254,
+            0.592
+          ],
+          [
+            0.583,
+            0.337
+          ],
+          [
+            0.6405,
+            0.179
+          ],
+          [
+            0.6979,
+            0.032
+          ],
+          [
+            0.7553,
+            -0.089
+          ],
+          [
+            0.8124,
+            -0.23
+          ],
+          [
+            0.8694,
+            -0.35
+          ],
+          [
+            0.9261,
+            -0.45
+          ],
+          [
+            0.97,
+            -0.47
+          ],
+          [
+            1,
+            -0.41
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "name": "green sweep under the red (a thin white line between), to a point near the last door",
+        "color": "green",
+        "smooth": true,
+        "points": [
+          [
+            0.47,
+            1
+          ],
+          [
+            0.4881,
+            0.742
+          ],
+          [
+            0.5255,
+            0.535
+          ],
+          [
+            0.5832,
+            0.296
+          ],
+          [
+            0.6406,
+            0.142
+          ],
+          [
+            0.6981,
+            -0.011
+          ],
+          [
+            0.7554,
+            -0.133
+          ],
+          [
+            0.8126,
+            -0.274
+          ],
+          [
+            0.8581,
+            -0.3765,
+            1
+          ],
+          [
+            0.8132,
+            -0.505
+          ],
+          [
+            0.7565,
+            -0.488
+          ],
+          [
+            0.6994,
+            -0.395
+          ],
+          [
+            0.642,
+            -0.256
+          ],
+          [
+            0.5844,
+            -0.07
+          ],
+          [
+            0.5268,
+            0.13
+          ],
+          [
+            0.4857,
+            0.53
+          ],
+          [
+            0.462,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "name": "bright green along the sweep's lower front edge, fading out aft",
+        "color": "lightGreen",
+        "smooth": true,
+        "points": [
+          [
+            0.464,
+            1
+          ],
+          [
+            0.4855,
+            0.62
+          ],
+          [
+            0.5264,
+            0.228
+          ],
+          [
+            0.5841,
+            0.008
+          ],
+          [
+            0.6417,
+            -0.173
+          ],
+          [
+            0.665,
+            -0.33,
+            1
+          ],
+          [
+            0.642,
+            -0.256
+          ],
+          [
+            0.5844,
+            -0.07
+          ],
+          [
+            0.5268,
+            0.13
+          ],
+          [
+            0.4857,
+            0.53
+          ],
+          [
+            0.462,
+            1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0
+        ]
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "open red ring leaning back, from its left end above the star over the top and down the trailing side to a fine point at the root",
+        "color": "red",
+        "smooth": true,
+        "points": [
+          [
+            0.33,
+            0.3075,
+            1
+          ],
+          [
+            0.196,
+            0.4689
+          ],
+          [
+            0.128,
+            0.6301
+          ],
+          [
+            0.236,
+            0.719
+          ],
+          [
+            0.476,
+            0.7433
+          ],
+          [
+            0.712,
+            0.6766
+          ],
+          [
+            0.866,
+            0.5435
+          ],
+          [
+            0.92,
+            0.3726
+          ],
+          [
+            0.894,
+            0.2018
+          ],
+          [
+            0.762,
+            0.0503,
+            1
+          ],
+          [
+            0.839,
+            0.2209
+          ],
+          [
+            0.843,
+            0.3917
+          ],
+          [
+            0.756,
+            0.5437
+          ],
+          [
+            0.543,
+            0.6484
+          ],
+          [
+            0.338,
+            0.6544
+          ],
+          [
+            0.293,
+            0.5483
+          ],
+          [
+            0.34,
+            0.4212
+          ],
+          [
+            0.419,
+            0.2978,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "the body's red carried up into the fin's lower trailing corner",
+        "color": "red",
+        "smooth": true,
+        "points": [
+          [
+            0.85,
+            -0.1
+          ],
+          [
+            0.93,
+            0.05
+          ],
+          [
+            1,
+            0.2
+          ],
+          [
+            1,
+            -0.1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0
+        ]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "RAM/star",
+      "place": "fin",
+      "at": [
+        0.45,
+        0.21
+      ],
+      "height": 0.35,
+      "colors": [
+        "green"
+      ],
+      "description": "The green interlaced five-pointed star (Seal of Solomon) of Morocco's flag, outlined, at the open lower end of the tail's red ring.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Flag_of_Morocco.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "RAM/morocco-flag",
+      "place": "fuselage",
+      "at": [
+        0.072,
+        0.33
+      ],
+      "height": 0.09,
+      "colors": [
+        "red",
+        "green"
+      ],
+      "description": "A small flag of Morocco behind the cockpit windows.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Flag_of_Morocco.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "الخطوط الملكية المغربية",
+      "place": "fuselage",
+      "side": "left",
+      "at": [
+        0.134,
+        0.33
+      ],
+      "height": 0.21,
+      "length": 0.227,
+      "color": "red",
+      "style": "Red Arabic over the windows, on top on the left side.",
+      "type": {
+        "similar": [
+          "Noto Naskh Arabic Bold",
+          "Amiri Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "contrast",
+        "case": "mixed"
+      },
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        3
+      ]
+    },
+    {
+      "text": "Royal Air Maroc",
+      "place": "fuselage",
+      "side": "left",
+      "at": [
+        0.132,
+        -0.115
+      ],
+      "height": 0.18,
+      "length": 0.128,
+      "color": "red",
+      "style": "Red sans, upper and lower case, under the windows on the left side.",
+      "type": {
+        "similar": [
+          "Myriad Pro Semibold",
+          "Frutiger Bold"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.68
+      },
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        3
+      ]
+    },
+    {
+      "text": "Royal Air Maroc",
+      "place": "fuselage",
+      "side": "right",
+      "at": [
+        0.141,
+        0.33
+      ],
+      "height": 0.25,
+      "length": 0.228,
+      "color": "red",
+      "style": "Red sans over the windows, on top on the right side (bigger than the left side's).",
+      "type": {
+        "similar": [
+          "Myriad Pro Semibold",
+          "Frutiger Bold"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.68
+      },
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    },
+    {
+      "text": "الخطوط الملكية المغربية",
+      "place": "fuselage",
+      "side": "right",
+      "at": [
+        0.141,
+        -0.1
+      ],
+      "height": 0.16,
+      "length": 0.224,
+      "color": "red",
+      "style": "Red Arabic under the windows on the right side.",
+      "type": {
+        "similar": [
+          "Noto Naskh Arabic Bold",
+          "Amiri Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "contrast",
+        "case": "mixed"
+      },
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    }
+  ],
+  "notes": "Measured on CN-RGZ's left side (2020-04-22); right-side titles on CN-RGY (2023-05-08), and CN-RHA (2025) shows the scheme unchanged. The two sides letter differently: Arabic on top on the left, English on top on the right, each side's top line the larger. The fuselage's red and green were measured on the left and drawn the same on both sides (the right side matches in the photos). A dark grey strip along the fin's leading edge (seen on CN-RGZ) is not drawn. Year introduced not found in a source: 'from' left empty.",
+  "history": "New file (Royal Air Maroc had no scheme here). The scheme of the 787s (in the photos from 2019 to 2025); the 737s' scheme was not checked."
+}

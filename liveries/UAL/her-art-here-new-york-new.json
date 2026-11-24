@@ -1,0 +1,746 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "her-art-here-new-york-new",
+  "airline": "UAL",
+  "name": "Her Art Here – New York/New Jersey",
+  "kind": "special",
+  "confidence": "medium",
+  "drawnOn": "B752",
+  "description": "Fuselage: White, artwork on the sides; white underside. Forward, from the nose to the wing: a field of teal and royal-blue brush shapes from the crown to below the windows, a teal patch on the nose, a purple barn-like building with a white house just behind the cockpit, and a navy tree-lined shore under the windows. Aft, from the wing to the tail cone: the New York skyline in navy, blue and purple from below the windows (taller towers to the crown), the Brooklyn Bridge by the wing and the Statue of Liberty's head in faceted teal and navy ahead of the fin; white above the skyline. Tail: Standard United blue fin with the light-blue globe. Engines: Royal-blue cowlings, polished lips. Winglets: Blue. Titles: Large, widely spaced 'UNITED' in navy with a thin white outline over the forward windows. Artwork: Corinne Antonelli's New York/New Jersey design.",
+  "sources": [
+    {
+      "url": "https://airlinegeeks.com/?p=78675",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://united.mediaroom.com/2019-10-13-California-themed-United-Airlines-Plane-Soars-into-The-Friendly-Skies",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N14102_EWR_Landing_4R_UA_B757_224_Her_Art_Here_Corinne_Antonelli_New_York_New_Jersey_Small_(53609820514).png",
+      "title": "N14102 EWR Landing 4R UA B757 224 Her Art Here Corinne Antonelli New York New Jersey (CC BY-SA 2.0)",
+      "accessed": "2026-11-12",
+      "note": "Right side, level, 2024-03-25: the main geometry source (mirrored). Strong blue-violet color cast; colors taken from the other two."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N14102_B757-200,_United_(Her_Art_Here_-_NJ_NY_livery),_Las_Vegas_02-12-24_(55182333444).jpg",
+      "title": "N14102 B757-200, United (Her Art Here - NJ NY livery), Las Vegas 02-12-24 (CC BY 4.0)",
+      "accessed": "2026-11-12",
+      "note": "Left side on the ground, 2024-02-12: the same layout on the left, natural colors."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Boeing_757-224_N14102_of_United_Airlines_in_Her_Art_Here_livery_at_Los_Angeles_International_Airport,_August_2023.jpg",
+      "title": "Boeing 757-224 N14102 of United Airlines in Her Art Here livery at Los Angeles International Airport, August 2023 (CC BY-SA 4.0)",
+      "accessed": "2026-11-12",
+      "note": "Left side from below, 2023-08: colors, winglets, engines."
+    }
+  ],
+  "notes": "Artwork reduced to its main color fields; the brush shapes, buildings and facets are described in logo entries, not traced. Both sides carry the same layout (left side checked in two photos). History entry: retired Feb 2025 (repainted in standard Evo Blue). Re-checked 2026-11-15: title already measured; the areas are rough colour fields round brushwork and buildings (straight-edged facets and blocks on the photos), so none was made smooth. Retired, so not re-measured.",
+  "from": "2019-09",
+  "palette": {
+    "white": {
+      "hex": "#F1F2F4",
+      "official": false
+    },
+    "teal": {
+      "hex": "#5CCAD6",
+      "official": false
+    },
+    "blue": {
+      "hex": "#2443C4",
+      "name": "royal blue",
+      "official": false
+    },
+    "navy": {
+      "hex": "#1C1F66",
+      "official": false
+    },
+    "purple": {
+      "hex": "#5E2C6E",
+      "official": false
+    },
+    "lightBlue": {
+      "hex": "#8FD3E8",
+      "official": false
+    },
+    "finBlue": {
+      "hex": "#2340C0",
+      "official": false
+    },
+    "globe": {
+      "hex": "#8DB6EE",
+      "name": "globe light blue",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#C3C8CE",
+      "official": false
+    },
+    "metal": {
+      "hex": "#B8BDC3",
+      "name": "polished inlet lip",
+      "official": false
+    },
+    "metalDark": {
+      "hex": "#7E848B",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "forward teal field (brush shapes; the top edge is wavy, white shows through near the crown)",
+        "color": "teal",
+        "points": [
+          [
+            0.03,
+            0.1
+          ],
+          [
+            0.07,
+            0.75
+          ],
+          [
+            0.17,
+            0.75
+          ],
+          [
+            0.24,
+            0.6
+          ],
+          [
+            0.33,
+            0.7
+          ],
+          [
+            0.41,
+            0.55
+          ],
+          [
+            0.5,
+            0.75
+          ],
+          [
+            0.545,
+            0.6
+          ],
+          [
+            0.555,
+            -0.5
+          ],
+          [
+            0.41,
+            -0.55
+          ],
+          [
+            0.15,
+            -0.5
+          ],
+          [
+            0.074,
+            -0.32
+          ],
+          [
+            0.03,
+            -0.32
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "name": "royal-blue shapes at the field's aft end and around the cockpit",
+        "color": "blue",
+        "points": [
+          [
+            0.47,
+            0.7
+          ],
+          [
+            0.545,
+            0.6
+          ],
+          [
+            0.555,
+            -0.5
+          ],
+          [
+            0.5,
+            -0.45
+          ],
+          [
+            0.48,
+            0.0
+          ],
+          [
+            0.45,
+            0.3
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "name": "royal-blue shape over the cockpit",
+        "color": "blue",
+        "points": [
+          [
+            0.045,
+            0.35
+          ],
+          [
+            0.07,
+            0.75
+          ],
+          [
+            0.11,
+            0.7
+          ],
+          [
+            0.1,
+            0.45
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "name": "navy tree-lined shore under the windows",
+        "color": "navy",
+        "points": [
+          [
+            0.151,
+            -0.5
+          ],
+          [
+            0.151,
+            -0.15
+          ],
+          [
+            0.19,
+            -0.1
+          ],
+          [
+            0.22,
+            -0.2
+          ],
+          [
+            0.26,
+            -0.1
+          ],
+          [
+            0.3,
+            -0.2
+          ],
+          [
+            0.326,
+            -0.15
+          ],
+          [
+            0.33,
+            -0.5
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "name": "white house panel behind the cockpit",
+        "color": "white",
+        "points": [
+          [
+            0.074,
+            -0.5
+          ],
+          [
+            0.096,
+            -0.5
+          ],
+          [
+            0.096,
+            0.45
+          ],
+          [
+            0.074,
+            0.45
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "name": "purple building",
+        "color": "purple",
+        "points": [
+          [
+            0.096,
+            -0.2
+          ],
+          [
+            0.145,
+            -0.2
+          ],
+          [
+            0.145,
+            0.4
+          ],
+          [
+            0.12,
+            0.55
+          ],
+          [
+            0.096,
+            0.4
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "name": "teal sky behind the Brooklyn Bridge",
+        "color": "lightBlue",
+        "points": [
+          [
+            0.556,
+            -0.45
+          ],
+          [
+            0.62,
+            -0.45
+          ],
+          [
+            0.62,
+            0.0
+          ],
+          [
+            0.556,
+            -0.05
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "name": "New York skyline (navy, with blue and purple buildings)",
+        "color": "navy",
+        "points": [
+          [
+            0.588,
+            -0.51
+          ],
+          [
+            0.94,
+            -0.51
+          ],
+          [
+            0.94,
+            -0.1
+          ],
+          [
+            0.9,
+            0.15
+          ],
+          [
+            0.86,
+            0.15
+          ],
+          [
+            0.85,
+            0.42
+          ],
+          [
+            0.76,
+            0.42
+          ],
+          [
+            0.75,
+            0.1
+          ],
+          [
+            0.735,
+            0.1
+          ],
+          [
+            0.73,
+            0.48
+          ],
+          [
+            0.715,
+            0.48
+          ],
+          [
+            0.71,
+            0.2
+          ],
+          [
+            0.69,
+            0.0
+          ],
+          [
+            0.65,
+            0.2
+          ],
+          [
+            0.64,
+            0.2
+          ],
+          [
+            0.62,
+            -0.1
+          ],
+          [
+            0.588,
+            -0.2
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "name": "Statue of Liberty's head (faceted teal and blue)",
+        "color": "lightBlue",
+        "points": [
+          [
+            0.77,
+            -0.45
+          ],
+          [
+            0.84,
+            -0.45
+          ],
+          [
+            0.84,
+            0.1
+          ],
+          [
+            0.82,
+            0.38
+          ],
+          [
+            0.78,
+            0.38
+          ],
+          [
+            0.765,
+            0.1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3,
+          4
+        ]
+      }
+    ],
+    "radome": {
+      "color": "white",
+      "to": 0.025
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3,
+      4
+    ]
+  },
+  "fin": {
+    "base": "finBlue",
+    "areas": [
+      {
+        "name": "globe disc (its lines are in the logo entry)",
+        "color": "globe",
+        "points": [
+          [
+            0.97,
+            0.3
+          ],
+          [
+            0.954,
+            0.409
+          ],
+          [
+            0.906,
+            0.51
+          ],
+          [
+            0.829,
+            0.597
+          ],
+          [
+            0.73,
+            0.664
+          ],
+          [
+            0.614,
+            0.706
+          ],
+          [
+            0.49,
+            0.72
+          ],
+          [
+            0.366,
+            0.706
+          ],
+          [
+            0.25,
+            0.664
+          ],
+          [
+            0.151,
+            0.597
+          ],
+          [
+            0.074,
+            0.51
+          ],
+          [
+            0.026,
+            0.409
+          ],
+          [
+            0.01,
+            0.3
+          ],
+          [
+            0.026,
+            0.191
+          ],
+          [
+            0.074,
+            0.09
+          ],
+          [
+            0.151,
+            0.003
+          ],
+          [
+            0.25,
+            -0.064
+          ],
+          [
+            0.366,
+            -0.106
+          ],
+          [
+            0.49,
+            -0.12
+          ],
+          [
+            0.614,
+            -0.106
+          ],
+          [
+            0.73,
+            -0.064
+          ],
+          [
+            0.829,
+            0.003
+          ],
+          [
+            0.906,
+            0.09
+          ],
+          [
+            0.954,
+            0.191
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3,
+          4
+        ]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3,
+      4
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "blue",
+    "inner": "blue",
+    "confidence": "medium",
+    "sourceRefs": [
+      3,
+      4
+    ]
+  },
+  "engines": {
+    "cowling": "blue",
+    "inletLip": "metal",
+    "areas": [
+      {
+        "name": "bare exhaust",
+        "color": "metalDark",
+        "points": [
+          [
+            0.85,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0.85,
+            1
+          ]
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3,
+      4
+    ]
+  },
+  "logos": [
+    {
+      "mark": "UAL/globe",
+      "place": "fin",
+      "at": [
+        0.49,
+        0.3
+      ],
+      "height": 0.84,
+      "colors": [
+        "globe",
+        "finBlue"
+      ],
+      "description": "United's globe, as on the standard scheme: a large light-blue disc crossed by curved blue latitude and longitude lines, low on the aft fin and cut off by its trailing edge and root; the fin's upper leading edge a deeper blue.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mark": "UAL/her-art-here-nynj",
+      "place": "fuselage",
+      "at": [
+        0.12,
+        0.15
+      ],
+      "height": 0.8,
+      "colors": [
+        "purple",
+        "white",
+        "teal",
+        "navy"
+      ],
+      "description": "Behind the cockpit: a purple barn-like building with white door frames and a small white house with a wheel below it, on the teal field.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mark": "UAL/her-art-here-nynj",
+      "place": "fuselage",
+      "at": [
+        0.8,
+        0.0
+      ],
+      "height": 1.0,
+      "colors": [
+        "navy",
+        "blue",
+        "lightBlue",
+        "purple"
+      ],
+      "description": "The aft fuselage: the Manhattan skyline with the Empire State and other towers, the Brooklyn Bridge's towers and cables just behind the wing, and the Statue of Liberty's crowned head in faceted teal and navy ahead of the fin.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "UNITED",
+      "place": "fuselage",
+      "at": [
+        0.155,
+        0.01
+      ],
+      "height": 0.6,
+      "color": "navy",
+      "style": "United's 2019 wordmark: heavy, widely spaced capitals in navy with a thin white outline, straddling the forward window line over the artwork.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3,
+        4
+      ],
+      "length": 0.2,
+      "type": {
+        "similar": [
+          "Helvetica Neue Bold",
+          "Open Sans ExtraBold"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ]
+}

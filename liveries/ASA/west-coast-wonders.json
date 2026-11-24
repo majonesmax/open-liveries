@@ -1,0 +1,501 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "west-coast-wonders",
+  "airline": "ASA",
+  "name": "West Coast Wonders (orcas)",
+  "kind": "special",
+  "confidence": "medium",
+  "drawnOn": "B39M",
+  "description": "Fuselage: Deep ocean blue all over. Cheatlines: None; from over the wing aft, a lighter sea-blue band of water with whitecaps runs along the middle of the fuselage to the tail, and a pod of orcas swims in it, the largest by the aft door. Tail: A printed photograph: Pacific Northwest forest at the top, a waterfall, and an orca breaching from blue water at the root. Engines: Ocean blue. Winglets: Alaska's standard (white with midnight, Atlas-blue and lime bands). Titles: The 2016 'Alaska' wordmark in white, large, forward of the wing. Artwork: Orcas (the Southern Resident pods) on the water band; the tail is inkjet-printed, the first image Boeing applied that way. Colors hex: not published; matched by eye.",
+  "sources": [
+    {
+      "url": "https://www.alaskaair.com/content/travel-info/our-aircraft/737-9-max-west-coast-wonders",
+      "title": "Alaska Airlines: West Coast Wonders Livery",
+      "accessed": "2026-11-14",
+      "note": "Alaska's page for the aircraft; its photo shows the left side side-on on approach: the whole left side; positions along the fuselage, the title and the water band measured from it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:N932AK_(aircraft)",
+      "title": "N932AK on Commons",
+      "accessed": "2026-11-14"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N932AK_FLL_18.01.23_(53512379882).jpg",
+      "title": "N932AK FLL 18.01.23 (53512379882).jpg (CC BY-SA 2.0)",
+      "accessed": "2026-11-14",
+      "note": "Right side on approach, Fort Lauderdale 2023-01-18: the right side carries the same layout (title forward, orcas aft)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N932AK_JFK_Taxiing_Out_31L_AS_B737_9_Max_West_Coast_Wonders_Orca_Beacon_Small.png",
+      "title": "N932AK JFK Taxiing Out 31L AS B737 9 Max West Coast Wonders Orca Beacon Small.png (CC BY-SA 2.0)",
+      "accessed": "2026-11-14",
+      "note": "Right side taxiing, JFK 2022-10-14: the water band, the orcas and the printed tail."
+    },
+    {
+      "url": "https://worldairlinenews.com/2021/12/17/alaska-paints-new-boeing-737-9-max-9-n932ak-in-a-special-orca-livery/",
+      "title": "World Airline News: Alaska paints new Boeing 737-9 MAX 9 N932AK in a special orca livery",
+      "accessed": "2026-11-14",
+      "note": "Rolled out of Renton's paint shop in December 2021."
+    },
+    {
+      "url": "https://thepointsguy.com/news/whale-livery-alaska-airlines/",
+      "title": "The Points Guy: Alaska's whale livery",
+      "accessed": "2026-11-14",
+      "note": "The tail is inkjet-printed (Boeing's first)."
+    }
+  ],
+  "notes": "Drawn from Alaska's photo of the left side (side-on, approaching) and checked on the right side (Commons 2022 and 2023): the same layout both sides. The water band's edges are wavy whitecaps, drawn as a smooth band; the orcas are logo entries. The tail is a photograph: drawn as forest over water with the breaching orca as a logo. Re-checked 2026-11-15 (drawn on the 737-9): the water band's rounded outline made smooth (its whitecaps stay described, not drawn). 'Alaska' lowercase about 0.55 of its A; its length kept.",
+  "from": "2021-12",
+  "palette": {
+    "ocean": {
+      "hex": "#1B4F9C",
+      "name": "Ocean blue",
+      "official": false
+    },
+    "sea": {
+      "hex": "#3FA6DF",
+      "name": "Sea blue",
+      "official": false
+    },
+    "forest": {
+      "hex": "#2F5B3E",
+      "name": "Forest green",
+      "official": false
+    },
+    "water": {
+      "hex": "#2D7FC4",
+      "name": "Water blue",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    },
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "midnight": {
+      "hex": "#14306B",
+      "official": false
+    },
+    "blue": {
+      "hex": "#1F6DB8",
+      "official": false
+    },
+    "atlas": {
+      "hex": "#52B3E3",
+      "official": false
+    },
+    "lime": {
+      "hex": "#B6D433",
+      "official": false
+    },
+    "cream": {
+      "hex": "#F1EFE8",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC5",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "ocean",
+    "areas": [
+      {
+        "name": "sea-blue water band from over the wing to the tail cone, whitecaps on its edges",
+        "color": "sea",
+        "points": [
+          [
+            0.385,
+            0.15
+          ],
+          [
+            0.43,
+            0.35
+          ],
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.62,
+            0.55
+          ],
+          [
+            0.8,
+            0.55
+          ],
+          [
+            0.9,
+            0.5
+          ],
+          [
+            0.965,
+            0.3
+          ],
+          [
+            0.99,
+            0.05
+          ],
+          [
+            0.95,
+            -0.25
+          ],
+          [
+            0.85,
+            -0.45
+          ],
+          [
+            0.7,
+            -0.5
+          ],
+          [
+            0.56,
+            -0.4
+          ],
+          [
+            0.46,
+            -0.2
+          ],
+          [
+            0.4,
+            -0.05
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          2,
+          3
+        ],
+        "smooth": true
+      }
+    ],
+    "radome": {
+      "color": "ocean"
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      2,
+      3
+    ]
+  },
+  "fin": {
+    "base": "forest",
+    "rudder": "forest",
+    "areas": [
+      {
+        "name": "blue water across the root, the breaching orca's splash",
+        "color": "water",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0.28
+          ],
+          [
+            0.35,
+            0.33
+          ],
+          [
+            0.7,
+            0.26
+          ],
+          [
+            1,
+            0.3
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "sourceRefs": [
+          0,
+          2,
+          3
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      2,
+      3
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "stabilizer": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "white",
+    "inner": "white",
+    "areas": [
+      {
+        "name": "midnight root",
+        "color": "midnight",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0.18
+          ],
+          [
+            0,
+            0.32
+          ]
+        ],
+        "sourceRefs": [
+          0,
+          2,
+          3
+        ]
+      },
+      {
+        "name": "Atlas-blue band",
+        "color": "atlas",
+        "points": [
+          [
+            0,
+            0.32
+          ],
+          [
+            1,
+            0.18
+          ],
+          [
+            1,
+            0.26
+          ],
+          [
+            0,
+            0.4
+          ]
+        ],
+        "sourceRefs": [
+          0,
+          2,
+          3
+        ]
+      },
+      {
+        "name": "lime band",
+        "color": "lime",
+        "points": [
+          [
+            0,
+            0.4
+          ],
+          [
+            1,
+            0.26
+          ],
+          [
+            1,
+            0.32
+          ],
+          [
+            0,
+            0.46
+          ]
+        ],
+        "sourceRefs": [
+          0,
+          2,
+          3
+        ]
+      }
+    ],
+    "confidence": "low",
+    "sourceRefs": [
+      0,
+      2,
+      3
+    ]
+  },
+  "engines": {
+    "cowling": "ocean",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      2,
+      3
+    ]
+  },
+  "logos": [
+    {
+      "mark": "ASA/west-coast-wonders-tail",
+      "place": "fin",
+      "at": [
+        0.52,
+        0.42
+      ],
+      "height": 0.75,
+      "colors": [
+        "forest",
+        "water",
+        "white"
+      ],
+      "description": "The printed tail: dark evergreen forest at the top, a white waterfall, and an orca breaching from the water at the root, its head up toward the leading edge.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "mark": "ASA/west-coast-wonders-orca",
+      "place": "fuselage",
+      "at": [
+        0.47,
+        0.3
+      ],
+      "height": 0.55,
+      "colors": [
+        "white",
+        "midnight"
+      ],
+      "description": "An orca surfacing in the water band behind the forward overwing windows.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "mark": "ASA/west-coast-wonders-orca",
+      "place": "fuselage",
+      "at": [
+        0.57,
+        0.32
+      ],
+      "height": 0.5,
+      "colors": [
+        "white",
+        "midnight"
+      ],
+      "description": "A second orca just behind the first, over the wing.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "mark": "ASA/west-coast-wonders-orca",
+      "place": "fuselage",
+      "at": [
+        0.66,
+        -0.45
+      ],
+      "height": 0.65,
+      "colors": [
+        "white",
+        "midnight"
+      ],
+      "description": "An orca low in the water behind the wing root.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "mark": "ASA/west-coast-wonders-orca",
+      "place": "fuselage",
+      "at": [
+        0.76,
+        -0.4
+      ],
+      "height": 0.7,
+      "colors": [
+        "white",
+        "midnight"
+      ],
+      "description": "Another orca low down ahead of the aft door.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "mark": "ASA/west-coast-wonders-orca",
+      "place": "fuselage",
+      "at": [
+        0.855,
+        0.05
+      ],
+      "height": 1.1,
+      "colors": [
+        "white",
+        "midnight"
+      ],
+      "description": "The largest orca, rising across the aft door.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        2,
+        3
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Alaska",
+      "place": "fuselage",
+      "at": [
+        0.163,
+        -0.38
+      ],
+      "height": 0.8,
+      "color": "white",
+      "style": "The 2016 Alaska wordmark in white, large, across the forward windows behind the door.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        2,
+        3
+      ],
+      "length": 0.2,
+      "type": {
+        "similar": [
+          "Kaufmann Bold",
+          "Futura Bold Oblique"
+        ],
+        "weight": 800,
+        "slantDeg": 16,
+        "width": "normal",
+        "strokes": "brush",
+        "case": "mixed",
+        "xHeight": 0.55
+      }
+    }
+  ]
+}

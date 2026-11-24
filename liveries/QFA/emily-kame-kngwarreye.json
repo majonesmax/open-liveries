@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "emily-kame-kngwarreye",
+  "airline": "QFA",
+  "name": "Emily Kame Kngwarreye (Yam Dreaming)",
+  "kind": "special",
+  "confidence": "medium",
+  "description": "Fuselage: Forward fuselage white with standard 'QANTAS' titles; from behind the forward door to the tail the fuselage is covered in deep red/ochre and orange with dense white dot clusters forming a cellular yam-root pattern (from the 1991 painting 'Yam Dreaming'). Cheatlines: None. Tail: Qantas red fin with the white flying kangaroo; the lower fin blends into the dotted artwork. Engines: White/gray. Winglets: Raked tips. Titles: Black 'QANTAS' forward. Artwork: Adapted by Balarinji. Colors hex: approximate.",
+  "sources": [
+    {
+      "url": "https://worldairlinenews.com/2018/02/14/qantas-unveils-its-yam-dreaming-special-livery-on-dreamliner-vh-znd/",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://airlinegeeks.com/2023/10/20/livery-of-the-week-qantas-emily-kame-kngwarreye-dreamliner/",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:VH-ZND_(aircraft)",
+      "accessed": "2026-11-12"
+    }
+  ],
+  "notes": "787 fleet serves LAX and Perth-LHR; exact current routing varies.",
+  "from": "2018-02"
+}

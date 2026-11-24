@@ -1,0 +1,251 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "ANZ",
+  "name": "2012 livery (black fern)",
+  "kind": "standard",
+  "from": "2012",
+  "confidence": "medium",
+  "drawnOn": "A320",
+  "description": "White forward fuselage with 'AIR NEW ZEALAND' in dark serif italic capitals over the forward windows; from mid-cabin a black sweep curves up from the belly to take the rear fuselage and fin, carrying a big white silver-fern frond that rises into the fin; the white koru on the black fin; black winglets with the koru.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:ZK-OXL_@_ZQN,_2018-10-06.jpg",
+      "title": "ZK-OXL @ ZQN, 2018-10-06 (CC BY 2.0, Ev Brown)",
+      "accessed": "2026-11-13",
+      "note": "A320, left side level: positions of the black sweep, fern, koru, titles, sharklets."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:ZK-NZQ_at_PVG_Airport.jpg",
+      "title": "ZK-NZQ at PVG Airport (CC BY-SA 4.0, TNLHK)",
+      "accessed": "2026-11-13",
+      "note": "787-9, left side, 202x: same scheme on the widebody; the black starts relatively further aft."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Air_New_Zealand",
+      "title": "Air New Zealand (Wikipedia)",
+      "accessed": "2026-11-13",
+      "note": "Black and white livery with the fern introduced 2012."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F6",
+      "official": false
+    },
+    "black": {
+      "hex": "#111214",
+      "official": false
+    },
+    "cowl": {
+      "hex": "#E4E6E9",
+      "official": false
+    },
+    "metal": {
+      "hex": "#B4B8BD",
+      "official": false
+    },
+    "wing": {
+      "hex": "#C9CCD0",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "black rear sweep",
+        "color": "black",
+        "points": [
+          [
+            0.48,
+            -1
+          ],
+          [
+            0.513,
+            -0.4
+          ],
+          [
+            0.533,
+            -0.2
+          ],
+          [
+            0.548,
+            -0.01
+          ],
+          [
+            0.572,
+            0.19
+          ],
+          [
+            0.628,
+            0.6
+          ],
+          [
+            0.69,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ],
+        "smooth": true
+      }
+    ],
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "fin": {
+    "base": "black",
+    "rudder": "black",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "wings": {
+    "top": "wing",
+    "under": "wing"
+  },
+  "winglets": {
+    "outer": "black",
+    "inner": "black",
+    "confidence": "medium",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "engines": {
+    "cowling": "cowl",
+    "inletLip": "metal",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "ANZ/koru",
+      "place": "fin",
+      "at": [
+        0.58,
+        0.36
+      ],
+      "height": 0.62,
+      "colors": [
+        "white"
+      ],
+      "description": "The Air New Zealand koru: a white Maori spiral curl above a horizontal bar, with a smaller curl below, standing upright in the lower-middle of the black fin.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Air_New_Zealand_logo.svg",
+      "side": "both",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "ANZ/fern",
+      "place": "fuselage",
+      "at": [
+        0.73,
+        0.0
+      ],
+      "height": 1.7,
+      "colors": [
+        "white"
+      ],
+      "description": "A large white silver-fern frond on the black rear fuselage: its stem curves from low on the side, about level with the wing's trailing edge, up and aft to the fin's root, the leaflets fanning upward; the tip runs into the fin below the koru.",
+      "reference": "https://commons.wikimedia.org/wiki/File:ZK-OXL_@_ZQN,_2018-10-06.jpg",
+      "side": "both",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "ANZ/koru",
+      "place": "winglets",
+      "at": [
+        0.5,
+        0.6
+      ],
+      "height": 0.35,
+      "colors": [
+        "white"
+      ],
+      "description": "The koru in white on each black winglet's outer face.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ]
+    },
+    {
+      "mark": "SAL/star",
+      "place": "fuselage",
+      "at": [
+        0.068,
+        0.2
+      ],
+      "height": 0.14,
+      "colors": [
+        "#5A5F66"
+      ],
+      "description": "The small Star Alliance star with 'A STAR ALLIANCE MEMBER' below, behind the cockpit windows.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "AIR NEW ZEALAND",
+      "place": "fuselage",
+      "at": [
+        0.168,
+        0.34
+      ],
+      "height": 0.17,
+      "color": "black",
+      "style": "Dark serif capitals with a slight slant and flared, calligraphic thick-thin strokes, over the forward windows from just aft of the first door.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Optima Bold Italic",
+          "Trajan Pro Bold"
+        ],
+        "weight": 600,
+        "slantDeg": 10,
+        "width": "normal",
+        "strokes": "contrast",
+        "case": "upper"
+      },
+      "length": 0.236
+    }
+  ],
+  "notes": "Same scheme on the A320/A321neo, 787-9 and 777. On the 787 the black sweep starts a little further aft (about x 0.6 at the windows, 0.69 at the crown) than on the A320 drawn here. Some aircraft are all-black (see all-black.json). Belly not seen in a photo: the black sweep is drawn wrapping under it. Re-checked 2026-11-15 on ZK-OXL, placed by its forward door and overwing exits (which agree with the measured A320 to 0.005): the title runs 0.168 to 0.404 with its cap height about a fifth of the radius, and the black sweep's forward edge is a curve about 1.5 m further aft than drawn (0.51 low on the side, 0.57 at the windows, 0.69 at the crown); under the wing it is extrapolated to the belly.",
+  "history": "Replaces Skyarium v1's approximation. Introduced in 2012, replacing the teal-and-blue 'Pacific Wave' scheme (1996), long since gone."
+}

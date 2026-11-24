@@ -1,0 +1,1023 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "team-usa-milano-cortina-2026",
+  "airline": "DAL",
+  "name": "Team USA Milano Cortina 2026",
+  "kind": "special",
+  "confidence": "low",
+  "drawnOn": "A359",
+  "description": "Fuselage: White forward with a red sweep along the lower forward fuselage from under the radome to the wing and a thin navy belly line; from the wing aft the whole fuselage is a gradient running crimson, violet, royal blue (brightest azure low down under the title) to dark navy at the tail, with 26 white stripes (13 a side) converging on the tail cone. Tail: Delta's standard navy fin with the red and dark-red widget. Winglets: navy with a red facet. Titles: 'DELTA' with the widget forward, 'OFFICIAL AIRLINE OF TEAM USA' below it with two US flags and the Olympic and Paralympic marks; huge white 'TEAM USA' aft of the wing. Colors hex: approximate; Delta says over 72 paint colors were used for the gradient and lines.",
+  "sources": [
+    {
+      "url": "https://news.delta.com/100-days-olympic-winter-games-milano-cortina-2026-delta-unveils-custom-aircraft-livery-releases",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://news.delta.com/sites/default/files/2025-10/a350-900-delta-air-lines-msn755-milan-26-special-livery-roll-out-090.jpg",
+      "title": "A350-900 Delta Air Lines MSN755 Milan 26 special livery roll-out 090 (Delta press image, all rights reserved; used as evidence only)",
+      "accessed": "2026-11-12",
+      "note": "Right side from the rear quarter, at Toulouse before delivery (F-WWXL), published 2025-10-29: the whole layout, the gradient, 'TEAM USA', fin, winglet."
+    },
+    {
+      "url": "https://news.delta.com/sites/default/files/2025-10/a350-900-delta-air-lines-msn755-milan-26-special-livery-roll-out-01.jpg",
+      "title": "A350-900 Delta Air Lines MSN755 Milan 26 special livery roll-out 01 (Delta press image; evidence only)",
+      "accessed": "2026-11-12",
+      "note": "Right side, rear fuselage in the paint hangar: the white stripes converging on the tail cone, the blue gradient under 'TEAM'."
+    },
+    {
+      "url": "https://news.delta.com/sites/default/files/2025-10/a350-900-delta-air-lines-msn755-milan-26-special-livery-roll-out-058.jpg",
+      "title": "A350-900 Delta Air Lines MSN755 Milan 26 special livery roll-out 058 (Delta press image; evidence only)",
+      "accessed": "2026-11-12",
+      "note": "Right side, nose: the red lower forward sweep, the navy belly line, 'DELTA', 'OFFICIAL AIRLINE OF TEAM USA', flags and the Olympic and Paralympic marks."
+    }
+  ],
+  "notes": "Drawn only from Delta's press photos of the right side at Toulouse before delivery (as F-WWXL, MSN 755); no openly licensed photo was found and the left side, belly and engines weren't seen, so titles and logos are given for the right side only and the engines are left out. The press photos are oblique: every position is an estimate (low). The gradient is drawn as five flat bands; the stripes' forward ends are staggered and fade out in the photos, here drawn with one even start. About 13 stripes show on the right side between belly and crown at the rear door, so the 26 are taken as 13 a side. FAA lists N531DN as A350-941 MSN 0755, matching the 'MSN755' in Delta's release image filenames; registration otherwise from secondary reporting. Post-Olympics status unknown. Not this scheme: Commons has N521DN at Auckland 9 Apr 2026 in a different, white Team USA livery (navy 'TEAM USA' with red and navy stripes). Re-checked 2026-11-15 only in part: no openly licensed photo of the aircraft in service was found (the sources are Delta's roll-out pictures), so the title 'OFFICIAL AIRLINE OF TEAM USA' still has no measured length; the red forward sweep's top edge, a curve on those pictures, is drawn smooth.",
+  "from": "2025",
+  "palette": {
+    "white": {
+      "hex": "#F2F3F5",
+      "official": false
+    },
+    "red": {
+      "hex": "#D42A3C",
+      "official": false
+    },
+    "crimson": {
+      "hex": "#A8274E",
+      "name": "front of the gradient",
+      "official": false
+    },
+    "violet": {
+      "hex": "#583C98",
+      "official": false
+    },
+    "royal": {
+      "hex": "#2552B8",
+      "official": false
+    },
+    "azure": {
+      "hex": "#1E8FE0",
+      "name": "brightest part of the gradient, low down",
+      "official": false
+    },
+    "navy": {
+      "hex": "#0F1D57",
+      "name": "rear fuselage and belly",
+      "official": false
+    },
+    "stripe": {
+      "hex": "#EEF0F2",
+      "name": "the stripes (26 in all, 13 a side)",
+      "official": false
+    },
+    "finNavy": {
+      "hex": "#0F2459",
+      "official": false
+    },
+    "finRed": {
+      "hex": "#E2283B",
+      "official": false
+    },
+    "finDarkRed": {
+      "hex": "#A31F33",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "red lower forward sweep, from under the radome to the wing",
+        "color": "red",
+        "points": [
+          [
+            0.0,
+            -0.33
+          ],
+          [
+            0.05,
+            -0.36
+          ],
+          [
+            0.12,
+            -0.3
+          ],
+          [
+            0.3,
+            -0.26
+          ],
+          [
+            0.4,
+            -0.24,
+            1
+          ],
+          [
+            0.45,
+            -1
+          ],
+          [
+            0.0,
+            -1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "gradient, crimson at its front",
+        "color": "crimson",
+        "points": [
+          [
+            0.44,
+            1
+          ],
+          [
+            0.41,
+            0
+          ],
+          [
+            0.4,
+            -0.24
+          ],
+          [
+            0.42,
+            -0.6
+          ],
+          [
+            0.45,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "gradient, violet",
+        "color": "violet",
+        "points": [
+          [
+            0.48,
+            1
+          ],
+          [
+            0.46,
+            0
+          ],
+          [
+            0.47,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "gradient, royal blue",
+        "color": "royal",
+        "points": [
+          [
+            0.52,
+            1
+          ],
+          [
+            0.5,
+            0
+          ],
+          [
+            0.5,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "gradient, bright azure low down under the title",
+        "color": "azure",
+        "points": [
+          [
+            0.52,
+            -0.1
+          ],
+          [
+            0.62,
+            -0.25
+          ],
+          [
+            0.66,
+            -0.8
+          ],
+          [
+            0.62,
+            -1
+          ],
+          [
+            0.5,
+            -1
+          ],
+          [
+            0.5,
+            -0.4
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "dark rear fuselage",
+        "color": "navy",
+        "points": [
+          [
+            0.6,
+            1
+          ],
+          [
+            0.66,
+            0.3
+          ],
+          [
+            0.7,
+            -0.4
+          ],
+          [
+            0.68,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "navy belly line, nose to tail",
+        "color": "navy",
+        "below": [
+          [
+            0.04,
+            -0.8
+          ],
+          [
+            0.3,
+            -0.75
+          ],
+          [
+            1,
+            -0.75
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          3
+        ]
+      },
+      {
+        "name": "stripe 1 of 13 on this side",
+        "color": "stripe",
+        "points": [
+          [
+            0.627,
+            -0.9
+          ],
+          [
+            0.8,
+            -0.93
+          ],
+          [
+            1,
+            -0.8400000000000001
+          ],
+          [
+            1,
+            -0.78
+          ],
+          [
+            0.8,
+            -0.87
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "stripe 2 of 13 on this side",
+        "color": "stripe",
+        "points": [
+          [
+            0.6224999999999999,
+            -0.75
+          ],
+          [
+            0.8,
+            -0.78
+          ],
+          [
+            1,
+            -0.7050000000000001
+          ],
+          [
+            1,
+            -0.645
+          ],
+          [
+            0.8,
+            -0.72
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "stripe 3 of 13 on this side",
+        "color": "stripe",
+        "points": [
+          [
+            0.618,
+            -0.6000000000000001
+          ],
+          [
+            0.8,
+            -0.6300000000000001
+          ],
+          [
+            1,
+            -0.5700000000000002
+          ],
+          [
+            1,
+            -0.5100000000000001
+          ],
+          [
+            0.8,
+            -0.5700000000000001
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "stripe 4 of 13 on this side",
+        "color": "stripe",
+        "points": [
+          [
+            0.6134999999999999,
+            -0.45000000000000007
+          ],
+          [
+            0.8,
+            -0.4800000000000001
+          ],
+          [
+            1,
+            -0.43500000000000005
+          ],
+          [
+            1,
+            -0.3750000000000001
+          ],
+          [
+            0.8,
+            -0.42000000000000004
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "stripe 5 of 13 on this side",
+        "color": "stripe",
+        "points": [
+          [
+            0.609,
+            -0.30000000000000004
+          ],
+          [
+            0.8,
+            -0.33000000000000007
+          ],
+          [
+            1,
+            -0.30000000000000004
+          ],
+          [
+            1,
+            -0.24000000000000007
+          ],
+          [
+            0.8,
+            -0.27
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "stripe 6 of 13 on this side",
+        "color": "stripe",
+        "points": [
+          [
+            0.6044999999999999,
+            -0.15000000000000002
+          ],
+          [
+            0.8,
+            -0.18000000000000002
+          ],
+          [
+            1,
+            -0.16500000000000004
+          ],
+          [
+            1,
+            -0.10500000000000004
+          ],
+          [
+            0.8,
+            -0.12000000000000002
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "stripe 7 of 13 on this side",
+        "color": "stripe",
+        "points": [
+          [
+            0.6,
+            -1.1102230246251565e-16
+          ],
+          [
+            0.8,
+            -0.03000000000000011
+          ],
+          [
+            1,
+            -0.0300000000000001
+          ],
+          [
+            1,
+            0.0299999999999999
+          ],
+          [
+            0.8,
+            0.029999999999999888
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "stripe 8 of 13 on this side",
+        "color": "stripe",
+        "points": [
+          [
+            0.6044999999999999,
+            0.15000000000000002
+          ],
+          [
+            0.8,
+            0.12000000000000002
+          ],
+          [
+            1,
+            0.10500000000000004
+          ],
+          [
+            1,
+            0.16500000000000004
+          ],
+          [
+            0.8,
+            0.18000000000000002
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "stripe 9 of 13 on this side",
+        "color": "stripe",
+        "points": [
+          [
+            0.609,
+            0.29999999999999993
+          ],
+          [
+            0.8,
+            0.2699999999999999
+          ],
+          [
+            1,
+            0.23999999999999996
+          ],
+          [
+            1,
+            0.29999999999999993
+          ],
+          [
+            0.8,
+            0.32999999999999996
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "stripe 10 of 13 on this side",
+        "color": "stripe",
+        "points": [
+          [
+            0.6134999999999999,
+            0.44999999999999984
+          ],
+          [
+            0.8,
+            0.4199999999999998
+          ],
+          [
+            1,
+            0.3749999999999999
+          ],
+          [
+            1,
+            0.43499999999999983
+          ],
+          [
+            0.8,
+            0.47999999999999987
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "stripe 11 of 13 on this side",
+        "color": "stripe",
+        "points": [
+          [
+            0.618,
+            0.6
+          ],
+          [
+            0.8,
+            0.57
+          ],
+          [
+            1,
+            0.51
+          ],
+          [
+            1,
+            0.5700000000000001
+          ],
+          [
+            0.8,
+            0.63
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "stripe 12 of 13 on this side",
+        "color": "stripe",
+        "points": [
+          [
+            0.6224999999999999,
+            0.7499999999999999
+          ],
+          [
+            0.8,
+            0.7199999999999999
+          ],
+          [
+            1,
+            0.6449999999999999
+          ],
+          [
+            1,
+            0.705
+          ],
+          [
+            0.8,
+            0.7799999999999999
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "stripe 13 of 13 on this side",
+        "color": "stripe",
+        "points": [
+          [
+            0.627,
+            0.8999999999999998
+          ],
+          [
+            0.8,
+            0.8699999999999998
+          ],
+          [
+            1,
+            0.7799999999999998
+          ],
+          [
+            1,
+            0.8399999999999999
+          ],
+          [
+            0.8,
+            0.9299999999999998
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      }
+    ],
+    "radome": {
+      "color": "white",
+      "to": 0.02
+    },
+    "windows": "plain",
+    "confidence": "low",
+    "sourceRefs": [
+      1,
+      2,
+      3
+    ]
+  },
+  "fin": {
+    "base": "finNavy",
+    "areas": [
+      {
+        "name": "widget, bright red upper facet",
+        "color": "finRed",
+        "points": [
+          [
+            1,
+            0.726
+          ],
+          [
+            0,
+            0.747
+          ],
+          [
+            0,
+            0.52
+          ],
+          [
+            0.55,
+            0.42
+          ],
+          [
+            1,
+            0.653
+          ]
+        ]
+      },
+      {
+        "name": "widget, dark red facet toward the leading edge",
+        "color": "finDarkRed",
+        "points": [
+          [
+            0.55,
+            0.42
+          ],
+          [
+            0,
+            0.52
+          ],
+          [
+            0,
+            0.36
+          ],
+          [
+            0.68,
+            0.0
+          ],
+          [
+            0.85,
+            0.0
+          ],
+          [
+            0.6,
+            0.358
+          ]
+        ]
+      },
+      {
+        "name": "widget, bright red lower facet at the trailing edge",
+        "color": "finRed",
+        "points": [
+          [
+            1,
+            0.537
+          ],
+          [
+            0.77,
+            0.37
+          ],
+          [
+            1,
+            0.305
+          ]
+        ]
+      },
+      {
+        "name": "widget, dark red lowest facet at the trailing edge",
+        "color": "finDarkRed",
+        "points": [
+          [
+            1,
+            0.305
+          ],
+          [
+            0.77,
+            0.37
+          ],
+          [
+            0.9,
+            0.0
+          ],
+          [
+            1,
+            0.0
+          ]
+        ]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "low",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "winglets": {
+    "outer": "finNavy",
+    "areas": [
+      {
+        "name": "red facet near the tip (shape approximate)",
+        "color": "finRed",
+        "points": [
+          [
+            0.2,
+            0.6
+          ],
+          [
+            1,
+            0.75
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0.5,
+            1
+          ]
+        ]
+      }
+    ],
+    "confidence": "low",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "DAL/widget",
+      "place": "fuselage",
+      "at": [
+        0.215,
+        0.42
+      ],
+      "height": 0.3,
+      "colors": [
+        "finRed",
+        "finDarkRed"
+      ],
+      "description": "The red Delta widget, aft of 'DELTA' on the right side.",
+      "side": "right",
+      "confidence": "low",
+      "sourceRefs": [
+        1,
+        3
+      ]
+    },
+    {
+      "mark": "DAL/us-flag",
+      "place": "fuselage",
+      "at": [
+        0.2,
+        -0.2
+      ],
+      "height": 0.25,
+      "colors": [
+        "red",
+        "white",
+        "navy"
+      ],
+      "description": "Two US flags side by side below the windows, aft of the 'Official Airline' line.",
+      "side": "right",
+      "confidence": "low",
+      "sourceRefs": [
+        3
+      ]
+    },
+    {
+      "mark": "DAL/olympic-paralympic",
+      "place": "fuselage",
+      "at": [
+        0.2,
+        -0.5
+      ],
+      "height": 0.15,
+      "colors": [
+        "navy",
+        "red"
+      ],
+      "description": "The Olympic rings (in color) under the forward flag and the Paralympic agitos under the aft one.",
+      "side": "right",
+      "confidence": "low",
+      "sourceRefs": [
+        3
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "DELTA",
+      "place": "fuselage",
+      "at": [
+        0.1,
+        0.3
+      ],
+      "height": 0.3,
+      "color": "navy",
+      "length": 0.09,
+      "side": "right",
+      "style": "Delta's wordmark: widely spaced bold capitals above the windows behind the forward door.",
+      "confidence": "low",
+      "sourceRefs": [
+        1,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Whitney Bold",
+          "Gotham Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "OFFICIAL AIRLINE OF TEAM USA",
+      "place": "fuselage",
+      "at": [
+        0.11,
+        -0.12
+      ],
+      "height": 0.09,
+      "color": "navy",
+      "side": "right",
+      "style": "Small mixed-weight capitals in one line under the windows below 'DELTA'.",
+      "confidence": "low",
+      "sourceRefs": [
+        3
+      ],
+      "type": {
+        "similar": [
+          "Whitney Medium",
+          "Gotham Book"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "TEAM USA",
+      "place": "fuselage",
+      "at": [
+        0.433,
+        -0.27
+      ],
+      "height": 1.06,
+      "color": "white",
+      "length": 0.2,
+      "side": "right",
+      "style": "Huge condensed bold capitals across the gradient aft of the wing, from below the windows to high on the side.",
+      "confidence": "low",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Gotham Condensed Bold",
+          "Oswald SemiBold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "condensed",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ]
+}

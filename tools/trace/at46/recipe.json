@@ -1,0 +1,111 @@
+{
+  "_about": "ATR 42-500/-600 (AT45, AT46), from ATR's ATR 42-500 spec sheet (ATR family brochure, 2019, published on atr-aircraft.com): a dimensioned side, plan and front view, vector, drawn as an illustration (layers.py --mode lines --contrast 20). ATR's Airport Planning Manuals aren't public; the 42-600 is the 42-500's airframe (the same printed 22.67 m, 24.57 m span, 3.93 m six-bladed propellers in ATR's 42-600 brochure). The plan view is drawn turned 45 degrees, rendered at scale 40 (within 0.2% of the side's by its length) and turned level; the front view is drawn 2.1% smaller than the side, rendered at 40.84 (by the printed 24.57 m span). Pixels of those rasters, line centres. Scaled by the printed 22.67 m length, nose to tail cone. The plan draws the nacelle only ahead of the wing: its tail under the wing is placed to the side view's. Four windows the nacelle's underside and the propeller's blade cross are placed on the drawn ones' pitch. Doors as the left side view draws them, their sides as on the ATR 72 (AT76): the forward cargo door on the left only, the forward exit and the aft door on both.",
+  "out": "../../../../shapes/AT46.json",
+  "length": 22.67,
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "stabilizer": {
+    "mount": "fin"
+  },
+  "propeller": {
+    "blades": 6,
+    "x": 2120,
+    "hub": 1110,
+    "front": [1973.5, 2800],
+    "spinner": [2000, 2170],
+    "spinnerHeight": [1040, 1180]
+  },
+  "refs": {
+    "side": {
+      "nose": 660,
+      "tail": 5513,
+      "windowRow": [1250, 1345],
+      "windowGap": 5,
+      "windowMinWidth": 40,
+      "windowInset": 3
+    },
+    "plan": {
+      "nose": 295,
+      "centerline": 2916.5
+    },
+    "front": {
+      "centerline": 3262,
+      "crownTop": 1038
+    }
+  },
+  "doors": [
+    {
+      "kind": "cargo",
+      "box": [1431, 1164, 1730, 1548],
+      "side": "left"
+    },
+    {
+      "kind": "exit",
+      "box": [1855, 1197, 1967, 1397]
+    },
+    {
+      "kind": "door",
+      "box": [3856, 1126, 4035, 1520]
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [1028, 1265],
+      [1095, 1150],
+      [1145, 1150],
+      [1145, 1268]
+    ],
+    [
+      [1159, 1150],
+      [1205, 1150],
+      [1245, 1265],
+      [1159, 1268]
+    ]
+  ],
+  "printed": {
+    "fuselage length": 22.67,
+    "wingspan": 24.57,
+    "engine out from the centerline": 4.05,
+    "propellers apart": 8.1,
+    "propeller diameter": 3.93
+  },
+  "meta": {
+    "id": "AT46",
+    "name": "ATR 42-600",
+    "types": ["AT46", "AT45"],
+    "confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.atr-aircraft.com/wp-content/uploads/2020/07/42-500.pdf",
+        "title": "ATR, ATR 42-500 (ATR family brochure, 2019): side, plan and front views with their dimensions",
+        "accessed": "2026-11-16",
+        "note": "Outlines read off the sheet's three views (tools/trace/at46/); the figures are the aircraft's measurements, not a copy of the drawing. ATR's Airport Planning Manuals aren't published on its public site; this is ATR's own dimensioned drawing, drawn as an illustration, so its confidence is medium. The 42-600 is the same airframe as the 42-500 (ATR's 42-600 brochure prints the same figures). The front view is drawn 2.1% smaller than the side and was rendered to its scale; the plan, drawn turned, was turned level. It draws the propeller disc 1.8% smaller than its printed 3.93 m, which the shape keeps. Doors from the side view; their sides as the ATR 72's (photos, AT76's sources)."
+      },
+      {
+        "url": "https://www.atr-aircraft.com/wp-content/uploads/2023/04/260611-Digital-42_600Brochure3.pdf",
+        "title": "ATR, ATR 42-600 brochure",
+        "accessed": "2026-11-16",
+        "note": "The 42-600's engines and propellers (PW127XT-M, six-bladed 568F): the 42-500's airframe."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:F-WWLP(1007_F-ORVB)_ATR.42-600_Air_Tahiti_TLS_23SEP13_(9904109214).jpg",
+        "title": "Air Tahiti ATR 42-600 F-WWLP, left side (Ken Fielding, CC BY-SA 3.0)",
+        "accessed": "2026-11-16",
+        "note": "Door sides only: the forward cargo door, forward exit and aft door on the left, as the sheet draws them."
+      }
+    ]
+  },
+  "windows": {
+    "z": [0.036, 0.452],
+    "width": 0.271,
+    "x": [
+      5.844, 6.39, 6.918, 7.446, 7.974, 8.497, 9.025, 9.567, 10.132, 10.679, 11.202, 11.73, 12.258, 12.781, 13.309,
+      13.837, 14.36
+    ],
+    "note": "Each window's middle as the side view draws it; four the nacelle's underside and the propeller's blade cross, on the drawn ones' pitch."
+  }
+}

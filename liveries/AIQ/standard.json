@@ -1,0 +1,356 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "AIQ",
+  "name": "airasia.com livery",
+  "kind": "standard",
+  "from": "2019",
+  "confidence": "medium",
+  "drawnOn": "A20N",
+  "description": "Red fuselage with a white nose (to just behind the cockpit) and a white band wrapping the body ahead of the rear door; 'airasia.com' huge in white across the windows, 'Now Everyone Can Fly' small ahead of the white band. Red fin with the white 'AirAsia' script running down it; white engines with the red AirAsia disc; a Thai flag at the fin tip and by the cockpit.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:HS-CBK_(aircraft)",
+      "accessed": "2026-11-13"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:AirAsia_HS-CBK_run_Thai_AirAsia_FD766(Thailand_Bangkok_Don_Mueang_International_Airport_to_Macau_International_Airport)_16-06-2025(2).jpg",
+      "title": "AirAsia HS-CBK run Thai AirAsia FD766 ... 16-06-2025(2).jpg (CC BY-SA 4.0, LN9267)",
+      "accessed": "2026-11-13",
+      "note": "A320neo HS-CBK from the right, square on, 2025-06-16 (overcast): every edge, title, slogan, flags, engine disc, fin title measured here."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:HS-CBH_at_phuket.jpg",
+      "title": "HS-CBH at phuket.jpg (CC0)",
+      "accessed": "2026-11-13",
+      "note": "A320neo HS-CBH from the right, 2025-07-28: confirms the layout."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:HS-BBE_SIN_2025-01-01.jpg",
+      "title": "HS-BBE SIN 2025-01-01.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "A320neo HS-BBE from the right, 2025-01-01."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:AirAsia_di_Labuan.jpg",
+      "title": "AirAsia di Labuan.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Malaysia AirAsia 9M-AJH from below, 2024-02-18: red belly, white nose underneath, the white band round the belly (same scheme across the group)."
+    },
+    {
+      "url": "https://www.airasia.com",
+      "title": "AirAsia (airasia MOVE / Capital A)",
+      "accessed": "2026-11-13",
+      "note": "The airasia.com address painted as the title."
+    }
+  ],
+  "palette": {
+    "red": {
+      "hex": "#D8102E",
+      "official": false
+    },
+    "white": {
+      "hex": "#EEF0F1",
+      "official": false
+    },
+    "cowl": {
+      "hex": "#E8EAEC",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    },
+    "flagRed": {
+      "hex": "#D52B3A",
+      "official": false
+    },
+    "flagBlue": {
+      "hex": "#2D2A6E",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "red",
+    "areas": [
+      {
+        "name": "white nose",
+        "color": "white",
+        "points": [
+          [
+            0,
+            -1
+          ],
+          [
+            0.2,
+            -1
+          ],
+          [
+            0.163,
+            0
+          ],
+          [
+            0.154,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          4
+        ]
+      },
+      {
+        "name": "white band ahead of the rear door",
+        "color": "white",
+        "points": [
+          [
+            0.68,
+            1
+          ],
+          [
+            0.765,
+            1
+          ],
+          [
+            0.78,
+            0
+          ],
+          [
+            0.805,
+            -1
+          ],
+          [
+            0.715,
+            -1
+          ],
+          [
+            0.69,
+            0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          4
+        ]
+      }
+    ],
+    "radome": {
+      "color": "white",
+      "to": 0.025
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2,
+      4
+    ]
+  },
+  "fin": {
+    "base": "red",
+    "mirrored": true,
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "#B9BEC5",
+    "under": "#C9CDD2"
+  },
+  "winglets": {
+    "outer": "red",
+    "inner": "red",
+    "confidence": "medium",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "cowl",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "AIQ/airasia-disc",
+      "place": "engines",
+      "at": [
+        0.45,
+        0.0
+      ],
+      "height": 0.7,
+      "colors": [
+        "red",
+        "white"
+      ],
+      "description": "The AirAsia logo: a red disc with 'AirAsia' in white brush script across it, on the side of each white nacelle.",
+      "reference": "https://commons.wikimedia.org/wiki/Category:AirAsia",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "AIQ/airasia-script",
+      "place": "winglets",
+      "at": [
+        0.5,
+        0.5
+      ],
+      "height": 0.5,
+      "colors": [
+        "white"
+      ],
+      "description": "'AirAsia' in white script along the red sharklet.",
+      "reference": "https://commons.wikimedia.org/wiki/Category:AirAsia",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "AIQ/thai-flag",
+      "place": "fin",
+      "at": [
+        0.75,
+        0.93
+      ],
+      "height": 0.05,
+      "colors": [
+        "flagRed",
+        "white",
+        "flagBlue"
+      ],
+      "description": "A small Thai flag at the fin tip by the trailing edge.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Flag_of_Thailand.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "AIQ/thai-flag",
+      "place": "fuselage",
+      "at": [
+        0.06,
+        0.14
+      ],
+      "height": 0.2,
+      "colors": [
+        "flagRed",
+        "white",
+        "flagBlue"
+      ],
+      "description": "A small Thai flag behind the cockpit windows with tiny 'THAI AIRASIA' under it (and 'ETOPS' on ETOPS aircraft).",
+      "reference": "https://commons.wikimedia.org/wiki/File:Flag_of_Thailand.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "airasia.com",
+      "place": "fuselage",
+      "at": [
+        0.171,
+        -0.11
+      ],
+      "height": 0.85,
+      "length": 0.386,
+      "color": "white",
+      "style": "Very bold rounded lowercase, white, letters spaced, across the windows from behind the white nose to ahead of the white band (height = the i's height, the letters having no ascenders).",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Nunito Black",
+          "VAG Rounded Black"
+        ],
+        "weight": 900,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.72
+      }
+    },
+    {
+      "text": "Now Everyone Can Fly",
+      "place": "fuselage",
+      "at": [
+        0.561,
+        0.135
+      ],
+      "height": 0.2,
+      "color": "white",
+      "style": "The slogan in small white bold sans above the windows, just ahead of the white band.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Bold",
+          "Arial Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "length": 0.118
+    },
+    {
+      "text": "AirAsia",
+      "place": "fin",
+      "at": [
+        0.27,
+        0.0
+      ],
+      "height": 0.26,
+      "color": "white",
+      "style": "The AirAsia brush script, very large, white, turned to run down the fin from near the tip to the root (about 40 degrees), 'Air' above 'Asia'.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Brush Script",
+          "Kaushan Script"
+        ],
+        "weight": 700,
+        "slantDeg": 15,
+        "width": "normal",
+        "strokes": "brush",
+        "case": "mixed",
+        "xHeight": 0.6
+      },
+      "rotationDeg": 49,
+      "length": 1.25
+    }
+  ],
+  "notes": "AIQ is Thai AirAsia's ICAO code (IATA FD, callsign THAI ASIA); AirAsia India was IAD (now merged into Air India Express). Measured on HS-CBK from the right (2025) and checked against HS-CBH, HS-BBE (2025, right) and 9M-AJH from below (2024); no recent left-side Commons photo of a Thai AirAsia jet in plain colors was found, so the left side is assumed to be the mirror (positions as shares). Many AirAsia aircraft wear advertising wraps; this is the plain scheme. The fin title is turned along the fin, which the title fields can't express. Re-checked 2026-11-15 on HS-CBK (flipped, fitted to the measured A320 shape; the areas land on the photo's): 'airasia.com' runs x 0.171 to 0.557, 'Now Everyone Can Fly' 0.561 to 0.678, the fin's script turned the other way from first drawn: seen from the left it starts low at the root (fin x 0.25, its first letters running onto the fuselage) and reads UP toward the tip's trailing corner at about 49° (to fin 0.89, 0.75), about 7 m, 1.25 of the root chord, capitals about 0.26 of the fin's height; on the right side it reads down toward the nose, as HS-CBK shows (it had been drawn reading down toward the tail on the left). Heights left as drawn: the photo looks down on the aircraft and the fit tilts along the fuselage. The white areas' edges are straight from the side and stay as drawn.",
+  "history": "Replaced Skyarium v1's approximation. The airasia.com scheme replaced the 'AirAsia' fuselage-title scheme from 2019; some older aircraft still carry 'AirAsia' script titles (otherwise the same red with white nose and band)."
+}

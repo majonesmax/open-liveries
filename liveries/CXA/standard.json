@@ -1,0 +1,515 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "CXA",
+  "name": "Egret livery",
+  "kind": "standard",
+  "description": "White above, three blues below: a sky-blue band from the nose that thins aft, a stronger blue lower side that rises to the window line over the wing and tapers away ahead of the tail, and a navy belly under a white swoosh line. Blue fin with a white egret flying forward. A small blue egret, '厦门航空' and 'XIAMENAIR' (XIAMEN bold, AIR light) in blue over the forward windows; a SkyTeam badge behind the cockpit.",
+  "confidence": "high",
+  "drawnOn": "B738",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:(CHN-Fujian)_XiamenAir_Airbus_A321-251NX_B-32CY_@_ZSAM_2025-03-21.jpg",
+      "title": "XiamenAir Airbus A321-251NX B-32CY @ ZSAM 2025-03-21 (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Left side, square-on, 2025-03-21: all the positions here."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:(CHN-Fujian)_XiamenAir_Boeing_737_MAX_8_B-1117_@_ZSAM_2025-03-21.jpg",
+      "title": "XiamenAir Boeing 737 MAX 8 B-1117 @ ZSAM 2025-03-21 (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Right side from below, 2025-03-21: navy belly with the white swoosh line, titles' order on the right, egret facing forward on the right too."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:(CHN-Fujian)_XiamenAir_Airbus_A321-252NX_B-32HR_@_ZSAM_2025-03-21.jpg",
+      "title": "XiamenAir Airbus A321-252NX B-32HR @ ZSAM 2025-03-21 (CC BY 4.0)",
+      "accessed": "2026-11-13"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Xiamen_Airlines",
+      "accessed": "2026-11-13",
+      "note": "The egret logo; a China Southern subsidiary with its own brand."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:(CHN-Fujian)_XiamenAir_Boeing_737-85C_B-5632_@_ZSAM_2025-03-21.jpg",
+      "title": "(CHN-Fujian) XiamenAir Boeing 737-85C B-5632 @ ZSAM 2025-03-21.jpg (CC BY 4.0, S5A-0043)",
+      "accessed": "2026-11-15",
+      "note": "B-5632 (737-800) left side, level, 2025-03-21: titles and egret measured between the doors on the B738 shape."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F6",
+      "official": false
+    },
+    "cyan": {
+      "hex": "#22A8E2",
+      "official": false
+    },
+    "blue": {
+      "hex": "#1663C7",
+      "official": false
+    },
+    "navy": {
+      "hex": "#1B2D78",
+      "official": false
+    },
+    "fin": {
+      "hex": "#1A8FE0",
+      "name": "fin blue",
+      "official": false
+    },
+    "title": {
+      "hex": "#1D3F94",
+      "official": false
+    },
+    "badge": {
+      "hex": "#5A5F66",
+      "official": false
+    },
+    "cowl": {
+      "hex": "#E2E4E7",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "sky-blue band from the nose",
+        "color": "cyan",
+        "below": [
+          [
+            0,
+            0.1
+          ],
+          [
+            0.03,
+            -0.13
+          ],
+          [
+            0.18,
+            -0.21
+          ],
+          [
+            0.37,
+            -0.135
+          ],
+          [
+            0.5,
+            0.0
+          ],
+          [
+            0.65,
+            0.07
+          ],
+          [
+            0.78,
+            -0.05
+          ],
+          [
+            0.87,
+            -0.47
+          ],
+          [
+            0.9,
+            -0.95
+          ],
+          [
+            0.92,
+            -1.0
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ],
+        "smooth": true
+      },
+      {
+        "name": "blue lower side, rising aft and tapering out ahead of the tail",
+        "color": "blue",
+        "below": [
+          [
+            0,
+            -0.25
+          ],
+          [
+            0.03,
+            -0.45
+          ],
+          [
+            0.18,
+            -0.48
+          ],
+          [
+            0.37,
+            -0.24
+          ],
+          [
+            0.5,
+            -0.04
+          ],
+          [
+            0.65,
+            0.04
+          ],
+          [
+            0.78,
+            -0.08
+          ],
+          [
+            0.87,
+            -0.5
+          ],
+          [
+            0.9,
+            -0.97
+          ],
+          [
+            0.92,
+            -1.0
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ],
+        "smooth": true
+      },
+      {
+        "name": "white swoosh line",
+        "color": "white",
+        "below": [
+          [
+            0.0,
+            -0.92
+          ],
+          [
+            0.15,
+            -0.75
+          ],
+          [
+            0.37,
+            -0.52
+          ],
+          [
+            0.6,
+            -0.33
+          ],
+          [
+            0.68,
+            -0.45
+          ],
+          [
+            0.74,
+            -0.89
+          ],
+          [
+            0.8,
+            -0.97
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ],
+        "smooth": true
+      },
+      {
+        "name": "navy belly",
+        "color": "navy",
+        "below": [
+          [
+            0.0,
+            -0.95
+          ],
+          [
+            0.15,
+            -0.78
+          ],
+          [
+            0.37,
+            -0.55
+          ],
+          [
+            0.6,
+            -0.36
+          ],
+          [
+            0.68,
+            -0.48
+          ],
+          [
+            0.74,
+            -0.92
+          ],
+          [
+            0.8,
+            -1.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ],
+        "smooth": true
+      }
+    ],
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "fin": {
+    "base": "fin",
+    "mirrored": true,
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "wings": {
+    "top": "#BCC1C7",
+    "under": "#C9CDD2",
+    "confidence": "medium",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "winglets": {
+    "outer": "#D9DCE0",
+    "inner": "#D9DCE0",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "cowl",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "CXA/egret",
+      "place": "fin",
+      "at": [
+        0.59,
+        0.35
+      ],
+      "height": 0.21,
+      "colors": [
+        "white"
+      ],
+      "description": "The egret: a white wading bird in one swept silhouette, flying forward, long neck stretched ahead with a pointed beak, one wing raised to a point behind, the tail sweeping back to a second point below it, a curved notch between them.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Xiamen_Airlines_logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "CXA/egret",
+      "place": "fuselage",
+      "at": [
+        0.186,
+        0.45
+      ],
+      "height": 0.2,
+      "colors": [
+        "fin"
+      ],
+      "description": "The egret in blue, small, ahead of the Chinese title, flying forward on both sides.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "CXA/skyteam",
+      "place": "fuselage",
+      "at": [
+        0.094,
+        0.23
+      ],
+      "height": 0.2,
+      "colors": [
+        "badge"
+      ],
+      "description": "The SkyTeam badge, small and gray, behind the cockpit.",
+      "reference": "https://commons.wikimedia.org/wiki/File:SkyTeam_Logo_2010.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "厦门航空",
+      "place": "fuselage",
+      "at": [
+        0.219,
+        0.35
+      ],
+      "height": 0.26,
+      "length": 0.087,
+      "color": "title",
+      "style": "Chinese sans, regular weight, with thin vertical rules between the characters. On the right side the characters still start at the nose, so they read right to left as seen.",
+      "type": {
+        "similar": [
+          "PingFang SC Regular",
+          "Source Han Sans SC"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform"
+      },
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "text": "XIAMEN",
+      "place": "fuselage",
+      "at": [
+        0.309,
+        0.36
+      ],
+      "height": 0.23,
+      "length": 0.098,
+      "color": "title",
+      "style": "Bold geometric sans capitals, set tight against 'AIR'.",
+      "type": {
+        "similar": [
+          "Avenir Next Bold",
+          "Gotham Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        4
+      ],
+      "side": "left"
+    },
+    {
+      "text": "AIR",
+      "place": "fuselage",
+      "at": [
+        0.408,
+        0.36
+      ],
+      "height": 0.23,
+      "length": 0.035,
+      "color": "title",
+      "style": "The same face in a light weight, run on from 'XIAMEN'.",
+      "type": {
+        "similar": [
+          "Avenir Next Regular",
+          "Gotham Book"
+        ],
+        "weight": 300,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        4
+      ],
+      "side": "left"
+    },
+    {
+      "text": "AIR",
+      "place": "fuselage",
+      "at": [
+        0.309,
+        0.36
+      ],
+      "height": 0.23,
+      "length": 0.035,
+      "color": "title",
+      "style": "The same face in a light weight, run on from 'XIAMEN'.",
+      "type": {
+        "similar": [
+          "Avenir Next Regular",
+          "Gotham Book"
+        ],
+        "weight": 300,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "confidence": "high",
+      "sourceRefs": [
+        1
+      ],
+      "side": "right"
+    },
+    {
+      "text": "XIAMEN",
+      "place": "fuselage",
+      "at": [
+        0.345,
+        0.36
+      ],
+      "height": 0.23,
+      "length": 0.098,
+      "color": "title",
+      "style": "Bold geometric sans capitals, set tight against 'AIR'.",
+      "type": {
+        "similar": [
+          "Avenir Next Bold",
+          "Gotham Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "confidence": "high",
+      "sourceRefs": [
+        1
+      ],
+      "side": "right"
+    }
+  ],
+  "notes": "Measured on the A321neo (B-32CY, left side); the 737 and 787 carry the same layout. The belly from directly below isn't checked beyond the 737's oblique view. The wing undersides carry '厦门航空' (not drawn). Colors by eye. Re-checked 2026-11-15 on the 737-800, Xiamen's commonest type (B-5632, left, 2025-03-21; measured between its doors and by the window line): the titles had been measured on the A321neo, whose longer body made their shares too small; now the Chinese runs x 0.219-0.306, XIAMEN 0.309-0.407, AIR 0.408-0.443, on the 737. On the right side (B-1117) the line reads XIAMEN AIR from the tail with AIR next to the Chinese, so XIAMEN and AIR get a pair per side; the Chinese there reads from the nose toward the tail (right to left as seen), which the title can't express: it is drawn reading normally. The belly bands' edges are curves (smooth).",
+  "history": "New entry (not in Skyarium v1): Xiamen Airlines flies under its own ICAO code (CXA) and its own egret brand, though China Southern owns a majority of it."
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "NCR",
+  "airframes": [
+    {
+      "registration": "N729CA",
+      "type": "B744",
+      "livery": "thin-lines",
+      "lastSeen": "2026-09-12",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:National_Airlines_N729CA_12-09-2026.jpg",
+          "title": "National Airlines N729CA 12-09-2026.jpg (Commons, 2026-09-12)"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:National_Airlines_B747-412(BCF)_N729CA_-_TPE_RCTP_-_24-MAY-2026.jpg",
+          "title": "National Airlines B747-412(BCF) N729CA - TPE RCTP - 24-MAY-2026.jpg (Commons, 2026-05-24)"
+        }
+      ]
+    }
+  ]
+}

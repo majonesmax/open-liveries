@@ -1,0 +1,150 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "DLH",
+  "airframes": [
+    {
+      "registration": "D-ABPU",
+      "livery": "100-years-xxl-crane",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://onemileatatime.com/news/lufthansa-centennial-livery/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:D-ABPU_(aircraft)",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "type": "B789",
+      "from": "2025-12",
+      "lastSeen": "2026-09-30",
+      "status": "active: First aircraft in the scheme (painted in Charleston, delivered Dec 2025); Commons photos Apr and Sep 2026."
+    },
+    {
+      "registration": "D-ABYN",
+      "livery": "100-years-xxl-crane",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://newsroom.lufthansagroup.com/koenigin-der-luefte-zum-100-jaehrigen-gruendungsjubilaeum-jetzt-auch-mit-xxl-kranich/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:D-ABYN_(aircraft)",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "3c4b2e",
+      "hexSource": "looked up: hexdb.io community database (2026-11-12); not verified against the national register",
+      "type": "B748",
+      "from": "2026-03",
+      "lastSeen": "2026-06-20",
+      "status": "active: Re-entered service 6 Mar 2026 to Los Angeles; Commons photo 20 Jun 2026."
+    },
+    {
+      "registration": "D-ABYT",
+      "livery": "retro",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://airlinegeeks.com/2024/03/15/livery-of-the-week-lufthansa-s-747-retro-jet/",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "3c4b34",
+      "hexSource": "looked up: hexdb.io community database (2026-11-12); not verified against the national register",
+      "type": "B748",
+      "from": "2015",
+      "lastSeen": "2026-11-14",
+      "status": "active (presumed): FlightAware logs show FRA-LAX/MIA/IAD/EWR flights Jan-Mar 2026 (flight activity, not paint evidence)."
+    },
+    {
+      "registration": "D-AIMH",
+      "livery": "100-years-xxl-crane",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://airlinegeeks.com/2026/02/26/lufthansa-unveils-anniversary-livery-on-a380/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://onemileatatime.com/news/lufthansa-centennial-livery/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:D-AIMH_(aircraft)",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://newsroom.lufthansagroup.com/koenigin-der-luefte-zum-100-jaehrigen-gruendungsjubilaeum-jetzt-auch-mit-xxl-kranich/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:D-ABYN_(aircraft)",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:D-AIXL_(aircraft)",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:D-ABPU_(aircraft)",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:D-AING_(aircraft)",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "3c65a8",
+      "hexSource": "looked up: hexdb.io community database (2026-11-12); not verified against the national register",
+      "type": "A388",
+      "from": "2026-02",
+      "lastSeen": "2026-07-10",
+      "status": "active: Commons photo landing at LAX 10 Jul 2026."
+    },
+    {
+      "registration": "D-AING",
+      "livery": "100-years-xxl-crane",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://onemileatatime.com/news/lufthansa-centennial-livery/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:D-AING_(aircraft)",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "3c65c7",
+      "hexSource": "looked up: hexdb.io community database (2026-11-12); not verified against the national register",
+      "type": "A20N",
+      "from": "2026-01",
+      "lastSeen": "2026-09-12",
+      "status": "active: Reached Frankfurt 19 Jan 2026 and flies to London; Commons photos through Sep 2026."
+    },
+    {
+      "registration": "D-AIXL",
+      "livery": "100-years-xxl-crane",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://onemileatatime.com/news/lufthansa-centennial-livery/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:D-AIXL_(aircraft)",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "3c670c",
+      "hexSource": "looked up: hexdb.io community database (2026-11-12); not verified against the national register",
+      "type": "A359",
+      "from": "2026-02",
+      "lastSeen": "2026-09-03",
+      "status": "active: Commons photo at Singapore 3 Sep 2026."
+    }
+  ]
+}

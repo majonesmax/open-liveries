@@ -1,0 +1,3399 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "RPA",
+  "airframes": [
+    {
+      "registration": "N101HQ",
+      "hex": "a00929",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a00929",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Operator given as \"American Eagle\"; flew at that partner's hubs alone in 1 of 2 weeks (adsb.lol)"
+        }
+      ],
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "N102HQ",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:American_Eagle_E175LR_N102HQ_@IND.jpg",
+          "title": "American Eagle E175LR N102HQ @IND.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2025-10-05: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "a00ce0",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-11-14",
+      "status": "Commons photo 2025-10-05"
+    },
+    {
+      "registration": "N103HQ",
+      "hex": "a01097",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a01097",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Operator given as \"American Eagle\"; flew at that partner's hubs alone in 1 of 2 weeks (adsb.lol)"
+        }
+      ]
+    },
+    {
+      "registration": "N104HQ",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:American_Eagle_Embraer_175_N104HQ_departing_Boston_June_2025.jpg",
+          "title": "American Eagle Embraer 175 N104HQ departing Boston June 2025.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2025-06-11: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "a0144e",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2025-06-11",
+      "status": "Commons photo 2025-06-11"
+    },
+    {
+      "registration": "N105HQ",
+      "hex": "a01805",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a01805",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Operator given as \"American Eagle\"; flew at that partner's hubs alone in 1 of 2 weeks (adsb.lol)"
+        }
+      ]
+    },
+    {
+      "registration": "N106HQ",
+      "hex": "a01bbc",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a01bbc",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Operator given as \"American Eagle\"; flew at that partner's hubs alone in 1 of 2 weeks (adsb.lol)"
+        }
+      ]
+    },
+    {
+      "registration": "N107HQ",
+      "hex": "a01f73",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a01f73",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Operator given as \"American Eagle\"; flew at that partner's hubs alone in 1 of 2 weeks (adsb.lol)"
+        }
+      ]
+    },
+    {
+      "registration": "N108HQ",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:American_Eagle_E175LR_N108HQ_@IND.jpg",
+          "title": "American Eagle E175LR N108HQ @IND.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2025-10-05: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "a0232a",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-11-14",
+      "status": "Commons photo 2025-10-05"
+    },
+    {
+      "registration": "N109HQ",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N109HQ_-_Embraer_ERJ-175LR_-_American_Eagle_(52836781314).jpg",
+          "title": "N109HQ - Embraer ERJ-175LR - American Eagle (52836781314).jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2023-04-16: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "a026e1",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2023-04-16",
+      "status": "Commons photo 2023-04-16"
+    },
+    {
+      "registration": "N110HQ",
+      "hex": "a02cf1",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a02cf1",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Operator given as \"American Eagle\"; flew at that partner's hubs alone in 1 of 2 weeks (adsb.lol)"
+        }
+      ],
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "N111HQ",
+      "hex": "a030a8",
+      "type": "E75L",
+      "livery": "AAL/eagle",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://github.com/adsblol/globe_history_2026",
+          "title": "adsb.lol daily history (ODbL)",
+          "note": "Inferred from where it flies: 26 of 26 landings and departures at one partner's hubs over 14 days (tools/regional_partners.py)."
+        }
+      ],
+      "notes": "Registered to REPUBLIC AIRWAYS INC (FAA registry). Inferred from its flying, not seen: check against a photo.",
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "N112HQ",
+      "hex": "a0345f",
+      "type": "E75L",
+      "livery": "AAL/eagle",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://github.com/adsblol/globe_history_2026",
+          "title": "adsb.lol daily history (ODbL)",
+          "note": "Inferred from where it flies: 17 of 17 landings and departures at one partner's hubs over 14 days (tools/regional_partners.py)."
+        }
+      ],
+      "notes": "Registered to REPUBLIC AIRWAYS INC (FAA registry). Inferred from its flying, not seen: check against a photo.",
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "N113HQ",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:American_Eagle_Embraer_175_N113HQ_on_final_approach_to_Boston_July_2026.jpg",
+          "title": "American Eagle Embraer 175 N113HQ on final approach to Boston July 2026.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2026-07-08: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "a03816",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-11-14",
+      "status": "Commons photo 2026-07-08"
+    },
+    {
+      "registration": "N114HQ",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:American_Eagle_Embraer_175_N114HQ_on_final_approach_to_Boston_December_2025.jpg",
+          "title": "American Eagle Embraer 175 N114HQ on final approach to Boston December 2025.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2025-12-31: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "a03bcd",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-11-14",
+      "status": "Commons photo 2025-12-31"
+    },
+    {
+      "registration": "N115HQ",
+      "hex": "a03f84",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a03f84",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-16",
+          "note": "Operator given as \"American Eagle\"; flew for that partner in 2 of 2 weeks (adsb.lol: its flight numbers, else hubs)"
+        }
+      ]
+    },
+    {
+      "registration": "N116HQ",
+      "hex": "a0433b",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a0433b",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Operator given as \"American Eagle\"; flew at that partner's hubs alone in 1 of 2 weeks (adsb.lol)"
+        }
+      ]
+    },
+    {
+      "registration": "N117HQ",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:American_Eagle_E175LR_N117HQ_@IND.jpg",
+          "title": "American Eagle E175LR N117HQ @IND.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2025-11-07: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "a046f2",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-11-14",
+      "status": "Commons photo 2025-11-07"
+    },
+    {
+      "registration": "N118HQ",
+      "hex": "a04aa9",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a04aa9",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-16",
+          "note": "Operator given as \"American Eagle\"; flew for that partner in 2 of 2 weeks (adsb.lol: its flight numbers, else hubs)"
+        }
+      ]
+    },
+    {
+      "registration": "N119HQ",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:American_Eagle_E175LR_N119HQ_@IND.jpg",
+          "title": "American Eagle E175LR N119HQ @IND.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2025-10-05: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "a04e60",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2025-10-05",
+      "status": "Commons photo 2025-10-05"
+    },
+    {
+      "registration": "N120HQ",
+      "hex": "a05470",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a05470",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Operator given as \"American Eagle\"; flew at that partner's hubs alone in 1 of 2 weeks (adsb.lol)"
+        }
+      ],
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "N121HQ",
+      "hex": "a05827",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a05827",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-16",
+          "note": "Operator given as \"American Eagle\"; flew for that partner in 2 of 2 weeks (adsb.lol: its flight numbers, else hubs)"
+        }
+      ]
+    },
+    {
+      "registration": "N122HQ",
+      "hex": "a05bde",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a05bde",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Operator given as \"American Eagle\"; flew at that partner's hubs alone in 1 of 2 weeks (adsb.lol)"
+        }
+      ]
+    },
+    {
+      "registration": "N123HQ",
+      "hex": "a05f95",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a05f95",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Operator given as \"American Eagle\"; flew at that partner's hubs alone in 1 of 2 weeks (adsb.lol)"
+        }
+      ]
+    },
+    {
+      "registration": "N124HQ",
+      "hex": "a0634c",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a0634c",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Operator given as \"American Eagle\"; flew at that partner's hubs alone in 1 of 2 weeks (adsb.lol)"
+        }
+      ],
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "N125HQ",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:American_Eagle_(Republic)_Embraer_175_N125HQ_departing_Boston_April_2025.jpg",
+          "title": "American Eagle (Republic) Embraer 175 N125HQ departing Boston April 2025.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2025-04-01: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "a06703",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-11-14",
+      "status": "Commons photo 2025-04-01"
+    },
+    {
+      "registration": "N126HQ",
+      "hex": "a06aba",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a06aba",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Operator given as \"American Eagle\"; flew at that partner's hubs alone in 1 of 2 weeks (adsb.lol)"
+        }
+      ]
+    },
+    {
+      "registration": "N128HQ",
+      "hex": "a07228",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a07228",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-16",
+          "note": "Operator given as \"American Eagle\"; flew for that partner in 2 of 2 weeks (adsb.lol: its flight numbers, else hubs)"
+        }
+      ]
+    },
+    {
+      "registration": "N129HQ",
+      "hex": "a075df",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a075df",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Operator given as \"American Eagle\"; flew at that partner's hubs alone in 1 of 2 weeks (adsb.lol)"
+        }
+      ],
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "N130HQ",
+      "hex": "a07bef",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a07bef",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-16",
+          "note": "Operator given as \"American Eagle\"; flew for that partner in 2 of 2 weeks (adsb.lol: its flight numbers, else hubs)"
+        }
+      ]
+    },
+    {
+      "registration": "N131HQ",
+      "hex": "a07fa6",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a07fa6",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-16",
+          "note": "Operator given as \"American Eagle\"; flew for that partner in 1 of 2 weeks (adsb.lol: its flight numbers, else hubs)"
+        }
+      ]
+    },
+    {
+      "registration": "N132HQ",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Republic_American_Eagle_Embraer_ERJ_175_N132HQ_DCA_VA1.jpg",
+          "title": "Republic American Eagle Embraer ERJ 175 N132HQ DCA VA1.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2024-07-31: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "a0835d",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2024-07-31",
+      "status": "Commons photo 2024-07-31"
+    },
+    {
+      "registration": "N133HQ",
+      "hex": "a08714",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a08714",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-16",
+          "note": "Operator given as \"American Eagle\"; flew for that partner in 2 of 2 weeks (adsb.lol: its flight numbers, else hubs)"
+        }
+      ]
+    },
+    {
+      "registration": "N134HQ",
+      "hex": "a08acb",
+      "type": "E75L",
+      "livery": "AAL/eagle",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://github.com/adsblol/globe_history_2026",
+          "title": "adsb.lol daily history (ODbL)",
+          "note": "Inferred from where it flies: 34 of 34 landings and departures at one partner's hubs over 14 days (tools/regional_partners.py)."
+        }
+      ],
+      "notes": "Registered to REPUBLIC AIRWAYS INC (FAA registry). Inferred from its flying, not seen: check against a photo."
+    },
+    {
+      "registration": "N135HQ",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:American_Eagle_Embraer_175_N135HQ_departing_Boston_June_2025.jpg",
+          "title": "American Eagle Embraer 175 N135HQ departing Boston June 2025.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2025-06-20: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "a08e82",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-11-14",
+      "status": "Commons photo 2025-06-20"
+    },
+    {
+      "registration": "N136HQ",
+      "hex": "a09239",
+      "type": "E75L",
+      "livery": "AAL/eagle",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://github.com/adsblol/globe_history_2026",
+          "title": "adsb.lol daily history (ODbL)",
+          "note": "Inferred from where it flies: 27 of 27 landings and departures at one partner's hubs over 14 days (tools/regional_partners.py)."
+        }
+      ],
+      "notes": "Registered to REPUBLIC AIRWAYS INC (FAA registry). Inferred from its flying, not seen: check against a photo."
+    },
+    {
+      "registration": "N137HQ",
+      "hex": "a095f0",
+      "type": "E75L",
+      "livery": "AAL/eagle",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://github.com/adsblol/globe_history_2026",
+          "title": "adsb.lol daily history (ODbL)",
+          "note": "Inferred from where it flies: 42 of 46 landings and departures at one partner's hubs over 14 days (tools/regional_partners.py)."
+        }
+      ],
+      "notes": "Registered to REPUBLIC AIRWAYS INC (FAA registry). Inferred from its flying, not seen: check against a photo."
+    },
+    {
+      "registration": "N138HQ",
+      "hex": "a099a7",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a099a7",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Operator given as \"American Eagle\"; flew at that partner's hubs alone in 1 of 2 weeks (adsb.lol)"
+        }
+      ]
+    },
+    {
+      "registration": "N201JQ",
+      "hex": "a19691",
+      "livery": "DAL/connection",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a19691",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-16",
+          "note": "Operator given as \"Delta Connection\"; flew for that partner in 2 of 2 weeks (adsb.lol: its flight numbers, else hubs)"
+        }
+      ]
+    },
+    {
+      "registration": "N202JQ",
+      "livery": "DAL/connection",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Delta_Connection_Embraer_175_N202JQ_departing_Boston_November_2025.jpg",
+          "title": "Delta Connection Embraer 175 N202JQ departing Boston November 2025.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2025-11-18: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "a19a48",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2025-11-18",
+      "status": "Commons photo 2025-11-18"
+    },
+    {
+      "registration": "N203JQ",
+      "livery": "DAL/connection",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Delta_Connection_Embraer_175_N203JQ_departing_Boston_August_2025.jpg",
+          "title": "Delta Connection Embraer 175 N203JQ departing Boston August 2025.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2025-08-23: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "a19dff",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-11-14",
+      "status": "Commons photo 2025-08-23"
+    },
+    {
+      "registration": "N204JQ",
+      "hex": "a1a1b6",
+      "livery": "DAL/connection",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a1a1b6",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-16",
+          "note": "Operator given as \"Delta Connection\"; flew for that partner in 2 of 2 weeks (adsb.lol: its flight numbers, else hubs)"
+        }
+      ]
+    },
+    {
+      "registration": "N205JQ",
+      "livery": "DAL/connection",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Republic_Delta_Connection_Embraer_ERJ-175_N205JQ_BWI_MD1.jpg",
+          "title": "Republic Delta Connection Embraer ERJ-175 N205JQ BWI MD1.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2026-02-26: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "a1a56d",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-02-26",
+      "status": "Commons photo 2026-02-26"
+    },
+    {
+      "registration": "N206JQ",
+      "livery": "DAL/connection",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Delta_Connection_Embraer_175_N206JQ_departing_Boston_December_2025.jpg",
+          "title": "Delta Connection Embraer 175 N206JQ departing Boston December 2025.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2025-12-01: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "a1a924",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-11-14",
+      "status": "Commons photo 2025-12-01"
+    },
+    {
+      "registration": "N207JQ",
+      "livery": "DAL/connection",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Republic_Delta_Connection_Embraer_ERJ-175_N207JQ_BWI_MD1.jpg",
+          "title": "Republic Delta Connection Embraer ERJ-175 N207JQ BWI MD1.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2026-03-12: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "a1acdb",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-03-12",
+      "status": "Commons photo 2026-03-12"
+    },
+    {
+      "registration": "N208JQ",
+      "hex": "a1b092",
+      "livery": "DAL/connection",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a1b092",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-16",
+          "note": "Operator given as \"Delta Connection\"; flew for that partner in 2 of 2 weeks (adsb.lol: its flight numbers, else hubs)"
+        }
+      ]
+    },
+    {
+      "registration": "N209JQ",
+      "livery": "DAL/connection",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Republic_Delta_Connection_Embraer_ERJ-175_N209JQ_BWI_MD1.jpg",
+          "title": "Republic Delta Connection Embraer ERJ-175 N209JQ BWI MD1.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2026-07-30: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "a1b449",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-07-30",
+      "status": "Commons photo 2026-07-30"
+    },
+    {
+      "registration": "N210JQ",
+      "livery": "DAL/connection",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Airbus_A321-211_-_Delta_Air_Lines_-_N393DN.jpg",
+          "title": "Airbus A321-211 - Delta Air Lines - N393DN.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2026-06-19: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "a1ba59",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-06-19",
+      "status": "Commons photo 2026-06-19"
+    },
+    {
+      "registration": "N211JQ",
+      "livery": "DAL/connection",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:DeltaConnection_Embraer_175_N211JQ_departing_Boston_July_2026.jpg",
+          "title": "DeltaConnection Embraer 175 N211JQ departing Boston July 2026.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2026-07-19: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "a1be10",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-11-14",
+      "status": "Commons photo 2026-07-19"
+    },
+    {
+      "registration": "N212JQ",
+      "livery": "DAL/connection",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Republic_Delta_Connnection_Embraer_175_N212JQ_BWI_MD1.jpg",
+          "title": "Republic Delta Connnection Embraer 175 N212JQ BWI MD1.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2025-08-28: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "a1c1c7",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-11-14",
+      "status": "Commons photo 2025-08-28"
+    },
+    {
+      "registration": "N213JQ",
+      "livery": "DAL/connection",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Delta_Connection_Embraer_175_N213JQ_departing_Boston_June_2025_2.jpg",
+          "title": "Delta Connection Embraer 175 N213JQ departing Boston June 2025 2.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2025-06-20: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "a1c57e",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-11-14",
+      "status": "Commons photo 2025-06-20"
+    },
+    {
+      "registration": "N214JQ",
+      "livery": "DAL/connection",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Delta_Connection_Republic._Embraer_185_N214JQ_BWI_MD2.jpg",
+          "title": "Delta Connection Republic. Embraer 185 N214JQ BWI MD2.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2026-09-24: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "a1c935",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-09-24",
+      "status": "Commons photo 2026-09-24"
+    },
+    {
+      "registration": "N215JQ",
+      "livery": "DAL/connection",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:DeltaConnection_Embraer_175_N215JQ_departing_Boston_July_2026.jpg",
+          "title": "DeltaConnection Embraer 175 N215JQ departing Boston July 2026.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2026-07-19: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "a1ccec",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-11-14",
+      "status": "Commons photo 2026-07-19"
+    },
+    {
+      "registration": "N216JQ",
+      "livery": "DAL/connection",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Delta_Connection_Embraer_175_N216JQ_on_final_approach_to_Boston_April_2025.jpg",
+          "title": "Delta Connection Embraer 175 N216JQ on final approach to Boston April 2025.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2025-04-01: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "a1d0a3",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-11-14",
+      "status": "Commons photo 2025-04-01"
+    },
+    {
+      "registration": "N217JQ",
+      "livery": "DAL/connection",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:DeltaConnection_Embraer_175_N217JQ_on_final_approach_to_Boston_July_2026.jpg",
+          "title": "DeltaConnection Embraer 175 N217JQ on final approach to Boston July 2026.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2026-07-08: wears this scheme (checked by eye)."
+        },
+        {
+          "url": "https://registry.faa.gov/database/ReleasableAircraft.zip",
+          "title": "FAA Releasable Aircraft Database (MASTER.txt)",
+          "accessed": "2026-11-13",
+          "note": "Registered to Delta Air Lines Inc (the partner's own jet)."
+        }
+      ],
+      "hex": "a1d45a",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-11-14",
+      "status": "Commons photo 2026-07-08"
+    },
+    {
+      "registration": "N218JQ",
+      "livery": "DAL/connection",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://registry.faa.gov/database/ReleasableAircraft.zip",
+          "title": "FAA Releasable Aircraft Database (MASTER.txt)",
+          "accessed": "2026-11-13",
+          "note": "Registered to Delta Air Lines Inc: the partner's own jet, in its paint."
+        }
+      ],
+      "hex": "a1d811",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "notes": "Operator not shown in the registry: Delta's own E170/E175s in the JQ/RW/YX series are flown by Republic (others in the series photographed 2025-2026 as Republic Delta Connection). No dated photo of this airframe found.",
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "N219YX",
+      "livery": "DAL/connection",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://registry.faa.gov/database/ReleasableAircraft.zip",
+          "title": "FAA Releasable Aircraft Database (MASTER.txt)",
+          "accessed": "2026-11-13",
+          "note": "Registered to Delta Air Lines Inc: the partner's own jet, in its paint."
+        }
+      ],
+      "hex": "a1dd2d",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "notes": "Operator not shown in the registry: Delta's own E170/E175s in the JQ/RW/YX series are flown by Republic (others in the series photographed 2025-2026 as Republic Delta Connection). No dated photo of this airframe found.",
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "N220JQ",
+      "livery": "DAL/connection",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://registry.faa.gov/database/ReleasableAircraft.zip",
+          "title": "FAA Releasable Aircraft Database (MASTER.txt)",
+          "accessed": "2026-11-13",
+          "note": "Registered to Delta Air Lines Inc: the partner's own jet, in its paint."
+        }
+      ],
+      "hex": "a1e1d8",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "notes": "Operator not shown in the registry: Delta's own E170/E175s in the JQ/RW/YX series are flown by Republic (others in the series photographed 2025-2026 as Republic Delta Connection). No dated photo of this airframe found."
+    },
+    {
+      "registration": "N221JQ",
+      "livery": "DAL/connection",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Republic_Delta_Connnection_Embraer_175_N221JQ_BWI_MD1.jpg",
+          "title": "Republic Delta Connnection Embraer 175 N221JQ BWI MD1.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2026-06-04: wears this scheme (checked by eye)."
+        },
+        {
+          "url": "https://registry.faa.gov/database/ReleasableAircraft.zip",
+          "title": "FAA Releasable Aircraft Database (MASTER.txt)",
+          "accessed": "2026-11-13",
+          "note": "Registered to Delta Air Lines Inc (the partner's own jet)."
+        }
+      ],
+      "hex": "a1e58f",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-06-04",
+      "status": "Commons photo 2026-06-04"
+    },
+    {
+      "registration": "N222JQ",
+      "livery": "DAL/connection",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Republic_Delta_Connnection_Embraer_175_N222JQ_BWI_MD2.jpg",
+          "title": "Republic Delta Connnection Embraer 175 N222JQ BWI MD2.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2026-03-19: wears this scheme (checked by eye)."
+        },
+        {
+          "url": "https://registry.faa.gov/database/ReleasableAircraft.zip",
+          "title": "FAA Releasable Aircraft Database (MASTER.txt)",
+          "accessed": "2026-11-13",
+          "note": "Registered to Delta Air Lines Inc (the partner's own jet)."
+        }
+      ],
+      "hex": "a1e946",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-03-19",
+      "status": "Commons photo 2026-03-19"
+    },
+    {
+      "registration": "N223JQ",
+      "livery": "DAL/connection",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Delta_Connection_Embraer_175_N223JQ_departing_Boston_December_2025.jpg",
+          "title": "Delta Connection Embraer 175 N223JQ departing Boston December 2025.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2025-12-01: wears this scheme (checked by eye)."
+        },
+        {
+          "url": "https://registry.faa.gov/database/ReleasableAircraft.zip",
+          "title": "FAA Releasable Aircraft Database (MASTER.txt)",
+          "accessed": "2026-11-13",
+          "note": "Registered to Delta Air Lines Inc (the partner's own jet)."
+        }
+      ],
+      "hex": "a1ecfd",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2025-12-01",
+      "status": "Commons photo 2025-12-01"
+    },
+    {
+      "registration": "N224JQ",
+      "livery": "DAL/connection",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Delta_Connection_Embraer_175_N224JQ_departing_Boston_June_2025.jpg",
+          "title": "Delta Connection Embraer 175 N224JQ departing Boston June 2025.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2025-06-11: wears this scheme (checked by eye)."
+        },
+        {
+          "url": "https://registry.faa.gov/database/ReleasableAircraft.zip",
+          "title": "FAA Releasable Aircraft Database (MASTER.txt)",
+          "accessed": "2026-11-13",
+          "note": "Registered to Delta Air Lines Inc (the partner's own jet)."
+        }
+      ],
+      "hex": "a1f0b4",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2025-06-11",
+      "status": "Commons photo 2025-06-11"
+    },
+    {
+      "registration": "N225JQ",
+      "livery": "DAL/connection",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://registry.faa.gov/database/ReleasableAircraft.zip",
+          "title": "FAA Releasable Aircraft Database (MASTER.txt)",
+          "accessed": "2026-11-13",
+          "note": "Registered to Delta Air Lines Inc: the partner's own jet, in its paint."
+        }
+      ],
+      "hex": "a1f46b",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "notes": "Operator not shown in the registry: Delta's own E170/E175s in the JQ/RW/YX series are flown by Republic (others in the series photographed 2025-2026 as Republic Delta Connection). No dated photo of this airframe found."
+    },
+    {
+      "registration": "N226JQ",
+      "livery": "DAL/connection",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://registry.faa.gov/database/ReleasableAircraft.zip",
+          "title": "FAA Releasable Aircraft Database (MASTER.txt)",
+          "accessed": "2026-11-13",
+          "note": "Registered to Delta Air Lines Inc: the partner's own jet, in its paint."
+        }
+      ],
+      "hex": "a1f822",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "notes": "Operator not shown in the registry: Delta's own E170/E175s in the JQ/RW/YX series are flown by Republic (others in the series photographed 2025-2026 as Republic Delta Connection). No dated photo of this airframe found.",
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "N227JQ",
+      "livery": "DAL/connection",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://registry.faa.gov/database/ReleasableAircraft.zip",
+          "title": "FAA Releasable Aircraft Database (MASTER.txt)",
+          "accessed": "2026-11-13",
+          "note": "Registered to Delta Air Lines Inc: the partner's own jet, in its paint."
+        }
+      ],
+      "hex": "a1fbd9",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "notes": "Operator not shown in the registry: Delta's own E170/E175s in the JQ/RW/YX series are flown by Republic (others in the series photographed 2025-2026 as Republic Delta Connection). No dated photo of this airframe found."
+    },
+    {
+      "registration": "N228JQ",
+      "livery": "DAL/connection",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://registry.faa.gov/database/ReleasableAircraft.zip",
+          "title": "FAA Releasable Aircraft Database (MASTER.txt)",
+          "accessed": "2026-11-13",
+          "note": "Registered to Delta Air Lines Inc: the partner's own jet, in its paint."
+        }
+      ],
+      "hex": "a1ff90",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "notes": "Operator not shown in the registry: Delta's own E170/E175s in the JQ/RW/YX series are flown by Republic (others in the series photographed 2025-2026 as Republic Delta Connection). No dated photo of this airframe found.",
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "N229JQ",
+      "livery": "DAL/connection",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:DeltaConnection_Embraer_175_N229JQ_on_final_approach_to_Boston_July_2026.jpg",
+          "title": "DeltaConnection Embraer 175 N229JQ on final approach to Boston July 2026.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2026-07-08: wears this scheme (checked by eye)."
+        },
+        {
+          "url": "https://registry.faa.gov/database/ReleasableAircraft.zip",
+          "title": "FAA Releasable Aircraft Database (MASTER.txt)",
+          "accessed": "2026-11-13",
+          "note": "Registered to Delta Air Lines Inc (the partner's own jet)."
+        }
+      ],
+      "hex": "a20347",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-07-08",
+      "status": "Commons photo 2026-07-08"
+    },
+    {
+      "registration": "N230JQ",
+      "livery": "DAL/connection",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Delta_Connection_Embraer_175_N230JQ_departing_Boston_August_2025.jpg",
+          "title": "Delta Connection Embraer 175 N230JQ departing Boston August 2025.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2025-08-23: wears this scheme (checked by eye)."
+        },
+        {
+          "url": "https://registry.faa.gov/database/ReleasableAircraft.zip",
+          "title": "FAA Releasable Aircraft Database (MASTER.txt)",
+          "accessed": "2026-11-13",
+          "note": "Registered to Delta Air Lines Inc (the partner's own jet)."
+        }
+      ],
+      "hex": "a20957",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2025-08-23",
+      "status": "Commons photo 2025-08-23"
+    },
+    {
+      "registration": "N231JQ",
+      "livery": "DAL/connection",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://registry.faa.gov/database/ReleasableAircraft.zip",
+          "title": "FAA Releasable Aircraft Database (MASTER.txt)",
+          "accessed": "2026-11-13",
+          "note": "Registered to Delta Air Lines Inc: the partner's own jet, in its paint."
+        }
+      ],
+      "hex": "a20d0e",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "notes": "Operator not shown in the registry: Delta's own E170/E175s in the JQ/RW/YX series are flown by Republic (others in the series photographed 2025-2026 as Republic Delta Connection). No dated photo of this airframe found."
+    },
+    {
+      "registration": "N232JQ",
+      "livery": "DAL/connection",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:DeltaConnection_Embraer_175_N232JQ_on_final_approach_to_Boston_July_2026.jpg",
+          "title": "DeltaConnection Embraer 175 N232JQ on final approach to Boston July 2026.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2026-07-08: wears this scheme (checked by eye)."
+        },
+        {
+          "url": "https://registry.faa.gov/database/ReleasableAircraft.zip",
+          "title": "FAA Releasable Aircraft Database (MASTER.txt)",
+          "accessed": "2026-11-13",
+          "note": "Registered to Delta Air Lines Inc (the partner's own jet)."
+        }
+      ],
+      "hex": "a210c5",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-07-08",
+      "status": "Commons photo 2026-07-08"
+    },
+    {
+      "registration": "N233JQ",
+      "livery": "DAL/connection",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Delta_Connection_Embraer_175_N233JQ_on_final_approach_to_Boston_July_2026.jpg",
+          "title": "Delta Connection Embraer 175 N233JQ on final approach to Boston July 2026.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2026-07-08: wears this scheme (checked by eye)."
+        },
+        {
+          "url": "https://registry.faa.gov/database/ReleasableAircraft.zip",
+          "title": "FAA Releasable Aircraft Database (MASTER.txt)",
+          "accessed": "2026-11-13",
+          "note": "Registered to Delta Air Lines Inc (the partner's own jet)."
+        }
+      ],
+      "hex": "a2147c",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-11-14",
+      "status": "Commons photo 2026-07-08"
+    },
+    {
+      "registration": "N234JQ",
+      "livery": "DAL/connection",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://registry.faa.gov/database/ReleasableAircraft.zip",
+          "title": "FAA Releasable Aircraft Database (MASTER.txt)",
+          "accessed": "2026-11-13",
+          "note": "Registered to Delta Air Lines Inc: the partner's own jet, in its paint."
+        }
+      ],
+      "hex": "a21833",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "notes": "Operator not shown in the registry: Delta's own E170/E175s in the JQ/RW/YX series are flown by Republic (others in the series photographed 2025-2026 as Republic Delta Connection). No dated photo of this airframe found.",
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "N235JQ",
+      "livery": "DAL/connection",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://registry.faa.gov/database/ReleasableAircraft.zip",
+          "title": "FAA Releasable Aircraft Database (MASTER.txt)",
+          "accessed": "2026-11-13",
+          "note": "Registered to Delta Air Lines Inc: the partner's own jet, in its paint."
+        }
+      ],
+      "hex": "a21bea",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "notes": "Operator not shown in the registry: Delta's own E170/E175s in the JQ/RW/YX series are flown by Republic (others in the series photographed 2025-2026 as Republic Delta Connection). No dated photo of this airframe found."
+    },
+    {
+      "registration": "N236JQ",
+      "livery": "DAL/connection",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:DeltaConnection_Embraer_175_N236JQ_on_final_approach_to_Boston_July_2026.jpg",
+          "title": "DeltaConnection Embraer 175 N236JQ on final approach to Boston July 2026.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2026-07-08: wears this scheme (checked by eye)."
+        },
+        {
+          "url": "https://registry.faa.gov/database/ReleasableAircraft.zip",
+          "title": "FAA Releasable Aircraft Database (MASTER.txt)",
+          "accessed": "2026-11-13",
+          "note": "Registered to Delta Air Lines Inc (the partner's own jet)."
+        }
+      ],
+      "hex": "a21fa1",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-11-14",
+      "status": "Commons photo 2026-07-08"
+    },
+    {
+      "registration": "N237JQ",
+      "livery": "DAL/connection",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Republic_Delta_Connection_Embraer_175_N237JQ_BWI_MD1.jpg",
+          "title": "Republic Delta Connection Embraer 175 N237JQ BWI MD1.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2025-04-15: wears this scheme (checked by eye)."
+        },
+        {
+          "url": "https://registry.faa.gov/database/ReleasableAircraft.zip",
+          "title": "FAA Releasable Aircraft Database (MASTER.txt)",
+          "accessed": "2026-11-13",
+          "note": "Registered to Delta Air Lines Inc (the partner's own jet)."
+        }
+      ],
+      "hex": "a22358",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-11-14",
+      "status": "Commons photo 2025-04-15"
+    },
+    {
+      "registration": "N238JQ",
+      "livery": "DAL/connection",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://registry.faa.gov/database/ReleasableAircraft.zip",
+          "title": "FAA Releasable Aircraft Database (MASTER.txt)",
+          "accessed": "2026-11-13",
+          "note": "Registered to Delta Air Lines Inc: the partner's own jet, in its paint."
+        }
+      ],
+      "hex": "a2270f",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "notes": "Operator not shown in the registry: Delta's own E170/E175s in the JQ/RW/YX series are flown by Republic (others in the series photographed 2025-2026 as Republic Delta Connection). No dated photo of this airframe found.",
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "N239JQ",
+      "livery": "DAL/connection",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:DeltaConnection_Embraer_175_N239JQ_departing_Boston_July_2026.jpg",
+          "title": "DeltaConnection Embraer 175 N239JQ departing Boston July 2026.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2026-07-19: wears this scheme (checked by eye)."
+        },
+        {
+          "url": "https://registry.faa.gov/database/ReleasableAircraft.zip",
+          "title": "FAA Releasable Aircraft Database (MASTER.txt)",
+          "accessed": "2026-11-13",
+          "note": "Registered to Delta Air Lines Inc (the partner's own jet)."
+        }
+      ],
+      "hex": "a22ac6",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-11-14",
+      "status": "Commons photo 2026-07-19"
+    },
+    {
+      "registration": "N240JQ",
+      "livery": "DAL/connection",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Delta_Connection_Embraer_175_N240JQ_DCA_VA1.jpg",
+          "title": "Delta Connection Embraer 175 N240JQ DCA VA1.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2024-07-31: wears this scheme (checked by eye)."
+        },
+        {
+          "url": "https://registry.faa.gov/database/ReleasableAircraft.zip",
+          "title": "FAA Releasable Aircraft Database (MASTER.txt)",
+          "accessed": "2026-11-13",
+          "note": "Registered to Delta Air Lines Inc (the partner's own jet)."
+        }
+      ],
+      "hex": "a230d6",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2024-07-31",
+      "status": "Commons photo 2024-07-31"
+    },
+    {
+      "registration": "N241JQ",
+      "livery": "DAL/connection",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:DeltaConnection_Embraer_175_N241JQ_on_final_approach_to_Boston_July_2026.jpg",
+          "title": "DeltaConnection Embraer 175 N241JQ on final approach to Boston July 2026.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2026-07-08: wears this scheme (checked by eye)."
+        },
+        {
+          "url": "https://registry.faa.gov/database/ReleasableAircraft.zip",
+          "title": "FAA Releasable Aircraft Database (MASTER.txt)",
+          "accessed": "2026-11-13",
+          "note": "Registered to Delta Air Lines Inc (the partner's own jet)."
+        }
+      ],
+      "hex": "a2348d",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-11-14",
+      "status": "Commons photo 2026-07-08"
+    },
+    {
+      "registration": "N242JQ",
+      "livery": "DAL/connection",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://registry.faa.gov/database/ReleasableAircraft.zip",
+          "title": "FAA Releasable Aircraft Database (MASTER.txt)",
+          "accessed": "2026-11-13",
+          "note": "Registered to Delta Air Lines Inc: the partner's own jet, in its paint."
+        }
+      ],
+      "hex": "a23844",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "notes": "Operator not shown in the registry: Delta's own E170/E175s in the JQ/RW/YX series are flown by Republic (others in the series photographed 2025-2026 as Republic Delta Connection). No dated photo of this airframe found.",
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "N243JQ",
+      "livery": "DAL/connection",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://registry.faa.gov/database/ReleasableAircraft.zip",
+          "title": "FAA Releasable Aircraft Database (MASTER.txt)",
+          "accessed": "2026-11-13",
+          "note": "Registered to Delta Air Lines Inc: the partner's own jet, in its paint."
+        }
+      ],
+      "hex": "a23bfb",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "notes": "Operator not shown in the registry: Delta's own E170/E175s in the JQ/RW/YX series are flown by Republic (others in the series photographed 2025-2026 as Republic Delta Connection). No dated photo of this airframe found."
+    },
+    {
+      "registration": "N244JQ",
+      "livery": "DAL/connection",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://registry.faa.gov/database/ReleasableAircraft.zip",
+          "title": "FAA Releasable Aircraft Database (MASTER.txt)",
+          "accessed": "2026-11-13",
+          "note": "Registered to Delta Air Lines Inc: the partner's own jet, in its paint."
+        }
+      ],
+      "hex": "a23fb2",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "notes": "Operator not shown in the registry: Delta's own E170/E175s in the JQ/RW/YX series are flown by Republic (others in the series photographed 2025-2026 as Republic Delta Connection). No dated photo of this airframe found.",
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "N245JQ",
+      "livery": "DAL/connection",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Delta_Connection_Embraer_175_N245JQ_on_final_approach_to_Boston_December_2025.jpg",
+          "title": "Delta Connection Embraer 175 N245JQ on final approach to Boston December 2025.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2025-12-31: wears this scheme (checked by eye)."
+        },
+        {
+          "url": "https://registry.faa.gov/database/ReleasableAircraft.zip",
+          "title": "FAA Releasable Aircraft Database (MASTER.txt)",
+          "accessed": "2026-11-13",
+          "note": "Registered to Delta Air Lines Inc (the partner's own jet)."
+        }
+      ],
+      "hex": "a24369",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-11-14",
+      "status": "Commons photo 2025-12-31"
+    },
+    {
+      "registration": "N246JQ",
+      "livery": "DAL/connection",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Republic_Delta_Connection_Embraer_175_N246JQ_BWI_MD1.jpg",
+          "title": "Republic Delta Connection Embraer 175 N246JQ BWI MD1.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2026-08-06: wears this scheme (checked by eye)."
+        },
+        {
+          "url": "https://registry.faa.gov/database/ReleasableAircraft.zip",
+          "title": "FAA Releasable Aircraft Database (MASTER.txt)",
+          "accessed": "2026-11-13",
+          "note": "Registered to Delta Air Lines Inc (the partner's own jet)."
+        }
+      ],
+      "hex": "a24720",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-11-14",
+      "status": "Commons photo 2026-08-06"
+    },
+    {
+      "registration": "N403YX",
+      "hex": "a4ba02",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a4ba02",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-16",
+          "note": "Operator given as \"American Eagle\"; flew for that partner in 2 of 2 weeks (adsb.lol: its flight numbers, else hubs)"
+        }
+      ]
+    },
+    {
+      "registration": "N404YX",
+      "hex": "a4bdb9",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a4bdb9",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-14",
+          "note": "Operator given as \"American Eagle\"; flew at that partner's hubs alone in 1 of 2 weeks (adsb.lol)"
+        }
+      ]
+    },
+    {
+      "registration": "N405YX",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:American_Eagle_Embraer_175_N405YX_departing_Boston_July_2026.jpg",
+          "title": "American Eagle Embraer 175 N405YX departing Boston July 2026.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2026-07-19: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "a4c170",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-11-14",
+      "status": "Commons photo 2026-07-19"
+    },
+    {
+      "registration": "N406YX",
+      "hex": "a4c527",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a4c527",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-14",
+          "note": "Operator given as \"American Eagle\"; flew at that partner's hubs alone in 1 of 2 weeks (adsb.lol)"
+        }
+      ]
+    },
+    {
+      "registration": "N407YX",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Embraer_EMB-170-200_LR_E175LR_(N407YX,_cn_17000370)_(5-23-2023).jpg",
+          "title": "Embraer EMB-170-200 LR E175LR (N407YX, cn 17000370) (5-23-2023).jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2023-05-23: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "a4c8de",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2023-05-23",
+      "status": "Commons photo 2023-05-23"
+    },
+    {
+      "registration": "N408YX",
+      "hex": "a4cc95",
+      "type": "E75L",
+      "livery": "AAL/eagle",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://github.com/adsblol/globe_history_2026",
+          "title": "adsb.lol daily history (ODbL)",
+          "note": "Inferred from where it flies: 17 of 17 landings and departures at one partner's hubs over 14 days (tools/regional_partners.py)."
+        }
+      ],
+      "notes": "Registered to REPUBLIC AIRWAYS INC (FAA registry). Inferred from its flying, not seen: check against a photo.",
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "N409YX",
+      "hex": "a4d04c",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a4d04c",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Operator given as \"American Eagle\"; flew at that partner's hubs alone in 1 of 2 weeks (adsb.lol)"
+        }
+      ],
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "N410YX",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N410YX_at_JFK_20261005.jpg",
+          "title": "N410YX at JFK 20261005.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2026-10-05: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "a4d65c",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-11-14",
+      "status": "Commons photo 2026-10-05"
+    },
+    {
+      "registration": "N411YX",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:American_Eagle_Embraer_175_N411YX_departing_Boston_August_2025.jpg",
+          "title": "American Eagle Embraer 175 N411YX departing Boston August 2025.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2025-08-23: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "a4da13",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2025-08-23",
+      "status": "Commons photo 2025-08-23"
+    },
+    {
+      "registration": "N412YX",
+      "hex": "a4ddca",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a4ddca",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Operator given as \"American Eagle\"; flew at that partner's hubs alone in 1 of 2 weeks (adsb.lol)"
+        }
+      ]
+    },
+    {
+      "registration": "N413YX",
+      "hex": "a4e181",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a4e181",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-16",
+          "note": "Operator given as \"American Eagle\"; flew for that partner in 2 of 2 weeks (adsb.lol: its flight numbers, else hubs)"
+        }
+      ]
+    },
+    {
+      "registration": "N414YX",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:American_Eagle_Embraer_175_N414YX_on_final_approach_to_Boston_December_2025.jpg",
+          "title": "American Eagle Embraer 175 N414YX on final approach to Boston December 2025.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2025-12-31: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "a4e538",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-11-14",
+      "status": "Commons photo 2025-12-31"
+    },
+    {
+      "registration": "N415YX",
+      "hex": "a4e8ef",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a4e8ef",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Operator given as \"American Eagle\"; flew at that partner's hubs alone in 1 of 2 weeks (adsb.lol)"
+        }
+      ]
+    },
+    {
+      "registration": "N416YX",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:American_Eagle’_opby_Republic_Airways_’N416YX’_@IND.jpg",
+          "title": "American Eagle’ opby Republic Airways ’N416YX’ @IND.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2026-01-02: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "a4eca6",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-01-02",
+      "status": "Commons photo 2026-01-02"
+    },
+    {
+      "registration": "N417YX",
+      "hex": "a4f05d",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a4f05d",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Operator given as \"American Eagle\"; flew at that partner's hubs alone in 1 of 2 weeks (adsb.lol)"
+        }
+      ],
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "N418YX",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:American_Eagle_Embraer_175_N418YX_departing_Boston_February_2025.jpg",
+          "title": "American Eagle Embraer 175 N418YX departing Boston February 2025.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2025-02-22: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "a4f414",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-11-14",
+      "status": "Commons photo 2025-02-22"
+    },
+    {
+      "registration": "N419YX",
+      "hex": "a4f7cb",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a4f7cb",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Operator given as \"American Eagle\"; flew at that partner's hubs alone in 1 of 2 weeks (adsb.lol)"
+        }
+      ]
+    },
+    {
+      "registration": "N420YX",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:American_Eagle_Embraer_175_N420YX_departing_Boston_June_2025_3.jpg",
+          "title": "American Eagle Embraer 175 N420YX departing Boston June 2025 3.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2025-06-11: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "a4fddb",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2025-06-11",
+      "status": "Commons photo 2025-06-11"
+    },
+    {
+      "registration": "N421YX",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N421YX,_E75L,_RDU_C18.jpg",
+          "title": "N421YX, E75L, RDU C18.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2025-07-15: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "a50192",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-11-14",
+      "status": "Commons photo 2025-07-15"
+    },
+    {
+      "registration": "N422YX",
+      "hex": "a50549",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a50549",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Operator given as \"American Eagle\"; flew at that partner's hubs alone in 1 of 2 weeks (adsb.lol)"
+        }
+      ]
+    },
+    {
+      "registration": "N423YX",
+      "hex": "a50900",
+      "type": "E75L",
+      "livery": "AAL/eagle",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://github.com/adsblol/globe_history_2026",
+          "title": "adsb.lol daily history (ODbL)",
+          "note": "Inferred from where it flies: 13 of 13 landings and departures at one partner's hubs over 14 days (tools/regional_partners.py)."
+        }
+      ],
+      "notes": "Registered to REPUBLIC AIRWAYS INC (FAA registry). Inferred from its flying, not seen: check against a photo."
+    },
+    {
+      "registration": "N424YX",
+      "hex": "a50cb7",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a50cb7",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Operator given as \"American Eagle\"; flew at that partner's hubs alone in 1 of 2 weeks (adsb.lol)"
+        }
+      ],
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "N425YX",
+      "hex": "a5106e",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a5106e",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Operator given as \"American Eagle\"; flew at that partner's hubs alone in 1 of 2 weeks (adsb.lol)"
+        }
+      ],
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "N426YX",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:American_Eagle_Embraer_175_N426YX_departing_Boston_June_2025.jpg",
+          "title": "American Eagle Embraer 175 N426YX departing Boston June 2025.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2025-06-20: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "a51425",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-11-14",
+      "status": "Commons photo 2025-06-20"
+    },
+    {
+      "registration": "N427YX",
+      "hex": "a517dc",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a517dc",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-14",
+          "note": "Operator given as \"American Eagle\"; flew at that partner's hubs alone in 1 of 2 weeks (adsb.lol)"
+        }
+      ]
+    },
+    {
+      "registration": "N428YX",
+      "hex": "a51b93",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a51b93",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Operator given as \"American Eagle\"; flew at that partner's hubs alone in 1 of 2 weeks (adsb.lol)"
+        }
+      ]
+    },
+    {
+      "registration": "N429YX",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:American_Eagle_Embraer_175_N429YX_on_final_approach_to_Boston_December_2025.jpg",
+          "title": "American Eagle Embraer 175 N429YX on final approach to Boston December 2025.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2025-12-31: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "a51f4a",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-11-14",
+      "status": "Commons photo 2025-12-31"
+    },
+    {
+      "registration": "N430YX",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:American_Eagle_Embraer_175_N430YX_departing_Boston_July_2026.jpg",
+          "title": "American Eagle Embraer 175 N430YX departing Boston July 2026.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2026-07-19: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "a5255a",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-07-19",
+      "status": "Commons photo 2026-07-19"
+    },
+    {
+      "registration": "N431YX",
+      "hex": "a52911",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a52911",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-16",
+          "note": "Operator given as \"American Eagle\"; flew for that partner in 2 of 2 weeks (adsb.lol: its flight numbers, else hubs)"
+        }
+      ]
+    },
+    {
+      "registration": "N432YX",
+      "hex": "a52cc8",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a52cc8",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-14",
+          "note": "Operator given as \"American Eagle\"; flew at that partner's hubs alone in 1 of 2 weeks (adsb.lol)"
+        }
+      ]
+    },
+    {
+      "registration": "N433YX",
+      "hex": "a5307f",
+      "type": "E75L",
+      "livery": "AAL/eagle",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://github.com/adsblol/globe_history_2026",
+          "title": "adsb.lol daily history (ODbL)",
+          "note": "Inferred from where it flies: 18 of 18 landings and departures at one partner's hubs over 14 days (tools/regional_partners.py)."
+        }
+      ],
+      "notes": "Registered to REPUBLIC AIRWAYS INC (FAA registry). Inferred from its flying, not seen: check against a photo.",
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "N434YX",
+      "hex": "a53436",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a53436",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-16",
+          "note": "Operator given as \"American Eagle\"; flew for that partner in 2 of 2 weeks (adsb.lol: its flight numbers, else hubs)"
+        }
+      ]
+    },
+    {
+      "registration": "N435YX",
+      "hex": "a537ed",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a537ed",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-16",
+          "note": "Operator given as \"American Eagle\"; flew for that partner in 2 of 2 weeks (adsb.lol: its flight numbers, else hubs)"
+        }
+      ]
+    },
+    {
+      "registration": "N436YX",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:American_Eagle_Embraer_175_N436YX_departing_Boston_June_2025.jpg",
+          "title": "American Eagle Embraer 175 N436YX departing Boston June 2025.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2025-06-11: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "a53ba4",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2025-06-11",
+      "status": "Commons photo 2025-06-11"
+    },
+    {
+      "registration": "N437YX",
+      "hex": "a53f5b",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a53f5b",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Operator given as \"American Eagle\"; flew at that partner's hubs alone in 1 of 2 weeks (adsb.lol)"
+        }
+      ]
+    },
+    {
+      "registration": "N438YX",
+      "hex": "a54312",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a54312",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-16",
+          "note": "Operator given as \"American Eagle\"; flew for that partner in 2 of 2 weeks (adsb.lol: its flight numbers, else hubs)"
+        }
+      ]
+    },
+    {
+      "registration": "N439YX",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:American_Eagle_Embraer_175_N439YX_departing_Boston_November_2025.jpg",
+          "title": "American Eagle Embraer 175 N439YX departing Boston November 2025.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2025-11-18: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "a546c9",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-11-14",
+      "status": "Commons photo 2025-11-18"
+    },
+    {
+      "registration": "N440YX",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:American_Eagle_Embraer_175_N440YX_on_final_approach_to_Boston_July_2026.jpg",
+          "title": "American Eagle Embraer 175 N440YX on final approach to Boston July 2026.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2026-07-08: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "a54cd9",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-11-14",
+      "status": "Commons photo 2026-07-08"
+    },
+    {
+      "registration": "N445YX",
+      "hex": "a55f6c",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a55f6c",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Operator given as \"American Eagle\"; flew at that partner's hubs alone in 1 of 2 weeks (adsb.lol)"
+        }
+      ],
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "N642RW",
+      "livery": "UAL/express-2010",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:United_Express_E170_N647RW_and_N642RW_@IND.jpg",
+          "title": "United Express E170 N647RW and N642RW @IND.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2025-12-07: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "a86e35",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E170",
+      "lastSeen": "2025-12-07",
+      "status": "Commons photo 2025-12-07"
+    },
+    {
+      "registration": "N647RW",
+      "livery": "UAL/express-2010",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:United_Express_E170_N647RW_and_N642RW_@IND.jpg",
+          "title": "United Express E170 N647RW and N642RW @IND.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2025-12-07: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "a880c8",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E170",
+      "lastSeen": "2025-12-07",
+      "status": "Commons photo 2025-12-07"
+    },
+    {
+      "registration": "N654RW",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:American_Eagle_Embraer_170_N654RW_departing_Boston_July_2026.jpg",
+          "title": "American Eagle Embraer 170 N654RW departing Boston July 2026.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2026-07-19: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "a89d22",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E170",
+      "lastSeen": "2026-11-14",
+      "status": "Commons photo 2026-07-19"
+    },
+    {
+      "registration": "N655RW",
+      "livery": "AAL/eagle",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:American_Eagle_E170SE_N655RW_@IND.jpg",
+          "title": "American Eagle E170SE N655RW @IND.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2025-10-05: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "a8a0d9",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E170",
+      "lastSeen": "2026-11-14",
+      "status": "Commons photo 2025-10-05"
+    },
+    {
+      "registration": "N721YX",
+      "hex": "a9a97f",
+      "livery": "UAL/express",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a9a97f",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Operator given as \"United Express\"; flew at that partner's hubs alone in 1 of 2 weeks (adsb.lol)"
+        }
+      ],
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "N722YX",
+      "hex": "a9ad36",
+      "livery": "UAL/express",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a9ad36",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-16",
+          "note": "Operator given as \"United Express\"; flew for that partner in 2 of 2 weeks (adsb.lol: its flight numbers, else hubs)"
+        }
+      ]
+    },
+    {
+      "registration": "N723YX",
+      "livery": "UAL/express",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Republic_(United_Express)_Embraer_175_N723YX_on_final_approach_to_Boston_Dec_2024_2.jpg",
+          "title": "Republic (United Express) Embraer 175 N723YX on final approach to Boston Dec 2024 2.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2024-12-24: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "a9b0ed",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2024-12-24",
+      "status": "Commons photo 2024-12-24"
+    },
+    {
+      "registration": "N724YX",
+      "livery": "UAL/express",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:United_Express’_opby_Republic_Airways_Embraer_E175LR_‘N724YX’_@IND.jpg",
+          "title": "United Express’ opby Republic Airways Embraer E175LR ‘N724YX’ @IND.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2026-01-02: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "a9b4a4",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-01-02",
+      "status": "Commons photo 2026-01-02"
+    },
+    {
+      "registration": "N725YX",
+      "hex": "a9b85b",
+      "livery": "UAL/express",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a9b85b",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-14",
+          "note": "Operator given as \"United Express\"; flew at that partner's hubs alone in 1 of 2 weeks (adsb.lol)"
+        }
+      ]
+    },
+    {
+      "registration": "N726YX",
+      "hex": "a9bc12",
+      "livery": "UAL/express",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a9bc12",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Operator given as \"United Express\"; flew at that partner's hubs alone in 1 of 2 weeks (adsb.lol)"
+        }
+      ]
+    },
+    {
+      "registration": "N727YX",
+      "livery": "UAL/express",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:United_Express’_opby_Republic_Airways_Embraer_E175LR_‘N727YX’_@IND.jpg",
+          "title": "United Express’ opby Republic Airways Embraer E175LR ‘N727YX’ @IND.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2026-01-02: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "a9bfc9",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-11-14",
+      "status": "Commons photo 2026-01-02"
+    },
+    {
+      "registration": "N728YX",
+      "hex": "a9c380",
+      "livery": "UAL/express",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a9c380",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Operator given as \"United Express\"; flew at that partner's hubs alone in 1 of 2 weeks (adsb.lol)"
+        }
+      ]
+    },
+    {
+      "registration": "N729YX",
+      "hex": "a9c737",
+      "type": "E75L",
+      "livery": "UAL/express",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://github.com/adsblol/globe_history_2026",
+          "title": "adsb.lol daily history (ODbL)",
+          "note": "Inferred from where it flies: 34 of 36 landings and departures at one partner's hubs over 14 days (tools/regional_partners.py)."
+        }
+      ],
+      "notes": "Registered to REPUBLIC AIRWAYS INC (FAA registry). Inferred from its flying, not seen: check against a photo."
+    },
+    {
+      "registration": "N730YX",
+      "livery": "UAL/express",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Republic_United_Express_Embraer_ERJ_175_N730YX_IAD_VA1.jpg",
+          "title": "Republic United Express Embraer ERJ 175 N730YX IAD VA1.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2025-04-30: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "a9cd47",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2025-04-30",
+      "status": "Commons photo 2025-04-30"
+    },
+    {
+      "registration": "N731YX",
+      "hex": "a9d0fe",
+      "livery": "UAL/express",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a9d0fe",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Operator given as \"United Express\"; flew at that partner's hubs alone in 1 of 2 weeks (adsb.lol)"
+        }
+      ],
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "N732YX",
+      "hex": "a9d4b5",
+      "livery": "UAL/express",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a9d4b5",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Operator given as \"United Express\"; flew at that partner's hubs alone in 1 of 2 weeks (adsb.lol)"
+        }
+      ],
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "N733YX",
+      "hex": "a9d86c",
+      "type": "E75L",
+      "livery": "UAL/express",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://github.com/adsblol/globe_history_2026",
+          "title": "adsb.lol daily history (ODbL)",
+          "note": "Inferred from where it flies: 45 of 47 landings and departures at one partner's hubs over 14 days (tools/regional_partners.py)."
+        }
+      ],
+      "notes": "Registered to REPUBLIC AIRWAYS INC (FAA registry). Inferred from its flying, not seen: check against a photo.",
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "N736YX",
+      "hex": "a9e391",
+      "type": "E75L",
+      "livery": "UAL/express",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://github.com/adsblol/globe_history_2026",
+          "title": "adsb.lol daily history (ODbL)",
+          "note": "Inferred from where it flies: 44 of 46 landings and departures at one partner's hubs over 14 days (tools/regional_partners.py)."
+        }
+      ],
+      "notes": "Registered to REPUBLIC AIRWAYS INC (FAA registry). Inferred from its flying, not seen: check against a photo."
+    },
+    {
+      "registration": "N739YX",
+      "hex": "a9eeb6",
+      "livery": "UAL/express",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a9eeb6",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-16",
+          "note": "Operator given as \"United Express\"; flew for that partner in 2 of 2 weeks (adsb.lol: its flight numbers, else hubs)"
+        }
+      ]
+    },
+    {
+      "registration": "N740YX",
+      "hex": "a9f4c6",
+      "livery": "UAL/express",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a9f4c6",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-16",
+          "note": "Operator given as \"United Express\"; flew for that partner in 2 of 2 weeks (adsb.lol: its flight numbers, else hubs)"
+        }
+      ]
+    },
+    {
+      "registration": "N741YX",
+      "hex": "a9f87d",
+      "livery": "UAL/express",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a9f87d",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Operator given as \"United Express\"; flew at that partner's hubs alone in 1 of 2 weeks (adsb.lol)"
+        }
+      ]
+    },
+    {
+      "registration": "N742YX",
+      "hex": "a9fc34",
+      "livery": "UAL/express",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a9fc34",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-16",
+          "note": "Operator given as \"United Express\"; flew for that partner in 2 of 2 weeks (adsb.lol: its flight numbers, else hubs)"
+        }
+      ]
+    },
+    {
+      "registration": "N743YX",
+      "hex": "a9ffeb",
+      "livery": "UAL/express",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/a9ffeb",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Operator given as \"United Express\"; flew at that partner's hubs alone in 1 of 2 weeks (adsb.lol)"
+        }
+      ]
+    },
+    {
+      "registration": "N744YX",
+      "hex": "aa03a2",
+      "livery": "UAL/express",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/aa03a2",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-16",
+          "note": "Operator given as \"United Express\"; flew for that partner in 2 of 2 weeks (adsb.lol: its flight numbers, else hubs)"
+        }
+      ]
+    },
+    {
+      "registration": "N745YX",
+      "hex": "aa0759",
+      "livery": "UAL/express",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/aa0759",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-16",
+          "note": "Operator given as \"United Express\"; flew for that partner in 2 of 2 weeks (adsb.lol: its flight numbers, else hubs)"
+        }
+      ]
+    },
+    {
+      "registration": "N746YX",
+      "hex": "aa0b10",
+      "livery": "UAL/express",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/aa0b10",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Operator given as \"United Express\"; flew at that partner's hubs alone in 1 of 2 weeks (adsb.lol)"
+        }
+      ],
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "N747YX",
+      "hex": "aa0ec7",
+      "livery": "UAL/express",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/aa0ec7",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-16",
+          "note": "Operator given as \"United Express\"; flew for that partner in 2 of 2 weeks (adsb.lol: its flight numbers, else hubs)"
+        }
+      ]
+    },
+    {
+      "registration": "N748YX",
+      "hex": "aa127e",
+      "livery": "UAL/express",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/aa127e",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Operator given as \"United Express\"; flew at that partner's hubs alone in 1 of 2 weeks (adsb.lol)"
+        }
+      ]
+    },
+    {
+      "registration": "N749YX",
+      "hex": "aa1635",
+      "livery": "UAL/express",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/aa1635",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Operator given as \"United Express\"; flew at that partner's hubs alone in 1 of 2 weeks (adsb.lol)"
+        }
+      ]
+    },
+    {
+      "registration": "N750YX",
+      "hex": "aa1c45",
+      "livery": "UAL/express",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/aa1c45",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Operator given as \"United Express\"; flew at that partner's hubs alone in 1 of 2 weeks (adsb.lol)"
+        }
+      ],
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "N751YX",
+      "hex": "aa1ffc",
+      "livery": "UAL/express",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/aa1ffc",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Operator given as \"United Express\"; flew at that partner's hubs alone in 1 of 2 weeks (adsb.lol)"
+        }
+      ]
+    },
+    {
+      "registration": "N752YX",
+      "hex": "aa23b3",
+      "livery": "UAL/express",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/aa23b3",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-14",
+          "note": "Operator given as \"United Express\"; flew at that partner's hubs alone in 1 of 2 weeks (adsb.lol)"
+        }
+      ]
+    },
+    {
+      "registration": "N753YX",
+      "hex": "aa276a",
+      "type": "E75L",
+      "livery": "UAL/express",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://github.com/adsblol/globe_history_2026",
+          "title": "adsb.lol daily history (ODbL)",
+          "note": "Inferred from who it flies for: 77 of 77 flights under that partner's flight numbers over 14 days, each week agreeing (tools/regional_partners.py)."
+        }
+      ],
+      "notes": "Registered to REPUBLIC AIRWAYS INC (FAA registry). Inferred from its flying, not seen: check against a photo."
+    },
+    {
+      "registration": "N754YX",
+      "hex": "aa2b21",
+      "type": "E75L",
+      "livery": "UAL/express",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://github.com/adsblol/globe_history_2026",
+          "title": "adsb.lol daily history (ODbL)",
+          "note": "Inferred from who it flies for: 75 of 75 flights under that partner's flight numbers over 14 days, each week agreeing (tools/regional_partners.py)."
+        }
+      ],
+      "notes": "Registered to REPUBLIC AIRWAYS INC (FAA registry). Inferred from its flying, not seen: check against a photo."
+    },
+    {
+      "registration": "N755YX",
+      "livery": "UAL/express",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:United_N755YX_Embraer_175_CLT0225_3.jpg",
+          "title": "United N755YX Embraer 175 CLT0225 3.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2025-02-03: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "aa2ed8",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-11-14",
+      "status": "Commons photo 2025-02-03"
+    },
+    {
+      "registration": "N756YX",
+      "hex": "aa328f",
+      "type": "E75L",
+      "livery": "UAL/express",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://github.com/adsblol/globe_history_2026",
+          "title": "adsb.lol daily history (ODbL)",
+          "note": "Inferred from who it flies for: 64 of 64 flights under that partner's flight numbers over 14 days, each week agreeing (tools/regional_partners.py)."
+        }
+      ],
+      "notes": "Registered to REPUBLIC AIRWAYS INC (FAA registry). Inferred from its flying, not seen: check against a photo."
+    },
+    {
+      "registration": "N757YX",
+      "hex": "aa3646",
+      "type": "E75L",
+      "livery": "UAL/express",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://github.com/adsblol/globe_history_2026",
+          "title": "adsb.lol daily history (ODbL)",
+          "note": "Inferred from who it flies for: 73 of 73 flights under that partner's flight numbers over 14 days, each week agreeing (tools/regional_partners.py)."
+        }
+      ],
+      "notes": "Registered to REPUBLIC AIRWAYS INC (FAA registry). Inferred from its flying, not seen: check against a photo."
+    },
+    {
+      "registration": "N758YX",
+      "livery": "UAL/express",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Republic_United_Express_Embraer_ERJ-175_N758YX_IAd_VA1.jpg",
+          "title": "Republic United Express Embraer ERJ-175 N758YX IAd VA1.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2025-04-30: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "aa39fd",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-11-14",
+      "status": "Commons photo 2025-04-30"
+    },
+    {
+      "registration": "N760YX",
+      "hex": "aa43c4",
+      "type": "E75L",
+      "livery": "UAL/express",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://github.com/adsblol/globe_history_2026",
+          "title": "adsb.lol daily history (ODbL)",
+          "note": "Inferred from who it flies for: 55 of 55 flights under that partner's flight numbers over 14 days, each week agreeing (tools/regional_partners.py)."
+        }
+      ],
+      "notes": "Registered to REPUBLIC AIRWAYS INC (FAA registry). Inferred from its flying, not seen: check against a photo."
+    },
+    {
+      "registration": "N761YX",
+      "livery": "UAL/express",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Republic_United_Express_Embraer_ERJ-175_N761YX_IAD_VA1.jpg",
+          "title": "Republic United Express Embraer ERJ-175 N761YX IAD VA1.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2025-09-12: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "aa477b",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2025-09-12",
+      "status": "Commons photo 2025-09-12"
+    },
+    {
+      "registration": "N762YX",
+      "livery": "UAL/express",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:United_Express’_opby_Republic_Airways_‘N762YX’_@IND.jpg",
+          "title": "United Express’ opby Republic Airways ‘N762YX’ @IND.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2026-01-02: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "aa4b32",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-11-14",
+      "status": "Commons photo 2026-01-02"
+    },
+    {
+      "registration": "N763YX",
+      "hex": "aa4ee9",
+      "type": "E75L",
+      "livery": "UAL/express",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://github.com/adsblol/globe_history_2026",
+          "title": "adsb.lol daily history (ODbL)",
+          "note": "Inferred from who it flies for: 71 of 71 flights under that partner's flight numbers over 14 days, each week agreeing (tools/regional_partners.py)."
+        }
+      ],
+      "notes": "Registered to REPUBLIC AIRWAYS INC (FAA registry). Inferred from its flying, not seen: check against a photo."
+    },
+    {
+      "registration": "N764YX",
+      "livery": "UAL/express",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Republic_United_Express_Embraer_ERJ_175_N764YX_IAD_VCA1.jpg",
+          "title": "Republic United Express Embraer ERJ 175 N764YX IAD VCA1.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2024-10-20: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "aa52a0",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-11-14",
+      "status": "Commons photo 2024-10-20"
+    },
+    {
+      "registration": "N765YX",
+      "hex": "aa5657",
+      "type": "E75L",
+      "livery": "UAL/express",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://github.com/adsblol/globe_history_2026",
+          "title": "adsb.lol daily history (ODbL)",
+          "note": "Inferred from who it flies for: 47 of 47 flights under that partner's flight numbers over 14 days, each week agreeing (tools/regional_partners.py)."
+        }
+      ],
+      "notes": "Registered to REPUBLIC AIRWAYS INC (FAA registry). Inferred from its flying, not seen: check against a photo."
+    },
+    {
+      "registration": "N766YX",
+      "hex": "aa5a0e",
+      "type": "E75L",
+      "livery": "UAL/express",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://github.com/adsblol/globe_history_2026",
+          "title": "adsb.lol daily history (ODbL)",
+          "note": "Inferred from who it flies for: 64 of 64 flights under that partner's flight numbers over 14 days, each week agreeing (tools/regional_partners.py)."
+        }
+      ],
+      "notes": "Registered to REPUBLIC AIRWAYS INC (FAA registry). Inferred from its flying, not seen: check against a photo."
+    },
+    {
+      "registration": "N768YX",
+      "hex": "aa617c",
+      "type": "E75L",
+      "livery": "UAL/express",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://github.com/adsblol/globe_history_2026",
+          "title": "adsb.lol daily history (ODbL)",
+          "note": "Inferred from who it flies for: 66 of 66 flights under that partner's flight numbers over 14 days, each week agreeing (tools/regional_partners.py)."
+        }
+      ],
+      "notes": "Registered to REPUBLIC AIRWAYS INC (FAA registry). Inferred from its flying, not seen: check against a photo."
+    },
+    {
+      "registration": "N769YX",
+      "livery": "UAL/express",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Republic_United_Express_Embraer_ERJ-175LR_N769YX_IAD_VA1.jpg",
+          "title": "Republic United Express Embraer ERJ-175LR N769YX IAD VA1.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2025-04-30: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "aa6533",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-11-14",
+      "status": "Commons photo 2025-04-30"
+    },
+    {
+      "registration": "N770YX",
+      "hex": "aa6b43",
+      "type": "E75L",
+      "livery": "UAL/express",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://github.com/adsblol/globe_history_2026",
+          "title": "adsb.lol daily history (ODbL)",
+          "note": "Inferred from who it flies for: 63 of 63 flights under that partner's flight numbers over 14 days, each week agreeing (tools/regional_partners.py)."
+        }
+      ],
+      "notes": "Registered to REPUBLIC AIRWAYS INC (FAA registry). Inferred from its flying, not seen: check against a photo."
+    },
+    {
+      "registration": "N771YX",
+      "livery": "UAL/express",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:United_Express’_Embraer_E175LR_opby_Republic_Airways_‘N771YX’_@IND.jpg",
+          "title": "United Express’ Embraer E175LR opby Republic Airways ‘N771YX’ @IND.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2026-02-01: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "aa6efa",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-11-14",
+      "status": "Commons photo 2026-02-01"
+    },
+    {
+      "registration": "N772YX",
+      "hex": "aa72b1",
+      "type": "E75L",
+      "livery": "UAL/express",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://github.com/adsblol/globe_history_2026",
+          "title": "adsb.lol daily history (ODbL)",
+          "note": "Inferred from where it flies: 38 of 40 landings and departures at one partner's hubs over 14 days (tools/regional_partners.py)."
+        }
+      ],
+      "notes": "Registered to REPUBLIC AIRWAYS INC (FAA registry). Inferred from its flying, not seen: check against a photo."
+    },
+    {
+      "registration": "N773YX",
+      "hex": "aa7668",
+      "type": "E75L",
+      "livery": "UAL/express",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://github.com/adsblol/globe_history_2026",
+          "title": "adsb.lol daily history (ODbL)",
+          "note": "Inferred from who it flies for: 56 of 56 flights under that partner's flight numbers over 14 days, each week agreeing (tools/regional_partners.py)."
+        }
+      ],
+      "notes": "Registered to REPUBLIC AIRWAYS INC (FAA registry). Inferred from its flying, not seen: check against a photo."
+    },
+    {
+      "registration": "N774YX",
+      "hex": "aa7a1f",
+      "type": "E75L",
+      "livery": "UAL/express",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://github.com/adsblol/globe_history_2026",
+          "title": "adsb.lol daily history (ODbL)",
+          "note": "Inferred from who it flies for: 76 of 76 flights under that partner's flight numbers over 14 days, each week agreeing (tools/regional_partners.py)."
+        }
+      ],
+      "notes": "Registered to REPUBLIC AIRWAYS INC (FAA registry). Inferred from its flying, not seen: check against a photo."
+    },
+    {
+      "registration": "N775YX",
+      "hex": "aa7dd6",
+      "type": "E170",
+      "livery": "UAL/express",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://github.com/adsblol/globe_history_2026",
+          "title": "adsb.lol daily history (ODbL)",
+          "note": "Inferred from who it flies for: 61 of 61 flights under that partner's flight numbers over 14 days, each week agreeing (tools/regional_partners.py)."
+        }
+      ],
+      "notes": "Registered to REPUBLIC AIRWAYS INC (FAA registry). Inferred from its flying, not seen: check against a photo."
+    },
+    {
+      "registration": "N776YX",
+      "hex": "aa818d",
+      "type": "E170",
+      "livery": "UAL/express",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://github.com/adsblol/globe_history_2026",
+          "title": "adsb.lol daily history (ODbL)",
+          "note": "Inferred from who it flies for: 61 of 61 flights under that partner's flight numbers over 14 days, each week agreeing (tools/regional_partners.py)."
+        }
+      ],
+      "notes": "Registered to REPUBLIC AIRWAYS INC (FAA registry). Inferred from its flying, not seen: check against a photo."
+    },
+    {
+      "registration": "N778YX",
+      "livery": "UAL/express",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Republic_United_Express_Embraer_ERJ-175_N778YX_IAd_VA1.jpg",
+          "title": "Republic United Express Embraer ERJ-175 N778YX IAd VA1.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2025-04-30: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "aa88fb",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2025-04-30",
+      "status": "Commons photo 2025-04-30"
+    },
+    {
+      "registration": "N779YX",
+      "hex": "aa8cb2",
+      "type": "E75S",
+      "livery": "UAL/express",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://github.com/adsblol/globe_history_2026",
+          "title": "adsb.lol daily history (ODbL)",
+          "note": "Inferred from who it flies for: 63 of 63 flights under that partner's flight numbers over 14 days, each week agreeing (tools/regional_partners.py)."
+        }
+      ],
+      "notes": "Registered to REPUBLIC AIRWAYS INC (FAA registry). Inferred from its flying, not seen: check against a photo."
+    },
+    {
+      "registration": "N780YX",
+      "hex": "aa92c2",
+      "type": "E75L",
+      "livery": "UAL/express",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://github.com/adsblol/globe_history_2026",
+          "title": "adsb.lol daily history (ODbL)",
+          "note": "Inferred from who it flies for: 52 of 52 flights under that partner's flight numbers over 14 days, each week agreeing (tools/regional_partners.py)."
+        }
+      ],
+      "notes": "Registered to REPUBLIC AIRWAYS INC (FAA registry). Inferred from its flying, not seen: check against a photo."
+    },
+    {
+      "registration": "N781YX",
+      "hex": "aa9679",
+      "type": "E75L",
+      "livery": "UAL/express",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://github.com/adsblol/globe_history_2026",
+          "title": "adsb.lol daily history (ODbL)",
+          "note": "Inferred from who it flies for: 69 of 69 flights under that partner's flight numbers over 14 days, each week agreeing (tools/regional_partners.py)."
+        }
+      ],
+      "notes": "Registered to REPUBLIC AIRWAYS INC (FAA registry). Inferred from its flying, not seen: check against a photo."
+    },
+    {
+      "registration": "N782YX",
+      "hex": "aa9a30",
+      "type": "E170",
+      "livery": "UAL/express",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://github.com/adsblol/globe_history_2026",
+          "title": "adsb.lol daily history (ODbL)",
+          "note": "Inferred from who it flies for: 64 of 64 flights under that partner's flight numbers over 14 days, each week agreeing (tools/regional_partners.py)."
+        }
+      ],
+      "notes": "Registered to REPUBLIC AIRWAYS INC (FAA registry). Inferred from its flying, not seen: check against a photo."
+    },
+    {
+      "registration": "N783YX",
+      "hex": "aa9de7",
+      "type": "E75L",
+      "livery": "UAL/express",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://github.com/adsblol/globe_history_2026",
+          "title": "adsb.lol daily history (ODbL)",
+          "note": "Inferred from who it flies for: 64 of 64 flights under that partner's flight numbers over 14 days, each week agreeing (tools/regional_partners.py)."
+        }
+      ],
+      "notes": "Registered to REPUBLIC AIRWAYS INC (FAA registry). Inferred from its flying, not seen: check against a photo."
+    },
+    {
+      "registration": "N784YX",
+      "hex": "aaa19e",
+      "type": "E75L",
+      "livery": "UAL/express",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://github.com/adsblol/globe_history_2026",
+          "title": "adsb.lol daily history (ODbL)",
+          "note": "Inferred from who it flies for: 51 of 51 flights under that partner's flight numbers over 14 days, each week agreeing (tools/regional_partners.py)."
+        }
+      ],
+      "notes": "Registered to REPUBLIC AIRWAYS INC (FAA registry). Inferred from its flying, not seen: check against a photo."
+    },
+    {
+      "registration": "N785YX",
+      "hex": "aaa555",
+      "type": "E75L",
+      "livery": "UAL/express",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://github.com/adsblol/globe_history_2026",
+          "title": "adsb.lol daily history (ODbL)",
+          "note": "Inferred from who it flies for: 62 of 62 flights under that partner's flight numbers over 14 days, each week agreeing (tools/regional_partners.py)."
+        }
+      ],
+      "notes": "Registered to REPUBLIC AIRWAYS INC (FAA registry). Inferred from its flying, not seen: check against a photo."
+    },
+    {
+      "registration": "N786YX",
+      "hex": "aaa90c",
+      "type": "E75L",
+      "livery": "UAL/express",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://github.com/adsblol/globe_history_2026",
+          "title": "adsb.lol daily history (ODbL)",
+          "note": "Inferred from who it flies for: 68 of 68 flights under that partner's flight numbers over 14 days, each week agreeing (tools/regional_partners.py)."
+        }
+      ],
+      "notes": "Registered to REPUBLIC AIRWAYS INC (FAA registry). Inferred from its flying, not seen: check against a photo."
+    },
+    {
+      "registration": "N787YX",
+      "hex": "aaacc3",
+      "type": "E170",
+      "livery": "UAL/express",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://github.com/adsblol/globe_history_2026",
+          "title": "adsb.lol daily history (ODbL)",
+          "note": "Inferred from who it flies for: 73 of 73 flights under that partner's flight numbers over 14 days, each week agreeing (tools/regional_partners.py)."
+        }
+      ],
+      "notes": "Registered to REPUBLIC AIRWAYS INC (FAA registry). Inferred from its flying, not seen: check against a photo."
+    },
+    {
+      "registration": "N788YX",
+      "livery": "UAL/express",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:United_Express’_opby_Republic_Airways_Embraer_E175LR_‘N788YX’_@IND.jpg",
+          "title": "United Express’ opby Republic Airways Embraer E175LR ‘N788YX’ @IND.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2026-01-02: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "aab07a",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E75L",
+      "lastSeen": "2026-11-14",
+      "status": "Commons photo 2026-01-02"
+    },
+    {
+      "registration": "N789YX",
+      "hex": "aab431",
+      "type": "E75L",
+      "livery": "UAL/express",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://github.com/adsblol/globe_history_2026",
+          "title": "adsb.lol daily history (ODbL)",
+          "note": "Inferred from who it flies for: 60 of 60 flights under that partner's flight numbers over 14 days, each week agreeing (tools/regional_partners.py)."
+        }
+      ],
+      "notes": "Registered to REPUBLIC AIRWAYS INC (FAA registry). Inferred from its flying, not seen: check against a photo."
+    },
+    {
+      "registration": "N790YX",
+      "hex": "aaba41",
+      "type": "E75L",
+      "livery": "UAL/express",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://github.com/adsblol/globe_history_2026",
+          "title": "adsb.lol daily history (ODbL)",
+          "note": "Inferred from who it flies for: 68 of 68 flights under that partner's flight numbers over 14 days, each week agreeing (tools/regional_partners.py)."
+        }
+      ],
+      "notes": "Registered to REPUBLIC AIRWAYS INC (FAA registry). Inferred from its flying, not seen: check against a photo."
+    },
+    {
+      "registration": "N791YX",
+      "hex": "aabdf8",
+      "livery": "UAL/express",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://github.com/adsblol/globe_history_2026",
+          "title": "adsb.lol daily history (ODbL)",
+          "note": "Inferred from who it flies for: 58 of 58 flights under that partner's flight numbers over 14 days, each week agreeing (tools/regional_partners.py)."
+        }
+      ],
+      "notes": "Registered to REPUBLIC AIRWAYS INC (FAA registry). Inferred from its flying, not seen: check against a photo."
+    },
+    {
+      "registration": "N792YX",
+      "hex": "aac1af",
+      "type": "E75L",
+      "livery": "UAL/express",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://github.com/adsblol/globe_history_2026",
+          "title": "adsb.lol daily history (ODbL)",
+          "note": "Inferred from who it flies for: 57 of 57 flights under that partner's flight numbers over 14 days, each week agreeing (tools/regional_partners.py)."
+        }
+      ],
+      "notes": "Registered to REPUBLIC AIRWAYS INC (FAA registry). Inferred from its flying, not seen: check against a photo."
+    },
+    {
+      "registration": "N810MD",
+      "hex": "ab0a73",
+      "livery": "DAL/connection",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/ab0a73",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-16",
+          "note": "Operator given as \"Delta Connection\"; flew for that partner in 2 of 2 weeks (adsb.lol: its flight numbers, else hubs)"
+        }
+      ]
+    },
+    {
+      "registration": "N815MD",
+      "livery": "DAL/connection",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Delta_Connnection_Republic_Embraer_170_N815MD_BWI_MD1.jpg",
+          "title": "Delta Connnection Republic Embraer 170 N815MD BWI MD1.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2025-03-27: wears this scheme (checked by eye)."
+        }
+      ],
+      "hex": "ab1d06",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E170",
+      "lastSeen": "2026-11-14",
+      "status": "Commons photo 2025-03-27"
+    },
+    {
+      "registration": "N818MD",
+      "hex": "ab282b",
+      "type": "E170",
+      "livery": "AAL/eagle",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://github.com/adsblol/globe_history_2026",
+          "title": "adsb.lol daily history (ODbL)",
+          "note": "Inferred from where it flies: 13 of 13 landings and departures at one partner's hubs over 14 days (tools/regional_partners.py)."
+        }
+      ],
+      "notes": "Registered to UMB BANK NA TRUSTEE (FAA registry). Inferred from its flying, not seen: check against a photo."
+    },
+    {
+      "registration": "N823MD",
+      "hex": "ab3d17",
+      "type": "E170",
+      "livery": "AAL/eagle",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://github.com/adsblol/globe_history_2026",
+          "title": "adsb.lol daily history (ODbL)",
+          "note": "Inferred from where it flies: 23 of 23 landings and departures at one partner's hubs over 14 days (tools/regional_partners.py)."
+        }
+      ],
+      "notes": "Registered to UMB BANK NA TRUSTEE (FAA registry). Inferred from its flying, not seen: check against a photo."
+    },
+    {
+      "registration": "N824MD",
+      "hex": "ab40ce",
+      "livery": "DAL/connection",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/ab40ce",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-16",
+          "note": "Operator given as \"Delta Connection\"; flew for that partner in 2 of 2 weeks (adsb.lol: its flight numbers, else hubs)"
+        }
+      ]
+    },
+    {
+      "registration": "N860RW",
+      "hex": "abd063",
+      "livery": "DAL/connection",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://api.adsbdb.com/v0/aircraft/abd063",
+          "title": "adsbdb aircraft record",
+          "accessed": "2026-11-16",
+          "note": "Operator given as \"Delta Connection\"; flew for that partner in 2 of 2 weeks (adsb.lol: its flight numbers, else hubs)"
+        }
+      ]
+    },
+    {
+      "registration": "N862RW",
+      "hex": "abd7d1",
+      "type": "E170",
+      "livery": "DAL/connection",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://github.com/adsblol/globe_history_2026",
+          "title": "adsb.lol daily history (ODbL)",
+          "note": "Inferred from where it flies: 13 of 13 landings and departures at one partner's hubs over 14 days (tools/regional_partners.py)."
+        }
+      ],
+      "notes": "Registered to REPUBLIC AIRWAYS INC (FAA registry). Inferred from its flying, not seen: check against a photo."
+    },
+    {
+      "registration": "N863RW",
+      "hex": "abdb88",
+      "type": "E170",
+      "livery": "DAL/connection",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://github.com/adsblol/globe_history_2026",
+          "title": "adsb.lol daily history (ODbL)",
+          "note": "Inferred from where it flies: 10 of 10 landings and departures at one partner's hubs over 14 days (tools/regional_partners.py)."
+        }
+      ],
+      "notes": "Registered to REPUBLIC AIRWAYS INC (FAA registry). Inferred from its flying, not seen: check against a photo."
+    },
+    {
+      "registration": "N875RW",
+      "livery": "DAL/connection",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:DeltaConnection_Embraer_170_N875RW_departing_Boston_November_2025.jpg",
+          "title": "DeltaConnection Embraer 170 N875RW departing Boston November 2025.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2025-11-18: wears this scheme (checked by eye)."
+        },
+        {
+          "url": "https://registry.faa.gov/database/ReleasableAircraft.zip",
+          "title": "FAA Releasable Aircraft Database (MASTER.txt)",
+          "accessed": "2026-11-13",
+          "note": "Registered to Delta Air Lines Inc (the partner's own jet)."
+        }
+      ],
+      "hex": "ac0a75",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E170",
+      "lastSeen": "2026-11-14",
+      "status": "Commons photo 2025-11-18"
+    },
+    {
+      "registration": "N878RW",
+      "livery": "DAL/connection",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://registry.faa.gov/database/ReleasableAircraft.zip",
+          "title": "FAA Releasable Aircraft Database (MASTER.txt)",
+          "accessed": "2026-11-13",
+          "note": "Registered to Delta Air Lines Inc: the partner's own jet, in its paint."
+        }
+      ],
+      "hex": "ac159a",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E170",
+      "notes": "Operator not shown in the registry: Delta's own E170/E175s in the JQ/RW/YX series are flown by Republic (others in the series photographed 2025-2026 as Republic Delta Connection). No dated photo of this airframe found."
+    },
+    {
+      "registration": "N879RW",
+      "livery": "DAL/connection",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Delta_Connection_(Republic)_Embraer_170_N879RW_departing_Boston_April_2025.jpg",
+          "title": "Delta Connection (Republic) Embraer 170 N879RW departing Boston April 2025.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2025-04-01: wears this scheme (checked by eye)."
+        },
+        {
+          "url": "https://registry.faa.gov/database/ReleasableAircraft.zip",
+          "title": "FAA Releasable Aircraft Database (MASTER.txt)",
+          "accessed": "2026-11-13",
+          "note": "Registered to Delta Air Lines Inc (the partner's own jet)."
+        }
+      ],
+      "hex": "ac1951",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E170",
+      "lastSeen": "2025-04-01",
+      "status": "Commons photo 2025-04-01"
+    },
+    {
+      "registration": "N880RW",
+      "livery": "DAL/connection",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:DeltaConnection_Embraer_170_N880RW_on_final_approach_to_Boston_December_2025.jpg",
+          "title": "DeltaConnection Embraer 170 N880RW on final approach to Boston December 2025.jpg",
+          "accessed": "2026-11-13",
+          "note": "Dated 2025-12-31: wears this scheme (checked by eye)."
+        },
+        {
+          "url": "https://registry.faa.gov/database/ReleasableAircraft.zip",
+          "title": "FAA Releasable Aircraft Database (MASTER.txt)",
+          "accessed": "2026-11-13",
+          "note": "Registered to Delta Air Lines Inc (the partner's own jet)."
+        }
+      ],
+      "hex": "ac1f61",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E170",
+      "lastSeen": "2025-12-31",
+      "status": "Commons photo 2025-12-31"
+    },
+    {
+      "registration": "N882RW",
+      "livery": "DAL/connection",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://registry.faa.gov/database/ReleasableAircraft.zip",
+          "title": "FAA Releasable Aircraft Database (MASTER.txt)",
+          "accessed": "2026-11-13",
+          "note": "Registered to Delta Air Lines Inc: the partner's own jet, in its paint."
+        }
+      ],
+      "hex": "ac26cf",
+      "hexSource": "FAA registry MASTER.txt Mode S code (downloaded 2026-11-13)",
+      "type": "E170",
+      "notes": "Operator not shown in the registry: Delta's own E170/E175s in the JQ/RW/YX series are flown by Republic (others in the series photographed 2025-2026 as Republic Delta Connection). No dated photo of this airframe found.",
+      "lastSeen": "2026-11-14"
+    }
+  ]
+}

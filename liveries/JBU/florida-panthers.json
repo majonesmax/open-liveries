@@ -1,0 +1,38 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "florida-panthers",
+  "airline": "JBU",
+  "name": "Florida Panthers (Go Cats Go)",
+  "kind": "special",
+  "confidence": "medium",
+  "from": "2026-11-05",
+  "commemorates": "JetBlue's expanded, multi-year partnership with the NHL's Florida Panthers (Stanley Cup champions 2024 and 2025) and its South Florida roots; Broward County's largest airline.",
+  "description": "After the Panthers' jersey. Fuselage: Panthers red all over above a white belly, with 'FLORIDA' in bold red capitals along the belly (the jersey's white stripe) and the team's leaping-cat logo underneath too. 'jetBlue' in white over the forward windows; just behind it a large gold panther outlined in navy prowls forward across the window line, its tail curling up over the wing. Near the front, the Panthers' simplified Florida flag (the jersey's shoulder patch); elsewhere a palm tree and hockey stick, the team's old secondary logo; the registration with a small US flag over the aft windows, 'AIRBUS A320' under them. Tail: navy and gold, carrying the Panthers' shield logo (a snarling panther's head) big across it, a red tip. Engines navy; wingtip fences navy. Named 'Go Cats Go' (it was 'Blue And Infinity And Beyond').",
+  "sources": [
+    {
+      "url": "https://www.businesswire.com/news/home/20261105573491/en/",
+      "title": "JetBlue and the Florida Panthers Take South Florida Dedication to New Heights with New Aircraft Design (JetBlue via Business Wire, 2026-11-05)",
+      "accessed": "2026-11-22",
+      "note": "JetBlue's release: 'Go Cats Go', an A320, revealed that day at FLL; red body, the panther beside JetBlue's logo, the navy-and-gold shield on the tail, 'FLORIDA' in red on a white belly with the leaping cat, the simplified Florida flag near the front, a palm tree and hockey stick. Business Wire, its media files and news.jetblue.com all refused automated access (403 / a Cloudflare challenge), so the text was read in Finviz's verbatim reprint (next) and no press image could be measured."
+    },
+    {
+      "url": "https://finviz.com/news/417084/jetblue-and-the-florida-panthers-take-south-florida-dedication-to-new-heights-with-new-aircraft-design",
+      "title": "Finviz: reprint of the Business Wire release (2026-11-05, 8:00 AM)",
+      "accessed": "2026-11-22",
+      "note": "Verbatim reprint of JetBlue's release, with its date and the press kit's image names (Panthers_-_4_-_High_Res.jpg)."
+    },
+    {
+      "url": "https://airlinegeeks.com/2026/11/06/livery-of-the-week-jetblues-florida-panthers-design/",
+      "title": "AirlineGeeks: Livery of the Week: JetBlue's Florida Panthers Design (2026-11-06)",
+      "accessed": "2026-11-22",
+      "note": "Evidence only: names the jet N784JB (delivered 2011-02-11), renamed from 'Blue And Infinity And Beyond' to 'Go Cats Go'. Its header photo (credited JetBlue, three-quarter from above on an apron) shows N784JB lettered on the jet, the navy engines and fin, the gold panther and the red tip: used for the description only, as it isn't JetBlue's own release."
+    },
+    {
+      "url": "https://www.wptv.com/sports/hockey/panthers/new-reimagined-florida-panthers-jetblue-plane-debuts-in-fort-lauderdale",
+      "title": "WPTV: New reimagined Florida Panthers JetBlue plane debuts in Fort Lauderdale (2026-11)",
+      "accessed": "2026-11-22",
+      "note": "Evidence only: revealed on the Thursday (2026-11-05) at the Jetscape hangar at FLL."
+    }
+  ],
+  "notes": "Described only, not drawn: there's no openly licensed photo of N784JB in this scheme (Commons has it only in the standard, the newest from April 2025), and JetBlue's own release and press photos couldn't be fetched (Business Wire and news.jetblue.com block automated access). The photos seen (AirlineGeeks' header, credited to JetBlue, and JetBlue's X post) are evidence only. Draw it from the Business Wire press-kit photo once it can be fetched by hand, or a Commons photo. An app draws the JBU default until then."
+}

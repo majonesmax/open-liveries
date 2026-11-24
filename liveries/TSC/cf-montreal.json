@@ -1,0 +1,506 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "cf-montreal",
+  "airline": "TSC",
+  "name": "CF Montréal",
+  "kind": "special",
+  "from": "2024-09",
+  "confidence": "medium",
+  "drawnOn": "A21N",
+  "description": "A321neo (LR)s C-GOKE (fin 716) and C-GOKG (fin 718) in Air Transat's scheme with CF Montréal's colours on the rear fuselage: behind the wing a navy field rises from the belly to the crown at the fin's root, ahead of a curved white stripe and then Transat's blue, which covers the tail cone; CF Montréal's round crest (a navy roundel ringed in white, 'CF MONTRÉAL' over and '1993' under a black disc with the club's white emblem) large on the navy over the wing's trailing edge; a darker blue star outline low in the blue; the fin, titles and winglets as Air Transat's standard.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:C-GOKE_FLL_Flaring_28R_TS_A321_271_NX_CF_Montreal_Small_(54417127457).png",
+      "title": "C-GOKE FLL Flaring 28R TS A321 271 NX CF Montreal Small (54417127457).png (CC BY-SA 2.0, Mark Bess)",
+      "accessed": "2026-11-22",
+      "note": "Left side landing at Fort Lauderdale, 2025-03-29, side-on: fitted to the measured A321neo shape (nose, tail, fin tip, both passenger doors; about 15 px off, so positions along the body were read between the doors). The navy field's edges, the white stripe and the crest read off it."
+    },
+    {
+      "url": "https://www.aerotelegraph.com/air-transat-verpasst-airbus-a321-lr-fussball-sonderlackierung",
+      "title": "aeroTELEGRAPH: Air Transat verpasst Airbus A321 LR Fußball-Sonderlackierung (2024-10-03)",
+      "accessed": "2026-11-22",
+      "note": "The CF Montréal livery on C-GOKE, unveiled at the end of September 2024 for the club's partnership with Air Transat."
+    },
+    {
+      "url": "https://openjaw.com/supplier-hub/2024/09/27/air-transat-unveils-cf-montreal-livery",
+      "title": "OpenJaw: Air Transat unveils CF Montréal livery (2024-09-27)",
+      "accessed": "2026-11-22",
+      "note": "The partnership began in 2024; the livery on one A321LR."
+    },
+    {
+      "url": "https://wwwapps.tc.gc.ca/saf-sec-sur/2/ccarcs-riacc/RchSimpRes.aspx?cn=%7c%7c&mn=%7c%7c&sn=%7c%7c&on=%7c%7c&m=%7cGOKE%7c&cl=&ls=&lang=en",
+      "title": "Transport Canada, Canadian Civil Aircraft Register: C-GOKE",
+      "accessed": "2026-11-22",
+      "note": "A321-271NX msn 11802, Air Transat A.T. Inc., registered 2024-05-29; 24-bit address C06AA9."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A321-271NXLR_(c-n_11883,_C-GOKG)_2026-07-31_Andre_Gerwing_Collection_ID_030658.jpg",
+      "title": "Airbus A321-271NXLR (c/n 11883, C-GOKG) 2026-07-31 Andre Gerwing Collection ID 030658.jpg (CC BY-SA 4.0, André Gerwing)",
+      "accessed": "2026-11-22",
+      "note": "C-GOKG (fin 718), left side on approach 2026-07-31, in the same scheme: fitted to the A321neo shape (within 13 px), the drawn areas laid over it agree with its navy and stripe within a few tens of centimetres."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#ECEFEF",
+      "official": false
+    },
+    "blue": {
+      "hex": "#1A80BE",
+      "official": false,
+      "name": "Transat blue"
+    },
+    "gray": {
+      "hex": "#C9CED3",
+      "official": false,
+      "name": "pale gray band"
+    },
+    "title": {
+      "hex": "#3FA4DB",
+      "official": false,
+      "name": "'Air': light blue"
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false
+    },
+    "flagRed": {
+      "hex": "#D52B1E",
+      "official": false
+    },
+    "navy": {
+      "hex": "#1D2B55",
+      "official": false,
+      "name": "'transat': navy"
+    },
+    "cfNavy": {
+      "hex": "#1F3A8A",
+      "official": false,
+      "name": "CF Montréal's navy blue"
+    },
+    "black": {
+      "hex": "#14171B",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "CF Montréal navy from the belly behind the wing up to the crown at the fin's root",
+        "color": "cfNavy",
+        "smooth": true,
+        "points": [
+          [
+            0.572,
+            -1,
+            1
+          ],
+          [
+            0.588,
+            -0.625
+          ],
+          [
+            0.623,
+            -0.025
+          ],
+          [
+            0.65,
+            0.217
+          ],
+          [
+            0.691,
+            0.351
+          ],
+          [
+            0.748,
+            0.567
+          ],
+          [
+            0.815,
+            0.989
+          ],
+          [
+            0.818,
+            1,
+            1
+          ],
+          [
+            0.805,
+            0.757
+          ],
+          [
+            0.762,
+            0.328
+          ],
+          [
+            0.719,
+            -0.044
+          ],
+          [
+            0.679,
+            -0.467
+          ],
+          [
+            0.663,
+            -1,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          4
+        ]
+      },
+      {
+        "name": "curved white stripe between the navy and the blue",
+        "color": "white",
+        "smooth": true,
+        "points": [
+          [
+            0.663,
+            -1,
+            1
+          ],
+          [
+            0.679,
+            -0.467
+          ],
+          [
+            0.719,
+            -0.044
+          ],
+          [
+            0.762,
+            0.328
+          ],
+          [
+            0.805,
+            0.757
+          ],
+          [
+            0.818,
+            1,
+            1
+          ],
+          [
+            0.832,
+            1,
+            1
+          ],
+          [
+            0.815,
+            0.685
+          ],
+          [
+            0.772,
+            0.295
+          ],
+          [
+            0.734,
+            -0.04
+          ],
+          [
+            0.695,
+            -0.452
+          ],
+          [
+            0.68,
+            -1,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          4
+        ]
+      },
+      {
+        "name": "Transat blue aft of the stripe and the tail cone",
+        "color": "blue",
+        "smooth": true,
+        "points": [
+          [
+            0.68,
+            -1,
+            1
+          ],
+          [
+            0.695,
+            -0.452
+          ],
+          [
+            0.734,
+            -0.04
+          ],
+          [
+            0.772,
+            0.295
+          ],
+          [
+            0.815,
+            0.685
+          ],
+          [
+            0.832,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            -1,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          4
+        ]
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      4
+    ]
+  },
+  "fin": {
+    "base": "blue",
+    "areas": [],
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "blue",
+    "inner": "blue",
+    "confidence": "medium",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "low",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "titles": [
+    {
+      "text": "Air",
+      "place": "fuselage",
+      "at": [
+        0.137,
+        0.25
+      ],
+      "height": 0.34,
+      "color": "title",
+      "style": "'Air' in bold light blue, rounded sans, over the forward windows behind the door. As on Air Transat's standard (TSC/standard), checked on the left side.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Bold",
+          "Gotham Rounded Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      },
+      "length": 0.05,
+      "side": "left"
+    },
+    {
+      "text": "transat",
+      "place": "fuselage",
+      "at": [
+        0.191,
+        0.25
+      ],
+      "height": 0.34,
+      "color": "navy",
+      "style": "'transat' straight after, lower case, semibold, in navy. As on Air Transat's standard (TSC/standard), checked on the left side.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Demi Bold",
+          "Gotham Rounded Medium"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.72
+      },
+      "length": 0.111,
+      "side": "left"
+    },
+    {
+      "text": "Air",
+      "place": "fuselage",
+      "at": [
+        0.252,
+        0.25
+      ],
+      "height": 0.34,
+      "color": "title",
+      "style": "'Air' in bold light blue, rounded sans, over the forward windows behind the door. As on Air Transat's standard (TSC/standard), checked on the left side.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Bold",
+          "Gotham Rounded Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      },
+      "length": 0.05,
+      "side": "right"
+    },
+    {
+      "text": "transat",
+      "place": "fuselage",
+      "at": [
+        0.137,
+        0.25
+      ],
+      "height": 0.34,
+      "color": "navy",
+      "style": "'transat' straight after, lower case, semibold, in navy. As on Air Transat's standard (TSC/standard), checked on the left side.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Demi Bold",
+          "Gotham Rounded Medium"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.72
+      },
+      "length": 0.111,
+      "side": "right"
+    }
+  ],
+  "logos": [
+    {
+      "mark": "TSC/star",
+      "place": "fin",
+      "at": [
+        0.507,
+        0.186
+      ],
+      "height": 0.6,
+      "colors": [
+        "white",
+        "blue"
+      ],
+      "description": "The Transat star: a large five-pointed star drawn as a thick white outline with blue inside, slightly tilted, on the aft fin, its lower point running down across the rear fuselage.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Air_Transat_logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0
+      ]
+    },
+    {
+      "mark": "TSC/star",
+      "place": "winglets",
+      "at": [
+        0.5,
+        0.5
+      ],
+      "height": 0.3,
+      "colors": [
+        "white"
+      ],
+      "description": "A small star outline on the winglet.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ]
+    },
+    {
+      "mark": "TSC/canada-flag",
+      "place": "fuselage",
+      "at": [
+        0.092,
+        0.148
+      ],
+      "height": 0.128,
+      "colors": [
+        "flagRed",
+        "white"
+      ],
+      "description": "A small Canadian flag behind the cockpit.",
+      "confidence": "low",
+      "sourceRefs": [
+        0
+      ]
+    },
+    {
+      "mark": "TSC/cf-montreal-crest",
+      "place": "fuselage",
+      "at": [
+        0.654,
+        0.03
+      ],
+      "height": 0.95,
+      "colors": [
+        "cfNavy",
+        "white",
+        "black"
+      ],
+      "description": "CF Montréal's crest drawn as our own simplified mark: a navy roundel with a white ring, 'CF MONTRÉAL' round its top and '1993' at its foot, a black disc in the middle with the club's white emblem (a stylised fleur-de-lis). Large on the navy behind the wing, reaching above it into the white.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ]
+    }
+  ],
+  "notes": "Left side only (C-GOKE 2025-03-29, C-GOKG 2026-07-31; the press pieces' photos weren't used): the right side is assumed the same, the crest facing forward. The navy's front edge behind the crest is hidden and drawn as a smooth run between where it shows. Not drawn: the darker blue star outline low in the blue (part of the Transat star motif), the registration. The fin's Transat star, titles and winglets are TSC/standard's. Current: C-GOKG in it on 2026-07-31. The stripe between the navy and the blue reads white on C-GOKE and pale silver-grey on C-GOKG (light, or a metallic ink): drawn white.",
+  "history": "New 2026-11-22. Unveiled at the end of September 2024 for Air Transat's partnership with the Montréal football club."
+}

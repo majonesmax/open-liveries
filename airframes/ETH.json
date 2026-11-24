@@ -1,0 +1,307 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "ETH",
+  "airframes": [
+    {
+      "registration": "ET-APS",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Ethiopian_Airlines_Cargo",
+          "title": "Commons: Current Boeing 777F of Ethiopian Airlines Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:ET-APS_(aircraft)",
+          "title": "Commons: ET-APS (aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Ethiopian_Airlines_fleet",
+          "title": "Wikipedia: Ethiopian Airlines fleet (Nov 2025: 12 777F)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "type": "B77L",
+      "hex": "040060",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register"
+    },
+    {
+      "registration": "ET-APU",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Ethiopian_Airlines_Cargo",
+          "title": "Commons: Current Boeing 777F of Ethiopian Airlines Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:ET-APU_(aircraft)",
+          "title": "Commons: ET-APU (aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Ethiopian_Airlines_fleet",
+          "title": "Wikipedia: Ethiopian Airlines fleet (Nov 2025: 12 777F)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "type": "B77L",
+      "hex": "040062",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register"
+    },
+    {
+      "registration": "ET-ARI",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Ethiopian_Airlines_Cargo",
+          "title": "Commons: Current Boeing 777F of Ethiopian Airlines Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:ET-ARI_(aircraft)",
+          "title": "Commons: ET-ARI (aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Ethiopian_Airlines_fleet",
+          "title": "Wikipedia: Ethiopian Airlines fleet (Nov 2025: 12 777F)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "type": "B77L",
+      "hex": "04008b",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "ET-ARJ",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Ethiopian_Airlines_Cargo",
+          "title": "Commons: Current Boeing 777F of Ethiopian Airlines Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:ET-ARJ_(aircraft)",
+          "title": "Commons: ET-ARJ (aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Ethiopian_Airlines_fleet",
+          "title": "Wikipedia: Ethiopian Airlines fleet (Nov 2025: 12 777F)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "type": "B77L",
+      "hex": "04008c",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register"
+    },
+    {
+      "registration": "ET-ARK",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Ethiopian_Airlines_Cargo",
+          "title": "Commons: Current Boeing 777F of Ethiopian Airlines Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:ET-ARK_(aircraft)",
+          "title": "Commons: ET-ARK (aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Ethiopian_Airlines_fleet",
+          "title": "Wikipedia: Ethiopian Airlines fleet (Nov 2025: 12 777F)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "type": "B77L",
+      "hex": "04008d",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register"
+    },
+    {
+      "registration": "ET-AVN",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Ethiopian_Airlines_Cargo",
+          "title": "Commons: Current Boeing 777F of Ethiopian Airlines Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:ET-AVN_(aircraft)",
+          "title": "Commons: ET-AVN (aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Ethiopian_Airlines_fleet",
+          "title": "Wikipedia: Ethiopian Airlines fleet (Nov 2025: 12 777F)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "type": "B77L",
+      "hex": "040156",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register"
+    },
+    {
+      "registration": "ET-AVQ",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Ethiopian_Airlines_Cargo",
+          "title": "Commons: Current Boeing 777F of Ethiopian Airlines Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:ET-AVQ_(aircraft)",
+          "title": "Commons: ET-AVQ (aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Ethiopian_Airlines_fleet",
+          "title": "Wikipedia: Ethiopian Airlines fleet (Nov 2025: 12 777F)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "type": "B77L",
+      "hex": "040159",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "ET-AVT",
+      "livery": "cargo",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Ethiopian_Airlines_Cargo",
+          "title": "Commons: Current Boeing 777F of Ethiopian Airlines Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:ET-AVT_(aircraft)",
+          "title": "Commons: ET-AVT (aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Ethiopian_Airlines_fleet",
+          "title": "Wikipedia: Ethiopian Airlines fleet (Nov 2025: 12 777F)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "type": "B77L",
+      "hex": "04015c",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "status": "Commons photos at Zhengzhou, 2026-10-01."
+    },
+    {
+      "registration": "ET-AWE",
+      "livery": "cargo",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Ethiopian_Airlines_Cargo",
+          "title": "Commons: Current Boeing 777F of Ethiopian Airlines Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:ET-AWE_(aircraft)",
+          "title": "Commons: ET-AWE (aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Ethiopian_Airlines_fleet",
+          "title": "Wikipedia: Ethiopian Airlines fleet (Nov 2025: 12 777F)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "type": "B77L",
+      "hex": "040168",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "status": "Commons photo, 2026-05-06.",
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "ET-BAA",
+      "livery": "cargo",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Ethiopian_Airlines_Cargo",
+          "title": "Commons: Current Boeing 777F of Ethiopian Airlines Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:ET-BAA_(aircraft)",
+          "title": "Commons: ET-BAA (aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Ethiopian_Airlines_fleet",
+          "title": "Wikipedia: Ethiopian Airlines fleet (Nov 2025: 12 777F)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "type": "B77L",
+      "hex": "04022a",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "status": "Commons photos at East Midlands, 2025-05-25."
+    },
+    {
+      "registration": "ET-BAB",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Ethiopian_Airlines_Cargo",
+          "title": "Commons: Current Boeing 777F of Ethiopian Airlines Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:ET-BAB_(aircraft)",
+          "title": "Commons: ET-BAB (aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Ethiopian_Airlines_fleet",
+          "title": "Wikipedia: Ethiopian Airlines fleet (Nov 2025: 12 777F)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "type": "B77L",
+      "hex": "04022b",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register"
+    },
+    {
+      "registration": "ET-BBF",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_767-300F_of_Ethiopian_Airlines_Cargo",
+          "title": "Commons: Current Boeing 767-300F of Ethiopian Airlines Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:ET-BBF_(aircraft)",
+          "title": "Commons: ET-BBF (aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "type": "B763",
+      "status": "Commons photo at Maastricht, 2026-03-19, in the cargo scheme.",
+      "notes": "Hex not in hexdb.io."
+    }
+  ]
+}

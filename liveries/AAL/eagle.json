@@ -1,0 +1,561 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "eagle",
+  "airline": "AAL",
+  "name": "American Eagle (2013 livery)",
+  "kind": "standard",
+  "from": "2013-01",
+  "confidence": "high",
+  "drawnOn": "E75L",
+  "description": "American's 2013 scheme on the American Eagle regional jets: silver all over, the flag fin with its stripes wrapping round the aft fuselage, silver engines; the Flight Symbol and 'American Eagle' in dark charcoal mixed case, below the forward windows.",
+  "sources": [
+    {
+      "url": "https://github.com/majonesmax/open-liveries/blob/main/liveries/AAL/standard.json",
+      "title": "Open Liveries: AAL/standard",
+      "accessed": "2026-11-13",
+      "note": "The mainline scheme this variant starts from: its fuselage, fin, engine and logo geometry are kept except where the regional photos differ."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/American_Airlines",
+      "title": "Wikipedia: American Airlines (livery history)",
+      "accessed": "2026-11-13",
+      "note": "Introduction of the livery and Flight Symbol."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:American_Airbus_A321neo_N434AN_on_final_approach_to_Boston_December_2025.jpg",
+      "title": "American Airbus A321neo N434AN on final approach to Boston December 2025.jpg (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "N434AN left side, 2025-12-31: all geometry, titles, Flight Symbol, fin stripes."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:American_Airlines_Airbus_A321neo_N455AN_departing_Boston_March_2025_1.jpg",
+      "title": "American Airlines Airbus A321neo N455AN departing Boston March 2025 1.jpg (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "N455AN right side from below, 2025-03-11: the stripes wrap under the tail cone; the belly plain silver."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N506SY_(55105952483).jpg",
+      "title": "N506SY (55105952483).jpg",
+      "accessed": "2026-11-13",
+      "note": "N506SY (E175, SkyWest), left side, 2026-02-16: title, Flight Symbol, flag measured here (CC BY-SA 4.0). Re-measured 2026-11-16 against the window line: the title's capitals start just under the windows' bottoms and stand about 2.4 window heights tall; the Flight Symbol from about the windows' bottoms to the baseline."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N872DC_(55105748626).jpg",
+      "title": "N872DC (55105748626).jpg",
+      "accessed": "2026-11-13",
+      "note": "N872DC (CRJ700, SkyWest), 2026-02-16: the same scheme on a CRJ (CC BY-SA 4.0); 2026-11-16: the title and Flight Symbol below the window row as on the E175 (capitals about 2.35 window heights)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:American_Eagle_(Envoy)_Embraer_ERJ-145_N696AE_departing_Boston_April_2025.jpg",
+      "title": "American Eagle (Envoy) Embraer ERJ-145 N696AE departing Boston April 2025.jpg (4300streetcar, CC BY 4.0)",
+      "accessed": "2026-11-16",
+      "note": "N696AE (ERJ-145, Envoy), left side from below, 2025-04: the title and Flight Symbol under the window row on the ERJ-145 too, so the placement is the scheme's, not one type's."
+    }
+  ],
+  "palette": {
+    "silver": {
+      "hex": "#C6CBD3",
+      "official": false,
+      "name": "silver (mica) fuselage"
+    },
+    "red": {
+      "hex": "#E0303A",
+      "official": false
+    },
+    "blue": {
+      "hex": "#1866AE",
+      "official": false,
+      "name": "flag blue"
+    },
+    "lightBlue": {
+      "hex": "#7FB0E0",
+      "official": false,
+      "name": "light lines in the blue"
+    },
+    "white": {
+      "hex": "#E9ECEF",
+      "official": false,
+      "name": "stripe white"
+    },
+    "title": {
+      "hex": "#3E4A5A",
+      "official": false,
+      "name": "title charcoal"
+    },
+    "symRed": {
+      "hex": "#C8213A",
+      "official": false,
+      "name": "Flight Symbol red"
+    },
+    "symBlue": {
+      "hex": "#3FA2DE",
+      "official": false,
+      "name": "Flight Symbol blue"
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false,
+      "name": "polished inlet lip"
+    },
+    "flagNavy": {
+      "hex": "#1F2A5C",
+      "official": false
+    }
+  },
+  "finish": "metallic",
+  "fuselage": {
+    "base": "silver",
+    "areas": [
+      {
+        "name": "stripes' white ground wrapping round the aft door",
+        "color": "white",
+        "points": [
+          [
+            0.836,
+            1
+          ],
+          [
+            0.792,
+            -0.29
+          ],
+          [
+            1,
+            -0.29
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "red stripe over the aft door",
+        "color": "red",
+        "points": [
+          [
+            0.83,
+            0.6
+          ],
+          [
+            0.818,
+            0.36
+          ],
+          [
+            1,
+            0.36
+          ],
+          [
+            1,
+            0.6
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "red stripe through the aft door",
+        "color": "red",
+        "points": [
+          [
+            0.812,
+            0.138
+          ],
+          [
+            0.8,
+            -0.135
+          ],
+          [
+            1,
+            -0.135
+          ],
+          [
+            1,
+            0.138
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2
+        ]
+      }
+    ],
+    "radome": {
+      "color": "silver"
+    },
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "rudder": "white",
+    "areas": [
+      {
+        "name": "red stripe (tip)",
+        "color": "red",
+        "points": [
+          [
+            0,
+            0.905
+          ],
+          [
+            1,
+            0.905
+          ],
+          [
+            1,
+            1.0
+          ],
+          [
+            0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "name": "red stripe",
+        "color": "red",
+        "points": [
+          [
+            0,
+            0.644
+          ],
+          [
+            1,
+            0.644
+          ],
+          [
+            1,
+            0.775
+          ],
+          [
+            0,
+            0.775
+          ]
+        ]
+      },
+      {
+        "name": "red stripe",
+        "color": "red",
+        "points": [
+          [
+            0,
+            0.383
+          ],
+          [
+            1,
+            0.383
+          ],
+          [
+            1,
+            0.514
+          ],
+          [
+            0,
+            0.514
+          ]
+        ]
+      },
+      {
+        "name": "red stripe",
+        "color": "red",
+        "points": [
+          [
+            0,
+            0.117
+          ],
+          [
+            1,
+            0.117
+          ],
+          [
+            1,
+            0.252
+          ],
+          [
+            0,
+            0.252
+          ]
+        ]
+      },
+      {
+        "name": "blue field (the flag's canton) along the leading edge",
+        "color": "blue",
+        "points": [
+          [
+            0,
+            0.12
+          ],
+          [
+            0.48,
+            0.12
+          ],
+          [
+            0.5,
+            1.0
+          ],
+          [
+            0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "name": "thin light line across the blue",
+        "color": "lightBlue",
+        "points": [
+          [
+            0,
+            0.238
+          ],
+          [
+            0.49,
+            0.238
+          ],
+          [
+            0.49,
+            0.262
+          ],
+          [
+            0,
+            0.262
+          ]
+        ],
+        "confidence": "low"
+      },
+      {
+        "name": "thin light line across the blue",
+        "color": "lightBlue",
+        "points": [
+          [
+            0,
+            0.368
+          ],
+          [
+            0.49,
+            0.368
+          ],
+          [
+            0.49,
+            0.392
+          ],
+          [
+            0,
+            0.392
+          ]
+        ],
+        "confidence": "low"
+      },
+      {
+        "name": "thin light line across the blue",
+        "color": "lightBlue",
+        "points": [
+          [
+            0,
+            0.503
+          ],
+          [
+            0.49,
+            0.503
+          ],
+          [
+            0.49,
+            0.527
+          ],
+          [
+            0,
+            0.527
+          ]
+        ],
+        "confidence": "low"
+      },
+      {
+        "name": "thin light line across the blue",
+        "color": "lightBlue",
+        "points": [
+          [
+            0,
+            0.633
+          ],
+          [
+            0.49,
+            0.633
+          ],
+          [
+            0.49,
+            0.657
+          ],
+          [
+            0,
+            0.657
+          ]
+        ],
+        "confidence": "low"
+      },
+      {
+        "name": "thin light line across the blue",
+        "color": "lightBlue",
+        "points": [
+          [
+            0,
+            0.763
+          ],
+          [
+            0.49,
+            0.763
+          ],
+          [
+            0.49,
+            0.787
+          ],
+          [
+            0,
+            0.787
+          ]
+        ],
+        "confidence": "low"
+      },
+      {
+        "name": "thin light line across the blue",
+        "color": "lightBlue",
+        "points": [
+          [
+            0,
+            0.888
+          ],
+          [
+            0.49,
+            0.888
+          ],
+          [
+            0.49,
+            0.912
+          ],
+          [
+            0,
+            0.912
+          ]
+        ],
+        "confidence": "low"
+      }
+    ],
+    "mirrored": true,
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "silver",
+    "inner": "silver",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "silver",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "AAL/flight-symbol",
+      "place": "fuselage",
+      "at": [
+        0.2305,
+        0.0
+      ],
+      "height": 0.36,
+      "colors": [
+        "symRed",
+        "symBlue"
+      ],
+      "description": "The Flight Symbol ahead of 'American': a red lower wedge and a light-blue upper wedge, both slanting up and aft, split by a white cut (an abstract eagle's head / 'A'). Faces forward on both sides.",
+      "reference": "https://commons.wikimedia.org/wiki/File:American_Airlines_logo_2013.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "mark": "AAL/us-flag",
+      "place": "fuselage",
+      "at": [
+        0.665,
+        -0.03
+      ],
+      "height": 0.15,
+      "colors": [
+        "red",
+        "white",
+        "flagNavy"
+      ],
+      "description": "A small US flag ahead of the registration on the rear fuselage.",
+      "confidence": "medium",
+      "sourceRefs": [
+        4
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "American Eagle",
+      "place": "fuselage",
+      "at": [
+        0.249,
+        -0.2
+      ],
+      "height": 0.34,
+      "color": "title",
+      "style": "American's wordmark with 'Eagle' added in the same letters: upright semibold mixed case in charcoal, below the window line from behind the Flight Symbol, its capitals starting just under the windows.",
+      "confidence": "high",
+      "sourceRefs": [
+        4,
+        5,
+        6
+      ],
+      "type": {
+        "similar": [
+          "Gotham Medium",
+          "Avenir Next Demi Bold"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "official": "American Sans",
+        "xHeight": 0.72
+      },
+      "length": 0.2
+    }
+  ],
+  "notes": "Measured on the E175 N506SY (left, Feb 2026), checked on the CRJ700 N872DC. On the E175 the title is smaller than the mainline's 'American' and sits below the windows. The small 'Operated by SkyWest' (or the operator's name) under the cockpit is not drawn. Positions are measured on E175s, whose window line is higher (y about 0.3) than the narrow-body average in COORDINATES.md, so titles placed above or below the windows sit higher than they would on a 737. Re-measured 2026-11-16 on the measured E175 (and E170, ERJ-145, CRJ) shapes: the title and Flight Symbol had been placed across the windows (baseline y 0.122, capitals 0.48); photos of the E175 N506SY, CRJ700 N872DC and ERJ-145 N696AE all have them below the window row, the capitals starting just under the windows' bottoms and about 2.4 window heights tall (baseline y -0.20, capitals 0.34 on the E175's windows at y 0.17-0.31), so the base scheme moved, not a per-type entry. Re-checked 2026-11-15: the title's length (x 0.248-0.452 on N506SY, an E175 seen a little from ahead, so within about 0.01) and the wordmark's lowercase height (0.72 of the capitals). No measured E175 shape yet.",
+  "history": "American Eagle jets took the 2013 scheme with the mainline, with 'Eagle' added to the title."
+}

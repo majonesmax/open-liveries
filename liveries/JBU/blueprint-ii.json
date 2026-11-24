@@ -1,0 +1,184 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "blueprint-ii",
+  "airline": "JBU",
+  "name": "Blueprint II",
+  "kind": "special",
+  "confidence": "medium",
+  "drawnOn": "BCS3",
+  "from": "2026-05",
+  "description": "All JetBlue blue, nose to tail, fin, engines and winglets, drawn over in thin white and coloured line art like a blueprint of the aircraft: the cabin's floor line, frames and doors, seats, bags, bikes and other things carried, in outline. 'jetBlue' in large white letters over the forward windows. The fin carries a few thin white construction lines along its leading edge and tip.",
+  "sources": [
+    {
+      "url": "https://www.barchart.com/story/news/1958695/returning-to-the-runway-jetblue-debuts-blueprint-ii-on-an-airbus-a220",
+      "title": "JetBlue: Returning to the Runway: JetBlue Debuts Blueprint II on an Airbus A220 (Business Wire, 2026-05-15)",
+      "accessed": "2026-11-22",
+      "note": "Blueprint II in scheduled service on a new A220 from May 2026; a reimagining of the 2017 E190 Blueprint."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:Blueprint_II_(aircraft)",
+      "title": "Blueprint II (aircraft) on Commons",
+      "accessed": "2026-11-22",
+      "note": "A220-300 N3308J, named Blueprint II."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:JetBlue_Airbus_A220-300_N3308J_on_final_approach_to_Boston_July_2026_2.jpg",
+      "title": "JetBlue Airbus A220-300 N3308J on final approach to Boston July 2026 2.jpg (CC BY 4.0)",
+      "accessed": "2026-11-22",
+      "note": "N3308J left side from below on final at Boston, 2026-07-08, side-on: fitted to shapes/BCS3.json (nose, tail, fin tip, crown, belly; within 5 px, 0.1 m). Colours and title measured on it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:JetBlue_Airbus_A220-300_N3308J_on_final_approach_to_Boston_July_2026_1.jpg",
+      "title": "JetBlue Airbus A220-300 N3308J on final approach to Boston July 2026 1.jpg (CC BY 4.0)",
+      "accessed": "2026-11-22",
+      "note": "N3308J, same approach, a moment earlier: the same."
+    }
+  ],
+  "palette": {
+    "blue": {
+      "hex": "#1A3FA8",
+      "official": false,
+      "name": "JetBlue blue (darker in shade, #4263B3 in sun on the fin)"
+    },
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false,
+      "name": "polished inlet lip"
+    },
+    "flagRed": {
+      "hex": "#B22234",
+      "official": false
+    },
+    "navy": {
+      "hex": "#14275A",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "blue",
+    "areas": [],
+    "radome": {
+      "color": "blue"
+    },
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      2,
+      3
+    ]
+  },
+  "fin": {
+    "base": "blue",
+    "rudder": "blue",
+    "mirrored": true,
+    "confidence": "high",
+    "sourceRefs": [
+      2,
+      3
+    ]
+  },
+  "stabilizer": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "blue",
+    "inner": "blue",
+    "confidence": "high",
+    "sourceRefs": [
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "blue",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "JBU/blueprint-lines",
+      "place": "fuselage",
+      "at": [
+        0.5,
+        -0.3
+      ],
+      "height": 1.0,
+      "colors": [
+        "white",
+        "blue"
+      ],
+      "description": "The blueprint line art over the whole fuselage: a thin white floor line under the windows nose to tail, frames and doors in outline, and below them outlines of seats, bags, bikes, musical instruments and other things carried, mostly white with touches of pink, red and orange. Linework only: the fuselage stays blue.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ]
+    },
+    {
+      "mark": "JBU/us-flag",
+      "place": "fuselage",
+      "at": [
+        0.668,
+        0.38
+      ],
+      "height": 0.12,
+      "colors": [
+        "flagRed",
+        "white",
+        "navy"
+      ],
+      "description": "A small US flag ahead of the registration over the rear windows.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "jetBlue",
+      "place": "fuselage",
+      "at": [
+        0.165,
+        0.027
+      ],
+      "height": 0.593,
+      "length": 0.157,
+      "color": "white",
+      "style": "The jetBlue wordmark, large, in white over the forward windows.",
+      "confidence": "high",
+      "sourceRefs": [
+        2
+      ],
+      "type": {
+        "similar": [
+          "Gotham Rounded Bold",
+          "VAG Rounded Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      }
+    }
+  ],
+  "notes": "Measured on N3308J's left side, 2026-07-08 (two photos a moment apart, the only open ones). The scheme's colour field is one blue; everything else is linework, described as a logo (docs/LOGOS.md) and not drawn as areas. 'Blueprint II' (small white script under the cockpit) and the registration aren't drawn. The first Blueprint (E190 N304JB, 2017) left with JetBlue's E190s, all retired by 9 Sep 2025."
+}

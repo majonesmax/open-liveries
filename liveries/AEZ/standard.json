@@ -1,0 +1,162 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "AEZ",
+  "name": "Tricolore",
+  "kind": "standard",
+  "confidence": "medium",
+  "drawnOn": "B738",
+  "description": "White aircraft. A green and a red pinstripe sweep up from under the nose to the window line, where the red ends under the title's A; the green runs on aft from behind the title, and both run straight along under the rear windows to the aft door. 'Aeroitalia' in green lower case under the forward windows, its big capital A in green and red rising across them. White fin with the Italian colours: a dark green band behind a thin white leading edge, a red strip along the rudder that meets it at the tip, and a light green swoosh curving up across the fin from its root to the trailing edge. White engines; white winglets with the A.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Aeroitalia,_9H-MDG,_Boeing_737-846_(54007403979).jpg",
+      "title": "Aeroitalia, 9H-MDG, Boeing 737-846 (CC BY-SA 2.0, Anna Zvereva)",
+      "accessed": "2026-11-21",
+      "note": "737-800 9H-MDG on approach, left side from a little below, 2024-08-23. Fitted to shapes/B738.json (doors pinned, within 9 px): the pinstripes read column by column, the title's ends and heights; the fin's edges measured against its leading and trailing edges in the photo."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:9H-FRA_Boeing_737-85F_Aeroitalia_Rome_FCO_15.6.23_(52990149413).jpg",
+      "title": "9H-FRA Boeing 737-85F Aeroitalia Rome FCO 15.6.23 (CC BY-SA 2.0, Colin Cooke Photo)",
+      "accessed": "2026-11-21",
+      "note": "Right side landing at Fiumicino, 2023-06-15: the same layout from the right (title forward, the fin's bands, white engines)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:AeroItalia_-_Roma_Fiumicino.jpg",
+      "title": "AeroItalia - Roma Fiumicino (CC BY 4.0, Saggittarius A)",
+      "accessed": "2026-11-21",
+      "note": "Two Aeroitalia 737s parked at Fiumicino, 2024-04-03: the fins as drawn."
+    }
+  ],
+  "palette": {
+    "white": { "hex": "#F3F4F2", "official": false },
+    "green": { "hex": "#3F7A4A", "name": "dark green", "official": false },
+    "lightGreen": { "hex": "#5FA35E", "name": "light green swoosh", "official": false },
+    "red": { "hex": "#D8343A", "official": false },
+    "lip": { "hex": "#C3C7CC", "official": false }
+  },
+  "fuselage": {
+    "base": "white",
+    "windows": "plain",
+    "areas": [
+      {
+        "name": "green pinstripe sweeping up from under the nose to the title",
+        "color": "green",
+        "smooth": true,
+        "points": [[0.05, -0.299, 1], [0.079, -0.1], [0.1015, 0.014], [0.124, 0.054], [0.147, 0.067], [0.171, 0.06, 1], [0.171, 0.028, 1], [0.148, 0.035], [0.125, 0.015], [0.102, -0.054], [0.0795, -0.217], [0.0575, -0.514, 1]],
+        "confidence": "high",
+        "sourceRefs": [0, 1]
+      },
+      {
+        "name": "red pinstripe under it, ending under the A",
+        "color": "red",
+        "smooth": true,
+        "points": [[0.073, -0.457, 1], [0.1026, -0.204], [0.1255, -0.156], [0.148, -0.087], [0.167, -0.05, 1], [0.167, -0.088, 1], [0.149, -0.138], [0.126, -0.196], [0.1035, -0.378], [0.081, -0.632, 1]],
+        "confidence": "high",
+        "sourceRefs": [0, 1]
+      },
+      {
+        "name": "green pinstripe from behind the title to the aft door",
+        "color": "green",
+        "points": [[0.338, 0.029], [0.403, 0.046], [0.565, 0.046], [0.774, -0.042], [0.795, -0.07], [0.795, -0.119], [0.775, -0.09], [0.5655, -0.004], [0.403, -0.003], [0.338, -0.002]],
+        "confidence": "high",
+        "sourceRefs": [0, 1]
+      },
+      {
+        "name": "red pinstripe from behind the wing to the aft door",
+        "color": "red",
+        "points": [[0.469, -0.103], [0.543, -0.132], [0.775, -0.208], [0.798, -0.248], [0.799, -0.317], [0.776, -0.272], [0.543, -0.175], [0.469, -0.159]],
+        "confidence": "medium",
+        "sourceRefs": [0, 1]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [0, 1]
+  },
+  "fin": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "red strip along the rudder, narrowing to the tip",
+        "color": "red",
+        "smooth": true,
+        "points": [[0.735, 0, 1], [0.72, 0.065], [0.66, 0.313], [0.57, 0.562], [0.389, 0.826], [0.36, 0.88], [0.34, 1, 1], [1, 1], [1, 0]],
+        "confidence": "medium",
+        "sourceRefs": [0, 1, 2]
+      },
+      {
+        "name": "dark green band behind a thin white leading edge, meeting the red at the tip",
+        "color": "green",
+        "smooth": true,
+        "points": [[0.04, 0, 1], [0.06, 0.35], [0.15, 1, 1], [0.36, 1, 1], [0.375, 0.826], [0.356, 0.562], [0.331, 0.328], [0.249, 0.129], [0.2, 0, 1]],
+        "confidence": "medium",
+        "sourceRefs": [0, 1, 2]
+      },
+      {
+        "name": "light green swoosh from the root curving up to the trailing edge, over the red",
+        "color": "lightGreen",
+        "smooth": true,
+        "points": [[0.03, 0, 1], [0.01, 0.065], [0.067, 0.199], [0.212, 0.279], [0.428, 0.363], [0.657, 0.393], [0.87, 0.404, 1], [0.86, 0.343, 1], [0.657, 0.303], [0.456, 0.249], [0.327, 0.129], [0.232, 0, 1]],
+        "confidence": "medium",
+        "sourceRefs": [0, 1, 2]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [0, 1, 2]
+  },
+  "wings": { "top": "#B9BEC5", "under": "#C9CDD2" },
+  "winglets": { "outer": "white", "inner": "white", "confidence": "medium", "sourceRefs": [0] },
+  "engines": { "cowling": "white", "inletLip": "lip", "confidence": "high", "sourceRefs": [0, 1] },
+  "titles": [
+    {
+      "text": "Aeroitalia",
+      "mark": "AEZ/wordmark",
+      "place": "fuselage",
+      "at": [0.162, -0.13],
+      "height": 0.55,
+      "length": 0.171,
+      "color": "green",
+      "style": "Green rounded lower case under the forward windows, led by a tall capital A (its left leg green, its right red, a green crossbar swoosh) rising across the windows; the pinstripes run into the A.",
+      "confidence": "high",
+      "sourceRefs": [0, 1],
+      "type": { "similar": ["Nunito Bold", "VAG Rounded Bold"], "weight": 700, "slantDeg": 0, "width": "normal", "strokes": "uniform", "case": "mixed", "xHeight": 0.4 }
+    },
+    {
+      "text": "www.aeroitalia.com",
+      "place": "fuselage",
+      "at": [0.625, -0.56],
+      "height": 0.13,
+      "length": 0.129,
+      "color": "#3A3F44",
+      "style": "Small dark gray sans under the rear windows, above the wing's trailing edge.",
+      "confidence": "medium",
+      "sourceRefs": [0, 1],
+      "type": { "similar": ["Helvetica Neue", "Arial"], "weight": 400, "slantDeg": 0, "width": "normal", "strokes": "uniform", "case": "lower", "xHeight": 0.72 }
+    }
+  ],
+  "logos": [
+    {
+      "mark": "AEZ/a",
+      "place": "winglets",
+      "at": [0.5, 0.55],
+      "height": 0.25,
+      "colors": ["green", "red"],
+      "description": "The title's A, green and red, on the winglet's outer face.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Logo-aeroitalia.svg",
+      "confidence": "medium",
+      "sourceRefs": [0]
+    },
+    {
+      "mark": "AEZ/leaves",
+      "place": "fuselage",
+      "at": [0.85, 0.3],
+      "height": 0.2,
+      "colors": ["#4E8FD0", "lightGreen"],
+      "description": "Two small leaf marks, a blue drop and a green leaf with a plane, behind the aft door.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Aeroitalia,_9H-MDG,_Boeing_737-846_(54007403979).jpg",
+      "confidence": "low",
+      "sourceRefs": [0]
+    }
+  ],
+  "notes": "Measured on 9H-MDG (737-800, left side, 2024-08-23) fitted to the 737-800 shape; 9H-FRA's right side (2023) and two parked 737s (2024) agree. No Commons photo of 9H-FOS (the maintainer's sighting) was found; it's the same type, assumed the same scheme. The pinstripes were read off the photo column by column: the green leaves the belly at x 0.05 and reaches the window line's bottom by x 0.15, the red under it ends under the A (x 0.17); neither shows between the title's letters, so both stop at the title. Aft, the green runs from x 0.34 (just behind the title) and the red from about x 0.47 (hidden by the engine and wing ahead of that, so its start is uncertain) to the aft door, x 0.80. The fin's edges were measured against the photo's leading and trailing edges by hand (the fit's fin space read about 0.1 chord off near the tip in this view from below): the white wedge between the dark green and the red closes at about y 0.85. The title's A is about 2 m tall, the lower case about 0.4 of it. The right side is assumed to match (mirrored fin). Aeroitalia's ATRs wear a version of it.",
+  "history": "New 2026-11-21 (the maintainer's sightings: 9H-FOS)."
+}

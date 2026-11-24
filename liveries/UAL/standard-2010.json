@@ -1,0 +1,531 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard-2010",
+  "airline": "UAL",
+  "name": "2010 livery (post-merger, Continental colors)",
+  "kind": "standard",
+  "from": "2010-10",
+  "confidence": "medium",
+  "drawnOn": "B738",
+  "description": "Continental's colors with United's name: white upper fuselage over a light-gray belly, split by a gold line from under the nose, dipping under the wing and rising to the tail cone; 'UNITED' in blue capitals over the forward windows; the fin blue with the globe in gold and blue bars and white rings low on the aft fin; gray engines with a blue lip ring.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/United_Airlines#Livery",
+      "title": "Wikipedia: United Airlines livery",
+      "accessed": "2026-11-13",
+      "note": "The 2010 post-merger scheme and its 2019 replacement."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:United_Airlines_Boeing_737-9_MAX_N37504_landing_in_Boston_December_2025.jpg",
+      "title": "United Airlines Boeing 737-9 MAX N37504 landing in Boston December 2025.jpg (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "N37504 left side from below and ahead, 2025-12-31: still in the 2010 scheme; title, gold line, globe."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:N37504_(aircraft)",
+      "title": "N37504 on Commons",
+      "accessed": "2026-11-13"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:United_Airlines_Boeing_737_-800_NG_MAX_N33289_Arriving_SFO_light_ref_L1180211.jpg",
+      "title": "United Airlines Boeing 737 -800 NG MAX N33289 Arriving SFO light ref L1180211.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-15",
+      "note": "737-800 N33289 left side from a little above, 2025-12-06, still in the 2010 scheme: the gold line's path, the title's ends and height, fitted to the measured 737-800 shape (tools/photo_trace.py)."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "gray": {
+      "hex": "#BCC1C8",
+      "official": false,
+      "name": "light gray belly"
+    },
+    "gold": {
+      "hex": "#C99A55",
+      "official": false,
+      "name": "cheatline gold"
+    },
+    "blue": {
+      "hex": "#1F3B93",
+      "official": false,
+      "name": "title and fin blue"
+    },
+    "globeGold": {
+      "hex": "#E2B26E",
+      "official": false,
+      "name": "globe gold"
+    },
+    "ringWhite": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "cowl": {
+      "hex": "#C9CDD3",
+      "official": false,
+      "name": "engine gray"
+    },
+    "lipBlue": {
+      "hex": "#2453B8",
+      "official": false,
+      "name": "blue inlet ring"
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "light-gray belly under the gold line",
+        "color": "gray",
+        "points": [
+          [
+            0,
+            -0.12
+          ],
+          [
+            0.03,
+            -0.147
+          ],
+          [
+            0.13,
+            -0.177
+          ],
+          [
+            0.23,
+            -0.182
+          ],
+          [
+            0.38,
+            -0.167
+          ],
+          [
+            0.62,
+            -0.172
+          ],
+          [
+            0.725,
+            -0.182
+          ],
+          [
+            0.79,
+            -0.237
+          ],
+          [
+            0.85,
+            -0.377
+          ],
+          [
+            0.894,
+            -0.517
+          ],
+          [
+            0.925,
+            -0.637
+          ],
+          [
+            0.95,
+            -0.617
+          ],
+          [
+            0.975,
+            -0.367
+          ],
+          [
+            1,
+            0.0
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            0,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "gold line",
+        "color": "gold",
+        "points": [
+          [
+            0,
+            -0.12
+          ],
+          [
+            0.03,
+            -0.113
+          ],
+          [
+            0.13,
+            -0.143
+          ],
+          [
+            0.23,
+            -0.148
+          ],
+          [
+            0.38,
+            -0.133
+          ],
+          [
+            0.62,
+            -0.138
+          ],
+          [
+            0.725,
+            -0.148
+          ],
+          [
+            0.79,
+            -0.203
+          ],
+          [
+            0.85,
+            -0.343
+          ],
+          [
+            0.894,
+            -0.483
+          ],
+          [
+            0.925,
+            -0.603
+          ],
+          [
+            0.95,
+            -0.583
+          ],
+          [
+            0.975,
+            -0.333
+          ],
+          [
+            1,
+            0.04
+          ],
+          [
+            1,
+            0.0
+          ],
+          [
+            0.975,
+            -0.367
+          ],
+          [
+            0.95,
+            -0.617
+          ],
+          [
+            0.925,
+            -0.637
+          ],
+          [
+            0.894,
+            -0.517
+          ],
+          [
+            0.85,
+            -0.377
+          ],
+          [
+            0.79,
+            -0.237
+          ],
+          [
+            0.725,
+            -0.182
+          ],
+          [
+            0.62,
+            -0.172
+          ],
+          [
+            0.38,
+            -0.167
+          ],
+          [
+            0.23,
+            -0.182
+          ],
+          [
+            0.13,
+            -0.177
+          ],
+          [
+            0.03,
+            -0.147
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          3
+        ],
+        "smooth": true
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "blue",
+    "areas": [
+      {
+        "name": "globe disc in gold (its blue bars and white rings are in the logo entry)",
+        "color": "globeGold",
+        "points": [
+          [
+            1.132,
+            0.033
+          ],
+          [
+            1.06,
+            0.199
+          ],
+          [
+            0.902,
+            0.354
+          ],
+          [
+            0.631,
+            0.486
+          ],
+          [
+            0.243,
+            0.588
+          ],
+          [
+            -0.226,
+            0.652
+          ],
+          [
+            -0.679,
+            0.674
+          ],
+          [
+            -1.0,
+            0.652
+          ],
+          [
+            -1.127,
+            0.588
+          ],
+          [
+            -1.076,
+            0.486
+          ],
+          [
+            -0.909,
+            0.354
+          ],
+          [
+            -0.687,
+            0.199
+          ],
+          [
+            -0.449,
+            0.033
+          ],
+          [
+            -0.216,
+            -0.133
+          ],
+          [
+            0.001,
+            -0.288
+          ],
+          [
+            0.201,
+            -0.421
+          ],
+          [
+            0.381,
+            -0.523
+          ],
+          [
+            0.545,
+            -0.587
+          ],
+          [
+            0.692,
+            -0.609
+          ],
+          [
+            0.823,
+            -0.587
+          ],
+          [
+            0.937,
+            -0.523
+          ],
+          [
+            1.031,
+            -0.421
+          ],
+          [
+            1.101,
+            -0.288
+          ],
+          [
+            1.139,
+            -0.133
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ],
+        "smooth": true
+      },
+      {
+        "name": "thin white line along the leading edge (the globe's outer ring, carried up to the tip); it also keeps the dorsal fillet white",
+        "color": "ringWhite",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0.025,
+            0
+          ],
+          [
+            0.025,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          3
+        ]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "blue",
+    "inner": "blue",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "cowl",
+    "inletLip": "lipBlue",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "UAL/globe-2010",
+      "place": "fin",
+      "at": [
+        0.341,
+        0.033
+      ],
+      "height": 1.283,
+      "colors": [
+        "globeGold",
+        "blue",
+        "ringWhite"
+      ],
+      "description": "Continental's globe kept by United in 2010: gold and blue radiating bars crossed by white latitude rings, low on the aft fin, cut by the root and leading edge.",
+      "reference": "https://commons.wikimedia.org/wiki/File:United_Airlines_Logo.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "SAL/star-alliance",
+      "place": "fuselage",
+      "at": [
+        0.12,
+        0.3
+      ],
+      "height": 0.18,
+      "colors": [
+        "#8A8F96"
+      ],
+      "description": "The small Star Alliance star behind the cockpit.",
+      "confidence": "low",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "UNITED",
+      "place": "fuselage",
+      "at": [
+        0.2,
+        0.326
+      ],
+      "height": 0.31,
+      "color": "blue",
+      "style": "Upright medium-heavy capitals in blue, spaced, over the windows aft of the forward door.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        3
+      ],
+      "length": 0.16,
+      "type": {
+        "similar": [
+          "Frutiger Bold",
+          "Myriad Pro Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Drawn from one photo of N37504 (737-9 MAX, Dec 2025) taken from below and ahead, so positions are approximate; the line's path is taken to match the 2019 scheme's (which kept it, in navy), and the globe's place is the same. Being replaced by the 2019 livery as aircraft are repainted. Re-checked 2026-11-15 on the 737-800 N33289 (measured 737-800 shape): the 2010 gold line is NOT the 2019 navy line's path. It runs level from the nose tip along the forward door's sill, stays level under the wing, crosses the aft door at its sill and rises into the tail cone (in fuselage y it dives toward the belly where the belly sweeps up). 'UNITED' is smaller than first drawn and sits clear above the windows, x 0.20-0.36, cap height about 0.6 m. On the 737-9 MAX (N37504) the line starts higher on the nose and the title starts closer to the door: one type-independent drawing can't fit both.",
+  "history": "Added alongside the 2019 standard (Skyarium v1 had only an approximation). Introduced in 2010–2011 after the United–Continental merger, replacing United's 2004 blue scheme and Continental's 1991 one; superseded by the 2019 livery but still flown on part of the fleet."
+}

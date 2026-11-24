@@ -1,0 +1,134 @@
+{
+  "_about": "777-9, from Boeing D6-86073 Rev G (September 2025, marked preliminary) 2.2.1 General Dimensions: Model 777-9 (page index 16): side, plan and front views on one sheet, black strokes over a pale yellow fill (layers.py --mode strokes-in-fill --fill 1.0,1.0,0.72), rasterized at scale 20 (69.8 px a meter), line centres; the side turned level from the sheet's ground attitude (--rotate -0.51). Traced on its own sheet (no sibling's points: the 777-9's wing, nacelle and fuselage are all new against the 777-300ER's). Scaled by the printed 75.21 m to the tail cone (the APU exhaust, where the side view's extension line for it stands); the printed 76.73 m overall is to the tailplane's tips. The wing is drawn with its folding tips extended, as flown: no wingtip device (the tip is the wing's own raked end). The cabin windows are drawn; those behind the wing's lines and one behind a dimension line are placed at the drawing's own pitch. Door 3 (42.72 m, the door table 2.7.1) is hidden behind the flaps in the side view: placed from the table, as wide as door 2, and the four windows placed across it left out. The sheet draws the windshield small and up to 18 cm below the crown, so the two didn't meet over the nose: the cockpit panes are the 777-300ER's (shapes/B77W.json; the 777X keeps the 777's flight deck, its nose within 4 cm of this one's), in these pixels. The door table puts all three lower cargo doors on the right.",
+  "out": "../../../../shapes/B779.json",
+  "length": 75.21,
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "refs": {
+    "side": {
+      "nose": 159,
+      "tail": 5410,
+      "cowlEnd": 2433,
+      "windowRow": [1062, 1117],
+      "windowGap": 2,
+      "windowMinWidth": 20,
+      "windowsAlso": [
+        1967, 2415.3, 2452.5, 2489.8, 2527.0, 2564.3, 2601.6, 2638.8, 2676.1, 2713.3, 2750.6, 2787.9, 2825.1, 2862.4,
+        2899.6, 2936.9, 2974.1, 3011.4, 3048.7, 3235.0, 3272.2, 3309.5, 3346.7
+      ],
+      "windowBand": [1070, 1109],
+      "windowInset": 3.5
+    },
+    "plan": {
+      "nose": 167,
+      "centerline": 2852
+    },
+    "front": {
+      "centerline": 131.5,
+      "crownTop": 959
+    }
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [602, 1040, 663, 1161],
+      "name": "door 1"
+    },
+    {
+      "kind": "door",
+      "box": [1772, 1041, 1835, 1159]
+    },
+    {
+      "kind": "door",
+      "name": "door 3",
+      "box": [3110.1, 1041, 3173.1, 1159]
+    },
+    {
+      "kind": "door",
+      "box": [3634, 1040, 3695, 1158]
+    },
+    {
+      "kind": "door",
+      "box": [4455, 1040, 4518, 1158]
+    },
+    {
+      "kind": "cargo",
+      "box": [891, 1175, 1080, 1316],
+      "side": "right",
+      "name": "forward cargo door"
+    },
+    {
+      "kind": "cargo",
+      "box": [3844, 1182, 3970, 1302],
+      "side": "right"
+    },
+    {
+      "kind": "cargo",
+      "box": [4229, 1214, 4293, 1293],
+      "side": "right"
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [261.4, 1068.7],
+      [281.5, 1050.4],
+      [295.6, 1059.7],
+      [297.2, 1061.4],
+      [277.3, 1092.2],
+      [248.9, 1079.5],
+      [247.3, 1080.7]
+    ],
+    [
+      [295.6, 1079.7],
+      [308.1, 1059.7],
+      [329.8, 1059.7],
+      [331.4, 1061.4],
+      [321.4, 1100.5],
+      [319.8, 1102.2],
+      [301.4, 1095.5],
+      [288.9, 1094.7],
+      [287.3, 1093.0]
+    ],
+    [
+      [334.7, 1080.5],
+      [338.9, 1063.0],
+      [341.4, 1059.7],
+      [365.6, 1061.4],
+      [367.3, 1063.0],
+      [363.9, 1093.0],
+      [361.4, 1098.0],
+      [331.4, 1101.3],
+      [329.8, 1099.7]
+    ]
+  ],
+  "printed": {
+    "fuselage height": 6.2,
+    "fuselage width": 6.2,
+    "wingspan": 71.76,
+    "tailplane span": 24.56,
+    "engine out from the centerline": 10.64,
+    "overall length": 76.73,
+    "door 1 from the nose": 6.76,
+    "door 3 from the nose": 42.72,
+    "forward cargo door from the nose": 11.81
+  },
+  "meta": {
+    "id": "B779",
+    "name": "Boeing 777-9",
+    "types": ["B779"],
+    "confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/airports/acaps/777X_Rev_G.pdf",
+        "title": "Boeing, 777-9 Airplane Characteristics for Airport Planning (D6-86073 Rev G, September 2025, preliminary information), 2.2.1 General Dimensions: Model 777-9",
+        "accessed": "2026-11-15",
+        "note": "Dimensions and outlines read off the side, plan and front views (tools/trace/b779/); the figures are the aircraft's measurements, not a copy of the drawing. Boeing marks the document preliminary (the type isn't yet certified), so the confidence is medium. The wing is drawn with its folding tips extended, as flown (71.76 m; 64.85 m folded on the ground). The sheet draws the cabin windows; those behind the wing's lines and one behind a dimension line are placed at the drawing's own window pitch. Engine out from the centerline: the plan's printed 10.64 m. Door 3, hidden by the flaps on 2.2.1, is from the door table (2.7.1), which also puts the three lower cargo doors on the right. The cockpit panes are the 777-300ER's (the 777X keeps the 777's flight deck): the sheet's windshield is drawn too small and low to meet its twin over the nose."
+      }
+    ]
+  },
+  "windshieldTolerance": 0.12
+}

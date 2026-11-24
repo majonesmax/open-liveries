@@ -1,0 +1,1434 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "BEL",
+  "name": "2024 livery",
+  "kind": "standard",
+  "from": "2024",
+  "confidence": "medium",
+  "drawnOn": "A20N",
+  "description": "White all over with scattered dots: large red dots on the white fin in a loose three-column grid, and on the fuselage a group of dots behind the cockpit and another behind the wing, shading from light gray and pale blue to dark navy; a row of gray dots trails onto the tail. 'brussels' in big navy lower case over the forward windows with 'AIRLINES' small and spaced beneath. White engines, a small red dot mark on the sharklets.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Brussels_Airlines",
+      "accessed": "2026-11-13",
+      "note": "The new brand and livery, first on the A320neo in 2024."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:OO-SFE.jpg",
+      "title": "OO-SFE (A330-300), 2026-07-11 (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Left side, level: titles, fin dots and the dot pattern on the left (same arrangement, mirrored)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Hamburg-Finkenwerder_Airport_Brussels_Airlines_Airbus_A320-251N_OO-SBH_(DSC03921).jpg",
+      "title": "Brussels Airlines A320-251N OO-SBH (as D-AUBM), 2026-03-05 (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Right side, level: dot positions and sizes, titles, fin dots."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Brussels_Airlines_A320-200neo_at_LHR.jpg",
+      "title": "Brussels Airlines A320-200neo at LHR (OO-SBD), 2025-05-08 (CC0)",
+      "accessed": "2026-11-13",
+      "note": "Right side: the same dots, sharklet dot mark."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F6",
+      "official": false
+    },
+    "red": {
+      "hex": "#E1232F",
+      "official": false
+    },
+    "navy": {
+      "hex": "#1C2856",
+      "official": false
+    },
+    "lightBlue": {
+      "hex": "#8FA9CF",
+      "official": false
+    },
+    "gray": {
+      "hex": "#B4B8BF",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "dot (navy)",
+        "color": "navy",
+        "points": [
+          [
+            0.2,
+            -0.256
+          ],
+          [
+            0.1979,
+            -0.181
+          ],
+          [
+            0.1924,
+            -0.136
+          ],
+          [
+            0.1856,
+            -0.136
+          ],
+          [
+            0.1801,
+            -0.181
+          ],
+          [
+            0.178,
+            -0.256
+          ],
+          [
+            0.1801,
+            -0.336
+          ],
+          [
+            0.1856,
+            -0.388
+          ],
+          [
+            0.1924,
+            -0.388
+          ],
+          [
+            0.1979,
+            -0.336
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "dot (navy)",
+        "color": "navy",
+        "points": [
+          [
+            0.2394,
+            -0.256
+          ],
+          [
+            0.2377,
+            -0.197
+          ],
+          [
+            0.2334,
+            -0.161
+          ],
+          [
+            0.228,
+            -0.161
+          ],
+          [
+            0.2237,
+            -0.197
+          ],
+          [
+            0.222,
+            -0.256
+          ],
+          [
+            0.2237,
+            -0.318
+          ],
+          [
+            0.228,
+            -0.358
+          ],
+          [
+            0.2334,
+            -0.358
+          ],
+          [
+            0.2377,
+            -0.318
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "dot (lightBlue)",
+        "color": "lightBlue",
+        "points": [
+          [
+            0.1535,
+            -0.256
+          ],
+          [
+            0.1523,
+            -0.213
+          ],
+          [
+            0.1491,
+            -0.187
+          ],
+          [
+            0.1453,
+            -0.187
+          ],
+          [
+            0.1421,
+            -0.213
+          ],
+          [
+            0.1409,
+            -0.256
+          ],
+          [
+            0.1421,
+            -0.301
+          ],
+          [
+            0.1453,
+            -0.329
+          ],
+          [
+            0.1491,
+            -0.329
+          ],
+          [
+            0.1523,
+            -0.301
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "dot (lightBlue)",
+        "color": "lightBlue",
+        "points": [
+          [
+            0.1969,
+            0.095
+          ],
+          [
+            0.1957,
+            0.136
+          ],
+          [
+            0.1925,
+            0.162
+          ],
+          [
+            0.1887,
+            0.162
+          ],
+          [
+            0.1855,
+            0.136
+          ],
+          [
+            0.1843,
+            0.095
+          ],
+          [
+            0.1855,
+            0.054
+          ],
+          [
+            0.1887,
+            0.029
+          ],
+          [
+            0.1925,
+            0.029
+          ],
+          [
+            0.1957,
+            0.054
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "dot (gray)",
+        "color": "gray",
+        "points": [
+          [
+            0.1527,
+            0.484
+          ],
+          [
+            0.1517,
+            0.535
+          ],
+          [
+            0.1489,
+            0.569
+          ],
+          [
+            0.1455,
+            0.569
+          ],
+          [
+            0.1427,
+            0.535
+          ],
+          [
+            0.1417,
+            0.484
+          ],
+          [
+            0.1427,
+            0.437
+          ],
+          [
+            0.1455,
+            0.409
+          ],
+          [
+            0.1489,
+            0.409
+          ],
+          [
+            0.1517,
+            0.437
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "dot (gray)",
+        "color": "gray",
+        "points": [
+          [
+            0.1094,
+            0.484
+          ],
+          [
+            0.1084,
+            0.535
+          ],
+          [
+            0.1056,
+            0.569
+          ],
+          [
+            0.1022,
+            0.569
+          ],
+          [
+            0.0994,
+            0.535
+          ],
+          [
+            0.0984,
+            0.484
+          ],
+          [
+            0.0994,
+            0.437
+          ],
+          [
+            0.1022,
+            0.409
+          ],
+          [
+            0.1056,
+            0.409
+          ],
+          [
+            0.1084,
+            0.437
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "dot (navy)",
+        "color": "navy",
+        "points": [
+          [
+            0.6259,
+            -0.323
+          ],
+          [
+            0.624,
+            -0.25
+          ],
+          [
+            0.6189,
+            -0.207
+          ],
+          [
+            0.6125,
+            -0.207
+          ],
+          [
+            0.6074,
+            -0.25
+          ],
+          [
+            0.6055,
+            -0.323
+          ],
+          [
+            0.6074,
+            -0.402
+          ],
+          [
+            0.6125,
+            -0.453
+          ],
+          [
+            0.6189,
+            -0.453
+          ],
+          [
+            0.624,
+            -0.402
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "dot (navy)",
+        "color": "navy",
+        "points": [
+          [
+            0.6646,
+            -0.323
+          ],
+          [
+            0.6629,
+            -0.261
+          ],
+          [
+            0.6586,
+            -0.224
+          ],
+          [
+            0.6532,
+            -0.224
+          ],
+          [
+            0.6489,
+            -0.261
+          ],
+          [
+            0.6472,
+            -0.323
+          ],
+          [
+            0.6489,
+            -0.389
+          ],
+          [
+            0.6532,
+            -0.432
+          ],
+          [
+            0.6586,
+            -0.432
+          ],
+          [
+            0.6629,
+            -0.389
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "dot (lightBlue)",
+        "color": "lightBlue",
+        "points": [
+          [
+            0.7024,
+            -0.323
+          ],
+          [
+            0.701,
+            -0.272
+          ],
+          [
+            0.6975,
+            -0.242
+          ],
+          [
+            0.6931,
+            -0.242
+          ],
+          [
+            0.6896,
+            -0.272
+          ],
+          [
+            0.6882,
+            -0.323
+          ],
+          [
+            0.6896,
+            -0.377
+          ],
+          [
+            0.6931,
+            -0.411
+          ],
+          [
+            0.6975,
+            -0.411
+          ],
+          [
+            0.701,
+            -0.377
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "dot (gray)",
+        "color": "gray",
+        "points": [
+          [
+            0.7425,
+            -0.323
+          ],
+          [
+            0.7413,
+            -0.278
+          ],
+          [
+            0.7381,
+            -0.251
+          ],
+          [
+            0.7343,
+            -0.251
+          ],
+          [
+            0.7311,
+            -0.278
+          ],
+          [
+            0.7299,
+            -0.323
+          ],
+          [
+            0.7311,
+            -0.371
+          ],
+          [
+            0.7343,
+            -0.401
+          ],
+          [
+            0.7381,
+            -0.401
+          ],
+          [
+            0.7413,
+            -0.371
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "dot (gray)",
+        "color": "gray",
+        "points": [
+          [
+            0.8456,
+            0.701
+          ],
+          [
+            0.8447,
+            0.778
+          ],
+          [
+            0.8424,
+            0.841
+          ],
+          [
+            0.8394,
+            0.841
+          ],
+          [
+            0.8371,
+            0.778
+          ],
+          [
+            0.8362,
+            0.701
+          ],
+          [
+            0.8371,
+            0.64
+          ],
+          [
+            0.8394,
+            0.606
+          ],
+          [
+            0.8424,
+            0.606
+          ],
+          [
+            0.8447,
+            0.64
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "dot (gray)",
+        "color": "gray",
+        "points": [
+          [
+            0.8835,
+            0.374
+          ],
+          [
+            0.8825,
+            0.417
+          ],
+          [
+            0.8797,
+            0.445
+          ],
+          [
+            0.8763,
+            0.445
+          ],
+          [
+            0.8735,
+            0.417
+          ],
+          [
+            0.8725,
+            0.374
+          ],
+          [
+            0.8735,
+            0.332
+          ],
+          [
+            0.8763,
+            0.307
+          ],
+          [
+            0.8797,
+            0.307
+          ],
+          [
+            0.8825,
+            0.332
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "dot (gray)",
+        "color": "gray",
+        "points": [
+          [
+            0.922,
+            0.374
+          ],
+          [
+            0.921,
+            0.417
+          ],
+          [
+            0.9182,
+            0.445
+          ],
+          [
+            0.9148,
+            0.445
+          ],
+          [
+            0.912,
+            0.417
+          ],
+          [
+            0.911,
+            0.374
+          ],
+          [
+            0.912,
+            0.332
+          ],
+          [
+            0.9148,
+            0.307
+          ],
+          [
+            0.9182,
+            0.307
+          ],
+          [
+            0.921,
+            0.332
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "dot (gray)",
+        "color": "gray",
+        "points": [
+          [
+            0.8851,
+            0.026
+          ],
+          [
+            0.8837,
+            0.071
+          ],
+          [
+            0.8802,
+            0.1
+          ],
+          [
+            0.8758,
+            0.1
+          ],
+          [
+            0.8723,
+            0.071
+          ],
+          [
+            0.8709,
+            0.026
+          ],
+          [
+            0.8723,
+            -0.02
+          ],
+          [
+            0.8758,
+            -0.048
+          ],
+          [
+            0.8802,
+            -0.048
+          ],
+          [
+            0.8837,
+            -0.02
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "dot (gray)",
+        "color": "gray",
+        "points": [
+          [
+            0.9228,
+            0.026
+          ],
+          [
+            0.9216,
+            0.066
+          ],
+          [
+            0.9184,
+            0.092
+          ],
+          [
+            0.9146,
+            0.092
+          ],
+          [
+            0.9114,
+            0.066
+          ],
+          [
+            0.9102,
+            0.026
+          ],
+          [
+            0.9114,
+            -0.015
+          ],
+          [
+            0.9146,
+            -0.04
+          ],
+          [
+            0.9184,
+            -0.04
+          ],
+          [
+            0.9216,
+            -0.015
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "dot (gray)",
+        "color": "gray",
+        "points": [
+          [
+            0.9614,
+            0.374
+          ],
+          [
+            0.9605,
+            0.411
+          ],
+          [
+            0.9582,
+            0.435
+          ],
+          [
+            0.9552,
+            0.435
+          ],
+          [
+            0.9529,
+            0.411
+          ],
+          [
+            0.952,
+            0.374
+          ],
+          [
+            0.9529,
+            0.338
+          ],
+          [
+            0.9552,
+            0.317
+          ],
+          [
+            0.9582,
+            0.317
+          ],
+          [
+            0.9605,
+            0.338
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ],
+        "smooth": true
+      }
+    ],
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2,
+      3
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "mirrored": true,
+    "areas": [
+      {
+        "name": "red dot",
+        "color": "red",
+        "points": [
+          [
+            0.911,
+            0.76
+          ],
+          [
+            0.88,
+            0.801
+          ],
+          [
+            0.8,
+            0.826
+          ],
+          [
+            0.7,
+            0.826
+          ],
+          [
+            0.62,
+            0.801
+          ],
+          [
+            0.589,
+            0.76
+          ],
+          [
+            0.62,
+            0.719
+          ],
+          [
+            0.7,
+            0.694
+          ],
+          [
+            0.8,
+            0.694
+          ],
+          [
+            0.88,
+            0.719
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          2,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "red dot",
+        "color": "red",
+        "points": [
+          [
+            0.275,
+            0.76
+          ],
+          [
+            0.253,
+            0.789
+          ],
+          [
+            0.196,
+            0.807
+          ],
+          [
+            0.124,
+            0.807
+          ],
+          [
+            0.067,
+            0.789
+          ],
+          [
+            0.045,
+            0.76
+          ],
+          [
+            0.067,
+            0.731
+          ],
+          [
+            0.124,
+            0.713
+          ],
+          [
+            0.196,
+            0.713
+          ],
+          [
+            0.253,
+            0.731
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          2,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "red dot",
+        "color": "red",
+        "points": [
+          [
+            1.011,
+            0.505
+          ],
+          [
+            0.986,
+            0.551
+          ],
+          [
+            0.921,
+            0.58
+          ],
+          [
+            0.839,
+            0.58
+          ],
+          [
+            0.774,
+            0.551
+          ],
+          [
+            0.749,
+            0.505
+          ],
+          [
+            0.774,
+            0.459
+          ],
+          [
+            0.839,
+            0.43
+          ],
+          [
+            0.921,
+            0.43
+          ],
+          [
+            0.986,
+            0.459
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          2,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "red dot",
+        "color": "red",
+        "points": [
+          [
+            0.628,
+            0.505
+          ],
+          [
+            0.599,
+            0.557
+          ],
+          [
+            0.526,
+            0.589
+          ],
+          [
+            0.434,
+            0.589
+          ],
+          [
+            0.361,
+            0.557
+          ],
+          [
+            0.332,
+            0.505
+          ],
+          [
+            0.361,
+            0.453
+          ],
+          [
+            0.434,
+            0.421
+          ],
+          [
+            0.526,
+            0.421
+          ],
+          [
+            0.599,
+            0.453
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          2,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "red dot",
+        "color": "red",
+        "points": [
+          [
+            0.16,
+            0.505
+          ],
+          [
+            0.143,
+            0.537
+          ],
+          [
+            0.098,
+            0.557
+          ],
+          [
+            0.042,
+            0.557
+          ],
+          [
+            -0.003,
+            0.537
+          ],
+          [
+            -0.02,
+            0.505
+          ],
+          [
+            -0.003,
+            0.473
+          ],
+          [
+            0.042,
+            0.453
+          ],
+          [
+            0.098,
+            0.453
+          ],
+          [
+            0.143,
+            0.473
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          2,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "red dot",
+        "color": "red",
+        "points": [
+          [
+            1.007,
+            0.25
+          ],
+          [
+            0.996,
+            0.276
+          ],
+          [
+            0.968,
+            0.292
+          ],
+          [
+            0.932,
+            0.292
+          ],
+          [
+            0.904,
+            0.276
+          ],
+          [
+            0.893,
+            0.25
+          ],
+          [
+            0.904,
+            0.224
+          ],
+          [
+            0.932,
+            0.208
+          ],
+          [
+            0.968,
+            0.208
+          ],
+          [
+            0.996,
+            0.224
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          2,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "red dot",
+        "color": "red",
+        "points": [
+          [
+            0.762,
+            0.25
+          ],
+          [
+            0.742,
+            0.296
+          ],
+          [
+            0.691,
+            0.325
+          ],
+          [
+            0.629,
+            0.325
+          ],
+          [
+            0.578,
+            0.296
+          ],
+          [
+            0.558,
+            0.25
+          ],
+          [
+            0.578,
+            0.204
+          ],
+          [
+            0.629,
+            0.175
+          ],
+          [
+            0.691,
+            0.175
+          ],
+          [
+            0.742,
+            0.204
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          2,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "red dot",
+        "color": "red",
+        "points": [
+          [
+            0.394,
+            0.25
+          ],
+          [
+            0.382,
+            0.279
+          ],
+          [
+            0.35,
+            0.297
+          ],
+          [
+            0.31,
+            0.297
+          ],
+          [
+            0.278,
+            0.279
+          ],
+          [
+            0.266,
+            0.25
+          ],
+          [
+            0.278,
+            0.221
+          ],
+          [
+            0.31,
+            0.203
+          ],
+          [
+            0.35,
+            0.203
+          ],
+          [
+            0.382,
+            0.221
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          2,
+          3
+        ],
+        "smooth": true
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2,
+      3
+    ]
+  },
+  "winglets": {
+    "outer": "white",
+    "inner": "white",
+    "confidence": "high",
+    "sourceRefs": [
+      3
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      2,
+      3
+    ]
+  },
+  "logos": [
+    {
+      "mark": "BEL/dots",
+      "place": "winglets",
+      "at": [
+        0.45,
+        0.75
+      ],
+      "height": 0.15,
+      "colors": [
+        "red"
+      ],
+      "description": "The brussels dot mark: a small cluster of red dots in a triangle (three, two, one), as on the sharklet and small by the forward door.",
+      "reference": "https://en.wikipedia.org/wiki/Brussels_Airlines",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "brussels",
+      "place": "fuselage",
+      "at": [
+        0.209,
+        0.07
+      ],
+      "height": 0.58,
+      "length": 0.206,
+      "color": "navy",
+      "style": "Big lower-case geometric sans, semibold, round bowls, the letters crossing the forward window line.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Circular Std Bold",
+          "Avenir Next Demi Bold"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.68
+      }
+    },
+    {
+      "text": "AIRLINES",
+      "place": "fuselage",
+      "at": [
+        0.209,
+        -0.11
+      ],
+      "height": 0.18,
+      "length": 0.081,
+      "color": "navy",
+      "style": "Small, widely spaced capitals in the same sans, under the forward end of 'brussels'.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Circular Std Medium",
+          "Avenir Next Medium"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Fuselage dots measured on the right side of the A320neo (OO-SBH); the left side of the A330 OO-SFE shows the same two groups mirrored (navy dots aftmost in the forward group, foremost in the aft group), so they're drawn on both sides. Exact dot counts differ a little by type. Not drawn: 'Member of Lufthansa Group' and the registration with Belgian and EU flags aft. The fin dots are taken from the right side; that the left matches front to back is from the A330 photo at low resolution. Aircraft not yet repainted fly the 2021/2017 schemes (white with the red-dot 'b' on the fin and a dark belly band); several specials (Belgian Icons) also fly. Re-checked 2026-11-15: the dots drawn as circles (smooth); 'brussels' lowercase measured at 0.68 of its ascenders on OO-SBH.",
+  "history": "Replaced Skyarium v1's approximation. The 2024 scheme succeeds the 2017/2021 'b' scheme (13 red dots forming a 'b' on the fin)."
+}

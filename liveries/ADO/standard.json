@@ -1,0 +1,571 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "ADO",
+  "name": "AIRDO",
+  "kind": "standard",
+  "confidence": "medium",
+  "drawnOn": "B737",
+  "description": "White, with a sky-blue band and a yellow band (a thin white line between them) sweeping up from the belly under the wing's trailing edge, aft along the crown and on up the fin; the fin's leading edge and tip sky blue, the yellow running out at its trailing edge, its lower rear white, 'AIR DO' in black across it. Very large black 'AIR DO' from behind the forward door across the windows, '北海道の翼' (Wings of Hokkaido) small above it. White engines; yellow winglets with Bear Do, the airline's polar-bear mascot, on their inner faces.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Air_Do_B737-781_JA12AN_(51828126523).jpg",
+      "title": "Air Do B737-781 JA12AN (51828126523).jpg (CC BY-SA 2.0, Steven Byles)",
+      "accessed": "2026-11-22",
+      "note": "JA12AN (737-700) left side, side-on on the ground at Haneda, 2022-01-18: fitted to the measured 737-700 shape (tools/photo_trace.py, nose, fin tip and both doors, within 8 px); the bands' edges, the titles' ends and heights."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:(JPN-Hokkaido)_Air_Do_Boeing_737-781_JA11AN_@_RJCH_2026-06-09.jpg",
+      "title": "(JPN-Hokkaido) Air Do Boeing 737-781 JA11AN @ RJCH 2026-06-09.jpg (CC BY 4.0, S5A-0043)",
+      "accessed": "2026-11-22",
+      "note": "JA11AN (737-700) left side from ahead, Hakodate, 2026-06-09: the scheme current; the Regional Plus Wings mark behind the cockpit, '北海道の翼' over the title, Bear Do on the far winglet's inner face, white engines."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Air_Do_B737-781_JA16AN.jpg",
+      "title": "Air Do B737-781 JA16AN.jpg (CC BY-SA 2.0, Steven Byles)",
+      "accessed": "2026-11-22",
+      "note": "JA16AN (737-700) right side, Haneda, 2021-11-15: the right side mirrors the left (blue ahead of yellow, the fin's bands sweeping the same way relative to flight); 'AIR DO' reads normally; Bear Do on the far (left) winglet's inner face."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:JA612A_Haneda_Airport_30-5-2026_-_2.jpg",
+      "title": "JA612A Haneda Airport 30-5-2026 - 2.jpg (CC BY 4.0, BWard 1997)",
+      "accessed": "2026-11-22",
+      "note": "JA612A (767-300ER) right side, Haneda, 2026-05-30: the same scheme on the 767, which has no winglets."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:(JPN-Hokkaido)_Air_Do_Boeing_767-381ER_JA605A_@_RJCC_2026-06-04.jpg",
+      "title": "(JPN-Hokkaido) Air Do Boeing 767-381ER JA605A @ RJCC 2026-06-04.jpg (CC BY 4.0, S5A-0043)",
+      "accessed": "2026-11-22",
+      "note": "JA605A (767-300ER) left side, New Chitose, 2026-06-04: the same layout on the 767."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Air_Do",
+      "title": "Wikipedia: Air Do",
+      "accessed": "2026-11-22",
+      "note": "Fleet (July 2026): eight 737-700s and four 767-300ERs; Hokkaido International Airlines, brand AIRDO."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F4",
+      "official": false
+    },
+    "skyBlue": {
+      "hex": "#86CBEF",
+      "official": false,
+      "name": "AIRDO sky blue"
+    },
+    "yellow": {
+      "hex": "#F2DC2C",
+      "official": false,
+      "name": "AIRDO yellow"
+    },
+    "black": {
+      "hex": "#1C2230",
+      "official": false,
+      "name": "the titles' black"
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false
+    },
+    "rpGray": {
+      "hex": "#5A6270",
+      "official": false,
+      "name": "the Regional Plus Wings mark's gray"
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "sky-blue band sweeping up from the belly under the wing's trailing edge to the crown, and along the crown into the fin",
+        "color": "skyBlue",
+        "smooth": true,
+        "points": [
+          [
+            0.566,
+            -1
+          ],
+          [
+            0.567,
+            -0.4
+          ],
+          [
+            0.569,
+            0.13
+          ],
+          [
+            0.587,
+            0.507
+          ],
+          [
+            0.615,
+            0.835
+          ],
+          [
+            0.645,
+            1
+          ],
+          [
+            0.86,
+            1
+          ],
+          [
+            0.86,
+            0.83
+          ],
+          [
+            0.8,
+            0.81
+          ],
+          [
+            0.73,
+            0.76
+          ],
+          [
+            0.678,
+            0.64
+          ],
+          [
+            0.648,
+            0.44
+          ],
+          [
+            0.625,
+            0.12
+          ],
+          [
+            0.609,
+            -0.21
+          ],
+          [
+            0.592,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "thin white line between the blue and the yellow",
+        "color": "white",
+        "smooth": true,
+        "points": [
+          [
+            0.592,
+            -1
+          ],
+          [
+            0.609,
+            -0.21
+          ],
+          [
+            0.625,
+            0.12
+          ],
+          [
+            0.648,
+            0.44
+          ],
+          [
+            0.678,
+            0.64
+          ],
+          [
+            0.73,
+            0.76
+          ],
+          [
+            0.8,
+            0.81
+          ],
+          [
+            0.86,
+            0.83
+          ],
+          [
+            0.86,
+            0.76
+          ],
+          [
+            0.8,
+            0.74
+          ],
+          [
+            0.74,
+            0.7
+          ],
+          [
+            0.69,
+            0.6
+          ],
+          [
+            0.66,
+            0.42
+          ],
+          [
+            0.637,
+            0.12
+          ],
+          [
+            0.621,
+            -0.21
+          ],
+          [
+            0.604,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "yellow band behind it, from the belly up and aft into the fin's root",
+        "color": "yellow",
+        "smooth": true,
+        "points": [
+          [
+            0.604,
+            -1
+          ],
+          [
+            0.621,
+            -0.21
+          ],
+          [
+            0.637,
+            0.12
+          ],
+          [
+            0.66,
+            0.42
+          ],
+          [
+            0.69,
+            0.6
+          ],
+          [
+            0.74,
+            0.7
+          ],
+          [
+            0.8,
+            0.74
+          ],
+          [
+            0.86,
+            0.76
+          ],
+          [
+            0.86,
+            0.62
+          ],
+          [
+            0.79,
+            0.55
+          ],
+          [
+            0.75,
+            0.4
+          ],
+          [
+            0.72,
+            0.157
+          ],
+          [
+            0.699,
+            -0.26
+          ],
+          [
+            0.685,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "sky blue over the leading edge and the tip, its edge sweeping from the root's leading edge up to the trailing edge near the tip",
+        "color": "skyBlue",
+        "smooth": true,
+        "points": [
+          [
+            0,
+            0.1
+          ],
+          [
+            0.046,
+            0.12
+          ],
+          [
+            0.286,
+            0.227
+          ],
+          [
+            0.564,
+            0.328
+          ],
+          [
+            0.826,
+            0.477
+          ],
+          [
+            0.96,
+            0.63
+          ],
+          [
+            1,
+            0.72
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "yellow band from the root up to the trailing edge, a white line between it and the blue",
+        "color": "yellow",
+        "smooth": true,
+        "points": [
+          [
+            1,
+            0.6
+          ],
+          [
+            0.846,
+            0.443
+          ],
+          [
+            0.591,
+            0.293
+          ],
+          [
+            0.37,
+            0.184
+          ],
+          [
+            0.137,
+            0.093
+          ],
+          [
+            0,
+            0.05
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0.03,
+            0
+          ],
+          [
+            0.201,
+            0.027
+          ],
+          [
+            0.454,
+            0.077
+          ],
+          [
+            0.727,
+            0.144
+          ],
+          [
+            0.95,
+            0.227
+          ],
+          [
+            1,
+            0.25
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "yellow",
+    "inner": "yellow",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "ADO/regional-plus",
+      "place": "fuselage",
+      "at": [
+        0.105,
+        0.6
+      ],
+      "height": 0.13,
+      "colors": [
+        "rpGray"
+      ],
+      "description": "Regional Plus Wings' small mark (the holding company AIRDO shares with Solaseed Air since 2022): a gray 'RP' in a circle with a plus, 'Regional Plus' under it, just behind the cockpit windows.",
+      "confidence": "low",
+      "sourceRefs": [
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "AIR DO",
+      "place": "fuselage",
+      "at": [
+        0.186,
+        -0.21
+      ],
+      "height": 0.56,
+      "length": 0.204,
+      "rotationDeg": 3,
+      "color": "black",
+      "style": "AIRDO's wordmark, very large black geometric capitals from behind the forward door across the windows (the glass through the letters), 'AIR' set a little lower than 'DO' so the line rises toward the tail on the left side (toward the nose on the right).",
+      "type": {
+        "similar": [
+          "Futura Medium",
+          "Century Gothic Bold",
+          "Avenir Next Demi Bold"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "text": "北海道の翼",
+      "place": "fuselage",
+      "at": [
+        0.183,
+        0.46
+      ],
+      "height": 0.08,
+      "length": 0.055,
+      "color": "black",
+      "style": "'Wings of Hokkaido' small in Japanese over the title's start.",
+      "type": {
+        "similar": [
+          "Hiragino Sans W3",
+          "Noto Sans JP Regular"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      },
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "text": "AIR DO",
+      "place": "fin",
+      "at": [
+        0.206,
+        0.3
+      ],
+      "height": 0.108,
+      "length": 0.69,
+      "rotationDeg": 4,
+      "color": "black",
+      "style": "The wordmark in black across the fin's middle, over the white line and the blue's edge.",
+      "type": {
+        "similar": [
+          "Futura Medium",
+          "Century Gothic Bold",
+          "Avenir Next Demi Bold"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        2
+      ]
+    }
+  ],
+  "notes": "Measured on JA12AN (737-700, left, 2022-01-18) fitted to shapes/B737.json; the newest photos (JA11AN 2026-06-09, JA612A and JA605A 2026) show it unchanged. The blue's front edge reads x 0.566 at the belly, near upright to the window line, then curving aft to the crown at 0.645; the yellow from 0.604-0.685 at the belly to the fin's root; near the crown the edges were set from JA11AN (2026, from the ground), since JA12AN's high camera shows the crown foreshortened. On the fin the edges were read against the photo's own fin outline (the fitted outline's trailing edge was ~30 px out). Right side (JA16AN, JA612A): mirrored. Bear Do, AIRDO's own polar-bear mascot, is painted on the winglets' inner faces only (seen on the far winglet from either side); the outer faces are plain yellow, so it isn't a logo here: the schema has no place for a winglet's inner face (a mark for it, ADO/bear-do, is proposed for Skyarium). The 767s, without winglets, carry no Bear Do. Not drawn: the small figure sticker beside the forward door on JA11AN, the registration.",
+  "history": "New 2026-11-22. AIRDO (Hokkaido International Airlines) flies 737-700s and 767-300ERs within Japan from Sapporo (New Chitose)."
+}

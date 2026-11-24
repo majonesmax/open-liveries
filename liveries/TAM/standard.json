@@ -1,0 +1,276 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "TAM",
+  "name": "LATAM 2016 livery",
+  "kind": "standard",
+  "from": "2016",
+  "description": "The LATAM group scheme, worn by LATAM Brasil and the group's other airlines. Fuselage: all white. Cheatlines: none. Tail: white fin crossed by swept coral and indigo bands rising toward the trailing edge; the lowest indigo band runs off the fin root and sweeps down and forward across the rear fuselage as a wedge. Engines: white. Winglets: indigo. Titles: 'LATAM' in wide indigo capitals above the forward windows, the LATAM ribbon symbol just ahead of it. Artwork: the ribbon symbol (coral and indigo folds).",
+  "confidence": "high",
+  "drawnOn": "A320",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:PS-LBO_(aircraft)",
+      "title": "PS-LBO, LATAM Brasil Airbus A321neo (Hamburg-Finkenwerder, before delivery), CC BY-SA 4.0, MarcelX42",
+      "accessed": "2026-11-13",
+      "note": "Left side and right side, 2025-06-12: the fin bands, the rear-fuselage wedge, titles, symbol (measured from DSC00682)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_em_Teresina.jpg",
+      "title": "PR-XBP, LATAM Brasil Airbus A320neo at Teresina, CC BY-SA 4.0, Alexandro Dias",
+      "accessed": "2026-11-13",
+      "note": "Left side, 2024-02-26: in service, same scheme (with a 'Conheça o Brasil' tourism decal, not part of the scheme). Re-checked 2026-11-15: the title, symbol and rear wedge measured on it against its doors and window line."
+    },
+    {
+      "url": "https://www.latamairlinesgroup.net/",
+      "title": "LATAM Airlines Group",
+      "accessed": "2026-11-13",
+      "note": "The brand launched in 2016 for the merged LAN and TAM airlines."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "indigo": {
+      "hex": "#1B0088",
+      "name": "indigo",
+      "official": false
+    },
+    "coral": {
+      "hex": "#ED1650",
+      "name": "coral",
+      "official": false
+    },
+    "lip": {
+      "hex": "#B8BCC2",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "indigo wedge off the fin root, sweeping down and forward",
+        "color": "indigo",
+        "points": [
+          [
+            0.738,
+            -0.55
+          ],
+          [
+            0.81,
+            1.0
+          ],
+          [
+            0.94,
+            1.0
+          ],
+          [
+            0.94,
+            0.4
+          ],
+          [
+            0.903,
+            0.27
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "top coral band",
+        "color": "coral",
+        "points": [
+          [
+            0.016,
+            0.894
+          ],
+          [
+            1.0,
+            0.855
+          ],
+          [
+            1.0,
+            0.819
+          ],
+          [
+            0.0,
+            0.723
+          ]
+        ]
+      },
+      {
+        "name": "upper indigo band",
+        "color": "indigo",
+        "points": [
+          [
+            0.0,
+            0.653
+          ],
+          [
+            1.0,
+            0.815
+          ],
+          [
+            1.0,
+            0.538
+          ],
+          [
+            0.662,
+            0.472
+          ],
+          [
+            0.29,
+            0.371
+          ],
+          [
+            0.0,
+            0.241
+          ]
+        ]
+      },
+      {
+        "name": "lower coral band",
+        "color": "coral",
+        "points": [
+          [
+            0.187,
+            0.265
+          ],
+          [
+            0.521,
+            0.396
+          ],
+          [
+            1.0,
+            0.337
+          ],
+          [
+            0.582,
+            0.221
+          ]
+        ]
+      },
+      {
+        "name": "lower indigo band, running on down the fuselage",
+        "color": "indigo",
+        "points": [
+          [
+            0.187,
+            0.265
+          ],
+          [
+            0.582,
+            0.221
+          ],
+          [
+            1.0,
+            0.333
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.098,
+            0.0
+          ]
+        ]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "winglets": {
+    "outer": "indigo",
+    "inner": "indigo",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "TAM/latam-symbol",
+      "place": "fuselage",
+      "at": [
+        0.181,
+        0.23
+      ],
+      "height": 0.9,
+      "colors": [
+        "coral",
+        "indigo"
+      ],
+      "description": "The LATAM symbol: a ribbon folding down in a zigzag, three parallel coral strips slanting down aft, joined by indigo folds at the aft edge, ending in a short indigo stem with a small fold and a detached indigo block at the foot. Same artwork on both sides (not mirrored), always just ahead of the 'LATAM' title.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Latam-logo_-v.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "LATAM",
+      "place": "fuselage",
+      "at": [
+        0.209,
+        0.34
+      ],
+      "height": 0.23,
+      "length": 0.131,
+      "color": "indigo",
+      "style": "Wide, geometric bold capitals with even strokes, slightly tracked, above the forward windows.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Gotham Bold",
+          "Montserrat SemiBold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Worn by every LATAM group airline (LATAM Brasil TAM, LATAM Chile LAN, LATAM Perú LPE, LATAM Ecuador LNE, LATAM Colombia ARE, LATAM Paraguay LAP, LATAM Cargo). Photos also show a coral and indigo mark on the belly ahead of the wing, seen only edge-on from the side; its shape isn't drawn (no view from below). Widebodies (787, 777) carry the same fin and title, larger; the rear-fuselage wedge was measured on an A321neo. Re-checked 2026-11-15 on the A320neo (the commonest type, PR-XBP), placed by its doors: the title runs 0.209 to 0.340 (on the A321neo it was 0.179, run 0.09) with the symbol ahead of it; the rear wedge's forward edge is a straight diagonal from the crown at 0.81 to 0.738 low on the side, its lower edge rising to the tailplane, both about 1.5 m forward of the A321neo shares.",
+  "history": "Replaces Skyarium v1's approximation. The LATAM scheme was introduced in 2016 and replaced TAM's red-and-white and LAN's blue schemes across the group; repainting finished around 2018-2019."
+}

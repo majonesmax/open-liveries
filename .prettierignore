@@ -1,0 +1,4 @@
+examples/svg-viewer/js/
+renderer/dist/
+build/
+*.png

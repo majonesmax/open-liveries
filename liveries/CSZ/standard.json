@@ -1,0 +1,423 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "CSZ",
+  "name": "Red tail and sweep with the gold Kunpeng",
+  "kind": "standard",
+  "confidence": "medium",
+  "drawnOn": "B738",
+  "description": "White forward; the rear fuselage red behind a curve that sweeps down from the crown over the wing to the belly behind it, its front edge a gold stripe, with a thin gold line through the red a little aft of it. Red fin with the airline's gold Kunpeng (a stylised roc, its feathers in curling strokes) large on its lower half. '深圳航空 Shenzhen Airlines' in black over the forward windows, the Chinese nearest the nose on both sides. White engines with a small gold Kunpeng; red winglets with the Kunpeng in gold.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:20251130_Boeing_737-87L(WL)_of_Shenzhen_Airlines_(B-5616)_taxiing_at_CGO.jpg",
+      "title": "20251130 Boeing 737-87L(WL) of Shenzhen Airlines (B-5616) taxiing at CGO.jpg (CC BY-SA 4.0, Windmemories)",
+      "accessed": "2026-11-22",
+      "note": "737-800 B-5616 taxiing at Zhengzhou, left side, side-on, 2025-11-30. Fitted to shapes/B738.json (nose, tail, fin tip, both doors; within 28 px, about 0.7 m): the sweep's front edge, the gold stripe and line behind it, the titles' ends and heights, the Kunpeng's middle and size."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:(SGP-Singapore)_Shenzhen_Airlines_Boeing_737-87L_B-5860_@_WSSS_2025-11-26.jpg",
+      "title": "(SGP-Singapore) Shenzhen Airlines Boeing 737-87L B-5860 @ WSSS 2025-11-26.jpg (CC BY 4.0, S5A-0043)",
+      "accessed": "2026-11-22",
+      "note": "B-5860 at Singapore, right side, 2025-11-26: the same on the right; 'Shenzhen Airlines' aft of '深圳航空' (the Chinese still nearest the nose), the Kunpeng facing forward on the right too."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:20251130_Boeing_737-87L(WL)_of_Shenzhen_Airlines_(B-5690)_taxiing_at_CGO.jpg",
+      "title": "20251130 Boeing 737-87L(WL) of Shenzhen Airlines (B-5690) taxiing at CGO.jpg (CC BY-SA 4.0, Windmemories)",
+      "accessed": "2026-11-22",
+      "note": "B-5690, right side, 2025-11-30: the same."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:B-1479_HAN_260325.jpg",
+      "title": "B-1479 HAN 260325.jpg (CC BY 2.0, kitmasterbloke)",
+      "accessed": "2026-11-22",
+      "note": "737-800 B-1479 on approach, left side from below, 2025-04-11: the belly white forward, the sweep reaching the belly behind the wing."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Shenzhen_Airlines",
+      "title": "Shenzhen Airlines (Wikipedia)",
+      "accessed": "2026-11-22",
+      "note": "Air China's subsidiary based at Shenzhen Bao'an; a Star Alliance member; fleet mostly 737-800 and A320-family, with A350-900s from Air China from 2026."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F2F2F2",
+      "official": false
+    },
+    "red": {
+      "hex": "#D20A22",
+      "name": "Shenzhen Airlines red",
+      "official": false
+    },
+    "gold": {
+      "hex": "#D09A4A",
+      "name": "the Kunpeng's gold",
+      "official": false
+    },
+    "black": {
+      "hex": "#1C1C1E",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "windows": "plain",
+    "areas": [
+      {
+        "name": "red rear fuselage behind the sweep",
+        "color": "red",
+        "smooth": true,
+        "points": [
+          [
+            0.395,
+            1,
+            1
+          ],
+          [
+            0.41,
+            0.9
+          ],
+          [
+            0.472,
+            0.695
+          ],
+          [
+            0.536,
+            0.439
+          ],
+          [
+            0.601,
+            0.248
+          ],
+          [
+            0.665,
+            0.018
+          ],
+          [
+            0.745,
+            -0.415
+          ],
+          [
+            0.775,
+            -1,
+            1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1,
+          3
+        ]
+      },
+      {
+        "name": "gold stripe along the sweep's front edge",
+        "color": "gold",
+        "smooth": true,
+        "points": [
+          [
+            0.395,
+            1,
+            1
+          ],
+          [
+            0.41,
+            0.9
+          ],
+          [
+            0.472,
+            0.695
+          ],
+          [
+            0.536,
+            0.439
+          ],
+          [
+            0.601,
+            0.248
+          ],
+          [
+            0.665,
+            0.018
+          ],
+          [
+            0.745,
+            -0.415
+          ],
+          [
+            0.775,
+            -1,
+            1
+          ],
+          [
+            0.79,
+            -1,
+            1
+          ],
+          [
+            0.771,
+            -0.704
+          ],
+          [
+            0.745,
+            -0.286
+          ],
+          [
+            0.665,
+            0.099
+          ],
+          [
+            0.601,
+            0.342
+          ],
+          [
+            0.536,
+            0.568
+          ],
+          [
+            0.45,
+            1,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "thin gold line through the red a little aft of the stripe",
+        "color": "gold",
+        "smooth": true,
+        "points": [
+          [
+            0.51,
+            1,
+            1
+          ],
+          [
+            0.601,
+            0.473
+          ],
+          [
+            0.665,
+            0.2
+          ],
+          [
+            0.745,
+            -0.14
+          ],
+          [
+            0.771,
+            -0.488
+          ],
+          [
+            0.79,
+            -1,
+            1
+          ],
+          [
+            0.8,
+            -1,
+            1
+          ],
+          [
+            0.79,
+            -0.794
+          ],
+          [
+            0.771,
+            -0.405
+          ],
+          [
+            0.745,
+            -0.073
+          ],
+          [
+            0.665,
+            0.254
+          ],
+          [
+            0.601,
+            0.552
+          ],
+          [
+            0.54,
+            1,
+            1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      3
+    ]
+  },
+  "fin": {
+    "base": "red",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "wings": {
+    "top": "#B9BEC5",
+    "under": "#C9CDD2"
+  },
+  "winglets": {
+    "outer": "red",
+    "inner": "red",
+    "confidence": "medium",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "titles": [
+    {
+      "text": "深圳航空",
+      "place": "fuselage",
+      "at": [
+        0.191,
+        0.335
+      ],
+      "height": 0.26,
+      "length": 0.086,
+      "color": "black",
+      "style": "The Chinese name in black, a plain bold sans, nearest the nose on both sides.",
+      "type": {
+        "similar": [
+          "Noto Sans SC Bold",
+          "Microsoft YaHei Bold"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "text": "Shenzhen Airlines",
+      "place": "fuselage",
+      "at": [
+        0.292,
+        0.335
+      ],
+      "height": 0.22,
+      "length": 0.194,
+      "color": "black",
+      "style": "'Shenzhen Airlines' in heavy black upper and lower case after the Chinese (aft of it on both sides).",
+      "type": {
+        "similar": [
+          "Arial Black",
+          "Helvetica Neue Heavy"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "logos": [
+    {
+      "mark": "CSZ/kunpeng",
+      "place": "fin",
+      "at": [
+        0.63,
+        0.26
+      ],
+      "height": 0.57,
+      "colors": [
+        "gold"
+      ],
+      "description": "Shenzhen Airlines' Kunpeng: a stylised roc in gold, its head a curl at the top facing forward, its body and wings a column of curling feather strokes sweeping down and back to a long tail; on the red fin's lower half, its tail running down toward the root.",
+      "reference": "https://commons.wikimedia.org/wiki/File:20251130_Boeing_737-87L(WL)_of_Shenzhen_Airlines_(B-5616)_taxiing_at_CGO.jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "CSZ/kunpeng",
+      "place": "engines",
+      "at": [
+        0.35,
+        0.1
+      ],
+      "height": 0.4,
+      "colors": [
+        "gold"
+      ],
+      "description": "The Kunpeng small in gold on the white nacelle.",
+      "reference": "https://commons.wikimedia.org/wiki/File:20251130_Boeing_737-87L(WL)_of_Shenzhen_Airlines_(B-5616)_taxiing_at_CGO.jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ]
+    },
+    {
+      "mark": "CSZ/kunpeng",
+      "place": "winglets",
+      "at": [
+        0.5,
+        0.45
+      ],
+      "height": 0.3,
+      "colors": [
+        "gold"
+      ],
+      "description": "The Kunpeng in gold on the red winglet.",
+      "reference": "https://commons.wikimedia.org/wiki/File:20251130_Boeing_737-87L(WL)_of_Shenzhen_Airlines_(B-5616)_taxiing_at_CGO.jpg",
+      "confidence": "low",
+      "sourceRefs": [
+        0
+      ]
+    }
+  ],
+  "notes": "Measured on B-5616 (737-800, left side, Zhengzhou, 2025-11-30) fitted to the B738 shape, checked on B-5860 and B-5690 (right side, 2025). The sweep's front edge leaves the crown at about x 0.40 and reaches the belly at 0.775, bowing up (a curve, not a straight diagonal); the gold stripe along it is about 0.4 m wide; the thin gold line runs about 0.9 m aft of it, a thinner dark red pinstripe along its forward side not drawn. '深圳航空' x 0.191-0.277 and 'Shenzhen Airlines' 0.292-0.486, baseline y 0.335. The Kunpeng's middle at (0.63, 0.26) of the fin, 0.57 of it tall. Small Star Alliance star behind the cockpit, not drawn. B-1758 wears Star Alliance's scheme (2025 photo), not this. The A320-family and the A330s are assumed to wear the same; not checked.",
+  "history": "New 2026-11-22 (the maintainer's sightings: the A350 B-32F0 in its special; this is the airline's everyday scheme)."
+}

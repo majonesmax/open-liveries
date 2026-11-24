@@ -1,0 +1,584 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "sea",
+  "airline": "CFG",
+  "name": "2022 stripes (Sea blue)",
+  "kind": "standard",
+  "from": "2022",
+  "confidence": "medium",
+  "drawnOn": "A20N",
+  "description": "Bold vertical stripes ringing the whole fuselage, colored stripe and white alternating at even spacing from a colored nose to a colored tail cone, continuing up the fin as two colored bands (along the leading edge and the trailing edge) with a white band between carrying the ringed Condor bird. 'condor' in heavy black lowercase on the forward fuselage. This is the Sea blue version; the stripes fly in five colors, one per aircraft (CFG/standard is Island green, the default).",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:D-ANCK_(aircraft)",
+      "accessed": "2026-11-13",
+      "note": "A320neo D-ANCK (Island, green) from the left, 2025-10-06 and 2026-10-07: fin bands, logos, title."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:D-ANCW_AIRCRAFT_Airbus_A320-271N_-1b.jpg",
+      "title": "D-ANCW AIRCRAFT Airbus A320-271N -1b.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "A320neo D-ANCW (Passion, red), a clean side view from the right, 2026-03-05: stripe positions measured from it (period about 8.6% of the length)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:D-ANCZ_(aircraft)",
+      "accessed": "2026-11-13",
+      "note": "Head-on view, 2026-01: the stripes run right round the belly."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Condor_logo_2022.svg",
+      "title": "Condor logo 2022.svg",
+      "accessed": "2026-11-13",
+      "note": "Wordmark and the ringed bird."
+    },
+    {
+      "url": "https://onemileatatime.com/news/condor-bold-new-livery/",
+      "title": "Whoa: Condor's Bold New Striped Livery (One Mile at a Time, 2022)",
+      "accessed": "2026-11-13",
+      "note": "Five colors: Sunshine (yellow), Passion (red), Sea (blue), Island (green), Beach (beige); repainted as aircraft come due."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:Condor_Island_livery",
+      "accessed": "2026-11-13",
+      "note": "Commons' livery categories (2026-11): Island 11 airframes, Sea 10, Beach 6, Passion 6, Sunshine 3 - incomplete, but green and blue lead."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A321-211_(c-n_4334,_D-ATCA)_2026-10-07_Andre_Gerwing_Collection_ID_031338.jpg",
+      "title": "Airbus A321-211 (c-n 4334, D-ATCA) 2026-10-07 Andre Gerwing Collection ID 031338.jpg (CC BY-SA 4.0, André Gerwing)",
+      "accessed": "2026-11-22",
+      "note": "A321 D-ATCA from the left on the ground at Frankfurt, sunlit, 2026-10-07: the stripes' midtone about #0346AF."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:D-AICT_AIRCRAFT_Airbus_A320-212_-1A.jpg",
+      "title": "D-AICT AIRCRAFT Airbus A320-212 -1A.jpg (CC BY-SA 4.0, Sg1959)",
+      "accessed": "2026-11-22",
+      "note": "A320 D-AICT from the left on the ground, sunlit, 2026-04-25: about #045ABF. In the air against a bright sky (D-ANRC, 2026-05-23) it reads lighter, about #1181F4."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F4F5F6",
+      "official": false
+    },
+    "stripe": {
+      "hex": "#0858B8",
+      "name": "Sea (blue)",
+      "official": false
+    },
+    "ink": {
+      "hex": "#1C1E2E",
+      "official": false
+    },
+    "cowl": {
+      "hex": "#ECEEF0",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "name": "bare metal inlet lip",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "nose cap",
+        "color": "stripe",
+        "points": [
+          [
+            0,
+            -1
+          ],
+          [
+            0.04,
+            -1
+          ],
+          [
+            0.04,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "name": "stripe 1",
+        "color": "stripe",
+        "points": [
+          [
+            0.084,
+            -1
+          ],
+          [
+            0.125,
+            -1
+          ],
+          [
+            0.125,
+            1
+          ],
+          [
+            0.084,
+            1
+          ]
+        ]
+      },
+      {
+        "name": "stripe 2",
+        "color": "stripe",
+        "points": [
+          [
+            0.169,
+            -1
+          ],
+          [
+            0.211,
+            -1
+          ],
+          [
+            0.211,
+            1
+          ],
+          [
+            0.169,
+            1
+          ]
+        ]
+      },
+      {
+        "name": "stripe 3",
+        "color": "stripe",
+        "points": [
+          [
+            0.255,
+            -1
+          ],
+          [
+            0.296,
+            -1
+          ],
+          [
+            0.296,
+            1
+          ],
+          [
+            0.255,
+            1
+          ]
+        ]
+      },
+      {
+        "name": "stripe 4",
+        "color": "stripe",
+        "points": [
+          [
+            0.341,
+            -1
+          ],
+          [
+            0.383,
+            -1
+          ],
+          [
+            0.383,
+            1
+          ],
+          [
+            0.341,
+            1
+          ]
+        ]
+      },
+      {
+        "name": "stripe 5",
+        "color": "stripe",
+        "points": [
+          [
+            0.427,
+            -1
+          ],
+          [
+            0.468,
+            -1
+          ],
+          [
+            0.468,
+            1
+          ],
+          [
+            0.427,
+            1
+          ]
+        ]
+      },
+      {
+        "name": "stripe 6",
+        "color": "stripe",
+        "points": [
+          [
+            0.512,
+            -1
+          ],
+          [
+            0.553,
+            -1
+          ],
+          [
+            0.553,
+            1
+          ],
+          [
+            0.512,
+            1
+          ]
+        ]
+      },
+      {
+        "name": "stripe 7",
+        "color": "stripe",
+        "points": [
+          [
+            0.598,
+            -1
+          ],
+          [
+            0.64,
+            -1
+          ],
+          [
+            0.64,
+            1
+          ],
+          [
+            0.598,
+            1
+          ]
+        ]
+      },
+      {
+        "name": "stripe 8",
+        "color": "stripe",
+        "points": [
+          [
+            0.683,
+            -1
+          ],
+          [
+            0.725,
+            -1
+          ],
+          [
+            0.725,
+            1
+          ],
+          [
+            0.683,
+            1
+          ]
+        ]
+      },
+      {
+        "name": "stripe 9",
+        "color": "stripe",
+        "points": [
+          [
+            0.77,
+            -1
+          ],
+          [
+            0.811,
+            -1
+          ],
+          [
+            0.811,
+            1
+          ],
+          [
+            0.77,
+            1
+          ]
+        ]
+      },
+      {
+        "name": "stripe 10",
+        "color": "stripe",
+        "points": [
+          [
+            0.856,
+            -1
+          ],
+          [
+            0.897,
+            -1
+          ],
+          [
+            0.897,
+            1
+          ],
+          [
+            0.856,
+            1
+          ]
+        ]
+      },
+      {
+        "name": "stripe 11",
+        "color": "stripe",
+        "points": [
+          [
+            0.941,
+            -1
+          ],
+          [
+            1.0,
+            -1
+          ],
+          [
+            1.0,
+            1
+          ],
+          [
+            0.941,
+            1
+          ]
+        ]
+      }
+    ],
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "mirrored": true,
+    "areas": [
+      {
+        "name": "leading-edge band (the fuselage's 11th stripe running up)",
+        "color": "stripe",
+        "points": [
+          [
+            -0.1,
+            -0.05
+          ],
+          [
+            0.64,
+            -0.05
+          ],
+          [
+            0.4,
+            0.5
+          ],
+          [
+            0.02,
+            0.97
+          ],
+          [
+            -0.1,
+            0.97
+          ]
+        ]
+      },
+      {
+        "name": "trailing-edge band (the tail cone's stripe running up)",
+        "color": "stripe",
+        "points": [
+          [
+            0.93,
+            -0.05
+          ],
+          [
+            0.78,
+            0.5
+          ],
+          [
+            0.5,
+            1.05
+          ],
+          [
+            1.1,
+            1.05
+          ],
+          [
+            1.1,
+            -0.05
+          ]
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "wings": {
+    "top": "#B9BEC5",
+    "under": "#C9CDD2"
+  },
+  "stabilizer": {
+    "top": "white",
+    "under": "white"
+  },
+  "winglets": {
+    "outer": "white",
+    "confidence": "low",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "engines": {
+    "cowling": "cowl",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "CFG/bird",
+      "place": "fin",
+      "at": [
+        0.61,
+        0.5
+      ],
+      "height": 0.27,
+      "colors": [
+        "ink",
+        "white"
+      ],
+      "description": "Condor's 2022 mark: a thin dark ring round a stylised condor drawn in a few strokes - a slanted stroke and a hollow triangle meeting in a beak-like point, like a bird gliding forward. On the white band of the fin, 'est. 1956' below and a small German flag above.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Condor_logo_2022.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        3
+      ]
+    },
+    {
+      "mark": "CFG/flag-germany",
+      "place": "fin",
+      "at": [
+        0.62,
+        0.74
+      ],
+      "height": 0.05,
+      "colors": [
+        "#000000",
+        "#DD0000",
+        "#FFCE00"
+      ],
+      "description": "Small German flag (black, red, gold bars) above the bird.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Flag_of_Germany.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0
+      ]
+    },
+    {
+      "mark": "CFG/bird",
+      "place": "fuselage",
+      "at": [
+        0.1,
+        0.53
+      ],
+      "height": 0.29,
+      "colors": [
+        "ink"
+      ],
+      "description": "The ringed bird, small, behind the cockpit windows above the front door.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Condor_logo_2022.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "CFG/bird",
+      "place": "engines",
+      "at": [
+        0.5,
+        0.25
+      ],
+      "height": 0.3,
+      "colors": [
+        "ink"
+      ],
+      "description": "The ringed bird on the cowling's outboard side.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Condor_logo_2022.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "condor",
+      "place": "fuselage",
+      "at": [
+        0.158,
+        -0.28
+      ],
+      "height": 0.34,
+      "color": "ink",
+      "style": "The Condor wordmark: heavy grotesque lowercase, upright, tightly spaced, black over the stripes below the windows, starting just aft of the front door.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Heavy",
+          "Arial Black"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.65
+      },
+      "length": 0.118
+    },
+    {
+      "text": "est. 1956",
+      "place": "fin",
+      "at": [
+        0.52,
+        0.3
+      ],
+      "height": 0.035,
+      "color": "ink",
+      "style": "Small regular lowercase under the fin's bird.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue"
+        ],
+        "weight": 400,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower"
+      },
+      "length": 0.12
+    }
+  ],
+  "notes": "The 2022 stripes in Sea blue, worn by the aircraft tagged with it in airframes/CFG.json. Everything but the stripe color is copied from CFG/standard (Island green, the default): when standard's drawing changes, change it here too (the five files differ only in id, name, description, sources 6-7, the stripe color and these notes). The color was measured off sources 6 and 7, the midtone of the sunlit stripes: #0858B8 sits between the two ground photos (D-ATCA #0346AF, D-AICT #045ABF); the old note's #0A55A0 was a little dark and gray.",
+  "history": "Split from CFG/standard on 2026-11-22, which had noted the other four colors in words."
+}

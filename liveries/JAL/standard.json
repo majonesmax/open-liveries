@@ -1,0 +1,217 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "JAL",
+  "name": "Tsurumaru (2011 livery)",
+  "kind": "standard",
+  "from": "2011-04",
+  "confidence": "high",
+  "drawnOn": "B738",
+  "description": "All white. The red Tsurumaru (a crane with its wings raised in a circle, 'JAL' in white at its foot) big on a plain white fin, and 'JAPAN AIRLINES' in heavy, wide, slanted black capitals over the forward windows. White engines; on the A350s the sharklets fade to red at the tip.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Japan_Airlines",
+      "accessed": "2026-11-13",
+      "note": "The Tsurumaru returned to the fleet from April 2011, replacing the 2002 'Arc of the Sun'."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:(JPN-Tokyo)_Japan_Airlines_Airbus_A350-1041_JA06WJ_@_RJTT_2026-06-09.jpg",
+      "title": "Japan Airlines A350-1041 JA06WJ, RJTT, 2026-06-09 (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Right side, level: titles, the Tsurumaru's size and place (measured), red-tipped sharklets."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:(JPN-Tokyo)_Japan_Airlines_Airbus_A350-941_JA01XJ_@_RJTT_2026-06-10.jpg",
+      "title": "Japan Airlines A350-941 JA01XJ, RJTT, 2026-06-10 (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Right side from above, A350-900: the same scheme plus red 'AIRBUS A350' titles aft."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Japan_Airlines_JA870J_run_JL26(Hong_Kong_International_Airport_to_Japan_Tokyo_Haneda_Airport)_12-03-2026.jpg",
+      "title": "Japan Airlines JA870J, 787-9, 2026-03-12 (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Left side from below, climbing: titles and fin on the 787."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Japan_Airlines_JA338J_737-846_HND_26-09-2024.jpg",
+      "title": "Japan Airlines JA338J 737-846 HND 26-09-2024.jpg (CC BY 4.0, BWard 1997)",
+      "accessed": "2026-11-15",
+      "note": "737-800 JA338J from the left, 2024-09-26: the title and flag measured on the commonest type (2026-11-15 re-check), placed by the doors and overwing exits (the shape's measured positions) and the window line."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Japan_Airlines_JA340J_737-846_HND_17-09-2024.jpg",
+      "title": "Japan Airlines JA340J 737-846 HND 17-09-2024.jpg (CC BY 4.0, BWard 1997)",
+      "accessed": "2026-11-15",
+      "note": "737-800 JA340J from the right, 2024-09-17: the title over the same stretch on the right."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "red": {
+      "hex": "#CC0000",
+      "name": "JAL Red",
+      "official": false
+    },
+    "black": {
+      "hex": "#26262C",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#BDC1C7",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "name": "bare metal inlet lip",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2,
+      3
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2,
+      3
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "white",
+    "inner": "white",
+    "areas": [
+      {
+        "name": "red tip (on the A350 a fade from white into red over the upper half)",
+        "color": "red",
+        "points": [
+          [
+            0,
+            0.55
+          ],
+          [
+            1,
+            0.62
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "pylon": "white",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      3
+    ]
+  },
+  "logos": [
+    {
+      "mark": "JAL/tsurumaru",
+      "place": "fin",
+      "at": [
+        0.592,
+        0.389
+      ],
+      "height": 0.475,
+      "colors": [
+        "red",
+        "white"
+      ],
+      "description": "The Tsurumaru: a red disc formed by a crane's two raised, feathered wings curving up round it, its long neck in an S and head with a pointed beak at the top facing left, the white of the fin showing through as the crane's body; 'JAL' in white italic capitals across the bottom of the disc. The same artwork on both sides (the crane faces aft on the right).",
+      "reference": "https://commons.wikimedia.org/wiki/File:Japan_Airlines_logo_(2011).svg",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mark": "JAL/japan-flag",
+      "place": "fuselage",
+      "at": [
+        0.505,
+        0.45
+      ],
+      "height": 0.16,
+      "colors": [
+        "white",
+        "red"
+      ],
+      "description": "A small Japanese flag (Hinomaru) just aft of the titles, at the same place on both sides (measured on the right, where it sits just aft of the 'J').",
+      "reference": "https://commons.wikimedia.org/wiki/File:Flag_of_Japan.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        4
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "JAPAN AIRLINES",
+      "place": "fuselage",
+      "at": [
+        0.184,
+        0.34
+      ],
+      "height": 0.36,
+      "color": "black",
+      "length": 0.304,
+      "style": "Heavy, wide, italic capitals with squared counters, close-set, over the windows from about the first door to ahead of the wing.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "type": {
+        "similar": [
+          "Eurostile Extended Black",
+          "Helvetica Neue Black Extended Oblique"
+        ],
+        "weight": 900,
+        "slantDeg": 14,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Measured on an A350-1000 from the right (mirrored to the left: the titles span the same stretch of fuselage on both sides). The A350-900s (JA01XJ-JA16XJ) add large red 'AIRBUS A350' titles on the rear fuselage ('AIRBUS' small, 'A350' big in outline-striped figures); the A350-1000s don't. Not drawn: the registration, the type, a small UNICEF 'we support' mark aft. Belly white, as the lower sides show; not seen squarely. 737-800 winglets not checked. The 2002-2011 'Arc of the Sun' scheme (a red-to-gold sweep on the fin) has been gone from the fleet since repainting finished in the mid-2010s. Re-checked 2026-11-15 on the 737-800 (the commonest type, JA338J and JA340J): the title runs from just aft of the first door to the overwing exits (0.184, run 0.304), its baseline a little above the window tops; on the A350 it is relatively shorter (0.132, run 0.254).",
+  "history": "Replaced Skyarium v1's approximation. The Tsurumaru scheme came back in April 2011 after JAL's restructuring, replacing the 2002 'Arc of the Sun'; it's the 1959-2002 crane, redrawn, without the old cheatlines."
+}

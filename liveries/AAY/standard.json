@@ -1,0 +1,445 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "AAY",
+  "name": "Sunseeker (2017 livery)",
+  "kind": "standard",
+  "from": "2017",
+  "confidence": "medium",
+  "drawnOn": "A320",
+  "description": "White forward fuselage; behind the wing the fuselage turns blue aft of a diagonal orange band (yellow along its edges) rising from the belly under the wing to the crown over it; 'allegiant' in bold blue lower case over the forward windows with an orange-and-yellow sun over the 'gi'; the fin blue with a big orange-and-yellow sunburst fanning up from its lower aft corner; blue engines.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Allegiant_Air",
+      "title": "Wikipedia: Allegiant Air",
+      "accessed": "2026-11-13"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Allegiant_Air_Airbus_A320_N295NV_KDEN_27_June_2025.jpg",
+      "title": "Allegiant Air Airbus A320 N295NV KDEN 27 June 2025.jpg (CC0)",
+      "accessed": "2026-11-13",
+      "note": "N295NV right side, side-on, 2025-06-27: geometry of the band, title, sun, fin."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Allegiant_Air_Airbus_A320-214_N254NV_@IND.jpg",
+      "title": "Allegiant Air Airbus A320-214 N254NV @IND.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "N254NV right side, taking off, 2025-12-07: the same scheme; engines."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F2F3F5",
+      "official": false
+    },
+    "blue": {
+      "hex": "#1F5BB5",
+      "official": false,
+      "name": "Allegiant blue"
+    },
+    "orange": {
+      "hex": "#F26B21",
+      "official": false,
+      "name": "sunset orange"
+    },
+    "yellow": {
+      "hex": "#FDB913",
+      "official": false,
+      "name": "sun yellow"
+    },
+    "title": {
+      "hex": "#2052A8",
+      "official": false,
+      "name": "title blue"
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "orange band rising from the belly under the wing to the crown over it",
+        "color": "orange",
+        "points": [
+          [
+            0.585,
+            -1
+          ],
+          [
+            0.554,
+            -0.219
+          ],
+          [
+            0.52,
+            0.082
+          ],
+          [
+            0.471,
+            0.427
+          ],
+          [
+            0.427,
+            1.0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ],
+        "smooth": true
+      },
+      {
+        "name": "yellow along the band's aft edge, upper half",
+        "color": "yellow",
+        "points": [
+          [
+            0.495,
+            1.0
+          ],
+          [
+            0.477,
+            1.0
+          ],
+          [
+            0.517,
+            0.427
+          ],
+          [
+            0.545,
+            0.119,
+            1
+          ],
+          [
+            0.56,
+            0.119,
+            1
+          ],
+          [
+            0.533,
+            0.451
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          2
+        ],
+        "smooth": true
+      },
+      {
+        "name": "yellow along the band's front edge, lower half",
+        "color": "yellow",
+        "points": [
+          [
+            0.554,
+            -0.219,
+            1
+          ],
+          [
+            0.585,
+            -1.0
+          ],
+          [
+            0.616,
+            -1.0
+          ],
+          [
+            0.582,
+            -0.259,
+            1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          2
+        ],
+        "smooth": true
+      },
+      {
+        "name": "blue aft fuselage and tail cone",
+        "color": "blue",
+        "points": [
+          [
+            0.656,
+            -1
+          ],
+          [
+            0.607,
+            -0.259
+          ],
+          [
+            0.56,
+            0.119
+          ],
+          [
+            0.533,
+            0.451
+          ],
+          [
+            0.495,
+            1.0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ],
+        "smooth": true
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "blue",
+    "areas": [
+      {
+        "name": "sunburst rays (orange)",
+        "color": "orange",
+        "points": [
+          [
+            1.03,
+            0.0
+          ],
+          [
+            0.78,
+            0.99
+          ],
+          [
+            0.717,
+            0.454
+          ],
+          [
+            0.498,
+            0.937
+          ],
+          [
+            0.597,
+            0.408
+          ],
+          [
+            0.247,
+            0.783
+          ],
+          [
+            0.498,
+            0.32
+          ],
+          [
+            0.056,
+            0.545
+          ],
+          [
+            0.431,
+            0.201
+          ],
+          [
+            -0.054,
+            0.251
+          ],
+          [
+            0.403,
+            0.064
+          ],
+          [
+            -0.07,
+            -0.066
+          ],
+          [
+            0.417,
+            -0.076
+          ],
+          [
+            0.01,
+            -0.372
+          ],
+          [
+            0.472,
+            -0.203
+          ],
+          [
+            0.175,
+            -0.632
+          ],
+          [
+            0.73,
+            0.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "sun's yellow core at the lower aft corner",
+        "color": "yellow",
+        "points": [
+          [
+            0.55,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0.22
+          ],
+          [
+            0.75,
+            0.3
+          ],
+          [
+            0.6,
+            0.18
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "blue",
+    "inner": "blue",
+    "confidence": "low",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "blue",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "AAY/sun",
+      "place": "fuselage",
+      "at": [
+        0.217,
+        0.5
+      ],
+      "height": 0.38,
+      "colors": [
+        "orange",
+        "yellow"
+      ],
+      "description": "The Allegiant sun: a half-disc sunburst of orange rays round a yellow center, rising over the 'gi' of the title.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Allegiant_Air_logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "AAY/sunburst-tail",
+      "place": "fin",
+      "at": [
+        0.75,
+        0.3
+      ],
+      "height": 0.7,
+      "colors": [
+        "orange",
+        "yellow",
+        "blue"
+      ],
+      "description": "The tail sunburst: sharp orange rays with yellow between them fanning up and forward from the fin's lower aft corner across the blue.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "allegiant",
+      "place": "fuselage",
+      "at": [
+        0.141,
+        -0.02
+      ],
+      "height": 0.42,
+      "color": "title",
+      "style": "Allegiant's wordmark: bold rounded lower case in blue over the forward windows, ending near the forward door.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Museo Sans Rounded 900",
+          "VAG Rounded Bold"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.76
+      },
+      "length": 0.178
+    }
+  ],
+  "notes": "Drawn from right-side photos (N295NV and N254NV, 2025) and mirrored for the left; the layout is symmetric. The yellow edging of the orange band changes sides along it (aft at the top, ahead at the bottom), simplified here. Re-checked 2026-11-15 on N295NV: the title runs x 0.141 to 0.319, baseline on the windows' bottoms (y about -0.02), its ascenders 0.42 above (it had been drawn reaching most of the way to the crown), lowercase 0.76 of the ascenders; the sun sits just over the 'gi', centered y 0.5. The band's edges curve gently (an S, steepest near the belly) and are drawn smooth, the yellow strips' square ends kept as corners.",
+  "history": "Replaces Skyarium v1's approximate standard (a few colors from memory). The year of introduction (2017) is from memory, not a dated source."
+}

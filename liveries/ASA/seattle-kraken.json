@@ -1,0 +1,726 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "seattle-kraken",
+  "airline": "ASA",
+  "name": "Seattle Kraken (2024)",
+  "kind": "special",
+  "confidence": "medium",
+  "drawnOn": "B39M",
+  "description": "Fuselage: Forward fuselage standard Alaska white; from over the wing aft, forward-leaning bands of ice blue, cyan and deep-sea navy, the navy covering the aft fuselage. Cheatlines: A Kraken-red stripe in the navy, leaning the same way, from the crown to just below the windows; Alaska's cyan/lime swoosh near the tail. Tail: Standard Alaska midnight-blue fin with the Alaska Native man's face and lime/cyan stripes. Engines: White with the standard blue/green swoosh. Winglets: Standard. Titles: Standard midnight-blue 'Alaska' script forward with Seattle's coordinates in small type under it. Artwork: Large Seattle Kraken 'S' logo (ice blue and cyan with a red eye) on the navy behind the wing. Colors hex: Kraken team colors (Deep Sea Blue #001628, Ice Blue #99D9D9, Red Alert #E9072B) are team-published; the paint here is matched by eye.",
+  "sources": [
+    {
+      "url": "https://www.alaskaair.com/content/travel-info/our-aircraft/737-9-max-seattle-kraken",
+      "accessed": "2026-11-14",
+      "title": "Alaska Airlines: Seattle Kraken Livery",
+      "note": "Alaska's page: N933AK, unveiled 2024-10-04, flying the 2025 and 2026 seasons; its photo shows the left side: the same bands, red stripe, Kraken S and titles as the right, so the scheme is drawn on both sides."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:N933AK_(aircraft)",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://simpleflying.com/alaska-special-livery-kraken/",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:N915AK_(aircraft)",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Alaska_Airlines_Boeing_737_MAX_9_(Seattle_Kraken_livery).jpg",
+      "title": "Alaska Airlines Boeing 737 MAX 9 (Seattle Kraken livery) (CC BY 4.0)",
+      "accessed": "2026-11-12",
+      "note": "Right side, N933AK landing at Portland, 2025-09-06: the band layout, the Kraken S and titles; geometry measured from it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N933AK_(55154339380).jpg",
+      "title": "N933AK (CC BY-SA 4.0)",
+      "accessed": "2026-11-12",
+      "note": "Right side, taxiing at LAX, 2026-02-27: confirms the layout, the bands' lower ends and the engines."
+    }
+  ],
+  "notes": "Drawn from N933AK's right side (2025-09-06 and 2026-02-27) and checked on the left in Alaska's own photo: the left side carries the same layout, so nothing is marked by side. Replaced the 2021 Kraken jet N915AK, which is back in standard colors; N915AK's 2021 design was different (white body with 'SEATTLE KRAKEN' titles over the windows and a smaller S with its eye at the aft door, per a 2022 Commons photo), so this geometry fits N933AK only. Re-checked 2026-11-15 (drawn on the 737-9): the cyan swoosh and the lime stripe behind it curve, made smooth; the three leaning bands and the red stripe are straight as seen from the side and kept as corners only. Titles' lengths kept; 'Alaska' lowercase about 0.55 of its A.",
+  "from": "2024-10",
+  "palette": {
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "deepSea": {
+      "hex": "#13294B",
+      "name": "Deep Sea Blue (team color #001628; paint matched by eye)",
+      "official": false
+    },
+    "ice": {
+      "hex": "#A8DFE6",
+      "name": "Ice Blue (team color #99D9D9; paint matched by eye)",
+      "official": false
+    },
+    "cyan": {
+      "hex": "#3FB3D6",
+      "official": false
+    },
+    "redAlert": {
+      "hex": "#E31B36",
+      "name": "Red Alert (team color #E9072B; paint matched by eye)",
+      "official": false
+    },
+    "midnight": {
+      "hex": "#14306B",
+      "official": false
+    },
+    "atlas": {
+      "hex": "#52B3E3",
+      "official": false
+    },
+    "lime": {
+      "hex": "#B6D433",
+      "official": false
+    },
+    "cream": {
+      "hex": "#F1EFE8",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC5",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "ice-blue band, leaning forward as it rises (its front edge from the crown over the wing's leading edge down to the belly behind the engine)",
+        "color": "ice",
+        "points": [
+          [
+            0.36,
+            1
+          ],
+          [
+            0.379,
+            0.6
+          ],
+          [
+            0.429,
+            -0.17
+          ],
+          [
+            0.475,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "cyan band",
+        "color": "cyan",
+        "points": [
+          [
+            0.465,
+            1
+          ],
+          [
+            0.478,
+            0.6
+          ],
+          [
+            0.513,
+            -0.17
+          ],
+          [
+            0.55,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "deep-sea navy, the whole aft fuselage",
+        "color": "deepSea",
+        "points": [
+          [
+            0.545,
+            1
+          ],
+          [
+            0.556,
+            0.6
+          ],
+          [
+            0.598,
+            -0.17
+          ],
+          [
+            0.64,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "red stripe from the crown to just below the windows, leaning the same way",
+        "color": "redAlert",
+        "points": [
+          [
+            0.585,
+            1
+          ],
+          [
+            0.645,
+            1
+          ],
+          [
+            0.658,
+            0.6
+          ],
+          [
+            0.679,
+            -0.17
+          ],
+          [
+            0.665,
+            -0.3
+          ],
+          [
+            0.644,
+            -0.17
+          ],
+          [
+            0.598,
+            0.6
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "Alaska's cyan swoosh near the tail, rising to the rear",
+        "color": "atlas",
+        "points": [
+          [
+            0.808,
+            1
+          ],
+          [
+            0.747,
+            0.05
+          ],
+          [
+            0.685,
+            -0.58
+          ],
+          [
+            0.67,
+            -1,
+            1
+          ],
+          [
+            0.7,
+            -1,
+            1
+          ],
+          [
+            0.715,
+            -0.58
+          ],
+          [
+            0.777,
+            0.05
+          ],
+          [
+            0.838,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          4,
+          5
+        ],
+        "smooth": true
+      },
+      {
+        "name": "lime stripe behind the swoosh",
+        "color": "lime",
+        "points": [
+          [
+            0.838,
+            1
+          ],
+          [
+            0.777,
+            0.05
+          ],
+          [
+            0.715,
+            -0.58
+          ],
+          [
+            0.7,
+            -1,
+            1
+          ],
+          [
+            0.711,
+            -1,
+            1
+          ],
+          [
+            0.726,
+            -0.58
+          ],
+          [
+            0.788,
+            0.05
+          ],
+          [
+            0.849,
+            1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0,
+          4
+        ],
+        "smooth": true
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      4,
+      5
+    ]
+  },
+  "fin": {
+    "base": "midnight",
+    "rudder": "midnight",
+    "areas": [
+      {
+        "name": "Atlas-blue wedge at the root's leading edge (the fuselage sweep running up the fin)",
+        "color": "atlas",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0.24
+          ],
+          [
+            0.46,
+            0
+          ]
+        ]
+      },
+      {
+        "name": "lower lime stripe, from the leading edge down and back to the root",
+        "color": "lime",
+        "points": [
+          [
+            0,
+            0.25
+          ],
+          [
+            0,
+            0.3
+          ],
+          [
+            0.56,
+            0
+          ],
+          [
+            0.48,
+            0
+          ]
+        ]
+      },
+      {
+        "name": "upper lime stripe near the tip",
+        "color": "lime",
+        "points": [
+          [
+            0,
+            0.88
+          ],
+          [
+            0.5,
+            0.82
+          ],
+          [
+            0.93,
+            0.72
+          ],
+          [
+            0.9,
+            0.69
+          ],
+          [
+            0.5,
+            0.78
+          ],
+          [
+            0,
+            0.84
+          ]
+        ]
+      },
+      {
+        "name": "Atlas-blue sliver under the upper stripe",
+        "color": "atlas",
+        "points": [
+          [
+            0.55,
+            0.76
+          ],
+          [
+            0.95,
+            0.68
+          ],
+          [
+            0.95,
+            0.63
+          ],
+          [
+            0.65,
+            0.71
+          ]
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      4,
+      5
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "stabilizer": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "white",
+    "inner": "white",
+    "areas": [
+      {
+        "name": "midnight root",
+        "color": "midnight",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0.18
+          ],
+          [
+            0,
+            0.32
+          ]
+        ]
+      },
+      {
+        "name": "Atlas-blue band",
+        "color": "atlas",
+        "points": [
+          [
+            0,
+            0.32
+          ],
+          [
+            1,
+            0.18
+          ],
+          [
+            1,
+            0.26
+          ],
+          [
+            0,
+            0.4
+          ]
+        ]
+      },
+      {
+        "name": "lime band",
+        "color": "lime",
+        "points": [
+          [
+            0,
+            0.4
+          ],
+          [
+            1,
+            0.26
+          ],
+          [
+            1,
+            0.32
+          ],
+          [
+            0,
+            0.46
+          ]
+        ]
+      }
+    ],
+    "confidence": "low",
+    "sourceRefs": [
+      4
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "wingGray",
+    "areas": [
+      {
+        "name": "lime stripe sweeping up toward the exhaust",
+        "color": "lime",
+        "points": [
+          [
+            0.3,
+            -1
+          ],
+          [
+            0.49,
+            -0.49
+          ],
+          [
+            0.75,
+            0.15
+          ],
+          [
+            1,
+            0.6
+          ],
+          [
+            1,
+            -1
+          ]
+        ]
+      },
+      {
+        "name": "Atlas blue",
+        "color": "atlas",
+        "points": [
+          [
+            0.36,
+            -1
+          ],
+          [
+            0.55,
+            -0.49
+          ],
+          [
+            0.81,
+            0.15
+          ],
+          [
+            1.06,
+            0.6
+          ],
+          [
+            1,
+            -1
+          ]
+        ]
+      },
+      {
+        "name": "midnight, low at the back",
+        "color": "midnight",
+        "points": [
+          [
+            0.44,
+            -1
+          ],
+          [
+            0.63,
+            -0.49
+          ],
+          [
+            0.89,
+            0.15
+          ],
+          [
+            1.14,
+            0.6
+          ],
+          [
+            1,
+            -1
+          ]
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      4,
+      5
+    ]
+  },
+  "logos": [
+    {
+      "mark": "ASA/native-face",
+      "place": "fin",
+      "at": [
+        0.59,
+        0.35
+      ],
+      "height": 0.53,
+      "colors": [
+        "cream",
+        "midnight"
+      ],
+      "description": "Alaska's Native man's face in cream on the midnight-blue fin; the fin is Alaska's standard one.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        4,
+        5
+      ]
+    },
+    {
+      "mark": "SEA/kraken-s",
+      "place": "fuselage",
+      "at": [
+        0.718,
+        -0.05
+      ],
+      "height": 1.9,
+      "colors": [
+        "ice",
+        "cyan",
+        "deepSea",
+        "redAlert"
+      ],
+      "description": "The Seattle Kraken 'S' (a tentacle-formed S in ice blue and cyan outlined in deep-sea navy, with a red eye), big, on the navy just aft of the red stripe, from near the belly to the crown.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        4,
+        5
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Alaska",
+      "place": "fuselage",
+      "at": [
+        0.168,
+        -0.38
+      ],
+      "height": 0.75,
+      "color": "midnight",
+      "style": "The standard 2016 Alaska wordmark in midnight blue, big, across the forward windows.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        4,
+        5
+      ],
+      "type": {
+        "similar": [
+          "Kaufmann Bold",
+          "Futura Bold Oblique"
+        ],
+        "weight": 800,
+        "slantDeg": 16,
+        "width": "normal",
+        "strokes": "brush",
+        "case": "mixed",
+        "xHeight": 0.55
+      },
+      "length": 0.19
+    },
+    {
+      "text": "47°37'19.6\"N 122°21'14.4\"W",
+      "place": "fuselage",
+      "at": [
+        0.249,
+        -0.66
+      ],
+      "height": 0.1,
+      "color": "midnight",
+      "style": "Small sans capitals and figures under the Alaska title: Seattle coordinates.",
+      "length": 0.1,
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        4,
+        5
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Medium",
+          "Arial"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ]
+}

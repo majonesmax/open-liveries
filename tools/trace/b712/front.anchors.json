@@ -1,0 +1,11 @@
+{
+  "_about": "Boeing D6-58330 Rev B (717), 2.2 General Dimensions, Model 717-200: page index 11, layers.py --mode fills at scale 20, clip 258,528,498,606 (front). Pixels of that raster, line centres; the right half as drawn (the aircraft's left side). The stub pylon is drawn in thin lines between the fuselage and the nacelle (pylon.upper, pylon.lower), so the front view is snapped on its fills and thin strokes together (front_all.png: the darker of layers.py --mode fills and --mode strokes).",
+  "fuselage.section": [[2397, 805], [2500, 826], [2580, 870], [2630, 940], [2652, 1050], [2645, 1130], [2618, 1180]],
+  "wing.upper": [[2665, 1186], [3000, 1185], [3500, 1184], [4000, 1182], [4400, 1180], [4612, 1179]],
+  "wing.lower": [[2650, 1295], [3000, 1270], [3500, 1240], [4000, 1215], [4400, 1199], [4610, 1189]],
+  "stabilizer.upper": [[2440, 274], [2800, 300], [3100, 322], [3262, 338]],
+  "stabilizer.lower": [[2440, 320], [2800, 334], [3100, 346], [3255, 352]],
+  "engine.inlet": [[2845, 905], [2950, 950], [2990, 1050], [2950, 1150], [2845, 1195], [2740, 1165], [2687, 1080], [2695, 1000], [2760, 925], [2845, 905]],
+  "pylon.upper": [[2656, 1046], [2678, 1046]],
+  "pylon.lower": [[2656, 1105], [2678, 1105]]
+}

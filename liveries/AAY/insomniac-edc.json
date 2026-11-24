@@ -1,0 +1,645 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "insomniac-edc",
+  "airline": "AAY",
+  "name": "Insomniac / EDC",
+  "kind": "special",
+  "confidence": "medium",
+  "drawnOn": "A320",
+  "description": "Allegiant's A320 N198NV for Insomniac Events, the Las Vegas festival promoter (Electric Daisy Carnival): the forward fuselage in Allegiant's white with its 'allegiant' title and sun; behind the wing a straight magenta band, edged in purple, sweeps from the crown over the wing down to the belly behind it, and aft of it the fuselage is festival art graded from orange at the top front through red and magenta to purple at the tail, with faint patterns; 'INSOMNIAC' in big white capitals on the left side, the 'edc' wordmark on the right; Allegiant's sunburst tail in orange and yellow on purple; magenta engines carrying Insomniac's white eye-and-rings mark; magenta sharklets.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N198NV_Allegiant_Air_Airbus_A320-214_s_n_7138_%22Insomniac%22_(53455077594).jpg",
+      "title": "N198NV Allegiant Air Airbus A320-214 s n 7138 \"Insomniac\" (53455077594).jpg (CC BY-SA 2.0, Tomás Del Coro)",
+      "accessed": "2026-11-22",
+      "note": "Left side in flight from below, sharp and well lit, 2024-01-08: fitted to the measured A320 shape (tools/photo_trace.py, doors pinned); the rear fields, the band's lower half, the INSOMNIAC title, colors."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N198NV_-_KSWF_-_15-8-25.jpg",
+      "title": "N198NV - KSWF - 15-8-25.jpg (CC BY 4.0, Coldstreamer20)",
+      "accessed": "2026-11-22",
+      "note": "Right side on the ground, side-on, 2025-08-15, the newest open photo: fitted flipped; the band's whole run from crown to belly and its purple edges, the 'edc' title."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N198NV_FLL_Landing_28R_G4_A320_214_Insomniac_EDC_Small_(54375657750).png",
+      "title": "N198NV FLL Landing 28R G4 A320 214 Insomniac EDC Small (54375657750).png (CC BY-SA 2.0, Mark Bess)",
+      "accessed": "2026-11-22",
+      "note": "Left side landing, 2025-03-09: the same layout (checked by eye)."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F2F3F5",
+      "official": false
+    },
+    "title": {
+      "hex": "#2052A8",
+      "official": false,
+      "name": "title blue"
+    },
+    "orange": {
+      "hex": "#F99A1C",
+      "official": false,
+      "name": "art orange (top front)"
+    },
+    "yellow": {
+      "hex": "#FDB913",
+      "official": false,
+      "name": "sun yellow"
+    },
+    "red": {
+      "hex": "#EE4A45",
+      "official": false,
+      "name": "art red (middle)"
+    },
+    "magenta": {
+      "hex": "#DE1F8A",
+      "official": false,
+      "name": "band, engines, sharklets"
+    },
+    "plum": {
+      "hex": "#B42A8C",
+      "official": false,
+      "name": "art magenta toward the tail"
+    },
+    "purple": {
+      "hex": "#6A2CA0",
+      "official": false,
+      "name": "band edging, rear fuselage and fin"
+    },
+    "sunOrange": {
+      "hex": "#F26B21",
+      "official": false,
+      "name": "sunset orange"
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "orange art field, everything aft of the band (the fields after it paint over its rear)",
+        "color": "orange",
+        "points": [
+          [
+            0.49,
+            1
+          ],
+          [
+            0.548,
+            0.29,
+            1
+          ],
+          [
+            0.668,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "name": "red middle of the art: aft of a line from the crown over the wing's trailing edge, bending back to the band low down",
+        "color": "red",
+        "points": [
+          [
+            0.6,
+            1
+          ],
+          [
+            0.645,
+            0.0,
+            1
+          ],
+          [
+            0.607,
+            -0.33
+          ],
+          [
+            0.64,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "name": "magenta toward the rear",
+        "color": "plum",
+        "points": [
+          [
+            0.68,
+            1
+          ],
+          [
+            0.715,
+            -0.3,
+            1
+          ],
+          [
+            0.635,
+            -0.75
+          ],
+          [
+            0.655,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "name": "purple rear fuselage and tail cone",
+        "color": "purple",
+        "points": [
+          [
+            0.81,
+            1
+          ],
+          [
+            0.778,
+            0.02
+          ],
+          [
+            0.762,
+            -0.46
+          ],
+          [
+            0.716,
+            -0.68
+          ],
+          [
+            0.69,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "name": "the magenta band, straight-edged, steeper below the windows",
+        "color": "magenta",
+        "points": [
+          [
+            0.452,
+            1
+          ],
+          [
+            0.512,
+            0.29,
+            1
+          ],
+          [
+            0.625,
+            -1
+          ],
+          [
+            0.668,
+            -1
+          ],
+          [
+            0.548,
+            0.29,
+            1
+          ],
+          [
+            0.49,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "name": "purple strip along the band's aft edge near the crown",
+        "color": "purple",
+        "points": [
+          [
+            0.49,
+            1
+          ],
+          [
+            0.517,
+            1
+          ],
+          [
+            0.558,
+            0.32,
+            1
+          ],
+          [
+            0.548,
+            0.29,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "purple strip along the band's front edge near the belly",
+        "color": "purple",
+        "points": [
+          [
+            0.541,
+            -0.2
+          ],
+          [
+            0.558,
+            -0.2
+          ],
+          [
+            0.628,
+            -1
+          ],
+          [
+            0.611,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "purple",
+    "areas": [
+      {
+        "name": "sunburst rays (orange)",
+        "color": "orange",
+        "points": [
+          [
+            1.03,
+            0.0
+          ],
+          [
+            0.78,
+            0.99
+          ],
+          [
+            0.717,
+            0.454
+          ],
+          [
+            0.498,
+            0.937
+          ],
+          [
+            0.597,
+            0.408
+          ],
+          [
+            0.247,
+            0.783
+          ],
+          [
+            0.498,
+            0.32
+          ],
+          [
+            0.056,
+            0.545
+          ],
+          [
+            0.431,
+            0.201
+          ],
+          [
+            -0.054,
+            0.251
+          ],
+          [
+            0.403,
+            0.064
+          ],
+          [
+            -0.07,
+            -0.066
+          ],
+          [
+            0.417,
+            -0.076
+          ],
+          [
+            0.01,
+            -0.372
+          ],
+          [
+            0.472,
+            -0.203
+          ],
+          [
+            0.175,
+            -0.632
+          ],
+          [
+            0.73,
+            0.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "name": "sun's yellow core at the lower aft corner",
+        "color": "yellow",
+        "points": [
+          [
+            0.55,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0.22
+          ],
+          [
+            0.75,
+            0.3
+          ],
+          [
+            0.6,
+            0.18
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "magenta",
+    "inner": "magenta",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "magenta",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "AAY/sun",
+      "place": "fuselage",
+      "at": [
+        0.217,
+        0.5
+      ],
+      "height": 0.38,
+      "colors": [
+        "orange",
+        "yellow"
+      ],
+      "description": "The Allegiant sun: a half-disc sunburst of orange rays round a yellow center, rising over the 'gi' of the title.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Allegiant_Air_logo.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "AAY/sunburst-tail",
+      "place": "fin",
+      "at": [
+        0.75,
+        0.3
+      ],
+      "height": 0.7,
+      "colors": [
+        "sunOrange",
+        "yellow",
+        "purple"
+      ],
+      "description": "Allegiant's tail sunburst, its sharp orange rays and yellow core as on the standard tail, on purple instead of blue.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "AAY/insomniac-eye",
+      "place": "engines",
+      "at": [
+        0.4,
+        0.0
+      ],
+      "height": 0.8,
+      "colors": [
+        "white",
+        "magenta"
+      ],
+      "description": "Insomniac's mark, white on the magenta cowling: an eye shape (two arcs meeting in points fore and aft) round concentric rings, a ring, a gap, a smaller ring and a dot. Drawn as our own simplified mark; it's the sponsor's.",
+      "reference": "https://commons.wikimedia.org/wiki/File:N198NV_-_KSWF_-_15-8-25.jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "allegiant",
+      "place": "fuselage",
+      "at": [
+        0.141,
+        -0.02
+      ],
+      "height": 0.42,
+      "color": "title",
+      "style": "Allegiant's wordmark: bold rounded lower case in blue over the forward windows, ending near the forward door.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Museo Sans Rounded 900",
+          "VAG Rounded Bold"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.76
+      },
+      "length": 0.178
+    },
+    {
+      "text": "INSOMNIAC",
+      "place": "fuselage",
+      "at": [
+        0.603,
+        -0.06
+      ],
+      "height": 0.55,
+      "length": 0.17,
+      "color": "white",
+      "side": "left",
+      "style": "Insomniac's wordmark: very heavy, tall, tightly set white capitals with a slightly distressed, carved look, over and through the rear windows ahead of the aft door. Left side only.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Bebas Neue",
+          "Anton"
+        ],
+        "weight": 900,
+        "slantDeg": 0,
+        "width": "condensed",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "edc",
+      "place": "fuselage",
+      "at": [
+        0.634,
+        -0.26
+      ],
+      "height": 0.79,
+      "length": 0.11,
+      "color": "white",
+      "side": "right",
+      "style": "The Electric Daisy Carnival wordmark: big round white lowercase 'edc', its letters' bowls nearly circles, through the rear windows. Right side only.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "Futura Bold",
+          "Avenir Next Heavy"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.72
+      }
+    }
+  ],
+  "notes": "Drawn on three open photos of N198NV (left 2024-01 and 2025-03, right 2025-08), two of them fitted to the measured A320 shape. The two sides' fits put the band about 0.02 apart along the body (the left photo is from 14° below); the band is drawn between them. The band is a straight-edged area bent once at the window line (steep below it, shallower above), its purple edging swapping sides as Allegiant's standard yellow edging does. The art behind it is a soft gradient with faint swirl patterns: drawn as four fields, orange, red, magenta and purple, with straight edges where the colors turn; their edges near the crown are the least sure (the titles and the wing hide them). The fin is Allegiant's standard sunburst layout on purple (the standard's rays reused, checked by eye on both sides). The forward fuselage, title and sun are Allegiant's standard. Unveiled before the 2024-01 photo; no press date found, so `from` is left out."
+}

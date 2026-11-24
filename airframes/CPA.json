@@ -1,0 +1,465 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "CPA",
+  "airframes": [
+    {
+      "registration": "B-LIA",
+      "hex": "780217",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B744",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-LIA_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_747-400ERF_of_Cathay_Pacific_Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Cathay_Cargo",
+          "accessed": "2026-11-13",
+          "note": "'Cathay Cargo' title from June 2023 (B-LJN first); B-LIA repainted Nov 2024."
+        }
+      ],
+      "notes": "Repainted with the Cathay Cargo title, Nov 2024 (Wikipedia).",
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "B-LIB",
+      "hex": "780218",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B744",
+      "livery": "cargo",
+      "lastSeen": "2025-10-24",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-LIB_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_747-400ERF_of_Cathay_Pacific_Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Cathay_Cargo",
+          "accessed": "2026-11-13",
+          "note": "'Cathay Cargo' title from June 2023 (B-LJN first); B-LIA repainted Nov 2024."
+        }
+      ]
+    },
+    {
+      "registration": "B-LIC",
+      "hex": "780219",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B744",
+      "livery": "cargo-2015",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-LIC_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_747-400ERF_of_Cathay_Pacific_Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Cathay_Cargo",
+          "accessed": "2026-11-13",
+          "note": "'Cathay Cargo' title from June 2023 (B-LJN first); B-LIA repainted Nov 2024."
+        }
+      ],
+      "notes": "No recent Commons photo found; title assumed not yet changed."
+    },
+    {
+      "registration": "B-LID",
+      "hex": "78021a",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B744",
+      "livery": "cargo-2015",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-LID_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_747-400ERF_of_Cathay_Pacific_Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Cathay_Cargo",
+          "accessed": "2026-11-13",
+          "note": "'Cathay Cargo' title from June 2023 (B-LJN first); B-LIA repainted Nov 2024."
+        }
+      ],
+      "notes": "No recent Commons photo found; title assumed not yet changed.",
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "B-LIE",
+      "hex": "78021b",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B744",
+      "livery": "cargo",
+      "lastSeen": "2026-10-06",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-LIE_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_747-400ERF_of_Cathay_Pacific_Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Cathay_Cargo",
+          "accessed": "2026-11-13",
+          "note": "'Cathay Cargo' title from June 2023 (B-LJN first); B-LIA repainted Nov 2024."
+        }
+      ]
+    },
+    {
+      "registration": "B-LIF",
+      "hex": "78021c",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B744",
+      "livery": "cargo",
+      "lastSeen": "2026-06-06",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-LIF_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_747-400ERF_of_Cathay_Pacific_Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Cathay_Cargo",
+          "accessed": "2026-11-13",
+          "note": "'Cathay Cargo' title from June 2023 (B-LJN first); B-LIA repainted Nov 2024."
+        }
+      ]
+    },
+    {
+      "registration": "B-LJA",
+      "hex": "780231",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B748",
+      "livery": "cargo-2015",
+      "lastSeen": "2024-06-11",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-LJA_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_747-8F_of_Cathay_Pacific_Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Cathay_Cargo",
+          "accessed": "2026-11-13",
+          "note": "'Cathay Cargo' title from June 2023 (B-LJN first); B-LIA repainted Nov 2024."
+        }
+      ]
+    },
+    {
+      "registration": "B-LJB",
+      "hex": "780232",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B748",
+      "livery": "cargo",
+      "lastSeen": "2026-09-06",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-LJB_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_747-8F_of_Cathay_Pacific_Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Cathay_Cargo",
+          "accessed": "2026-11-13",
+          "note": "'Cathay Cargo' title from June 2023 (B-LJN first); B-LIA repainted Nov 2024."
+        }
+      ]
+    },
+    {
+      "registration": "B-LJC",
+      "hex": "780233",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B748",
+      "livery": "cargo-2015",
+      "lastSeen": "2026-11-14",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-LJC_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_747-8F_of_Cathay_Pacific_Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Cathay_Cargo",
+          "accessed": "2026-11-13",
+          "note": "'Cathay Cargo' title from June 2023 (B-LJN first); B-LIA repainted Nov 2024."
+        }
+      ]
+    },
+    {
+      "registration": "B-LJD",
+      "hex": "780a1c",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B748",
+      "livery": "cargo-2015",
+      "lastSeen": "2025-06-08",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-LJD_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_747-8F_of_Cathay_Pacific_Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Cathay_Cargo",
+          "accessed": "2026-11-13",
+          "note": "'Cathay Cargo' title from June 2023 (B-LJN first); B-LIA repainted Nov 2024."
+        }
+      ]
+    },
+    {
+      "registration": "B-LJF",
+      "hex": "780a28",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B748",
+      "livery": "cargo-2015",
+      "lastSeen": "2025-08-06",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-LJF_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_747-8F_of_Cathay_Pacific_Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Cathay_Cargo",
+          "accessed": "2026-11-13",
+          "note": "'Cathay Cargo' title from June 2023 (B-LJN first); B-LIA repainted Nov 2024."
+        }
+      ]
+    },
+    {
+      "registration": "B-LJG",
+      "hex": "780a29",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B748",
+      "livery": "cargo-2015",
+      "lastSeen": "2026-11-14",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-LJG_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_747-8F_of_Cathay_Pacific_Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Cathay_Cargo",
+          "accessed": "2026-11-13",
+          "note": "'Cathay Cargo' title from June 2023 (B-LJN first); B-LIA repainted Nov 2024."
+        }
+      ]
+    },
+    {
+      "registration": "B-LJH",
+      "hex": "780a3d",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B748",
+      "livery": "cargo-2015",
+      "lastSeen": "2026-07-08",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-LJH_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_747-8F_of_Cathay_Pacific_Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Cathay_Cargo",
+          "accessed": "2026-11-13",
+          "note": "'Cathay Cargo' title from June 2023 (B-LJN first); B-LIA repainted Nov 2024."
+        }
+      ]
+    },
+    {
+      "registration": "B-LJI",
+      "hex": "780a3e",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B748",
+      "livery": "cargo-2015",
+      "lastSeen": "2026-11-14",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-LJI_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_747-8F_of_Cathay_Pacific_Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Cathay_Cargo",
+          "accessed": "2026-11-13",
+          "note": "'Cathay Cargo' title from June 2023 (B-LJN first); B-LIA repainted Nov 2024."
+        }
+      ]
+    },
+    {
+      "registration": "B-LJJ",
+      "hex": "780a3f",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B748",
+      "livery": "cargo-2015",
+      "lastSeen": "2026-06-19",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-LJJ_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_747-8F_of_Cathay_Pacific_Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Cathay_Cargo",
+          "accessed": "2026-11-13",
+          "note": "'Cathay Cargo' title from June 2023 (B-LJN first); B-LIA repainted Nov 2024."
+        }
+      ]
+    },
+    {
+      "registration": "B-LJK",
+      "hex": "780a6e",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B748",
+      "livery": "cargo",
+      "lastSeen": "2026-06-06",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-LJK_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_747-8F_of_Cathay_Pacific_Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Cathay_Cargo",
+          "accessed": "2026-11-13",
+          "note": "'Cathay Cargo' title from June 2023 (B-LJN first); B-LIA repainted Nov 2024."
+        }
+      ]
+    },
+    {
+      "registration": "B-LJL",
+      "hex": "780a6f",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B748",
+      "livery": "cargo-2015",
+      "lastSeen": "2026-08-30",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-LJL_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_747-8F_of_Cathay_Pacific_Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Cathay_Cargo",
+          "accessed": "2026-11-13",
+          "note": "'Cathay Cargo' title from June 2023 (B-LJN first); B-LIA repainted Nov 2024."
+        }
+      ]
+    },
+    {
+      "registration": "B-LJM",
+      "hex": "780a70",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B748",
+      "livery": "cargo-2015",
+      "lastSeen": "2025-03-23",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-LJM_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_747-8F_of_Cathay_Pacific_Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Cathay_Cargo",
+          "accessed": "2026-11-13",
+          "note": "'Cathay Cargo' title from June 2023 (B-LJN first); B-LIA repainted Nov 2024."
+        }
+      ]
+    },
+    {
+      "registration": "B-LJN",
+      "hex": "780aa8",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B748",
+      "livery": "cargo",
+      "lastSeen": "2025-10-23",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-LJN_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_747-8F_of_Cathay_Pacific_Cargo",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Cathay_Cargo",
+          "accessed": "2026-11-13",
+          "note": "'Cathay Cargo' title from June 2023 (B-LJN first); B-LIA repainted Nov 2024."
+        }
+      ],
+      "notes": "The first to carry the Cathay Cargo title (June 2023)."
+    }
+  ]
+}

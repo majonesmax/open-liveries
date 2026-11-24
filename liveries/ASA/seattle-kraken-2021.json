@@ -1,0 +1,26 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "seattle-kraken-2021",
+  "airline": "ASA",
+  "name": "Seattle Kraken (2021, partial logo)",
+  "kind": "special",
+  "from": "2021-10",
+  "to": "2024",
+  "confidence": "medium",
+  "description": "Fuselage: Standard Alaska livery with a partial, cropped Kraken 'S' logo 'leaning into the mystery'. Cheatlines: Standard. Tail: Standard Alaska. Engines: Standard. Winglets: Standard. Titles: Standard. Artwork: Partial Kraken logo on aft fuselage (details approximate). Colors hex: n/a.",
+  "history": "The first Kraken jet; back in standard colors by January 2026, and a different design from N933AK's (2024).",
+  "sources": [
+    {
+      "url": "https://simpleflying.com/alaska-special-livery-kraken/",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://www.alaskaair.com/content/travel-info/our-aircraft/737-9-max-seattle-kraken",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:N915AK_(aircraft)",
+      "accessed": "2026-11-12"
+    }
+  ]
+}

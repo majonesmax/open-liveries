@@ -1,0 +1,504 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "flagship",
+  "airline": "AAL",
+  "name": "Flagship (centennial retro)",
+  "kind": "retro",
+  "confidence": "medium",
+  "drawnOn": "B77W",
+  "from": "2025-10",
+  "commemorates": "American's centennial (2026), in the look of its first DC-3 Flagships (1936).",
+  "description": "Fuselage: light silver-gray all over with a red radome; a thin red cheatline along the windows' foot, nose to tail, stepped twice like a lightning bolt behind the cockpit. Titles: 'AMERICAN AIRLINES' in navy capitals between the steps; the Flagship pennant and 'THE Flagship' in a navy script, underlined, over the windows ahead of the wing; 'AMERICAN' over the 1930s AA eagle roundel (a navy disc, the red A's either side of a white eagle) aft. Tail: silver fin with a red band down the trailing edge. Engines silver with a red front and a small red arrow.",
+  "sources": [
+    {
+      "url": "https://news.aa.com/news/news-details/2025/American-Airlines-unveils-special-Flagship-livery-ahead-of-centennial-year-CENT-10/default.aspx",
+      "title": "American Airlines: American Airlines unveils special Flagship livery ahead of centennial year (2025-10)",
+      "accessed": "2026-11-22",
+      "note": "777-300ER N735AT 'Flagship DFW' in a livery after American's first DC-3 Flagships (1936), for the 2026 centennial; painted at Grissom, in service from November 2025."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N735AT_Haneda_Airport_30-5-2026_-_2.jpg",
+      "title": "N735AT Haneda Airport 30-5-2026 - 2.jpg (CC BY 4.0)",
+      "accessed": "2026-11-22",
+      "note": "N735AT left side taxiing at Haneda, 2026-05-30, from above and nearly side-on: fitted to shapes/B77W.json (doors 1 and 5, nose, tail, fin tip; within 10 px, 0.4 m). The cheatline, the fin's red band, the titles and the roundel read off it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N735AT_Haneda_Airport_30-5-2026_-_3.jpg",
+      "title": "N735AT Haneda Airport 30-5-2026 - 3.jpg (CC BY 4.0)",
+      "accessed": "2026-11-22",
+      "note": "Left side closer, same day: the cheatline's lightning steps and the engine's red front, checked by eye."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N735AT_B777-300ER,_American_(retro_livery),_Miami_02-20-26.jpg",
+      "title": "N735AT B777-300ER, American (retro livery), Miami 02-20-26.jpg (CC BY 4.0)",
+      "accessed": "2026-11-22",
+      "note": "Right side landing at Miami, 2026-02-20: the same layout mirrored; 'FLAGSHIP DFW' under the cockpit."
+    }
+  ],
+  "palette": {
+    "silver": {
+      "hex": "#D6D9DA",
+      "official": false,
+      "name": "light silver-gray"
+    },
+    "red": {
+      "hex": "#E8341C",
+      "official": false
+    },
+    "navy": {
+      "hex": "#1B2A4A",
+      "official": false
+    },
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false,
+      "name": "polished inlet lip"
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "silver",
+    "areas": [
+      {
+        "name": "cheatline: forward step, from the radome",
+        "color": "red",
+        "points": [
+          [
+            0.022,
+            0.019,
+            1
+          ],
+          [
+            0.123,
+            -0.188,
+            1
+          ],
+          [
+            0.123,
+            -0.247,
+            1
+          ],
+          [
+            0.022,
+            -0.103,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "cheatline: first lightning diagonal",
+        "color": "red",
+        "points": [
+          [
+            0.106,
+            -0.052,
+            1
+          ],
+          [
+            0.112,
+            -0.057,
+            1
+          ],
+          [
+            0.126,
+            -0.248,
+            1
+          ],
+          [
+            0.12,
+            -0.247,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "cheatline: middle step (under 'AMERICAN AIRLINES')",
+        "color": "red",
+        "points": [
+          [
+            0.109,
+            -0.054,
+            1
+          ],
+          [
+            0.218,
+            -0.117,
+            1
+          ],
+          [
+            0.217,
+            -0.174,
+            1
+          ],
+          [
+            0.108,
+            -0.112,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "cheatline: second lightning diagonal",
+        "color": "red",
+        "points": [
+          [
+            0.207,
+            0.006,
+            1
+          ],
+          [
+            0.213,
+            0.005,
+            1
+          ],
+          [
+            0.224,
+            -0.175,
+            1
+          ],
+          [
+            0.219,
+            -0.174,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "cheatline: along the windows' foot to the tail",
+        "color": "red",
+        "points": [
+          [
+            0.21,
+            0.005,
+            1
+          ],
+          [
+            0.558,
+            0.0
+          ],
+          [
+            0.884,
+            -0.22,
+            1
+          ],
+          [
+            0.884,
+            -0.313,
+            1
+          ],
+          [
+            0.558,
+            -0.056
+          ],
+          [
+            0.209,
+            -0.05,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      }
+    ],
+    "radome": {
+      "color": "red"
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2,
+      3
+    ]
+  },
+  "fin": {
+    "base": "silver",
+    "rudder": "silver",
+    "mirrored": true,
+    "areas": [
+      {
+        "name": "red band down the trailing edge (straight, about 0.7 m wide)",
+        "color": "red",
+        "points": [
+          [
+            0.7,
+            1.0,
+            1
+          ],
+          [
+            1.0,
+            1.0,
+            1
+          ],
+          [
+            1.0,
+            0.0,
+            1
+          ],
+          [
+            0.915,
+            0.0,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          3
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      3
+    ]
+  },
+  "stabilizer": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "engines": {
+    "cowling": "silver",
+    "inletLip": "lip",
+    "areas": [
+      {
+        "name": "red front of the cowling",
+        "color": "red",
+        "smooth": true,
+        "points": [
+          [
+            0,
+            -1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0.2,
+            1
+          ],
+          [
+            0.24,
+            0.5
+          ],
+          [
+            0.25,
+            0
+          ],
+          [
+            0.24,
+            -0.5
+          ],
+          [
+            0.2,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "small red arrow on the cowling's side",
+        "color": "red",
+        "points": [
+          [
+            0.38,
+            0.12,
+            1
+          ],
+          [
+            0.48,
+            0.0,
+            1
+          ],
+          [
+            0.38,
+            -0.12,
+            1
+          ],
+          [
+            0.42,
+            0.0,
+            1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          2
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "AAL/aa-eagle",
+      "place": "fuselage",
+      "at": [
+        0.761,
+        -0.02
+      ],
+      "height": 0.85,
+      "colors": [
+        "navy",
+        "red",
+        "white"
+      ],
+      "description": "American's 1930s eagle roundel: a navy disc with a thin white rim, the two red A's either side of a white eagle with spread wings, over the windows aft.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        3
+      ]
+    },
+    {
+      "mark": "AAL/flagship-pennant",
+      "place": "fuselage",
+      "at": [
+        0.396,
+        0.46
+      ],
+      "height": 0.25,
+      "colors": [
+        "navy",
+        "red",
+        "white"
+      ],
+      "description": "The Flagship pennant: a navy swallow-tailed flag on a short staff, a white disc with the eagle at its hoist, red and white stripes in its fly, ahead of 'Flagship'.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "AMERICAN AIRLINES",
+      "place": "fuselage",
+      "at": [
+        0.109,
+        -0.074
+      ],
+      "height": 0.105,
+      "length": 0.096,
+      "color": "navy",
+      "style": "Navy capitals, a geometric face with thin strokes, between the cheatline's steps behind the cockpit.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Futura Medium",
+          "Avenir Next Medium"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "Flagship",
+      "place": "fuselage",
+      "at": [
+        0.427,
+        0.331
+      ],
+      "height": 0.37,
+      "length": 0.108,
+      "color": "navy",
+      "style": "'Flagship' in a navy 1930s script, a long underline running on from its last letter, a small 'THE' above its F.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "Brush Script MT",
+          "Kaufmann Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 8,
+        "width": "normal",
+        "strokes": "brush",
+        "case": "mixed",
+        "xHeight": 0.6
+      }
+    },
+    {
+      "text": "AMERICAN",
+      "place": "fuselage",
+      "at": [
+        0.725,
+        0.435
+      ],
+      "height": 0.162,
+      "length": 0.071,
+      "color": "navy",
+      "style": "Navy capitals over the roundel, as 'AMERICAN AIRLINES'.",
+      "confidence": "high",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "Futura Medium",
+          "Avenir Next Medium"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Measured on N735AT's left side at Haneda, 2026-05-30 (from the terminal roof, nearly side-on), checked on two more that day and on the right side at Miami, 2026-02-20. The cheatline is about 0.25 m deep, its steps straight (corners), the long run following the windows' foot to the tail cone. The base reads as a light silver-gray paint in every photo (not polished metal). The fin's red band is about 0.7 m wide, so it takes most of the tip's short chord. The Flagship script's underline, 'THE', 'FLAGSHIP DFW' under the cockpit, the registration and small flag on the fin aren't drawn; the script is set in a stand-in, not drawn as a mark."
+}

@@ -1,0 +1,1236 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "florida-one",
+  "airline": "SWA",
+  "name": "Florida One (Florida flag)",
+  "kind": "special",
+  "description": "Fuselage: white, with the Florida flag's seal laid huge over the mid-fuselage: a gold ring lettered 'GREAT SEAL OF THE STATE OF FLORIDA' in dark red serif capitals from crown to belly, inside it a painted scene (a Seminole woman in a blue dress strewing flowers, a sabal palm, a steamboat, the rising sun's rays over pale sky, green shore and blue water, red-and-white hibiscus); red wedges of the flag's saltire running from the ring to the crown and belly, fore and aft. Cheatlines: none. Tail: Heart fin with white 'Southwest'. Engines: green and orange with the mural's flowers. Winglets: gray. Titles: 'Southwest' white on the lower fin; 'Florida One' small by the cockpit. Artwork: Florida seal. Colors hex: matched by eye from photos.",
+  "confidence": "medium",
+  "drawnOn": "B737",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Southwest_Airlines_fleet",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Southwest_Boeing_737-700_N945WN_BWI_MD2.jpg",
+      "title": "Southwest Boeing 737-700 N945WN BWI MD2.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-12",
+      "note": "N945WN from the right, broadside, 2026-04-09: the seal, the saltire's red, engines, fin (measured from this one)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Southwest_Boeing_737-700_N945WN_\"Florida_One\"_Inbound_to_Santa_Barbara.jpg",
+      "title": "Southwest Boeing 737-700 N945WN \"Florida One\" Inbound to Santa Barbara.jpg (CC BY 2.0)",
+      "accessed": "2026-11-12",
+      "note": "N945WN from the left and ahead, 2025-01-23: the same layout on the left side."
+    }
+  ],
+  "palette": {
+    "blue": {
+      "hex": "#304CB2",
+      "name": "Bold Blue",
+      "official": true
+    },
+    "red": {
+      "hex": "#D5152B",
+      "official": false
+    },
+    "yellow": {
+      "hex": "#F9B612",
+      "official": false
+    },
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B4B9C0",
+      "official": false
+    },
+    "wingletGray": {
+      "hex": "#D3D6DA",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "name": "bare metal inlet lip",
+      "official": false
+    },
+    "flRed": {
+      "hex": "#D8222A",
+      "official": false
+    },
+    "sealGold": {
+      "hex": "#E0A81E",
+      "official": false
+    },
+    "sky": {
+      "hex": "#F3D98E",
+      "official": false
+    },
+    "shore": {
+      "hex": "#2E9B4E",
+      "official": false
+    },
+    "flOrange": {
+      "hex": "#EF7F22",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "saltire's red, forward and up to the crown",
+        "color": "flRed",
+        "points": [
+          [
+            0.207,
+            0.875
+          ],
+          [
+            0.117,
+            0.813
+          ],
+          [
+            0.204,
+            0.278
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "saltire's red, forward and down to the belly",
+        "color": "flRed",
+        "points": [
+          [
+            0.204,
+            -0.194
+          ],
+          [
+            0.137,
+            -0.64
+          ],
+          [
+            0.127,
+            -1.0
+          ],
+          [
+            0.204,
+            -1.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "saltire's red, aft and up to the crown",
+        "color": "flRed",
+        "points": [
+          [
+            0.561,
+            1.0
+          ],
+          [
+            0.615,
+            1.0
+          ],
+          [
+            0.561,
+            0.523
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "saltire's red, aft and down to the belly",
+        "color": "flRed",
+        "points": [
+          [
+            0.561,
+            -0.203
+          ],
+          [
+            0.658,
+            -0.747
+          ],
+          [
+            0.645,
+            -1.0
+          ],
+          [
+            0.561,
+            -1.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "seal's gold ring",
+        "color": "sealGold",
+        "points": [
+          [
+            0.564,
+            0.052
+          ],
+          [
+            0.563,
+            0.256
+          ],
+          [
+            0.558,
+            0.456
+          ],
+          [
+            0.551,
+            0.65
+          ],
+          [
+            0.54,
+            0.833
+          ],
+          [
+            0.527,
+            1
+          ],
+          [
+            0.512,
+            1
+          ],
+          [
+            0.494,
+            1
+          ],
+          [
+            0.474,
+            1
+          ],
+          [
+            0.453,
+            1
+          ],
+          [
+            0.431,
+            1
+          ],
+          [
+            0.408,
+            1
+          ],
+          [
+            0.384,
+            1
+          ],
+          [
+            0.36,
+            1
+          ],
+          [
+            0.337,
+            1
+          ],
+          [
+            0.315,
+            1
+          ],
+          [
+            0.294,
+            1
+          ],
+          [
+            0.274,
+            1
+          ],
+          [
+            0.256,
+            1
+          ],
+          [
+            0.241,
+            1
+          ],
+          [
+            0.228,
+            0.833
+          ],
+          [
+            0.217,
+            0.65
+          ],
+          [
+            0.21,
+            0.456
+          ],
+          [
+            0.205,
+            0.256
+          ],
+          [
+            0.204,
+            0.052
+          ],
+          [
+            0.205,
+            -0.152
+          ],
+          [
+            0.21,
+            -0.352
+          ],
+          [
+            0.217,
+            -0.546
+          ],
+          [
+            0.228,
+            -0.729
+          ],
+          [
+            0.241,
+            -0.899
+          ],
+          [
+            0.256,
+            -1
+          ],
+          [
+            0.274,
+            -1
+          ],
+          [
+            0.294,
+            -1
+          ],
+          [
+            0.315,
+            -1
+          ],
+          [
+            0.337,
+            -1
+          ],
+          [
+            0.36,
+            -1
+          ],
+          [
+            0.384,
+            -1
+          ],
+          [
+            0.408,
+            -1
+          ],
+          [
+            0.431,
+            -1
+          ],
+          [
+            0.453,
+            -1
+          ],
+          [
+            0.474,
+            -1
+          ],
+          [
+            0.494,
+            -1
+          ],
+          [
+            0.512,
+            -1
+          ],
+          [
+            0.527,
+            -0.899
+          ],
+          [
+            0.54,
+            -0.729
+          ],
+          [
+            0.551,
+            -0.546
+          ],
+          [
+            0.558,
+            -0.352
+          ],
+          [
+            0.563,
+            -0.152
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ],
+        "smooth": true
+      },
+      {
+        "name": "seal's scene: pale sky with the sun's orange rays",
+        "color": "sky",
+        "points": [
+          [
+            0.514,
+            0.052
+          ],
+          [
+            0.513,
+            0.199
+          ],
+          [
+            0.51,
+            0.344
+          ],
+          [
+            0.504,
+            0.484
+          ],
+          [
+            0.497,
+            0.616
+          ],
+          [
+            0.487,
+            0.739
+          ],
+          [
+            0.476,
+            0.85
+          ],
+          [
+            0.463,
+            0.947
+          ],
+          [
+            0.449,
+            1
+          ],
+          [
+            0.434,
+            1
+          ],
+          [
+            0.418,
+            1
+          ],
+          [
+            0.401,
+            1
+          ],
+          [
+            0.384,
+            1
+          ],
+          [
+            0.367,
+            1
+          ],
+          [
+            0.35,
+            1
+          ],
+          [
+            0.334,
+            1
+          ],
+          [
+            0.319,
+            1
+          ],
+          [
+            0.305,
+            0.947
+          ],
+          [
+            0.292,
+            0.85
+          ],
+          [
+            0.281,
+            0.739
+          ],
+          [
+            0.271,
+            0.616
+          ],
+          [
+            0.264,
+            0.484
+          ],
+          [
+            0.258,
+            0.344
+          ],
+          [
+            0.255,
+            0.199
+          ],
+          [
+            0.254,
+            0.052
+          ],
+          [
+            0.255,
+            -0.095
+          ],
+          [
+            0.258,
+            -0.24
+          ],
+          [
+            0.264,
+            -0.38
+          ],
+          [
+            0.271,
+            -0.512
+          ],
+          [
+            0.281,
+            -0.635
+          ],
+          [
+            0.292,
+            -0.746
+          ],
+          [
+            0.305,
+            -0.843
+          ],
+          [
+            0.319,
+            -0.925
+          ],
+          [
+            0.334,
+            -0.991
+          ],
+          [
+            0.35,
+            -1
+          ],
+          [
+            0.367,
+            -1
+          ],
+          [
+            0.384,
+            -1
+          ],
+          [
+            0.401,
+            -1
+          ],
+          [
+            0.418,
+            -1
+          ],
+          [
+            0.434,
+            -0.991
+          ],
+          [
+            0.449,
+            -0.925
+          ],
+          [
+            0.463,
+            -0.843
+          ],
+          [
+            0.476,
+            -0.746
+          ],
+          [
+            0.487,
+            -0.635
+          ],
+          [
+            0.497,
+            -0.512
+          ],
+          [
+            0.504,
+            -0.38
+          ],
+          [
+            0.51,
+            -0.24
+          ],
+          [
+            0.513,
+            -0.095
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ],
+        "smooth": true
+      },
+      {
+        "name": "seal's scene: green shore and blue water, lower half",
+        "color": "shore",
+        "points": [
+          [
+            0.514,
+            -0.182
+          ],
+          [
+            0.513,
+            -0.182
+          ],
+          [
+            0.51,
+            -0.182
+          ],
+          [
+            0.504,
+            -0.182
+          ],
+          [
+            0.497,
+            -0.182
+          ],
+          [
+            0.487,
+            -0.182
+          ],
+          [
+            0.476,
+            -0.182
+          ],
+          [
+            0.463,
+            -0.182
+          ],
+          [
+            0.449,
+            -0.182
+          ],
+          [
+            0.434,
+            -0.182
+          ],
+          [
+            0.418,
+            -0.182
+          ],
+          [
+            0.401,
+            -0.182
+          ],
+          [
+            0.384,
+            -0.182
+          ],
+          [
+            0.367,
+            -0.182
+          ],
+          [
+            0.35,
+            -0.182
+          ],
+          [
+            0.334,
+            -0.182
+          ],
+          [
+            0.319,
+            -0.182
+          ],
+          [
+            0.305,
+            -0.182
+          ],
+          [
+            0.292,
+            -0.182
+          ],
+          [
+            0.281,
+            -0.182
+          ],
+          [
+            0.271,
+            -0.182
+          ],
+          [
+            0.264,
+            -0.182
+          ],
+          [
+            0.258,
+            -0.182
+          ],
+          [
+            0.255,
+            -0.182
+          ],
+          [
+            0.254,
+            -0.182
+          ],
+          [
+            0.255,
+            -0.182
+          ],
+          [
+            0.258,
+            -0.24
+          ],
+          [
+            0.264,
+            -0.38
+          ],
+          [
+            0.271,
+            -0.512
+          ],
+          [
+            0.281,
+            -0.635
+          ],
+          [
+            0.292,
+            -0.746
+          ],
+          [
+            0.305,
+            -0.843
+          ],
+          [
+            0.319,
+            -0.925
+          ],
+          [
+            0.334,
+            -0.991
+          ],
+          [
+            0.35,
+            -1
+          ],
+          [
+            0.367,
+            -1
+          ],
+          [
+            0.384,
+            -1
+          ],
+          [
+            0.401,
+            -1
+          ],
+          [
+            0.418,
+            -1
+          ],
+          [
+            0.434,
+            -0.991
+          ],
+          [
+            0.449,
+            -0.925
+          ],
+          [
+            0.463,
+            -0.843
+          ],
+          [
+            0.476,
+            -0.746
+          ],
+          [
+            0.487,
+            -0.635
+          ],
+          [
+            0.497,
+            -0.512
+          ],
+          [
+            0.504,
+            -0.38
+          ],
+          [
+            0.51,
+            -0.24
+          ],
+          [
+            0.513,
+            -0.182
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ],
+        "smooth": true
+      }
+    ],
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "blue",
+    "areas": [
+      {
+        "name": "pinstripe under the red",
+        "color": "white",
+        "above": [
+          [
+            0,
+            0.2
+          ],
+          [
+            0.177,
+            0.241
+          ],
+          [
+            0.504,
+            0.329
+          ],
+          [
+            0.723,
+            0.407
+          ],
+          [
+            0.883,
+            0.482
+          ],
+          [
+            1,
+            0.54
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "red band",
+        "color": "red",
+        "above": [
+          [
+            0,
+            0.213
+          ],
+          [
+            0.081,
+            0.235
+          ],
+          [
+            0.416,
+            0.324
+          ],
+          [
+            0.65,
+            0.404
+          ],
+          [
+            0.803,
+            0.479
+          ],
+          [
+            1,
+            0.555
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "pinstripe under the yellow",
+        "color": "white",
+        "above": [
+          [
+            0,
+            0.285
+          ],
+          [
+            0.18,
+            0.38
+          ],
+          [
+            0.315,
+            0.455
+          ],
+          [
+            0.489,
+            0.6
+          ],
+          [
+            0.645,
+            0.741
+          ],
+          [
+            0.8,
+            0.88
+          ],
+          [
+            0.895,
+            0.948
+          ],
+          [
+            0.97,
+            1.0
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "yellow band",
+        "color": "yellow",
+        "above": [
+          [
+            0,
+            0.3
+          ],
+          [
+            0.126,
+            0.377
+          ],
+          [
+            0.246,
+            0.452
+          ],
+          [
+            0.427,
+            0.597
+          ],
+          [
+            0.561,
+            0.738
+          ],
+          [
+            0.692,
+            0.877
+          ],
+          [
+            0.766,
+            0.946
+          ],
+          [
+            0.82,
+            1.0
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "leading-edge pinstripe along the yellow",
+        "color": "white",
+        "points": [
+          [
+            0.003,
+            0.3
+          ],
+          [
+            0.025,
+            0.3
+          ],
+          [
+            0.025,
+            1.0
+          ],
+          [
+            0.003,
+            1.0
+          ]
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "wingletGray",
+    "inner": "wingletGray"
+  },
+  "engines": {
+    "cowling": "shore",
+    "inletLip": "lip",
+    "areas": [
+      {
+        "name": "orange band round the forward cowling",
+        "color": "flOrange",
+        "points": [
+          [
+            0.06,
+            -1
+          ],
+          [
+            0.3,
+            -1
+          ],
+          [
+            0.3,
+            1
+          ],
+          [
+            0.06,
+            1
+          ]
+        ]
+      }
+    ],
+    "confidence": "low",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "SWA/heart",
+      "place": "fuselage",
+      "at": [
+        0.124,
+        0.541
+      ],
+      "height": 0.13,
+      "colors": [
+        "blue",
+        "red",
+        "yellow"
+      ],
+      "description": "The small Southwest Heart above and just aft of the forward passenger door.",
+      "reference": "https://commons.wikimedia.org/wiki/Category:Southwest_Airlines",
+      "side": "both",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "SWA/us-flag",
+      "place": "fin",
+      "at": [
+        0.02,
+        0.05
+      ],
+      "height": 0.055,
+      "colors": [
+        "red",
+        "white",
+        "#1F2A5C"
+      ],
+      "description": "A small US flag ahead of the fin title, at the fin's root.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "SWA/florida-seal",
+      "place": "fuselage",
+      "at": [
+        0.384,
+        0.052
+      ],
+      "height": 1.8,
+      "colors": [
+        "sealGold",
+        "flRed",
+        "sky",
+        "shore",
+        "#2F5FB0",
+        "flOrange"
+      ],
+      "description": "The Great Seal of Florida as the flag shows it, painted crown to belly over the mid-fuselage: the ring's dark-red serif lettering ('GREAT SEAL OF THE STATE OF FLORIDA', 'IN GOD WE TRUST'), a Seminole woman in a long blue dress scattering hibiscus, a sabal palm, a steamboat under sail, the sun's orange rays over a pale sky, green shore and blue water.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Southwest",
+      "place": "fin",
+      "at": [
+        0.084,
+        0.03
+      ],
+      "height": 0.12,
+      "color": "white",
+      "style": "The Southwest wordmark: bold, upright, rounded humanist sans, capital S, on the blue at the fin's root.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Bold",
+          "Gotham Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      },
+      "length": 0.86
+    },
+    {
+      "text": "Florida",
+      "place": "fuselage",
+      "at": [
+        0.0789,
+        -0.1
+      ],
+      "height": 0.05,
+      "color": "#2A2A2A",
+      "style": "The state's name, small under the cockpit windows, semi-bold; 'One' follows it in a lighter weight.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Demi Bold",
+          "Gotham Medium"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "length": 0.0171,
+      "side": "left"
+    },
+    {
+      "text": "One",
+      "place": "fuselage",
+      "at": [
+        0.0973,
+        -0.1
+      ],
+      "height": 0.05,
+      "color": "#2A2A2A",
+      "style": "'One' after the name, lighter.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Regular",
+          "Gotham Book"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "length": 0.0093,
+      "side": "left"
+    },
+    {
+      "text": "Florida",
+      "place": "fuselage",
+      "at": [
+        0.0895,
+        -0.1
+      ],
+      "height": 0.05,
+      "color": "#2A2A2A",
+      "style": "The state's name, small under the cockpit windows, semi-bold; 'One' follows it in a lighter weight. On the right it reads from the aft end: the name aft, 'One' forward.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Demi Bold",
+          "Gotham Medium"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "length": 0.0171,
+      "side": "right"
+    },
+    {
+      "text": "One",
+      "place": "fuselage",
+      "at": [
+        0.0789,
+        -0.1
+      ],
+      "height": 0.05,
+      "color": "#2A2A2A",
+      "style": "'One' after the name, lighter.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Regular",
+          "Gotham Book"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "length": 0.0093,
+      "side": "right"
+    }
+  ],
+  "notes": "Registration and type need FAA confirmation (see icao_hex/type check). FAA: Boeing 737-8 (MAX 8). Drawn from N945WN, which still wore Florida One in April 2026 (Commons, BWI). airframes/SWA.json lists N9019R as the current Florida One from Wikipedia, with no photo found; whether the scheme has moved, or N9019R carries the same design, is not confirmed. The seal is drawn as a ring and two fields; its scene is described. Re-checked 2026-11-15: the fin is the state jets' Heart fin as re-measured on Colorado One (the same fin on every 737), copied with its 'Southwest' title and flag. 'Florida One' measured on the April 2026 right-side photo of N945WN against the nose and the forward door (2.5-3.4 m back), two weights, a pair of titles per side (the left side mirrored), on Colorado One's line under the cockpit windows. The seal's circles made smooth. Drawn on the 737-700 (N945WN); on the 737-8 N9019R the art sits at the same metres, so a little further forward as shares.",
+  "history": "Previously N945WN (737-700, 2010)."
+}

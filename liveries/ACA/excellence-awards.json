@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "excellence-awards",
+  "airline": "ACA",
+  "name": "Employee Excellence Awards",
+  "kind": "special",
+  "from": "2024-05",
+  "confidence": "low",
+  "description": "Air Canada's 2017 white and black on a widebody, with the year's Excellence Award recipients honoured on it: their names in small white type in rows down the black fin under the red roundel, and a large black title on the rear fuselage with a smaller line under it. 2024 (787-9 C-FVNB, fin 857): 'CONGRATULATIONS' on the left side and 'FÉLICITATIONS' on the right over the aft windows, '2024 Employee Excellence Awards recipients' under it, 65 names on the fin. 2025 (787-9 C-FSBV, fin 852): 'EXCELLENCE | 2025' in thin spaced capitals over the windows behind the wing, 'Congratulations to our award-winning employees' under it, 55 names on the fin. Each year's jet keeps its scheme after the next is painted (C-FVNB was still in the 2024 version in May 2025).",
+  "sources": [
+    {
+      "url": "https://www.aircanada.com/media/honouring-air-canadas-excellence-award-recipients-2025/",
+      "title": "Air Canada newsroom: Honouring Air Canada's Excellence Award Recipients (2025), with its hangar photo of fin 852 (airline press photo)",
+      "accessed": "2026-11-22",
+      "note": "The 2025 recipients' 55 names on the tail of fin 852, a 787 (C-FSBV, its registration on the photo), for the second year running. The photo (from above and behind, in the hangar, 2025-04-08) shows the fin's rows of names under the roundel and the 'EXCELLENCE | 2025' title; looked at only, not measured (not a side view), not copied or shipped."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Air_Canada_C-FVNB(Congratulations_livery)_run_AC8(Hong_Kong_International_Airport_to_Canada_Vancouver_International_Airport)_28-05-2025.jpg",
+      "title": "Air Canada C-FVNB (Congratulations livery) … 28-05-2025.jpg (CC BY-SA 4.0, LN9267)",
+      "accessed": "2026-11-22",
+      "note": "C-FVNB's left side climbing out of Hong Kong, 2025-05-28, from below against cloud: 'CONGRATULATIONS' and '2024 Employee Excellence Awards recipients' on the aft fuselage, a year after the paint; too dark and steep to measure."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Air_Canada_C-FIUL_C-FRSI_C-FVNB_LHR_12-09-2024.jpg",
+      "title": "Air Canada C-FIUL C-FRSI C-FVNB LHR 12-09-2024.jpg (CC BY 4.0, BWard 1997)",
+      "accessed": "2026-11-23",
+      "note": "C-FVNB's tail and aft right side at Heathrow, 2024-09-12, from behind other aircraft: the names on the fin and the right side's smaller line beginning 'Prix d'excellence 20…'; the big title is out of frame. Not measurable."
+    },
+    {
+      "url": "https://www.airhistory.net/title/4605/Congratulations-Félicitations",
+      "title": "AirHistory.net: photos titled 'Congratulations / Félicitations'",
+      "accessed": "2026-11-22",
+      "note": "Evidence only: C-FVNB in the scheme from May 2024 (English left, French right), into July 2025."
+    },
+    {
+      "url": "https://www.jetphotos.com/photo/12132013",
+      "title": "JetPhotos: C-FIVM, 777-300ER, Rome 2026-05-31",
+      "accessed": "2026-11-22",
+      "note": "Evidence only: a '2026 Employee Excellence' scheme on 777-300ER C-FIVM, 50 names on the tail. No open or airline photo found (Commons' C-FIVM category, 69 files, has nothing newer than 2021, checked 2026-11-23)."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "black": {
+      "hex": "#14171B",
+      "official": false
+    },
+    "red": {
+      "hex": "#D0202E",
+      "official": false
+    }
+  },
+  "notes": "Described in words only, for the 2024 (C-FVNB) and 2026 (C-FIVM) versions. The 2025 version (C-FSBV) is drawn separately as ACA/excellence-awards-2025, measured from Commons photos of both sides (2025), and C-FSBV is tagged there. 2024: the open photos of C-FVNB are from well below while climbing out of Hong Kong (2025-05-28; its 'Light version' makes the left titles readable but it's still too steep to measure) and a partial view of its tail and aft right side at Heathrow (2024-09-12). 2026: no open or airline photo of C-FIVM in it (Commons checked 2026-11-23). The rest is Air Canada's 2017 standard (ACA/standard draws it). Each year's titles and names differ, so each year that gets drawn becomes its own scheme.",
+  "history": "New 2026-11-22. Air Canada first put its Excellence Award recipients on a jet in 2024 (C-FVNB), then 2025 (C-FSBV), reportedly 2026 (C-FIVM). 2026-11-23: the 2025 version split out as ACA/excellence-awards-2025 (drawn); this scheme keeps 2024 and 2026."
+}

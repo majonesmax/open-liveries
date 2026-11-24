@@ -1,0 +1,304 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "VLG",
+  "name": "Dot-pattern livery",
+  "kind": "standard",
+  "confidence": "medium",
+  "drawnOn": "A320",
+  "description": "White fuselage with the gray 'vueling' wordmark behind the forward door; a halftone of dark-gray dots, growing larger toward the tail, covers the fin and wraps the aft fuselage behind the wing, with one yellow dot high on the fin; bright yellow engines with 'vueling.com'; yellow sharklets; dark gray tail cone.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:EC-NAJ_(52048113116).jpg",
+      "title": "EC-NAJ (CC BY-SA 2.0, Flickr)",
+      "accessed": "2026-11-13",
+      "note": "A320neo from the left, 2022-05-02: title, fin and aft-fuselage dots, yellow engines and sharklets (this airframe also carries 'We ♥ places' stickers, not drawn)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:EC-MYB_01082018LHR_(43853190142).jpg",
+      "title": "EC-MYB 01082018LHR (CC BY-SA 2.0, Flickr)",
+      "accessed": "2026-11-13",
+      "note": "Right side, 2018-08-01: the plain standard scheme without stickers."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:S%27_London_Gatwick_30.3.21.jpg",
+      "title": "EC-NAJ, London Gatwick 30.3.21 (CC BY-SA 2.0, Colin Cooke Photo)",
+      "accessed": "2026-11-13",
+      "note": "Right side from below, 2021."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Vueling",
+      "title": "Wikipedia: Vueling",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F6",
+      "official": false
+    },
+    "gray": {
+      "hex": "#5C6066",
+      "name": "dark gray (dots, title)",
+      "official": false
+    },
+    "halftone": {
+      "hex": "#A6AAB0",
+      "name": "the dot field's average tone",
+      "official": false
+    },
+    "halftoneLight": {
+      "hex": "#D2D5D9",
+      "name": "the dot field's light leading edge",
+      "official": false
+    },
+    "yellow": {
+      "hex": "#FFCC00",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC5",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "name": "bare metal inlet lip",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "halftone dots, small, at the front of the aft field",
+        "color": "halftoneLight",
+        "points": [
+          [
+            0.79,
+            1
+          ],
+          [
+            0.69,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "halftone dots, larger, toward the tail",
+        "color": "halftone",
+        "points": [
+          [
+            0.83,
+            1
+          ],
+          [
+            0.74,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "dark gray tail cone",
+        "color": "gray",
+        "points": [
+          [
+            0.975,
+            -1
+          ],
+          [
+            0.975,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      }
+    ],
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "fin": {
+    "base": "halftone",
+    "mirrored": true,
+    "areas": [
+      {
+        "name": "lighter (smaller dots) along the leading edge",
+        "color": "halftoneLight",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0.18,
+            0
+          ],
+          [
+            0.25,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "yellow",
+    "inner": "yellow",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "yellow",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "VLG/yellow-dot",
+      "place": "fin",
+      "at": [
+        0.4,
+        0.55
+      ],
+      "height": 0.09,
+      "colors": [
+        "yellow"
+      ],
+      "description": "A single yellow dot among the fin's gray halftone dots, high on the fin.",
+      "reference": "https://commons.wikimedia.org/wiki/File:EC-MYB_01082018LHR_(43853190142).jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "vueling",
+      "place": "fuselage",
+      "at": [
+        0.153,
+        0.35
+      ],
+      "height": 0.24,
+      "color": "gray",
+      "style": "Vueling's wordmark: dark gray, lowercase, bold rounded geometric sans, upright, over the windows aft of door 1.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Museo Sans Rounded 700",
+          "VAG Rounded Bold",
+          "Nunito ExtraBold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.65
+      },
+      "length": 0.082
+    },
+    {
+      "text": "vueling.com",
+      "place": "engines",
+      "at": [
+        0.15,
+        0.0
+      ],
+      "height": 0.25,
+      "color": "gray",
+      "style": "The wordmark with '.com' along the yellow cowling.",
+      "confidence": "high",
+      "sourceRefs": [
+        0
+      ],
+      "type": {
+        "similar": [
+          "Museo Sans Rounded 700",
+          "VAG Rounded Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower"
+      },
+      "length": 0.6
+    }
+  ],
+  "notes": "The halftone (dots growing from small at the front of each field to large at the back) can't be drawn as flat areas: it's given as two average tones; a renderer could draw dots instead. Recent (2024–26) Commons photos weren't found for this pass, so the 2018–2022 photos stand in. The belly under the aft field isn't seen. Re-checked 2026-11-15: the title measured on EC-NAJ (A320neo, side-on, 2022; it wears a 'We love places' decal special, the title as on the standard) and sized against EC-MYB (2018): it runs x 0.153-0.235, its baseline just above the window tops and its ascenders about 0.5 m tall, smaller and higher than drawn; lowercase 0.65 of the l. The halftone fields' forward edges reduced to their ends (straight from the side). Still no 2024-26 standard photo on Commons.",
+  "history": "Replaces Skyarium v1's approximation. The dot-pattern scheme replaced Vueling's earlier white-and-yellow scheme with the large gray-and-yellow tail lettering; the year it was introduced isn't confirmed here."
+}

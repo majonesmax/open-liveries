@@ -1,0 +1,353 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "CLX",
+  "name": "Cargolux (cube tail)",
+  "kind": "standard",
+  "confidence": "medium",
+  "drawnOn": "B748",
+  "description": "Light gray fuselage; a thin red stripe over a light blue one from behind the forward titles to the tail, the red widening into a red aft fuselage under the fin; 'cargolux' in large dark gray lower-case letters over the forward fuselage; a red fin with Cargolux's white three-cube mark and the Luxembourg flag at its top.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Cargolux",
+      "title": "Wikipedia: Cargolux",
+      "accessed": "2026-11-13",
+      "note": "Fleet (747-8F, 747-400F) and the livery."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Cargolux_LX-VCA_run_CV5327(Hong_Kong_International_Airport_to_United_States_Ted_Stevens_Anchorage_International_Airport)_16-03-2025.jpg",
+      "title": "Cargolux LX-VCA run CV5327(Hong Kong International Airport to United States Ted Stevens Anchorage International Airport) 16-03-2025.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "LX-VCA (747-8F) left side climbing, 2025-03-16: geometry, stripes, titles, fin."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:LX-VCD_-_Boeing_747-8R7F_-_Cargolux_\"City_of_Luxembourg\"_STN_2024-11-18.jpg",
+      "title": "LX-VCD - Boeing 747-8R7F - Cargolux \"City of Luxembourg\" STN 2024-11-18.jpg (CC BY 2.0)",
+      "accessed": "2026-11-13",
+      "note": "LX-VCD (747-8F) left front from below, 2024-11-18: stripes start, nose titles, engines."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:LX-VCJ@PEK_(20261030164014).jpg",
+      "title": "LX-VCJ@PEK (20261030164014).jpg (CC BY-SA 4.0, N509FZ)",
+      "accessed": "2026-11-15",
+      "note": "LX-VCJ (747-8F) left side near level on approach, 2026-10-30: the title's ends and heights against the stripes; it carries a City of Zhengzhou badge by the door (not drawn)."
+    }
+  ],
+  "palette": {
+    "gray": {
+      "hex": "#E3E5E8",
+      "official": false,
+      "name": "fuselage light gray"
+    },
+    "red": {
+      "hex": "#D2232A",
+      "official": false,
+      "name": "Cargolux red"
+    },
+    "blue": {
+      "hex": "#5B9BD5",
+      "official": false,
+      "name": "Cargolux light blue"
+    },
+    "titleGray": {
+      "hex": "#2B3440",
+      "official": false,
+      "name": "title dark gray"
+    },
+    "white": {
+      "hex": "#FFFFFF",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "gray",
+    "areas": [
+      {
+        "name": "red stripe",
+        "color": "red",
+        "below": [
+          [
+            0.355,
+            0.29
+          ],
+          [
+            0.6,
+            0.23
+          ],
+          [
+            0.8,
+            0.15
+          ],
+          [
+            0.95,
+            0.07
+          ]
+        ],
+        "above": [
+          [
+            0.355,
+            0.2
+          ],
+          [
+            0.6,
+            0.14
+          ],
+          [
+            0.8,
+            0.06
+          ],
+          [
+            0.95,
+            -0.02
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "light blue stripe",
+        "color": "blue",
+        "below": [
+          [
+            0.355,
+            0.2
+          ],
+          [
+            0.6,
+            0.14
+          ],
+          [
+            0.8,
+            0.06
+          ],
+          [
+            0.95,
+            -0.02
+          ]
+        ],
+        "above": [
+          [
+            0.355,
+            0.12
+          ],
+          [
+            0.6,
+            0.06
+          ],
+          [
+            0.8,
+            -0.02
+          ],
+          [
+            0.95,
+            -0.1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "red aft fuselage under the fin",
+        "color": "red",
+        "points": [
+          [
+            0.71,
+            0.19
+          ],
+          [
+            0.79,
+            1
+          ],
+          [
+            0.95,
+            1
+          ],
+          [
+            0.95,
+            0.07
+          ],
+          [
+            0.8,
+            0.15
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      }
+    ],
+    "radome": {
+      "color": "gray"
+    },
+    "windows": "hidden",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "red",
+    "mirrored": false,
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "gray",
+    "inner": "gray",
+    "confidence": "low",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "gray",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "CLX/cubes",
+      "place": "fin",
+      "at": [
+        0.42,
+        0.42
+      ],
+      "height": 0.42,
+      "colors": [
+        "white"
+      ],
+      "description": "Cargolux's mark: three cubes stacked into a pyramid (one on two), drawn isometrically in white outline on the red fin.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Cargolux_Logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "CLX/luxembourg-flag",
+      "place": "fin",
+      "at": [
+        0.86,
+        0.92
+      ],
+      "height": 0.06,
+      "colors": [
+        "red",
+        "white",
+        "blue"
+      ],
+      "description": "The Luxembourg flag (red, white, light blue horizontal bands), small, at the top of the fin by the trailing edge.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Flag_of_Luxembourg.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "CLX/cubes",
+      "place": "fuselage",
+      "at": [
+        0.115,
+        -0.45
+      ],
+      "height": 0.1,
+      "colors": [
+        "red"
+      ],
+      "description": "The three-cube mark small in red, low on the nose ahead of a small 'cargolux'.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Cargolux_Logo.svg",
+      "confidence": "low",
+      "sourceRefs": [
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "cargolux",
+      "place": "fuselage",
+      "at": [
+        0.143,
+        0.03
+      ],
+      "height": 0.5,
+      "color": "titleGray",
+      "style": "'cargolux' in bold lower-case, very large over the forward fuselage ahead of the wing.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2,
+        3
+      ],
+      "length": 0.211,
+      "type": {
+        "similar": [
+          "Helvetica Neue Bold",
+          "Arial Black"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.8
+      }
+    },
+    {
+      "text": "cargolux",
+      "place": "fuselage",
+      "at": [
+        0.13,
+        -0.5
+      ],
+      "height": 0.1,
+      "color": "titleGray",
+      "style": "A small 'cargolux' beside the cube mark low on the nose.",
+      "confidence": "low",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      }
+    }
+  ],
+  "notes": "Drawn from 747-8Fs LX-VCA (2025) and LX-VCD (2024). Freighters have no windows. Individual 747s carry city names and sponsor badges by the door (e.g. 'City of Luxembourg'), not drawn. The 747-400Fs wear the same scheme. LX-VCC wears a 50th anniversary scheme and LX-VCM a 'cutaway' special (not this). Re-checked 2026-11-15 on LX-VCJ (747-8F, left, 2026-10-30): 'cargolux' starts at x 0.143 just behind the forward door (not 0.124) and runs 0.211; its ascenders reach ~0.28 r above the red stripe's top, so its height is 0.5 (from 0.6), its lowercase 0.8 of the ascenders; the stripes start right behind its x (0.355, from 0.33). The small 'cargolux' by the nose cube is too small on any photo to measure a length: left without one.",
+  "history": "Replaces Skyarium v1's approximate standard (a few colors from memory). Cargolux has flown the red tail with the cube mark and red over blue stripes since the 1980s, refreshed with lower-case titles."
+}

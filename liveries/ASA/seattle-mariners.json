@@ -1,0 +1,837 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "seattle-mariners",
+  "airline": "ASA",
+  "name": "Seattle Mariners",
+  "kind": "special",
+  "confidence": "high",
+  "drawnOn": "B39M",
+  "description": "Fuselage: Alaska's standard white with the lime/Atlas-blue/midnight sweep behind the wing, the Atlas blue reaching forward along the belly to under the engine. Cheatlines: None. Tail: Standard midnight-blue fin with the Alaska Native man's face. Engines: Standard. Winglets: Standard. Titles: The standard midnight 'Alaska' forward; 'MARINERS' big in the team's navy lettering with a teal outline from over the wing to the sweep. Artwork: Mariner Moose waving between the two titles, the Mariners compass-rose logo at the end of 'MARINERS', and 'fly, fly away' (Dave Niehaus's home-run call) in small type. Colors hex: Mariners navy and teal from the team; the paint matched by eye.",
+  "sources": [
+    {
+      "url": "https://www.alaskaair.com/content/travel-info/our-aircraft/737-9-max-mariners",
+      "title": "Alaska Airlines: Seattle Mariners Livery",
+      "accessed": "2026-11-14",
+      "note": "Alaska's page: N710AL, revealed 2024-09-26, flying through 2026; its photo shows the left side side-on: geometry measured from it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:N710AL_(aircraft)",
+      "title": "N710AL on Commons",
+      "accessed": "2026-11-14"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N710AL_@_KSFO,_2026-10-24.jpg",
+      "title": "N710AL @ KSFO, 2026-10-24.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-14",
+      "note": "Right side, SFO 2026-10-24: the same layout on the right; still flying in it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N710AL_at_KSEA.jpg",
+      "title": "N710AL at KSEA.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-14",
+      "note": "Right side at the gate, Seattle 2026-06-29."
+    }
+  ],
+  "notes": "Drawn from Alaska's photo of the left side; the right side (two 2026 Commons photos) carries the same layout. The rest of the scheme is Alaska's standard (ASA/standard), whose sweep, fin, engines and winglets are copied. Re-checked 2026-11-15 (drawn on the 737-9): titles' lengths kept (measured on Alaska's side-on photo); 'Alaska' lowercase about 0.55 of its A. The Atlas-blue swoosh and the standard's aft sweep made smooth curves (the swoosh's pointed aft tip kept a corner), with the silver-grey stripe ahead of the lime that the standard now has.",
+  "from": "2024-09",
+  "palette": {
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "midnight": {
+      "hex": "#14306B",
+      "official": false
+    },
+    "blue": {
+      "hex": "#1F6DB8",
+      "official": false
+    },
+    "atlas": {
+      "hex": "#52B3E3",
+      "official": false
+    },
+    "lime": {
+      "hex": "#B6D433",
+      "official": false
+    },
+    "cream": {
+      "hex": "#F1EFE8",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC5",
+      "official": false
+    },
+    "marinersNavy": {
+      "hex": "#0C2C56",
+      "name": "Mariners navy",
+      "official": false
+    },
+    "marinersTeal": {
+      "hex": "#005C5C",
+      "name": "Mariners teal",
+      "official": false
+    },
+    "silver": {
+      "hex": "#C3C8CE",
+      "name": "silver-grey stripe",
+      "official": false
+    },
+    "brown": {
+      "hex": "#6B4428",
+      "name": "Moose brown",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "Atlas-blue swoosh along the lower fuselage from under the engine into the aft sweep",
+        "color": "atlas",
+        "points": [
+          [
+            0.465,
+            -1
+          ],
+          [
+            0.54,
+            -0.85
+          ],
+          [
+            0.63,
+            -0.7
+          ],
+          [
+            0.7,
+            -0.6
+          ],
+          [
+            0.74,
+            -0.6,
+            1
+          ],
+          [
+            0.72,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "silver-grey stripe ahead of the lime (seen on every photo, sharp-edged: paint, not shade)",
+        "color": "silver",
+        "points": [
+          [
+            0.608,
+            -1.0
+          ],
+          [
+            0.64,
+            -0.93
+          ],
+          [
+            0.688,
+            -0.6
+          ],
+          [
+            0.727,
+            -0.17
+          ],
+          [
+            0.763,
+            0.2
+          ],
+          [
+            0.785,
+            0.43
+          ],
+          [
+            0.808,
+            0.75
+          ],
+          [
+            0.818,
+            1.0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "lime band, the front of the aft sweep (rising from the belly behind the wing to the crown ahead of the fin)",
+        "color": "lime",
+        "points": [
+          [
+            0.62,
+            -1.0
+          ],
+          [
+            0.652,
+            -0.93
+          ],
+          [
+            0.7,
+            -0.6
+          ],
+          [
+            0.739,
+            -0.17
+          ],
+          [
+            0.775,
+            0.2
+          ],
+          [
+            0.797,
+            0.43
+          ],
+          [
+            0.815,
+            0.75
+          ],
+          [
+            0.822,
+            1.0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "Atlas (light) blue band",
+        "color": "atlas",
+        "points": [
+          [
+            0.642,
+            -1.0
+          ],
+          [
+            0.674,
+            -0.93
+          ],
+          [
+            0.722,
+            -0.6
+          ],
+          [
+            0.761,
+            -0.17
+          ],
+          [
+            0.797,
+            0.2
+          ],
+          [
+            0.819,
+            0.43
+          ],
+          [
+            0.837,
+            0.75
+          ],
+          [
+            0.844,
+            1.0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "mid-blue band",
+        "color": "blue",
+        "points": [
+          [
+            0.665,
+            -1.0
+          ],
+          [
+            0.697,
+            -0.93
+          ],
+          [
+            0.745,
+            -0.6
+          ],
+          [
+            0.784,
+            -0.17
+          ],
+          [
+            0.82,
+            0.2
+          ],
+          [
+            0.842,
+            0.43
+          ],
+          [
+            0.86,
+            0.75
+          ],
+          [
+            0.867,
+            1.0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "midnight-blue tail cone and rear belly",
+        "color": "midnight",
+        "points": [
+          [
+            0.68,
+            -1.0
+          ],
+          [
+            0.712,
+            -0.93
+          ],
+          [
+            0.76,
+            -0.6
+          ],
+          [
+            0.799,
+            -0.17
+          ],
+          [
+            0.835,
+            0.2
+          ],
+          [
+            0.857,
+            0.43
+          ],
+          [
+            0.875,
+            0.75
+          ],
+          [
+            0.882,
+            1.0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          3
+        ],
+        "smooth": true
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      3
+    ]
+  },
+  "fin": {
+    "base": "midnight",
+    "rudder": "midnight",
+    "areas": [
+      {
+        "name": "Atlas-blue wedge at the root's leading edge (the fuselage sweep running up the fin)",
+        "color": "atlas",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0.24
+          ],
+          [
+            0.46,
+            0
+          ]
+        ],
+        "sourceRefs": [
+          0,
+          3
+        ]
+      },
+      {
+        "name": "lower lime stripe, from the leading edge down and back to the root",
+        "color": "lime",
+        "points": [
+          [
+            0,
+            0.25
+          ],
+          [
+            0,
+            0.3
+          ],
+          [
+            0.56,
+            0
+          ],
+          [
+            0.48,
+            0
+          ]
+        ],
+        "sourceRefs": [
+          0,
+          3
+        ]
+      },
+      {
+        "name": "upper lime stripe near the tip",
+        "color": "lime",
+        "points": [
+          [
+            0,
+            0.88
+          ],
+          [
+            0.5,
+            0.82
+          ],
+          [
+            0.93,
+            0.72
+          ],
+          [
+            0.9,
+            0.69
+          ],
+          [
+            0.5,
+            0.78
+          ],
+          [
+            0,
+            0.84
+          ]
+        ],
+        "sourceRefs": [
+          0,
+          3
+        ]
+      },
+      {
+        "name": "Atlas-blue sliver under the upper stripe",
+        "color": "atlas",
+        "points": [
+          [
+            0.55,
+            0.76
+          ],
+          [
+            0.95,
+            0.68
+          ],
+          [
+            0.95,
+            0.63
+          ],
+          [
+            0.65,
+            0.71
+          ]
+        ],
+        "sourceRefs": [
+          0,
+          3
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      3
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "stabilizer": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "white",
+    "inner": "white",
+    "areas": [
+      {
+        "name": "midnight root",
+        "color": "midnight",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0.18
+          ],
+          [
+            0,
+            0.32
+          ]
+        ],
+        "sourceRefs": [
+          0,
+          3
+        ]
+      },
+      {
+        "name": "Atlas-blue band",
+        "color": "atlas",
+        "points": [
+          [
+            0,
+            0.32
+          ],
+          [
+            1,
+            0.18
+          ],
+          [
+            1,
+            0.26
+          ],
+          [
+            0,
+            0.4
+          ]
+        ],
+        "sourceRefs": [
+          0,
+          3
+        ]
+      },
+      {
+        "name": "lime band",
+        "color": "lime",
+        "points": [
+          [
+            0,
+            0.4
+          ],
+          [
+            1,
+            0.26
+          ],
+          [
+            1,
+            0.32
+          ],
+          [
+            0,
+            0.46
+          ]
+        ],
+        "sourceRefs": [
+          0,
+          3
+        ]
+      }
+    ],
+    "confidence": "low",
+    "sourceRefs": [
+      0,
+      3
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "wingGray",
+    "areas": [
+      {
+        "name": "lime stripe sweeping up toward the exhaust",
+        "color": "lime",
+        "points": [
+          [
+            0.3,
+            -1
+          ],
+          [
+            0.49,
+            -0.49
+          ],
+          [
+            0.75,
+            0.15
+          ],
+          [
+            1,
+            0.6
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "sourceRefs": [
+          0,
+          3
+        ]
+      },
+      {
+        "name": "Atlas blue",
+        "color": "atlas",
+        "points": [
+          [
+            0.36,
+            -1
+          ],
+          [
+            0.55,
+            -0.49
+          ],
+          [
+            0.81,
+            0.15
+          ],
+          [
+            1.06,
+            0.6
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "sourceRefs": [
+          0,
+          3
+        ]
+      },
+      {
+        "name": "midnight, low at the back",
+        "color": "midnight",
+        "points": [
+          [
+            0.44,
+            -1
+          ],
+          [
+            0.63,
+            -0.49
+          ],
+          [
+            0.89,
+            0.15
+          ],
+          [
+            1.14,
+            0.6
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "sourceRefs": [
+          0,
+          3
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      3
+    ]
+  },
+  "logos": [
+    {
+      "mark": "ASA/native-face",
+      "place": "fin",
+      "at": [
+        0.59,
+        0.35
+      ],
+      "height": 0.53,
+      "colors": [
+        "cream",
+        "midnight"
+      ],
+      "description": "Alaska's Eskimo (the 'Alaska Native man'): a smiling face in a fur-trimmed parka hood, cream on the midnight-blue fin, facing forward, large on the aft fin.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        3
+      ],
+      "reference": "https://commons.wikimedia.org/wiki/File:Alaska_Airlines_logo.svg"
+    },
+    {
+      "mark": "SEA/mariner-moose",
+      "place": "fuselage",
+      "at": [
+        0.385,
+        0.15
+      ],
+      "height": 1.4,
+      "colors": [
+        "brown",
+        "white",
+        "marinersNavy"
+      ],
+      "description": "Mariner Moose in a Mariners jersey, waving, between the Alaska title and 'MARINERS', from the crown to below the windows.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        3
+      ]
+    },
+    {
+      "mark": "SEA/mariners-compass",
+      "place": "fuselage",
+      "at": [
+        0.735,
+        -0.15
+      ],
+      "height": 0.8,
+      "colors": [
+        "marinersTeal",
+        "silver",
+        "marinersNavy"
+      ],
+      "description": "The Mariners compass rose at the end of 'MARINERS', in the sweep's leading band.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        3
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Alaska",
+      "place": "fuselage",
+      "at": [
+        0.152,
+        -0.33
+      ],
+      "height": 0.7,
+      "color": "midnight",
+      "style": "The standard 2016 Alaska wordmark in midnight blue, across the forward windows.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        3
+      ],
+      "length": 0.19,
+      "type": {
+        "similar": [
+          "Kaufmann Bold",
+          "Futura Bold Oblique"
+        ],
+        "weight": 800,
+        "slantDeg": 16,
+        "width": "normal",
+        "strokes": "brush",
+        "case": "mixed",
+        "xHeight": 0.55
+      }
+    },
+    {
+      "text": "MARINERS",
+      "place": "fuselage",
+      "at": [
+        0.44,
+        -0.38
+      ],
+      "height": 0.86,
+      "color": "marinersNavy",
+      "style": "The Mariners wordmark: serifed capitals in navy outlined in teal and silver, from over the wing to the sweep.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        3
+      ],
+      "length": 0.26,
+      "type": {
+        "similar": [
+          "Copperplate Gothic Bold",
+          "Trajan Pro Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ]
+}

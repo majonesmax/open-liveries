@@ -1,0 +1,99 @@
+{
+  "_about": "Embraer 175 with the enhanced wingtip, from APM 2259 Rev 22 Figure 2.2 (page index 18): side, plan and front views on one sheet. Its views aren't drawn to one scale both ways: across, the side and plan are squeezed to 0.969 of their height scale and the front stretched to 1.032 (the printed 31.68 m length and 9.86 m height; the 28.65 m span and 4.88 m tip height), so layers.py --xscale evens each out. Pixels of those rasters at scale 16, line centres.",
+  "out": "../../../../shapes/E75L.json",
+  "length": 31.68,
+  "wingtip": "winglet",
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "refs": {
+    "side": {
+      "nose": 91.5,
+      "tail": 4968.5,
+      "cowlEnd": 1962,
+      "windowRow": [1107, 1162],
+      "windowsAlso": [2866, 2996]
+    },
+    "plan": {
+      "nose": 120,
+      "centerline": 2605
+    },
+    "front": {
+      "centerline": 2272,
+      "crownTop": 940.5
+    }
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [852, 998, 1000, 1302]
+    },
+    {
+      "kind": "door",
+      "box": [3642, 1020, 3773, 1302]
+    },
+    {
+      "kind": "cargo",
+      "box": [1194, 1321, 1382, 1479]
+    },
+    {
+      "kind": "cargo",
+      "box": [3174, 1307, 3362, 1461]
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [361, 1150],
+      [474, 1077],
+      [516, 1077],
+      [464, 1148],
+      [452, 1153]
+    ],
+    [
+      [602, 1162],
+      [495, 1155],
+      [492, 1154],
+      [487, 1149],
+      [486, 1147],
+      [485, 1144],
+      [485, 1141],
+      [486, 1138],
+      [488, 1133],
+      [508, 1109],
+      [519, 1096],
+      [528, 1086],
+      [535, 1079],
+      [538, 1078],
+      [583, 1078],
+      [605, 1079],
+      [610, 1080],
+      [613, 1083],
+      [615, 1088],
+      [615, 1149],
+      [613, 1156],
+      [608, 1161],
+      [605, 1162]
+    ]
+  ],
+  "printed": {
+    "wingspan": 28.65,
+    "tailplane span": 10.0
+  },
+  "meta": {
+    "id": "E75L",
+    "name": "Embraer 175 with the enhanced wingtip",
+    "types": ["E75L"],
+    "confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.embraercommercialaviation.com/wp-content/uploads/2017/06/E175-APM_APM_175-1.pdf",
+        "title": "Embraer, Embraer 175 Airport Planning Manual (APM 2259 Rev 22, Nov 29/24), Section 02, Figure 2.2 General Aircraft Dimensions (enhanced wingtip)",
+        "accessed": "2026-11-15",
+        "note": "Read from the Internet Archive's copy of 2025-07-19 (web.archive.org/web/20250719232738/...): Embraer's link now redirects to a missing page. Dimensions and outlines read off the side, plan and front views (tools/trace/e75l/); the figures are the aircraft's measurements, not a copy of the drawing. The figure's views are squeezed across by a few percent, each by its own amount; each is evened out from its printed dimensions before tracing, so confidence is medium."
+      }
+    ]
+  }
+}

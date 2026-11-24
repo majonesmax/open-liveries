@@ -1,0 +1,327 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "PAC",
+  "name": "Polar / DHL co-brand",
+  "kind": "standard",
+  "confidence": "medium",
+  "drawnOn": "B748",
+  "description": "White forward fuselage with 'Polar' in big blue bold letters ahead of the wing; behind a diagonal from the belly behind the wing up to the crown ahead of the fin, the aft fuselage, tail cone and fin are DHL yellow, with a small red 'DHL' and speed lines on the aft fuselage; white engines.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Polar_Air_Cargo",
+      "title": "Wikipedia: Polar Air Cargo",
+      "accessed": "2026-11-13",
+      "note": "747-8F fleet flying for DHL; the Polar/DHL co-branded scheme."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Polar_Air_Cargo_N857GT_01-10-2024.jpg",
+      "title": "Polar Air Cargo N857GT 01-10-2024.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "N857GT (747-8F) left side taxiing, 2024-10-01: geometry, titles."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Polar_Air_Cargo_N858GT_run_5Y654(Hong_Kong_International_Airport_to_United_States_Ted_Stevens_Anchorage_International_Airport)_23-03-2025.jpg",
+      "title": "Polar Air Cargo N858GT run 5Y654(Hong Kong International Airport to United States Ted Stevens Anchorage International Airport) 23-03-2025.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "N858GT (747-8F) left side climbing, 2025-03-23: the yellow aft and fin from below."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F5",
+      "official": false
+    },
+    "blue": {
+      "hex": "#25499A",
+      "official": false,
+      "name": "Polar blue"
+    },
+    "yellow": {
+      "hex": "#F7C400",
+      "official": false,
+      "name": "DHL yellow (as worn)"
+    },
+    "red": {
+      "hex": "#D40511",
+      "official": false,
+      "name": "DHL red"
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "DHL-yellow aft fuselage and tail cone",
+        "color": "yellow",
+        "points": [
+          [
+            0.575,
+            -1
+          ],
+          [
+            0.69,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "DHL speed line before 1",
+        "color": "red",
+        "below": [
+          [
+            0.635,
+            0.265
+          ],
+          [
+            0.655,
+            0.265
+          ]
+        ],
+        "above": [
+          [
+            0.635,
+            0.235
+          ],
+          [
+            0.655,
+            0.235
+          ]
+        ]
+      },
+      {
+        "name": "DHL speed line before 2",
+        "color": "red",
+        "below": [
+          [
+            0.635,
+            0.20500000000000002
+          ],
+          [
+            0.655,
+            0.20500000000000002
+          ]
+        ],
+        "above": [
+          [
+            0.635,
+            0.175
+          ],
+          [
+            0.655,
+            0.175
+          ]
+        ]
+      },
+      {
+        "name": "DHL speed line before 3",
+        "color": "red",
+        "below": [
+          [
+            0.635,
+            0.14500000000000002
+          ],
+          [
+            0.655,
+            0.14500000000000002
+          ]
+        ],
+        "above": [
+          [
+            0.635,
+            0.115
+          ],
+          [
+            0.655,
+            0.115
+          ]
+        ]
+      },
+      {
+        "name": "DHL speed line after 1",
+        "color": "red",
+        "below": [
+          [
+            0.735,
+            0.265
+          ],
+          [
+            0.755,
+            0.265
+          ]
+        ],
+        "above": [
+          [
+            0.735,
+            0.235
+          ],
+          [
+            0.755,
+            0.235
+          ]
+        ]
+      },
+      {
+        "name": "DHL speed line after 2",
+        "color": "red",
+        "below": [
+          [
+            0.735,
+            0.20500000000000002
+          ],
+          [
+            0.755,
+            0.20500000000000002
+          ]
+        ],
+        "above": [
+          [
+            0.735,
+            0.175
+          ],
+          [
+            0.755,
+            0.175
+          ]
+        ]
+      },
+      {
+        "name": "DHL speed line after 3",
+        "color": "red",
+        "below": [
+          [
+            0.735,
+            0.14500000000000002
+          ],
+          [
+            0.755,
+            0.14500000000000002
+          ]
+        ],
+        "above": [
+          [
+            0.735,
+            0.115
+          ],
+          [
+            0.755,
+            0.115
+          ]
+        ]
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "hidden",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "yellow",
+    "mirrored": true,
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [],
+  "titles": [
+    {
+      "text": "Polar",
+      "place": "fuselage",
+      "at": [
+        0.084,
+        -0.12
+      ],
+      "height": 0.75,
+      "color": "blue",
+      "style": "'Polar' in heavy, slightly slanted blue letters over the forward fuselage, under the upper deck.",
+      "confidence": "high",
+      "sourceRefs": [
+        1
+      ],
+      "length": 0.15,
+      "type": {
+        "similar": [
+          "Frutiger Black Italic",
+          "Myriad Pro Black Italic"
+        ],
+        "weight": 800,
+        "slantDeg": 6,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.71
+      }
+    },
+    {
+      "text": "DHL",
+      "place": "fuselage",
+      "at": [
+        0.657,
+        0.12
+      ],
+      "height": 0.3,
+      "color": "red",
+      "style": "The DHL wordmark, small, in red on the yellow aft fuselage between its speed lines.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ],
+      "length": 0.075,
+      "type": {
+        "similar": [
+          "Delivery Bold Italic",
+          "Eurostile Extended Black Italic"
+        ],
+        "weight": 900,
+        "slantDeg": 18,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Drawn from 747-8Fs N857GT (2024) and N858GT (2025). The fin is plain yellow (no DHL on it). Polar's two 777Fs (N702GT, N703GT) fly in a white and blue 'CARGO' scheme: PAC/cargo-777f. Re-checked 2026-11-15: 'Polar' lowercase measured at 0.71 of the capital P on N857GT (2024-10-01); title places and lengths agree with the photos. The yellow aft fuselage's forward edge is a straight diagonal: its points along it replaced by the two ends (2026-11-15).",
+  "history": "Replaces Skyarium v1's approximate standard (a few colors from memory). Polar wears this co-brand on its 747-8Fs; it replaced Polar's own scheme (PAC/polar-classic) after DHL took a 49% stake (announced October 2006), on most 747-400Fs by the early 2010s. The Atlas Air and DHL joint venture ended in 2025, when Atlas Air took the rest of Polar (Wikipedia); no repaint away from the co-brand is documented yet."
+}

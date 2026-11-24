@@ -1,0 +1,183 @@
+{
+  "_about": "USAF Flight Manual TO 1C-17A-1 (Change 14, 2001), page 1-16: the C-17A's three-view line drawing, as uploaded to Wikimedia Commons (File:McDonnell Douglas C-17A Globemaster III 3-view line drawing.png, 1933 x 2694 px, public domain): layers.py on the PNG (pymupdf opens it as a one-page document, 0.24 pt a pixel) --mode image --threshold 170 at scale 12.5 (3 raster px per scan px), clip 64.8,314.4,408,424.8. Pixels of that raster, line centres. The wing root's fairing hides the crown over the wing's leading edge (bridged); the main gear's doors stand below the belly between the sponsons (bridged level, as the gear is). The inboard nacelle is hidden behind the outboard one from the outboard's lip back: its aft end (free points, bridged) is the outboard nacelle's profile carried to the inboard's lip and height (the two are the same F117 installation), so its length is whole in 3D. The fin's small fillet runs from the crown into the leading edge's straight run. The horizontal line at y 743 aft of the fin and the one at y 795 ahead of the nose are dimension extension lines, not outline.",
+  "fuselage.crown": [
+    [63, 1057],
+    [100, 989],
+    [200, 909],
+    [300, 853],
+    [400, 819],
+    [500, 799],
+    [600, 795],
+    [800, 795],
+    [950, 796],
+    "hidden",
+    [1400, 794],
+    [1600, 791],
+    [1800, 794],
+    [2000, 790],
+    [2200, 782],
+    [2400, 769],
+    [2600, 753],
+    [2800, 744],
+    [3000, 738],
+    [3200, 745],
+    [3300, 751],
+    [3400, 760],
+    [3500, 773],
+    [3600, 785],
+    [3700, 802],
+    [3800, 818],
+    [3826, 834]
+  ],
+  "fuselage.belly": [
+    [63, 1057],
+    [100, 1133],
+    [200, 1194],
+    [300, 1257],
+    [400, 1261],
+    [500, 1278],
+    [600, 1284],
+    [800, 1283],
+    [1200, 1283],
+    [1400, 1285],
+    "hidden",
+    [2000, 1289],
+    [2100, 1276],
+    [2200, 1263],
+    [2300, 1244],
+    [2400, 1233],
+    [2600, 1194],
+    [2800, 1148],
+    [3000, 1092],
+    [3200, 1032],
+    [3400, 971],
+    [3500, 950],
+    [3600, 909],
+    [3700, 882],
+    [3800, 855],
+    [3826, 834]
+  ],
+  "fin.fillet": [
+    [2860, 739],
+    [2922, 730],
+    [2971, 700],
+    [3022, 650]
+  ],
+  "fin.leading": [
+    [3022, 650],
+    [3066, 600],
+    [3157, 500],
+    [3246, 400],
+    [3333, 300],
+    [3417, 200],
+    [3478, 120],
+    [3507, 80],
+    [3540, 45],
+    [3600, 33],
+    [3705, 30]
+  ],
+  "fin.trailing": [
+    [3581, 730],
+    [3607, 700],
+    [3695, 600],
+    [3782, 500],
+    [3869, 400],
+    [3956, 300],
+    [3999, 250],
+    [4030, 215],
+    [4100, 195],
+    [4150, 150],
+    [4190, 100]
+  ],
+  "fin.rudder": [
+    [3364, 730],
+    [3437, 650],
+    [3567, 500],
+    [3654, 400],
+    [3742, 300],
+    [3811, 220]
+  ],
+  "engine.top": [
+    [878, 922],
+    [900, 920],
+    [1000, 911],
+    [1100, 917],
+    [1135, 917],
+    "hidden",
+    {
+      "free": [1206, 933]
+    },
+    "hidden",
+    {
+      "free": [1221, 967]
+    },
+    "hidden",
+    {
+      "free": [1286, 982]
+    },
+    "hidden",
+    {
+      "free": [1336, 994]
+    }
+  ],
+  "engine.bottom": [
+    [878, 1122],
+    [900, 1126],
+    [1000, 1133],
+    [1100, 1127],
+    [1135, 1127],
+    "hidden",
+    {
+      "free": [1206, 1110]
+    },
+    "hidden",
+    {
+      "free": [1221, 1084]
+    },
+    "hidden",
+    {
+      "free": [1286, 1067]
+    },
+    "hidden",
+    {
+      "free": [1336, 1057]
+    }
+  ],
+  "engine2.top": [
+    [1142, 950],
+    [1200, 936],
+    [1300, 940],
+    [1400, 946],
+    [1470, 956],
+    [1485, 990],
+    [1520, 998],
+    [1550, 1005],
+    [1600, 1017]
+  ],
+  "engine2.bottom": [
+    [1142, 1140],
+    [1200, 1148],
+    [1300, 1152],
+    [1400, 1144],
+    [1470, 1133],
+    [1485, 1107],
+    [1520, 1103],
+    [1550, 1090],
+    [1600, 1080]
+  ],
+  "wingtip.leading": [
+    [2193, 968],
+    [2228, 920],
+    [2279, 848],
+    [2305, 812],
+    [2330, 790],
+    [2352, 784]
+  ],
+  "wingtip.trailing": [
+    [2328, 968],
+    [2338, 920],
+    [2353, 848],
+    [2361, 812],
+    [2352, 784]
+  ]
+}

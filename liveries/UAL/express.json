@@ -1,0 +1,568 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "express",
+  "airline": "UAL",
+  "name": "United Express (2019 livery)",
+  "kind": "standard",
+  "from": "2019",
+  "confidence": "high",
+  "drawnOn": "E75L",
+  "description": "United's 2019 'Evo Blue' scheme on the United Express regional jets: white over a light-gray belly split by the navy line, the deep-blue fin with the light-blue globe, blue engines and winglets; the title 'UNITED' in widely spaced Rhapsody-blue capitals followed by 'EXPRESS' in the same capitals in pale gray, both small, above the forward windows.",
+  "sources": [
+    {
+      "url": "https://github.com/majonesmax/open-liveries/blob/main/liveries/UAL/standard.json",
+      "title": "Open Liveries: UAL/standard",
+      "accessed": "2026-11-13",
+      "note": "The mainline scheme this variant starts from: its fuselage, fin, engine and logo geometry are kept except where the regional photos differ."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/United_Airlines",
+      "title": "Wikipedia: United Airlines (livery history)",
+      "accessed": "2026-11-13",
+      "note": "Introduction: 'Rhapsody blue' engines, gray belly, the globe in lighter blue."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:N37504_(aircraft)",
+      "title": "N37504 (737-9 MAX) on Commons",
+      "accessed": "2026-11-13"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:United_Boeing_737-8_MAX_N47275_on_final_approach_to_Boston_April_2025.jpg",
+      "title": "United Boeing 737-8 MAX N47275 on final approach to Boston April 2025.jpg (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "N47275 left side, 2025-04-01: geometry, title, fin and globe."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:United_Airbus_A321neo_N24513_BWI_MD1.jpg",
+      "title": "United Airbus A321neo N24513 BWI MD1.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "N24513 left side from below and ahead, 2026-08-06: the same layout on an A321neo; engines and winglets."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N624UX_ERJ-175,_United_Express,_Reno_08-27-26_(55502409357).jpg",
+      "title": "N624UX ERJ-175, United Express, Reno 08-27-26 (55502409357).jpg",
+      "accessed": "2026-11-13",
+      "note": "N624UX (E175, SkyWest), left side, 2026-08-27: titles, flag, star measured here (CC BY 4.0)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N609UX_-_Embraer_ERJ-175LL_-_United_Express.jpg",
+      "title": "N609UX - Embraer ERJ-175LL - United Express.jpg",
+      "accessed": "2026-11-13",
+      "note": "N609UX (E175), left side from below, 2019-09-14: the same titles; engines and winglets."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N463SW_(55157860885).jpg",
+      "title": "N463SW (55157860885).jpg",
+      "accessed": "2026-11-13",
+      "note": "N463SW (CRJ200, SkyWest), 2026-02-28: the same scheme on a CRJ."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "gray": {
+      "hex": "#BCC1C8",
+      "official": false,
+      "name": "light gray belly"
+    },
+    "navy": {
+      "hex": "#14215E",
+      "official": false,
+      "name": "cheatline navy"
+    },
+    "rhapsody": {
+      "hex": "#0033A0",
+      "official": false,
+      "name": "Rhapsody blue"
+    },
+    "finBlue": {
+      "hex": "#0A33A6",
+      "official": false,
+      "name": "fin blue (darker toward the tip)"
+    },
+    "globe": {
+      "hex": "#4DA8EE",
+      "official": false,
+      "name": "globe light blue"
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false,
+      "name": "polished inlet lip"
+    },
+    "flagRed": {
+      "hex": "#B22234",
+      "official": false
+    },
+    "expressGray": {
+      "hex": "#CDD1D6",
+      "official": false,
+      "name": "pale gray of 'EXPRESS'"
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "light-gray belly under the navy line",
+        "color": "gray",
+        "points": [
+          [
+            0.02,
+            -0.45
+          ],
+          [
+            0.052,
+            -0.33
+          ],
+          [
+            0.107,
+            -0.26
+          ],
+          [
+            0.168,
+            -0.16
+          ],
+          [
+            0.245,
+            -0.15
+          ],
+          [
+            0.33,
+            -0.17
+          ],
+          [
+            0.45,
+            -0.24
+          ],
+          [
+            0.6,
+            -0.29
+          ],
+          [
+            0.66,
+            -0.29
+          ],
+          [
+            0.74,
+            -0.34
+          ],
+          [
+            0.82,
+            -0.45
+          ],
+          [
+            0.88,
+            -0.47
+          ],
+          [
+            0.92,
+            -0.38
+          ],
+          [
+            0.96,
+            -0.24
+          ],
+          [
+            1,
+            -0.08
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            0.02,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          5
+        ],
+        "smooth": true
+      },
+      {
+        "name": "navy line (white over gray)",
+        "color": "navy",
+        "points": [
+          [
+            0.02,
+            -0.45
+          ],
+          [
+            0.052,
+            -0.29
+          ],
+          [
+            0.107,
+            -0.22
+          ],
+          [
+            0.168,
+            -0.12
+          ],
+          [
+            0.245,
+            -0.11
+          ],
+          [
+            0.33,
+            -0.13
+          ],
+          [
+            0.45,
+            -0.2
+          ],
+          [
+            0.6,
+            -0.25
+          ],
+          [
+            0.66,
+            -0.25
+          ],
+          [
+            0.74,
+            -0.3
+          ],
+          [
+            0.82,
+            -0.41
+          ],
+          [
+            0.88,
+            -0.43
+          ],
+          [
+            0.92,
+            -0.34
+          ],
+          [
+            0.96,
+            -0.2
+          ],
+          [
+            1,
+            -0.04
+          ],
+          [
+            1,
+            -0.08
+          ],
+          [
+            0.96,
+            -0.24
+          ],
+          [
+            0.92,
+            -0.38
+          ],
+          [
+            0.88,
+            -0.47
+          ],
+          [
+            0.82,
+            -0.45
+          ],
+          [
+            0.74,
+            -0.34
+          ],
+          [
+            0.66,
+            -0.29
+          ],
+          [
+            0.6,
+            -0.29
+          ],
+          [
+            0.45,
+            -0.24
+          ],
+          [
+            0.33,
+            -0.17
+          ],
+          [
+            0.245,
+            -0.15
+          ],
+          [
+            0.168,
+            -0.16
+          ],
+          [
+            0.107,
+            -0.26
+          ],
+          [
+            0.052,
+            -0.33
+          ]
+        ],
+        "sourceRefs": [
+          5
+        ],
+        "smooth": true
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      3,
+      4
+    ]
+  },
+  "fin": {
+    "base": "finBlue",
+    "areas": [
+      {
+        "name": "globe disc (its navy lines are in the logo entry)",
+        "color": "globe",
+        "points": [
+          [
+            1.132,
+            0.033
+          ],
+          [
+            1.06,
+            0.199
+          ],
+          [
+            0.902,
+            0.354
+          ],
+          [
+            0.631,
+            0.486
+          ],
+          [
+            0.243,
+            0.588
+          ],
+          [
+            -0.226,
+            0.652
+          ],
+          [
+            -0.679,
+            0.674
+          ],
+          [
+            -1.0,
+            0.652
+          ],
+          [
+            -1.127,
+            0.588
+          ],
+          [
+            -1.076,
+            0.486
+          ],
+          [
+            -0.909,
+            0.354
+          ],
+          [
+            -0.687,
+            0.199
+          ],
+          [
+            -0.449,
+            0.033
+          ],
+          [
+            -0.216,
+            -0.133
+          ],
+          [
+            0.001,
+            -0.288
+          ],
+          [
+            0.201,
+            -0.421
+          ],
+          [
+            0.381,
+            -0.523
+          ],
+          [
+            0.545,
+            -0.587
+          ],
+          [
+            0.692,
+            -0.609
+          ],
+          [
+            0.823,
+            -0.587
+          ],
+          [
+            0.937,
+            -0.523
+          ],
+          [
+            1.031,
+            -0.421
+          ],
+          [
+            1.101,
+            -0.288
+          ],
+          [
+            1.139,
+            -0.133
+          ]
+        ],
+        "sourceRefs": [
+          3,
+          4
+        ]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "high",
+    "sourceRefs": [
+      3,
+      4
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "rhapsody",
+    "inner": "rhapsody",
+    "confidence": "high",
+    "sourceRefs": [
+      3,
+      4
+    ]
+  },
+  "engines": {
+    "cowling": "rhapsody",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      3,
+      4
+    ]
+  },
+  "logos": [
+    {
+      "mark": "UAL/globe",
+      "place": "fin",
+      "at": [
+        0.341,
+        0.033
+      ],
+      "height": 1.283,
+      "colors": [
+        "globe",
+        "navy"
+      ],
+      "description": "United's globe (from Continental's 1991 globe): a light-blue disc crossed by navy latitude bands and radiating longitude bars, set low on the aft fin, cut by the root and leading edge, with a thin pale arc along its upper edge; the fin above deep blue with fine halftone dots.",
+      "reference": "https://commons.wikimedia.org/wiki/File:United_Airlines_Logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        3,
+        4
+      ]
+    },
+    {
+      "mark": "SAL/star-alliance",
+      "place": "fuselage",
+      "at": [
+        0.128,
+        0.35
+      ],
+      "height": 0.12,
+      "colors": [
+        "#8A8F96"
+      ],
+      "description": "The small gray Star Alliance star just behind the cockpit windows.",
+      "confidence": "medium",
+      "sourceRefs": [
+        5
+      ]
+    },
+    {
+      "mark": "UAL/us-flag",
+      "place": "fuselage",
+      "at": [
+        0.701,
+        0.42
+      ],
+      "height": 0.12,
+      "colors": [
+        "flagRed",
+        "white",
+        "navy"
+      ],
+      "description": "A small US flag after the registration, over the rear windows.",
+      "confidence": "medium",
+      "sourceRefs": [
+        5
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "UNITED EXPRESS",
+      "place": "fuselage",
+      "at": [
+        0.208,
+        0.429
+      ],
+      "height": 0.228,
+      "color": "rhapsody",
+      "parts": [
+        {
+          "text": "UNITED",
+          "color": "rhapsody"
+        },
+        {
+          "text": " EXPRESS",
+          "color": "expressGray"
+        }
+      ],
+      "style": "United's wordmark, heavy widely spaced capitals in Rhapsody blue, above the forward windows from just behind the forward door.",
+      "confidence": "high",
+      "sourceRefs": [
+        5,
+        6
+      ],
+      "length": 0.317,
+      "type": {
+        "similar": [
+          "Helvetica Neue Bold",
+          "Open Sans ExtraBold"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Measured on the E175 N624UX (left, Aug 2026), checked on N609UX (2019) and the CRJ200 N463SW (2026). On the regional jets the title is much smaller than the mainline's and sits above the windows. Small black lettering by the forward door ('Operated by SkyWest', 'Connecting people. Uniting the world.') is too small to draw and changes with the operator. Many United Express jets still wear the 2010 scheme: see express-2010. Positions are measured on E175s, whose window line is higher (y about 0.3) than the narrow-body average in COORDINATES.md, so titles placed above or below the windows sit higher than they would on a 737. Re-checked 2026-11-15 on N624UX (E175, left, 2026-08-28): the navy line was the mainline's path and sat 0.1-0.5 too high aft; on the E175 it runs just under both doors' sills and stays low (y about -0.45) under the tail, meeting the tail cone low down, so it's redrawn from this photo (heights read against the fuselage's outline in each column; within about 0.05). No measured E175 shape yet.",
+  "history": "United Express jets have worn the 2019 scheme on delivery or repaint since 2019; the 2010 scheme (express-2010) is being painted out."
+}

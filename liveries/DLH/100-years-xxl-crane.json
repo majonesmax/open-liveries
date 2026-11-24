@@ -1,0 +1,1976 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "100-years-xxl-crane",
+  "airline": "DLH",
+  "name": "100 Years (1926|2026) XXL crane",
+  "kind": "special",
+  "confidence": "medium",
+  "description": "Fuselage: Lufthansa dark blue, with a huge white stylized crane over it: its beak just behind the flight deck, its neck running aft along the upper fuselage under a blue crown (on the 747 the hump stays blue above it), a slim blue sliver inside the neck pointing forward, its body filling the side and crown over and behind the wing root so the airliner's wings read as the crane's, and its legs trailing low aft under a big blue wedge whose point sits near the wing's trailing edge at the window line and whose edges sweep up to the crown ahead of the fin and down to the belly. The belly is blue from the nose to just behind the wing, ending rounded, with a white '100' on it; white behind it. Tail: standard Lufthansa dark-blue fin with the white crane in a white ring. Engines: white cowlings. Winglets: white. Titles: white 'Lufthansa' under the windows behind door 1, a small white crane-in-ring under the cockpit; huge grey '100' (with a faint grey crane drawing above its '1') on the left over the blue wedge's point, and grey '1926 | 2026' along the windows on the right, the divider at the wedge's point. Colors hex: Lufthansa Blue is published in the 2018 brand as #05164D (paint match unverified); the numerals' grey measured off press photos in evening light, approximate.",
+  "sources": [
+    {
+      "url": "https://airlinegeeks.com/2026/02/26/lufthansa-unveils-anniversary-livery-on-a380/",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://onemileatatime.com/news/lufthansa-centennial-livery/",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:D-AIMH_(aircraft)",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://newsroom.lufthansagroup.com/koenigin-der-luefte-zum-100-jaehrigen-gruendungsjubilaeum-jetzt-auch-mit-xxl-kranich/",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:D-ABYN_(aircraft)",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:D-AIXL_(aircraft)",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:D-ABPU_(aircraft)",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:D-AING_(aircraft)",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:D-ABYN.jpg",
+      "title": "D-ABYN, 2026-06-20 (Haj Aviation, CC BY-SA 4.0)",
+      "accessed": "2026-11-22",
+      "note": "Left side on approach, 6° below: fitted to shapes/B748-passenger.json (tools/photo_trace.py, doors 1 and 5 pinned); the crane's edges, the title, the nose logo and '100' probed on it. Glare on the hump's aft slope."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:D-ABYN_AIRCRAFT_Boeing_747-830_-1d.jpg",
+      "title": "D-ABYN, 2026-03-20 (Sg1959, CC BY-SA 4.0)",
+      "accessed": "2026-11-22",
+      "note": "Right side from below (18°), flipped and fitted: the same crane mirrored, the aft wedge's lower edge, '1926' and the belly '100'. Its fit reads high near the crown (the upper-deck windows came out off the body), so only its lower and fore-aft readings are used."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:D-ABYN_AIRCRAFT_Boeing_747-830_-1b.jpg",
+      "title": "D-ABYN, 2026-03-20 (Sg1959, CC BY-SA 4.0)",
+      "accessed": "2026-11-22",
+      "note": "Right side from below: the belly under the wing box is blue with a white '100'."
+    },
+    {
+      "url": "https://content.presspage.com/uploads/2888/dbf33ce3-4c24-4cb5-aca3-73b06e249225/1920_pcg26-0303-b0227.jpg",
+      "title": "Airline press photo PCG26-0303-B0227: D-ABYN at San Bernardino, 2026-03-03 (Lufthansa newsroom)",
+      "accessed": "2026-11-22",
+      "note": "Airline press photo, measured only (not copied). Left front quarter, unglared: the neck, the blue island in it and the hump's blue edge, their heights read between the main and upper deck windows and fore-aft between doors 1-3."
+    },
+    {
+      "url": "https://content.presspage.com/uploads/2888/8abe38cb-df8d-45d4-aea1-3116cba11849/pcg26-0303-b0248.jpg",
+      "title": "Airline press photo PCG26-0303-B0248: D-ABYN, left side, 2026-03-03 (Lufthansa newsroom)",
+      "accessed": "2026-11-22",
+      "note": "Airline press photo, measured only. The aft blue wedge (its point just ahead of door 4, its top edge reaching the crown at the fin), the white over the crown behind the hump, and the grey '100' (its colour and size)."
+    },
+    {
+      "url": "https://content.presspage.com/uploads/2888/72f1416e-9a96-4eca-9a79-35d4b1521615/pcg26-0303-b0260.jpg",
+      "title": "Airline press photo PCG26-0303-B0260: D-ABYN, right side from behind, 2026-03-03 (Lufthansa newsroom)",
+      "accessed": "2026-11-22",
+      "note": "Airline press photo, measured only. '1926 | 2026' on the right, '1926' on the blue wedge and '2026' on the white, the divider at the wedge's point."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:D-AIXL@PEK_(20260508120708).jpg",
+      "title": "D-AIXL, 2026-05-08 (N509FZ, CC BY-SA 4.0)",
+      "accessed": "2026-11-22",
+      "note": "A350-900 left side, 3° below: fitted to shapes/A359.json (doors 1 and 4 pinned); the crane's edges, '100', the title and nose logo probed on it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:(SGP-Singapore)_Lufthansa_Airbus_A350-941_D-AIXL_@_WSSS_2026-09-03.jpg",
+      "title": "D-AIXL, 2026-09-03 (S5A-0043, CC BY 4.0)",
+      "accessed": "2026-11-22",
+      "note": "A350-900 right side, flipped and fitted: the same crane mirrored; '1926' and the divider at the blue wedge's point, '2026' under the wing."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Boeing_787-9_(c-n_66831,_D-ABPU)_2026-04-06_Andre_Gerwing_Collection_ID_028210.jpg",
+      "title": "D-ABPU, 2026-04-06 (André Gerwing, CC BY-SA 4.0)",
+      "accessed": "2026-11-22",
+      "note": "787-9 left side, 6° below: fitted to shapes/B789.json (doors 1 and 4 pinned, every landmark within 3 px); the crane's edges, '100', the title and nose logo probed on it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:D-ABPU_AIRCRAFT_Boeing_787-9_Dreamliner_-2d.jpg",
+      "title": "D-ABPU, 2026-04-03 (Sg1959, CC BY-SA 4.0)",
+      "accessed": "2026-11-22",
+      "note": "787-9 right side on the ground, wide angle: '1926 / 2026' read between doors 2, 3 and 4 (its perspective fit was poor), the wedge's point agreeing with the left side's."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:D-AING.jpg",
+      "title": "D-AING, 2026-09-12 (Aviation400, CC BY-SA 4.0)",
+      "accessed": "2026-11-22",
+      "note": "A320neo right side, level: flipped and fitted to shapes/A20N.json; the crane's edges, the blue sliver, '1926 | 2026', the title and nose logo. The fit read the forward fuselage about 12% short in height (nose nearer the camera): heights ahead of the wing scaled up by that."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A320-271N_(c-n_7588,_D-AING)_2026-06-11_Andre_Gerwing_Collection_ID_029550.jpg",
+      "title": "D-AING, 2026-06-11 (André Gerwing, CC BY-SA 4.0)",
+      "accessed": "2026-11-22",
+      "note": "A320neo left side on the ground, wide angle: the '100' read near the aft door, where its fit held (6 px); the rest only checked by eye."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:D-AING(LH_A320-271N)27R(TAKEOFF).jpg",
+      "title": "D-AING, 2026-08-13 (JCSigma2000, CC BY-SA 4.0)",
+      "accessed": "2026-11-22",
+      "note": "A320neo from below: the belly blue from the nose to just behind the wing, ending rounded, a white '100' with a small crane on it; white behind."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A350-941_(c-n_255,_D-AIXL)_2026-04-06_Andre_Gerwing_Collection_ID_028209.jpg",
+      "title": "D-AIXL, 2026-04-06 (André Gerwing, CC BY-SA 4.0)",
+      "accessed": "2026-11-22",
+      "note": "A350-900 from below: the same blue belly panel with a white '100', white behind."
+    }
+  ],
+  "notes": "Same design on D-ABYN (B748), D-ABPU (B789), D-AIXL (A359), D-AING (A20N) and the A380 D-AIMH; an A350-1000 due autumn 2026, and the newsroom (4 March 2026) counts a second A320neo. Drawn 2026-11-22: the scheme's own geometry is the 747-8I's (D-ABYN), measured on Commons photos fitted to shapes/B748-passenger.json and on three Lufthansa newsroom press photos (measured only); `drawnOn` names B748 (the schema takes designators; the 747-8I's own shape gets the same paint exactly through `types.B748-passenger`). The A350-900, 787-9 and A320neo carry the design adapted to each type (where the neck starts, the crown's blue, the wedge's point), each measured on its own airframe's photos in `types`. The A380 D-AIMH isn't measured: it draws the 747's geometry fitted by landmarks, which won't place the crane between its decks as painted. Not drawn: the faint grey crane drawing above the '100' on the left, the small crane beside the belly '100' on the A320neo, the registration, flags and door marks. On the 747 the hump's blue top over the neck's front is approximate: an upper deck wears the crown's paint carried up, so the white beak can't reach onto the hump as it does on the aircraft.",
+  "from": "2026-02",
+  "drawnOn": "B748",
+  "palette": {
+    "blue": {
+      "hex": "#05164D",
+      "name": "Lufthansa Blue",
+      "official": false
+    },
+    "white": {
+      "hex": "#F3F4F6",
+      "official": false
+    },
+    "grey": {
+      "hex": "#9AA0A3",
+      "name": "numeral grey",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "blue",
+    "areas": [
+      {
+        "name": "the XXL crane in white: its beak behind the flight deck, the neck along the upper deck under the hump's blue, its body over the wing root and the crown behind the hump to the fin, and its legs trailing low aft under a forward-pointing blue wedge; the belly under the wing box stays blue",
+        "color": "white",
+        "smooth": true,
+        "points": [
+          [
+            0.1186,
+            0.92,
+            1
+          ],
+          [
+            0.1752,
+            0.87
+          ],
+          [
+            0.2425,
+            0.83
+          ],
+          [
+            0.3234,
+            0.8
+          ],
+          [
+            0.357,
+            0.73
+          ],
+          [
+            0.3907,
+            0.52
+          ],
+          [
+            0.4244,
+            0.36
+          ],
+          [
+            0.4487,
+            0.3
+          ],
+          [
+            0.4662,
+            0.4
+          ],
+          [
+            0.4743,
+            0.62
+          ],
+          [
+            0.4783,
+            1
+          ],
+          [
+            0.8057,
+            1
+          ],
+          [
+            0.7815,
+            0.93
+          ],
+          [
+            0.7518,
+            0.79
+          ],
+          [
+            0.7222,
+            0.67
+          ],
+          [
+            0.6925,
+            0.51
+          ],
+          [
+            0.6629,
+            0.37
+          ],
+          [
+            0.6454,
+            0.3
+          ],
+          [
+            0.6144,
+            0.12
+          ],
+          [
+            0.5928,
+            -0.05,
+            1
+          ],
+          [
+            0.6373,
+            -0.17
+          ],
+          [
+            0.6764,
+            -0.48
+          ],
+          [
+            0.7316,
+            -0.78
+          ],
+          [
+            0.7747,
+            -1
+          ],
+          [
+            0.5551,
+            -1
+          ],
+          [
+            0.5497,
+            -0.85
+          ],
+          [
+            0.5322,
+            -0.62
+          ],
+          [
+            0.4985,
+            -0.5
+          ],
+          [
+            0.3638,
+            -0.5
+          ],
+          [
+            0.3476,
+            -0.45
+          ],
+          [
+            0.3382,
+            -0.3
+          ],
+          [
+            0.3207,
+            -0.13
+          ],
+          [
+            0.3018,
+            -0.01
+          ],
+          [
+            0.2762,
+            0.06
+          ],
+          [
+            0.2183,
+            0.25
+          ],
+          [
+            0.1617,
+            0.46
+          ],
+          [
+            0.1401,
+            0.7
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          8,
+          9,
+          11,
+          12
+        ]
+      },
+      {
+        "name": "blue sliver in the crane's neck (between the neck and the wing), pointing forward",
+        "color": "blue",
+        "smooth": true,
+        "points": [
+          [
+            0.2856,
+            0.33,
+            1
+          ],
+          [
+            0.3975,
+            0.35,
+            1
+          ],
+          [
+            0.388,
+            0.19,
+            1
+          ],
+          [
+            0.3368,
+            0.2
+          ],
+          [
+            0.3045,
+            0.26
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          8,
+          9,
+          11
+        ]
+      }
+    ],
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      8,
+      9,
+      11,
+      12
+    ]
+  },
+  "fin": {
+    "base": "blue",
+    "mirrored": true,
+    "confidence": "high",
+    "sourceRefs": [
+      8,
+      9
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      8,
+      11
+    ]
+  },
+  "winglets": {
+    "outer": "white",
+    "inner": "white",
+    "confidence": "medium",
+    "sourceRefs": [
+      5,
+      6
+    ]
+  },
+  "titles": [
+    {
+      "text": "Lufthansa",
+      "place": "fuselage",
+      "at": [
+        0.15,
+        -0.207
+      ],
+      "height": 0.11,
+      "length": 0.054,
+      "color": "white",
+      "style": "Lufthansa Head in white, under the main deck's windows just behind door 1.",
+      "confidence": "medium",
+      "sourceRefs": [
+        8,
+        11
+      ],
+      "type": {
+        "official": "Lufthansa Head",
+        "similar": [
+          "Montserrat ExtraBold",
+          "Helvetica Neue Bold",
+          "Arial Bold"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      }
+    },
+    {
+      "text": "100",
+      "side": "left",
+      "place": "fuselage",
+      "at": [
+        0.563,
+        -0.42
+      ],
+      "height": 0.9,
+      "length": 0.124,
+      "color": "grey",
+      "style": "Huge grey numerals across the crane's body and the blue wedge's point, partly behind the wing from the side.",
+      "confidence": "low",
+      "sourceRefs": [
+        8,
+        12
+      ],
+      "type": {
+        "official": "Lufthansa Head",
+        "similar": [
+          "Montserrat Bold",
+          "Helvetica Neue Bold",
+          "Arial Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "1926 | 2026",
+      "side": "right",
+      "place": "fuselage",
+      "at": [
+        0.487,
+        -0.16
+      ],
+      "height": 0.44,
+      "length": 0.235,
+      "color": "grey",
+      "style": "Grey numerals along the window line: '1926' on the blue wedge, the divider at its point, '2026' on the white.",
+      "confidence": "low",
+      "sourceRefs": [
+        9,
+        13
+      ],
+      "type": {
+        "official": "Lufthansa Head",
+        "similar": [
+          "Montserrat Bold",
+          "Helvetica Neue Bold",
+          "Arial Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "100",
+      "place": "belly",
+      "at": [
+        0.39,
+        -1
+      ],
+      "height": 0.5,
+      "length": 0.1,
+      "color": "white",
+      "style": "White numerals on the blue belly under the wing box.",
+      "confidence": "low",
+      "sourceRefs": [
+        9,
+        10
+      ],
+      "type": {
+        "official": "Lufthansa Head",
+        "similar": [
+          "Montserrat Bold",
+          "Helvetica Neue Bold",
+          "Arial Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "logos": [
+    {
+      "mark": "DLH/crane-ring",
+      "place": "fin",
+      "at": [
+        0.55,
+        0.3
+      ],
+      "height": 0.5,
+      "colors": [
+        "white"
+      ],
+      "description": "The Lufthansa crane in a thin ring, white on the blue fin, as on the standard scheme.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Lufthansa_Logo_2018.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        8,
+        9
+      ]
+    },
+    {
+      "mark": "DLH/crane-ring",
+      "place": "fuselage",
+      "at": [
+        0.083,
+        0.2
+      ],
+      "height": 0.19,
+      "colors": [
+        "white"
+      ],
+      "description": "Small white crane-in-ring under the cockpit windows (blue on the standard scheme).",
+      "reference": "https://commons.wikimedia.org/wiki/File:Lufthansa_Logo_2018.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        8,
+        11
+      ]
+    }
+  ],
+  "types": {
+    "B748-passenger": {
+      "note": "Measured on D-ABYN itself, fitted to this shape (photo_trace.py): the same areas, titles and logos as the scheme's own, so the 747-8I draws them exactly as measured rather than refitted from the 747-8F's outline. Its hump wears the crown's blue, as on the aircraft above the neck.",
+      "confidence": "medium",
+      "sourceRefs": [
+        8,
+        9,
+        11,
+        12
+      ],
+      "fuselage": {
+        "areas": [
+          {
+            "name": "the XXL crane in white: its beak behind the flight deck, the neck along the upper deck under the hump's blue, its body over the wing root and the crown behind the hump to the fin, and its legs trailing low aft under a forward-pointing blue wedge; the belly under the wing box stays blue",
+            "color": "white",
+            "smooth": true,
+            "points": [
+              [
+                0.1186,
+                0.92,
+                1
+              ],
+              [
+                0.1752,
+                0.87
+              ],
+              [
+                0.2425,
+                0.83
+              ],
+              [
+                0.3234,
+                0.8
+              ],
+              [
+                0.357,
+                0.73
+              ],
+              [
+                0.3907,
+                0.52
+              ],
+              [
+                0.4244,
+                0.36
+              ],
+              [
+                0.4487,
+                0.3
+              ],
+              [
+                0.4662,
+                0.4
+              ],
+              [
+                0.4743,
+                0.62
+              ],
+              [
+                0.4783,
+                1
+              ],
+              [
+                0.8057,
+                1
+              ],
+              [
+                0.7815,
+                0.93
+              ],
+              [
+                0.7518,
+                0.79
+              ],
+              [
+                0.7222,
+                0.67
+              ],
+              [
+                0.6925,
+                0.51
+              ],
+              [
+                0.6629,
+                0.37
+              ],
+              [
+                0.6454,
+                0.3
+              ],
+              [
+                0.6144,
+                0.12
+              ],
+              [
+                0.5928,
+                -0.05,
+                1
+              ],
+              [
+                0.6373,
+                -0.17
+              ],
+              [
+                0.6764,
+                -0.48
+              ],
+              [
+                0.7316,
+                -0.78
+              ],
+              [
+                0.7747,
+                -1
+              ],
+              [
+                0.5551,
+                -1
+              ],
+              [
+                0.5497,
+                -0.85
+              ],
+              [
+                0.5322,
+                -0.62
+              ],
+              [
+                0.4985,
+                -0.5
+              ],
+              [
+                0.3638,
+                -0.5
+              ],
+              [
+                0.3476,
+                -0.45
+              ],
+              [
+                0.3382,
+                -0.3
+              ],
+              [
+                0.3207,
+                -0.13
+              ],
+              [
+                0.3018,
+                -0.01
+              ],
+              [
+                0.2762,
+                0.06
+              ],
+              [
+                0.2183,
+                0.25
+              ],
+              [
+                0.1617,
+                0.46
+              ],
+              [
+                0.1401,
+                0.7
+              ]
+            ],
+            "confidence": "medium",
+            "sourceRefs": [
+              8,
+              9,
+              11,
+              12
+            ]
+          },
+          {
+            "name": "blue sliver in the crane's neck (between the neck and the wing), pointing forward",
+            "color": "blue",
+            "smooth": true,
+            "points": [
+              [
+                0.2856,
+                0.33,
+                1
+              ],
+              [
+                0.3975,
+                0.35,
+                1
+              ],
+              [
+                0.388,
+                0.19,
+                1
+              ],
+              [
+                0.3368,
+                0.2
+              ],
+              [
+                0.3045,
+                0.26
+              ]
+            ],
+            "confidence": "medium",
+            "sourceRefs": [
+              8,
+              9,
+              11
+            ]
+          }
+        ]
+      },
+      "titles": [
+        {
+          "text": "Lufthansa",
+          "place": "fuselage",
+          "at": [
+            0.15,
+            -0.207
+          ],
+          "height": 0.11,
+          "length": 0.054,
+          "color": "white",
+          "style": "Lufthansa Head in white, under the main deck's windows just behind door 1.",
+          "confidence": "medium",
+          "sourceRefs": [
+            8,
+            11
+          ],
+          "type": {
+            "official": "Lufthansa Head",
+            "similar": [
+              "Montserrat ExtraBold",
+              "Helvetica Neue Bold",
+              "Arial Bold"
+            ],
+            "weight": 800,
+            "slantDeg": 0,
+            "width": "normal",
+            "strokes": "uniform",
+            "case": "mixed"
+          }
+        },
+        {
+          "text": "100",
+          "side": "left",
+          "place": "fuselage",
+          "at": [
+            0.563,
+            -0.42
+          ],
+          "height": 0.9,
+          "length": 0.124,
+          "color": "grey",
+          "style": "Huge grey numerals across the crane's body and the blue wedge's point, partly behind the wing from the side.",
+          "confidence": "low",
+          "sourceRefs": [
+            8,
+            12
+          ],
+          "type": {
+            "official": "Lufthansa Head",
+            "similar": [
+              "Montserrat Bold",
+              "Helvetica Neue Bold",
+              "Arial Bold"
+            ],
+            "weight": 700,
+            "slantDeg": 0,
+            "width": "normal",
+            "strokes": "uniform",
+            "case": "upper"
+          }
+        },
+        {
+          "text": "1926 | 2026",
+          "side": "right",
+          "place": "fuselage",
+          "at": [
+            0.487,
+            -0.16
+          ],
+          "height": 0.44,
+          "length": 0.235,
+          "color": "grey",
+          "style": "Grey numerals along the window line: '1926' on the blue wedge, the divider at its point, '2026' on the white.",
+          "confidence": "low",
+          "sourceRefs": [
+            9,
+            13
+          ],
+          "type": {
+            "official": "Lufthansa Head",
+            "similar": [
+              "Montserrat Bold",
+              "Helvetica Neue Bold",
+              "Arial Bold"
+            ],
+            "weight": 700,
+            "slantDeg": 0,
+            "width": "normal",
+            "strokes": "uniform",
+            "case": "upper"
+          }
+        },
+        {
+          "text": "100",
+          "place": "belly",
+          "at": [
+            0.39,
+            -1
+          ],
+          "height": 0.5,
+          "length": 0.1,
+          "color": "white",
+          "style": "White numerals on the blue belly under the wing box.",
+          "confidence": "low",
+          "sourceRefs": [
+            9,
+            10
+          ],
+          "type": {
+            "official": "Lufthansa Head",
+            "similar": [
+              "Montserrat Bold",
+              "Helvetica Neue Bold",
+              "Arial Bold"
+            ],
+            "weight": 700,
+            "slantDeg": 0,
+            "width": "normal",
+            "strokes": "uniform",
+            "case": "upper"
+          }
+        }
+      ],
+      "logos": [
+        {
+          "mark": "DLH/crane-ring",
+          "place": "fin",
+          "at": [
+            0.55,
+            0.3
+          ],
+          "height": 0.5,
+          "colors": [
+            "white"
+          ],
+          "description": "The Lufthansa crane in a thin ring, white on the blue fin, as on the standard scheme.",
+          "reference": "https://commons.wikimedia.org/wiki/File:Lufthansa_Logo_2018.svg",
+          "confidence": "high",
+          "sourceRefs": [
+            8,
+            9
+          ]
+        },
+        {
+          "mark": "DLH/crane-ring",
+          "place": "fuselage",
+          "at": [
+            0.083,
+            0.2
+          ],
+          "height": 0.19,
+          "colors": [
+            "white"
+          ],
+          "description": "Small white crane-in-ring under the cockpit windows (blue on the standard scheme).",
+          "reference": "https://commons.wikimedia.org/wiki/File:Lufthansa_Logo_2018.svg",
+          "confidence": "medium",
+          "sourceRefs": [
+            8,
+            11
+          ]
+        }
+      ]
+    },
+    "A359": {
+      "note": "D-AIXL (A350-900), measured on its own photos fitted to shapes/A359.json: the neck starts square behind the flight deck (not pointed as on the 747) with a step in its top edge; the crown stays blue to the wing; the aft wedge's point is under the wing's trailing edge, its top edge reaching the crown well ahead of the fin. Where the wing hides the side (the crown blue's end, the sliver's aft end, the white's lower edge at the wing root) the 747's shapes were followed.",
+      "confidence": "medium",
+      "sourceRefs": [
+        14,
+        15,
+        21
+      ],
+      "fuselage": {
+        "areas": [
+          {
+            "name": "the XXL crane in white (as on the scheme's own: neck under a blue crown, body over the wing root, legs low aft under the blue wedge; belly blue under the wing box)",
+            "color": "white",
+            "smooth": true,
+            "points": [
+              [
+                0.1221,
+                0.58,
+                1
+              ],
+              [
+                0.1839,
+                0.5,
+                1
+              ],
+              [
+                0.2069,
+                0.64,
+                1
+              ],
+              [
+                0.259,
+                0.72
+              ],
+              [
+                0.334,
+                0.74
+              ],
+              [
+                0.4168,
+                0.74
+              ],
+              [
+                0.4827,
+                0.68
+              ],
+              [
+                0.5179,
+                0.62
+              ],
+              [
+                0.5348,
+                0.64
+              ],
+              [
+                0.5455,
+                0.82
+              ],
+              [
+                0.5501,
+                1
+              ],
+              [
+                0.8275,
+                1
+              ],
+              [
+                0.7983,
+                0.75
+              ],
+              [
+                0.7616,
+                0.67
+              ],
+              [
+                0.7248,
+                0.58
+              ],
+              [
+                0.6972,
+                0.51
+              ],
+              [
+                0.6696,
+                0.42
+              ],
+              [
+                0.642,
+                0.28
+              ],
+              [
+                0.6145,
+                0.14
+              ],
+              [
+                0.6013,
+                -0.06,
+                1
+              ],
+              [
+                0.616,
+                -0.18
+              ],
+              [
+                0.6436,
+                -0.32
+              ],
+              [
+                0.6727,
+                -0.41
+              ],
+              [
+                0.7003,
+                -0.51
+              ],
+              [
+                0.7294,
+                -0.62
+              ],
+              [
+                0.757,
+                -0.83
+              ],
+              [
+                0.7738,
+                -1
+              ],
+              [
+                0.544,
+                -1
+              ],
+              [
+                0.5363,
+                -0.85
+              ],
+              [
+                0.521,
+                -0.62
+              ],
+              [
+                0.4903,
+                -0.5
+              ],
+              [
+                0.3295,
+                -0.5
+              ],
+              [
+                0.3095,
+                -0.4
+              ],
+              [
+                0.2777,
+                -0.02
+              ],
+              [
+                0.2521,
+                0.08
+              ],
+              [
+                0.224,
+                0.13
+              ],
+              [
+                0.1678,
+                0.25
+              ],
+              [
+                0.1324,
+                0.33,
+                1
+              ]
+            ],
+            "confidence": "medium",
+            "sourceRefs": [
+              14,
+              15
+            ]
+          },
+          {
+            "name": "blue sliver in the crane's neck, pointing forward",
+            "color": "blue",
+            "smooth": true,
+            "points": [
+              [
+                0.285,
+                0.26,
+                1
+              ],
+              [
+                0.3907,
+                0.3
+              ],
+              [
+                0.4291,
+                0.31,
+                1
+              ],
+              [
+                0.4229,
+                0.18,
+                1
+              ],
+              [
+                0.3907,
+                0.18
+              ],
+              [
+                0.3295,
+                0.21
+              ]
+            ],
+            "confidence": "medium",
+            "sourceRefs": [
+              14
+            ]
+          }
+        ]
+      },
+      "titles": [
+        {
+          "text": "Lufthansa",
+          "place": "fuselage",
+          "at": [
+            0.115,
+            -0.06
+          ],
+          "height": 0.1,
+          "length": 0.052,
+          "color": "white",
+          "style": "Lufthansa Head in white, under the windows behind door 1.",
+          "confidence": "medium",
+          "sourceRefs": [
+            14
+          ],
+          "type": {
+            "official": "Lufthansa Head",
+            "similar": [
+              "Montserrat ExtraBold",
+              "Helvetica Neue Bold",
+              "Arial Bold"
+            ],
+            "weight": 800,
+            "slantDeg": 0,
+            "width": "normal",
+            "strokes": "uniform",
+            "case": "mixed"
+          }
+        },
+        {
+          "text": "100",
+          "side": "left",
+          "place": "fuselage",
+          "at": [
+            0.575,
+            -0.54
+          ],
+          "height": 1.0,
+          "length": 0.133,
+          "color": "grey",
+          "style": "Huge grey numerals over the blue wedge's point.",
+          "confidence": "low",
+          "sourceRefs": [
+            14
+          ],
+          "type": {
+            "official": "Lufthansa Head",
+            "similar": [
+              "Montserrat Bold",
+              "Helvetica Neue Bold",
+              "Arial Bold"
+            ],
+            "weight": 700,
+            "slantDeg": 0,
+            "width": "normal",
+            "strokes": "uniform",
+            "case": "upper"
+          }
+        },
+        {
+          "text": "1926 | 2026",
+          "side": "right",
+          "place": "fuselage",
+          "at": [
+            0.529,
+            -0.07
+          ],
+          "height": 0.43,
+          "length": 0.215,
+          "color": "grey",
+          "style": "Grey numerals along the windows: '1926' on the blue wedge, the divider at its point, '2026' on the white.",
+          "confidence": "low",
+          "sourceRefs": [
+            15
+          ],
+          "type": {
+            "official": "Lufthansa Head",
+            "similar": [
+              "Montserrat Bold",
+              "Helvetica Neue Bold",
+              "Arial Bold"
+            ],
+            "weight": 700,
+            "slantDeg": 0,
+            "width": "normal",
+            "strokes": "uniform",
+            "case": "upper"
+          }
+        },
+        {
+          "text": "100",
+          "place": "belly",
+          "at": [
+            0.43,
+            -1
+          ],
+          "height": 0.5,
+          "length": 0.11,
+          "color": "white",
+          "style": "White numerals on the blue belly panel.",
+          "confidence": "low",
+          "sourceRefs": [
+            21
+          ],
+          "type": {
+            "official": "Lufthansa Head",
+            "similar": [
+              "Montserrat Bold",
+              "Helvetica Neue Bold",
+              "Arial Bold"
+            ],
+            "weight": 700,
+            "slantDeg": 0,
+            "width": "normal",
+            "strokes": "uniform",
+            "case": "upper"
+          }
+        }
+      ],
+      "logos": [
+        {
+          "mark": "DLH/crane-ring",
+          "place": "fin",
+          "at": [
+            0.55,
+            0.3
+          ],
+          "height": 0.5,
+          "colors": [
+            "white"
+          ],
+          "description": "The Lufthansa crane in a thin ring, white on the blue fin, as on the standard scheme.",
+          "reference": "https://commons.wikimedia.org/wiki/File:Lufthansa_Logo_2018.svg",
+          "confidence": "high",
+          "sourceRefs": [
+            8,
+            9
+          ]
+        },
+        {
+          "mark": "DLH/crane-ring",
+          "place": "fuselage",
+          "at": [
+            0.052,
+            -0.026
+          ],
+          "height": 0.2,
+          "colors": [
+            "white"
+          ],
+          "description": "Small white crane-in-ring under the cockpit windows (blue on the standard scheme).",
+          "reference": "https://commons.wikimedia.org/wiki/File:Lufthansa_Logo_2018.svg",
+          "confidence": "medium",
+          "sourceRefs": [
+            14
+          ]
+        }
+      ]
+    },
+    "B789": {
+      "note": "D-ABPU (787-9), measured on its own photos fitted to shapes/B789.json: as on the 747 but no hump, so the crown above the neck is blue to the wing, with a step in the neck's top edge; no blue sliver in the neck worth drawing (a short notch at door 2 only). The belly panel and its '100' are the A350's and A320's, not seen on this airframe: drawn by the design, low confidence.",
+      "confidence": "medium",
+      "sourceRefs": [
+        16,
+        17
+      ],
+      "fuselage": {
+        "areas": [
+          {
+            "name": "the XXL crane in white (as on the scheme's own: neck under a blue crown, body over the wing root, legs low aft under the blue wedge; belly blue under the wing box)",
+            "color": "white",
+            "smooth": true,
+            "points": [
+              [
+                0.1312,
+                0.62,
+                1
+              ],
+              [
+                0.2033,
+                0.58,
+                1
+              ],
+              [
+                0.2098,
+                0.7,
+                1
+              ],
+              [
+                0.3292,
+                0.72
+              ],
+              [
+                0.4196,
+                0.64
+              ],
+              [
+                0.4793,
+                0.47
+              ],
+              [
+                0.5325,
+                0.32
+              ],
+              [
+                0.5487,
+                0.4
+              ],
+              [
+                0.5583,
+                0.7
+              ],
+              [
+                0.5616,
+                1
+              ],
+              [
+                0.7504,
+                1
+              ],
+              [
+                0.7278,
+                0.78
+              ],
+              [
+                0.6971,
+                0.69
+              ],
+              [
+                0.6681,
+                0.56
+              ],
+              [
+                0.6374,
+                0.39
+              ],
+              [
+                0.6084,
+                0.19
+              ],
+              [
+                0.5825,
+                -0.05,
+                1
+              ],
+              [
+                0.6084,
+                -0.26
+              ],
+              [
+                0.639,
+                -0.4
+              ],
+              [
+                0.6697,
+                -0.53
+              ],
+              [
+                0.6987,
+                -0.65
+              ],
+              [
+                0.7294,
+                -0.73
+              ],
+              [
+                0.7504,
+                -0.84
+              ],
+              [
+                0.7713,
+                -1
+              ],
+              [
+                0.5487,
+                -1
+              ],
+              [
+                0.5406,
+                -0.85
+              ],
+              [
+                0.5244,
+                -0.62
+              ],
+              [
+                0.4922,
+                -0.5
+              ],
+              [
+                0.3518,
+                -0.5
+              ],
+              [
+                0.3389,
+                -0.35
+              ],
+              [
+                0.3303,
+                -0.12
+              ],
+              [
+                0.2695,
+                0.12
+              ],
+              [
+                0.2098,
+                0.26
+              ],
+              [
+                0.1646,
+                0.4
+              ]
+            ],
+            "confidence": "medium",
+            "sourceRefs": [
+              16,
+              17
+            ]
+          }
+        ]
+      },
+      "titles": [
+        {
+          "text": "Lufthansa",
+          "place": "fuselage",
+          "at": [
+            0.1297,
+            -0.079
+          ],
+          "height": 0.125,
+          "length": 0.0546,
+          "color": "white",
+          "style": "Lufthansa Head in white, under the windows behind door 1.",
+          "confidence": "medium",
+          "sourceRefs": [
+            16
+          ],
+          "type": {
+            "official": "Lufthansa Head",
+            "similar": [
+              "Montserrat ExtraBold",
+              "Helvetica Neue Bold",
+              "Arial Bold"
+            ],
+            "weight": 800,
+            "slantDeg": 0,
+            "width": "normal",
+            "strokes": "uniform",
+            "case": "mixed"
+          }
+        },
+        {
+          "text": "100",
+          "side": "left",
+          "place": "fuselage",
+          "at": [
+            0.56,
+            -0.45
+          ],
+          "height": 1.0,
+          "length": 0.12,
+          "color": "grey",
+          "style": "Huge grey numerals over the blue wedge's point.",
+          "confidence": "low",
+          "sourceRefs": [
+            16
+          ],
+          "type": {
+            "official": "Lufthansa Head",
+            "similar": [
+              "Montserrat Bold",
+              "Helvetica Neue Bold",
+              "Arial Bold"
+            ],
+            "weight": 700,
+            "slantDeg": 0,
+            "width": "normal",
+            "strokes": "uniform",
+            "case": "upper"
+          }
+        },
+        {
+          "text": "1926 | 2026",
+          "side": "right",
+          "place": "fuselage",
+          "at": [
+            0.4865,
+            0.03
+          ],
+          "height": 0.44,
+          "length": 0.211,
+          "color": "grey",
+          "style": "Grey numerals along the windows: '1926' on the blue wedge, the divider at its point, '2026' on the white.",
+          "confidence": "low",
+          "sourceRefs": [
+            17
+          ],
+          "type": {
+            "official": "Lufthansa Head",
+            "similar": [
+              "Montserrat Bold",
+              "Helvetica Neue Bold",
+              "Arial Bold"
+            ],
+            "weight": 700,
+            "slantDeg": 0,
+            "width": "normal",
+            "strokes": "uniform",
+            "case": "upper"
+          }
+        },
+        {
+          "text": "100",
+          "place": "belly",
+          "at": [
+            0.42,
+            -1
+          ],
+          "height": 0.5,
+          "length": 0.11,
+          "color": "white",
+          "style": "White numerals on the blue belly panel.",
+          "confidence": "low",
+          "sourceRefs": [
+            16
+          ],
+          "type": {
+            "official": "Lufthansa Head",
+            "similar": [
+              "Montserrat Bold",
+              "Helvetica Neue Bold",
+              "Arial Bold"
+            ],
+            "weight": 700,
+            "slantDeg": 0,
+            "width": "normal",
+            "strokes": "uniform",
+            "case": "upper"
+          }
+        }
+      ],
+      "logos": [
+        {
+          "mark": "DLH/crane-ring",
+          "place": "fin",
+          "at": [
+            0.55,
+            0.3
+          ],
+          "height": 0.5,
+          "colors": [
+            "white"
+          ],
+          "description": "The Lufthansa crane in a thin ring, white on the blue fin, as on the standard scheme.",
+          "reference": "https://commons.wikimedia.org/wiki/File:Lufthansa_Logo_2018.svg",
+          "confidence": "high",
+          "sourceRefs": [
+            8,
+            9
+          ]
+        },
+        {
+          "mark": "DLH/crane-ring",
+          "place": "fuselage",
+          "at": [
+            0.0546,
+            -0.004
+          ],
+          "height": 0.24,
+          "colors": [
+            "white"
+          ],
+          "description": "Small white crane-in-ring under the cockpit windows (blue on the standard scheme).",
+          "reference": "https://commons.wikimedia.org/wiki/File:Lufthansa_Logo_2018.svg",
+          "confidence": "medium",
+          "sourceRefs": [
+            16
+          ]
+        }
+      ]
+    },
+    "A20N": {
+      "note": "D-AING (A320neo), measured on its right side fitted to shapes/A20N.json and drawn on both sides (the left side's photos agree by eye; their wide-angle fits didn't hold): the neck starts behind door 1 under a blue crown band that dips to the wing root; the aft wedge's point sits ahead of the wing's trailing edge, its top edge reaching the crown at the fin. The belly panel and its '100' from a photo from below.",
+      "confidence": "medium",
+      "sourceRefs": [
+        18,
+        19,
+        20
+      ],
+      "fuselage": {
+        "areas": [
+          {
+            "name": "the XXL crane in white (as on the scheme's own: neck under a blue crown, body over the wing root, legs low aft under the blue wedge; belly blue under the wing box)",
+            "color": "white",
+            "smooth": true,
+            "points": [
+              [
+                0.1632,
+                0.698,
+                1
+              ],
+              [
+                0.2273,
+                0.652,
+                1
+              ],
+              [
+                0.2388,
+                0.764,
+                1
+              ],
+              [
+                0.2585,
+                0.743
+              ],
+              [
+                0.3436,
+                0.635
+              ],
+              [
+                0.4288,
+                0.521
+              ],
+              [
+                0.4855,
+                0.424
+              ],
+              [
+                0.514,
+                0.5
+              ],
+              [
+                0.5313,
+                0.8
+              ],
+              [
+                0.5377,
+                1
+              ],
+              [
+                0.7985,
+                1
+              ],
+              [
+                0.7557,
+                0.746
+              ],
+              [
+                0.7131,
+                0.584
+              ],
+              [
+                0.6702,
+                0.422
+              ],
+              [
+                0.6415,
+                0.245
+              ],
+              [
+                0.6186,
+                0.045,
+                1
+              ],
+              [
+                0.6439,
+                -0.212
+              ],
+              [
+                0.6692,
+                -0.384
+              ],
+              [
+                0.6888,
+                -0.668
+              ],
+              [
+                0.708,
+                -1
+              ],
+              [
+                0.5643,
+                -1
+              ],
+              [
+                0.5483,
+                -0.8
+              ],
+              [
+                0.5217,
+                -0.58
+              ],
+              [
+                0.4924,
+                -0.5
+              ],
+              [
+                0.3939,
+                -0.5
+              ],
+              [
+                0.3655,
+                -0.243
+              ],
+              [
+                0.3287,
+                -0.047
+              ],
+              [
+                0.292,
+                0.11
+              ],
+              [
+                0.2667,
+                0.277
+              ],
+              [
+                0.23,
+                0.422
+              ]
+            ],
+            "confidence": "medium",
+            "sourceRefs": [
+              18,
+              19
+            ]
+          },
+          {
+            "name": "blue sliver in the crane's neck, pointing forward",
+            "color": "blue",
+            "smooth": true,
+            "points": [
+              [
+                0.3178,
+                0.369,
+                1
+              ],
+              [
+                0.4088,
+                0.343,
+                1
+              ],
+              [
+                0.4001,
+                0.194,
+                1
+              ],
+              [
+                0.3513,
+                0.259
+              ]
+            ],
+            "confidence": "medium",
+            "sourceRefs": [
+              18
+            ]
+          }
+        ]
+      },
+      "titles": [
+        {
+          "text": "Lufthansa",
+          "place": "fuselage",
+          "at": [
+            0.1734,
+            -0.265
+          ],
+          "height": 0.105,
+          "length": 0.0623,
+          "color": "white",
+          "style": "Lufthansa Head in white, under the windows behind door 1.",
+          "confidence": "medium",
+          "sourceRefs": [
+            18,
+            19
+          ],
+          "type": {
+            "official": "Lufthansa Head",
+            "similar": [
+              "Montserrat ExtraBold",
+              "Helvetica Neue Bold",
+              "Arial Bold"
+            ],
+            "weight": 800,
+            "slantDeg": 0,
+            "width": "normal",
+            "strokes": "uniform",
+            "case": "mixed"
+          }
+        },
+        {
+          "text": "100",
+          "side": "left",
+          "place": "fuselage",
+          "at": [
+            0.565,
+            -0.43
+          ],
+          "height": 1.05,
+          "length": 0.125,
+          "color": "grey",
+          "style": "Huge grey numerals over the blue wedge's point.",
+          "confidence": "low",
+          "sourceRefs": [
+            19
+          ],
+          "type": {
+            "official": "Lufthansa Head",
+            "similar": [
+              "Montserrat Bold",
+              "Helvetica Neue Bold",
+              "Arial Bold"
+            ],
+            "weight": 700,
+            "slantDeg": 0,
+            "width": "normal",
+            "strokes": "uniform",
+            "case": "upper"
+          }
+        },
+        {
+          "text": "1926 | 2026",
+          "side": "right",
+          "place": "fuselage",
+          "at": [
+            0.503,
+            0.03
+          ],
+          "height": 0.44,
+          "length": 0.234,
+          "color": "grey",
+          "style": "Grey numerals along the windows: '1926' on the blue wedge, the divider at its point, '2026' on the white.",
+          "confidence": "low",
+          "sourceRefs": [
+            18
+          ],
+          "type": {
+            "official": "Lufthansa Head",
+            "similar": [
+              "Montserrat Bold",
+              "Helvetica Neue Bold",
+              "Arial Bold"
+            ],
+            "weight": 700,
+            "slantDeg": 0,
+            "width": "normal",
+            "strokes": "uniform",
+            "case": "upper"
+          }
+        },
+        {
+          "text": "100",
+          "place": "belly",
+          "at": [
+            0.36,
+            -1
+          ],
+          "height": 0.55,
+          "length": 0.14,
+          "color": "white",
+          "style": "White numerals on the blue belly panel.",
+          "confidence": "low",
+          "sourceRefs": [
+            20
+          ],
+          "type": {
+            "official": "Lufthansa Head",
+            "similar": [
+              "Montserrat Bold",
+              "Helvetica Neue Bold",
+              "Arial Bold"
+            ],
+            "weight": 700,
+            "slantDeg": 0,
+            "width": "normal",
+            "strokes": "uniform",
+            "case": "upper"
+          }
+        }
+      ],
+      "logos": [
+        {
+          "mark": "DLH/crane-ring",
+          "place": "fin",
+          "at": [
+            0.55,
+            0.3
+          ],
+          "height": 0.5,
+          "colors": [
+            "white"
+          ],
+          "description": "The Lufthansa crane in a thin ring, white on the blue fin, as on the standard scheme.",
+          "reference": "https://commons.wikimedia.org/wiki/File:Lufthansa_Logo_2018.svg",
+          "confidence": "high",
+          "sourceRefs": [
+            8,
+            9
+          ]
+        },
+        {
+          "mark": "DLH/crane-ring",
+          "place": "fuselage",
+          "at": [
+            0.089,
+            -0.16
+          ],
+          "height": 0.2,
+          "colors": [
+            "white"
+          ],
+          "description": "Small white crane-in-ring under the cockpit windows (blue on the standard scheme).",
+          "reference": "https://commons.wikimedia.org/wiki/File:Lufthansa_Logo_2018.svg",
+          "confidence": "medium",
+          "sourceRefs": [
+            18
+          ]
+        }
+      ]
+    }
+  }
+}

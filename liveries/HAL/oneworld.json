@@ -1,0 +1,589 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "oneworld",
+  "airline": "HAL",
+  "name": "oneworld (Aloha a puni ka honua)",
+  "kind": "alliance",
+  "from": "2026-06-30",
+  "confidence": "medium",
+  "drawnOn": "A332",
+  "description": "Hawaiian's Pualani scheme on an A330 with its 'HAWAIIAN' title replaced by the oneworld mark: 'member of' over a large 'oneworld' (navy-violet, 'one' heavy, 'world' thin) across the forward windows, and 'Aloha a puni ka hōnua' ('Aloha all around the world', in Hawaiian) in a gray serif beneath it; the silver-gray maile lei draped from the crown behind the second door down across the windows to the belly; magenta hibiscus at the front of the purple aft fuselage; the purple-to-magenta fin with Pualani; a small oneworld roundel behind the cockpit.",
+  "sources": [
+    {
+      "url": "https://news.alaskaair.com/company/aloha-all-around-the-world-hawaiian-airlines-unveils-oneworld-alliance-livery-aircraft/",
+      "title": "Alaska Air Group newsroom: 'Aloha all around the world:' Hawaiian Airlines unveils oneworld alliance livery aircraft featuring ʻŌlelo Hawaiʻi (2026-06-30)",
+      "accessed": "2026-11-22",
+      "note": "An A330 keeping the Pualani tail and the maile lei, adding the oneworld mark and 'Aloha a puni ka honua' ('Aloha all around the world'); unveiled 2026-06-30 in Honolulu."
+    },
+    {
+      "url": "https://news.alaskaair.com/images-videos/hawaiian-airlines-oneworld-airbus-a330-livery",
+      "title": "Alaska Air Group newsroom press kit: Hawaiian Airlines oneworld Airbus A330 livery (airline press images)",
+      "accessed": "2026-11-22",
+      "note": "Airline press images (renderings, dated 2026-06-18 in their file names) of N375HA, left side: 260618_Hawaiiain_A330_C (nearly side-on, fitted to the A330-200's measured shape; the titles, the lei and the aft purple measured off it), _A and _B (checked). Measured only; not copied. They are renderings, not photographs."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N375HA_(55568037164).jpg",
+      "title": "N375HA, 2026-09-13 (CC BY-SA 4.0, Liam Thompson)",
+      "accessed": "2026-11-22",
+      "note": "N375HA's left side from below and ahead, landing, 2026-09-13: the real paint matches the renderings (titles, lei, aft flowers, Pualani). Too oblique to measure from."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N375HA_(55048074707).jpg",
+      "title": "N375HA, 2026-01-17 (CC BY-SA 4.0, Liam Thompson)",
+      "accessed": "2026-11-22",
+      "note": "N375HA in the standard Pualani livery on 2026-01-17, before this scheme."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F3F4",
+      "official": false
+    },
+    "purple": {
+      "hex": "#46276F",
+      "official": false,
+      "name": "Hawaiian purple"
+    },
+    "magenta": {
+      "hex": "#C4207A",
+      "official": false,
+      "name": "magenta (flowers, fin tip)"
+    },
+    "coral": {
+      "hex": "#F05A4F",
+      "official": false,
+      "name": "hibiscus coral"
+    },
+    "gray": {
+      "hex": "#DEDCD9",
+      "official": false,
+      "name": "lei gray (a lacy pattern; drawn pale)"
+    },
+    "title": {
+      "hex": "#3F2A6E",
+      "official": false,
+      "name": "title purple"
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "cowl": {
+      "hex": "#E6E7E9",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false
+    },
+    "oneworld": {
+      "hex": "#3B2F9E",
+      "official": false,
+      "name": "oneworld blue-violet (as Hawaiian prints it)"
+    },
+    "oneworldNavy": {
+      "hex": "#1E1F6E",
+      "official": false,
+      "name": "oneworld navy (roundel)"
+    },
+    "slate": {
+      "hex": "#8E8E96",
+      "official": false,
+      "name": "gray of the Hawaiian phrase"
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "silver-gray maile lei of flowers, draped from the crown over the second door aft across the windows to the belly under the wing (pattern simplified to its band)",
+        "color": "gray",
+        "points": [
+          [
+            0.3138,
+            0.452
+          ],
+          [
+            0.3138,
+            0.79
+          ],
+          [
+            0.335,
+            1
+          ],
+          [
+            0.4875,
+            1
+          ],
+          [
+            0.5714,
+            0.479
+          ],
+          [
+            0.6272,
+            0.141
+          ],
+          [
+            0.6831,
+            -0.181
+          ],
+          [
+            0.725,
+            -0.676
+          ],
+          [
+            0.735,
+            -1
+          ],
+          [
+            0.56,
+            -1
+          ],
+          [
+            0.5569,
+            -0.756
+          ],
+          [
+            0.5291,
+            -0.2
+          ],
+          [
+            0.4929,
+            0.1935
+          ],
+          [
+            0.4313,
+            0.3516
+          ],
+          [
+            0.3613,
+            0.4022
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          2
+        ],
+        "smooth": true
+      },
+      {
+        "name": "magenta flowers at the front of the aft purple",
+        "color": "magenta",
+        "points": [
+          [
+            0.782,
+            1
+          ],
+          [
+            0.7786,
+            0.722
+          ],
+          [
+            0.7617,
+            0.266
+          ],
+          [
+            0.7476,
+            -0.038
+          ],
+          [
+            0.7405,
+            -0.343
+          ],
+          [
+            0.7474,
+            -0.756
+          ],
+          [
+            0.75,
+            -1
+          ],
+          [
+            0.8356,
+            -1
+          ],
+          [
+            0.8237,
+            -0.271
+          ],
+          [
+            0.7967,
+            0.334
+          ],
+          [
+            0.8,
+            1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          2
+        ],
+        "smooth": true
+      },
+      {
+        "name": "purple aft fuselage and tail cone",
+        "color": "purple",
+        "points": [
+          [
+            0.8,
+            1
+          ],
+          [
+            0.7967,
+            0.334
+          ],
+          [
+            0.8237,
+            -0.271
+          ],
+          [
+            0.8356,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ],
+        "smooth": true
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "purple",
+    "areas": [
+      {
+        "name": "magenta toward the tip (a gradient)",
+        "color": "magenta",
+        "points": [
+          [
+            0,
+            0.8
+          ],
+          [
+            1,
+            0.82
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "white",
+    "inner": "white",
+    "confidence": "low",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "cowl",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "HAL/pualani",
+      "place": "fin",
+      "at": [
+        0.431,
+        0.564
+      ],
+      "height": 0.75,
+      "colors": [
+        "white",
+        "coral",
+        "purple"
+      ],
+      "description": "Pualani ('flower of the sky'): a Hawaiian woman's face in profile, white, facing forward, her dark-purple hair framing it with a coral hibiscus behind her ear, filling the aft fin.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "reference": "https://commons.wikimedia.org/wiki/File:Hawaiian_Airlines_logo_2017.svg"
+    },
+    {
+      "mark": "ONE/oneworld-roundel",
+      "place": "fuselage",
+      "at": [
+        0.067,
+        0.26
+      ],
+      "height": 0.14,
+      "colors": [
+        "oneworldNavy",
+        "white"
+      ],
+      "description": "The small oneworld roundel behind the cockpit, under a small Hawaiian flag.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "member of",
+      "place": "fuselage",
+      "at": [
+        0.131,
+        0.47
+      ],
+      "height": 0.19,
+      "color": "oneworld",
+      "length": 0.054,
+      "style": "Small lowercase geometric sans above the start of 'oneworld', behind the forward door.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Regular",
+          "Futura Book"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.7
+      },
+      "side": "left"
+    },
+    {
+      "text": "one",
+      "place": "fuselage",
+      "at": [
+        0.133,
+        -0.046
+      ],
+      "height": 1.0,
+      "color": "oneworld",
+      "length": 0.083,
+      "style": "The oneworld wordmark: 'one' heavy, across the forward windows from just behind the forward door.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Heavy",
+          "Futura Heavy"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.65
+      },
+      "side": "left"
+    },
+    {
+      "text": "world",
+      "place": "fuselage",
+      "at": [
+        0.2156,
+        -0.046
+      ],
+      "height": 1.0,
+      "color": "oneworld",
+      "length": 0.106,
+      "style": "The oneworld wordmark: 'world' thin, straight after 'one', past the second door.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Ultra Light",
+          "Futura Light"
+        ],
+        "weight": 300,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.65
+      },
+      "side": "left"
+    },
+    {
+      "text": "member of",
+      "place": "fuselage",
+      "at": [
+        0.268,
+        0.47
+      ],
+      "height": 0.19,
+      "color": "oneworld",
+      "length": 0.054,
+      "style": "Small lowercase geometric sans above the start of 'oneworld', behind the forward door. Right side not shown in any image: assumed to mirror the left, the wordmark reading normally from its aft end ('one' aft, 'world' forward), as on Alaska's oneworld jets.",
+      "confidence": "low",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Regular",
+          "Futura Book"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.7
+      },
+      "side": "right"
+    },
+    {
+      "text": "one",
+      "place": "fuselage",
+      "at": [
+        0.239,
+        -0.046
+      ],
+      "height": 1.0,
+      "color": "oneworld",
+      "length": 0.083,
+      "style": "The oneworld wordmark: 'one' heavy, across the forward windows from just behind the forward door. Right side not shown in any image: assumed to mirror the left, the wordmark reading normally from its aft end ('one' aft, 'world' forward), as on Alaska's oneworld jets.",
+      "confidence": "low",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Heavy",
+          "Futura Heavy"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.65
+      },
+      "side": "right"
+    },
+    {
+      "text": "world",
+      "place": "fuselage",
+      "at": [
+        0.133,
+        -0.046
+      ],
+      "height": 1.0,
+      "color": "oneworld",
+      "length": 0.106,
+      "style": "The oneworld wordmark: 'world' thin, straight after 'one', past the second door. Right side not shown in any image: assumed to mirror the left, the wordmark reading normally from its aft end ('one' aft, 'world' forward), as on Alaska's oneworld jets.",
+      "confidence": "low",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Ultra Light",
+          "Futura Light"
+        ],
+        "weight": 300,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.65
+      },
+      "side": "right"
+    },
+    {
+      "text": "Aloha a puni ka hōnua",
+      "place": "fuselage",
+      "at": [
+        0.1275,
+        -0.46
+      ],
+      "height": 0.37,
+      "color": "slate",
+      "length": 0.189,
+      "style": "'Aloha all around the world' in ʻŌlelo Hawaiʻi: an upright serif in gray, mixed case, under the windows beneath 'oneworld' (the kahakō on the o of hōnua).",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Times New Roman",
+          "Georgia"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "contrast",
+        "case": "mixed",
+        "xHeight": 0.58
+      }
+    }
+  ],
+  "notes": "Measured on the airline's press renderings of N375HA's left side (fitted to the A330-200 shape; the fit is about 1 m off at the nose and tail, near the titles about 0.2 m), checked against the Commons photo of 2026-09-13. The titles' heights and baselines are taken from their places against the windows (the windows run through the middle of 'one'), where the fit was least sure. No image shows the right side: drawn the same as the left (the oneworld wordmark reading normally), unconfirmed. The aft purple, the magenta flowers and the lei are the standard scheme's, measured here on the A330 rather than the A321neo; the fin and Pualani are the standard's. The 'Hawaiian' title is gone on the left; whether a smaller one appears elsewhere isn't shown. How long the jet keeps the paint isn't announced.",
+  "history": "Hawaiian joined oneworld on 2026-04-22, the day its flights moved to Alaska's AS code; this jet was unveiled on 2026-06-30 at Honolulu. Alaska has its own oneworld 737s (ASA/oneworld)."
+}

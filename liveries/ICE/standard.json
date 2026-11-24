@@ -1,0 +1,250 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "ICE",
+  "name": "2023 livery",
+  "kind": "standard",
+  "from": "2023",
+  "confidence": "medium",
+  "drawnOn": "B39M",
+  "description": "White, with ICELANDAIR in wide-spaced dark blue capitals across the cabin. The dark blue fin carries the white Icelandair symbol (three stacked swept bars) and a bright aurora-colored band along its leading edge and tip that sweeps on down the rear fuselage to the belly; behind it the rear fuselage is dark blue. Dark blue engines.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Icelandair",
+      "accessed": "2026-11-13"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Icelandair_Boeing_737-8_MAX_TF-ICS_ZRH_2025_01.jpg",
+      "accessed": "2026-11-13",
+      "title": "Icelandair Boeing 737-8 MAX TF-ICS ZRH 2025 01 (CC0)",
+      "note": "Left side from below, 2025-04-19: title, teal band, blue rear, blue engines."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Boeing_737-9_MAX_(cn_44568,_TF-ICB)_2023-09-25_Andre_Gerwing_Collection_ID_004056.jpg",
+      "accessed": "2026-11-13",
+      "title": "Boeing 737-9 MAX (cn 44568, TF-ICB) 2023-09-25 (CC BY-SA 4.0)",
+      "note": "Right side, side-on, 2023-09-25: the band and wrap geometry, fin symbol, title span (green band)."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "blue": {
+      "hex": "#1C2C7A",
+      "name": "Icelandair blue",
+      "official": false
+    },
+    "aurora": {
+      "hex": "#2BB3AE",
+      "name": "accent band (teal on TF-ICS; others green, e.g. TF-ICB)",
+      "official": false
+    },
+    "lip": {
+      "hex": "#BFC3C8",
+      "name": "bare metal inlet lip",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "aurora band from the fin down to the belly",
+        "color": "aurora",
+        "points": [
+          [
+            0.716,
+            -1
+          ],
+          [
+            0.783,
+            1
+          ],
+          [
+            0.797,
+            1
+          ],
+          [
+            0.73,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "dark blue rear fuselage",
+        "color": "blue",
+        "points": [
+          [
+            0.73,
+            -1
+          ],
+          [
+            0.797,
+            1
+          ],
+          [
+            0.95,
+            1
+          ],
+          [
+            0.95,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      }
+    ],
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "blue",
+    "areas": [
+      {
+        "name": "aurora band along the leading edge and over the tip",
+        "color": "aurora",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0.17,
+            0
+          ],
+          [
+            0.2,
+            0.9
+          ],
+          [
+            1,
+            0.9
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "winglets": {
+    "outer": "blue",
+    "inner": "blue",
+    "confidence": "low",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "blue",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "ICE/symbol",
+      "place": "fin",
+      "at": [
+        0.52,
+        0.25
+      ],
+      "height": 0.27,
+      "colors": [
+        "white"
+      ],
+      "description": "The Icelandair symbol in white: three stacked, slightly curved horizontal bars, each with a slanted cut at one end, the bottom one hooking down at its far end, like a stylised wing or flag.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Boeing_737-9_MAX_(cn_44568,_TF-ICB)_2023-09-25_Andre_Gerwing_Collection_ID_004056.jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "ICE/flag",
+      "place": "fuselage",
+      "at": [
+        0.73,
+        0.32
+      ],
+      "height": 0.06,
+      "colors": [
+        "#02529C",
+        "white",
+        "#DC1E35"
+      ],
+      "description": "A small Icelandic flag ahead of the registration, above the rear windows.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Flag_of_Iceland.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "ICELANDAIR",
+      "place": "fuselage",
+      "at": [
+        0.175,
+        -0.15
+      ],
+      "height": 0.51,
+      "color": "blue",
+      "style": "Wide-spaced bold geometric capitals, upright, across the windows ahead of the wing.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Futura Bold",
+          "Avenir Next Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "length": 0.473
+    }
+  ],
+  "notes": "The accent band is a different aurora color on different aircraft (teal, green and others seen); drawn here in teal. Geometry measured side-on (the band's fuselage line shifted aft-to-fore slightly so it meets the fin root at x ≈ 0.8, as the coordinates expect) on the right side of a 737-9 and checked against the left side of a 737-8. The tail cone's last few percent look white/gray. The new A321LRs and A321XLRs wear the same scheme. Older 757s and 767s still in the 2006 scheme (white, blue belly, 'ICELANDAIR' in gold, blue tail with the gold wing) are being retired; not drawn. Re-checked 2026-11-15 on TF-ICB (737-9, right side, side-on): the title runs x 0.175-0.648, its capitals from y -0.15 to about 0.36 (it had been drawn half again as tall); the straight band's edges reduced to their ends. Measured on the 737-9: on the shorter 737-8 the same lettering is a larger share.",
+  "history": "Replaced Skyarium v1's approximation (2026-11). The 2023 scheme replaced the 2006 white/blue/gold livery."
+}

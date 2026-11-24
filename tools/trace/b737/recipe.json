@@ -1,0 +1,135 @@
+{
+  "_about": "737-700 with winglets, from Boeing D6-58325-7 Rev C (October 2025) 2.2.4 (page index 32): side, plan and front views on one sheet. Pixels of layers.py rasters at scale 14, line centres (side_all.png: fills and the blue strokes of doors and cockpit panes together).",
+  "out": "../../../../shapes/B737.json",
+  "length": 32.18,
+  "wingtip": "blended",
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "refs": {
+    "side": {
+      "nose": 88,
+      "tail": 4125,
+      "cowlEnd": 1782
+    },
+    "plan": {
+      "nose": 88,
+      "centerline": 2349
+    },
+    "front": {
+      "centerline": 2333,
+      "crownTop": 1030
+    }
+  },
+  "windows": {
+    "from": 6.199,
+    "to": 24.995,
+    "pitch": 0.508,
+    "width": 0.25,
+    "z": [0.362, 0.693],
+    "note": "Boeing's drawing has no cabin windows: placed at the 737's 20 in (0.508 m) frame pitch, on the overwing exit's window, from the first door to the aft door; their height is the 737-800's (the same fuselage section)."
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [671, 1166, 774, 1395]
+    },
+    {
+      "kind": "exit",
+      "box": [1922, 1221, 1976, 1333]
+    },
+    {
+      "kind": "door",
+      "box": [3306, 1166, 3410, 1395]
+    },
+    {
+      "kind": "cargo",
+      "box": [1089, 1448, 1237, 1557]
+    },
+    {
+      "kind": "cargo",
+      "box": [2817, 1428, 2965, 1543]
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [257, 1271],
+      [268, 1260],
+      [272, 1257],
+      [307, 1231],
+      [322, 1221],
+      [328, 1224],
+      [331, 1227],
+      [329, 1231],
+      [325, 1238],
+      [310, 1264],
+      [304, 1274],
+      [300, 1278],
+      [292, 1278],
+      [273, 1276],
+      [264, 1275],
+      [260, 1274]
+    ],
+    [
+      [330, 1230],
+      [333, 1227],
+      [337, 1227],
+      [370, 1233],
+      [373, 1234],
+      [376, 1237],
+      [376, 1239],
+      [375, 1243],
+      [369, 1265],
+      [361, 1294],
+      [358, 1297],
+      [348, 1294],
+      [319, 1284],
+      [308, 1280],
+      [305, 1277],
+      [309, 1268],
+      [320, 1248]
+    ],
+    [
+      [432, 1229],
+      [455, 1252],
+      [451, 1256],
+      [449, 1257],
+      [432, 1265],
+      [385, 1287],
+      [370, 1294],
+      [367, 1295],
+      [363, 1292],
+      [363, 1290],
+      [365, 1282],
+      [375, 1246],
+      [377, 1239],
+      [381, 1235],
+      [395, 1233],
+      [425, 1229]
+    ]
+  ],
+  "printed": {
+    "fuselage width": 3.76,
+    "wingspan": 35.79,
+    "tailplane span": 14.35,
+    "engine out from the centerline": 4.83,
+    "overall length": 33.63
+  },
+  "meta": {
+    "id": "B737",
+    "name": "Boeing 737-700 (with winglets)",
+    "types": ["B737"],
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/boeingdotcom/commercial/airports/acaps/737NG_REV_C.pdf",
+        "title": "Boeing, 737-600/-700/-800/-900 Airplane Characteristics for Airport Planning (D6-58325-7 Rev C, October 2025), 2.2.4 General Dimensions: Model 737-700W, BBJ1",
+        "accessed": "2026-11-15",
+        "note": "Dimensions and outlines read off the side, plan and front views (tools/trace/b737/); the figures are the aircraft's measurements, not a copy of the drawing. The drawing has no cabin windows: they're placed at the 737's frame pitch on the overwing exit, at the 737-800's height. The eyebrow windows are left out, as on the 737-800."
+      }
+    ]
+  }
+}

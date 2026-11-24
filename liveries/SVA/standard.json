@@ -1,0 +1,528 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "SVA",
+  "name": "2023 livery",
+  "kind": "standard",
+  "from": "2023",
+  "confidence": "medium",
+  "drawnOn": "B78X",
+  "commonest": true,
+  "description": "White, with a three-color cheatline under the windows from nose to tail (light green, dark green, a thin white gap, navy, light blue); a dark-green fin with the white emblem (a palm tree over a winged triangle with crossed swords) and a white leading edge; dark-green engines with the emblem; 'Saudia' in black wide rounded lettering over the forward windows with 'السعودية' in black just behind it.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:HZ-AR29_Boeing_787-10_Saudia_Arabian_Airlines_LHR_3.1.25.jpg",
+      "title": "HZ-AR29 Boeing 787-10 Saudia Arabian Airlines LHR 3.1.25.jpg (CC BY-SA 2.0)",
+      "accessed": "2026-11-13",
+      "note": "787-10 HZ-AR29, left side, 2025-01-03: cheatline sampled, titles, fin, engine."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:HZ-AR33_(53423078460).jpg",
+      "title": "HZ-AR33 (53423078460).jpg (CC BY-SA 2.0)",
+      "accessed": "2026-11-13",
+      "note": "787-10 HZ-AR33, left side, 2023-12-26: same layout (with a 'The Red Sea' sponsor title, not part of the scheme)."
+    },
+    {
+      "url": "https://www.businesstraveller.com/business-travel/2023/10/02/saudia-unveils-rebrand/",
+      "title": "Business Traveller: Saudia unveils rebrand (2023-10-02)",
+      "accessed": "2026-11-13",
+      "note": "The 2023 rebrand by Landor & Fitch: a 1970s-inspired green scheme; five aircraft painted at launch."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F4F5F4",
+      "official": false
+    },
+    "green": {
+      "hex": "#0A5A3C",
+      "official": false,
+      "name": "Saudia green (fin, engines)"
+    },
+    "lightGreen": {
+      "hex": "#7DC242",
+      "official": false,
+      "name": "cheatline light green"
+    },
+    "navy": {
+      "hex": "#0A2A66",
+      "official": false,
+      "name": "cheatline navy"
+    },
+    "blue": {
+      "hex": "#17ADEE",
+      "official": false,
+      "name": "cheatline light blue"
+    },
+    "black": {
+      "hex": "#151515",
+      "official": false,
+      "name": "titles"
+    },
+    "flagGreen": {
+      "hex": "#006C35",
+      "official": true,
+      "name": "Saudi flag green"
+    },
+    "wingGray": {
+      "hex": "#B9BEC5",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "light-green stripe, the top of the three-color cheatline under the windows, nose to tail cone",
+        "color": "lightGreen",
+        "points": [
+          [
+            0.012,
+            0.06
+          ],
+          [
+            0.04,
+            0.132
+          ],
+          [
+            0.224,
+            0.18
+          ],
+          [
+            0.5,
+            0.18
+          ],
+          [
+            0.717,
+            0.18
+          ],
+          [
+            0.9,
+            0.21
+          ],
+          [
+            0.965,
+            0.21
+          ],
+          [
+            0.965,
+            0.14
+          ],
+          [
+            0.9,
+            0.14
+          ],
+          [
+            0.717,
+            0.11
+          ],
+          [
+            0.5,
+            0.11
+          ],
+          [
+            0.224,
+            0.11
+          ],
+          [
+            0.04,
+            0.062
+          ],
+          [
+            0.012,
+            -0.01
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "dark-green stripe",
+        "color": "green",
+        "points": [
+          [
+            0.012,
+            -0.01
+          ],
+          [
+            0.04,
+            0.062
+          ],
+          [
+            0.224,
+            0.11
+          ],
+          [
+            0.5,
+            0.11
+          ],
+          [
+            0.717,
+            0.11
+          ],
+          [
+            0.9,
+            0.14
+          ],
+          [
+            0.965,
+            0.14
+          ],
+          [
+            0.965,
+            0.085
+          ],
+          [
+            0.9,
+            0.085
+          ],
+          [
+            0.717,
+            0.055
+          ],
+          [
+            0.5,
+            0.055
+          ],
+          [
+            0.224,
+            0.055
+          ],
+          [
+            0.04,
+            0.007
+          ],
+          [
+            0.012,
+            -0.065
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "navy stripe (a thin white line above it)",
+        "color": "navy",
+        "points": [
+          [
+            0.012,
+            -0.095
+          ],
+          [
+            0.04,
+            -0.023
+          ],
+          [
+            0.224,
+            0.025
+          ],
+          [
+            0.5,
+            0.025
+          ],
+          [
+            0.717,
+            0.025
+          ],
+          [
+            0.9,
+            0.055
+          ],
+          [
+            0.965,
+            0.055
+          ],
+          [
+            0.965,
+            -0.01
+          ],
+          [
+            0.9,
+            -0.01
+          ],
+          [
+            0.717,
+            -0.04
+          ],
+          [
+            0.5,
+            -0.04
+          ],
+          [
+            0.224,
+            -0.04
+          ],
+          [
+            0.04,
+            -0.088
+          ],
+          [
+            0.012,
+            -0.16
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "light-blue stripe, the bottom of the cheatline",
+        "color": "blue",
+        "points": [
+          [
+            0.012,
+            -0.16
+          ],
+          [
+            0.04,
+            -0.088
+          ],
+          [
+            0.224,
+            -0.04
+          ],
+          [
+            0.5,
+            -0.04
+          ],
+          [
+            0.717,
+            -0.04
+          ],
+          [
+            0.9,
+            -0.01
+          ],
+          [
+            0.965,
+            -0.01
+          ],
+          [
+            0.965,
+            -0.075
+          ],
+          [
+            0.9,
+            -0.075
+          ],
+          [
+            0.717,
+            -0.105
+          ],
+          [
+            0.5,
+            -0.105
+          ],
+          [
+            0.224,
+            -0.105
+          ],
+          [
+            0.04,
+            -0.153
+          ],
+          [
+            0.012,
+            -0.225
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "fin": {
+    "base": "green",
+    "areas": [
+      {
+        "name": "white leading edge strip, widening at the root into the fillet",
+        "color": "white",
+        "points": [
+          [
+            0,
+            -0.05
+          ],
+          [
+            0.12,
+            -0.05
+          ],
+          [
+            0.07,
+            0.5
+          ],
+          [
+            0.06,
+            0.97
+          ],
+          [
+            0,
+            1.02
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "engines": {
+    "cowling": "green",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "SVA/emblem-2023",
+      "place": "fin",
+      "at": [
+        0.63,
+        0.45
+      ],
+      "height": 0.33,
+      "colors": [
+        "white"
+      ],
+      "description": "The 2023 Saudia emblem in white: the palm tree of the Saudi coat of arms on top of a downward-pointing triangle with spread wing-like upper corners, crossed swords across the triangle.",
+      "reference": "https://commons.wikimedia.org/wiki/File:HZ-AR29_Boeing_787-10_Saudia_Arabian_Airlines_LHR_3.1.25.jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ]
+    },
+    {
+      "mark": "SVA/emblem-2023",
+      "place": "engines",
+      "at": [
+        0.5,
+        0.1
+      ],
+      "height": 0.45,
+      "colors": [
+        "white"
+      ],
+      "description": "The emblem in white on the side of each green cowling.",
+      "reference": "https://commons.wikimedia.org/wiki/File:HZ-AR29_Boeing_787-10_Saudia_Arabian_Airlines_LHR_3.1.25.jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "SVA/flag-saudi",
+      "place": "fuselage",
+      "at": [
+        0.139,
+        0.55
+      ],
+      "height": 0.15,
+      "colors": [
+        "flagGreen",
+        "white"
+      ],
+      "description": "A small Saudi flag (green, white shahada and sword) above the windows behind the first door.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Flag_of_Saudi_Arabia.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Saudia",
+      "place": "fuselage",
+      "at": [
+        0.18,
+        0.41
+      ],
+      "height": 0.29,
+      "color": "black",
+      "style": "'Saudia' in black, a wide, heavy, rounded geometric lettering (the 1970s-revival wordmark), above the forward windows.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Microgramma Bold Extended",
+          "Eurostile Extended Black"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.85
+      },
+      "length": 0.101
+    },
+    {
+      "text": "السعودية",
+      "place": "fuselage",
+      "at": [
+        0.351,
+        0.39
+      ],
+      "height": 0.27,
+      "color": "black",
+      "style": "'Al-Saudia' in black Arabic, matching weight, above the windows just behind 'Saudia'.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Noto Kufi Arabic Black",
+          "Geeza Pro Bold"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "mixed"
+      },
+      "length": 0.086
+    }
+  ],
+  "notes": "Measured on the 787-10 HZ-AR29 (left, 2025-01-03). The cheatline's colors were sampled in sun; the bands keep their heights from nose to tail and dip into the nose. The white leading-edge strip runs the whole fin. Part of the fleet still wore the 2012 scheme (ivory, navy fin with the gold palm and swords) in 2025 (e.g. the NEOM-titled 787-10, Commons 2025-07-19); the freighters still wear it (SVA/cargo). Which is commonest in late 2026 isn't counted: 'commonest' set here as the scheme being rolled out fleet-wide, a doubt. Re-checked 2026-11-15 on HZ-AR29 (787-10, left, 2025-01-03): saudia runs x 0.181-0.282 (length 0.101, from 0.085), the Arabic 0.35-0.436 (0.086); the wordmark's lowercase is 0.85 of its tallest letter (the d). Kept on the 787-10 (drawnOn B78X); Saudia's commonest type is the A320neo family, where the titles and the cheatline's nose dip will sit differently as shares: a re-measure on an A320neo photo is left to do. The cheatline bands are level straight runs with a dip at the nose.",
+  "history": "New file (Saudia had no scheme here). Unveiled 2023-09-30, a revival of the 1970s 'Saudia' colors, replacing the 2012 ivory-and-navy scheme with the gold emblem."
+}

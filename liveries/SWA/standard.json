@@ -1,0 +1,996 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "SWA",
+  "name": "Heart (2014)",
+  "kind": "standard",
+  "from": "2014-09",
+  "confidence": "high",
+  "drawnOn": "B738",
+  "description": "Bold Blue all over the forward and middle fuselage; behind the wing a sweep of yellow, red and blue bands with white pinstripes rises from the belly to the fin, which carries the same bands (yellow along the leading edge, red, a blue lower aft corner). 'Southwest' huge in white across the forward windows, the small Heart by the forward door; blue engines with 'Southwest.com'.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Southwest_Airlines",
+      "title": "Wikipedia: Southwest Airlines (livery history)",
+      "accessed": "2026-11-13",
+      "note": "Introduction; the Bold Blue name."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Southwest_Boeing_737-8_MAX_N1808U_BWI_MD1.jpg",
+      "title": "Southwest Boeing 737-8 MAX N1808U BWI MD1.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "N1808U left side, 2025-12-04: geometry of the aft sweep, titles, Heart, engines, winglet."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Southwest_Boeing_737-8_MAX_N9007K_BWI_MD1.jpg",
+      "title": "Southwest Boeing 737-8 MAX N9007K BWI MD1.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "N9007K from below and ahead, 2026-08-06: the sweep running under the aft belly; the lower fuselage blue."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Southwest_Boeing_737-800_N8524Z_BWI_MD3.jpg",
+      "title": "Southwest Boeing 737-800 N8524Z BWI MD3.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-15",
+      "note": "737-800 N8524Z left side, 2026-08-13, level and side-on: the sweep's edges and the fin's bands measured on the measured 737-800 shape (tools/photo_trace.py, doors pinned), title length. Its #1 engine shows no 'Southwest.com' (likely a swapped cowl)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Southwest_Boeing_737-800_N8315C_BWI_MD1.jpg",
+      "title": "Southwest Boeing 737-800 N8315C BWI MD1.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-15",
+      "note": "737-800 N8315C left side from below, 2024-08-22: second check of the sweep, title and engine title."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Southwest_Boeing_737-800_N8524Z_BWI_MD1.jpg",
+      "title": "Southwest Boeing 737-800 N8524Z BWI MD1.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-15",
+      "note": "N8524Z from below and ahead, 2025-04-15: 'Southwest.com' on both engines."
+    }
+  ],
+  "palette": {
+    "blue": {
+      "hex": "#304CB2",
+      "official": true,
+      "name": "Bold Blue"
+    },
+    "red": {
+      "hex": "#D5152B",
+      "official": false,
+      "name": "Warm Red"
+    },
+    "yellow": {
+      "hex": "#F9B612",
+      "official": false,
+      "name": "Sunrise Yellow"
+    },
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B4B9C0",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false,
+      "name": "bare metal inlet lip"
+    },
+    "flagNavy": {
+      "hex": "#1F2A5C",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "blue",
+    "areas": [
+      {
+        "name": "white pinstripe ahead of the yellow",
+        "color": "white",
+        "points": [
+          [
+            0.645,
+            -1
+          ],
+          [
+            0.666,
+            -0.92
+          ],
+          [
+            0.673,
+            -0.795
+          ],
+          [
+            0.679,
+            -0.684
+          ],
+          [
+            0.69,
+            -0.533
+          ],
+          [
+            0.699,
+            -0.414
+          ],
+          [
+            0.708,
+            -0.309
+          ],
+          [
+            0.716,
+            -0.213
+          ],
+          [
+            0.721,
+            -0.118
+          ],
+          [
+            0.727,
+            -0.023
+          ],
+          [
+            0.734,
+            0.071
+          ],
+          [
+            0.741,
+            0.168
+          ],
+          [
+            0.747,
+            0.272
+          ],
+          [
+            0.754,
+            0.385
+          ],
+          [
+            0.761,
+            0.517
+          ],
+          [
+            0.768,
+            0.697
+          ],
+          [
+            0.773,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "smooth": true
+      },
+      {
+        "name": "yellow band, from the belly behind the wing up to the fin's leading edge",
+        "color": "yellow",
+        "points": [
+          [
+            0.652,
+            -1
+          ],
+          [
+            0.672,
+            -0.92
+          ],
+          [
+            0.678,
+            -0.799
+          ],
+          [
+            0.685,
+            -0.689
+          ],
+          [
+            0.696,
+            -0.541
+          ],
+          [
+            0.705,
+            -0.42
+          ],
+          [
+            0.713,
+            -0.315
+          ],
+          [
+            0.721,
+            -0.219
+          ],
+          [
+            0.728,
+            -0.123
+          ],
+          [
+            0.735,
+            -0.029
+          ],
+          [
+            0.741,
+            0.064
+          ],
+          [
+            0.748,
+            0.163
+          ],
+          [
+            0.754,
+            0.266
+          ],
+          [
+            0.761,
+            0.38
+          ],
+          [
+            0.769,
+            0.512
+          ],
+          [
+            0.777,
+            0.691
+          ],
+          [
+            0.781,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "smooth": true
+      },
+      {
+        "name": "white pinstripe ahead of the red",
+        "color": "white",
+        "points": [
+          [
+            0.716,
+            -1
+          ],
+          [
+            0.724,
+            -0.804
+          ],
+          [
+            0.737,
+            -0.622
+          ],
+          [
+            0.749,
+            -0.493
+          ],
+          [
+            0.76,
+            -0.387
+          ],
+          [
+            0.771,
+            -0.288
+          ],
+          [
+            0.781,
+            -0.189
+          ],
+          [
+            0.79,
+            -0.095
+          ],
+          [
+            0.799,
+            0.001
+          ],
+          [
+            0.807,
+            0.103
+          ],
+          [
+            0.816,
+            0.21
+          ],
+          [
+            0.823,
+            0.328
+          ],
+          [
+            0.831,
+            0.468
+          ],
+          [
+            0.838,
+            0.656
+          ],
+          [
+            0.842,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "smooth": true
+      },
+      {
+        "name": "red band",
+        "color": "red",
+        "points": [
+          [
+            0.722,
+            -1
+          ],
+          [
+            0.73,
+            -0.824
+          ],
+          [
+            0.745,
+            -0.645
+          ],
+          [
+            0.757,
+            -0.514
+          ],
+          [
+            0.769,
+            -0.406
+          ],
+          [
+            0.779,
+            -0.301
+          ],
+          [
+            0.79,
+            -0.205
+          ],
+          [
+            0.799,
+            -0.109
+          ],
+          [
+            0.808,
+            -0.011
+          ],
+          [
+            0.817,
+            0.09
+          ],
+          [
+            0.825,
+            0.199
+          ],
+          [
+            0.832,
+            0.319
+          ],
+          [
+            0.84,
+            0.461
+          ],
+          [
+            0.847,
+            0.65
+          ],
+          [
+            0.852,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "smooth": true
+      },
+      {
+        "name": "white pinstripe ahead of the aft blue",
+        "color": "white",
+        "points": [
+          [
+            0.835,
+            -1
+          ],
+          [
+            0.843,
+            -0.83
+          ],
+          [
+            0.849,
+            -0.719
+          ],
+          [
+            0.856,
+            -0.647
+          ],
+          [
+            0.867,
+            -0.513
+          ],
+          [
+            0.878,
+            -0.392
+          ],
+          [
+            0.888,
+            -0.273
+          ],
+          [
+            0.898,
+            -0.157
+          ],
+          [
+            0.906,
+            -0.034
+          ],
+          [
+            0.914,
+            0.263
+          ],
+          [
+            0.922,
+            0.337
+          ],
+          [
+            0.934,
+            0.536
+          ],
+          [
+            0.955,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "smooth": true
+      },
+      {
+        "name": "blue tail cone and lower aft fuselage",
+        "color": "blue",
+        "points": [
+          [
+            0.848,
+            -1
+          ],
+          [
+            0.85,
+            -0.983
+          ],
+          [
+            0.857,
+            -0.81
+          ],
+          [
+            0.865,
+            -0.723
+          ],
+          [
+            0.877,
+            -0.571
+          ],
+          [
+            0.888,
+            -0.438
+          ],
+          [
+            0.898,
+            -0.316
+          ],
+          [
+            0.909,
+            -0.199
+          ],
+          [
+            0.916,
+            -0.068
+          ],
+          [
+            0.923,
+            0.243
+          ],
+          [
+            0.931,
+            0.316
+          ],
+          [
+            0.95,
+            0.503
+          ],
+          [
+            0.963,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "smooth": true
+      }
+    ],
+    "radome": {
+      "color": "blue"
+    },
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "blue",
+    "areas": [
+      {
+        "name": "white pinstripe above the aft blue",
+        "color": "white",
+        "above": [
+          [
+            0,
+            0
+          ],
+          [
+            0.8,
+            0
+          ],
+          [
+            0.823,
+            0.047
+          ],
+          [
+            0.844,
+            0.091
+          ],
+          [
+            0.894,
+            0.143
+          ],
+          [
+            0.933,
+            0.193
+          ],
+          [
+            1,
+            0.27
+          ]
+        ]
+      },
+      {
+        "name": "red band",
+        "color": "red",
+        "above": [
+          [
+            0,
+            0
+          ],
+          [
+            0.74,
+            0
+          ],
+          [
+            0.762,
+            0.047
+          ],
+          [
+            0.783,
+            0.091
+          ],
+          [
+            0.821,
+            0.143
+          ],
+          [
+            0.862,
+            0.193
+          ],
+          [
+            0.966,
+            0.293
+          ],
+          [
+            1,
+            0.33
+          ]
+        ]
+      },
+      {
+        "name": "white pinstripe ahead of the red",
+        "color": "white",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0.165,
+            0
+          ],
+          [
+            0.173,
+            0.047
+          ],
+          [
+            0.184,
+            0.091
+          ],
+          [
+            0.2,
+            0.143
+          ],
+          [
+            0.229,
+            0.243
+          ],
+          [
+            0.25,
+            0.343
+          ],
+          [
+            0.282,
+            0.443
+          ],
+          [
+            0.327,
+            0.543
+          ],
+          [
+            0.386,
+            0.643
+          ],
+          [
+            0.455,
+            0.743
+          ],
+          [
+            0.559,
+            0.843
+          ],
+          [
+            0.702,
+            0.943
+          ],
+          [
+            0.8,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "name": "yellow band along the leading edge",
+        "color": "yellow",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0.1,
+            0
+          ],
+          [
+            0.113,
+            0.047
+          ],
+          [
+            0.123,
+            0.091
+          ],
+          [
+            0.136,
+            0.143
+          ],
+          [
+            0.159,
+            0.243
+          ],
+          [
+            0.168,
+            0.343
+          ],
+          [
+            0.186,
+            0.443
+          ],
+          [
+            0.214,
+            0.543
+          ],
+          [
+            0.257,
+            0.643
+          ],
+          [
+            0.298,
+            0.743
+          ],
+          [
+            0.363,
+            0.843
+          ],
+          [
+            0.452,
+            0.943
+          ],
+          [
+            0.5,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "name": "leading-edge pinstripe along the yellow",
+        "color": "white",
+        "points": [
+          [
+            0.003,
+            0.05
+          ],
+          [
+            0.025,
+            0.05
+          ],
+          [
+            0.025,
+            1.0
+          ],
+          [
+            0.003,
+            1.0
+          ]
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "yellow",
+    "inner": "yellow",
+    "areas": [
+      {
+        "name": "red aft part",
+        "color": "red",
+        "points": [
+          [
+            0.45,
+            0.25
+          ],
+          [
+            1,
+            0.1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0.7,
+            1
+          ]
+        ]
+      },
+      {
+        "name": "blue root",
+        "color": "blue",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0.1
+          ],
+          [
+            0,
+            0.25
+          ]
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "blue",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "SWA/heart",
+      "place": "fuselage",
+      "at": [
+        0.147,
+        0.375
+      ],
+      "height": 0.15,
+      "colors": [
+        "blue",
+        "red",
+        "yellow"
+      ],
+      "description": "The small Southwest Heart (a heart in yellow, red and blue bands with a white outline) between the forward door and the title.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Southwest_Airlines_logo_2014.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "mark": "SWA/us-flag",
+      "place": "fuselage",
+      "at": [
+        0.84,
+        0.82
+      ],
+      "height": 0.11,
+      "colors": [
+        "red",
+        "white",
+        "flagNavy"
+      ],
+      "description": "A small US flag on the yellow band just ahead of the fin, above the registration.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Southwest",
+      "place": "fuselage",
+      "at": [
+        0.165,
+        0.01
+      ],
+      "height": 0.6,
+      "color": "white",
+      "style": "The Southwest wordmark in white: bold, rounded humanist sans, capital S, very large across the forward windows from the door to the wing.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        3,
+        4
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Bold",
+          "Gotham Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      },
+      "length": 0.262
+    },
+    {
+      "text": "Southwest.com",
+      "place": "engines",
+      "at": [
+        0.165,
+        0.15
+      ],
+      "height": 0.3,
+      "color": "white",
+      "style": "The wordmark with '.com', on the cowling's side.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        4,
+        5
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Bold",
+          "Gotham Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      },
+      "length": 0.64
+    }
+  ],
+  "notes": "Drawn from N1808U (737-8 MAX, left, Dec 2025) and N9007K (Aug 2026). The fin is the Heart fin as measured for the state jets (Lone Star One). From below the bands are seen to cross the aft belly; their exact line under the belly is taken from the sides. The registration and fleet number aren't drawn. Re-checked 2026-11-15 on two 737-800s (N8524Z, N8315C) fitted to the measured 737-800 shape: the sweep's six edges re-measured as curves (smooth), about 0.6-1 m further forward than first drawn, meeting the belly where the side view shows them; the fin redrawn from the photos (the yellow band runs the whole leading edge, the red covers the rest, the blue is only a small lower aft triangle), its x read as shares of the photo's chord at each height because the measured shape's fin is narrower than the photos'. Titles' lengths measured; 'Southwest.com' on the engines on every photo but N8524Z's 2026 one (a swapped cowl?).",
+  "history": "Replaces Skyarium v1's approximate standard (a few colors from memory). The Heart livery replaced Canyon Blue (2001–2014); the last Canyon Blue 737-700s were repainted or retired by the early 2020s."
+}

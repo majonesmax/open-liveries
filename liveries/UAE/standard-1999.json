@@ -1,0 +1,425 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard-1999",
+  "airline": "UAE",
+  "name": "1999 livery (flag tail)",
+  "kind": "standard",
+  "from": "1999",
+  "confidence": "medium",
+  "drawnOn": "B77W",
+  "description": "White, gold 'Emirates' and 'الإمارات' over the forward windows with 'www.emirates.com' below; the UAE flag on the tail in flat bands (green, white, black sweeping down toward the nose, red ahead of them), the red running off the fin and down the rear fuselage. Red belly title panel, gold logo on the engines.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:(SGP-Singapore)_Emirates_Airbus_A380-861_A6-EEF_@_WSSS_2025-11-26.jpg",
+      "title": "(SGP-Singapore) Emirates Airbus A380-861 A6-EEF @ WSSS 2025-11-26 (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Right side, 2025-11-26: the flat flag on the fin, titles, URL."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:A6-ENP_-_Boeing_777-31H(ER)_-_Emirates_SIN_220325.jpg",
+      "title": "A6-ENP - Boeing 777-31H(ER) - Emirates SIN 220325 (CC BY 2.0)",
+      "accessed": "2026-11-13",
+      "note": "Left side from below, 2025: title order on the left, red belly title."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:(SGP-Singapore)_Emirates_Boeing_777-31HER_A6-ECR_@_WSSS_2025-11-19.jpg",
+      "title": "(SGP-Singapore) Emirates Boeing 777-31HER A6-ECR @ WSSS 2025-11-19 (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Right side, 2025-11-19 (777-300ER): the red running down the rear fuselage."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Emirates_Airbus_A380_underside.jpg",
+      "title": "Emirates Airbus A380 underside (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "2025-04-12, from below: the red belly panel with 'Emirates'."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F5",
+      "official": false
+    },
+    "red": {
+      "hex": "#D71921",
+      "name": "Emirates red",
+      "official": false
+    },
+    "green": {
+      "hex": "#00843D",
+      "name": "flag green",
+      "official": false
+    },
+    "black": {
+      "hex": "#16181B",
+      "name": "flag black",
+      "official": false
+    },
+    "gold": {
+      "hex": "#A98C4E",
+      "name": "Emirates gold",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#C3C7CC",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C6CACF",
+      "name": "bare metal inlet lip",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "red sweep, from the fin down the rear fuselage",
+        "color": "red",
+        "points": [
+          [
+            0.834,
+            1
+          ],
+          [
+            0.811,
+            0.126
+          ],
+          [
+            0.761,
+            -0.187
+          ],
+          [
+            0.721,
+            -0.54,
+            1
+          ],
+          [
+            0.797,
+            -0.187
+          ],
+          [
+            0.828,
+            0.126
+          ],
+          [
+            0.854,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          2
+        ],
+        "smooth": true
+      },
+      {
+        "name": "red belly panel between the wings",
+        "color": "red",
+        "points": [
+          [
+            0.37,
+            -1
+          ],
+          [
+            0.37,
+            -0.86
+          ],
+          [
+            0.39,
+            -0.8
+          ],
+          [
+            0.58,
+            -0.8
+          ],
+          [
+            0.6,
+            -0.86
+          ],
+          [
+            0.6,
+            -1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          3
+        ]
+      }
+    ],
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "flag green",
+        "color": "green",
+        "points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            0.78,
+            1.0
+          ],
+          [
+            0.36,
+            0.636
+          ],
+          [
+            0.376,
+            0.379
+          ],
+          [
+            1.0,
+            0.68
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          2
+        ]
+      },
+      {
+        "name": "flag black",
+        "color": "black",
+        "points": [
+          [
+            1.0,
+            0.485
+          ],
+          [
+            0.38,
+            0.167
+          ],
+          [
+            0.32,
+            -0.05
+          ],
+          [
+            0.45,
+            -0.05
+          ],
+          [
+            1.0,
+            0.242
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          2
+        ]
+      },
+      {
+        "name": "red band",
+        "color": "red",
+        "points": [
+          [
+            0.36,
+            0.636
+          ],
+          [
+            0.0,
+            0.227
+          ],
+          [
+            -0.05,
+            0.2
+          ],
+          [
+            -0.05,
+            -0.05
+          ],
+          [
+            0.32,
+            -0.05
+          ],
+          [
+            0.376,
+            0.379
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          2
+        ]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "white",
+    "inner": "white",
+    "confidence": "low"
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "UAE/calligraphy",
+      "place": "engines",
+      "at": [
+        0.55,
+        0.05
+      ],
+      "height": 0.36,
+      "colors": [
+        "gold"
+      ],
+      "description": "The Emirates calligraphy logo in gold on each cowling.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Emirates_logo.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Emirates",
+      "place": "fuselage",
+      "at": [
+        0.098,
+        -0.19
+      ],
+      "height": 0.66,
+      "length": 0.213,
+      "color": "gold",
+      "style": "The Emirates wordmark, a bold flared serif, over the forward windows.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Minion Pro Bold",
+          "Times New Roman Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "contrast",
+        "case": "mixed",
+        "xHeight": 0.66
+      }
+    },
+    {
+      "text": "الإمارات",
+      "place": "fuselage",
+      "at": [
+        0.323,
+        0.22
+      ],
+      "height": 0.27,
+      "color": "gold",
+      "style": "'Emirates' in Arabic, aft of the English title.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Noto Naskh Arabic Bold",
+          "Geeza Pro Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "contrast",
+        "case": "mixed"
+      },
+      "length": 0.075
+    },
+    {
+      "text": "www.emirates.com",
+      "place": "fuselage",
+      "at": [
+        0.148,
+        -0.325
+      ],
+      "height": 0.1,
+      "color": "gold",
+      "style": "Small serif lower case under the title.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Times New Roman"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "contrast",
+        "case": "lower"
+      },
+      "length": 0.085
+    },
+    {
+      "text": "Emirates",
+      "place": "belly",
+      "at": [
+        0.4,
+        -1
+      ],
+      "height": 0.3,
+      "length": 0.17,
+      "color": "white",
+      "style": "The wordmark in white on the red belly panel.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Minion Pro Bold",
+          "Times New Roman Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "contrast",
+        "case": "mixed"
+      }
+    }
+  ],
+  "notes": "The scheme most of the fleet still wears in 2025-2026 (777s, most A380s), being replaced by the 2023 livery (standard). The flag is flat-colored, without the 2023 ripple lines; the red runs down the rear fuselage much as on the 2023 scheme. Drawn from right-side photos plus one left-side view; belly panel from one underside photo. Re-checked 2026-11-15 on A6-ECR (777-300ER, right side, side-on, 2025-11-19; drawnOn B77W, the type most of the fleet in this scheme is), with A6-ENP's left side agreeing: 'Emirates' starts just aft of the forward door (x 0.098, it had been drawn 5.7 m further aft) and runs to 0.311, baseline about 1 m under the windows (y -0.19), capitals to y 0.47, lowercase 0.66 of the E; 'www.emirates.com' under its middle, x 0.148 to 0.234; the Arabic x 0.323 to 0.398 level with the windows' tops. The red sweep is 3 to 4 m further aft than first drawn on the 777: it leaves the crown at x 0.834 to 0.854, crosses the window line at 0.81 to 0.83 and ends in a point at x 0.721, y -0.54; smooth. On the A380 the titles sit further aft as shares.",
+  "history": "Introduced in November 1999 with the first 777-300 (Wikipedia, 'Second livery'); the red belly title added in 2005; superseded by the 2023 livery, standard, and repainted as aircraft go through retrofits.",
+  "commonest": true
+}

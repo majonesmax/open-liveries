@@ -1,0 +1,738 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "wimbledon",
+  "airline": "UAE",
+  "name": "Wimbledon (Official Partner)",
+  "kind": "special",
+  "from": "2024-06",
+  "confidence": "medium",
+  "drawnOn": "A388",
+  "description": "The 2023 scheme on the A380 with a panel the full height of the upper side from just aft of the 'Emirates' title back to the tail's red sweep, under which it runs: Wimbledon purple at its front fading into green. On it 'OFFICIAL PARTNER' in white capitals, then two white line drawings of tennis players either side of The Championships' roundel (purple ring, green centre, white crossed rackets and ball), and a scatter of small white stars low toward the sweep. The panel covers where the Arabic title would be; the rest is the 2023 scheme.",
+  "sources": [
+    {
+      "url": "https://www.emirates.com/media-centre/emirates-steps-into-court-as-official-airline-partner-of-wimbledon/",
+      "title": "Emirates steps into court as Official Airline Partner of Wimbledon (press release, 28 June 2024)",
+      "accessed": "2026-11-22",
+      "note": "A bespoke A380 livery for the partnership: the Wimbledon logo between two silhouettes of tennis players in action. Read through the Dubai Media Office's and WAM's copies, with AirlineGeeks' 'Livery of the Week' (2024-07-05)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:20250402_Airbus_A380-861_of_Emirates_(A6-EOE)_taxiing_at_SYD.jpg",
+      "title": "20250402 Airbus A380-861 of Emirates (A6-EOE) taxiing at SYD (Windmemories, CC BY-SA 4.0)",
+      "accessed": "2026-11-22",
+      "note": "Left side, level, 2025-04-02: fitted to shapes/A388.json (nose, fin tip, the first and last main-deck doors; within 7 px). The panel's front edge, the gradient, the lettering, the players and the roundel measured on it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:20250402_Airbus_A380-861_of_Emirates_(A6-EOE)_landing_at_SYD.jpg",
+      "title": "20250402 Airbus A380-861 of Emirates (A6-EOE) landing at SYD (Windmemories, CC BY-SA 4.0)",
+      "accessed": "2026-11-22",
+      "note": "Right side from a little below, 2025-04-02, flipped and fitted the same way (within 4 px): the panel's lower edge, which the wing hides on the left; the same layout, purple forward, the roundel reading normally."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F5",
+      "official": false
+    },
+    "red": {
+      "hex": "#D71921",
+      "name": "Emirates red",
+      "official": false
+    },
+    "green": {
+      "hex": "#00843D",
+      "name": "flag green",
+      "official": false
+    },
+    "black": {
+      "hex": "#16181B",
+      "name": "flag black",
+      "official": false
+    },
+    "flagWhite": {
+      "hex": "#D9DCDF",
+      "name": "the flag's white, read through its fine black ripple lines",
+      "official": false
+    },
+    "gold": {
+      "hex": "#A98C4E",
+      "name": "Emirates gold",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#C3C7CC",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C6CACF",
+      "name": "bare metal inlet lip",
+      "official": false
+    },
+    "wimbledonPurple": {
+      "hex": "#4E2A72",
+      "name": "Wimbledon purple",
+      "official": false
+    },
+    "wimbledonGreen": {
+      "hex": "#0F5B3B",
+      "name": "Wimbledon green",
+      "official": false
+    },
+    "purpleGreen": {
+      "hex": "#2E3E56",
+      "name": "the panel's purple fading into green, between them",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "Wimbledon purple, the panel's front, its forward edge square from the crown to below the main deck's windows",
+        "color": "wimbledonPurple",
+        "points": [
+          [
+            0.435,
+            1
+          ],
+          [
+            0.42,
+            -0.28
+          ],
+          [
+            0.475,
+            -0.275
+          ],
+          [
+            0.475,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "the purple fading into green (a gradient on the aircraft, drawn as one band between them)",
+        "color": "purpleGreen",
+        "points": [
+          [
+            0.475,
+            1
+          ],
+          [
+            0.475,
+            -0.275
+          ],
+          [
+            0.52,
+            -0.27
+          ],
+          [
+            0.52,
+            1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "Wimbledon green, the panel's aft part, running back under the red sweep; its lower edge dips toward the sweep's tip",
+        "color": "wimbledonGreen",
+        "smooth": true,
+        "points": [
+          [
+            0.52,
+            1,
+            1
+          ],
+          [
+            0.52,
+            -0.27,
+            1
+          ],
+          [
+            0.59,
+            -0.3
+          ],
+          [
+            0.645,
+            -0.4
+          ],
+          [
+            0.685,
+            -0.45,
+            1
+          ],
+          [
+            0.71,
+            -0.3
+          ],
+          [
+            0.735,
+            0.13
+          ],
+          [
+            0.755,
+            0.43
+          ],
+          [
+            0.77,
+            0.66
+          ],
+          [
+            0.775,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "red sweep from the fin down the rear fuselage, as on the A380s in the 2023 scheme",
+        "color": "red",
+        "smooth": true,
+        "points": [
+          [
+            0.765,
+            1
+          ],
+          [
+            0.76,
+            0.66
+          ],
+          [
+            0.745,
+            0.43
+          ],
+          [
+            0.722,
+            0.13
+          ],
+          [
+            0.7,
+            -0.28
+          ],
+          [
+            0.677,
+            -0.43,
+            1
+          ],
+          [
+            0.72,
+            -0.37
+          ],
+          [
+            0.752,
+            -0.21
+          ],
+          [
+            0.793,
+            0.09
+          ],
+          [
+            0.809,
+            0.49
+          ],
+          [
+            0.815,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "red belly panel between the wings",
+        "color": "red",
+        "points": [
+          [
+            0.37,
+            -1
+          ],
+          [
+            0.37,
+            -0.86
+          ],
+          [
+            0.39,
+            -0.8
+          ],
+          [
+            0.58,
+            -0.8
+          ],
+          [
+            0.6,
+            -0.86
+          ],
+          [
+            0.6,
+            -1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          2
+        ]
+      }
+    ],
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "flag green, along the top of the trailing half",
+        "color": "green",
+        "points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            0.9,
+            1.0
+          ],
+          [
+            0.62,
+            0.88
+          ],
+          [
+            0.53,
+            0.7
+          ],
+          [
+            0.3,
+            0.585
+          ],
+          [
+            0.44,
+            0.44
+          ],
+          [
+            0.62,
+            0.53
+          ],
+          [
+            0.81,
+            0.69
+          ],
+          [
+            1.0,
+            0.73
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ],
+        "smooth": true
+      },
+      {
+        "name": "flag white (rippled), under the green",
+        "color": "flagWhite",
+        "points": [
+          [
+            1.0,
+            0.73
+          ],
+          [
+            0.81,
+            0.69
+          ],
+          [
+            0.62,
+            0.53
+          ],
+          [
+            0.44,
+            0.44
+          ],
+          [
+            0.33,
+            0.43
+          ],
+          [
+            0.36,
+            0.1
+          ],
+          [
+            0.43,
+            0.086
+          ],
+          [
+            0.55,
+            0.2
+          ],
+          [
+            0.79,
+            0.4
+          ],
+          [
+            1.0,
+            0.44
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ],
+        "smooth": true
+      },
+      {
+        "name": "flag black (rippled)",
+        "color": "black",
+        "points": [
+          [
+            1.0,
+            0.44
+          ],
+          [
+            0.79,
+            0.4
+          ],
+          [
+            0.55,
+            0.2
+          ],
+          [
+            0.43,
+            0.086
+          ],
+          [
+            0.4,
+            -0.05
+          ],
+          [
+            0.65,
+            -0.05
+          ],
+          [
+            0.81,
+            0.155
+          ],
+          [
+            1.0,
+            0.19
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ],
+        "smooth": true
+      },
+      {
+        "name": "red band, the flag's hoist, running off the root onto the fuselage",
+        "color": "red",
+        "points": [
+          [
+            0.29,
+            0.585
+          ],
+          [
+            0.216,
+            0.44
+          ],
+          [
+            0.15,
+            0.32
+          ],
+          [
+            0.13,
+            0.155
+          ],
+          [
+            0.07,
+            -0.05
+          ],
+          [
+            0.35,
+            -0.05
+          ],
+          [
+            0.353,
+            0.155
+          ],
+          [
+            0.33,
+            0.32
+          ],
+          [
+            0.33,
+            0.44
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ],
+        "smooth": true
+      }
+    ],
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "red",
+    "inner": "green",
+    "confidence": "low",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "UAE/calligraphy",
+      "place": "engines",
+      "at": [
+        0.55,
+        0.05
+      ],
+      "height": 0.36,
+      "colors": [
+        "gold"
+      ],
+      "description": "The Emirates logo: the name in Arabic calligraphy (Diwani-style), a compact knot of strokes about as tall as wide, in gold on the outboard side of each cowling.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Emirates_logo.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "UAE/calligraphy",
+      "place": "winglets",
+      "at": [
+        0.45,
+        0.55
+      ],
+      "height": 0.25,
+      "colors": [
+        "white"
+      ],
+      "description": "The calligraphy logo, small, in white on the red winglet's outer face.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Emirates_logo.svg",
+      "confidence": "low",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "UAE/wimbledon-roundel",
+      "place": "fuselage",
+      "at": [
+        0.615,
+        0.36
+      ],
+      "height": 0.85,
+      "colors": [
+        "wimbledonPurple",
+        "wimbledonGreen",
+        "white"
+      ],
+      "description": "The Championships, Wimbledon's roundel: a purple ring lettered 'THE CHAMPIONSHIPS' over the top and 'WIMBLEDON' under, round a green disc with two white crossed rackets over a ball; large, from the crown to the main deck's windows, reading normally on both sides.",
+      "reference": "https://en.wikipedia.org/wiki/Wimbledon_Championships",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "UAE/wimbledon-player",
+      "licensed": "Wimbledon (AELTC)",
+      "place": "fuselage",
+      "at": [
+        0.556,
+        0.4
+      ],
+      "height": 0.82,
+      "colors": [
+        "white"
+      ],
+      "description": "A white line drawing of a man in tennis whites, racket raised, forward of the roundel. Wimbledon's campaign artwork as the press release presents it ('silhouettes of tennis players'): described, not drawn.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "UAE/wimbledon-player",
+      "licensed": "Wimbledon (AELTC)",
+      "place": "fuselage",
+      "at": [
+        0.669,
+        0.46
+      ],
+      "height": 0.82,
+      "colors": [
+        "white"
+      ],
+      "description": "A white line drawing of a woman in a tennis dress reaching up with her racket, aft of the roundel. Described, not drawn.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Emirates",
+      "place": "fuselage",
+      "at": [
+        0.127,
+        -0.157
+      ],
+      "height": 0.495,
+      "length": 0.265,
+      "color": "gold",
+      "style": "The Emirates wordmark, larger than on the twins, between the decks: its capitals' tops just under the upper deck's windows, the main deck's windows through the lower part of its letters.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Minion Pro Bold",
+          "Times New Roman Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "contrast",
+        "case": "mixed",
+        "xHeight": 0.8
+      }
+    },
+    {
+      "text": "OFFICIAL",
+      "place": "fuselage",
+      "at": [
+        0.452,
+        0.18
+      ],
+      "height": 0.17,
+      "length": 0.074,
+      "color": "white",
+      "style": "Bold white sans-serif capitals, two lines set to the same width, on the panel's purple just aft of its front edge.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Bold",
+          "Arial Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "PARTNER",
+      "place": "fuselage",
+      "at": [
+        0.452,
+        -0.01
+      ],
+      "height": 0.17,
+      "length": 0.074,
+      "color": "white",
+      "style": "Bold white sans-serif capitals, two lines set to the same width, on the panel's purple just aft of its front edge.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Bold",
+          "Arial Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "Emirates",
+      "place": "belly",
+      "at": [
+        0.4,
+        -1
+      ],
+      "height": 0.3,
+      "length": 0.17,
+      "color": "white",
+      "style": "The wordmark in white on the red belly panel, reading along the fuselage.",
+      "confidence": "low",
+      "sourceRefs": [
+        2
+      ],
+      "type": {
+        "similar": [
+          "Minion Pro Bold",
+          "Times New Roman Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "contrast",
+        "case": "mixed"
+      }
+    }
+  ],
+  "notes": "Measured on A6-EOE's two photos of 2025-04-02 at Sydney (left level, right from a little below). The gradient from purple to green is drawn as three bands; the fine diagonal lines in the panel, the white stars and the small Wimbledon logo by the forward door aren't drawn. The panel's lower edge is seen only on the right (the wing hides it on the left): just under the main deck's windows at the front, dipping toward the red sweep's tip. On the right the roundel and players measure lower between the decks than on the left (the right photo is from below and its heights are the less sure); the left's are used for both, lowered by 0.1 in y where the fitted window rows showed the fit reading high there (the lettering sits just under the upper deck's windows and on the main deck's). The roundel is a sponsor's mark (proposed as our own simplified mark, UAE/wimbledon-roundel); the two players are drawn figures, described with `licensed` and not proposed as marks (whose artwork they are isn't stated: credited here to Wimbledon, whose campaign they illustrate). Status: the newest open photo is 2025-04-02; a webcam sighting on 2026-11-03 (lead only) has it still in this scheme. Emirates' Grand Slam A380 (A6-EUH, January 2026) is a separate jet. Dated 2024-06 from the press release; A6-EOE is the jet in the photos and AirlineGeeks' story.",
+  "history": "Unveiled for The Championships 2024 (June 2024), Emirates' first year as Wimbledon's official airline partner; the jet is in the 2023 scheme under the panel."
+}

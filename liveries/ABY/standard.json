@@ -1,0 +1,384 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "ABY",
+  "name": "2020 livery",
+  "kind": "standard",
+  "from": "2020",
+  "confidence": "high",
+  "drawnOn": "A321",
+  "description": "White body; red 'AirArabia' in a round lowercase-led wordmark ahead of the wing with the Arabic name after it. The fin is white at its leading edge with a broad red swoosh that drops from the tip to a point near the root, forming the bird with the white, and a gray dotted panel along the trailing edge; the red sweeps down across the aft fuselage to the belly and the tail cone behind it is gray-dotted. White engines with the red bird; red sharklets.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:A6-ATJ_-_Air_Arabia_-_Airbus_A321_-_MSN_7879_-_VGHS.jpg",
+      "title": "A6-ATJ - Air Arabia - Airbus A321 - MSN 7879 - VGHS (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "From the left, side-on on the runway, 2025-08-27: all geometry, titles, fin, engine and sharklet."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:A6-ATF_-_Air_Arabia_-_Airbus_A321-251NX_-_MSN_10181_-_VGHS.jpg",
+      "title": "A6-ATF - Air Arabia - Airbus A321-251NX - MSN 10181 - VGHS (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "A321neo, 2021-12-30: the same scheme on the neo."
+    },
+    {
+      "url": "https://www.airarabia.com/en/press-releases",
+      "title": "Air Arabia press releases",
+      "accessed": "2026-11-13",
+      "note": "New brand identity and livery introduced 2020."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F5",
+      "official": false
+    },
+    "red": {
+      "hex": "#E2203C",
+      "name": "Air Arabia red",
+      "official": false
+    },
+    "dots": {
+      "hex": "#D3D6DA",
+      "name": "gray dot pattern, seen from afar",
+      "official": false
+    },
+    "cowl": {
+      "hex": "#E6E8EA",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B7BCC3",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "name": "bare metal inlet lip",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "gray dotted tail cone",
+        "color": "dots",
+        "points": [
+          [
+            0.952,
+            1
+          ],
+          [
+            0.876,
+            0.47
+          ],
+          [
+            0.832,
+            0.08
+          ],
+          [
+            0.813,
+            -0.35
+          ],
+          [
+            0.8,
+            -0.77
+          ],
+          [
+            0.795,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0
+        ],
+        "smooth": true
+      },
+      {
+        "name": "red sweep from the fin down to the belly",
+        "color": "red",
+        "points": [
+          [
+            0.85,
+            1
+          ],
+          [
+            0.844,
+            0.79
+          ],
+          [
+            0.819,
+            0.28
+          ],
+          [
+            0.8,
+            -0.14
+          ],
+          [
+            0.781,
+            -0.6
+          ],
+          [
+            0.772,
+            -1
+          ],
+          [
+            0.795,
+            -1
+          ],
+          [
+            0.8,
+            -0.77
+          ],
+          [
+            0.813,
+            -0.35
+          ],
+          [
+            0.832,
+            0.08
+          ],
+          [
+            0.876,
+            0.47
+          ],
+          [
+            0.952,
+            1
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0
+        ],
+        "smooth": true
+      }
+    ],
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "mirrored": true,
+    "areas": [
+      {
+        "name": "red swoosh (the bird's wing)",
+        "color": "red",
+        "points": [
+          [
+            0.51,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0.752,
+            0.0
+          ],
+          [
+            0.542,
+            0.07
+          ],
+          [
+            0.33,
+            0.105
+          ],
+          [
+            0.167,
+            0.155
+          ],
+          [
+            0.258,
+            0.32
+          ],
+          [
+            0.301,
+            0.53
+          ],
+          [
+            0.336,
+            0.765
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "gray dotted trailing-edge panel",
+        "color": "dots",
+        "points": [
+          [
+            1,
+            0.94
+          ],
+          [
+            0.893,
+            0.765
+          ],
+          [
+            0.743,
+            0.52
+          ],
+          [
+            0.688,
+            0.33
+          ],
+          [
+            0.716,
+            0.16
+          ],
+          [
+            0.82,
+            0.0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "smooth": true
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "red",
+    "inner": "red",
+    "confidence": "high",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "engines": {
+    "cowling": "cowl",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "logos": [
+    {
+      "mark": "ABY/bird",
+      "place": "engines",
+      "at": [
+        0.55,
+        0.0
+      ],
+      "height": 0.5,
+      "colors": [
+        "red"
+      ],
+      "description": "The Air Arabia bird: a stylised red seabird in flight, wings raised in a shallow V, flying up and forward, on the outboard cowling.",
+      "reference": "https://commons.wikimedia.org/wiki/File:A6-ATJ_-_Air_Arabia_-_Airbus_A321_-_MSN_7879_-_VGHS.jpg",
+      "confidence": "high",
+      "sourceRefs": [
+        0
+      ]
+    },
+    {
+      "mark": "ABY/bird",
+      "place": "winglets",
+      "at": [
+        0.5,
+        0.5
+      ],
+      "height": 0.3,
+      "colors": [
+        "white"
+      ],
+      "description": "The bird small in white on the red sharklet.",
+      "reference": "https://commons.wikimedia.org/wiki/File:A6-ATJ_-_Air_Arabia_-_Airbus_A321_-_MSN_7879_-_VGHS.jpg",
+      "confidence": "high",
+      "sourceRefs": [
+        0
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "AirArabia",
+      "place": "fuselage",
+      "at": [
+        0.154,
+        0.09
+      ],
+      "height": 0.5,
+      "length": 0.188,
+      "color": "red",
+      "style": "The 2020 wordmark: one word, capital A twice, a round geometric sans of medium-bold weight, open and wide, across the window line between the first two doors.",
+      "confidence": "high",
+      "sourceRefs": [
+        0
+      ],
+      "type": {
+        "similar": [
+          "Gotham Rounded Medium",
+          "Nunito Bold"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.74
+      }
+    },
+    {
+      "text": "العربية للطيران",
+      "place": "fuselage",
+      "at": [
+        0.346,
+        0.35
+      ],
+      "height": 0.17,
+      "color": "red",
+      "side": "left",
+      "style": "Air Arabia in Arabic, a bold modern naskh-like sans, just aft of the English title above the windows.",
+      "confidence": "high",
+      "sourceRefs": [
+        0
+      ],
+      "type": {
+        "similar": [
+          "Noto Kufi Arabic Bold",
+          "Geeza Pro Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      },
+      "length": 0.063
+    }
+  ],
+  "notes": "Drawn from a 2025 side-on photo of the left side (A321ceo). Right side not checked: the Arabic title may sit on the other side of the English there. The gray dots are a fine halftone of light gray dots on white, given as one flat light gray. Belly not seen: the red sweep and gray cone are taken to wrap underneath. Air Arabia Abu Dhabi, Egypt and Maroc fly the same scheme with their own small titles. Re-checked 2026-11-15 on A6-ATJ: 'AirArabia' runs x 0.154 to 0.341 as drawn (lowercase 0.74 of the A); the Arabic name x 0.346 to 0.409. The red sweep, the dotted cone and the fin's swoosh and panel are curves: smooth. Measured on the A321; Air Arabia's commonest type is the A320, where the titles sit the same distance behind the forward door.",
+  "history": "Replaced Skyarium v1's approximation. Introduced 2020, replacing the earlier white scheme with the red/green/gray stripes and the bird on the fin."
+}

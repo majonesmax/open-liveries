@@ -1,0 +1,339 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "CKS",
+  "name": "Kalitta Air (red and gold tail)",
+  "kind": "standard",
+  "confidence": "medium",
+  "drawnOn": "B77L",
+  "description": "All-white fuselage; three diagonal bands, red, gold and red, sweep down the fin from its top behind the leading edge and on down across the aft fuselage to the belly; 'KALITTA AIR' in wide black capitals over the forward fuselage between two black speed-bar emblems; white engines.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Kalitta_Air",
+      "title": "Wikipedia: Kalitta Air",
+      "accessed": "2026-11-13",
+      "note": "Fleet: 747-400F, 777F, 777-300ERSF, 767-300ERF; some 777Fs and 767s flown in DHL colors."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N795CK_(9_Aug_2025).jpg",
+      "title": "N795CK (9 Aug 2025).jpg (CC0)",
+      "accessed": "2026-11-13",
+      "note": "N795CK (777F) left side climbing, 2025-08-09: geometry, fin bands, titles."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:20251024_Boeing_777-36NER(SF)_of_Kalitta_Air_(N778CK)_on_final_approach_at_HKG.jpg",
+      "title": "20251024 Boeing 777-36NER(SF) of Kalitta Air (N778CK) on final approach at HKG.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "N778CK (777-300ERSF) right side, 2025-10-24: titles, both bar emblems, fin."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Kalitta_Air_N708CK_run_K4223(Hong_Kong_International_Airport_to_United_States_Ted_Stevens_Anchorage_International_Airport)_06-08-2025(2).jpg",
+      "title": "Kalitta Air N708CK run K4223(Hong Kong International Airport to United States Ted Stevens Anchorage International Airport) 06-08-2025(2).jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "N708CK (747-400F) right side, 2025-08-06: the same scheme on the 747."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F4F5F6",
+      "official": false
+    },
+    "red": {
+      "hex": "#C8102E",
+      "official": false,
+      "name": "Kalitta red"
+    },
+    "gold": {
+      "hex": "#D9A23A",
+      "official": false,
+      "name": "Kalitta gold"
+    },
+    "black": {
+      "hex": "#1C1C1C",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "forward red band down the aft fuselage",
+        "color": "red",
+        "points": [
+          [
+            0.7,
+            -1
+          ],
+          [
+            0.836,
+            1
+          ],
+          [
+            0.87,
+            1
+          ],
+          [
+            0.8,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "gold band",
+        "color": "gold",
+        "points": [
+          [
+            0.8,
+            -1
+          ],
+          [
+            0.87,
+            1
+          ],
+          [
+            0.9,
+            1
+          ],
+          [
+            0.85,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "aft red band",
+        "color": "red",
+        "points": [
+          [
+            0.85,
+            -1
+          ],
+          [
+            0.9,
+            1
+          ],
+          [
+            0.94,
+            1
+          ],
+          [
+            0.895,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "hidden",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "forward red band",
+        "color": "red",
+        "points": [
+          [
+            0.11,
+            0
+          ],
+          [
+            0.4,
+            1
+          ],
+          [
+            1.0,
+            1
+          ],
+          [
+            1.0,
+            0.85
+          ],
+          [
+            0.68,
+            0.5
+          ],
+          [
+            0.33,
+            0
+          ]
+        ]
+      },
+      {
+        "name": "gold band",
+        "color": "gold",
+        "points": [
+          [
+            0.33,
+            0
+          ],
+          [
+            0.68,
+            0.5
+          ],
+          [
+            1.0,
+            0.85
+          ],
+          [
+            1.0,
+            0.62
+          ],
+          [
+            0.87,
+            0.5
+          ],
+          [
+            0.55,
+            0
+          ]
+        ]
+      },
+      {
+        "name": "aft red band",
+        "color": "red",
+        "points": [
+          [
+            0.55,
+            0
+          ],
+          [
+            0.87,
+            0.5
+          ],
+          [
+            1.0,
+            0.62
+          ],
+          [
+            1.0,
+            0.3
+          ],
+          [
+            0.81,
+            0
+          ]
+        ]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "CKS/speed-bars",
+      "place": "fuselage",
+      "at": [
+        0.175,
+        0.4
+      ],
+      "height": 0.32,
+      "colors": [
+        "black",
+        "gold"
+      ],
+      "description": "Kalitta's emblem: three stacked horizontal bars in black with thin gold gaps, the top one longest, cut on a slant at the outer end like speed lines; one before 'KALITTA' and one, facing the other way, after 'AIR'.",
+      "reference": "https://commons.wikimedia.org/wiki/File:N795CK_(9_Aug_2025).jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "CKS/speed-bars",
+      "place": "fuselage",
+      "at": [
+        0.49,
+        0.4
+      ],
+      "height": 0.32,
+      "colors": [
+        "black",
+        "gold"
+      ],
+      "description": "The same emblem after 'AIR', its slanted end facing aft.",
+      "reference": "https://commons.wikimedia.org/wiki/File:20251024_Boeing_777-36NER(SF)_of_Kalitta_Air_(N778CK)_on_final_approach_at_HKG.jpg",
+      "confidence": "low",
+      "sourceRefs": [
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "KALITTA AIR",
+      "place": "fuselage",
+      "at": [
+        0.215,
+        0.26
+      ],
+      "height": 0.4,
+      "color": "black",
+      "style": "'KALITTA AIR' in wide, heavy, slightly flared capitals (a wide space between the words), over the forward fuselage.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "length": 0.25,
+      "type": {
+        "similar": [
+          "Friz Quadrata Bold",
+          "Optima Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "contrast",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Drawn from N795CK (777F, 2025, left side) and checked against N778CK (777-300ERSF) and N708CK (747-400F) from the right. The 747-400Fs and 767s wear the same scheme. Several Kalitta 777Fs fly in full DHL paint (tagged in airframes/CKS.json as BCS/standard); N772CK has been seen with Kalitta titles forward and a DHL-yellow aft fuselage and tail (a hybrid, not drawn). Re-checked 2026-11-15 against N795CK (777F, 2025-08-09) and N778CK (2025-10-24): the title's place, cap height and length (0.25) agree with both; the fuselage and fin bands are straight-edged (corners only), so nothing moved.",
+  "history": "Replaces Skyarium v1's approximate standard (a few colors from memory). The red and gold tail and 'KALITTA AIR' titles date from the airline's 2000 re-formation (from American International Airways)."
+}

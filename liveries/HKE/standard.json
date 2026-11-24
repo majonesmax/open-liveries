@@ -1,0 +1,240 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "HKE",
+  "name": "HK Express livery",
+  "kind": "standard",
+  "from": "2014",
+  "confidence": "high",
+  "drawnOn": "A321",
+  "description": "White, with deep purple sweeping down from the fin across the rear fuselage to the belly behind the wing, a white tail cone; a white lowercase 'e' (with a white tick before it and a teal square after) big on the purple fin; huge purple 'HKexpress' along the forward fuselage. Purple engines; teal-and-purple sharklets.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/HK_Express",
+      "accessed": "2026-11-13",
+      "note": "Low-cost subsidiary of Cathay Pacific since 2019; rebranded as HK Express in 2013-14 with the purple scheme."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:HK_Express_Airbus_A321_B-LEG_Taiwan_Taoyuan_2026_(04).jpg",
+      "title": "HK Express Airbus A321 B-LEG, Taiwan Taoyuan, 2026 (CC BY-SA 4.0, Bahnfrend)",
+      "accessed": "2026-11-13",
+      "note": "Left side, climbing: the purple sweep, fin logo, titles, engines, sharklets (measured on the photo rotated level)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Hong_Kong_Express_Airways_B-LEK_run_UO514(Hong_Kong_International_Airport_to_Philippines_Manila_Ninoy_Aquino_International_Airport)_02-11-2024.jpg",
+      "title": "Hong Kong Express Airways B-LEK, 2024-11-02 (CC BY-SA 4.0, LN9267)",
+      "accessed": "2026-11-13",
+      "note": "From below and the left, climbing: the purple reaches under the rear fuselage; teal sharklet tips."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:B-LEG_(aircraft)",
+      "accessed": "2026-11-13",
+      "note": "B-LEG's photos 2025-2026."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "purple": {
+      "hex": "#46237A",
+      "official": false
+    },
+    "teal": {
+      "hex": "#3FA9C3",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#BFC3C9",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "name": "bare metal inlet lip",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "purple sweep from the fin down across the rear fuselage to the belly; white tail cone behind",
+        "color": "purple",
+        "points": [
+          [
+            0.707,
+            -1
+          ],
+          [
+            0.707,
+            -0.873
+          ],
+          [
+            0.738,
+            -0.5
+          ],
+          [
+            0.763,
+            -0.202
+          ],
+          [
+            0.78,
+            0.092
+          ],
+          [
+            0.794,
+            0.385
+          ],
+          [
+            0.811,
+            0.549
+          ],
+          [
+            0.816,
+            1
+          ],
+          [
+            0.944,
+            1
+          ],
+          [
+            0.945,
+            1.0
+          ],
+          [
+            0.936,
+            0.007
+          ],
+          [
+            0.927,
+            -0.474
+          ],
+          [
+            0.922,
+            -1.0
+          ],
+          [
+            0.922,
+            -1
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      }
+    ],
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "purple",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "teal",
+    "inner": "purple",
+    "confidence": "low",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "purple",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "HKE/e",
+      "place": "fin",
+      "at": [
+        0.574,
+        0.316
+      ],
+      "height": 0.442,
+      "colors": [
+        "white",
+        "teal"
+      ],
+      "description": "HK Express's 'e': a white lowercase e drawn as a thick open spiral (the crossbar curling in from the right), a short white slanted tick like an apostrophe before it at upper left, and a small teal square turned 45 degrees at its lower right. The same artwork on both sides.",
+      "reference": "https://commons.wikimedia.org/wiki/File:HK_Express_logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "HKE/e",
+      "place": "winglets",
+      "at": [
+        0.55,
+        0.6
+      ],
+      "height": 0.3,
+      "colors": [
+        "white",
+        "teal"
+      ],
+      "description": "The 'e' small in white on the sharklet's purple inner face (seen on the far wing).",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "HKexpress",
+      "place": "fuselage",
+      "at": [
+        0.122,
+        0.077
+      ],
+      "height": 0.538,
+      "length": 0.214,
+      "color": "purple",
+      "style": "Very large, over and through the forward windows from the first door almost to the wing: 'HK' in condensed capitals, 'express' in a rounded lowercase whose e's echo the spiral 'e' and whose r ends in a ball; medium-bold, upright.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Gill Sans SemiBold",
+          "Avenir Next Demi Bold"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.68
+      }
+    }
+  ],
+  "notes": "Drawn from a 2026 photo of an A321ceo (the A320s and A321neos wear the same). The purple's forward edge is a curve, steep at the crown and sweeping forward at the belly. Sharklets: the near one's outer face reads teal in the photos, the far one's inner face purple with the 'e'; low confidence on which face is which color. Belly not seen squarely aft of the wing beyond the purple's reach. Not drawn: the registration. Re-checked 2026-11-15 against B-LEG (A321, 2026) and B-LEK (2024-11-02): HK Express's commonest type is the A321 (its photos are all A321s), so drawnOn A321; on the measured A320 shape (0.9x the length) the title and purple sweep come out a little longer as shares than on an A320 itself. Title place, height and length agree with B-LEG; lowercase 0.68 of the capitals. The purple sweep's edges were left as drawn.",
+  "history": "New in this dataset (Skyarium v1 had no HK Express entry). The purple scheme came with the 2013-14 rebrand from Hong Kong Express Airways to a low-cost carrier; unchanged under Cathay ownership since 2019."
+}

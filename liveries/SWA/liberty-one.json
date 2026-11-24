@@ -1,0 +1,1932 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "liberty-one",
+  "airline": "SWA",
+  "name": "Liberty One (US flag)",
+  "kind": "special",
+  "from": "2026-04",
+  "description": "Fuselage: Navy blue forward fuselage and nose with large white stars back to the wing; red and white wavy stripes on the aft fuselage to the tail. Cheatlines: Flag stripes. Tail: from June 2026 Independence One's fin (navy, a white band and a red band along the leading edge and tip on the Heart's lines) with white 'Southwest'; the Heart fin before. Engines: navy at the front; aft of a diagonal edge, red, white and red flag stripes over the cowling. Winglets: Navy split-scimitar with America250 logo. Titles: 'Southwest' white on lower fin; 'America 250' logo on the nose. Artwork: US flag. Colors hex: approximate.",
+  "confidence": "medium",
+  "drawnOn": "B38M",
+  "sources": [
+    {
+      "url": "https://www.prnewswire.com/news-releases/southwest-airlines-announces-partnership-with-america250-and-unveils-independence-one-in-celebration-of-giving-people-the-freedom-to-fly-for-55-years-302754776.html",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Southwest_Airlines_fleet",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:N8719Q_(aircraft)",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Southwest_Airlines_737_Max_8_arriving_at_DCA_(55312545424).jpg",
+      "title": "Southwest Airlines 737 Max 8 arriving at DCA (55312545424).jpg (CC0)",
+      "accessed": "2026-11-12",
+      "note": "N8719Q from the right and a little below, 2026-05-06: the starred navy field, stripes, engine, navy winglets with the 250 mark, fin (measured from this one)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Southwest_Boeing_737-8_MAX_N1776R_BWI_MD1.jpg",
+      "title": "Southwest Boeing 737-8 MAX N1776R BWI MD1.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-23",
+      "note": "Independence One (N1776R), 2026-04-30: its fin, measured on the Heart fin's lines, copied here as this jet's fin since June 2026."
+    },
+    {
+      "url": "https://community.infiniteflight.com/t/661849/4000",
+      "title": "Southwest livery tracking thread, Infinite Flight community",
+      "accessed": "2026-11-23",
+      "note": "Infinite Flight community forum, Southwest livery-tracking thread (evidence only, nothing measured): spotters photograph N8719Q with Independence One's red, white and navy fin at LAS on 2026-06-08 (first seen)."
+    },
+    {
+      "url": "https://mma.prnewswire.com/media/2967015/Liberty_One_joins_Freedom_One_as_part_of_Southwest_s_Specialty_Fleet__1.jpg",
+      "title": "Liberty One joins Freedom One as part of Southwest's Specialty Fleet (airline press photo)",
+      "accessed": "2026-11-23",
+      "note": "Airline press photo with the 2026-04-27 release (measured only, not copied): N8719Q's right side, level: its engine cowling (navy inlet half, a diagonal edge, then red, white and red flag stripes aft)."
+    }
+  ],
+  "palette": {
+    "blue": {
+      "hex": "#304CB2",
+      "name": "Bold Blue",
+      "official": true
+    },
+    "red": {
+      "hex": "#D5152B",
+      "official": false
+    },
+    "yellow": {
+      "hex": "#F9B612",
+      "official": false
+    },
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B4B9C0",
+      "official": false
+    },
+    "wingletGray": {
+      "hex": "#D3D6DA",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "name": "bare metal inlet lip",
+      "official": false
+    },
+    "navy": {
+      "hex": "#1B2350",
+      "official": false
+    },
+    "flagRed": {
+      "hex": "#D8202A",
+      "official": false
+    },
+    "flagWhite": {
+      "hex": "#F2F2F0",
+      "official": false
+    },
+    "finNavy": {
+      "hex": "#16204F",
+      "official": false
+    },
+    "cream": {
+      "hex": "#EEEBE3",
+      "official": false
+    },
+    "sweepRed": {
+      "hex": "#E0202E",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "flagWhite",
+    "areas": [
+      {
+        "name": "flag stripe, red, 1 of 7 from the crown, rippling",
+        "color": "flagRed",
+        "points": [
+          [
+            0.3,
+            1
+          ],
+          [
+            0.318,
+            1
+          ],
+          [
+            0.335,
+            1
+          ],
+          [
+            0.352,
+            1
+          ],
+          [
+            0.37,
+            1
+          ],
+          [
+            0.387,
+            1
+          ],
+          [
+            0.405,
+            1
+          ],
+          [
+            0.422,
+            1
+          ],
+          [
+            0.44,
+            1
+          ],
+          [
+            0.458,
+            1
+          ],
+          [
+            0.475,
+            1
+          ],
+          [
+            0.492,
+            1
+          ],
+          [
+            0.51,
+            1
+          ],
+          [
+            0.527,
+            1
+          ],
+          [
+            0.545,
+            1
+          ],
+          [
+            0.562,
+            1
+          ],
+          [
+            0.58,
+            1
+          ],
+          [
+            0.597,
+            1
+          ],
+          [
+            0.615,
+            1
+          ],
+          [
+            0.632,
+            1
+          ],
+          [
+            0.65,
+            1
+          ],
+          [
+            0.667,
+            1
+          ],
+          [
+            0.685,
+            1
+          ],
+          [
+            0.702,
+            1
+          ],
+          [
+            0.72,
+            1
+          ],
+          [
+            0.738,
+            1
+          ],
+          [
+            0.755,
+            1
+          ],
+          [
+            0.772,
+            1
+          ],
+          [
+            0.79,
+            1
+          ],
+          [
+            0.807,
+            1
+          ],
+          [
+            0.825,
+            1
+          ],
+          [
+            0.843,
+            1
+          ],
+          [
+            0.86,
+            1
+          ],
+          [
+            0.877,
+            1
+          ],
+          [
+            0.895,
+            1
+          ],
+          [
+            0.913,
+            1
+          ],
+          [
+            0.93,
+            1
+          ],
+          [
+            0.948,
+            1
+          ],
+          [
+            0.965,
+            1
+          ],
+          [
+            0.982,
+            1
+          ],
+          [
+            1.0,
+            1
+          ],
+          [
+            1.0,
+            0.695
+          ],
+          [
+            0.982,
+            0.729
+          ],
+          [
+            0.965,
+            0.76
+          ],
+          [
+            0.948,
+            0.78
+          ],
+          [
+            0.93,
+            0.784
+          ],
+          [
+            0.913,
+            0.77
+          ],
+          [
+            0.895,
+            0.743
+          ],
+          [
+            0.877,
+            0.709
+          ],
+          [
+            0.86,
+            0.676
+          ],
+          [
+            0.843,
+            0.653
+          ],
+          [
+            0.825,
+            0.644
+          ],
+          [
+            0.807,
+            0.653
+          ],
+          [
+            0.79,
+            0.676
+          ],
+          [
+            0.772,
+            0.709
+          ],
+          [
+            0.755,
+            0.743
+          ],
+          [
+            0.738,
+            0.77
+          ],
+          [
+            0.72,
+            0.784
+          ],
+          [
+            0.702,
+            0.78
+          ],
+          [
+            0.685,
+            0.76
+          ],
+          [
+            0.667,
+            0.729
+          ],
+          [
+            0.65,
+            0.695
+          ],
+          [
+            0.632,
+            0.665
+          ],
+          [
+            0.615,
+            0.647
+          ],
+          [
+            0.597,
+            0.646
+          ],
+          [
+            0.58,
+            0.661
+          ],
+          [
+            0.562,
+            0.69
+          ],
+          [
+            0.545,
+            0.724
+          ],
+          [
+            0.527,
+            0.756
+          ],
+          [
+            0.51,
+            0.778
+          ],
+          [
+            0.492,
+            0.784
+          ],
+          [
+            0.475,
+            0.773
+          ],
+          [
+            0.458,
+            0.748
+          ],
+          [
+            0.44,
+            0.714
+          ],
+          [
+            0.422,
+            0.681
+          ],
+          [
+            0.405,
+            0.655
+          ],
+          [
+            0.387,
+            0.644
+          ],
+          [
+            0.37,
+            0.651
+          ],
+          [
+            0.352,
+            0.672
+          ],
+          [
+            0.335,
+            0.704
+          ],
+          [
+            0.318,
+            0.739
+          ],
+          [
+            0.3,
+            0.767
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "flag stripe, red, 3 of 7 from the crown, rippling",
+        "color": "flagRed",
+        "points": [
+          [
+            0.3,
+            0.481
+          ],
+          [
+            0.318,
+            0.453
+          ],
+          [
+            0.335,
+            0.419
+          ],
+          [
+            0.352,
+            0.387
+          ],
+          [
+            0.37,
+            0.365
+          ],
+          [
+            0.387,
+            0.359
+          ],
+          [
+            0.405,
+            0.37
+          ],
+          [
+            0.422,
+            0.395
+          ],
+          [
+            0.44,
+            0.429
+          ],
+          [
+            0.458,
+            0.462
+          ],
+          [
+            0.475,
+            0.487
+          ],
+          [
+            0.492,
+            0.498
+          ],
+          [
+            0.51,
+            0.492
+          ],
+          [
+            0.527,
+            0.471
+          ],
+          [
+            0.545,
+            0.439
+          ],
+          [
+            0.562,
+            0.404
+          ],
+          [
+            0.58,
+            0.376
+          ],
+          [
+            0.597,
+            0.36
+          ],
+          [
+            0.615,
+            0.361
+          ],
+          [
+            0.632,
+            0.379
+          ],
+          [
+            0.65,
+            0.409
+          ],
+          [
+            0.667,
+            0.443
+          ],
+          [
+            0.685,
+            0.474
+          ],
+          [
+            0.702,
+            0.494
+          ],
+          [
+            0.72,
+            0.498
+          ],
+          [
+            0.738,
+            0.485
+          ],
+          [
+            0.755,
+            0.458
+          ],
+          [
+            0.772,
+            0.424
+          ],
+          [
+            0.79,
+            0.391
+          ],
+          [
+            0.807,
+            0.367
+          ],
+          [
+            0.825,
+            0.359
+          ],
+          [
+            0.843,
+            0.367
+          ],
+          [
+            0.86,
+            0.391
+          ],
+          [
+            0.877,
+            0.424
+          ],
+          [
+            0.895,
+            0.458
+          ],
+          [
+            0.913,
+            0.485
+          ],
+          [
+            0.93,
+            0.498
+          ],
+          [
+            0.948,
+            0.494
+          ],
+          [
+            0.965,
+            0.474
+          ],
+          [
+            0.982,
+            0.443
+          ],
+          [
+            1.0,
+            0.409
+          ],
+          [
+            1.0,
+            0.123
+          ],
+          [
+            0.982,
+            0.158
+          ],
+          [
+            0.965,
+            0.189
+          ],
+          [
+            0.948,
+            0.208
+          ],
+          [
+            0.93,
+            0.212
+          ],
+          [
+            0.913,
+            0.199
+          ],
+          [
+            0.895,
+            0.172
+          ],
+          [
+            0.877,
+            0.138
+          ],
+          [
+            0.86,
+            0.105
+          ],
+          [
+            0.843,
+            0.081
+          ],
+          [
+            0.825,
+            0.073
+          ],
+          [
+            0.807,
+            0.081
+          ],
+          [
+            0.79,
+            0.105
+          ],
+          [
+            0.772,
+            0.138
+          ],
+          [
+            0.755,
+            0.172
+          ],
+          [
+            0.738,
+            0.199
+          ],
+          [
+            0.72,
+            0.212
+          ],
+          [
+            0.702,
+            0.208
+          ],
+          [
+            0.685,
+            0.189
+          ],
+          [
+            0.667,
+            0.158
+          ],
+          [
+            0.65,
+            0.123
+          ],
+          [
+            0.632,
+            0.093
+          ],
+          [
+            0.615,
+            0.076
+          ],
+          [
+            0.597,
+            0.074
+          ],
+          [
+            0.58,
+            0.09
+          ],
+          [
+            0.562,
+            0.118
+          ],
+          [
+            0.545,
+            0.153
+          ],
+          [
+            0.527,
+            0.185
+          ],
+          [
+            0.51,
+            0.207
+          ],
+          [
+            0.492,
+            0.213
+          ],
+          [
+            0.475,
+            0.202
+          ],
+          [
+            0.458,
+            0.176
+          ],
+          [
+            0.44,
+            0.143
+          ],
+          [
+            0.422,
+            0.109
+          ],
+          [
+            0.405,
+            0.084
+          ],
+          [
+            0.387,
+            0.073
+          ],
+          [
+            0.37,
+            0.079
+          ],
+          [
+            0.352,
+            0.101
+          ],
+          [
+            0.335,
+            0.133
+          ],
+          [
+            0.318,
+            0.167
+          ],
+          [
+            0.3,
+            0.196
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "flag stripe, red, 5 of 7 from the crown, rippling",
+        "color": "flagRed",
+        "points": [
+          [
+            0.3,
+            -0.09
+          ],
+          [
+            0.318,
+            -0.118
+          ],
+          [
+            0.335,
+            -0.153
+          ],
+          [
+            0.352,
+            -0.185
+          ],
+          [
+            0.37,
+            -0.207
+          ],
+          [
+            0.387,
+            -0.213
+          ],
+          [
+            0.405,
+            -0.202
+          ],
+          [
+            0.422,
+            -0.176
+          ],
+          [
+            0.44,
+            -0.143
+          ],
+          [
+            0.458,
+            -0.109
+          ],
+          [
+            0.475,
+            -0.084
+          ],
+          [
+            0.492,
+            -0.073
+          ],
+          [
+            0.51,
+            -0.079
+          ],
+          [
+            0.527,
+            -0.101
+          ],
+          [
+            0.545,
+            -0.133
+          ],
+          [
+            0.562,
+            -0.167
+          ],
+          [
+            0.58,
+            -0.196
+          ],
+          [
+            0.597,
+            -0.211
+          ],
+          [
+            0.615,
+            -0.21
+          ],
+          [
+            0.632,
+            -0.192
+          ],
+          [
+            0.65,
+            -0.163
+          ],
+          [
+            0.667,
+            -0.128
+          ],
+          [
+            0.685,
+            -0.097
+          ],
+          [
+            0.702,
+            -0.077
+          ],
+          [
+            0.72,
+            -0.074
+          ],
+          [
+            0.738,
+            -0.087
+          ],
+          [
+            0.755,
+            -0.114
+          ],
+          [
+            0.772,
+            -0.148
+          ],
+          [
+            0.79,
+            -0.181
+          ],
+          [
+            0.807,
+            -0.204
+          ],
+          [
+            0.825,
+            -0.213
+          ],
+          [
+            0.843,
+            -0.204
+          ],
+          [
+            0.86,
+            -0.181
+          ],
+          [
+            0.877,
+            -0.148
+          ],
+          [
+            0.895,
+            -0.114
+          ],
+          [
+            0.913,
+            -0.087
+          ],
+          [
+            0.93,
+            -0.074
+          ],
+          [
+            0.948,
+            -0.077
+          ],
+          [
+            0.965,
+            -0.097
+          ],
+          [
+            0.982,
+            -0.128
+          ],
+          [
+            1.0,
+            -0.163
+          ],
+          [
+            1.0,
+            -0.448
+          ],
+          [
+            0.982,
+            -0.414
+          ],
+          [
+            0.965,
+            -0.383
+          ],
+          [
+            0.948,
+            -0.363
+          ],
+          [
+            0.93,
+            -0.359
+          ],
+          [
+            0.913,
+            -0.373
+          ],
+          [
+            0.895,
+            -0.399
+          ],
+          [
+            0.877,
+            -0.434
+          ],
+          [
+            0.86,
+            -0.466
+          ],
+          [
+            0.843,
+            -0.49
+          ],
+          [
+            0.825,
+            -0.499
+          ],
+          [
+            0.807,
+            -0.49
+          ],
+          [
+            0.79,
+            -0.466
+          ],
+          [
+            0.772,
+            -0.434
+          ],
+          [
+            0.755,
+            -0.399
+          ],
+          [
+            0.738,
+            -0.373
+          ],
+          [
+            0.72,
+            -0.359
+          ],
+          [
+            0.702,
+            -0.363
+          ],
+          [
+            0.685,
+            -0.383
+          ],
+          [
+            0.667,
+            -0.414
+          ],
+          [
+            0.65,
+            -0.448
+          ],
+          [
+            0.632,
+            -0.478
+          ],
+          [
+            0.615,
+            -0.496
+          ],
+          [
+            0.597,
+            -0.497
+          ],
+          [
+            0.58,
+            -0.481
+          ],
+          [
+            0.562,
+            -0.453
+          ],
+          [
+            0.545,
+            -0.419
+          ],
+          [
+            0.527,
+            -0.387
+          ],
+          [
+            0.51,
+            -0.365
+          ],
+          [
+            0.492,
+            -0.359
+          ],
+          [
+            0.475,
+            -0.37
+          ],
+          [
+            0.458,
+            -0.395
+          ],
+          [
+            0.44,
+            -0.429
+          ],
+          [
+            0.422,
+            -0.462
+          ],
+          [
+            0.405,
+            -0.487
+          ],
+          [
+            0.387,
+            -0.498
+          ],
+          [
+            0.37,
+            -0.492
+          ],
+          [
+            0.352,
+            -0.471
+          ],
+          [
+            0.335,
+            -0.439
+          ],
+          [
+            0.318,
+            -0.404
+          ],
+          [
+            0.3,
+            -0.376
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "flag stripe, red, 7 of 7 from the crown, rippling",
+        "color": "flagRed",
+        "points": [
+          [
+            0.3,
+            -0.661
+          ],
+          [
+            0.318,
+            -0.69
+          ],
+          [
+            0.335,
+            -0.724
+          ],
+          [
+            0.352,
+            -0.756
+          ],
+          [
+            0.37,
+            -0.778
+          ],
+          [
+            0.387,
+            -0.784
+          ],
+          [
+            0.405,
+            -0.773
+          ],
+          [
+            0.422,
+            -0.748
+          ],
+          [
+            0.44,
+            -0.714
+          ],
+          [
+            0.458,
+            -0.681
+          ],
+          [
+            0.475,
+            -0.655
+          ],
+          [
+            0.492,
+            -0.644
+          ],
+          [
+            0.51,
+            -0.651
+          ],
+          [
+            0.527,
+            -0.672
+          ],
+          [
+            0.545,
+            -0.704
+          ],
+          [
+            0.562,
+            -0.739
+          ],
+          [
+            0.58,
+            -0.767
+          ],
+          [
+            0.597,
+            -0.783
+          ],
+          [
+            0.615,
+            -0.781
+          ],
+          [
+            0.632,
+            -0.764
+          ],
+          [
+            0.65,
+            -0.734
+          ],
+          [
+            0.667,
+            -0.699
+          ],
+          [
+            0.685,
+            -0.668
+          ],
+          [
+            0.702,
+            -0.649
+          ],
+          [
+            0.72,
+            -0.645
+          ],
+          [
+            0.738,
+            -0.658
+          ],
+          [
+            0.755,
+            -0.685
+          ],
+          [
+            0.772,
+            -0.719
+          ],
+          [
+            0.79,
+            -0.752
+          ],
+          [
+            0.807,
+            -0.776
+          ],
+          [
+            0.825,
+            -0.784
+          ],
+          [
+            0.843,
+            -0.776
+          ],
+          [
+            0.86,
+            -0.752
+          ],
+          [
+            0.877,
+            -0.719
+          ],
+          [
+            0.895,
+            -0.685
+          ],
+          [
+            0.913,
+            -0.658
+          ],
+          [
+            0.93,
+            -0.645
+          ],
+          [
+            0.948,
+            -0.649
+          ],
+          [
+            0.965,
+            -0.668
+          ],
+          [
+            0.982,
+            -0.699
+          ],
+          [
+            1.0,
+            -0.734
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            0.982,
+            -1.0
+          ],
+          [
+            0.965,
+            -1.0
+          ],
+          [
+            0.948,
+            -1.0
+          ],
+          [
+            0.93,
+            -1.0
+          ],
+          [
+            0.913,
+            -1.0
+          ],
+          [
+            0.895,
+            -1.0
+          ],
+          [
+            0.877,
+            -1.0
+          ],
+          [
+            0.86,
+            -1.0
+          ],
+          [
+            0.843,
+            -1.0
+          ],
+          [
+            0.825,
+            -1.0
+          ],
+          [
+            0.807,
+            -1.0
+          ],
+          [
+            0.79,
+            -1.0
+          ],
+          [
+            0.772,
+            -1.0
+          ],
+          [
+            0.755,
+            -1.0
+          ],
+          [
+            0.738,
+            -1.0
+          ],
+          [
+            0.72,
+            -1.0
+          ],
+          [
+            0.702,
+            -1.0
+          ],
+          [
+            0.685,
+            -1.0
+          ],
+          [
+            0.667,
+            -1.0
+          ],
+          [
+            0.65,
+            -1.0
+          ],
+          [
+            0.632,
+            -1.0
+          ],
+          [
+            0.615,
+            -1.0
+          ],
+          [
+            0.597,
+            -1.0
+          ],
+          [
+            0.58,
+            -1.0
+          ],
+          [
+            0.562,
+            -1.0
+          ],
+          [
+            0.545,
+            -1.0
+          ],
+          [
+            0.527,
+            -1.0
+          ],
+          [
+            0.51,
+            -1.0
+          ],
+          [
+            0.492,
+            -1.0
+          ],
+          [
+            0.475,
+            -1.0
+          ],
+          [
+            0.458,
+            -1.0
+          ],
+          [
+            0.44,
+            -1.0
+          ],
+          [
+            0.422,
+            -1.0
+          ],
+          [
+            0.405,
+            -1.0
+          ],
+          [
+            0.387,
+            -1.0
+          ],
+          [
+            0.37,
+            -1.0
+          ],
+          [
+            0.352,
+            -1.0
+          ],
+          [
+            0.335,
+            -1.0
+          ],
+          [
+            0.318,
+            -1.0
+          ],
+          [
+            0.3,
+            -1.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "navy field with white stars, nose to the wing",
+        "color": "navy",
+        "points": [
+          [
+            0,
+            1
+          ],
+          [
+            0.317,
+            1
+          ],
+          [
+            0.348,
+            0.468
+          ],
+          [
+            0.369,
+            0.255
+          ],
+          [
+            0.381,
+            0.062
+          ],
+          [
+            0.39,
+            -0.269
+          ],
+          [
+            0.399,
+            -1
+          ],
+          [
+            0,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          3
+        ]
+      },
+      {
+        "name": "navy dorsal fillet, the fin's navy run forward",
+        "color": "finNavy",
+        "points": [
+          [
+            0.762,
+            1
+          ],
+          [
+            0.8,
+            0.93
+          ],
+          [
+            0.985,
+            0.93
+          ],
+          [
+            0.985,
+            1
+          ]
+        ],
+        "sourceRefs": [
+          4,
+          5
+        ],
+        "confidence": "low"
+      }
+    ],
+    "radome": {
+      "color": "navy",
+      "to": 0.025
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      3
+    ]
+  },
+  "fin": {
+    "base": "finNavy",
+    "areas": [
+      {
+        "name": "white band",
+        "color": "cream",
+        "above": [
+          [
+            0,
+            0.213
+          ],
+          [
+            0.081,
+            0.235
+          ],
+          [
+            0.416,
+            0.324
+          ],
+          [
+            0.65,
+            0.404
+          ],
+          [
+            0.803,
+            0.479
+          ],
+          [
+            1,
+            0.555
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "red band along the leading edge and tip",
+        "color": "sweepRed",
+        "above": [
+          [
+            0,
+            0.3
+          ],
+          [
+            0.126,
+            0.377
+          ],
+          [
+            0.246,
+            0.452
+          ],
+          [
+            0.427,
+            0.597
+          ],
+          [
+            0.561,
+            0.738
+          ],
+          [
+            0.692,
+            0.877
+          ],
+          [
+            0.766,
+            0.946
+          ],
+          [
+            0.82,
+            1.0
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "white leading edge along the red",
+        "color": "cream",
+        "points": [
+          [
+            0,
+            0.3
+          ],
+          [
+            0.025,
+            0.3
+          ],
+          [
+            0.025,
+            1.0
+          ],
+          [
+            0,
+            1.0
+          ]
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      4,
+      5
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "navy",
+    "inner": "navy",
+    "confidence": "medium",
+    "sourceRefs": [
+      3
+    ]
+  },
+  "engines": {
+    "cowling": "navy",
+    "inletLip": "lip",
+    "areas": [
+      {
+        "name": "white over the cowling aft of a diagonal edge (the flag's stripes)",
+        "color": "flagWhite",
+        "points": [
+          [
+            0.21,
+            1
+          ],
+          [
+            0.89,
+            1
+          ],
+          [
+            0.89,
+            -1
+          ],
+          [
+            0.84,
+            -1
+          ],
+          [
+            0.76,
+            -0.64
+          ],
+          [
+            0.68,
+            -0.36
+          ],
+          [
+            0.58,
+            -0.07
+          ],
+          [
+            0.44,
+            0.36
+          ],
+          [
+            0.3,
+            0.84
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "red stripe over the top of the cowling",
+        "color": "flagRed",
+        "points": [
+          [
+            0.21,
+            1
+          ],
+          [
+            0.89,
+            1
+          ],
+          [
+            0.89,
+            0.46
+          ],
+          [
+            0.6,
+            0.54
+          ],
+          [
+            0.42,
+            0.7
+          ],
+          [
+            0.3,
+            0.84
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "red stripe over the lower aft cowling",
+        "color": "flagRed",
+        "points": [
+          [
+            0.5,
+            0.2
+          ],
+          [
+            0.6,
+            0.21
+          ],
+          [
+            0.89,
+            0.04
+          ],
+          [
+            0.89,
+            -1
+          ],
+          [
+            0.84,
+            -1
+          ],
+          [
+            0.76,
+            -0.64
+          ],
+          [
+            0.68,
+            -0.36
+          ],
+          [
+            0.58,
+            -0.07
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "bare metal exhaust nozzle aft of the cowling",
+        "color": "lip",
+        "points": [
+          [
+            0.89,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            0.89,
+            -1
+          ]
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      6
+    ]
+  },
+  "logos": [
+    {
+      "mark": "SWA/heart",
+      "place": "fuselage",
+      "at": [
+        0.168,
+        0.494
+      ],
+      "height": 0.13,
+      "colors": [
+        "blue",
+        "red",
+        "yellow"
+      ],
+      "description": "The small Southwest Heart above and just aft of the forward passenger door.",
+      "reference": "https://commons.wikimedia.org/wiki/Category:Southwest_Airlines",
+      "side": "both",
+      "confidence": "medium",
+      "sourceRefs": [
+        3
+      ]
+    },
+    {
+      "mark": "SWA/flag-stars",
+      "place": "fuselage",
+      "at": [
+        0.253,
+        -0.016
+      ],
+      "height": 1.6,
+      "colors": [
+        "white"
+      ],
+      "description": "About thirty large white five-pointed stars over the navy field in offset rows, from the nose to the wing.",
+      "confidence": "medium",
+      "sourceRefs": [
+        3
+      ]
+    },
+    {
+      "mark": "SWA/america250",
+      "place": "fuselage",
+      "at": [
+        0.076,
+        0.134
+      ],
+      "height": 0.3,
+      "colors": [
+        "white",
+        "flagRed"
+      ],
+      "description": "The America250 mark under the cockpit: 'AMERICA' in small white capitals over a large '250' in red and white.",
+      "reference": "https://www.prnewswire.com/news-releases/southwest-airlines-announces-partnership-with-america250-and-unveils-independence-one-in-celebration-of-giving-people-the-freedom-to-fly-for-55-years-302754776.html",
+      "confidence": "medium",
+      "sourceRefs": [
+        3
+      ]
+    },
+    {
+      "mark": "SWA/america250",
+      "place": "winglets",
+      "at": [
+        0.5,
+        0.75
+      ],
+      "height": 0.15,
+      "colors": [
+        "white",
+        "flagRed"
+      ],
+      "description": "'250' on the navy winglet's outer face.",
+      "confidence": "medium",
+      "sourceRefs": [
+        3
+      ]
+    },
+    {
+      "mark": "SWA/us-flag",
+      "place": "fin",
+      "at": [
+        0.02,
+        0.05
+      ],
+      "height": 0.055,
+      "colors": [
+        "sweepRed",
+        "white",
+        "finNavy"
+      ],
+      "description": "A small US flag ahead of the fin title.",
+      "confidence": "medium",
+      "sourceRefs": [
+        4,
+        5
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Southwest",
+      "place": "fin",
+      "at": [
+        0.084,
+        0.03
+      ],
+      "height": 0.12,
+      "color": "white",
+      "style": "The Southwest wordmark, white on the navy at the fin's root.",
+      "confidence": "medium",
+      "sourceRefs": [
+        4,
+        5
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Bold",
+          "Gotham Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      },
+      "length": 0.86
+    }
+  ],
+  "notes": "One secondary caption gives an April 2024 unveiling date; Commons photos of N8719Q from Jan/Apr 2025 are titled without livery, and Southwest's April 2026 release calls it newly introduced. 2026 favored. Drawn from 2026 photos of N8719Q. The stripes' ripples are drawn as an even wave: the real folds (with gray shading on the white) vary along the fuselage. No 'Liberty One' lettering was seen by the cockpit. Re-checked 2026-11-15: the fin is the state jets' Heart fin as re-measured on Colorado One (the same fin on every 737), copied with its 'Southwest' title and flag. The rippling stripes, traced as points along their waves, made smooth. No 'Liberty One' lettering is legible on either photo (the America250 mark is by the cockpit), so no fuselage title. Drawn on the 737-8. 2026-11-15: a Commons photo whose source is airliners.net was dropped (the dataset doesn't draw from photo sites); its parts now cite the other photo. 2026-11-23: the fin is now Independence One's (navy, white and red on the Heart's lines, white 'Southwest', the small flag), copied from SWA/independence-one with its palette (its navy as finNavy). The swap rests on dated spotter photos in the Infinite Flight forum's Southwest livery thread, evidence only: nothing is measured from them, and Southwest hasn't announced it; no Commons photo since. The fin's geometry is Independence One's measured fin, drawn on a 737 MAX 8; fin space is shares of the fin's height and chord, and the Heart's lines it uses are the same on every 737 (re-measured on Colorado One), so it carries to the 737-800. The dorsal fillet is drawn navy with the fin (assumed, low). 2026-11-23: engine cowlings measured off the right side (N8719Q, 2026 press photo): navy from the inlet back to a diagonal edge (at the top about a fifth of the way back, reaching the bottom near the cowl's end), then a red stripe over the top, white, and a red stripe low and aft; the cowl's paint ends at x 0.89 (the type's cowl end), bare metal nozzle behind. No star on the cowling in any photo (the star by the inlet is the fuselage's). One side measured: the other drawn the same."
+}

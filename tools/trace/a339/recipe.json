@@ -1,0 +1,120 @@
+{
+  "_about": "A330-900, from Airbus AC A330 (Dec 01/25) 2-2-0 General Aircraft Dimensions, A330-900 sheets 1 (side, front: page index 64) and 2 (plan: page index 65). Pixels of layers.py --mode strokes-in-fill rasters, line centres: the side at scale 16 turned level (--rotate -0.46), the plan at 15.147 (the side sheet's 81.56 px a meter). The A330-300's fuselage, fin and tailplane points lie on these sheets (moved a few px) and are snapped; the A330neo's nacelles, longer wing and sharklets are placed here. Scaled by the printed 63.66 m overall length from the nose to the tail cone. Windows behind the wing's lines and a dimension line at the drawing's pitch; door 3's height is the A330-300's.",
+  "out": "../../../../shapes/A339.json",
+  "length": 63.66,
+  "wingtip": "sharklet",
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "refs": {
+    "side": {
+      "nose": 154,
+      "tail": 5347,
+      "cowlEnd": 2318,
+      "windowRow": [1102, 1164],
+      "windowBand": [1114, 1158],
+      "windowGap": 5,
+      "windowsAlso": [1348.5, 2818, 2862, 2905, 2948, 2992, 3036, 3122, 3166, 3210, 3253, 3296, 3340, 3384, 3427, 3470]
+    },
+    "plan": {
+      "nose": 154,
+      "centerline": 2826
+    },
+    "front": {
+      "centerline": 2897,
+      "crownTop": 448
+    }
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [580, 1068, 678, 1221]
+    },
+    {
+      "kind": "door",
+      "box": [1542, 1071, 1637, 1223]
+    },
+    {
+      "kind": "exit",
+      "box": [3048, 1071, 3107, 1193]
+    },
+    {
+      "kind": "door",
+      "box": [4263, 1051, 4358, 1203]
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [254, 1145],
+      [260, 1139],
+      [282, 1119],
+      [288, 1114],
+      [310, 1114],
+      [312, 1116],
+      [311, 1118],
+      [304, 1129],
+      [295, 1143],
+      [293, 1145],
+      [291, 1146],
+      [269, 1147],
+      [256, 1147]
+    ],
+    [
+      [355, 1117],
+      [355, 1151],
+      [352, 1154],
+      [342, 1154],
+      [322, 1153],
+      [318, 1152],
+      [315, 1151],
+      [313, 1149],
+      [312, 1145],
+      [312, 1142],
+      [314, 1136],
+      [322, 1125],
+      [328, 1117],
+      [330, 1115],
+      [332, 1114],
+      [341, 1114],
+      [353, 1115]
+    ],
+    [
+      [368, 1152],
+      [368, 1115],
+      [370, 1113],
+      [396, 1113],
+      [398, 1114],
+      [401, 1117],
+      [410, 1129],
+      [411, 1131],
+      [411, 1151],
+      [409, 1153],
+      [407, 1154],
+      [370, 1154]
+    ]
+  ],
+  "printed": {
+    "fuselage height": 5.64,
+    "fuselage width": 5.64,
+    "wingspan": 64.0,
+    "tailplane span": 19.4,
+    "engine out from the centerline": 9.37
+  },
+  "meta": {
+    "id": "A339",
+    "name": "Airbus A330-900",
+    "types": ["A339"],
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://www.aircraft.airbus.com/sites/default/files/2025-12/AC_A330_20251201.pdf",
+        "title": "Airbus, A330 Aircraft Characteristics: Airport and Maintenance Planning (Dec 01/25), 2-2-0 General Aircraft Dimensions, A330-900 sheets 1 and 2",
+        "accessed": "2026-11-15",
+        "note": "Dimensions and outlines read off the side, plan and front views (tools/trace/a339/); the figures are the aircraft's measurements, not a copy of the drawing. The fuselage, fin and tailplane points are the A330-300's, which lie on this sheet; the nacelles, wing tips and sharklets are traced here. The side view is turned level from the sheet's ground attitude (0.46\u00b0). Engine out from the centerline: half the printed 18.74 m between the engines."
+      }
+    ]
+  }
+}

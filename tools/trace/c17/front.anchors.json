@@ -1,0 +1,94 @@
+{
+  "_about": "The same drawing's front view: layers.py --mode image --threshold 170 at scale 12.53 (the side's scale: its winglet tips 4031 px apart for the printed 169 ft 10 in), clip 72,508.8,408,638.4. Pixels of that raster, line centres; the left half (the aircraft's right: mirrored, the same). The fuselage's circle is drawn inside the wing's root and its fairing (the wing's upper line runs on over the top to the fin's root); below its widest, the main gear's sponsons hide its lower side (bridged).",
+  "fuselage.section": [
+    [2101, 818],
+    [2050, 822],
+    [2000, 832],
+    [1950, 852],
+    [1900, 880],
+    [1870, 915],
+    [1850, 960],
+    [1838, 1000],
+    [1832, 1060],
+    [1832, 1120],
+    "hidden",
+    {
+      "free": [1900, 1260]
+    },
+    "hidden",
+    {
+      "free": [2101, 1295]
+    }
+  ],
+  "wing.upper": [
+    [1845, 838],
+    [1800, 842],
+    [1700, 853],
+    [1400, 887],
+    [1200, 908],
+    [900, 940],
+    [700, 963],
+    [500, 984],
+    [300, 1005],
+    [200, 1015],
+    [160, 1017],
+    [140, 984],
+    [120, 951],
+    [100, 890],
+    [88, 850]
+  ],
+  "wing.lower": [
+    [1840, 962],
+    [1800, 963],
+    [1700, 968],
+    [1400, 984],
+    [1200, 994],
+    [900, 1012],
+    [700, 1024],
+    [500, 1035],
+    [300, 1044],
+    [200, 1051],
+    [145, 1050],
+    [125, 990],
+    [105, 920],
+    [90, 860]
+  ],
+  "stabilizer.upper": [
+    [2045, 138],
+    [2000, 142],
+    [1800, 156],
+    [1600, 171],
+    [1400, 187],
+    [1372, 192]
+  ],
+  "stabilizer.lower": [
+    [2045, 188],
+    [2000, 191],
+    [1800, 196],
+    [1600, 201],
+    [1400, 209],
+    [1372, 205]
+  ],
+  "engine.inlet": [
+    [1629, 1072],
+    [1598, 1147],
+    [1522, 1178],
+    [1446, 1147],
+    [1415, 1072],
+    [1446, 996],
+    [1522, 965],
+    [1598, 996],
+    [1629, 1072]
+  ],
+  "engine2.inlet": [
+    [1119, 1102],
+    [1088, 1175],
+    [1014, 1206],
+    [939, 1175],
+    [908, 1102],
+    [939, 1028],
+    [1014, 997],
+    [1088, 1028],
+    [1119, 1102]
+  ]
+}

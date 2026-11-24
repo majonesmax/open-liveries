@@ -1,0 +1,12 @@
+{
+  "_about": "Bombardier CRJ100/200/440 Airport Planning Manual (CSP A-020, Revision 8), 00-02-01 Figure 2: page index 24, layers.py --mode image at scale 10, clip 150,222,485,490 (plan; the same scale as the side view). Pixels of that raster, line centres; the upper half (the aircraft's right side, the same as its left). The wing's leading edge is drawn as two parallel lines: the outer one is the edge. The wing stops at 10.27 m out, where the front view shows the winglet leaving it; beyond that the plan's curved edges are the winglet's own. The tail cone runs on under the tailplane and the fin's top fairing: bridged to its end. The stub pylon's leading edge is the short line between nacelle and fuselage; its trailing edge runs from the exhaust in to the fuselage.",
+  "fuselage.halfWidth": [[39, 1305], [42, 1290], [60, 1265], [100, 1235], [150, 1210], [200, 1190], [250, 1175], [300, 1165], [350, 1157], [400, 1151], [450, 1147], [600, 1146], [1000, 1146], [1500, 1146], [2000, 1146], [2075, 1146], [2082, 1150], [2200, 1157], [2300, 1163], [2400, 1173], [2500, 1186], [2580, 1198], [2700, 1228], [2800, 1250], [2850, 1260], "hidden", {"free": [2923, 1295]}],
+  "wing.leading": [[1225, 1145], [1300, 1045], [1443, 853], [1550, 640], [1700, 340], [1800, 140], [1825, 90]],
+  "wing.trailing": [[1738, 1145], [1745, 1000], [1752, 858], [1792, 720], [1887, 410], [1947, 215], [1970, 140], [1985, 90]],
+  "stabilizer.leading": [[2858, 1268], [2950, 1150], [3050, 1025], [3110, 950], [3130, 932], [3160, 927], [3195, 926]],
+  "stabilizer.trailing": [[3103, 1275], [3130, 1170], [3160, 1060], [3185, 970], [3195, 930]],
+  "engine.outer": [[2070, 955], [2200, 954], [2290, 957]],
+  "engine.inner": [[2070, 1112], [2200, 1114], [2290, 1110]],
+  "pylon.leading": [[2077, 1146], [2077, 1114]],
+  "pylon.trailing": [[2580, 1198], [2540, 1135], [2500, 1072]]
+}

@@ -1,0 +1,576 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "AAR",
+  "name": "2006 livery (saekdong tail)",
+  "kind": "standard",
+  "from": "2006",
+  "description": "A pale gray-white fuselage with the color-stripe 'saekdong' tail: the fin cut into diagonal fields of warm beige (top), yellow, navy (low, at the trailing edge) and a pinkish red along the leading edge, the beige, red and a purple-to-navy sweeping down the aft fuselage and under the tail cone. 'ASIANA AIRLINES' in dark gray capitals just below the forward windows.",
+  "confidence": "high",
+  "drawnOn": "A21N",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:(JPN-Hokkaido)_Asiana_Airlines_Airbus_A321-251NX_HL8534_@_RJCC_2026-06-04.jpg",
+      "title": "(JPN-Hokkaido) Asiana Airlines Airbus A321-251NX HL8534 @ RJCC 2026-06-04 (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Right side, level, 2026-06-04: fin fields, the aft-fuselage sweep, title, flag, colors."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:20240128_Airbus_A330-323_of_Asiana_Airlines_(HL8282)_landing_at_HGH_03.jpg",
+      "title": "20240128 Airbus A330-323 of Asiana Airlines (HL8282) landing at HGH 03 (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Left side from behind, 2024-01-28: the fin design faces forward on the left too (mirrored), title place on the left, then still with the Kumho Asiana wing mark after the title."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:20250407_Boeing_777-28EER_of_Asiana_Airlines_(HL7700)_taking_off_from_SYD.jpg",
+      "title": "20250407 Boeing 777-28EER of Asiana Airlines (HL7700) taking off from SYD (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Right side from below, 2025-04-07: the aft sweep wraps under the belly; title without the wing mark."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:(GBR-London)_Asiana_Airlines_Airbus_A350-941_HL8362_@_EGLL_2025-06-17.jpg",
+      "title": "(GBR-London) Asiana Airlines Airbus A350-941 HL8362 @ EGLL 2025-06-17 (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Right side, 2025-06-17: the same on a widebody; winglet in the tail colors."
+    },
+    {
+      "url": "https://www.insideflyer.com/posts/korean-air-and-asiana-merger-set-for-december-17/",
+      "title": "Korean Air and Asiana merger set for December 17 (InsideFlyer)",
+      "accessed": "2026-11-13",
+      "note": "Legal merger into Korean Air on 2026-12-17; Asiana's last branded flights 2026-12-16."
+    },
+    {
+      "url": "https://www.insideflyer.com/posts/korean-air-to-retire-asiana-brand-in-december",
+      "title": "Korean Air to retire Asiana brand in December (InsideFlyer)",
+      "accessed": "2026-11-13",
+      "note": "Asiana aircraft may keep their paint for months after the merger while repaints into Korean Air's 2025 livery proceed."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#EDEEF2",
+      "name": "pale gray-white",
+      "official": false
+    },
+    "beige": {
+      "hex": "#C3B3A6",
+      "official": false
+    },
+    "yellow": {
+      "hex": "#F7C92C",
+      "official": false
+    },
+    "red": {
+      "hex": "#E2384F",
+      "official": false
+    },
+    "orange": {
+      "hex": "#DE6A4E",
+      "official": false
+    },
+    "purple": {
+      "hex": "#5544A6",
+      "official": false
+    },
+    "navy": {
+      "hex": "#2E2A80",
+      "official": false
+    },
+    "titleGray": {
+      "hex": "#3E3E44",
+      "official": false
+    },
+    "cowl": {
+      "hex": "#DEDDE4",
+      "official": false
+    },
+    "lip": {
+      "hex": "#BFC4C9",
+      "name": "bare metal inlet lip",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B7BCC2",
+      "official": false
+    },
+    "flagRed": {
+      "hex": "#CD2E3A",
+      "official": false
+    },
+    "flagBlue": {
+      "hex": "#0047A0",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "beige sweep, the leading band of the tail colors",
+        "color": "beige",
+        "points": [
+          [
+            0.83,
+            1
+          ],
+          [
+            0.815,
+            0.58
+          ],
+          [
+            0.7,
+            -0.25
+          ],
+          [
+            0.62,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "name": "red sweep",
+        "color": "red",
+        "points": [
+          [
+            0.85,
+            1
+          ],
+          [
+            0.83,
+            0.58
+          ],
+          [
+            0.758,
+            -0.25
+          ],
+          [
+            0.69,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "name": "purple sweep",
+        "color": "purple",
+        "points": [
+          [
+            0.91,
+            1
+          ],
+          [
+            0.9,
+            0.58
+          ],
+          [
+            0.844,
+            -0.25
+          ],
+          [
+            0.79,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "name": "navy tail cone",
+        "color": "navy",
+        "points": [
+          [
+            0.97,
+            1
+          ],
+          [
+            0.94,
+            0.2
+          ],
+          [
+            0.9,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "red",
+    "mirrored": true,
+    "areas": [
+      {
+        "name": "beige top field",
+        "color": "beige",
+        "points": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            0.76
+          ],
+          [
+            0.3,
+            0.52
+          ]
+        ]
+      },
+      {
+        "name": "orange edge along the yellow, low",
+        "color": "orange",
+        "points": [
+          [
+            0.3,
+            0.52
+          ],
+          [
+            0.47,
+            0.04
+          ],
+          [
+            0.5,
+            0
+          ],
+          [
+            0.4,
+            0
+          ],
+          [
+            0.26,
+            0.4
+          ]
+        ],
+        "confidence": "low"
+      },
+      {
+        "name": "yellow diagonal field",
+        "color": "yellow",
+        "points": [
+          [
+            1,
+            0.76
+          ],
+          [
+            0.3,
+            0.52
+          ],
+          [
+            0.47,
+            0.04
+          ],
+          [
+            1,
+            0.3
+          ]
+        ]
+      },
+      {
+        "name": "navy field, low at the trailing edge",
+        "color": "navy",
+        "points": [
+          [
+            1,
+            0.3
+          ],
+          [
+            0.47,
+            0.04
+          ],
+          [
+            0.5,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      3
+    ]
+  },
+  "stabilizer": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "red",
+    "inner": "wingGray",
+    "areas": [
+      {
+        "name": "beige top",
+        "color": "beige",
+        "points": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            0.76
+          ],
+          [
+            0.3,
+            0.52
+          ]
+        ]
+      },
+      {
+        "name": "yellow",
+        "color": "yellow",
+        "points": [
+          [
+            1,
+            0.76
+          ],
+          [
+            0.3,
+            0.52
+          ],
+          [
+            0.47,
+            0.04
+          ],
+          [
+            1,
+            0.3
+          ]
+        ]
+      },
+      {
+        "name": "navy",
+        "color": "navy",
+        "points": [
+          [
+            1,
+            0.3
+          ],
+          [
+            0.47,
+            0.04
+          ],
+          [
+            0.5,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      }
+    ],
+    "confidence": "low",
+    "sourceRefs": [
+      0,
+      3
+    ]
+  },
+  "engines": {
+    "cowling": "cowl",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      3
+    ]
+  },
+  "logos": [
+    {
+      "mark": "AAR/saekdong",
+      "place": "winglets",
+      "at": [
+        0.5,
+        0.5
+      ],
+      "height": 0.9,
+      "colors": [
+        "beige",
+        "yellow",
+        "red",
+        "navy"
+      ],
+      "description": "The tail design repeated on the sharklets/winglets: diagonal fields of beige, yellow, red and navy (drawn here as winglet areas). The same color-stripe symbol is Asiana's brand mark.",
+      "reference": "https://commons.wikimedia.org/wiki/Category:Asiana_Airlines",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        3
+      ]
+    },
+    {
+      "mark": "AAR/kr-flag",
+      "place": "fin",
+      "at": [
+        0.37,
+        0.13
+      ],
+      "height": 0.07,
+      "colors": [
+        "white",
+        "flagRed",
+        "flagBlue",
+        "#111111"
+      ],
+      "description": "A small Taegukgi low on the fin's red, near the root.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Korea.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "AAR/star-alliance",
+      "place": "fuselage",
+      "at": [
+        0.065,
+        0.3
+      ],
+      "height": 0.08,
+      "colors": [
+        "titleGray"
+      ],
+      "description": "The small Star Alliance star just behind the cockpit windows.",
+      "reference": "https://commons.wikimedia.org/wiki/Category:Star_Alliance",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        3
+      ]
+    },
+    {
+      "mark": "AAR/unicef",
+      "place": "fuselage",
+      "at": [
+        0.09,
+        -0.15
+      ],
+      "height": 0.08,
+      "colors": [
+        "#1CABE2"
+      ],
+      "description": "A small cyan 'unicef' logo under the cockpit (Asiana's 'Change for Good' partnership).",
+      "reference": "https://commons.wikimedia.org/wiki/Category:UNICEF_logos",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        2,
+        3
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "ASIANA AIRLINES",
+      "place": "fuselage",
+      "at": [
+        0.179,
+        -0.11
+      ],
+      "height": 0.21,
+      "color": "titleGray",
+      "length": 0.145,
+      "style": "Dark gray capitals just under the forward windows, from door 1 aft: a plain humanist sans, semi-bold, normal width.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Frutiger Bold",
+          "Myriad Pro Semibold",
+          "Helvetica Neue Medium"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Drawn from A321neo HL8534 (2026-06-04, right side), A350 HL8362 (2025-06-17), 777 HL7700 (2025-04-07, from below) and A330 HL8282 (2024-01-28, left side). Until about 2025 a red Kumho Asiana Group wing mark followed the title and 'KUMHO ASIANA GROUP' was lettered aft (HL8282, 2024); 2025-26 photos show neither. The aft-fuselage boundaries are measured on the A321neo and sweep forward toward the belly; the belly itself not seen squarely beyond what HL7700 shows (the colors wrap under the tail). Fin fields measured on the right side and applied mirrored (the left side faces forward the same way, HL8282). Asiana merges into Korean Air on 2026-12-17 (last Asiana-branded flights 2026-12-16); its aircraft are to be repainted into Korean Air's 2025 livery, but no schedule is published and the paint may stay for months after the merger. Re-checked 2026-11-15 on HL8534 (A321neo, the commonest type): the title starts about 2.5 m further aft than drawn (0.179, run 0.145), its cap top just under the window bottoms (cap 0.33 of the radius); the tail sweeps' edges are straight diagonals and stay as corners.",
+  "history": "Replaced Skyarium v1's approximation. Introduced with Asiana's 2006 CI (replacing the 1988 gray-and-stripe scheme); to be superseded by Korean Air's 2025 livery after the December 2026 merger."
+}

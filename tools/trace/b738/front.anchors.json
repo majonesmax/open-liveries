@@ -1,0 +1,44 @@
+{
+  "_about": "Boeing D6-58325-6 (737), 2.2.12 General Dimensions, 737-800 with winglets: page index 42, layers.py --mode fills at scale 12, clip 140,505,500,660 (front; the image's right half is the aircraft's left side; centerline x 2105). Pixels of that raster, line centres.",
+  "fuselage.section": [
+    [2105, 981],
+    [2200, 1003],
+    [2282, 1100],
+    [2297, 1200],
+    [2295, 1230]
+  ],
+  "wing.upper": [
+    [2320, 1255],
+    [2500, 1257],
+    [3000, 1228],
+    [3500, 1186],
+    [3900, 1152],
+    [3940, 1125],
+    [3965, 1080],
+    [4000, 975],
+    [4040, 842]
+  ],
+  "wing.lower": [
+    [2320, 1361],
+    "hidden",
+    [2780, 1302],
+    [3000, 1279],
+    [3500, 1225],
+    [3900, 1183],
+    [3950, 1156],
+    [3980, 1080],
+    [4048, 845]
+  ],
+  "stabilizer.upper": [
+    [2230, 1017],
+    [2500, 989],
+    [2700, 967],
+    [2860, 947]
+  ],
+  "stabilizer.lower": [
+    [2285, 1082],
+    [2500, 1050],
+    [2700, 1015],
+    [2860, 977]
+  ]
+}

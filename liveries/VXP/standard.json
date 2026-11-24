@@ -1,0 +1,342 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "VXP",
+  "name": "Avelo (2021 launch livery)",
+  "kind": "standard",
+  "from": "2021-04",
+  "confidence": "medium",
+  "drawnOn": "B738",
+  "description": "White fuselage; a purple sweep rises from the belly behind the wing to the fin, covering the aft fuselage and tail cone; 'avelo' in large purple lower case across the forward windows; the fin purple with Avelo's mark (stacked chevrons in gold, white and teal) and 'avelo' in white; purple engines.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Avelo_Airlines",
+      "title": "Wikipedia: Avelo Airlines",
+      "accessed": "2026-11-13",
+      "note": "Launched April 2021 in this livery."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Avelo_Boeing_737-800_N812VL_BWI_MD1.jpg",
+      "title": "Avelo Boeing 737-800 N812VL BWI MD1.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "N812VL left side, 2026-09-24: geometry, titles, fin mark."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F3F5",
+      "official": false
+    },
+    "purple": {
+      "hex": "#4B1E91",
+      "official": false,
+      "name": "Avelo purple"
+    },
+    "gold": {
+      "hex": "#F2C230",
+      "official": false
+    },
+    "teal": {
+      "hex": "#48C2C5",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false
+    },
+    "flagRed": {
+      "hex": "#B22234",
+      "official": false
+    },
+    "flagNavy": {
+      "hex": "#1F2A5C",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "purple sweep: aft lower fuselage rising to the fin, and the tail cone",
+        "color": "purple",
+        "points": [
+          [
+            0.5100671140939598,
+            -1
+          ],
+          [
+            0.523,
+            -1.0
+          ],
+          [
+            0.631,
+            -0.478
+          ],
+          [
+            0.738,
+            -0.116
+          ],
+          [
+            0.819,
+            0.35
+          ],
+          [
+            0.866,
+            1.0
+          ],
+          [
+            0.8791946308724832,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "sourceRefs": [
+          1
+        ],
+        "smooth": true
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "fin": {
+    "base": "purple",
+    "areas": [
+      {
+        "name": "teal bar at the top of the mark",
+        "color": "teal",
+        "points": [
+          [
+            0.972,
+            0.9
+          ],
+          [
+            0.123,
+            0.888
+          ],
+          [
+            0.248,
+            0.829
+          ],
+          [
+            0.957,
+            0.841
+          ]
+        ],
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "white chevron",
+        "color": "white",
+        "points": [
+          [
+            0.946,
+            0.735
+          ],
+          [
+            0.135,
+            0.723
+          ],
+          [
+            0.787,
+            0.221
+          ],
+          [
+            0.876,
+            0.221
+          ],
+          [
+            0.421,
+            0.664
+          ],
+          [
+            0.937,
+            0.676
+          ]
+        ],
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "gold chevron",
+        "color": "gold",
+        "points": [
+          [
+            0.93,
+            0.575
+          ],
+          [
+            0.095,
+            0.563
+          ],
+          [
+            0.73,
+            0.032
+          ],
+          [
+            0.821,
+            0.032
+          ],
+          [
+            0.353,
+            0.504
+          ],
+          [
+            0.924,
+            0.516
+          ]
+        ],
+        "sourceRefs": [
+          1
+        ]
+      }
+    ],
+    "mirrored": false,
+    "confidence": "medium",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "purple",
+    "inner": "purple",
+    "confidence": "medium",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "purple",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "VXP/chevrons",
+      "place": "fin",
+      "at": [
+        0.644,
+        0.516
+      ],
+      "height": 0.6,
+      "colors": [
+        "gold",
+        "white",
+        "teal"
+      ],
+      "description": "Avelo's mark: stacked open chevrons (a gold one lowest and largest, a white one, a short teal bar at the top) pointing forward, on the aft fin; small on the winglets too.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Avelo_Airlines_logo.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "VXP/us-flag",
+      "place": "fuselage",
+      "at": [
+        0.733,
+        0.636
+      ],
+      "height": 0.114,
+      "colors": [
+        "flagRed",
+        "white",
+        "flagNavy"
+      ],
+      "description": "A small US flag after the registration.",
+      "confidence": "low",
+      "sourceRefs": [
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "avelo",
+      "place": "fuselage",
+      "at": [
+        0.155,
+        -0.29
+      ],
+      "height": 1.02,
+      "color": "purple",
+      "style": "Avelo's wordmark: large, rounded, medium-heavy lower case in purple across the forward windows from behind the door to the wing.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "Gilroy Bold",
+          "Avenir Next Demi Bold"
+        ],
+        "weight": 650,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.78
+      },
+      "length": 0.223
+    },
+    {
+      "text": "avelo",
+      "place": "fin",
+      "at": [
+        0.176,
+        0.11
+      ],
+      "height": 0.075,
+      "color": "white",
+      "style": "The wordmark small in white low on the fin's forward part.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "Gilroy Bold",
+          "Avenir Next Demi Bold"
+        ],
+        "weight": 650,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.78
+      },
+      "length": 0.365
+    }
+  ],
+  "notes": "Drawn from one photo, N812VL (737-800, Sept 2026), left side, slightly from ahead. The belly under the purple sweep isn't seen; it's taken as purple aft of the sweep. Re-checked 2026-11-15 on N812VL against its windows and forward door (the photo is too far ahead of the aircraft for a reliable fit to the measured shape): the title starts about 0.9 m aft of the forward door's middle (x 0.155; it had been drawn over the door) and runs to x 0.378, baseline about 1.4 m under the window line (y -0.29), the l's top y 0.73, lowercase 0.78 of it; the fin title runs from 0.18 to 0.54 of the chord just above the root. The sweep's edge is a gentle curve, now smooth.",
+  "history": "Replaces Skyarium v1's approximate standard (a few colors from memory)."
+}

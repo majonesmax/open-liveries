@@ -1,0 +1,439 @@
+{
+ "$schema": "../schema/shape.schema.json",
+ "id": "DH8D",
+ "name": "De Havilland Canada Dash 8-400",
+ "types": [
+  "DH8D"
+ ],
+ "confidence": "high",
+ "sources": [
+  {
+   "url": "https://customer.aero.bombardier.com/webd/BAG/CustSite/BRAD/RACSDocument.nsf/51aae8b2b3bfdf6685256c300045ff31/ec63f8639ff3ab9d85257c1500635bd8/$FILE/ATTNBEOB.pdf/D8400-APM.pdf",
+   "title": "Bombardier, Dash 8 Series 400 Airport Planning Manual (Dec 05/2014): Figure 2-2 Aircraft Dimensions, Figure 2-4 Ground Clearances, Figure 2-11 Passenger Compartment Cross Section, Figures 2-18 to 2-22 Door Clearances, Figure 2-26 Emergency Exit Locations",
+   "accessed": "2026-11-16",
+   "note": "Dimensions and outlines read off Figure 2-2's side, plan and front views (tools/trace/dh8d/); the figures are the aircraft's measurements, not a copy of the drawing. The side view is drawn at the ground attitude and was turned level (1.26 degrees); the plan view is drawn turned and 0.896 times the side view's size and was rendered to its scale. The side view draws the fuselage 2.55 m tall, as the ground clearances put the crown 2.57 m over the belly (Figure 2-4) and the front view 2.59 m; the cross section prints its width (2.69 m), which the plan and front view draw. The nacelle hides 15 cabin windows in the side view: they're placed on the drawn windows' pitch. Doors' sides from each door's own clearance figure: the forward passenger (airstair) door, aft passenger door and aft baggage door on the left; the forward baggage door/Type I exit and the aft service door on the right (the service door at the passenger door's place, as its figure prints it, its opening 0.16 m shorter). Six-bladed propellers, 4.11 m across (Figure 2-26 sheet 3, Scope)."
+  },
+  {
+   "url": "https://commons.wikimedia.org/wiki/File:Porter_Airlines_(Dash8-400)_12.jpg",
+   "title": "Porter Airlines Dash 8-400 C-GLQE, right side (Fabian Roudra Baroi, CC BY-SA 4.0)",
+   "accessed": "2026-11-16",
+   "note": "Checked only: the cabin window row runs unbroken behind the propeller and nacelle, at about the drawn windows' pitch (0.50 m between the forward baggage door and the aft service door), as the windows placed behind the nacelle assume. No measurement taken from it."
+  }
+ ],
+ "fuselage": {
+  "length": 31.04,
+  "crown": [
+   [0.0, -0.825],
+   [0.019, -0.742],
+   [0.082, -0.65],
+   [0.196, -0.542],
+   [0.393, -0.388],
+   [0.575, -0.265],
+   [1.064, 0.046],
+   [1.682, 0.395],
+   [1.803, 0.482],
+   [2.19, 0.783],
+   [2.422, 0.939],
+   [2.679, 1.072],
+   [2.94, 1.17],
+   [3.231, 1.242],
+   [3.528, 1.277],
+   [10.107, 1.257],
+   [21.547, 1.268],
+   [29.386, 1.154],
+   [30.016, 1.133],
+   [30.224, 1.11],
+   [30.421, 1.075],
+   [30.739, 0.99],
+   [30.903, 0.932],
+   [30.984, 0.881],
+   [30.998, 0.859],
+   [31.008, 0.801],
+   [31.04, 0.791]
+  ],
+  "belly": [
+   [0.0, -0.825],
+   [0.007, -0.875],
+   [0.029, -0.922],
+   [0.062, -0.963],
+   [0.104, -0.999],
+   [0.206, -1.054],
+   [0.389, -1.099],
+   [0.905, -1.156],
+   [1.601, -1.208],
+   [2.159, -1.238],
+   [2.778, -1.256],
+   [4.218, -1.265],
+   [21.648, -1.261],
+   [22.268, -1.259],
+   [22.637, -1.248],
+   [23.026, -1.218],
+   [23.422, -1.168],
+   [23.816, -1.103],
+   [24.504, -0.975],
+   [25.506, -0.781],
+   [27.486, -0.383],
+   [29.607, 0.072],
+   [29.887, 0.146],
+   [30.133, 0.224],
+   [30.365, 0.313],
+   [30.581, 0.412],
+   [30.753, 0.507],
+   [30.906, 0.613],
+   [30.955, 0.658],
+   [30.984, 0.696],
+   [31.007, 0.781],
+   [31.04, 0.791]
+  ],
+  "halfWidth": [
+   [0.0, 0.002],
+   [0.012, 0.069],
+   [0.044, 0.117],
+   [0.084, 0.159],
+   [0.2, 0.249],
+   [0.396, 0.367],
+   [0.829, 0.595],
+   [1.055, 0.704],
+   [1.35, 0.828],
+   [1.716, 0.96],
+   [2.427, 1.164],
+   [2.918, 1.259],
+   [3.135, 1.29],
+   [3.484, 1.324],
+   [3.993, 1.342],
+   [23.753, 1.337],
+   [24.252, 1.304],
+   [24.52, 1.278],
+   [29.78, 0.633],
+   [29.886, 0.611],
+   [30.009, 0.573],
+   [31.04, 0.194]
+  ],
+  "widest": -0.086
+ },
+ "fin": {
+  "leading": [
+   [26.938, 1.19],
+   [29.364, 4.904],
+   [29.394, 4.99],
+   [29.382, 5.05],
+   [29.348, 5.088],
+   [29.206, 5.197],
+   [29.173, 5.24],
+   [29.15, 5.288],
+   [29.138, 5.34],
+   [29.138, 5.384],
+   [29.149, 5.436],
+   [29.168, 5.475],
+   [29.221, 5.535],
+   [29.309, 5.587],
+   [29.419, 5.626],
+   [29.625, 5.681]
+  ],
+  "trailing": [
+   [30.969, 1.09],
+   [31.021, 1.198],
+   [31.103, 1.402],
+   [32.42, 4.837],
+   [32.464, 4.923],
+   [32.516, 4.988],
+   [32.583, 5.04],
+   [32.752, 5.142],
+   [32.795, 5.185],
+   [32.82, 5.229],
+   [32.836, 5.289],
+   [32.844, 5.364],
+   [32.846, 5.689]
+  ],
+  "fillet": [
+   [17.035, 1.269],
+   [17.269, 1.383],
+   [17.387, 1.432],
+   [17.491, 1.46],
+   [17.618, 1.473],
+   [22.377, 1.517],
+   [22.667, 1.529],
+   [27.586, 2.314]
+  ],
+  "rudder": [
+   [29.958, 1.215],
+   [31.423, 5.002]
+  ]
+ },
+ "wing": {
+  "leading": [
+   [1.355, 13.56],
+   [1.423, 13.577],
+   [1.581, 13.593],
+   [3.403, 13.747],
+   [4.136, 13.819],
+   [5.173, 13.894],
+   [13.568, 14.667],
+   [13.746, 14.688],
+   [13.871, 14.714],
+   [13.953, 14.745],
+   [14.003, 14.783]
+  ],
+  "trailing": [
+   [1.342, 16.677],
+   [1.38, 16.668],
+   [1.52, 16.665],
+   [3.985, 16.664],
+   [4.176, 16.633],
+   [4.892, 16.446],
+   [5.138, 16.411],
+   [13.904, 15.919],
+   [14.142, 15.902],
+   [14.199, 15.886]
+  ],
+  "z": [
+   [1.394, 1.281],
+   [3.534, 1.295],
+   [4.904, 1.324],
+   [14.213, 1.666]
+  ]
+ },
+ "stabilizer": {
+  "leading": [
+   [0.443, 29.887],
+   [0.573, 29.892],
+   [0.771, 29.913],
+   [2.535, 30.152],
+   [4.358, 30.402],
+   [4.525, 30.429],
+   [4.605, 30.453]
+  ],
+  "trailing": [
+   [0.443, 31.927],
+   [1.163, 31.939],
+   [4.353, 31.939],
+   [4.542, 31.936],
+   [4.605, 31.927]
+  ],
+  "z": [
+   [0.279, 5.322],
+   [4.541, 5.349]
+  ],
+  "mount": "fin"
+ },
+ "engines": [
+  {
+   "x": [11.437, 18.949],
+   "y": 4.391,
+   "top": [
+    [11.437, 1.34],
+    [11.968, 1.44],
+    [12.522, 1.516],
+    [12.941, 1.549],
+    [13.54, 1.566],
+    [13.93, 1.55],
+    [17.651, 1.299],
+    [17.789, 1.279],
+    [17.934, 1.245],
+    [18.036, 1.209],
+    [18.123, 1.164],
+    [18.267, 1.059],
+    [18.949, 0.508]
+   ],
+   "bottom": [
+    [11.437, 0.478],
+    [11.585, 0.097],
+    [11.648, -0.02],
+    [11.69, -0.064],
+    [11.743, -0.094],
+    [11.813, -0.114],
+    [11.9, -0.122],
+    [17.809, -0.098],
+    [18.078, -0.076],
+    [18.373, -0.027],
+    [18.655, 0.041],
+    [18.949, 0.133]
+   ],
+   "inlet": {
+    "z": 0.082,
+    "width": 0.699,
+    "height": 0.379
+   },
+   "propeller": {
+    "x": 11.196,
+    "z": 0.911,
+    "diameter": 4.108,
+    "blades": 6,
+    "spinner": {
+     "x": [10.417, 11.437],
+     "diameter": 0.853
+    }
+   },
+   "halfWidth": [
+    [11.35, 0.452],
+    [13.76, 0.451],
+    [15.74, 0.411],
+    [16.468, 0.447],
+    [17.268, 0.443],
+    [17.486, 0.422],
+    [17.743, 0.383],
+    [18.359, 0.248],
+    [18.618, 0.174],
+    [18.806, 0.109],
+    [18.919, 0.053],
+    [18.966, 0.0]
+   ]
+  }
+ ],
+ "cabin": {
+  "windows": {
+   "z": [-0.0, 0.453],
+   "width": 0.275,
+   "x": [
+    6.07,
+    6.634,
+    7.2,
+    7.737,
+    8.251,
+    8.761,
+    9.29,
+    9.789,
+    10.286,
+    10.813,
+    11.333,
+    11.853,
+    12.374,
+    12.894,
+    13.414,
+    13.938,
+    14.459,
+    14.979,
+    15.499,
+    16.019,
+    16.54,
+    17.06,
+    17.58,
+    18.1,
+    18.625,
+    19.622,
+    20.121,
+    20.635,
+    21.135
+   ]
+  },
+  "doors": [
+   {
+    "kind": "door",
+    "x": [4.607, 5.311],
+    "z": [-0.808, 0.982],
+    "side": "left"
+   },
+   {
+    "kind": "cargo",
+    "x": [6.368, 6.921],
+    "z": [-0.783, 0.612],
+    "side": "right"
+   },
+   {
+    "kind": "door",
+    "x": [21.522, 22.225],
+    "z": [-0.812, 0.965],
+    "side": "left"
+   },
+   {
+    "kind": "door",
+    "x": [21.522, 22.225],
+    "z": [-0.812, 0.807],
+    "side": "right"
+   },
+   {
+    "kind": "cargo",
+    "x": [23.049, 24.368],
+    "z": [-0.858, 0.728],
+    "side": "left"
+   }
+  ]
+ },
+ "cockpit": {
+  "windows": [
+   [
+    [1.698, 0.407],
+    [1.803, 0.482],
+    [2.19, 0.783],
+    [2.26, 0.83],
+    [2.784, 0.803],
+    [2.364, 0.337]
+   ],
+   [
+    [2.784, 0.803],
+    [3.509, 0.782],
+    [3.509, 0.324],
+    [2.385, 0.337]
+   ],
+   [
+    [3.509, 0.782],
+    [3.717, 0.724],
+    [3.904, 0.57],
+    [3.717, 0.391],
+    [3.509, 0.324]
+   ]
+  ]
+ },
+ "checks": [
+  {
+   "dimension": "fuselage length",
+   "printed": 31.04,
+   "shape": 31.04,
+   "off": "+0.0%"
+  },
+  {
+   "dimension": "fuselage width",
+   "printed": 2.69,
+   "shape": 2.684,
+   "off": "-0.2%"
+  },
+  {
+   "dimension": "wingspan",
+   "printed": 28.42,
+   "shape": 28.398,
+   "off": "-0.1%"
+  },
+  {
+   "dimension": "tailplane span",
+   "printed": 9.27,
+   "shape": 9.21,
+   "off": "-0.6%"
+  },
+  {
+   "dimension": "overall length",
+   "printed": 32.83,
+   "shape": 32.846,
+   "off": "+0.0%"
+  },
+  {
+   "dimension": "engine out from the centerline",
+   "printed": 4.4,
+   "shape": 4.391,
+   "off": "-0.2%"
+  },
+  {
+   "dimension": "propellers apart",
+   "printed": 8.8,
+   "shape": 8.782,
+   "off": "-0.2%"
+  },
+  {
+   "dimension": "propeller diameter",
+   "printed": 4.11,
+   "shape": 4.108,
+   "off": "-0.0%"
+  },
+  {
+   "dimension": "aft passenger door from the nose",
+   "printed": 21.88,
+   "shape": 21.873,
+   "off": "-0.0%"
+  },
+  {
+   "dimension": "aft service door from the nose",
+   "printed": 21.88,
+   "shape": 21.873,
+   "off": "-0.0%"
+  }
+ ]
+}

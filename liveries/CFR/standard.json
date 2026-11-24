@@ -1,0 +1,371 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "CFR",
+  "name": "CAL FIRE white and red (C-130H airtanker)",
+  "kind": "standard",
+  "from": "2024",
+  "confidence": "medium",
+  "drawnOn": "C30J",
+  "description": "CAL FIRE's airtanker scheme on its C-130H Hercules (ex-U.S. Coast Guard HC-130Hs): overall white. Across the aft fuselage, leaning forward from the crown to the belly, a thin black line, a broad red band, two thin black pinstripes on white, a second broad red band and a thin black line, carried up the dorsal fillet into the fin. 'CAL FIRE' in red bold italic capitals with a black drop shadow behind the flight deck, 'CAL' over 'FIRE' and stepped: on the left 'CAL' forward and 'FIRE' below it set aft, on the right the other way round, so the stack leans back on both sides; CAL FIRE's emblem just ahead of it, under the cockpit's side windows. A thin red line round the fuselage at the propellers' plane. On the fin, from the top: a black tip with 'CAL FIRE' in white, a thin white line, red with the tanker number in big white figures shadowed in black, a thin white line, a black stripe, and white down to the root with the aircraft's registration in black italic capitals. The nacelles black. California's flag on the right side of the fuselage over the main gear sponson. Drawn on the C-130J shape (shapes/C30J.json, which serves C130 too). The S-2T airtankers and the OV-10 air-attack planes wear the same scheme placed for their own shapes: CFR/s-2t and CFR/ov-10.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N466DF_C-130H,_CAL_Fire,_McClellan_07-18-26.jpg",
+      "title": "CAL FIRE C-130H N466DF (Tanker 118) at McClellan, 2026-07-18, right side (Duncan Kirk, CC BY 4.0)",
+      "accessed": "2026-11-22",
+      "note": "The measuring photo (only measurements are taken): flipped nose-left and fitted to shapes/C30J.json at the nose, the tail cone (under the tailplane, estimated), the crown and belly 5 m back and the right paratroop door's middle (tools/photo_trace.py, within 20 px; the fin left out of the fit: the shape's fin, the C-130A's, leans further forward at the top than the photo's). The stripes' twelve edges (each traced at 15-35 heights and fitted as a straight line in side view), the titles, the emblem, the flag, the prop line; the fin's bands by their heights; the fin's lettering as shares of its chord, read off the photo."
+    },
+    {
+      "url": "https://www.dvidshub.net/image/8949240/california-capital-airshow-2025",
+      "title": "CAL FIRE C-130H Tanker 122 over Mather at the California Capital Airshow, 2025-03-23, from below (U.S. Air Force photo by Senior Airman Frederick A. Brown, public domain)",
+      "accessed": "2026-11-22",
+      "note": "The underside (a check, not measured): the stripes round the aft fuselage, '122' in red under the nose, the wings' undersides white with red bands near the tips and at the roots, 'CAL' under the right wing and 'FIRE' under the left, the nacelles' undersides black to the trailing edge."
+    },
+    {
+      "url": "https://www.fire.ca.gov/-/media/calfire-website/what-we-do/fire-protection/aviation-program/c-130_2024.pdf",
+      "title": "CAL FIRE, C-130H Airtanker fact sheet (2024), with a photo of a C-130H's left side in the hangar (CAL FIRE)",
+      "accessed": "2026-11-22",
+      "note": "Not measured (not openly licensed): the left side's arrangement only, 'CAL' forward over 'FIRE' set aft, the emblem ahead of them, the same stripes and fin. The fleet: seven ex-Coast Guard HC-130Hs transferred under the 2024 NDAA, the first in service at McClellan on 2024-08-26."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Logo_of_CAL_FIRE.svg",
+      "title": "Logo of CAL FIRE (California Department of Forestry and Fire Protection; public domain on Commons)",
+      "accessed": "2026-11-22",
+      "note": "The emblem as the aircraft carry it, for its description and our own simplified mark (CFR/emblem): a shield edged in black and gold, the department's name on a red arch, 'CAL FIRE' on navy, California in gold, a sunburst and a red foot."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F2F4F7"
+    },
+    "red": {
+      "hex": "#D0202E",
+      "official": false,
+      "name": "CAL FIRE red (sampled from the photo in sun, #C20D1A on the fin in shade)"
+    },
+    "black": {
+      "hex": "#1C1F24"
+    },
+    "gold": {
+      "hex": "#F7C21B",
+      "name": "the emblem's gold"
+    },
+    "navy": {
+      "hex": "#22305E",
+      "name": "the emblem's navy"
+    },
+    "emblemRed": {
+      "hex": "#DA2C2E",
+      "name": "the emblem's red"
+    },
+    "flagRed": {
+      "hex": "#C8202F",
+      "name": "the California flag's red"
+    },
+    "bearBrown": {
+      "hex": "#6B4A2B",
+      "name": "the California flag's bear"
+    },
+    "grassGreen": {
+      "hex": "#4E7A3A",
+      "name": "the California flag's grass"
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "windows": "plain",
+    "areas": [
+      {
+        "name": "the red line round the fuselage at the propellers' plane",
+        "color": "red",
+        "points": [
+          [0.3108, 1.0],
+          [0.3134, 1.0],
+          [0.3121, -1.0],
+          [0.3095, -1.0]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [0]
+      },
+      {
+        "name": "the thin black line leading the stripes",
+        "color": "black",
+        "points": [
+          [0.6661, 1.0],
+          [0.6695, 1.0],
+          [0.6128, -1.0],
+          [0.6077, -1.0]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [0, 1]
+      },
+      {
+        "name": "the first broad red band, past a narrow white gap",
+        "color": "red",
+        "points": [
+          [0.6741, 1.0],
+          [0.716, 1.0],
+          [0.6721, -1.0],
+          [0.6201, -1.0]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [0, 1]
+      },
+      {
+        "name": "the first black pinstripe on the white between the red bands",
+        "color": "black",
+        "points": [
+          [0.7227, 1.0],
+          [0.7265, 1.0],
+          [0.6823, -1.0],
+          [0.6779, -1.0]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [0]
+      },
+      {
+        "name": "the second black pinstripe",
+        "color": "black",
+        "points": [
+          [0.7353, 1.0],
+          [0.7387, 1.0],
+          [0.6985, -1.0],
+          [0.6923, -1.0]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [0]
+      },
+      {
+        "name": "the second broad red band",
+        "color": "red",
+        "points": [
+          [0.7437, 1.0],
+          [0.7833, 1.0],
+          [0.7551, -1.0],
+          [0.7065, -1.0]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [0, 1]
+      },
+      {
+        "name": "the thin black line closing the stripes, past a narrow white gap, carried up the fillet into the fin's black stripe",
+        "color": "black",
+        "points": [
+          [0.7893, 1.0],
+          [0.7937, 1.0],
+          [0.7653, -1.0],
+          [0.7602, -1.0]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [0]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [0, 1, 2]
+  },
+  "fin": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "the black stripe low on the fin, from the leading edge (where it runs down the fillet into the fuselage's last black line) to the trailing edge",
+        "color": "black",
+        "points": [
+          [0, 0.184],
+          [1, 0.184],
+          [1, 0.207],
+          [0, 0.207]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [0]
+      },
+      {
+        "name": "the red panel, the rudder's too, between thin white lines",
+        "color": "red",
+        "points": [
+          [0, 0.218],
+          [1, 0.218],
+          [1, 0.73],
+          [0, 0.73]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [0, 2]
+      },
+      {
+        "name": "the black tip",
+        "color": "black",
+        "points": [
+          [0, 0.753],
+          [1, 0.753],
+          [1, 1],
+          [0, 1]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [0, 2]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [0, 2]
+  },
+  "wings": {
+    "top": "white",
+    "under": "white"
+  },
+  "stabilizer": {
+    "top": "white",
+    "under": "white"
+  },
+  "engines": {
+    "cowling": "black",
+    "inletLip": "black",
+    "confidence": "medium",
+    "sourceRefs": [0, 1]
+  },
+  "logos": [
+    {
+      "mark": "CFR/emblem",
+      "place": "fuselage",
+      "at": [0.1145, 0.006],
+      "height": 0.16,
+      "colors": ["black", "gold", "emblemRed", "navy", "white"],
+      "description": "CAL FIRE's emblem, a shield about 0.45 m tall under the cockpit's side windows, ahead of the title: edged in black and gold, a red arch with the department's name, 'CAL FIRE' in white on navy, California in gold with a sunburst, a red foot (our own simplified mark).",
+      "reference": "https://commons.wikimedia.org/wiki/File:Logo_of_CAL_FIRE.svg",
+      "confidence": "medium",
+      "sourceRefs": [0, 2, 3]
+    },
+    {
+      "mark": "CFR/bear-flag",
+      "place": "fuselage",
+      "side": "right",
+      "at": [0.4976, -0.2475],
+      "height": 0.3,
+      "colors": ["white", "flagRed", "bearBrown", "grassGreen", "black"],
+      "description": "California's flag, about 1.25 m wide and edged in black, on the right side over the main gear sponson: the grizzly on a green plot and the star on white, 'CALIFORNIA REPUBLIC' under the bear, a red stripe along the foot. Shown unreversed (the star at the aft end on the right side). Not seen on the left side in any photo here.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Flag_of_California.svg",
+      "confidence": "medium",
+      "sourceRefs": [0]
+    }
+  ],
+  "titles": [
+    {
+      "text": "CAL",
+      "place": "fuselage",
+      "side": "left",
+      "at": [0.1331, 0.122],
+      "height": 0.182,
+      "length": 0.0584,
+      "color": "red",
+      "style": "Red bold italic capitals with a black drop shadow, the upper line of the stacked 'CAL FIRE' behind the flight deck; on the left it's the forward one, 'FIRE' below it set aft (CAL FIRE's fact-sheet photo). The L's foot runs on forward in speed lines.",
+      "confidence": "medium",
+      "sourceRefs": [0, 2],
+      "type": {
+        "similar": ["Helvetica Neue Heavy Italic", "Arial Black"],
+        "weight": 900,
+        "slantDeg": 12,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "FIRE",
+      "place": "fuselage",
+      "side": "left",
+      "at": [0.1626, -0.075],
+      "height": 0.17,
+      "length": 0.0656,
+      "color": "red",
+      "style": "The lower line of the stack, set aft of 'CAL' on the left, its F's arms run on forward in speed lines.",
+      "confidence": "medium",
+      "sourceRefs": [0, 2],
+      "type": {
+        "similar": ["Helvetica Neue Heavy Italic", "Arial Black"],
+        "weight": 900,
+        "slantDeg": 12,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "CAL",
+      "place": "fuselage",
+      "side": "right",
+      "at": [0.1698, 0.122],
+      "height": 0.182,
+      "length": 0.0584,
+      "color": "red",
+      "style": "On the right the stack is the other way round: 'CAL' above and aft, 'FIRE' below and forward, so it still leans back (measured).",
+      "confidence": "medium",
+      "sourceRefs": [0],
+      "type": {
+        "similar": ["Helvetica Neue Heavy Italic", "Arial Black"],
+        "weight": 900,
+        "slantDeg": 12,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "FIRE",
+      "place": "fuselage",
+      "side": "right",
+      "at": [0.1331, -0.075],
+      "height": 0.17,
+      "length": 0.066,
+      "color": "red",
+      "style": "The lower line on the right, forward, just behind the emblem (measured).",
+      "confidence": "medium",
+      "sourceRefs": [0],
+      "type": {
+        "similar": ["Helvetica Neue Heavy Italic", "Arial Black"],
+        "weight": 900,
+        "slantDeg": 12,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "CAL FIRE",
+      "place": "fin",
+      "at": [0.14, 0.831],
+      "height": 0.042,
+      "length": 0.76,
+      "color": "white",
+      "style": "White bold capitals across the black tip.",
+      "confidence": "medium",
+      "sourceRefs": [0, 2],
+      "type": {
+        "similar": ["Helvetica Neue Heavy", "Arial Black"],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "N466DF",
+      "registration": true,
+      "place": "fin",
+      "at": [0.3, 0.096],
+      "height": 0.058,
+      "length": 0.39,
+      "color": "black",
+      "style": "The aircraft's registration (N466DF in the measuring photo) in black bold italic capitals on the white under the fin's black stripe.",
+      "confidence": "medium",
+      "sourceRefs": [0],
+      "type": {
+        "similar": ["Helvetica Neue Bold Italic", "Arial Bold Italic"],
+        "weight": 800,
+        "slantDeg": 10,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Measured off N466DF (Tanker 118, right side, 2026-07-18) flipped and fitted to shapes/C30J.json on the fuselage alone. The stripes: each of the twelve colour edges traced on 15-35 rows and fitted as a straight line in side view (within 0.002-0.009 of the length; the black line's forward edge bows most, steeper near the belly), extrapolated to the crown and belly from what the photo shows (y -0.3 to 0.9). They lean forward by 0.029 of the length crown to belly at the front, easing to 0.014 at the back (the bands are a little wider at the belly than at the crown): kept as measured, not given one lean. The first black line from 18.1 m back at the belly to 19.9 at the crown; the first red band 1.25-1.55 m wide, the second 1.2-1.45; the pinstripes about 0.12 m. The titles: 'FIRE' from 3.97 to 5.93 m back, its caps 0.54 m; 'CAL' from 5.06 to 6.80 m, its caps 0.52 m; the emblem centred 3.41 m back, 0.47 m tall. The left side's titles placed as the stack mirrored (CAL FIRE's own photo shows the arrangement; no openly licensed left-side photo of a C-130H was found). The fin's bands by height (fin space): the white root to 0.184, black to 0.207, white to 0.218, red to 0.730, white to 0.753, black to the tip; '118' from 0.145 to 0.86 of the chord, its baseline at 0.391, 0.171 tall; the registration from 0.30 to 0.69 at 0.096, 0.058 tall; 'CAL FIRE' from 0.14 to 0.90 at 0.831. The shape's fin (the C-130A's drawing) didn't fit this photo's (its top 1-1.5 m further forward), so the fin's lettering is placed by its share of the chord, not by the fit. Not drawn: the wings' red bands (near the tips and at the roots, top and bottom) and 'CAL'/'FIRE' under them, the nacelles' black carried onto the wing's upper surface with a white pinstripe, the tanker number on the belly under the nose ('122' on Tanker 122), the thin red line round the radome's joint, 'PROPELLER' on the red prop line, the black anti-skid walkway, the small red 'NO STEP' and rescue markings. The C-130H's four-blade propellers and its round cabin windows aren't the C-130J shape's (six blades, no windows): a C-130H shape would fit better. The tanker number is per airframe and isn't in the feeds, so every C-130H is drawn as 118; the registration on the fin is the aircraft's own (`registration`). The tanker number on the fin (118 on N466DF, 93 on N450DF) isn't drawn: it's each plane's own and nothing in the feeds or the FAA registry ties a registration to it, so one plane's number on every plane would be wrong."
+}

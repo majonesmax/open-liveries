@@ -1,0 +1,23 @@
+{
+ "_about": "The MD-80's stub pylon from above, measured on its own sheet's plan (2.2, the same scan: raw image cropped 460,300,2110,1310, enlarged 4 times, turned 0.25\u00b0 for the scan's skew; its own scale 131.8 px a meter from the printed 45.02 m overall length and 3.35 m width, nose 315, centerline 2524) and written here in the MD-90 plan raster's pixels (md90/plan.anchors.json: nose 250, centerline 3522, 176.13 px a meter), the frame the recipe's other lines are in. Leading edge: the short line between fuselage and nacelle 31.41 m from the nose, from the fuselage's side (1.67 m out) to the nacelle's inner side (1.875 m: the front view's nacelle, 2.70 m out and 1.65 m wide). Trailing edge: from the nacelle's inner side at 36.92 m to the fuselage at 37.52 m (1.153 m out). No engine.outer/inner: the nacelle's middle is the front view's (2.70 m; the plan draws 2.62 m).",
+ "pylon.leading": [
+  [
+   5782.2,
+   3816.1
+  ],
+  [
+   5782.2,
+   3852.2
+  ]
+ ],
+ "pylon.trailing": [
+  [
+   6858.4,
+   3725.1
+  ],
+  [
+   6752.7,
+   3852.2
+  ]
+ ]
+}

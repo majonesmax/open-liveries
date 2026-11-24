@@ -1,0 +1,356 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "SKY",
+  "name": "Skymark",
+  "kind": "standard",
+  "confidence": "medium",
+  "drawnOn": "B738",
+  "description": "White, with a navy fin and dorsal fillet carrying the Skymark star large in orange-gold, yellow and gray, running off the trailing edge. 'SKY' in heavy oblique navy capitals over the forward windows, followed by a navy slanted block with the star; small 'SKYMARK AIRLINES' over the aft windows. White engines; white winglets with a red heart. The 737 MAX 8s (from May 2026) add a navy rear fuselage behind a curve from the belly to the fin.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:(JPN-Tokyo)_Skymark_Airlines_Boeing_737-8HX_JA73NA_@_RJTT_2026-06-10.jpg",
+      "title": "(JPN-Tokyo) Skymark Airlines Boeing 737-8HX JA73NA @ RJTT 2026-06-10.jpg (CC BY 4.0, S5A-0043)",
+      "accessed": "2026-11-22",
+      "note": "JA73NA (737-800) left side, side-on from above at Haneda, 2026-06-10: fitted to the measured 737-800 shape (nose, fin tip, both doors, within 9 px); the titles' ends and heights, the title's star block, the fin's star."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:(JPN-Tokyo)_Skymark_Airlines_Boeing_737-8HX_JA737N_@_RJTT_2026-06-09.jpg",
+      "title": "(JPN-Tokyo) Skymark Airlines Boeing 737-8HX JA737N @ RJTT 2026-06-09.jpg (CC BY 4.0, S5A-0043)",
+      "accessed": "2026-11-22",
+      "note": "JA737N (737-800) right side, Haneda, 2026-06-09: 'SKY' reads normally with the star block after it, toward the nose (so the block sits at the group's forward end on this side); the fin's star shaded as a mirror of the left's."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:(JPN-Tokyo)_Skymark_Airlines_Boeing_737-8FZ_JA737U_@_RJTT_2026-06-10.jpg",
+      "title": "(JPN-Tokyo) Skymark Airlines Boeing 737-8FZ JA737U @ RJTT 2026-06-10.jpg (CC BY 4.0, S5A-0043)",
+      "accessed": "2026-11-22",
+      "note": "JA737U (737-800) left side from ahead, 2026-06-10: the fin's star close up (orange-gold, yellow and gray facets), the red hearts on the white winglets."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:(JPN-Tokyo)_Skymark_Airlines_Boeing_737_MAX_8_JA738A_@_RJTT_2026-06-10.jpg",
+      "title": "(JPN-Tokyo) Skymark Airlines Boeing 737 MAX 8 JA738A @ RJTT 2026-06-10.jpg (CC BY 4.0, S5A-0043)",
+      "accessed": "2026-11-22",
+      "note": "JA738A (737 MAX 8) left side, 2026-06-10: fitted to the measured 737 MAX 8 shape; the navy rear fuselage the MAX adds."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:JA73NY_Haneda_Airport_30-5-2026.jpg",
+      "title": "JA73NY Haneda Airport 30-5-2026.jpg (CC BY 4.0, BWard 1997)",
+      "accessed": "2026-11-22",
+      "note": "JA73NY (737-800) right side, Haneda, 2026-05-30: the right side as on JA737N."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F6",
+      "official": false
+    },
+    "navy": {
+      "hex": "#2C2C7C",
+      "official": false,
+      "name": "Skymark navy (blue-violet)"
+    },
+    "starOrange": {
+      "hex": "#E9A532",
+      "official": false,
+      "name": "the star's orange-gold facets"
+    },
+    "starYellow": {
+      "hex": "#EDD54A",
+      "official": false,
+      "name": "the star's yellow facets"
+    },
+    "starGray": {
+      "hex": "#8C929E",
+      "official": false,
+      "name": "the star's gray facet"
+    },
+    "heartRed": {
+      "hex": "#D0202E",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "fin": {
+    "base": "navy",
+    "rudder": "navy",
+    "fillet": "navy",
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "white",
+    "inner": "white",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "SKY/star",
+      "place": "fin",
+      "at": [
+        0.72,
+        0.46
+      ],
+      "height": 0.62,
+      "colors": [
+        "starOrange",
+        "starYellow",
+        "starGray"
+      ],
+      "description": "The Skymark star, large on the navy fin and running off its trailing edge: a five-pointed star leaning a little aft, its upper and forward part orange-gold, the rest yellow, the lower forward point gray. Mirrored on the right side (the gray toward the leading edge on both).",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "SKY/star-block",
+      "place": "fuselage",
+      "side": "left",
+      "at": [
+        0.328,
+        0.24
+      ],
+      "height": 1.19,
+      "colors": [
+        "navy",
+        "starOrange",
+        "starYellow",
+        "starGray"
+      ],
+      "description": "The star block after 'SKY': a navy parallelogram slanted like the letters, the Skymark star (orange-gold, yellow and gray facets) over its first end, rising above it. As on the right side the block follows the word, it sits at the group's forward end there; the picture isn't reversed (mirror false).",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ]
+    },
+    {
+      "mark": "SKY/star-block",
+      "place": "fuselage",
+      "side": "right",
+      "at": [
+        0.185,
+        0.24
+      ],
+      "height": 1.19,
+      "colors": [
+        "navy",
+        "starOrange",
+        "starYellow",
+        "starGray"
+      ],
+      "description": "The star block after 'SKY': a navy parallelogram slanted like the letters, the Skymark star (orange-gold, yellow and gray facets) over its first end, rising above it. As on the right side the block follows the word, it sits at the group's forward end there; the picture isn't reversed (mirror false).",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        4
+      ]
+    },
+    {
+      "mark": "SKY/heart",
+      "place": "winglets",
+      "at": [
+        0.5,
+        0.32
+      ],
+      "height": 0.22,
+      "colors": [
+        "heartRed"
+      ],
+      "description": "A red heart low on the white winglet.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "SKY",
+      "place": "fuselage",
+      "side": "left",
+      "at": [
+        0.145,
+        -0.1
+      ],
+      "height": 0.57,
+      "length": 0.135,
+      "color": "navy",
+      "style": "Skymark's wordmark, large heavy oblique navy capitals across the forward windows behind the door (the glass through the letters), the star block after it in reading order (aft on the left side, forward on the right).",
+      "type": {
+        "similar": [
+          "Futura Extra Bold Oblique",
+          "Avenir Next Heavy Italic"
+        ],
+        "weight": 900,
+        "slantDeg": 18,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ]
+    },
+    {
+      "text": "SKY",
+      "place": "fuselage",
+      "side": "right",
+      "at": [
+        0.233,
+        -0.1
+      ],
+      "height": 0.57,
+      "length": 0.135,
+      "color": "navy",
+      "style": "Skymark's wordmark, large heavy oblique navy capitals across the forward windows behind the door (the glass through the letters), the star block after it in reading order (aft on the left side, forward on the right).",
+      "type": {
+        "similar": [
+          "Futura Extra Bold Oblique",
+          "Avenir Next Heavy Italic"
+        ],
+        "weight": 900,
+        "slantDeg": 18,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        4
+      ]
+    },
+    {
+      "text": "SKYMARK AIRLINES",
+      "place": "fuselage",
+      "at": [
+        0.686,
+        0.33
+      ],
+      "height": 0.12,
+      "length": 0.097,
+      "color": "navy",
+      "style": "Small navy capitals over the aft windows, ahead of the aft door.",
+      "type": {
+        "similar": [
+          "Helvetica Neue Medium",
+          "Arial"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "types": {
+    "B38M": {
+      "note": "The 737 MAX 8s (JA738A, 2026) add a navy rear fuselage: its front edge curves from the belly behind the wing up to the crown just ahead of the fin, the aft door and registration in it. Measured on JA738A fitted to shapes/B38M.json (the photo from above: the edge's top read low).",
+      "confidence": "medium",
+      "sourceRefs": [
+        3
+      ],
+      "fuselage": {
+        "areas": [
+          {
+            "name": "navy rear fuselage behind a curve from the belly to the crown ahead of the fin",
+            "color": "navy",
+            "smooth": true,
+            "points": [
+              [
+                0.728,
+                -1
+              ],
+              [
+                0.748,
+                -0.5
+              ],
+              [
+                0.769,
+                -0.17
+              ],
+              [
+                0.784,
+                0.14
+              ],
+              [
+                0.8,
+                0.6
+              ],
+              [
+                0.813,
+                1
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                1,
+                -1
+              ]
+            ],
+            "confidence": "medium",
+            "sourceRefs": [
+              3
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "notes": "Measured on JA73NA (737-800, left, 2026-06-10) fitted to shapes/B738.json. 'SKY' x 0.145-0.28, baseline y -0.1, cap height to 0.47; the star block x 0.288-0.368 (to the star's top at y 0.76); 'SKYMARK AIRLINES' x 0.686-0.783. On the right side (JA737N, JA73NY) the group reads 'SKY' then the block, so the block is forward of the word there: each is given per side. The fin's star was read against the photo's own fin outline (the fitted fin's trailing edge was ~25 px narrow); its centre x 0.72, y 0.46, 0.62 of the fin tall, clipped by the trailing edge. Not drawn: the thin pale line along the fin's leading edge, the small 'BOEING 737-800' under the aft windows (by type), the registration.",
+  "history": "New 2026-11-22. Skymark flies 737-800s within Japan from Haneda and Kobe; its first 737 MAX 8s entered service on 2026-05-28."
+}

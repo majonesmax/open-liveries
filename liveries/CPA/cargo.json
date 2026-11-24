@@ -1,0 +1,245 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "cargo",
+  "airline": "CPA",
+  "name": "Cathay Cargo",
+  "kind": "standard",
+  "from": "2023-06",
+  "confidence": "medium",
+  "drawnOn": "B748",
+  "description": "The 2015 Cathay brushwing scheme on the freighters with the 2023 cargo title: white, no windows, the dark green fin with the white brushwing, a small green brushwing under the cockpit and 'CATHAY CARGO' in big dark-green serif capitals along the forward fuselage.",
+  "sources": [
+    {
+      "url": "https://news.cathaypacific.com/new-era-begins-for-cathay-pacific-as-airline-unveils-changes-to-aircraft-livery-140099",
+      "accessed": "2026-11-13",
+      "note": "Cathay Pacific's own release on the livery unveiled in November 2015 (brushwing and name enlarged, name moved above the windows, all-green tail)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Cathay_Pacific_B-HPR_run_CX938(Hong_Kong_International_Airport_to_Wuhan_Tianhe_International_Airport)_24-09-2026(4).jpg",
+      "title": "Cathay Pacific B-HPR, A321neo, 2026-09-24 (CC BY-SA 4.0, LN9267)",
+      "accessed": "2026-11-13",
+      "note": "Left side, level: fin and brushwing, titles, nose brushwing, sharklet (measured)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Cathay_Pacific_B-LXI_run_CX766(Vietnam_Ho_Chi_Minh_City_Tan_Son_Nhat_International_Airport_to_Hong_Kong_International_Airport)_18-01-2026.jpg",
+      "title": "Cathay Pacific B-LXI, A350-1000, 2026-01-18 (CC BY-SA 4.0, LN9267)",
+      "accessed": "2026-11-13",
+      "note": "Right side: the brushwing points forward on this side too; same titles on the A350."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Cathay_Pacific_B-HPS_run_CX962(Hong_Kong_International_Airport_to_Hangzhou_Xiaoshan_International_Airport)_17-09-2025.jpg",
+      "title": "Cathay Pacific B-HPS, A321neo, 2025-09-17 (CC BY-SA 4.0, LN9267)",
+      "accessed": "2026-11-13",
+      "note": "From below and the left, climbing: the underside, engines and wings."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Cathay_Pacific_Cargo_B-LJN_run_CX86(Hong_Kong_International_Airport_via_United_States_Ted_Stevens_Anchorage_International_Airport_to_Mexico_Mexico_City_Felipe_Ángeles_International_Airport)_23-10-2025.jpg",
+      "title": "Cathay Pacific Cargo B-LJN run CX86(Hong Kong International Airport via United States Ted Stevens Anchorage International Airport to Mexico Mexico City Felipe Ángeles International Airport) 23-10-2025.jpg",
+      "accessed": "2026-11-13",
+      "note": "B-LJN (747-8F, the first in this title, 2023) left side, 2025-10-23: 'CATHAY CARGO' and the brushwing measured here."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:20251024_Boeing_747-467ERF_of_Cathay_Pacific_Cargo_(B-LIB)_on_final_approach_at_HKG.jpg",
+      "title": "20251024 Boeing 747-467ERF of Cathay Pacific Cargo (B-LIB) on final approach at HKG.jpg",
+      "accessed": "2026-11-13",
+      "note": "B-LIB (747-400ERF) right side, 2025-10-24: the same title on the 747-400ERF."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Cathay_Cargo",
+      "title": "Cathay Cargo (Wikipedia)",
+      "accessed": "2026-11-13",
+      "note": "June 2023: the freighter title changed from 'Cathay Pacific Cargo' to a larger 'Cathay Cargo', first on B-LJN; B-LIA repainted Nov 2024."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F4F5F4",
+      "official": false
+    },
+    "green": {
+      "hex": "#005D5A",
+      "name": "Cathay green",
+      "official": false
+    },
+    "titleGray": {
+      "hex": "#4E5A58",
+      "official": false
+    },
+    "edge": {
+      "hex": "#C9CFCF",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#BBC0C4",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "name": "bare metal inlet lip",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "windows": "hidden",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2,
+      3
+    ]
+  },
+  "fin": {
+    "base": "green",
+    "areas": [
+      {
+        "name": "pale leading edge",
+        "color": "edge",
+        "points": [
+          [
+            -0.05,
+            -0.05
+          ],
+          [
+            0.04,
+            -0.05
+          ],
+          [
+            0.04,
+            1.05
+          ],
+          [
+            -0.05,
+            1.05
+          ]
+        ]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2,
+      3
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "green",
+    "areas": [
+      {
+        "name": "pale leading edge",
+        "color": "edge",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0.28,
+            0
+          ],
+          [
+            0.28,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "pylon": "white",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      3
+    ]
+  },
+  "logos": [
+    {
+      "mark": "CPA/brushwing",
+      "place": "fin",
+      "at": [
+        0.473,
+        0.447
+      ],
+      "height": 0.875,
+      "colors": [
+        "white"
+      ],
+      "description": "The brushwing: a white calligraphic wing like a chevron pointing forward, its upper arm a long brush stroke curving up to a fine tip at the top near the trailing edge with ragged dry-brush edges, its lower arm short and straight back to a point at the fin's root by the trailing edge. Faces forward on both sides.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Cathay_Pacific_logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mark": "CPA/brushwing",
+      "place": "fuselage",
+      "at": [
+        0.105,
+        0.1
+      ],
+      "height": 0.7,
+      "colors": [
+        "green"
+      ],
+      "description": "A small green brushwing under the cockpit windows, ahead of the first door, pointing forward.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Cathay_Pacific_logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        4,
+        5
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "CATHAY CARGO",
+      "place": "fuselage",
+      "at": [
+        0.16,
+        0.08
+      ],
+      "height": 0.62,
+      "length": 0.284,
+      "color": "green",
+      "style": "Large dark-green serif capitals (the Cathay house serif), widely spaced, along the forward main deck below the hump.",
+      "confidence": "medium",
+      "sourceRefs": [
+        4,
+        5
+      ],
+      "type": {
+        "similar": [
+          "Trajan Pro",
+          "Optima",
+          "Times New Roman"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "contrast",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "The passenger 2015 scheme (fin, engines, brushwing) with the freighter title. Since June 2023 'CATHAY CARGO' replaces 'CATHAY PACIFIC CARGO' (cargo-2015) at repaints: in 2024-2026 Commons photos B-LIA, B-LIB, B-LIE, B-LIF, B-LJB, B-LJK and B-LJN wear it, while ten 747-8Fs still carry the older title. Measured on a 747-8F, whose upper-deck hump makes heights approximate. Not drawn: the small Swire mark and registration aft, and the 2026 '80 years together' badge. B-LJE flies a 2026 80th-anniversary retro (green stripes, 'CATHAY PACIFIC' in red), not this scheme. Re-checked 2026-11-15: the title's start and length agree with a second photo to within 0.01; heights left, since the 747's hump has no measured shape yet.",
+  "history": "The freighter title changed with the 2023 Cathay Cargo brand (B-LJN first, June 2023); it replaces cargo-2015 at repaints."
+}

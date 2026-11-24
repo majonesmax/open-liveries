@@ -1,0 +1,430 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "AMX",
+  "name": "2017 livery",
+  "kind": "standard",
+  "from": "2017",
+  "confidence": "medium",
+  "drawnOn": "B38M",
+  "description": "White fuselage; navy over the aft fuselage from the crown behind the wing sweeping down to the tail cone, edged with a mid-blue line; a red swoosh of two thin lines, meeting in a point behind the forward door, runs aft along the window line to over the wing; 'AEROMEXICO' in navy capitals over the forward windows with a small Mexican flag; the fin navy with the white Eagle Knight head and a red tip; navy engines and winglets.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Aerom%C3%A9xico",
+      "title": "Wikipedia: Aeroméxico",
+      "accessed": "2026-11-13"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Aeroméxico_Boeing_737-8_MAX_XA-DAE_on_final_approach_to_Boston_July_2025.jpg",
+      "title": "Aeroméxico Boeing 737-8 MAX XA-DAE on final approach to Boston July 2025.jpg (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "XA-DAE right side, 2025-07-20: geometry, title, fin; mirrored for the left."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Aeromexico_Boeing_737-8_MAX_N110JS_IAD_VA1.jpg",
+      "title": "Aeromexico Boeing 737-8 MAX N110JS IAD VA1.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "N110JS left side from ahead and below, 2025-04-30: the same layout on the left, engines."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F2F3F5",
+      "official": false
+    },
+    "navy": {
+      "hex": "#0B2343",
+      "official": false,
+      "name": "Aeroméxico navy"
+    },
+    "blue": {
+      "hex": "#1F5FA8",
+      "official": false,
+      "name": "mid-blue edge"
+    },
+    "red": {
+      "hex": "#C8102E",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false
+    },
+    "flagGreen": {
+      "hex": "#006847",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "navy aft fuselage",
+        "color": "navy",
+        "points": [
+          [
+            0.664,
+            0.821
+          ],
+          [
+            0.706,
+            0.485
+          ],
+          [
+            0.763,
+            0.229
+          ],
+          [
+            0.819,
+            -0.107
+          ],
+          [
+            0.876,
+            -1.0
+          ],
+          [
+            0.918,
+            -1.0
+          ],
+          [
+            0.9323131253678635,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0.6497939964685109,
+            1
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2
+        ],
+        "smooth": true
+      },
+      {
+        "name": "mid-blue edge of the navy",
+        "color": "blue",
+        "points": [
+          [
+            0.657,
+            0.703
+          ],
+          [
+            0.699,
+            0.401
+          ],
+          [
+            0.756,
+            0.139
+          ],
+          [
+            0.812,
+            -0.189
+          ],
+          [
+            0.869,
+            -1.0
+          ],
+          [
+            0.911,
+            -1.0
+          ],
+          [
+            0.9252501471453797,
+            -1
+          ],
+          [
+            0.935138316656857,
+            -1
+          ],
+          [
+            0.918,
+            -1.0
+          ],
+          [
+            0.876,
+            -1.0
+          ],
+          [
+            0.819,
+            -0.107
+          ],
+          [
+            0.763,
+            0.229
+          ],
+          [
+            0.706,
+            0.485
+          ],
+          [
+            0.664,
+            0.821
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          2
+        ],
+        "smooth": true
+      },
+      {
+        "name": "red swoosh: one tapering line from a point behind the forward door, under the windows, rising across them to over the wing root and fading aft of it",
+        "color": "red",
+        "points": [
+          [
+            0.1553,
+            -0.077,
+            1
+          ],
+          [
+            0.2086,
+            -0.109
+          ],
+          [
+            0.2559,
+            -0.12
+          ],
+          [
+            0.2914,
+            -0.096
+          ],
+          [
+            0.3266,
+            -0.016
+          ],
+          [
+            0.3617,
+            0.097
+          ],
+          [
+            0.3968,
+            0.225
+          ],
+          [
+            0.432,
+            0.326
+          ],
+          [
+            0.4732,
+            0.414
+          ],
+          [
+            0.5353,
+            0.403
+          ],
+          [
+            0.5679,
+            0.356
+          ],
+          [
+            0.6065,
+            0.265,
+            1
+          ],
+          [
+            0.5679,
+            0.316
+          ],
+          [
+            0.5353,
+            0.343
+          ],
+          [
+            0.4732,
+            0.344
+          ],
+          [
+            0.432,
+            0.246
+          ],
+          [
+            0.3968,
+            0.145
+          ],
+          [
+            0.3617,
+            0.017
+          ],
+          [
+            0.3266,
+            -0.086
+          ],
+          [
+            0.2914,
+            -0.156
+          ],
+          [
+            0.2559,
+            -0.17
+          ],
+          [
+            0.2086,
+            -0.139
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2
+        ],
+        "smooth": true
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "navy",
+    "areas": [
+      {
+        "name": "red tip",
+        "color": "red",
+        "points": [
+          [
+            0,
+            0.95
+          ],
+          [
+            1,
+            0.95
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2
+        ]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "navy",
+    "inner": "navy",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "navy",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "AMX/eagle-knight",
+      "place": "fin",
+      "at": [
+        0.8,
+        0.225
+      ],
+      "height": 0.38,
+      "colors": [
+        "white",
+        "navy"
+      ],
+      "description": "Aeroméxico's Eagle Knight: the head of an Aztec eagle warrior in profile, white on navy, facing forward, horizontal bands forming the helmet.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Aeromexico_logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "AMX/mexico-flag",
+      "place": "fuselage",
+      "at": [
+        0.329,
+        0.276
+      ],
+      "height": 0.12,
+      "colors": [
+        "flagGreen",
+        "white",
+        "red"
+      ],
+      "description": "A small Mexican flag ahead of the title.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "AEROMEXICO",
+      "place": "fuselage",
+      "at": [
+        0.154,
+        0.25
+      ],
+      "height": 0.26,
+      "color": "navy",
+      "style": "Aeroméxico's wordmark: medium-weight capitals in navy, the A and M larger (small caps), over the forward windows.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "length": 0.15962330782813425,
+      "type": {
+        "similar": [
+          "Gotham Medium",
+          "Avenir Next Demi Bold"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Geometry from a right-side photo of XA-DAE (July 2025) mirrored; N110JS (Apr 2025) confirms the left side. The title is read as all-caps with larger initials; the red line's path is approximate. Re-checked 2026-11-15 on XA-DAE (flipped) fitted to the measured 737-800 shape (the fit puts the windows about 0.05 high in y, taken out): the red swoosh is one tapering line, not two: from a point about 1 m aft of the forward door (x 0.155) it runs just under the windows to x 0.29, rises across them to its top over the wing root (x 0.47 to 0.54, y 0.37) and fades aft at x 0.61; drawn as one smooth area. The title runs x 0.154 to 0.316, baseline about 0.26 m above the windows' middle, its big initials 0.86 m above it (height 0.26). The navy's front edge and its mid-blue edging are curves: smooth.",
+  "history": "Replaces Skyarium v1's approximate standard (a few colors from memory). The 2017 livery accompanied Aeroméxico's rebrand (navy replacing the earlier lighter blue)."
+}

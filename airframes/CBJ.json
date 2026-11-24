@@ -1,0 +1,25 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "CBJ",
+  "airframes": [
+    {
+      "registration": "B-32MG",
+      "type": "A332",
+      "livery": "cargo",
+      "lastSeen": "2026-04-05",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:B-32MG_BUD_05.04.26_(55191729954).jpg",
+          "title": "B-32MG at Budapest, 2026-04-05 (CC BY-SA 4.0, Michael Steffen)",
+          "accessed": "2026-11-21"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:20251130_Airbus_A330-243(P2F)_of_Capital_Airlines_(B-32MG)_landing_at_CGO.jpg",
+          "title": "B-32MG at Zhengzhou, 2025-11-30 (CC BY-SA 4.0, Windmemories)",
+          "accessed": "2026-11-21"
+        }
+      ]
+    }
+  ]
+}

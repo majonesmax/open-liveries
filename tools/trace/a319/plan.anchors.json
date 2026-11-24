@@ -1,0 +1,63 @@
+{
+  "_about": "Airbus AC A319 (Jul 01/26), 2-2-0, Sharklet sheet 4 (page index 44): layers.py --mode strokes-in-fill at scale 20 with --xscale 1.0249, clip 145,215,470,515 (plan, the upper half; centerline y 3064). The A320's points moved by the shorter fuselage onto this sheet, then snapped. Groups then laid on this sheet by their best fit lengthwise (fin -78 px, engine +58, sharklet +128; plan: wing +92, tailplane -12): the A319 sheet places them a little differently from the plugs alone.",
+  "fuselage.halfWidth": [
+    [191, 3064],
+    [200, 3036],
+    [290, 2949],
+    [390, 2892],
+    [790, 2774],
+    [1190, 2749],
+    [1647, 2749],
+    [3990, 2748],
+    [4190, 2756],
+    [4390, 2785],
+    [4590, 2819],
+    [4990, 2899],
+    [5190, 2914],
+    [5390, 2953],
+    [5490, 2982],
+    [5590, 3015],
+    [5630, 3047]
+  ],
+  "wing.leading": [
+    [1801, 2748],
+    [1989, 2715],
+    [2088, 2599],
+    [2602, 1599],
+    [3168, 499],
+    [3210, 419],
+    [3259, 344],
+    [3339, 261],
+    [3389, 239],
+    [3696, 236]
+  ],
+  "wing.trailing": [
+    [2979, 2744],
+    [2979, 2399],
+    [2979, 2049],
+    [2987, 1999],
+    [3110, 1599],
+    [3357, 799],
+    [3450, 499],
+    [3505, 299],
+    [3521, 259],
+    [3539, 241],
+    [3696, 236]
+  ],
+  "stabilizer.leading": [
+    [4728, 2839],
+    [4828, 2789],
+    [4882, 2699],
+    [5074, 2399],
+    [5270, 2099],
+    [5328, 2061],
+    [5385, 2054]
+  ],
+  "stabilizer.trailing": [
+    [5304, 2884],
+    [5366, 2599],
+    [5454, 2199],
+    [5476, 2099],
+    [5436, 2055]
+  ]
+}

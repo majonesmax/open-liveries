@@ -1,0 +1,764 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "arizona-one",
+  "airline": "SWA",
+  "name": "Arizona One (Arizona flag)",
+  "kind": "special",
+  "description": "Fuselage: Arizona flag: forward fuselage and lower body royal blue; a large copper/orange five-pointed star on the forward fuselage over the windows; red and yellow alternating sunburst rays fanning back from the star along the upper/mid fuselage; aft fuselage red with yellow lower sections. Cheatlines: None. Tail: Standard Heart fin (blue/red/yellow) with white 'Southwest'. Engines: Blue cowlings with red/orange inner section. Winglets: White. Titles: White 'Southwest' on the lower fin/aft fuselage; 'Arizona One' small by cockpit. Artwork: Arizona flag rays and copper star. Colors hex: approximate.",
+  "confidence": "medium",
+  "drawnOn": "B737",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Southwest_Airlines_fleet",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/w/index.php?search=N955WN+Arizona+One",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N955WN_Southwest_Airlines_Boeing_737-7H4_s_n_36671_\"Arizona_One\"_(51928329697).jpg",
+      "title": "N955WN Southwest Airlines Boeing 737-7H4 s n 36671 \"Arizona One\" (51928329697).jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-12",
+      "note": "N955WN from the left and below, 2022-03-06: star, rays, the blue, red and yellow fields, engine, fin (measured from this one, levelled; the aft end is foreshortened)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Southwest_Boeing_737-700_N955WN_Arizona_One_BWI_MD2.jpg",
+      "title": "Southwest Boeing 737-700 N955WN Arizona One BWI MD2.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-12",
+      "note": "N955WN from below, right side, 2025-03-13: the belly (blue forward, red under the wing, yellow aft, red tail) and the right side."
+    }
+  ],
+  "palette": {
+    "blue": {
+      "hex": "#304CB2",
+      "name": "Bold Blue",
+      "official": true
+    },
+    "red": {
+      "hex": "#D5152B",
+      "official": false
+    },
+    "yellow": {
+      "hex": "#F9B612",
+      "official": false
+    },
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B4B9C0",
+      "official": false
+    },
+    "wingletGray": {
+      "hex": "#D3D6DA",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "name": "bare metal inlet lip",
+      "official": false
+    },
+    "azBlue": {
+      "hex": "#1E2F92",
+      "official": false
+    },
+    "azRed": {
+      "hex": "#D9201C",
+      "official": false
+    },
+    "azYellow": {
+      "hex": "#F5A81C",
+      "official": false
+    },
+    "copper": {
+      "hex": "#D06A28",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "azRed",
+    "areas": [
+      {
+        "name": "sunburst ray, yellow, over the forward door",
+        "color": "azYellow",
+        "points": [
+          [
+            0.246,
+            0.123
+          ],
+          [
+            0.13,
+            1
+          ],
+          [
+            0.161,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ]
+      },
+      {
+        "name": "sunburst ray, yellow, over the forward cabin",
+        "color": "azYellow",
+        "points": [
+          [
+            0.246,
+            0.123
+          ],
+          [
+            0.188,
+            1
+          ],
+          [
+            0.219,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ]
+      },
+      {
+        "name": "sunburst ray, yellow, along the crown aft of the star",
+        "color": "azYellow",
+        "points": [
+          [
+            0.246,
+            0.123
+          ],
+          [
+            0.276,
+            1
+          ],
+          [
+            0.507,
+            1
+          ],
+          [
+            0.507,
+            0.677
+          ],
+          [
+            0.355,
+            0.567
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ]
+      },
+      {
+        "name": "sunburst ray, yellow, below the window line aft of the star",
+        "color": "azYellow",
+        "points": [
+          [
+            0.3,
+            0.256
+          ],
+          [
+            0.423,
+            0.307
+          ],
+          [
+            0.423,
+            0.044
+          ],
+          [
+            0.321,
+            0.128
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ]
+      },
+      {
+        "name": "blue field: nose, cockpit and the lower forward fuselage to the wing",
+        "color": "azBlue",
+        "points": [
+          [
+            0,
+            1
+          ],
+          [
+            0.13,
+            1
+          ],
+          [
+            0.246,
+            0.123
+          ],
+          [
+            0.321,
+            0.128
+          ],
+          [
+            0.368,
+            -0.08
+          ],
+          [
+            0.412,
+            -0.298
+          ],
+          [
+            0.436,
+            -0.727
+          ],
+          [
+            0.436,
+            -1
+          ],
+          [
+            0,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ]
+      },
+      {
+        "name": "yellow field, lower aft fuselage from the wing to the aft door",
+        "color": "azYellow",
+        "points": [
+          [
+            0.572,
+            -1
+          ],
+          [
+            0.606,
+            -0.052
+          ],
+          [
+            0.654,
+            -0.001
+          ],
+          [
+            0.742,
+            -0.107
+          ],
+          [
+            0.823,
+            -0.298
+          ],
+          [
+            0.864,
+            -0.532
+          ],
+          [
+            0.878,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "copper star",
+        "color": "copper",
+        "points": [
+          [
+            0.164,
+            1.0
+          ],
+          [
+            0.223,
+            0.408
+          ],
+          [
+            0.258,
+            1.0
+          ],
+          [
+            0.26,
+            0.267
+          ],
+          [
+            0.321,
+            0.128
+          ],
+          [
+            0.258,
+            -0.008
+          ],
+          [
+            0.253,
+            -0.542
+          ],
+          [
+            0.223,
+            -0.082
+          ],
+          [
+            0.169,
+            -0.196
+          ],
+          [
+            0.202,
+            0.184
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ]
+      },
+      {
+        "name": "blue dorsal fillet, the fin's blue run forward",
+        "color": "blue",
+        "points": [
+          [
+            0.762,
+            1
+          ],
+          [
+            0.8,
+            0.93
+          ],
+          [
+            0.985,
+            0.93
+          ],
+          [
+            0.985,
+            1
+          ]
+        ]
+      }
+    ],
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3
+    ]
+  },
+  "fin": {
+    "base": "blue",
+    "areas": [
+      {
+        "name": "pinstripe under the red",
+        "color": "white",
+        "above": [
+          [
+            0,
+            0.2
+          ],
+          [
+            0.177,
+            0.241
+          ],
+          [
+            0.504,
+            0.329
+          ],
+          [
+            0.723,
+            0.407
+          ],
+          [
+            0.883,
+            0.482
+          ],
+          [
+            1,
+            0.54
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "red band",
+        "color": "red",
+        "above": [
+          [
+            0,
+            0.213
+          ],
+          [
+            0.081,
+            0.235
+          ],
+          [
+            0.416,
+            0.324
+          ],
+          [
+            0.65,
+            0.404
+          ],
+          [
+            0.803,
+            0.479
+          ],
+          [
+            1,
+            0.555
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "pinstripe under the yellow",
+        "color": "white",
+        "above": [
+          [
+            0,
+            0.285
+          ],
+          [
+            0.18,
+            0.38
+          ],
+          [
+            0.315,
+            0.455
+          ],
+          [
+            0.489,
+            0.6
+          ],
+          [
+            0.645,
+            0.741
+          ],
+          [
+            0.8,
+            0.88
+          ],
+          [
+            0.895,
+            0.948
+          ],
+          [
+            0.97,
+            1.0
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "yellow band",
+        "color": "yellow",
+        "above": [
+          [
+            0,
+            0.3
+          ],
+          [
+            0.126,
+            0.377
+          ],
+          [
+            0.246,
+            0.452
+          ],
+          [
+            0.427,
+            0.597
+          ],
+          [
+            0.561,
+            0.738
+          ],
+          [
+            0.692,
+            0.877
+          ],
+          [
+            0.766,
+            0.946
+          ],
+          [
+            0.82,
+            1.0
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "leading-edge pinstripe along the yellow",
+        "color": "white",
+        "points": [
+          [
+            0.003,
+            0.3
+          ],
+          [
+            0.025,
+            0.3
+          ],
+          [
+            0.025,
+            1.0
+          ],
+          [
+            0.003,
+            1.0
+          ]
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "wingletGray",
+    "inner": "wingletGray"
+  },
+  "engines": {
+    "cowling": "azBlue",
+    "inletLip": "lip",
+    "areas": [
+      {
+        "name": "red upper aft cowling",
+        "color": "azRed",
+        "points": [
+          [
+            0.14,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -0.83
+          ],
+          [
+            0.14,
+            0.75
+          ]
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3
+    ]
+  },
+  "logos": [
+    {
+      "mark": "SWA/heart",
+      "place": "fuselage",
+      "at": [
+        0.151,
+        0.635
+      ],
+      "height": 0.13,
+      "colors": [
+        "blue",
+        "red",
+        "yellow"
+      ],
+      "description": "The small Southwest Heart above and just aft of the forward passenger door.",
+      "reference": "https://commons.wikimedia.org/wiki/Category:Southwest_Airlines",
+      "side": "both",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ]
+    },
+    {
+      "mark": "SWA/us-flag",
+      "place": "fin",
+      "at": [
+        0.02,
+        0.05
+      ],
+      "height": 0.055,
+      "colors": [
+        "red",
+        "white",
+        "#1F2A5C"
+      ],
+      "description": "A small US flag ahead of the fin title, at the fin's root.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Southwest",
+      "place": "fin",
+      "at": [
+        0.084,
+        0.03
+      ],
+      "height": 0.12,
+      "color": "white",
+      "style": "The Southwest wordmark: bold, upright, rounded humanist sans, capital S, on the blue at the fin's root.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Bold",
+          "Gotham Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      },
+      "length": 0.86
+    },
+    {
+      "text": "Arizona",
+      "place": "fuselage",
+      "at": [
+        0.0677,
+        -0.1
+      ],
+      "height": 0.05,
+      "color": "white",
+      "style": "The state's name, small under the cockpit windows, semi-bold; 'One' follows it in a lighter weight.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Demi Bold",
+          "Gotham Medium"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "length": 0.0227,
+      "side": "left"
+    },
+    {
+      "text": "One",
+      "place": "fuselage",
+      "at": [
+        0.0916,
+        -0.1
+      ],
+      "height": 0.05,
+      "color": "white",
+      "style": "'One' after the name, lighter.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Regular",
+          "Gotham Book"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "length": 0.0117,
+      "side": "left"
+    },
+    {
+      "text": "Arizona",
+      "place": "fuselage",
+      "at": [
+        0.0806,
+        -0.1
+      ],
+      "height": 0.05,
+      "color": "white",
+      "style": "The state's name, small under the cockpit windows, semi-bold; 'One' follows it in a lighter weight. On the right it reads from the aft end: the name aft, 'One' forward.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Demi Bold",
+          "Gotham Medium"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "length": 0.0227,
+      "side": "right"
+    },
+    {
+      "text": "One",
+      "place": "fuselage",
+      "at": [
+        0.0677,
+        -0.1
+      ],
+      "height": 0.05,
+      "color": "white",
+      "style": "'One' after the name, lighter.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Regular",
+          "Gotham Book"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "length": 0.0117,
+      "side": "right"
+    }
+  ],
+  "notes": "737-700 ICAO type B737. Drawn from the 2022 photo of N955WN (left side, from below; the 2025 photos show the same scheme). The flag's 13 rays fan from the star up over the crown and aft; the four clearest yellow rays are drawn on red, the rest are hidden by the angle. Rays over the crown are continued straight from the star. Re-checked 2026-11-15: the fin is the state jets' Heart fin as re-measured on Colorado One (the same fin on every 737), copied with its title and flag. 'Arizona One' measured on the 2022 photo against the nose and the forward door (x 0.065-0.10 of the 737-700), two weights, a pair of titles per side, on Colorado One's line under the cockpit windows (it had been placed above them). The yellow field's curved upper edge made smooth. Drawn on the 737-700 (no measured shape for it)."
+}

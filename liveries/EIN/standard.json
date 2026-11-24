@@ -1,0 +1,245 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "EIN",
+  "name": "2019 livery",
+  "kind": "standard",
+  "from": "2019",
+  "confidence": "medium",
+  "drawnOn": "A21N",
+  "description": "White, with the rear fuselage teal behind a straight diagonal lime-green line that runs from the belly ahead of the tail up to the fin; a big light green shamrock on the teal fin; teal engines; 'Aer Lingus' in teal with a small green shamrock above the forward windows.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Aer_Lingus",
+      "accessed": "2026-11-13"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Aer_Lingus_Airbus_A321neo_EI-LRH_IAD_VA2.jpg",
+      "accessed": "2026-11-13",
+      "title": "Aer Lingus Airbus A321neo EI-LRH IAD VA2 (CC BY-SA 4.0)",
+      "note": "Left side, side-on, 2025-04-30: the diagonal, title, shamrocks, engines."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A321neo_EI-LRH_MD2.jpg",
+      "accessed": "2026-11-13",
+      "title": "Airbus A321neo EI-LRH MD2 (CC BY-SA 4.0)",
+      "note": "Right side from below, 2025-07-26: belly white forward, teal aft; the same on the right."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Aer_Lingus_Airbus_A321neo_EI-LRH_IAD_VA1.jpg",
+      "accessed": "2026-11-13",
+      "title": "Aer Lingus Airbus A321neo EI-LRH IAD VA1 (CC BY-SA 4.0)",
+      "note": "Left side, 2025-04-30."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "teal": {
+      "hex": "#006272",
+      "name": "Aer Lingus teal",
+      "official": false
+    },
+    "lime": {
+      "hex": "#A9CF38",
+      "name": "green line",
+      "official": false
+    },
+    "shamrock": {
+      "hex": "#9DD04B",
+      "name": "shamrock green",
+      "official": false
+    },
+    "lip": {
+      "hex": "#BFC3C8",
+      "name": "bare metal inlet lip",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "lime line along the diagonal",
+        "color": "lime",
+        "points": [
+          [
+            0.668,
+            -1
+          ],
+          [
+            0.811,
+            1
+          ],
+          [
+            0.825,
+            1
+          ],
+          [
+            0.682,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "teal rear fuselage",
+        "color": "teal",
+        "points": [
+          [
+            0.682,
+            -1
+          ],
+          [
+            0.825,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      }
+    ],
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "teal",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "winglets": {
+    "outer": "teal",
+    "inner": "teal",
+    "confidence": "low",
+    "sourceRefs": [
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "teal",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "EIN/shamrock",
+      "place": "fin",
+      "at": [
+        0.36,
+        0.33
+      ],
+      "height": 0.48,
+      "colors": [
+        "shamrock"
+      ],
+      "description": "The Aer Lingus shamrock, simplified in 2019: three heart-shaped leaves round a point with a short curved stem, flat light green, large on the teal fin.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Aer_Lingus_Airbus_A321neo_EI-LRH_IAD_VA2.jpg",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mark": "EIN/shamrock",
+      "place": "fuselage",
+      "at": [
+        0.28,
+        0.53
+      ],
+      "height": 0.3,
+      "colors": [
+        "shamrock"
+      ],
+      "description": "The shamrock again, small, just after the 'Aer Lingus' title.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Aer_Lingus_Airbus_A321neo_EI-LRH_IAD_VA2.jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        3
+      ]
+    },
+    {
+      "mark": "EIN/flag",
+      "place": "fuselage",
+      "at": [
+        0.712,
+        0.08
+      ],
+      "height": 0.06,
+      "colors": [
+        "#169B62",
+        "white",
+        "#FF883E"
+      ],
+      "description": "A small Irish tricolor just after the registration, under the rear windows.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Flag_of_Ireland.svg",
+      "confidence": "low",
+      "sourceRefs": [
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Aer Lingus",
+      "place": "fuselage",
+      "at": [
+        0.143,
+        0.37
+      ],
+      "height": 0.22,
+      "color": "teal",
+      "style": "The 2019 Aer Lingus wordmark: a clean medium-weight geometric sans, capital A and L, above the forward windows behind door 1.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Gotham Medium",
+          "Avenir Next Demi Bold"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.63
+      },
+      "length": 0.119
+    }
+  ],
+  "notes": "Measured on A321neo EI-LRH (left side side-on, right side from below). The diagonal is a straight line in side view. The aircraft names under the forward windows and the reg on the fin tip are not drawn. A330s and A320s share the scheme; some A320ceos may still wear the 1990s scheme (white over green belly, 'aer lingus' in green, green fin with the white shamrock) until repainted. Re-checked 2026-11-15 on EI-LRH (left side, near side-on, 2025-04-30): the title runs x 0.143-0.262, its baseline about 0.25 m over the window tops and its capitals about 0.5 m tall (it had sat higher, y 0.47); lowercase 0.63 of the capitals; the straight diagonal reduced to its ends.",
+  "history": "Replaced Skyarium v1's approximation (2026-11). The 2019 scheme replaced the green-belly livery with the white shamrock on a green tail."
+}

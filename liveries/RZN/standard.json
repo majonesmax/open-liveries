@@ -1,0 +1,89 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "RZN",
+  "name": "Gridiron Air 777 scheme",
+  "kind": "standard",
+  "confidence": "low",
+  "drawnOn": "B77L",
+  "description": "All-white ex-Delta 777-200ER with two slate-grey cheatlines along the lower fuselage, a wider one under the windows and a thinner one below it, both pointed just behind the nose and dipping toward the tail cone; a small white 'GRIDIRON AIR' inside the upper line behind the forward door. Plain white fin, grey metal engine cowlings.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Gridiron_Air%E2%80%99_Boeing_777-232ER_%E2%80%98N866DA%E2%80%99_@IND.jpg",
+      "title": "Gridiron Air’ Boeing 777-232ER ‘N866DA’ @IND.jpg (CC BY-SA 4.0, AVA Navigate)",
+      "accessed": "2026-11-20",
+      "note": "777-200ER N866DA, left side, taxiing at Indianapolis, 2026-02-01 (file description: 'Gridiron Air Boeing 777-232ER at IND from Houston'). Fitted to shapes/B77L.json (the 777-200 fuselage; door 1 pinned, camera slightly above): both cheatlines' edges, the title, engines and fin."
+    },
+    {
+      "url": "https://www.faa.gov/sites/faa.gov/files/7340.2M_CNT_Bsc_w_Chg_1_dtd_6_15_23.pdf",
+      "title": "FAA Order JO 7340.2M, Contractions (2023), three-letter designators",
+      "accessed": "2026-11-20",
+      "note": "RZN: GRIDIRON AIR LLC, United States, telephony REDZONE. Identifies the RZN callsign."
+    }
+  ],
+  "palette": {
+    "white": { "hex": "#F2F3F4", "official": false },
+    "slate": { "hex": "#4E565E", "name": "slate grey", "official": false },
+    "metal": { "hex": "#A7ACB2", "name": "grey metal cowling", "official": false },
+    "lip": { "hex": "#C6CACE", "official": false }
+  },
+  "fuselage": {
+    "base": "white",
+    "windows": "plain",
+    "areas": [
+      {
+        "name": "upper (wider) slate cheatline, under the windows, pointed behind the nose and ending on the tail cone",
+        "color": "slate",
+        "points": [[0.019, 0.02, 1], [0.046, 0.078], [0.146, 0.002], [0.29, -0.004], [0.721, -0.023], [0.809, -0.135], [0.843, -0.192], [0.92, -0.454], [0.951, -0.62], [0.962, -0.76, 1], [0.951, -0.82], [0.92, -0.656], [0.842, -0.326], [0.809, -0.241], [0.72, -0.108], [0.289, -0.088], [0.145, -0.082], [0.046, -0.039]],
+        "smooth": true,
+        "confidence": "medium",
+        "sourceRefs": [0]
+      },
+      {
+        "name": "lower (thinner) slate cheatline, pointed behind the nose and running off the belly under the tail",
+        "color": "slate",
+        "points": [[0.021, -0.11, 1], [0.045, -0.123], [0.145, -0.14], [0.289, -0.142], [0.72, -0.154], [0.809, -0.29], [0.842, -0.387], [0.916, -1.0, 1], [0.896, -1.0, 1], [0.842, -0.522], [0.808, -0.408], [0.719, -0.25], [0.288, -0.229], [0.144, -0.224], [0.045, -0.249]],
+        "smooth": true,
+        "confidence": "medium",
+        "sourceRefs": [0]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [0]
+  },
+  "fin": {
+    "base": "white",
+    "confidence": "medium",
+    "sourceRefs": [0]
+  },
+  "wings": { "top": "#BCC1C7", "under": "#C9CDD2" },
+  "engines": {
+    "cowling": "metal",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [0]
+  },
+  "titles": [
+    {
+      "text": "GRIDIRON AIR",
+      "place": "fuselage",
+      "at": [0.125, -0.062],
+      "height": 0.03,
+      "length": 0.026,
+      "color": "white",
+      "style": "Small plain capitals in white, inside the upper cheatline just behind the forward door (only about 25 cm tall: hardly visible beyond the gate).",
+      "confidence": "low",
+      "sourceRefs": [0],
+      "type": {
+        "similar": ["Helvetica Neue Bold", "Arial Bold"],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Gridiron Air is a US sports charter airline (FAA designator RZN, 'REDZONE'); its RZN 777-200 flights in Skyarium's log (2026-10-18…31) trace a college-football and South America charter pattern (EUG, LNK, MSN, PHX, SLC, MCO, LAX, EZE, GRU, SCL, FCO). Its 777-200ERs are ex-Delta (N860DA, N865DA, N866DA among the Commons categories naming Gridiron; only N866DA has a photo in Gridiron's paint). One left-side photo: the right side isn't seen (the title's place there is assumed the same, behind door 1), nor the belly. Measured on N866DA (2026-02-01): the upper cheatline runs about 0 to -0.45 m under the window line, the lower about -0.7 to -1.05 m, each about 0.4 m deep with a 0.3 m white gap, both pointed at x 0.02; the lower line runs off the belly at x 0.90-0.92, the upper ends on the tail cone at x 0.96. The cheatlines may be left over from the aircraft's earlier operator rather than a designed scheme; drawn as worn. Drawn on the 777F shape (B77L: the 777-200's fuselage, with windows where the -300ER's are); there is no 777-200ER shape. Gridiron's 737-800s weren't checked.",
+  "history": "New in the LAX round 2 (2026-11-20); RZN had no scheme here before."
+}

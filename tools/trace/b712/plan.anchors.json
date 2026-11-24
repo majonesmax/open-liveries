@@ -1,0 +1,19 @@
+{
+  "_about": "Boeing D6-58330 Rev B (717), 2.2 General Dimensions, Model 717-200: page index 11, layers.py --mode fills at scale 20, clip 155,90,468,328 (plan). Pixels of that raster, line centres; the upper half (the aircraft's right side, the same as its left). The fuselage's end is under the tailplane and the fin's top fairing: bridged to the tail cone's end. The stub pylon's leading edge shows as a short line between nacelle and fuselage; its trailing edge runs from the nacelle's exhaust in to the fuselage.",
+  "fuselage.halfWidth": [
+    [175, 2402], [190, 2366], [240, 2310], [300, 2276], [400, 2234], [500, 2206], [700, 2166], [900, 2146],
+    [1100, 2139], [1500, 2137], [2500, 2137], [3000, 2138], [3500, 2138], [3900, 2139], [4300, 2150], [4500, 2168],
+    [4700, 2195], [4900, 2222], [5000, 2240], [5100, 2262], [5200, 2290], [5270, 2318], "hidden", {"free": [5535, 2338]}
+  ],
+  "wing.leading": [
+    [2660, 2137], [2700, 2105], [2800, 1905], [3000, 1525], [3200, 1150], [3400, 790], [3600, 420], [3690, 240],
+    [3740, 195], [3820, 175], [3890, 172]
+  ],
+  "wing.trailing": [[3440, 2137], [3600, 1450], [3800, 560], [3885, 182]],
+  "stabilizer.leading": [[5272, 2378], [5400, 2200], [5600, 1920], [5800, 1590], [5845, 1530], [5880, 1517]],
+  "stabilizer.trailing": [[5800, 2382], [5900, 2030], [6000, 1680], [6040, 1525]],
+  "engine.outer": [[3930, 1806], [4100, 1805], [4300, 1808]],
+  "engine.inner": [[3930, 2100], [4100, 2100], [4300, 2101]],
+  "pylon.leading": [[4100, 2137], [4100, 2101]],
+  "pylon.trailing": [[5000, 2240], [4900, 2150], [4795, 2052]]
+}

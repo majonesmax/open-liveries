@@ -1,0 +1,405 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "QFA",
+  "name": "2016 livery",
+  "kind": "standard",
+  "from": "2016",
+  "confidence": "medium",
+  "drawnOn": "B738",
+  "description": "White fuselage with large dark 'QANTAS' capitals ahead of the wing and 'Spirit of Australia' in italics aft of them; the red fin with the white flying kangaroo, its red wrapping down over the rear fuselage behind a gray band; a small kangaroo roundel under the cockpit; 'QANTAS' large on the belly.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:VH-ZNK_(aircraft)",
+      "accessed": "2026-11-13"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:VH-ZNK,_London_Heathrow,_October_9th_2025.jpg",
+      "title": "VH-ZNK, London Heathrow, October 9th 2025 (CC BY-SA 4.0, Southsea_Matt)",
+      "accessed": "2026-11-13",
+      "note": "Left side from below, 2025-10-09: titles, nose roundel, the tail's red wrap and gray band, belly lettering."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Qantas_(VH-ZNK)_Boeing_787-9_Dreamliner_at_Sydney_Airport.jpg",
+      "title": "Qantas (VH-ZNK) Boeing 787-9 at Sydney (CC BY-SA 3.0 au, Bidgee)",
+      "accessed": "2026-11-13",
+      "note": "Right side, level, 2020-10-28: positions measured (titles, roundel, red wrap's front edge); 737-800s in the background in the same scheme."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Qantas",
+      "title": "Qantas (Wikipedia)",
+      "accessed": "2026-11-13",
+      "note": "2016 rebrand: refreshed kangaroo and wordmark, launched with the 787-9."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:(AUS-Victoria)_Qantas_Boeing_737-838_VH-XZD_@_YMML_2025-12-06.jpg",
+      "title": "(AUS-Victoria) Qantas Boeing 737-838 VH-XZD @ YMML 2025-12-06.jpg (CC BY 4.0, S5A-0043)",
+      "accessed": "2026-11-15",
+      "note": "737-800 VH-XZD from the left, level, 2025-12-06: titles measured on the commonest type (2026-11-15 re-check), placed by the forward door, the overwing exits and the window line."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:VH-OQJ_sitting_at_DFW_20261026_(6).jpg",
+      "title": "VH-OQJ sitting at DFW 20261026 (6) (CC0, Designism)",
+      "accessed": "2026-11-15",
+      "note": "A380, right front quarter, 2026-10-26: QANTAS and 'Spirit of Australia' between the two decks' windows."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F2F3F5",
+      "official": false
+    },
+    "red": {
+      "hex": "#E0001B",
+      "name": "Qantas red",
+      "official": false
+    },
+    "gray": {
+      "hex": "#9DA2A8",
+      "name": "silver-gray band",
+      "official": false
+    },
+    "ink": {
+      "hex": "#1E1E24",
+      "official": false
+    },
+    "cowl": {
+      "hex": "#E1E3E6",
+      "official": false
+    },
+    "metal": {
+      "hex": "#B4B8BD",
+      "official": false
+    },
+    "wing": {
+      "hex": "#C9CCD0",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "gray band ahead of the tail's red",
+        "color": "gray",
+        "points": [
+          [
+            0.835,
+            1
+          ],
+          [
+            0.8,
+            0
+          ],
+          [
+            0.75,
+            -1
+          ],
+          [
+            0.775,
+            -1
+          ],
+          [
+            0.818,
+            0
+          ],
+          [
+            0.84,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "red wrap of the tail",
+        "color": "red",
+        "points": [
+          [
+            0.84,
+            1
+          ],
+          [
+            0.818,
+            0
+          ],
+          [
+            0.775,
+            -1
+          ],
+          [
+            0.965,
+            -1
+          ],
+          [
+            0.965,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      }
+    ],
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "red",
+    "rudder": "red",
+    "mirrored": true,
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wing",
+    "under": "wing"
+  },
+  "engines": {
+    "cowling": "cowl",
+    "inletLip": "metal",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "QFA/kangaroo",
+      "place": "fin",
+      "at": [
+        0.42,
+        0.53
+      ],
+      "height": 0.75,
+      "colors": [
+        "white"
+      ],
+      "description": "The 2016 flying kangaroo: a white, sleek leaping kangaroo, head up toward the fin's leading edge near the tip, forelegs reaching forward, the long tail sweeping down and aft to the fin's root; on the red fin, facing forward on both sides.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Qantas_Airways_logo_2016.svg",
+      "side": "both",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "QFA/roundel",
+      "place": "fuselage",
+      "at": [
+        0.06,
+        -0.17
+      ],
+      "height": 0.3,
+      "colors": [
+        "red",
+        "white"
+      ],
+      "description": "A small red ring with the red kangaroo inside, on white, below the cockpit windows.",
+      "reference": "https://commons.wikimedia.org/wiki/Category:Qantas_logos",
+      "side": "both",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "QANTAS",
+      "place": "fuselage",
+      "at": [
+        0.171,
+        0.34
+      ],
+      "height": 0.35,
+      "color": "ink",
+      "style": "Large wide geometric sans capitals, heavy, the Q a full circle, set above the windows from just aft of the first door to ahead of the wing.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2,
+        4
+      ],
+      "type": {
+        "similar": [
+          "Qantas Sans (custom)",
+          "Montserrat Bold",
+          "Gotham Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "length": 0.211
+    },
+    {
+      "text": "Spirit of Australia",
+      "place": "fuselage",
+      "at": [
+        0.423,
+        0.47
+      ],
+      "height": 0.3,
+      "color": "ink",
+      "style": "Lighter upright sans in upper and lower case, just aft of the QANTAS title, its baseline a little higher (the 2007 scheme's was italic).",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2,
+        4
+      ],
+      "type": {
+        "similar": [
+          "Frutiger 45 Light",
+          "Myriad Pro Regular"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.62
+      },
+      "length": 0.122
+    },
+    {
+      "text": "QANTAS",
+      "place": "belly",
+      "at": [
+        0.33,
+        -1
+      ],
+      "height": 0.9,
+      "length": 0.24,
+      "color": "ink",
+      "style": "The same wide capitals, very large, under the belly around the wing (roughly x 0.33-0.57); read from below.",
+      "confidence": "low",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "Montserrat Bold",
+          "Gotham Bold"
+        ],
+        "weight": 700,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "types": {
+    "A388": {
+      "note": "Measured on VH-OQJ (right front quarter, 2026-10-26, x along the body from its doors): 'QANTAS' and 'Spirit of Australia' between the decks, larger than on the 737, QANTAS from just behind the first door, its capitals' tops a little under the upper deck's windows and its baseline just over the main deck's.",
+      "confidence": "medium",
+      "sourceRefs": [
+        5
+      ],
+      "titles": [
+        {
+          "text": "QANTAS",
+          "place": "fuselage",
+          "at": [
+            0.105,
+            0.06
+          ],
+          "height": 0.21,
+          "color": "ink",
+          "style": "Large wide geometric sans capitals, heavy, the Q a full circle, between the decks from just aft of the first door.",
+          "confidence": "medium",
+          "sourceRefs": [
+            5
+          ],
+          "type": {
+            "similar": [
+              "Qantas Sans (custom)",
+              "Montserrat Bold",
+              "Gotham Bold"
+            ],
+            "weight": 700,
+            "slantDeg": 0,
+            "width": "extended",
+            "strokes": "uniform",
+            "case": "upper"
+          },
+          "length": 0.172
+        },
+        {
+          "text": "Spirit of Australia",
+          "place": "fuselage",
+          "at": [
+            0.305,
+            0.027
+          ],
+          "height": 0.106,
+          "color": "ink",
+          "style": "Lighter upright sans in upper and lower case, aft of QANTAS between the decks, on about its baseline.",
+          "confidence": "medium",
+          "sourceRefs": [
+            5
+          ],
+          "type": {
+            "similar": [
+              "Frutiger 45 Light",
+              "Myriad Pro Regular"
+            ],
+            "weight": 400,
+            "slantDeg": 0,
+            "width": "normal",
+            "strokes": "uniform",
+            "case": "mixed",
+            "xHeight": 0.62
+          },
+          "length": 0.12
+        },
+        {
+          "text": "QANTAS",
+          "place": "belly",
+          "at": [
+            0.33,
+            -1
+          ],
+          "height": 0.9,
+          "length": 0.24,
+          "color": "ink",
+          "style": "The same wide capitals, very large, under the belly around the wing (roughly x 0.33-0.57); read from below.",
+          "confidence": "low",
+          "sourceRefs": [
+            1
+          ],
+          "type": {
+            "similar": [
+              "Montserrat Bold",
+              "Gotham Bold"
+            ],
+            "weight": 700,
+            "width": "extended",
+            "strokes": "uniform",
+            "case": "upper"
+          }
+        }
+      ]
+    }
+  },
+  "notes": "Same scheme on the 737-800, A330, A380, 787-9 and A321XLR. Belly title seen only obliquely on one photo: its extent, size and reading direction are estimates. The previous (2007) scheme, very similar (red tail wrapping onto the rear fuselage, 'QANTAS' titles in the older lettering and the earlier kangaroo), may survive on a few older 737/A330s; not drawn. The registration and a small Australian flag sit on the rear fuselage ahead of the red (not drawn). Re-checked 2026-11-15 on the 737-800 (the commonest type, VH-XZD): QANTAS runs 0.171 to 0.382 with its baseline a little over the window tops, 'Spirit of Australia' 0.423 to 0.545 sitting higher, upright not italic (lowercase 0.62 of its capitals). Some 737-800s still wear the 2007 scheme (VH-XZM, 2025-09-28: 'Spirit of Australia' ahead of an italic QANTAS on the right side). On the A380 (VH-OQJ, source 5) 'QANTAS' and 'Spirit of Australia' sit between the decks, under the upper deck's windows; drawn on the A380's shape the titles come from `types.A388`, measured there. The A380 isn't the commonest type, so drawnOn stays.",
+  "history": "Replaces Skyarium v1's approximation. Introduced with the 787-9 in 2016, replacing the 2007 scheme."
+}

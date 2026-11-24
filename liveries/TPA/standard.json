@@ -1,0 +1,140 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "TPA",
+  "name": "Avianca Cargo green livery (2025)",
+  "kind": "standard",
+  "from": "2025",
+  "confidence": "medium",
+  "drawnOn": "A333",
+  "description": "Avianca Cargo's own green scheme for its A330 freighters: an all-white fuselage with lowercase 'avianca' (bold) and 'cargo' (light) in green over the forward fuselage, Avianca's bird in green ahead of them; a green fin, faintly textured with darker green arcs, with a white panel at the tip's trailing corner; green engines with a white bird; green winglets.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N338QT_(55164039452).jpg",
+      "title": "N338QT (55164039452).jpg (CC BY-SA 4.0, Liam Thompson)",
+      "accessed": "2026-11-20",
+      "note": "A330-300P2F N338QT (Avianca Cargo México), right side, taxiing at LAX at dusk, 2026-03-07. Flipped and fitted to shapes/A333.json (door 1 pinned): the right side's titles and bird, the fin's white panel, engines."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N331QT_-_Airbus_A330-243F_-_Avianca_Cargo_(green_livery)_SJO_220126.jpg",
+      "title": "N331QT - Airbus A330-243F - Avianca Cargo (green livery) SJO 220126.jpg (CC BY 4.0, kitmasterbloke)",
+      "accessed": "2026-11-20",
+      "note": "A330-200F N331QT (Avianca Cargo, Colombia), left side from below and behind, departing San José, 2026-01-24: the left side's order (bird, then 'avianca', then 'cargo'), green engines with the white bird, green fin with the white tip panel; too oblique to measure."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A330-343P2F_-_N338QT_-_Avianca_Cargo_Mexico_-_Guatemala_City_La_Aurora_-_MGGT_Guatemala.jpg",
+      "title": "Airbus A330-343P2F - N338QT - Avianca Cargo Mexico - Guatemala City La Aurora - MGGT Guatemala.jpg (CC BY-SA 4.0, Rene Hernandez2)",
+      "accessed": "2026-11-20",
+      "note": "N338QT, right side from behind in daylight at Guatemala City, 2025-12-02: the colours (bright green fin with lighter arcs, darker green titles), green winglets."
+    }
+  ],
+  "palette": {
+    "white": { "hex": "#F2F3F3", "official": false },
+    "green": { "hex": "#1F9D4A", "name": "Avianca Cargo green", "official": false },
+    "titleGreen": { "hex": "#13804A", "name": "title green", "official": false },
+    "lip": { "hex": "#C3C7CC", "name": "bare metal inlet lip", "official": false }
+  },
+  "fuselage": {
+    "base": "white",
+    "windows": "hidden",
+    "confidence": "high",
+    "sourceRefs": [0, 1, 2]
+  },
+  "fin": {
+    "base": "green",
+    "areas": [
+      {
+        "name": "white panel at the tip's trailing corner",
+        "color": "white",
+        "points": [[0.0, 1.05], [1.05, 1.05], [1.05, 0.836], [0.82, 0.678]],
+        "confidence": "medium",
+        "sourceRefs": [0, 1, 2]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [0, 1, 2]
+  },
+  "winglets": { "outer": "green", "inner": "green", "confidence": "low", "sourceRefs": [0, 2] },
+  "engines": { "cowling": "green", "inletLip": "lip", "confidence": "high", "sourceRefs": [0, 1, 2] },
+  "titles": [
+    {
+      "text": "avianca",
+      "place": "fuselage",
+      "side": "left",
+      "at": [0.151, 0.153],
+      "height": 0.38,
+      "length": 0.117,
+      "color": "titleGreen",
+      "style": "Avianca's lowercase wordmark: a heavy, round geometric sans with single-storey a's, tightly set, just behind the bird. x-height measured 0.275 (about 1.6 m); `height` is the matching cap height. Placed on the left from the right side's measure and N331QT's order (bird, avianca, cargo).",
+      "confidence": "low",
+      "sourceRefs": [1],
+      "type": { "similar": ["Futura Bold", "Avenir Next Bold"], "weight": 700, "slantDeg": 0, "width": "normal", "strokes": "uniform", "case": "lower", "xHeight": 0.72 }
+    },
+    {
+      "text": "cargo",
+      "place": "fuselage",
+      "side": "left",
+      "at": [0.282, 0.153],
+      "height": 0.38,
+      "length": 0.087,
+      "color": "titleGreen",
+      "style": "The same lowercase in a light weight, the same x-height, after 'avianca' on one line.",
+      "confidence": "low",
+      "sourceRefs": [1],
+      "type": { "similar": ["Futura Book", "Avenir Next Regular"], "weight": 400, "slantDeg": 0, "width": "normal", "strokes": "uniform", "case": "lower", "xHeight": 0.72 }
+    },
+    {
+      "text": "avianca",
+      "place": "fuselage",
+      "side": "right",
+      "at": [0.252, 0.153],
+      "height": 0.38,
+      "length": 0.117,
+      "color": "titleGreen",
+      "style": "As on the left, reading normally from the right side: 'avianca' aft, 'cargo' ahead of it, the bird ahead of both.",
+      "confidence": "high",
+      "sourceRefs": [0, 2],
+      "type": { "similar": ["Futura Bold", "Avenir Next Bold"], "weight": 700, "slantDeg": 0, "width": "normal", "strokes": "uniform", "case": "lower", "xHeight": 0.72 }
+    },
+    {
+      "text": "cargo",
+      "place": "fuselage",
+      "side": "right",
+      "at": [0.151, 0.149],
+      "height": 0.38,
+      "length": 0.087,
+      "color": "titleGreen",
+      "style": "The light-weight 'cargo', ahead of 'avianca' on the right side.",
+      "confidence": "high",
+      "sourceRefs": [0, 2],
+      "type": { "similar": ["Futura Book", "Avenir Next Regular"], "weight": 400, "slantDeg": 0, "width": "normal", "strokes": "uniform", "case": "lower", "xHeight": 0.72 }
+    }
+  ],
+  "logos": [
+    {
+      "mark": "AVA/bird",
+      "place": "fuselage",
+      "at": [0.125, 0.253],
+      "height": 0.55,
+      "colors": ["green"],
+      "description": "Avianca's bird in green, flying forward, at the forward end of the titles on both sides.",
+      "reference": "https://commons.wikimedia.org/wiki/File:N338QT_(55164039452).jpg",
+      "confidence": "medium",
+      "sourceRefs": [0, 1]
+    },
+    {
+      "mark": "AVA/bird",
+      "place": "engines",
+      "at": [0.45, 0.1],
+      "height": 0.37,
+      "colors": ["white"],
+      "description": "The bird in white on the green cowling's outboard face.",
+      "reference": "https://commons.wikimedia.org/wiki/File:N338QT_(55164039452).jpg",
+      "confidence": "medium",
+      "sourceRefs": [0, 1]
+    }
+  ],
+  "notes": "Avianca Cargo began repainting its freighters green in 2025 (N338QT by 2025-10, N331QT by 2026-01); the airline's red Avianca scheme with 'avianca cargo' titles is still on others (N337QT at LAX, 2026-08-04; N336QT in 2024), and its older airframes' photos (N332QT, N334QT) predate both. The red version isn't drawn here: an airframe known to wear it is tagged to AVA/standard (Avianca's passenger scheme, which lacks the 'cargo' title). Measured on N338QT's right side (2026-03-07): 'avianca' runs x 0.252-0.369 and 'cargo' 0.151-0.238 with a 1.6 m x-height, the bird centred at x 0.125. No usable left-side photo: the left titles are placed by the right side's measure in the order N331QT shows (bird, 'avianca', 'cargo'). The fin's fine texture of darker green arcs is left out. Avianca Cargo México's aircraft (AeroUnion, TNO) add a small 'Mexico' under the aft end of 'avianca' (x 0.33-0.37, 0.4 m capitals) and a Mexican flag behind the cockpit; N338QT also carried a big green IATA CEIV Fresh badge aft of the wing at LAX in 2026 (not in Guatemala in 2025-12): left out. The registration country's small flag (Colombia, Mexico) sits by the door: left out, it varies.",
+  "history": "New in the LAX round 2 (2026-11-20); TPA had no scheme here before."
+}

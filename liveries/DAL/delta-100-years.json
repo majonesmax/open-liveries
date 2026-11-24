@@ -1,0 +1,668 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "delta-100-years",
+  "airline": "DAL",
+  "name": "Delta 100 Years (centennial)",
+  "kind": "special",
+  "confidence": "medium",
+  "drawnOn": "A21N",
+  "description": "Fuselage: White forward/upper fuselage; deep Delta blue rear fuselage and belly, separated by a sweeping silver supergraphic of swooping widget shapes that runs from mid-fuselage down and back. Cheatlines: Silver/light-blue sweep strokes. Tail: Blue fin with a large silver/white 'widget' triangle supergraphic. Engines: Blue cowlings. Winglets: Blue with white widget. Titles: Small 'DELTA' with red widget forward; huge navy '100' with 'YEARS' below on the forward fuselage. Artwork: '100' emblem also under the belly ('DELTA' visible under the fuselage). Colors hex: approximate.",
+  "sources": [
+    {
+      "url": "https://airlinegeeks.com/2025/03/17/delta-officially-debuts-100-year-livery/",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:N589DT_(aircraft)",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:N527DN_(aircraft)",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Delta_100th_Anniversary_Airbus_A321neo_N589DT_departing_Boston_March_2025_2.jpg",
+      "title": "Delta 100th Anniversary Airbus A321neo N589DT departing Boston March 2025 2 (CC BY 4.0)",
+      "accessed": "2026-11-12",
+      "note": "Left side from slightly below, 2025-03-27: stripes, rear sweep, titles, fin, engines."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Delta_100th_Anniversary_Airbus_A321neo_N589DT_departing_Boston_March_2025_3.jpg",
+      "title": "Delta 100th Anniversary Airbus A321neo N589DT departing Boston March 2025 3 (CC BY 4.0)",
+      "accessed": "2026-11-12",
+      "note": "Left side from below, 2025-03-27: the lower blue band, the silver edge under the wing, sharklet, belly."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A321-271NX_-_Delta_Air_Lines_(N589DT).jpg",
+      "title": "Airbus A321-271NX - Delta Air Lines (N589DT) (CC BY-SA 4.0)",
+      "accessed": "2026-11-12",
+      "note": "Right side, square-on, 2025-02-10 at Hamburg before delivery (test registration D-AZAI): main source for positions."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Delta_Air_Lines_(N527DN)_Airbus_A350-941_taxiing_at_Sydney_Airport.jpg",
+      "title": "Delta Air Lines (N527DN) Airbus A350-941 taxiing at Sydney Airport (CC BY-SA 3.0 AU)",
+      "accessed": "2026-11-12",
+      "note": "Right side, 2026-01-08: the same design on the A350; the silver crescent ahead of the rear blue is clearest here."
+    }
+  ],
+  "notes": "Designed by Delta employee Aaliyah McNeal. Drawn from the A321neo N589DT (left side March 2025, right side at Hamburg Feb 2025) and checked against the A350 N527DN (Jan 2026); the design is the same on both, with the right side's widget aft of 'DELTA'. Light lettering on the dark belly behind the wing is visible from below but only partly legible, so it isn't drawn. The silver crescent ahead of the rear blue is clear on the A350, faint on the A321: its shape is approximate. Re-checked 2026-11-15: the sweeps, the crescent and the two stripes are curves on the photos (N589DT both sides) and are drawn smooth, their pointed lower ends kept as corners; titles already carry measured lengths. No measured A321 shape yet.",
+  "from": "2025-03",
+  "palette": {
+    "white": {
+      "hex": "#F3F4F6",
+      "official": false
+    },
+    "navy": {
+      "hex": "#0C2462",
+      "name": "dark rear fuselage and fin",
+      "official": false
+    },
+    "blue": {
+      "hex": "#1E4FA3",
+      "name": "stripes and lower sweep",
+      "official": false
+    },
+    "silver": {
+      "hex": "#C7CDD6",
+      "official": false
+    },
+    "red": {
+      "hex": "#D8193A",
+      "name": "widget",
+      "official": false
+    },
+    "titleNavy": {
+      "hex": "#15295C",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BFC7",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD3",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "rear sweep and lower band",
+        "color": "blue",
+        "points": [
+          [
+            0.768,
+            1
+          ],
+          [
+            0.746,
+            0.5
+          ],
+          [
+            0.695,
+            0
+          ],
+          [
+            0.646,
+            -0.47
+          ],
+          [
+            0.55,
+            -0.5
+          ],
+          [
+            0.47,
+            -0.6
+          ],
+          [
+            0.4,
+            -0.78
+          ],
+          [
+            0.25,
+            -0.84
+          ],
+          [
+            0.06,
+            -0.9
+          ],
+          [
+            0.04,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          3,
+          4,
+          5
+        ],
+        "smooth": true
+      },
+      {
+        "name": "silver crescent ahead of the rear sweep, carried forward under the white as a thin edge",
+        "color": "silver",
+        "points": [
+          [
+            0.725,
+            1
+          ],
+          [
+            0.768,
+            1
+          ],
+          [
+            0.746,
+            0.5
+          ],
+          [
+            0.695,
+            0
+          ],
+          [
+            0.646,
+            -0.47
+          ],
+          [
+            0.55,
+            -0.5
+          ],
+          [
+            0.48,
+            -0.56,
+            1
+          ],
+          [
+            0.55,
+            -0.44
+          ],
+          [
+            0.63,
+            -0.4
+          ],
+          [
+            0.665,
+            -0.1
+          ],
+          [
+            0.705,
+            0.4
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          4,
+          6
+        ],
+        "smooth": true
+      },
+      {
+        "name": "dark rear fuselage and belly",
+        "color": "navy",
+        "points": [
+          [
+            0.807,
+            1
+          ],
+          [
+            0.788,
+            0.5
+          ],
+          [
+            0.745,
+            0
+          ],
+          [
+            0.716,
+            -0.47
+          ],
+          [
+            0.6,
+            -0.62
+          ],
+          [
+            0.45,
+            -0.78
+          ],
+          [
+            0.3,
+            -0.86
+          ],
+          [
+            0.08,
+            -0.93
+          ],
+          [
+            0.07,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          3,
+          4,
+          5
+        ],
+        "smooth": true
+      },
+      {
+        "name": "forward stripe",
+        "color": "blue",
+        "points": [
+          [
+            0.325,
+            1
+          ],
+          [
+            0.365,
+            1
+          ],
+          [
+            0.399,
+            0.5
+          ],
+          [
+            0.48,
+            0
+          ],
+          [
+            0.56,
+            -0.5,
+            1
+          ],
+          [
+            0.5,
+            -0.62,
+            1
+          ],
+          [
+            0.44,
+            0
+          ],
+          [
+            0.359,
+            0.5
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          3,
+          4,
+          5
+        ],
+        "smooth": true
+      },
+      {
+        "name": "aft stripe",
+        "color": "blue",
+        "points": [
+          [
+            0.4,
+            1
+          ],
+          [
+            0.44,
+            1
+          ],
+          [
+            0.474,
+            0.5
+          ],
+          [
+            0.555,
+            0
+          ],
+          [
+            0.62,
+            -0.47,
+            1
+          ],
+          [
+            0.58,
+            -0.5,
+            1
+          ],
+          [
+            0.515,
+            0
+          ],
+          [
+            0.434,
+            0.5
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          3,
+          4,
+          5
+        ],
+        "smooth": true
+      }
+    ],
+    "radome": {
+      "color": "white",
+      "to": 0.02
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      3,
+      4,
+      5
+    ]
+  },
+  "fin": {
+    "base": "navy",
+    "areas": [
+      {
+        "name": "white band under the navy tip",
+        "color": "white",
+        "points": [
+          [
+            0,
+            0.717
+          ],
+          [
+            1,
+            0.66
+          ],
+          [
+            1,
+            0.538
+          ],
+          [
+            0.6,
+            0.377
+          ],
+          [
+            0,
+            0.585
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          3,
+          5
+        ]
+      },
+      {
+        "name": "silver panel",
+        "color": "silver",
+        "points": [
+          [
+            0,
+            0.585
+          ],
+          [
+            0.6,
+            0.377
+          ],
+          [
+            0.68,
+            0
+          ],
+          [
+            0.57,
+            0
+          ],
+          [
+            0,
+            0.462
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          3,
+          5
+        ]
+      },
+      {
+        "name": "white triangle behind the navy chevron",
+        "color": "white",
+        "points": [
+          [
+            1,
+            0.39
+          ],
+          [
+            0.78,
+            0.283
+          ],
+          [
+            0.81,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          3,
+          5
+        ]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [
+      3,
+      5
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "navy",
+    "inner": "navy",
+    "areas": [
+      {
+        "name": "light panel low on the trailing edge (shape approximate)",
+        "color": "silver",
+        "points": [
+          [
+            0.45,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0.55
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          4,
+          5
+        ]
+      }
+    ],
+    "confidence": "low",
+    "sourceRefs": [
+      4,
+      5
+    ]
+  },
+  "engines": {
+    "cowling": "blue",
+    "inletLip": "lip",
+    "pylon": "white",
+    "confidence": "medium",
+    "sourceRefs": [
+      3,
+      4,
+      5
+    ]
+  },
+  "logos": [
+    {
+      "mark": "DAL/widget",
+      "place": "fuselage",
+      "at": [
+        0.142,
+        0.37
+      ],
+      "height": 0.15,
+      "colors": [
+        "red"
+      ],
+      "description": "The red Delta widget (a triangle), ahead of 'DELTA' in reading direction: forward of the word on the left side.",
+      "side": "left",
+      "confidence": "medium",
+      "sourceRefs": [
+        3
+      ]
+    },
+    {
+      "mark": "DAL/widget",
+      "place": "fuselage",
+      "at": [
+        0.213,
+        0.37
+      ],
+      "height": 0.15,
+      "colors": [
+        "red"
+      ],
+      "description": "The red Delta widget, ahead of 'DELTA' in reading direction: aft of the word on the right side.",
+      "side": "right",
+      "confidence": "medium",
+      "sourceRefs": [
+        5,
+        6
+      ]
+    },
+    {
+      "mark": "DAL/widget",
+      "place": "fuselage",
+      "at": [
+        0.288,
+        0.1
+      ],
+      "height": 0.45,
+      "colors": [
+        "silver",
+        "white"
+      ],
+      "description": "A large pale silver-and-white widget (triangle, shaded in facets) set into the last '0' of '100', which is left open on its right like a C.",
+      "confidence": "medium",
+      "sourceRefs": [
+        3,
+        5
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "DELTA",
+      "place": "fuselage",
+      "at": [
+        0.152,
+        0.29
+      ],
+      "height": 0.17,
+      "color": "titleNavy",
+      "length": 0.055,
+      "style": "Delta's wordmark: widely spaced semibold capitals, above the windows behind the forward door.",
+      "confidence": "medium",
+      "sourceRefs": [
+        3,
+        5
+      ],
+      "type": {
+        "similar": [
+          "Whitney Semibold",
+          "Gotham Medium"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "100",
+      "place": "fuselage",
+      "at": [
+        0.23,
+        -0.19
+      ],
+      "height": 1.0,
+      "color": "titleNavy",
+      "length": 0.06,
+      "style": "Very large upright figures, regular-to-medium weight geometric sans, standing on the windows from below them to well above; the last 0 open with the widget in it.",
+      "confidence": "medium",
+      "sourceRefs": [
+        3,
+        5,
+        6
+      ],
+      "type": {
+        "similar": [
+          "Whitney Medium",
+          "Gotham Book"
+        ],
+        "weight": 450,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "YEARS",
+      "place": "fuselage",
+      "at": [
+        0.235,
+        -0.48
+      ],
+      "height": 0.23,
+      "color": "titleNavy",
+      "length": 0.07,
+      "style": "Widely spaced medium capitals centered under '100'.",
+      "confidence": "medium",
+      "sourceRefs": [
+        3,
+        5,
+        6
+      ],
+      "type": {
+        "similar": [
+          "Whitney Medium",
+          "Gotham Medium"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ]
+}

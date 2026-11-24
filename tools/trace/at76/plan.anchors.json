@@ -1,0 +1,92 @@
+{
+  "_about": "The same sheet's plan view, drawn turned 45 degrees: layers.py --mode lines --contrast 20 at scale 40.33 (the side's scale, from its nose-to-tail length), clip 150,100,320,265, --rotate 45, then the top 3100 px (one side). Pixels of that raster, line centres. The nacelle's sides are bridged under the wing (dashed there) to its tail.",
+  "fuselage.halfWidth": [
+    [146, 2969],
+    [160, 2926],
+    [200, 2872],
+    [300, 2795],
+    [400, 2742],
+    [500, 2705],
+    [600, 2680],
+    [800, 2658],
+    [1000, 2658],
+    [2200, 2657],
+    "hidden",
+    [3000, 2654],
+    [3500, 2654],
+    [4000, 2658],
+    [4500, 2699],
+    [5000, 2782],
+    [5200, 2818],
+    "hidden",
+    {
+      "free": [5826, 2955]
+    }
+  ],
+  "wing.leading": [
+    [2478, 2656],
+    [2478, 2400],
+    [2478, 2250],
+    "hidden",
+    [2500, 1700],
+    [2511, 1500],
+    [2548, 1000],
+    [2586, 500],
+    [2600, 200],
+    [2640, 135],
+    "hidden",
+    {
+      "free": [2700, 82]
+    }
+  ],
+  "wing.trailing": [
+    [3025, 2656],
+    [3028, 2400],
+    "hidden",
+    [3008, 1500],
+    [2986, 1000],
+    [2963, 500],
+    [2948, 200],
+    [2940, 90]
+  ],
+  "stabilizer.leading": [
+    [5328, 2927],
+    [5365, 2700],
+    [5401, 2500],
+    [5437, 2300],
+    "hidden",
+    {
+      "free": [5480, 2208]
+    }
+  ],
+  "stabilizer.trailing": [
+    [5745, 2927],
+    [5734, 2700],
+    [5723, 2500],
+    [5712, 2300],
+    "hidden",
+    {
+      "free": [5712, 2208]
+    }
+  ],
+  "nacelle.outer": [
+    [2080, 2015],
+    [2150, 1980],
+    [2320, 1966],
+    [2440, 1980],
+    "hidden",
+    {
+      "free": [2865, 2063]
+    }
+  ],
+  "nacelle.inner": [
+    [2080, 2120],
+    [2150, 2160],
+    [2320, 2182],
+    [2440, 2178],
+    "hidden",
+    {
+      "free": [2865, 2068]
+    }
+  ]
+}

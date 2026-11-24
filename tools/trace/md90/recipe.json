@@ -1,0 +1,236 @@
+{
+  "_about": "MD-90-30, from Boeing MDC K9099 (MD-90-30/-30ER Airplane Characteristics for Airport Planning, October 2002; the copy on boeing.com's airport planning page, 2023): side and front views from 2.3 Ground Clearances (page index 17, drawn 1.2406 times larger than 2.2's), plan from 2.2 General Airplane Dimensions (page index 16) rendered to their scale. The aircraft is drawn in strokes of one dark grey. Both sheets draw the aircraft at its ground attitude: the side turned level (--rotate -0.84). Scaled by the printed 43.03 m (141 ft 2 in) from the nose to the tail cone (2.2's side view, line centre to line centre); the 46.5 m overall length is to the tailplane's tips. A T-tail (the tailplane on the fin's top fairing) and two V2500 nacelles on the rear fuselage on stub pylons. The sheet draws the cabin windows (closed outlines) and the left side's doors (the main entry door, the overwing exits, the aft service door); the right side's forward service door is placed from 2.7.2's partial plan; the cargo doors (on the right, dashed) are drawn and checked against 2.7.1's table.",
+  "out": "../../../../shapes/MD90.json",
+  "length": 43.03,
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "engines": {
+    "mount": "fuselage"
+  },
+  "stabilizer": {
+    "mount": "fin"
+  },
+  "refs": {
+    "side": {
+      "nose": 924,
+      "tail": 8503,
+      "windowRow": [
+        1140,
+        1235
+      ],
+      "windowGap": 5,
+      "windowMinWidth": 30,
+      "windowInset": 4.5,
+      "windowBand": [
+        1152,
+        1226
+      ],
+      "windowsAlso": [
+        6711
+      ]
+    },
+    "plan": {
+      "nose": 250,
+      "centerline": 3522
+    },
+    "front": {
+      "centerline": 3009,
+      "crownTop": 790
+    }
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [
+        1608,
+        1031,
+        1768,
+        1361
+      ],
+      "side": "left",
+      "name": "main entry door"
+    },
+    {
+      "kind": "door",
+      "box": [
+        1658,
+        1144,
+        1779,
+        1361
+      ],
+      "side": "right",
+      "name": "service door"
+    },
+    {
+      "kind": "exit",
+      "box": [
+        5019,
+        1075,
+        5120,
+        1255
+      ]
+    },
+    {
+      "kind": "exit",
+      "box": [
+        5297,
+        1076,
+        5398,
+        1256
+      ]
+    },
+    {
+      "kind": "door",
+      "box": [
+        6251,
+        1052,
+        6380,
+        1369
+      ],
+      "side": "left",
+      "name": "aft service door"
+    },
+    {
+      "kind": "cargo",
+      "box": [
+        2545,
+        1431,
+        2789,
+        1570
+      ],
+      "side": "right",
+      "name": "forward cargo door"
+    },
+    {
+      "kind": "cargo",
+      "box": [
+        4018,
+        1430,
+        4261,
+        1567
+      ],
+      "side": "right",
+      "name": "mid cargo door"
+    },
+    {
+      "kind": "cargo",
+      "box": [
+        6334,
+        1429,
+        6551,
+        1566
+      ],
+      "side": "right",
+      "name": "aft cargo door"
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [
+        1300,
+        1150
+      ],
+      [
+        1350,
+        1097
+      ],
+      [
+        1397,
+        1100
+      ],
+      [
+        1358,
+        1162
+      ]
+    ],
+    [
+      [
+        1397,
+        1100
+      ],
+      [
+        1452,
+        1100
+      ],
+      [
+        1452,
+        1200
+      ],
+      [
+        1358,
+        1162
+      ]
+    ],
+    [
+      [
+        1452,
+        1100
+      ],
+      [
+        1553,
+        1098
+      ],
+      [
+        1553,
+        1173
+      ],
+      [
+        1452,
+        1200
+      ]
+    ],
+    [
+      [
+        1407,
+        1087
+      ],
+      [
+        1445,
+        1045
+      ],
+      [
+        1480,
+        1047
+      ],
+      [
+        1457,
+        1088
+      ]
+    ]
+  ],
+  "printed": {
+    "fuselage height": 3.61,
+    "fuselage width": 3.35,
+    "wingspan": 32.87,
+    "tailplane span": 12.25,
+    "overall length": 46.5,
+    "engine out from the centerline": 2.9,
+    "wing root leading edge from the nose": 21.16,
+    "main entry door from the nose": 4.38,
+    "service door from the nose": 4.51,
+    "aft service door from the nose": 30.6,
+    "forward cargo door from the nose": 9.94,
+    "mid cargo door from the nose": 18.15,
+    "aft cargo door from the nose": 31.33
+  },
+  "meta": {
+    "id": "MD90",
+    "name": "McDonnell Douglas MD-90",
+    "types": [
+      "MD90"
+    ],
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/airports/acaps/MD90.pdf",
+        "title": "Boeing, MD-90-30/-30ER Airplane Characteristics for Airport Planning (MDC K9099, October 2002), 2.2 General Airplane Dimensions, 2.3 Ground Clearances, 2.7.1 Lower Forward, Mid, and Aft Cargo Door Clearances, 2.7.2 Passenger Entrance and Service Door Clearances, 2.7.5 Aft Service Door Clearances",
+        "accessed": "2026-11-15",
+        "note": "Dimensions and outlines read off 2.3's side and front views (drawn larger than 2.2's) and 2.2's plan rendered to their scale (tools/trace/md90/); the figures are the aircraft's measurements, not a copy of the drawing. A T-tail (the tailplane on the fin's top fairing) and two V2500 nacelles on the rear fuselage, each on a stub pylon. Both sheets draw the aircraft nose down at its ground attitude: the side view is turned level (0.84°). The side view draws the tube 3.6% taller than the printed 3.61 m (the front view 3%), so the fuselage is fit to the printed height (fit_height.py); the plan's width agrees with the printed 3.35 m. The plan prints the engine 2.90 m (9 ft 6 in) from the centerline where it draws the nacelle's middle at 2.95 m, the nacelle as wide as the front view's inlet (2.11 m): the shape keeps the drawing's (+1.8%). The sheet draws the cabin windows and the left side's doors: the main entry door 4.34 m to its middle against 2.7.2's printed 4.38 m, the aft service door within 1 cm of 2.7.5's 30.6 m. The right side's forward service door is placed from 2.7.2's partial plan (27 in wide, 48.5 in tall, 4.51 m to its middle, its sill with the main door's). The cargo doors (on the right) are drawn dashed and sit within 0.11 m of 2.7.1's table. 2.3's ground clearances aren't used as checks: the drawing's heights above its ground line read 4-7% above the table's (the crown 4.84 m against 4.5-4.7 m), and the table's ranges cover the aircraft's attitudes and loads."
+      }
+    ]
+  }
+}

@@ -1,0 +1,330 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "ATN",
+  "name": "Air Transport International (globe tail)",
+  "kind": "standard",
+  "confidence": "low",
+  "drawnOn": "B762",
+  "description": "White fuselage with a red pinstripe over a thin black one along the side from the titles back toward the tail; 'AIR TRANSPORT' in heavy black slanted capitals over a smaller 'INTERNATIONAL' ahead of the wing; the fin's upper and aft part red, cut into cells by white globe lines, edged at the front by two curved black stripes on white.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Air_Transport_International",
+      "title": "Wikipedia: Air Transport International",
+      "accessed": "2026-11-13",
+      "note": "767 fleet; most fly for Amazon or DHL in their colors."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Air_Transport_International_Boeing_767-300_(N255CM).jpg",
+      "title": "Air Transport International Boeing 767-300 (N255CM).jpg (CC0)",
+      "accessed": "2026-11-13",
+      "note": "N255CM (767-300) right side taxiing, 2024-10-03: the current scheme; the left side is assumed to mirror it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:ATI_International_Boeing_767-200_N763CX_BWI_MD1.jpg",
+      "title": "ATI International Boeing 767-200 N763CX BWI MD1.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "N763CX (767-200) left side, 2022-12-09: the older white-tailed 'ATI' scheme still flying."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F2F3F5",
+      "official": false
+    },
+    "red": {
+      "hex": "#C8202F",
+      "official": false,
+      "name": "ATI red"
+    },
+    "black": {
+      "hex": "#1A1A1A",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "red pinstripe",
+        "color": "red",
+        "below": [
+          [
+            0.31,
+            0.07
+          ],
+          [
+            0.83,
+            0.07
+          ]
+        ],
+        "above": [
+          [
+            0.31,
+            0.02
+          ],
+          [
+            0.83,
+            0.02
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "black pinstripe",
+        "color": "black",
+        "below": [
+          [
+            0.31,
+            0.02
+          ],
+          [
+            0.83,
+            0.02
+          ]
+        ],
+        "above": [
+          [
+            0.31,
+            0.0
+          ],
+          [
+            0.83,
+            0.0
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0
+        ]
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "hidden",
+    "confidence": "low",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "forward black stripe",
+        "color": "black",
+        "points": [
+          [
+            0.13,
+            0
+          ],
+          [
+            0.09,
+            0.4
+          ],
+          [
+            0.03,
+            0.75
+          ],
+          [
+            0.0,
+            0.9
+          ],
+          [
+            0.0,
+            0.97
+          ],
+          [
+            0.06,
+            0.75
+          ],
+          [
+            0.12,
+            0.4
+          ],
+          [
+            0.165,
+            0
+          ]
+        ]
+      },
+      {
+        "name": "aft black stripe",
+        "color": "black",
+        "points": [
+          [
+            0.2,
+            0
+          ],
+          [
+            0.155,
+            0.4
+          ],
+          [
+            0.08,
+            0.75
+          ],
+          [
+            0.04,
+            0.95
+          ],
+          [
+            0.075,
+            0.95
+          ],
+          [
+            0.115,
+            0.75
+          ],
+          [
+            0.19,
+            0.4
+          ],
+          [
+            0.235,
+            0
+          ]
+        ]
+      },
+      {
+        "name": "red globe",
+        "color": "red",
+        "points": [
+          [
+            0.28,
+            0
+          ],
+          [
+            0.23,
+            0.4
+          ],
+          [
+            0.15,
+            0.75
+          ],
+          [
+            0.1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "low",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "low",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "logos": [
+    {
+      "mark": "ATN/globe",
+      "place": "fin",
+      "at": [
+        0.6,
+        0.55
+      ],
+      "height": 0.9,
+      "colors": [
+        "white"
+      ],
+      "description": "White latitude and longitude lines dividing the red part of the fin into cells, as a quarter of a globe seen from the side.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Air_Transport_International_Boeing_767-300_(N255CM).jpg",
+      "confidence": "low",
+      "sourceRefs": [
+        0
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "AIR TRANSPORT",
+      "place": "fuselage",
+      "at": [
+        0.177,
+        0.13
+      ],
+      "height": 0.33,
+      "color": "black",
+      "style": "'AIR TRANSPORT' in heavy, slanted black capitals ahead of the wing.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ],
+      "length": 0.25,
+      "type": {
+        "similar": [
+          "Helvetica Neue Heavy Italic",
+          "Arial Black Italic"
+        ],
+        "weight": 800,
+        "slantDeg": 10,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "INTERNATIONAL",
+      "place": "fuselage",
+      "at": [
+        0.179,
+        -0.05
+      ],
+      "height": 0.14,
+      "color": "black",
+      "style": "'INTERNATIONAL' in plain black capitals under 'AIR TRANSPORT', aligned with its forward end.",
+      "confidence": "low",
+      "sourceRefs": [
+        0
+      ],
+      "length": 0.131,
+      "type": {
+        "similar": [
+          "Helvetica Neue Medium",
+          "Arial"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "side": "right"
+    }
+  ],
+  "notes": "Drawn from one right-side photo (N255CM, 767-300, October 2024); the left side is assumed to mirror it. Older aircraft still carry ATI's previous white scheme with the blue 'ATI' logo forward (N763CX, 2022). Most ATI 767s fly in Amazon Prime Air or DHL colors. Re-checked 2026-11-15 on N255CM (right side, 2024-10-03; its outline is a 767-200's, so drawnOn B762): AIR TRANSPORT runs x 0.177-0.427 with its cap top at y ~0.46 (it had been drawn ~30% too tall); INTERNATIONAL, half its height, sits under the forward end of TRANSPORT on the right side, right-aligned as read: no photo shows the left side, where it would likely sit under the aft end, so it is drawn on the right only.",
+  "history": "Replaces Skyarium v1's approximate standard (a few colors from memory). ATI's earlier scheme was all white with a blue swept 'ATI' and globe logo ahead of the wing."
+}

@@ -1,0 +1,149 @@
+{
+  "_about": "CRJ200 (CL-600-2B19; the CRJ100 and CRJ440 share the airframe), from Bombardier's CRJ100/200/440 Airport Planning Manual (CSP A-020, Revision 8, Jan 10/2016), 00-02-01 Figure 2 General Airplane Dimensions (Metric, page index 24), Figure 3 Ground Clearances (page index 25), Figure 10 Passenger Door and Service Door Clearances (page index 33), Figure 11 Cargo Compartment Door Clearance (page index 34). Figure 2 is a binarized scan in nine tiles (layers.py --mode image), side, plan and front on one sheet; side and plan are drawn to one scale (the plan's printed 9.30 m and 4.27 m within 0.5%), the front view 1.7% larger (its printed 21.23 m span), rendered to the side's scale. The side view is drawn level: no --rotate. Pixels of those rasters at scale 10 (the front at 9.8308), line centres. Scaled by the printed 24.38 m fuselage length, nose tip to the tail cone's end. A T-tail (the tailplane on the fin's top fairing, which runs aft to a point over the tailplane's tips) with two CF34-3 nacelles on stub pylons on the rear fuselage, and winglets. The side view draws the 13 cabin windows a side, the passenger door and the overwing exit (on both sides: Figure 3); the right side's service door is placed from Figure 10's dashed outline, relative to the passenger door. The cargo door (left side, Figure 3 and Figure 11, 1.09 by 0.84 m) isn't drawn on Figure 2: Figure 11's plan sketch puts it from just behind the nacelle's inlet lip (FS578 to FS621, the lip at about FS577), its sill at the passenger door's (both 1.73 m above the ground at the most, Figure 3's B and D). It also serves CRJ1 (the CRJ100): the same CL-600-2B19 airframe in the same document.",
+  "out": "../../../../shapes/CRJ2.json",
+  "length": 24.38,
+  "wingtip": "winglet",
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "engines": {
+    "mount": "fuselage"
+  },
+  "stabilizer": {
+    "mount": "fin"
+  },
+  "refs": {
+    "side": {
+      "nose": 28,
+      "tail": 2912,
+      "cowlEnd": 2353,
+      "windowRow": [
+        504,
+        557
+      ],
+      "windowGap": 5,
+      "windowMinWidth": 30,
+      "windowInset": 2,
+      "windowBand": [
+        508,
+        552
+      ]
+    },
+    "plan": {
+      "nose": 39,
+      "centerline": 1305.75
+    },
+    "front": {
+      "centerline": 1335,
+      "crownTop": 327
+    }
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [
+        536,
+        432,
+        651,
+        649
+      ],
+      "side": "left"
+    },
+    {
+      "kind": "door",
+      "box": [
+        551,
+        506,
+        636,
+        647
+      ],
+      "side": "right"
+    },
+    {
+      "kind": "exit",
+      "box": [
+        1316,
+        473,
+        1378,
+        581
+      ]
+    },
+    {
+      "kind": "cargo",
+      "box": [
+        2040,
+        550,
+        2169,
+        649
+      ],
+      "side": "left"
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [
+        218,
+        519
+      ],
+      [
+        284,
+        481
+      ],
+      [
+        326,
+        481
+      ],
+      [
+        292,
+        519
+      ]
+    ],
+    [
+      [
+        311,
+        519
+      ],
+      [
+        346,
+        481
+      ],
+      [
+        420,
+        481
+      ],
+      [
+        420,
+        519
+      ]
+    ]
+  ],
+  "printed": {
+    "fuselage length": 24.38,
+    "fuselage height": 2.69,
+    "fuselage width": 2.69,
+    "wingspan": 21.23,
+    "tailplane span": 6.2,
+    "overall length": 26.77,
+    "nacelle width": 1.45
+  },
+  "meta": {
+    "id": "CRJ2",
+    "name": "Mitsubishi (Bombardier) CRJ200",
+    "types": [
+      "CRJ2",
+      "CRJ1"
+    ],
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://customer.aero.bombardier.com/webd/BAG/CustSite/BRAD/RACSDocument.nsf/51aae8b2b3bfdf6685256c300045ff31/ec63f8639ff3ab9d85257c1500635bd8/$FILE/ATT1ES4H.pdf/CRJ200APMR8.pdf",
+        "title": "Bombardier, CRJ100/200/440 Airport Planning Manual (CSP A-020, Revision 8, Jan 10/2016), 00-02-01: Figure 2 General Airplane Dimensions (Metric), Figure 3 Ground Clearances, Figure 10 Passenger Door and Service Door Clearances, Figure 11 Cargo Compartment Door Clearance",
+        "accessed": "2026-11-16",
+        "note": "Dimensions and outlines read off Figure 2's side, plan and front views (tools/trace/crj2/); the figures are the aircraft's measurements, not a copy of the drawing. Figure 2 is a binarized scan; its side and plan are drawn to one scale (the plan's printed 9.30 m wing and 4.27 m root chord within 0.5%), its front view 1.7% larger (by its printed 21.23 m span), rendered to the side's scale. The side view is drawn level. Scaled by the printed 24.38 m fuselage length. A T-tail (the tailplane on the fin's top fairing, which runs aft to a point over the tailplane's tips: the printed 26.77 m overall length) with winglets and two CF34-3 nacelles on stub pylons on the rear fuselage. The plan draws the tailplane 3.0% wider than its printed 6.20 m (the front view 1.1%): the shape keeps the plan's. The front view draws the nacelle's inlet ring 1.40 m wide and 1.44 m tall against the printed 1.45 m (its own dimension lines 1.42 m apart; the plan's nacelle 1.33 m across by line centres): the shape keeps the drawing's ring (-3.8%). The side view draws the passenger door 0.97 m wide by line centres against the printed 0.91 m (the opening). The side view draws the 13 cabin windows a side, the passenger door (left) and the Type III overwing exit (both sides, Figure 3). The right side's galley service door is placed from Figure 10's dashed outline, relative to the passenger door. The cargo door (left side, 1.09 by 0.84 m opening) isn't drawn on Figure 2: Figure 11's plan sketch puts it from FS578 to FS621, just behind the nacelle's inlet lip (about FS577), so it's placed from 0.03 m behind the lip; its sill at the passenger door's (Figure 3's B and D both reach 1.73 m above the ground). All other checks within 0.7%. The manual covers the CRJ100, CRJ200 and CRJ440 (CL-600-2B19), one airframe: the shape serves CRJ1 too."
+      }
+    ]
+  }
+}

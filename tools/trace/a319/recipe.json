@@ -1,0 +1,92 @@
+{
+  "_about": "A319-100 with sharklets, from Airbus AC A319 (Jul 01/26) 2-2-0 Sharklet sheets 3 (side, front: page index 43) and 4 (plan: page index 44). Pixels of layers.py --mode strokes-in-fill rasters at scale 20, line centres; the side and plan with --xscale 1.0249 (both sheets are drawn 2.5% short lengthwise against their printed 33.84 m and 11.04 m; their heights and widths match the A320's sheets). The A320's points moved onto these sheets (a319/*.anchors.json says how) and snapped. Of the two overwing exits drawn, the first is marked optional: the shape has the standard one. The cockpit panes are the A320's (the same nose), which land on this sheet's. Windows the drawing hides (behind the sharklet's and wing's lines, a dimension line, and in the optional exit) are placed at the drawing's pitch (windowsAlso).",
+  "out": "../../../../shapes/A319.json",
+  "length": 33.84,
+  "wingtip": "sharklet",
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "refs": {
+    "side": {
+      "nose": 607.8,
+      "tail": 6046.3,
+      "cowlEnd": 2716,
+      "windowRow": [1332, 1395],
+      "windowsAlso": [1740, 2629, 3604, 3688, 3772, 3857, 3941]
+    },
+    "plan": {
+      "nose": 190.6,
+      "centerline": 3064
+    },
+    "front": {
+      "centerline": 3168,
+      "crownTop": 1189
+    }
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [1333, 1223, 1488, 1537]
+    },
+    {
+      "kind": "exit",
+      "box": [2719, 1309, 2803, 1483]
+    },
+    {
+      "kind": "door",
+      "box": [4657, 1218, 4816, 1528]
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [904.3, 1332.8],
+      [960.6, 1334.6],
+      [911.0, 1403.2],
+      [898.6, 1405.1],
+      [843.0, 1407.4],
+      [831.8, 1407.0],
+      [861.5, 1372.8]
+    ],
+    [
+      [964.1, 1334.5],
+      [1112.6, 1334.7],
+      [1131.1, 1353.7],
+      [1132.3, 1384.1],
+      [1132.1, 1415.4],
+      [1131.0, 1417.5],
+      [1129.0, 1418.6],
+      [1010.4, 1420.8],
+      [960.6, 1410.6],
+      [913.4, 1401.7],
+      [914.3, 1399.6],
+      [956.8, 1343.0],
+      [961.0, 1337.7]
+    ]
+  ],
+  "printed": {
+    "fuselage height": 4.14,
+    "fuselage width": 3.95,
+    "wingspan": 35.8,
+    "tailplane span": 12.45,
+    "engine out from the centerline": 5.75,
+    "fin tip above the crown": 5.87,
+    "winglet height": 2.43
+  },
+  "meta": {
+    "id": "A319",
+    "name": "Airbus A319-100 with sharklets",
+    "types": ["A319"],
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://aircraft.airbus.com/en/customer-care/fleet-wide-care/airport-operations-and-aircraft-characteristics/aircraft-characteristics",
+        "title": "Airbus, A319 Aircraft Characteristics: Airport and Maintenance Planning (Jul 01/26), 2-2-0 General Aircraft Dimensions, Sharklet sheets 3 and 4",
+        "accessed": "2026-11-15",
+        "note": "Dimensions and outlines read off the side, plan and front views (tools/trace/a319/), starting from the A320's points moved by the shorter fuselage; the figures are the aircraft's measurements, not a copy of the drawing. Both sheets are drawn 2.5% short lengthwise and are evened out to their printed figures. The cabin windows are the drawing's; the cockpit panes the A320's. Many A319s fly without sharklets (wingtip fences): this shape has sharklets."
+      }
+    ]
+  }
+}

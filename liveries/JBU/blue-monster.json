@@ -1,0 +1,582 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "blue-monster",
+  "airline": "JBU",
+  "name": "Blue Monster (Boston Red Sox)",
+  "kind": "special",
+  "confidence": "medium",
+  "drawnOn": "A320",
+  "description": "Fuselage: White upper fuselage; navy lower fuselage and belly, the split low along the side and sweeping up to the crown just ahead of the fin, a bright-blue stripe along it. Tail: Navy fin almost filled by a big red Red Sox sock (white outline, white stripes on the cuff near the top), its foot running forward along the fin root; a second red sock wraps the aft fuselage and tail cone round the aft door, with white patches. Engines: Navy with white 'jetblue.com', polished lips. Winglets: Red wingtip fences with a white 'B'. Titles: Navy 'jetBlue' forward with the round 'BOSTON RED SOX' logo just aft of it; 'BLUE MONSTER' in red varsity capitals along the lower right side under the wing; 'Blue Monster' small under the cockpit windows. Artwork: Red Sox sock logos, small ones on the lower fuselage.",
+  "sources": [
+    {
+      "url": "https://simpleflying.com/jetblue-special-liveries-guide/",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/w/index.php?search=N605JB",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:JetBlue_Airbus_A320_N605JB_departing_Boston_March_2025.jpg",
+      "title": "JetBlue Airbus A320 N605JB departing Boston March 2025 (CC BY 4.0)",
+      "accessed": "2026-11-12",
+      "note": "Right side from below, 2025-03-11: still in the scheme; 'BLUE MONSTER' along the lower right side, socks on the belly, red wingtip fences."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N605JB_-_KHPN_-_27-7-23.jpg",
+      "title": "N605JB - KHPN - 27-7-23 (CC BY-SA 4.0)",
+      "accessed": "2026-11-12",
+      "note": "Right side, 2023-07-27: the body split, titles, roundel, fin and tail-cone socks; main geometry source for the forward body."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A320-232_'Blue_Monster'_(N605JB,_cn_2368)_(5-15-2023).jpg",
+      "title": "Airbus A320-232 'Blue Monster' (N605JB, cn 2368) (5-15-2023) (CC BY-SA 4.0)",
+      "accessed": "2026-11-12",
+      "note": "Left side from behind, 2023-05-15: the left fin sock and the aft-fuselage sock, the split's sweep, title and roundel on the left."
+    }
+  ],
+  "from": "2012",
+  "palette": {
+    "white": {
+      "hex": "#F3F4F6",
+      "official": false
+    },
+    "navy": {
+      "hex": "#152668",
+      "official": false
+    },
+    "brightBlue": {
+      "hex": "#1E5CC8",
+      "official": false
+    },
+    "red": {
+      "hex": "#D02A33",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC5",
+      "official": false
+    },
+    "metal": {
+      "hex": "#B8BDC3",
+      "name": "polished inlet lip",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "navy lower fuselage, sweeping up to the crown ahead of the fin",
+        "color": "navy",
+        "points": [
+          [
+            0.02,
+            -0.8
+          ],
+          [
+            0.05,
+            -0.45
+          ],
+          [
+            0.1,
+            -0.32
+          ],
+          [
+            0.45,
+            -0.3
+          ],
+          [
+            0.55,
+            -0.22
+          ],
+          [
+            0.62,
+            -0.05
+          ],
+          [
+            0.68,
+            0.15
+          ],
+          [
+            0.72,
+            0.6
+          ],
+          [
+            0.75,
+            1.0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            0.0,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3,
+          4
+        ],
+        "smooth": true
+      },
+      {
+        "name": "bright-blue stripe along the split",
+        "color": "brightBlue",
+        "points": [
+          [
+            0.02,
+            -0.8
+          ],
+          [
+            0.05,
+            -0.45
+          ],
+          [
+            0.1,
+            -0.32
+          ],
+          [
+            0.45,
+            -0.3
+          ],
+          [
+            0.55,
+            -0.22
+          ],
+          [
+            0.62,
+            -0.05
+          ],
+          [
+            0.68,
+            0.15
+          ],
+          [
+            0.72,
+            0.6
+          ],
+          [
+            0.75,
+            1.0
+          ],
+          [
+            0.775,
+            1.0
+          ],
+          [
+            0.745,
+            0.6
+          ],
+          [
+            0.705,
+            0.1
+          ],
+          [
+            0.64,
+            -0.13
+          ],
+          [
+            0.56,
+            -0.3
+          ],
+          [
+            0.45,
+            -0.38
+          ],
+          [
+            0.1,
+            -0.4
+          ],
+          [
+            0.06,
+            -0.53
+          ],
+          [
+            0.03,
+            -0.9
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3,
+          4
+        ],
+        "smooth": true
+      },
+      {
+        "name": "red sock round the aft door and tail cone",
+        "color": "red",
+        "points": [
+          [
+            0.754,
+            1
+          ],
+          [
+            0.935,
+            1
+          ],
+          [
+            0.935,
+            0.3
+          ],
+          [
+            0.961,
+            -0.2
+          ],
+          [
+            0.935,
+            -0.6
+          ],
+          [
+            0.896,
+            -1
+          ],
+          [
+            0.845,
+            -1
+          ],
+          [
+            0.832,
+            -0.4
+          ],
+          [
+            0.793,
+            -0.1
+          ],
+          [
+            0.754,
+            0.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          3,
+          4
+        ]
+      },
+      {
+        "name": "white patch in the tail-cone sock",
+        "color": "white",
+        "points": [
+          [
+            0.854,
+            0.29
+          ],
+          [
+            0.899,
+            0.29
+          ],
+          [
+            0.899,
+            -0.12
+          ],
+          [
+            0.854,
+            -0.12
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          4
+        ]
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3,
+      4
+    ]
+  },
+  "fin": {
+    "base": "navy",
+    "areas": [
+      {
+        "name": "red sock (leg and foot)",
+        "color": "red",
+        "points": [
+          [
+            0.0,
+            0.78
+          ],
+          [
+            0.12,
+            0.72
+          ],
+          [
+            0.18,
+            0.68
+          ],
+          [
+            0.45,
+            0.55
+          ],
+          [
+            0.68,
+            0.41
+          ],
+          [
+            0.94,
+            0.14
+          ],
+          [
+            1.0,
+            0.05
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          3,
+          4
+        ]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [
+      3,
+      4
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "red",
+    "inner": "red",
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3
+    ]
+  },
+  "engines": {
+    "cowling": "navy",
+    "inletLip": "metal",
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3,
+      4
+    ]
+  },
+  "logos": [
+    {
+      "mark": "JBU/red-sox-sock",
+      "place": "fin",
+      "at": [
+        0.45,
+        0.4
+      ],
+      "height": 0.8,
+      "colors": [
+        "red",
+        "white"
+      ],
+      "description": "The Red Sox hanging-socks mark, one sock: a red sock outlined in white, standing with its cuff near the fin's top (white vertical stripes across the cuff) and its foot pointing forward along the root; navy shows above it and along the upper trailing edge.",
+      "confidence": "medium",
+      "sourceRefs": [
+        3,
+        4
+      ]
+    },
+    {
+      "mark": "JBU/red-sox-roundel",
+      "place": "fuselage",
+      "at": [
+        0.375,
+        0.25
+      ],
+      "height": 0.55,
+      "colors": [
+        "white",
+        "red"
+      ],
+      "description": "The 'BOSTON RED SOX' round logo: a white disc ringed in red with the name in red round it and the hanging socks in the middle, just aft of the 'jetBlue' title over the windows.",
+      "confidence": "medium",
+      "sourceRefs": [
+        3,
+        4
+      ]
+    },
+    {
+      "mark": "JBU/red-sox-sock",
+      "place": "fuselage",
+      "at": [
+        0.2,
+        -0.6
+      ],
+      "height": 0.2,
+      "colors": [
+        "red",
+        "white"
+      ],
+      "description": "Small red sock logos low on the navy: one ahead of the wing, one behind it.",
+      "side": "right",
+      "confidence": "medium",
+      "sourceRefs": [
+        2
+      ]
+    },
+    {
+      "mark": "JBU/red-sox-b",
+      "place": "winglets",
+      "at": [
+        0.5,
+        0.5
+      ],
+      "height": 0.4,
+      "colors": [
+        "white"
+      ],
+      "description": "The Red Sox gothic 'B' in white on each red wingtip fence.",
+      "confidence": "low",
+      "sourceRefs": [
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "jetBlue",
+      "place": "fuselage",
+      "at": [
+        0.174,
+        0.0
+      ],
+      "height": 0.76,
+      "color": "navy",
+      "style": "The jetBlue logotype: heavy rounded sans, lower-case 'jet' and capital B, over the forward windows just aft of the forward door.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3,
+        4
+      ],
+      "type": {
+        "similar": [
+          "Gotham Rounded Bold",
+          "VAG Rounded Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.76
+      },
+      "length": 0.182
+    },
+    {
+      "text": "BLUE MONSTER",
+      "place": "fuselage",
+      "at": [
+        0.235,
+        -0.75
+      ],
+      "height": 0.35,
+      "color": "red",
+      "style": "Red varsity capitals with bracketed serifs (the Red Sox lettering style), thinly outlined, widely spaced along the navy lower side from ahead of the wing to behind it. Seen on the right side; the left side's lower fuselage isn't visible in any photo used.",
+      "side": "right",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ],
+      "length": 0.3,
+      "type": {
+        "similar": [
+          "Clarendon Bold",
+          "Rockwell Extra Bold"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "contrast",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "Blue Monster",
+      "place": "fuselage",
+      "at": [
+        0.06,
+        -0.15
+      ],
+      "height": 0.08,
+      "color": "navy",
+      "style": "Small italic sans below and behind the cockpit windows (the aircraft's name, as on all JetBlue aircraft).",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Gotham Medium Italic"
+        ],
+        "weight": 500,
+        "slantDeg": 10,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.7
+      },
+      "length": 0.03
+    },
+    {
+      "text": "jetblue.com",
+      "place": "engines",
+      "at": [
+        0.43,
+        0.0
+      ],
+      "height": 0.25,
+      "color": "white",
+      "style": "Bold rounded lower case along the cowling's side.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3,
+        4
+      ],
+      "type": {
+        "similar": [
+          "Gotham Rounded Bold",
+          "VAG Rounded Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "length": 0.36
+    }
+  ],
+  "notes": "Body split drawn from right-side photos (2023-07, 2025-03) and the left from behind (2023-05); the split's top end, where it meets the crown, is hidden by the wing in most shots (medium-low). 'BLUE MONSTER' and the small socks are drawn for the right side only: no photo used shows the lower left fuselage. Re-checked 2026-11-15: 'jetBlue' placed as on the standard (measured in metres on the A321neo N2017J and checked on A320s: x 0.174-0.356 of an A320, cap 1.57 m, lowercase 0.76 of the capitals); 'jetblue.com' on the A320's nacelle x 0.43-0.79 (read off N615JB and N627JB); the name under the cockpit given its length. The roundel moved aft to x 0.375 to sit just behind the title's end, as on the photos."
+}

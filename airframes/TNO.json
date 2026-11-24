@@ -1,0 +1,22 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "TNO",
+  "airframes": [
+    {
+      "registration": "N337QT",
+      "hex": "a3b140",
+      "type": "A333",
+      "livery": "AVA/standard",
+      "confidence": "medium",
+      "lastSeen": "2026-08-04",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N337QT.jpg",
+          "title": "N337QT.jpg (CC BY-SA 4.0, Liam Thompson)",
+          "accessed": "2026-11-20",
+          "note": "A330-300P2F N337QT on approach to LAX, 2026-08-04, in Avianca's red scheme with 'avianca cargo' and a small 'Mexico' under it (Avianca Cargo México, the former AeroUnion), not the green Avianca Cargo scheme its sister N338QT wears. Tagged to Avianca's passenger scheme, the nearest drawn: it lacks the 'cargo' title and draws windows."
+        }
+      ]
+    }
+  ]
+}

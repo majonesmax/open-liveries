@@ -1,0 +1,653 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "new-york-jets",
+  "airline": "JBU",
+  "name": "New York Jets (J! E! T! B! L! U! E!)",
+  "kind": "special",
+  "confidence": "medium",
+  "drawnOn": "A320",
+  "from": "2025-09-16",
+  "commemorates": "JetBlue's partnership with the New York Jets (Official Airline since 2009); the team's third JetBlue livery, after 'JetGreen' (2010) and the 2017 Jets scheme, all on N746JB.",
+  "description": "Fuselage: Jets green all over, with two broad white bands slanting aft round the rear fuselage behind the wing (after the jersey's sleeve stripes), the first from about the wing's trailing edge, the second ending just ahead of the aft door; they run down round the belly. Titles: 'jetBlue' very large in white over the forward windows; the registration in dark capitals with a small US flag over the windows on the second white band, 'AIRBUS A320' small under them; 'J! E! T! B! L! U! E!' small in white under the cockpit. Doors outlined in white. Tail: green fin carrying the Jets' football-shaped logo across it, a white-outlined green football cut by both edges with 'JETS' in white italic and a white jet over it. Wings and tailplane white; wingtip fences green. Engines green with the Jets 'NY' mark in white. Belly: Jets logos (not seen in an open photo).",
+  "sources": [
+    {
+      "url": "https://www.businesswire.com/news/home/20250916302122/en/",
+      "title": "JetBlue Suits Up with a Fresh New York Jets Livery Inspired by Team Uniforms (JetBlue via Business Wire, 2025-09-16)",
+      "accessed": "2026-11-22",
+      "note": "JetBlue's release: unveiled at JFK 2025-09-16, named 'J! E! T! B! L! U! E!', Jets green with white wings and white stripes from the jersey sleeves across the back of the fuselage; Jets logos on the belly, engines, tail and doors. Business Wire refused automated access (403), so its text was read in the Jets' reprint below and no press-kit image was used."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:JetBlue_A320-200_at_FLL_(55153993098).jpg",
+      "title": "JetBlue A320-200 at FLL (55153993098).jpg (CC0, Tim)",
+      "accessed": "2026-11-22",
+      "note": "N746JB right side at Fort Lauderdale, 2026-03-17, three-quarter front from a terminal window: flipped nose-left, the fuselage side rectified with a homography on the forward door, the overwing exits, the first and last windows and the aft door's top (within about 0.2 m, 0.4 m at the first window), then fitted to shapes/A320.json (photo_trace align, within 14 px, 0.3 m); the fin measured on its own homography from its four corners. The bands, titles, fin ring and engine mark read off it."
+    },
+    {
+      "url": "https://www.newyorkjets.com/news/jetblue-suits-up-with-a-fresh-new-york-jets-livery-09-16-2025",
+      "title": "New York Jets: JetBlue Suits Up with a Fresh New York Jets Livery Inspired by Team Uniforms (2025-09-16)",
+      "accessed": "2026-11-22",
+      "note": "The team's reprint of JetBlue's release (evidence only): the 2010 'JetGreen' and 2017 schemes before it; 'our third livery design with our long-term partner'."
+    },
+    {
+      "url": "https://worldairlinenews.com/2025/09/16/jetblue-updates-the-new-york-jets-nfl-logo-jet-for-the-2025-season/",
+      "title": "World Airline News: JetBlue updates the New York Jets NFL logo jet for the 2025 season (2025-09-16)",
+      "accessed": "2026-11-22",
+      "note": "Evidence only: the same jet, N746JB, repainted from its 2017 Jets scheme."
+    }
+  ],
+  "palette": {
+    "green": {
+      "hex": "#13463A",
+      "official": false,
+      "name": "Jets green (as painted, in overcast light)"
+    },
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "black": {
+      "hex": "#1A1C20",
+      "official": false
+    },
+    "wingWhite": {
+      "hex": "#E4E7EA",
+      "official": false,
+      "name": "white wings"
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false,
+      "name": "polished inlet lip"
+    },
+    "flagRed": {
+      "hex": "#B22234",
+      "official": false
+    },
+    "navy": {
+      "hex": "#14275A",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "green",
+    "areas": [
+      {
+        "name": "first white sleeve band, from the wing's trailing edge, slanting aft to the crown",
+        "color": "white",
+        "points": [
+          [
+            0.5332,
+            1
+          ],
+          [
+            0.6263,
+            1
+          ],
+          [
+            0.5623,
+            -1
+          ],
+          [
+            0.4575,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          0
+        ]
+      },
+      {
+        "name": "second white sleeve band, ending just ahead of the aft door",
+        "color": "white",
+        "points": [
+          [
+            0.6766,
+            1
+          ],
+          [
+            0.7713,
+            1
+          ],
+          [
+            0.72,
+            -1
+          ],
+          [
+            0.6172,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          0
+        ]
+      }
+    ],
+    "radome": {
+      "color": "green"
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      0
+    ]
+  },
+  "fin": {
+    "base": "green",
+    "rudder": "green",
+    "mirrored": true,
+    "areas": [
+      {
+        "name": "the Jets football's white outline (cut by both edges)",
+        "color": "white",
+        "smooth": true,
+        "points": [
+          [
+            -0.2,
+            0.655,
+            1
+          ],
+          [
+            -0.01,
+            0.655
+          ],
+          [
+            0.116,
+            0.664
+          ],
+          [
+            0.182,
+            0.665
+          ],
+          [
+            0.241,
+            0.674
+          ],
+          [
+            0.308,
+            0.675
+          ],
+          [
+            0.375,
+            0.676
+          ],
+          [
+            0.447,
+            0.669
+          ],
+          [
+            0.519,
+            0.662
+          ],
+          [
+            0.594,
+            0.646
+          ],
+          [
+            0.67,
+            0.627
+          ],
+          [
+            0.743,
+            0.607
+          ],
+          [
+            0.815,
+            0.587
+          ],
+          [
+            0.886,
+            0.562
+          ],
+          [
+            0.955,
+            0.536
+          ],
+          [
+            0.989,
+            0.518
+          ],
+          [
+            1.2,
+            0.498,
+            1
+          ],
+          [
+            1.2,
+            0.123,
+            1
+          ],
+          [
+            0.976,
+            0.103
+          ],
+          [
+            0.931,
+            0.069
+          ],
+          [
+            0.885,
+            0.04
+          ],
+          [
+            0.841,
+            0.011
+          ],
+          [
+            0.794,
+            -0.012
+          ],
+          [
+            0.744,
+            -0.028
+          ],
+          [
+            0.694,
+            -0.037
+          ],
+          [
+            0.64,
+            -0.06
+          ],
+          [
+            0.589,
+            -0.062
+          ],
+          [
+            0.542,
+            -0.05
+          ],
+          [
+            0.496,
+            -0.03
+          ],
+          [
+            0.45,
+            -0.011
+          ],
+          [
+            0.401,
+            0.008
+          ],
+          [
+            0.342,
+            0.041
+          ],
+          [
+            0.279,
+            0.079
+          ],
+          [
+            0.214,
+            0.116
+          ],
+          [
+            0.145,
+            0.158
+          ],
+          [
+            0.074,
+            0.199
+          ],
+          [
+            -0.01,
+            0.25
+          ],
+          [
+            -0.2,
+            0.27,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "the football's green inside",
+        "color": "green",
+        "smooth": true,
+        "points": [
+          [
+            -0.2,
+            0.63,
+            1
+          ],
+          [
+            -0.01,
+            0.63
+          ],
+          [
+            0.137,
+            0.639
+          ],
+          [
+            0.199,
+            0.644
+          ],
+          [
+            0.258,
+            0.653
+          ],
+          [
+            0.323,
+            0.655
+          ],
+          [
+            0.392,
+            0.652
+          ],
+          [
+            0.463,
+            0.644
+          ],
+          [
+            0.533,
+            0.637
+          ],
+          [
+            0.607,
+            0.622
+          ],
+          [
+            0.683,
+            0.597
+          ],
+          [
+            0.755,
+            0.577
+          ],
+          [
+            0.825,
+            0.556
+          ],
+          [
+            0.895,
+            0.53
+          ],
+          [
+            0.963,
+            0.499
+          ],
+          [
+            0.997,
+            0.481
+          ],
+          [
+            1.2,
+            0.46099999999999997,
+            1
+          ],
+          [
+            1.2,
+            0.16799999999999998,
+            1
+          ],
+          [
+            0.97,
+            0.148
+          ],
+          [
+            0.925,
+            0.108
+          ],
+          [
+            0.88,
+            0.074
+          ],
+          [
+            0.834,
+            0.052
+          ],
+          [
+            0.789,
+            0.03
+          ],
+          [
+            0.744,
+            0.007
+          ],
+          [
+            0.696,
+            -0.001
+          ],
+          [
+            0.645,
+            -0.024
+          ],
+          [
+            0.596,
+            -0.019
+          ],
+          [
+            0.548,
+            -0.014
+          ],
+          [
+            0.5,
+            0.005
+          ],
+          [
+            0.446,
+            0.024
+          ],
+          [
+            0.388,
+            0.049
+          ],
+          [
+            0.328,
+            0.081
+          ],
+          [
+            0.267,
+            0.111
+          ],
+          [
+            0.198,
+            0.154
+          ],
+          [
+            0.128,
+            0.195
+          ],
+          [
+            0.052,
+            0.241
+          ],
+          [
+            -0.01,
+            0.28
+          ],
+          [
+            -0.2,
+            0.3,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "stabilizer": {
+    "top": "wingWhite",
+    "under": "wingWhite"
+  },
+  "wings": {
+    "top": "wingWhite",
+    "under": "wingWhite"
+  },
+  "winglets": {
+    "outer": "green",
+    "inner": "green",
+    "confidence": "medium",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "green",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      0
+    ]
+  },
+  "logos": [
+    {
+      "mark": "JBU/jets-football",
+      "place": "fin",
+      "at": [
+        0.485,
+        0.364
+      ],
+      "height": 0.74,
+      "colors": [
+        "green",
+        "white"
+      ],
+      "description": "The Jets' football logo filling the fin: a green football outlined in white, cut by the leading and trailing edges, 'JETS' in white italic block capitals across its middle and a white jet streaking over the letters; its foot reaches the fin's root.",
+      "reference": "https://en.wikipedia.org/wiki/New_York_Jets",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "JBU/jets-ny",
+      "place": "engines",
+      "at": [
+        0.58,
+        0.1
+      ],
+      "height": 0.5,
+      "colors": [
+        "white"
+      ],
+      "description": "The Jets' 'NY' in white italic with a jet streak over it, on the cowling's side.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "JBU/us-flag",
+      "place": "fuselage",
+      "at": [
+        0.687,
+        0.41
+      ],
+      "height": 0.13,
+      "colors": [
+        "flagRed",
+        "white",
+        "navy"
+      ],
+      "description": "A small US flag just ahead of the registration over the windows, on the second white band.",
+      "confidence": "low",
+      "sourceRefs": [
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "jetBlue",
+      "place": "fuselage",
+      "at": [
+        0.16,
+        0.078
+      ],
+      "height": 0.545,
+      "length": 0.175,
+      "color": "white",
+      "style": "The jetBlue wordmark very large in white over the forward windows, from just behind the forward door.",
+      "confidence": "high",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "Gotham Rounded Bold",
+          "VAG Rounded Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      }
+    },
+    {
+      "text": "N746JB",
+      "registration": true,
+      "place": "fuselage",
+      "at": [
+        0.6975,
+        0.36
+      ],
+      "height": 0.13,
+      "length": 0.042,
+      "color": "black",
+      "style": "The aircraft's own registration in dark capitals over the aft windows, on the second white band.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Bold",
+          "Arial Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "J! E! T! B! L! U! E!",
+      "place": "fuselage",
+      "at": [
+        0.043,
+        -0.17
+      ],
+      "height": 0.1,
+      "length": 0.043,
+      "color": "white",
+      "style": "The aircraft's name, small white capitals under the cockpit.",
+      "confidence": "low",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "Gotham Bold",
+          "Helvetica Neue Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Measured on the right side only, from one CC0 photo (N746JB at FLL, 2026-03-17, the only open photo of this scheme); the left side is taken to be the same. The photo is three-quarter front from a terminal window, too oblique for photo_trace's affine fit (80 px off), so the side was first rectified with a homography on points of known position (doors, exits, windows) and then fitted; edges are good to about 0.2-0.3 m along the window line, less near the crown. The white bands' edges are straight in side view within 0.2 m and drawn as four-corner stripes; below the wing they're hidden, carried straight on to the belly (a glimpse of white under the wing, about 22.5-26.7 m back, agrees with the second band). The fin's football is measured on the fin's own homography; its bottom reaches the root and is clipped there. Not drawn: the doors' white outlines, 'AIRBUS A320' under the aft windows, the belly's Jets logos (no photo from below), the nose-gear door's '746'. N746JB wore 'JetGreen' (2010-2017) and a 2017 Jets scheme (2017-2025) before this one; neither is in the dataset. Still current: the Commons photo is six months after the unveiling, and the 2017 scheme it replaced was the same jet."
+}

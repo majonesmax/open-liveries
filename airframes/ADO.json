@@ -1,0 +1,43 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "ADO",
+  "airframes": [
+    {
+      "registration": "JA607A",
+      "hex": "861ba8",
+      "type": "B763",
+      "livery": "rokon-jet-hokkaido",
+      "from": "2021-12",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:ボーイング767-300ER_ロコンジェット北海道・右面(JA607A).jpg",
+          "title": "ボーイング767-300ER ロコンジェット北海道・右面(JA607A).jpg",
+          "accessed": "2026-11-22",
+          "note": "Photo 2025-04-23 (CC0), right side."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:20220331_rokon_jet_of_AIRDO_JA607A_left_side_at_Tokyo_international_airport.png",
+          "title": "20220331 rokon jet of AIRDO JA607A left side at Tokyo international airport.png",
+          "accessed": "2026-11-22",
+          "note": "Photo 2022-03-31 (CC BY-SA 4.0)."
+        },
+        {
+          "url": "https://trafficnews.jp/post/113409",
+          "title": "乗りものニュース (December 2021)",
+          "accessed": "2026-11-22",
+          "note": "JA607A is Rokon Jet Hokkaido."
+        },
+        {
+          "url": "https://www.aviationwire.jp/archives/326347",
+          "title": "Aviation Wire (2025-06-26)",
+          "accessed": "2026-11-22",
+          "note": "Rokon Jet Hokkaido flying in 2025."
+        }
+      ],
+      "hexSource": "looked up: hexdb.io community database (2026-11-22); not verified against the Japanese register",
+      "lastSeen": "2025-06-26",
+      "status": "Newest open photo 2025-04-23; named as flying 2025-06-26 (Aviation Wire); flight-tracking sites show it flying to July 2026 (leads only). Planned to about the end of 2026."
+    }
+  ]
+}

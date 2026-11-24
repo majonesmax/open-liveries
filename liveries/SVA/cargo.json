@@ -1,0 +1,452 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "cargo",
+  "airline": "SVA",
+  "name": "Saudia Cargo (2012 scheme)",
+  "kind": "standard",
+  "from": "2012",
+  "confidence": "medium",
+  "drawnOn": "B77L",
+  "description": "Saudia's 2012 scheme with 'CARGO': ivory all over with a thin gold pinstripe along the middle of the fuselage from the nose almost to the tail; a navy fin with the gold palm-and-swords emblem inside a gold crescent-like ring and a thin white leading edge; 'السعودية' over 'SAUDIA' in navy forward, then 'CARGO' in big gray serif capitals; off-white engines with the gold emblem.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Liège_Airport_Saudi_Arabian_Airlines_Cargo_Boeing_777-FFG_HZ-AK71_(DSC06705).jpg",
+      "title": "Liège Airport Saudi Arabian Airlines Cargo Boeing 777-FFG HZ-AK71 (DSC06705).jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "777F HZ-AK71, right side, 2024-05-12: pinstripe sampled, title sizes, fin emblem, engine."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Saudia_Cargo_HZ-AK74_06-08-2024.jpg",
+      "title": "Saudia Cargo HZ-AK74 06-08-2024.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "777F HZ-AK74, left side, 2024-08-06: the left side's order (Arabic over SAUDIA forward, CARGO aft), flag place."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Saudi_Cargo_9H-AKA_run_SV3013(Hong_Kong_International_Airport_to_Saudi_Arabia_Riyadh_King_Khalid_International_Airport)_27-08-2025.jpg",
+      "title": "Saudi Cargo 9H-AKA run SV3013 ... 27-08-2025.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "747-400BDSF 9H-AKA (wet-leased from Air Atlanta Europe) in the same scheme, flying SV3013, 2025-08-27."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Saudia_Cargo",
+      "title": "Wikipedia: Saudia Cargo",
+      "accessed": "2026-11-13",
+      "note": "Fleet: 777Fs and 747-400Fs."
+    }
+  ],
+  "palette": {
+    "ivory": {
+      "hex": "#E9E7E1",
+      "official": false,
+      "name": "ivory"
+    },
+    "navy": {
+      "hex": "#25286B",
+      "official": false,
+      "name": "Saudia navy (2012)"
+    },
+    "gold": {
+      "hex": "#C9A063",
+      "official": false,
+      "name": "emblem and pinstripe gold"
+    },
+    "gray": {
+      "hex": "#5B5E63",
+      "official": false,
+      "name": "'CARGO' gray"
+    },
+    "flagGreen": {
+      "hex": "#006C35",
+      "official": true,
+      "name": "Saudi flag green"
+    },
+    "white": {
+      "hex": "#F4F5F4",
+      "official": false
+    },
+    "cowl": {
+      "hex": "#E6E6E3",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC5",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "ivory",
+    "areas": [
+      {
+        "name": "gold pinstripe along the middle of the fuselage",
+        "color": "gold",
+        "above": [
+          [
+            0.02,
+            0.0
+          ],
+          [
+            0.116,
+            -0.08
+          ],
+          [
+            0.176,
+            -0.075
+          ],
+          [
+            0.357,
+            -0.068
+          ],
+          [
+            0.477,
+            -0.049
+          ],
+          [
+            0.778,
+            -0.003
+          ],
+          [
+            0.91,
+            0.03
+          ]
+        ],
+        "below": [
+          [
+            0.02,
+            0.022
+          ],
+          [
+            0.116,
+            -0.058
+          ],
+          [
+            0.176,
+            -0.053
+          ],
+          [
+            0.357,
+            -0.046
+          ],
+          [
+            0.477,
+            -0.027
+          ],
+          [
+            0.778,
+            0.019
+          ],
+          [
+            0.91,
+            0.052
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      }
+    ],
+    "radome": {
+      "color": "ivory"
+    },
+    "windows": "hidden",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "fin": {
+    "base": "navy",
+    "areas": [
+      {
+        "name": "thin white leading edge",
+        "color": "white",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0.03,
+            0
+          ],
+          [
+            0.03,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "engines": {
+    "cowling": "cowl",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "SVA/emblem-2012",
+      "place": "fin",
+      "at": [
+        0.62,
+        0.37
+      ],
+      "height": 0.44,
+      "colors": [
+        "gold"
+      ],
+      "description": "The 2012 Saudia emblem in gold: the palm tree over two crossed curved swords (the Saudi coat of arms), set in a thin gold ring open at the top like a crescent.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Liège_Airport_Saudi_Arabian_Airlines_Cargo_Boeing_777-FFG_HZ-AK71_(DSC06705).jpg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "SVA/emblem-2012",
+      "place": "engines",
+      "at": [
+        0.45,
+        0.0
+      ],
+      "height": 0.4,
+      "colors": [
+        "gold"
+      ],
+      "description": "The gold emblem, smaller, on the side of each cowling.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Liège_Airport_Saudi_Arabian_Airlines_Cargo_Boeing_777-FFG_HZ-AK71_(DSC06705).jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ]
+    },
+    {
+      "mark": "SVA/flag-saudi",
+      "place": "fuselage",
+      "at": [
+        0.119,
+        0.42
+      ],
+      "height": 0.2,
+      "colors": [
+        "flagGreen",
+        "white"
+      ],
+      "description": "A small Saudi flag high on the forward fuselage.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Flag_of_Saudi_Arabia.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "السعودية",
+      "place": "fuselage",
+      "at": [
+        0.245,
+        0.33
+      ],
+      "height": 0.27,
+      "color": "navy",
+      "style": "'Al-Saudia' in navy Arabic over 'SAUDIA'.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Noto Naskh Arabic Bold",
+          "Geeza Pro Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "contrast",
+        "case": "mixed"
+      },
+      "length": 0.09,
+      "side": "left"
+    },
+    {
+      "text": "السعودية",
+      "place": "fuselage",
+      "at": [
+        0.53,
+        0.33
+      ],
+      "height": 0.27,
+      "color": "navy",
+      "style": "'Al-Saudia' in navy Arabic over 'SAUDIA'.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Noto Naskh Arabic Bold",
+          "Geeza Pro Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "contrast",
+        "case": "mixed"
+      },
+      "length": 0.09,
+      "side": "right"
+    },
+    {
+      "text": "SAUDIA",
+      "place": "fuselage",
+      "at": [
+        0.244,
+        0.09
+      ],
+      "height": 0.25,
+      "color": "navy",
+      "style": "'SAUDIA' in navy sans capitals under the Arabic.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Frutiger Bold",
+          "Myriad Pro Semibold"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "length": 0.088,
+      "side": "left"
+    },
+    {
+      "text": "SAUDIA",
+      "place": "fuselage",
+      "at": [
+        0.53,
+        0.09
+      ],
+      "height": 0.25,
+      "color": "navy",
+      "style": "'SAUDIA' in navy sans capitals under the Arabic.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Frutiger Bold",
+          "Myriad Pro Semibold"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "length": 0.088,
+      "side": "right"
+    },
+    {
+      "text": "CARGO",
+      "place": "fuselage",
+      "at": [
+        0.341,
+        0.06
+      ],
+      "height": 0.66,
+      "color": "gray",
+      "style": "'CARGO' in big gray serif capitals, behind the SAUDIA block, its baseline level with SAUDIA's.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Optima Bold",
+          "Trajan Pro"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "contrast",
+        "case": "upper"
+      },
+      "length": 0.18,
+      "side": "left"
+    },
+    {
+      "text": "CARGO",
+      "place": "fuselage",
+      "at": [
+        0.341,
+        0.06
+      ],
+      "height": 0.66,
+      "color": "gray",
+      "style": "'CARGO' in big gray serif capitals, behind the SAUDIA block, its baseline level with SAUDIA's.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Optima Bold",
+          "Trajan Pro"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "contrast",
+        "case": "upper"
+      },
+      "length": 0.18,
+      "side": "right"
+    }
+  ],
+  "notes": "The 2012 Saudia passenger scheme (no longer the airline's newest) plus 'CARGO'. Measured on HZ-AK71 (right, 2024-05-12; mirrored into left-side coordinates) and HZ-AK74 (left, 2024-08-06): on both sides the SAUDIA block is forward and CARGO aft. The emblem's ring and the 777's raked tips plain. No photo yet shows a freighter in the 2023 green scheme; the four 777Fs ordered in 2026 (deliveries from late 2026) may arrive in it. The belly wasn't seen from below. Re-checked 2026-11-15 on HZ-AK71 (right, 2024-05-12) and HZ-AK74 (left, 2024-08-06): the name block (Arabic over SAUDIA) and CARGO read SAUDIA CARGO on both sides, so the name block is forward of CARGO on the left (x ~0.244) and aft of it on the right (~0.53, CARGO 0.341-0.52): each side now has its own set (the right had shown CARGO aft). Lengths measured: CARGO 0.18, SAUDIA 0.088, the Arabic 0.09.",
+  "history": "New file. Saudia Cargo's freighters wear the 2012 scheme with 'CARGO' titles; the passenger fleet has moved to the 2023 green scheme (SVA/standard)."
+}

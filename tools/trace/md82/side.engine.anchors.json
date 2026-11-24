@@ -1,0 +1,5 @@
+{
+  "_about": "Boeing MD-80 Airplane Characteristics for Airport Planning (Rev. 12/89), 2.2 General Airplane Dimensions, Model MD-81, -82, -83 and -88 (page index 10): a 1-bit scan (about 300 dpi) over a printed grid. Its side view, raw image cropped 470,1330,2110,1780, enlarged 4 times (bicubic), turned -0.52° (the sheet's skew and the aircraft's ground attitude: the crown and belly level), thresholded at 128. Pixels of that raster, line centres: nose tip 274, tail cone 5832 (41.58 m), the tube's centreline 1033.5. Only the JT8D-200 nacelle is traced here; the rest of the airframe is the MD-90's (recipe).",
+  "engine.top": [[4330, 940], [4350, 897], [4400, 893], [4600, 901], [4800, 913], [5000, 933], [5150, 956], [5180, 984], [5230, 1007], [5262, 1037]],
+  "engine.bottom": [[4330, 1060], [4350, 1102], [4400, 1121], [4600, 1139], [4800, 1145], [5000, 1121], [5150, 1085], [5200, 1054], [5262, 1040]]
+}

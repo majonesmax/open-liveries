@@ -1,0 +1,880 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "america-west-heritage",
+  "airline": "AAL",
+  "name": "America West heritage",
+  "kind": "retro",
+  "confidence": "medium",
+  "drawnOn": "A321",
+  "description": "Fuselage: White upper fuselage, dark teal lower fuselage and belly; faint pale zigzag bands on the white behind the wing. Cheatlines: A red pinstripe at the white/teal split, from the nose tip to under the tail cone. Tail: Teal fin with darker-teal horizontal zigzag bands and the America West mark (a big red disc with a red, white-edged 'W'). Engines: Teal cowlings with red inlet lips and an outlined W. Winglets: Teal fences with the red W. Titles: American's 'American' and flight symbol forward. Artwork: none. Colors hex: matched by eye from one photo.",
+  "sources": [
+    {
+      "url": "https://airlinegeeks.com/2023/10/13/livery-of-the-week-a-first-look-at-the-refreshed-america-west-heritage-livery/",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:N580UW_(aircraft)",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:American_Airlines_N580UW_in_America_West_retro_livery.jpg",
+      "title": "American Airlines N580UW in America West retro livery (CC BY 4.0)",
+      "accessed": "2026-11-12",
+      "note": "Left side taxiing at Tampa, 2023-11-09, slightly from above: the white/red/teal split, fin, engines, fence."
+    }
+  ],
+  "history": "Previously on A319 N838AW.",
+  "from": "2023-10",
+  "palette": {
+    "white": {
+      "hex": "#EDEFF0",
+      "official": false
+    },
+    "teal": {
+      "hex": "#1E5B6C",
+      "name": "lower fuselage teal (matched by eye)",
+      "official": false
+    },
+    "finTeal": {
+      "hex": "#2B98A2",
+      "official": false
+    },
+    "finDark": {
+      "hex": "#1B7A87",
+      "official": false
+    },
+    "red": {
+      "hex": "#D52A3A",
+      "official": false
+    },
+    "titleGray": {
+      "hex": "#36495A",
+      "official": false
+    },
+    "flightRed": {
+      "hex": "#C30019",
+      "official": false
+    },
+    "flightBlue": {
+      "hex": "#0078D2",
+      "official": false
+    },
+    "flightNavy": {
+      "hex": "#36495A",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "red pinstripe",
+        "color": "red",
+        "below": [
+          [
+            0,
+            -0.045
+          ],
+          [
+            0.03,
+            -0.165
+          ],
+          [
+            0.3,
+            -0.205
+          ],
+          [
+            0.55,
+            -0.245
+          ],
+          [
+            0.75,
+            -0.365
+          ],
+          [
+            0.83,
+            -0.645
+          ],
+          [
+            0.87,
+            -1.0
+          ],
+          [
+            1,
+            -1.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2
+        ],
+        "smooth": true
+      },
+      {
+        "name": "teal lower fuselage and belly",
+        "color": "teal",
+        "below": [
+          [
+            0,
+            -0.1
+          ],
+          [
+            0.03,
+            -0.22
+          ],
+          [
+            0.3,
+            -0.26
+          ],
+          [
+            0.55,
+            -0.3
+          ],
+          [
+            0.75,
+            -0.42
+          ],
+          [
+            0.83,
+            -0.7
+          ],
+          [
+            0.87,
+            -1.0
+          ],
+          [
+            1,
+            -1.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2
+        ],
+        "smooth": true
+      }
+    ],
+    "radome": {
+      "color": "white",
+      "to": 0.025
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      2
+    ]
+  },
+  "fin": {
+    "base": "finTeal",
+    "areas": [
+      {
+        "name": "darker zigzag band 1",
+        "color": "finDark",
+        "points": [
+          [
+            -0.05,
+            0.04
+          ],
+          [
+            0.088,
+            0.075
+          ],
+          [
+            0.225,
+            0.04
+          ],
+          [
+            0.363,
+            0.075
+          ],
+          [
+            0.5,
+            0.04
+          ],
+          [
+            0.637,
+            0.075
+          ],
+          [
+            0.775,
+            0.04
+          ],
+          [
+            0.913,
+            0.075
+          ],
+          [
+            1.05,
+            0.04
+          ],
+          [
+            1.05,
+            0.09
+          ],
+          [
+            0.913,
+            0.125
+          ],
+          [
+            0.775,
+            0.09
+          ],
+          [
+            0.637,
+            0.125
+          ],
+          [
+            0.5,
+            0.09
+          ],
+          [
+            0.363,
+            0.125
+          ],
+          [
+            0.225,
+            0.09
+          ],
+          [
+            0.088,
+            0.125
+          ],
+          [
+            -0.05,
+            0.09
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          2
+        ]
+      },
+      {
+        "name": "darker zigzag band 2",
+        "color": "finDark",
+        "points": [
+          [
+            -0.05,
+            0.17
+          ],
+          [
+            0.088,
+            0.205
+          ],
+          [
+            0.225,
+            0.17
+          ],
+          [
+            0.363,
+            0.205
+          ],
+          [
+            0.5,
+            0.17
+          ],
+          [
+            0.637,
+            0.205
+          ],
+          [
+            0.775,
+            0.17
+          ],
+          [
+            0.913,
+            0.205
+          ],
+          [
+            1.05,
+            0.17
+          ],
+          [
+            1.05,
+            0.22
+          ],
+          [
+            0.913,
+            0.255
+          ],
+          [
+            0.775,
+            0.22
+          ],
+          [
+            0.637,
+            0.255
+          ],
+          [
+            0.5,
+            0.22
+          ],
+          [
+            0.363,
+            0.255
+          ],
+          [
+            0.225,
+            0.22
+          ],
+          [
+            0.088,
+            0.255
+          ],
+          [
+            -0.05,
+            0.22
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          2
+        ]
+      },
+      {
+        "name": "darker zigzag band 3",
+        "color": "finDark",
+        "points": [
+          [
+            -0.05,
+            0.3
+          ],
+          [
+            0.088,
+            0.335
+          ],
+          [
+            0.225,
+            0.3
+          ],
+          [
+            0.363,
+            0.335
+          ],
+          [
+            0.5,
+            0.3
+          ],
+          [
+            0.637,
+            0.335
+          ],
+          [
+            0.775,
+            0.3
+          ],
+          [
+            0.913,
+            0.335
+          ],
+          [
+            1.05,
+            0.3
+          ],
+          [
+            1.05,
+            0.35
+          ],
+          [
+            0.913,
+            0.385
+          ],
+          [
+            0.775,
+            0.35
+          ],
+          [
+            0.637,
+            0.385
+          ],
+          [
+            0.5,
+            0.35
+          ],
+          [
+            0.363,
+            0.385
+          ],
+          [
+            0.225,
+            0.35
+          ],
+          [
+            0.088,
+            0.385
+          ],
+          [
+            -0.05,
+            0.35
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          2
+        ]
+      },
+      {
+        "name": "darker zigzag band 4",
+        "color": "finDark",
+        "points": [
+          [
+            -0.05,
+            0.43
+          ],
+          [
+            0.088,
+            0.465
+          ],
+          [
+            0.225,
+            0.43
+          ],
+          [
+            0.363,
+            0.465
+          ],
+          [
+            0.5,
+            0.43
+          ],
+          [
+            0.637,
+            0.465
+          ],
+          [
+            0.775,
+            0.43
+          ],
+          [
+            0.913,
+            0.465
+          ],
+          [
+            1.05,
+            0.43
+          ],
+          [
+            1.05,
+            0.48
+          ],
+          [
+            0.913,
+            0.515
+          ],
+          [
+            0.775,
+            0.48
+          ],
+          [
+            0.637,
+            0.515
+          ],
+          [
+            0.5,
+            0.48
+          ],
+          [
+            0.363,
+            0.515
+          ],
+          [
+            0.225,
+            0.48
+          ],
+          [
+            0.088,
+            0.515
+          ],
+          [
+            -0.05,
+            0.48
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          2
+        ]
+      },
+      {
+        "name": "darker zigzag band 5",
+        "color": "finDark",
+        "points": [
+          [
+            -0.05,
+            0.56
+          ],
+          [
+            0.088,
+            0.595
+          ],
+          [
+            0.225,
+            0.56
+          ],
+          [
+            0.363,
+            0.595
+          ],
+          [
+            0.5,
+            0.56
+          ],
+          [
+            0.637,
+            0.595
+          ],
+          [
+            0.775,
+            0.56
+          ],
+          [
+            0.913,
+            0.595
+          ],
+          [
+            1.05,
+            0.56
+          ],
+          [
+            1.05,
+            0.61
+          ],
+          [
+            0.913,
+            0.645
+          ],
+          [
+            0.775,
+            0.61
+          ],
+          [
+            0.637,
+            0.645
+          ],
+          [
+            0.5,
+            0.61
+          ],
+          [
+            0.363,
+            0.645
+          ],
+          [
+            0.225,
+            0.61
+          ],
+          [
+            0.088,
+            0.645
+          ],
+          [
+            -0.05,
+            0.61
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          2
+        ]
+      },
+      {
+        "name": "darker zigzag band 6",
+        "color": "finDark",
+        "points": [
+          [
+            -0.05,
+            0.69
+          ],
+          [
+            0.088,
+            0.725
+          ],
+          [
+            0.225,
+            0.69
+          ],
+          [
+            0.363,
+            0.725
+          ],
+          [
+            0.5,
+            0.69
+          ],
+          [
+            0.637,
+            0.725
+          ],
+          [
+            0.775,
+            0.69
+          ],
+          [
+            0.913,
+            0.725
+          ],
+          [
+            1.05,
+            0.69
+          ],
+          [
+            1.05,
+            0.74
+          ],
+          [
+            0.913,
+            0.775
+          ],
+          [
+            0.775,
+            0.74
+          ],
+          [
+            0.637,
+            0.775
+          ],
+          [
+            0.5,
+            0.74
+          ],
+          [
+            0.363,
+            0.775
+          ],
+          [
+            0.225,
+            0.74
+          ],
+          [
+            0.088,
+            0.775
+          ],
+          [
+            -0.05,
+            0.74
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          2
+        ]
+      },
+      {
+        "name": "darker zigzag band 7",
+        "color": "finDark",
+        "points": [
+          [
+            -0.05,
+            0.82
+          ],
+          [
+            0.088,
+            0.855
+          ],
+          [
+            0.225,
+            0.82
+          ],
+          [
+            0.363,
+            0.855
+          ],
+          [
+            0.5,
+            0.82
+          ],
+          [
+            0.637,
+            0.855
+          ],
+          [
+            0.775,
+            0.82
+          ],
+          [
+            0.913,
+            0.855
+          ],
+          [
+            1.05,
+            0.82
+          ],
+          [
+            1.05,
+            0.87
+          ],
+          [
+            0.913,
+            0.905
+          ],
+          [
+            0.775,
+            0.87
+          ],
+          [
+            0.637,
+            0.905
+          ],
+          [
+            0.5,
+            0.87
+          ],
+          [
+            0.363,
+            0.905
+          ],
+          [
+            0.225,
+            0.87
+          ],
+          [
+            0.088,
+            0.905
+          ],
+          [
+            -0.05,
+            0.87
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          2
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "teal",
+    "inletLip": "red",
+    "confidence": "medium",
+    "sourceRefs": [
+      2
+    ]
+  },
+  "wings": {
+    "top": "#C3C7CC",
+    "under": "#C3C7CC",
+    "confidence": "low",
+    "sourceRefs": [
+      2
+    ]
+  },
+  "winglets": {
+    "outer": "finTeal",
+    "inner": "finTeal",
+    "confidence": "medium",
+    "sourceRefs": [
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "AAL/america-west-w",
+      "place": "fin",
+      "at": [
+        0.45,
+        0.42
+      ],
+      "height": 0.68,
+      "colors": [
+        "red",
+        "white"
+      ],
+      "description": "America West's mark: a large red disc (a setting sun) with a bold red 'W' over its lower half, the W's strokes edged in white and the W dropping below the disc toward the fin's root.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2
+      ]
+    },
+    {
+      "mark": "AAL/america-west-w",
+      "place": "engines",
+      "at": [
+        0.5,
+        0.0
+      ],
+      "height": 0.6,
+      "colors": [
+        "finTeal",
+        "white"
+      ],
+      "description": "The W and disc outlined in a lighter teal on the teal cowling.",
+      "confidence": "low",
+      "sourceRefs": [
+        2
+      ]
+    },
+    {
+      "mark": "AAL/america-west-w",
+      "place": "winglets",
+      "at": [
+        0.5,
+        0.5
+      ],
+      "height": 0.5,
+      "colors": [
+        "red"
+      ],
+      "description": "The red disc-and-W on the teal wingtip fence.",
+      "confidence": "low",
+      "sourceRefs": [
+        2
+      ]
+    },
+    {
+      "mark": "AAL/flight-symbol",
+      "place": "fuselage",
+      "at": [
+        0.145,
+        0.42
+      ],
+      "height": 0.22,
+      "colors": [
+        "flightRed",
+        "flightBlue",
+        "flightNavy"
+      ],
+      "description": "American's 2013 flight symbol: a stylised eagle's head and wing in red, light blue and dark blue, ahead of the 'American' title.",
+      "confidence": "high",
+      "sourceRefs": [
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "American",
+      "place": "fuselage",
+      "at": [
+        0.152,
+        0.34
+      ],
+      "height": 0.22,
+      "color": "titleGray",
+      "style": "American's standard title: mixed-case sans, semibold, upright, above the forward windows.",
+      "confidence": "high",
+      "sourceRefs": [
+        2
+      ],
+      "type": {
+        "similar": [
+          "Proxima Nova Semibold",
+          "Gotham Medium"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "length": 0.089
+    }
+  ],
+  "notes": "Drawn from one left-side photo (Tampa, Nov 2023), the newest on Commons; no 2024-2026 photo found. Faint pale-gray zigzag bands show on the white aft fuselage (continuing the fin's pattern); too faint to place, not drawn. The fin's zigzag bands are approximate in count and tooth shape. The right side and belly are not seen: the teal is taken to wrap the belly. Re-checked 2026-11-15 on N580UW (2023-11-09): 'American' x 0.152-0.241; the red/teal split's rise at the nose and drop to the belly aft drawn as curves. No measured A321 shape yet."
+}

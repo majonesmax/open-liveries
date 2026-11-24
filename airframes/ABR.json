@@ -1,0 +1,275 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "ABR",
+  "airframes": [
+    {
+      "registration": "EI-AZA",
+      "hex": "4cac62",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B738",
+      "livery": "ATN/prime-air-blue",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Leipzig_Halle_Airport_ASL_Airlines_Ireland_Amazon_Air_Boeing_737-86N%28SF%29%28WL%29_EI-AZA_%28DSC02636%29.jpg",
+          "title": "Leipzig Halle Airport ASL Airlines Ireland Amazon Air Boeing 737-86N(SF)(WL) EI-AZA (DSC02636).jpg",
+          "accessed": "2026-11-13",
+          "note": "Commons photo, 2026-03-01: in Prime Air paint."
+        },
+        {
+          "url": "https://hexdb.io/api/v1/aircraft/4cac62",
+          "title": "hexdb.io aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Registered owner/operator given as 'ASL Airlines Ireland', operator flag ABR (community data)."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Amazon_Air#Fleet",
+          "title": "Wikipedia: Amazon Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "Amazon Air's contract operators and counts (as of January 2025)."
+        }
+      ],
+      "lastSeen": "2026-11-13",
+      "status": "flying as ABR469 on adsb.lol, 2026-11-13; photographed in Prime Air paint 2026-03-01 (Commons)"
+    },
+    {
+      "registration": "EI-AZB",
+      "hex": "4cac63",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B738",
+      "livery": "ATN/prime-air-blue",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Hannover_Airport_ASL_Airlines_Ireland_Amazon_Air_Boeing_737-8AS%28SF%29%28WL%29_EI-AZB_%28DSC05471%29.jpg",
+          "title": "Hannover Airport ASL Airlines Ireland Amazon Air Boeing 737-8AS(SF)(WL) EI-AZB (DSC05471).jpg",
+          "accessed": "2026-11-13",
+          "note": "Commons photo, 2022-11-26: in Prime Air paint."
+        },
+        {
+          "url": "https://hexdb.io/api/v1/aircraft/4cac63",
+          "title": "hexdb.io aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Registered owner/operator given as 'ASL Airlines Ireland', operator flag ABR (community data)."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Amazon_Air#Fleet",
+          "title": "Wikipedia: Amazon Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "Amazon Air's contract operators and counts (as of January 2025)."
+        }
+      ],
+      "lastSeen": "2022-11-26",
+      "status": "photographed in Prime Air paint 2022-11-26 (Commons)",
+      "notes": "Not seen flying during the 2026-11-13 adsb.lol sample: the callsign is hexdb's operator flag."
+    },
+    {
+      "registration": "EI-AZC",
+      "hex": "4cac64",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B738",
+      "livery": "ATN/prime-air-blue",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:EI-AZC_Boeing_737-86J%28SF%29_Amazon_Prime_ASL_Ireland_Liege_18.3.26_%2855197304156%29.jpg",
+          "title": "EI-AZC Boeing 737-86J(SF) Amazon Prime ASL Ireland Liege 18.3.26 (55197304156).jpg",
+          "accessed": "2026-11-13",
+          "note": "Commons photo, 2026-04-09: in Prime Air paint."
+        },
+        {
+          "url": "https://hexdb.io/api/v1/aircraft/4cac64",
+          "title": "hexdb.io aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Registered owner/operator given as 'ASL Airlines Ireland', operator flag ABR (community data)."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Amazon_Air#Fleet",
+          "title": "Wikipedia: Amazon Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "Amazon Air's contract operators and counts (as of January 2025)."
+        }
+      ],
+      "lastSeen": "2026-04-09",
+      "status": "photographed in Prime Air paint 2026-04-09 (Commons)",
+      "notes": "Not seen flying during the 2026-11-13 adsb.lol sample: the callsign is hexdb's operator flag."
+    },
+    {
+      "registration": "EI-AZD",
+      "hex": "4cac65",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B738",
+      "livery": "ATN/prime-air-blue",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Boeing_737-86Q%28SF%29_%28cn_30284%2C_EI-AZD%29_2023-04-11_Andre_Gerwing_Collection_ID_020307.jpg",
+          "title": "Boeing 737-86Q(SF) (cn 30284, EI-AZD) 2023-04-11 Andre Gerwing Collection ID 020307.jpg",
+          "accessed": "2026-11-13",
+          "note": "Commons photo, 2023-04-11: in Prime Air paint."
+        },
+        {
+          "url": "https://hexdb.io/api/v1/aircraft/4cac65",
+          "title": "hexdb.io aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Registered owner/operator given as 'ASL Airlines Ireland', operator flag ABR (community data)."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Amazon_Air#Fleet",
+          "title": "Wikipedia: Amazon Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "Amazon Air's contract operators and counts (as of January 2025)."
+        }
+      ],
+      "lastSeen": "2023-04-11",
+      "status": "photographed in Prime Air paint 2023-04-11 (Commons)",
+      "notes": "Not seen flying during the 2026-11-13 adsb.lol sample: the callsign is hexdb's operator flag."
+    },
+    {
+      "registration": "EI-AZE",
+      "hex": "4cac66",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B738",
+      "livery": "ATN/prime-air-blue",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Hannover_Airport_ASL_Airlines_Ireland_Amazon_Air_Boeing_737-86Q%28SF%29%28WL%29_EI-AZE_%28DSC08041%29.jpg",
+          "title": "Hannover Airport ASL Airlines Ireland Amazon Air Boeing 737-86Q(SF)(WL) EI-AZE (DSC08041).jpg",
+          "accessed": "2026-11-13",
+          "note": "Commons photo, 2023-09-08: in Prime Air paint."
+        },
+        {
+          "url": "https://hexdb.io/api/v1/aircraft/4cac66",
+          "title": "hexdb.io aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Registered owner/operator given as 'ASL Airlines Ireland', operator flag ABR (community data)."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Amazon_Air#Fleet",
+          "title": "Wikipedia: Amazon Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "Amazon Air's contract operators and counts (as of January 2025)."
+        }
+      ],
+      "lastSeen": "2023-09-08",
+      "status": "photographed in Prime Air paint 2023-09-08 (Commons)",
+      "notes": "Not seen flying during the 2026-11-13 adsb.lol sample: the callsign is hexdb's operator flag."
+    },
+    {
+      "registration": "EI-AZF",
+      "hex": "4cad4b",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B738",
+      "livery": "ATN/prime-air-blue",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:EI-AZF_737_Amazon_Air_MAD_01.jpg",
+          "title": "EI-AZF 737 Amazon Air MAD 01.jpg",
+          "accessed": "2026-11-13",
+          "note": "Commons photo, 2025-07-03: in Prime Air paint."
+        },
+        {
+          "url": "https://hexdb.io/api/v1/aircraft/4cad4b",
+          "title": "hexdb.io aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Registered owner/operator given as 'ASL Airlines Ireland', operator flag ABR (community data)."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Amazon_Air#Fleet",
+          "title": "Wikipedia: Amazon Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "Amazon Air's contract operators and counts (as of January 2025)."
+        }
+      ],
+      "lastSeen": "2025-07-03",
+      "status": "photographed in Prime Air paint 2025-07-03 (Commons)",
+      "notes": "Not seen flying during the 2026-11-13 adsb.lol sample: the callsign is hexdb's operator flag."
+    },
+    {
+      "registration": "EI-AZG",
+      "hex": "4cad4c",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B738",
+      "livery": "ATN/prime-air-blue",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Hannover_Airport_ASL_Airlines_Ireland_Amazon_Air_Boeing_737-86Q%28SF%29%28WL%29_EI-AZG_%28DSC00174%29.jpg",
+          "title": "Hannover Airport ASL Airlines Ireland Amazon Air Boeing 737-86Q(SF)(WL) EI-AZG (DSC00174).jpg",
+          "accessed": "2026-11-13",
+          "note": "Commons photo, 2024-09-05: in Prime Air paint."
+        },
+        {
+          "url": "https://hexdb.io/api/v1/aircraft/4cad4c",
+          "title": "hexdb.io aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Registered owner/operator given as 'ASL Airlines Ireland', operator flag ABR (community data)."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Amazon_Air#Fleet",
+          "title": "Wikipedia: Amazon Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "Amazon Air's contract operators and counts (as of January 2025)."
+        }
+      ],
+      "lastSeen": "2024-09-05",
+      "status": "photographed in Prime Air paint 2024-09-05 (Commons)",
+      "notes": "Not seen flying during the 2026-11-13 adsb.lol sample: the callsign is hexdb's operator flag."
+    },
+    {
+      "registration": "EI-DAC",
+      "hex": "4ca1b2",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B738",
+      "livery": "ATN/prime-air-blue",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Amazon_Prime_Air_%28ASL_Airlines_Ireland%29_Boeing_737-8ASBCF_EI-DAC.jpg",
+          "title": "Amazon Prime Air (ASL Airlines Ireland) Boeing 737-8ASBCF EI-DAC.jpg",
+          "accessed": "2026-11-13",
+          "note": "Commons photo, undated: in Prime Air paint."
+        },
+        {
+          "url": "https://hexdb.io/api/v1/aircraft/4ca1b2",
+          "title": "hexdb.io aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Registered owner/operator given as 'ASL Airlines Ireland', operator flag ABR (community data)."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Amazon_Air#Fleet",
+          "title": "Wikipedia: Amazon Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "Amazon Air's contract operators and counts (as of January 2025)."
+        }
+      ],
+      "status": "photographed in Prime Air paint, undated (Commons)",
+      "notes": "The Commons photo of it in Prime Air paint is undated (its other photos are as a Ryanair 737 before conversion). Not seen flying during the 2026-11-13 adsb.lol sample: the callsign is hexdb's operator flag."
+    },
+    {
+      "registration": "EI-DAD",
+      "hex": "4ca1b3",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B738",
+      "livery": "ATN/prime-air-blue",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://hexdb.io/api/v1/aircraft/4ca1b3",
+          "title": "hexdb.io aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Registered owner/operator given as 'ASL Airlines Ireland', operator flag ABR (community data)."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Amazon_Air#Fleet",
+          "title": "Wikipedia: Amazon Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "Amazon Air's contract operators and counts (as of January 2025)."
+        }
+      ],
+      "notes": "Not seen flying during the 2026-11-13 adsb.lol sample: the callsign is hexdb's operator flag."
+    }
+  ]
+}

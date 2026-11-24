@@ -1,0 +1,304 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "IBE",
+  "name": "2013 livery",
+  "kind": "standard",
+  "from": "2013",
+  "confidence": "medium",
+  "drawnOn": "A20N",
+  "description": "White fuselage with 'IBERIA' in red over the forward windows; the fin is the Iberia symbol writ large: red with a white wedge and a yellow cap at the tip, and the red runs down off the fin over the aft fuselage and tail cone in a curve; white engines with the red title and symbol; red winglets.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:EC-MXV_Airbus_A350-900_Iberia_LHR_30.3.21.jpg",
+      "title": "EC-MXV Airbus A350-900 Iberia LHR 30.3.21 (CC BY-SA 2.0, Colin Cooke Photo)",
+      "accessed": "2026-11-13",
+      "note": "Left side from below, 2021-03-30: title, fin bands, the red over the aft fuselage, engines, winglet."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A321-251NX_(cn_9571,_EC-NIA)_2024-11-02_Andre_Gerwing_Collection_ID_022175.jpg",
+      "title": "Airbus A321-251NX EC-NIA (Iberia Express), 2024-11-02 (CC BY-SA 4.0, André Gerwing)",
+      "accessed": "2026-11-13",
+      "note": "Left side from below: the fin's bands and the aft red curve close up (Iberia Express wears the same scheme with its own titles)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Iberia_20240505.jpg",
+      "title": "Iberia A350 at Ezeiza, 2024-05-05 (CC BY-SA 4.0, Germanramos2)",
+      "accessed": "2026-11-13",
+      "note": "Right side, 2024: the same layout mirrored, title on the right side."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Iberia_(airline)#Livery",
+      "title": "Wikipedia: Iberia, livery",
+      "accessed": "2026-11-13",
+      "note": "The 2013 rebrand (Interbrand): new symbol and wordmark."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Iberia_A320neo_EC-NDN.jpg",
+      "title": "Iberia A320neo EC-NDN.jpg (CC BY-SA 2.0, Markus Eigenheer)",
+      "accessed": "2026-11-15",
+      "note": "A320neo EC-NDN left side, side-on, 2019-10-03: fitted to the measured A320 shape (doors pinned, level): the title's ends, the red's aft edge (white tail cone), placed against the windows (re-check 2026-11-15)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Iberia_Airbus_A320neo_EC-NDN_(53926710198).jpg",
+      "title": "Iberia Airbus A320neo EC-NDN (53926710198).jpg (CC BY-SA 2.0, BriYYZ)",
+      "accessed": "2026-11-15",
+      "note": "A320neo EC-NDN left side, 2020-03-08: second check of the title and the white tail cone."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F6",
+      "official": false
+    },
+    "red": {
+      "hex": "#D7192D",
+      "official": false
+    },
+    "yellow": {
+      "hex": "#F7B500",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC5",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "name": "bare metal inlet lip",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "red over the aft fuselage, running down from the fin's root in a curve; the tail cone aft of it white",
+        "color": "red",
+        "points": [
+          [
+            0.8,
+            1
+          ],
+          [
+            0.792,
+            0.6
+          ],
+          [
+            0.778,
+            0.2
+          ],
+          [
+            0.757,
+            -0.3
+          ],
+          [
+            0.73,
+            -0.7
+          ],
+          [
+            0.71,
+            -1
+          ],
+          [
+            0.9,
+            -1
+          ],
+          [
+            0.927,
+            -0.73
+          ],
+          [
+            0.937,
+            -0.17
+          ],
+          [
+            0.94,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1,
+          4,
+          5
+        ],
+        "smooth": true
+      }
+    ],
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "red",
+    "mirrored": true,
+    "areas": [
+      {
+        "name": "white wedge",
+        "color": "white",
+        "points": [
+          [
+            0,
+            0.28
+          ],
+          [
+            1,
+            0.59
+          ],
+          [
+            1,
+            0.76
+          ],
+          [
+            0,
+            0.6
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "yellow cap",
+        "color": "yellow",
+        "points": [
+          [
+            0,
+            0.6
+          ],
+          [
+            1,
+            0.76
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "red",
+    "confidence": "medium",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "logos": [
+    {
+      "mark": "IBE/symbol",
+      "place": "engines",
+      "at": [
+        0.62,
+        0.25
+      ],
+      "height": 0.2,
+      "colors": [
+        "red",
+        "yellow"
+      ],
+      "description": "The Iberia symbol: a small red shape like the fin, a white sliver and a yellow cap, set after the red 'IBERIA' on the cowling.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Iberia_Logo.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "IBERIA",
+      "place": "fuselage",
+      "at": [
+        0.18,
+        0.34
+      ],
+      "height": 0.28,
+      "color": "red",
+      "length": 0.144,
+      "style": "Iberia's 2013 wordmark: red, bold, slightly rounded geometric capitals, upright, over the forward windows. Its baseline just above the window tops.",
+      "confidence": "medium",
+      "sourceRefs": [
+        4,
+        5
+      ],
+      "type": {
+        "similar": [
+          "Gotham Black",
+          "Montserrat ExtraBold",
+          "Avenir Next Heavy"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "IBERIA",
+      "place": "engines",
+      "at": [
+        0.2,
+        0.25
+      ],
+      "height": 0.2,
+      "color": "red",
+      "style": "The wordmark small on the cowling, the symbol after it.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ],
+      "type": {
+        "similar": [
+          "Gotham Black",
+          "Montserrat ExtraBold"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "length": 0.35
+    }
+  ],
+  "notes": "Drawn from an A350 and an Iberia Express A321neo; the A320-family mainline aircraft weren't photographed for this pass (their engines may be red, as on Iberia Express). The fin's bands are drawn as straight wedges: on the aircraft they curve slightly. The red over the aft fuselage reaches the belly ahead of the stabiliser; its exact edge on the far side isn't seen. Re-checked 2026-11-15 on the A320neo EC-NDN (fitted to the A320 shape) and the A321neo EC-NIA: the title is much longer than drawn (x 0.18-0.324, about 5.4 m; it had been 0.1) and sits above the windows; the tail cone is white aft of x 0.90-0.94 (two photos agree; the red had run to the end); the red's forward edge drawn as a curve. Measured on the A320neo, the mainline's commonest short-haul type; Iberia Express A321neos carry 'EXPRESS' and aren't this scheme's titles.",
+  "history": "Replaces Skyarium v1's approximation. The 2013 scheme replaced Landor's 1977 red-orange-yellow cheatline scheme, now retired."
+}

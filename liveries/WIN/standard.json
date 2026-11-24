@@ -1,0 +1,592 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "WIN",
+  "name": "Awesome Cargo",
+  "kind": "standard",
+  "confidence": "medium",
+  "drawnOn": "A332",
+  "description": "White A330 freighter with a navy aft fuselage behind a curved sweep that rises from the belly under the wing's trailing edge to the fin's root, three thin pinstripes (sky blue, navy, sky blue) running up ahead of it. Navy fin with a white leading edge and the Awesome Cargo 'A' (a white A crossed by a sky-blue swoosh). Over the forward fuselage the navy-and-sky-blue 'A' followed by 'wesome Cargo' in grey, spelling 'Awesome Cargo'; the same under the belly. Navy engines; navy winglets with a small 'A'.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:XA-LRL.jpg",
+      "title": "XA-LRL.jpg (CC BY-SA 4.0, Liam Thompson)",
+      "accessed": "2026-11-20",
+      "note": "A330-200P2F XA-LRL, left side from below, on approach, 2026-05-30. Fitted to shapes/A332.json (forward door pinned, camera 13° below): the navy sweep and the three pinstripes (traced), the white tail cone, the fin's 'A', the title's ends and height, the belly title."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:20251130_Airbus_A330-202(P2F)_of_Awesome_Cargo_(XA-LRL)_taxiing_at_CGO.jpg",
+      "title": "20251130 Airbus A330-202(P2F) of Awesome Cargo (XA-LRL) taxiing at CGO.jpg (CC BY-SA 4.0, Windmemories)",
+      "accessed": "2026-11-20",
+      "note": "XA-LRL, left side from ahead, at Zhengzhou, 2025-11-30: colours in daylight; the white fin leading edge and dorsal fillet; navy engines; the winglet's 'A'. Too much perspective to fit well (26 px off at the nose): used by eye."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Awesome_Cargo_Airbus_A330-202_XA-LRL.jpg",
+      "title": "Awesome Cargo Airbus A330-202 XA-LRL.jpg (CC BY-SA 4.0, EL MUNDO DE LOS AVIONES)",
+      "accessed": "2026-11-20",
+      "note": "XA-LRL, right side from below, banking, 2023-06-29, before its freighter conversion (cabin windows still in) but in this scheme: the right-side title with the 'A' at its aft end, the belly title reading nose to tail. Used by eye for the right side."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:20250731_Airbus_A330-202_of_Awesome_Cargo_(XA-DUR)_at_CGO.jpg",
+      "title": "20250731 Airbus A330-202 of Awesome Cargo (XA-DUR) at CGO.jpg (CC BY-SA 4.0, Windmemories)",
+      "accessed": "2026-11-20",
+      "note": "XA-DUR, left side at a cargo stand, Zhengzhou, 2025-07-31: the second aircraft in the same scheme."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F5",
+      "official": false
+    },
+    "navy": {
+      "hex": "#1B2F70",
+      "official": false
+    },
+    "sky": {
+      "hex": "#14A0DE",
+      "official": false
+    },
+    "grey": {
+      "hex": "#5A6370",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C4C8CC",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "windows": "hidden",
+    "areas": [
+      {
+        "name": "navy aft fuselage behind a curved sweep from the belly under the wing's trailing edge up to the fin's root, stopping short of the white tail cone",
+        "color": "navy",
+        "points": [
+          [
+            0.7292,
+            -1,
+            1
+          ],
+          [
+            0.7385,
+            -0.79
+          ],
+          [
+            0.749,
+            -0.66
+          ],
+          [
+            0.7669,
+            -0.42
+          ],
+          [
+            0.7805,
+            -0.24
+          ],
+          [
+            0.7971,
+            0.013
+          ],
+          [
+            0.8041,
+            0.137
+          ],
+          [
+            0.8147,
+            0.397
+          ],
+          [
+            0.8184,
+            0.551
+          ],
+          [
+            0.8214,
+            0.856
+          ],
+          [
+            0.823,
+            1,
+            1
+          ],
+          [
+            0.97,
+            1,
+            1
+          ],
+          [
+            0.97,
+            -1,
+            1
+          ]
+        ],
+        "smooth": true,
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "forward sky-blue pinstripe, from the belly up to about the window line, tapering out",
+        "color": "sky",
+        "points": [
+          [
+            0.62,
+            -0.965
+          ],
+          [
+            0.653,
+            -0.813
+          ],
+          [
+            0.6886,
+            -0.662
+          ],
+          [
+            0.7233,
+            -0.3818
+          ],
+          [
+            0.7462,
+            -0.1758
+          ],
+          [
+            0.7577,
+            -0.0903
+          ],
+          [
+            0.7577,
+            -0.1603
+          ],
+          [
+            0.7462,
+            -0.2458
+          ],
+          [
+            0.7233,
+            -0.4518
+          ],
+          [
+            0.6886,
+            -0.732
+          ],
+          [
+            0.653,
+            -0.883
+          ],
+          [
+            0.62,
+            -1.035
+          ]
+        ],
+        "smooth": true,
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "navy pinstripe between the two sky-blue ones",
+        "color": "navy",
+        "points": [
+          [
+            0.63,
+            -0.965
+          ],
+          [
+            0.6652,
+            -0.863
+          ],
+          [
+            0.7077,
+            -0.6747
+          ],
+          [
+            0.7352,
+            -0.3806
+          ],
+          [
+            0.7579,
+            -0.1364
+          ],
+          [
+            0.781,
+            0.0532
+          ],
+          [
+            0.781,
+            -0.0168
+          ],
+          [
+            0.7579,
+            -0.2064
+          ],
+          [
+            0.7352,
+            -0.4506
+          ],
+          [
+            0.7077,
+            -0.7447
+          ],
+          [
+            0.6652,
+            -0.933
+          ],
+          [
+            0.63,
+            -1.035
+          ]
+        ],
+        "smooth": true,
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "aft sky-blue pinstripe, running up just ahead of the navy to above the window line",
+        "color": "sky",
+        "points": [
+          [
+            0.64,
+            -0.965
+          ],
+          [
+            0.6772,
+            -0.9089
+          ],
+          [
+            0.7245,
+            -0.6946
+          ],
+          [
+            0.7483,
+            -0.3837
+          ],
+          [
+            0.7728,
+            -0.1188
+          ],
+          [
+            0.7926,
+            0.1209
+          ],
+          [
+            0.8051,
+            0.3204
+          ],
+          [
+            0.8051,
+            0.2504
+          ],
+          [
+            0.7926,
+            0.0509
+          ],
+          [
+            0.7728,
+            -0.1888
+          ],
+          [
+            0.7483,
+            -0.4537
+          ],
+          [
+            0.7245,
+            -0.7646
+          ],
+          [
+            0.6772,
+            -0.9789
+          ],
+          [
+            0.64,
+            -1.035
+          ]
+        ],
+        "smooth": true,
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "navy",
+    "areas": [
+      {
+        "name": "white leading edge, widening into the white dorsal fillet at the root",
+        "color": "white",
+        "points": [
+          [
+            -0.1,
+            -0.05
+          ],
+          [
+            0.16,
+            -0.05,
+            1
+          ],
+          [
+            0.1,
+            0.1
+          ],
+          [
+            0.05,
+            0.25
+          ],
+          [
+            0.03,
+            0.5
+          ],
+          [
+            0.025,
+            1.05,
+            1
+          ],
+          [
+            -0.1,
+            1.05
+          ]
+        ],
+        "smooth": true,
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "winglets": {
+    "outer": "navy",
+    "inner": "navy",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "navy",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "titles": [
+    {
+      "text": "wesome Cargo",
+      "place": "fuselage",
+      "side": "left",
+      "at": [
+        0.172,
+        -0.133
+      ],
+      "height": 0.28,
+      "length": 0.167,
+      "color": "grey",
+      "style": "Plain light sans serif in mixed case, grey, over the forward fuselage just behind the forward door, following the 'A' mark that begins it: together they read 'Awesome Cargo'.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Regular",
+          "Arial"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      }
+    },
+    {
+      "text": "wesome Cargo",
+      "place": "fuselage",
+      "side": "right",
+      "at": [
+        0.13,
+        -0.133
+      ],
+      "height": 0.28,
+      "length": 0.167,
+      "color": "grey",
+      "style": "As on the left, the 'A' at its aft end so the name reads normally from the right; it ends just behind the forward door.",
+      "confidence": "low",
+      "sourceRefs": [
+        2
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Regular",
+          "Arial"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      }
+    },
+    {
+      "text": "wesome Cargo",
+      "place": "belly",
+      "at": [
+        0.375,
+        -1
+      ],
+      "height": 0.15,
+      "length": 0.19,
+      "color": "grey",
+      "style": "The name again under the belly between the engines, reading nose to tail, the 'A' ahead of it.",
+      "confidence": "low",
+      "sourceRefs": [
+        0,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Regular",
+          "Arial"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      }
+    }
+  ],
+  "logos": [
+    {
+      "mark": "WIN/a",
+      "place": "fin",
+      "at": [
+        0.7,
+        0.52
+      ],
+      "height": 0.51,
+      "colors": [
+        "white",
+        "sky"
+      ],
+      "description": "The Awesome Cargo 'A': a tall narrow capital A without its crossbar, in white, its left leg replaced by a broad sky-blue swoosh that curves up from the foot and sweeps over the apex to the right, like a comet's arc.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Awesome_Cargo_logo.png",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "WIN/a",
+      "place": "fuselage",
+      "side": "left",
+      "at": [
+        0.146,
+        0.17
+      ],
+      "height": 0.66,
+      "colors": [
+        "navy",
+        "sky"
+      ],
+      "description": "The same 'A' in navy with the sky-blue swoosh, as the first letter of 'Awesome Cargo', just behind the forward door.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Awesome_Cargo_logo.png",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "WIN/a",
+      "place": "fuselage",
+      "side": "right",
+      "at": [
+        0.322,
+        0.17
+      ],
+      "height": 0.66,
+      "colors": [
+        "navy",
+        "sky"
+      ],
+      "description": "The 'A' at the aft end of the right-side title.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Awesome_Cargo_Airbus_A330-202_XA-LRL.jpg",
+      "confidence": "low",
+      "sourceRefs": [
+        2
+      ]
+    },
+    {
+      "mark": "WIN/a",
+      "place": "belly",
+      "at": [
+        0.355,
+        -1
+      ],
+      "height": 0.2,
+      "colors": [
+        "navy",
+        "sky"
+      ],
+      "description": "The 'A' leading the belly title.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Awesome_Cargo_Airbus_A330-202_XA-LRL.jpg",
+      "confidence": "low",
+      "sourceRefs": [
+        2
+      ]
+    },
+    {
+      "mark": "WIN/a",
+      "place": "winglets",
+      "at": [
+        0.5,
+        0.5
+      ],
+      "height": 0.45,
+      "colors": [
+        "white",
+        "sky"
+      ],
+      "description": "A small white-and-sky-blue 'A' on each navy winglet.",
+      "reference": "https://commons.wikimedia.org/wiki/File:XA-LRL.jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "notes": "Awesome Cargo is the trading name of TM Aerolíneas (ICAO WIN, callsign TEME AIRLINES in FAA JO 7340.2), Mexico City Felipe Ángeles; A330-200P2Fs XA-LRL and XA-DUR seen flying as WIN (adsb.lol, hexdb.io), a third A330F reported delivered (not checked on Commons). Measured on XA-LRL (2026-05-30, left from below): the left title runs x 0.172-0.339 behind the 'A' (0.122-0.170), capitals (the C) about 1.0 m, lowercase about 0.7 m; the navy's leading edge meets the belly at x 0.73 and the crown at 0.82; the tail cone (from 0.97) is white. The pinstripes are drawn as slivers about 0.25 m wide from traced centrelines. The right side is from a 2023 photo of the same aircraft before conversion (by eye, low): the 'A' sits at the title's aft end there. The belly title and its 'A' are read off two photos from below, partly hidden by the gear: placement low. A customer's 'MT International Silkexpress' sticker aft of the wing on XA-LRL in 2026 and the registration with a Mexican flag are not drawn. The winglet's 'A' is small and drawn on both faces. Colours by eye; no brand colours published.",
+  "history": "New in the LAX round (2026-11-20); Awesome Cargo had no scheme here before."
+}

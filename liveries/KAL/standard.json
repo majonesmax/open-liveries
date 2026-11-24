@@ -1,0 +1,355 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "KAL",
+  "name": "2025 livery",
+  "kind": "standard",
+  "from": "2025",
+  "description": "A metallic sky blue over everything above a low light-gray belly, the blue running up into an all-blue fin. The new navy taegeuk (a ring and S-curve drawn as one sweeping line, no red) large on the fin, 'KOREAN' in big navy capitals across the windows ahead of the wing, the taegeuk and 'KOREAN' again under the belly, a small taegeuk on the white engine cowls.",
+  "confidence": "high",
+  "drawnOn": "B77W",
+  "sources": [
+    {
+      "url": "https://www.asiae.co.kr/en/article/2025031117024816144",
+      "title": "CI Changed After 41 Years (Asia Economy, 2025-03-11)",
+      "accessed": "2026-11-13",
+      "note": "New CI unveiled 2025-03-11 at Gimpo; sky blue kept with an added metallic effect; refined taegeuk; bold 'KOREAN' logotype; first aircraft 787-10 HL8515 (KE703 ICN-NRT 2025-03-12); Asiana aircraft to be repainted at integration."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Korean_Air_B777-3B5ER_HL8209_-_TPE_RCTP_-_21-FEB-2026_(55135012666).jpg",
+      "title": "Korean Air B777-3B5ER HL8209 - TPE RCTP - 21-FEB-2026 (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Right side, level, 2026-02-21: belly split, title size and place, fin logo, engine logo, flag by the registration."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Korean_Air_Boeing_777-300ER_HL8008_departing_Boston,_April_2025.jpg",
+      "title": "Korean Air Boeing 777-300ER HL8008 departing Boston, April 2025 (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Left side from below, 2025-04-01: left-side title, belly taegeuk and 'KOREAN', SkyTeam mark by the nose."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Korean_Air_HL7638_New_Livery.jpg",
+      "title": "Korean Air HL7638 New Livery (CC BY-SA 2.0)",
+      "accessed": "2026-11-13",
+      "note": "747-8I from below-left, 2025-04-13: the gray belly split under the nose, belly titles, engine logo."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Korean_Air_2025_(Taegeuk).svg",
+      "title": "Korean Air 2025 (Taegeuk) (Commons)",
+      "accessed": "2026-11-13",
+      "note": "The new symbol; navy #051766 in the file."
+    },
+    {
+      "url": "https://airlinegeeks.com/2025/03/14/livery-of-the-week-korean-air-s-new-design/",
+      "title": "Livery of the Week: Korean Air's New Design (AirlineGeeks, 2025-03-14)",
+      "accessed": "2026-11-13",
+      "note": "'KOREAN' replaces 'Korean Air' in a larger font; the blue/white split is now curved; taegeuk blue-only."
+    }
+  ],
+  "palette": {
+    "blue": {
+      "hex": "#5BB7F0",
+      "name": "metallic sky blue",
+      "official": false
+    },
+    "navy": {
+      "hex": "#142E6E",
+      "official": false
+    },
+    "belly": {
+      "hex": "#DCE1E5",
+      "name": "light gray",
+      "official": false
+    },
+    "cowl": {
+      "hex": "#E6EAEE",
+      "official": false
+    },
+    "lip": {
+      "hex": "#BFC4C9",
+      "name": "bare metal inlet lip",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B7BCC2",
+      "official": false
+    },
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "flagRed": {
+      "hex": "#CD2E3A",
+      "official": false
+    },
+    "flagBlue": {
+      "hex": "#0047A0",
+      "official": false
+    }
+  },
+  "finish": "metallic",
+  "fuselage": {
+    "base": "blue",
+    "areas": [
+      {
+        "name": "light-gray belly, rising under the nose and to the tail cone",
+        "color": "belly",
+        "below": [
+          [
+            0,
+            -0.85
+          ],
+          [
+            0.03,
+            -0.62
+          ],
+          [
+            0.08,
+            -0.47
+          ],
+          [
+            0.15,
+            -0.4
+          ],
+          [
+            0.8,
+            -0.38
+          ],
+          [
+            0.88,
+            -0.28
+          ],
+          [
+            0.93,
+            -0.12
+          ],
+          [
+            0.955,
+            0.05
+          ],
+          [
+            0.965,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2,
+          3
+        ],
+        "smooth": true
+      }
+    ],
+    "radome": {
+      "color": "blue",
+      "to": 0.025
+    },
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2,
+      3
+    ]
+  },
+  "fin": {
+    "base": "blue",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "stabilizer": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "wingGray",
+    "inner": "wingGray",
+    "confidence": "low"
+  },
+  "engines": {
+    "cowling": "cowl",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2,
+      3
+    ]
+  },
+  "logos": [
+    {
+      "mark": "KAL/taegeuk-2025",
+      "place": "fin",
+      "at": [
+        0.55,
+        0.43
+      ],
+      "height": 0.46,
+      "colors": [
+        "navy"
+      ],
+      "description": "The 2025 taegeuk: a navy circle drawn as two crescent strokes that sweep into an S-curve through the middle, with open gaps at upper right and lower left; navy only, no red, on the blue.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Korean_Air_2025_(Taegeuk).svg",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mark": "KAL/taegeuk-2025",
+      "place": "engines",
+      "at": [
+        0.25,
+        0.0
+      ],
+      "height": 0.27,
+      "colors": [
+        "navy"
+      ],
+      "description": "The taegeuk small on the outboard cowl, a quarter back from the lip.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Korean_Air_2025_(Taegeuk).svg",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mark": "KAL/taegeuk-2025",
+      "place": "belly",
+      "at": [
+        0.37,
+        -1
+      ],
+      "height": 0.4,
+      "colors": [
+        "navy"
+      ],
+      "description": "The taegeuk under the belly at the wing, just ahead of the belly 'KOREAN'.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Korean_Air_2025_(Taegeuk).svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ]
+    },
+    {
+      "mark": "KAL/skyteam",
+      "place": "fuselage",
+      "at": [
+        0.07,
+        0.3
+      ],
+      "height": 0.12,
+      "colors": [
+        "navy"
+      ],
+      "description": "The small SkyTeam swirl and 'SKYTEAM' in navy between the cockpit windows and door 1.",
+      "reference": "https://commons.wikimedia.org/wiki/Category:SkyTeam",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "KAL/kr-flag",
+      "place": "fuselage",
+      "at": [
+        0.82,
+        0.3
+      ],
+      "height": 0.08,
+      "colors": [
+        "white",
+        "flagRed",
+        "flagBlue",
+        "#111111"
+      ],
+      "description": "A small Taegukgi (South Korean flag) above the windows near the tail, by the registration.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Korea.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "KOREAN",
+      "place": "fuselage",
+      "at": [
+        0.105,
+        -0.1
+      ],
+      "height": 0.7,
+      "color": "navy",
+      "length": 0.2,
+      "style": "Big navy capitals straddling the window line from just aft of door 1 to well ahead of the wing: a wide, round geometric sans, semi-bold, generously spaced, the O a full circle.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Montserrat SemiBold",
+          "Gotham Medium",
+          "Futura PT Demi"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "KOREAN",
+      "place": "belly",
+      "at": [
+        0.41,
+        -1
+      ],
+      "height": 0.35,
+      "color": "navy",
+      "length": 0.15,
+      "style": "The same wordmark under the belly at the wing, reading nose to tail, after the taegeuk.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Montserrat SemiBold",
+          "Gotham Medium",
+          "Futura PT Demi"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Drawn from 777-300ER photos (HL8209 2026-02-21, HL8008 2025-04-01) and 747-8I HL7638 (2025-04-13). Unveiled 2025-03-11 on 787-10 HL8515 (first revenue flight 2025-03-12). Repainting is gradual (about three weeks per large aircraft; new deliveries arrive in it), so through 2026 most of the fleet still wears the 1984 sky-blue scheme (standard-1984). The blue reads brighter and glossier than the 1984 blue (a metallic effect, per Korean Air), and the blue/gray split is curved where the old one was straight. Winglets/raked tips not seen clearly: left gray. The 'KOREAN' title on the left side starts a little further aft (x≈0.115) than on the right (x≈0.095, measured on HL8209). Re-checked 2026-11-15 on HL8209: the title runs 0.096 to 0.290 on the right (length 0.194, kept at 0.2); the belly split is a curve, now drawn smooth.",
+  "history": "Replaced Skyarium v1's approximation. Succeeds the 1984 sky-blue livery (standard-1984), which still flies on most of the fleet during the repaint."
+}

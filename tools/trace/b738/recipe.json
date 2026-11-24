@@ -1,0 +1,131 @@
+{
+  "_about": "737-800 with winglets, from Boeing D6-58325-6 2.2.12 (page index 42): side, plan and front views on one sheet. Pixels of layers.py rasters at scale 12, line centres.",
+  "out": "../../../../shapes/B738.json",
+  "length": 38.02,
+  "wingtip": "blended",
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "refs": {
+    "side": {
+      "nose": 91,
+      "tail": 4234,
+      "cowlEnd": 1850
+    },
+    "plan": {
+      "nose": 91,
+      "centerline": 2290
+    },
+    "front": {
+      "centerline": 2105,
+      "crownTop": 981
+    }
+  },
+  "windows": {
+    "from": 6.039,
+    "to": 30.931,
+    "pitch": 0.508,
+    "width": 0.25,
+    "z": [0.362, 0.693],
+    "note": "Boeing's drawing has no cabin windows: placed at the 737's 20 in (0.508 m) frame pitch, on the overwing exits' windows, from the first door to the aft door; height from the exits."
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [592, 1021, 683, 1219]
+    },
+    {
+      "kind": "exit",
+      "box": [1887, 1068, 1936, 1166]
+    },
+    {
+      "kind": "exit",
+      "box": [2006, 1068, 2054, 1166]
+    },
+    {
+      "kind": "door",
+      "box": [3519, 1021, 3610, 1219]
+    },
+    {
+      "kind": "cargo",
+      "box": [955, 1264, 1085, 1360]
+    },
+    {
+      "kind": "cargo",
+      "box": [3094, 1247, 3224, 1351]
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [226, 1116.5],
+      [234, 1108.5],
+      [242, 1102.5],
+      [250, 1096.5],
+      [258, 1090.5],
+      [266, 1083.5],
+      [274, 1077.5],
+      [282, 1072.5],
+      [290, 1067.5],
+      [298, 1076],
+      [272, 1118]
+    ],
+    [
+      [322.8, 1133.3],
+      [320.7, 1133.3],
+      [313.5, 1131.4],
+      [279.8, 1121.0],
+      [276.8, 1119.9],
+      [275.7, 1118.8],
+      [275.7, 1117.8],
+      [281.5, 1105.2],
+      [289.9, 1088.9],
+      [297.7, 1075.5],
+      [298.8, 1074.5],
+      [302.0, 1074.5],
+      [308.3, 1075.5],
+      [331.2, 1080.1],
+      [336.3, 1081.2],
+      [332.5, 1097.8]
+    ],
+    [
+      [386.1, 1076.0],
+      [404.5, 1094.7],
+      [404.5, 1095.7],
+      [400.5, 1097.8],
+      [366.0, 1115.1],
+      [332.0, 1130.1],
+      [326.9, 1132.0],
+      [325.9, 1132.0],
+      [325.8, 1130.0],
+      [327.7, 1121.8],
+      [334.6, 1094.4],
+      [338.0, 1082.9],
+      [339.1, 1081.8],
+      [380.0, 1075.8]
+    ]
+  ],
+  "printed": {
+    "fuselage width": 3.76,
+    "wingspan": 35.79,
+    "tailplane span": 14.35,
+    "engine out from the centerline": 4.83,
+    "overall length": 39.47
+  },
+  "meta": {
+    "id": "B738",
+    "name": "Boeing 737-800 with winglets",
+    "types": ["B738"],
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://archive.aoe.vt.edu/mason/Mason_f/B737.pdf",
+        "title": "Boeing, 737 Airplane Characteristics for Airport Planning (D6-58325-6), 2.2.12 General Dimensions, Model 737-800 with Winglets",
+        "accessed": "2026-11-15",
+        "note": "Dimensions and outlines read off the side, plan and front views (tools/trace/b738/); the figures are the aircraft's measurements, not a copy of the drawing. Cabin windows aren't drawn there: see cabin.windows.note."
+      }
+    ]
+  }
+}

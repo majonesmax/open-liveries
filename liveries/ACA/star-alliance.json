@@ -1,0 +1,222 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "star-alliance",
+  "airline": "ACA",
+  "name": "Star Alliance",
+  "kind": "alliance",
+  "confidence": "medium",
+  "drawnOn": "A333",
+  "description": "Air Canada's one current Star Alliance jet, A330-300 C-GHLM (fin 938): all white, the huge thin black 'STAR ALLIANCE' along the upper fuselage with the windows through its lower half, 'AIR CANADA' in red capitals with the red roundel under the forward windows, the small grey Star Alliance star behind the cockpit; the fin black (the fillet too) with the large Star Alliance star; white engines.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:C-GHLM_LHR_170325.jpg",
+      "title": "C-GHLM LHR 170325.jpg (CC BY 2.0, kitmasterbloke)",
+      "accessed": "2026-11-22",
+      "note": "Right side climbing out of Heathrow, 2025-03-17 (Commons gives 2025-04-09): the newest open photo, still in the scheme with the 2017 'AIR CANADA' title and roundel."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:C-GHLM_Airbus_A330-343_A333_c_n_419_-_ACA_(32377563527).jpg",
+      "title": "C-GHLM Airbus A330-343 A333 c/n 419 - ACA (32377563527).jpg (CC BY-SA 2.0, Markus Eigenheer)",
+      "accessed": "2026-11-22",
+      "note": "Left side on approach to Geneva, 2019-03-06, the same paint as in 2025: fitted to the measured A330-300 shape (nose, fin tip, both doors; within 6 px). The titles, the roundel, both stars read off it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Air_Canada,_C-GHLM,_Airbus_A330-343_(19449172338)_(2).jpg",
+      "title": "Air Canada, C-GHLM, Airbus A330-343 (19449172338) (2).jpg (CC BY-SA 2.0, Anna Zvereva)",
+      "accessed": "2026-11-22",
+      "note": "Right side on the runway at Heathrow, 2019-10-03, side-on: the wordmark's aft end (where the wing hides it on the left), read by eye against the nose and tail, not fitted."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "starBlack": {
+      "hex": "#14171B",
+      "official": false,
+      "name": "Star Alliance black"
+    },
+    "red": {
+      "hex": "#D0202E",
+      "official": false,
+      "name": "Air Canada red"
+    },
+    "starWhite": {
+      "hex": "#E9ECEF",
+      "official": false
+    },
+    "starGray": {
+      "hex": "#9AA3AB",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "starBlack",
+    "rudder": "starBlack",
+    "fillet": "starBlack",
+    "mirrored": true,
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "titles": [
+    {
+      "text": "STAR ALLIANCE",
+      "mark": "SAL/wordmark",
+      "place": "fuselage",
+      "at": [
+        0.117,
+        0.06
+      ],
+      "height": 0.58,
+      "length": 0.505,
+      "color": "starBlack",
+      "style": "The Star Alliance wordmark: very large, thin, widely spaced geometric capitals along the upper fuselage from just behind the forward door to over the wing's trailing edge, the windows through their lower half.",
+      "type": {
+        "similar": [
+          "Futura Light",
+          "Avenir Next Ultra Light",
+          "Century Gothic"
+        ],
+        "weight": 300,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    },
+    {
+      "text": "AIR CANADA",
+      "place": "fuselage",
+      "at": [
+        0.144,
+        -0.234
+      ],
+      "height": 0.128,
+      "length": 0.115,
+      "color": "red",
+      "style": "Air Canada's capitals in red, under the forward windows after the roundel.",
+      "type": {
+        "similar": [
+          "Futura Medium",
+          "Avenir Next Medium"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "logos": [
+    {
+      "mark": "SAL/star-alliance",
+      "place": "fin",
+      "at": [
+        0.517,
+        0.319
+      ],
+      "height": 0.45,
+      "colors": [
+        "starWhite",
+        "starGray"
+      ],
+      "description": "The Star Alliance star large across the black fin's middle: five faceted white triangles round a pentagon.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Star_Alliance_Logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "SAL/star-alliance",
+      "place": "fuselage",
+      "at": [
+        0.07,
+        0.285
+      ],
+      "height": 0.18,
+      "colors": [
+        "starGray",
+        "white"
+      ],
+      "description": "The small grey Star Alliance star just behind the cockpit windows.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "ACA/roundel",
+      "place": "fuselage",
+      "at": [
+        0.129,
+        -0.169
+      ],
+      "height": 0.24,
+      "colors": [
+        "red",
+        "white"
+      ],
+      "description": "The red Air Canada roundel ahead of 'AIR CANADA'.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "notes": "Measured on the left side (2019-03-06), the paint unchanged in the newest open photo (2025-03-17). The wordmark's aft end is read from the right side by eye (the wing hides it on the left), so its length is medium. Not drawn: the registration, the fleet number and the small flag. Air Canada's other Star Alliance jets (767s C-FMWY, C-GAUB, A320s C-FDRH and C-FDRK, A321 C-GITU, Jazz CRJs) have no open photo in it since 2016 at the latest and aren't tagged; C-GHLM is the only one seen in it recently.",
+  "history": "New 2026-11-22. C-GHLM has worn Star Alliance's scheme since at least 2015 (Commons), updated with Air Canada's 2017 title and roundel."
+}

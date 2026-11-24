@@ -1,0 +1,95 @@
+{
+  "_about": "Boeing D6-58326-1 Rev F, 2.2.1 General Dimensions, 747-400 (page index 30; the freighter's 2.2.2 draws the same wing, tail and nacelles): layers.py --mode fills at scale 21, clip 185,520,450,600 (front; the image's right half is the aircraft's left side; centerline x 2877.5). Pixels of that raster, line centres. The outline's top is the upper deck's: fuselage.hump runs from it down to the main tube's crown level (y 797, the side view's 0.87 m below the hump's top), whose own top the recipe's crownTop gives. fuselage.humpSection carries the outline on down from the main crown's level to where it meets the main tube's section (about 1.6 m lower): with fuselage.hump, the deck's own cross-section.",
+  "fuselage.section": [
+    [3085, 900],
+    [3110, 950],
+    [3128, 1000],
+    [3136, 1060],
+    [3137, 1100],
+    [3134, 1150]
+  ],
+  "fuselage.hump": [
+    [2877, 727],
+    [2950, 740],
+    [3000, 770],
+    [3025, 797]
+  ],
+  "wing.upper": [
+    [3150, 1145],
+    [3300, 1157],
+    [3450, 1152],
+    [3600, 1146],
+    [3750, 1139],
+    [4050, 1118],
+    [4200, 1106],
+    [4350, 1092],
+    [4500, 1078],
+    [4800, 1056],
+    [4950, 1046],
+    [5100, 1039],
+    [5250, 1031],
+    [5400, 1025],
+    [5412, 1022],
+    [5440, 990],
+    [5470, 960],
+    [5495, 930]
+  ],
+  "wing.lower": [
+    [3450, 1264],
+    [3600, 1239],
+    [3750, 1214],
+    [4050, 1179],
+    [4200, 1162],
+    [4350, 1145],
+    [4500, 1128],
+    [4800, 1096],
+    [4950, 1082],
+    [5100, 1070],
+    [5250, 1061],
+    [5400, 1053],
+    [5435, 1050],
+    [5460, 1010],
+    [5480, 970],
+    [5495, 932]
+  ],
+  "stabilizer.upper": [
+    [3300, 883],
+    [3450, 868],
+    [3600, 853],
+    [3750, 837]
+  ],
+  "stabilizer.lower": [
+    [3300, 927],
+    [3450, 903],
+    [3600, 878],
+    [3750, 854]
+  ],
+  "engine.inlet": [
+    [3968, 1332],
+    [3936, 1256],
+    [3784, 1256],
+    [3752, 1332],
+    [3784, 1408],
+    [3860, 1440],
+    [3936, 1408],
+    [3968, 1332]
+  ],
+  "engine2.inlet": [
+    [4710, 1264],
+    [4679, 1190],
+    [4605, 1159],
+    [4531, 1190],
+    [4500, 1264],
+    [4531, 1338],
+    [4605, 1369],
+    [4679, 1338],
+    [4710, 1264]
+  ],
+  "fuselage.humpSection": [
+    [3025, 797],
+    [3050, 830],
+    [3080, 880],
+    [3110, 950],
+    [3128, 1000]
+  ]
+}

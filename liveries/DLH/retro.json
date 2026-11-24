@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "retro",
+  "airline": "DLH",
+  "name": "Retro (classic 1970s-2018 scheme)",
+  "kind": "retro",
+  "confidence": "medium",
+  "description": "Fuselage: White upper fuselage, gray/silver lower fuselage. Cheatlines: A dark-blue cheatline through the window line from nose to tail. Tail: Dark-blue fin with a yellow disc containing the dark-blue crane. Engines: approximate: gray/white. Winglets: Raked tips. Titles: 'Lufthansa' in dark-blue Helvetica above the windows. Artwork: none. Colors hex: approximate.",
+  "sources": [
+    {
+      "url": "https://airlinegeeks.com/2024/03/15/livery-of-the-week-lufthansa-s-747-retro-jet/",
+      "accessed": "2026-11-12"
+    }
+  ],
+  "notes": "No Commons category found; current paint status not independently confirmed for 2026.",
+  "from": "2015"
+}

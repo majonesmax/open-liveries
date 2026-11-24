@@ -1,0 +1,396 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "fly-the-flag-2026",
+  "airline": "ACA",
+  "name": "Fly the Flag (Team Canada, Milano Cortina 2026)",
+  "kind": "special",
+  "from": "2025-11-27",
+  "commemorates": "Team Canada at the Milano Cortina 2026 Olympic and Paralympic Winter Games",
+  "confidence": "low",
+  "drawnOn": "A333",
+  "description": "A330-300 C-GEGC (fin 940) in Air Canada's 2017 white and black, the fin black with the roundel in gold instead of red; along the middle of the fuselage a tan-gold field from behind the second door to ahead of the aft door, up to the crown, with photographs of Team Air Canada's athlete ambassadors (Alexis Guimond, Marie-Philip Poulin, Mikaël Kingsbury, Ina Forrest) each with their name and a small red maple leaf; 'Fly the flag' in large black lower-case in two lines behind it; ahead, the Canadian Olympic Committee's logo, the Air Canada roundel and the Canadian Paralympic Committee's logo in a row in red outlines over the windows, 'AIR CANADA' and 'OFFICIAL AIRLINE' small in black under them.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:C-GEGC_Airbus_A330-343E_at_Heathrow_19th_July_2026.jpg",
+      "title": "C-GEGC Airbus A330-343E at Heathrow 19th July 2026.jpg (CC BY-SA 4.0, Mike Burdett)",
+      "accessed": "2026-11-22",
+      "note": "Left side, side-on, taxiing at Heathrow 2026-07-19, months after the Games and still in the scheme: fitted to the measured A330-300 shape (nose, fin tip, both doors; within 11 px). The field's edges, titles and logos read off it; low evening light turns the white warm, so the field's edges are approximate."
+    },
+    {
+      "url": "https://www.aircanada.com/media/fly-the-flag-air-canada-unveils-celebratory-canadian-olympic-and-paralympic-team-livery-featuring-canadian-athletes-headed-to-the-milano-cortina-2026-winter-games/",
+      "title": "Air Canada news release: Fly the Flag: Air Canada unveils celebratory Canadian Olympic and Paralympic Team livery (2025-11-27), with its hangar photo (airline press photo)",
+      "accessed": "2026-11-22",
+      "note": "Unveiled 2025-11-27 on fin 940, first flight AC894 to Milan that day; the athlete ambassadors named. The press photo (left side from above, wide angle) was used to read where the tan field runs (up to the crown, its arcs) and its colour; measured only, not copied or shipped."
+    },
+    {
+      "url": "https://worldairlinenews.com/2025/11/28/air-canada-unveils-celebratory-canadian-olympic-and-paralympic-team-livery-featuring-canadian-athletes-headed-to-the-milano-cortina-2026-winter-games/",
+      "title": "World Airline News (2025-11-28)",
+      "accessed": "2026-11-22",
+      "note": "Names the registration, C-GEGC."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "black": {
+      "hex": "#14171B",
+      "official": false,
+      "name": "Air Canada black"
+    },
+    "red": {
+      "hex": "#D0202E",
+      "official": false,
+      "name": "Air Canada red"
+    },
+    "gold": {
+      "hex": "#C9A040",
+      "official": false,
+      "name": "the fin roundel's gold"
+    },
+    "tan": {
+      "hex": "#D8C3A0",
+      "official": false,
+      "name": "the art's tan-gold field"
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "tan-gold field behind the athletes, from behind the second door to ahead of 'Fly the flag', up to the crown",
+        "color": "tan",
+        "smooth": true,
+        "points": [
+          [
+            0.275,
+            -0.655,
+            1
+          ],
+          [
+            0.285,
+            -0.4
+          ],
+          [
+            0.302,
+            0.14
+          ],
+          [
+            0.355,
+            0.68
+          ],
+          [
+            0.4,
+            1
+          ],
+          [
+            0.598,
+            1
+          ],
+          [
+            0.624,
+            0.73
+          ],
+          [
+            0.627,
+            0.15
+          ],
+          [
+            0.638,
+            -0.45
+          ],
+          [
+            0.643,
+            -0.655,
+            1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "black belly strip, as on the 2017 standard",
+        "color": "black",
+        "points": [
+          [
+            0.051,
+            -0.655
+          ],
+          [
+            0.789,
+            -0.655
+          ],
+          [
+            0.799,
+            -1
+          ],
+          [
+            0.03,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "cockpitWindows": {
+      "mask": "black"
+    },
+    "windows": "plain",
+    "confidence": "low",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "fin": {
+    "base": "black",
+    "areas": [],
+    "mirrored": false,
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "engines": {
+    "cowling": "black",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "titles": [
+    {
+      "text": "Fly the",
+      "place": "fuselage",
+      "at": [
+        0.638,
+        0.249
+      ],
+      "height": 0.3,
+      "length": 0.1,
+      "color": "black",
+      "style": "Large heavy black sans, sentence case, over the windows behind the art: the first of two lines.",
+      "type": {
+        "similar": [
+          "Avenir Next Heavy",
+          "Gotham Black"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "text": "flag",
+      "place": "fuselage",
+      "at": [
+        0.667,
+        -0.235
+      ],
+      "height": 0.3,
+      "length": 0.061,
+      "color": "black",
+      "style": "The second line, heavy black lower case under the windows, indented under 'the'.",
+      "type": {
+        "similar": [
+          "Avenir Next Heavy",
+          "Gotham Black"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.72
+      },
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "text": "AIR CANADA",
+      "place": "fuselage",
+      "at": [
+        0.17,
+        -0.042
+      ],
+      "height": 0.07,
+      "length": 0.044,
+      "color": "black",
+      "style": "Small black capitals under the roundel.",
+      "type": {
+        "similar": [
+          "Futura Medium",
+          "Avenir Next Medium"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ]
+    },
+    {
+      "text": "OFFICIAL AIRLINE",
+      "place": "fuselage",
+      "at": [
+        0.159,
+        -0.293
+      ],
+      "height": 0.075,
+      "length": 0.062,
+      "color": "black",
+      "style": "Small black capitals under the row of logos.",
+      "type": {
+        "similar": [
+          "Futura Medium",
+          "Avenir Next Medium"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ]
+    }
+  ],
+  "logos": [
+    {
+      "mark": "ACA/roundel",
+      "place": "fin",
+      "at": [
+        0.51,
+        0.356
+      ],
+      "height": 0.5,
+      "colors": [
+        "gold",
+        "black"
+      ],
+      "description": "The Air Canada roundel in gold on the black fin, in place of the usual red.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "ACA/team-canada-athletes",
+      "licensed": "Team Canada athlete images (Canadian Olympic Committee, Canadian Paralympic Committee and the athletes)",
+      "place": "fuselage",
+      "at": [
+        0.47,
+        0.05
+      ],
+      "height": 1.4,
+      "colors": [],
+      "description": "Photographs of four athletes in Team Canada kit across the tan field (Alexis Guimond, Marie-Philip Poulin, Mikaël Kingsbury, Ina Forrest), each named over a small red maple leaf. Real people's portraits: described, never drawn from here.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "COC/logo",
+      "licensed": "Canadian Olympic Committee",
+      "place": "fuselage",
+      "at": [
+        0.135,
+        0.195
+      ],
+      "height": 0.54,
+      "colors": [
+        "red"
+      ],
+      "description": "The Canadian Olympic Committee's emblem (maple leaf over the Olympic rings) in a red rounded outline, first of the row over the forward windows.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ]
+    },
+    {
+      "mark": "ACA/roundel",
+      "place": "fuselage",
+      "at": [
+        0.193,
+        0.27
+      ],
+      "height": 0.5,
+      "colors": [
+        "red",
+        "white"
+      ],
+      "description": "The red Air Canada roundel, the row's middle.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ]
+    },
+    {
+      "mark": "CPC/logo",
+      "licensed": "Canadian Paralympic Committee",
+      "place": "fuselage",
+      "at": [
+        0.257,
+        0.258
+      ],
+      "height": 0.5,
+      "colors": [
+        "red"
+      ],
+      "description": "The Canadian Paralympic Committee's emblem in a red rounded outline, the row's last.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ]
+    }
+  ],
+  "notes": "Left side only (the Commons photo and the press photo): the right side is assumed the same layout. The tan field's edges are approximate (low): the one side-on photo is in warm evening light that tints the white, and the wing hides the field's lower aft part; its front and aft arcs and its reach to the crown are read from the press photo by eye. The field's lighter arcs (rings round the athletes) aren't drawn. Nobody says when the scheme comes off: still on 2026-07-19 (Commons).",
+  "history": "New 2026-11-22. Air Canada's earlier Fly the Flag Olympic jet (787-9 C-FVLQ, Tokyo 2020) was reportedly repainted by May 2022 (a spotter forum, evidence only)."
+}

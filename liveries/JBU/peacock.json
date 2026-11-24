@@ -1,0 +1,597 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "peacock",
+  "airline": "JBU",
+  "name": "This Peacock Can Fly (Peacock)",
+  "kind": "special",
+  "confidence": "medium",
+  "drawnOn": "A320",
+  "from": "2023-08",
+  "commemorates": "JetBlue's partnership with Peacock, NBCUniversal's streaming service (Peacock in JetBlue's seatback TV).",
+  "description": "Fuselage: black, with a bright yellow nose, its edge sweeping down and back from the cockpit to under the forward door, and a yellow tail cone; four big half-discs rising from the belly along the lower aft fuselage, blue, purple, red and orange from front to back. Titles: 'jetBlue' in white over the forward windows with Peacock's wordmark and its six coloured dots after it, divided by a thin white bar. Tail: black fin with a yellow tip and Peacock's white 'p' and column of six coloured dots. Engines black.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N706JB_JFK_Landing_22L_B6_A320_232_This_Peacock_Can_Fly_Small_(53685249220).png",
+      "title": "N706JB JFK Landing 22L B6 A320 232 This Peacock Can Fly Small (53685249220).png (CC BY-SA 2.0)",
+      "accessed": "2026-11-22",
+      "note": "N706JB right side landing at JFK, 2024-04-28 (the newest open photo of the scheme): flipped nose-left and fitted to shapes/A320.json (doors, nose, tail, fin tip; within 14 px, 0.3 m). Everything measured on it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N706JB_-_HPN_-_26-9-23.jpg",
+      "title": "N706JB - HPN - 26-9-23.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-22",
+      "note": "N706JB at White Plains, 2023-09-26: the same scheme."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:N706JB_(aircraft)",
+      "title": "N706JB on Commons",
+      "accessed": "2026-11-22",
+      "note": "'JetBlue Airways Airbus A320 N706JB on final approach to Boston June 2026' is misfiled: its titles read N579JB, in JetBlue's 2025 scheme."
+    }
+  ],
+  "palette": {
+    "black": {
+      "hex": "#16171F",
+      "official": false
+    },
+    "yellow": {
+      "hex": "#F2E23A",
+      "official": false,
+      "name": "Peacock yellow"
+    },
+    "blue": {
+      "hex": "#3E5FD8",
+      "official": false
+    },
+    "purple": {
+      "hex": "#6A3FC0",
+      "official": false
+    },
+    "red": {
+      "hex": "#D9452B",
+      "official": false
+    },
+    "orange": {
+      "hex": "#F08A24",
+      "official": false
+    },
+    "green": {
+      "hex": "#5BBF5A",
+      "official": false
+    },
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false,
+      "name": "polished inlet lip"
+    },
+    "flagRed": {
+      "hex": "#B22234",
+      "official": false
+    },
+    "navy": {
+      "hex": "#14275A",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "black",
+    "areas": [
+      {
+        "name": "yellow nose, its edge sweeping down and back from the cockpit to under the forward door",
+        "color": "yellow",
+        "smooth": true,
+        "points": [
+          [
+            0,
+            1
+          ],
+          [
+            0.04,
+            1
+          ],
+          [
+            0.061,
+            0.351
+          ],
+          [
+            0.076,
+            -0.101
+          ],
+          [
+            0.118,
+            -0.511
+          ],
+          [
+            0.157,
+            -0.724
+          ],
+          [
+            0.206,
+            -1.0
+          ],
+          [
+            0,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "yellow tail cone",
+        "color": "yellow",
+        "points": [
+          [
+            0.955,
+            1,
+            1
+          ],
+          [
+            0.951,
+            0.07,
+            1
+          ],
+          [
+            0.97,
+            -1,
+            1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "blue half-disc (forward)",
+        "color": "blue",
+        "smooth": true,
+        "points": [
+          [
+            0.627,
+            -1.0
+          ],
+          [
+            0.626,
+            -0.852
+          ],
+          [
+            0.622,
+            -0.715
+          ],
+          [
+            0.617,
+            -0.597
+          ],
+          [
+            0.61,
+            -0.506
+          ],
+          [
+            0.602,
+            -0.449
+          ],
+          [
+            0.593,
+            -0.43
+          ],
+          [
+            0.584,
+            -0.449
+          ],
+          [
+            0.576,
+            -0.506
+          ],
+          [
+            0.569,
+            -0.597
+          ],
+          [
+            0.564,
+            -0.715
+          ],
+          [
+            0.56,
+            -0.852
+          ],
+          [
+            0.559,
+            -1.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "purple half-disc",
+        "color": "purple",
+        "smooth": true,
+        "points": [
+          [
+            0.721,
+            -1.0
+          ],
+          [
+            0.72,
+            -0.803
+          ],
+          [
+            0.716,
+            -0.62
+          ],
+          [
+            0.71,
+            -0.463
+          ],
+          [
+            0.703,
+            -0.342
+          ],
+          [
+            0.694,
+            -0.266
+          ],
+          [
+            0.685,
+            -0.24
+          ],
+          [
+            0.676,
+            -0.266
+          ],
+          [
+            0.667,
+            -0.342
+          ],
+          [
+            0.66,
+            -0.463
+          ],
+          [
+            0.654,
+            -0.62
+          ],
+          [
+            0.65,
+            -0.803
+          ],
+          [
+            0.649,
+            -1.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "red half-disc",
+        "color": "red",
+        "smooth": true,
+        "points": [
+          [
+            0.813,
+            -1.0
+          ],
+          [
+            0.812,
+            -0.834
+          ],
+          [
+            0.808,
+            -0.68
+          ],
+          [
+            0.803,
+            -0.547
+          ],
+          [
+            0.795,
+            -0.446
+          ],
+          [
+            0.787,
+            -0.382
+          ],
+          [
+            0.778,
+            -0.36
+          ],
+          [
+            0.769,
+            -0.382
+          ],
+          [
+            0.761,
+            -0.446
+          ],
+          [
+            0.753,
+            -0.547
+          ],
+          [
+            0.748,
+            -0.68
+          ],
+          [
+            0.744,
+            -0.834
+          ],
+          [
+            0.743,
+            -1.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "orange half-disc (aft)",
+        "color": "orange",
+        "smooth": true,
+        "points": [
+          [
+            0.91,
+            -1.0
+          ],
+          [
+            0.909,
+            -0.819
+          ],
+          [
+            0.905,
+            -0.65
+          ],
+          [
+            0.9,
+            -0.505
+          ],
+          [
+            0.893,
+            -0.394
+          ],
+          [
+            0.885,
+            -0.324
+          ],
+          [
+            0.876,
+            -0.3
+          ],
+          [
+            0.867,
+            -0.324
+          ],
+          [
+            0.859,
+            -0.394
+          ],
+          [
+            0.852,
+            -0.505
+          ],
+          [
+            0.847,
+            -0.65
+          ],
+          [
+            0.843,
+            -0.819
+          ],
+          [
+            0.842,
+            -1.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      }
+    ],
+    "radome": {
+      "color": "yellow"
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "fin": {
+    "base": "black",
+    "rudder": "black",
+    "mirrored": true,
+    "areas": [
+      {
+        "name": "yellow tip, its lower edge a straight diagonal down to the trailing edge",
+        "color": "yellow",
+        "points": [
+          [
+            0.044,
+            0.823,
+            1
+          ],
+          [
+            0.922,
+            0.594,
+            1
+          ],
+          [
+            1.0,
+            0.6,
+            1
+          ],
+          [
+            1.0,
+            1.0,
+            1
+          ],
+          [
+            0.0,
+            1.0,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "stabilizer": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "black",
+    "inner": "black",
+    "confidence": "low",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "black",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "JBU/peacock-p",
+      "licensed": "NBCUniversal (Peacock)",
+      "place": "fin",
+      "at": [
+        0.5,
+        0.45
+      ],
+      "height": 0.33,
+      "colors": [
+        "white",
+        "yellow",
+        "orange",
+        "red",
+        "purple",
+        "blue",
+        "green"
+      ],
+      "description": "Peacock's logo: a white lower-case 'p' with a column of six dots ahead of it (yellow, orange, red, purple, blue, green, top to bottom), on the fin's middle.",
+      "reference": "https://en.wikipedia.org/wiki/Peacock_(streaming_service)",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "JBU/peacock-wordmark",
+      "licensed": "NBCUniversal (Peacock)",
+      "place": "fuselage",
+      "at": [
+        0.43,
+        0.23
+      ],
+      "height": 0.5,
+      "colors": [
+        "white",
+        "yellow",
+        "orange",
+        "red",
+        "purple",
+        "blue",
+        "green"
+      ],
+      "description": "Peacock's wordmark 'peacock' in white with its six coloured dots, after 'jetBlue' and a thin white divider, over the windows by the wing.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "JBU/us-flag",
+      "place": "fuselage",
+      "at": [
+        0.7,
+        0.42
+      ],
+      "height": 0.12,
+      "colors": [
+        "flagRed",
+        "white",
+        "navy"
+      ],
+      "description": "A small US flag by the registration over the rear windows.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "jetBlue",
+      "place": "fuselage",
+      "at": [
+        0.174,
+        -0.244
+      ],
+      "height": 0.666,
+      "length": 0.166,
+      "color": "white",
+      "style": "The jetBlue wordmark, large, in white over the forward windows.",
+      "confidence": "high",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "Gotham Rounded Bold",
+          "VAG Rounded Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      }
+    }
+  ],
+  "notes": "Measured on the right side only (N706JB landing at JFK, 2024-04-28, flipped); the left side is taken to be the same layout, with 'jetBlue' forward. Peacock's 'p', dots and wordmark are NBCUniversal's artwork: described with `licensed`, not proposed as marks. The half-discs are drawn flat; on the aircraft each shades from its colour at the top to dark at the belly. 'This Peacock Can Fly' (small white script under the cockpit), 'Exclusive streaming partner of jetBlue' and the yellow door outlines aren't drawn. Status: the newest open photo is April 2024; flight-tracking listings show it flying through mid-2025 (leads only); no repaint reported."
+}

@@ -1,0 +1,186 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "TRA",
+  "name": "2025 livery",
+  "kind": "standard",
+  "from": "2025-09",
+  "confidence": "high",
+  "drawnOn": "A20N",
+  "description": "All-white fuselage with a very large teal-green lowercase 'transavia' running from just behind the forward door to past the wing; solid teal-green fin with a big white 't' monogram; all-green engines with a white 't'; white sharklets with a small green 't'.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:F-HXIF_A320neo,_Transavia_France,_Palma_de_Mallorca_09-06-26.jpg",
+      "accessed": "2026-11-13",
+      "title": "F-HXIF A320neo, Transavia France, Palma (CC BY 4.0)",
+      "note": "Left side, 2026-09: the 2025 scheme: green fin with white t, the long title, green engines, white sharklet with a green t."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Transavia_F-HXIB_A320neo.jpg",
+      "accessed": "2026-11-13",
+      "title": "Transavia F-HXIB A320neo (CC BY-SA 4.0)",
+      "note": "Left side, 2026-06-30: the same."
+    },
+    {
+      "url": "https://madegooddesigns.com/?p=118939",
+      "accessed": "2026-11-13",
+      "title": "Transavia brand refresh write-up (Made Good Designs)",
+      "note": "Dates: first new-livery A320neo rolled out 2025-09-10, refresh presented 2025-10-22 (Studio Dumbar/DEPT), first Dutch A321neo PH-YHR December 2025; all-green engines; white sharklets with a green T outside, green with a white T inside; a logo on the belly."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Transavia_2025_logo.svg",
+      "accessed": "2026-11-13",
+      "title": "Transavia 2025 logo (Commons)"
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "green": {
+      "hex": "#00B98E",
+      "official": false,
+      "name": "Transavia green (2025)"
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false,
+      "name": "bare metal inlet lip"
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "areas": [],
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "fin": {
+    "base": "green",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "wings": {
+    "top": "#B9BEC5",
+    "under": "#C9CDD2"
+  },
+  "winglets": {
+    "outer": "white",
+    "inner": "green",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "green",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "TRA/t",
+      "place": "fin",
+      "at": [
+        0.53,
+        0.37
+      ],
+      "height": 0.59,
+      "colors": [
+        "white"
+      ],
+      "description": "Transavia's 't': a thick rounded lowercase t, the crossbar long to the front and short behind, the foot hooking forward-up into a curl.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Transavia_2025_logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "mark": "TRA/t",
+      "place": "engines",
+      "at": [
+        0.3,
+        0.0
+      ],
+      "height": 0.57,
+      "colors": [
+        "white"
+      ],
+      "description": "The 't' in white on the outboard side of the green cowling.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Transavia_2025_logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "TRA/t",
+      "place": "winglets",
+      "at": [
+        0.5,
+        0.7
+      ],
+      "height": 0.15,
+      "colors": [
+        "green"
+      ],
+      "description": "A small green 't' high on the white outer face of the sharklet (white on green inside).",
+      "reference": "https://commons.wikimedia.org/wiki/File:Transavia_2025_logo.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "transavia",
+      "place": "fuselage",
+      "at": [
+        0.2,
+        -0.13
+      ],
+      "height": 1.16,
+      "length": 0.47,
+      "color": "green",
+      "style": "Huge heavy geometric lowercase, rounded counters, tight spacing; the windows run through it. Ascender (t) height given.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Gilroy Bold",
+          "Poppins SemiBold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.7
+      }
+    }
+  ],
+  "notes": "Introduced on new A320neos (Transavia France) and A321neos (Transavia, from PH-YHR); most of the fleet, including all 737-800s and many neos, still wears the 2015 scheme (standard-2015) as of late 2026, and repaints run over several years. The belly logo the brand write-up mentions isn't seen in any photo here; small 'AIR FRANCE KLM GROUP' and 'AIRBUS A320neo' marks aren't drawn. Re-checked 2026-11-15 on F-HXIF and F-HXIB (A320neo, 2026), placed by the doors: 'transavia' runs x 0.20-0.67 (it had stopped about 1 m short); its lowercase 0.7 of the t's height.",
+  "history": "Replaced Skyarium v1's approximation. Replaces the 2015 scheme (white fin with a green disc, colored belly marks) from September 2025."
+}

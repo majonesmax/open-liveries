@@ -1,0 +1,186 @@
+{
+  "_about": "A380-800, from Airbus AC A380 (Dec 01/25) 2-2-0 General Aircraft Dimensions, A380-800 sheets 1 (side, front: page index 33) and 2 (plan: page index 34). Pixels of layers.py --mode strokes-in-fill rasters, line centres: the side at scale 16 (drawn level), the plan at 16.45 and the front at 16.6, each to the side's 83.84 px a meter (the front is drawn 3.6% small). Scaled by the printed 70.4 m from the nose to the tail cone. Two window rows (upperWindowRow); doors from this drawing's outlines (features.py): three upper-deck doors, four main-deck doors (the drawing shows no fifth), door M3 drawn only above the wing with the others' height. The cockpit panes are placed on the drawing's lines by hand. The main deck's windows behind the wing and its fairing are placed at the drawing's 0.62 m pitch, clear of door M3; on the upper deck, two behind dimension lines and two behind the wingtip fence's lines (windowsAlso, upperWindowsAlso).",
+  "out": "../../../../shapes/A388.json",
+  "length": 70.4,
+  "wingtip": "fence",
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "refs": {
+    "side": {
+      "nose": 98,
+      "tail": 6000,
+      "cowlEnd": 2403,
+      "cowlEnd2": 3011,
+      "windowRow": [1555, 1605],
+      "upperWindowRow": [1333, 1377],
+      "windowGap": 5,
+      "windowsAlso": [
+        2356.1,
+        2408.1,
+        2460.1,
+        2512.1,
+        2564.1,
+        2616.1,
+        2668.0,
+        2824.0,
+        2876.0,
+        2927.9,
+        2979.9,
+        3031.9,
+        3083.9,
+        3135.9,
+        3187.8,
+        3239.8,
+        3291.8,
+        3343.8,
+        3395.8,
+        3447.7,
+        3499.7,
+        3551.7,
+        3603.7,
+        3655.7,
+        3707.6,
+        3759.6,
+        3811.6,
+        3863.6
+      ],
+      "upperWindowsAlso": [
+        1307.6,
+        3813.7,
+        4279.1,
+        4330.2
+      ]
+    },
+    "plan": {
+      "nose": 107,
+      "centerline": 3521
+    },
+    "front": {
+      "centerline": 3421,
+      "crownTop": 1195
+    }
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [
+        564,
+        1501,
+        661,
+        1671
+      ]
+    },
+    {
+      "kind": "door",
+      "box": [
+        1389,
+        1501,
+        1485,
+        1667
+      ]
+    },
+    {
+      "kind": "door",
+      "box": [
+        2706,
+        1502,
+        2802,
+        1667
+      ]
+    },
+    {
+      "kind": "door",
+      "box": [
+        4411,
+        1501,
+        4507,
+        1667
+      ]
+    },
+    {
+      "kind": "door",
+      "box": [
+        1751,
+        1280,
+        1847,
+        1443
+      ]
+    },
+    {
+      "kind": "door",
+      "box": [
+        3326,
+        1280,
+        3422,
+        1443
+      ]
+    },
+    {
+      "kind": "door",
+      "box": [
+        4050,
+        1280,
+        4146,
+        1441
+      ]
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [247, 1526],
+      [278, 1524],
+      [306, 1486],
+      [289, 1489]
+    ],
+    [
+      [322, 1481],
+      [343, 1481],
+      [343, 1537],
+      [330, 1538],
+      [306, 1532],
+      [291, 1519],
+      [296, 1507]
+    ],
+    [
+      [359, 1481],
+      [394, 1481],
+      [400, 1490],
+      [400, 1530],
+      [395, 1538],
+      [359, 1540],
+      [353, 1532],
+      [353, 1488]
+    ]
+  ],
+  "printed": {
+    "fuselage height": 8.41,
+    "fuselage width": 7.14,
+    "wingspan": 79.75,
+    "tailplane span": 30.37,
+    "engine out from the centerline": 14.8,
+    "outboard engine out from the centerline": 25.7,
+    "engine inlet from the nose": 22.23,
+    "outboard engine inlet from the nose": 29.94,
+    "overall length": 72.57
+  },
+  "meta": {
+    "id": "A388",
+    "name": "Airbus A380-800",
+    "types": [
+      "A388"
+    ],
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://www.aircraft.airbus.com/sites/default/files/2025-12/AC_A380_20251201.pdf",
+        "title": "Airbus, A380 Aircraft Characteristics: Airport and Maintenance Planning (Dec 01/25), 2-2-0 General Aircraft Dimensions, A380-800 sheets 1 and 2",
+        "accessed": "2026-11-15",
+        "note": "Dimensions and outlines read off the side, plan and front views (tools/trace/a388/); the figures are the aircraft's measurements, not a copy of the drawing. Its two full decks are one tall section: the crown, belly and plan width describe it (the front view's outline lies on the two quarter-ellipses each side, widest 0.2 m below the middle), and the upper deck's windows are their own row (cabin.upperWindows). The front view is drawn 3.6% smaller than the side (its printed 79.75 m span): evened out to the side's scale. The side view draws the fuselage 8.31 m tall against the printed 8.41 m, which the front view agrees with: fit to the printed height (fit_height.py). The side view draws the inlets 0.53 m and 0.76 m ahead of the printed 22.23 m and 29.94 m, the plan 0.37 m behind them: the nacelles are moved to the printed figures (build.py's rule). The cabin windows are the drawing's; the main deck's behind the wing and its fairing, and four upper-deck ones behind dimension lines and the wingtip fence, are placed at its 0.62 m pitch. The drawing shows four main-deck doors (M1, M2, M3 over the wing, and the aft one) and three upper-deck doors. Only the wingtip fence's upper blade is drawn (the format's device rises from the wing)."
+      }
+    ]
+  }
+}

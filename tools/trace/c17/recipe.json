@@ -1,0 +1,124 @@
+{
+  "_about": "Boeing (McDonnell Douglas) C-17A Globemaster III, from the three-view line drawing in the USAF Flight Manual TO 1C-17A-1 (Change 14, 2001), page 1-16, as uploaded to Wikimedia Commons (File:McDonnell Douglas C-17A Globemaster III 3-view line drawing.png: a 1933 x 2694 px greyscale scan, public domain as a USAF work). Rasterized from the PNG itself (pymupdf opens an image as a one-page document at 0.24 pt a pixel): layers.py --mode image --threshold 170, the side and plan at scale 12.5 (3 raster px per scan px), the front at 12.53 (its winglet tips 4031 px apart, rendered to the side's scale by the printed 169 ft 10 in span). Pixels of those rasters, line centres. Scaled by the printed overall length, 174 ft (53.04 m), nose tip to the fin-top fairing's tip (the furthest-back point in the side view and the plan alike: 4129 and 4126 px), which puts the tail cone at 48.351 m (the recipe's length). The front view's crownTop (814) is its fuselage circle's top (818) less the side view's crown rise from the nose section to the middle third's median (795 to 791 px). The drawing prints its own figures, which it doesn't quite draw: the engine inlets 0.3 and 0.7 m short of the printed 34 ft 8 in and 47 ft 10 in (build.py moves the nacelles to the printed figures, the wing staying as drawn); the engines' places across 1.7% and 1.8% in (kept as drawn, from the front view's inlets); see the shape's source note. Winglet height isn't a check: the drawing's 8 ft 10 in is from the wing tip's underside (drawn 2.65 m), build.py's from its middle line. No cabin windows (the C-17's hold has a few small ones, too few and too faint here to place); doors as drawn on the left side: the crew entrance door (left only) and the paratroop door aft of the main gear sponson (both sides). The inboard nacelle's aft end is hidden behind the outboard nacelle: its cowlEnd and aft lines are the outboard's profile, carried to its lip (side.anchors.json). The windshield's front panes (one each side of a center post) face forward, angled in a shallow V on the blunt nose; the side view draws the left one's rear part (x 1.5-2.3 m) with its forward edge 0.1-0.25 m under the outline, where the post should be. The pane is carried forward to the post, on the crown, from the front view: the post from 0.99 m to 1.58 m up (where the front view draws the pane's bottom and top at the centerline, raised 0.22 m: the front view draws the windshield's top that much lower against the crown than the side view does), x where the crown is at those heights (0.92-1.66 m). Its rear part is the side view's.",
+  "out": "../../../../shapes/C17.json",
+  "length": 48.351,
+  "wingtip": "winglet",
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "stabilizer": {
+    "mount": "fin"
+  },
+  "refs": {
+    "side": {
+      "nose": 63,
+      "tail": 3826,
+      "cowlEnd": 1215,
+      "cowlEnd2": 1480
+    },
+    "plan": {
+      "nose": 66,
+      "centerline": 2063
+    },
+    "front": {
+      "centerline": 2101,
+      "crownTop": 814
+    }
+  },
+  "windows": {
+    "x": [],
+    "z": [0.4, 0.8],
+    "width": 0.3,
+    "note": "No cabin windows: the C-17's hold has a few small windows and the drawing draws none along it."
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [508, 1079, 602, 1214],
+      "side": "left"
+    },
+    {
+      "kind": "door",
+      "box": [1987, 1046, 2131, 1203]
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [134.7, 960.9],
+      [146.3, 953.2],
+      [157.9, 945.5],
+      [167.3, 937.9],
+      [175.6, 930.2],
+      [183.9, 922.5],
+      [192.2, 914.9],
+      [206, 908],
+      [242, 908],
+      [231, 943],
+      [180, 943]
+    ],
+    [
+      [231, 943],
+      [242, 908],
+      [284, 908],
+      [284, 959]
+    ],
+    [
+      [284, 907],
+      [338, 907],
+      [338, 967],
+      [284, 962]
+    ],
+    [
+      [179, 998],
+      [221, 998],
+      [221, 1034],
+      [179, 1034]
+    ]
+  ],
+  "printed": {
+    "overall length": 53.04,
+    "wingspan": 51.77,
+    "tailplane span": 19.81,
+    "fuselage width": 6.86,
+    "engine out from the centerline": 7.57,
+    "outboard engine out from the centerline": 14.22,
+    "engine inlet from the nose": 10.57,
+    "outboard engine inlet from the nose": 14.58,
+    "fin tip above the crown": 9.45
+  },
+  "meta": {
+    "id": "C17",
+    "name": "Boeing (McDonnell Douglas) C-17A Globemaster III",
+    "types": ["C17"],
+    "confidence": "medium",
+    "sources": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:McDonnell_Douglas_C-17A_Globemaster_III_3-view_line_drawing.png",
+        "title": "USAF, Flight Manual: USAF Series C-17A Aircraft (TO 1C-17A-1, Change 14, 2001), page 1-16: the C-17A's side, plan and front views with their dimensions (a scan on Wikimedia Commons, public domain as a USAF work; provided by the National Museum of the United States Air Force)",
+        "accessed": "2026-11-18",
+        "note": "Outlines read off the drawing's three views (tools/trace/c17/); the figures are the aircraft's measurements, not a copy of the drawing. It's a flight manual's illustration, not a manufacturer's airport-planning sheet: a 1933 x 2694 px scan of about 26 px a meter, with its own figures printed in feet and inches. Scaled by its printed 174 ft (53.04 m) overall length, nose to the fin-top fairing's tip; the plan draws the same length within 0.1% and the front view the printed 169 ft 10 in span within 0.2% of the side's scale (rendered to it). Within that one scale the drawing doesn't quite draw its own figures: the outboard engine's inlet 13.92 m from the nose against the printed 47 ft 10 in (14.58 m), though the inboard one's is within 0.8% of its 34 ft 8 in (the nacelle is moved to the printed figure, as for every shape, the wing staying as drawn); the engines' places across 7.44 and 13.97 m against the printed 24 ft 10 in and 46 ft 8 in (7.57, 14.22 m: kept as drawn, from the front view, whose inlets the plan agrees with within 0.2 m); the tailplane 1.2% short of its printed 65 ft. Heights: the drawing prints 24 ft 1 in to the crown and 55 ft 1 in to the fin's top, 31 ft (9.45 m) between them, where its side and front views both draw the fin's top 9.78 m above the crown (+3.5%: kept as drawn, as a side-on photo bears out; the printed heights are above the ground at some unstated weight). Its 30 ft 2 in is drawn to the crown at the fin's trailing edge, which it draws 7.6 m up: that figure fits nothing drawn and isn't used. Its winglet's 8 ft 10 in (2.69 m, from the wing tip's underside to the winglet's top) is drawn 2.65 m. The fuselage is drawn 6.31 m tall and 6.81-6.94 m wide (not round; Boeing's 22.5 ft diameter is the width): its side view, front view and a photo agree on the height, so the shape keeps it. Main gear sponsons are left out of the belly (the gear doors under them bridged); the crew entrance door (left) and the paratroop door behind the sponson (both sides) as drawn; no cabin windows. The front windshield pane each side is carried forward to its center post on the crown from the front view (the side view draws the post up to 0.25 m under the outline); a front-quarter Commons photo (RAF ZZ178, CC0) shows one forward pane each side of the post, then two side panes. Confidence medium."
+      },
+      {
+        "url": "https://www.boeing.com/defense/tankers-and-transports/c-17-globemaster",
+        "title": "Boeing, C-17 Globemaster III",
+        "accessed": "2026-11-18",
+        "note": "Length 174 ft (53 m), wingspan to the winglets' tips 169.8 ft (51.8 m), height at the tail 55.1 ft (16.8 m), fuselage diameter 22.5 ft (6.9 m): the check's fuselage width."
+      },
+      {
+        "url": "https://archive.aoe.vt.edu/mason/Mason_f/C-17Spr09.pdf",
+        "title": "Aarons, Riopelle, Tanious, C-17 Globemaster III (Virginia Tech AOE presentation, 2009, after AIAA-92-1262)",
+        "accessed": "2026-11-18",
+        "note": "Span 169 ft 9 in, 165 ft without the winglets (the shape's wing ends where the plan shows the winglet leaving it, 49.2 m apart, 2.2% under: the plan's tip is the winglet's root chord's inner end), quarter-chord sweep 25 degrees, anhedral 3 degrees, cargo box 88 ft by 18 ft by 12 ft 4 in. Not checks: for reading the drawing only."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:177705_Boeing_C-17A_Globemaster_RCAF_RAF_Fairford_17.7.24_(53926727378).jpg",
+        "title": "RCAF C-17A 177705 at RAF Fairford, 2024, left side (Colin Cooke Photo, CC BY-SA 2.0)",
+        "accessed": "2026-11-18",
+        "note": "A check only (only measurements are taken): laid over the photo at the same nose-to-tail-cone length, the side view's outline lands on the crown, belly, beaver tail and fin within a line's width or so, the photo being taken a little from ahead; the paratroop door behind the sponson and the crew door ahead of the wing are where the drawing draws them."
+      }
+    ]
+  }
+}

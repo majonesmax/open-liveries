@@ -1,0 +1,114 @@
+{
+  "_about": "Embraer 190, from APM 1901 Rev 21 (May 27/22) Figure 2.1 General Aircraft Dimensions (page index 17): side, plan and front views on one sheet, black vector lines. The figure is stretched lengthwise by about 10% in all three views: each is rendered with --xscale 0.911, which brings its printed 36.24 m length and 28.72 m span to the scale of its printed heights (10.57 m above the drawn ground line, and Figure 2.5's 3.35 m fuselage). Pixels of layers.py rasters at scale 16, line centres. Two windows behind the winglet's lines are placed at the drawing's pitch.",
+  "out": "../../../../shapes/E190.json",
+  "length": 36.24,
+  "wingtip": "winglet",
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "refs": {
+    "side": {
+      "nose": 53,
+      "tail": 5236,
+      "cowlEnd": 2170,
+      "windowRow": [1053, 1110],
+      "windowGap": 5,
+      "windowsAlso": [3103, 3205]
+    },
+    "plan": {
+      "nose": 54,
+      "centerline": 2233
+    },
+    "front": {
+      "centerline": 2188,
+      "crownTop": 756
+    }
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [731, 959, 858, 1232]
+    },
+    {
+      "kind": "exit",
+      "box": [2258, 1040, 2325, 1164]
+    },
+    {
+      "kind": "door",
+      "box": [4005, 979, 4117, 1231]
+    },
+    {
+      "kind": "cargo",
+      "box": [1033, 1255, 1194, 1395]
+    },
+    {
+      "kind": "cargo",
+      "box": [3573, 1253, 3735, 1390]
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [305, 1095],
+      [303, 1093],
+      [306, 1090],
+      [316, 1083],
+      [388, 1033],
+      [391, 1031],
+      [393, 1030],
+      [427, 1030],
+      [429, 1032],
+      [416, 1049],
+      [378, 1094],
+      [374, 1098],
+      [355, 1098],
+      [316, 1096]
+    ],
+    [
+      [411, 1100],
+      [409, 1099],
+      [406, 1096],
+      [404, 1093],
+      [403, 1090],
+      [403, 1087],
+      [404, 1084],
+      [407, 1078],
+      [414, 1069],
+      [441, 1037],
+      [447, 1031],
+      [449, 1030],
+      [498, 1030],
+      [513, 1031],
+      [516, 1034],
+      [517, 1036],
+      [518, 1040],
+      [518, 1094],
+      [517, 1100],
+      [516, 1102],
+      [512, 1106],
+      [509, 1107]
+    ]
+  ],
+  "printed": {
+    "fuselage height": 3.35,
+    "fuselage width": 3.01,
+    "wingspan": 28.72,
+    "tailplane span": 12.08
+  },
+  "meta": {
+    "id": "E190",
+    "name": "Embraer 190",
+    "types": ["E190"],
+    "confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.embraercommercialaviation.com/",
+        "title": "Embraer, Embraer 190 Airport Planning Manual (APM 1901 Rev 21, May 27/22), Section 02, Figure 2.1 General Aircraft Dimensions; Figure 2.5 cabin cross-section",
+        "accessed": "2026-11-15",
+        "note": "Dimensions and outlines read off the side, plan and front views (tools/trace/e190/); the figures are the aircraft's measurements, not a copy of the drawing. The figure is stretched lengthwise by about 10% and is evened out from its printed figures, so confidence is medium. Embraer's APM link now goes nowhere; read from the copy downloaded for round 1 (the same as the Internet Archive's)."
+      }
+    ]
+  }
+}

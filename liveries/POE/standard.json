@@ -1,0 +1,1846 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "POE",
+  "name": "E195-E2 era livery",
+  "kind": "standard",
+  "confidence": "medium",
+  "drawnOn": "E295",
+  "description": "White fuselage with thin navy pinstripes along the lower side from the nose, sweeping down and back under the tail; 'porter' in navy lower case over the forward windows and again under the belly; the fin navy, patterned with the word 'porter' repeated diagonally in lighter blue; white engines with navy pinstripes.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Porter_Airlines",
+      "title": "Wikipedia: Porter Airlines",
+      "accessed": "2026-11-13"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:C-GKQJ_@_YYZ,_2025-02-23.jpg",
+      "title": "C-GKQJ @ YYZ, 2025-02-23.jpg (CC BY-SA 2.0)",
+      "accessed": "2026-11-13",
+      "note": "C-GKQJ (E195-E2) left side from below, 2025-02-23: title, belly title, pinstripes, fin."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Embraer_E195-E2_-_Porter_Airlines_-_C-GKON.jpg",
+      "title": "Embraer E195-E2 - Porter Airlines - C-GKON.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "C-GKON right side, 2026-06-19: the same scheme."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:C-GKXR_Embraer_E195-E2_(ERJ_190-400_STD)_Porter_Halifax_YHZ_17.6.25_(54614974168).jpg",
+      "title": "C-GKXR Embraer E195-E2 (ERJ 190-400 STD) Porter Halifax YHZ 17.6.25 (CC BY-SA 4.0, Colin Cooke Photo)",
+      "accessed": "2026-11-22",
+      "note": "C-GKXR taking off at Halifax, left side, 2025-06-26 (dated 2025-06-17 in its title). Fitted to shapes/E295.json (within 25 px; the fin's trailing edge reads about 15 px off, so the rows' ends are approximate): the fin's rows of 'porter', their angle (about 33° down toward the trailing edge, on the fin as built), spacing (about 0.67 m from one white row to the next, light-blue rows between) and phase, and the colours."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F6",
+      "official": false
+    },
+    "navy": {
+      "hex": "#1B2A4E",
+      "official": false,
+      "name": "Porter navy"
+    },
+    "pattern": {
+      "hex": "#8DAAD0",
+      "official": false,
+      "name": "the fin's light-blue rows of the wordmark"
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false
+    },
+    "flagRed": {
+      "hex": "#D52B1E",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "navy pinstripe, upper",
+        "color": "navy",
+        "below": [
+          [
+            0.05,
+            -0.3
+          ],
+          [
+            0.7,
+            -0.38
+          ],
+          [
+            0.85,
+            -0.6
+          ],
+          [
+            1,
+            -0.7
+          ]
+        ],
+        "above": [
+          [
+            0.05,
+            -0.33
+          ],
+          [
+            0.7,
+            -0.41
+          ],
+          [
+            0.85,
+            -0.63
+          ],
+          [
+            1,
+            -0.73
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          2
+        ],
+        "smooth": true
+      },
+      {
+        "name": "navy pinstripe, lower",
+        "color": "navy",
+        "below": [
+          [
+            0.05,
+            -0.37
+          ],
+          [
+            0.7,
+            -0.45
+          ],
+          [
+            0.85,
+            -0.67
+          ],
+          [
+            1,
+            -0.77
+          ]
+        ],
+        "above": [
+          [
+            0.05,
+            -0.4
+          ],
+          [
+            0.7,
+            -0.48
+          ],
+          [
+            0.85,
+            -0.7
+          ],
+          [
+            1,
+            -0.8
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          2
+        ],
+        "smooth": true
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "navy",
+    "mirrored": false,
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2,
+      3
+    ],
+    "areas": [
+      {
+        "name": "white row of the repeated wordmark, simplified to a stripe",
+        "color": "white",
+        "points": [
+          [
+            0.045,
+            0.0
+          ],
+          [
+            0.0,
+            0.017
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          3
+        ]
+      },
+      {
+        "name": "light-blue row of the repeated wordmark, simplified to a stripe",
+        "color": "pattern",
+        "points": [
+          [
+            0.177,
+            0.0
+          ],
+          [
+            0.067,
+            0.042
+          ],
+          [
+            0.0,
+            0.066
+          ],
+          [
+            0.0,
+            0.047
+          ],
+          [
+            0.015,
+            0.042
+          ],
+          [
+            0.126,
+            0.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          3
+        ]
+      },
+      {
+        "name": "white row of the repeated wordmark, simplified to a stripe",
+        "color": "white",
+        "points": [
+          [
+            0.308,
+            0.0
+          ],
+          [
+            0.203,
+            0.042
+          ],
+          [
+            0.091,
+            0.083
+          ],
+          [
+            0.0,
+            0.115
+          ],
+          [
+            0.0,
+            0.096
+          ],
+          [
+            0.036,
+            0.083
+          ],
+          [
+            0.15,
+            0.042
+          ],
+          [
+            0.257,
+            0.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          3
+        ]
+      },
+      {
+        "name": "light-blue row of the repeated wordmark, simplified to a stripe",
+        "color": "pattern",
+        "points": [
+          [
+            0.44,
+            0.0
+          ],
+          [
+            0.338,
+            0.042
+          ],
+          [
+            0.23,
+            0.083
+          ],
+          [
+            0.116,
+            0.125
+          ],
+          [
+            0.0,
+            0.164
+          ],
+          [
+            0.0,
+            0.145
+          ],
+          [
+            0.06,
+            0.125
+          ],
+          [
+            0.176,
+            0.083
+          ],
+          [
+            0.286,
+            0.042
+          ],
+          [
+            0.389,
+            0.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          3
+        ]
+      },
+      {
+        "name": "white row of the repeated wordmark, simplified to a stripe",
+        "color": "white",
+        "points": [
+          [
+            0.571,
+            0.0
+          ],
+          [
+            0.474,
+            0.042
+          ],
+          [
+            0.37,
+            0.083
+          ],
+          [
+            0.26,
+            0.125
+          ],
+          [
+            0.142,
+            0.167
+          ],
+          [
+            0.017,
+            0.208
+          ],
+          [
+            0.0,
+            0.214
+          ],
+          [
+            0.0,
+            0.194
+          ],
+          [
+            0.084,
+            0.167
+          ],
+          [
+            0.204,
+            0.125
+          ],
+          [
+            0.316,
+            0.083
+          ],
+          [
+            0.421,
+            0.042
+          ],
+          [
+            0.52,
+            0.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          3
+        ]
+      },
+      {
+        "name": "light-blue row of the repeated wordmark, simplified to a stripe",
+        "color": "pattern",
+        "points": [
+          [
+            0.703,
+            0.0
+          ],
+          [
+            0.609,
+            0.042
+          ],
+          [
+            0.51,
+            0.083
+          ],
+          [
+            0.404,
+            0.125
+          ],
+          [
+            0.291,
+            0.167
+          ],
+          [
+            0.17,
+            0.208
+          ],
+          [
+            0.042,
+            0.25
+          ],
+          [
+            0.0,
+            0.263
+          ],
+          [
+            0.0,
+            0.244
+          ],
+          [
+            0.111,
+            0.208
+          ],
+          [
+            0.233,
+            0.167
+          ],
+          [
+            0.348,
+            0.125
+          ],
+          [
+            0.455,
+            0.083
+          ],
+          [
+            0.556,
+            0.042
+          ],
+          [
+            0.652,
+            0.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          3
+        ]
+      },
+      {
+        "name": "white row of the repeated wordmark, simplified to a stripe",
+        "color": "white",
+        "points": [
+          [
+            0.834,
+            0.0
+          ],
+          [
+            0.745,
+            0.042
+          ],
+          [
+            0.649,
+            0.083
+          ],
+          [
+            0.548,
+            0.125
+          ],
+          [
+            0.439,
+            0.167
+          ],
+          [
+            0.324,
+            0.208
+          ],
+          [
+            0.201,
+            0.25
+          ],
+          [
+            0.068,
+            0.292
+          ],
+          [
+            0.0,
+            0.312
+          ],
+          [
+            0.0,
+            0.293
+          ],
+          [
+            0.004,
+            0.292
+          ],
+          [
+            0.139,
+            0.25
+          ],
+          [
+            0.264,
+            0.208
+          ],
+          [
+            0.382,
+            0.167
+          ],
+          [
+            0.492,
+            0.125
+          ],
+          [
+            0.595,
+            0.083
+          ],
+          [
+            0.692,
+            0.042
+          ],
+          [
+            0.783,
+            0.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          3
+        ]
+      },
+      {
+        "name": "light-blue row of the repeated wordmark, simplified to a stripe",
+        "color": "pattern",
+        "points": [
+          [
+            0.966,
+            0.0
+          ],
+          [
+            0.88,
+            0.042
+          ],
+          [
+            0.789,
+            0.083
+          ],
+          [
+            0.692,
+            0.125
+          ],
+          [
+            0.588,
+            0.167
+          ],
+          [
+            0.478,
+            0.208
+          ],
+          [
+            0.36,
+            0.25
+          ],
+          [
+            0.233,
+            0.292
+          ],
+          [
+            0.097,
+            0.333
+          ],
+          [
+            0.0,
+            0.361
+          ],
+          [
+            0.0,
+            0.342
+          ],
+          [
+            0.031,
+            0.333
+          ],
+          [
+            0.169,
+            0.292
+          ],
+          [
+            0.298,
+            0.25
+          ],
+          [
+            0.418,
+            0.208
+          ],
+          [
+            0.53,
+            0.167
+          ],
+          [
+            0.636,
+            0.125
+          ],
+          [
+            0.735,
+            0.083
+          ],
+          [
+            0.827,
+            0.042
+          ],
+          [
+            0.915,
+            0.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          3
+        ]
+      },
+      {
+        "name": "white row of the repeated wordmark, simplified to a stripe",
+        "color": "white",
+        "points": [
+          [
+            1.0,
+            0.049
+          ],
+          [
+            0.928,
+            0.083
+          ],
+          [
+            0.836,
+            0.125
+          ],
+          [
+            0.737,
+            0.167
+          ],
+          [
+            0.631,
+            0.208
+          ],
+          [
+            0.518,
+            0.25
+          ],
+          [
+            0.398,
+            0.292
+          ],
+          [
+            0.268,
+            0.333
+          ],
+          [
+            0.128,
+            0.375
+          ],
+          [
+            0.0,
+            0.41
+          ],
+          [
+            0.0,
+            0.391
+          ],
+          [
+            0.059,
+            0.375
+          ],
+          [
+            0.201,
+            0.333
+          ],
+          [
+            0.334,
+            0.292
+          ],
+          [
+            0.457,
+            0.25
+          ],
+          [
+            0.572,
+            0.208
+          ],
+          [
+            0.679,
+            0.167
+          ],
+          [
+            0.78,
+            0.125
+          ],
+          [
+            0.874,
+            0.083
+          ],
+          [
+            0.963,
+            0.042
+          ],
+          [
+            1.0,
+            0.023
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          3
+        ]
+      },
+      {
+        "name": "light-blue row of the repeated wordmark, simplified to a stripe",
+        "color": "pattern",
+        "points": [
+          [
+            1.0,
+            0.115
+          ],
+          [
+            0.98,
+            0.125
+          ],
+          [
+            0.885,
+            0.167
+          ],
+          [
+            0.785,
+            0.208
+          ],
+          [
+            0.677,
+            0.25
+          ],
+          [
+            0.562,
+            0.292
+          ],
+          [
+            0.438,
+            0.333
+          ],
+          [
+            0.305,
+            0.375
+          ],
+          [
+            0.161,
+            0.417
+          ],
+          [
+            0.005,
+            0.458
+          ],
+          [
+            0.0,
+            0.46
+          ],
+          [
+            0.0,
+            0.44
+          ],
+          [
+            0.09,
+            0.417
+          ],
+          [
+            0.236,
+            0.375
+          ],
+          [
+            0.372,
+            0.333
+          ],
+          [
+            0.498,
+            0.292
+          ],
+          [
+            0.616,
+            0.25
+          ],
+          [
+            0.725,
+            0.208
+          ],
+          [
+            0.828,
+            0.167
+          ],
+          [
+            0.924,
+            0.125
+          ],
+          [
+            1.0,
+            0.09
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          3
+        ]
+      },
+      {
+        "name": "white row of the repeated wordmark, simplified to a stripe",
+        "color": "white",
+        "points": [
+          [
+            1.0,
+            0.182
+          ],
+          [
+            0.938,
+            0.208
+          ],
+          [
+            0.836,
+            0.25
+          ],
+          [
+            0.727,
+            0.292
+          ],
+          [
+            0.609,
+            0.333
+          ],
+          [
+            0.482,
+            0.375
+          ],
+          [
+            0.346,
+            0.417
+          ],
+          [
+            0.197,
+            0.458
+          ],
+          [
+            0.036,
+            0.5
+          ],
+          [
+            0.0,
+            0.509
+          ],
+          [
+            0.0,
+            0.489
+          ],
+          [
+            0.123,
+            0.458
+          ],
+          [
+            0.274,
+            0.417
+          ],
+          [
+            0.414,
+            0.375
+          ],
+          [
+            0.543,
+            0.333
+          ],
+          [
+            0.663,
+            0.292
+          ],
+          [
+            0.775,
+            0.25
+          ],
+          [
+            0.879,
+            0.208
+          ],
+          [
+            0.976,
+            0.167
+          ],
+          [
+            1.0,
+            0.156
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          3
+        ]
+      },
+      {
+        "name": "light-blue row of the repeated wordmark, simplified to a stripe",
+        "color": "pattern",
+        "points": [
+          [
+            1.0,
+            0.248
+          ],
+          [
+            0.995,
+            0.25
+          ],
+          [
+            0.891,
+            0.292
+          ],
+          [
+            0.78,
+            0.333
+          ],
+          [
+            0.66,
+            0.375
+          ],
+          [
+            0.53,
+            0.417
+          ],
+          [
+            0.389,
+            0.458
+          ],
+          [
+            0.237,
+            0.5
+          ],
+          [
+            0.07,
+            0.542
+          ],
+          [
+            0.0,
+            0.558
+          ],
+          [
+            0.0,
+            0.539
+          ],
+          [
+            0.159,
+            0.5
+          ],
+          [
+            0.315,
+            0.458
+          ],
+          [
+            0.458,
+            0.417
+          ],
+          [
+            0.591,
+            0.375
+          ],
+          [
+            0.714,
+            0.333
+          ],
+          [
+            0.827,
+            0.292
+          ],
+          [
+            0.934,
+            0.25
+          ],
+          [
+            1.0,
+            0.222
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          3
+        ]
+      },
+      {
+        "name": "white row of the repeated wordmark, simplified to a stripe",
+        "color": "white",
+        "points": [
+          [
+            1.0,
+            0.314
+          ],
+          [
+            0.95,
+            0.333
+          ],
+          [
+            0.837,
+            0.375
+          ],
+          [
+            0.714,
+            0.417
+          ],
+          [
+            0.581,
+            0.458
+          ],
+          [
+            0.437,
+            0.5
+          ],
+          [
+            0.28,
+            0.542
+          ],
+          [
+            0.107,
+            0.583
+          ],
+          [
+            0.0,
+            0.607
+          ],
+          [
+            0.0,
+            0.588
+          ],
+          [
+            0.022,
+            0.583
+          ],
+          [
+            0.198,
+            0.542
+          ],
+          [
+            0.359,
+            0.5
+          ],
+          [
+            0.507,
+            0.458
+          ],
+          [
+            0.643,
+            0.417
+          ],
+          [
+            0.768,
+            0.375
+          ],
+          [
+            0.884,
+            0.333
+          ],
+          [
+            0.992,
+            0.292
+          ],
+          [
+            1.0,
+            0.288
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          3
+        ]
+      },
+      {
+        "name": "light-blue row of the repeated wordmark, simplified to a stripe",
+        "color": "pattern",
+        "points": [
+          [
+            1.0,
+            0.38
+          ],
+          [
+            0.899,
+            0.417
+          ],
+          [
+            0.773,
+            0.458
+          ],
+          [
+            0.637,
+            0.5
+          ],
+          [
+            0.489,
+            0.542
+          ],
+          [
+            0.326,
+            0.583
+          ],
+          [
+            0.148,
+            0.625
+          ],
+          [
+            0.0,
+            0.656
+          ],
+          [
+            0.0,
+            0.637
+          ],
+          [
+            0.058,
+            0.625
+          ],
+          [
+            0.241,
+            0.583
+          ],
+          [
+            0.408,
+            0.542
+          ],
+          [
+            0.56,
+            0.5
+          ],
+          [
+            0.699,
+            0.458
+          ],
+          [
+            0.827,
+            0.417
+          ],
+          [
+            0.945,
+            0.375
+          ],
+          [
+            1.0,
+            0.354
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          3
+        ]
+      },
+      {
+        "name": "white row of the repeated wordmark, simplified to a stripe",
+        "color": "white",
+        "points": [
+          [
+            1.0,
+            0.446
+          ],
+          [
+            0.966,
+            0.458
+          ],
+          [
+            0.838,
+            0.5
+          ],
+          [
+            0.698,
+            0.542
+          ],
+          [
+            0.546,
+            0.583
+          ],
+          [
+            0.378,
+            0.625
+          ],
+          [
+            0.193,
+            0.667
+          ],
+          [
+            0.0,
+            0.706
+          ],
+          [
+            0.0,
+            0.686
+          ],
+          [
+            0.098,
+            0.667
+          ],
+          [
+            0.289,
+            0.625
+          ],
+          [
+            0.461,
+            0.583
+          ],
+          [
+            0.617,
+            0.542
+          ],
+          [
+            0.76,
+            0.5
+          ],
+          [
+            0.891,
+            0.458
+          ],
+          [
+            1.0,
+            0.421
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          3
+        ]
+      },
+      {
+        "name": "light-blue row of the repeated wordmark, simplified to a stripe",
+        "color": "pattern",
+        "points": [
+          [
+            1.0,
+            0.512
+          ],
+          [
+            0.908,
+            0.542
+          ],
+          [
+            0.765,
+            0.583
+          ],
+          [
+            0.609,
+            0.625
+          ],
+          [
+            0.435,
+            0.667
+          ],
+          [
+            0.243,
+            0.708
+          ],
+          [
+            0.027,
+            0.75
+          ],
+          [
+            0.0,
+            0.755
+          ],
+          [
+            0.0,
+            0.735
+          ],
+          [
+            0.143,
+            0.708
+          ],
+          [
+            0.341,
+            0.667
+          ],
+          [
+            0.519,
+            0.625
+          ],
+          [
+            0.68,
+            0.583
+          ],
+          [
+            0.827,
+            0.542
+          ],
+          [
+            0.96,
+            0.5
+          ],
+          [
+            1.0,
+            0.487
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          3
+        ]
+      },
+      {
+        "name": "white row of the repeated wordmark, simplified to a stripe",
+        "color": "white",
+        "points": [
+          [
+            1.0,
+            0.579
+          ],
+          [
+            0.985,
+            0.583
+          ],
+          [
+            0.839,
+            0.625
+          ],
+          [
+            0.678,
+            0.667
+          ],
+          [
+            0.499,
+            0.708
+          ],
+          [
+            0.298,
+            0.75
+          ],
+          [
+            0.073,
+            0.792
+          ],
+          [
+            0.0,
+            0.804
+          ],
+          [
+            0.0,
+            0.785
+          ],
+          [
+            0.193,
+            0.75
+          ],
+          [
+            0.399,
+            0.708
+          ],
+          [
+            0.584,
+            0.667
+          ],
+          [
+            0.75,
+            0.625
+          ],
+          [
+            0.9,
+            0.583
+          ],
+          [
+            1.0,
+            0.553
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          3
+        ]
+      },
+      {
+        "name": "light-blue row of the repeated wordmark, simplified to a stripe",
+        "color": "pattern",
+        "points": [
+          [
+            1.0,
+            0.644
+          ],
+          [
+            0.92,
+            0.667
+          ],
+          [
+            0.755,
+            0.708
+          ],
+          [
+            0.569,
+            0.75
+          ],
+          [
+            0.361,
+            0.792
+          ],
+          [
+            0.125,
+            0.833
+          ],
+          [
+            0.0,
+            0.853
+          ],
+          [
+            0.0,
+            0.834
+          ],
+          [
+            0.006,
+            0.833
+          ],
+          [
+            0.249,
+            0.792
+          ],
+          [
+            0.464,
+            0.75
+          ],
+          [
+            0.655,
+            0.708
+          ],
+          [
+            0.826,
+            0.667
+          ],
+          [
+            0.98,
+            0.625
+          ],
+          [
+            1.0,
+            0.619
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          3
+        ]
+      },
+      {
+        "name": "white row of the repeated wordmark, simplified to a stripe",
+        "color": "white",
+        "points": [
+          [
+            1.0,
+            0.711
+          ],
+          [
+            0.84,
+            0.75
+          ],
+          [
+            0.649,
+            0.792
+          ],
+          [
+            0.432,
+            0.833
+          ],
+          [
+            0.184,
+            0.875
+          ],
+          [
+            0.0,
+            0.902
+          ],
+          [
+            0.0,
+            0.883
+          ],
+          [
+            0.057,
+            0.875
+          ],
+          [
+            0.313,
+            0.833
+          ],
+          [
+            0.537,
+            0.792
+          ],
+          [
+            0.735,
+            0.75
+          ],
+          [
+            0.911,
+            0.708
+          ],
+          [
+            1.0,
+            0.685
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          3
+        ]
+      },
+      {
+        "name": "light-blue row of the repeated wordmark, simplified to a stripe",
+        "color": "pattern",
+        "points": [
+          [
+            1.0,
+            0.777
+          ],
+          [
+            0.937,
+            0.792
+          ],
+          [
+            0.739,
+            0.833
+          ],
+          [
+            0.513,
+            0.875
+          ],
+          [
+            0.253,
+            0.917
+          ],
+          [
+            0.0,
+            0.95
+          ],
+          [
+            0.0,
+            0.931
+          ],
+          [
+            0.115,
+            0.917
+          ],
+          [
+            0.386,
+            0.875
+          ],
+          [
+            0.62,
+            0.833
+          ],
+          [
+            0.825,
+            0.792
+          ],
+          [
+            1.0,
+            0.751
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          3
+        ]
+      },
+      {
+        "name": "white row of the repeated wordmark, simplified to a stripe",
+        "color": "white",
+        "points": [
+          [
+            1.0,
+            0.843
+          ],
+          [
+            0.843,
+            0.875
+          ],
+          [
+            0.607,
+            0.917
+          ],
+          [
+            0.325,
+            0.958
+          ],
+          [
+            0.0,
+            0.987
+          ],
+          [
+            0.0,
+            0.972
+          ],
+          [
+            0.173,
+            0.958
+          ],
+          [
+            0.47,
+            0.917
+          ],
+          [
+            0.715,
+            0.875
+          ],
+          [
+            0.927,
+            0.833
+          ],
+          [
+            1.0,
+            0.817
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          3
+        ]
+      },
+      {
+        "name": "light-blue row of the repeated wordmark, simplified to a stripe",
+        "color": "pattern",
+        "points": [
+          [
+            1.0,
+            0.909
+          ],
+          [
+            0.962,
+            0.917
+          ],
+          [
+            0.716,
+            0.958
+          ],
+          [
+            0.357,
+            1.0
+          ],
+          [
+            0.163,
+            1.0
+          ],
+          [
+            0.564,
+            0.958
+          ],
+          [
+            0.824,
+            0.917
+          ],
+          [
+            1.0,
+            0.883
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          3
+        ]
+      },
+      {
+        "name": "white row of the repeated wordmark, simplified to a stripe",
+        "color": "white",
+        "points": [
+          [
+            1.0,
+            0.976
+          ],
+          [
+            0.857,
+            1.0
+          ],
+          [
+            0.663,
+            1.0
+          ],
+          [
+            0.955,
+            0.958
+          ],
+          [
+            1.0,
+            0.95
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          3
+        ]
+      }
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "white",
+    "inner": "white",
+    "confidence": "low",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "areas": [
+      {
+        "name": "navy pinstripes along the cowling",
+        "color": "navy",
+        "points": [
+          [
+            0.1,
+            -0.15
+          ],
+          [
+            1,
+            -0.15
+          ],
+          [
+            1,
+            -0.3
+          ],
+          [
+            0.1,
+            -0.3
+          ]
+        ],
+        "confidence": "low"
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "POE/wordmark-pattern",
+      "place": "fin",
+      "at": [
+        0.5,
+        0.5
+      ],
+      "height": 0.95,
+      "colors": [
+        "navy",
+        "pattern"
+      ],
+      "description": "The fin covered in the lower-case 'porter' wordmark repeated in rows that run down toward the trailing edge at about 33°, alternate rows white and light blue on navy, about 0.67 m from one white row to the next. The fin's areas draw each row as a stripe; a renderer with the artwork draws the words over them.",
+      "reference": "https://commons.wikimedia.org/wiki/File:C-GKXR_Embraer_E195-E2_(ERJ_190-400_STD)_Porter_Halifax_YHZ_17.6.25_(54614974168).jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mark": "POE/canada-flag",
+      "place": "fuselage",
+      "at": [
+        0.86,
+        0.25
+      ],
+      "height": 0.1,
+      "colors": [
+        "flagRed",
+        "white"
+      ],
+      "description": "A small Canadian flag after the registration on the rear fuselage.",
+      "confidence": "low",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "porter",
+      "place": "fuselage",
+      "at": [
+        0.143,
+        -0.33
+      ],
+      "height": 0.33,
+      "color": "navy",
+      "style": "Porter's wordmark: rounded, medium-weight geometric lower case in navy over the forward windows.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Circular Std Medium",
+          "Avenir Next Medium"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.77
+      },
+      "length": 0.077
+    },
+    {
+      "text": "porter",
+      "place": "belly",
+      "at": [
+        0.4,
+        -1
+      ],
+      "height": 0.5,
+      "color": "navy",
+      "style": "The wordmark again under the belly ahead of the wing, read from below.",
+      "confidence": "low",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "Circular Std Medium",
+          "Avenir Next Medium"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.77
+      },
+      "length": 0.14
+    }
+  ],
+  "notes": "Drawn from E195-E2s (C-GKQJ Feb 2025 from below, C-GKON June 2026). Porter's Dash 8-400s weren't checked and may wear the earlier scheme. The pinstripes' exact paths are approximate. Re-checked 2026-11-15 on C-GKON (right side, near level) and C-GKQJ: the title sits well under the windows, about 2.8 m aft of the forward door's middle (x 0.143 to 0.22), its t's top about 0.5 m under the window line and its baseline about 1.25 m under it (y -0.33, height 0.33: it had been drawn twice that size, reaching the windows); lowercase 0.77 of the t. The belly title's length (0.14) is read off C-GKQJ from below (low). The pinstripes curve down toward the tail: smooth. Fin redrawn 2026-11-22 (the maintainer's sighting C-GZQW showed the pattern the plain navy fin lacked): measured on C-GKXR (2025), the rows of 'porter' are drawn as stripes, alternately white and light blue, each 0.13 m wide (the letters' x-height is about 0.23 m; their strokes cover less), at the photo's angle, spacing and phase. Each row is lettering, not a line: the stripe is a simplification for drawing at a distance.",
+  "history": "Replaces Skyarium v1's approximate standard (a few colors from memory)."
+}

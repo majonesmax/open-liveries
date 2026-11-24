@@ -1,0 +1,629 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "friend-ship",
+  "airline": "UAL",
+  "name": "Friend Ship (1960s-70s retro)",
+  "kind": "retro",
+  "confidence": "medium",
+  "drawnOn": "A320",
+  "description": "Fuselage: White above the red line, metallic silver below it (the 1960s bare-metal belly), the silver following the red line down to the nose and up to the tail. Cheatlines: A royal-blue band through the cabin windows from the cockpit windows to the tail cone's tip, and below it a thinner red line that starts low on the nose, sweeps up and runs straight aft, ending at the belly under the fin. Tail: White fin with a red stripe slanting down and forward from the tip's trailing corner, 'United' in black serif with a swash U, a blue parallelogram slanting down and forward below it, and four blue stars along the base. Engines: Silver cowlings, polished lips. Winglets: Wingtip fences blue at the top, white, red at the bottom. Titles: 'United' in large black serif above the forward windows, four blue stars ahead of it and 'A320 Friend Ship' in small blue italic aft of it, on both sides. Artwork: none.",
+  "sources": [
+    {
+      "url": "https://simpleflying.com/united-airlines-friendship-airbus-a320-guide/",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:N475UA_(aircraft)",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N475UA_(55208911135).jpg",
+      "title": "N475UA (55208911135) (CC BY-SA 4.0)",
+      "accessed": "2026-11-12",
+      "note": "Right side, level, 2026-04-03: cheatlines, titles, fin, wingtip fence; the main geometry source (mirrored), fitted to shapes/A320.json with tools/photo_trace.py (doors, nose, tail, fin tip, crown and belly) and the bands' edges probed off it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Retro_Blasting_off_from_Santa_Barbara_(54898037392).jpg",
+      "title": "Retro Blasting off from Santa Barbara (CC BY 4.0)",
+      "accessed": "2026-11-12",
+      "note": "Left side, climbing, 2025-07-25: order of stars, 'United' and 'A320 Friend Ship' on the left side; fin artwork."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:United_Airlines_-_Friendship_Livery_-_N475UA_(QUINTIN_SOLOVIEV_QFS_AVIATION).jpg",
+      "title": "United Airlines - Friendship Livery - N475UA (Quintin Soloviev, CC BY-SA 4.0)",
+      "accessed": "2026-11-22",
+      "note": "Right side, taxiing under overcast, 2017-05-10: the lower fuselage below the red line is plainly silver, about 0.44 of the white's brightness just under the line; the cowlings silver too."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:United_Retro.jpg",
+      "title": "United Retro (Glenn Beltz, CC BY 2.0)",
+      "accessed": "2026-11-22",
+      "note": "Front quarter from below, 2024-05-18: the lower fuselage and the cowlings reflect like polished metal; the red line runs down under the nose just aft of the radome."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:United_Airlines_(85th_Anniversary_Retro_Livery),_Airbus_A320-232,_N475UA.jpg",
+      "title": "United Airlines (85th Anniversary Retro Livery), Airbus A320-232, N475UA (Bill Larkins, CC BY-SA 2.0)",
+      "accessed": "2026-11-22",
+      "note": "Left side, 2015-08-01: silver below the red line on the left side too, about 0.4 of the white."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:United_Airlines_a320_Friend_Ship_at_SFO.jpg",
+      "title": "United Airlines a320 Friend Ship at SFO (Agarre16, CC BY-SA 4.0)",
+      "accessed": "2026-11-22",
+      "note": "Front quarter at the gate, 2018-04-27: silver lower fuselage and cowlings, the red line its upper edge to the nose."
+    }
+  ],
+  "notes": "Drawn from a level right-side photo (2026-04-03) and checked against a left-side photo (2025-07-25): the layout is the same on both sides (stars forward, 'A320 Friend Ship' aft of 'United'). Redrawn 2026-11-22 after a report that the lower fuselage is grey, not white, and that the lines weren't straight. The lower fuselage below the red line is a metallic silver, as on the 1960s originals' bare metal: in diffuse light it is about 0.40-0.45 of the white's brightness just under the red line (2017 Denver overcast, 2015), about 0.3 where it reflects the ground (2024 from below) and 0.83 in low direct sun (2026-04-03), which is why it looked white in that photo. A flat colour can't show a mirror finish; #A3A8AE is a neutral silver near the middle of that range (the photos show no hue of its own). Its upper edge is the red line, so its line is the red line's middle; it runs down with the red line to the belly just aft of the radome and ends where the red line meets the belly under the fin (x ~0.935). The cowlings are the same silver (2024, 2017, 2018); the fin, wings and radome are not. The bands were re-measured on the A320 shape with tools/photo_trace.py (the old ones sat about 0.08 too low: the blue band now brackets the windows, y 0.15-0.29): straight along the cabin, with straight segments meeting at corners where the red line sweeps down to the nose and where both bands follow the tail's taper, no smoothed curves. The fuselage titles and stars moved up with the band, as probed on the fit: 'United' on a baseline at y 0.31 just over the band, the stars' middles and 'A320 Friend Ship' baseline at about 0.40. The red line's last metre under the nose (below y -0.72) isn't seen side-on and is carried to the belly at its photographed slope. Winglet areas are on the wingtip fence's upper part (y from the wing up); its lower part isn't clearly visible. United is retiring A320s over time; Simple Flying expects it to fly until ~end of decade. Re-checked 2026-11-15 on N475UA: 'United' x 0.222-0.372 with the four stars ahead of it (0.152-0.222), 'A320 Friend Ship' just aft (x 0.376-0.476 on the left; on the right the wing hides 'A320'), the fin's 'United' x 0.12-0.74 of the chord; the wordmark's lowercase about 0.62 of its swash capital. United's own newsroom and hub.united.com didn't answer automated requests (2026-11-22), so no airline press photo was used. 2026-11-22: the fuselage 'United' names the mark UAL/wordmark-1960s (Skyarium's own shape of the 1960s wordmark, traced from the 2026-04-03 photo's fuselage title, an extended cut) and the fin's UAL/wordmark-1960s-fin (the same letters at the fin's normal width, placed as measured on the 2015-08-01 photo): no typeface we can draw has its swash U (tools/title_fonts.py's best, Georgia, misses the swash entirely); renderers without the mark still set the text in Bookman-like serif.",
+  "from": "2010",
+  "palette": {
+    "white": {
+      "hex": "#F1F2F3",
+      "official": false
+    },
+    "blue": {
+      "hex": "#1F3E9E",
+      "official": false
+    },
+    "red": {
+      "hex": "#C61F2D",
+      "official": false
+    },
+    "black": {
+      "hex": "#16181C",
+      "official": false
+    },
+    "metal": {
+      "hex": "#B4B9BF",
+      "name": "polished inlet lip",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC5",
+      "official": false
+    },
+    "silver": {
+      "hex": "#A3A8AE",
+      "name": "metallic silver lower fuselage and cowlings",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "silver lower fuselage, below the red line",
+        "color": "silver",
+        "points": [
+          [
+            0.04,
+            -1
+          ],
+          [
+            0.05,
+            -0.68
+          ],
+          [
+            0.07,
+            -0.43
+          ],
+          [
+            0.093,
+            -0.28
+          ],
+          [
+            0.113,
+            -0.19
+          ],
+          [
+            0.15,
+            -0.1
+          ],
+          [
+            0.19,
+            -0.05
+          ],
+          [
+            0.74,
+            -0.05
+          ],
+          [
+            0.79,
+            -0.13
+          ],
+          [
+            0.834,
+            -0.215
+          ],
+          [
+            0.88,
+            -0.33
+          ],
+          [
+            0.93,
+            -0.85
+          ],
+          [
+            0.935,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "name": "blue window band",
+        "color": "blue",
+        "points": [
+          [
+            0.043,
+            0.58
+          ],
+          [
+            0.0555,
+            0.51
+          ],
+          [
+            0.1,
+            0.31
+          ],
+          [
+            0.13,
+            0.29
+          ],
+          [
+            0.74,
+            0.29
+          ],
+          [
+            0.834,
+            0.213
+          ],
+          [
+            0.907,
+            0.155
+          ],
+          [
+            0.9475,
+            0.096
+          ],
+          [
+            1.0,
+            -0.12
+          ],
+          [
+            1.0,
+            -0.7
+          ],
+          [
+            0.9475,
+            -0.238
+          ],
+          [
+            0.907,
+            -0.107
+          ],
+          [
+            0.834,
+            0.025
+          ],
+          [
+            0.74,
+            0.15
+          ],
+          [
+            0.1,
+            0.15
+          ],
+          [
+            0.0555,
+            0.321
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ]
+      },
+      {
+        "name": "red line, its sweep down to the nose in straight segments",
+        "color": "red",
+        "points": [
+          [
+            0.036,
+            -1
+          ],
+          [
+            0.047,
+            -0.65
+          ],
+          [
+            0.07,
+            -0.38
+          ],
+          [
+            0.093,
+            -0.228
+          ],
+          [
+            0.113,
+            -0.144
+          ],
+          [
+            0.15,
+            -0.055
+          ],
+          [
+            0.18,
+            -0.01
+          ],
+          [
+            0.74,
+            -0.01
+          ],
+          [
+            0.79,
+            -0.076
+          ],
+          [
+            0.834,
+            -0.152
+          ],
+          [
+            0.874,
+            -0.24
+          ],
+          [
+            0.935,
+            -0.68
+          ],
+          [
+            0.945,
+            -1
+          ],
+          [
+            0.925,
+            -1
+          ],
+          [
+            0.888,
+            -0.43
+          ],
+          [
+            0.834,
+            -0.28
+          ],
+          [
+            0.79,
+            -0.18
+          ],
+          [
+            0.74,
+            -0.095
+          ],
+          [
+            0.19,
+            -0.095
+          ],
+          [
+            0.15,
+            -0.146
+          ],
+          [
+            0.13,
+            -0.204
+          ],
+          [
+            0.113,
+            -0.2385
+          ],
+          [
+            0.093,
+            -0.33
+          ],
+          [
+            0.07,
+            -0.477
+          ],
+          [
+            0.053,
+            -0.717
+          ],
+          [
+            0.046,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3,
+          4
+        ]
+      }
+    ],
+    "radome": {
+      "color": "white",
+      "to": 0.025
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "rudder": "white",
+    "areas": [
+      {
+        "name": "red stripe from the tip's trailing corner",
+        "color": "red",
+        "points": [
+          [
+            0.71,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            0.78,
+            0.64
+          ],
+          [
+            0.57,
+            0.64
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ]
+      },
+      {
+        "name": "blue parallelogram",
+        "color": "blue",
+        "points": [
+          [
+            0.49,
+            0.45
+          ],
+          [
+            0.69,
+            0.45
+          ],
+          [
+            0.62,
+            0.16
+          ],
+          [
+            0.43,
+            0.16
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "white",
+    "inner": "white",
+    "areas": [
+      {
+        "name": "blue top",
+        "color": "blue",
+        "points": [
+          [
+            0,
+            0.7
+          ],
+          [
+            1,
+            0.7
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "name": "red bottom",
+        "color": "red",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0.3
+          ],
+          [
+            0,
+            0.3
+          ]
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "silver",
+    "inletLip": "metal",
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      4,
+      5,
+      6
+    ]
+  },
+  "logos": [
+    {
+      "mark": "UAL/four-stars",
+      "place": "fuselage",
+      "at": [
+        0.187,
+        0.4
+      ],
+      "height": 0.12,
+      "colors": [
+        "blue"
+      ],
+      "description": "Four small five-pointed blue stars in a row above the forward windows, ahead of the 'United' title, about the windows' height each.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ]
+    },
+    {
+      "mark": "UAL/four-stars",
+      "place": "fin",
+      "at": [
+        0.58,
+        0.06
+      ],
+      "height": 0.08,
+      "colors": [
+        "blue"
+      ],
+      "description": "Four blue stars in a row along the fin's base, spanning about half its chord.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "United",
+      "mark": "UAL/wordmark-1960s",
+      "place": "fuselage",
+      "at": [
+        0.222,
+        0.31
+      ],
+      "height": 0.29,
+      "color": "black",
+      "style": "The 1960s United wordmark: a wide serif with a swash on the capital U, upright, moderate contrast, generously spaced; sits right on top of the blue window band.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "ITC Bookman",
+          "Bookman Old Style"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "contrast",
+        "case": "mixed",
+        "xHeight": 0.62
+      },
+      "length": 0.15
+    },
+    {
+      "text": "A320 Friend Ship",
+      "place": "fuselage",
+      "at": [
+        0.376,
+        0.4
+      ],
+      "height": 0.11,
+      "color": "blue",
+      "style": "Small blue italic serif, upper and lower case, on top of the window band just aft of 'United'.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Bookman Old Style Italic",
+          "Georgia Italic"
+        ],
+        "weight": 600,
+        "slantDeg": 12,
+        "width": "normal",
+        "strokes": "contrast",
+        "case": "mixed",
+        "xHeight": 0.62
+      },
+      "length": 0.1
+    },
+    {
+      "text": "United",
+      "mark": "UAL/wordmark-1960s-fin",
+      "place": "fin",
+      "at": [
+        0.12,
+        0.49
+      ],
+      "height": 0.11,
+      "color": "black",
+      "style": "As the fuselage title, smaller, across the middle of the fin above the blue parallelogram.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "ITC Bookman",
+          "Bookman Old Style"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "contrast",
+        "case": "mixed",
+        "xHeight": 0.62
+      },
+      "length": 0.62
+    }
+  ]
+}

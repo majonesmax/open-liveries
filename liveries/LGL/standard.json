@@ -1,0 +1,461 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "LGL",
+  "name": "Flag tail",
+  "kind": "standard",
+  "confidence": "medium",
+  "drawnOn": "B737",
+  "description": "White aircraft with 'Luxair' in light blue lower case (a capital L) above the forward windows and 'Luxembourg Airlines' in small dark lettering behind it; the red heraldic lion of Luxembourg under the cockpit. The fin carries the Luxembourg flag as three slanted, gently waving bands: red at the top with Luxair's white mark, white, and light blue, the blue running down over the rear fuselage on the 737s to the belly behind the aft door. White engines with the Luxair mark in light blue. On the E195-E2 the title is far larger (about 2 m tall, across the windows) and the body has no blue sweep.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:LX-LBR_B737-700,_Luxair,_Palma_de_Mallorca_09-06-26.jpg",
+      "title": "LX-LBR B737-700, Luxair, Palma de Mallorca 09-06-26 (CC BY 4.0, Duncan Kirk)",
+      "accessed": "2026-11-21",
+      "note": "737-700 LX-LBR on approach at Palma, left side from a little below, 2026-09 (Commons dates it 2026-09-07; the title reads 09-06-26). Fitted to shapes/B737.json (doors within 10 px): the blue sweep's edge read column by column, the fin's stripes, both titles, the lion."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:E195-E2_LUXAIR.jpg",
+      "title": "E195-E2 LUXAIR (CC BY 4.0, CommunicationLG)",
+      "accessed": "2026-11-21",
+      "note": "E195-E2 LX-LEA (its nose-gear door reads EA) taxiing, front three-quarter from the left, 2025-11-06: the E2's much larger title, the fin, the lion, the engine mark. Too oblique to fit: the E2's title placed by counting windows on shapes/E295.json."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Luxair,_Embraer_195-E2,_LX-LED_(102).jpg",
+      "title": "Luxair, Embraer 195-E2, LX-LED (102) (CC BY-SA 4.0, GilPe)",
+      "accessed": "2026-11-21",
+      "note": "LX-LED at the stand, left side from ahead of the wing, 2026-09-03: the E2's title ending just ahead of the overwing exits, 'Luxembourg Airlines' and the flags over the rear windows, the fin's stripes, no blue sweep on the E2's body."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Luxair,_Embraer_195-E2,_LX-LED_(101).jpg",
+      "title": "Luxair, Embraer 195-E2, LX-LED (101) (CC BY-SA 4.0, GilPe)",
+      "accessed": "2026-11-21",
+      "note": "LX-LED boarding, close from the front left, 2026-09-03: the red lion under the cockpit, the title's start behind the door."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F2F3F3",
+      "official": false
+    },
+    "red": {
+      "hex": "#D03238",
+      "name": "flag red",
+      "official": false
+    },
+    "blue": {
+      "hex": "#34A2CF",
+      "name": "Luxair light blue",
+      "official": false
+    },
+    "title": {
+      "hex": "#3999C2",
+      "official": false
+    },
+    "ink": {
+      "hex": "#33363B",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "windows": "plain",
+    "areas": [
+      {
+        "name": "light blue from the fin down over the rear fuselage, its front edge a straight slant from the crown over the wing to the belly behind the aft door",
+        "color": "blue",
+        "smooth": true,
+        "points": [
+          [
+            0.575,
+            1
+          ],
+          [
+            0.614,
+            0.95
+          ],
+          [
+            0.644,
+            0.674
+          ],
+          [
+            0.704,
+            0.419
+          ],
+          [
+            0.764,
+            0.164
+          ],
+          [
+            0.824,
+            -0.141
+          ],
+          [
+            0.869,
+            -0.464
+          ],
+          [
+            0.89,
+            -0.685
+          ],
+          [
+            0.905,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0
+        ]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "red band at the top",
+        "color": "red",
+        "smooth": true,
+        "points": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            0.765,
+            1
+          ],
+          [
+            0.952,
+            0.758
+          ],
+          [
+            0.388,
+            0.689
+          ],
+          [
+            0.07,
+            0.562
+          ],
+          [
+            0,
+            0.535,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "name": "light blue band at the foot, carried on down the body",
+        "color": "blue",
+        "smooth": true,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0.6,
+            1
+          ],
+          [
+            0.664,
+            0.497
+          ],
+          [
+            0.288,
+            0.434
+          ],
+          [
+            0,
+            0.385,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "#B9BEC5",
+    "under": "#C9CDD2"
+  },
+  "winglets": {
+    "outer": "white",
+    "inner": "white",
+    "confidence": "medium",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "titles": [
+    {
+      "text": "Luxair",
+      "place": "fuselage",
+      "at": [
+        0.197,
+        0.284
+      ],
+      "height": 0.3,
+      "length": 0.127,
+      "color": "title",
+      "style": "Light blue rounded geometric lower case with a capital L, above the forward windows from behind the forward door.",
+      "confidence": "high",
+      "sourceRefs": [
+        0
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Demi Bold",
+          "Nunito Sans Bold"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.6
+      }
+    },
+    {
+      "text": "Luxembourg Airlines",
+      "place": "fuselage",
+      "at": [
+        0.338,
+        0.354
+      ],
+      "height": 0.12,
+      "length": 0.095,
+      "color": "ink",
+      "style": "Small dark gray sans, mixed case, behind 'Luxair' above the windows.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next",
+          "Helvetica Neue"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.7
+      }
+    }
+  ],
+  "logos": [
+    {
+      "mark": "LGL/mark",
+      "place": "fin",
+      "at": [
+        0.531,
+        0.868
+      ],
+      "height": 0.13,
+      "colors": [
+        "white"
+      ],
+      "description": "Luxair's mark in white on the red: a circle holding a stylised swept 'L' like a wing.",
+      "reference": "https://commons.wikimedia.org/wiki/File:LX-LBR_B737-700,_Luxair,_Palma_de_Mallorca_09-06-26.jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "LGL/lion",
+      "place": "fuselage",
+      "at": [
+        0.108,
+        0.045
+      ],
+      "height": 0.27,
+      "colors": [
+        "#C8102E"
+      ],
+      "description": "The red lion rampant of Luxembourg's arms, crowned, under the cockpit windows.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Luxembourg.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "mark": "LGL/mark",
+      "place": "engines",
+      "at": [
+        0.45,
+        0.0
+      ],
+      "height": 0.7,
+      "colors": [
+        "blue"
+      ],
+      "description": "The Luxair mark in light blue (a ring round the swept L) on the white cowl.",
+      "reference": "https://commons.wikimedia.org/wiki/File:LX-LBR_B737-700,_Luxair,_Palma_de_Mallorca_09-06-26.jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "LGL/flags",
+      "place": "fuselage",
+      "at": [
+        0.727,
+        0.41
+      ],
+      "height": 0.1,
+      "colors": [
+        "#ED2939",
+        "white",
+        "#00A1DE",
+        "#003399",
+        "#FFCC00"
+      ],
+      "description": "Small Luxembourg and EU flags above the rear windows, ahead of the registration.",
+      "reference": "https://commons.wikimedia.org/wiki/File:LX-LBR_B737-700,_Luxair,_Palma_de_Mallorca_09-06-26.jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        2
+      ]
+    }
+  ],
+  "types": {
+    "E295": {
+      "note": "The E195-E2s carry the title much larger and no blue on the body (LX-LEA 2025, LX-LED 2026). Placed by counting windows on the E2's shape from oblique photos (none side-on on Commons): 'Luxair' from just behind the forward door (window 1, 6.4 m) to just ahead of the overwing exits (16 m), baseline about 0.25 m under the centerline, the L's top about 1.3 m above it. Low confidence; the fin is the 737's, not re-measured.",
+      "confidence": "low",
+      "sourceRefs": [
+        1,
+        2,
+        3
+      ],
+      "fuselage": {
+        "areas": []
+      },
+      "titles": [
+        {
+          "text": "Luxair",
+          "place": "fuselage",
+          "at": [
+            0.154,
+            -0.107
+          ],
+          "height": 0.77,
+          "length": 0.228,
+          "color": "title",
+          "style": "Light blue rounded lower case with a capital L, huge across the windows from behind the forward door to the overwing exits.",
+          "confidence": "low",
+          "sourceRefs": [
+            1,
+            2,
+            3
+          ],
+          "type": {
+            "similar": [
+              "Avenir Next Demi Bold",
+              "Nunito Sans Bold"
+            ],
+            "weight": 600,
+            "slantDeg": 0,
+            "width": "normal",
+            "strokes": "uniform",
+            "case": "mixed",
+            "xHeight": 0.55
+          }
+        },
+        {
+          "text": "Luxembourg Airlines",
+          "place": "fuselage",
+          "at": [
+            0.47,
+            0.42
+          ],
+          "height": 0.12,
+          "length": 0.12,
+          "color": "ink",
+          "style": "Small dark sans above the rear windows, behind the overwing exits.",
+          "confidence": "low",
+          "sourceRefs": [
+            1,
+            2
+          ],
+          "type": {
+            "similar": [
+              "Avenir Next",
+              "Helvetica Neue"
+            ],
+            "weight": 400,
+            "slantDeg": 0,
+            "width": "normal",
+            "strokes": "uniform",
+            "case": "mixed",
+            "xHeight": 0.7
+          }
+        }
+      ]
+    }
+  },
+  "notes": "Measured on LX-LBR (737-700, left side, Palma, September 2026) fitted to the 737-700 shape (drawnOn B737); the E195-E2 (the maintainer's sighting of LX-LEA) differs in its title and body and has its own entry under types.E295, placed from oblique photos only (low confidence). The fin's bands slope down toward the leading edge and wave a little: red over a line from the leading edge at y 0.54 to the trailing edge at 0.76, light blue under one from 0.39 to 0.60, read off the photo column by column; the fin is in shade in this photo, so its red is taken lighter than it reads there. The 737's blue sweep leaves the crown over the wing (x 0.58) and runs straight down to the belly behind the aft door (x 0.9). The right side isn't in these photos: assumed the same. Luxair's Dash 8-400s and 737-800/8s wear versions of it; not checked.",
+  "history": "New 2026-11-21 (the maintainer's sightings: LX-LEA, E195-E2)."
+}

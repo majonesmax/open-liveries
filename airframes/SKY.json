@@ -1,0 +1,62 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "SKY",
+  "airframes": [
+    {
+      "registration": "JA73AB",
+      "hex": "868089",
+      "type": "B738",
+      "livery": "pikachu-jet-bc1",
+      "from": "2021-06-21",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://www.aviationwire.jp/?p=341046",
+          "title": "Aviation Wire (2026-04-01): Skymark's entrance ceremony at its Haneda hangar",
+          "accessed": "2026-11-22",
+          "note": "JA73AB is Pikachu Jet BC1, at the 2026-04-01 ceremony."
+        },
+        {
+          "url": "https://www.aviationwire.jp/?p=344457",
+          "title": "Aviation Wire (2026-05-29): Skymark's Pikachu Jet merchandise",
+          "accessed": "2026-11-22",
+          "note": "In service from 2021-06-21."
+        }
+      ],
+      "hexSource": "looked up: hexdb.io community database (2026-11-22); not verified against the Japanese register",
+      "lastSeen": "2026-04-01",
+      "status": "At Skymark's Haneda hangar on 2026-04-01 in this paint (Aviation Wire)."
+    },
+    {
+      "registration": "JA73NG",
+      "hex": "8681ae",
+      "type": "B738",
+      "livery": "pikachu-jet-bc2",
+      "from": "2022-05-30",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:SKYMARK_AIRLINES_B737-86N_JA73NG_RJTT_HND_30-AUG-2022_(52324601880).jpg",
+          "title": "SKYMARK AIRLINES B737-86N JA73NG RJTT HND 30-AUG-2022 (52324601880).jpg (CC BY-SA 2.0, Steven Byles)",
+          "accessed": "2026-11-22",
+          "note": "Photo 2022-08-30 (CC BY-SA 2.0)."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:HANEDA_INTERNATIONAL_AIRPORT_28-FEB-2023_(52890870432).jpg",
+          "title": "HANEDA INTERNATIONAL AIRPORT 28-FEB-2023 (52890870432).jpg (CC BY-SA 2.0, Steven Byles)",
+          "accessed": "2026-11-22",
+          "note": "Photo 2023-02-28 (CC BY-SA 2.0)."
+        },
+        {
+          "url": "https://www.aviationwire.jp/?p=344457",
+          "title": "Aviation Wire (2026-05-29): Skymark's Pikachu Jet merchandise",
+          "accessed": "2026-11-22",
+          "note": "BC2 is JA73NG, in service from 2022-05-30."
+        }
+      ],
+      "hexSource": "looked up: hexdb.io community database (2026-11-22); not verified against the Japanese register",
+      "lastSeen": "2023-02-28",
+      "status": "Newest open photo 2023-02-28; named as Skymark's second Pikachu Jet in May 2026 (Aviation Wire)."
+    }
+  ]
+}

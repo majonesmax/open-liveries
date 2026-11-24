@@ -1,0 +1,396 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "JBU",
+  "airframes": [
+    {
+      "registration": "N531JL",
+      "livery": "blue-finest",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://simpleflying.com/jetblue-special-liveries-guide/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/w/index.php?search=N531JL",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "a6b4f7",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "A320",
+      "from": "2014",
+      "lastSeen": "2026-11-14",
+      "status": "active (presumed): Commons photo 'N531JL named Blue Finest ... RIC-FLL' (Flickr upload ~2025).",
+      "notes": "A 2024-07-26 Commons photo shows N531JL with \"Blue Finest\" under the cockpit, settling it against N569JB."
+    },
+    {
+      "registration": "N561JB",
+      "livery": "cloudtop-cruiser",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://news.jetblue.com/latest-news/press-release-details/2025/Wahoo-JetBlue-Debuts-Special-Livery-Featuring-Mario-and-Friends/default.aspx",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://airlinegeeks.com/2025/03/07/livery-of-the-week-jetblue-s-mario-livery/",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "a72b6b",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "A320",
+      "from": "2025-03",
+      "lastSeen": "2025-03-07",
+      "status": "active (presumed): JetBlue press release 4 Mar 2025; AirlineGeeks 7 Mar 2025."
+    },
+    {
+      "registration": "N605JB",
+      "livery": "blue-monster",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://simpleflying.com/jetblue-special-liveries-guide/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/w/index.php?search=N605JB",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "a7da9c",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "A320",
+      "from": "2012",
+      "lastSeen": "2025-03",
+      "status": "active: Commons photo departing Boston March 2025."
+    },
+    {
+      "registration": "N615JB",
+      "livery": "blue-bravest",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://simpleflying.com/jetblue-special-liveries-guide/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/w/index.php?search=N615JB+Blue+Bravest",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "a8021b",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "A320",
+      "from": "2012",
+      "lastSeen": "2024-02-25",
+      "status": "active (presumed): Commons photo dated 25 Feb 2024."
+    },
+    {
+      "registration": "N775JB",
+      "livery": "vets-in-blue",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://simpleflying.com/jetblue-special-liveries-guide/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://simpleflying.com/stars-stripes-america-liveries-flying/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/w/index.php?search=N775JB+Vets+in+Blue",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "aa7c64",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "A320",
+      "from": "2014",
+      "lastSeen": "2026",
+      "status": "active: Commons photos at White Plains (uploaded 2026); 2026 America250 markings reported by Simple Flying."
+    },
+    {
+      "registration": "N3308J",
+      "livery": "blueprint-ii",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://www.barchart.com/story/news/1958695/returning-to-the-runway-jetblue-debuts-blueprint-ii-on-an-airbus-a220",
+          "title": "JetBlue: Returning to the Runway: JetBlue Debuts Blueprint II on an Airbus A220 (Business Wire, 2026-05-15)",
+          "accessed": "2026-11-22",
+          "note": "Blueprint II in scheduled service on a new A220 from May 2026; a reimagining of the 2017 E190 Blueprint."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Blueprint_II_(aircraft)",
+          "title": "Blueprint II (aircraft) on Commons",
+          "accessed": "2026-11-22",
+          "note": "A220-300 N3308J, named Blueprint II."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:JetBlue_Airbus_A220-300_N3308J_on_final_approach_to_Boston_July_2026_2.jpg",
+          "title": "JetBlue Airbus A220-300 N3308J on final approach to Boston July 2026 2.jpg (CC BY 4.0)",
+          "accessed": "2026-11-22",
+          "note": "N3308J left side from below on final at Boston, 2026-07-08, side-on: fitted to shapes/BCS3.json (nose, tail, fin tip, crown, belly; within 5 px, 0.1 m). Colours and title measured on it."
+        }
+      ],
+      "hex": "a39948",
+      "hexSource": "derived from the N-number (tools/nnumber.py), 2026-11-22",
+      "type": "BCS3",
+      "from": "2026-05",
+      "lastSeen": "2026-07-08",
+      "status": "active: Commons photos on approach to Boston 8 Jul 2026."
+    },
+    {
+      "registration": "N657JB",
+      "livery": "isla-del-bluencanto",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://www.businesswire.com/news/home/20251002169259/en/",
+          "title": "JetBlue: Isla del Bluencanto release (Business Wire, 2025-10-02)",
+          "accessed": "2026-11-22",
+          "note": "A320 N657JB 'Isla del Bluencanto', unveiled at San Juan in October 2025: designed by Puerto Rican artist Juan Gutiérrez Rovira (The Stencil Network), chosen by public vote; 'Somos Boricua' on the belly. JetBlue's second Puerto Rico livery after Bluericua (2018)."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N657JB_FLL_17.11.25_(55595075900).jpg",
+          "title": "N657JB FLL 17.11.25 (55595075900).jpg (CC BY-SA 4.0)",
+          "accessed": "2026-11-22",
+          "note": "N657JB left side from below on approach at Fort Lauderdale (2025-11-17 by its title; Commons' metadata says 2026-10-17): fitted to shapes/A320.json (doors, nose, tail, fin tip; within 6 px, 0.15 m, camera 17 degrees below). The art's big colour masses, the fin's figure and the title read off it."
+        }
+      ],
+      "hex": "a8a785",
+      "hexSource": "derived from the N-number (tools/nnumber.py), 2026-11-22",
+      "type": "A320",
+      "from": "2025-10",
+      "lastSeen": "2025-11-17",
+      "status": "active: unveiled at San Juan October 2025; Commons photo at Fort Lauderdale, November 2025 by its title (October 2026 by Commons' metadata)."
+    },
+    {
+      "registration": "N706JB",
+      "livery": "peacock",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N706JB_(aircraft)",
+          "title": "N706JB on Commons",
+          "accessed": "2026-11-22",
+          "note": "'JetBlue Airways Airbus A320 N706JB on final approach to Boston June 2026' is misfiled: its titles read N579JB, in JetBlue's 2025 scheme."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N706JB_JFK_Landing_22L_B6_A320_232_This_Peacock_Can_Fly_Small_(53685249220).png",
+          "title": "N706JB JFK Landing 22L B6 A320 232 This Peacock Can Fly Small (53685249220).png (CC BY-SA 2.0)",
+          "accessed": "2026-11-22",
+          "note": "N706JB right side landing at JFK, 2024-04-28 (the newest open photo of the scheme): flipped nose-left and fitted to shapes/A320.json (doors, nose, tail, fin tip; within 14 px, 0.3 m). Everything measured on it."
+        }
+      ],
+      "hex": "a96ba2",
+      "hexSource": "derived from the N-number (tools/nnumber.py), 2026-11-22",
+      "type": "A320",
+      "from": "2023-08",
+      "lastSeen": "2024-04-28",
+      "status": "active (presumed): Commons photos Sep 2023 and Apr 2024; no repaint reported (flight-tracking listings through mid-2025, leads only)."
+    },
+    {
+      "registration": "N632JB",
+      "livery": "boston-bruins",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://airlinegeeks.com/2025/12/22/jetblue-rolls-out-boston-themed-livery/",
+          "title": "AirlineGeeks: JetBlue Rolls Out Boston-Themed Livery (2025-12-22)",
+          "accessed": "2026-11-22",
+          "note": "On the Wicked Blue A320: it joins JetBlue's Boston liveries, 'including ones for the Red Sox, the Celtics, the Bruins, and Dunkin' Donuts' (the Bruins jet still flying in it)."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N632JB_BOS_Taxiing_Out_9_B6_A320_232_Bear_Force_One_Bruins_Centennial_1924_2024_Small_(53248946288).png",
+          "title": "N632JB BOS Taxiing Out 9 B6 A320 232 Bear Force One Bruins Centennial 1924 2024 Small (53248946288).png (CC BY-SA 2.0)",
+          "accessed": "2026-11-22",
+          "note": "N632JB right side taxiing at Boston, 2023-10-10, near level: flipped nose-left and fitted to shapes/A320.json (doors and fin tip; within about 11 px, 0.25 m). The gold sweep, the fin's spoked B, the titles and the centennial badge read off it."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Airbus_A320-232_'Bear_Force_One'_(N632JB,_cn_2647)_(3-11-2024).jpg",
+          "title": "Airbus A320-232 'Bear Force One' (N632JB, cn 2647) (3-11-2024).jpg (CC BY-SA 4.0)",
+          "accessed": "2026-11-22",
+          "note": "N632JB right side, 2024-03-11, three-quarter front: the same layout, checked by eye (too oblique to fit)."
+        }
+      ],
+      "hex": "a845f4",
+      "hexSource": "derived from the N-number (tools/nnumber.py), 2026-11-22",
+      "type": "A320",
+      "from": "2023",
+      "lastSeen": "2024-03-11",
+      "status": "active (presumed): Commons photos 10 Oct 2023 and 11 Mar 2024; AirlineGeeks (22 Dec 2025) counts its Bruins livery among JetBlue's current Boston liveries."
+    },
+    {
+      "registration": "N595JB",
+      "livery": "boston-celtics",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://airlinegeeks.com/2025/12/22/jetblue-rolls-out-boston-themed-livery/",
+          "title": "AirlineGeeks: JetBlue Rolls Out Boston-Themed Livery (2025-12-22)",
+          "accessed": "2026-11-22",
+          "note": "On the Wicked Blue A320: it joins JetBlue's Boston liveries, 'including ones for the Red Sox, the Celtics, the Bruins, and Dunkin' Donuts' (the Celtics jet still flying in it)."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Lucky_Blue_(aircraft)",
+          "title": "Lucky Blue (aircraft) on Commons",
+          "accessed": "2026-11-22",
+          "note": "N595JB in the Celtics scheme 2018-2021, left and right sides: the same layout."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N595JB_Airbus_A320-232_Jet_Blue_Lucky_Blue,_595,_Boston_Celtics_cs_SJU_22.1.23_(52960614076).jpg",
+          "title": "N595JB Airbus A320-232 Jet Blue Lucky Blue, 595, Boston Celtics cs SJU 22.1.23 (52960614076).jpg (CC BY-SA 2.0)",
+          "accessed": "2026-11-22",
+          "note": "San Juan, 2023-01-22."
+        }
+      ],
+      "hex": "a7b0c4",
+      "hexSource": "derived from the N-number (tools/nnumber.py), 2026-11-22",
+      "type": "A320",
+      "from": "2018",
+      "lastSeen": "2023-01-22",
+      "status": "active (presumed): Commons photo 22 Jan 2023; AirlineGeeks (22 Dec 2025) counts its Celtics livery among JetBlue's current Boston liveries."
+    },
+    {
+      "registration": "N643JB",
+      "livery": "dunkin",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://www.businesswire.com/news/home/20250512190550/en/JetBlue-Runs-on-Dunkin-With-New-Special-Livery",
+          "title": "JetBlue: JetBlue Runs on Dunkin' With New Special Livery (2025-05-12)",
+          "accessed": "2026-11-22",
+          "note": "Unveiled in Boston 12 May 2025 on A320 N643JB, named 'Brewing Altitude', for the airlines' 20-year partnership; Dunkin' pink and orange."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:JetBlue_N643JB_Airbus_A320_ORD0926_(55562107725).jpg",
+          "title": "JetBlue N643JB Airbus A320 ORD0926 (55562107725).jpg (CC BY-SA 4.0)",
+          "accessed": "2026-11-22",
+          "note": "O'Hare, 2026-09-11."
+        }
+      ],
+      "hex": "a8712a",
+      "hexSource": "derived from the N-number (tools/nnumber.py), 2026-11-22",
+      "type": "A320",
+      "from": "2025-05-12",
+      "lastSeen": "2026-09-11",
+      "status": "active: unveiled 12 May 2025; Commons photo 11 Sep 2026; the maintainer saw it (2026-11-20)."
+    },
+    {
+      "registration": "N2193J",
+      "livery": "mint-leaves",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N2193J_(55228737847).jpg",
+          "title": "N2193J (55228737847).jpg (CC BY-SA 4.0)",
+          "accessed": "2026-11-22",
+          "note": "In the 2023 livery with the Mint Leaves pattern, 2026-04-07; named 'StateMint Piece'."
+        }
+      ],
+      "hex": "a1ddbb",
+      "hexSource": "derived from the N-number (tools/nnumber.py), 2026-11-22",
+      "type": "A21N",
+      "lastSeen": "2026-11-22",
+      "status": "active: Commons photo 2026-04-07; the maintainer saw it 2026-11-22 (hex a1ddbb)."
+    },
+    {
+      "registration": "N4083J",
+      "livery": "mint-leaves",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N4083J_@_LHR,_2025-04-19.jpg",
+          "title": "N4083J @ LHR, 2025-04-19.jpg (CC BY 2.0)",
+          "accessed": "2026-11-22",
+          "note": "In the 2023 livery with the Mint Leaves pattern, 2025-04-19; named 'Minternationally Known'."
+        }
+      ],
+      "hex": "a4cd23",
+      "hexSource": "derived from the N-number (tools/nnumber.py), 2026-11-22",
+      "type": "A21N",
+      "lastSeen": "2025-04-19",
+      "status": "active: Commons photo 2025-04-19."
+    },
+    {
+      "registration": "N2199J",
+      "livery": "mint-leaves",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:JetBlue_Airways_Airbus_A321neo_N2199J_on_final_approach_to_Boston_June_2026.jpg",
+          "title": "JetBlue Airways Airbus A321neo N2199J on final approach to Boston June 2026.jpg (CC BY 4.0)",
+          "accessed": "2026-11-22",
+          "note": "In the 2023 livery with the Mint Leaves pattern, 2026-06-17; named 'Mint Chocolate Chip'."
+        }
+      ],
+      "hex": "a1de8d",
+      "hexSource": "derived from the N-number (tools/nnumber.py), 2026-11-22",
+      "type": "A21N",
+      "lastSeen": "2026-06-17",
+      "status": "active: Commons photo 2026-06-17."
+    },
+    {
+      "registration": "N746JB",
+      "livery": "new-york-jets",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://www.businesswire.com/news/home/20250916302122/en/",
+          "title": "JetBlue Suits Up with a Fresh New York Jets Livery Inspired by Team Uniforms (JetBlue via Business Wire, 2025-09-16)",
+          "accessed": "2026-11-22",
+          "note": "Unveiled at JFK 2025-09-16 (the release doesn't give the registration; read in the Jets' reprint, Business Wire refusing automated access)."
+        },
+        {
+          "url": "https://worldairlinenews.com/2025/09/16/jetblue-updates-the-new-york-jets-nfl-logo-jet-for-the-2025-season/",
+          "title": "World Airline News: JetBlue updates the New York Jets NFL logo jet for the 2025 season (2025-09-16)",
+          "accessed": "2026-11-22",
+          "note": "N746JB, repainted from its 2017 Jets scheme."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:JetBlue_A320-200_at_FLL_(55153993098).jpg",
+          "title": "JetBlue A320-200 at FLL (55153993098).jpg (CC0)",
+          "accessed": "2026-11-22",
+          "note": "N746JB in this scheme at FLL, 2026-03-17, before departing to Montego Bay."
+        }
+      ],
+      "hex": "aa099e",
+      "hexSource": "derived from the N-number (tools/nnumber.py), 2026-11-22",
+      "type": "A320",
+      "from": "2025-09-16",
+      "lastSeen": "2026-03-17",
+      "status": "active (presumed): Commons photo 17 Mar 2026, six months after the unveiling.",
+      "notes": "JetBlue's Jets jet since 2010: 'JetGreen' (2010-2017), the 2017 Jets scheme (2017-2025), then this; neither earlier scheme is in the dataset."
+    },
+    {
+      "registration": "N784JB",
+      "livery": "florida-panthers",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://airlinegeeks.com/2026/11/06/livery-of-the-week-jetblues-florida-panthers-design/",
+          "title": "AirlineGeeks: Livery of the Week: JetBlue's Florida Panthers Design (2026-11-06)",
+          "accessed": "2026-11-22",
+          "note": "Names N784JB as the Panthers jet, renamed 'Go Cats Go'."
+        },
+        {
+          "url": "https://www.businesswire.com/news/home/20261105573491/en/",
+          "title": "JetBlue and the Florida Panthers Take South Florida Dedication to New Heights with New Aircraft Design (JetBlue via Business Wire, 2026-11-05)",
+          "accessed": "2026-11-22",
+          "note": "Revealed at FLL 2026-11-05 (the release doesn't give the registration; read in Finviz's reprint)."
+        }
+      ],
+      "hex": "aaa02c",
+      "hexSource": "derived from the N-number (tools/nnumber.py), 2026-11-22",
+      "type": "A320",
+      "from": "2026-11-05",
+      "lastSeen": "2026-11-06",
+      "status": "active: unveiled 5 Nov 2026; WPTV reports it's to stay in the scheme at least five years.",
+      "notes": "Was 'Blue And Infinity And Beyond' in the standard livery. The registration is lettered on the jet in the photo heading AirlineGeeks' story (credited JetBlue; evidence only); the maintainer also saw it lifting off FLL's 28L on Facebook. No open photo yet."
+    }
+  ]
+}

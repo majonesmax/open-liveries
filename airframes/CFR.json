@@ -1,0 +1,989 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "CFR",
+  "airframes": [
+    {
+      "registration": "N460DF",
+      "hex": "a599ec",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "C130",
+      "livery": "standard",
+      "confidence": "medium",
+      "status": "registered (FAA, 2026-11-14); not seen by registration in a dated photo here: tagged as the type's fleet scheme.",
+      "sources": [
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=460DF",
+          "title": "FAA registry: N460DF, Lockheed C-130H s/n 4996, California Dept of Forestry and Fire Protection, McClellan CA (certificate issued 2024-10-31)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (MASTER.txt)."
+        }
+      ],
+      "notes": "Ex-U.S. Coast Guard HC-130H (Lockheed 382-4996). Which tanker number it carries isn't confirmed here. CAL FIRE's fact sheet says all seven were repainted before delivery."
+    },
+    {
+      "registration": "N462DF",
+      "hex": "a5a15a",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "C130",
+      "livery": "standard",
+      "confidence": "medium",
+      "status": "registered (FAA, 2026-11-14); not seen by registration in a dated photo here: tagged as the type's fleet scheme.",
+      "sources": [
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=462DF",
+          "title": "FAA registry: N462DF, Lockheed C-130H s/n 5034, California Dept of Forestry and Fire Protection, McClellan CA (certificate issued 2024-10-31)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (MASTER.txt)."
+        }
+      ],
+      "notes": "Ex-U.S. Coast Guard HC-130H (Lockheed 382-5034). Which tanker number it carries isn't confirmed here. CAL FIRE's fact sheet says all seven were repainted before delivery."
+    },
+    {
+      "registration": "N464DF",
+      "hex": "a5a8c8",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "C130",
+      "livery": "standard",
+      "confidence": "medium",
+      "status": "registered (FAA, 2026-11-14); not seen by registration in a dated photo here: tagged as the type's fleet scheme.",
+      "sources": [
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=464DF",
+          "title": "FAA registry: N464DF, Lockheed C-130H s/n 5002, California Dept of Forestry and Fire Protection, McClellan CA (certificate issued 2024-10-31)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (MASTER.txt)."
+        }
+      ],
+      "notes": "Ex-U.S. Coast Guard HC-130H (Lockheed 382-5002). Which tanker number it carries isn't confirmed here. CAL FIRE's fact sheet says all seven were repainted before delivery."
+    },
+    {
+      "registration": "N465DF",
+      "hex": "a5ac7f",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "C130",
+      "livery": "standard",
+      "confidence": "medium",
+      "status": "registered (FAA, 2026-11-14); not seen by registration in a dated photo here: tagged as the type's fleet scheme.",
+      "sources": [
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=465DF",
+          "title": "FAA registry: N465DF, Lockheed C-130H s/n 5035, California Dept of Forestry and Fire Protection, McClellan CA (certificate issued 2024-10-31)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (MASTER.txt)."
+        }
+      ],
+      "notes": "Ex-U.S. Coast Guard HC-130H (Lockheed 382-5035). Which tanker number it carries isn't confirmed here. CAL FIRE's fact sheet says all seven were repainted before delivery."
+    },
+    {
+      "registration": "N468DF",
+      "hex": "a5b7a4",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "C130",
+      "livery": "standard",
+      "confidence": "medium",
+      "status": "registered (FAA, 2026-11-14); not seen by registration in a dated photo here: tagged as the type's fleet scheme.",
+      "sources": [
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=468DF",
+          "title": "FAA registry: N468DF, Lockheed C-130H s/n 5107, California Dept of Forestry and Fire Protection, McClellan CA (certificate issued 2024-10-31)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (MASTER.txt)."
+        }
+      ],
+      "notes": "Ex-U.S. Coast Guard HC-130H (Lockheed 382-5107). Which tanker number it carries isn't confirmed here. CAL FIRE's fact sheet says all seven were repainted before delivery."
+    },
+    {
+      "registration": "N567DF",
+      "hex": "a7413c",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "C130",
+      "livery": "standard",
+      "confidence": "medium",
+      "status": "registered (FAA, 2026-11-14); not seen by registration in a dated photo here: tagged as the type's fleet scheme.",
+      "sources": [
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=567DF",
+          "title": "FAA registry: N567DF, Lockheed C-130H s/n 5005, California Dept of Forestry and Fire Protection, McClellan CA (certificate issued 2024-10-31)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (MASTER.txt)."
+        }
+      ],
+      "notes": "Ex-U.S. Coast Guard HC-130H (Lockheed 382-5005). Which tanker number it carries isn't confirmed here. CAL FIRE's fact sheet says all seven were repainted before delivery."
+    },
+    {
+      "registration": "N466DF",
+      "hex": "a5b036",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the Mode S code on the FAA's cancelled record (DEREG.txt, 2026-11-14)",
+      "type": "C130",
+      "livery": "standard",
+      "confidence": "high",
+      "lastSeen": "2026-07-18",
+      "status": "Tanker 118 in CAL FIRE's scheme with N466DF on the fin (photo, 2026-07-18); the FAA lists the registration as cancelled (2024-08-14).",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N466DF_C-130H,_CAL_Fire,_McClellan_07-18-26.jpg",
+          "title": "N466DF Tanker 118 at McClellan (Duncan Kirk, CC BY 4.0), 2026-07-18",
+          "accessed": "2026-11-22"
+        },
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=466DF",
+          "title": "FAA registry: N466DF, Lockheed C-130H s/n 5121, cancelled 2024-08-14 (the FAA's deregistered file)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (DEREG.txt: cancelled 2024-08-14; RESERVED.txt: 'CANCELLED/NOT ASSIGNED', held to 2029-08-14)."
+        },
+        {
+          "url": "https://www.airhistory.net/registration/N118Z",
+          "title": "AirHistory.net: N118Z, HC-130H 382-5121 (ex-USCG 1721), Tanker 118",
+          "accessed": "2026-11-22",
+          "note": "Its earlier Forest Service registration and its tanker number; photos not copied."
+        }
+      ],
+      "notes": "Tanker 118 (Lockheed 382-5121, ex-USCG 1721 by airhistory.net): N466DF on its fin in July 2026, though the FAA's file of 2026-11-14 lists the registration as cancelled on 2024-08-14 and doesn't list 382-5121 under another N-number. Its address from the N-number matches the cancelled record's Mode S code."
+    },
+    {
+      "registration": "N422DF",
+      "hex": "a5035e",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "S2P",
+      "livery": "s-2t",
+      "confidence": "low",
+      "status": "registered (FAA, 2026-11-14); not seen by registration in a dated photo here: tagged as the type's fleet scheme.",
+      "sources": [
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=422DF",
+          "title": "FAA registry: N422DF, Marsh Aviation S-2F3AT (S-2T) s/n 152817, USDA Forest Service FEPP for California Dept of Forestry & Fire Protection, McClellan CA (on loan through the Federal Excess Personal Property program)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (MASTER.txt)."
+        }
+      ]
+    },
+    {
+      "registration": "N424DF",
+      "hex": "a50acc",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "S2P",
+      "livery": "s-2t",
+      "confidence": "low",
+      "status": "registered (FAA, 2026-11-14); not seen by registration in a dated photo here: tagged as the type's fleet scheme.",
+      "sources": [
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=424DF",
+          "title": "FAA registry: N424DF, Marsh Aviation S-2F3AT (S-2T) s/n 152820, USDA Forest Service FEPP for California Dept of Forestry & Fire Protection, McClellan CA (on loan through the Federal Excess Personal Property program)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (MASTER.txt)."
+        }
+      ]
+    },
+    {
+      "registration": "N425DF",
+      "hex": "a50e83",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "S2P",
+      "livery": "s-2t",
+      "confidence": "low",
+      "status": "registered (FAA, 2026-11-14); not seen by registration in a dated photo here: tagged as the type's fleet scheme.",
+      "sources": [
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=425DF",
+          "title": "FAA registry: N425DF, Marsh Aviation S-2F3AT (S-2T) s/n 152825, USDA Forest Service FEPP for California Dept of Forestry & Fire Protection, McClellan CA (on loan through the Federal Excess Personal Property program)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (MASTER.txt)."
+        }
+      ]
+    },
+    {
+      "registration": "N426DF",
+      "hex": "a5123a",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "S2P",
+      "livery": "s-2t",
+      "confidence": "medium",
+      "lastSeen": "2016-03-05",
+      "status": "in CAL FIRE's scheme in a dated photo (2016-03-05); registered to CAL FIRE's program (FAA, 2026-11-14).",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Grumman_S-2F3AT_Tracker_%E2%80%98N426DF_-_88%E2%80%99_(30307639355).jpg",
+          "title": "N426DF Tanker 88 at McClellan (Alan Wilson, CC BY-SA 2.0), 2016-03-05",
+          "accessed": "2026-11-22"
+        },
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=426DF",
+          "title": "FAA registry: N426DF, Marsh Aviation S-2F3AT (S-2T) s/n 152824, USDA Forest Service FEPP for California Dept of Forestry & Fire Protection, McClellan CA (on loan through the Federal Excess Personal Property program)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (MASTER.txt)."
+        }
+      ]
+    },
+    {
+      "registration": "N427DF",
+      "hex": "a515f1",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "S2P",
+      "livery": "s-2t",
+      "confidence": "medium",
+      "lastSeen": "2014-10-04",
+      "status": "in CAL FIRE's scheme in a dated photo (2014-10-04); registered to CAL FIRE's program (FAA, 2026-11-14).",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N427DF_Grumman_Aeropace_S-2T_Airtanker_70_California_Department_of_Forestry_%26_Fire_Protection_(CDF)_%22Ramona%22_(15475604115).jpg",
+          "title": "N427DF Tanker 70 at Ramona (Tomás Del Coro, CC BY-SA 2.0), 2014-10-04",
+          "accessed": "2026-11-22"
+        },
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=427DF",
+          "title": "FAA registry: N427DF, Marsh Aviation S-2F3AT (S-2T) s/n 153570, USDA Forest Service FEPP for California Dept of Forestry & Fire Protection, McClellan CA (on loan through the Federal Excess Personal Property program)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (MASTER.txt)."
+        }
+      ]
+    },
+    {
+      "registration": "N428DF",
+      "hex": "a519a8",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "S2P",
+      "livery": "s-2t",
+      "confidence": "low",
+      "status": "registered (FAA, 2026-11-14); not seen by registration in a dated photo here: tagged as the type's fleet scheme.",
+      "sources": [
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=428DF",
+          "title": "FAA registry: N428DF, Marsh Aviation S-2F3AT (S-2T) s/n 443262, USDA Forest Service FEPP for California Dept of Forestry & Fire Protection, McClellan CA (on loan through the Federal Excess Personal Property program)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (MASTER.txt)."
+        }
+      ]
+    },
+    {
+      "registration": "N431DF",
+      "hex": "a52726",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "S2P",
+      "livery": "s-2t",
+      "confidence": "medium",
+      "lastSeen": "2018-04-14",
+      "status": "in CAL FIRE's scheme in a dated photo (2018-04-14); registered to CAL FIRE's program (FAA, 2026-11-14).",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:S-2F3AT_Tracker_-_N431DF.jpg",
+          "title": "N431DF (Tequask, CC BY-SA 4.0), 2018-04-14",
+          "accessed": "2026-11-22"
+        },
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=431DF",
+          "title": "FAA registry: N431DF, Marsh Aviation S-2F3AT (S-2T) s/n 149265, USDA Forest Service FEPP for California Dept of Forestry & Fire Protection, McClellan CA (on loan through the Federal Excess Personal Property program)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (MASTER.txt)."
+        }
+      ]
+    },
+    {
+      "registration": "N432DF",
+      "hex": "a52add",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "S2P",
+      "livery": "s-2t",
+      "confidence": "medium",
+      "lastSeen": "2016-03-05",
+      "status": "in CAL FIRE's scheme in a dated photo (2016-03-05); registered to CAL FIRE's program (FAA, 2026-11-14).",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Grumman_S-2F3AT_Tracker_%E2%80%98N432DF_-_71%E2%80%99_(30010837240).jpg",
+          "title": "N432DF Tanker 71 at McClellan (Alan Wilson, CC BY-SA 2.0), 2016-03-05",
+          "accessed": "2026-11-22"
+        },
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=432DF",
+          "title": "FAA registry: N432DF, Marsh Aviation S-2F3AT (S-2T) s/n 149268, USDA Forest Service FEPP for California Dept of Forestry & Fire Protection, McClellan CA (on loan through the Federal Excess Personal Property program)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (MASTER.txt)."
+        }
+      ]
+    },
+    {
+      "registration": "N433DF",
+      "hex": "a52e94",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "S2P",
+      "livery": "s-2t",
+      "confidence": "medium",
+      "lastSeen": "2021-05-04",
+      "status": "in CAL FIRE's scheme in a dated photo (2021-05-04); registered to CAL FIRE's program (FAA, 2026-11-14).",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Cal_Fire_S-2F3AT_waterbomber_during_STEReO_Field_Testing_(NHQ202105040017).jpg",
+          "title": "N433DF in flight during NASA's STEReO field tests (NASA, public domain), 2021-05-04",
+          "accessed": "2026-11-22"
+        },
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=433DF",
+          "title": "FAA registry: N433DF, Marsh Aviation S-2F3AT (S-2T) s/n 149855, USDA Forest Service FEPP for California Dept of Forestry & Fire Protection, McClellan CA (on loan through the Federal Excess Personal Property program)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (MASTER.txt)."
+        }
+      ]
+    },
+    {
+      "registration": "N434DF",
+      "hex": "a5324b",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "S2P",
+      "livery": "s-2t",
+      "confidence": "medium",
+      "lastSeen": "2017-12-18",
+      "status": "in CAL FIRE's scheme in a dated photo (2017-12-18); registered to CAL FIRE's program (FAA, 2026-11-14).",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N434DF_-_S-2F3AT_Tracker.jpg",
+          "title": "N434DF (Tequask, CC BY-SA 4.0), 2017-12-18",
+          "accessed": "2026-11-22"
+        },
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=434DF",
+          "title": "FAA registry: N434DF, Marsh Aviation S-2F3AT (S-2T) s/n 153579, USDA Forest Service FEPP for California Dept of Forestry & Fire Protection, McClellan CA (on loan through the Federal Excess Personal Property program)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (MASTER.txt)."
+        }
+      ]
+    },
+    {
+      "registration": "N435DF",
+      "hex": "a53602",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "S2P",
+      "livery": "s-2t",
+      "confidence": "low",
+      "status": "registered (FAA, 2026-11-14); not seen by registration in a dated photo here: tagged as the type's fleet scheme.",
+      "sources": [
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=435DF",
+          "title": "FAA registry: N435DF, Marsh Aviation S-2F3AT (S-2T) s/n 153573, USDA Forest Service FEPP for California Dept of Forestry & Fire Protection, McClellan CA (on loan through the Federal Excess Personal Property program)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (MASTER.txt)."
+        }
+      ]
+    },
+    {
+      "registration": "N436DF",
+      "hex": "a539b9",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "S2P",
+      "livery": "s-2t",
+      "confidence": "low",
+      "status": "registered (FAA, 2026-11-14); not seen by registration in a dated photo here: tagged as the type's fleet scheme.",
+      "sources": [
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=436DF",
+          "title": "FAA registry: N436DF, Marsh Aviation S-2F3AT (S-2T) s/n 152337, USDA Forest Service FEPP for California Dept of Forestry & Fire Protection, McClellan CA (on loan through the Federal Excess Personal Property program)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (MASTER.txt)."
+        }
+      ]
+    },
+    {
+      "registration": "N437DF",
+      "hex": "a53d70",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "S2P",
+      "livery": "s-2t",
+      "confidence": "low",
+      "status": "registered (FAA, 2026-11-14); not seen by registration in a dated photo here: tagged as the type's fleet scheme.",
+      "sources": [
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=437DF",
+          "title": "FAA registry: N437DF, Marsh Aviation S-2F3AT (S-2T) s/n 149848, USDA Forest Service FEPP for California Dept of Forestry & Fire Protection, McClellan CA (on loan through the Federal Excess Personal Property program)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (MASTER.txt)."
+        }
+      ]
+    },
+    {
+      "registration": "N438DF",
+      "hex": "a54127",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "S2P",
+      "livery": "s-2t",
+      "confidence": "medium",
+      "lastSeen": "2016-04-18",
+      "status": "in CAL FIRE's scheme in a dated photo (2016-04-18); registered to CAL FIRE's program (FAA, 2026-11-14).",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:CAL_FIRE_TRAINING.jpg",
+          "title": "N438DF (Tequask, CC BY-SA 4.0), 2016-04-18",
+          "accessed": "2026-11-22"
+        },
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=438DF",
+          "title": "FAA registry: N438DF, Marsh Aviation S-2F3AT (S-2T) s/n 151640, USDA Forest Service FEPP for California Dept of Forestry & Fire Protection, McClellan CA (on loan through the Federal Excess Personal Property program)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (MASTER.txt)."
+        }
+      ]
+    },
+    {
+      "registration": "N439DF",
+      "hex": "a544de",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "S2P",
+      "livery": "s-2t",
+      "confidence": "medium",
+      "lastSeen": "2017-05-08",
+      "status": "in CAL FIRE's scheme in a dated photo (2017-05-08); registered to CAL FIRE's program (FAA, 2026-11-14).",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:S-2F3AT_Tracker_-_N439DF.jpg",
+          "title": "N439DF (Tequask, CC BY-SA 4.0), 2017-05-08",
+          "accessed": "2026-11-22"
+        },
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=439DF",
+          "title": "FAA registry: N439DF, Marsh Aviation S-2F3AT (S-2T) s/n 149854, USDA Forest Service FEPP for California Dept of Forestry & Fire Protection, McClellan CA (on loan through the Federal Excess Personal Property program)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (MASTER.txt)."
+        }
+      ]
+    },
+    {
+      "registration": "N440DF",
+      "hex": "a54aee",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "S2P",
+      "livery": "s-2t",
+      "confidence": "medium",
+      "lastSeen": "2021-05-04",
+      "status": "in CAL FIRE's scheme in a dated photo (2021-05-04); registered to CAL FIRE's program (FAA, 2026-11-14).",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Cal_Fire_S-2F3AT_waterbomber_during_STEReO_Field_Testing_(NHQ202105040014).jpg",
+          "title": "N440DF in flight during NASA's STEReO field tests (NASA, public domain), 2021-05-04",
+          "accessed": "2026-11-22"
+        },
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=440DF",
+          "title": "FAA registry: N440DF, Marsh Aviation S-2F3AT (S-2T) s/n 149873, USDA Forest Service FEPP for California Dept of Forestry & Fire Protection, McClellan CA (on loan through the Federal Excess Personal Property program)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (MASTER.txt)."
+        }
+      ]
+    },
+    {
+      "registration": "N441DF",
+      "hex": "a54ea5",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "S2P",
+      "livery": "s-2t",
+      "confidence": "medium",
+      "lastSeen": "2016-08-23",
+      "status": "in CAL FIRE's scheme in a dated photo (2016-08-23); registered to CAL FIRE's program (FAA, 2026-11-14).",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:20160823-FS-Sequoia-LSC-091_(36212775350).jpg",
+          "title": "N441DF (USDA Forest Service, public domain), 2016-08-23",
+          "accessed": "2026-11-22"
+        },
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=441DF",
+          "title": "FAA registry: N441DF, Marsh Aviation S-2F3AT (S-2T) s/n 152808, USDA Forest Service FEPP for California Dept of Forestry & Fire Protection, McClellan CA (on loan through the Federal Excess Personal Property program)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (MASTER.txt)."
+        }
+      ]
+    },
+    {
+      "registration": "N442DF",
+      "hex": "a5525c",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "S2P",
+      "livery": "s-2t",
+      "confidence": "medium",
+      "lastSeen": "2017-12-18",
+      "status": "in CAL FIRE's scheme in a dated photo (2017-12-18); registered to CAL FIRE's program (FAA, 2026-11-14).",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:S-2F3AT_Tracker_-_N442DF.jpg",
+          "title": "N442DF (Tequask, CC BY-SA 4.0), 2017-12-18",
+          "accessed": "2026-11-22"
+        },
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=442DF",
+          "title": "FAA registry: N442DF, Marsh Aviation S-2F3AT (S-2T) s/n 152826, USDA Forest Service FEPP for California Dept of Forestry & Fire Protection, McClellan CA (on loan through the Federal Excess Personal Property program)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (MASTER.txt)."
+        }
+      ]
+    },
+    {
+      "registration": "N444DF",
+      "hex": "a559ca",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "S2P",
+      "livery": "s-2t",
+      "confidence": "medium",
+      "lastSeen": "2017-05-08",
+      "status": "in CAL FIRE's scheme in a dated photo (2017-05-08); registered to CAL FIRE's program (FAA, 2026-11-14).",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:S-2F3AT_Tracker_-_N444DF.jpg",
+          "title": "N444DF (Tequask, CC BY-SA 4.0), 2017-05-08",
+          "accessed": "2026-11-22"
+        },
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=444DF",
+          "title": "FAA registry: N444DF, Marsh Aviation S-2F3AT (S-2T) s/n 151654, USDA Forest Service FEPP for California Dept of Forestry & Fire Protection, McClellan CA (on loan through the Federal Excess Personal Property program)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (MASTER.txt)."
+        }
+      ]
+    },
+    {
+      "registration": "N445DF",
+      "hex": "a55d81",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "S2P",
+      "livery": "s-2t",
+      "confidence": "low",
+      "status": "registered (FAA, 2026-11-14); not seen by registration in a dated photo here: tagged as the type's fleet scheme.",
+      "sources": [
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=445DF",
+          "title": "FAA registry: N445DF, Marsh Aviation S-2F3AT (S-2T) s/n 152345, USDA Forest Service FEPP for California Dept of Forestry & Fire Protection, McClellan CA (on loan through the Federal Excess Personal Property program)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (MASTER.txt)."
+        }
+      ]
+    },
+    {
+      "registration": "N448DF",
+      "hex": "a568a6",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "S2P",
+      "livery": "s-2t",
+      "confidence": "low",
+      "status": "registered (FAA, 2026-11-14); not seen by registration in a dated photo here: tagged as the type's fleet scheme.",
+      "sources": [
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=448DF",
+          "title": "FAA registry: N448DF, Marsh Aviation S-2F3AT (S-2T) s/n 152347, USDA Forest Service FEPP for California Dept of Forestry & Fire Protection, McClellan CA (on loan through the Federal Excess Personal Property program)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (MASTER.txt)."
+        }
+      ]
+    },
+    {
+      "registration": "N449DF",
+      "hex": "a56c5d",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "S2P",
+      "livery": "s-2t",
+      "confidence": "low",
+      "status": "registered (FAA, 2026-11-14); not seen by registration in a dated photo here: tagged as the type's fleet scheme.",
+      "sources": [
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=449DF",
+          "title": "FAA registry: N449DF, Marsh Aviation S-2F3AT (S-2T) s/n 152838, USDA Forest Service FEPP for California Dept of Forestry & Fire Protection, McClellan CA (on loan through the Federal Excess Personal Property program)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (MASTER.txt)."
+        }
+      ]
+    },
+    {
+      "registration": "N450DF",
+      "hex": "a5726d",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "S2P",
+      "livery": "s-2t",
+      "confidence": "high",
+      "lastSeen": "2024-11-14",
+      "status": "in CAL FIRE's scheme in a dated photo (2024-11-14); registered to CAL FIRE's program (FAA, 2026-11-14).",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:CAL_FIRE_Chico_S-2T_Airtanker_93_N450DF_(2024)-104A6791.jpg",
+          "title": "N450DF Tanker 93 at Chico (Frank Schulenburg, CC BY-SA 4.0), 2024-11-14",
+          "accessed": "2026-11-22"
+        },
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=450DF",
+          "title": "FAA registry: N450DF, Marsh Aviation S-2F3AT (S-2T) s/n 152341, USDA Forest Service FEPP for California Dept of Forestry & Fire Protection, McClellan CA (on loan through the Federal Excess Personal Property program)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (MASTER.txt)."
+        }
+      ]
+    },
+    {
+      "registration": "N400DF",
+      "hex": "a4acf2",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "V10",
+      "livery": "ov-10",
+      "confidence": "low",
+      "status": "registered (FAA, 2026-11-14); not seen by registration in a dated photo here: tagged as the type's fleet scheme.",
+      "sources": [
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=400DF",
+          "title": "FAA registry: N400DF, North American OV-10A s/n 305122M65, USDA Forest Service FEPP for California Dept of Forestry & Fire Protection, McClellan CA (on loan through the Federal Excess Personal Property program)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (MASTER.txt)."
+        }
+      ]
+    },
+    {
+      "registration": "N401DF",
+      "hex": "a4b0a9",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "V10",
+      "livery": "ov-10",
+      "confidence": "low",
+      "status": "registered (FAA, 2026-11-14); not seen by registration in a dated photo here: tagged as the type's fleet scheme.",
+      "sources": [
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=401DF",
+          "title": "FAA registry: N401DF, North American OV-10A s/n 305128M68, USDA Forest Service FEPP for California Dept of Forestry & Fire Protection, McClellan CA (on loan through the Federal Excess Personal Property program)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (MASTER.txt)."
+        }
+      ]
+    },
+    {
+      "registration": "N402DF",
+      "hex": "a4b460",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "V10",
+      "livery": "ov-10",
+      "confidence": "low",
+      "status": "registered (FAA, 2026-11-14); not seen by registration in a dated photo here: tagged as the type's fleet scheme.",
+      "sources": [
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=402DF",
+          "title": "FAA registry: N402DF, North American OV-10A s/n 305132M70, USDA Forest Service FEPP for California Dept of Forestry & Fire Protection, McClellan CA (on loan through the Federal Excess Personal Property program)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (MASTER.txt)."
+        }
+      ]
+    },
+    {
+      "registration": "N403DF",
+      "hex": "a4b817",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "V10",
+      "livery": "ov-10",
+      "confidence": "low",
+      "status": "registered (FAA, 2026-11-14); not seen by registration in a dated photo here: tagged as the type's fleet scheme.",
+      "sources": [
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=403DF",
+          "title": "FAA registry: N403DF, North American OV-10A s/n 305148M78, USDA Forest Service FEPP for California Dept of Forestry & Fire Protection, McClellan CA (on loan through the Federal Excess Personal Property program)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (MASTER.txt)."
+        }
+      ]
+    },
+    {
+      "registration": "N407DF",
+      "hex": "a4c6f3",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "V10",
+      "livery": "ov-10",
+      "confidence": "low",
+      "status": "registered (FAA, 2026-11-14); not seen by registration in a dated photo here: tagged as the type's fleet scheme.",
+      "sources": [
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=407DF",
+          "title": "FAA registry: N407DF, North American OV-10A s/n 305164M86, USDA Forest Service FEPP for California Dept of Forestry & Fire Protection, McClellan CA (on loan through the Federal Excess Personal Property program)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (MASTER.txt)."
+        }
+      ]
+    },
+    {
+      "registration": "N408DF",
+      "hex": "a4caaa",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "V10",
+      "livery": "ov-10",
+      "confidence": "low",
+      "status": "registered (FAA, 2026-11-14); not seen by registration in a dated photo here: tagged as the type's fleet scheme.",
+      "sources": [
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=408DF",
+          "title": "FAA registry: N408DF, North American OV-10A s/n 305178M90, USDA Forest Service FEPP for California Dept of Forestry & Fire Protection, McClellan CA (on loan through the Federal Excess Personal Property program)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (MASTER.txt)."
+        }
+      ]
+    },
+    {
+      "registration": "N409DF",
+      "hex": "a4ce61",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "V10",
+      "livery": "ov-10",
+      "confidence": "medium",
+      "lastSeen": "2014-10-04",
+      "status": "in CAL FIRE's scheme in a dated photo (2014-10-04); registered to CAL FIRE's program (FAA, 2026-11-14).",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N409DF_North_American-Rockwell_OV-10A_Airtactical_Aircraft_330_California_Department_of_Forestry_%26_Fire_Protection_(CDF)_%22Ramona%22_(15294673448).jpg",
+          "title": "N409DF '330' at Ramona (Tomás Del Coro, CC BY-SA 2.0), 2014-10-04",
+          "accessed": "2026-11-22"
+        },
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=409DF",
+          "title": "FAA registry: N409DF, North American OV-10A s/n 155401, USDA Forest Service FEPP for California Dept of Forestry & Fire Protection, McClellan CA (on loan through the Federal Excess Personal Property program)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (MASTER.txt)."
+        }
+      ]
+    },
+    {
+      "registration": "N410DF",
+      "hex": "a4d471",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "V10",
+      "livery": "ov-10",
+      "confidence": "low",
+      "status": "registered (FAA, 2026-11-14); not seen by registration in a dated photo here: tagged as the type's fleet scheme.",
+      "sources": [
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=410DF",
+          "title": "FAA registry: N410DF, North American OV-10A s/n 305158M82, USDA Forest Service FEPP for California Dept of Forestry & Fire Protection, McClellan CA (on loan through the Federal Excess Personal Property program)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (MASTER.txt)."
+        }
+      ]
+    },
+    {
+      "registration": "N413DF",
+      "hex": "a4df96",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "V10",
+      "livery": "ov-10",
+      "confidence": "low",
+      "status": "registered (FAA, 2026-11-14); not seen by registration in a dated photo here: tagged as the type's fleet scheme.",
+      "sources": [
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=413DF",
+          "title": "FAA registry: N413DF, North American OV-10A s/n 30520M13, USDA Forest Service FEPP for California Dept of Forestry & Fire Protection, McClellan CA (on loan through the Federal Excess Personal Property program)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (MASTER.txt)."
+        }
+      ]
+    },
+    {
+      "registration": "N414DF",
+      "hex": "a4e34d",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "V10",
+      "livery": "ov-10",
+      "confidence": "low",
+      "status": "registered (FAA, 2026-11-14); not seen by registration in a dated photo here: tagged as the type's fleet scheme.",
+      "sources": [
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=414DF",
+          "title": "FAA registry: N414DF, North American OV-10A s/n 30526M16, USDA Forest Service FEPP for California Dept of Forestry & Fire Protection, McClellan CA (on loan through the Federal Excess Personal Property program)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (MASTER.txt)."
+        }
+      ]
+    },
+    {
+      "registration": "N415DF",
+      "hex": "a4e704",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "V10",
+      "livery": "ov-10",
+      "confidence": "medium",
+      "lastSeen": "2016-03-05",
+      "status": "in CAL FIRE's scheme in a dated photo (2016-03-05); registered to CAL FIRE's program (FAA, 2026-11-14).",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Rockwell_OV-10A_Bronco_%E2%80%98N415DF_-_460%E2%80%99_(30192230912).jpg",
+          "title": "N415DF '460' at McClellan (Alan Wilson, CC BY-SA 2.0), 2016-03-05",
+          "accessed": "2026-11-22"
+        },
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=415DF",
+          "title": "FAA registry: N415DF, North American OV-10A s/n 30568M38, USDA Forest Service FEPP for California Dept of Forestry & Fire Protection, McClellan CA (on loan through the Federal Excess Personal Property program)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (MASTER.txt)."
+        }
+      ]
+    },
+    {
+      "registration": "N418DF",
+      "hex": "a4f229",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "V10",
+      "livery": "ov-10",
+      "confidence": "medium",
+      "lastSeen": "2016-03-05",
+      "status": "in CAL FIRE's scheme in a dated photo (2016-03-05); registered to CAL FIRE's program (FAA, 2026-11-14).",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Rockwell_OV-10A_Bronco_%E2%80%98N418DF_-_340%E2%80%99_(30288492815).jpg",
+          "title": "N418DF '340' at McClellan (Alan Wilson, CC BY-SA 2.0), 2016-03-05",
+          "accessed": "2026-11-22"
+        },
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=418DF",
+          "title": "FAA registry: N418DF, North American OV-10A s/n 30570M39, USDA Forest Service FEPP for California Dept of Forestry & Fire Protection, McClellan CA (on loan through the Federal Excess Personal Property program)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (MASTER.txt)."
+        }
+      ]
+    },
+    {
+      "registration": "N421DF",
+      "hex": "a4ffa7",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "V10",
+      "livery": "ov-10",
+      "confidence": "medium",
+      "lastSeen": "2016-03-05",
+      "status": "in CAL FIRE's scheme in a dated photo (2016-03-05); registered to CAL FIRE's program (FAA, 2026-11-14).",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Rockwell_OV-10A_Bronco_%E2%80%98N421DF_-_240%E2%80%99_(30027117520).jpg",
+          "title": "N421DF '240' at McClellan (Alan Wilson, CC BY-SA 2.0), 2016-03-05",
+          "accessed": "2026-11-22"
+        },
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=421DF",
+          "title": "FAA registry: N421DF, North American OV-10A s/n 305206M107, USDA Forest Service FEPP for California Dept of Forestry & Fire Protection, McClellan CA (on loan through the Federal Excess Personal Property program)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (MASTER.txt)."
+        }
+      ]
+    },
+    {
+      "registration": "N429DF",
+      "hex": "a51d5f",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "V10",
+      "livery": "ov-10",
+      "confidence": "low",
+      "status": "registered (FAA, 2026-11-14); not seen by registration in a dated photo here: tagged as the type's fleet scheme.",
+      "sources": [
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=429DF",
+          "title": "FAA registry: N429DF, North American OV-10A s/n 155400, USDA Forest Service FEPP for California Dept of Forestry & Fire Protection, McClellan CA (on loan through the Federal Excess Personal Property program)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (MASTER.txt)."
+        }
+      ]
+    },
+    {
+      "registration": "N430DF",
+      "hex": "a5236f",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "V10",
+      "livery": "ov-10",
+      "confidence": "high",
+      "lastSeen": "2025-08-30",
+      "status": "in CAL FIRE's scheme in a dated photo (2025-08-30); registered to CAL FIRE's program (FAA, 2026-11-14).",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:20250830_FS_Sierra_GarnetFire_SW_(54756535597).jpg",
+          "title": "N430DF '430' at Fresno during the Garnet Fire (USDA Forest Service, public domain), 2025-08-30",
+          "accessed": "2026-11-22"
+        },
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=430DF",
+          "title": "FAA registry: N430DF, North American OV-10A s/n 305127A60, USDA Forest Service FEPP for California Dept of Forestry & Fire Protection, McClellan CA (on loan through the Federal Excess Personal Property program)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (MASTER.txt)."
+        }
+      ]
+    },
+    {
+      "registration": "N455DF",
+      "hex": "a58500",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "V10",
+      "livery": "ov-10",
+      "confidence": "low",
+      "status": "registered (FAA, 2026-11-14); not seen by registration in a dated photo here: tagged as the type's fleet scheme.",
+      "sources": [
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=455DF",
+          "title": "FAA registry: N455DF, Rockwell OV-10D s/n 155492, USDA Forest Service FEPP for California Dept of Forestry & Fire Protection, McClellan CA (on loan through the Federal Excess Personal Property program)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (MASTER.txt)."
+        }
+      ]
+    },
+    {
+      "registration": "N456DF",
+      "hex": "a588b7",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "V10",
+      "livery": "ov-10",
+      "confidence": "low",
+      "status": "registered (FAA, 2026-11-14); not seen by registration in a dated photo here: tagged as the type's fleet scheme.",
+      "sources": [
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=456DF",
+          "title": "FAA registry: N456DF, Rockwell OV-10D s/n 155481, USDA Forest Service FEPP for California Dept of Forestry & Fire Protection, McClellan CA (on loan through the Federal Excess Personal Property program)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (MASTER.txt)."
+        }
+      ]
+    },
+    {
+      "registration": "N469DF",
+      "hex": "a5bb5b",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "V10",
+      "livery": "ov-10",
+      "confidence": "low",
+      "status": "registered (FAA, 2026-11-14); not seen by registration in a dated photo here: tagged as the type's fleet scheme.",
+      "sources": [
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=469DF",
+          "title": "FAA registry: N469DF, Rockwell OV-10D s/n 155395, USDA Forest Service FEPP for California Dept of Forestry & Fire Protection, McClellan CA (on loan through the Federal Excess Personal Property program)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (MASTER.txt)."
+        }
+      ]
+    },
+    {
+      "registration": "N470DF",
+      "hex": "a5c16b",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "V10",
+      "livery": "ov-10",
+      "confidence": "medium",
+      "lastSeen": "2016-03-05",
+      "status": "in CAL FIRE's scheme in a dated photo (2016-03-05); registered to CAL FIRE's program (FAA, 2026-11-14).",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Rockwell_OV-10A_Bronco_%E2%80%98N418DF_-_340%E2%80%99_(30288492815).jpg",
+          "title": "N470DF beside N418DF at McClellan (Alan Wilson, CC BY-SA 2.0), 2016-03-05",
+          "accessed": "2026-11-22"
+        },
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=470DF",
+          "title": "FAA registry: N470DF, Rockwell OV-10D s/n 155502, USDA Forest Service FEPP for California Dept of Forestry & Fire Protection, McClellan CA (on loan through the Federal Excess Personal Property program)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (MASTER.txt)."
+        }
+      ]
+    },
+    {
+      "registration": "N473DF",
+      "hex": "a5cc90",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "V10",
+      "livery": "ov-10",
+      "confidence": "low",
+      "status": "registered (FAA, 2026-11-14); not seen by registration in a dated photo here: tagged as the type's fleet scheme.",
+      "sources": [
+        {
+          "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberResult?nNumberTxt=473DF",
+          "title": "FAA registry: N473DF, Rockwell OV-10D s/n 155406, USDA Forest Service FEPP for California Dept of Forestry & Fire Protection, McClellan CA (on loan through the Federal Excess Personal Property program)",
+          "accessed": "2026-11-22",
+          "note": "Read from the FAA's releasable aircraft database of 2026-11-14 (MASTER.txt)."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,842 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "california-one",
+  "airline": "SWA",
+  "name": "California One (California flag)",
+  "kind": "special",
+  "description": "Fuselage: White upper and forward fuselage; a large red five-pointed star behind the forward door at window level; a huge brown California grizzly bear walking aft over the window line from about the forward cabin to the wing, standing on a green grass strip; lower aft fuselage and belly red (the flag's red bar) from the wing to the tail. Cheatlines: None. Tail: Heart fin (blue/red/yellow) with white 'Southwest'. Engines: Green cowlings with brown bear-fur artwork continuing over them. Winglets: approximate: white. Titles: 'Southwest' white on lower fin; 'California One' small by cockpit. Artwork: California 'Bear Flag'. Colors hex: approximate.",
+  "confidence": "medium",
+  "drawnOn": "B738",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Southwest_Airlines_fleet",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:N8653A_(aircraft)",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Southwest_Airlines_California_One_N8653A_@IND.jpg",
+      "title": "Southwest Airlines California One N8653A @IND.jpg (CC BY 4.0)",
+      "accessed": "2026-11-12",
+      "note": "N8653A from the right, 2026-07-18: star, bear, grass, red bar, engine, fin (measured from this one)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N8653A.jpg",
+      "title": "N8653A.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-12",
+      "note": "N8653A from the left, climbing, 2026-07-16: the same design on the left side, the bear walking forward on both sides."
+    }
+  ],
+  "palette": {
+    "blue": {
+      "hex": "#304CB2",
+      "name": "Bold Blue",
+      "official": true
+    },
+    "red": {
+      "hex": "#D5152B",
+      "official": false
+    },
+    "yellow": {
+      "hex": "#F9B612",
+      "official": false
+    },
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B4B9C0",
+      "official": false
+    },
+    "wingletGray": {
+      "hex": "#D3D6DA",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "name": "bare metal inlet lip",
+      "official": false
+    },
+    "starRed": {
+      "hex": "#E3242B",
+      "official": false
+    },
+    "bear": {
+      "hex": "#E58C2C",
+      "official": false
+    },
+    "bearDark": {
+      "hex": "#8B1E2E",
+      "official": false
+    },
+    "grass": {
+      "hex": "#2E9E4A",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "red bar along the lower aft fuselage, rising to the tail cone",
+        "color": "red",
+        "points": [
+          [
+            1,
+            1
+          ],
+          [
+            0.989,
+            1.0
+          ],
+          [
+            0.945,
+            0.39
+          ],
+          [
+            0.913,
+            0.274
+          ],
+          [
+            0.865,
+            0.148
+          ],
+          [
+            0.823,
+            0.041
+          ],
+          [
+            0.785,
+            -0.023
+          ],
+          [
+            0.753,
+            -0.117
+          ],
+          [
+            0.721,
+            -0.19
+          ],
+          [
+            0.677,
+            -0.271
+          ],
+          [
+            0.645,
+            -0.625
+          ],
+          [
+            0.645,
+            -1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "green grass, a diagonal band from the crown down to the wing root",
+        "color": "grass",
+        "points": [
+          [
+            0.693,
+            1
+          ],
+          [
+            0.667,
+            1
+          ],
+          [
+            0.613,
+            0.392
+          ],
+          [
+            0.562,
+            0.056
+          ],
+          [
+            0.533,
+            -0.142
+          ],
+          [
+            0.511,
+            -0.177
+          ],
+          [
+            0.537,
+            -0.186
+          ],
+          [
+            0.575,
+            -0.087
+          ],
+          [
+            0.639,
+            0.281
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "grizzly bear walking forward, over the window line",
+        "color": "bear",
+        "points": [
+          [
+            0.613,
+            0.763
+          ],
+          [
+            0.384,
+            1
+          ],
+          [
+            0.368,
+            0.456
+          ],
+          [
+            0.353,
+            0.277
+          ],
+          [
+            0.352,
+            0.062
+          ],
+          [
+            0.342,
+            -0.232
+          ],
+          [
+            0.357,
+            -0.333
+          ],
+          [
+            0.373,
+            -0.38
+          ],
+          [
+            0.387,
+            -0.268
+          ],
+          [
+            0.4,
+            -0.236
+          ],
+          [
+            0.416,
+            -0.28
+          ],
+          [
+            0.431,
+            -0.175
+          ],
+          [
+            0.454,
+            -0.166
+          ],
+          [
+            0.479,
+            -0.14
+          ],
+          [
+            0.498,
+            -0.129
+          ],
+          [
+            0.511,
+            -0.17
+          ],
+          [
+            0.533,
+            -0.142
+          ],
+          [
+            0.549,
+            -0.113
+          ],
+          [
+            0.562,
+            0.056
+          ],
+          [
+            0.581,
+            0.191
+          ],
+          [
+            0.597,
+            0.297
+          ],
+          [
+            0.61,
+            0.415
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ]
+      },
+      {
+        "name": "red star aft of the forward door",
+        "color": "starRed",
+        "points": [
+          [
+            0.192,
+            0.626
+          ],
+          [
+            0.195,
+            0.215
+          ],
+          [
+            0.168,
+            0.072
+          ],
+          [
+            0.197,
+            0.016
+          ],
+          [
+            0.2,
+            -0.307
+          ],
+          [
+            0.214,
+            -0.013
+          ],
+          [
+            0.241,
+            -0.063
+          ],
+          [
+            0.223,
+            0.165
+          ],
+          [
+            0.239,
+            0.502
+          ],
+          [
+            0.211,
+            0.314
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ]
+      },
+      {
+        "name": "blue dorsal fillet, the fin's blue run forward",
+        "color": "blue",
+        "points": [
+          [
+            0.762,
+            1
+          ],
+          [
+            0.8,
+            0.93
+          ],
+          [
+            0.985,
+            0.93
+          ],
+          [
+            0.985,
+            1
+          ]
+        ]
+      }
+    ],
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3
+    ]
+  },
+  "fin": {
+    "base": "blue",
+    "areas": [
+      {
+        "name": "pinstripe under the red",
+        "color": "white",
+        "above": [
+          [
+            0,
+            0.2
+          ],
+          [
+            0.177,
+            0.241
+          ],
+          [
+            0.504,
+            0.329
+          ],
+          [
+            0.723,
+            0.407
+          ],
+          [
+            0.883,
+            0.482
+          ],
+          [
+            1,
+            0.54
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "red band",
+        "color": "red",
+        "above": [
+          [
+            0,
+            0.213
+          ],
+          [
+            0.081,
+            0.235
+          ],
+          [
+            0.416,
+            0.324
+          ],
+          [
+            0.65,
+            0.404
+          ],
+          [
+            0.803,
+            0.479
+          ],
+          [
+            1,
+            0.555
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "pinstripe under the yellow",
+        "color": "white",
+        "above": [
+          [
+            0,
+            0.285
+          ],
+          [
+            0.18,
+            0.38
+          ],
+          [
+            0.315,
+            0.455
+          ],
+          [
+            0.489,
+            0.6
+          ],
+          [
+            0.645,
+            0.741
+          ],
+          [
+            0.8,
+            0.88
+          ],
+          [
+            0.895,
+            0.948
+          ],
+          [
+            0.97,
+            1.0
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "yellow band",
+        "color": "yellow",
+        "above": [
+          [
+            0,
+            0.3
+          ],
+          [
+            0.126,
+            0.377
+          ],
+          [
+            0.246,
+            0.452
+          ],
+          [
+            0.427,
+            0.597
+          ],
+          [
+            0.561,
+            0.738
+          ],
+          [
+            0.692,
+            0.877
+          ],
+          [
+            0.766,
+            0.946
+          ],
+          [
+            0.82,
+            1.0
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "leading-edge pinstripe along the yellow",
+        "color": "white",
+        "points": [
+          [
+            0.003,
+            0.3
+          ],
+          [
+            0.025,
+            0.3
+          ],
+          [
+            0.025,
+            1.0
+          ],
+          [
+            0.003,
+            1.0
+          ]
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "wingletGray",
+    "inner": "wingletGray"
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "areas": [
+      {
+        "name": "green aft cowling (the grass, continued)",
+        "color": "grass",
+        "points": [
+          [
+            0.44,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0.72,
+            1
+          ],
+          [
+            0.6,
+            0.2
+          ],
+          [
+            0.5,
+            -0.4
+          ]
+        ]
+      },
+      {
+        "name": "the bear's hind paw, continued",
+        "color": "bearDark",
+        "points": [
+          [
+            0.44,
+            1
+          ],
+          [
+            0.72,
+            1
+          ],
+          [
+            0.76,
+            0.6
+          ],
+          [
+            0.68,
+            -0.3
+          ],
+          [
+            0.55,
+            -0.6
+          ],
+          [
+            0.46,
+            0.0
+          ]
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3
+    ]
+  },
+  "logos": [
+    {
+      "mark": "SWA/heart",
+      "place": "fuselage",
+      "at": [
+        0.179,
+        0.363
+      ],
+      "height": 0.13,
+      "colors": [
+        "blue",
+        "red",
+        "yellow"
+      ],
+      "description": "The small Southwest Heart above and just aft of the forward passenger door.",
+      "reference": "https://commons.wikimedia.org/wiki/Category:Southwest_Airlines",
+      "side": "both",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ]
+    },
+    {
+      "mark": "SWA/us-flag",
+      "place": "fin",
+      "at": [
+        0.02,
+        0.05
+      ],
+      "height": 0.055,
+      "colors": [
+        "red",
+        "white",
+        "#1F2A5C"
+      ],
+      "description": "A small US flag ahead of the fin title, at the fin's root.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ]
+    },
+    {
+      "mark": "SWA/california-bear",
+      "place": "fuselage",
+      "at": [
+        0.505,
+        0.295
+      ],
+      "height": 1.0,
+      "colors": [
+        "bear",
+        "bearDark"
+      ],
+      "description": "The flag's grizzly, stylised in blocky fur: orange-ochre with maroon shading over roughly a third of the body (back, legs, belly), a few white highlights; walking forward, head just aft of the overwing exits' forward end, its back along the crown.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Southwest",
+      "place": "fin",
+      "at": [
+        0.084,
+        0.03
+      ],
+      "height": 0.12,
+      "color": "white",
+      "style": "The Southwest wordmark: bold, upright, rounded humanist sans, capital S, on the blue at the fin's root.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Bold",
+          "Gotham Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      },
+      "length": 0.86
+    },
+    {
+      "text": "California",
+      "place": "fuselage",
+      "at": [
+        0.0589,
+        -0.1
+      ],
+      "height": 0.05,
+      "color": "#2A2A2A",
+      "style": "The state's name, small under the cockpit windows, semi-bold; 'One' follows it in a lighter weight.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Demi Bold",
+          "Gotham Medium"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "length": 0.0211,
+      "side": "left"
+    },
+    {
+      "text": "One",
+      "place": "fuselage",
+      "at": [
+        0.0818,
+        -0.1
+      ],
+      "height": 0.05,
+      "color": "#2A2A2A",
+      "style": "'One' after the name, lighter.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Regular",
+          "Gotham Book"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "length": 0.0095,
+      "side": "left"
+    },
+    {
+      "text": "California",
+      "place": "fuselage",
+      "at": [
+        0.0702,
+        -0.1
+      ],
+      "height": 0.05,
+      "color": "#2A2A2A",
+      "style": "The state's name, small under the cockpit windows, semi-bold; 'One' follows it in a lighter weight. On the right it reads from the aft end: the name aft, 'One' forward.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Demi Bold",
+          "Gotham Medium"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "length": 0.0211,
+      "side": "right"
+    },
+    {
+      "text": "One",
+      "place": "fuselage",
+      "at": [
+        0.0589,
+        -0.1
+      ],
+      "height": 0.05,
+      "color": "#2A2A2A",
+      "style": "'One' after the name, lighter.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Regular",
+          "Gotham Book"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "length": 0.0095,
+      "side": "right"
+    }
+  ],
+  "notes": "Drawn from July 2026 photos of N8653A (both sides; the design is mirrored, so the bear walks forward on each). The bear is drawn as one silhouette; its maroon shading is described. Belly between the engines not seen squarely. Re-checked 2026-11-15: the fin is the state jets' Heart fin as re-measured on Colorado One, copied with its title and flag. 'California One' measured on the July 2026 right-side photo against the nose and the forward door (2.2-3.5 m back), two weights, a pair of titles per side (the left side mirrored, reading nose to tail), on Colorado One's line under the cockpit windows. The red bar's and the grass band's curved edges made smooth.",
+  "history": "Previously on N609SW and N943WN."
+}

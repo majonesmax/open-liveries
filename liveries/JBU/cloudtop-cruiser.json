@@ -1,0 +1,21 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "cloudtop-cruiser",
+  "airline": "JBU",
+  "name": "Cloudtop Cruiser (Super Mario)",
+  "kind": "special",
+  "confidence": "medium",
+  "description": "Fuselage: Bright, colorful Super Mario design (exact layout not verified). Titles: jetBlue. Artwork: Mario, Princess Peach, Luigi, Bowser, Donkey Kong and Yoshi. Colors hex: approximate.",
+  "sources": [
+    {
+      "url": "https://news.jetblue.com/latest-news/press-release-details/2025/Wahoo-JetBlue-Debuts-Special-Livery-Featuring-Mario-and-Friends/default.aspx",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://airlinegeeks.com/2025/03/07/livery-of-the-week-jetblue-s-mario-livery/",
+      "accessed": "2026-11-12"
+    }
+  ],
+  "notes": "Described only: no openly licensed photo of the Mario scheme was found (Wikimedia Commons searched 2026-11-12 for N561JB, 'Cloudtop Cruiser' and 'JetBlue Mario'; the newest Commons photos of N561JB, from 2023, show it as 'La Vie en Blue' in standard paint). Needs a dated, openly licensed reference photo before it can be drawn.",
+  "from": "2025-03"
+}

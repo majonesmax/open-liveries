@@ -1,0 +1,21 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "hekla-aurora",
+  "airline": "ICE",
+  "name": "Hekla Aurora",
+  "kind": "special",
+  "confidence": "high",
+  "description": "Fuselage: Dark navy-blue fuselage with flowing green (and some purple) northern-lights swirls along both sides. Cheatlines: None. Tail: Dark blue fin with Icelandair logo (approximate). Engines: approximate. Winglets: Blended winglets (approximate). Titles: 'ICELANDAIR' (approximate). Artwork: Aurora borealis. Colors hex: approximate.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Hekla_Aurora",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://aeroxplorer.com/articles/hekla-icelandair-retires-hekla-aurora-after-31-years-in-the-skies",
+      "accessed": "2026-11-12"
+    }
+  ],
+  "notes": "History entry.",
+  "from": "2014"
+}

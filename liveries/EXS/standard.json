@@ -1,0 +1,535 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "EXS",
+  "name": "Jet2holidays sunburst livery",
+  "kind": "standard",
+  "from": "2011",
+  "confidence": "high",
+  "drawnOn": "A21N",
+  "description": "White fuselage; behind the wing a straight diagonal of mid blue rises from the belly to the fin, and a red-orange-yellow sunburst spreads from the base of the fin's trailing edge over the fin and the tail cone, its red rays pointing forward. Big 'Jet2holidays' in red-to-orange lettering on the forward fuselage, the slogan 'Package holidays you can trust' in red italics over the mid-cabin windows. Blue engines with 'Jet2holidays'; blue winglets with a small sun.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:G-SUNC_-_Airbus_A321-251NX_-_Jet2_BHX_300825.jpg",
+      "accessed": "2026-11-13",
+      "title": "G-SUNC at BHX (CC BY 4.0)",
+      "note": "Left side, 2025: the blue sweep, the sunburst on fin and tail cone, titles, slogan, engine."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:G-SUNF_@_BHX,_2025-05-18.jpg",
+      "accessed": "2026-11-13",
+      "title": "G-SUNF at BHX (CC BY 2.0)",
+      "note": "Right side, 2025-05-18: the same mirrored; winglet with the sun."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:G-SUNC_-_Airbus_A321-251NX_-_Jet2_depart_BHX_300825.jpg",
+      "accessed": "2026-11-13",
+      "title": "G-SUNC departing BHX (CC BY 4.0)",
+      "note": "Right side from below: white forward belly, blue engines with titles."
+    },
+    {
+      "url": "https://worldairlinenews.com/2011/04/13/jet2-adopts-this-allegiant-like-livery/",
+      "accessed": "2026-11-13",
+      "title": "Jet2 adopts this Allegiant-like livery (World Airline News, 2011-04-13)",
+      "note": "The blue-and-sunburst scheme's first appearance."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Jet2Logo.svg",
+      "accessed": "2026-11-13",
+      "title": "Jet2 logo (Commons)"
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "blue": {
+      "hex": "#1F5BC4",
+      "official": false,
+      "name": "Jet2 blue"
+    },
+    "red": {
+      "hex": "#E0262B",
+      "official": false,
+      "name": "Jet2 red"
+    },
+    "orange": {
+      "hex": "#F5821F",
+      "official": false
+    },
+    "yellow": {
+      "hex": "#FDB515",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false,
+      "name": "bare metal inlet lip"
+    },
+    "holidays": {
+      "hex": "#E4571E",
+      "official": false,
+      "name": "the title's orange (holidays)"
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "blue aft sweep",
+        "color": "blue",
+        "points": [
+          [
+            0.664,
+            -1
+          ],
+          [
+            0.818,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "sunburst's red rays on the tail cone",
+        "color": "red",
+        "points": [
+          [
+            0.86,
+            1
+          ],
+          [
+            0.875,
+            0.62
+          ],
+          [
+            0.846,
+            0.42
+          ],
+          [
+            0.875,
+            0.3
+          ],
+          [
+            0.842,
+            0.06
+          ],
+          [
+            0.874,
+            -0.05
+          ],
+          [
+            0.854,
+            -0.26
+          ],
+          [
+            0.885,
+            -0.4
+          ],
+          [
+            0.9,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "sunburst's orange",
+        "color": "orange",
+        "points": [
+          [
+            0.89,
+            1
+          ],
+          [
+            0.895,
+            0.3
+          ],
+          [
+            0.915,
+            -0.3
+          ],
+          [
+            0.94,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "sunburst's yellow, at the tail cone's end",
+        "color": "yellow",
+        "points": [
+          [
+            0.95,
+            1
+          ],
+          [
+            0.955,
+            -0.2
+          ],
+          [
+            0.97,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0
+        ]
+      }
+    ],
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "blue",
+    "areas": [
+      {
+        "name": "sunburst rays (red)",
+        "color": "red",
+        "points": [
+          [
+            0.15,
+            -0.05
+          ],
+          [
+            0.15,
+            0.08
+          ],
+          [
+            0.37,
+            0.1
+          ],
+          [
+            0.07,
+            0.25
+          ],
+          [
+            0.38,
+            0.24
+          ],
+          [
+            0.085,
+            0.42
+          ],
+          [
+            0.45,
+            0.38
+          ],
+          [
+            0.18,
+            0.54
+          ],
+          [
+            0.5,
+            0.47
+          ],
+          [
+            0.57,
+            0.6
+          ],
+          [
+            0.72,
+            0.45
+          ],
+          [
+            0.89,
+            0.6
+          ],
+          [
+            1.05,
+            0.5
+          ],
+          [
+            1.05,
+            -0.05
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "sunburst orange",
+        "color": "orange",
+        "points": [
+          [
+            0.42,
+            -0.05
+          ],
+          [
+            0.45,
+            0.2
+          ],
+          [
+            0.55,
+            0.38
+          ],
+          [
+            0.72,
+            0.4
+          ],
+          [
+            0.87,
+            0.5
+          ],
+          [
+            1.05,
+            0.45
+          ],
+          [
+            1.05,
+            -0.05
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "sunburst yellow core",
+        "color": "yellow",
+        "points": [
+          [
+            0.68,
+            -0.05
+          ],
+          [
+            0.66,
+            0.18
+          ],
+          [
+            0.8,
+            0.33
+          ],
+          [
+            1.05,
+            0.35
+          ],
+          [
+            1.05,
+            -0.05
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "wings": {
+    "top": "#B9BEC5",
+    "under": "#C9CDD2"
+  },
+  "winglets": {
+    "outer": "blue",
+    "inner": "blue",
+    "confidence": "medium",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "blue",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "EXS/sunburst",
+      "place": "winglets",
+      "at": [
+        0.5,
+        0.75
+      ],
+      "height": 0.25,
+      "colors": [
+        "red",
+        "orange",
+        "yellow"
+      ],
+      "description": "A small version of the tail's sun: an orange-yellow disc ringed with pointed red rays, near the winglet's tip on the blue.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Jet2Logo.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Jet2holidays",
+      "place": "fuselage",
+      "at": [
+        0.079,
+        -0.33
+      ],
+      "height": 0.36,
+      "length": 0.21,
+      "color": "red",
+      "style": "Bold rounded sans, 'Jet2' red, 'holidays' orange (shading from red-orange to orange); lowercase with a capital J, the 2 the same height as the J.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Gill Sans Bold",
+          "Frutiger Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.62
+      },
+      "parts": [
+        {
+          "text": "Jet2",
+          "color": "red"
+        },
+        {
+          "text": "holidays",
+          "color": "holidays"
+        }
+      ]
+    },
+    {
+      "text": "Package holidays you can trust",
+      "place": "fuselage",
+      "at": [
+        0.337,
+        0.38
+      ],
+      "height": 0.24,
+      "length": 0.28,
+      "color": "red",
+      "style": "Red bold italic sans above the windows over the wing.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Gill Sans Bold Italic",
+          "Verdana Bold Italic"
+        ],
+        "weight": 700,
+        "slantDeg": 12,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      }
+    },
+    {
+      "text": "Jet2holidays",
+      "place": "engines",
+      "at": [
+        0.2,
+        0.15
+      ],
+      "height": 0.25,
+      "length": 0.45,
+      "color": "red",
+      "style": "As the fuselage's, with a small strapline under it, on the blue cowling.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Gill Sans Bold",
+          "Frutiger Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.62
+      },
+      "parts": [
+        {
+          "text": "Jet2",
+          "color": "red"
+        },
+        {
+          "text": "holidays",
+          "color": "holidays"
+        }
+      ]
+    }
+  ],
+  "notes": "Measured on A321neos (2025), which all carry 'Jet2holidays'. Many 737-800s wear the same paint with 'Jet2.com' titles in red instead (and no slogan); a few older 737s keep the earlier red-tailed Jet2.com scheme. The title's red-to-orange shading is described, not drawn. The belly aft of the blue sweep's start is blue; nothing else is seen from below. Re-checked 2026-11-15 on G-SUNC (side-on, 2025-08-30): the fuselage title sits wholly under the windows (its J's top just below the window bottoms), so it moved down and its cap height is 0.36 (it had run over the windows); 'Jet2' red and 'holidays' orange as parts; lowercase 0.62 of the J; the blue sweep's edge reduced to its two ends. Jet2's 737-800s carry 'Jet2.com' instead and aren't drawn here.",
+  "history": "Replaced Skyarium v1's approximation (red fin). The blue-and-sunburst scheme appeared in 2011 (on 757s leased from Allegiant, per press reports) and replaced the red-tailed Jet2.com scheme across most of the fleet."
+}

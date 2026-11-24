@@ -1,0 +1,28 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "ICE",
+  "airframes": [
+    {
+      "registration": "TF-FIU",
+      "livery": "hekla-aurora",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Hekla_Aurora",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://aeroxplorer.com/articles/hekla-icelandair-retires-hekla-aurora-after-31-years-in-the-skies",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "4cc2c5",
+      "hexSource": "looked up: hexdb.io community database (2026-11-12); not verified against the national register",
+      "type": "B752",
+      "from": "2014",
+      "to": "2025-10",
+      "lastSeen": "2026-09",
+      "status": "retired – scrapped Sep 2026 at Lleida-Alguaire: Final flight 12 Oct 2025 (AeroXplorer/Jetstream); Wikipedia records breakup early Sep 2026."
+    }
+  ]
+}

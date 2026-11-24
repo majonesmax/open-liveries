@@ -1,0 +1,202 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "JSX",
+  "name": "JSX (white with red X)",
+  "kind": "standard",
+  "confidence": "medium",
+  "drawnOn": "E145",
+  "description": "White all over. A large red X (the JSX mark) just behind the forward door, a small 'JSX' under the cockpit, and 'JSX' on the engine nacelles with the J and S in grey and the X in red. On the fin a red V high up and a red inverted V below it, as an X pulled apart at its middle; the lower V's forward arm runs on down across the tail cone. A thin red line edges the fin's leading edge and runs along the belly to a red nose tip. A red band along the top of the wings.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N963JX.jpg",
+      "title": "N963JX.jpg (CC BY-SA 4.0, Liam Thompson)",
+      "accessed": "2026-11-20",
+      "note": "ERJ-145 N963JX landing, left side from a little below, 2026-05-02. Fitted to shapes/E145.json (forward door and two windows pinned; fin-tip at the T-tail fairing's front): the fin's V and inverted V, the arm across the tail, the forward X, the small title, the belly line."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N253JX_(55077613193).jpg",
+      "title": "N253JX (55077613193).jpg (CC BY-SA 4.0, Liam Thompson)",
+      "accessed": "2026-11-20",
+      "note": "ERJ-135 N253JX climbing, left side from below, 2026-01-25: the same scheme on the -135; the belly line, the red nose tip, the engine's 'JSX'."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N912JX_-_KHPN_-_30-11-23.png",
+      "title": "N912JX - KHPN - 30-11-23.png (CC BY 4.0, Coldstreamer20)",
+      "accessed": "2026-11-20",
+      "note": "ERJ-145 N912JX taxiing at White Plains, right side from ahead, 2023-11-30: the right side's X ahead of the service door, the engine's 'JSX' reading normally, the fin's design facing forward as on the left."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N266JX_ERJ-135,_JSX,_Scottsdale_04-24-26_(55238015765).jpg",
+      "title": "N266JX ERJ-135, JSX, Scottsdale 04-24-26 (55238015765).jpg (CC BY 4.0, Duncan Kirk)",
+      "accessed": "2026-11-20",
+      "note": "ERJ-135 N266JX, left side, 2026-04-24: the fin's V and inverted V seen closest (a plainer variant: no forward X, no engine titles, no leading-edge line); the red band on the wing's top."
+    }
+  ],
+  "palette": {
+    "white": { "hex": "#F2F2F0", "official": false },
+    "red": { "hex": "#D3232C", "official": false },
+    "grey": { "hex": "#8D9298", "official": false },
+    "darkGrey": { "hex": "#4A4F55", "official": false },
+    "lip": { "hex": "#C3C7CC", "official": false }
+  },
+  "fuselage": {
+    "base": "white",
+    "windows": "plain",
+    "areas": [
+      {
+        "name": "red nose tip",
+        "color": "red",
+        "points": [[0, -1], [0.009, -1], [0.009, 1], [0, 1]],
+        "confidence": "medium",
+        "sourceRefs": [0, 1]
+      },
+      {
+        "name": "thin red line along the belly, nose to tail",
+        "color": "red",
+        "below": [[0, -0.9], [1, -0.9]],
+        "above": [[0, -0.96], [1, -0.96]],
+        "confidence": "low",
+        "sourceRefs": [0, 1]
+      },
+      {
+        "name": "the fin's lower V's forward arm, carried down across the tail cone",
+        "color": "red",
+        "points": [[0.925, 1], [0.9151, 0.1372], [0.8947, -0.3559, 1], [0.9117, -0.4005, 1], [0.9296, -0.097], [0.9495, 0.4609], [0.957, 1]],
+        "confidence": "high",
+        "sourceRefs": [0, 2, 3]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [0, 1, 2]
+  },
+  "fin": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "thin red line along the leading edge",
+        "color": "red",
+        "points": [[-0.05, 0], [0.035, 0], [0.035, 1.05], [-0.05, 1.05]],
+        "confidence": "medium",
+        "sourceRefs": [0, 2]
+      },
+      {
+        "name": "upper red V, its point at the fin's middle, its arms to the leading edge and up under the tailplane",
+        "color": "red",
+        "points": [[-0.02, 0.821], [0.4631, 0.592, 1], [0.68, 1.05], [1.05, 1.05], [1.05, 0.88], [0.5614, 0.3711, 1], [-0.02, 0.668]],
+        "confidence": "high",
+        "sourceRefs": [0, 2, 3]
+      },
+      {
+        "name": "lower inverted V's aft arm, to the trailing edge",
+        "color": "red",
+        "points": [[0.6053, 0.2851, 1], [1.05, 0.04], [1.05, -0.21], [0.67, 0.0442, 1]],
+        "confidence": "high",
+        "sourceRefs": [0, 2, 3]
+      },
+      {
+        "name": "lower inverted V's forward arm, down off the fin's foot",
+        "color": "red",
+        "points": [[0.6053, 0.2851, 1], [0.5013, 0.1293], [0.3983, -0.0245], [0.23, -0.1784], [0.0413, -0.4182], [0.1989, -0.4103], [0.3648, -0.2631], [0.5427, -0.1016], [0.67, 0.0442, 1]],
+        "confidence": "high",
+        "sourceRefs": [0, 2, 3]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [0, 2, 3]
+  },
+  "wings": {
+    "top": "#C4C8CD",
+    "under": "#C9CDD2",
+    "areas": [
+      {
+        "name": "red band along the top of the wing, behind the leading edge",
+        "color": "red",
+        "points": [[0.08, 0], [0.48, 0], [0.48, 0.95], [0.08, 0.95]],
+        "confidence": "low",
+        "sourceRefs": [0, 3]
+      }
+    ],
+    "confidence": "low",
+    "sourceRefs": [0, 3]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [0, 1, 2]
+  },
+  "titles": [
+    {
+      "text": "JSX",
+      "place": "engines",
+      "at": [0.147, -0.35],
+      "height": 1.0,
+      "length": 0.53,
+      "color": "grey",
+      "parts": [
+        { "text": "JS", "color": "grey" },
+        { "text": "X", "color": "red" }
+      ],
+      "style": "The JSX wordmark: thin, widely spaced geometric capitals, J and S in grey, the X in red as the mark's two crossing strokes; on the nacelle's side, reading normally on both.",
+      "confidence": "high",
+      "sourceRefs": [0, 1, 2],
+      "type": {
+        "similar": ["Futura Book", "Avenir Next Regular"],
+        "weight": 300,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "JSX",
+      "place": "fuselage",
+      "side": "left",
+      "at": [0.1219, -0.15],
+      "height": 0.12,
+      "length": 0.018,
+      "color": "darkGrey",
+      "style": "Small, thin spaced capitals under the cockpit's side window, ahead of the door.",
+      "confidence": "medium",
+      "sourceRefs": [0, 1],
+      "type": {
+        "similar": ["Futura Book", "Avenir Next Regular"],
+        "weight": 300,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "logos": [
+    {
+      "mark": "JSX/x",
+      "place": "fuselage",
+      "side": "left",
+      "at": [0.217, 0.111],
+      "height": 0.95,
+      "colors": ["red"],
+      "description": "The JSX X: two red strokes crossing, a little narrower than tall, over the first cabin window just behind the forward door.",
+      "reference": "https://commons.wikimedia.org/wiki/File:N963JX.jpg",
+      "confidence": "high",
+      "sourceRefs": [0, 1]
+    },
+    {
+      "mark": "JSX/x",
+      "place": "fuselage",
+      "side": "right",
+      "at": [0.178, 0.111],
+      "height": 0.95,
+      "colors": ["red"],
+      "description": "The same X on the right, ahead of the service door (placed by eye on a three-quarter view).",
+      "reference": "https://commons.wikimedia.org/wiki/File:N912JX_-_KHPN_-_30-11-23.png",
+      "confidence": "low",
+      "sourceRefs": [2]
+    }
+  ],
+  "notes": "Drawn on N963JX (ERJ-145, 2026-05-02); the ERJ-135s wear it the same way (N253JX). The fin's red V and inverted V are one X pulled apart at its middle; the inverted V's forward arm runs off the fin down across the tail cone to about y -0.4. The forward X spans y -0.29 to 0.72 at x 0.217 (about 1.5 m tall). The thin red edging also runs along the dorsal fillet and round the tailplane's tips and edges; the fillet's and tailplane's are not drawn. The belly line's height is read off photos from below and is uncertain; the wing band's place on the chord is from oblique views (low). Some jets fly a plainer version (N266JX, 2026-04-24: no forward X, no engine titles, no edging) and some wear specials (N247JX 'This Is How We Fly' in red, N960JX retro JetSuiteX, N242JX 'Club JSX'); not drawn here. The 'from' year is left out: no dated source in hand.",
+  "history": "New in the LAX round (2026-11-20); JSX had no scheme here before."
+}

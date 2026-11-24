@@ -1,0 +1,151 @@
+{
+  "_about": "CRJ900 (CL-600-2D24), from Bombardier's CRJ900 Airport Planning Manual (CSP C-020, Revision 11, Dec 17/2015), 00-02-02 for aircraft 15036-15037, 15040-15041 and 15043 on (all but the first few): Table 1 and Table 3 (page index 35-36), Figure 4 Aircraft Dimensions sheets 1 (side and front, page index 37) and 2 (plan and Detail A, page index 38), Figure 6 Door Dimensions and Clearances (page index 41). Black strokes (layers.py --mode strokes --color 0,0,0); the side view at the static ground angle, turned level (--rotate -2.0); the front view drawn 1.353 times the side's (from its printed 24.85 m span), rendered to the side's scale. Pixels of those rasters at scale 24 (the front at 17.733), line centres. Scaled by the printed 33.50 m (1318.8 in) fuselage length. The CRJ700's points moved by its two plugs (2.28 m ahead of the wing, 1.48 m behind it: plug.py), then snapped; the tail, nacelle, wing and winglet re-placed here. The side view draws the windows, the passenger door, both overwing exits and the three cargo doors (all on the left: Figure 6); the right side's service door is placed as on the CRJ700 (the same door, Figure 6's dashed outline). The aft cargo door's top is behind the nacelle: its height is Table 3's 0.84 m. Detail A prints the nacelle 59.6 in from the centerline to its inner side and 61.1 in wide: its middle 2.29 m out.",
+  "out": "../../../../shapes/CRJ9.json",
+  "length": 33.5,
+  "wingtip": "winglet",
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "engines": {
+    "mount": "fuselage"
+  },
+  "stabilizer": {
+    "mount": "fin"
+  },
+  "refs": {
+    "side": {
+      "nose": 236,
+      "tail": 8022,
+      "cowlEnd": 6700,
+      "windowRow": [2222, 2320],
+      "windowGap": 5,
+      "windowMinWidth": 50,
+      "windowInset": 3,
+      "windowBand": [2232, 2311]
+    },
+    "plan": {
+      "nose": 1061,
+      "centerline": 3086
+    },
+    "front": {
+      "centerline": 3354,
+      "crownTop": 1150
+    }
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [
+        1219,
+        2072,
+        1446,
+        2530
+      ],
+      "side": "left"
+    },
+    {
+      "kind": "door",
+      "box": [
+        1237,
+        2165,
+        1430,
+        2516
+      ],
+      "side": "right"
+    },
+    {
+      "kind": "exit",
+      "box": [
+        4183,
+        2183,
+        4303,
+        2442
+      ]
+    },
+    {
+      "kind": "exit",
+      "box": [
+        4425,
+        2183,
+        4545,
+        2442
+      ]
+    },
+    {
+      "kind": "cargo",
+      "box": [
+        2457,
+        2562,
+        2706,
+        2672
+      ],
+      "side": "left"
+    },
+    {
+      "kind": "cargo",
+      "box": [
+        3118,
+        2561,
+        3367,
+        2672
+      ],
+      "side": "left"
+    },
+    {
+      "kind": "cargo",
+      "box": [
+        6199,
+        2317,
+        6453,
+        2512
+      ],
+      "side": "left"
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [612, 2270],
+      [745, 2270],
+      [830, 2194],
+      [765, 2192]
+    ],
+    [
+      [782, 2276],
+      [866, 2194],
+      [1014, 2194],
+      [1020, 2202],
+      [1020, 2270],
+      [1012, 2277]
+    ]
+  ],
+  "printed": {
+    "fuselage length": 33.5,
+    "fuselage height": 2.69,
+    "fuselage width": 2.69,
+    "wingspan": 24.85,
+    "tailplane span": 8.54,
+    "overall length": 36.24,
+    "engine out from the centerline": 2.29,
+    "nacelle width": 1.55,
+    "engine inlet from the nose": 25.51
+  },
+  "meta": {
+    "id": "CRJ9",
+    "name": "Mitsubishi (Bombardier) CRJ900",
+    "types": [
+      "CRJ9"
+    ],
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://customer.aero.bombardier.com/webd/BAG/CustSite/BRAD/RACSDocument.nsf/51aae8b2b3bfdf6685256c300045ff31/ec63f8639ff3ab9d85257c1500635bd8/$FILE/ATTQF1EY.pdf/CRJ900APMR11.pdf",
+        "title": "Bombardier, CRJ900 Airport Planning Manual (CSP C-020, Revision 11), 00-02-02 Dimensions (aircraft 15036 on): Table 1, Table 3, Figure 4 Aircraft Dimensions (sheets 1-2), Figure 6 Door Dimensions and Clearances",
+        "accessed": "2026-11-15",
+        "note": "Dimensions and outlines read off Figure 4's side, plan and front views for aircraft 15036-15037, 15040-15041 and 15043 on (tools/trace/crj9/); the figures are the aircraft's measurements, not a copy of the drawing. The side view is drawn at the static ground angle and was turned level; the front view is drawn 1.353 times larger than the side and was rendered to its scale. The CRJ700's traced points (CRJ7) moved by its two fuselage plugs, then snapped onto this sheet; the longer wing, its winglet, the tail and nacelle re-placed here. The side view draws the 24 cabin windows a side, the passenger door, the two overwing exits and the three cargo doors, all on the left (Figure 6). The right side's service door is placed as on the CRJ700 (Figure 6's dashed outline: the same door); the optional aft service door on the right is left out. The aft cargo door's top is behind the nacelle in the drawing: its height is Table 3's 0.84 m. The engine's position is Detail A's (2.29 m out, as the CRJ700's). All checks within 0.6%."
+      }
+    ]
+  }
+}

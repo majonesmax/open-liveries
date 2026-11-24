@@ -1,0 +1,818 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "MSR",
+  "name": "A350 livery (2025)",
+  "kind": "standard",
+  "from": "2025",
+  "confidence": "medium",
+  "drawnOn": "A359",
+  "description": "White, with a huge Horus head painted across the forward body between doors 1 and 2: concentric arched feather bands in navy shading to bright blue, curving over the windows from a navy-outlined eye and sweeping down toward the belly. 'EGYPTAIR' in big navy capitals from door 2 back past the wing root, and again under the belly; 'مصر للطيران' in black on the engines. Navy fin shaded with bands of blue over a white Horus head looking forward.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:SU-GGI.jpg",
+      "title": "SU-GGI.jpg (CC BY-SA 4.0, Liam Thompson)",
+      "accessed": "2026-11-20",
+      "note": "A350-900 SU-GGI in flight, left side from ahead and below, 2026-07-11: measured on the A350-900 shape (fit 6–27 px; strong angle): Horus head, title start, fin."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Egyptair_A350-900_SU-GGH_wearing_the_El_Alamein_International_Airshow_2026_sticker.jpg",
+      "title": "Egyptair A350-900 SU-GGH wearing the El Alamein International Airshow 2026 sticker.jpg (CC BY-SA 4.0, Liam Thompson)",
+      "accessed": "2026-11-20",
+      "note": "A350-900 SU-GGH, left side from below, 2026-09-12: the same layout; Arabic title on the engine; small airshow sticker by the nose (not drawn)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:SU-GGH.jpg",
+      "title": "SU-GGH.jpg (CC BY-SA 4.0, Liam Thompson)",
+      "accessed": "2026-11-20",
+      "note": "SU-GGH from below, 2026-07-09: the belly's 'EGYPTAIR' and the fin from below."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/EgyptAir",
+      "title": "Wikipedia: EgyptAir",
+      "accessed": "2026-11-20",
+      "note": "A350-900 deliveries from 2025."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F2F3F5",
+      "official": false
+    },
+    "navy": {
+      "hex": "#13245E",
+      "official": false,
+      "name": "Horus navy"
+    },
+    "blue": {
+      "hex": "#1D5AAA",
+      "official": false,
+      "name": "feather blue"
+    },
+    "midBlue": {
+      "hex": "#2F86D0",
+      "official": false,
+      "name": "mid blue"
+    },
+    "lightBlue": {
+      "hex": "#6CB8EA",
+      "official": false,
+      "name": "light feather blue"
+    },
+    "black": {
+      "hex": "#1D1F22",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#C4C8CD",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "crown feather, the long outer arc over the windows from a point above the eye, navy shading to blue where it curves down ahead of door 2",
+        "color": "navy",
+        "smooth": true,
+        "points": [
+          [
+            0.126,
+            0.356,
+            1
+          ],
+          [
+            0.155,
+            0.594
+          ],
+          [
+            0.198,
+            0.892
+          ],
+          [
+            0.229,
+            0.944
+          ],
+          [
+            0.261,
+            0.679
+          ],
+          [
+            0.279,
+            0.491
+          ],
+          [
+            0.291,
+            0.258
+          ],
+          [
+            0.295,
+            0.035,
+            1
+          ],
+          [
+            0.285,
+            0.284
+          ],
+          [
+            0.269,
+            0.453
+          ],
+          [
+            0.239,
+            0.544
+          ],
+          [
+            0.208,
+            0.537
+          ],
+          [
+            0.176,
+            0.461
+          ],
+          [
+            0.144,
+            0.385
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "second feather, around the windows, sweeping back and down to a point by door 2",
+        "color": "blue",
+        "smooth": true,
+        "points": [
+          [
+            0.17,
+            0.42,
+            1
+          ],
+          [
+            0.207,
+            0.454
+          ],
+          [
+            0.239,
+            0.409
+          ],
+          [
+            0.259,
+            0.271
+          ],
+          [
+            0.275,
+            0.08
+          ],
+          [
+            0.287,
+            -0.178
+          ],
+          [
+            0.288,
+            -0.699,
+            1
+          ],
+          [
+            0.281,
+            -0.377
+          ],
+          [
+            0.27,
+            -0.106
+          ],
+          [
+            0.254,
+            0.087
+          ],
+          [
+            0.227,
+            0.199
+          ],
+          [
+            0.2,
+            0.266
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "third feather, from behind the eye sweeping back and down toward the belly",
+        "color": "navy",
+        "smooth": true,
+        "points": [
+          [
+            0.195,
+            0.278,
+            1
+          ],
+          [
+            0.221,
+            0.176
+          ],
+          [
+            0.245,
+            0.018
+          ],
+          [
+            0.261,
+            -0.206
+          ],
+          [
+            0.271,
+            -0.498
+          ],
+          [
+            0.274,
+            -0.779,
+            1
+          ],
+          [
+            0.264,
+            -0.804,
+            1
+          ],
+          [
+            0.256,
+            -0.519
+          ],
+          [
+            0.244,
+            -0.225
+          ],
+          [
+            0.228,
+            -0.036
+          ],
+          [
+            0.21,
+            0.085
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "fourth feather",
+        "color": "blue",
+        "smooth": true,
+        "points": [
+          [
+            0.199,
+            0.083,
+            1
+          ],
+          [
+            0.22,
+            -0.045
+          ],
+          [
+            0.236,
+            -0.234
+          ],
+          [
+            0.245,
+            -0.534
+          ],
+          [
+            0.25,
+            -0.785,
+            1
+          ],
+          [
+            0.24,
+            -0.812,
+            1
+          ],
+          [
+            0.234,
+            -0.55
+          ],
+          [
+            0.223,
+            -0.248
+          ],
+          [
+            0.209,
+            -0.087
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "fifth feather",
+        "color": "navy",
+        "smooth": true,
+        "points": [
+          [
+            0.196,
+            -0.035,
+            1
+          ],
+          [
+            0.208,
+            -0.234
+          ],
+          [
+            0.217,
+            -0.576
+          ],
+          [
+            0.221,
+            -0.784,
+            1
+          ],
+          [
+            0.21,
+            -0.813,
+            1
+          ],
+          [
+            0.207,
+            -0.593
+          ],
+          [
+            0.2,
+            -0.274
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "sixth feather, the shortest and most forward, under the eye",
+        "color": "blue",
+        "smooth": true,
+        "points": [
+          [
+            0.191,
+            -0.19,
+            1
+          ],
+          [
+            0.2,
+            -0.443
+          ],
+          [
+            0.205,
+            -0.769,
+            1
+          ],
+          [
+            0.187,
+            -0.816,
+            1
+          ],
+          [
+            0.187,
+            -0.46
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "navy cheek stroke from under the eye curving down and aft",
+        "color": "navy",
+        "smooth": true,
+        "points": [
+          [
+            0.128,
+            0.209,
+            1
+          ],
+          [
+            0.157,
+            0.062
+          ],
+          [
+            0.173,
+            -0.154
+          ],
+          [
+            0.183,
+            -0.359
+          ],
+          [
+            0.186,
+            -0.478,
+            1
+          ],
+          [
+            0.18,
+            -0.396
+          ],
+          [
+            0.169,
+            -0.197
+          ],
+          [
+            0.153,
+            0.026
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "plain",
+    "confidence": "low",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "fin": {
+    "base": "navy",
+    "areas": [
+      {
+        "name": "blue: the outermost of the bands that ring the head, above it and down its forward side to the root",
+        "color": "blue",
+        "smooth": true,
+        "points": [
+          [
+            0.552,
+            -0.157,
+            1
+          ],
+          [
+            0.397,
+            0.136
+          ],
+          [
+            0.214,
+            0.298
+          ],
+          [
+            0.051,
+            0.438
+          ],
+          [
+            -0.011,
+            0.761
+          ],
+          [
+            0.37,
+            0.819
+          ],
+          [
+            0.835,
+            0.853
+          ],
+          [
+            1.126,
+            0.863,
+            1
+          ],
+          [
+            1.502,
+            -0.096,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "mid blue band inside it",
+        "color": "midBlue",
+        "smooth": true,
+        "points": [
+          [
+            0.696,
+            -0.148,
+            1
+          ],
+          [
+            0.553,
+            0.128
+          ],
+          [
+            0.347,
+            0.289
+          ],
+          [
+            0.165,
+            0.427
+          ],
+          [
+            -0.009,
+            0.682
+          ],
+          [
+            0.409,
+            0.726
+          ],
+          [
+            0.869,
+            0.752
+          ],
+          [
+            1.195,
+            0.765,
+            1
+          ],
+          [
+            1.502,
+            -0.096,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "light blue band inside that",
+        "color": "lightBlue",
+        "smooth": true,
+        "points": [
+          [
+            0.811,
+            -0.141,
+            1
+          ],
+          [
+            0.668,
+            0.135
+          ],
+          [
+            0.452,
+            0.295
+          ],
+          [
+            0.244,
+            0.422
+          ],
+          [
+            0.006,
+            0.594
+          ],
+          [
+            0.437,
+            0.637
+          ],
+          [
+            0.92,
+            0.661
+          ],
+          [
+            1.247,
+            0.674,
+            1
+          ],
+          [
+            1.502,
+            -0.096,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "white Horus head, ringed by the bands, its navy feather lines and eye the logo's",
+        "color": "white",
+        "smooth": true,
+        "points": [
+          [
+            0.926,
+            -0.133,
+            1
+          ],
+          [
+            0.753,
+            0.158
+          ],
+          [
+            0.543,
+            0.317
+          ],
+          [
+            0.314,
+            0.426
+          ],
+          [
+            0.022,
+            0.495
+          ],
+          [
+            0.322,
+            0.569
+          ],
+          [
+            0.723,
+            0.588
+          ],
+          [
+            0.917,
+            0.556
+          ],
+          [
+            1.295,
+            0.573,
+            1
+          ],
+          [
+            1.502,
+            -0.096,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "low",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "MSR/horus",
+      "place": "fin",
+      "at": [
+        0.55,
+        0.5
+      ],
+      "height": 0.5,
+      "colors": [
+        "white",
+        "navy"
+      ],
+      "description": "EgyptAir's Horus: a falcon's head facing forward, white with a navy eye and navy feather lines, its feathers fanning back as bands.",
+      "reference": "https://commons.wikimedia.org/wiki/File:SU-GGI.jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "MSR/horus-body",
+      "place": "fuselage",
+      "at": [
+        0.22,
+        -0.1
+      ],
+      "height": 1.7,
+      "colors": [
+        "navy",
+        "blue"
+      ],
+      "description": "The same Horus drawn huge on the forward body: a navy-outlined eye by the forward windows, feather bands fanning over and down; the areas carry its bands, this its eye and fine lines.",
+      "reference": "https://commons.wikimedia.org/wiki/File:SU-GGI.jpg",
+      "confidence": "low",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "EGYPTAIR",
+      "place": "fuselage",
+      "at": [
+        0.338,
+        0.01
+      ],
+      "height": 0.586,
+      "length": 0.29,
+      "color": "navy",
+      "style": "Big navy bold capitals with angular cut terminals, from door 2 back past the wing root.",
+      "type": {
+        "similar": [
+          "Eurostile Bold Extended",
+          "Microgramma Bold"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "confidence": "low",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "text": "EGYPTAIR",
+      "place": "belly",
+      "at": [
+        0.33,
+        -1
+      ],
+      "height": 0.5,
+      "length": 0.29,
+      "color": "navy",
+      "style": "The same navy capitals under the belly, reading nose to tail.",
+      "type": {
+        "similar": [
+          "Eurostile Bold Extended",
+          "Microgramma Bold"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "confidence": "low",
+      "sourceRefs": [
+        2
+      ]
+    },
+    {
+      "text": "مصر للطيران",
+      "place": "engines",
+      "at": [
+        0.25,
+        0.1
+      ],
+      "height": 0.25,
+      "length": 0.55,
+      "color": "black",
+      "style": "'Misr lil-Tayaran' in black Arabic on the nacelle.",
+      "type": {
+        "similar": [
+          "Noto Kufi Arabic",
+          "Noto Naskh Arabic"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "contrast",
+        "case": "mixed"
+      },
+      "confidence": "low",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "notes": "Only left-side photos (SU-GGI, SU-GGH, 2026) are on Commons; the right side is drawn the same and not checked. The side title's end is hidden by the engine and wing in every photo: its length (0.29) is read from the visible letters' pitch for eight letters, not seen. All three photos are from ahead and below: the fit is good to about 1–1.5 m along the body, the Horus feathers are seven tapered areas, each edge measured point by point on SU-GGI through the fit (crown feather from above the eye to a point ahead of door 2; five feathers sweeping back and down to the belly, alternating navy and blue; the cheek stroke), their navy-to-blue shading and the eye stay the logo's. The fin: four nested bands (blue, mid blue, light blue, then the white head) measured the same way, ringing the head over its top and down its forward side to the root; the navy feather lines in the head are the logo's. The right side has no Commons photo: drawn as the left's mirror (areas apply to both sides), not checked. The rest of the fleet (737, 777, 787, A320neo, A330) still wore the earlier scheme (white, blue Horus tail, 'EGYPTAIR' over the windows) in the photos seen; not drawn here.",
+  "history": "New file (EgyptAir had no scheme here). This scheme came with the A350-900 deliveries (2025); EgyptAir's earlier scheme flies on the rest of the fleet (see notes)."
+}

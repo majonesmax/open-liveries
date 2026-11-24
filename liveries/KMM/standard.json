@@ -1,0 +1,347 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "KMM",
+  "name": "KM Malta Airlines (2024 livery)",
+  "kind": "standard",
+  "from": "2024-03-31",
+  "confidence": "medium",
+  "drawnOn": "A20N",
+  "description": "White with the rear fuselage red: its front edge curves up from the belly just behind the wing to a point at the window line, then runs up to the crown a little ahead of the fin, a darker crimson band along the curve. Red fin with the white eight-pointed Maltese cross large across it, its tip a darker crimson above a slanting line. 'malta' in red lower case over the forward windows behind the door. Red engines with 'VisitMalta' in white; red sharklets with a small white cross.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:KM_Malta_Airlines_9H-NEE_A320-251N.jpg",
+      "title": "KM Malta Airlines 9H-NEE A320-251N.jpg (CC BY-SA 4.0, Zima Savolainen)",
+      "accessed": "2026-11-22",
+      "note": "A320neo 9H-NEE taxiing at Amsterdam, right side, 2026-02-21. Flipped and fitted to shapes/A20N.json on its doors, crown, belly and fin tip (within about 20 px, 0.5 m; the nose and tail left out, the camera ahead of the aircraft): the red's front edge, the crimson band, the title's ends and height, the fin's darker tip and the cross's middle and size (the fin read by eye off the fin's edges)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:KM_Malta_Airlines,_9H-NEH,_Airbus_A320-251N_(54008650535).jpg",
+      "title": "KM Malta Airlines, 9H-NEH, Airbus A320-251N (54008650535).jpg (CC BY-SA 2.0, Anna Zvereva)",
+      "accessed": "2026-11-22",
+      "note": "A320neo 9H-NEH on approach, left side from below, 2024-08-30: the same scheme on the left; the title over the forward windows, the red engines, the sharklet's white cross and its white root."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/KM_Malta_Airlines",
+      "title": "KM Malta Airlines (Wikipedia)",
+      "accessed": "2026-11-22",
+      "note": "Malta's new flag carrier, replacing Air Malta from 31 March 2024 with the same A320neos repainted; ICAO KMM."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F2F2F2",
+      "official": false
+    },
+    "red": {
+      "hex": "#D42A45",
+      "name": "KM Malta red",
+      "official": false
+    },
+    "crimson": {
+      "hex": "#9B2443",
+      "name": "the darker band and fin tip",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "windows": "plain",
+    "areas": [
+      {
+        "name": "red rear fuselage, its front edge curving up from the belly to a point at the window line, then up to the crown",
+        "color": "red",
+        "smooth": true,
+        "points": [
+          [
+            0.682,
+            -1
+          ],
+          [
+            0.688,
+            -0.57
+          ],
+          [
+            0.695,
+            -0.3
+          ],
+          [
+            0.708,
+            -0.05
+          ],
+          [
+            0.726,
+            0.14
+          ],
+          [
+            0.739,
+            0.36,
+            1
+          ],
+          [
+            0.733,
+            0.57
+          ],
+          [
+            0.728,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "darker crimson band along the red's front edge, from the belly to its point",
+        "color": "crimson",
+        "smooth": true,
+        "points": [
+          [
+            0.682,
+            -1
+          ],
+          [
+            0.688,
+            -0.57
+          ],
+          [
+            0.695,
+            -0.3
+          ],
+          [
+            0.708,
+            -0.05
+          ],
+          [
+            0.726,
+            0.14
+          ],
+          [
+            0.739,
+            0.36,
+            1
+          ],
+          [
+            0.742,
+            0.2
+          ],
+          [
+            0.728,
+            -0.1
+          ],
+          [
+            0.716,
+            -0.6
+          ],
+          [
+            0.712,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "fin": {
+    "base": "red",
+    "areas": [
+      {
+        "name": "darker crimson tip above a line slanting down toward the trailing edge",
+        "color": "crimson",
+        "points": [
+          [
+            0,
+            0.82
+          ],
+          [
+            1,
+            0.67
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "wings": {
+    "top": "#B9BEC5",
+    "under": "#C9CDD2"
+  },
+  "winglets": {
+    "outer": "red",
+    "inner": "red",
+    "areas": [
+      {
+        "name": "white root",
+        "color": "white",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0.18
+          ],
+          [
+            0,
+            0.18
+          ]
+        ]
+      }
+    ],
+    "confidence": "low",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "red",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "titles": [
+    {
+      "text": "malta",
+      "place": "fuselage",
+      "at": [
+        0.152,
+        0.26
+      ],
+      "height": 0.21,
+      "length": 0.082,
+      "color": "red",
+      "style": "'malta' in bold, rounded lower case, red, over the windows just behind the forward door.",
+      "type": {
+        "similar": [
+          "Montserrat ExtraBold",
+          "Gotham Rounded Bold"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.6
+      },
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "text": "VisitMalta",
+      "place": "engines",
+      "at": [
+        0.3,
+        -0.1
+      ],
+      "height": 0.18,
+      "length": 0.4,
+      "color": "white",
+      "style": "Small white 'VisitMalta' with the Maltese cross after it on the nacelle's side (the tourism authority's mark).",
+      "type": {
+        "similar": [
+          "Arial Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      },
+      "confidence": "low",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "logos": [
+    {
+      "mark": "KMM/cross",
+      "place": "fin",
+      "at": [
+        0.55,
+        0.34
+      ],
+      "height": 0.68,
+      "colors": [
+        "white"
+      ],
+      "description": "The Maltese cross in white, very large across the red fin's lower two thirds: four arms, each a V-notched wedge narrowing to the middle (eight points), its aft arm reaching the trailing edge.",
+      "reference": "https://commons.wikimedia.org/wiki/File:KM_Malta_Airlines_logo.png",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "KMM/cross",
+      "place": "winglets",
+      "at": [
+        0.5,
+        0.6
+      ],
+      "height": 0.22,
+      "colors": [
+        "white"
+      ],
+      "description": "The Maltese cross small in white on the red sharklet.",
+      "reference": "https://commons.wikimedia.org/wiki/File:KM_Malta_Airlines_logo.png",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    }
+  ],
+  "notes": "Measured on 9H-NEE (right side, Amsterdam, 2026-02-21) flipped and fitted to the A20N shape on its doors, crown, belly and fin tip, and checked by eye on 9H-NEH (left side, 2024-08-30). The red's front edge reads x 0.682 at the belly to a point at (0.739, 0.36), then up to the crown at 0.728; the crimson band along it is about 1.5 m wide near the belly. 'malta' runs x 0.152-0.234, baseline y 0.26, its ascenders to 0.47. The fin's darker tip runs from 0.82 up the leading edge to 0.67 at the trailing edge; the cross's middle at (0.55, 0.34), 0.68 of the fin tall, read off the fin's edges by eye (the fit's fin was 20 px out). Not drawn: a small script line over the windows ahead of the wing that differs by aircraft ('Explore more culture' on 9H-NEE in 2026, 'Explore more stories' on others); the EU and Maltese flags before the registration. 9H-NEC carries a multicoloured Visit Malta special on its rear fuselage and a larger title (2025 photos), not this scheme.",
+  "history": "New 2026-11-22 (the maintainer's sightings: 9H-NEF). KM Malta Airlines took over from Air Malta on 31 March 2024, its A320neos repainted from Air Malta's scheme."
+}

@@ -1,0 +1,39 @@
+{
+  "name": "open-liveries-renderer",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Draws Open Liveries schemes as SVG, on built-in aircraft shapes or your own.",
+  "keywords": [
+    "airline",
+    "livery",
+    "aircraft",
+    "svg",
+    "aviation"
+  ],
+  "homepage": "https://github.com/majonesmax/open-liveries/tree/main/renderer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/majonesmax/open-liveries.git",
+    "directory": "renderer"
+  },
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "open-liveries-render": "dist/cli.js"
+  },
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  }
+}

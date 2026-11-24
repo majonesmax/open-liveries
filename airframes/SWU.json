@@ -1,0 +1,41 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "SWU",
+  "airframes": [
+    {
+      "registration": "9H-MATI",
+      "hex": "4d2029",
+      "hexSource": "looked up: hexdb.io community database (2026-11-21); not verified against the national register",
+      "type": "DH8D",
+      "livery": "green",
+      "lastSeen": "2024-08-28",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:9H-MATI_Bombardier_DHC-8-402Q_Dash_8_SkyAlps_LGW_28.8.24.jpg",
+          "title": "9H-MATI at Gatwick, 2024-08-28 (CC BY-SA 2.0, Colin Cooke Photo)",
+          "accessed": "2026-11-21"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:SkyAlps,_9H-MATI,_De_Havilland_Canada_Dash_8-400.jpg",
+          "title": "9H-MATI, 2024-05-19 (CC BY-SA 2.0, Anna Zvereva)",
+          "accessed": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "registration": "9H-SOP",
+      "type": "DH8D",
+      "livery": "green",
+      "lastSeen": "2026-05-17",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Antwerp_Bombardier_Dash_8-Q402_9H-SOP_during_Stampe_Forever_Fly_In_2026_01.jpg",
+          "title": "9H-SOP at Antwerp, 2026-05-17 (CC BY-SA 4.0, Ad Meskens)",
+          "accessed": "2026-11-21"
+        }
+      ]
+    }
+  ]
+}

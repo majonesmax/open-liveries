@@ -1,0 +1,563 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "our-commitment",
+  "airline": "ASA",
+  "name": "Our Commitment (UNCF)",
+  "kind": "special",
+  "confidence": "medium",
+  "drawnOn": "B739",
+  "description": "Fuselage: Black all over. Cheatlines: None; from just ahead of the wing to ahead of the tail, the profiles of 14 young people (children, grandchildren and mentees of Alaska employees) in copper, amber and brown silhouettes, from the crown down to the belly behind the wing. Tail: Black with 'Alaska' in dark gray reading up the fin. Engines: Black with the UNCF logo. Winglets: Black. Titles: A quote on each side ahead of the profiles, in condensed capitals in orange and off-white: on the left Dr. Martin Luther King Jr.'s 'The time is always right to do what is right.', on the right Nelson Mandela's 'Education is the most powerful weapon we can use to change the world.' Typography by Adé Hogue. Colors hex: not published; matched by eye.",
+  "sources": [
+    {
+      "url": "https://www.alaskaair.com/content/travel-info/our-aircraft/737-900-er-our-commitment",
+      "title": "Alaska Airlines: UNCF Our Commitment Livery",
+      "accessed": "2026-11-14",
+      "note": "Alaska's page for the aircraft; its photo shows the right side from ahead: Mandela's quote, the profiles and the fin title."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:N492AS_(aircraft)",
+      "title": "N492AS on Commons",
+      "accessed": "2026-11-14"
+    },
+    {
+      "url": "https://news.alaskaair.com/newsroom/alaska-airlines-reveals-our-commitment-aircraft-in-partnership-with-uncf/",
+      "title": "Alaska Airlines reveals 'Our Commitment' aircraft in partnership with UNCF",
+      "accessed": "2026-11-14",
+      "note": "Released 2021-04-28; in service from 2021-04-27. The two quotes, the 14 profiles and the typographer."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N492AS.jpg",
+      "title": "N492AS.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-14",
+      "note": "Left side side-on on approach, 2026-05-30: King's quote, the profiles, the fin title; geometry measured from it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N492AS_@_SFO.jpg",
+      "title": "N492AS @ SFO.jpg (CC BY-SA 2.0)",
+      "accessed": "2026-11-14",
+      "note": "Left side taxiing, SFO 2022-09: the same layout."
+    }
+  ],
+  "notes": "Drawn from the left side (2026-05-30, side-on) and Alaska's photo of the right side. The two sides carry different quotes (titles marked by side); the right side's quote is placed from Alaska's three-quarter photo, so its position is less sure. The profiles are drawn as one copper field with an amber front: each face is in the logo entry. The 'UNCF' logo on the engines and the small quote attributions aren't drawn.",
+  "from": "2021-04",
+  "palette": {
+    "black": {
+      "hex": "#16161B",
+      "name": "Black",
+      "official": false
+    },
+    "copper": {
+      "hex": "#C4622A",
+      "name": "Copper",
+      "official": false
+    },
+    "amber": {
+      "hex": "#E8892F",
+      "name": "Amber",
+      "official": false
+    },
+    "ember": {
+      "hex": "#6E3420",
+      "name": "Brown",
+      "official": false
+    },
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "orange": {
+      "hex": "#F08A24",
+      "name": "Orange",
+      "official": false
+    },
+    "bone": {
+      "hex": "#DAD6CE",
+      "name": "Off-white",
+      "official": false
+    },
+    "slate": {
+      "hex": "#3B3F48",
+      "name": "Dark gray",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC5",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "black",
+    "areas": [
+      {
+        "name": "copper profiles from ahead of the wing to ahead of the fin, reaching the belly behind the wing",
+        "color": "copper",
+        "points": [
+          [
+            0.372,
+            0.2
+          ],
+          [
+            0.378,
+            0.8
+          ],
+          [
+            0.6,
+            0.85
+          ],
+          [
+            0.76,
+            0.8
+          ],
+          [
+            0.862,
+            0.7
+          ],
+          [
+            0.87,
+            0.1
+          ],
+          [
+            0.84,
+            -0.6
+          ],
+          [
+            0.8,
+            -0.92
+          ],
+          [
+            0.6,
+            -0.92
+          ],
+          [
+            0.53,
+            -0.6
+          ],
+          [
+            0.47,
+            -0.2
+          ],
+          [
+            0.41,
+            0.12
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          3
+        ]
+      },
+      {
+        "name": "amber faces at the front of the profiles",
+        "color": "amber",
+        "points": [
+          [
+            0.372,
+            0.2
+          ],
+          [
+            0.378,
+            0.8
+          ],
+          [
+            0.46,
+            0.82
+          ],
+          [
+            0.47,
+            0.25
+          ],
+          [
+            0.43,
+            0.05
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0,
+          3
+        ]
+      },
+      {
+        "name": "dark brown profiles low behind the wing",
+        "color": "ember",
+        "points": [
+          [
+            0.63,
+            -0.2
+          ],
+          [
+            0.7,
+            0.25
+          ],
+          [
+            0.78,
+            0.2
+          ],
+          [
+            0.82,
+            -0.5
+          ],
+          [
+            0.78,
+            -0.92
+          ],
+          [
+            0.64,
+            -0.92
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0,
+          3
+        ]
+      }
+    ],
+    "radome": {
+      "color": "black"
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      3
+    ]
+  },
+  "fin": {
+    "base": "black",
+    "rudder": "black",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      3
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "stabilizer": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "black",
+    "inner": "black",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      3
+    ]
+  },
+  "engines": {
+    "cowling": "black",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      3
+    ]
+  },
+  "logos": [
+    {
+      "mark": "ASA/our-commitment-profiles",
+      "place": "fuselage",
+      "at": [
+        0.62,
+        0.0
+      ],
+      "height": 1.9,
+      "colors": [
+        "copper",
+        "amber",
+        "ember"
+      ],
+      "description": "Fourteen profiles of young people facing forward, overlapping like a crowd, in copper, amber and brown on the black.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        3
+      ]
+    },
+    {
+      "mark": "ASA/uncf-torch",
+      "place": "engines",
+      "at": [
+        0.5,
+        0.2
+      ],
+      "height": 0.5,
+      "colors": [
+        "white"
+      ],
+      "description": "UNCF's torch logo and name in white on the cowling.",
+      "confidence": "low",
+      "sourceRefs": [
+        0,
+        3
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "THE TIME IS",
+      "place": "fuselage",
+      "at": [
+        0.198,
+        0.52
+      ],
+      "height": 0.12,
+      "color": "orange",
+      "style": "Small condensed capitals in orange, the first line of King's quote.",
+      "side": "left",
+      "confidence": "medium",
+      "sourceRefs": [
+        3
+      ],
+      "length": 0.055,
+      "type": {
+        "similar": [
+          "Futura Extra Bold Condensed",
+          "Helvetica Neue Condensed Black"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "ALWAYS RIGHT TO",
+      "place": "fuselage",
+      "at": [
+        0.188,
+        0.36
+      ],
+      "height": 0.14,
+      "color": "orange",
+      "style": "Condensed capitals in orange.",
+      "side": "left",
+      "confidence": "medium",
+      "sourceRefs": [
+        3
+      ],
+      "length": 0.14,
+      "type": {
+        "similar": [
+          "Futura Extra Bold Condensed",
+          "Helvetica Neue Condensed Black"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "DO WHAT",
+      "place": "fuselage",
+      "at": [
+        0.198,
+        0.03
+      ],
+      "height": 0.19,
+      "color": "bone",
+      "style": "Big heavy condensed capitals in off-white.",
+      "side": "left",
+      "confidence": "medium",
+      "sourceRefs": [
+        3
+      ],
+      "length": 0.11,
+      "type": {
+        "similar": [
+          "Futura Extra Bold Condensed",
+          "Helvetica Neue Condensed Black"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "RIGHT.",
+      "place": "fuselage",
+      "at": [
+        0.228,
+        -0.26
+      ],
+      "height": 0.26,
+      "color": "bone",
+      "style": "The biggest line, off-white; a small 'IS' sits between it and 'DO WHAT'.",
+      "side": "left",
+      "confidence": "medium",
+      "sourceRefs": [
+        3
+      ],
+      "length": 0.105,
+      "type": {
+        "similar": [
+          "Futura Extra Bold Condensed",
+          "Helvetica Neue Condensed Black"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "EDUCATION",
+      "place": "fuselage",
+      "at": [
+        0.25,
+        0.5
+      ],
+      "height": 0.14,
+      "color": "orange",
+      "style": "Condensed capitals in orange, the first line of Mandela's quote.",
+      "side": "right",
+      "confidence": "low",
+      "sourceRefs": [
+        0
+      ],
+      "length": 0.08,
+      "type": {
+        "similar": [
+          "Futura Extra Bold Condensed",
+          "Helvetica Neue Condensed Black"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "IS THE MOST POWERFUL WEAPON WE CAN",
+      "place": "fuselage",
+      "at": [
+        0.23,
+        0.36
+      ],
+      "height": 0.08,
+      "color": "orange",
+      "style": "Small condensed capitals in orange.",
+      "side": "right",
+      "confidence": "low",
+      "sourceRefs": [
+        0
+      ],
+      "length": 0.11,
+      "type": {
+        "similar": [
+          "Futura Extra Bold Condensed",
+          "Helvetica Neue Condensed Black"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "USE TO CHANGE",
+      "place": "fuselage",
+      "at": [
+        0.23,
+        0.05
+      ],
+      "height": 0.17,
+      "color": "bone",
+      "style": "Heavy condensed capitals, 'CHANGE' in off-white.",
+      "side": "right",
+      "confidence": "low",
+      "sourceRefs": [
+        0
+      ],
+      "length": 0.11,
+      "type": {
+        "similar": [
+          "Futura Extra Bold Condensed",
+          "Helvetica Neue Condensed Black"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "THE WORLD.",
+      "place": "fuselage",
+      "at": [
+        0.23,
+        -0.27
+      ],
+      "height": 0.26,
+      "color": "bone",
+      "style": "The biggest line, off-white.",
+      "side": "right",
+      "confidence": "low",
+      "sourceRefs": [
+        0
+      ],
+      "length": 0.12,
+      "type": {
+        "similar": [
+          "Futura Extra Bold Condensed",
+          "Helvetica Neue Condensed Black"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "Alaska",
+      "place": "fin",
+      "at": [
+        0.3,
+        0.06
+      ],
+      "height": 0.15,
+      "color": "slate",
+      "style": "The 2016 Alaska wordmark in dark gray, reading up the fin from near the root toward the tip.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        3
+      ],
+      "length": 0.6,
+      "type": {
+        "similar": [
+          "Kaufmann Bold",
+          "Futura Bold Oblique"
+        ],
+        "weight": 800,
+        "slantDeg": 16,
+        "width": "normal",
+        "strokes": "brush",
+        "case": "mixed",
+        "xHeight": 0.55
+      },
+      "rotationDeg": 55
+    }
+  ]
+}

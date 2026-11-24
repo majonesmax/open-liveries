@@ -1,0 +1,190 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "SWR",
+  "name": "2011 livery",
+  "kind": "standard",
+  "from": "2011",
+  "confidence": "high",
+  "drawnOn": "A21N",
+  "description": "All white, with a large red 'SWISS' across the forward windows. The fin is a red block with a big white Swiss cross, a white cap at the tip and a white strip at the root. White engines; white sharklets with a small Swiss flag.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Swiss_International_Air_Lines",
+      "accessed": "2026-11-13",
+      "note": "Current livery since 2011: white with the red fin and Swiss cross, 'SWISS' titles."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A321-271NX_(c-n_11298,_HB-JPC)_2026-10-07_Andre_Gerwing_Collection_ID_031463.jpg",
+      "title": "Airbus A321-271NX HB-JPC, 2026-10-07 (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Right side, level, at Zurich: title size and place, fin block and cross."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A321-271NX_(c-n_11298,_HB-JPC)_2025-03-20_Andre_Gerwing_Collection_ID_022917.jpg",
+      "title": "Airbus A321-271NX HB-JPC, 2025-03-20 (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Left side from below: titles on the left, sharklet flag, white belly."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:HB-JPA.jpg",
+      "title": "HB-JPA, 2026-09-04 (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Right side from below."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F6",
+      "official": false
+    },
+    "red": {
+      "hex": "#E1001A",
+      "name": "Swiss red",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [],
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "mirrored": true,
+    "areas": [
+      {
+        "name": "red block, square-cut, white cap above and white strip below",
+        "color": "red",
+        "points": [
+          [
+            0,
+            0.11
+          ],
+          [
+            1,
+            0.11
+          ],
+          [
+            1,
+            0.85
+          ],
+          [
+            0,
+            0.85
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "winglets": {
+    "outer": "white",
+    "inner": "white",
+    "confidence": "high",
+    "sourceRefs": [
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "SWR/swiss-cross",
+      "place": "fin",
+      "at": [
+        0.5,
+        0.49
+      ],
+      "height": 0.44,
+      "colors": [
+        "white"
+      ],
+      "description": "The Swiss cross: a white Greek cross with arms a little longer than wide (the flag's proportions), centered on the red fin block.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Swiss_International_Air_Lines_Logo_2011.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "SWR/swiss-flag",
+      "place": "winglets",
+      "at": [
+        0.5,
+        0.78
+      ],
+      "height": 0.16,
+      "colors": [
+        "red",
+        "white"
+      ],
+      "description": "A small Swiss flag: a red square with the white cross, near the top of the sharklet's outer face.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Swiss_International_Air_Lines_Logo_2011.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "SWISS",
+      "place": "fuselage",
+      "at": [
+        0.134,
+        -0.04
+      ],
+      "height": 0.55,
+      "length": 0.127,
+      "color": "red",
+      "style": "Bold grotesque capitals, upright, slightly wide, straddling the forward window line. Re-checked 2026-11-15 on HB-JPA (A321neo, right side, 2026-09-04): the title starts just aft of the forward door's frame (it had sat over the door).",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Bold",
+          "Akzidenz-Grotesk Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Not drawn: the registration small near the tail, a Star Alliance star by the cockpit. The same scheme on the A220, A320 family, A330, A340 and 777 (on widebodies the title is set relatively smaller). Some 777s and A220s carry 'swiss.com' or special titles; Helvetic Airways E190-E2s flying for SWISS wear this scheme. Measured on the A321neo; on the A220 and A320 the title sits the same distance aft of the forward door, so a different share.",
+  "history": "Replaced Skyarium v1's approximation. The 2011 scheme replaced the 2002 launch scheme (the same cross fin, 'SWISS' in four languages' style, swiss.com titles)."
+}

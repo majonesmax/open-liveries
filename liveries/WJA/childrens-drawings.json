@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "childrens-drawings",
+  "airline": "WJA",
+  "name": "Make-A-Wish (children's drawings)",
+  "kind": "special",
+  "from": "2026",
+  "confidence": "low",
+  "description": "WestJet 737 MAX 8 C-GWJN (tail 340) in WestJet's standard white and teal with children's drawings in teal along the fuselage and the 'WestJet' title in a crayon-style hand (a Bluesky post, a Flickr title and the maintainer's own sighting). Its date and the drawings' layout are unknown.",
+  "sources": [
+    {
+      "url": "https://wwwapps.tc.gc.ca/saf-sec-sur/2/ccarcs-riacc/RchSimpRes.aspx?cn=%7c%7c&mn=%7c%7c&sn=%7c%7c&on=%7c%7c&m=%7cGWJN%7c&cl=&ls=&lang=en",
+      "title": "Transport Canada, Canadian Civil Aircraft Register: C-GWJN",
+      "accessed": "2026-11-22",
+      "note": "Boeing 737-8 registered to WestJet on 2026-02-24 (new that month, as WestJet turned 30); 24-bit address C07FB8. Says nothing of its paint."
+    },
+    {
+      "url": "https://www.westjet.com/en-ca/who-we-are/history",
+      "title": "WestJet: Our history",
+      "accessed": "2026-11-22",
+      "note": "Says WestJet marked its 30th birthday in February 2026 with a 'retro-riffic nod' to its 90s roots; doesn't name an aircraft."
+    },
+    {
+      "url": "https://bsky.app/profile/jasonchampton.bsky.social/post/3n2wgbmdsjk2v",
+      "title": "A Bluesky post on the livery",
+      "accessed": "2026-11-23",
+      "note": "Evidence only: a 737 MAX 8 for Make-A-Wish, children's drawings in teal and a crayon-style WestJet wordmark."
+    },
+    {
+      "url": "https://www.flickr.com/photos/201950782@N04/55666762012/",
+      "title": "Flickr: C-GWJN WestJet B38M Make-a-Wish Livery",
+      "accessed": "2026-11-23",
+      "note": "Evidence only: names the registration and the scheme."
+    }
+  ],
+  "notes": "Described in words only. Named Make-A-Wish by a Bluesky post and a Flickr photo's title (2026-11-23). WestJet's newsroom (to 2026-11-23) has no release on it, Make-A-Wish wish stories don't show it, and Commons has no photo of C-GWJN. The app draws WestJet's standard on it until an open or WestJet press photo shows the drawings.",
+  "history": "New 2026-11-22, from the lead the maintainer logged.",
+  "commemorates": "WestJet's partnership with Make-A-Wish Canada (since 2007)."
+}

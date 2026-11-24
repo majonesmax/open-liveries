@@ -1,0 +1,269 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "UPS",
+  "name": "2003 livery",
+  "kind": "standard",
+  "from": "2003",
+  "confidence": "medium",
+  "drawnOn": "B763",
+  "description": "Off-white fuselage; from the crown over the wing a Pullman-brown field sweeps down and back to the belly ahead of the tail, edged in gold, covering the aft fuselage and tail cone; the fin brown with the gold UPS shield; 'Worldwide Services' in brown over the forward fuselage; off-white engines.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/UPS_Airlines",
+      "title": "Wikipedia: UPS Airlines",
+      "accessed": "2026-11-13",
+      "note": "The 2003 shield and livery."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:UPS_Boeing_767-300F_N339UP_on_final_approach_to_Boston_July_2026_1.jpg",
+      "title": "UPS Boeing 767-300F N339UP on final approach to Boston July 2026 1.jpg (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "N339UP (767-300F) left side, 2026-07-08: geometry, title, fin."
+    }
+  ],
+  "palette": {
+    "cream": {
+      "hex": "#EDE9E1",
+      "official": false,
+      "name": "off-white"
+    },
+    "brown": {
+      "hex": "#351C15",
+      "official": false,
+      "name": "Pullman brown"
+    },
+    "gold": {
+      "hex": "#FFB500",
+      "official": false,
+      "name": "UPS gold"
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "cream",
+    "areas": [
+      {
+        "name": "gold edge of the brown sweep",
+        "color": "gold",
+        "points": [
+          [
+            0.422680412371134,
+            1
+          ],
+          [
+            0.436,
+            0.857
+          ],
+          [
+            0.552,
+            0.494
+          ],
+          [
+            0.655,
+            0.128
+          ],
+          [
+            0.732,
+            -0.245
+          ],
+          [
+            0.796,
+            -0.959
+          ],
+          [
+            0.829,
+            -1.0
+          ],
+          [
+            0.8324742268041238,
+            -1
+          ],
+          [
+            0.8505154639175257,
+            -1
+          ],
+          [
+            0.847,
+            -1.0
+          ],
+          [
+            0.814,
+            -0.744
+          ],
+          [
+            0.75,
+            -0.144
+          ],
+          [
+            0.673,
+            0.228
+          ],
+          [
+            0.57,
+            0.647
+          ],
+          [
+            0.454,
+            1.0
+          ],
+          [
+            0.4484536082474227,
+            1
+          ]
+        ],
+        "sourceRefs": [
+          1
+        ],
+        "smooth": true
+      },
+      {
+        "name": "brown sweep: aft fuselage from the crown over the wing down to the belly ahead of the tail",
+        "color": "brown",
+        "points": [
+          [
+            0.4484536082474227,
+            1
+          ],
+          [
+            0.454,
+            1.0
+          ],
+          [
+            0.57,
+            0.647
+          ],
+          [
+            0.673,
+            0.228
+          ],
+          [
+            0.75,
+            -0.144
+          ],
+          [
+            0.814,
+            -0.744
+          ],
+          [
+            0.847,
+            -1.0
+          ],
+          [
+            0.8505154639175257,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "sourceRefs": [
+          1
+        ],
+        "smooth": true
+      }
+    ],
+    "radome": {
+      "color": "cream"
+    },
+    "windows": "hidden",
+    "confidence": "medium",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "fin": {
+    "base": "brown",
+    "mirrored": true,
+    "confidence": "high",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "cream",
+    "inner": "cream",
+    "confidence": "low",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "cream",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "UPS/shield",
+      "place": "fin",
+      "at": [
+        0.6,
+        0.4
+      ],
+      "height": 0.42,
+      "colors": [
+        "gold",
+        "brown"
+      ],
+      "description": "The 2003 UPS shield: a gold-outlined shield with a gold swoosh across its top, 'ups' in gold lower case on brown.",
+      "reference": "https://commons.wikimedia.org/wiki/File:United_Parcel_Service_logo_2014.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Worldwide Services",
+      "place": "fuselage",
+      "at": [
+        0.149,
+        0.096
+      ],
+      "height": 0.375,
+      "color": "brown",
+      "style": "Upright medium sans in brown over the forward fuselage.",
+      "confidence": "high",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "Myriad Pro Semibold",
+          "Frutiger Bold"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.77
+      },
+      "length": 0.192
+    }
+  ],
+  "notes": "Drawn from N339UP (767-300F, July 2026). Freighters have no windows. The brown starts as a thin wedge on the crown over the wing. Re-checked 2026-11-15 on N339UP: 'Worldwide Services' runs x 0.153 to 0.345, lowercase 0.77 of the capitals; the gold edge and the brown are curves (smooth), and the brown's outline, which crossed itself, now follows the gold's aft edge only.",
+  "history": "Replaces Skyarium v1's approximate standard (a few colors from memory). The 2003 livery came with the shield redesign, replacing the 1961 bow-tie shield scheme."
+}

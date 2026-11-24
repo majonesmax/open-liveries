@@ -1,0 +1,21 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "seattle-fifa-world-cup-26-host",
+  "airline": "ASA",
+  "name": "Seattle FIFA World Cup 26 Host City (with Qatar Airways)",
+  "kind": "special",
+  "confidence": "low",
+  "description": "Fuselage: White Alaska fuselage carrying the Seattle Host City livery (exact layout not verified). Cheatlines: approximate. Tail: approximate: standard Alaska. Engines: approximate. Winglets: approximate. Titles: 'WE ARE SEATTLE' in bold letters on the underside/belly. Artwork: Seattle Host City logo; a soccer ball drawn in motion; whale-tail graphic from the official Seattle Host City poster. Colors hex: approximate.",
+  "sources": [
+    {
+      "url": "https://www.aerotime.aero/articles/alaska-airlines-unveils-fifa-world-cup-2026-livery-on-boeing-737-9-max/amp",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://komonews.com/news/local/alaska-airlines-debuts-seattle-fifa-world-cup-plane-travel-seatttle-qatar-boeing-737-9-max-visitors-things-to-know-about-seattle-world-cup-seatac-airport-travel",
+      "accessed": "2026-11-12"
+    }
+  ],
+  "notes": "Registration given as '985AK' (N prefix assumed; FAA confirms N985AK is an Alaska 737-9). May have been temporary for June-July 2026. Described only, not drawn: no openly licensed dated photo of the scheme was found (Wikimedia Commons, searched 2026-11-12, has only a Feb 2026 photo of N985AK in standard colors).",
+  "from": "2026-06"
+}

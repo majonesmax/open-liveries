@@ -1,0 +1,248 @@
+{
+  "_about": "727-200F, from Boeing D6-58324, 727 Airplane Characteristics for Airport Planning (June 1978, revised May 2011; the copy on boeing.com's airport planning page) 2.2 General Dimensions, Model 727-200 (page index 18): side, plan and front views on one sheet, a scan of about 40 px a meter drawn on graph paper. Pixels of layers.py rasters at scale 5, line centres. Scaled by the printed 41.50 m (136 ft 2 in) from the nose to the tail cone. A T-tail (`stabilizer.mount`), two JT8D nacelles on the rear fuselage on stub pylons (`engines.mount`), and the third in the tail cone fed by an S-duct from an intake on the crown ahead of the fin (`tailEngine`, duct s). The front view draws the tailplane 0.5 m low against the fuselage: its height is the side view's (`stabilizerZ`). The freighter: no cabin windows; its main-deck cargo door (left) is the 727-100C's from 2.7 (10.67 m to its middle, 3.40 m wide, 2.18 m tall, its sill 5 cm above the entry door's: 727-200F conversions fit the same size of door just aft of the entry door); the entry door (left), forward galley service door (right) and lower-deck cargo doors (right) at 2.7's 727-200 table (5.03 m, 6.78 m, 11.68 m and 27.2 m to their middles), their sills from 2.3's and 2.7's ground-to-sill heights against the entry door's as drawn; the overwing exits and aft galley door, deactivated on freighters, left out. Heights checked against 2.3: the fin's top J less the crown L (middles of their ranges). The printed fuselage heights are 4.01 m (13 ft 2 in) over the cabin and 4.27 m (14 ft) over the wing's belly fairing; the check's middle third is the latter (the side draws the cabin's tube 3.99 m), so no height fit.",
+  "out": "../../../../shapes/B722.json",
+  "length": 41.5,
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "engines": {
+    "mount": "fuselage"
+  },
+  "stabilizer": {
+    "mount": "fin"
+  },
+  "stabilizerZ": 88,
+  "tailEngine": {
+    "duct": "s"
+  },
+  "refs": {
+    "side": {
+      "nose": 46,
+      "tail": 1689.5,
+      "cowlEnd": 1420
+    },
+    "plan": {
+      "nose": 48,
+      "centerline": 708
+    },
+    "front": {
+      "centerline": 705,
+      "crownTop": 171
+    }
+  },
+  "windows": {
+    "from": 1,
+    "to": 0,
+    "pitch": 0.5,
+    "width": 0.25,
+    "z": [
+      0.6,
+      1.0
+    ],
+    "note": "The 727-200F has no cabin windows (plugged in the conversion)."
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [
+        229,
+        280,
+        263,
+        352
+      ],
+      "side": "left"
+    },
+    {
+      "kind": "door",
+      "box": [
+        298,
+        287,
+        332,
+        352
+      ],
+      "side": "right"
+    },
+    {
+      "kind": "cargo",
+      "box": [
+        402,
+        264,
+        536,
+        350
+      ],
+      "side": "left"
+    },
+    {
+      "kind": "cargo",
+      "box": [
+        482,
+        361,
+        536,
+        403
+      ],
+      "side": "right"
+    },
+    {
+      "kind": "cargo",
+      "box": [
+        1097,
+        361,
+        1151,
+        406
+      ],
+      "side": "right"
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [
+        104,
+        318
+      ],
+      [
+        112,
+        310
+      ],
+      [
+        118,
+        304
+      ],
+      [
+        121,
+        305
+      ],
+      [
+        121,
+        318
+      ]
+    ],
+    [
+      [
+        123,
+        307
+      ],
+      [
+        133,
+        306
+      ],
+      [
+        140,
+        307
+      ],
+      [
+        141,
+        320
+      ],
+      [
+        130,
+        322
+      ],
+      [
+        123,
+        320
+      ]
+    ],
+    [
+      [
+        143,
+        307
+      ],
+      [
+        150,
+        305
+      ],
+      [
+        154,
+        306
+      ],
+      [
+        153,
+        319
+      ],
+      [
+        145,
+        320
+      ],
+      [
+        142,
+        318
+      ]
+    ],
+    [
+      [
+        157,
+        305
+      ],
+      [
+        161,
+        305
+      ],
+      [
+        164,
+        309
+      ],
+      [
+        164,
+        316
+      ],
+      [
+        160,
+        318
+      ],
+      [
+        157,
+        317
+      ]
+    ],
+    [
+      [
+        138,
+        298
+      ],
+      [
+        143,
+        296
+      ],
+      [
+        148,
+        297
+      ],
+      [
+        147,
+        301
+      ],
+      [
+        139,
+        301
+      ]
+    ]
+  ],
+  "printed": {
+    "fuselage width": 3.76,
+    "fuselage height": 4.27,
+    "wingspan": 32.92,
+    "tailplane span": 10.9,
+    "overall length": 46.68,
+    "engine out from the centerline": 2.82,
+    "fin tip above the crown": 4.88
+  },
+  "meta": {
+    "id": "B722",
+    "name": "Boeing 727-200F",
+    "types": [
+      "B722"
+    ],
+    "confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/airports/acaps/727.pdf",
+        "title": "Boeing, 727 Airplane Characteristics for Airport Planning (D6-58324, June 1978, revised May 2011), 2.2 General Dimensions: Model 727-200, 2.3 Ground Clearances, 2.7 Door Clearances: Models 727-100, -100C and 727-200",
+        "accessed": "2026-11-15",
+        "note": "Dimensions and outlines read off the side, plan and front views of 2.2 (tools/trace/b722/); the figures are the aircraft's measurements, not a copy of the drawing. The sheet is a 1978 scan drawn on graph paper, about 40 px a meter: the grid's lines run through the drawing (the nose's crown along one is placed by hand). Scaled by the printed 41.50 m to the tail cone, its overall length, span and width are within 0.7% of their printed figures; its plan draws the tailplane 3.2% short of the printed 10.90 m and the side nacelles 2.75 m out against the printed 2.82 m (the front view's inlet), and its front view draws what stands beside and above the fuselage 0.25-0.5 m low against the fuselage's circle, so the tailplane's height is the side view's. A T-tail, two JT8D nacelles on the rear fuselage on stub pylons, and the third engine in the tail cone (engines[0], mount tail, duct s): its S-duct's intake stands on the crown ahead of the fin, the fin's leading edge rising from its top; its outline runs on under the fin's root fairing to the rudder's trailing edge, and its nozzle is the tail cone's last 1.5 m. The freighter (727-200F conversions): no cabin windows; the main-deck cargo door (left) is the 727-100C's from 2.7 (10.67 m to its middle, 3.40 m wide, 2.18 m tall), the size the conversions fit just aft of the entry door; the entry door (left), forward galley service door (right) and lower-deck cargo doors (right) at 2.7's 727-200 table, their sills from its ground-to-sill heights against the entry door's as drawn (the drawing's entry door sits 0.3 m ahead of the table's 5.03 m); the overwing exits and aft galley door, deactivated on freighters, left out. The fin's tip is checked against 2.3's ground clearances (J less L, middles of their ranges: about 0.15 m)."
+      }
+    ]
+  }
+}

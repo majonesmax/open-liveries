@@ -1,0 +1,376 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "TGW",
+  "name": "2017 livery",
+  "kind": "standard",
+  "from": "2017",
+  "confidence": "medium",
+  "drawnOn": "A21N",
+  "description": "White fuselage with yellow ends: the whole nose yellow back to a diagonal edge rising from the belly ahead of the wing to the window line over it, white streaks sweeping over the crown behind the cockpit; the aft lower fuselage yellow from a diagonal rising from the belly behind the wing to the fin, each yellow edge with a thin yellow pinstripe beside it. Yellow fin with a huge lowercase 'scoot' in white, outlined gray, running up it; 'flyscoot.com' the same way along the yellow nose.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:9V-NCM_(aircraft)",
+      "accessed": "2026-11-13"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:(SGP-Singapore)_Scoot_Airbus_A321-271NX_9V-NCM_@_WSSS_2026-03-11.jpg",
+      "title": "(SGP-Singapore) Scoot Airbus A321-271NX 9V-NCM @ WSSS 2026-03-11.jpg (CC BY 4.0, S5A-0043)",
+      "accessed": "2026-11-13",
+      "note": "A321neo 9V-NCM from the left and below, 2026-03-11: the yellow nose and aft sections, their edges and pinstripes, both titles, the fin title reading upward."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:(SGP-Singapore)_Scoot_Airbus_A321-271NX_9V-NCH_@_WSSS_2026-09-03.jpg",
+      "title": "(SGP-Singapore) Scoot Airbus A321-271NX 9V-NCH @ WSSS 2026-09-03.jpg (CC BY 4.0, S5A-0043)",
+      "accessed": "2026-11-13",
+      "note": "A321neo 9V-NCH from the right, 2026-09-03, in sun: the white streaks over the forward crown, colors, the right side matching the left."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:(SGP-Singapore)_Scoot_Airbus_A321-271NX_9V-NCH_@_WSSS_2025-11-19.jpg",
+      "title": "(SGP-Singapore) Scoot Airbus A321-271NX 9V-NCH @ WSSS 2025-11-19.jpg (CC BY 4.0, S5A-0043)",
+      "accessed": "2026-11-15",
+      "note": "9V-NCH right side, parked, level and side-on, 2025-11-19: the titles' places, the fin title, the aft section's edge."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#EEF0F1",
+      "official": false
+    },
+    "yellow": {
+      "hex": "#F0AC2E",
+      "official": false
+    },
+    "outline": {
+      "hex": "#6E6E70",
+      "official": false
+    },
+    "cowl": {
+      "hex": "#E4E6E8",
+      "official": false
+    },
+    "lip": {
+      "hex": "#BFC4CA",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "yellow nose section",
+        "color": "yellow",
+        "points": [
+          [
+            0,
+            -1
+          ],
+          [
+            0.155,
+            -1
+          ],
+          [
+            0.41,
+            0.12
+          ],
+          [
+            0.38,
+            0.5
+          ],
+          [
+            0.31,
+            0.72
+          ],
+          [
+            0.17,
+            0.6
+          ],
+          [
+            0.1,
+            0.66
+          ],
+          [
+            0.07,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "streak over the forward crown",
+        "color": "yellow",
+        "points": [
+          [
+            0.1,
+            0.7
+          ],
+          [
+            0.2,
+            0.72
+          ],
+          [
+            0.3,
+            0.9
+          ],
+          [
+            0.3,
+            0.95
+          ],
+          [
+            0.18,
+            0.8
+          ],
+          [
+            0.1,
+            0.8
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "second crown streak",
+        "color": "yellow",
+        "points": [
+          [
+            0.09,
+            0.86
+          ],
+          [
+            0.17,
+            0.88
+          ],
+          [
+            0.26,
+            1
+          ],
+          [
+            0.2,
+            1
+          ],
+          [
+            0.14,
+            0.94
+          ],
+          [
+            0.08,
+            0.95
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "pinstripe behind the nose section",
+        "color": "yellow",
+        "points": [
+          [
+            0.168,
+            -1
+          ],
+          [
+            0.183,
+            -1
+          ],
+          [
+            0.255,
+            -0.45
+          ],
+          [
+            0.245,
+            -0.45
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "pinstripe ahead of the aft section",
+        "color": "yellow",
+        "points": [
+          [
+            0.655,
+            -1
+          ],
+          [
+            0.672,
+            -1
+          ],
+          [
+            0.765,
+            -0.1
+          ],
+          [
+            0.755,
+            -0.1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "yellow aft section",
+        "color": "yellow",
+        "points": [
+          [
+            0.815,
+            1
+          ],
+          [
+            0.797,
+            0.1
+          ],
+          [
+            0.75,
+            -0.45
+          ],
+          [
+            0.685,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2,
+          3
+        ],
+        "smooth": true
+      }
+    ],
+    "radome": {
+      "color": "yellow",
+      "to": 0.025
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "yellow",
+    "mirrored": true,
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "#B9BEC5",
+    "under": "#C9CDD2"
+  },
+  "winglets": {
+    "outer": "#D9DCE0",
+    "inner": "#D9DCE0",
+    "confidence": "low",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "cowl",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "titles": [
+    {
+      "text": "scoot",
+      "place": "fin",
+      "at": [
+        0.33,
+        -0.08
+      ],
+      "height": 0.3,
+      "color": "white",
+      "style": "The scoot wordmark, lowercase rounded heavy sans in white with a thin gray outline, set turned to run up the fin from its root near the leading edge towards the tip (on the left side it reads upwards, on the right downwards), filling most of the fin.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "VAG Rounded Bold",
+          "Nunito Black"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.85
+      },
+      "rotationDeg": 52,
+      "length": 1.1
+    },
+    {
+      "text": "flyscoot.com",
+      "place": "fuselage",
+      "at": [
+        0.061,
+        -0.52
+      ],
+      "height": 0.45,
+      "length": 0.204,
+      "color": "white",
+      "style": "Lowercase rounded heavy sans in white with a thin gray outline, along the yellow nose under the forward windows (the ascender height given).",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "VAG Rounded Bold",
+          "Nunito Black"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.6
+      },
+      "rotationDeg": 8
+    }
+  ],
+  "notes": "Drawn from 2026 photos of A321neos 9V-NCM (left, from below) and 9V-NCH (right). Both are from below and a little ahead or behind, so the edges' heights are estimates; the crown streaks are drawn loosely. The fin title is turned (about 60 degrees, along the fin) which the title fields can't express: drawn here at its start. Scoot's logo is the wordmark itself, so no mark shape. The sharklets' inner faces carry small artwork on some aircraft (not drawn). The aircraft name (e.g. 'Tango Romeo') is small dark script under the cockpit, per airframe. Re-checked 2026-11-15 on 9V-NCH parked side-on (2025-11-19, right side), with 9V-NCM's left side agreeing: 'flyscoot.com' is low and turned: it starts ahead of the forward door (x 0.061) with its baseline low on the side (y -0.52, about 0.4 m above the belly line as seen from the side), and rises about 8 degrees toward the tail to x 0.265, its 'f' about 1.2 m tall (it had been drawn level on the window line); lowercase about 0.6 of the ascenders. The fin's 'scoot' reads (seen from the left) up at about 52 degrees from just above the aft door, where its first letter runs off the fin's root onto the fuselage (not drawn: a fin title is clipped to the fin), to the tip's trailing corner, about 1.1 of the root chord, its lowercase about 0.26 of the fin's height (it had been drawn from the root's leading edge at 60 degrees, where it ran off the fin). The aft yellow's edge re-measured: crown x 0.815 (under the fin's leading edge), the window line 0.797, the belly 0.685, slightly concave: smooth. Not redone: the nose section and its crown streaks (the photos disagree on where its lower edge meets the belly, 0.15 to 0.23, because of the cargo door and perspective); the upper tail cone is white on the aircraft, not drawn.",
+  "history": "Replaced Skyarium v1's approximation. The yellow-ends scheme came with the Scoot/Tigerair merger (2017); the 2012 launch scheme (white with the same yellow fin and a black 'scoot' variant) no longer flies widely."
+}

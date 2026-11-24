@@ -1,0 +1,239 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "GTI",
+  "name": "Atlas Air (globe tail)",
+  "kind": "standard",
+  "confidence": "low",
+  "drawnOn": "B744",
+  "description": "White forward and upper fuselage; navy lower aft fuselage from behind the wing, rising along the window line to the fin and taking in the tail cone; 'ATLAS' in navy and 'AIR' in gold, very large, over the forward fuselage, and again under the belly; the fin navy with the gold globe (latitude and longitude lines) held up by the Titan Atlas; navy engines.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Atlas_Air",
+      "title": "Wikipedia: Atlas Air",
+      "accessed": "2026-11-13"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Atlas_Air_Boeing_747-400_N322SG_BWI_MD1.jpg",
+      "title": "Atlas Air Boeing 747-400 N322SG BWI MD1.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "N322SG (747-400) right side from below, climbing, 2024-09-06: the navy aft, titles on the side and belly, fin."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Atlas_Air_Boeing_747-443_-_N482MC_at_LBSF_-_05.jpg",
+      "title": "Atlas Air Boeing 747-443 - N482MC at LBSF - 05.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "N482MC (747-400) right side, taking off, 2026-06-16: the scheme still in use in 2026."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N476MC_Boeing_747-47UF_Atlas_Cargo_Airlines_Liege_25.6.26.jpg",
+      "title": "N476MC Boeing 747-47UF Atlas Cargo Airlines Liege 25.6.26.jpg (CC BY-SA 4.0, Colin Cooke Photo)",
+      "accessed": "2026-11-15",
+      "note": "N476MC (747-400F) right side from ahead, 2026-06-24: the title's size against the fuselage (about 2.4 m cap height, about 17 m long); the navy only aft of a near-vertical line under the fin's leading edge."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F2F3F5",
+      "official": false
+    },
+    "navy": {
+      "hex": "#1D2160",
+      "official": false,
+      "name": "Atlas navy"
+    },
+    "gold": {
+      "hex": "#D9A12A",
+      "official": false,
+      "name": "Atlas gold"
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "navy lower aft fuselage rising along the window line to the fin, with the tail cone",
+        "color": "navy",
+        "points": [
+          [
+            0.6,
+            -1
+          ],
+          [
+            0.62,
+            -0.3
+          ],
+          [
+            0.68,
+            -0.05
+          ],
+          [
+            0.78,
+            0.0
+          ],
+          [
+            0.82,
+            0.4
+          ],
+          [
+            0.84,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "plain",
+    "confidence": "low",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "navy",
+    "mirrored": false,
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "engines": {
+    "cowling": "navy",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "GTI/atlas-globe",
+      "place": "fin",
+      "at": [
+        0.5,
+        0.55
+      ],
+      "height": 0.7,
+      "colors": [
+        "gold",
+        "navy"
+      ],
+      "description": "Atlas Air's mark in gold on the navy fin: a large globe drawn as latitude and longitude lines, the Titan Atlas kneeling under it and holding it up.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Atlas_Air_logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "ATLAS AIR",
+      "place": "fuselage",
+      "at": [
+        0.17,
+        0.12
+      ],
+      "height": 0.75,
+      "color": "navy",
+      "parts": [
+        {
+          "text": "ATLAS",
+          "color": "navy"
+        },
+        {
+          "text": " AIR",
+          "color": "gold"
+        }
+      ],
+      "style": "Heavy, slightly slanted capitals in navy, very large over the forward fuselage.",
+      "confidence": "low",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Futura Extra Bold Oblique",
+          "Avenir Next Heavy Italic"
+        ],
+        "weight": 850,
+        "slantDeg": 8,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "length": 0.22
+    },
+    {
+      "text": "ATLAS AIR",
+      "place": "belly",
+      "at": [
+        0.25,
+        -1
+      ],
+      "height": 0.6,
+      "color": "navy",
+      "parts": [
+        {
+          "text": "ATLAS",
+          "color": "navy"
+        },
+        {
+          "text": " AIR",
+          "color": "gold"
+        }
+      ],
+      "style": "'ATLAS' navy and 'AIR' gold again under the belly, read from below.",
+      "confidence": "low",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "Futura Extra Bold Oblique"
+        ],
+        "weight": 850,
+        "slantDeg": 8,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "length": 0.25
+    }
+  ],
+  "notes": "Drawn only from right-side photos taken from below during climb-out (747-400s in 2024 and 2026), so positions are approximate and the left side is assumed to mirror it. Atlas also flies aircraft for Amazon (Prime Air), DHL and others in their customers' liveries; those aren't this scheme. Re-checked 2026-11-15: no side-on photo of an Atlas 747 in this scheme is on Commons (all from below or well ahead), so the titles and the navy's edge are left as drawn. On N476MC (2026) the title's cap height is about 2.4 m and it runs about 17 m (0.24 of the fuselage, close to the drawn 0.22); the belly title's length (0.25) is an estimate from N322SG seen from below. N476MC suggests the navy may start further aft near the crown than drawn (a near-vertical edge under the fin's leading edge); not changed without a side-on photo.",
+  "history": "Replaces Skyarium v1's approximate standard (a few colors from memory)."
+}

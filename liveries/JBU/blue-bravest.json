@@ -1,0 +1,495 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "blue-bravest",
+  "airline": "JBU",
+  "name": "Blue Bravest (FDNY)",
+  "kind": "special",
+  "confidence": "medium",
+  "drawnOn": "A320",
+  "description": "Fuselage: Fire-engine red all over, belly included. Tail: Red fin; its lower half a navy panel edged in gold along the top and the forward side, carrying 'FIRE DEPARTMENT' in an arc of gold capitals, 'CITY OF NEW YORK' in white and a white skyline with the twin towers along the root. The gold edge runs on down the aft fuselage, and behind it a US flag (navy canton with white stars at the top, red and white stripes) wraps the fuselage under the fin; red tail-cone tip. Engines: Red with white 'jetblue.com', polished lips. Winglets: Red wingtip fences. Titles: Large white 'jetBlue' forward; 'Blue Bravest' small below the cockpit. Artwork: FDNY panel and US flag.",
+  "sources": [
+    {
+      "url": "https://simpleflying.com/jetblue-special-liveries-guide/",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/w/index.php?search=N615JB+Blue+Bravest",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N615JB_-_KHPN_-_16-5-23.jpg",
+      "title": "N615JB - KHPN - 16-5-23 (CC BY-SA 4.0)",
+      "accessed": "2026-11-12",
+      "note": "Left side, 2023-05-16: the clearest view; fin panel, the flag round the tail cone, titles. Main geometry source."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A320-232_%27Blue_Bravest%27_(N615JB,_cn_2461)_(2-25-2024).jpg",
+      "title": "Airbus A320-232 'Blue Bravest' (N615JB, cn 2461) (2-25-2024) (CC BY-SA 4.0)",
+      "accessed": "2026-11-12",
+      "note": "Left side from ahead, 2024-02-25: the same layout, newest clear side view."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:JetBlue_Airways_A320-232,_N615JB,_named_Blue_Bravest,_MSN_2461_(06_2005),_as_B6_1694_Orlando_(MCO)_-_White_Plains_(HPN),_Flight_time_2_19_(53745536769).jpg",
+      "title": "JetBlue Airways A320-232, N615JB, named Blue Bravest ... (53745536769) (CC BY 2.0)",
+      "accessed": "2026-11-12",
+      "note": "From below, 2024-05-24: red underside and wings' fences, the flag under the tail."
+    }
+  ],
+  "from": "2012",
+  "palette": {
+    "red": {
+      "hex": "#C3162A",
+      "name": "fire-engine red",
+      "official": false
+    },
+    "navy": {
+      "hex": "#1E2F66",
+      "official": false
+    },
+    "gold": {
+      "hex": "#F0C232",
+      "official": false
+    },
+    "white": {
+      "hex": "#F3F4F6",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC5",
+      "official": false
+    },
+    "metal": {
+      "hex": "#B8BDC3",
+      "name": "polished inlet lip",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "red",
+    "areas": [
+      {
+        "name": "gold edge running down from the fin",
+        "color": "gold",
+        "points": [
+          [
+            0.795,
+            1
+          ],
+          [
+            0.811,
+            1
+          ],
+          [
+            0.82,
+            0.0
+          ],
+          [
+            0.869,
+            -0.6
+          ],
+          [
+            0.853,
+            -0.62
+          ],
+          [
+            0.803,
+            0.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ]
+      },
+      {
+        "name": "US flag: white",
+        "color": "white",
+        "points": [
+          [
+            0.811,
+            1
+          ],
+          [
+            0.94,
+            1
+          ],
+          [
+            0.953,
+            0.2
+          ],
+          [
+            0.933,
+            -0.5
+          ],
+          [
+            0.869,
+            -0.6
+          ],
+          [
+            0.82,
+            0.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ]
+      },
+      {
+        "name": "US flag: navy canton along the top",
+        "color": "navy",
+        "points": [
+          [
+            0.811,
+            1
+          ],
+          [
+            0.94,
+            1
+          ],
+          [
+            0.944,
+            0.75
+          ],
+          [
+            0.813,
+            0.75
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          2,
+          3
+        ]
+      },
+      {
+        "name": "US flag: red stripe",
+        "color": "red",
+        "points": [
+          [
+            0.815,
+            0.45
+          ],
+          [
+            0.949,
+            0.45
+          ],
+          [
+            0.951,
+            0.3
+          ],
+          [
+            0.816,
+            0.3
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          2,
+          3
+        ]
+      },
+      {
+        "name": "US flag: red stripe",
+        "color": "red",
+        "points": [
+          [
+            0.819,
+            0.1
+          ],
+          [
+            0.953,
+            0.1
+          ],
+          [
+            0.952,
+            -0.05
+          ],
+          [
+            0.821,
+            -0.05
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          2,
+          3
+        ]
+      },
+      {
+        "name": "US flag: red stripe",
+        "color": "red",
+        "points": [
+          [
+            0.837,
+            -0.3
+          ],
+          [
+            0.943,
+            -0.3
+          ],
+          [
+            0.937,
+            -0.45
+          ],
+          [
+            0.851,
+            -0.45
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          2,
+          3
+        ]
+      }
+    ],
+    "radome": {
+      "color": "red"
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3,
+      4
+    ]
+  },
+  "fin": {
+    "base": "red",
+    "areas": [
+      {
+        "name": "gold edge of the panel",
+        "color": "gold",
+        "points": [
+          [
+            0.0,
+            0.53
+          ],
+          [
+            0.73,
+            0.53
+          ],
+          [
+            1.0,
+            0.37
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.12,
+            0.0
+          ],
+          [
+            0.03,
+            0.27
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ]
+      },
+      {
+        "name": "navy FDNY panel",
+        "color": "navy",
+        "points": [
+          [
+            0.02,
+            0.51
+          ],
+          [
+            0.72,
+            0.51
+          ],
+          [
+            1.0,
+            0.35
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.15,
+            0.0
+          ],
+          [
+            0.06,
+            0.27
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "red",
+    "inner": "red",
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      4
+    ]
+  },
+  "engines": {
+    "cowling": "red",
+    "inletLip": "metal",
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3
+    ]
+  },
+  "logos": [
+    {
+      "mark": "JBU/fdny-panel",
+      "place": "fin",
+      "at": [
+        0.5,
+        0.26
+      ],
+      "height": 0.48,
+      "colors": [
+        "navy",
+        "gold",
+        "white"
+      ],
+      "description": "On the navy panel: 'FIRE DEPARTMENT' in gold capitals arched across the top, 'CITY OF' and 'NEW YORK' in white capitals in the middle, and along the root a white Manhattan skyline with the twin towers standing tallest, forward.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ]
+    },
+    {
+      "mark": "JBU/us-flag",
+      "place": "fuselage",
+      "at": [
+        0.88,
+        0.2
+      ],
+      "height": 1.5,
+      "colors": [
+        "white",
+        "red",
+        "navy"
+      ],
+      "description": "A US flag wrapped round the aft fuselage under the fin, behind the gold edge: the navy star field along the top by the fin root, red and white stripes below, ending ahead of the red tail-cone tip. The stripe layout is approximate.",
+      "confidence": "low",
+      "sourceRefs": [
+        2,
+        3
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "jetBlue",
+      "place": "fuselage",
+      "at": [
+        0.174,
+        0.0
+      ],
+      "height": 0.76,
+      "color": "white",
+      "style": "The jetBlue logotype in white: heavy rounded sans, over the forward windows just aft of the forward door.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Gotham Rounded Bold",
+          "VAG Rounded Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.76
+      },
+      "length": 0.182
+    },
+    {
+      "text": "Blue Bravest",
+      "place": "fuselage",
+      "at": [
+        0.068,
+        -0.33
+      ],
+      "height": 0.09,
+      "color": "white",
+      "style": "Small white italic sans below the cockpit windows (the aircraft's name).",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Gotham Bold Italic"
+        ],
+        "weight": 700,
+        "slantDeg": 10,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.7
+      },
+      "length": 0.032
+    },
+    {
+      "text": "jetblue.com",
+      "place": "engines",
+      "at": [
+        0.43,
+        0.0
+      ],
+      "height": 0.25,
+      "color": "white",
+      "style": "Bold rounded lower case along the cowling's side.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Gotham Rounded Bold",
+          "VAG Rounded Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "length": 0.36
+    }
+  ],
+  "notes": "Drawn from left-side photos (2023-05-16, 2024-02-25); a 2021 left-side shot agrees. The flag round the tail cone is partly hidden by the tailplane in every photo, so its stripes are low confidence. Small markings not drawn: an FDNY patch and a US flag by the forward door, 'Honored to support New York's Bravest' near the aft door. Re-checked 2026-11-15: 'jetBlue' placed as on the standard (measured in metres on the A321neo N2017J and checked on A320s: x 0.174-0.356 of an A320, cap 1.57 m, lowercase 0.76 of the capitals); 'jetblue.com' on the A320's nacelle x 0.43-0.79 (read off N615JB and N627JB); the name under the cockpit given its length."
+}

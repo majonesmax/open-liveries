@@ -1,0 +1,27 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "EZY",
+  "airframes": [
+    {
+      "registration": "G-UZHS",
+      "hex": "407687",
+      "hexSource": "looked up: hexdb.io community database (2026-11-21); not verified against the national register",
+      "type": "A20N",
+      "livery": "eurovision",
+      "lastSeen": "2026-06-07",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Airbus_A320-251N_%E2%80%98G-UZHS%E2%80%99_easyJet_(Eurovision_Song_Contest_Livery)_(55621974866).jpg",
+          "title": "G-UZHS (Eurovision Song Contest Livery), 2026-04-22 (CC BY-SA 4.0, Alan Wilson)",
+          "accessed": "2026-11-21"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Easyjet_aircraft_at_Glasgow_Airport_-_geograph.org.uk_-_8336270.jpg",
+          "title": "G-UZHS at Glasgow, 2026-06-07 (CC BY-SA 2.0, Thomas Nugent)",
+          "accessed": "2026-11-21"
+        }
+      ]
+    }
+  ]
+}

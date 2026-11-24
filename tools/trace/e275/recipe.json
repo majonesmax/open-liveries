@@ -1,0 +1,61 @@
+{
+  "_about": "Embraer 175-E2, from APM 5824 Rev 25 (Nov 29/24; Section 02 Aug 05/22) Figure 2.3 General Aircraft Dimensions (page index 21): side, plan and front views on one sheet, black lines over a pale yellow fill (layers.py --mode strokes-in-fill). The side and plan are drawn to one scale (the printed 32.37 m length, 9.22 m tailplane span and 17.63 m nose-to-wing-tip figure agree to 0.1%), at 0.9408 of the E190-E2's figure; the front view is drawn 1.2003 times larger (its 31.39 m span's and 6.04 m track's extension lines), so it is rendered at scale 13.33 to the side's. Scaled by the printed 32.37 m overall length (2.2.8: 32.366 m). The E190-E2's (e290/) points moved by two fuselage plugs taken out (plug.py: 2.21 m ahead of the wing, from the wheelbases, 12.77 m against 10.56 m, the 4.55 m nose gear and 6.82 m forward cargo door figures being the same; 1.75 m behind it, the rest of the 3.96 m), then snapped to this sheet; its own wing, tailplane, fin and PW1700G nacelle placed here. The figure prints 19.67 m to the aft cargo door where it draws it at 20.66 m (and the E190-E2's 24.57 m at 24.66 m): the drawing agrees with its length, wheelbase and the plugs, so the door is as drawn. The figure's tailplane span is 9.22 m (2.2.10 prints 9.07 m). Pixels of layers.py rasters at scale 16 (the front at 13.33), line centres. Windows joined to other lines (one to the 6.82 m dimension's extension line, four to the wing's) are placed at their drawn centres (windowsAlso). The cargo doors are on the right, as on the other E-Jets (Figure 2.4). The cockpit panes are the E190-E2's, moved by the same scale (the nose is the same).",
+  "out": "../../../../shapes/E275.json",
+  "length": 32.37,
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "refs": {
+    "side": {
+      "nose": 90.5,
+      "tail": 3904,
+      "cowlEnd": 1490,
+      "windowRow": [774, 828],
+      "windowGap": 5,
+      "windowsAlso": [869, 2143.5, 2221.5, 2302.5, 2397],
+      "windowMinWidth": 30,
+      "windowInset": 2.5
+    },
+    "plan": {
+      "nose": 167.5,
+      "centerline": 2001
+    },
+    "front": {
+      "centerline": 1914.7,
+      "crownTop": 641
+    }
+  },
+  "doors": [
+    {"kind": "door", "box": [645, 698, 755, 928]},
+    {"kind": "door", "box": [2875, 714, 2972, 928]},
+    {"kind": "cargo", "box": [893, 938, 1034, 1061], "side": "right"},
+    {"kind": "cargo", "box": [2525, 943, 2655, 1053], "side": "right"}
+  ],
+  "cockpitPanes": [
+    [[284, 814], [310, 814], [357, 815], [363, 812], [381, 785], [398, 757], [402, 753], [385, 753], [371, 754], [329, 783], [291, 808]],
+    [[388, 814], [385, 806], [395, 779], [402, 757], [409, 754], [442, 755], [470, 756], [476, 761], [476, 787], [476, 811], [470, 817], [432, 816], [393, 815]]
+  ],
+  "printed": {
+    "fuselage height": 3.35,
+    "fuselage width": 3.01,
+    "wingspan": 31.39,
+    "tailplane span": 9.22
+  },
+  "meta": {
+    "id": "E275",
+    "name": "Embraer 175-E2",
+    "types": ["E275"],
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://www.embraer.com/media/vmsjxvk5/e-jets-e2_apm_e-jetse2.pdf",
+        "title": "Embraer, E-Jets E2 Airport Planning Manual (APM 5824 Rev 25, Nov 29/24), Section 02, Figure 2.3 General Aircraft Dimensions (E175-E2); 2.2.3 and 2.2.8 dimensions; Figure 2.21 cabin cross-section",
+        "accessed": "2026-11-16",
+        "note": "Dimensions and outlines read off the side, plan and front views (tools/trace/e275/), starting from the E190-E2's placed points less two fuselage plugs; the figures are the aircraft's measurements, not a copy of the drawing. The figure prints 19.67 m from the nose to the aft cargo door but draws it at 20.66 m, in agreement with its own length and wheelbase: the shape keeps the drawing's."
+      }
+    ]
+  }
+}

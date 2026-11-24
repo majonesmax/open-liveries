@@ -1,0 +1,1192 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "TZP",
+  "name": "ZIPAIR livery (2020)",
+  "kind": "standard",
+  "from": "2020",
+  "confidence": "medium",
+  "drawnOn": "B788",
+  "description": "White body with a thin teal band through the cabin windows from door 1 to just behind the last door; 'ZIPAIR' in big black serif capitals under the windows ahead of the wing. Pale grey fin crossed by ten thin horizontal dashed lines, each line cut into equal segments of black, teal and white that line up in vertical columns down the fin. White engines.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:JA826J.jpg",
+      "title": "JA826J.jpg (CC BY-SA 4.0, Liam Thompson)",
+      "accessed": "2026-11-20",
+      "note": "787-8 JA826J, left side at SFO, 2026-04-19: measured on the 787-8 shape (fit 1–3 px with doors 1 and 4); window band, title, the fin's dashes."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:(JPN-Chiba)_ZIPAIR_Tokyo_Boeing_787-8_JA824J_@_RJAA_2026-06-12.jpg",
+      "title": "(JPN-Chiba) ZIPAIR Tokyo Boeing 787-8 JA824J @ RJAA 2026-06-12.jpg (CC BY 4.0, S5A-0043)",
+      "accessed": "2026-11-20",
+      "note": "787-8 JA824J in flight, right side, 2026-06-12: the right side's title and band, the fin from the right."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:(JPN-Chiba)_ZIPAIR_Tokyo_Boeing_787-8_JA825J_@_RJAA_2026-06-13.jpg",
+      "title": "(JPN-Chiba) ZIPAIR Tokyo Boeing 787-8 JA825J @ RJAA 2026-06-13.jpg (CC BY 4.0, S5A-0043)",
+      "accessed": "2026-11-20",
+      "note": "JA825J, right side on the ground, 2026-06-13: same scheme, white engines."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Zipair_JA850J_Boeing_787-8_Dreamliner_Narita_International_Airport.jpg",
+      "title": "Zipair JA850J Boeing 787-8 Dreamliner Narita International Airport.jpg (CC BY-SA 2.0, Mitchul Hope)",
+      "accessed": "2026-11-20",
+      "note": "JA850J, left side from below, 2024-10-29: the same on another airframe; belly white."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Zipair_Tokyo",
+      "title": "Wikipedia: ZIPAIR Tokyo",
+      "accessed": "2026-11-20",
+      "note": "Japan Airlines' long-haul low-cost subsidiary, flying 787-8s since 2020."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F3F4",
+      "official": false
+    },
+    "finGray": {
+      "hex": "#C9CED3",
+      "official": false,
+      "name": "pale fin grey"
+    },
+    "teal": {
+      "hex": "#2E9C93",
+      "official": false,
+      "name": "ZIPAIR teal"
+    },
+    "black": {
+      "hex": "#1D1F22",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#C4C8CD",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "thin teal band through the cabin windows, door 1 to just behind the last door",
+        "color": "teal",
+        "points": [
+          [
+            0.1256,
+            0.223
+          ],
+          [
+            0.4595,
+            0.185
+          ],
+          [
+            0.8472,
+            0.115
+          ],
+          [
+            0.8472,
+            -0.028
+          ],
+          [
+            0.4595,
+            0.079
+          ],
+          [
+            0.1256,
+            0.111
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "fin": {
+    "base": "finGray",
+    "areas": [
+      {
+        "name": "black dash, row 1 from the top",
+        "color": "black",
+        "points": [
+          [
+            0.087,
+            0.908
+          ],
+          [
+            0.269,
+            0.908
+          ],
+          [
+            0.304,
+            0.895
+          ],
+          [
+            0.126,
+            0.895
+          ]
+        ]
+      },
+      {
+        "name": "teal dash, row 1 from the top",
+        "color": "teal",
+        "points": [
+          [
+            0.269,
+            0.908
+          ],
+          [
+            0.763,
+            0.908
+          ],
+          [
+            0.786,
+            0.894
+          ],
+          [
+            0.304,
+            0.895
+          ]
+        ]
+      },
+      {
+        "name": "black dash, row 2 from the top",
+        "color": "black",
+        "points": [
+          [
+            0.094,
+            0.808
+          ],
+          [
+            0.49,
+            0.808
+          ],
+          [
+            0.515,
+            0.795
+          ],
+          [
+            0.127,
+            0.795
+          ]
+        ]
+      },
+      {
+        "name": "teal dash, row 2 from the top",
+        "color": "teal",
+        "points": [
+          [
+            0.49,
+            0.808
+          ],
+          [
+            0.909,
+            0.808
+          ],
+          [
+            0.924,
+            0.794
+          ],
+          [
+            0.515,
+            0.795
+          ]
+        ]
+      },
+      {
+        "name": "black dash, row 3 from the top",
+        "color": "black",
+        "points": [
+          [
+            0.316,
+            0.703
+          ],
+          [
+            0.655,
+            0.703
+          ],
+          [
+            0.672,
+            0.689
+          ],
+          [
+            0.34,
+            0.69
+          ]
+        ]
+      },
+      {
+        "name": "teal dash, row 3 from the top",
+        "color": "teal",
+        "points": [
+          [
+            0.655,
+            0.703
+          ],
+          [
+            0.993,
+            0.703
+          ],
+          [
+            1.003,
+            0.689
+          ],
+          [
+            0.672,
+            0.689
+          ]
+        ]
+      },
+      {
+        "name": "teal dash, row 4 from the top",
+        "color": "teal",
+        "points": [
+          [
+            0.084,
+            0.6
+          ],
+          [
+            0.182,
+            0.6
+          ],
+          [
+            0.204,
+            0.587
+          ],
+          [
+            0.107,
+            0.587
+          ]
+        ]
+      },
+      {
+        "name": "black dash, row 4 from the top",
+        "color": "black",
+        "points": [
+          [
+            0.478,
+            0.6
+          ],
+          [
+            0.774,
+            0.599
+          ],
+          [
+            0.787,
+            0.586
+          ],
+          [
+            0.496,
+            0.587
+          ]
+        ]
+      },
+      {
+        "name": "teal dash, row 4 from the top",
+        "color": "teal",
+        "points": [
+          [
+            0.774,
+            0.599
+          ],
+          [
+            0.988,
+            0.599
+          ],
+          [
+            0.998,
+            0.586
+          ],
+          [
+            0.787,
+            0.586
+          ]
+        ]
+      },
+      {
+        "name": "teal dash, row 5 from the top",
+        "color": "teal",
+        "points": [
+          [
+            0.072,
+            0.5
+          ],
+          [
+            0.337,
+            0.5
+          ],
+          [
+            0.354,
+            0.487
+          ],
+          [
+            0.094,
+            0.487
+          ]
+        ]
+      },
+      {
+        "name": "black dash, row 5 from the top",
+        "color": "black",
+        "points": [
+          [
+            0.601,
+            0.499
+          ],
+          [
+            0.865,
+            0.499
+          ],
+          [
+            0.875,
+            0.486
+          ],
+          [
+            0.615,
+            0.486
+          ]
+        ]
+      },
+      {
+        "name": "teal dash, row 5 from the top",
+        "color": "teal",
+        "points": [
+          [
+            0.865,
+            0.499
+          ],
+          [
+            0.997,
+            0.499
+          ],
+          [
+            1.005,
+            0.486
+          ],
+          [
+            0.875,
+            0.486
+          ]
+        ]
+      },
+      {
+        "name": "black dash, row 6 from the top",
+        "color": "black",
+        "points": [
+          [
+            0.082,
+            0.397
+          ],
+          [
+            0.227,
+            0.397
+          ],
+          [
+            0.244,
+            0.384
+          ],
+          [
+            0.101,
+            0.384
+          ]
+        ]
+      },
+      {
+        "name": "teal dash, row 6 from the top",
+        "color": "teal",
+        "points": [
+          [
+            0.227,
+            0.397
+          ],
+          [
+            0.464,
+            0.397
+          ],
+          [
+            0.479,
+            0.383
+          ],
+          [
+            0.244,
+            0.384
+          ]
+        ]
+      },
+      {
+        "name": "black dash, row 6 from the top",
+        "color": "black",
+        "points": [
+          [
+            0.701,
+            0.396
+          ],
+          [
+            0.938,
+            0.396
+          ],
+          [
+            0.947,
+            0.382
+          ],
+          [
+            0.713,
+            0.383
+          ]
+        ]
+      },
+      {
+        "name": "teal dash, row 6 from the top",
+        "color": "teal",
+        "points": [
+          [
+            0.938,
+            0.396
+          ],
+          [
+            0.991,
+            0.396
+          ],
+          [
+            0.999,
+            0.382
+          ],
+          [
+            0.947,
+            0.382
+          ]
+        ]
+      },
+      {
+        "name": "black dash, row 7 from the top",
+        "color": "black",
+        "points": [
+          [
+            0.135,
+            0.295
+          ],
+          [
+            0.351,
+            0.295
+          ],
+          [
+            0.365,
+            0.282
+          ],
+          [
+            0.152,
+            0.282
+          ]
+        ]
+      },
+      {
+        "name": "teal dash, row 7 from the top",
+        "color": "teal",
+        "points": [
+          [
+            0.351,
+            0.295
+          ],
+          [
+            0.567,
+            0.294
+          ],
+          [
+            0.579,
+            0.281
+          ],
+          [
+            0.365,
+            0.282
+          ]
+        ]
+      },
+      {
+        "name": "black dash, row 7 from the top",
+        "color": "black",
+        "points": [
+          [
+            0.782,
+            0.294
+          ],
+          [
+            0.985,
+            0.294
+          ],
+          [
+            0.993,
+            0.281
+          ],
+          [
+            0.792,
+            0.281
+          ]
+        ]
+      },
+      {
+        "name": "black dash, row 8 from the top",
+        "color": "black",
+        "points": [
+          [
+            0.257,
+            0.194
+          ],
+          [
+            0.455,
+            0.193
+          ],
+          [
+            0.467,
+            0.18
+          ],
+          [
+            0.271,
+            0.18
+          ]
+        ]
+      },
+      {
+        "name": "teal dash, row 8 from the top",
+        "color": "teal",
+        "points": [
+          [
+            0.455,
+            0.193
+          ],
+          [
+            0.652,
+            0.193
+          ],
+          [
+            0.663,
+            0.179
+          ],
+          [
+            0.467,
+            0.18
+          ]
+        ]
+      },
+      {
+        "name": "black dash, row 8 from the top",
+        "color": "black",
+        "points": [
+          [
+            0.85,
+            0.192
+          ],
+          [
+            0.993,
+            0.192
+          ],
+          [
+            1.0,
+            0.179
+          ],
+          [
+            0.858,
+            0.179
+          ]
+        ]
+      },
+      {
+        "name": "teal dash, row 9 from the top",
+        "color": "teal",
+        "points": [
+          [
+            0.069,
+            0.092
+          ],
+          [
+            0.18,
+            0.092
+          ],
+          [
+            0.194,
+            0.079
+          ],
+          [
+            0.084,
+            0.079
+          ]
+        ]
+      },
+      {
+        "name": "black dash, row 9 from the top",
+        "color": "black",
+        "points": [
+          [
+            0.362,
+            0.092
+          ],
+          [
+            0.545,
+            0.091
+          ],
+          [
+            0.555,
+            0.078
+          ],
+          [
+            0.374,
+            0.078
+          ]
+        ]
+      },
+      {
+        "name": "teal dash, row 9 from the top",
+        "color": "teal",
+        "points": [
+          [
+            0.545,
+            0.091
+          ],
+          [
+            0.727,
+            0.091
+          ],
+          [
+            0.735,
+            0.078
+          ],
+          [
+            0.555,
+            0.078
+          ]
+        ]
+      },
+      {
+        "name": "black dash, row 9 from the top",
+        "color": "black",
+        "points": [
+          [
+            0.909,
+            0.091
+          ],
+          [
+            0.99,
+            0.091
+          ],
+          [
+            0.995,
+            0.077
+          ],
+          [
+            0.915,
+            0.077
+          ]
+        ]
+      },
+      {
+        "name": "black dash, row 10 from the top",
+        "color": "black",
+        "points": [
+          [
+            -0.025,
+            -0.004
+          ],
+          [
+            0.099,
+            -0.005
+          ],
+          [
+            0.099,
+            -0.018
+          ],
+          [
+            -0.025,
+            -0.017
+          ]
+        ]
+      },
+      {
+        "name": "teal dash, row 10 from the top",
+        "color": "teal",
+        "points": [
+          [
+            0.099,
+            -0.005
+          ],
+          [
+            0.27,
+            -0.005
+          ],
+          [
+            0.271,
+            -0.018
+          ],
+          [
+            0.099,
+            -0.018
+          ]
+        ]
+      },
+      {
+        "name": "black dash, row 10 from the top",
+        "color": "black",
+        "points": [
+          [
+            0.441,
+            -0.005
+          ],
+          [
+            0.612,
+            -0.006
+          ],
+          [
+            0.616,
+            -0.019
+          ],
+          [
+            0.443,
+            -0.018
+          ]
+        ]
+      },
+      {
+        "name": "teal dash, row 10 from the top",
+        "color": "teal",
+        "points": [
+          [
+            0.612,
+            -0.006
+          ],
+          [
+            0.783,
+            -0.006
+          ],
+          [
+            0.788,
+            -0.019
+          ],
+          [
+            0.616,
+            -0.019
+          ]
+        ]
+      },
+      {
+        "name": "black dash, row 10 from the top",
+        "color": "black",
+        "points": [
+          [
+            0.955,
+            -0.006
+          ],
+          [
+            0.983,
+            -0.006
+          ],
+          [
+            0.989,
+            -0.019
+          ],
+          [
+            0.96,
+            -0.019
+          ]
+        ]
+      },
+      {
+        "name": "white dash, row 1 from the top",
+        "color": "white",
+        "points": [
+          [
+            0.763,
+            0.908
+          ],
+          [
+            0.997,
+            0.908
+          ],
+          [
+            1.014,
+            0.894
+          ],
+          [
+            0.786,
+            0.894
+          ]
+        ]
+      },
+      {
+        "name": "white dash, row 2 from the top",
+        "color": "white",
+        "points": [
+          [
+            0.028,
+            0.808
+          ],
+          [
+            0.094,
+            0.808
+          ],
+          [
+            0.127,
+            0.795
+          ],
+          [
+            0.062,
+            0.795
+          ]
+        ]
+      },
+      {
+        "name": "white dash, row 2 from the top",
+        "color": "white",
+        "points": [
+          [
+            0.909,
+            0.808
+          ],
+          [
+            0.975,
+            0.808
+          ],
+          [
+            0.989,
+            0.794
+          ],
+          [
+            0.924,
+            0.794
+          ]
+        ]
+      },
+      {
+        "name": "white dash, row 3 from the top",
+        "color": "white",
+        "points": [
+          [
+            0.071,
+            0.704
+          ],
+          [
+            0.316,
+            0.703
+          ],
+          [
+            0.34,
+            0.69
+          ],
+          [
+            0.099,
+            0.69
+          ]
+        ]
+      },
+      {
+        "name": "white dash, row 4 from the top",
+        "color": "white",
+        "points": [
+          [
+            0.182,
+            0.6
+          ],
+          [
+            0.478,
+            0.6
+          ],
+          [
+            0.496,
+            0.587
+          ],
+          [
+            0.204,
+            0.587
+          ]
+        ]
+      },
+      {
+        "name": "white dash, row 5 from the top",
+        "color": "white",
+        "points": [
+          [
+            0.337,
+            0.5
+          ],
+          [
+            0.601,
+            0.499
+          ],
+          [
+            0.615,
+            0.486
+          ],
+          [
+            0.354,
+            0.487
+          ]
+        ]
+      },
+      {
+        "name": "white dash, row 6 from the top",
+        "color": "white",
+        "points": [
+          [
+            0.464,
+            0.397
+          ],
+          [
+            0.701,
+            0.396
+          ],
+          [
+            0.713,
+            0.383
+          ],
+          [
+            0.479,
+            0.383
+          ]
+        ]
+      },
+      {
+        "name": "white dash, row 7 from the top",
+        "color": "white",
+        "points": [
+          [
+            0.087,
+            0.295
+          ],
+          [
+            0.135,
+            0.295
+          ],
+          [
+            0.152,
+            0.282
+          ],
+          [
+            0.104,
+            0.282
+          ]
+        ]
+      },
+      {
+        "name": "white dash, row 7 from the top",
+        "color": "white",
+        "points": [
+          [
+            0.567,
+            0.294
+          ],
+          [
+            0.782,
+            0.294
+          ],
+          [
+            0.792,
+            0.281
+          ],
+          [
+            0.579,
+            0.281
+          ]
+        ]
+      },
+      {
+        "name": "white dash, row 8 from the top",
+        "color": "white",
+        "points": [
+          [
+            0.08,
+            0.194
+          ],
+          [
+            0.257,
+            0.194
+          ],
+          [
+            0.271,
+            0.18
+          ],
+          [
+            0.097,
+            0.18
+          ]
+        ]
+      },
+      {
+        "name": "white dash, row 8 from the top",
+        "color": "white",
+        "points": [
+          [
+            0.652,
+            0.193
+          ],
+          [
+            0.85,
+            0.192
+          ],
+          [
+            0.858,
+            0.179
+          ],
+          [
+            0.663,
+            0.179
+          ]
+        ]
+      },
+      {
+        "name": "white dash, row 9 from the top",
+        "color": "white",
+        "points": [
+          [
+            0.18,
+            0.092
+          ],
+          [
+            0.362,
+            0.092
+          ],
+          [
+            0.374,
+            0.078
+          ],
+          [
+            0.194,
+            0.079
+          ]
+        ]
+      },
+      {
+        "name": "white dash, row 9 from the top",
+        "color": "white",
+        "points": [
+          [
+            0.727,
+            0.091
+          ],
+          [
+            0.909,
+            0.091
+          ],
+          [
+            0.915,
+            0.077
+          ],
+          [
+            0.735,
+            0.078
+          ]
+        ]
+      },
+      {
+        "name": "white dash, row 10 from the top",
+        "color": "white",
+        "points": [
+          [
+            0.27,
+            -0.005
+          ],
+          [
+            0.441,
+            -0.005
+          ],
+          [
+            0.443,
+            -0.018
+          ],
+          [
+            0.271,
+            -0.018
+          ]
+        ]
+      },
+      {
+        "name": "white dash, row 10 from the top",
+        "color": "white",
+        "points": [
+          [
+            0.783,
+            -0.006
+          ],
+          [
+            0.955,
+            -0.006
+          ],
+          [
+            0.96,
+            -0.019
+          ],
+          [
+            0.788,
+            -0.019
+          ]
+        ]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      2
+    ]
+  },
+  "logos": [],
+  "titles": [
+    {
+      "text": "ZIPAIR",
+      "place": "fuselage",
+      "at": [
+        0.125,
+        -0.38
+      ],
+      "height": 0.35,
+      "length": 0.144,
+      "color": "black",
+      "style": "Big black serif capitals (high contrast, slightly flared) under the windows between doors 1 and 2; a short thin stroke under 'AIR' is part of the wordmark.",
+      "type": {
+        "similar": [
+          "Trajan Pro",
+          "Optima"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "contrast",
+        "case": "upper"
+      },
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "notes": "Measured on JA826J (left, SFO, 2026-04-19), fitted to the 787-8 shape within 3 px; the fin's dashes read off a 3x zoom of the same photo, each segment's corners mapped through the fit. The fin reads a pale grey beside the white body in every photo seen (light, or a grey paint: official: false). The wordmark is a title (ZIPAIR's logo is its name); the tail's dashes are drawn as areas. Small registration and 'Boeing 787' lettering not drawn.",
+  "history": "New file (ZIPAIR had no scheme here). Its only scheme, since the airline's first flights in 2020."
+}

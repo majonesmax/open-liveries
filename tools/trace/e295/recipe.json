@@ -1,0 +1,109 @@
+{
+  "_about": "Embraer 195-E2, from APM 5824 Rev 25 (Nov 29/24; Section 02 Aug 05/22) Figure 2.2 General Aircraft Dimensions (page index 20): side, plan and front views on one sheet, black lines over a pale yellow fill (layers.py --mode strokes-in-fill). The side and plan are drawn to one scale (the printed 41.60 m length and 32.87 m nose-to-wing-tip figures agree to 0.1%); the front view is drawn 1.171 times larger (its 35.12 m span's extension lines), so it is rendered at scale 13.667 to the side's. Scaled by the printed 41.60 m length. The E190-E2's (e290/) points moved by the two fuselage plugs (plug.py: 2.88 m ahead of the wing, from the inlet's move; 2.31 m behind it, from the aft door's), then snapped to this sheet; the wing placed here. Pixels of those rasters, line centres. Windows joined to other lines (one to the 6.82 m dimension's extension line, four to the wing's) are placed at their drawn centres (windowsAlso).",
+  "out": "../../../../shapes/E295.json",
+  "length": 41.6,
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "refs": {
+    "side": {
+      "nose": 65.5,
+      "tail": 4970,
+      "cowlEnd": 2063,
+      "windowRow": [774, 828],
+      "windowGap": 5,
+      "windowMinWidth": 30,
+      "windowInset": 2.5,
+      "windowsAlso": [845, 2765, 2860, 2955, 3050]
+    },
+    "plan": {
+      "nose": 64.5,
+      "centerline": 2144.5
+    },
+    "front": {
+      "centerline": 2133.5,
+      "crownTop": 666
+    }
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [624, 699, 729, 926]
+    },
+    {
+      "kind": "exit",
+      "box": [2002, 758, 2072, 869]
+    },
+    {
+      "kind": "exit",
+      "box": [2120, 758, 2190, 869]
+    },
+    {
+      "kind": "door",
+      "box": [3945, 715, 4037, 926]
+    },
+    {
+      "kind": "cargo",
+      "box": [870, 938, 1010, 1061]
+    },
+    {
+      "kind": "cargo",
+      "box": [3589, 943, 3720, 1053]
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [259, 815],
+      [285, 815],
+      [333, 816],
+      [338, 814],
+      [356, 786],
+      [373, 758],
+      [378, 754],
+      [361, 754],
+      [347, 755],
+      [304, 784],
+      [267, 810]
+    ],
+    [
+      [364, 815],
+      [361, 807],
+      [370, 781],
+      [378, 758],
+      [384, 755],
+      [417, 756],
+      [446, 757],
+      [451, 763],
+      [451, 788],
+      [451, 813],
+      [446, 818],
+      [408, 817],
+      [368, 816]
+    ]
+  ],
+  "printed": {
+    "fuselage height": 3.35,
+    "fuselage width": 3.01,
+    "wingspan": 35.12,
+    "tailplane span": 10.0
+  },
+  "meta": {
+    "id": "E295",
+    "name": "Embraer 195-E2",
+    "types": [
+      "E295"
+    ],
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://www.embraer.com/media/vmsjxvk5/e-jets-e2_apm_e-jetse2.pdf",
+        "title": "Embraer, E-Jets E2 Airport Planning Manual (APM 5824 Rev 25, Nov 29/24), Section 02, Figure 2.2 General Aircraft Dimensions (E195-E2); Figure 2.20 cabin cross-section",
+        "accessed": "2026-11-15",
+        "note": "Dimensions and outlines read off the side, plan and front views (tools/trace/e295/); the figures are the aircraft's measurements, not a copy of the drawing. The front view is drawn at 1.17 times the side's scale and is brought to it from its printed span."
+      }
+    ]
+  }
+}

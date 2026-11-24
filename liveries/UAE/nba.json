@@ -1,0 +1,628 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "nba",
+  "airline": "UAE",
+  "name": "NBA (Official Airline Partner of the NBA)",
+  "kind": "special",
+  "from": "2024-10",
+  "confidence": "medium",
+  "drawnOn": "A388",
+  "description": "Royal blue from the nose back to just ahead of the tail's red sweep, with a thin white line between them and the white tail cone behind; 'Emirates' in red instead of gold between the decks; aft of it a white outline basketball bouncing aft in three white arcs, 'Official Airline Partner of the NBA' in small white lettering and the NBA's logo (the red, white and blue logoman) over the wing root. Red engine cowlings with the calligraphy logo in white; the 2023 scheme's flag tail, red sweep and red winglets.",
+  "sources": [
+    {
+      "url": "https://www.emirates.com/media-centre/emirates-introduces-bold-nba-livery-ahead-of-emirates-nba-cup/",
+      "title": "Emirates introduces bold NBA livery ahead of Emirates NBA Cup (press release, 18 October 2024)",
+      "accessed": "2026-11-22",
+      "note": "A6-EOD, nose to tail, painted in-house in 19 days; a blue fuselage with the NBA logo and a bouncing basketball, the Emirates lettering in red instead of gold, red engines with the calligraphy in white. Read through Business Wire's copy and AirlineGeeks."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:A6-EOD_NCE_(54917538991).jpg",
+      "title": "A6-EOD NCE (Eric Salard, CC BY-SA 4.0)",
+      "accessed": "2026-11-22",
+      "note": "Right side, taxiing at Nice, level, 2025-11-11 (the newest open photo): flipped nose-left and fitted to shapes/A388.json (nose, tail, fin tip, the first and last main-deck doors; within 24 px, about 1 m). Everything measured on it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:A6-EOD_JFK_Push_Back_From_Gate7_At_IAT_EK_A380_861_Official_Airline_Partner_Of_The_NBA_Small_(54091403066).png",
+      "title": "A6-EOD JFK Push Back ... Official Airline Partner Of The NBA (Mark Bess, CC BY-SA 2.0)",
+      "accessed": "2026-11-22",
+      "note": "Right side from above at JFK, 2024-10-24, a week after the unveiling: the same layout; the third line 'of the NBA' (hidden by the wing at Nice) and the colours in sunlight."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F5",
+      "official": false
+    },
+    "red": {
+      "hex": "#D71921",
+      "name": "Emirates red",
+      "official": false
+    },
+    "green": {
+      "hex": "#00843D",
+      "name": "flag green",
+      "official": false
+    },
+    "black": {
+      "hex": "#16181B",
+      "name": "flag black",
+      "official": false
+    },
+    "flagWhite": {
+      "hex": "#D9DCDF",
+      "name": "the flag's white, read through its fine black ripple lines",
+      "official": false
+    },
+    "gold": {
+      "hex": "#A98C4E",
+      "name": "Emirates gold",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#C3C7CC",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C6CACF",
+      "name": "bare metal inlet lip",
+      "official": false
+    },
+    "nbaBlue": {
+      "hex": "#23308F",
+      "name": "the NBA jet's royal blue",
+      "official": false
+    },
+    "nbaRed": {
+      "hex": "#C8102E",
+      "name": "the NBA logo's red",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "royal blue, nose to just ahead of the red sweep, its aft edge sweeping down and forward to the belly",
+        "color": "nbaBlue",
+        "smooth": true,
+        "points": [
+          [
+            0,
+            1
+          ],
+          [
+            0.749,
+            1
+          ],
+          [
+            0.735,
+            0.75
+          ],
+          [
+            0.72,
+            0.44
+          ],
+          [
+            0.693,
+            0.07
+          ],
+          [
+            0.666,
+            -0.16
+          ],
+          [
+            0.637,
+            -0.37
+          ],
+          [
+            0.608,
+            -0.58
+          ],
+          [
+            0.579,
+            -0.82
+          ],
+          [
+            0.565,
+            -1
+          ],
+          [
+            0,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "red sweep from the fin down the rear fuselage, as on the A380s in the 2023 scheme",
+        "color": "red",
+        "smooth": true,
+        "points": [
+          [
+            0.765,
+            1
+          ],
+          [
+            0.76,
+            0.66
+          ],
+          [
+            0.745,
+            0.43
+          ],
+          [
+            0.722,
+            0.13
+          ],
+          [
+            0.7,
+            -0.28
+          ],
+          [
+            0.677,
+            -0.43,
+            1
+          ],
+          [
+            0.72,
+            -0.37
+          ],
+          [
+            0.752,
+            -0.21
+          ],
+          [
+            0.793,
+            0.09
+          ],
+          [
+            0.809,
+            0.49
+          ],
+          [
+            0.815,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      }
+    ],
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "flag green, along the top of the trailing half",
+        "color": "green",
+        "points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            0.9,
+            1.0
+          ],
+          [
+            0.62,
+            0.88
+          ],
+          [
+            0.53,
+            0.7
+          ],
+          [
+            0.3,
+            0.585
+          ],
+          [
+            0.44,
+            0.44
+          ],
+          [
+            0.62,
+            0.53
+          ],
+          [
+            0.81,
+            0.69
+          ],
+          [
+            1.0,
+            0.73
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ],
+        "smooth": true
+      },
+      {
+        "name": "flag white (rippled), under the green",
+        "color": "flagWhite",
+        "points": [
+          [
+            1.0,
+            0.73
+          ],
+          [
+            0.81,
+            0.69
+          ],
+          [
+            0.62,
+            0.53
+          ],
+          [
+            0.44,
+            0.44
+          ],
+          [
+            0.33,
+            0.43
+          ],
+          [
+            0.36,
+            0.1
+          ],
+          [
+            0.43,
+            0.086
+          ],
+          [
+            0.55,
+            0.2
+          ],
+          [
+            0.79,
+            0.4
+          ],
+          [
+            1.0,
+            0.44
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ],
+        "smooth": true
+      },
+      {
+        "name": "flag black (rippled)",
+        "color": "black",
+        "points": [
+          [
+            1.0,
+            0.44
+          ],
+          [
+            0.79,
+            0.4
+          ],
+          [
+            0.55,
+            0.2
+          ],
+          [
+            0.43,
+            0.086
+          ],
+          [
+            0.4,
+            -0.05
+          ],
+          [
+            0.65,
+            -0.05
+          ],
+          [
+            0.81,
+            0.155
+          ],
+          [
+            1.0,
+            0.19
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ],
+        "smooth": true
+      },
+      {
+        "name": "red band, the flag's hoist, running off the root onto the fuselage",
+        "color": "red",
+        "points": [
+          [
+            0.29,
+            0.585
+          ],
+          [
+            0.216,
+            0.44
+          ],
+          [
+            0.15,
+            0.32
+          ],
+          [
+            0.13,
+            0.155
+          ],
+          [
+            0.07,
+            -0.05
+          ],
+          [
+            0.35,
+            -0.05
+          ],
+          [
+            0.353,
+            0.155
+          ],
+          [
+            0.33,
+            0.32
+          ],
+          [
+            0.33,
+            0.44
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ],
+        "smooth": true
+      }
+    ],
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "red",
+    "inner": "green",
+    "confidence": "low",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "red",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "UAE/calligraphy",
+      "place": "engines",
+      "at": [
+        0.55,
+        0.05
+      ],
+      "height": 0.36,
+      "colors": [
+        "white"
+      ],
+      "description": "The Emirates calligraphy logo in white on the red cowlings.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Emirates_logo.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "UAE/calligraphy",
+      "place": "winglets",
+      "at": [
+        0.45,
+        0.55
+      ],
+      "height": 0.25,
+      "colors": [
+        "white"
+      ],
+      "description": "The calligraphy logo, small, in white on the red winglet's outer face.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Emirates_logo.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "UAE/nba-logoman",
+      "place": "fuselage",
+      "at": [
+        0.593,
+        0.11
+      ],
+      "height": 0.86,
+      "colors": [
+        "white",
+        "nbaBlue",
+        "nbaRed"
+      ],
+      "description": "The NBA's logo: an upright rounded oblong, blue at its forward side and red aft, a white silhouette of a player dribbling between them and 'NBA' in white at its foot, with a white border; standing across both decks' window lines over the wing root, upright and not reversed on the right.",
+      "reference": "https://en.wikipedia.org/wiki/NBA_logo",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "UAE/nba-bounce",
+      "place": "fuselage",
+      "at": [
+        0.452,
+        0.2
+      ],
+      "height": 0.33,
+      "colors": [
+        "white"
+      ],
+      "description": "A basketball in white outline (its seams drawn) just aft of the title, and three white arcs behind it where it bounced, running aft toward the lettering.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Emirates",
+      "place": "fuselage",
+      "at": [
+        0.127,
+        -0.157
+      ],
+      "height": 0.495,
+      "length": 0.265,
+      "color": "red",
+      "style": "The Emirates wordmark, in red instead of gold, between the decks as on the A380s' 2023 scheme.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Minion Pro Bold",
+          "Times New Roman Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "contrast",
+        "case": "mixed",
+        "xHeight": 0.8
+      }
+    },
+    {
+      "text": "Official",
+      "place": "fuselage",
+      "at": [
+        0.501,
+        0.252
+      ],
+      "height": 0.08,
+      "length": 0.033,
+      "color": "white",
+      "style": "Small white sans-serif lettering, upper and lower case, in three lines between the basketball and the NBA logo.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Medium",
+          "Arial"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      }
+    },
+    {
+      "text": "Airline Partner",
+      "place": "fuselage",
+      "at": [
+        0.501,
+        0.124
+      ],
+      "height": 0.08,
+      "length": 0.066,
+      "color": "white",
+      "style": "Small white sans-serif lettering, upper and lower case, in three lines between the basketball and the NBA logo.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Medium",
+          "Arial"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      }
+    },
+    {
+      "text": "of the NBA",
+      "place": "fuselage",
+      "at": [
+        0.501,
+        0.0
+      ],
+      "height": 0.08,
+      "length": 0.05,
+      "color": "white",
+      "style": "Small white sans-serif lettering, upper and lower case, in three lines between the basketball and the NBA logo.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Medium",
+          "Arial"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      }
+    }
+  ],
+  "notes": "Measured on the right side only (Nice, 2025-11-11, flipped; the JFK photo of 2024-10-24 agrees); no open photo of the left side, which is taken to be the same layout with the logo, ball and lettering in the same places. The blue is a gradient on the aircraft (darker toward the belly, brighter toward the nose in sunlight), drawn as one blue; the fine pin-stripes in it aren't drawn. The belly isn't seen in either photo: drawn blue, with no belly title. The red sweep is the A380s' (as measured on A6-EVG); here a thin white line separates it from the blue. The NBA logo and the basketball are the league's marks carried as a sponsor's: proposed as our own simplified marks (UAE/nba-logoman, UAE/nba-bounce), not traced. Status: the newest open photo is 2025-11-11; a JetPhotos photo (lead only) has it at JFK on 2025-12-11 and Emirates' 2026 special-livery round-ups still list it; no repaint reported.",
+  "history": "A6-EOD flew in the 1999 flag-tail scheme until it was repainted nose to tail for the NBA in October 2024."
+}

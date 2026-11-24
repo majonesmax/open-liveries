@@ -1,0 +1,38 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "trinity-2026",
+  "airline": "TWB",
+  "name": "Trinity Airways livery",
+  "kind": "standard",
+  "from": "2026-09",
+  "description": "The Trinity Airways identity after Sono Group's takeover of t'way: a gray and rose-gold scheme with a wide-set 'TRINITY' wordmark and a three-part rose-gold symbol. Described only; not yet drawn (no openly licensed photo).",
+  "confidence": "low",
+  "sources": [
+    {
+      "url": "https://www.travelextra.ie/tway-air-completes-rebrand-to-trinity-airways/",
+      "title": "Korea's T'way Air completes rebrand to Trinity Airways (TravelExtra)",
+      "accessed": "2026-11-13",
+      "note": "Rebrand effective 2026-09-10; first aircraft in Trinity livery 737-8 HL8754; IATA TW / ICAO TWB kept."
+    },
+    {
+      "url": "https://avitrader.com/2026/09/09/trinity-takes-delivery-of-first-boeing-737-8-in-new-livery/",
+      "title": "Trinity takes delivery of first Boeing 737-8 in new livery (AviTrader, 2026-09-09)",
+      "accessed": "2026-11-13",
+      "note": "'distinctive Trinity gray and rose-gold livery'; aircraft delivered from ACG's orderbook."
+    },
+    {
+      "url": "https://thealviator.com/2026/09/trinity-airways-rebrand/",
+      "title": "Trinity Airways rebrand (The Alviator)",
+      "accessed": "2026-11-13",
+      "note": "HL8754 flew Gimpo-Jeju 2026-09-10; wide-set typeface."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Trinity_Airways.svg",
+      "title": "Trinity Airways logo (Commons)",
+      "accessed": "2026-11-13",
+      "note": "Symbol of three tapered pieces (a bar over two inward-slanting blades) in rose-gold/champagne gradients (#C1B494, #C69186, #C6C8C8), wordmark 'TRINITY' in warm gray #686058."
+    }
+  ],
+  "notes": "Kind 'standard' because it is the airline's new fleet-wide scheme, but it is on very few aircraft (HL8754 first, Sept 2026; further ACG 737-8 deliveries through end-2026) and the rest of the fleet will be repainted over time. Draw once a dated, openly licensed photo exists; until then renderers should use the t'way scheme (standard).",
+  "history": "Introduced with the rename of T'way Air to Trinity Airways, 2026-09-10."
+}

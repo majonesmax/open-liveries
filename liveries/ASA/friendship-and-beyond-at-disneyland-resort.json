@@ -1,0 +1,328 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "friendship-and-beyond-at-disneyland-resort",
+  "airline": "ASA",
+  "name": "Friendship and Beyond at Disneyland Resort (Toy Story / Pixar Pier)",
+  "kind": "special",
+  "confidence": "medium",
+  "drawnOn": "B738",
+  "description": "Fuselage: Whole fuselage, belly and fin sky blue with white clouds (Andy's-room wallpaper style). Cheatlines: None. Tail: Sky-blue fin with Toy Story characters (Jessie, Woody) painted on it. Engines: Sky-blue cowlings. Winglets: Sky blue. Titles: White 'Alaska' script forward; 'Follow us to Disneyland' in white near the nose. Artwork: Oversized Woody, Buzz Lightyear and Jessie and other Pixar characters on the aft fuselage; the nose cone painted as the Pixar ball (yellow with a red star and blue stripe). Colors hex: approximate.",
+  "sources": [
+    {
+      "url": "https://www.alaskaair.com/content/travel-info/our-aircraft/737-800-friendship-and-beyond-disneyland-resort",
+      "accessed": "2026-11-14",
+      "title": "Alaska Airlines: Friendship and Beyond at Disneyland Resort",
+      "note": "Alaska's page: N537AS, introduced 2019-10-07; its photo shows the left side from slightly ahead: the blue sky, clouds, Pixar Pier sign, Woody, Buzz and Jessie, and the white Alaska title across the forward windows."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:N537AS_(aircraft)",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N537AS_at_SNA,_June_2025_(3).jpg",
+      "title": "N537AS at SNA, June 2025 (3) (CC BY-SA 4.0)",
+      "accessed": "2026-11-12",
+      "note": "Right side, side-on on approach, 2025-06-07: the whole scheme; positions of titles and artwork measured from it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Pixar_Pier_Inbound_(54145242705).jpg",
+      "title": "Pixar Pier Inbound (CC BY 2.0)",
+      "accessed": "2026-11-12",
+      "note": "Left side, side-on, 2024-08-05: the left side carries the same layout (Alaska title forward, Pixar Pier sign aft of the wing, Woody and Buzz aft, Jessie on the fin)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Alaska_Airlines_Toy_Story_Livery_(55144759313).jpg",
+      "title": "Alaska Airlines Toy Story Livery (CC BY 4.0)",
+      "accessed": "2026-11-12",
+      "note": "Front left three-quarter, 2025-09-26: the Pixar ball nose, clouds by the cockpit, engines and winglets."
+    }
+  ],
+  "from": "2019-10",
+  "palette": {
+    "sky": {
+      "hex": "#3E9EE4",
+      "name": "sky blue",
+      "official": false
+    },
+    "cloud": {
+      "hex": "#F4F7FA",
+      "official": false
+    },
+    "ballYellow": {
+      "hex": "#F6C719",
+      "official": false
+    },
+    "starRed": {
+      "hex": "#D8262E",
+      "official": false
+    },
+    "ballBlue": {
+      "hex": "#1F5FB8",
+      "official": false
+    },
+    "woodyYellow": {
+      "hex": "#E9B53C",
+      "official": false
+    },
+    "brown": {
+      "hex": "#7A4A26",
+      "official": false
+    },
+    "buzzGreen": {
+      "hex": "#7BC243",
+      "official": false
+    },
+    "buzzPurple": {
+      "hex": "#6A4BA0",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC5",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "sky",
+    "areas": [],
+    "radome": {
+      "color": "ballYellow",
+      "to": 0.012
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3,
+      4
+    ]
+  },
+  "fin": {
+    "base": "sky",
+    "rudder": "sky",
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "stabilizer": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "sky",
+    "inner": "sky",
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      4
+    ]
+  },
+  "engines": {
+    "cowling": "sky",
+    "inletLip": "lip",
+    "pylon": "sky",
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      4
+    ]
+  },
+  "logos": [
+    {
+      "mark": "ASA/pixar-ball-nose",
+      "licensed": "Disney",
+      "place": "fuselage",
+      "at": [
+        0.006,
+        0.0
+      ],
+      "height": 0.5,
+      "colors": [
+        "ballYellow",
+        "starRed",
+        "ballBlue"
+      ],
+      "description": "The nose cone painted as the Pixar Luxo ball: yellow with a red star on the front and a blue band round it.",
+      "confidence": "high",
+      "sourceRefs": [
+        2,
+        4
+      ]
+    },
+    {
+      "mark": "ASA/disneyland-resort",
+      "licensed": "Disney",
+      "place": "fuselage",
+      "at": [
+        0.074,
+        -0.13
+      ],
+      "height": 0.37,
+      "colors": [
+        "cloud"
+      ],
+      "description": "'Disneyland Resort' script logo in white below 'Follow us to', between the cockpit and the forward door.",
+      "confidence": "high",
+      "sourceRefs": [
+        2,
+        3
+      ]
+    },
+    {
+      "mark": "ASA/pixar-pier-sign",
+      "licensed": "Disney",
+      "place": "fuselage",
+      "at": [
+        0.638,
+        0.03
+      ],
+      "height": 0.8,
+      "colors": [
+        "cloud",
+        "starRed",
+        "woodyYellow"
+      ],
+      "description": "The Pixar Pier sign aft of the wing: a cream arched board with 'PIXAR PIER' in red slab capitals and a Pixar ball under it, flanked by red-and-white onion-domed towers (the larger one aft, about x 0.72-0.77, floor to crown).",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ]
+    },
+    {
+      "mark": "ASA/woody",
+      "licensed": "Disney",
+      "place": "fuselage",
+      "at": [
+        0.85,
+        0.22
+      ],
+      "height": 1.8,
+      "colors": [
+        "woodyYellow",
+        "brown",
+        "cloud"
+      ],
+      "description": "Woody, huge, flying forward with both arms out (yellow checked shirt, cow-print vest, brown hat), filling the aft fuselage from the belly to the crown between about x 0.76 and 0.93.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ]
+    },
+    {
+      "mark": "ASA/buzz-lightyear",
+      "licensed": "Disney",
+      "place": "fuselage",
+      "at": [
+        0.87,
+        0.9
+      ],
+      "height": 1.1,
+      "colors": [
+        "cloud",
+        "buzzGreen",
+        "buzzPurple"
+      ],
+      "description": "Buzz Lightyear (white, green and purple) behind and above Woody, where the fin meets the fuselage.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ]
+    },
+    {
+      "mark": "ASA/jessie-and-bullseye",
+      "licensed": "Disney",
+      "place": "fin",
+      "at": [
+        0.45,
+        0.62
+      ],
+      "height": 0.7,
+      "colors": [
+        "starRed",
+        "cloud",
+        "brown"
+      ],
+      "description": "Jessie twirling a lasso with her red hat held high near the tip, riding Bullseye (black and white) below her, on white clouds; the lasso's rope loops back over the fin.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Alaska",
+      "place": "fuselage",
+      "at": [
+        0.143,
+        -0.23
+      ],
+      "height": 1.0,
+      "color": "cloud",
+      "style": "The 2016 Alaska wordmark in white, big, across the forward windows.",
+      "confidence": "high",
+      "sourceRefs": [
+        2,
+        3,
+        4
+      ],
+      "type": {
+        "similar": [
+          "Kaufmann Bold",
+          "Futura Bold Oblique"
+        ],
+        "weight": 800,
+        "slantDeg": 16,
+        "width": "normal",
+        "strokes": "brush",
+        "case": "mixed",
+        "xHeight": 0.55
+      },
+      "length": 0.237
+    },
+    {
+      "text": "Follow us to",
+      "place": "fuselage",
+      "at": [
+        0.072,
+        0.05
+      ],
+      "height": 0.12,
+      "color": "cloud",
+      "style": "Small white sans, above the Disneyland logo.",
+      "confidence": "high",
+      "sourceRefs": [
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Medium",
+          "Helvetica Neue Medium"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "length": 0.043
+    }
+  ],
+  "notes": "Drawn from the right side (2025-06-07, side-on) and checked on the left (2024-08-05): the same layout on both sides. Small white cartoon clouds are scattered over the blue (a big one round the cockpit; not drawn). The belly's bottom looks lighter gray in the side-on photo, which may be paint or light; not drawn. Registration in white over the windows: on the right ahead of the Pixar Pier sign, on the left aft of the wing. Re-checked 2026-11-15 on the June 2025 right-side photo (side-on; the forward door as the scale, about 40 px/m): 'Alaska' runs from just behind the door (5.4 m) to over the wing root (14.5 m), x 0.143-0.38, longer than first drawn (0.18); 'Follow us to' runs 2.75-4.4 m back (x 0.072-0.115) above the Disneyland logo. Lowercase heights recorded. Drawn on the 737-800; the fuselage is one colour, nothing to smooth."
+}

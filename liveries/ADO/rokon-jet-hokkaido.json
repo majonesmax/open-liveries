@@ -1,0 +1,81 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "rokon-jet-hokkaido",
+  "airline": "ADO",
+  "name": "Rokon Jet Hokkaido (ロコンジェット北海道)",
+  "kind": "special",
+  "from": "2021-12",
+  "confidence": "low",
+  "description": "AIRDO's Pokémon special on 767-300ER JA607A, a different design on each side: on the left, Alolan Vulpix (Rokon) in white and pale blue over a pale-blue fin and snowy scenes along the cabin; on the right, Vulpix in orange over a yellow fin and crown, with sunflowers along the cabin. 'AIR DO' kept in dark letters over the forward windows on both sides.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:20220331_rokon_jet_of_AIRDO_JA607A_left_side_at_Tokyo_international_airport.png",
+      "title": "20220331 rokon jet of AIRDO JA607A left side at Tokyo international airport.png (CC BY-SA 4.0, Goshuinnist)",
+      "accessed": "2026-11-22",
+      "note": "JA607A left side, Haneda, 2022-03-31: the layout and colours (1080 px wide, too small and far to measure the art)."
+    },
+    {
+      "url": "https://trafficnews.jp/post/113409",
+      "title": "乗りものニュース: the Bear Do Hokkaido JET's last flight, replaced by the Pokémon jet (December 2021)",
+      "accessed": "2026-11-22",
+      "note": "JA607A became Rokon Jet Hokkaido, replacing the Bear Do Hokkaido JET (767 JA602A, last flight 2021-12-09)."
+    },
+    {
+      "url": "https://www.aviationwire.jp/archives/326347",
+      "title": "Aviation Wire (2025-06-26): AIRDO's Fighters Bear Do promotion",
+      "accessed": "2026-11-22",
+      "note": "Names the special 'Rokon Jet Hokkaido' as flying (left out of a summer 2025 in-flight promotion)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:JA607A_Rokon_Jet_links.jpg",
+      "title": "JA607A Rokon Jet links.jpg (CC BY 3.0, NK1303)",
+      "accessed": "2026-11-22",
+      "note": "JA607A left side at night, 2025-03-24: Alolan Vulpix in pale blue and white, the fin pale blue with a large Alolan Vulpix."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:ボーイング767-300ER_ロコンジェット北海道・右面(JA607A).jpg",
+      "title": "ボーイング767-300ER ロコンジェット北海道・右面(JA607A).jpg (CC0, Tkk2000)",
+      "accessed": "2026-11-22",
+      "note": "JA607A right side, 2025-04-23: Vulpix in orange on a yellow fin and crown, sunflowers along the cabin."
+    }
+  ],
+  "logos": [
+    {
+      "mark": "ADO/rokon",
+      "licensed": "The Pokémon Company",
+      "place": "fin",
+      "at": [
+        0.5,
+        0.5
+      ],
+      "height": 0.6,
+      "colors": [],
+      "description": "Alolan Vulpix large on the pale-blue fin (left side); Vulpix on the yellow fin (right side). Pokémon artwork, never drawn from here.",
+      "confidence": "low",
+      "sourceRefs": [
+        3,
+        4
+      ]
+    },
+    {
+      "mark": "ADO/rokon-scenes",
+      "licensed": "The Pokémon Company",
+      "place": "fuselage",
+      "at": [
+        0.45,
+        -0.1
+      ],
+      "height": 0.9,
+      "colors": [],
+      "description": "Vulpix and Alolan Vulpix scenes along the cabin: snowy on the left, sunflowers on the right.",
+      "confidence": "low",
+      "sourceRefs": [
+        0,
+        3,
+        4
+      ]
+    }
+  ],
+  "notes": "Described in words only: the open photos are a night three-quarter view of the left (2025-03-24), a far left side (2022-03-31) and a far right side (2025-04-23, CC0); none measurable for art that covers the aircraft, and the sides differ. In service from December 2021 (five years planned, so to about the end of 2026); named as flying in June 2025; flight-tracking sites show it flying to July 2026 (leads only). Draw it if side-on open photos of both sides appear; check it's still painted after December 2026.",
+  "history": "New 2026-11-22. The Bear Do Hokkaido JET (767 JA602A, the mascot and Hokkaido's seasons, a smiling bear face on the fin) it replaced retired in December 2021."
+}

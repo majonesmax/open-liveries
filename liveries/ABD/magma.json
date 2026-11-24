@@ -1,0 +1,449 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "magma",
+  "airline": "ABD",
+  "name": "Magma Aviation",
+  "kind": "standard",
+  "confidence": "medium",
+  "drawnOn": "B744",
+  "description": "Magma Aviation's paint on the 747-400 freighters Air Atlanta Icelandic flies for it: all white, a big lowercase black 'magma' over the forward main deck with an orange disc just behind it, crossed by a white swoosh rising toward the tail; 'OPERATED BY / AIR ATLANTA / ICELANDIC' small and black ahead of it near the nose; a large orange disc on the white fin, cut by the same tapering white swoosh, running off the fin's leading and trailing edges; 'Powered by chapman freeborn' small on the aft fuselage; orange winglets, white engines.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:TF-AMN_Boeing_747-4F6_Magma_Aviation_orby_Air_Atlanta_Liege_17.3.26_(55186720476).jpg",
+      "title": "TF-AMN Boeing 747-4F6 Magma Aviation orby Air Atlanta Liege 17.3.26 (55186720476).jpg (CC BY-SA 4.0, Colin Cooke Photo)",
+      "accessed": "2026-11-20",
+      "note": "747-400(BDSF) TF-AMN, right side from below landing at Liège, taken 2026-03-17 (Commons date 2026-04-04). Flipped and fitted to shapes/B744-passenger.json (nose, tail, fin tip, crown and belly at 9.7 m and 50 m; camera 19 degrees below): the wordmark's ends and height, the fuselage disc, the small titles' ends, the fin disc and swoosh."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:TF-AMP_Boeing_747-481(BCF)_Magma_Air_Atlanta_Liege_25.6.26.jpg",
+      "title": "TF-AMP Boeing 747-481(BCF) Magma Air Atlanta Liege 25.6.26.jpg (CC BY-SA 4.0, Colin Cooke Photo)",
+      "accessed": "2026-11-20",
+      "note": "747-400(BCF) TF-AMP, left side from below and ahead, at Liège, 2026-06-24. Fitted to shapes/B744-passenger.json (doors pinned; a strongly oblique view, ~15 px off): the left side's layout (the disc behind the wordmark, the swoosh rising toward the tail, the small titles' order), the orange left winglet, white engines and belly."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:TF-AMN_Boeing_747-4F6_Magma_Aitr_Atlanta_Liege_25.6.26.jpg",
+      "title": "TF-AMN Boeing 747-4F6 Magma Aitr Atlanta Liege 25.6.26.jpg (CC BY-SA 4.0, Colin Cooke Photo)",
+      "accessed": "2026-11-20",
+      "note": "TF-AMN, left side from below, at Liège, 2026-06-24: the same layout as TF-AMP."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Air_Atlanta_Icelandic_TF-AKD_13-05-2025.jpg",
+      "title": "Air Atlanta Icelandic TF-AKD 13-05-2025.jpg (CC BY-SA 4.0, LN9267)",
+      "accessed": "2026-11-20",
+      "note": "Factory 747-400F TF-AKD, right side from above, at Hong Kong, 2025-05-13: the same titles, discs and orange winglets on the short-deck freighter."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F4F4F2",
+      "official": false
+    },
+    "orange": {
+      "hex": "#FF6E1F",
+      "official": false
+    },
+    "black": {
+      "hex": "#1B1C1F",
+      "official": false
+    },
+    "chapman": {
+      "hex": "#2B2E30",
+      "official": false
+    },
+    "green": {
+      "hex": "#3AA86A",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C4C8CC",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "windows": "hidden",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "orange disc's larger lower part, below the white swoosh, running off the trailing edge",
+        "color": "orange",
+        "points": [
+          [
+            0.723,
+            0.785,
+            1
+          ],
+          [
+            0.895,
+            0.712
+          ],
+          [
+            1.009,
+            0.629
+          ],
+          [
+            1.083,
+            0.534
+          ],
+          [
+            1.111,
+            0.437
+          ],
+          [
+            1.109,
+            0.346
+          ],
+          [
+            1.079,
+            0.266
+          ],
+          [
+            1.032,
+            0.202
+          ],
+          [
+            0.965,
+            0.156
+          ],
+          [
+            0.884,
+            0.135
+          ],
+          [
+            0.797,
+            0.137
+          ],
+          [
+            0.694,
+            0.164
+          ],
+          [
+            0.584,
+            0.215
+          ],
+          [
+            0.466,
+            0.284
+          ],
+          [
+            0.335,
+            0.37,
+            1
+          ],
+          [
+            0.487,
+            0.577
+          ]
+        ],
+        "smooth": true,
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "orange disc's smaller upper part, above the swoosh, cut off by the leading edge",
+        "color": "orange",
+        "points": [
+          [
+            0.602,
+            0.818,
+            1
+          ],
+          [
+            0.409,
+            0.854
+          ],
+          [
+            0.22,
+            0.874
+          ],
+          [
+            0.053,
+            0.873
+          ],
+          [
+            -0.066,
+            0.856
+          ],
+          [
+            -0.122,
+            0.819
+          ],
+          [
+            -0.116,
+            0.767
+          ],
+          [
+            -0.074,
+            0.703
+          ],
+          [
+            -0.002,
+            0.633
+          ],
+          [
+            0.097,
+            0.551
+          ],
+          [
+            0.2,
+            0.47,
+            1
+          ],
+          [
+            0.358,
+            0.64
+          ]
+        ],
+        "smooth": true,
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      3
+    ]
+  },
+  "winglets": {
+    "outer": "orange",
+    "inner": "orange",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      3
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "titles": [
+    {
+      "text": "magma",
+      "place": "fuselage",
+      "at": [
+        0.168,
+        -0.05
+      ],
+      "height": 0.39,
+      "length": 0.152,
+      "color": "black",
+      "style": "Magma's wordmark: a heavy rounded geometric sans in lowercase, black, the 'g' descending; over the forward main deck from behind the cockpit, the orange disc just aft of it on both sides.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Montserrat Bold",
+          "Gotham Rounded Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.72
+      }
+    },
+    {
+      "text": "OPERATED BY",
+      "place": "fuselage",
+      "at": [
+        0.083,
+        -0.03
+      ],
+      "height": 0.045,
+      "length": 0.034,
+      "color": "black",
+      "style": "Small spaced capitals over 'AIR ATLANTA', ending with it at its aft end.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Montserrat Medium",
+          "Gotham Medium"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "AIR ATLANTA",
+      "place": "fuselage",
+      "at": [
+        0.055,
+        -0.08
+      ],
+      "height": 0.1,
+      "length": 0.062,
+      "color": "black",
+      "style": "Air Atlanta's name in plain medium capitals, a little spaced, between the cockpit and the forward door.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Montserrat Medium",
+          "Gotham Medium"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "ICELANDIC",
+      "place": "fuselage",
+      "at": [
+        0.082,
+        -0.19
+      ],
+      "height": 0.04,
+      "length": 0.034,
+      "color": "black",
+      "style": "Small widely spaced capitals under 'AIR ATLANTA', ending with it at its aft end.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Montserrat Medium",
+          "Gotham Medium"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "Powered by",
+      "place": "fuselage",
+      "at": [
+        0.722,
+        -0.02
+      ],
+      "height": 0.05,
+      "length": 0.025,
+      "color": "green",
+      "style": "Small green lettering over the 'chapman freeborn' logotype, aft of the wing.",
+      "confidence": "low",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Open Sans"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      }
+    },
+    {
+      "text": "chapman freeborn",
+      "place": "fuselage",
+      "at": [
+        0.7,
+        -0.31
+      ],
+      "height": 0.09,
+      "length": 0.05,
+      "color": "chapman",
+      "parts": [
+        {
+          "text": "chapman ",
+          "color": "chapman"
+        },
+        {
+          "text": "freeborn",
+          "color": "green"
+        }
+      ],
+      "style": "Chapman Freeborn's logotype, small, lowercase bold sans: 'chapman' dark grey, 'freeborn' green, a small starburst over it and a tagline under it (not drawn).",
+      "confidence": "low",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Open Sans Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "condensed",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.72
+      }
+    }
+  ],
+  "logos": [
+    {
+      "mark": "ABD/magma-disc",
+      "place": "fuselage",
+      "at": [
+        0.357,
+        0.11
+      ],
+      "height": 0.55,
+      "colors": [
+        "orange",
+        "white"
+      ],
+      "description": "Magma's disc: an orange circle cut by a white swoosh that tapers from its forward end (wide) to its aft end (thin), rising toward the tail, leaving a smaller orange segment above it and a larger one below. Just aft of the wordmark on both sides, mirrored on the right. The same design fills the fin, drawn there as areas so the fin's edges cut it.",
+      "reference": "https://commons.wikimedia.org/wiki/File:TF-AMN_Boeing_747-4F6_Magma_Aviation_orby_Air_Atlanta_Liege_17.3.26_(55186720476).jpg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "notes": "Magma Aviation (Liège) is a cargo airline brand without its own AOC: Air Atlanta Icelandic flies its 747s under ABD on an ACMI contract, so the paint lives in ABD's folder and is tagged to TF-AMP, TF-AMN and TF-AKD in airframes/ABD.json (kind 'standard': it's the customer's fleet-wide scheme, as ATN/prime-air). TF-AMP and TF-AMN are passenger conversions with the long upper deck, measured on shapes/B744-passenger.json; TF-AKD is a factory 747-400F carrying the same paint. Measured mainly on the flipped right side of TF-AMN (the best fit): the wordmark runs x 0.165-0.316 there and 0.177-0.337 on TF-AMP's oblique left side (a poorer fit), drawn 0.168-0.320; its lowercase about 1.5 m tall. The fuselage disc is about 3 m across, centred about 24 m back. The fin disc is about 9.5 m across, its centre a little aft of the fin's middle at about 60% of its height, cut by the leading edge at its forward end and running off the trailing edge. The small Air Atlanta and Chapman Freeborn titles are read off ~10 px lettering: their places are close, their sizes rough; Chapman Freeborn's tagline ('The Global Aircraft Charter Specialists') is too small to draw. The Chapman Freeborn titles are seen on TF-AMP and TF-AMN; TF-AKD's photos are too small to say. TF-AKD shows a light grey-blue lower fuselage in both of its photos (2024, 2025), perhaps left from its earlier paint, which TF-AMP and TF-AMN don't have: not drawn. The winglets' inner faces aren't seen: drawn orange like the outer. Colours by eye.",
+  "history": "New in the LAX round (2026-11-20): Air Atlanta Icelandic flies in its customers' paint; this is Magma Aviation's."
+}

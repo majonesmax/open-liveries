@@ -1,0 +1,116 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "BAW",
+  "airframes": [
+    {
+      "registration": "G-BNLY",
+      "livery": "landor-retro",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://key.aero/article/where-are-all-british-airways-boeing-747s-now",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:G-BNLY_(aircraft)",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "type": "B744",
+      "from": "2019-03",
+      "to": "2020",
+      "lastSeen": "2020-12",
+      "status": "retired – reported preserved at Dunsfold Aerodrome: Key.aero table: retired 23 Mar 2020, stored Cardiff; UK Aviation News says the Landor jet went to Dunsfold for TV/film use (registration not explicitly tied)."
+    },
+    {
+      "registration": "G-BYGC",
+      "livery": "boac-retro",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://www.flightglobal.com/air-transport/collectors-offered-parts-of-ba-747-400-which-carried-boac-heritage-livery/155679.article",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://www.scramble.nl/civil-news/british-airways-boac-retro-b747-scrapped",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "type": "B744",
+      "from": "2019-02",
+      "to": "2020",
+      "lastSeen": "2023-06",
+      "status": "retired – scrapped (2023): Initially to be preserved by eCube at St Athan; reported broken up in 2023 with parts sold to collectors (FlightGlobal, Scramble)."
+    },
+    {
+      "registration": "G-CIVB",
+      "livery": "negus-negus-retro",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://mediacentre.britishairways.com/news/26102020/iconic-british-airways-747-queen-of-the-skies-to-be-preserved-at-cotswold-airport",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://cotswoldairport.com/?p=716",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:G-CIVB_(aircraft)",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "type": "B744",
+      "from": "2019-02",
+      "to": "2020-04",
+      "lastSeen": "2026-05-01",
+      "status": "retired – preserved at Cotswold Airport (Kemble): BA announced preservation at Cotswold Airport 26 Oct 2020; Commons photos at Kemble 2024 and 2026."
+    },
+    {
+      "registration": "G-EUPJ",
+      "livery": "bea-red-square-retro",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://airlinegeeks.com/2019/03/05/british-airways-adds-bea-to-retro-livery-line-up/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://www.aerotime.aero/articles/british-airways-a319-bea-livery-returns",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:G-EUPJ_(aircraft)",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "400879",
+      "hexSource": "looked up: hexdb.io community database (2026-11-12); not verified against the national register",
+      "type": "A319",
+      "from": "2019-03",
+      "lastSeen": "2025-10-11",
+      "status": "active: Commons photo at Heathrow 11 Oct 2025; flight-tracker listings into Oct 2026. Stored ~570 days in Madrid, returned to service June 2024."
+    },
+    {
+      "registration": "G-TTNA",
+      "livery": "ba-better-world",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://www.airportspotting.com/british-airways-launches-new-sustainability-campaign-and-special-livery/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:G-TTNA_(aircraft)",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "407464",
+      "hexSource": "looked up: hexdb.io community database (2026-11-12); not verified against the national register",
+      "type": "A20N",
+      "from": "2021",
+      "lastSeen": "2026-11-14",
+      "status": "active: Commons photo at Heathrow dated 13 Aug 2026."
+    }
+  ]
+}

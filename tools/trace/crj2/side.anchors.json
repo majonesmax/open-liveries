@@ -1,0 +1,13 @@
+{
+  "_about": "Bombardier CRJ100/200/440 Airport Planning Manual (CSP A-020, Revision 8), 00-02-01 Figure 2 General Airplane Dimensions (Metric): page index 24, a binarized scan in nine tiles (layers.py --mode image) at scale 10, clip 150,505,480,590 (side). Drawn level (the crown runs level along the cabin): no --rotate. Pixels of that raster, line centres. The crown runs behind the nacelle (its top 0.05 m above the crown). The fin's top fairing (the 'bullet') runs aft to a point over the tailplane's tip; the fin's trailing edge runs up to where the tailplane crosses it, then along the fairing's top from its point forward to the leading edge.",
+  "fuselage.crown": [[28, 650], [40, 628], [60, 611], [100, 583], [150, 555], [200, 527], [250, 497], [300, 468], [350, 445], [400, 428], [450, 416], [500, 410], [600, 408], [1000, 408], [1500, 408], [2000, 408], "hidden", [2360, 414], [2400, 418], [2500, 428], [2600, 438], [2700, 449], [2800, 459], [2860, 465], [2900, 472], [2912, 486]],
+  "fuselage.belly": [[28, 650], [32, 663], [60, 675], [100, 690], [150, 703], [200, 711], [300, 719], [400, 722], [600, 723], [1000, 723], "hidden", [2000, 725], [2100, 722], [2300, 707], [2500, 683], [2700, 650], [2800, 625], [2850, 595], [2880, 560], [2900, 523], [2912, 497], [2912, 486]],
+  "fin.fillet": [[2414, 418], [2414, 398], [2480, 396], [2530, 392], [2552, 380]],
+  "fin.leading": [[2556, 377], [2650, 280], [2750, 178], [2800, 128], [2840, 99], [2880, 89]],
+  "fin.trailing": [[2903, 468], [2950, 375], [3000, 285], [3040, 210], [3060, 180], "hidden", [3212, 128], [3150, 120], [3100, 112], [3060, 102], [3000, 93], [2930, 89], [2880, 89]],
+  "fin.rudder": [[2797, 441], [2850, 365], [2900, 293], [2950, 215], [2972, 182]],
+  "engine.top": [[2036, 480], [2041, 425], [2055, 402], [2150, 401], [2250, 402], [2350, 404], [2355, 428], [2420, 440], [2495, 457]],
+  "engine.bottom": [[2036, 480], [2037, 535], [2050, 552], [2150, 564], [2250, 565], [2340, 555], [2353, 540], [2420, 523], [2495, 515]],
+  "wingtip.leading": [[1886, 639], [1940, 570], [1992, 502]],
+  "wingtip.trailing": [[1978, 646], [2005, 585], [2026, 503]]
+}

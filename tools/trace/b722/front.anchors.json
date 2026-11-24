@@ -1,0 +1,11 @@
+{
+  "_about": "Boeing D6-58324, 2.2, Model 727-200: page index 18, layers.py --mode image at scale 5, clip 160,490,440,580 (front). Pixels of that raster, line centres; the right half as drawn (the aircraft's left side). The centerline is one of the grid's lines. This view draws what stands above and beside the fuselage 0.25-0.5 m lower against the fuselage's circle than the side view does (the intake, the side nacelles, the tailplane): the tailplane's height is the side view's (recipe `stabilizerZ`), the stub pylon's placed at the side view's nacelle middle as free points.",
+  "fuselage.section": [[705, 172], [740, 179], [765, 200], [779, 230], [780, 253], [776, 280], [760, 305], [730, 322], [705, 329]],
+  "wing.upper": [[781, 276], [900, 283], [1100, 284], [1300, 281], [1360, 283]],
+  "wing.lower": [[790, 300], [900, 312], [1100, 300], [1300, 289], [1360, 284]],
+  "stabilizer.upper": [[712, 19], [800, 18], [900, 18], [925, 22]],
+  "stabilizer.lower": [[712, 29], [800, 29], [900, 28], [925, 24]],
+  "engine.inlet": [[788, 241], [795, 218], [815, 206], [838, 216], [846, 241], [838, 266], [815, 276], [795, 265], [788, 241]],
+  "pylon.upper": [{"free": [781, 225]}, "hidden", {"free": [790, 225]}],
+  "pylon.lower": [{"free": [781, 237]}, "hidden", {"free": [790, 237]}]
+}

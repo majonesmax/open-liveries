@@ -1,0 +1,793 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "BAW",
+  "name": "Chatham Dockyard (Union Flag)",
+  "kind": "standard",
+  "from": "1997",
+  "confidence": "high",
+  "drawnOn": "A320",
+  "description": "White fuselage over a midnight-blue belly that runs from the chin to the tail, a red tail cone; the red-and-blue Speedmarque ribbon over the forward door; 'BRITISH AIRWAYS' in blue serif capitals along the forward cabin with the coat of arms behind it; the fin is the Chatham Dockyard Union Flag: red, white and blue bands waving across it; blue engines.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:G-XWBO,_London_Heathrow,_November_13th_2025_-_55131169569.jpg",
+      "title": "G-XWBO, London Heathrow, November 13th 2025 (CC BY-SA 4.0, Southsea_Matt)",
+      "accessed": "2026-11-13",
+      "note": "A350-1000 from the left, 2025-11-13: the fin's bands, the Speedmarque, title and crest, belly split."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A320-232_(c-n_6129,_G-EUYW)_2025-09-24_Andre_Gerwing_Collection_ID_025612.jpg",
+      "title": "Airbus A320-232 G-EUYW, 2025-09-24 (CC BY-SA 4.0, André Gerwing)",
+      "accessed": "2026-11-13",
+      "note": "Right side, from slightly below: the fin mirrored, belly, red tail cone, blue engines, white sharklets. Re-checked 2026-11-15: fitted (flipped) to the measured A320 shape, doors pinned, camera 8° below: the title starts 0.6 m aft of the forward door, its capitals' tops just under the window bottoms."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A320-251N_(c-n_10493,_G-TTNR)_2025-10-17_Andre_Gerwing_Collection_ID_026960.jpg",
+      "title": "Airbus A320-251N G-TTNR, 2025-10-17 (CC BY-SA 4.0, André Gerwing)",
+      "accessed": "2026-11-13",
+      "note": "A320neo from below and the right: belly, engines, sharklets."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:G-EUYW,_London_Heathrow,_June_27th_2025.jpg",
+      "title": "G-EUYW, London Heathrow, June 27th 2025 (CC BY 4.0, Southsea_Matt)",
+      "accessed": "2026-11-13",
+      "note": "Right side approach view."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/British_Airways#Livery,_logos_and_tail_fins",
+      "title": "Wikipedia: British Airways, livery",
+      "accessed": "2026-11-13",
+      "note": "Chatham Dockyard Union Flag adopted fleet-wide from 1997 (after the World Images tails); Speedmarque."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:G-XLED_A380,_British_Airways,_Miami_02-20-26_(55147285652).jpg",
+      "title": "G-XLED A380, British Airways, Miami 02-20-26 (CC BY 4.0, Duncan Kirk)",
+      "accessed": "2026-11-16",
+      "note": "A380 from the left, level and side-on, 2026-02-20: fitted to the measured A380 shape (nose, fin tip, doors M1 and M4, crown and belly at 10 m; camera level). The title, Speedmarque, coat of arms, belly line, the fin's bands and the red behind the fin read off it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:British_Airways,_Airbus_A380-841,_G-XLEC_-_LAX_(19094644583).jpg",
+      "title": "British Airways, Airbus A380-841, G-XLEC - LAX (CC BY-SA 2.0, Eric Salard)",
+      "accessed": "2026-11-16",
+      "note": "A380 from the right, level and side-on, 2015-04-15: flipped and fitted to the A380 shape as the left-side photo; the title, Speedmarque, coat of arms and belly line within 0.005 of the left side's (the belly line 0.1 m higher)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:British_Airways_Airbus_A380-800_G-XLEF_MD4.jpg",
+      "title": "British Airways Airbus A380-800 G-XLEF MD4 (CC BY-SA 4.0, Acroterion)",
+      "accessed": "2026-11-16",
+      "note": "A380 from below and the right, 2025-08-10: the midnight blue underneath stops short of the tail (about x 0.78), white behind it to the red tail cone."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F2F3F5",
+      "official": false
+    },
+    "navy": {
+      "hex": "#1D2B5E",
+      "name": "midnight blue",
+      "official": false
+    },
+    "red": {
+      "hex": "#D3202F",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC5",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "name": "bare metal inlet lip",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "midnight-blue belly",
+        "color": "navy",
+        "below": [
+          [
+            0,
+            -0.3
+          ],
+          [
+            0.82,
+            -0.32
+          ],
+          [
+            0.95,
+            -0.3
+          ],
+          [
+            1,
+            -0.3
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "name": "red tail cone",
+        "color": "red",
+        "points": [
+          [
+            0.965,
+            -1
+          ],
+          [
+            0.965,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "mirrored": true,
+    "areas": [
+      {
+        "name": "upper red band",
+        "color": "red",
+        "points": [
+          [
+            0,
+            0.565
+          ],
+          [
+            0.3,
+            0.75
+          ],
+          [
+            0.6,
+            0.84
+          ],
+          [
+            1,
+            0.87
+          ],
+          [
+            1,
+            0.63
+          ],
+          [
+            0.7,
+            0.625
+          ],
+          [
+            0.4,
+            0.6
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ],
+        "smooth": true
+      },
+      {
+        "name": "blue band",
+        "color": "navy",
+        "points": [
+          [
+            0,
+            0.425
+          ],
+          [
+            0.4,
+            0.47
+          ],
+          [
+            1,
+            0.5
+          ],
+          [
+            1,
+            0.27
+          ],
+          [
+            0.5,
+            0.34
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ],
+        "smooth": true
+      },
+      {
+        "name": "lower red band",
+        "color": "red",
+        "points": [
+          [
+            0,
+            0.34
+          ],
+          [
+            0.5,
+            0.26
+          ],
+          [
+            1,
+            0.17
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0.75,
+            0
+          ],
+          [
+            0.4,
+            0.12
+          ],
+          [
+            0,
+            0.25
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ],
+        "smooth": true
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "white",
+    "inner": "white",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "navy",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "BAW/speedmarque",
+      "place": "fuselage",
+      "at": [
+        0.12,
+        0.3
+      ],
+      "height": 0.45,
+      "colors": [
+        "red",
+        "navy"
+      ],
+      "description": "The Speedmarque: a red ribbon sweeping back from the nose over the forward door, its front edge folded under in midnight blue so a blue sliver shows at the front; it points forward on both sides.",
+      "reference": "https://commons.wikimedia.org/wiki/File:British_Airways_Logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "BAW/coat-of-arms",
+      "place": "fuselage",
+      "at": [
+        0.36,
+        -0.02
+      ],
+      "height": 0.12,
+      "colors": [
+        "#9AA0A8"
+      ],
+      "description": "The British Airways coat of arms ('To Fly To Serve') in small gray line work, just aft of the fuselage title.",
+      "reference": "https://commons.wikimedia.org/wiki/File:British_Airways_coat_of_arms.png",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "BRITISH AIRWAYS",
+      "place": "fuselage",
+      "at": [
+        0.163,
+        -0.12
+      ],
+      "height": 0.2,
+      "color": "navy",
+      "length": 0.17,
+      "style": "Midnight-blue serif capitals (BA's Mylius Modern lettering), upright, medium weight, under the window line aft of the forward door.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Mylius Modern",
+          "Optima",
+          "Trajan Pro"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "contrast",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Seen from the left the fin's bands fall toward the leading edge; the right side matches (mirrored). The belly split is level from chin to tail; the far underside isn't seen in these photos beyond the blue. Small red stickers on the engines and the registration aren't drawn. Mid-2020s A320neos and A350s match the older A320s. Re-checked 2026-11-15 on G-EUYW (fitted to the A320 shape) and G-TTNR: the title sits higher and smaller than drawn (its cap top just under the windows, about 0.6 m tall) and starts at x 0.163; the coat of arms sits just aft of its end, x 0.36; the fin's ribbons drawn as curves. On the A380 (G-XLED, G-XLEC, G-XLEF; sources 5-7) the title, Speedmarque and coat of arms sit between the decks, the belly's blue ends where the fuselage sweeps up and the fin's red runs aft to the tail cone; drawn on the A380's shape they come from `types.A388`, measured there. The A380 isn't BA's commonest type, so drawnOn stays.",
+  "history": "Replaces Skyarium v1's approximation. Chatham Dockyard (Union Flag) first flew in 1997 on Concorde and replaced the World Images ethnic tails fleet-wide by 2001; the earlier Landor scheme survives only as a retro (landor-retro).",
+  "types": {
+    "A388": {
+      "note": "Measured on G-XLED (left side, 2026-02-20) and G-XLEC (right side, 2015-04-15), both fitted to the A380's shape, with G-XLEF from below: 'BRITISH AIRWAYS' between the decks, x 0.152 to 0.358, baseline on the main deck's window tops and capitals 1.3 m tall (on the A320 it sits under the one window row, 0.6 m tall); the Speedmarque on the upper deck's first windows; the coat of arms aft of the title at its height; the belly's midnight blue level about 2.6 m under the centerline, under the main deck's windows, ending where the fuselage sweeps up (x 0.77), white aft of it; the red of the fin's root carried aft over the crown and down to the tail cone; the fin's bands sit lower on the A380's broad fin, the lower red band reaching the root from x 0.27 aft and carried down to the body under the root; the fillet ahead of the fin is white.",
+      "confidence": "high",
+      "sourceRefs": [
+        5,
+        6,
+        7
+      ],
+      "fuselage": {
+        "areas": [
+          {
+            "name": "midnight-blue belly, level under the main deck's windows to where the fuselage sweeps up",
+            "color": "navy",
+            "below": [
+              [
+                0,
+                -0.75
+              ],
+              [
+                0.018,
+                -0.53
+              ],
+              [
+                0.04,
+                -0.45
+              ],
+              [
+                0.14,
+                -0.43
+              ],
+              [
+                0.27,
+                -0.428
+              ],
+              [
+                0.47,
+                -0.43
+              ],
+              [
+                0.58,
+                -0.415
+              ],
+              [
+                0.64,
+                -0.425
+              ],
+              [
+                0.665,
+                -0.45
+              ],
+              [
+                0.69,
+                -0.52
+              ],
+              [
+                0.72,
+                -0.62
+              ],
+              [
+                0.74,
+                -0.7
+              ],
+              [
+                0.753,
+                -0.79
+              ],
+              [
+                0.764,
+                -0.92
+              ],
+              [
+                0.77,
+                -1
+              ]
+            ],
+            "confidence": "high",
+            "sourceRefs": [
+              5,
+              6,
+              7
+            ]
+          },
+          {
+            "name": "red tail: from the fin's root aft over the crown and down to the tail cone",
+            "color": "red",
+            "points": [
+              [
+                0.807,
+                1
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                1,
+                -1
+              ],
+              [
+                0.925,
+                -1
+              ],
+              [
+                0.908,
+                -0.21
+              ],
+              [
+                0.889,
+                0.33
+              ],
+              [
+                0.862,
+                0.645
+              ],
+              [
+                0.834,
+                0.79
+              ],
+              [
+                0.807,
+                0.87
+              ]
+            ],
+            "smooth": true,
+            "confidence": "medium",
+            "sourceRefs": [
+              5,
+              6
+            ]
+          }
+        ]
+      },
+      "fin": {
+        "fillet": "white",
+        "areas": [
+          {
+            "name": "upper red band",
+            "color": "red",
+            "points": [
+              [
+                0.02,
+                0.46
+              ],
+              [
+                0.03,
+                0.68
+              ],
+              [
+                0.14,
+                0.705
+              ],
+              [
+                0.29,
+                0.78
+              ],
+              [
+                0.46,
+                0.827
+              ],
+              [
+                0.72,
+                0.85
+              ],
+              [
+                1,
+                0.856
+              ],
+              [
+                1,
+                0.58
+              ],
+              [
+                0.8,
+                0.59
+              ],
+              [
+                0.57,
+                0.588
+              ],
+              [
+                0.38,
+                0.562
+              ],
+              [
+                0.27,
+                0.515
+              ],
+              [
+                0.12,
+                0.47
+              ]
+            ],
+            "confidence": "medium",
+            "sourceRefs": [
+              5,
+              6
+            ],
+            "smooth": true
+          },
+          {
+            "name": "blue band",
+            "color": "navy",
+            "points": [
+              [
+                0.045,
+                0.34
+              ],
+              [
+                0.18,
+                0.33
+              ],
+              [
+                0.32,
+                0.333
+              ],
+              [
+                0.41,
+                0.35
+              ],
+              [
+                0.57,
+                0.4
+              ],
+              [
+                0.68,
+                0.423
+              ],
+              [
+                0.83,
+                0.423
+              ],
+              [
+                1,
+                0.41
+              ],
+              [
+                1,
+                0.16
+              ],
+              [
+                0.88,
+                0.196
+              ],
+              [
+                0.7,
+                0.25
+              ],
+              [
+                0.55,
+                0.265
+              ],
+              [
+                0.34,
+                0.271
+              ],
+              [
+                0.23,
+                0.292
+              ]
+            ],
+            "confidence": "medium",
+            "sourceRefs": [
+              5,
+              6
+            ],
+            "smooth": true
+          },
+          {
+            "name": "lower red band",
+            "color": "red",
+            "points": [
+              [
+                0.023,
+                0.225
+              ],
+              [
+                0.12,
+                0.196
+              ],
+              [
+                0.23,
+                0.163
+              ],
+              [
+                0.32,
+                0.142
+              ],
+              [
+                0.44,
+                0.127
+              ],
+              [
+                0.62,
+                0.117
+              ],
+              [
+                0.7,
+                0.1
+              ],
+              [
+                0.8,
+                0.065
+              ],
+              [
+                0.94,
+                0.005
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                1,
+                -0.3
+              ],
+              [
+                0.27,
+                -0.3
+              ],
+              [
+                0.27,
+                0
+              ],
+              [
+                0.237,
+                0.031
+              ],
+              [
+                0.11,
+                0.087
+              ],
+              [
+                0.029,
+                0.129
+              ]
+            ],
+            "confidence": "medium",
+            "sourceRefs": [
+              5,
+              6
+            ],
+            "smooth": true
+          }
+        ]
+      },
+      "titles": [
+        {
+          "text": "BRITISH AIRWAYS",
+          "place": "fuselage",
+          "at": [
+            0.152,
+            0.0
+          ],
+          "height": 0.205,
+          "color": "navy",
+          "length": 0.206,
+          "style": "Midnight-blue serif capitals (BA's Mylius Modern lettering), upright, medium weight, between the decks: the baseline on the main deck's window tops, the capitals' tops about a meter under the upper deck's windows, from just aft of the first door to the third.",
+          "confidence": "high",
+          "sourceRefs": [
+            5,
+            6
+          ],
+          "type": {
+            "similar": [
+              "Mylius Modern",
+              "Optima",
+              "Trajan Pro"
+            ],
+            "weight": 600,
+            "slantDeg": 0,
+            "width": "normal",
+            "strokes": "contrast",
+            "case": "upper"
+          }
+        }
+      ],
+      "logos": [
+        {
+          "mark": "BAW/speedmarque",
+          "place": "fuselage",
+          "at": [
+            0.165,
+            0.285
+          ],
+          "height": 0.37,
+          "colors": [
+            "red",
+            "navy"
+          ],
+          "description": "The Speedmarque over the first door: a red ribbon along the upper deck's first windows, its front edge folded under in midnight blue down to the title's middle; it points forward on both sides.",
+          "reference": "https://commons.wikimedia.org/wiki/File:British_Airways_Logo.svg",
+          "confidence": "high",
+          "sourceRefs": [
+            5,
+            6
+          ]
+        },
+        {
+          "mark": "BAW/coat-of-arms",
+          "place": "fuselage",
+          "at": [
+            0.385,
+            0.108
+          ],
+          "height": 0.21,
+          "colors": [
+            "#9AA0A8"
+          ],
+          "description": "The British Airways coat of arms ('To Fly To Serve') in small gray line work just aft of the title, between the decks, as tall as the title's capitals.",
+          "reference": "https://commons.wikimedia.org/wiki/File:British_Airways_coat_of_arms.png",
+          "confidence": "high",
+          "sourceRefs": [
+            5,
+            6
+          ]
+        }
+      ]
+    }
+  }
+}

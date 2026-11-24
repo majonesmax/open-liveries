@@ -1,0 +1,453 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "MNB",
+  "name": "Blue tail with the white bird",
+  "kind": "standard",
+  "confidence": "medium",
+  "drawnOn": "A332",
+  "description": "White freighter with a blue sweep over the rear fuselage: its edge leaves the crown above the wing and curves down behind it to the tail cone's underside, followed by a thin navy pinstripe just beneath it. A blue fin, darker toward its top trailing corner, carrying a big white stylised bird with its wings raised to the fin's top and its long neck stretched forward to the leading edge. Ahead of the wing the MNG mark (an M and an N cut from blue squares by white diagonals, and a blue disc with a quarter cut out for the G) and then 'MNG' in heavy dark grey and 'AIRLINES' in thin blue capitals. White engines, blue winglets.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:TC-MCZ_JFK_Taxiing_In_MB_A330_243_F_Murathan_Small.png",
+      "title": "TC-MCZ JFK Taxiing In MB A330 243 F Murathan Small (CC BY-SA 2.0, Mark Bess)",
+      "accessed": "2026-11-22",
+      "note": "A330-200F TC-MCZ taxiing at JFK, left side, level, 2022-11-27. Fitted to shapes/A332.json (within 4 px): the sweep's edge and the pinstripe read column by column, the mark's and titles' ends and heights, the fin's bird, the colours."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:MNG_Airlines_A330-300P2F.jpg",
+      "title": "MNG Airlines A330-300P2F (CC BY-SA 4.0, AVA Navigate)",
+      "accessed": "2026-11-22",
+      "note": "A330-300 freighter TC-MCN on approach, left side, 2025-10-13: the same scheme on the -300, still worn in 2025."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:TC-MCZ_-_Airbus_A330-243F_-_MNG_Airlines_LHR_261022.jpg",
+      "title": "TC-MCZ - Airbus A330-243F - MNG Airlines LHR 261022 (CC BY 2.0, Steve Knight)",
+      "accessed": "2026-11-22",
+      "note": "Left side from below, 2022-10-26: the mark ahead of the wing, the blue winglets; not measured."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:TC-MCN_(29_Mar_2024).jpg",
+      "title": "TC-MCN (29 Mar 2024) (CC0, Dltl2010)",
+      "accessed": "2026-11-22",
+      "note": "Right side of the tail at Hong Kong, 2024-03-29: the bird faces forward on the right too, and the title reads 'MNG AI…' with MNG aft."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F1F2F2",
+      "official": false
+    },
+    "blue": {
+      "hex": "#3A80C8",
+      "name": "MNG blue",
+      "official": false
+    },
+    "deep": {
+      "hex": "#2A5A96",
+      "name": "the fin's darker top trailing corner",
+      "official": false
+    },
+    "navy": {
+      "hex": "#1F2B45",
+      "name": "pinstripe",
+      "official": false
+    },
+    "ink": {
+      "hex": "#3A3D44",
+      "name": "'MNG' dark grey",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "windows": "hidden",
+    "areas": [
+      {
+        "name": "blue sweep over the rear fuselage, from the crown above the wing down to the tail cone's underside",
+        "color": "blue",
+        "smooth": true,
+        "points": [
+          [
+            0.525,
+            1,
+            1
+          ],
+          [
+            0.587,
+            0.865
+          ],
+          [
+            0.645,
+            0.62
+          ],
+          [
+            0.691,
+            0.48
+          ],
+          [
+            0.731,
+            0.325
+          ],
+          [
+            0.789,
+            0.08
+          ],
+          [
+            0.846,
+            -0.145
+          ],
+          [
+            0.889,
+            -0.32
+          ],
+          [
+            0.93,
+            -0.36
+          ],
+          [
+            0.97,
+            -0.42
+          ],
+          [
+            1,
+            -0.45,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "navy pinstripe under the sweep's edge",
+        "color": "navy",
+        "smooth": true,
+        "points": [
+          [
+            0.655,
+            0.585,
+            1
+          ],
+          [
+            0.691,
+            0.45
+          ],
+          [
+            0.731,
+            0.279
+          ],
+          [
+            0.789,
+            0.034
+          ],
+          [
+            0.846,
+            -0.205
+          ],
+          [
+            0.889,
+            -0.413
+          ],
+          [
+            0.93,
+            -0.5,
+            1
+          ],
+          [
+            0.93,
+            -0.55,
+            1
+          ],
+          [
+            0.889,
+            -0.472
+          ],
+          [
+            0.846,
+            -0.242
+          ],
+          [
+            0.789,
+            0.006
+          ],
+          [
+            0.731,
+            0.253
+          ],
+          [
+            0.691,
+            0.43
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "fin": {
+    "base": "blue",
+    "areas": [
+      {
+        "name": "the darker blue toward the top trailing corner (a gradient in paint, drawn as one step)",
+        "color": "deep",
+        "smooth": true,
+        "points": [
+          [
+            0.62,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            0.4,
+            1
+          ],
+          [
+            0.86,
+            0.62
+          ],
+          [
+            0.72,
+            0.85
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      3
+    ]
+  },
+  "wings": {
+    "top": "#B9BEC5",
+    "under": "#C9CDD2"
+  },
+  "winglets": {
+    "outer": "blue",
+    "inner": "blue",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "titles": [
+    {
+      "text": "MNG",
+      "place": "fuselage",
+      "at": [
+        0.321,
+        0.321
+      ],
+      "height": 0.26,
+      "length": 0.066,
+      "color": "ink",
+      "style": "'MNG' in heavy geometric capitals, dark grey, after the mark.",
+      "side": "left",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Montserrat ExtraBold",
+          "Gotham Black"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "AIRLINES",
+      "place": "fuselage",
+      "at": [
+        0.395,
+        0.33
+      ],
+      "height": 0.25,
+      "length": 0.114,
+      "color": "blue",
+      "style": "'AIRLINES' in thin blue capitals straight after.",
+      "side": "left",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Montserrat Regular",
+          "Gill Sans"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "AIRLINES",
+      "place": "fuselage",
+      "at": [
+        0.321,
+        0.33
+      ],
+      "height": 0.25,
+      "length": 0.114,
+      "color": "blue",
+      "style": "On the right, 'AIRLINES' forward, after 'MNG' read from the tail.",
+      "side": "right",
+      "confidence": "medium",
+      "sourceRefs": [
+        3
+      ],
+      "type": {
+        "similar": [
+          "Montserrat Regular",
+          "Gill Sans"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "MNG",
+      "place": "fuselage",
+      "at": [
+        0.443,
+        0.321
+      ],
+      "height": 0.26,
+      "length": 0.066,
+      "color": "ink",
+      "style": "On the right, 'MNG' aft, read first from the tail.",
+      "side": "right",
+      "confidence": "medium",
+      "sourceRefs": [
+        3
+      ],
+      "type": {
+        "similar": [
+          "Montserrat ExtraBold",
+          "Gotham Black"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "logos": [
+    {
+      "mark": "MNB/bird",
+      "place": "fin",
+      "at": [
+        0.45,
+        0.55
+      ],
+      "height": 0.76,
+      "colors": [
+        "white"
+      ],
+      "description": "MNG's bird: a big white stylised bird in flight, seen side-on, its two wings swept up together into one broad tapering shape reaching the fin's top trailing corner, its body low and its long thin neck and head stretched forward almost to the leading edge at a third of the fin's height. It faces forward on both sides.",
+      "reference": "https://commons.wikimedia.org/wiki/File:TC-MCZ_JFK_Taxiing_In_MB_A330_243_F_Murathan_Small.png",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "mark": "MNB/mark",
+      "place": "fuselage",
+      "at": [
+        0.229,
+        0.28
+      ],
+      "height": 0.28,
+      "colors": [
+        "blue",
+        "white",
+        "deep"
+      ],
+      "description": "The MNG mark: three blue blocks in a row across the forward fuselage, shaded darker toward their lower right. The first a square with a white V cut into it from the top corners (the M), the second a square split by a white diagonal from top left to bottom right (the N), the third a disc with its top right quarter cut out (the G).",
+      "reference": "https://commons.wikimedia.org/wiki/File:TC-MCZ_JFK_Taxiing_In_MB_A330_243_F_Murathan_Small.png",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "MNB/flag",
+      "place": "fuselage",
+      "at": [
+        0.124,
+        0.4
+      ],
+      "height": 0.07,
+      "colors": [
+        "#E30A17",
+        "white"
+      ],
+      "description": "Small Turkish flag behind the forward door.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Flag_of_Turkey.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ]
+    }
+  ],
+  "notes": "Measured on TC-MCZ (A330-200F, left side, JFK, 2022-11-27) fitted to the A330-200 shape; TC-MCN (A330-300 freighter, 2025) wears the same. The sweep's edge leaves the crown at x 0.53 and reaches the tail cone's underside at about x 0.97; the pinstripe starts at x 0.655 about 0.15 m under it, about 0.1 m deep. The mark runs x 0.156-0.301 from the main-deck window line's bottom to y 0.56; MNG x 0.321-0.387, AIRLINES 0.395-0.509, baseline y 0.32-0.33. The right side's title order is from TC-MCN's tail photo (MNG aft); the mark's place on the right isn't in any photo, assumed the same. The fin's darker corner is a gradient, drawn as one step. TC-MCM (A330-300 freighter) flies in plain white with titles: MNB/white. MNG's A300-600Fs and 737s weren't checked; the 2015-2018 photos show an older scheme (navy belly sweep, 'cargo' titles), not drawn.",
+  "history": "New 2026-11-22 (the maintainer's sightings: TC-MCM, which wears MNB/white)."
+}

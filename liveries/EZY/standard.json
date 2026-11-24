@@ -1,0 +1,390 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "EZY",
+  "name": "2015 livery (swoosh)",
+  "kind": "standard",
+  "from": "2015",
+  "confidence": "medium",
+  "drawnOn": "A320",
+  "description": "White aircraft with a broad orange swoosh: it starts over the cockpit, wraps the crown and the forward windows (white 'easyJet' title on it), and sweeps down past the wing to a point low on the aft fuselage; a second orange sweep rises from the belly into an all-orange fin with 'easyJet' in white running up it. Orange engines and sharklets.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:G-UZLY_(53785223230).jpg",
+      "title": "G-UZLY (53785223230).jpg (CC BY-SA 2.0)",
+      "accessed": "2026-11-13",
+      "note": "A320neo G-UZLY from the left, 2024-06-11: geometry of the swoosh, tail sweep, titles. Re-checked 2026-11-15: fitted to the measured A320 shape (tools/photo_trace.py, doors and windows pinned), the swoosh's and tail sweep's edges and the titles measured on it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:G-UZLZ_(aircraft)",
+      "accessed": "2026-11-13",
+      "note": "A320neo G-UZLZ from the left, landing, 2025-03-05: the same, a little from below."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:EasyJet_A321-200neo_arriving_at_LGW.jpg",
+      "title": "EasyJet A321-200neo arriving at LGW (CC0)",
+      "accessed": "2026-11-13",
+      "note": "A321neo G-UZMH from the left, 2024-03-04: same layout on the long fuselage."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:EasyJet_logo.svg",
+      "title": "EasyJet logo.svg",
+      "accessed": "2026-11-13",
+      "note": "The wordmark and its orange, #FF6600."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A320-251N_(c-n_12334,_G-UZLZ)_2025-03-05_Andre_Gerwing_Collection_ID_022837.jpg",
+      "title": "Airbus A320-251N (c-n 12334, G-UZLZ) 2025-03-05 Andre Gerwing Collection ID 022837.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-15",
+      "note": "G-UZLZ left side from below, 2025-03-05: second check of the swoosh (its spike's lower edge behind the wing) and the tail sweep, and of the titles."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F6",
+      "official": false
+    },
+    "orange": {
+      "hex": "#FF6600",
+      "name": "easyJet orange",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "name": "bare metal inlet lip",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "swoosh from the cockpit roof to a point aft of the wing",
+        "color": "orange",
+        "points": [
+          [
+            0.042,
+            1
+          ],
+          [
+            0.265,
+            1
+          ],
+          [
+            0.307,
+            0.618
+          ],
+          [
+            0.35,
+            0.45
+          ],
+          [
+            0.392,
+            0.315
+          ],
+          [
+            0.434,
+            0.194
+          ],
+          [
+            0.476,
+            0.08
+          ],
+          [
+            0.519,
+            -0.032
+          ],
+          [
+            0.561,
+            -0.145
+          ],
+          [
+            0.603,
+            -0.262
+          ],
+          [
+            0.646,
+            -0.39
+          ],
+          [
+            0.688,
+            -0.54,
+            1
+          ],
+          [
+            0.644,
+            -0.462
+          ],
+          [
+            0.6,
+            -0.392
+          ],
+          [
+            0.557,
+            -0.328
+          ],
+          [
+            0.513,
+            -0.266
+          ],
+          [
+            0.469,
+            -0.207
+          ],
+          [
+            0.425,
+            -0.15
+          ],
+          [
+            0.381,
+            -0.095
+          ],
+          [
+            0.338,
+            -0.04
+          ],
+          [
+            0.294,
+            0.015
+          ],
+          [
+            0.25,
+            0.07,
+            1
+          ],
+          [
+            0.192,
+            0.133
+          ],
+          [
+            0.158,
+            0.17
+          ],
+          [
+            0.134,
+            0.225
+          ],
+          [
+            0.111,
+            0.28
+          ],
+          [
+            0.077,
+            0.443
+          ],
+          [
+            0.057,
+            0.568
+          ],
+          [
+            0.054,
+            0.748
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          4
+        ],
+        "smooth": true
+      },
+      {
+        "name": "tail sweep, belly to fin",
+        "color": "orange",
+        "points": [
+          [
+            0.694,
+            -1.0
+          ],
+          [
+            0.703,
+            -0.627
+          ],
+          [
+            0.713,
+            -0.465
+          ],
+          [
+            0.722,
+            -0.333
+          ],
+          [
+            0.731,
+            -0.216
+          ],
+          [
+            0.741,
+            -0.107
+          ],
+          [
+            0.75,
+            0.0
+          ],
+          [
+            0.759,
+            0.107
+          ],
+          [
+            0.769,
+            0.216
+          ],
+          [
+            0.778,
+            0.333
+          ],
+          [
+            0.787,
+            0.465
+          ],
+          [
+            0.797,
+            0.627
+          ],
+          [
+            0.806,
+            1
+          ],
+          [
+            0.927,
+            1.0
+          ],
+          [
+            0.935,
+            0.71
+          ],
+          [
+            0.941,
+            0.2
+          ],
+          [
+            0.927,
+            -0.4
+          ],
+          [
+            0.914,
+            -0.68
+          ],
+          [
+            0.901,
+            -1.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          4,
+          2
+        ],
+        "smooth": true
+      }
+    ],
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "orange",
+    "fillet": "white",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "#B9BEC5",
+    "under": "#C9CDD2"
+  },
+  "winglets": {
+    "outer": "orange",
+    "inner": "orange",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "orange",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "logos": [],
+  "titles": [
+    {
+      "text": "easyJet",
+      "mark": "EZY/wordmark",
+      "place": "fuselage",
+      "at": [
+        0.152,
+        0.45
+      ],
+      "height": 0.34,
+      "color": "white",
+      "style": "The easyJet wordmark: very heavy, rounded, soft-serifed lowercase with a capital J, white on the orange over the forward windows, just aft of the front door. Baseline just above the window tops; measured directly off G-UZLY (2024-06-11): cap 0.34, lowercase 0.78 of the J.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        4,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Cooper Black",
+          "Recoleta Black"
+        ],
+        "weight": 900,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "contrast",
+        "case": "mixed",
+        "xHeight": 0.78
+      },
+      "length": 0.142
+    },
+    {
+      "text": "easyJet",
+      "mark": "EZY/wordmark",
+      "place": "fin",
+      "at": [
+        0.3,
+        0.107
+      ],
+      "height": 0.15,
+      "color": "white",
+      "style": "The wordmark again, large, in white, set along the fin: its baseline rises at about 60° from near the root (mid-chord) to the tip, reading upward toward the leading edge's top. Drawn horizontal by tools that can't rotate text.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        4,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Cooper Black",
+          "Recoleta Black"
+        ],
+        "weight": 900,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "contrast",
+        "case": "mixed",
+        "xHeight": 0.8
+      },
+      "rotationDeg": 44,
+      "length": 1.17
+    }
+  ],
+  "notes": "Drawn from A320neo G-UZLY and G-UZLZ and A321neo G-UZMH (2024-2025); easyJet Europe (OE-) and easyJet Switzerland (HB-) aircraft wear the same scheme. The fin title's baseline runs from fin (0.30, 0.107) to about (0.905, 0.826) on the A320: about 6 m at 44°, so its length (a share of the chord at its start) is over 1. The belly isn't seen clearly in the photos used: the swoosh's spike and the tail sweep may meet under the aft fuselage; left white. Before 2015 easyJet flew white with an orange tail and engines and huge 'easyJet.com' titles; a few older A319s may still carry it. Re-checked 2026-11-15 on G-UZLY fitted to the measured A320 shape: both areas' edges measured as curves (smooth; the swoosh's spike is its one real corner), the swoosh's lower edge a little lower over the forward door than first drawn and its top leaving the crown about x 0.27; the title re-measured with photo_trace.py probe on both photos: from x 0.155 to 0.297 (G-UZLZ 0.164 to 0.309), baseline on the windows' tops (y 0.28: G-UZLY's probe reads 0.245 but its windows 0.03 low against the shape's), cap height the 'J''s, 0.27 (the lowercase stand 0.8 of it, taller than a stand-in typeface's, so a render's lowercase looks smaller than the aircraft's).",
+  "history": "Replaces Skyarium v1's approximation (white with an orange fin). The 2015 swoosh replaced the 'easyJet.com' titles scheme."
+}

@@ -1,0 +1,178 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "LVL",
+  "name": "LEVEL",
+  "kind": "standard",
+  "confidence": "medium",
+  "drawnOn": "A332",
+  "description": "White fuselage with a large black 'LEVEL' in plain bold capitals over the forward cabin, the LEVEL block (blue over green) at its front end on the left side and at its aft end on the right. Behind the wing a straight diagonal rises from the belly to the fin's root and paints the aft fuselage green. The fin is green at its foot and sky blue above, with a white 'LEVEL' across the blue. White engines; the left winglet blue, the right green.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:LEVEL_Airbus_A330-200_EC-NNH_@_LAX.jpg",
+      "title": "LEVEL Airbus A330-200 EC-NNH @ LAX.jpg (CC BY-SA 4.0, Liam Thompson)",
+      "accessed": "2026-11-20",
+      "note": "A330-200 EC-NNH, left side from above, at LAX, 2026-05-03. Fitted to shapes/A332.json (doors pinned): the green diagonal, the fin's colours and title, the fuselage title and block, the blue left winglet."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:EC-NRH.jpg",
+      "title": "EC-NRH.jpg (CC BY-SA 4.0, Liam Thompson)",
+      "accessed": "2026-11-20",
+      "note": "A330-200 EC-NRH, right side at dusk, at SFO, 2026-04-19. Flipped and fitted to shapes/A332.json: the right side's title and block (the block aft of the title), the green right winglet, the fin title reading normally."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:EC-OHY_@_BCN,_2024-12-29.jpg",
+      "title": "EC-OHY @ BCN, 2024-12-29.jpg (CC BY 2.0, Daniel Luis Gómez Adenis)",
+      "accessed": "2026-11-20",
+      "note": "A330-200 EC-OHY landing at Barcelona, left side from below and ahead, 2024-12-29: the green under the aft belly, both winglets (left blue, right green), white engines."
+    }
+  ],
+  "palette": {
+    "white": { "hex": "#F3F4F5", "official": false },
+    "blue": { "hex": "#3C9BE0", "official": false },
+    "green": { "hex": "#2F9E48", "official": false },
+    "black": { "hex": "#1C1E21", "official": false },
+    "lip": { "hex": "#C4C8CC", "official": false }
+  },
+  "fuselage": {
+    "base": "white",
+    "windows": "plain",
+    "areas": [
+      {
+        "name": "green aft fuselage behind a straight diagonal from the belly to the fin's root",
+        "color": "green",
+        "points": [[0.7265, -1], [0.7337, -0.7446], [0.7785, -0.0321], [0.8207, 0.7889], [0.826, 1], [1, 1], [1, -1]],
+        "confidence": "high",
+        "sourceRefs": [0, 1, 2]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [0, 1, 2]
+  },
+  "fin": {
+    "base": "blue",
+    "areas": [
+      {
+        "name": "green foot, carried up from the aft fuselage",
+        "color": "green",
+        "points": [[-0.05, 0], [1.05, 0], [1.05, 0.22], [-0.05, 0.22]],
+        "confidence": "high",
+        "sourceRefs": [0, 1]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [0, 1, 2]
+  },
+  "wings": { "top": "#B9BEC5", "under": "#C9CDD2" },
+  "winglets": {
+    "outer": "blue",
+    "inner": "blue",
+    "areas": [
+      {
+        "name": "the right winglet green",
+        "color": "green",
+        "side": "right",
+        "points": [[-0.1, -0.1], [1.1, -0.1], [1.1, 1.1], [-0.1, 1.1]],
+        "confidence": "medium",
+        "sourceRefs": [1, 2]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [0, 1, 2]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [0, 2]
+  },
+  "titles": [
+    {
+      "text": "LEVEL",
+      "place": "fuselage",
+      "side": "left",
+      "at": [0.219, 0.27],
+      "height": 0.42,
+      "length": 0.131,
+      "color": "black",
+      "style": "Plain bold geometric capitals, set a little apart, over the forward cabin above the windows, behind the LEVEL block.",
+      "confidence": "high",
+      "sourceRefs": [0, 2],
+      "type": {
+        "similar": ["Montserrat Bold", "Gotham Bold"],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "LEVEL",
+      "place": "fuselage",
+      "side": "right",
+      "at": [0.169, 0.25],
+      "height": 0.42,
+      "length": 0.132,
+      "color": "black",
+      "style": "As on the left, but further forward, with the block aft of it: the block sits at the title's forward end on the left, its aft end on the right.",
+      "confidence": "medium",
+      "sourceRefs": [1],
+      "type": {
+        "similar": ["Montserrat Bold", "Gotham Bold"],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "LEVEL",
+      "place": "fin",
+      "at": [0.34, 0.298],
+      "height": 0.11,
+      "length": 0.6,
+      "color": "white",
+      "style": "The same capitals in white across the fin's blue, just above the green; reads normally on both sides.",
+      "confidence": "high",
+      "sourceRefs": [0, 1, 2],
+      "type": {
+        "similar": ["Montserrat Bold", "Gotham Bold"],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "logos": [
+    {
+      "mark": "LVL/block",
+      "place": "fuselage",
+      "side": "left",
+      "at": [0.189, 0.455],
+      "height": 0.4,
+      "colors": ["blue", "green"],
+      "description": "The LEVEL block: a rectangle about 1.4 times as wide as tall, its top third sky blue and the rest green, split by a straight level line; ahead of the title on the left side.",
+      "reference": "https://commons.wikimedia.org/wiki/File:LEVEL_Airbus_A330-200_EC-NNH_@_LAX.jpg",
+      "confidence": "high",
+      "sourceRefs": [0, 2]
+    },
+    {
+      "mark": "LVL/block",
+      "place": "fuselage",
+      "side": "right",
+      "at": [0.331, 0.43],
+      "height": 0.4,
+      "colors": ["blue", "green"],
+      "description": "The same block, aft of the title on the right side.",
+      "reference": "https://commons.wikimedia.org/wiki/File:EC-NRH.jpg",
+      "confidence": "medium",
+      "sourceRefs": [1]
+    }
+  ],
+  "notes": "The LAX flights are LEVEL's Barcelona services, flown by the Spanish-registered A330-200s (EC-) under the LVL code; LEVEL's Austrian arm (Level Europe) has closed. Measured on EC-NNH (left, 2026-05-03) and EC-NRH (right, 2026-04-19): the left title runs x 0.219-0.350 with its capitals about 1.3 m tall above the windows; on the right it runs 0.169-0.301 with the block behind it at 0.314-0.347. The right fin looks graded from blue to green in the dusk photo; the left (in daylight) shows a clean level split at fin y 0.22, drawn on both. The winglets differ by side (left blue, right green) in all three photos. The winglets' inner faces aren't seen: drawn blue. The 'from' year is left out: no dated source for the scheme's introduction in hand.",
+  "history": "New in the LAX round (2026-11-20); LEVEL had no scheme here before."
+}

@@ -1,0 +1,91 @@
+{
+  "_about": "A350F (Airbus's A350-1000F), from Airbus AC A350 (Jul 01/26) 2-2-0 General Aircraft Dimensions, A350-1000F sheets 1 (side, front: page index 53) and 2 (plan: page index 54). Shaded pictures: layers.py --mode lines, line centres. Drawn 4.7% larger than the A350-1000's sheets: the side at scale 8, 42.24 px a meter (its door 1 and aft bulk cargo door against the A350-1000's less the plug; the printed 69.07 m then falls on its tail cone); the plan at 7.429 (the A350-1000's), the front at 8.1884 (its span and nacelles 2.25% larger than the A350-1000's front at scale 8), both to the side's scale. The A350-1000's points moved by one plug out (3.17 m ahead of the wing: the printed main gear 29.31 m against 32.48 m, nose-to-engine 22.61 m against 25.78 m, length 69.07 m against 72.25 m) and the sheet's scale (plug.py), the parts laid on by best fit, then snapped (a35k-freighter/*.anchors.json). The main-deck cargo door is a cargo door; the four small windows the sheet draws at the cabin's window row are kept.",
+  "out": "../../../../shapes/A35K-freighter.json",
+  "length": 69.07,
+  "wingtip": "blended",
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "refs": {
+    "side": {
+      "nose": 51.4,
+      "tail": 2968.9,
+      "cowlEnd": 1260,
+      "windowRow": [578, 602],
+      "windowGap": 4,
+      "windowInset": 2
+    },
+    "plan": {
+      "nose": 29.7,
+      "centerline": 1415.5
+    },
+    "front": {
+      "centerline": 1417.5,
+      "crownTop": 393
+    }
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [313, 545, 366, 633]
+    },
+    {
+      "kind": "cargo",
+      "box": [1926, 492, 2107, 642]
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [127, 599],
+      [156, 573],
+      [166, 572],
+      [164, 577],
+      [154, 592],
+      [143, 596]
+    ],
+    [
+      [161, 602],
+      [166, 587],
+      [172, 574],
+      [175, 570],
+      [185, 570],
+      [185, 602],
+      [177, 604],
+      [166, 602]
+    ],
+    [
+      [188, 570],
+      [200, 570],
+      [207, 576],
+      [210, 587],
+      [209, 597],
+      [202, 603],
+      [189, 603]
+    ]
+  ],
+  "printed": {
+    "fuselage height": 6.09,
+    "fuselage width": 5.96,
+    "wingspan": 64.75,
+    "tailplane span": 18.79,
+    "engine out from the centerline": 10.5,
+    "overall length": 70.61
+  },
+  "meta": {
+    "id": "A35K-freighter",
+    "name": "Airbus A350F",
+    "types": ["A35K"],
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://aircraft.airbus.com/en/customer-care/fleet-wide-care/airport-operations-and-aircraft-characteristics/aircraft-characteristics",
+        "title": "Airbus, A350 Aircraft Characteristics: Airport and Maintenance Planning (Jul 01/26), 2-2-0 General Aircraft Dimensions, A350-1000F sheets 1 and 2",
+        "accessed": "2026-11-15",
+        "note": "Dimensions and outlines read off the side, plan and front views (tools/trace/a35k-freighter/), starting from the A350-1000's points moved by the one fuselage plug out (3.17 m ahead of the wing, from the sheet's printed figures); the figures are the aircraft's measurements, not a copy of the drawing. Shaded picture sheets of about 42 pixels a meter: outlines good to about 3 cm. The main-deck cargo door behind the wing is drawn as a cargo door; the cockpit panes are the A350-1000's (the same nose). The sheet draws four small windows at the cabin's window row (behind door 1, two ahead of the cargo door, one aft of it); the shape keeps them. The plan draws the tailplane wider than its printed 18.79 m span, as on the A350-900's and A350-1000's sheets; the shape keeps the plan's."
+      }
+    ]
+  }
+}

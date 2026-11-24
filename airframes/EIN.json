@@ -1,0 +1,27 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "EIN",
+  "airframes": [
+    {
+      "registration": "EI-DVM",
+      "livery": "retro-1960s",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://airlinegeeks.com/2024/05/10/livery-of-the-week-aer-lingus-retro-scheme/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:EI-DVM_(aircraft)",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "4ca92d",
+      "hexSource": "looked up: hexdb.io community database (2026-11-12); not verified against the national register",
+      "type": "A320",
+      "from": "2011-03",
+      "lastSeen": "2026-11-14",
+      "status": "active: Commons photo at Manchester 17 May 2026 shows the retro scheme (an undated forum post claiming a repaint is contradicted)."
+    }
+  ]
+}

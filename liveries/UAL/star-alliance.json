@@ -1,0 +1,309 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "star-alliance",
+  "airline": "UAL",
+  "name": "Star Alliance (United)",
+  "kind": "alliance",
+  "confidence": "high",
+  "drawnOn": "B738",
+  "from": "2019",
+  "description": "Fuselage: all white. Titles: very large, thin, widely spaced 'STAR ALLIANCE' in black capitals from behind the forward door to over the wing's trailing edge, the cabin windows through their lower half; United's small Rhapsody-blue 'UNITED' with the globe in a blue box low on the forward fuselage; the small Star Alliance star behind the cockpit. Tail: black fin and dorsal fillet with the Star Alliance star (five white faceted triangles) large across its middle. Engines and winglets: Rhapsody blue, as United's 2019 scheme.",
+  "sources": [
+    {
+      "url": "https://www.staralliance.com/en/about",
+      "title": "Star Alliance: about",
+      "accessed": "2026-11-22",
+      "note": "The alliance United belongs to; its member jets wear the alliance scheme."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:United_Airlines_Boeing_737-800_N76516_departing_Boston_May_2025.jpg",
+      "title": "United Airlines Boeing 737-800 N76516 departing Boston May 2025.jpg (CC BY 4.0)",
+      "accessed": "2026-11-22",
+      "note": "N76516 left side from below, 2025-05-11, near side-on: fitted to the measured 737-800 shape (doors and fin tip, tools/photo_trace.py); the titles' ends and heights, the fin's star and the cockpit star read off it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Boeing_737-824(WL)_(N26210,_msn_28770,_ln_056)_(6-21-2025).jpg",
+      "title": "Boeing 737-824(WL) (N26210, msn 28770, ln 056) (6-21-2025).jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-22",
+      "note": "N26210 left side on the ground at Denver, 2025-06-21, in sun: the colours (black fin and fillet, Rhapsody-blue engines and winglets, blue UNITED with the globe box), the star's facets."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N26210_MIA_Line_Up_And_Wait_UA_B737_824_Star_Alliance_Small_(53489496113).png",
+      "title": "N26210 MIA Line Up And Wait UA B737 824 Star Alliance Small (53489496113).png (CC BY-SA 2.0)",
+      "accessed": "2026-11-22",
+      "note": "N26210 left side, 2024-01-26: the same layout."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:United_Airlines_777-200(ER)_N218UA_Star_Alliance_livery_departing_SFO,_4-19-26.jpg",
+      "title": "United Airlines 777-200(ER) N218UA Star Alliance livery departing SFO, 4-19-26.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-22",
+      "note": "777-200ER N218UA left side, 2026-04-19: the same scheme on the 777 (title across the forward windows, small UNITED and globe below, black fin with the star)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N794UA.jpg",
+      "title": "N794UA.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-22",
+      "note": "777-200ER N794UA, 2026-08-22: the scheme current on the 777s."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N76055_at_DBV_20261017.jpg",
+      "title": "N76055 at DBV 20261017.jpg (CC BY 4.0)",
+      "accessed": "2026-11-22",
+      "note": "767-400ER N76055, 2026-10-17: the scheme current on the 767-400ER."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N14120_B757-200,_United_(Star_Alliance),_Las_Vegas_02-08-24_(55180720383).jpg",
+      "title": "N14120 B757-200, United (Star Alliance), Las Vegas 02-08-24 (55180720383).jpg (CC BY 4.0)",
+      "accessed": "2026-11-22",
+      "note": "757-200 N14120, 2024-02-08."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "starBlack": {
+      "hex": "#1B1F2B",
+      "official": false,
+      "name": "Star Alliance black (navy-black in shade)"
+    },
+    "starWhite": {
+      "hex": "#F1F1EE",
+      "official": false,
+      "name": "the star's lit facets"
+    },
+    "starGray": {
+      "hex": "#A9ADB3",
+      "official": false,
+      "name": "the star's shaded facets"
+    },
+    "rhapsody": {
+      "hex": "#0033A0",
+      "official": false,
+      "name": "Rhapsody blue"
+    },
+    "globe": {
+      "hex": "#4DA8EE",
+      "official": false,
+      "name": "globe light blue"
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false,
+      "name": "polished inlet lip"
+    },
+    "smallStar": {
+      "hex": "#8A8F96",
+      "official": false,
+      "name": "the cockpit star's gray"
+    },
+    "flagRed": {
+      "hex": "#B22234",
+      "official": false
+    },
+    "navy": {
+      "hex": "#14215E",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2,
+      3
+    ]
+  },
+  "fin": {
+    "base": "starBlack",
+    "rudder": "starBlack",
+    "fillet": "starBlack",
+    "mirrored": true,
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "stabilizer": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "rhapsody",
+    "inner": "rhapsody",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "rhapsody",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "SAL/star-alliance",
+      "place": "fin",
+      "at": [
+        0.61,
+        0.32
+      ],
+      "height": 0.4,
+      "colors": [
+        "starWhite",
+        "starGray"
+      ],
+      "description": "The Star Alliance star, large across the fin's middle: five white triangles, each faceted like a low pyramid (one face lit, two shaded), set round a pentagon, the whole about as wide as the chord there.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Star_Alliance_Logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "SAL/star-alliance",
+      "place": "fuselage",
+      "at": [
+        0.097,
+        0.36
+      ],
+      "height": 0.17,
+      "colors": [
+        "smallStar",
+        "white"
+      ],
+      "description": "The small gray Star Alliance star just behind the cockpit windows, as on United's standard.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "UAL/globe",
+      "place": "fuselage",
+      "at": [
+        0.244,
+        -0.285
+      ],
+      "height": 0.29,
+      "colors": [
+        "globe",
+        "rhapsody"
+      ],
+      "description": "United's globe in a small Rhapsody-blue square box, just after 'UNITED', low on the forward fuselage.",
+      "reference": "https://commons.wikimedia.org/wiki/File:United_Airlines_Logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "UAL/us-flag",
+      "place": "fuselage",
+      "at": [
+        0.775,
+        0.38
+      ],
+      "height": 0.13,
+      "colors": [
+        "flagRed",
+        "white",
+        "navy"
+      ],
+      "description": "A small US flag after the registration, over the rear windows.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "STAR ALLIANCE",
+      "place": "fuselage",
+      "at": [
+        0.147,
+        0.04
+      ],
+      "height": 0.62,
+      "length": 0.564,
+      "color": "starBlack",
+      "style": "The Star Alliance wordmark: very large, thin, widely spaced geometric capitals, the windows through their lower half. Spaced far wider than any typeface sets it (a stand-in spread to its length comes out heavy), so it names a mark.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Futura Light",
+          "Avenir Next Ultra Light",
+          "Century Gothic"
+        ],
+        "weight": 300,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "mark": "SAL/wordmark"
+    },
+    {
+      "text": "UNITED",
+      "place": "fuselage",
+      "at": [
+        0.149,
+        -0.335
+      ],
+      "height": 0.155,
+      "length": 0.079,
+      "color": "rhapsody",
+      "style": "United's wordmark, small, in Rhapsody blue under the forward windows, the globe box after it.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Bold",
+          "Open Sans ExtraBold"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Measured on 737-800 N76516 (left, 2025-05-11, fitted to shapes/B738.json with the doors and fin tip; fit within about 14 px, a third of a metre) and checked on N26210 (2025-06-21, three-quarter rear, so only its colours and layout used). 'STAR ALLIANCE' runs x 0.147-0.711, its baseline just under the windows (y about 0.04), cap height to y about 0.66; 'UNITED' x 0.149-0.228, cap 0.155; the fin's star centred x 0.61, y 0.32, 0.40 of the fin's span tall. The fin's black carries forward over the dorsal fillet (fin.fillet). The same scheme flies on United's 757-200, 767-300ER/-400ER and 777-200ER (photos 2024-2026); their placement comes from the 737 by landmarks, not measured on each type. The registration (black, above the rear windows) isn't drawn. The 2010-era Star Alliance jets had the same layout with United's 2010 gold-globe title and gray engines; every Commons photo since 2024 shows the blue (2019) details drawn here.",
+  "history": "United's Star Alliance jets: N14219 (737-800) caught by the maintainer 2026-11-22 in this scheme, drawn in United's standard until now."
+}

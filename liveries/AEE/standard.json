@@ -1,0 +1,350 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "AEE",
+  "name": "A320neo-era livery",
+  "kind": "standard",
+  "confidence": "high",
+  "drawnOn": "A20N",
+  "description": "White fuselage, the aft third navy behind a straight diagonal rising from the belly behind the wing to the fin's leading edge. Navy fin with the Aegean bird: two white crescent feathers sweeping up to the trailing edge, with pale blue extensions below them. Navy engines. 'AEGEAN' in spaced navy capitals above the forward windows, 'aegeanair.com' over the rear windows.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:SX-NEB_Airbus_A321Neo_Aegean_LHR_17.11.21.jpg",
+      "title": "SX-NEB Airbus A321Neo Aegean LHR 17.11.21.jpg (CC BY-SA 2.0)",
+      "accessed": "2026-11-13",
+      "note": "A320neo SX-NEB, left side, 2021-11-17: positions of the title, the navy aft section and the fin's bird measured from this one. Re-checked 2026-11-15: this is an A320neo (the 'A320neo' mark by the door), not an A321neo; fitted to the measured A320 shape (doors pinned, camera 6° below): titles and the diagonal measured on it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:SX-NAA_(53627495274).jpg",
+      "title": "SX-NAA (53627495274).jpg (CC BY-SA 2.0)",
+      "accessed": "2026-11-13",
+      "note": "A321neo SX-NAA, left side climbing, 2024-01-25."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Aegean_Airbus_A320neo_airplane_arriving_at_Larnaca_Airport_Cyprus_2024.jpg",
+      "title": "Aegean Airbus A320neo airplane arriving at Larnaca Airport Cyprus 2024.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "A320neo, right side, 2024-08-11: the fin art sweeps the same way relative to flight on the right."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:SX-NEB,_London_Heathrow,_September_27th_2021.jpg",
+      "title": "SX-NEB, London Heathrow, September 27th 2021.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "SX-NEB from below left, 2021-09-27: engines, wings, sharklets."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F6",
+      "official": false
+    },
+    "navy": {
+      "hex": "#15205E",
+      "official": false
+    },
+    "pale": {
+      "hex": "#8EA4CE",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "windows": "plain",
+    "areas": [
+      {
+        "name": "navy aft section behind a diagonal",
+        "color": "navy",
+        "points": [
+          [
+            0.63,
+            -1
+          ],
+          [
+            0.815,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "fin": {
+    "base": "navy",
+    "areas": [
+      {
+        "name": "pale blue under the upper feather",
+        "color": "pale",
+        "points": [
+          [
+            0.13,
+            0.35
+          ],
+          [
+            0.21,
+            0.35
+          ],
+          [
+            0.68,
+            0.02
+          ],
+          [
+            0.58,
+            0.02
+          ]
+        ]
+      },
+      {
+        "name": "pale blue under the lower feather",
+        "color": "pale",
+        "points": [
+          [
+            0.53,
+            0.34
+          ],
+          [
+            0.6,
+            0.34
+          ],
+          [
+            0.89,
+            0.02
+          ],
+          [
+            0.77,
+            0.02
+          ]
+        ]
+      },
+      {
+        "name": "upper white feather",
+        "color": "white",
+        "points": [
+          [
+            0.13,
+            0.35
+          ],
+          [
+            0.19,
+            0.6
+          ],
+          [
+            0.34,
+            0.8
+          ],
+          [
+            0.86,
+            0.92
+          ],
+          [
+            0.76,
+            0.78
+          ],
+          [
+            0.55,
+            0.6
+          ],
+          [
+            0.37,
+            0.41
+          ],
+          [
+            0.21,
+            0.35
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "lower white feather",
+        "color": "white",
+        "points": [
+          [
+            0.53,
+            0.34
+          ],
+          [
+            0.66,
+            0.53
+          ],
+          [
+            0.88,
+            0.71
+          ],
+          [
+            0.87,
+            0.6
+          ],
+          [
+            0.75,
+            0.46
+          ],
+          [
+            0.6,
+            0.34
+          ]
+        ],
+        "smooth": true
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "wings": {
+    "top": "#B9BEC5",
+    "under": "#C9CDD2"
+  },
+  "winglets": {
+    "outer": "navy",
+    "inner": "navy",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      3
+    ]
+  },
+  "engines": {
+    "cowling": "navy",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "logos": [
+    {
+      "mark": "AEE/bird",
+      "place": "fin",
+      "at": [
+        0.5,
+        0.5
+      ],
+      "height": 0.9,
+      "colors": [
+        "white",
+        "pale"
+      ],
+      "description": "The Aegean bird: two white crescent strokes sweeping up and aft to the trailing edge like a gull's wings, each trailing a paler blue stroke down to the fin root. Drawn as fin areas here; this entry marks the symbol.",
+      "reference": "https://en.wikipedia.org/wiki/Aegean_Airlines",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mark": "SAL/star-alliance",
+      "place": "fuselage",
+      "at": [
+        0.1,
+        0.4
+      ],
+      "height": 0.08,
+      "colors": [
+        "navy"
+      ],
+      "description": "Small Star Alliance star by the forward door.",
+      "reference": "https://www.staralliance.com",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "AEGEAN",
+      "place": "fuselage",
+      "at": [
+        0.164,
+        0.28
+      ],
+      "height": 0.36,
+      "length": 0.206,
+      "color": "navy",
+      "style": "Widely spaced, wide geometric capitals of medium-bold weight above the forward windows.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Futura PT Demi",
+          "Montserrat SemiBold"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "aegeanair.com",
+      "place": "fuselage",
+      "at": [
+        0.673,
+        0.27
+      ],
+      "height": 0.12,
+      "color": "navy",
+      "style": "Small lower-case web address over the rear windows, ahead of the navy.",
+      "confidence": "high",
+      "sourceRefs": [
+        0
+      ],
+      "type": {
+        "similar": [
+          "Futura PT Book",
+          "Montserrat"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.72
+      },
+      "length": 0.084
+    }
+  ],
+  "notes": "The bird logo is drawn as fin areas (its feathers) plus a logo entry, so a renderer can use either. When the scheme was introduced isn't dated here; it came with the A320neo family deliveries. The earlier scheme (white with a navy-and-blue fin) remains on A320ceo-family aircraft; not drawn. Belly under the forward fuselage white; aft navy. Re-checked 2026-11-15 on SX-NEB (A320neo, fitted to the A320 shape): 'AEGEAN' sits right on the window tops (y 0.28, it had floated higher), x 0.164-0.37; 'aegeanair.com' x 0.673-0.757; the diagonal agrees (reduced to its ends); the feathers drawn as curves.",
+  "history": "Replaced Skyarium v1's approximation (blue belly, navy bands)."
+}

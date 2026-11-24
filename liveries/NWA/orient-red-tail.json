@@ -1,0 +1,674 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "orient-red-tail",
+  "airline": "NWA",
+  "name": "Northwest Orient (red tail)",
+  "kind": "standard",
+  "from": "1969",
+  "to": "1989",
+  "confidence": "medium",
+  "drawnOn": "B752",
+  "description": "Northwest Orient's scheme of the 1970s and 80s: a white crown, a navy band through the windows from the forward door aft, bare metal below it, and a plain red fin. 'NORTHWEST ORIENT' in red capitals over the forward windows with the red and white NW roundel after it. Bare metal engines. Worn by its 727s, DC-10s, 747s and, from 1985, 757s ('Orient' dropped from the titles in 1986).",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N501US_B757-251_Northwest_Orient_ORD_24DEC86_(12767269735).jpg",
+      "title": "N501US B757-251 Northwest Orient ORD 24DEC86 (CC BY-SA 3.0, Ken Fielding)",
+      "accessed": "2026-11-23",
+      "note": "Left side, nearly side-on: everything measured on it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N504US_5-10-85_Los_Angeles_(52714637156).jpg",
+      "title": "N504US 5-10-85 Los Angeles (CC BY 2.0, Pete Macklin)",
+      "accessed": "2026-11-23",
+      "note": "Right side: the same layout, the roundel ahead of the titles there."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Northwest_Orient_Airlines_Icon_(1969-1986).png",
+      "title": "Northwest Orient Airlines Icon (1969–1986) (public domain)",
+      "accessed": "2026-11-23",
+      "note": "The roundel, as a reference for our own mark."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F2F3F4",
+      "official": false
+    },
+    "red": {
+      "hex": "#D7262E",
+      "name": "Northwest red",
+      "official": false
+    },
+    "navy": {
+      "hex": "#1D2342",
+      "official": false
+    },
+    "metal": {
+      "hex": "#B3B8BE",
+      "name": "bare metal",
+      "official": false
+    },
+    "radome": {
+      "hex": "#2A2C31",
+      "official": false
+    }
+  },
+  "finish": "metallic",
+  "fuselage": {
+    "base": "white",
+    "windows": "plain",
+    "areas": [
+      {
+        "name": "bare metal below the window band, nose to tail",
+        "color": "metal",
+        "points": [
+          [
+            0,
+            1
+          ],
+          [
+            0.005,
+            1
+          ],
+          [
+            0.01,
+            0.513
+          ],
+          [
+            0.015,
+            0.36
+          ],
+          [
+            0.02,
+            0.253
+          ],
+          [
+            0.025,
+            0.154
+          ],
+          [
+            0.03,
+            0.078
+          ],
+          [
+            0.035,
+            0.019
+          ],
+          [
+            0.04,
+            -0.016
+          ],
+          [
+            0.05,
+            -0.063
+          ],
+          [
+            0.06,
+            -0.09
+          ],
+          [
+            0.075,
+            -0.12
+          ],
+          [
+            0.115,
+            -0.151
+          ],
+          [
+            0.185,
+            -0.16
+          ],
+          [
+            0.37,
+            -0.157
+          ],
+          [
+            0.655,
+            -0.137
+          ],
+          [
+            0.69,
+            -0.144
+          ],
+          [
+            0.73,
+            -0.166
+          ],
+          [
+            0.785,
+            -0.221
+          ],
+          [
+            0.83,
+            -0.295
+          ],
+          [
+            0.86,
+            -0.372
+          ],
+          [
+            0.87,
+            -0.403
+          ],
+          [
+            0.885,
+            -0.47
+          ],
+          [
+            0.895,
+            -0.525
+          ],
+          [
+            0.905,
+            -0.594
+          ],
+          [
+            0.91,
+            -0.636
+          ],
+          [
+            0.915,
+            -0.694
+          ],
+          [
+            0.92,
+            -0.778
+          ],
+          [
+            0.925,
+            -0.927
+          ],
+          [
+            0.93,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            0,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "navy band through all the cabin windows, from the forward door aft",
+        "color": "navy",
+        "points": [
+          [
+            0.116,
+            0.321
+          ],
+          [
+            0.156,
+            0.298
+          ],
+          [
+            0.381,
+            0.297
+          ],
+          [
+            0.671,
+            0.305
+          ],
+          [
+            0.736,
+            0.29
+          ],
+          [
+            0.791,
+            0.262
+          ],
+          [
+            0.811,
+            0.253
+          ],
+          [
+            0.84,
+            0.248
+          ],
+          [
+            0.84,
+            -0.319
+          ],
+          [
+            0.831,
+            -0.297
+          ],
+          [
+            0.786,
+            -0.223
+          ],
+          [
+            0.736,
+            -0.171
+          ],
+          [
+            0.686,
+            -0.143
+          ],
+          [
+            0.651,
+            -0.137
+          ],
+          [
+            0.371,
+            -0.157
+          ],
+          [
+            0.186,
+            -0.16
+          ],
+          [
+            0.116,
+            -0.151
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "radome": {
+      "color": "radome",
+      "to": 0.008
+    },
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "fin": {
+    "base": "red",
+    "rudder": "red",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ],
+    "fillet": "red"
+  },
+  "wings": {
+    "top": "metal",
+    "under": "metal"
+  },
+  "engines": {
+    "cowling": "metal",
+    "inletLip": "metal",
+    "confidence": "medium",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "logos": [
+    {
+      "mark": "NWA/orient-roundel",
+      "place": "fuselage",
+      "at": [
+        0.278,
+        0.5
+      ],
+      "height": 0.26,
+      "colors": [
+        "red",
+        "white"
+      ],
+      "description": "The NW roundel: a red disc crossed by two white bands in an N, right after the titles, just ahead of the second door.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Northwest_Orient_Airlines_Icon_(1969-1986).png",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "NORTHWEST ORIENT",
+      "place": "fuselage",
+      "at": [
+        0.127,
+        0.44
+      ],
+      "height": 0.26,
+      "length": 0.138,
+      "color": "red",
+      "style": "Plain upright sans capitals in red over the forward windows, between the first two doors.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Medium",
+          "Arial"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Measured 2026-11-23 on N501US (left side, ORD 1986), checked against N504US. Heights converted from the photo's projected heights to girth shares. For Skyarium's ghost flights: a past scheme of a past airline.",
+  "types": {
+    "B722": {
+      "note": "The band and the metal below it drawn straight and level on the 727's own fuselage, which tapers differently from the 757's. The roundel sits a little farther back to clear the title.",
+      "fuselage": {
+        "areas": [
+          {
+            "name": "bare metal below the window band, nose to tail",
+            "color": "metal",
+            "points": [
+              [
+                0,
+                -1
+              ],
+              [
+                0.005,
+                -0.201
+              ],
+              [
+                0.01,
+                -0.134
+              ],
+              [
+                0.015,
+                -0.092
+              ],
+              [
+                0.03,
+                -0.077
+              ],
+              [
+                0.055,
+                -0.113
+              ],
+              [
+                0.085,
+                -0.128
+              ],
+              [
+                0.18,
+                -0.168
+              ],
+              [
+                0.26,
+                -0.185
+              ],
+              [
+                0.33,
+                -0.183
+              ],
+              [
+                0.385,
+                -0.144
+              ],
+              [
+                0.5,
+                -0.152
+              ],
+              [
+                0.55,
+                -0.154
+              ],
+              [
+                0.56,
+                -0.145
+              ],
+              [
+                0.575,
+                -0.158
+              ],
+              [
+                0.69,
+                -0.177
+              ],
+              [
+                0.725,
+                -0.198
+              ],
+              [
+                0.78,
+                -0.243
+              ],
+              [
+                0.82,
+                -0.279
+              ],
+              [
+                0.83,
+                -0.29
+              ],
+              [
+                0.855,
+                -0.345
+              ],
+              [
+                0.885,
+                -0.436
+              ],
+              [
+                0.895,
+                -0.48
+              ],
+              [
+                0.9,
+                -0.508
+              ],
+              [
+                0.91,
+                -0.581
+              ],
+              [
+                0.915,
+                -0.629
+              ],
+              [
+                0.92,
+                -0.683
+              ],
+              [
+                0.925,
+                -0.752
+              ],
+              [
+                0.93,
+                -0.87
+              ],
+              [
+                0.935,
+                -1
+              ],
+              [
+                1,
+                -1
+              ],
+              [
+                1,
+                -1
+              ],
+              [
+                0,
+                -1
+              ]
+            ],
+            "confidence": "medium",
+            "sourceRefs": [
+              0,
+              1
+            ]
+          },
+          {
+            "name": "navy band through all the cabin windows, from the forward door aft",
+            "color": "navy",
+            "points": [
+              [
+                0.116,
+                0.37
+              ],
+              [
+                0.141,
+                0.336
+              ],
+              [
+                0.176,
+                0.31
+              ],
+              [
+                0.241,
+                0.292
+              ],
+              [
+                0.336,
+                0.295
+              ],
+              [
+                0.391,
+                0.31
+              ],
+              [
+                0.491,
+                0.293
+              ],
+              [
+                0.516,
+                0.297
+              ],
+              [
+                0.551,
+                0.293
+              ],
+              [
+                0.566,
+                0.292
+              ],
+              [
+                0.706,
+                0.266
+              ],
+              [
+                0.741,
+                0.252
+              ],
+              [
+                0.771,
+                0.259
+              ],
+              [
+                0.791,
+                0.281
+              ],
+              [
+                0.826,
+                0.312
+              ],
+              [
+                0.84,
+                0.325
+              ],
+              [
+                0.84,
+                -0.311
+              ],
+              [
+                0.831,
+                -0.292
+              ],
+              [
+                0.781,
+                -0.243
+              ],
+              [
+                0.721,
+                -0.194
+              ],
+              [
+                0.691,
+                -0.178
+              ],
+              [
+                0.571,
+                -0.157
+              ],
+              [
+                0.561,
+                -0.146
+              ],
+              [
+                0.551,
+                -0.153
+              ],
+              [
+                0.501,
+                -0.152
+              ],
+              [
+                0.386,
+                -0.144
+              ],
+              [
+                0.331,
+                -0.182
+              ],
+              [
+                0.256,
+                -0.185
+              ],
+              [
+                0.176,
+                -0.167
+              ],
+              [
+                0.116,
+                -0.14
+              ]
+            ],
+            "confidence": "medium",
+            "sourceRefs": [
+              0,
+              1
+            ]
+          }
+        ]
+      },
+      "logos": [
+        {
+          "mark": "NWA/orient-roundel",
+          "place": "fuselage",
+          "at": [
+            0.307,
+            0.5
+          ],
+          "height": 0.26,
+          "colors": [
+            "red",
+            "white"
+          ],
+          "description": "The NW roundel: a red disc crossed by two white bands in an N, right after the titles, just ahead of the second door.",
+          "reference": "https://commons.wikimedia.org/wiki/File:Northwest_Orient_Airlines_Icon_(1969-1986).png",
+          "confidence": "medium",
+          "sourceRefs": [
+            0,
+            2
+          ]
+        }
+      ]
+    }
+  }
+}

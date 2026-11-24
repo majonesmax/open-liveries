@@ -1,0 +1,317 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "star-alliance",
+  "airline": "CSZ",
+  "name": "Star Alliance (Shenzhen Airlines)",
+  "kind": "alliance",
+  "confidence": "medium",
+  "drawnOn": "B738",
+  "description": "Star Alliance's scheme as Shenzhen Airlines wears it on 737-800 B-1758: all white, very large thin black 'STAR ALLIANCE' from behind the forward door to the aft door, the windows through its lower part; the small gray Star Alliance star behind the cockpit; Shenzhen's red Kunpeng with '深圳航空' and 'Shenzhen Airlines' small under the forward windows. Black fin and dorsal fillet with the Star Alliance star large across its middle, Shenzhen's small white logo low by the leading edge. White engines with the Kunpeng; Shenzhen's red winglets with the gold Kunpeng.",
+  "sources": [
+    {
+      "url": "https://www.staralliance.com/en/about",
+      "title": "Star Alliance: about",
+      "accessed": "2026-11-22",
+      "note": "Shenzhen Airlines is a member; member jets wear the alliance scheme (UAL/star-alliance is United's)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:20251130_Boeing_737-87L(WL)_of_Shenzhen_Airlines_(B-1758)_taxiing_at_CGO.jpg",
+      "title": "20251130 Boeing 737-87L(WL) of Shenzhen Airlines (B-1758) taxiing at CGO.jpg (CC BY-SA 4.0, Windmemories)",
+      "accessed": "2026-11-22",
+      "note": "B-1758 left side, side-on, Zhengzhou, 2025-11-30: fitted to the measured 737-800 shape (nose, fin tip, doors; the forward door ~20 px out); the titles' ends and heights, the stars, the Shenzhen marks read off it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:B-1758_at_SZX_20181018.jpg",
+      "title": "B-1758 at SZX 20181018.jpg (CC BY-SA 4.0, Windmemories)",
+      "accessed": "2026-11-22",
+      "note": "B-1758 in Shenzhen's standard scheme, 2018-10-18: repainted into Star Alliance since."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F2F2F2",
+      "official": false
+    },
+    "starBlack": {
+      "hex": "#1B1F2B",
+      "official": false,
+      "name": "Star Alliance black (navy-black in shade)"
+    },
+    "starWhite": {
+      "hex": "#F1F1EE",
+      "official": false,
+      "name": "the star's lit facets"
+    },
+    "starGray": {
+      "hex": "#A9ADB3",
+      "official": false,
+      "name": "the star's shaded facets"
+    },
+    "smallStar": {
+      "hex": "#8A8F96",
+      "official": false,
+      "name": "the cockpit star's gray"
+    },
+    "red": {
+      "hex": "#D20A22",
+      "name": "Shenzhen Airlines red",
+      "official": false
+    },
+    "gold": {
+      "hex": "#D09A4A",
+      "name": "the Kunpeng's gold",
+      "official": false
+    },
+    "black": {
+      "hex": "#1C1C1E",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "fin": {
+    "base": "starBlack",
+    "rudder": "starBlack",
+    "fillet": "starBlack",
+    "mirrored": true,
+    "confidence": "high",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "red",
+    "inner": "red",
+    "confidence": "medium",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "SAL/star-alliance",
+      "place": "fin",
+      "at": [
+        0.5,
+        0.28
+      ],
+      "height": 0.44,
+      "colors": [
+        "starWhite",
+        "starGray"
+      ],
+      "description": "The Star Alliance star large across the black fin's middle: five white faceted triangles round a pentagon.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Star_Alliance_Logo.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "SAL/star-alliance",
+      "place": "fuselage",
+      "at": [
+        0.112,
+        0.27
+      ],
+      "height": 0.17,
+      "colors": [
+        "smallStar",
+        "white"
+      ],
+      "description": "The small gray Star Alliance star just behind the cockpit windows.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "CSZ/kunpeng",
+      "place": "fuselage",
+      "at": [
+        0.247,
+        -0.2
+      ],
+      "height": 0.2,
+      "colors": [
+        "red"
+      ],
+      "description": "Shenzhen's Kunpeng small in red under the forward windows, ahead of its names.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "CSZ/kunpeng",
+      "place": "fin",
+      "at": [
+        0.1,
+        0.1
+      ],
+      "height": 0.06,
+      "colors": [
+        "white"
+      ],
+      "description": "Shenzhen's Kunpeng small in white low on the black fin by the leading edge, its names under it (not set).",
+      "confidence": "low",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "CSZ/kunpeng",
+      "place": "engines",
+      "at": [
+        0.35,
+        0.1
+      ],
+      "height": 0.4,
+      "colors": [
+        "red",
+        "gold"
+      ],
+      "description": "The Kunpeng small on the white nacelle.",
+      "confidence": "low",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "CSZ/kunpeng",
+      "place": "winglets",
+      "at": [
+        0.5,
+        0.45
+      ],
+      "height": 0.3,
+      "colors": [
+        "gold"
+      ],
+      "description": "The Kunpeng in gold on the red winglet.",
+      "confidence": "low",
+      "sourceRefs": [
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "STAR ALLIANCE",
+      "place": "fuselage",
+      "at": [
+        0.185,
+        0.02
+      ],
+      "height": 0.72,
+      "length": 0.548,
+      "color": "starBlack",
+      "style": "The Star Alliance wordmark: very large, thin, widely spaced geometric capitals, the windows through their lower half. Spaced far wider than any typeface sets it (a stand-in spread to its length comes out heavy), so it names a mark.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "Futura Light",
+          "Avenir Next Ultra Light",
+          "Century Gothic"
+        ],
+        "weight": 300,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "mark": "SAL/wordmark"
+    },
+    {
+      "text": "深圳航空",
+      "place": "fuselage",
+      "at": [
+        0.258,
+        -0.27
+      ],
+      "height": 0.1,
+      "length": 0.04,
+      "color": "black",
+      "style": "The Chinese name small in black after the Kunpeng, under the forward windows.",
+      "type": {
+        "similar": [
+          "Noto Sans SC Bold",
+          "Microsoft YaHei Bold"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "text": "Shenzhen Airlines",
+      "place": "fuselage",
+      "at": [
+        0.258,
+        -0.39
+      ],
+      "height": 0.05,
+      "length": 0.04,
+      "color": "black",
+      "style": "'Shenzhen Airlines' very small under the Chinese name.",
+      "type": {
+        "similar": [
+          "Arial Black",
+          "Helvetica Neue Heavy"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "confidence": "low",
+      "sourceRefs": [
+        1
+      ]
+    }
+  ],
+  "notes": "Measured on B-1758 (left side, 2025-11-30) fitted to shapes/B738.json, following United's Star Alliance scheme (UAL/star-alliance) for the wordmark and star. 'STAR ALLIANCE' x 0.185-0.733 (further aft than United's), baseline about y 0, cap height to 0.74; the fin's star centred x 0.5, y 0.28, 0.44 of the fin tall, read against the photo's fin edges. Only the left side has an open photo: the right side is assumed as United's (the wordmark reading normally, the star mirrored with the fin). The registration isn't drawn.",
+  "history": "New 2026-11-22; was a lead from an earlier sweep. B-1758 wore Shenzhen's standard scheme in 2018."
+}

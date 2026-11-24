@@ -1,0 +1,201 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "CKK",
+  "name": "China Cargo Airlines (China Eastern swallow)",
+  "kind": "standard",
+  "confidence": "high",
+  "drawnOn": "B77L",
+  "description": "All white; China Eastern's red and blue swallow on the white fin; ahead of the wing a small red swallow, '中國貨運航空' in red and 'CHINA CARGO' in navy capitals along the upper fuselage; white engines.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/China_Cargo_Airlines",
+      "title": "Wikipedia: China Cargo Airlines",
+      "accessed": "2026-11-13",
+      "note": "China Eastern's cargo airline; 777F fleet."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:B-227G_-_Boeing_777-F_-_China_Cargo_Airlines_STN_180426.jpg",
+      "title": "B-227G - Boeing 777-F - China Cargo Airlines STN 180426.jpg (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "B-227G (777F) left side, 2026-04-18: all of it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:B-227M_STN_210226.jpg",
+      "title": "B-227M STN 210226.jpg (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "B-227M (777F) left side, 2026-02-24: the same."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:China_Eastern_Airlines_logo.svg",
+      "title": "China Eastern logo (Commons)",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F6",
+      "official": false
+    },
+    "red": {
+      "hex": "#E2231A",
+      "official": false,
+      "name": "China Eastern red"
+    },
+    "blue": {
+      "hex": "#22378F",
+      "official": false,
+      "name": "China Eastern blue"
+    },
+    "navy": {
+      "hex": "#1F2F7A",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "hidden",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "mirrored": true,
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "CES/swallow",
+      "place": "fin",
+      "at": [
+        0.46,
+        0.36
+      ],
+      "height": 0.5,
+      "colors": [
+        "red",
+        "blue"
+      ],
+      "description": "China Eastern's swallow: a thick red stroke sweeping forward and down into a sharp chevron, a slim blue crescent under it; flying toward the nose on both sides.",
+      "reference": "https://commons.wikimedia.org/wiki/File:China_Eastern_Airlines_logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mark": "CES/swallow",
+      "place": "fuselage",
+      "at": [
+        0.177,
+        0.3
+      ],
+      "height": 0.12,
+      "colors": [
+        "red"
+      ],
+      "description": "A small red swallow (chevron) ahead of the Chinese title.",
+      "reference": "https://commons.wikimedia.org/wiki/File:China_Eastern_Airlines_logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "中國貨運航空",
+      "place": "fuselage",
+      "at": [
+        0.196,
+        0.2
+      ],
+      "height": 0.25,
+      "color": "red",
+      "style": "The Chinese name in traditional characters, red, in a bold calligraphic-style face.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "length": 0.122,
+      "type": {
+        "similar": [
+          "Kaiti Bold",
+          "Songti Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "contrast",
+        "case": "mixed"
+      }
+    },
+    {
+      "text": "CHINA CARGO",
+      "place": "fuselage",
+      "at": [
+        0.33,
+        0.2
+      ],
+      "height": 0.2,
+      "color": "navy",
+      "style": "'CHINA CARGO' in navy, a plain medium sans, widely spaced capitals.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "length": 0.13,
+      "type": {
+        "similar": [
+          "Futura Medium",
+          "Avenir Next Medium"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Drawn from 777Fs B-227G and B-227M (2026). Freighters have no windows. Re-checked 2026-11-15 against B-227G (2026-04-18) and B-227M (2026-02-24): the titles' places, heights and lengths agree within noise (the two photos differ by ~0.02 in where the Chinese starts); nothing moved.",
+  "history": "Replaces Skyarium v1's approximate standard (a few colors from memory). China Cargo took China Eastern's 2014 swallow scheme; before that it wore the older China Eastern red-and-blue scheme."
+}

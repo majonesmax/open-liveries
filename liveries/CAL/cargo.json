@@ -1,0 +1,539 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "cargo",
+  "airline": "CAL",
+  "name": "China Airlines Cargo",
+  "kind": "standard",
+  "confidence": "high",
+  "drawnOn": "B77L",
+  "description": "China Airlines' plum-blossom scheme with the A350-era nose (lavender swath and navy band from the nose, lilac-gray belly, white fin with lilac root and the pink plum blossom). Forward, big navy '中華航空' and periwinkle 'CARGO'; aft by the tail a small red seal and 'CHINA AIRLINES' in navy serif capitals.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:(GBR-London)_China_Airlines_Airbus_A350-941_B-18906_@_EGLL_2025-06-17.jpg",
+      "title": "China Airlines Airbus A350-941 B-18906 @ EGLL 2025-06-17 (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Left side, 2025-06-17: nose swath, belly line, title and seal, fin."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:China_Airlines_A321neo.jpg",
+      "title": "China Airlines A321neo (B-18112), 2025-07-13 (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Left side climbing: the same scheme on the A321neo; SkyTeam badge, seal, fin."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:China_Airlines_Airbus_A321neo_B-18102_departing_Taoyuan_February_2026.jpg",
+      "title": "China Airlines Airbus A321neo B-18102 departing Taoyuan February 2026 (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "From below-left, 2026-02-15: still this scheme in 2026; winglets white with navy and light-blue roots."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/China_Airlines",
+      "accessed": "2026-11-13",
+      "note": "The plum blossom logo (1995)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:China_Airlines_Cargo_Boeing_777F_B-18771_on_final_approach_to_Taoyuan_February_2026.jpg",
+      "title": "China Airlines Cargo Boeing 777F B-18771 on final approach to Taoyuan February 2026 (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Right side, level, 2026-02-15: title sizes and places, nose swath, belly, fin."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Boeing_777-F_‘B-18775’_China_Airlines_Cargo_(55501124200).jpg",
+      "title": "Boeing 777-F 'B-18775' China Airlines Cargo (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Right side, taxiing, 2026-03-16: '中華航空 CARGO' forward, seal and 'CHINA AIRLINES' aft."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:China_Airlines_Airbus_A321neo_and_Boeing_777F_taxiing_at_Taoyuan_February_2026.jpg",
+      "title": "China Airlines Airbus A321neo and Boeing 777F taxiing at Taoyuan February 2026 (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "777F B-18781, left side (oblique), 2026-02-04: on the left the Chinese title leads and 'CARGO' follows it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:China_Airlines_Cargo_Boeing_747-400F_B-18720_departing_Taoyuan_February_2026_1.jpg",
+      "title": "China Airlines Cargo Boeing 747-400F B-18720 departing Taoyuan February 2026 1 (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "747-400F B-18720, left side from below, 2026-02-15: the 747F's different title layout."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F6",
+      "official": false
+    },
+    "lavender": {
+      "hex": "#8E95D6",
+      "official": false
+    },
+    "navy": {
+      "hex": "#23338A",
+      "official": false
+    },
+    "lilac": {
+      "hex": "#BDB9D6",
+      "name": "lilac-gray belly and fin root",
+      "official": false
+    },
+    "pink": {
+      "hex": "#F08AA6",
+      "name": "plum blossom pink",
+      "official": false
+    },
+    "red": {
+      "hex": "#C8102E",
+      "official": false
+    },
+    "cowl": {
+      "hex": "#E6E8EB",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    },
+    "badge": {
+      "hex": "#5A5F66",
+      "official": false
+    },
+    "cargoBlue": {
+      "hex": "#8C97E0",
+      "official": false,
+      "name": "'CARGO' periwinkle"
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "lilac-gray belly",
+        "color": "lilac",
+        "below": [
+          [
+            0.0,
+            -0.8
+          ],
+          [
+            0.1,
+            -0.52
+          ],
+          [
+            0.25,
+            -0.45
+          ],
+          [
+            0.5,
+            -0.45
+          ],
+          [
+            0.85,
+            -0.4
+          ],
+          [
+            1.0,
+            -0.3
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ],
+        "smooth": true
+      },
+      {
+        "name": "lavender swath from the nose",
+        "color": "lavender",
+        "points": [
+          [
+            0.0,
+            0.15
+          ],
+          [
+            0.05,
+            0.12
+          ],
+          [
+            0.16,
+            -0.08
+          ],
+          [
+            0.25,
+            -0.43
+          ],
+          [
+            0.16,
+            -0.46
+          ],
+          [
+            0.05,
+            -0.31
+          ],
+          [
+            0.0,
+            -0.31
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "navy band along the swath's lower edge",
+        "color": "navy",
+        "points": [
+          [
+            0.0,
+            -0.08
+          ],
+          [
+            0.05,
+            -0.12
+          ],
+          [
+            0.16,
+            -0.28
+          ],
+          [
+            0.25,
+            -0.43
+          ],
+          [
+            0.16,
+            -0.46
+          ],
+          [
+            0.05,
+            -0.31
+          ],
+          [
+            0.0,
+            -0.31
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "windows": "hidden",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "mirrored": true,
+    "areas": [
+      {
+        "name": "lilac root, rising aft (a gradient in the paint)",
+        "color": "lilac",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0.5
+          ],
+          [
+            0.6,
+            0.3
+          ],
+          [
+            0,
+            0.1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "wings": {
+    "top": "#BCC1C7",
+    "under": "#C9CDD2",
+    "confidence": "low"
+  },
+  "winglets": {
+    "outer": "white",
+    "inner": "white",
+    "areas": [
+      {
+        "name": "navy root",
+        "color": "navy",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0.12
+          ],
+          [
+            0,
+            0.12
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2
+        ]
+      },
+      {
+        "name": "lavender band above it",
+        "color": "lavender",
+        "points": [
+          [
+            0,
+            0.12
+          ],
+          [
+            1,
+            0.12
+          ],
+          [
+            1,
+            0.25
+          ],
+          [
+            0,
+            0.25
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "cowl",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "CAL/plum-blossom",
+      "place": "fin",
+      "at": [
+        0.42,
+        0.32
+      ],
+      "height": 0.52,
+      "colors": [
+        "pink",
+        "red"
+      ],
+      "description": "The plum blossom (Taiwan's national flower): a five-petalled flower seen face-on, petals pink shading to white toward the middle, a ring of red stamens with dark tips at the center, outlined in thin dark red.",
+      "reference": "https://commons.wikimedia.org/wiki/File:China_Airlines_Logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "CAL/seal",
+      "place": "fuselage",
+      "at": [
+        0.695,
+        0.2
+      ],
+      "height": 0.12,
+      "colors": [
+        "red"
+      ],
+      "description": "The small red seal, just ahead of the aft 'CHINA AIRLINES'.",
+      "reference": "https://commons.wikimedia.org/wiki/File:China_Airlines_logo.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        4,
+        5
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "中華航空",
+      "place": "fuselage",
+      "at": [
+        0.16,
+        0.08
+      ],
+      "height": 0.5,
+      "length": 0.095,
+      "color": "navy",
+      "side": "left",
+      "style": "'China Airlines' in big navy Chinese characters in a Ming-style serif, leading on the left side, then 'CARGO'.",
+      "confidence": "medium",
+      "sourceRefs": [
+        6,
+        5
+      ],
+      "type": {
+        "similar": [
+          "Noto Serif TC Bold",
+          "PMingLiU"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "contrast",
+        "case": "mixed"
+      }
+    },
+    {
+      "text": "CARGO",
+      "place": "fuselage",
+      "at": [
+        0.29,
+        0.08
+      ],
+      "height": 0.53,
+      "length": 0.085,
+      "color": "cargoBlue",
+      "side": "left",
+      "style": "Big squarish, slightly slanted, wide capitals in pale periwinkle blue, after the Chinese on the left side.",
+      "confidence": "medium",
+      "sourceRefs": [
+        4,
+        6
+      ],
+      "type": {
+        "similar": [
+          "Eurostile Bold Extended",
+          "Microgramma Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 4,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "CARGO",
+      "place": "fuselage",
+      "at": [
+        0.157,
+        0.08
+      ],
+      "height": 0.53,
+      "length": 0.085,
+      "color": "cargoBlue",
+      "side": "right",
+      "style": "On the right side 'CARGO' is forward (nearest the nose, x 0.157–0.268) and the Chinese follows aft of it.",
+      "confidence": "high",
+      "sourceRefs": [
+        4,
+        5
+      ],
+      "type": {
+        "similar": [
+          "Eurostile Bold Extended",
+          "Microgramma Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 4,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "中華航空",
+      "place": "fuselage",
+      "at": [
+        0.277,
+        0.08
+      ],
+      "height": 0.5,
+      "length": 0.095,
+      "color": "navy",
+      "side": "right",
+      "style": "The Chinese title aft of 'CARGO' on the right side (x 0.277–0.404).",
+      "confidence": "high",
+      "sourceRefs": [
+        4,
+        5
+      ],
+      "type": {
+        "similar": [
+          "Noto Serif TC Bold",
+          "PMingLiU"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "contrast",
+        "case": "mixed"
+      }
+    },
+    {
+      "text": "CHINA AIRLINES",
+      "place": "fuselage",
+      "at": [
+        0.705,
+        0.15
+      ],
+      "height": 0.2,
+      "length": 0.1,
+      "color": "navy",
+      "style": "The passenger title's navy serif capitals, small, on the aft fuselage ahead of the fin, after the red seal.",
+      "confidence": "high",
+      "sourceRefs": [
+        4,
+        5,
+        6
+      ],
+      "type": {
+        "similar": [
+          "Trajan Pro",
+          "Optima",
+          "Times New Roman"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "contrast",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Drawn for the 777Fs (ten, the larger fleet), measured on B-18771 and B-18775 (right side, 2026) and checked on B-18781's left side (oblique): the passenger scheme's nose, belly and fin with cargo titles in place of the passenger title. Right-side 'at' values give the nose-most end of each word. The eight 747-400Fs differ in the titles: on B-18720 (left side, February 2026) 'CHINA / AIRLINES' is stacked in two lines of navy capitals behind the nose swath with periwinkle 'CARGO' after it, and no Chinese or aft title on that side; not drawn separately. No SkyTeam badge seen on the freighters.",
+  "history": "Added with the cargo divisions (2026-11-13). The 777Fs (from 2020) were delivered in this scheme."
+}

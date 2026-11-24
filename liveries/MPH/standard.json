@@ -1,0 +1,610 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "MPH",
+  "name": "Martinair Cargo",
+  "kind": "standard",
+  "confidence": "medium",
+  "drawnOn": "B744",
+  "description": "White freighter with 'Martinair' in dark navy bold lettering and 'CARGO' in wider navy capitals along the forward main deck, led by three red bars forming a forward-pointing chevron just behind the forward door. The fin and the aft fuselage are red, the red's forward edge a chevron pointing forward low on the tail; two thin white chevron lines run inside it, their upper arms climbing the fin to its tip and trailing edge. White engines; the winglets white with the red chevron.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Martinair_Cargo_Boeing_747-400BCF_PH-MPS_landing_at_Schiphol.jpg",
+      "title": "Martinair Cargo Boeing 747-400BCF PH-MPS landing at Schiphol.jpg (CC0, Mees Jansen)",
+      "accessed": "2026-11-20",
+      "note": "747-412(BCF) PH-MPS, right side, side-on, landing at Schiphol, 2023-06-02. Flipped and fitted to shapes/B744-passenger.json (doors pinned): the red tail's chevron edge and both white lines, the fin lines, the chevron logo, 'CARGO' then 'Martinair' (nose to tail) on the right."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Martinair_Cargo_PH-MPS_run_MP9472(Hong_Kong_International_Airport_to_Kazakhstan_Almaty_International_Airport)_16-03-2026(8).jpg",
+      "title": "Martinair Cargo PH-MPS run MP9472 (Hong Kong to Almaty) 16-03-2026(8).jpg (CC BY-SA 4.0, LN9267)",
+      "accessed": "2026-11-20",
+      "note": "PH-MPS, left side from below, climbing out of Hong Kong, 2026-03-16: the scheme current; on the left the chevron leads 'Martinair' (CARGO aft, under the wing); the left winglet white with the red chevron; white engines. A rough fit (from below) put the chevron and the title's start at the right side's places."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:02162019_Martinair_Cargo_B744F_PH-MPS_KMIA_NASEDIT_(47150602522).jpg",
+      "title": "02162019 Martinair Cargo B744F PH-MPS KMIA NASEDIT (47150602522).jpg (CC BY-SA 2.0, Nathan Coats)",
+      "accessed": "2026-11-20",
+      "note": "PH-MPS, left side from ahead at Miami, 2019-02-16: 'Martinair CARGO' reading forward to aft on the left, the chevron ahead of it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Boeing_747-412(BCF)_-_PH-MPS_-_Martinair_Cargo_-_La_Aurora_International_Airport,_Guatemala_City_3.jpg",
+      "title": "Boeing 747-412(BCF) - PH-MPS - Martinair Cargo - La Aurora International Airport, Guatemala City 3.jpg (CC BY-SA 2.0, Rene Hernandez2)",
+      "accessed": "2026-11-20",
+      "note": "PH-MPS, right side forward fuselage, Guatemala City, 2024-08-30: the right side's 'Martinair CARGO' and chevron close up."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F2F2F0",
+      "official": false
+    },
+    "red": {
+      "hex": "#D0202E",
+      "official": false
+    },
+    "navy": {
+      "hex": "#1F2A48",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C4C8CC",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "windows": "hidden",
+    "areas": [
+      {
+        "name": "red aft fuselage, its forward edge a chevron pointing forward just below the middle; its upper arm runs straight up to the fin's leading-edge foot",
+        "color": "red",
+        "points": [
+          [
+            0.7978,
+            1
+          ],
+          [
+            0.79,
+            0.569
+          ],
+          [
+            0.7822,
+            0.3856
+          ],
+          [
+            0.7744,
+            0.249
+          ],
+          [
+            0.7666,
+            0.1234
+          ],
+          [
+            0.7588,
+            0.0017
+          ],
+          [
+            0.751,
+            -0.115,
+            1
+          ],
+          [
+            0.772,
+            -0.61
+          ],
+          [
+            0.784,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ],
+        "smooth": true
+      },
+      {
+        "name": "white chevron line inside the red, the forward one: its upper arm is the fin's forward line carried straight down (they meet at the fin root)",
+        "color": "white",
+        "points": [
+          [
+            0.86,
+            1
+          ],
+          [
+            0.85,
+            0.5473
+          ],
+          [
+            0.84,
+            0.3358
+          ],
+          [
+            0.83,
+            0.1682
+          ],
+          [
+            0.82,
+            0.0233
+          ],
+          [
+            0.81,
+            -0.1078
+          ],
+          [
+            0.8,
+            -0.2358,
+            1
+          ],
+          [
+            0.813,
+            -0.615
+          ],
+          [
+            0.824,
+            -1
+          ],
+          [
+            0.832,
+            -1
+          ],
+          [
+            0.822,
+            -0.619
+          ],
+          [
+            0.8056,
+            -0.2759,
+            1
+          ],
+          [
+            0.8159,
+            -0.1411
+          ],
+          [
+            0.8261,
+            -0.0027
+          ],
+          [
+            0.8364,
+            0.1482
+          ],
+          [
+            0.8467,
+            0.3189
+          ],
+          [
+            0.8569,
+            0.5368
+          ],
+          [
+            0.8672,
+            1
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ],
+        "smooth": true
+      },
+      {
+        "name": "white chevron line inside the red, the aft one: its upper arm is the fin's aft line carried straight down",
+        "color": "white",
+        "points": [
+          [
+            0.9136,
+            1
+          ],
+          [
+            0.9042,
+            0.4855
+          ],
+          [
+            0.8947,
+            0.2708
+          ],
+          [
+            0.8852,
+            0.0921
+          ],
+          [
+            0.8758,
+            -0.0673
+          ],
+          [
+            0.8663,
+            -0.2211
+          ],
+          [
+            0.8568,
+            -0.3802,
+            1
+          ],
+          [
+            0.867,
+            -1
+          ],
+          [
+            0.876,
+            -1
+          ],
+          [
+            0.8628,
+            -0.4137,
+            1
+          ],
+          [
+            0.8724,
+            -0.248
+          ],
+          [
+            0.882,
+            -0.0901
+          ],
+          [
+            0.8916,
+            0.0735
+          ],
+          [
+            0.9012,
+            0.2525
+          ],
+          [
+            0.9109,
+            0.462
+          ],
+          [
+            0.9205,
+            1
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ],
+        "smooth": true
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "red",
+    "areas": [
+      {
+        "name": "the forward white line, from the root (where it meets the body's line) to the fin's top trailing corner",
+        "color": "white",
+        "points": [
+          [
+            0.3616,
+            0.0
+          ],
+          [
+            0.4109,
+            0.1917
+          ],
+          [
+            0.4766,
+            0.3833
+          ],
+          [
+            0.5706,
+            0.575
+          ],
+          [
+            0.7114,
+            0.7666
+          ],
+          [
+            0.9509,
+            0.9583
+          ],
+          [
+            1.4542,
+            1.1499
+          ],
+          [
+            1.5821,
+            1.1499
+          ],
+          [
+            1.0688,
+            0.9583
+          ],
+          [
+            0.7984,
+            0.7666
+          ],
+          [
+            0.6395,
+            0.575
+          ],
+          [
+            0.5336,
+            0.3833
+          ],
+          [
+            0.4593,
+            0.1917
+          ],
+          [
+            0.4036,
+            0.0
+          ]
+        ],
+        "smooth": true,
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "the aft white line, from the root (where it meets the body's line) to the trailing edge about half way up",
+        "color": "white",
+        "points": [
+          [
+            0.6736,
+            0.0
+          ],
+          [
+            0.7644,
+            0.1917
+          ],
+          [
+            0.8861,
+            0.3833
+          ],
+          [
+            1.0579,
+            0.575
+          ],
+          [
+            1.3165,
+            0.7666
+          ],
+          [
+            1.7574,
+            0.9583
+          ],
+          [
+            2.3143,
+            1.1499
+          ],
+          [
+            2.46,
+            1.1499
+          ],
+          [
+            1.8881,
+            0.9583
+          ],
+          [
+            1.4101,
+            0.7666
+          ],
+          [
+            1.1299,
+            0.575
+          ],
+          [
+            0.9437,
+            0.3833
+          ],
+          [
+            0.8117,
+            0.1917
+          ],
+          [
+            0.7133,
+            0.0
+          ]
+        ],
+        "smooth": true,
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "winglets": {
+    "outer": "white",
+    "inner": "white",
+    "confidence": "medium",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "titles": [
+    {
+      "text": "Martinair",
+      "place": "fuselage",
+      "side": "left",
+      "at": [
+        0.234,
+        -0.01
+      ],
+      "height": 0.39,
+      "length": 0.194,
+      "color": "navy",
+      "style": "Dark navy bold sans, capital M then lowercase (x-height about 0.78 of the capitals), right behind the chevron; 'CARGO' follows it aft.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Frutiger Bold",
+          "Myriad Pro Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      }
+    },
+    {
+      "text": "CARGO",
+      "place": "fuselage",
+      "side": "left",
+      "at": [
+        0.44,
+        -0.035
+      ],
+      "height": 0.27,
+      "length": 0.117,
+      "color": "navy",
+      "style": "Wider navy capitals of medium weight, smaller than 'Martinair', on its baseline aft of it.",
+      "confidence": "low",
+      "sourceRefs": [
+        2
+      ],
+      "type": {
+        "similar": [
+          "Eurostile Extended",
+          "Helvetica Neue Medium Extended"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "CARGO",
+      "place": "fuselage",
+      "side": "right",
+      "at": [
+        0.234,
+        -0.035
+      ],
+      "height": 0.27,
+      "length": 0.117,
+      "color": "navy",
+      "style": "As on the left; on the right it comes first behind the chevron, 'Martinair' aft of it, so the line reads 'Martinair CARGO' from that side.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Eurostile Extended",
+          "Helvetica Neue Medium Extended"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "Martinair",
+      "place": "fuselage",
+      "side": "right",
+      "at": [
+        0.363,
+        -0.01
+      ],
+      "height": 0.39,
+      "length": 0.194,
+      "color": "navy",
+      "style": "As on the left, aft of 'CARGO'.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Frutiger Bold",
+          "Myriad Pro Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      }
+    }
+  ],
+  "logos": [
+    {
+      "mark": "MPH/chevron",
+      "place": "fuselage",
+      "at": [
+        0.188,
+        -0.02
+      ],
+      "height": 0.68,
+      "colors": [
+        "red"
+      ],
+      "description": "Martinair's chevron: three parallel red bars bent into a '<' pointing forward, the bars' upper arms shorter and cut square at the top, the outer bar's lower arm the longest; just aft of the forward door, pointing to the nose on both sides.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Martinair_Cargo_Boeing_747-400BCF_PH-MPS_landing_at_Schiphol.jpg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "mark": "MPH/chevron",
+      "place": "winglets",
+      "at": [
+        0.5,
+        0.75
+      ],
+      "height": 0.25,
+      "colors": [
+        "red"
+      ],
+      "description": "The same chevron, small, near the top of the winglet's outer face.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Martinair_Cargo_PH-MPS_run_MP9472(Hong_Kong_International_Airport_to_Kazakhstan_Almaty_International_Airport)_16-03-2026(8).jpg",
+      "confidence": "low",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "notes": "Worn by PH-MPS, a 747-412(BCF) (long upper deck: measured on shapes/B744-passenger.json, drawn for B744), Martinair's last aircraft in its own colours; the 747-400ERFs PH-CKA, PH-CKB and PH-CKC that also fly as MPH wear KLM Cargo paint (airframes/MPH.json). On PH-MPS's right side (2023-06-02, flipped) the chevron runs x 0.150-0.226, 'CARGO' 0.234-0.351 (capitals about 1.5 m) and 'Martinair' 0.363-0.557 (capitals about 2 m); the red's forward point is at x 0.751 just below the middle, with the white lines' points at 0.801 and 0.857. On the left the chevron (0.150-0.228) and the start of 'Martinair' (0.234) were read from a photo from below; the left 'CARGO' is placed by symmetry with the right side's block (it's under the wing in every left-side photo): its place is a reading, not a measurement. A small 'BOEING 747-400BCF' sits low aft and the registration with an EU flag ahead of the red: not drawn. Colours by eye. Re-measured 2026-11-20 so each white line and the red field's edge run on unbroken across the fin root: on PH-MPS each line is one straight diagonal from the fin down the body. Each edge was fitted as one straight line in metres through the fin's points and the body's (slopes 1.15-1.18 m back per m up, every point within 0.27 m), and its crossing of the fin root (3.61 m up) is the shared end point: fin x 0.3616/0.4036 and 0.6736/0.7133 at y 0 = fuselage x 0.8600/0.8672 and 0.9136/0.9205 at the crown. The red field's edge meets the crown at the fin's leading-edge foot (0.7978). Both parts' points are sampled along the straight line (fin space is sheared and the fuselage's y runs round its section, so a straight line is a curve in either space), drawn smooth. The chevrons' points are where the lines meet the lower arms as measured, within 0.25 m of the photo.",
+  "history": "New in the LAX round (2026-11-20); Martinair had no scheme here before."
+}

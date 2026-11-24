@@ -1,0 +1,414 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "LSI",
+  "name": "MSC Air Cargo: yellow and black sweeps",
+  "kind": "standard",
+  "confidence": "medium",
+  "drawnOn": "B77L",
+  "description": "White 777 freighter with two sweeping lines along the fuselage: a thin black line from just behind the nose, under the cockpit, curving up to run just under the crown back to the fin's root, and below it a broader yellow line from under the nose that sweeps up behind the wing and tapers out over the rear fuselage. The fin white with a yellow band down its trailing edge, widening to the root, edged on its forward side by a thin black line that runs up to the fin's top trailing corner; the black 'msc' logo (m over sc, a wave line between) in the fin's middle. 'MSC AIR CARGO' in black capitals ahead of the wing behind the forward door. White engines.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:I-MSCA_Boeing_777F_MSC_Air_Cargo_Liege_25.6.26.jpg",
+      "title": "I-MSCA Boeing 777F MSC Air Cargo Liege 25.6.26 (CC BY-SA 4.0, Colin Cooke Photo)",
+      "accessed": "2026-11-22",
+      "note": "777F I-MSCA at Liège, right side, level, June 2026 (uploaded 2026-07-09). Flipped nose-left and fitted to shapes/B77L.json (within 5 px): both lines' edges along the fuselage, the fin's band and line, the logo's middle and height, the title's ends and height. The titles read MSC AIR CARGO, not AlisCargo, in 2026."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:MSC_Air_Cargo_I-MSCA_16-04-2025.jpg",
+      "title": "MSC Air Cargo I-MSCA 16-04-2025 (CC BY-SA 4.0, LN9267)",
+      "accessed": "2026-11-22",
+      "note": "I-MSCA at Hong Kong, 2025-04-16: the same scheme; not measured."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:MSC_Air_Cargo_N709GT_at_DFW.jpg",
+      "title": "MSC Air Cargo N709GT at DFW (CC0, Carguychris)",
+      "accessed": "2026-11-22",
+      "note": "777F N709GT (flown for MSC by Atlas Air) at Dallas-Fort Worth, left side, 2024-06-28: the same scheme from the left, MSC AIR CARGO forward."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:I-MSCA_ALFIRK_-_Boeing_777-F_-_Alis_Cargo_Airlines.jpg",
+      "title": "I-MSCA ALFIRK - Boeing 777-F - Alis Cargo Airlines (CC BY 4.0, UzeyirMikayil)",
+      "accessed": "2026-11-22",
+      "note": "I-MSCA, 2025-09-25: titled MSC AIR CARGO although the file names the airline Alis Cargo."
+    },
+    {
+      "url": "https://www.stattimes.com/air-cargo/msc-air-a-new-name-in-hactls-customer-portfolio-1353400",
+      "title": "STAT Times: MSC Air, a new name in Hactl's customer portfolio",
+      "accessed": "2026-11-22",
+      "note": "AlisCargo Airlines took the name MSC Air on 5 September 2024; four 777Fs flown by Atlas Air and one on its own certificate, based at Milan."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F3F2",
+      "official": false
+    },
+    "yellow": {
+      "hex": "#F2C12E",
+      "name": "MSC yellow",
+      "official": false
+    },
+    "black": {
+      "hex": "#1B1D22",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "windows": "hidden",
+    "areas": [
+      {
+        "name": "broad yellow line from under the nose, sweeping up behind the wing and tapering out over the rear fuselage",
+        "color": "yellow",
+        "smooth": true,
+        "points": [
+          [
+            0.084,
+            -0.233,
+            1
+          ],
+          [
+            0.149,
+            -0.28
+          ],
+          [
+            0.262,
+            -0.263
+          ],
+          [
+            0.347,
+            -0.016
+          ],
+          [
+            0.433,
+            0.307
+          ],
+          [
+            0.547,
+            0.55
+          ],
+          [
+            0.688,
+            0.62
+          ],
+          [
+            0.837,
+            0.38,
+            1
+          ],
+          [
+            0.688,
+            0.52
+          ],
+          [
+            0.547,
+            0.41
+          ],
+          [
+            0.433,
+            0.166
+          ],
+          [
+            0.347,
+            -0.127
+          ],
+          [
+            0.262,
+            -0.368
+          ],
+          [
+            0.149,
+            -0.345
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          2
+        ]
+      },
+      {
+        "name": "thin black line from behind the nose, curving up to run under the crown to the fin's root",
+        "color": "black",
+        "smooth": true,
+        "points": [
+          [
+            0.056,
+            -0.13,
+            1
+          ],
+          [
+            0.121,
+            -0.15
+          ],
+          [
+            0.206,
+            -0.042
+          ],
+          [
+            0.263,
+            0.097
+          ],
+          [
+            0.348,
+            0.352
+          ],
+          [
+            0.434,
+            0.581
+          ],
+          [
+            0.547,
+            0.719
+          ],
+          [
+            0.688,
+            0.83
+          ],
+          [
+            0.8,
+            0.95
+          ],
+          [
+            0.84,
+            1,
+            1
+          ],
+          [
+            0.86,
+            1,
+            1
+          ],
+          [
+            0.8,
+            0.9
+          ],
+          [
+            0.688,
+            0.77
+          ],
+          [
+            0.547,
+            0.65
+          ],
+          [
+            0.434,
+            0.506
+          ],
+          [
+            0.348,
+            0.299
+          ],
+          [
+            0.263,
+            0.052
+          ],
+          [
+            0.206,
+            -0.087
+          ],
+          [
+            0.121,
+            -0.197
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          2
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      2
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "yellow band down the trailing edge, widening to the root",
+        "color": "yellow",
+        "smooth": true,
+        "points": [
+          [
+            0.25,
+            0,
+            1
+          ],
+          [
+            0.509,
+            0.069
+          ],
+          [
+            0.768,
+            0.199
+          ],
+          [
+            0.935,
+            0.494
+          ],
+          [
+            1,
+            0.79,
+            1
+          ],
+          [
+            1,
+            0,
+            1
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          2
+        ]
+      },
+      {
+        "name": "thin black line along the band's forward edge, up to the top trailing corner",
+        "color": "black",
+        "smooth": true,
+        "points": [
+          [
+            0.08,
+            0,
+            1
+          ],
+          [
+            0.448,
+            0.098
+          ],
+          [
+            0.72,
+            0.217
+          ],
+          [
+            0.883,
+            0.5
+          ],
+          [
+            0.942,
+            0.795
+          ],
+          [
+            0.975,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            0.79,
+            1
+          ],
+          [
+            0.935,
+            0.494
+          ],
+          [
+            0.768,
+            0.199
+          ],
+          [
+            0.509,
+            0.069
+          ],
+          [
+            0.25,
+            0,
+            1
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          2
+        ]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      2
+    ]
+  },
+  "wings": {
+    "top": "#B9BEC5",
+    "under": "#C9CDD2"
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      2
+    ]
+  },
+  "titles": [
+    {
+      "text": "MSC AIR CARGO",
+      "place": "fuselage",
+      "at": [
+        0.13,
+        0.155
+      ],
+      "height": 0.155,
+      "length": 0.128,
+      "color": "black",
+      "style": "Heavy black sans capitals behind the forward door, above the black line.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Bold",
+          "Arial Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "logos": [
+    {
+      "mark": "LSI/msc",
+      "place": "fin",
+      "at": [
+        0.42,
+        0.49
+      ],
+      "height": 0.23,
+      "colors": [
+        "black"
+      ],
+      "description": "The MSC logo in black: a heavy lower-case 'm' over 'sc', a thin wavy line between them running out past both sides, upright, in the fin's middle.",
+      "reference": "https://commons.wikimedia.org/wiki/File:I-MSCA_Boeing_777F_MSC_Air_Cargo_Liege_25.6.26.jpg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "notes": "Measured on I-MSCA (777F, right side flipped, Liège, June 2026) fitted to the 777F shape; N709GT (2024, left) and N707GT (2024) wear the same. The airline was AlisCargo Airlines until 5 September 2024 (STAT Times) and is now MSC Air, but the aircraft are titled 'MSC AIR CARGO' in every photo from 2024 to 2026, and no AlisCargo-titled 777F appears on Commons. The yellow line is about 0.3 m deep under the cockpit, widest (about 0.6 m) behind the wing, and tapers to a point at x 0.84; the black line is about 0.15 m deep. Between them the white gap widens to about 1.5 m mid-body. The title runs x 0.13-0.258, baseline y 0.155, capitals to 0.31. The fin's yellow starts at the root from x 0.25 back; the black line from near the root's leading edge to the top trailing corner. A small Italian flag before the registration is not drawn. The Atlas Air-operated 777Fs N707GT, N708GT and N709GT fly in this scheme for MSC (tagged under GTI).",
+  "history": "New 2026-11-22 (the maintainer's spotting). MSC Air was AlisCargo Airlines until 5 September 2024."
+}

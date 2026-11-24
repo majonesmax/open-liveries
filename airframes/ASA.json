@@ -1,0 +1,595 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "ASA",
+  "airframes": [
+    {
+      "registration": "N265AK",
+      "livery": "honoring-those-who-serve",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://news.alaskaair.com/newsroom/alaska-airlines-salutes-military-heroes-with-patriotic-themed-aircraft/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N265AK_(aircraft)",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://www.alaskaair.com/content/travel-info/our-aircraft/739-alaska-airlines-salutes",
+          "accessed": "2026-11-14",
+          "note": "Alaska's own page for the aircraft (2026-11-14)."
+        }
+      ],
+      "hex": "a2919a",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "B739",
+      "from": "2016-10",
+      "lastSeen": "2019-08-30",
+      "status": "active (presumed): Commons photo Aug 2019; listed by Simple Flying in 2024 as an HTWS aircraft. No newer dated evidence found."
+    },
+    {
+      "registration": "N486AS",
+      "livery": "oneworld",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N486AS_(aircraft)",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N487AS_(aircraft)",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://www.airhistory.net/registration/N487AS",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "a5fef4",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "B739",
+      "from": "2021",
+      "lastSeen": "2026-02-19",
+      "status": "active: Commons photo at Miami 19 Feb 2026."
+    },
+    {
+      "registration": "N487AS",
+      "livery": "oneworld",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N487AS_(aircraft)",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://www.airhistory.net/registration/N487AS",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "a602ab",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "B739",
+      "from": "2021",
+      "lastSeen": "2025-06-06",
+      "status": "active: Commons photo at Anchorage 6 Jun 2025."
+    },
+    {
+      "registration": "N492AS",
+      "livery": "our-commitment",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://www.alaskaair.com/content/travel-info/our-aircraft/737-900-er-our-commitment",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N492AS_(aircraft)",
+          "accessed": "2026-11-14"
+        }
+      ],
+      "hex": "a61797",
+      "hexSource": "derived from the N-number (tools/nnumber.py)",
+      "type": "B739",
+      "from": "2021-04",
+      "lastSeen": "2026-05-30",
+      "status": "active: Commons photo 2026-05-30; on Alaska's page (2026-11)."
+    },
+    {
+      "registration": "N537AS",
+      "livery": "friendship-and-beyond-at-disneyland-resort",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://www.alaskaair.com/content/travel-info/our-aircraft/737-800-friendship-and-beyond-disneyland-resort",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N537AS_(aircraft)",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "a6ca7f",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "B738",
+      "from": "2019-10",
+      "lastSeen": "2025-06",
+      "status": "active: Commons photos at Santa Ana (SNA) June 2025."
+    },
+    {
+      "registration": "N538AS",
+      "livery": "star-wars-transport-to-the-disneyland",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://news.alaskaair.com/alaska-airlines/starwars-galaxysedge-livery/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N538AS_(aircraft)",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://www.alaskaair.com/content/travel-info/our-aircraft/737-800-star-wars-transport-to-the-disneyland-resort",
+          "accessed": "2026-11-14",
+          "note": "Alaska's own page for the aircraft (2026-11-14)."
+        }
+      ],
+      "hex": "a6ce36",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "B738",
+      "from": "2022-05",
+      "lastSeen": "2026-02-20",
+      "status": "active: Commons photo at Fort Lauderdale 20 Feb 2026 shows the scheme."
+    },
+    {
+      "registration": "N559AS",
+      "livery": "x-at-kw-ani",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://simpleflying.com/alaska-airlines-boeing-737-new-livery/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://airlinegeeks.com/2023/05/11/alaska-airlines-debuts-new-salmon-themed-livery/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N559AS_(aircraft)",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://www.alaskaair.com/content/travel-info/our-aircraft/737-800-salmon",
+          "accessed": "2026-11-14",
+          "note": "Alaska's own page for the aircraft (2026-11-14)."
+        }
+      ],
+      "hex": "a720eb",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "B738",
+      "from": "2023-05",
+      "lastSeen": "2023-05-12",
+      "status": "active (presumed): Debuted 12 May 2023 on AS62 ANC-SEA milk run (Simple Flying/AirlineGeeks). No later dated repaint report found; no recent Commons photo of the new scheme."
+    },
+    {
+      "registration": "N565AS",
+      "livery": "mickeys-toontown-express",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://www.alaskaair.com/content/travel-info/our-aircraft/737-800-mickeys-toontown-express",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://airlinegeeks.com/2023/11/02/alaska-s-new-disneyland-livery-mickey-s-toontown/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N565AS_(aircraft)",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "a7398e",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "B738",
+      "from": "2023-11",
+      "lastSeen": "2026-11-14",
+      "status": "active: Commons photos at Santa Barbara (Mar 2025) and Anchorage (6 Jun 2025) show the scheme. Alaska said it would fly 'for the next several years'."
+    },
+    {
+      "registration": "N570AS",
+      "livery": "honoring-those-who-serve",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N570AS_(aircraft)",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://simpleflying.com/alaska-airlines-honors-us-armed-forces-new-livery-6-branches/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://www.alaskaair.com/content/travel-info/our-aircraft/737-800-honoring-those-who-serve",
+          "accessed": "2026-11-14",
+          "note": "Alaska's own page for the aircraft (2026-11-14)."
+        }
+      ],
+      "hex": "a74e7a",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "B738",
+      "from": "2017",
+      "lastSeen": "2025-06-06",
+      "status": "active: Commons photo at Anchorage, 6 Jun 2025."
+    },
+    {
+      "registration": "N596AS",
+      "livery": "tianas-bayou-adventure-flyer",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://news.alaskaair.com/guest-experience/alaska-airlines-livery-tianas-bayou-adventure-flyer-celebrates-spirit-of-adventure/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N596AS_(aircraft)",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://www.alaskaair.com/content/travel-info/our-aircraft/737-800-tiannas-bayou-adventure",
+          "accessed": "2026-11-14",
+          "note": "Alaska's own page for the aircraft (2026-11-14)."
+        }
+      ],
+      "hex": "a7b3c2",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "B738",
+      "from": "2025-04",
+      "lastSeen": "2026-04-30",
+      "status": "active: Commons photo 30 Apr 2026 (AS1352 LAX-SJO) shows the scheme."
+    },
+    {
+      "registration": "N651QX",
+      "livery": "honoring-those-who-serve",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://www.alaskaair.com/content/travel-info/our-aircraft/e175-honoring-those-who-serve",
+          "accessed": "2026-11-14",
+          "note": "Names N651QX, the third Honoring Those Who Serve aircraft."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N651QX_(aircraft)",
+          "accessed": "2026-11-14"
+        }
+      ],
+      "hex": "a891e5",
+      "hexSource": "derived from the N-number (tools/nnumber.py)",
+      "type": "E75L",
+      "lastSeen": "2021-06-24",
+      "status": "active (presumed): on Alaska's page (2026-11); latest dated Commons photo 2021-06-24.",
+      "notes": "Flown by Horizon (QXE)."
+    },
+    {
+      "registration": "N652MK",
+      "livery": "horizon-retro",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://www.alaskaair.com/content/travel-info/our-aircraft/e175-horizon",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N652MK_(aircraft)",
+          "accessed": "2026-11-14"
+        }
+      ],
+      "hex": "a89545",
+      "hexSource": "derived from the N-number (tools/nnumber.py)",
+      "type": "E75L",
+      "from": "2022-11",
+      "lastSeen": "2026-03-14",
+      "status": "active: Commons photo 2026-03-14.",
+      "notes": "Flown by Horizon (QXE); delivered in these colors 2022-11-18 ('MK' for founder Milt Kuolt)."
+    },
+    {
+      "registration": "N661QX",
+      "livery": "go-cougs",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://www.alaskaair.com/content/travel-info/our-aircraft/e175-wsu",
+          "accessed": "2026-11-14",
+          "note": "Names N661QX; revealed 2023-09-22, to fly about a decade."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N661QX_(aircraft)",
+          "accessed": "2026-11-14"
+        }
+      ],
+      "hex": "a8b964",
+      "hexSource": "derived from the N-number (tools/nnumber.py)",
+      "type": "E75L",
+      "from": "2023-09",
+      "lastSeen": "2024-01-20",
+      "status": "active (presumed): on Alaska's page (2026-11); latest dated Commons photo 2024-01-20.",
+      "notes": "Flown by Horizon (QXE)."
+    },
+    {
+      "registration": "N662QX",
+      "livery": "go-dawgs",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://www.alaskaair.com/content/travel-info/our-aircraft/e175-uw",
+          "accessed": "2026-11-14",
+          "note": "Names N662QX; debuted 2023-09-22."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N662QX_(aircraft)",
+          "accessed": "2026-11-14"
+        }
+      ],
+      "hex": "a8bd1b",
+      "hexSource": "derived from the N-number (tools/nnumber.py)",
+      "type": "E75L",
+      "from": "2023-09",
+      "lastSeen": "2026-04-19",
+      "status": "active: Commons photo 2026-04-19.",
+      "notes": "Flown by Horizon (QXE)."
+    },
+    {
+      "registration": "N710AL",
+      "livery": "seattle-mariners",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://www.alaskaair.com/content/travel-info/our-aircraft/737-9-max-mariners",
+          "accessed": "2026-11-14",
+          "note": "Names N710AL; revealed 2024-09-26, flying through 2026."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N710AL_(aircraft)",
+          "accessed": "2026-11-14"
+        }
+      ],
+      "hex": "a97c18",
+      "hexSource": "derived from the N-number (tools/nnumber.py)",
+      "type": "B39M",
+      "from": "2024-09",
+      "lastSeen": "2026-10-24",
+      "status": "active: Commons photo 2026-10-24; Alaska says it flies through 2026."
+    },
+    {
+      "registration": "N806AK",
+      "livery": "honoring-those-who-serve",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://simpleflying.com/alaska-airlines-honors-us-armed-forces-new-livery-6-branches/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N806AK_(aircraft)",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://simpleflying.com/stars-stripes-america-liveries-flying/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N570AS_(aircraft)",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://news.alaskaair.com/newsroom/alaska-airlines-salutes-military-heroes-with-patriotic-themed-aircraft/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N265AK_(aircraft)",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://www.alaskaair.com/content/travel-info/our-aircraft/737-8-max-honoring-those-who-serve",
+          "accessed": "2026-11-14",
+          "note": "Alaska's own page for the aircraft (2026-11-14)."
+        }
+      ],
+      "hex": "aaf831",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "B38M",
+      "from": "2024-06",
+      "lastSeen": "2026-11-14",
+      "status": "active: Commons photo JFK 15 Jul 2024. Simple Flying (2026) reports America250 decals were added to Alaska's four patriotic aircraft."
+    },
+    {
+      "registration": "N915AK",
+      "livery": "seattle-kraken-2021",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://simpleflying.com/alaska-special-livery-kraken/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://www.alaskaair.com/content/travel-info/our-aircraft/737-9-max-seattle-kraken",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N915AK_(aircraft)",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "aca948",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "B39M",
+      "from": "2021-10",
+      "to": "2024",
+      "lastSeen": "2026-01-30",
+      "status": "retired: Commons photo 30 Jan 2026 shows N915AK in standard Alaska livery; Alaska's Kraken page says the 2021 Kraken livery has retired."
+    },
+    {
+      "registration": "N932AK",
+      "livery": "west-coast-wonders",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N932AK_(aircraft)",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://worldairlinenews.com/2021/12/17/alaska-paints-new-boeing-737-9-max-9-n932ak-in-a-special-orca-livery/",
+          "accessed": "2026-11-14"
+        }
+      ],
+      "hex": "aced21",
+      "hexSource": "derived from the N-number (tools/nnumber.py)",
+      "type": "B39M",
+      "from": "2021-12",
+      "lastSeen": "2023-01-18",
+      "status": "active (presumed): on Alaska's page for the livery (2026-11); latest dated Commons photo 2023-01-18.",
+      "notes": "Alaska's page shows N932AK in its photo but doesn't name it in the text."
+    },
+    {
+      "registration": "N933AK",
+      "livery": "seattle-kraken",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://www.alaskaair.com/content/travel-info/our-aircraft/737-9-max-seattle-kraken",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N933AK_(aircraft)",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://simpleflying.com/alaska-special-livery-kraken/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N915AK_(aircraft)",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "acf0d8",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "B39M",
+      "from": "2024-10",
+      "lastSeen": "2026-11-14",
+      "status": "active: Alaska says it flies through the 2025 and 2026 seasons; Commons photo at LAX 27 Feb 2026 shows the scheme."
+    },
+    {
+      "registration": "N985AK",
+      "livery": "seattle-fifa-world-cup-26-host",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://www.aerotime.aero/articles/alaska-airlines-unveils-fifa-world-cup-2026-livery-on-boeing-737-9-max/amp",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://komonews.com/news/local/alaska-airlines-debuts-seattle-fifa-world-cup-plane-travel-seatttle-qatar-boeing-737-9-max-visitors-things-to-know-about-seattle-world-cup-seatac-airport-travel",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "adbdc1",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "B39M",
+      "from": "2026-06",
+      "lastSeen": "2026-11-14",
+      "status": "unknown after the tournament: Unveiled 10 Jun 2026 (Aerotime/KOMO; Aerotime prints '985AK'). No later photo found; Commons photo from Feb 2026 shows N985AK in standard colors before the repaint."
+    },
+    {
+      "registration": "N780HA",
+      "hex": "aa9136",
+      "type": "B789",
+      "livery": "global",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Alaska_Airlines_-_N780HA_-_AS100_(SEA-LHR).jpg",
+          "accessed": "2026-11-22",
+          "note": "In the global livery, 2026-10-02 (Commons, CC BY 4.0); Hawaiian's Pualani on 2025-04-26."
+        }
+      ],
+      "hexSource": "derived from the N-number (tools/nnumber.py)",
+      "from": "2026-10",
+      "status": "active: Commons photo 2026-10-02; flying as ASA119 on adsb.lol 2026-11-22."
+    },
+    {
+      "registration": "N781HA",
+      "hex": "aa94ed",
+      "type": "B789",
+      "livery": "global",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N781HA_B787_ALASKA_AIRLINES_(55195469291).jpg",
+          "accessed": "2026-11-22",
+          "note": "In the global livery, 2026-04-08 (Commons); also 2026-05-13 and 2026-05-21 (AS100's first Seattle-London flight)."
+        }
+      ],
+      "hexSource": "derived from the N-number (tools/nnumber.py)",
+      "from": "2026-04",
+      "status": "active: Commons photos 2026-04 to 2026-05."
+    },
+    {
+      "registration": "N782HA",
+      "hex": "aa98a4",
+      "type": "B789",
+      "livery": "global",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N782HA_B787_ALASKA_AIRLINES_(55230371040).jpg",
+          "accessed": "2026-11-22",
+          "note": "In the global livery, 2026-04-23 (Commons); the photo the scheme was measured on."
+        }
+      ],
+      "hexSource": "derived from the N-number (tools/nnumber.py)",
+      "from": "2026-04",
+      "status": "active: Commons photo 2026-04-23."
+    },
+    {
+      "registration": "N783HA",
+      "hex": "aa9c5b",
+      "type": "B789",
+      "livery": "global",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N783HA_B787_ALASKA_AIRLINES_(55200581928).jpg",
+          "accessed": "2026-11-22",
+          "note": "In the global livery, 2026-04-11 (Commons)."
+        }
+      ],
+      "hexSource": "derived from the N-number (tools/nnumber.py)",
+      "from": "2026-04",
+      "status": "active: Commons photo 2026-04-11; flying as ASA101 on adsb.lol 2026-11-22."
+    },
+    {
+      "registration": "N784HA",
+      "hex": "aaa012",
+      "type": "B789",
+      "livery": "global",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://news.alaskaair.com/images-videos/alaska-airlines-global-livery/",
+          "accessed": "2026-11-22",
+          "note": "Alaska's press kit: N784HA, the first 787 in the global livery, shown 2026-01-07."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N784HA_B787_ALASKA_AIRLINES_(55222205629).jpg",
+          "accessed": "2026-11-22",
+          "note": "Commons photo 2026-04-21."
+        }
+      ],
+      "hexSource": "derived from the N-number (tools/nnumber.py)",
+      "from": "2026-01-07",
+      "status": "active: flying as ASA122 on adsb.lol 2026-11-22."
+    }
+  ]
+}

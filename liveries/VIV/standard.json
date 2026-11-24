@@ -1,0 +1,606 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "VIV",
+  "name": "2024 livery ('viva')",
+  "kind": "standard",
+  "from": "2024-10",
+  "description": "All white, with big green lowercase 'viva' over the forward windows and a lime outline heart above its last 'a'. The white fin carries two overlapping-row dots: a red circle at the top trailing edge and a lime one at the root that spills onto the fuselage, each with a white inverted heart; a green circle with a white heart round the aft door. Green engines and winglets.",
+  "confidence": "medium",
+  "drawnOn": "A320",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:XA-VDH_(55183109899).jpg",
+      "title": "XA-VDH (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "A320, left side, level, LAX 2026-03-22: titles, fin circles, aft circle, engines; the geometry is measured from it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:XA-VMB_A320neo,_Viva,_Cancun_03-08-26_(55173580789).jpg",
+      "title": "XA-VMB A320neo, Viva, Cancun 03-08-26 (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Right side from below, 2026-03-08: the same layout on the right, green engines and winglets, white belly."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:XA-VBR_Viva_Aerobus_Airbus_A321neo_s_n_10484_(54866813358).jpg",
+      "title": "XA-VBR Viva Aerobus Airbus A321neo (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "A321neo from below left, 2025-10-18: the new scheme on the A321neo; 'VIVO' on the winglet."
+    },
+    {
+      "url": "https://mexicobusiness.news/aerospace/news/viva-aerobus-rebrands-viva-new-logo-and-livery",
+      "title": "Mexico Business News: Viva Aerobus rebrands to 'Viva' with new logo and livery",
+      "accessed": "2026-11-13",
+      "note": "Rebrand of 30 October 2024: name 'Viva', two greens, an inverted heart."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F2F3F4",
+      "official": false
+    },
+    "green": {
+      "hex": "#26A84A",
+      "official": false
+    },
+    "lime": {
+      "hex": "#8CCB2E",
+      "official": false
+    },
+    "red": {
+      "hex": "#E5352B",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC5",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "name": "bare metal inlet lip",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "green circle round the aft door",
+        "color": "green",
+        "points": [
+          [
+            0.852,
+            -0.222
+          ],
+          [
+            0.851,
+            -0.079
+          ],
+          [
+            0.848,
+            0.052
+          ],
+          [
+            0.844,
+            0.168
+          ],
+          [
+            0.838,
+            0.269
+          ],
+          [
+            0.83,
+            0.348
+          ],
+          [
+            0.822,
+            0.399
+          ],
+          [
+            0.813,
+            0.417
+          ],
+          [
+            0.804,
+            0.401
+          ],
+          [
+            0.796,
+            0.354
+          ],
+          [
+            0.788,
+            0.285
+          ],
+          [
+            0.782,
+            0.2
+          ],
+          [
+            0.777,
+            0.103
+          ],
+          [
+            0.774,
+            -0.003
+          ],
+          [
+            0.773,
+            -0.115
+          ],
+          [
+            0.774,
+            -0.232
+          ],
+          [
+            0.777,
+            -0.356
+          ],
+          [
+            0.782,
+            -0.488
+          ],
+          [
+            0.788,
+            -0.634
+          ],
+          [
+            0.796,
+            -0.822
+          ],
+          [
+            0.804,
+            -0.844
+          ],
+          [
+            0.813,
+            -0.844
+          ],
+          [
+            0.822,
+            -0.844
+          ],
+          [
+            0.83,
+            -0.844
+          ],
+          [
+            0.838,
+            -0.844
+          ],
+          [
+            0.844,
+            -0.691
+          ],
+          [
+            0.848,
+            -0.516
+          ],
+          [
+            0.851,
+            -0.363
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ],
+        "smooth": true
+      },
+      {
+        "name": "lime fin circle, its lower part on the fuselage",
+        "color": "lime",
+        "points": [
+          [
+            0.847,
+            1.0
+          ],
+          [
+            0.852,
+            0.716
+          ],
+          [
+            0.857,
+            0.564
+          ],
+          [
+            0.862,
+            0.457
+          ],
+          [
+            0.869,
+            0.375
+          ],
+          [
+            0.876,
+            0.314
+          ],
+          [
+            0.883,
+            0.274
+          ],
+          [
+            0.89,
+            0.268
+          ],
+          [
+            0.897,
+            0.298
+          ],
+          [
+            0.903,
+            0.362
+          ],
+          [
+            0.909,
+            0.469
+          ],
+          [
+            0.914,
+            0.646
+          ],
+          [
+            0.918,
+            1.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ],
+        "smooth": true
+      }
+    ],
+    "radome": {
+      "color": "white",
+      "to": 0.025
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "red circle, top trailing edge",
+        "color": "red",
+        "points": [
+          [
+            1,
+            0.668
+          ],
+          [
+            1,
+            0.739
+          ],
+          [
+            1,
+            0.805
+          ],
+          [
+            0.926,
+            0.862
+          ],
+          [
+            0.782,
+            0.905
+          ],
+          [
+            0.618,
+            0.932
+          ],
+          [
+            0.454,
+            0.942
+          ],
+          [
+            0.313,
+            0.932
+          ],
+          [
+            0.211,
+            0.905
+          ],
+          [
+            0.158,
+            0.862
+          ],
+          [
+            0.153,
+            0.805
+          ],
+          [
+            0.189,
+            0.739
+          ],
+          [
+            0.255,
+            0.668
+          ],
+          [
+            0.341,
+            0.597
+          ],
+          [
+            0.44,
+            0.531
+          ],
+          [
+            0.544,
+            0.475
+          ],
+          [
+            0.649,
+            0.431
+          ],
+          [
+            0.752,
+            0.404
+          ],
+          [
+            0.849,
+            0.395
+          ],
+          [
+            0.938,
+            0.404
+          ],
+          [
+            1,
+            0.431
+          ],
+          [
+            1,
+            0.475
+          ],
+          [
+            1,
+            0.531
+          ],
+          [
+            1,
+            0.597
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "lime circle at the root",
+        "color": "lime",
+        "points": [
+          [
+            0.824,
+            0.112
+          ],
+          [
+            0.788,
+            0.181
+          ],
+          [
+            0.729,
+            0.244
+          ],
+          [
+            0.651,
+            0.299
+          ],
+          [
+            0.559,
+            0.341
+          ],
+          [
+            0.46,
+            0.368
+          ],
+          [
+            0.365,
+            0.377
+          ],
+          [
+            0.285,
+            0.368
+          ],
+          [
+            0.226,
+            0.341
+          ],
+          [
+            0.194,
+            0.299
+          ],
+          [
+            0.19,
+            0.244
+          ],
+          [
+            0.21,
+            0.181
+          ],
+          [
+            0.252,
+            0.112
+          ],
+          [
+            0.308,
+            0.044
+          ],
+          [
+            0.84,
+            0.044
+          ]
+        ],
+        "smooth": true
+      }
+    ],
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "green",
+    "inner": "green",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "green",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "VIV/heart",
+      "place": "fuselage",
+      "at": [
+        0.328,
+        0.46
+      ],
+      "height": 0.28,
+      "colors": [
+        "lime"
+      ],
+      "description": "Viva's inverted heart (2024): a heart upside down and tilted, its point up and forward, the two lobes below; here as a lime outline perched above the last 'a' of 'viva'.",
+      "reference": "https://en.wikipedia.org/wiki/Viva_(airline)",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "mark": "VIV/heart",
+      "place": "fin",
+      "at": [
+        0.86,
+        0.79
+      ],
+      "height": 0.13,
+      "colors": [
+        "white"
+      ],
+      "description": "The heart as a solid white shape in the red circle, near its upper aft edge.",
+      "reference": "https://en.wikipedia.org/wiki/Viva_(airline)",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "VIV/heart",
+      "place": "fin",
+      "at": [
+        0.62,
+        0.21
+      ],
+      "height": 0.13,
+      "colors": [
+        "white"
+      ],
+      "description": "The heart in white in the lime circle.",
+      "reference": "https://en.wikipedia.org/wiki/Viva_(airline)",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "VIV/heart",
+      "place": "fuselage",
+      "at": [
+        0.825,
+        -0.026
+      ],
+      "height": 0.42,
+      "colors": [
+        "white"
+      ],
+      "description": "The heart in white in the green circle, just aft of the aft door.",
+      "reference": "https://en.wikipedia.org/wiki/Viva_(airline)",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "VIV/flag",
+      "place": "fuselage",
+      "at": [
+        0.74,
+        0.333
+      ],
+      "height": 0.15,
+      "colors": [
+        "#006847",
+        "white",
+        "#CE1126"
+      ],
+      "description": "A small Mexican flag above the registration, ahead of the aft door.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "viva",
+      "place": "fuselage",
+      "at": [
+        0.162,
+        -0.12
+      ],
+      "height": 1.0,
+      "color": "green",
+      "style": "Lowercase only, a medium-weight rounded geometric sans with a single-storey a, wide and loosely set, running across the forward windows from just behind the forward door. Letters are x-height only (measured 0.77 R); `height` is the matching cap height.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Gilroy Medium",
+          "Poppins Medium",
+          "Futura Medium"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.77
+      },
+      "length": 0.151
+    }
+  ],
+  "notes": "Measured from XA-VDH (A320, 2026-03-22, left side); XA-VMB (2026-03-08, right side from below) and XA-VBR (A321neo, 2025-10-18) agree. The circles are drawn as polygons in each part's space; the lime one straddles the fin root. Belly: white (XA-VMB). Many aircraft still wear the previous 'viva aerobus' scheme (standard-2018), repainted gradually; some show the new titles with older engines. The A321neo winglets carry white lettering ('VIVO' seen on XA-VBR's), not drawn. The small red mark on the engine cowling isn't identified. Re-checked 2026-11-15 on XA-VDH, placed by its doors and overwing exits: the title runs 0.162 to 0.313; it has no capitals, so type.xHeight 0.77 just states the measured lowercase (0.77 R) against the nominal cap height. The circles are now drawn smooth through their points.",
+  "history": "Replaces Skyarium v1's approximation. The October 2024 rebrand (Viva Aerobus becomes Viva) replaced the 2018-era 'viva aerobus' scheme (standard-2018), still on part of the fleet."
+}

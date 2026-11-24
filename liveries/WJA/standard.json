@@ -1,0 +1,345 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "WJA",
+  "name": "2018 livery",
+  "kind": "standard",
+  "from": "2018",
+  "confidence": "medium",
+  "drawnOn": "B38M",
+  "description": "White fuselage; behind the wing a teal sweep rises from the belly to the crown ahead of the fin, with a navy wedge at the fin root; 'WESTJET' in heavy navy italic capitals over the forward windows with a small Canadian flag by the door; the fin a faceted design of teal, white and navy (a stylised mountain and maple-leaf pattern, finely dotted); navy winglets.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/WestJet",
+      "title": "Wikipedia: WestJet",
+      "accessed": "2026-11-13",
+      "note": "The 2018 rebrand that came with the 787."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:C-GPFT_Boeing_737_Max_8_Westjet_LGW_20.5.24_(53734026042).jpg",
+      "title": "C-GPFT Boeing 737 Max 8 Westjet LGW 20.5.24 (53734026042).jpg (CC BY-SA 2.0)",
+      "accessed": "2026-11-13",
+      "note": "C-GPFT (737-8 MAX) right side, 2024-05-20: geometry, title, fin; mirrored for the left."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:C-FNWD_-_Boeing_737_MAX_8_-_WestJet_LIR_260225.jpg",
+      "title": "C-FNWD - Boeing 737 MAX 8 - WestJet LIR 260225.jpg (CC BY 2.0)",
+      "accessed": "2026-11-13",
+      "note": "C-FNWD right side on the ground, 2025-02-27: the same scheme."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F6",
+      "official": false
+    },
+    "teal": {
+      "hex": "#00A3AD",
+      "official": false,
+      "name": "WestJet teal"
+    },
+    "navy": {
+      "hex": "#1C2272",
+      "official": false,
+      "name": "navy"
+    },
+    "darkTeal": {
+      "hex": "#0E6F7C",
+      "official": false,
+      "name": "dark teal"
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false
+    },
+    "flagRed": {
+      "hex": "#D52B1E",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "teal sweep: lower aft fuselage from the belly behind the wing up to the crown ahead of the fin, and the tail cone",
+        "color": "teal",
+        "points": [
+          [
+            0.6576923076923077,
+            -1
+          ],
+          [
+            0.773,
+            1.0
+          ],
+          [
+            0.7774659339010948,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "navy wedge at the fin root",
+        "color": "navy",
+        "points": [
+          [
+            0.802,
+            1.0
+          ],
+          [
+            0.831,
+            0.463
+          ],
+          [
+            0.86,
+            -0.09
+          ],
+          [
+            0.885,
+            -0.375
+          ],
+          [
+            0.905,
+            -0.037
+          ],
+          [
+            0.9175793268458085,
+            1
+          ],
+          [
+            0.8104337910645568,
+            1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "teal",
+    "areas": [
+      {
+        "name": "white mountain-like facet across the middle",
+        "color": "white",
+        "points": [
+          [
+            0.48,
+            0.806
+          ],
+          [
+            -0.0,
+            0.567
+          ],
+          [
+            -0.173,
+            0.176
+          ],
+          [
+            0.942,
+            0.189
+          ],
+          [
+            1.303,
+            0.327
+          ],
+          [
+            1.19,
+            0.592
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "navy lower facet at the root",
+        "color": "navy",
+        "points": [
+          [
+            0.942,
+            0.189
+          ],
+          [
+            -0.213,
+            0.139
+          ],
+          [
+            -0.388,
+            0.063
+          ],
+          [
+            1.003,
+            -0.214
+          ],
+          [
+            1.052,
+            -0.113
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "low",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "navy",
+    "inner": "navy",
+    "areas": [
+      {
+        "name": "white band",
+        "color": "white",
+        "points": [
+          [
+            0,
+            0.55
+          ],
+          [
+            1,
+            0.45
+          ],
+          [
+            1,
+            0.6
+          ],
+          [
+            0,
+            0.7
+          ]
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "WJA/tail",
+      "place": "fin",
+      "at": [
+        0.5,
+        0.5
+      ],
+      "height": 0.9,
+      "colors": [
+        "teal",
+        "white",
+        "navy"
+      ],
+      "description": "WestJet's 2018 tail: angular facets of teal, white and navy (read as mountains and a maple leaf), finely half-toned at their edges, filling the fin.",
+      "reference": "https://commons.wikimedia.org/wiki/File:WestJet_logo_2018.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "WJA/canada-flag",
+      "place": "fuselage",
+      "at": [
+        0.096,
+        0.235
+      ],
+      "height": 0.139,
+      "colors": [
+        "flagRed",
+        "white"
+      ],
+      "description": "A small Canadian flag over the windows just behind the forward door, 'Proudly' small above it.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "WESTJET",
+      "place": "fuselage",
+      "at": [
+        0.157,
+        0.085
+      ],
+      "height": 0.4,
+      "color": "navy",
+      "style": "WestJet's wordmark: heavy, slanted, slab-like capitals in navy over the forward windows, the J dropping below the line.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "length": 0.2010989010989011,
+      "type": {
+        "similar": [
+          "Rockwell Extra Bold",
+          "Avenir Next Heavy Italic"
+        ],
+        "weight": 850,
+        "slantDeg": 12,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Drawn from right-side photos only (C-GPFT 2024, C-FNWD 2025) and mirrored: the left side should match. The fin's facets are simplified to two areas. WestJet Encore (WEN) wears this scheme. Re-checked 2026-11-15 on C-GPFT (flipped, fitted to the measured 737-800 shape, whose fuselage the MAX 8 shares): the title's baseline is just under the windows' middle (about 0.3 m below it, y 0.085) and its capitals stand about 0.77 m above it (height 0.40; it had been drawn reaching most of the way to the crown); x 0.16 to 0.37 as drawn. The teal's front edge is straight from the side: drawn by its two ends. The fin's facets stay simplified (the white is a dotted gradient on the aircraft). WestJet's 737-800s, its commonest type, wear the same layout.",
+  "history": "Replaces Skyarium v1's approximate standard (a few colors from memory). The 2018 livery replaced WestJet's teal-and-blue 'tail' scheme of the 2000s."
+}

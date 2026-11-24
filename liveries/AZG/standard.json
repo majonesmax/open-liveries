@@ -1,0 +1,400 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "AZG",
+  "name": "Silk Way West (blue and white)",
+  "kind": "standard",
+  "confidence": "low",
+  "drawnOn": "B748",
+  "description": "White upper fuselage over a deep blue lower fuselage that rises behind the wing to take in the whole tail; a red and white wave under the big navy 'SILKWAY' title ahead of the wing, 'AZERBAIJAN CARGO' small above it; blue fin with white 'SW' over the same red and white wave; blue engines with 'SW'.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Silk_Way_West_Airlines",
+      "title": "Wikipedia: Silk Way West Airlines",
+      "accessed": "2026-11-13",
+      "note": "747-400F, 747-8F, 777F fleet."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Silk_Way_West_Airlines_VQ-BWY_run_7L1923(Hong_Kong_International_Airport_to_Azerbaijan_Baku_Heydar_Aliyev_International_Airport)_16-01-2025.jpg",
+      "title": "Silk Way West Airlines VQ-BWY run 7L1923(Hong Kong International Airport to Azerbaijan Baku Heydar Aliyev International Airport) 16-01-2025.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "VQ-BWY (747-8F) right side taxiing, 2025-01-16. Right-side photo only; the left side is assumed to mirror it."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F2F3F5",
+      "official": false
+    },
+    "blue": {
+      "hex": "#1F3D8F",
+      "official": false,
+      "name": "Silk Way blue"
+    },
+    "navy": {
+      "hex": "#1B2F6E",
+      "official": false
+    },
+    "red": {
+      "hex": "#E0303F",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "blue lower fuselage and tail",
+        "color": "blue",
+        "points": [
+          [
+            0.02,
+            -0.6
+          ],
+          [
+            0.06,
+            -0.15
+          ],
+          [
+            0.2,
+            -0.07
+          ],
+          [
+            0.45,
+            -0.12
+          ],
+          [
+            0.68,
+            -0.12
+          ],
+          [
+            0.76,
+            0.3
+          ],
+          [
+            0.81,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            0.02,
+            -1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "white wave",
+        "color": "white",
+        "points": [
+          [
+            0.12,
+            -0.36
+          ],
+          [
+            0.17,
+            -0.3
+          ],
+          [
+            0.22,
+            -0.33
+          ],
+          [
+            0.27,
+            -0.3
+          ],
+          [
+            0.27,
+            -0.36
+          ],
+          [
+            0.22,
+            -0.4
+          ],
+          [
+            0.17,
+            -0.37
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "red wave",
+        "color": "red",
+        "points": [
+          [
+            0.12,
+            -0.27
+          ],
+          [
+            0.17,
+            -0.2
+          ],
+          [
+            0.22,
+            -0.24
+          ],
+          [
+            0.27,
+            -0.21
+          ],
+          [
+            0.27,
+            -0.29
+          ],
+          [
+            0.22,
+            -0.32
+          ],
+          [
+            0.17,
+            -0.28
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1
+        ]
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "hidden",
+    "confidence": "low",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "fin": {
+    "base": "blue",
+    "areas": [
+      {
+        "name": "red wave",
+        "color": "red",
+        "points": [
+          [
+            0.15,
+            0.38
+          ],
+          [
+            0.4,
+            0.42
+          ],
+          [
+            0.65,
+            0.34
+          ],
+          [
+            0.85,
+            0.3
+          ],
+          [
+            0.85,
+            0.25
+          ],
+          [
+            0.65,
+            0.29
+          ],
+          [
+            0.4,
+            0.36
+          ],
+          [
+            0.15,
+            0.33
+          ]
+        ]
+      },
+      {
+        "name": "white wave",
+        "color": "white",
+        "points": [
+          [
+            0.15,
+            0.31
+          ],
+          [
+            0.4,
+            0.34
+          ],
+          [
+            0.65,
+            0.27
+          ],
+          [
+            0.85,
+            0.23
+          ],
+          [
+            0.85,
+            0.19
+          ],
+          [
+            0.65,
+            0.22
+          ],
+          [
+            0.4,
+            0.29
+          ],
+          [
+            0.15,
+            0.27
+          ]
+        ]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "low",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "engines": {
+    "cowling": "blue",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "logos": [],
+  "titles": [
+    {
+      "text": "SILKWAY",
+      "place": "fuselage",
+      "at": [
+        0.121,
+        0.0
+      ],
+      "height": 0.33,
+      "color": "navy",
+      "style": "'SILKWAY' in heavy, slanted navy capitals ahead of the wing.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ],
+      "length": 0.147,
+      "type": {
+        "similar": [
+          "Futura Extra Bold",
+          "Avenir Next Heavy"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "AZERBAIJAN CARGO",
+      "place": "fuselage",
+      "at": [
+        0.268,
+        0.22
+      ],
+      "height": 0.11,
+      "color": "navy",
+      "style": "'AZERBAIJAN CARGO' in small dark-blue capitals on the same line as SILKWAY, aft of it on the right side, tops aligned.",
+      "confidence": "low",
+      "sourceRefs": [
+        1
+      ],
+      "length": 0.094,
+      "type": {
+        "similar": [
+          "Futura Medium Oblique"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "side": "right"
+    },
+    {
+      "text": "SW",
+      "place": "fin",
+      "at": [
+        0.12,
+        0.45
+      ],
+      "height": 0.2,
+      "color": "white",
+      "style": "'SW' in wide white capitals across the fin over the red and white wave.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ],
+      "length": 0.5,
+      "type": {
+        "similar": [
+          "Eurostile Extended Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "SW",
+      "place": "engines",
+      "at": [
+        0.23,
+        0.2
+      ],
+      "height": 0.25,
+      "color": "white",
+      "style": "'SW' small on the blue cowlings.",
+      "confidence": "low",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "Eurostile Extended Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "length": 0.24
+    }
+  ],
+  "notes": "Drawn from one right-side photo of 747-8F VQ-BWY (January 2025, with a '10 years' badge, not drawn). Right-side photo only; the left side is assumed to mirror it. Re-checked 2026-11-15 on VQ-BWY (right, 2025-01-16): SILKWAY is upright (not oblique) at x 0.121-0.268; AZERBAIJAN CARGO reads on the same line aft of it with its tops level with SILKWAY's (it had been drawn above it); as different lettering read as one line it is drawn on the right side only, as no photo shows the left. The engines' SW runs x 0.23-0.47 of the nacelle.",
+  "history": "Replaces Skyarium v1's approximate standard (a few colors from memory)."
+}

@@ -1,0 +1,558 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "ATN",
+  "airframes": [
+    {
+      "registration": "N1439A",
+      "hex": "a0b169",
+      "type": "B763",
+      "livery": "prime-air",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://hexdb.io/api/v1/aircraft/a0b169",
+          "title": "hexdb.io aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Registered owner/operator given as 'Prime Air', operator flag ATN (community data)."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Amazon_Air#Fleet",
+          "title": "Wikipedia: Amazon Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "Amazon Air's contract operators and counts (as of January 2025)."
+        }
+      ],
+      "lastSeen": "2026-11-14",
+      "status": "flying as ATN4339 on adsb.lol, 2026-11-13",
+      "notes": "No open photo found; tagged because hexdb gives its owner as Prime Air and it flies Amazon's network: every Amazon 767 photographed 2023-2026 wears this paint."
+    },
+    {
+      "registration": "N229AZ",
+      "hex": "a20288",
+      "type": "B763",
+      "livery": "prime-air",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://hexdb.io/api/v1/aircraft/a20288",
+          "title": "hexdb.io aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Registered owner/operator given as 'Prime Air', operator flag ATN (community data)."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Amazon_Air#Fleet",
+          "title": "Wikipedia: Amazon Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "Amazon Air's contract operators and counts (as of January 2025)."
+        }
+      ],
+      "lastSeen": "2026-11-13",
+      "status": "flying as ATN3435 on adsb.lol, 2026-11-13",
+      "notes": "No open photo found; tagged because hexdb gives its owner as Prime Air and it flies Amazon's network: every Amazon 767 photographed 2023-2026 wears this paint."
+    },
+    {
+      "registration": "N241AZ",
+      "hex": "a233ce",
+      "type": "B763",
+      "livery": "prime-air",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Amazon_Air_Boeing_767-300_N241AZ_BK_MD1.jpg",
+          "title": "Amazon Air Boeing 767-300 N241AZ BK MD1.jpg",
+          "accessed": "2026-11-13",
+          "note": "Commons photo, 2024-07-01: in Prime Air paint."
+        },
+        {
+          "url": "https://hexdb.io/api/v1/aircraft/a233ce",
+          "title": "hexdb.io aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Registered owner/operator given as 'Prime Air', operator flag ATN (community data)."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Amazon_Air#Fleet",
+          "title": "Wikipedia: Amazon Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "Amazon Air's contract operators and counts (as of January 2025)."
+        }
+      ],
+      "lastSeen": "2026-11-13",
+      "status": "flying as ATN3317 on adsb.lol, 2026-11-13; photographed in Prime Air paint 2024-07-01 (Commons)"
+    },
+    {
+      "registration": "N257AZ",
+      "hex": "a27197",
+      "type": "B763",
+      "livery": "prime-air",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Boeing_767-323%28ER%29%28BDSF%29%28WL%29_%28N257AZ%2C_msn_29605%2C_ln_748%29_%285-22-2023%29.jpg",
+          "title": "Boeing 767-323(ER)(BDSF)(WL) (N257AZ, msn 29605, ln 748) (5-22-2023).jpg",
+          "accessed": "2026-11-13",
+          "note": "Commons photo, 2023-05-22: in Prime Air paint."
+        },
+        {
+          "url": "https://hexdb.io/api/v1/aircraft/a27197",
+          "title": "hexdb.io aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Registered owner/operator given as 'Prime Air', operator flag ATN (community data)."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Amazon_Air#Fleet",
+          "title": "Wikipedia: Amazon Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "Amazon Air's contract operators and counts (as of January 2025)."
+        }
+      ],
+      "lastSeen": "2023-05-22",
+      "status": "photographed in Prime Air paint 2023-05-22 (Commons)",
+      "notes": "Not seen flying during the 2026-11-13 adsb.lol sample: the callsign is hexdb's operator flag."
+    },
+    {
+      "registration": "N317AZ",
+      "hex": "a360ea",
+      "type": "B763",
+      "livery": "prime-air",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Boeing_767-323%28ER%29%28BDSF%29_%28N317AZ%2C_msn_25445%2C_ln_447%29_%284-14-2024%29.jpg",
+          "title": "Boeing 767-323(ER)(BDSF) (N317AZ, msn 25445, ln 447) (4-14-2024).jpg",
+          "accessed": "2026-11-13",
+          "note": "Commons photo, 2024-04-14: in Prime Air paint."
+        },
+        {
+          "url": "https://hexdb.io/api/v1/aircraft/a360ea",
+          "title": "hexdb.io aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Registered owner/operator given as 'Prime Air', operator flag ATN (community data)."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Amazon_Air#Fleet",
+          "title": "Wikipedia: Amazon Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "Amazon Air's contract operators and counts (as of January 2025)."
+        }
+      ],
+      "lastSeen": "2024-04-14",
+      "status": "photographed in Prime Air paint 2024-04-14 (Commons)",
+      "notes": "Not seen flying during the 2026-11-13 adsb.lol sample: the callsign is hexdb's operator flag."
+    },
+    {
+      "registration": "N337AZ",
+      "hex": "a3afe8",
+      "type": "B763",
+      "livery": "prime-air",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N337AZ_Amazon_Prime_Air_Boeing_767-323ER%28BDSF%29%28WL%29_March_ARB_020323.jpg",
+          "title": "N337AZ Amazon Prime Air Boeing 767-323ER(BDSF)(WL) March ARB 020323.jpg",
+          "accessed": "2026-11-13",
+          "note": "Commons photo, 2023-04-19: in Prime Air paint."
+        },
+        {
+          "url": "https://hexdb.io/api/v1/aircraft/a3afe8",
+          "title": "hexdb.io aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Registered owner/operator given as 'Prime Air', operator flag ATN (community data)."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Amazon_Air#Fleet",
+          "title": "Wikipedia: Amazon Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "Amazon Air's contract operators and counts (as of January 2025)."
+        }
+      ],
+      "lastSeen": "2023-04-19",
+      "status": "photographed in Prime Air paint 2023-04-19 (Commons)",
+      "notes": "Not seen flying during the 2026-11-13 adsb.lol sample: the callsign is hexdb's operator flag."
+    },
+    {
+      "registration": "N347AZ",
+      "hex": "a3d767",
+      "type": "B763",
+      "livery": "prime-air",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N347AZ_at_SMF.jpg",
+          "title": "N347AZ at SMF.jpg",
+          "accessed": "2026-11-13",
+          "note": "Commons photo, 2019-09-06: in Prime Air paint."
+        },
+        {
+          "url": "https://hexdb.io/api/v1/aircraft/a3d767",
+          "title": "hexdb.io aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Registered owner/operator given as 'Prime Air', operator flag ATN (community data)."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Amazon_Air#Fleet",
+          "title": "Wikipedia: Amazon Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "Amazon Air's contract operators and counts (as of January 2025)."
+        }
+      ],
+      "lastSeen": "2019-09-06",
+      "status": "photographed in Prime Air paint 2019-09-06 (Commons)",
+      "notes": "Latest open photo 2019. Not seen flying during the 2026-11-13 adsb.lol sample: the callsign is hexdb's operator flag."
+    },
+    {
+      "registration": "N359AZ",
+      "hex": "a40654",
+      "type": "B763",
+      "livery": "prime-air",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Prime_Air_Boeing_767-300ER_N359AZ_BWI_MD1.jpg",
+          "title": "Prime Air Boeing 767-300ER N359AZ BWI MD1.jpg",
+          "accessed": "2026-11-13",
+          "note": "Commons photo, 2025-10-16: in Prime Air paint."
+        },
+        {
+          "url": "https://hexdb.io/api/v1/aircraft/a40654",
+          "title": "hexdb.io aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Registered owner/operator given as 'Prime Air', operator flag ATN (community data)."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Amazon_Air#Fleet",
+          "title": "Wikipedia: Amazon Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "Amazon Air's contract operators and counts (as of January 2025)."
+        }
+      ],
+      "lastSeen": "2025-10-16",
+      "status": "photographed in Prime Air paint 2025-10-16 (Commons)",
+      "notes": "Not seen flying during the 2026-11-13 adsb.lol sample: the callsign is hexdb's operator flag."
+    },
+    {
+      "registration": "N379AZ",
+      "hex": "a45552",
+      "type": "B763",
+      "livery": "prime-air",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:ATI_-_Prime_Air_Boeing_767-300_N379AZ_BWI_MD1.jpg",
+          "title": "ATI - Prime Air Boeing 767-300 N379AZ BWI MD1.jpg",
+          "accessed": "2026-11-13",
+          "note": "Commons photo, 2022-05-17: in Prime Air paint."
+        },
+        {
+          "url": "https://hexdb.io/api/v1/aircraft/a45552",
+          "title": "hexdb.io aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Registered owner/operator given as 'Prime Air', operator flag ATN (community data)."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Amazon_Air#Fleet",
+          "title": "Wikipedia: Amazon Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "Amazon Air's contract operators and counts (as of January 2025)."
+        }
+      ],
+      "lastSeen": "2022-05-17",
+      "status": "photographed in Prime Air paint 2022-05-17 (Commons)",
+      "notes": "Not seen flying during the 2026-11-13 adsb.lol sample: the callsign is hexdb's operator flag."
+    },
+    {
+      "registration": "N409AZ",
+      "hex": "a4ce28",
+      "type": "B763",
+      "livery": "prime-air",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://hexdb.io/api/v1/aircraft/a4ce28",
+          "title": "hexdb.io aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Registered owner/operator given as 'Prime Air', operator flag ATN (community data)."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Amazon_Air#Fleet",
+          "title": "Wikipedia: Amazon Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "Amazon Air's contract operators and counts (as of January 2025)."
+        }
+      ],
+      "lastSeen": "2026-11-13",
+      "status": "flying as ATN3324 on adsb.lol, 2026-11-13",
+      "notes": "No open photo found; tagged because hexdb gives its owner as Prime Air and it flies Amazon's network: every Amazon 767 photographed 2023-2026 wears this paint."
+    },
+    {
+      "registration": "N431AZ",
+      "hex": "a526ed",
+      "type": "B763",
+      "livery": "prime-air",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N431AZ_BWI_27.02.22_%2852251932097%29.jpg",
+          "title": "N431AZ BWI 27.02.22 (52251932097).jpg",
+          "accessed": "2026-11-13",
+          "note": "Commons photo, 2022-02-27."
+        },
+        {
+          "url": "https://hexdb.io/api/v1/aircraft/a526ed",
+          "title": "hexdb.io aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Registered owner/operator given as 'Prime Air', operator flag ATN (community data)."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Amazon_Air#Fleet",
+          "title": "Wikipedia: Amazon Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "Amazon Air's contract operators and counts (as of January 2025)."
+        }
+      ],
+      "lastSeen": "2026-11-13",
+      "status": "flying as ATN3441 on adsb.lol, 2026-11-13; photographed in Prime Air paint 2022-02-27 (Commons)"
+    },
+    {
+      "registration": "N449AZ",
+      "hex": "a56c24",
+      "type": "B763",
+      "livery": "prime-air",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:ATI_Amazon_Air_Boeing_767-300_N449AZ_BWI_MD1.jpg",
+          "title": "ATI Amazon Air Boeing 767-300 N449AZ BWI MD1.jpg",
+          "accessed": "2026-11-13",
+          "note": "Commons photo, 2024-11-14: in Prime Air paint."
+        },
+        {
+          "url": "https://hexdb.io/api/v1/aircraft/a56c24",
+          "title": "hexdb.io aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Registered owner/operator given as 'Prime Air', operator flag ATN (community data)."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Amazon_Air#Fleet",
+          "title": "Wikipedia: Amazon Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "Amazon Air's contract operators and counts (as of January 2025)."
+        }
+      ],
+      "lastSeen": "2024-11-14",
+      "status": "photographed in Prime Air paint 2024-11-14 (Commons)",
+      "notes": "Not seen flying during the 2026-11-13 adsb.lol sample: the callsign is hexdb's operator flag."
+    },
+    {
+      "registration": "N457AZ",
+      "hex": "a58c35",
+      "type": "B763",
+      "livery": "prime-air",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Boeing_767-323%28ER%29%28BDSF%29%28WL%29_%28N457AZ%2C_msn_25448%2C_ln_481%29_%286-21-2025%29.jpg",
+          "title": "Boeing 767-323(ER)(BDSF)(WL) (N457AZ, msn 25448, ln 481) (6-21-2025).jpg",
+          "accessed": "2026-11-13",
+          "note": "Commons photo, 2025-06-21: in Prime Air paint."
+        },
+        {
+          "url": "https://hexdb.io/api/v1/aircraft/a58c35",
+          "title": "hexdb.io aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Registered owner/operator given as 'Prime Air', operator flag ATN (community data)."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Amazon_Air#Fleet",
+          "title": "Wikipedia: Amazon Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "Amazon Air's contract operators and counts (as of January 2025)."
+        }
+      ],
+      "lastSeen": "2025-06-21",
+      "status": "photographed in Prime Air paint 2025-06-21 (Commons)",
+      "notes": "Not seen flying during the 2026-11-13 adsb.lol sample: the callsign is hexdb's operator flag."
+    },
+    {
+      "registration": "N479AZ",
+      "hex": "a5e2a1",
+      "type": "B763",
+      "livery": "prime-air",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://hexdb.io/api/v1/aircraft/a5e2a1",
+          "title": "hexdb.io aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Registered owner/operator given as 'Prime Air', operator flag ATN (community data)."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Amazon_Air#Fleet",
+          "title": "Wikipedia: Amazon Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "Amazon Air's contract operators and counts (as of January 2025)."
+        }
+      ],
+      "lastSeen": "2026-11-14",
+      "status": "flying as ATN3463 on adsb.lol, 2026-11-13",
+      "notes": "No open photo found; tagged because hexdb gives its owner as Prime Air and it flies Amazon's network: every Amazon 767 photographed 2023-2026 wears this paint."
+    },
+    {
+      "registration": "N491AZ",
+      "hex": "a613e7",
+      "type": "B763",
+      "livery": "prime-air",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Amazon_Air_Boeing_767-300_N491AZ_BWI_MD1.jpg",
+          "title": "Amazon Air Boeing 767-300 N491AZ BWI MD1.jpg",
+          "accessed": "2026-11-13",
+          "note": "Commons photo, 2024-07-25: in Prime Air paint."
+        },
+        {
+          "url": "https://hexdb.io/api/v1/aircraft/a613e7",
+          "title": "hexdb.io aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Registered owner/operator given as 'Prime Air', operator flag ATN (community data)."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Amazon_Air#Fleet",
+          "title": "Wikipedia: Amazon Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "Amazon Air's contract operators and counts (as of January 2025)."
+        }
+      ],
+      "lastSeen": "2026-11-13",
+      "status": "flying as ATN3436 on adsb.lol, 2026-11-13; photographed in Prime Air paint 2024-07-25 (Commons)"
+    },
+    {
+      "registration": "N499AZ",
+      "hex": "a6319f",
+      "type": "B763",
+      "livery": "prime-air",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://hexdb.io/api/v1/aircraft/a6319f",
+          "title": "hexdb.io aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Registered owner/operator given as 'Prime Air', operator flag ATN (community data)."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Amazon_Air#Fleet",
+          "title": "Wikipedia: Amazon Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "Amazon Air's contract operators and counts (as of January 2025)."
+        }
+      ],
+      "lastSeen": "2026-11-13",
+      "status": "flying as ATN3328 on adsb.lol, 2026-11-13",
+      "notes": "No open photo found; tagged because hexdb gives its owner as Prime Air and it flies Amazon's network: every Amazon 767 photographed 2023-2026 wears this paint."
+    },
+    {
+      "registration": "N607AZ",
+      "hex": "a7e158",
+      "type": "B763",
+      "livery": "prime-air",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:ATI_-_Amazon_Prime_Air_Boeing_767-300ER_N607AZ_BWI_MD1.jpg",
+          "title": "ATI - Amazon Prime Air Boeing 767-300ER N607AZ BWI MD1.jpg",
+          "accessed": "2026-11-13",
+          "note": "Commons photo, 2026-04-09: in Prime Air paint."
+        },
+        {
+          "url": "https://hexdb.io/api/v1/aircraft/a7e158",
+          "title": "hexdb.io aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Registered owner/operator given as 'Prime Air', operator flag ATN (community data)."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Amazon_Air#Fleet",
+          "title": "Wikipedia: Amazon Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "Amazon Air's contract operators and counts (as of January 2025)."
+        }
+      ],
+      "lastSeen": "2026-04-09",
+      "status": "photographed in Prime Air paint 2026-04-09 (Commons)",
+      "notes": "Photo caption names ATI (Air Transport International) as operator. Not seen flying during the 2026-11-13 adsb.lol sample: the callsign is hexdb's operator flag."
+    },
+    {
+      "registration": "N619AZ",
+      "hex": "a81045",
+      "type": "B763",
+      "livery": "prime-air",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:ATI_Amazon_Air_N619AZ_landing_at_LAL.jpg",
+          "title": "ATI Amazon Air N619AZ landing at LAL.jpg",
+          "accessed": "2026-11-13",
+          "note": "Commons photo, 2024-06-13: in Prime Air paint."
+        },
+        {
+          "url": "https://hexdb.io/api/v1/aircraft/a81045",
+          "title": "hexdb.io aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Registered owner/operator given as 'Prime Air', operator flag ATN (community data)."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Amazon_Air#Fleet",
+          "title": "Wikipedia: Amazon Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "Amazon Air's contract operators and counts (as of January 2025)."
+        }
+      ],
+      "lastSeen": "2024-06-13",
+      "status": "photographed in Prime Air paint 2024-06-13 (Commons)",
+      "notes": "Not seen flying during the 2026-11-13 adsb.lol sample: the callsign is hexdb's operator flag."
+    },
+    {
+      "registration": "N643AZ",
+      "hex": "a87078",
+      "type": "B763",
+      "livery": "prime-air",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N643AZ_B767-300F%2C_Amazon_Prime_Air%2C_SeaTac_05-12-26_%2855320787938%29.jpg",
+          "title": "N643AZ B767-300F, Amazon Prime Air, SeaTac 05-12-26 (55320787938).jpg",
+          "accessed": "2026-11-13",
+          "note": "Commons photo, 2026-05-12: in Prime Air paint."
+        },
+        {
+          "url": "https://hexdb.io/api/v1/aircraft/a87078",
+          "title": "hexdb.io aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Registered owner/operator given as 'Prime Air', operator flag ATN (community data)."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Amazon_Air#Fleet",
+          "title": "Wikipedia: Amazon Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "Amazon Air's contract operators and counts (as of January 2025)."
+        }
+      ],
+      "lastSeen": "2026-05-12",
+      "status": "photographed in Prime Air paint 2026-05-12 (Commons)",
+      "notes": "Photo captions name ATI as operator. Not seen flying during the 2026-11-13 adsb.lol sample: the callsign is hexdb's operator flag."
+    },
+    {
+      "registration": "N419AZ",
+      "hex": "a4f5a7",
+      "type": "B763",
+      "livery": "prime-air",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://www.planespotters.net/photo/1704362/n419az-amazon-prime-air-boeing-767-319er-bdsf-wl?utm_source=api",
+          "title": "planespotters.net photo of N419AZ",
+          "accessed": "2026-11-21",
+          "note": "Photo shows Amazon Prime Air colors: white forward fuselage, 'Prime Air' title, dark tail with the smile; seen at Oakland on approach to runway 12."
+        }
+      ]
+    }
+  ]
+}

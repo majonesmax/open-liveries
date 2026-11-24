@@ -1,0 +1,389 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard-1984",
+  "airline": "KAL",
+  "name": "1984 livery (sky blue)",
+  "kind": "standard",
+  "from": "1984",
+  "description": "Pale sky blue above the window line, a silver band just under the windows, light silver-gray below. The red-and-blue taegeuk with its white 'propeller' stripe in a white ring large on the blue fin, 'KOREAN AIR' in bold navy capitals above the forward windows with the taegeuk as its O, 대한항공 small under the windows, the taegeuk again on the white engine cowls and the blue winglets.",
+  "confidence": "high",
+  "drawnOn": "B77W",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:20250504_Boeing_737-8BK(WL)_of_Korean_Air_(HL8240)_taxiing_at_CGO.jpg",
+      "title": "20250504 Boeing 737-8BK(WL) of Korean Air (HL8240) taxiing at CGO (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Right side, level, 2025-05-04: the blue/silver split and band, fin logo and flag, titles, Hangul title, engine and winglet logos."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:HL8008_-_Boeing_777-3B5(ER)_-_Korean_Air_(31831785938).jpg",
+      "title": "HL8008 - Boeing 777-3B5(ER) - Korean Air (CC BY 2.0)",
+      "accessed": "2026-11-13",
+      "note": "Left side, 2018-11-03 (colors heavily processed; geometry only): left-side title place, Hangul title under the cockpit, fin logo."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Korean_Air_Taegeuk.svg",
+      "title": "Korean Air Taegeuk (Commons)",
+      "accessed": "2026-11-13",
+      "note": "The 1984 symbol: red #E1251B and blue #002F87 in the file."
+    },
+    {
+      "url": "https://www.asiae.co.kr/en/article/2025031117024816144",
+      "title": "CI Changed After 41 Years (Asia Economy, 2025-03-11)",
+      "accessed": "2026-11-13",
+      "note": "The 1984 CI was replaced in March 2025."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Korean_Air_Boeing_777-3B5ER_HL8250_(55064341537).jpg",
+      "title": "Korean Air Boeing 777-3B5ER HL8250 (55064341537).jpg (CC BY-SA 4.0, Samson Ng)",
+      "accessed": "2026-11-15",
+      "note": "777-300ER HL8250 from the right, 2025-07-20 (in this scheme): the title and the Hangul title measured on the commonest type (2026-11-15 re-check)."
+    }
+  ],
+  "palette": {
+    "blue": {
+      "hex": "#9AD8F2",
+      "name": "sky blue",
+      "official": false
+    },
+    "silver": {
+      "hex": "#B5BEC3",
+      "name": "silver band",
+      "official": false
+    },
+    "lower": {
+      "hex": "#DCDCD8",
+      "name": "light silver-gray",
+      "official": false
+    },
+    "navy": {
+      "hex": "#14317F",
+      "official": false
+    },
+    "red": {
+      "hex": "#E1251B",
+      "official": false
+    },
+    "logoBlue": {
+      "hex": "#002F87",
+      "official": false
+    },
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "cowl": {
+      "hex": "#E6E8EA",
+      "official": false
+    },
+    "lip": {
+      "hex": "#BFC4C9",
+      "name": "bare metal inlet lip",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B7BCC2",
+      "official": false
+    },
+    "flagRed": {
+      "hex": "#CD2E3A",
+      "official": false
+    },
+    "flagBlue": {
+      "hex": "#0047A0",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "blue",
+    "areas": [
+      {
+        "name": "light silver-gray lower fuselage",
+        "color": "lower",
+        "below": [
+          [
+            0,
+            0.05
+          ],
+          [
+            1,
+            0.0
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "silver band under the windows",
+        "color": "silver",
+        "below": [
+          [
+            0,
+            0.05
+          ],
+          [
+            1,
+            0.0
+          ]
+        ],
+        "above": [
+          [
+            0,
+            -0.17
+          ],
+          [
+            1,
+            -0.2
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      }
+    ],
+    "radome": {
+      "color": "lower",
+      "to": 0.025
+    },
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "fin": {
+    "base": "blue",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "stabilizer": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "blue",
+    "inner": "blue",
+    "confidence": "medium",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "engines": {
+    "cowling": "cowl",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "logos": [
+    {
+      "mark": "KAL/taegeuk",
+      "place": "fin",
+      "at": [
+        0.42,
+        0.38
+      ],
+      "height": 0.36,
+      "colors": [
+        "red",
+        "white",
+        "logoBlue"
+      ],
+      "description": "The 1984 taegeuk: a circle split by an S-curve, red above and blue below, a white 'propeller' stripe running through the S between them, all inside a thin white ring.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Korean_Air_Taegeuk.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "KAL/taegeuk",
+      "place": "engines",
+      "at": [
+        0.45,
+        0.0
+      ],
+      "height": 0.25,
+      "colors": [
+        "red",
+        "white",
+        "logoBlue"
+      ],
+      "description": "The taegeuk small on the outboard cowl.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Korean_Air_Taegeuk.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "KAL/taegeuk",
+      "place": "winglets",
+      "at": [
+        0.5,
+        0.3
+      ],
+      "height": 0.2,
+      "colors": [
+        "red",
+        "white",
+        "logoBlue"
+      ],
+      "description": "The taegeuk on the outer face of the blue winglet, low down.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Korean_Air_Taegeuk.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ]
+    },
+    {
+      "mark": "KAL/kr-flag",
+      "place": "fin",
+      "at": [
+        0.5,
+        0.95
+      ],
+      "height": 0.05,
+      "colors": [
+        "white",
+        "flagRed",
+        "flagBlue",
+        "#111111"
+      ],
+      "description": "A small Taegukgi at the fin tip.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Korea.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "KAL/skyteam",
+      "place": "fuselage",
+      "at": [
+        0.07,
+        0.3
+      ],
+      "height": 0.12,
+      "colors": [
+        "navy"
+      ],
+      "description": "The small SkyTeam swirl and 'SKYTEAM' between the cockpit windows and door 1.",
+      "reference": "https://commons.wikimedia.org/wiki/Category:SkyTeam",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "KOREAN AIR",
+      "place": "fuselage",
+      "at": [
+        0.135,
+        0.29
+      ],
+      "height": 0.39,
+      "color": "navy",
+      "length": 0.205,
+      "style": "Bold navy capitals just above the forward windows, a slightly flared, wide letterform; the O is the red/blue taegeuk logo.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        4
+      ],
+      "type": {
+        "similar": [
+          "Optima ExtraBlack",
+          "Friz Quadrata Bold",
+          "Albertus"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "contrast",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "대한항공",
+      "place": "fuselage",
+      "at": [
+        0.045,
+        -0.25
+      ],
+      "height": 0.1,
+      "color": "navy",
+      "side": "left",
+      "style": "Small Hangul under the cockpit on the left side, bold sans.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "Noto Sans KR Bold",
+          "Apple SD Gothic Neo Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      },
+      "length": 0.032
+    },
+    {
+      "text": "대한항공",
+      "place": "fuselage",
+      "at": [
+        0.044,
+        -0.25
+      ],
+      "height": 0.1,
+      "color": "navy",
+      "side": "right",
+      "style": "Small Hangul under the cockpit, on the gray, as on the left side (on the 737 it sits further aft, under the start of the title).",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        4
+      ],
+      "type": {
+        "similar": [
+          "Noto Sans KR Bold",
+          "Apple SD Gothic Neo Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      },
+      "length": 0.032
+    }
+  ],
+  "notes": "Drawn from 737-800 HL8240 (2025-05-04, right side, colors) and 777-300ER HL8008 (2018-11-03, left side; that photo's colors are heavily processed, used for geometry only). Still worn by most of the fleet in late 2026 while the 2025 livery is applied at repaints (777-300ERs HL8008, HL8209, HL8275 already repainted by early 2026). Belly not seen squarely: the light gray is taken to wrap under. Title place differs by type (x 0.2 on the 737's right side, about 0.13 on the 777's left). Re-checked 2026-11-15 on the 777-300ER (the commonest type, HL8250 from the right): the title runs 0.132 to 0.337, and on the 777 the Hangul title sits under the cockpit on both sides (x 0.044, length 0.032); the 737's right side has it further aft, under the start of the title (x about 0.2).",
+  "history": "Introduced 1984 with Korean Air's rename from Korean Air Lines; superseded by the 2025 livery (standard) from March 2025, still flying on most of the fleet.",
+  "commonest": true
+}

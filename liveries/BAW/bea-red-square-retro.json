@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "bea-red-square-retro",
+  "airline": "BAW",
+  "name": "BEA 'Red Square' retro (BA100)",
+  "kind": "retro",
+  "confidence": "high",
+  "description": "Fuselage: White upper fuselage, light gray lower fuselage and belly. Cheatlines: A black band through the window line from the black nose anti-glare panel to the tail. Tail: White fin with a red square containing 'BEA' in white capitals; registration in black at the fin tip. Engines: Gray/silver. Winglets: Red wingtip fences. Titles: Small red 'BEA' squares on the forward and rear fuselage at window level; Union flag by the cockpit; 'British Airways' with Speedmarque and BA100 '1919-2019' logo on the aft fuselage. Artwork: none. Colors hex: approximate.",
+  "sources": [
+    {
+      "url": "https://airlinegeeks.com/2019/03/05/british-airways-adds-bea-to-retro-livery-line-up/",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://www.aerotime.aero/articles/british-airways-a319-bea-livery-returns",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:G-EUPJ_(aircraft)",
+      "accessed": "2026-11-12"
+    }
+  ],
+  "notes": "The only BA100 retro still flying.",
+  "from": "2019-03"
+}

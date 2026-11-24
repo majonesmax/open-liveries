@@ -1,0 +1,476 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "UCG",
+  "name": "Coast Guard white with the racing stripe",
+  "kind": "standard",
+  "from": "1967",
+  "confidence": "medium",
+  "drawnOn": "C30J",
+  "description": "Overall white with a black radome. The racing stripe across the forward fuselage behind the flight deck, leaning forward: a broad orange band, a narrow white gap and a thin blue stripe aft of it, from the crown down to the belly, the Coast Guard's emblem on the orange. The aircraft's number in black capitals below the cockpit windows, 'U.S. COAST GUARD' in black block capitals along the aft fuselage behind the wing. On the fin, under a white tip, an orange panel from near the leading edge back to the rudder, a white band with the national insignia in full color, and an orange band at the root; the rudder white, a black panel at the root of the leading edge. Measured on the HC-130J; the HC-144 and HC-27J wear the same scheme.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Juneau_USCG_C130_55.jpg",
+      "title": "USCG HC-130J 2002 at Juneau, 2019-08-19, right side (CC BY-SA 4.0)",
+      "accessed": "2026-11-22",
+      "note": "The measuring photo (only measurements are taken): flipped nose-left and fitted to shapes/C30J.json at the nose, tail cone, fin tip and the fuselage's height 5.9 m back (tools/photo_trace.py). The stripe's edges, the number and its place, the emblem, the visible 'U.S. COAST' and the fin's panels, band and insignia."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:260711-G-IC479-1055_U.S._Coast_Guard_flies_at_RIMPAC_2026.jpg",
+      "title": "USCG HC-130J 2011 over the Pacific during RIMPAC, 2026-07-11, left side (U.S. Coast Guard, public domain)",
+      "accessed": "2026-11-22",
+      "note": "The left side: the stripe leaning forward as on the right, the number below the cockpit, '...ST GUARD' ending aft about 21.2 m back (the measuring photo's 'U.S.' starts 21.9 m back on the right: a title starts at its aft end on the right side), the fin as on the right (white tip, orange panel to the rudder, white band and insignia, orange root band, white rudder, black leading-edge root)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:C-130_from_USCG_Air_Station_Barbers_Point_4.jpg",
+      "title": "USCG HC-130J 2009 at Air Station Barbers Point, 2023-08-09, right side (U.S. Coast Guard, public domain)",
+      "accessed": "2026-11-22",
+      "note": "A check: the same stripe, emblem, number, title ('U.S. COA...' aft of the nacelles) and fin, in sunlight (its orange #C03926 on the fin)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:HC-130J_USCG_Grand_Forks_AFB_2007.JPG",
+      "title": "USCG HC-130J 2005 at Grand Forks AFB, 2007-09-14, right front quarter (USAF, public domain)",
+      "accessed": "2026-11-22",
+      "note": "A check twelve years earlier: the same scheme, the orange in full sun (#FD6D4A on the stripe, #FF552A on the fin)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:2311_Casa_HC-144B_Ocean_Sentry_United_States_Coast_Guard_Opa_Locka_18.1.23_(52665543749).jpg",
+      "title": "USCG HC-144B 2311 (Air Station Miami) at Opa-locka, 2023-01-18, right side (Colin Cooke, CC BY-SA 2.0)",
+      "accessed": "2026-11-22",
+      "note": "The measuring photo (only measurements are taken): flipped nose-left and fitted to shapes/CN35.json at the nose, tail cone, the fin's top trailing corner and the fuselage's height 3 and 16.7 m back (tools/photo_trace.py; within 12 px, under 0.1 m). The stripe's edges (each fitted as a straight line in side view, within 0.4% of the length), the emblem, the number, 'U.S. COAST GUARD' and the fin's panels, band, boot and insignia."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Coast_Guard_HC-144_100,000_Flight_Hour_Ceremony_(3799829).jpg",
+      "title": "USCG HC-144 at Airbus Defence and Space, Mobile, 2017-09-22, left front quarter (U.S. Coast Guard, public domain)",
+      "accessed": "2026-11-22",
+      "note": "The left side: the stripe leaning forward as on the right, the emblem on the orange, the forward exit's outline on the stripe, the number under the cockpit, 'U.S. COAST GUARD' high on the aft fuselage ahead of the fin."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Destin_USCG_2315.jpg",
+      "title": "USCG HC-144 2315 over Destin, Florida, 2025-03-28, left side from below (Ivebeenhacked, CC BY-SA 4.0)",
+      "accessed": "2026-11-22",
+      "note": "A check two years on: the same stripe, number and title, the fin's orange panels with the white rudder; 'USCG' under the left wing; orange panels under the tailplane's outer forward chord (not drawn: see notes)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:HC-144A_Ocean_Sentry_(2).jpg",
+      "title": "USCG HC-144A 2303 in flight, 2007-10-11, from above on the left (U.S. Coast Guard, public domain)",
+      "accessed": "2026-11-22",
+      "note": "The first delivered scheme, from above: the same stripe, emblem, number and title; the rudder then orange with the fin (white since, on 2311 and 2315); the wings' upper surfaces white with a gray band along the forward chord and orange outer panels, 'USCG' on the right wing and the insignia on the left; orange bands on the tailplane."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F4F5F3"
+    },
+    "orange": {
+      "hex": "#E4572E",
+      "official": false,
+      "name": "Coast Guard orange (the racing stripe; sampled from the photos, #C03926 in shade to #FD6D4A in sun)"
+    },
+    "blue": {
+      "hex": "#2B5BA5",
+      "official": false,
+      "name": "Coast Guard blue (the thin stripe)"
+    },
+    "black": {
+      "hex": "#1C1C1C"
+    },
+    "wingGray": {
+      "hex": "#C9CDD0",
+      "official": false,
+      "name": "the wings' and tailplane's upper surfaces"
+    },
+    "insigniaBlue": {
+      "hex": "#1F2A5C",
+      "name": "the national insignia's blue"
+    },
+    "insigniaRed": {
+      "hex": "#B22234",
+      "name": "the national insignia's red"
+    },
+    "emblemBlue": {
+      "hex": "#1F3F7A",
+      "name": "the emblem's blue"
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "radome": {
+      "color": "black",
+      "to": 0.0393
+    },
+    "windows": "plain",
+    "areas": [
+      {
+        "name": "the radome's lower part: its joint slants down and back from the crown at the forehead (1.17 m) to 1.70 m back, then runs straight down to the belly",
+        "color": "black",
+        "points": [
+          [0.0389, 1.0],
+          [0.0393, 1.0],
+          [0.0422, 0.583],
+          [0.0452, 0.409],
+          [0.0482, 0.292],
+          [0.0511, 0.193],
+          [0.0541, 0.107],
+          [0.0571, 0.033],
+          [0.0571, -1.0],
+          [0.0389, -1.0]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [0, 2, 3]
+      },
+      {
+        "name": "the racing stripe's orange band, leaning forward from the crown to the belly",
+        "color": "orange",
+        "points": [
+          [0.1285, 1.0],
+          [0.2375, -1.0],
+          [0.3285, -1.0],
+          [0.2195, 1.0]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [0, 1]
+      },
+      {
+        "name": "the thin blue stripe aft of it, past a narrow white gap",
+        "color": "blue",
+        "points": [
+          [0.2305, 1.0],
+          [0.3395, -1.0],
+          [0.3485, -1.0],
+          [0.2395, 1.0]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [0, 1]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [0, 1, 2]
+  },
+  "fin": {
+    "base": "white",
+    "rudder": "white",
+    "areas": [
+      {
+        "name": "the orange panel under the white tip, from a white strip along the leading edge back to the rudder",
+        "color": "orange",
+        "points": [
+          [0.055, 0.375],
+          [0.749, 0.375],
+          [0.746, 0.94],
+          [0.129, 0.94],
+          [0.097, 0.8],
+          [0.071, 0.6]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [0, 1]
+      },
+      {
+        "name": "the orange band at the root, from the leading edge to the rudder",
+        "color": "orange",
+        "points": [
+          [0, 0],
+          [0.748, 0],
+          [0.751, 0.155],
+          [0, 0.155]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [0, 1]
+      },
+      {
+        "name": "the black panel at the leading edge's root",
+        "color": "black",
+        "points": [
+          [0, 0.11],
+          [0.19, 0.134],
+          [0.17, 0.222],
+          [0, 0.27]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [0, 1]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [0, 1, 2]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "white"
+  },
+  "stabilizer": {
+    "top": "wingGray",
+    "under": "white"
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "white",
+    "pylon": "white",
+    "confidence": "medium",
+    "sourceRefs": [0, 2]
+  },
+  "logos": [
+    {
+      "mark": "UCG/emblem",
+      "place": "fuselage",
+      "at": [0.2387, 0.015],
+      "height": 0.3,
+      "colors": ["white", "emblemBlue", "insigniaRed"],
+      "description": "The Coast Guard's emblem on the orange band: crossed anchors behind a ringed disc, the shield in it (our own simplified mark).",
+      "confidence": "medium",
+      "sourceRefs": [0, 1]
+    },
+    {
+      "mark": "UCG/star-and-bar",
+      "place": "fin",
+      "at": [0.385, 0.267],
+      "height": 0.2,
+      "colors": ["insigniaBlue", "white", "insigniaRed"],
+      "description": "The national insignia in full color on the fin's white band: a white star on a blue disc, white bars with a red stripe, outlined in blue.",
+      "confidence": "medium",
+      "sourceRefs": [0, 1]
+    }
+  ],
+  "titles": [
+    {
+      "text": "U.S. COAST GUARD",
+      "place": "fuselage",
+      "at": [0.49, 0.193],
+      "height": 0.15,
+      "length": 0.247,
+      "color": "black",
+      "style": "Black block capitals along the aft fuselage behind the wing, over the main gear's sponson.",
+      "confidence": "medium",
+      "sourceRefs": [0, 1],
+      "type": {
+        "similar": ["Helvetica Neue Bold", "Arial Bold"],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "2002",
+      "registration": true,
+      "place": "fuselage",
+      "at": [0.1059, -0.0756],
+      "height": 0.123,
+      "length": 0.049,
+      "color": "black",
+      "style": "The aircraft's own number (2002 in the measuring photo) in black capitals below the cockpit windows, ahead of the stripe; its air station's name in small capitals under it (not drawn).",
+      "confidence": "medium",
+      "sourceRefs": [0, 1],
+      "type": {
+        "similar": ["Helvetica Neue Bold", "Arial Bold"],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Measured off the Juneau photo of 2002 (right side, flipped) fitted to shapes/C30J.json: the orange band's forward edge from x 0.115 at the crown to 0.235 at the belly, its aft edge from 0.211 to 0.325, curving (steeper near the belly); the blue stripe 0.6-0.8% of the length wide, a gap of about the same ahead of it; the emblem centered 7.1 m back at the window line, 0.93 m tall; the number from 3.1 to 4.6 m back, its caps 0.35 m tall; 'U.S. COAST' running forward from 21.95 m back, 0.42 m caps, so the whole title (16 letters and spaces at that pitch) from about 14.6 m: the start under the wing is extrapolated (no photo shows it unhidden by the nacelles). The fin's panels by their heights (the orange panel from 0.375 to 0.94 of the fin's height, the white band from 0.155, the root band below), their aft edge the rudder's hinge as the shape places it (x 0.75), the white leading-edge strip about 0.25 m. The orange is sampled from the photos in shade and sun; the Coast Guard's aircraft stripe is often given as International Orange, not confirmed here. The number is the aircraft's own (`registration`): each airframe letters its own, which an app with the aircraft's registration draws in its place. The Coast Guard's HC-144 (CN-235) and HC-27J (C-27J) wear the same scheme, drawn on their own shapes when measured; its HC-130Hs (retired) and its helicopters are left out. The black radome (2026-11-22) as the photos show it, larger than the drawn C-130A's joint: from the crown at the forehead 1.17 m back, its joint slanting down and back to 1.70 m back just under the middle, then straight down to the belly (Juneau's photo puts it 1.75-1.84 m back, taken a little from ahead; Barbers Point's and Grand Forks' about 0.4 m ahead of the side window): `radome.to` up to the forehead, the rest an area.\nThe HC-144 (CN-235, types.CN35): The Coast Guard's white scheme on the HC-144 Ocean Sentry (CN-235-300 MP), as on the HC-130J (UCG/standard) with its own placement. Overall white, a small black radome cap. The racing stripe leaning forward across the forward fuselage just behind the flight deck: a broad orange band, a narrow white gap and a thin blue stripe aft of it, from the crown to the belly, the emblem on the orange at the window line. The aircraft's number in black below and behind the cockpit windows, ahead of the stripe (its air station's name in small capitals under it, not drawn); 'U.S. COAST GUARD' in black block capitals high on the aft fuselage, behind the wing and ahead of the fin. On the fin, behind a black leading-edge boot and a white strip: an orange panel from under a white tip down to a white band with the national insignia, and an orange panel below it to the root; the rudder white. Cabin windows not drawn (the HC-144 has two a side, the CN-235's transport row is plugged). Measured off the Opa-locka photo of 2311 (right side, flipped) fitted to shapes/CN35.json. Each of the stripe's four edges was traced at 9-14 heights and fitted as a straight line in side view (within 0.004 of the length), then given one common lean (0.093 of the length from crown to belly, as all four measure within 0.002): the orange band's forward edge from x 0.121 at the crown to 0.214 at the belly, 1.45 m wide; the white gap 0.14 m; the blue stripe 0.22 m. The radar radome under the forward fuselage hides the stripe's lowest part (carried to the belly). The emblem centered 4.34 m back at the window line, 0.62 m tall; the number from 2.17 to 3.05 m back, its caps 0.27 m; 'U.S. COAST GUARD' from 13.1 to 16.5 m back, its caps 0.27 m. On the fin (fin space): the black boot about 0.06 of the chord from 0.35 of the height to the tip, a white strip behind it; the upper orange panel from 0.505 to 0.95 of the height, its aft edge the rudder's hinge (0.60-0.66); the white band 0.35-0.505 with the insignia; the lower orange panel to the root, reaching the leading edge below 0.29; the white tip above 0.95; the rudder white. Against the HC-130J (UCG/standard): the stripe is further forward (just behind the cockpit, 2.6-6.4 m back against the C-130J's 3.8-9.8 m) and leans the same way; the number is ahead of the stripe under the cockpit on both; the title sits high on the aft fuselage ahead of the fin (on the C-130J, lower, over the sponson); the fin has no white rudder band but a white rudder throughout, a black boot the length of the leading edge, and no black root panel. Not drawn: the wings' orange outer panels and gray band on top, 'USCG' and the insignia on the wings (a scheme's wing marks aren't placed on top), the orange panels on the tailplane's outer forward chord (both faces), the red propeller warning line, the forward exit's and paratroop door's orange outlines, the radar radome's and FLIR turret's black, and 'HC-144B' with the number under the tailplane's leading edge. The HC-144A of 2007 had an orange rudder; 2311 (2023) and 2315 (2025) have it white, as drawn.",
+  "commonest": true,
+  "types": {
+    "CN35": {
+      "palette": {
+        "white": {
+          "hex": "#F4F5F3"
+        },
+        "orange": {
+          "hex": "#E4572E",
+          "official": false,
+          "name": "Coast Guard orange (the racing stripe; sampled from the photos, #C03926 in shade to #FD6D4A in sun)"
+        },
+        "blue": {
+          "hex": "#2B5BA5",
+          "official": false,
+          "name": "Coast Guard blue (the thin stripe)"
+        },
+        "black": {
+          "hex": "#1C1C1C"
+        },
+        "wingGray": {
+          "hex": "#C9CDD0",
+          "official": false,
+          "name": "the wings' and tailplane's upper surfaces"
+        },
+        "insigniaBlue": {
+          "hex": "#1F2A5C",
+          "name": "the national insignia's blue"
+        },
+        "insigniaRed": {
+          "hex": "#B22234",
+          "name": "the national insignia's red"
+        },
+        "emblemBlue": {
+          "hex": "#1F3F7A",
+          "name": "the emblem's blue"
+        }
+      },
+      "fuselage": {
+        "base": "white",
+        "radome": {
+          "color": "black",
+          "to": 0.006
+        },
+        "windows": "hidden",
+        "areas": [
+          {
+            "name": "the racing stripe's orange band, leaning forward from the crown to the belly",
+            "color": "orange",
+            "points": [
+              [0.1211, 1.0],
+              [0.2141, -1.0],
+              [0.2819, -1.0],
+              [0.1889, 1.0]
+            ],
+            "confidence": "medium",
+            "sourceRefs": [4, 5]
+          },
+          {
+            "name": "the thin blue stripe aft of it, past a narrow white gap",
+            "color": "blue",
+            "points": [
+              [0.1953, 1.0],
+              [0.2883, -1.0],
+              [0.2986, -1.0],
+              [0.2056, 1.0]
+            ],
+            "confidence": "medium",
+            "sourceRefs": [4, 5]
+          }
+        ],
+        "confidence": "medium",
+        "sourceRefs": [4, 5, 6]
+      },
+      "fin": {
+        "base": "white",
+        "rudder": "white",
+        "areas": [
+          {
+            "name": "the orange panel under the white tip, from the white strip behind the leading edge's boot back to the rudder",
+            "color": "orange",
+            "points": [
+              [0.25, 0.95],
+              [0.66, 0.95],
+              [0.6, 0.505],
+              [0.175, 0.505]
+            ],
+            "confidence": "medium",
+            "sourceRefs": [4, 6]
+          },
+          {
+            "name": "the orange panel under the insignia's white band, down to the root, reaching the leading edge low down",
+            "color": "orange",
+            "points": [
+              [0.0, 0.0],
+              [0.58, 0.0],
+              [0.59, 0.35],
+              [0.16, 0.35],
+              [0.155, 0.29],
+              [0.0, 0.29]
+            ],
+            "confidence": "medium",
+            "sourceRefs": [4, 6]
+          },
+          {
+            "name": "the black de-icing boot along the leading edge",
+            "color": "black",
+            "points": [
+              [0.0, 0.35],
+              [0.06, 0.35],
+              [0.06, 0.97],
+              [0.0, 0.97]
+            ],
+            "confidence": "medium",
+            "sourceRefs": [4]
+          }
+        ],
+        "confidence": "medium",
+        "sourceRefs": [4, 5, 6]
+      },
+      "stabilizer": {
+        "top": "white",
+        "under": "white"
+      },
+      "wings": {
+        "top": "wingGray",
+        "under": "white"
+      },
+      "engines": {
+        "cowling": "white",
+        "inletLip": "white",
+        "pylon": "white",
+        "confidence": "medium",
+        "sourceRefs": [4, 5]
+      },
+      "titles": [
+        {
+          "text": "U.S. COAST GUARD",
+          "place": "fuselage",
+          "at": [0.59, -0.024],
+          "height": 0.193,
+          "length": 0.162,
+          "color": "black",
+          "style": "Black block capitals high on the aft fuselage, behind the wing and ahead of the fin; level as seen from the side, its middle at the window line's height.",
+          "confidence": "medium",
+          "sourceRefs": [4, 5, 6],
+          "type": {
+            "similar": ["Helvetica Neue Bold", "Arial Bold"],
+            "weight": 700,
+            "slantDeg": 0,
+            "width": "normal",
+            "strokes": "uniform",
+            "case": "upper"
+          }
+        },
+        {
+          "text": "2311",
+          "registration": true,
+          "place": "fuselage",
+          "at": [0.1013, -0.177],
+          "height": 0.131,
+          "length": 0.0413,
+          "color": "black",
+          "style": "The aircraft's own number (2311 in the measuring photo) in black capitals below and behind the cockpit windows, ahead of the stripe; its air station's name in small capitals under it (not drawn).",
+          "confidence": "medium",
+          "sourceRefs": [4, 5],
+          "type": {
+            "similar": ["Helvetica Neue Bold", "Arial Bold"],
+            "weight": 700,
+            "slantDeg": 0,
+            "width": "normal",
+            "strokes": "uniform",
+            "case": "upper"
+          }
+        }
+      ],
+      "logos": [
+        {
+          "mark": "UCG/emblem",
+          "place": "fuselage",
+          "at": [0.203, -0.0065],
+          "height": 0.313,
+          "colors": ["white", "emblemBlue", "insigniaRed"],
+          "description": "The Coast Guard's emblem on the orange band at the window line: crossed anchors behind a ringed disc, the shield in it (our own simplified mark).",
+          "confidence": "medium",
+          "sourceRefs": [4, 5]
+        },
+        {
+          "mark": "UCG/star-and-bar",
+          "place": "fin",
+          "at": [0.31, 0.429],
+          "height": 0.13,
+          "colors": ["insigniaBlue", "white", "insigniaRed"],
+          "description": "The national insignia in full color on the fin's white band.",
+          "confidence": "medium",
+          "sourceRefs": [4, 6]
+        }
+      ]
+    }
+  }
+}

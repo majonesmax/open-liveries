@@ -1,0 +1,875 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "CSC",
+  "name": "Panda Route (A350 fleet)",
+  "kind": "standard",
+  "from": "2018",
+  "confidence": "medium",
+  "drawnOn": "A359",
+  "description": "Sichuan Airlines' A350-900s all wear the 'Panda Route' art scheme: a white forward fuselage with a big cartoon giant panda lying among broad leaves (blue, green, yellow, navy), a fan of pink, yellow, blue and green leaves under the titles, then a sweep from light orange through orange to red behind the wing, the red aft fuselage scattered with more leaves (yellow, blue, purple, green), small pandas and ribbons. Blue '四川航空' and 'SICHUAN AIRLINES' over the windows ahead of the wing, white 'PANDA ROUTE' aft. Red fin with Sichuan's white disc (a blue seagull over waves); red winglets; white engines. Drawn simplified: the big leaves and colour sweep as areas, the pandas as logo entries, small figures left out.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:B-32G6_at_CTU_T1_20260810145032.jpg",
+      "title": "B-32G6 at CTU T1 20260810145032.jpg (CC BY-SA 4.0, TurnOnTheNight)",
+      "accessed": "2026-11-20",
+      "note": "A350-900 B-32G6, right side, parked at Chengdu Tianfu, 2026-08-10. Flipped and fitted to shapes/A359.json (doors 1 and 4 pinned; ~20 px off at door 4 and the fin root, as the 787 fits were): the colour sweep, leaves, titles, fin disc."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:B-32G6@PEK_(20250608154417).jpg",
+      "title": "B-32G6@PEK (20250608154417).jpg (CC BY-SA 4.0, N509FZ)",
+      "accessed": "2026-11-20",
+      "note": "B-32G6, left side from below on approach to Beijing, 2025-06-08: the left side's art (same layout, panda posed differently), titles, red winglets; too foreshortened to fit (the fit was 25 px off at both doors)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:B-325J@PEK_(20240123140138).jpg",
+      "title": "B-325J@PEK (20240123140138).jpg (CC BY-SA 4.0, N509FZ)",
+      "accessed": "2026-11-20",
+      "note": "A350-900 B-325J (the LAX flight's aircraft on 2026-11-20, per ADS-B), left side banking on approach, 2024-01-23: the same scheme on the LAX airframe."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:Current_Airbus_A350-900_of_Sichuan_Airlines",
+      "title": "Category:Current Airbus A350-900 of Sichuan Airlines (Wikimedia Commons)",
+      "accessed": "2026-11-20",
+      "note": "All six A350-900s with photos (B-306N, B-325J, B-32AG, B-32F8, B-32G2, B-32G6, 2019-2026) wear this scheme."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F4F4F2",
+      "official": false
+    },
+    "peach": {
+      "hex": "#F9B275",
+      "name": "light orange",
+      "official": false
+    },
+    "orange": {
+      "hex": "#F47B20",
+      "official": false
+    },
+    "red": {
+      "hex": "#E2231A",
+      "official": false
+    },
+    "green": {
+      "hex": "#8CC63F",
+      "official": false
+    },
+    "yellow": {
+      "hex": "#F6C21C",
+      "official": false
+    },
+    "blue": {
+      "hex": "#2C9AD8",
+      "official": false
+    },
+    "navy": {
+      "hex": "#33409A",
+      "official": false
+    },
+    "pink": {
+      "hex": "#E87AA6",
+      "official": false
+    },
+    "purple": {
+      "hex": "#8E3E9E",
+      "official": false
+    },
+    "titleBlue": {
+      "hex": "#1F5AA6",
+      "name": "title blue",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C4C8CC",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "windows": "plain",
+    "areas": [
+      {
+        "name": "light orange: the white fades to orange behind the wing's root",
+        "color": "peach",
+        "points": [
+          [
+            0.46,
+            1.0
+          ],
+          [
+            0.54,
+            1.0
+          ],
+          [
+            0.54,
+            -1.0
+          ],
+          [
+            0.46,
+            -1.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "orange",
+        "color": "orange",
+        "points": [
+          [
+            0.54,
+            1.0
+          ],
+          [
+            0.605,
+            1.0
+          ],
+          [
+            0.605,
+            -1.0
+          ],
+          [
+            0.54,
+            -1.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "red aft fuselage to the tail",
+        "color": "red",
+        "points": [
+          [
+            0.605,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            0.605,
+            -1.0
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "name": "blue leaf by the forward door",
+        "color": "blue",
+        "points": [
+          [
+            0.098,
+            0.438
+          ],
+          [
+            0.124,
+            0.246
+          ],
+          [
+            0.131,
+            -0.337
+          ],
+          [
+            0.105,
+            -0.254
+          ]
+        ],
+        "smooth": true,
+        "confidence": "low",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "small green leaf behind it",
+        "color": "green",
+        "points": [
+          [
+            0.133,
+            0.53
+          ],
+          [
+            0.151,
+            0.256
+          ],
+          [
+            0.145,
+            -0.294
+          ],
+          [
+            0.131,
+            -0.154
+          ]
+        ],
+        "smooth": true,
+        "confidence": "low",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "long navy leaf under the big panda",
+        "color": "navy",
+        "points": [
+          [
+            0.077,
+            -0.286
+          ],
+          [
+            0.143,
+            -0.265
+          ],
+          [
+            0.164,
+            -0.606
+          ],
+          [
+            0.112,
+            -0.556
+          ]
+        ],
+        "smooth": true,
+        "confidence": "low",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "yellow leaf over the big panda",
+        "color": "yellow",
+        "points": [
+          [
+            0.228,
+            0.562
+          ],
+          [
+            0.239,
+            0.419
+          ],
+          [
+            0.24,
+            0.094
+          ],
+          [
+            0.23,
+            0.195
+          ]
+        ],
+        "smooth": true,
+        "confidence": "low",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "big green leaf aft of the big panda",
+        "color": "green",
+        "points": [
+          [
+            0.283,
+            0.288
+          ],
+          [
+            0.253,
+            -0.271
+          ],
+          [
+            0.217,
+            -0.791
+          ],
+          [
+            0.238,
+            -0.179
+          ]
+        ],
+        "smooth": true,
+        "confidence": "low",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "red leaf carrying a small panda, ahead of the wing",
+        "color": "red",
+        "points": [
+          [
+            0.266,
+            -0.478
+          ],
+          [
+            0.33,
+            -0.197
+          ],
+          [
+            0.351,
+            -0.291
+          ],
+          [
+            0.281,
+            -0.649
+          ]
+        ],
+        "smooth": true,
+        "confidence": "low",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "pink leaf of the fan under the titles",
+        "color": "pink",
+        "points": [
+          [
+            0.342,
+            0.532
+          ],
+          [
+            0.371,
+            0.297
+          ],
+          [
+            0.387,
+            -0.064
+          ],
+          [
+            0.36,
+            -0.035
+          ]
+        ],
+        "smooth": true,
+        "confidence": "low",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "yellow leaf of the fan",
+        "color": "yellow",
+        "points": [
+          [
+            0.392,
+            0.604
+          ],
+          [
+            0.396,
+            0.292
+          ],
+          [
+            0.397,
+            -0.066
+          ],
+          [
+            0.388,
+            0.042
+          ]
+        ],
+        "smooth": true,
+        "confidence": "low",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "blue leaf of the fan",
+        "color": "blue",
+        "points": [
+          [
+            0.405,
+            0.701
+          ],
+          [
+            0.429,
+            0.377
+          ],
+          [
+            0.422,
+            -0.071
+          ],
+          [
+            0.405,
+            0.039
+          ]
+        ],
+        "smooth": true,
+        "confidence": "low",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "long green leaf of the fan, reaching up to the crown at the wing",
+        "color": "green",
+        "points": [
+          [
+            0.408,
+            -0.068
+          ],
+          [
+            0.467,
+            0.469
+          ],
+          [
+            0.52,
+            0.858
+          ],
+          [
+            0.479,
+            0.19
+          ]
+        ],
+        "smooth": true,
+        "confidence": "low",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "aft yellow leaf behind the wing",
+        "color": "yellow",
+        "points": [
+          [
+            0.646,
+            0.09
+          ],
+          [
+            0.66,
+            -0.01
+          ],
+          [
+            0.669,
+            -0.381
+          ],
+          [
+            0.655,
+            -0.31
+          ]
+        ],
+        "smooth": true,
+        "confidence": "low",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "aft navy leaf behind the wing",
+        "color": "navy",
+        "points": [
+          [
+            0.605,
+            -0.182
+          ],
+          [
+            0.636,
+            -0.26
+          ],
+          [
+            0.666,
+            -0.596
+          ],
+          [
+            0.627,
+            -0.583
+          ]
+        ],
+        "smooth": true,
+        "confidence": "low",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "aft blue leaf by door 4",
+        "color": "blue",
+        "points": [
+          [
+            0.754,
+            -0.01
+          ],
+          [
+            0.746,
+            -0.291
+          ],
+          [
+            0.727,
+            -0.695
+          ],
+          [
+            0.738,
+            -0.279
+          ]
+        ],
+        "smooth": true,
+        "confidence": "low",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "aft green leaf behind door 4",
+        "color": "green",
+        "points": [
+          [
+            0.804,
+            0.354
+          ],
+          [
+            0.819,
+            0.123
+          ],
+          [
+            0.82,
+            -0.406
+          ],
+          [
+            0.804,
+            -0.159
+          ]
+        ],
+        "smooth": true,
+        "confidence": "low",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "aft yellow leaf low behind door 4",
+        "color": "yellow",
+        "points": [
+          [
+            0.754,
+            -0.235
+          ],
+          [
+            0.791,
+            -0.283
+          ],
+          [
+            0.813,
+            -0.75
+          ],
+          [
+            0.777,
+            -0.541
+          ]
+        ],
+        "smooth": true,
+        "confidence": "low",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "aft purple leaf toward the tail",
+        "color": "purple",
+        "points": [
+          [
+            0.825,
+            -0.332
+          ],
+          [
+            0.861,
+            -0.129
+          ],
+          [
+            0.889,
+            -0.316
+          ],
+          [
+            0.856,
+            -0.6
+          ]
+        ],
+        "smooth": true,
+        "confidence": "low",
+        "sourceRefs": [
+          0
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "fin": {
+    "base": "red",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "winglets": {
+    "outer": "red",
+    "inner": "red",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "titles": [
+    {
+      "text": "四川航空",
+      "place": "fuselage",
+      "at": [
+        0.318,
+        0.31
+      ],
+      "height": 0.23,
+      "length": 0.07,
+      "color": "titleBlue",
+      "style": "Sichuan Airlines' Chinese name in its brush-calligraphy lettering, blue, over the windows behind door 2, the small disc logo ahead of it.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "STXingkai",
+          "Ma Shan Zheng"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "SICHUAN AIRLINES",
+      "place": "fuselage",
+      "at": [
+        0.4,
+        0.355
+      ],
+      "height": 0.13,
+      "length": 0.116,
+      "color": "titleBlue",
+      "style": "Bold plain capitals in blue, after the Chinese name, over the windows up to the wing root (hidden by the wing from most left-side angles).",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Bold",
+          "Arial Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "PANDA",
+      "place": "fuselage",
+      "at": [
+        0.662,
+        0.37
+      ],
+      "height": 0.12,
+      "length": 0.038,
+      "color": "white",
+      "style": "Bold white capitals, the upper of two lines aft of the wing, beside the square '熊猫之路' seal.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Bold",
+          "Arial Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "ROUTE",
+      "place": "fuselage",
+      "at": [
+        0.662,
+        0.23
+      ],
+      "height": 0.12,
+      "length": 0.038,
+      "color": "white",
+      "style": "The lower line, the same capitals.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Bold",
+          "Arial Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "logos": [
+    {
+      "mark": "CSC/logo",
+      "place": "fin",
+      "at": [
+        0.49,
+        0.365
+      ],
+      "height": 0.42,
+      "colors": [
+        "white",
+        "blue"
+      ],
+      "description": "Sichuan Airlines' emblem: a white disc ringed in blue, a blue seagull flying over four blue wave bands that sweep up from the lower edge.",
+      "reference": "https://commons.wikimedia.org/wiki/File:B-32G6_at_CTU_T1_20260810145032.jpg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "CSC/logo",
+      "place": "fuselage",
+      "at": [
+        0.305,
+        0.42
+      ],
+      "height": 0.2,
+      "colors": [
+        "white",
+        "titleBlue"
+      ],
+      "description": "The emblem small, in blue, just ahead of the Chinese name.",
+      "confidence": "low",
+      "sourceRefs": [
+        0
+      ]
+    },
+    {
+      "mark": "CSC/logo",
+      "place": "winglets",
+      "at": [
+        0.5,
+        0.85
+      ],
+      "height": 0.2,
+      "colors": [
+        "white",
+        "blue"
+      ],
+      "description": "The emblem small near the red winglet's tip.",
+      "confidence": "low",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "CSC/panda",
+      "place": "fuselage",
+      "at": [
+        0.195,
+        -0.11
+      ],
+      "height": 1.2,
+      "colors": [
+        "white",
+        "#1E1E1E",
+        "#F2A7B5"
+      ],
+      "description": "The scheme's big cartoon giant panda, black and white with pink cheeks, lying among the forward leaves between door 1 and door 2 (posed differently on each side: lying on its side on the right, reclining with a raised paw on the left). Artwork not reproduced.",
+      "reference": "https://commons.wikimedia.org/wiki/File:B-32G6_at_CTU_T1_20260810145032.jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "CSC/panda-route-seal",
+      "place": "fuselage",
+      "side": "right",
+      "at": [
+        0.715,
+        0.34
+      ],
+      "height": 0.14,
+      "colors": [
+        "white",
+        "red"
+      ],
+      "description": "A small square white seal with '熊猫之路' (Panda Route) in red, aft of the PANDA ROUTE lines on the right side.",
+      "confidence": "low",
+      "sourceRefs": [
+        0
+      ]
+    },
+    {
+      "mark": "CSC/panda-route-seal",
+      "place": "fuselage",
+      "side": "left",
+      "at": [
+        0.645,
+        0.34
+      ],
+      "height": 0.14,
+      "colors": [
+        "white",
+        "red"
+      ],
+      "description": "The same seal ahead of the PANDA ROUTE lines on the left side.",
+      "confidence": "low",
+      "sourceRefs": [
+        1
+      ]
+    }
+  ],
+  "notes": "The Panda Route ('熊猫之路') scheme is on every Sichuan A350-900 photographed (2019-2026); the LAX service (CSC3837/3838, Chengdu Tianfu-LAX, weekly) is flown by these A350s (B-325J on 2026-11-20). Sichuan's A320s and A330s wear its ordinary white scheme with the red fin, not drawn here: no other type is seen at LAX. It's an art scheme drawn simplified: 19 fuselage areas (the white-to-red sweep in three steps at x 0.46/0.54/0.605, and 16 of the biggest leaves), the pandas as logo entries; the small pandas, ribbons, musical notes and the faint orange leaf aft of the wing are left out. Measured on B-32G6's right side (2026-08-10); the left side's art has the same layout (panda forward between doors 1 and 2, leaf fan under the titles, leaves behind the wing) but differs in detail, and couldn't be fitted from the 2025 photo (strong foreshortening): the areas are drawn on both sides from the right side's measure, and the left side's leaves are only roughly where they are drawn. The real sweep is a smooth gradient. The belly isn't seen.",
+  "history": "New in the LAX round 2 (2026-11-20); CSC had no scheme here before."
+}

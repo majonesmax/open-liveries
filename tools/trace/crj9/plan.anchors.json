@@ -1,0 +1,12 @@
+{
+  "_about": "Bombardier CRJ900 Airport Planning Manual (CSP C-020, Revision 11), 00-02-02 Figure 4 Aircraft Dimensions sheet 2: page index 38, layers.py --mode strokes --color 0,0,0 at scale 24, clip 100,130,520,400 (plan). Pixels of that raster, line centres; the upper half. The CRJ700 points moved by the two plugs (plug.py), then snapped; the wing and its tip re-placed here (the front view has the winglet leave the wing 11.50 m out, where the plan draws the leading edge turning into it).",
+  "fuselage.halfWidth": [[1061, 3086], [1094, 3041], [1195, 2972], [1345, 2894], [1496, 2849], [1697, 2804], [1898, 2777], [2401, 2777], [4438, 2774], [6792, 2774], [7093, 2778], [7395, 2795], [7696, 2842], [7898, 2880], [8099, 2924], [8300, 2970], [8501, 3007], "hidden", {"free": [8822, 3051]}],
+  "wing.leading": [[4664, 2774], [4709, 2723], [4840, 2502], [5242, 1788], [5561, 1256], [5794, 853], [5895, 683], [6000, 500], [6060, 430], [6100, 410], [6200, 370]],
+  "wing.trailing": [[5816, 2774], [5822, 2663], [5846, 2261], [5860, 2004], [5934, 1758], [6082, 1256], [6201, 853], [6275, 600], [6305, 500], [6350, 455], [6385, 420], [6390, 380]],
+  "stabilizer.leading": [[8580, 3005], [8607, 2964], [8742, 2763], [8943, 2462], [9078, 2261], [9145, 2160], [9204, 2120], [9305, 2102], [9405, 2097], [9442, 2100]],
+  "stabilizer.trailing": [[9145, 3045], [9170, 2964], [9234, 2763], [9330, 2462], [9393, 2261], [9420, 2160], [9442, 2105]],
+  "engine.outer": [[6993, 2378], [7194, 2377], [7345, 2380]],
+  "engine.inner": [[6993, 2728], [7194, 2731], [7345, 2733]],
+  "pylon.leading": [[7025, 2774], [7025, 2733]],
+  "pylon.trailing": [[7872, 2879], [7797, 2755], [7737, 2663]]
+}

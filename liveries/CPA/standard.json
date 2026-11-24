@@ -1,0 +1,243 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "CPA",
+  "name": "2015 livery",
+  "kind": "standard",
+  "from": "2015-11",
+  "confidence": "high",
+  "drawnOn": "A333",
+  "description": "White, with no cheatline: a dark Cathay green fin with a large white brushwing (a curved brush-stroke wing whose point faces forward) and a thin pale leading edge; 'CATHAY PACIFIC' in gray serif capitals over the forward windows and a small green brushwing under the cockpit. White engines, green sharklets with a pale leading edge.",
+  "sources": [
+    {
+      "url": "https://news.cathaypacific.com/new-era-begins-for-cathay-pacific-as-airline-unveils-changes-to-aircraft-livery-140099",
+      "accessed": "2026-11-13",
+      "note": "Cathay Pacific's own release on the livery unveiled in November 2015 (brushwing and name enlarged, name moved above the windows, all-green tail)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Cathay_Pacific_B-HPR_run_CX938(Hong_Kong_International_Airport_to_Wuhan_Tianhe_International_Airport)_24-09-2026(4).jpg",
+      "title": "Cathay Pacific B-HPR, A321neo, 2026-09-24 (CC BY-SA 4.0, LN9267)",
+      "accessed": "2026-11-13",
+      "note": "Left side, level: fin and brushwing, titles, nose brushwing, sharklet (measured)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Cathay_Pacific_B-LXI_run_CX766(Vietnam_Ho_Chi_Minh_City_Tan_Son_Nhat_International_Airport_to_Hong_Kong_International_Airport)_18-01-2026.jpg",
+      "title": "Cathay Pacific B-LXI, A350-1000, 2026-01-18 (CC BY-SA 4.0, LN9267)",
+      "accessed": "2026-11-13",
+      "note": "Right side: the brushwing points forward on this side too; same titles on the A350."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Cathay_Pacific_B-HPS_run_CX962(Hong_Kong_International_Airport_to_Hangzhou_Xiaoshan_International_Airport)_17-09-2025.jpg",
+      "title": "Cathay Pacific B-HPS, A321neo, 2025-09-17 (CC BY-SA 4.0, LN9267)",
+      "accessed": "2026-11-13",
+      "note": "From below and the left, climbing: the underside, engines and wings."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:B-LAD_-_Airbus_A330-342_-_Cathay_Pacific_SIN_220325.jpg",
+      "title": "B-LAD - Airbus A330-342 - Cathay Pacific SIN 220325.jpg (CC BY 2.0, kitmasterbloke)",
+      "accessed": "2026-11-15",
+      "note": "A330-300 B-LAD from the left and a little below, 2025-03-22 (uploaded 2025-04-23): the title and nose brushwing measured on the commonest type (2026-11-15 re-check)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:20251024_Airbus_A330-343_of_Cathay_Pacific_(B-LAM)_on_final_approach_at_HKG.jpg",
+      "title": "20251024 Airbus A330-343 of Cathay Pacific (B-LAM) on final approach at HKG.jpg (CC BY-SA 4.0, Windmemories)",
+      "accessed": "2026-11-15",
+      "note": "A330-300 B-LAM from the right, 2025-10-24: second check of the title (starts and ends at the same shares, baseline on the window tops)."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F4F5F4",
+      "official": false
+    },
+    "green": {
+      "hex": "#005D5A",
+      "name": "Cathay green",
+      "official": false
+    },
+    "titleGray": {
+      "hex": "#4E5A58",
+      "official": false
+    },
+    "edge": {
+      "hex": "#C9CFCF",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#BBC0C4",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "name": "bare metal inlet lip",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2,
+      3
+    ]
+  },
+  "fin": {
+    "base": "green",
+    "areas": [
+      {
+        "name": "pale leading edge",
+        "color": "edge",
+        "points": [
+          [
+            -0.05,
+            -0.05
+          ],
+          [
+            0.04,
+            -0.05
+          ],
+          [
+            0.04,
+            1.05
+          ],
+          [
+            -0.05,
+            1.05
+          ]
+        ]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2,
+      3
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "green",
+    "areas": [
+      {
+        "name": "pale leading edge",
+        "color": "edge",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0.28,
+            0
+          ],
+          [
+            0.28,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "pylon": "white",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      3
+    ]
+  },
+  "logos": [
+    {
+      "mark": "CPA/brushwing",
+      "place": "fin",
+      "at": [
+        0.473,
+        0.447
+      ],
+      "height": 0.875,
+      "colors": [
+        "white"
+      ],
+      "description": "The brushwing: a white calligraphic wing like a chevron pointing forward, its upper arm a long brush stroke curving up to a fine tip at the top near the trailing edge with ragged dry-brush edges, its lower arm short and straight back to a point at the fin's root by the trailing edge. Faces forward on both sides.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Cathay_Pacific_logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mark": "CPA/brushwing",
+      "place": "fuselage",
+      "at": [
+        0.064,
+        0.06
+      ],
+      "height": 0.527,
+      "colors": [
+        "green"
+      ],
+      "description": "A small green brushwing under the cockpit windows, ahead of the first door, pointing forward.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Cathay_Pacific_logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2,
+        4
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "CATHAY PACIFIC",
+      "place": "fuselage",
+      "at": [
+        0.133,
+        0.25
+      ],
+      "height": 0.23,
+      "length": 0.186,
+      "color": "titleGray",
+      "style": "Classical serif capitals, regular weight, slightly spaced, upright, its baseline on the window tops, from just aft of the first door.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "type": {
+        "similar": [
+          "Trajan Pro",
+          "Optima",
+          "Times New Roman"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "contrast",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Cathay's 2023 brand refresh (the group's master brand became 'Cathay', with a redrawn brushwing in its corporate identity) did not change the aircraft: 2025-2026 photos of new A321neos and A350s still show 'CATHAY PACIFIC' and this 2015 layout. Cathay's own description mentions a 'neat stripe of Cathay Pacific gray'; these photos show the lower fuselage only shading to gray, with no edge, so it isn't drawn: check against a clear photo of the belly. Not drawn: the registration and, in 2026, a small '80 years together' anniversary mark aft. A few airframes may still wear the pre-2015 scheme (gray belly, green and white cheatline, brushwing on a green fin with a white band); not checked. Measured on the A330-300 (the commonest type, 2026-11-15): on the A321neo and A350 the title is the same lettering, a little shorter as a share of the A350 and longer on the A321neo.",
+  "history": "Replaced Skyarium v1's approximation. Unveiled on a 777-300ER in November 2015, replacing the 1994 brushwing scheme's gray belly and cheatlines; the fleet was repainted over the following five years."
+}

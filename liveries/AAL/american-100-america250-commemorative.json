@@ -1,0 +1,585 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "american-100-america250-commemorative",
+  "airline": "AAL",
+  "name": "America250 decal",
+  "kind": "special",
+  "from": "2026",
+  "confidence": "medium",
+  "drawnOn": "A21N",
+  "description": "American's standard (2013) scheme with the America250 emblem added as a decal: a large '250' drawn as a looping red, white and blue ribbon across the windows aft of the wing (seen on the right side). Sources also mention 'American 100' markings, which no photo shows.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/American_Airlines",
+      "title": "Wikipedia: American Airlines (livery history)",
+      "accessed": "2026-11-13",
+      "note": "Introduction of the livery and Flight Symbol."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:American_Airbus_A321neo_N434AN_on_final_approach_to_Boston_December_2025.jpg",
+      "title": "American Airbus A321neo N434AN on final approach to Boston December 2025.jpg (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "N434AN left side, 2025-12-31: all geometry, titles, Flight Symbol, fin stripes."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:American_Airlines_Airbus_A321neo_N455AN_departing_Boston_March_2025_1.jpg",
+      "title": "American Airlines Airbus A321neo N455AN departing Boston March 2025 1.jpg (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "N455AN right side from below, 2025-03-11: the stripes wrap under the tail cone; the belly plain silver."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N434AN_(55091684685).jpg",
+      "title": "N434AN (55091684685).jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-15",
+      "note": "N434AN right side, 2026-02-11, near level: the title and Flight Symbol from the right, title height and baseline."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N991NN_@_DFW,_2019-10-23.jpg",
+      "title": "N991NN @ DFW, 2019-10-23.jpg (CC BY-SA 2.0)",
+      "accessed": "2026-11-15",
+      "note": "737-800 N991NN right side, 2019-10-23: the scheme checked on the measured 737-800 shape (tools/photo_trace.py, doors pinned)."
+    },
+    {
+      "url": "https://simpleflying.com/stars-stripes-america-liveries-flying/",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://sites.google.com/view/aafleetsite/speical-liveries",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N953NN.jpg",
+      "title": "N953NN.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-22",
+      "note": "N953NN right side from below and ahead, landing at Palm Springs, 2026-07-04: flipped nose-left and fitted to shapes/B738.json (doors, nose, tail, fin tip; within about 25 px, 0.7 m: a three-quarter view). The emblem's middle and height read off it."
+    }
+  ],
+  "palette": {
+    "silver": {
+      "hex": "#C6CBD3",
+      "official": false,
+      "name": "silver (mica) fuselage"
+    },
+    "red": {
+      "hex": "#E0303A",
+      "official": false
+    },
+    "blue": {
+      "hex": "#1866AE",
+      "official": false,
+      "name": "flag blue"
+    },
+    "lightBlue": {
+      "hex": "#7FB0E0",
+      "official": false,
+      "name": "light lines in the blue"
+    },
+    "white": {
+      "hex": "#E9ECEF",
+      "official": false,
+      "name": "stripe white"
+    },
+    "title": {
+      "hex": "#5F758D",
+      "official": false,
+      "name": "title slate grey: measured off N434AN on both sides (2025-12-31, 2026-02-11) as a share of the silver beside it in the same light, scaled to the palette's silver"
+    },
+    "symRed": {
+      "hex": "#C8213A",
+      "official": false,
+      "name": "Flight Symbol red"
+    },
+    "symBlue": {
+      "hex": "#3FA2DE",
+      "official": false,
+      "name": "Flight Symbol blue"
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false,
+      "name": "polished inlet lip"
+    },
+    "flagNavy": {
+      "hex": "#1F2A5C",
+      "official": false
+    }
+  },
+  "finish": "metallic",
+  "fuselage": {
+    "base": "silver",
+    "areas": [
+      {
+        "name": "stripes' white ground wrapping round the aft door",
+        "color": "white",
+        "points": [
+          [
+            0.836,
+            1
+          ],
+          [
+            0.792,
+            -0.29
+          ],
+          [
+            1,
+            -0.29
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "red stripe over the aft door",
+        "color": "red",
+        "points": [
+          [
+            0.83,
+            0.6
+          ],
+          [
+            0.818,
+            0.36
+          ],
+          [
+            1,
+            0.36
+          ],
+          [
+            1,
+            0.6
+          ]
+        ],
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "red stripe through the aft door",
+        "color": "red",
+        "points": [
+          [
+            0.812,
+            0.138
+          ],
+          [
+            0.8,
+            -0.135
+          ],
+          [
+            1,
+            -0.135
+          ],
+          [
+            1,
+            0.138
+          ]
+        ],
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "radome": {
+      "color": "silver"
+    },
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "rudder": "white",
+    "areas": [
+      {
+        "name": "red stripe (tip)",
+        "color": "red",
+        "points": [
+          [
+            0,
+            0.905
+          ],
+          [
+            1,
+            0.905
+          ],
+          [
+            1,
+            1.0
+          ],
+          [
+            0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "name": "red stripe",
+        "color": "red",
+        "points": [
+          [
+            0,
+            0.644
+          ],
+          [
+            1,
+            0.644
+          ],
+          [
+            1,
+            0.775
+          ],
+          [
+            0,
+            0.775
+          ]
+        ]
+      },
+      {
+        "name": "red stripe",
+        "color": "red",
+        "points": [
+          [
+            0,
+            0.383
+          ],
+          [
+            1,
+            0.383
+          ],
+          [
+            1,
+            0.514
+          ],
+          [
+            0,
+            0.514
+          ]
+        ]
+      },
+      {
+        "name": "red stripe",
+        "color": "red",
+        "points": [
+          [
+            0,
+            0.117
+          ],
+          [
+            1,
+            0.117
+          ],
+          [
+            1,
+            0.252
+          ],
+          [
+            0,
+            0.252
+          ]
+        ]
+      },
+      {
+        "name": "blue field (the flag's canton) along the leading edge",
+        "color": "blue",
+        "points": [
+          [
+            0,
+            0.12
+          ],
+          [
+            0.48,
+            0.12
+          ],
+          [
+            0.5,
+            1.0
+          ],
+          [
+            0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "name": "thin light line across the blue",
+        "color": "lightBlue",
+        "points": [
+          [
+            0,
+            0.238
+          ],
+          [
+            0.49,
+            0.238
+          ],
+          [
+            0.49,
+            0.262
+          ],
+          [
+            0,
+            0.262
+          ]
+        ],
+        "confidence": "low"
+      },
+      {
+        "name": "thin light line across the blue",
+        "color": "lightBlue",
+        "points": [
+          [
+            0,
+            0.368
+          ],
+          [
+            0.49,
+            0.368
+          ],
+          [
+            0.49,
+            0.392
+          ],
+          [
+            0,
+            0.392
+          ]
+        ],
+        "confidence": "low"
+      },
+      {
+        "name": "thin light line across the blue",
+        "color": "lightBlue",
+        "points": [
+          [
+            0,
+            0.503
+          ],
+          [
+            0.49,
+            0.503
+          ],
+          [
+            0.49,
+            0.527
+          ],
+          [
+            0,
+            0.527
+          ]
+        ],
+        "confidence": "low"
+      },
+      {
+        "name": "thin light line across the blue",
+        "color": "lightBlue",
+        "points": [
+          [
+            0,
+            0.633
+          ],
+          [
+            0.49,
+            0.633
+          ],
+          [
+            0.49,
+            0.657
+          ],
+          [
+            0,
+            0.657
+          ]
+        ],
+        "confidence": "low"
+      },
+      {
+        "name": "thin light line across the blue",
+        "color": "lightBlue",
+        "points": [
+          [
+            0,
+            0.763
+          ],
+          [
+            0.49,
+            0.763
+          ],
+          [
+            0.49,
+            0.787
+          ],
+          [
+            0,
+            0.787
+          ]
+        ],
+        "confidence": "low"
+      },
+      {
+        "name": "thin light line across the blue",
+        "color": "lightBlue",
+        "points": [
+          [
+            0,
+            0.888
+          ],
+          [
+            0.49,
+            0.888
+          ],
+          [
+            0.49,
+            0.912
+          ],
+          [
+            0,
+            0.912
+          ]
+        ],
+        "confidence": "low"
+      }
+    ],
+    "mirrored": true,
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "silver",
+    "inner": "silver",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "silver",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "AAL/flight-symbol",
+      "place": "fuselage",
+      "at": [
+        0.159,
+        0.29
+      ],
+      "height": 0.59,
+      "colors": [
+        "symRed",
+        "symBlue"
+      ],
+      "description": "The Flight Symbol ahead of 'American': a red lower wedge and a light-blue upper wedge, both slanting up and aft, split by a white cut (an abstract eagle's head / 'A'). Faces forward on both sides.",
+      "reference": "https://commons.wikimedia.org/wiki/File:American_Airlines_logo_2013.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mark": "AAL/us-flag",
+      "place": "fuselage",
+      "at": [
+        0.737,
+        0.031
+      ],
+      "height": 0.134,
+      "colors": [
+        "red",
+        "white",
+        "flagNavy"
+      ],
+      "description": "A small US flag ahead of the registration on the rear fuselage.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "AAL/america250",
+      "place": "fuselage",
+      "at": [
+        0.628,
+        0.14
+      ],
+      "height": 1.1,
+      "colors": [
+        "#D7263D",
+        "#2D4D9E",
+        "#FFFFFF"
+      ],
+      "description": "The America250 emblem: a large '250' drawn as a looping ribbon, red and blue outlines with white between, a small 'TM', across the windows aft of the wing; on the 737-800, centred about 23.9 m back.",
+      "side": "right",
+      "confidence": "medium",
+      "sourceRefs": [
+        7
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "American",
+      "place": "fuselage",
+      "at": [
+        0.181,
+        0.0
+      ],
+      "height": 0.48,
+      "color": "title",
+      "style": "The 2013 'American' wordmark: upright, semibold geometric-humanist sans, mixed case, slate blue-grey, a soft contrast with the silver, over the forward windows from just behind the Flight Symbol.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        3,
+        4
+      ],
+      "type": {
+        "similar": [
+          "Gotham Medium",
+          "Avenir Next Demi Bold"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "official": "American Sans"
+      },
+      "length": 0.202
+    }
+  ],
+  "notes": "The standard scheme's geometry as AAL/standard (drawn on the A321neo; see its notes), with the America250 emblem measured on N953NN, a 737-800, seen only from the right (the left side isn't in any open photo, so the emblem is given for the right side only). Its middle is about 0.63 of the 737-800's length, a shade lower than the window line, 1.1 tall (2 the fuselage's height): 'at' is that share, so on other types it lands about as far aft. Sources (Simple Flying, a fan fleet list) name N840NN too, with 'American 100' markings; no photo shows either. Previously described only (no drawing).",
+  "history": "Was a words-only entry (2026-11-12) pending a photo; drawn 2026-11-22 from N953NN.",
+  "commemorates": "The 250th anniversary of the United States (America250, 2026)."
+}

@@ -1,0 +1,123 @@
+{
+  "_about": "A330-200, from Airbus AC A330 (Dec 01/25) 2-2-0 General Aircraft Dimensions, A330-200 sheets 2 (post mod 48979; side, front: page index 62) and 3 (plan: page index 63). Pixels of layers.py --mode strokes-in-fill rasters, line centres: 80.775 px a meter (the sheet's own scale, from the printed 58.82 m between its extension lines): the side at scale 16 stretched lengthwise by 1.00971 (--xscale: the sheet draws the aircraft 1% short of that length, its height at that scale) and turned level (--rotate -0.556), the plan at 15.028 stretched by 1.0030 (its across scale from its printed figures), the front at 15.893. The A330-300's points moved onto these sheets and snapped (a332/*.anchors.json says how); the fin, taller than the -300's, is placed here. Scaled by the printed 58.82 m overall length from the nose to the tail cone. The windows behind the wing's lines and one behind a dimension line are placed at the drawing's pitch; door 3 is drawn only above the wing: its height is the A330-300's. After build.py, the tail cone's last 2 m (crown from 56.8 m, belly from 58.1 m) are the A330-300's shape file's, moved by the 4.85 m shorter fuselage: the tailplane is traced into this sheet's (docs/SHAPES.md); and the winglet is the A330-300's, moved onto this wing's tip (this sheet's own winglet trace crosses itself), the wing's last height the A330-300's tip's; then smooth.py.",
+  "out": "../../../../shapes/A332.json",
+  "length": 58.82,
+  "wingtip": "winglet",
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "refs": {
+    "side": {
+      "nose": 363.0,
+      "tail": 5114.2,
+      "cowlEnd": 2415,
+      "windowRow": [1099, 1161],
+      "windowBand": [1113, 1157],
+      "windowGap": 5,
+      "windowsAlso": [
+        1337.4, 2766.6, 2810.0, 2853.4, 2896.9, 2940.3, 3070.5, 3113.9, 3157.4, 3200.8, 3244.2, 3287.6, 3331.0, 3374.5,
+        3417.9
+      ]
+    },
+    "plan": {
+      "nose": 385.0,
+      "centerline": 2653.3
+    },
+    "front": {
+      "centerline": 2639.9,
+      "crownTop": 445.3
+    }
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [791, 1064, 889, 1217]
+    },
+    {
+      "kind": "door",
+      "box": [1493, 1067, 1589, 1217]
+    },
+    {
+      "kind": "exit",
+      "box": [2961, 1070, 3056, 1190]
+    },
+    {
+      "kind": "door",
+      "box": [4026, 1050, 4121, 1201]
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [462, 1129],
+      [467, 1124],
+      [490, 1104],
+      [496, 1099],
+      [518, 1099],
+      [519, 1101],
+      [518, 1103],
+      [512, 1114],
+      [503, 1127],
+      [501, 1129],
+      [499, 1130],
+      [477, 1131],
+      [464, 1131]
+    ],
+    [
+      [562, 1102],
+      [562, 1135],
+      [559, 1138],
+      [549, 1138],
+      [529, 1137],
+      [525, 1136],
+      [522, 1135],
+      [520, 1133],
+      [519, 1129],
+      [519, 1126],
+      [521, 1121],
+      [529, 1110],
+      [535, 1102],
+      [537, 1100],
+      [539, 1099],
+      [548, 1099],
+      [560, 1100]
+    ],
+    [
+      [575, 1136],
+      [575, 1100],
+      [577, 1098],
+      [603, 1098],
+      [605, 1099],
+      [608, 1102],
+      [617, 1114],
+      [618, 1116],
+      [618, 1135],
+      [616, 1137],
+      [614, 1138],
+      [577, 1138]
+    ]
+  ],
+  "printed": {
+    "fuselage height": 5.64,
+    "fuselage width": 5.64,
+    "wingspan": 60.3,
+    "tailplane span": 19.4,
+    "engine out from the centerline": 9.37
+  },
+  "meta": {
+    "id": "A332",
+    "name": "Airbus A330-200",
+    "types": ["A332"],
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://www.aircraft.airbus.com/sites/default/files/2025-12/AC_A330_20251201.pdf",
+        "title": "Airbus, A330 Aircraft Characteristics: Airport and Maintenance Planning (Dec 01/25), 2-2-0 General Aircraft Dimensions, A330-200 sheets 2 (post mod 48979) and 3",
+        "accessed": "2026-11-15",
+        "note": "Dimensions and outlines read off the side, plan and front views (tools/trace/a332/), starting from the A330-300's points moved by the shorter fuselage; the figures are the aircraft's measurements, not a copy of the drawing. The sheet draws the aircraft 1% shorter than the printed 58.82 m between its own extension lines, at their scale across: the side and plan are stretched lengthwise to them, so the length and the printed 5.64 m height share one scale (scaled by the length alone, the height read 1.1% tall). The side view is turned level from the sheet's ground attitude (0.56\u00b0). Engine out from the centerline: half the printed 18.74 m between the engines. The cockpit panes are the A330-300's (the same nose)."
+      }
+    ]
+  }
+}

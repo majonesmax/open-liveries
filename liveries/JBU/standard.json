@@ -1,0 +1,358 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "JBU",
+  "name": "Blue/Blue Belly (2014 refresh)",
+  "kind": "standard",
+  "from": "2014",
+  "confidence": "high",
+  "drawnOn": "A320",
+  "description": "White fuselage with a navy belly from the nose to behind the wing; 'jetBlue' in large navy lower case over the forward windows; navy engines with 'jetblue.com' in white; the fin carries one of JetBlue's tail designs (Bubbles, Mosaic, Dots, Harbor, Highrise, Pinstripes and others, in shades of blue) with 'jetBlue' in white on it.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/JetBlue#Livery",
+      "title": "Wikipedia: JetBlue livery",
+      "accessed": "2026-11-13",
+      "note": "The 2014 'blue belly' refresh and the family of tail designs."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:JetBlue_Airways_Airbus_A321neo_N2017J_on_final_approach_to_Boston_December_2025.jpg",
+      "title": "JetBlue Airways Airbus A321neo N2017J on final approach to Boston December 2025.jpg (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "N2017J left side, 2025-12-31: geometry, titles, belly, engine, fin (Bubbles design)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:JetBlue_Airways_Airbus_A321neo_N4064J_departing_Boston_August_2025.jpg",
+      "title": "JetBlue Airways Airbus A321neo N4064J departing Boston August 2025.jpg (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "N4064J from below, 2025-08-23: the navy belly seen from under."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:JetBlue_N627JB_Airbus_A320_ATL1022.jpg",
+      "title": "JetBlue N627JB Airbus A320 ATL1022.jpg (CC BY-SA 2.0)",
+      "accessed": "2026-11-15",
+      "note": "A320 N627JB right side at dusk, 2022-10-24, three-quarter view: the title's place behind the forward door and the fin title's size and place on the A320's fin."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#EEF0F3",
+      "official": false
+    },
+    "navy": {
+      "hex": "#14275A",
+      "official": false,
+      "name": "jetBlue navy"
+    },
+    "finBlue": {
+      "hex": "#2E86C8",
+      "official": false,
+      "name": "tail mid blue"
+    },
+    "lightBlue": {
+      "hex": "#6FC0EA",
+      "official": false,
+      "name": "tail light blue"
+    },
+    "finNavy": {
+      "hex": "#1F3B75",
+      "official": false,
+      "name": "tail dark blue"
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false,
+      "name": "polished inlet lip"
+    },
+    "flagRed": {
+      "hex": "#B22234",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "navy belly from the nose to behind the wing",
+        "color": "navy",
+        "points": [
+          [
+            0.012,
+            -0.55
+          ],
+          [
+            0.06,
+            -0.5
+          ],
+          [
+            0.3,
+            -0.48
+          ],
+          [
+            0.55,
+            -0.5
+          ],
+          [
+            0.66,
+            -0.62
+          ],
+          [
+            0.78,
+            -0.85
+          ],
+          [
+            0.82,
+            -1
+          ],
+          [
+            0.0,
+            -1
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2
+        ]
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "finBlue",
+    "areas": [
+      {
+        "name": "tail design: dark-blue shapes in the upper aft fin (Bubbles shown; the pattern varies by aircraft)",
+        "color": "finNavy",
+        "points": [
+          [
+            0.3,
+            1.0
+          ],
+          [
+            1,
+            1.0
+          ],
+          [
+            1,
+            0.55
+          ],
+          [
+            0.6,
+            0.7
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "tail design: light-blue shapes low on the fin (pattern varies)",
+        "color": "lightBlue",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0.8,
+            0
+          ],
+          [
+            0.75,
+            0.25
+          ],
+          [
+            0.3,
+            0.3
+          ],
+          [
+            0,
+            0.2
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "navy",
+    "inner": "navy",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "navy",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "JBU/tail-design",
+      "place": "fin",
+      "at": [
+        0.5,
+        0.5
+      ],
+      "height": 1.0,
+      "colors": [
+        "finBlue",
+        "lightBlue",
+        "finNavy"
+      ],
+      "description": "One of JetBlue's tail designs filling the fin: overlapping discs (Bubbles), squares (Mosaic), dots, stripes or skylines, in light, mid and dark blues. Each aircraft carries one; the fin title is the same on all.",
+      "reference": "https://commons.wikimedia.org/wiki/Category:JetBlue_tail_designs",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "JBU/us-flag",
+      "place": "fuselage",
+      "at": [
+        0.724,
+        0.315
+      ],
+      "height": 0.138,
+      "colors": [
+        "flagRed",
+        "white",
+        "navy"
+      ],
+      "description": "A small US flag ahead of the registration over the rear windows.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "jetBlue",
+      "place": "fuselage",
+      "at": [
+        0.174,
+        0.0
+      ],
+      "height": 0.76,
+      "color": "navy",
+      "style": "The jetBlue wordmark: heavy rounded geometric sans, lower case with a capital B, navy, over the forward windows behind the door; a small ® after it.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Gotham Rounded Bold",
+          "VAG Rounded Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.76
+      },
+      "length": 0.182
+    },
+    {
+      "text": "jetBlue",
+      "place": "fin",
+      "at": [
+        0.31,
+        0.18
+      ],
+      "height": 0.16,
+      "color": "white",
+      "style": "The wordmark in white across the middle of the fin.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Gotham Rounded Bold",
+          "VAG Rounded Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.76
+      },
+      "length": 0.53
+    },
+    {
+      "text": "jetblue.com",
+      "place": "engines",
+      "at": [
+        0.43,
+        0.0
+      ],
+      "height": 0.25,
+      "color": "white",
+      "style": "Bold rounded lower case along the cowling's side.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Gotham Rounded Bold",
+          "VAG Rounded Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "length": 0.36
+    }
+  ],
+  "notes": "Drawn from the A321neo N2017J (Dec 2025). The fin is the airline's family of tail designs: the areas give only a rough idea of the Bubbles design seen on this aircraft. Each aircraft also has a name ('Crème Bluelée' here) under the cockpit, not drawn. Re-checked 2026-11-15 for the A320 (JetBlue's commonest type): the title measured on N2017J in metres (starts 1.5 m behind the forward door's middle, 6.8 m long, cap height 1.57 m, its baseline about 0.47 m under the windows' bottom; lowercase 0.76 of the capitals) and placed on the A320's outline, checked against N627JB (A320); 'jetblue.com' on the A320's nacelle runs x 0.43-0.79 (N627JB, N615JB; on the A321neo's it is further forward, 0.14-0.64). The fin title is larger than first drawn: baseline at 0.18 of the fin, cap 0.16, x 0.31-0.84 of the chord on both types. On the A321 the title covers a smaller share (x 0.137-0.290).",
+  "history": "Replaces Skyarium v1's approximate standard (a few colors from memory). The 2014 refresh added the navy belly and 'jetblue.com' engines to the 2000 white-and-blue tail design scheme."
+}

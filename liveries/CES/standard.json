@@ -1,0 +1,249 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "CES",
+  "name": "2014 swallow livery",
+  "kind": "standard",
+  "from": "2014",
+  "description": "All white, with no cheatline. A big swallow on the white fin: a red chevron-like upper wing and a blue crescent below it, flying forward on both sides. '中國東方航空' in red and 'CHINA EASTERN' in blue over the forward windows; the swallow again, small, on the winglets; a gray SkyTeam badge ahead of the first door.",
+  "confidence": "high",
+  "drawnOn": "A320",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:(CHN-Shanghai)_China_Eastern_Airlines_Airbus_A350-941_B-307Y_@_ZSPD_2025-12-23.jpg",
+      "title": "China Eastern Airlines Airbus A350-941 B-307Y @ ZSPD 2025-12-23 (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Left side, 2025-12-23: titles, the swallow on the fin, the SkyTeam badge, winglet."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:China_Eastern_Airlines_(B-32DJ)_Airbus_A350-941_taxiing_at_Sydney_Airport.jpg",
+      "title": "China Eastern Airlines (B-32DJ) Airbus A350-941 taxiing at Sydney Airport (CC BY-SA 3.0 AU)",
+      "accessed": "2026-11-13",
+      "note": "Right side, 2024-05-05: the swallow faces forward on the right too; titles' order on the right."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:(CHN-Fujian)_China_Eastern_Airlines_Airbus_A321-251NX_B-32KD_@_ZSAM_2025-03-21.jpg",
+      "title": "China Eastern Airlines Airbus A321-251NX B-32KD @ ZSAM 2025-03-21 (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Narrow-body, 2025-03-21: the same layout."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:China_Eastern_Airlines_Comac_C919_B-919H_on_final_approach_to_Shanghai_Hongqiao_June_2025.jpg",
+      "title": "China Eastern Airlines Comac C919 B-919H on final approach to Shanghai Hongqiao June 2025 (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "From below, 2025-06: white belly, gray wing undersides."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/China_Eastern_Airlines",
+      "accessed": "2026-11-13",
+      "note": "The swallow logo and all-white scheme introduced in 2014."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:(CHN-Shanghai)_China_Eastern_Airlines_Airbus_A320-251N_B-302G_@_ZSPD_2025-12-23.jpg",
+      "title": "(CHN-Shanghai) China Eastern Airlines Airbus A320-251N B-302G @ ZSPD 2025-12-23.jpg (CC BY 4.0, S5A-0043)",
+      "accessed": "2026-11-15",
+      "note": "A320neo B-302G from the left, level, 2025-12-23: both titles measured on the commonest type (2026-11-15 re-check), placed by the doors and overwing exits and the window line."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F6",
+      "official": false
+    },
+    "red": {
+      "hex": "#E2231A",
+      "official": false
+    },
+    "blue": {
+      "hex": "#22378F",
+      "official": false
+    },
+    "navy": {
+      "hex": "#1F2F7A",
+      "official": false
+    },
+    "badge": {
+      "hex": "#5A5F66",
+      "official": false
+    },
+    "cowl": {
+      "hex": "#E6E8EB",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [],
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "mirrored": true,
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "wings": {
+    "top": "#BCC1C7",
+    "under": "#C9CDD2",
+    "confidence": "medium",
+    "sourceRefs": [
+      3
+    ]
+  },
+  "winglets": {
+    "outer": "white",
+    "inner": "white",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "cowl",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "CES/swallow",
+      "place": "fin",
+      "at": [
+        0.47,
+        0.39
+      ],
+      "height": 0.49,
+      "colors": [
+        "red",
+        "blue"
+      ],
+      "description": "The swallow: a thick red stroke sweeping from a point at the top-aft corner forward and down into a sharp chevron with a small step at its forward point (the head and upper wing), and under it a slim blue crescent swooping forward to a point (the lower wing and tail). It flies toward the nose on both sides.",
+      "reference": "https://commons.wikimedia.org/wiki/File:China_Eastern_Airlines_logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "CES/swallow",
+      "place": "winglets",
+      "at": [
+        0.45,
+        0.65
+      ],
+      "height": 0.22,
+      "colors": [
+        "red",
+        "blue"
+      ],
+      "description": "The swallow, small, near the winglet's tip.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "CES/skyteam",
+      "place": "fuselage",
+      "at": [
+        0.097,
+        0.1
+      ],
+      "height": 0.22,
+      "colors": [
+        "badge"
+      ],
+      "description": "The SkyTeam badge: a small gray roundel of swirling lines with 'SKYTEAM' round its top, just ahead of the first door.",
+      "reference": "https://commons.wikimedia.org/wiki/File:SkyTeam_Logo_2010.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "中國東方航空",
+      "place": "fuselage",
+      "at": [
+        0.161,
+        0.376
+      ],
+      "height": 0.185,
+      "length": 0.111,
+      "color": "red",
+      "style": "Traditional characters in a bold sans (hei), tightly set, over the forward windows ahead of the English. On the right side they still run from the nose aft, so they read right to left as seen.",
+      "type": {
+        "similar": [
+          "Noto Sans TC Bold",
+          "PingFang TC Semibold",
+          "Microsoft JhengHei Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform"
+      },
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "text": "CHINA EASTERN",
+      "place": "fuselage",
+      "at": [
+        0.283,
+        0.376
+      ],
+      "height": 0.16,
+      "length": 0.146,
+      "color": "navy",
+      "style": "Bold grotesque capitals, upright, a little wide.",
+      "type": {
+        "similar": [
+          "Helvetica Neue Bold",
+          "Arial Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2,
+        5
+      ]
+    }
+  ],
+  "notes": "Measured on the A350 (B-307Y, left side); the A320 family, 737, 777, A330 and C919 carry the same layout. A small 'AIRBUS A350-900' type name sits aft above the windows, not drawn. Colors by eye. Re-checked 2026-11-15 on the A320 family (the commonest type; A320neo B-302G, drawnOn A320, the same fuselage): the Chinese name runs 0.161 to 0.272 and CHINA EASTERN 0.283 to 0.428, their baselines a little above the window tops (on the A350 they sat at 0.148 and 0.337).",
+  "history": "Replaces Skyarium v1's approximation. Introduced with the new swallow logo in 2014, replacing the blue-and-red cheatline scheme with the swallow in a circle on the fin; that older scheme no longer flies in the main fleet as far as recent photos show."
+}

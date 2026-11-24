@@ -1,0 +1,94 @@
+{
+ "$schema": "../schema/airframes.schema.json",
+ "airline": "MPH",
+ "airframes": [
+  {
+   "registration": "PH-MPS",
+   "hex": "4844ef",
+   "hexSource": "hexdb.io (747 412BCF, Martinair Holland, MPH); not checked against the Dutch register",
+   "type": "B744",
+   "livery": "standard",
+   "lastSeen": "2026-03-16",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://commons.wikimedia.org/wiki/File:Martinair_Cargo_PH-MPS_run_MP9472(Hong_Kong_International_Airport_to_Kazakhstan_Almaty_International_Airport)_16-03-2026(8).jpg",
+     "title": "Commons: Martinair Cargo PH-MPS at Hong Kong, 2026-03-16 (LN9267)",
+     "accessed": "2026-11-20"
+    },
+    {
+     "url": "https://commons.wikimedia.org/wiki/File:Martinair_Cargo_Boeing_747-400BCF_PH-MPS_landing_at_Schiphol.jpg",
+     "title": "Commons: PH-MPS landing at Schiphol, 2023-06-02 (Mees Jansen)",
+     "accessed": "2026-11-20"
+    }
+   ],
+   "notes": "747-412(BCF), the one Martinair 747 in Martinair Cargo colours."
+  },
+  {
+   "registration": "PH-CKA",
+   "hex": "4841c3",
+   "hexSource": "adsb.lol (MPH8342, 2026-11-20) and hexdb.io (Martinair Holland, MPH)",
+   "type": "B744",
+   "livery": "klm-cargo",
+   "lastSeen": "2026-06-06",
+   "confidence": "medium",
+   "sources": [
+    {
+     "url": "https://commons.wikimedia.org/wiki/File:KLM_Cargo_PH-CKA_run_MP9452(Hong_Kong_International_Airport_to_United_Arab_Emirates_Dubai_Al_Maktoum_International_Airport)_06-06-2026(1).jpg",
+     "title": "Commons: KLM Cargo PH-CKA at Hong Kong, 2026-06-06 (LN9267)",
+     "accessed": "2026-11-20"
+    },
+    {
+     "url": "https://commons.wikimedia.org/wiki/Category:PH-CKA_(aircraft)",
+     "title": "Commons: PH-CKA (aircraft)",
+     "accessed": "2026-11-20"
+    }
+   ],
+   "notes": "747-406ERF flown by Martinair (MP flight numbers, MPH callsign) in KLM Cargo paint. Its fin 'CARGO' is blue, not gray."
+  },
+  {
+   "registration": "PH-CKB",
+   "hex": "4841c4",
+   "hexSource": "adsb.lol (MPH6142, 2026-11-20) and hexdb.io (Martinair Holland, MPH)",
+   "type": "B744",
+   "livery": "klm-cargo",
+   "lastSeen": "2026-09-12",
+   "confidence": "medium",
+   "sources": [
+    {
+     "url": "https://commons.wikimedia.org/wiki/File:KLM_Cargo_PH-CKB_prepare_to_run_MP9452(Hong_Kong_International_Airport_to_Azerbaijan_Baku_Heydar_Aliyev_International_Airport)_12-09-2026.jpg",
+     "title": "Commons: KLM Cargo PH-CKB at Hong Kong, 2026-09-12 (LN9267)",
+     "accessed": "2026-11-20"
+    },
+    {
+     "url": "https://commons.wikimedia.org/wiki/Category:PH-CKB_(aircraft)",
+     "title": "Commons: PH-CKB (aircraft)",
+     "accessed": "2026-11-20"
+    }
+   ],
+   "notes": "747-406ERF flown by Martinair (MP flight numbers, MPH callsign) in KLM Cargo paint."
+  },
+  {
+   "registration": "PH-CKC",
+   "hex": "4841c5",
+   "hexSource": "hexdb.io (747 406ERF, Martinair Holland, MPH); not seen airborne this session",
+   "type": "B744",
+   "livery": "klm-cargo",
+   "lastSeen": "2026-08-01",
+   "confidence": "medium",
+   "sources": [
+    {
+     "url": "https://commons.wikimedia.org/wiki/File:Boeing_747-400ERF_KLM_Cargo_-_PH-CKC_taking_off_from_Schiphol.jpg",
+     "title": "Commons: PH-CKC taking off from Schiphol, 2026-08-01 (Mees Jansen)",
+     "accessed": "2026-11-20"
+    },
+    {
+     "url": "https://commons.wikimedia.org/wiki/Category:PH-CKC_(aircraft)",
+     "title": "Commons: PH-CKC (aircraft)",
+     "accessed": "2026-11-20"
+    }
+   ],
+   "notes": "747-406ERF flown by Martinair (MP flight numbers, MPH callsign) in KLM Cargo paint."
+  }
+ ]
+}

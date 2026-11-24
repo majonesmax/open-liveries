@@ -1,0 +1,730 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "herman",
+  "airline": "RC1979",
+  "name": "Herman (1979–84)",
+  "kind": "standard",
+  "from": "1979",
+  "to": "1984-10",
+  "confidence": "medium",
+  "drawnOn": "MD82",
+  "description": "Republic's first scheme: white, a broad light-blue band under the windows edged in navy below, a thinner light-blue band above the windows, both sweeping up and forward in a point behind the cockpit. 'REPUBLIC' in spaced navy capitals in a gap in the upper band. On the white fin, Herman: a navy ring with a flying duck across it, its long neck reaching forward and a wing raised behind. A navy and light-blue band runs up the fin's trailing edge. Worn by its DC-9s, MD-80s, 727s and Convair 580s until the 1984 'Republic' wordmark scheme.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:McDonnell_Douglas_DC-9-32,_Republic_Airlines_JP6652128.jpg",
+      "title": "McDonnell Douglas DC-9-32, Republic Airlines (GFDL 1.2, Jon Proctor)",
+      "accessed": "2026-11-23",
+      "note": "N940N, left side, side-on, 1984: the bands, the nose sweep, the title and the fin measured on it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:McDonnell_Douglas_MD-82,_Republic_Airlines_JP6652136.jpg",
+      "title": "McDonnell Douglas MD-82, Republic Airlines (GFDL 1.2, Jon Proctor)",
+      "accessed": "2026-11-23",
+      "note": "N305RC, right side, 1984: the same scheme on the MD-82, Herman on the fin."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F5",
+      "official": false
+    },
+    "sky": {
+      "hex": "#5FB4C9",
+      "name": "Republic light blue",
+      "official": false
+    },
+    "navy": {
+      "hex": "#1B2758",
+      "official": false
+    },
+    "metal": {
+      "hex": "#B6BBC1",
+      "official": false
+    },
+    "radome": {
+      "hex": "#24262B",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "windows": "plain",
+    "areas": [
+      {
+        "name": "navy band under the light blue, sweeping up in a thin line along the nose's point",
+        "color": "navy",
+        "points": [
+          [
+            0.03,
+            -0.34
+          ],
+          [
+            0.19,
+            0.52
+          ],
+          [
+            0.205,
+            0.52
+          ],
+          [
+            0.055,
+            -0.2
+          ],
+          [
+            0.1,
+            -0.195
+          ],
+          [
+            0.51,
+            -0.2
+          ],
+          [
+            0.52,
+            -0.193
+          ],
+          [
+            0.535,
+            -0.161
+          ],
+          [
+            0.55,
+            -0.144
+          ],
+          [
+            0.59,
+            -0.133
+          ],
+          [
+            0.62,
+            -0.149
+          ],
+          [
+            0.645,
+            -0.198
+          ],
+          [
+            0.66,
+            -0.202
+          ],
+          [
+            0.8,
+            -0.205
+          ],
+          [
+            0.82,
+            -0.221
+          ],
+          [
+            0.85,
+            -0.293
+          ],
+          [
+            0.875,
+            -0.391
+          ],
+          [
+            0.89,
+            -0.469
+          ],
+          [
+            0.9,
+            -0.537
+          ],
+          [
+            0.91,
+            -0.623
+          ],
+          [
+            0.915,
+            -0.681
+          ],
+          [
+            0.92,
+            -0.746
+          ],
+          [
+            0.925,
+            -0.817
+          ],
+          [
+            0.93,
+            -1
+          ],
+          [
+            0.96,
+            -1
+          ],
+          [
+            0.96,
+            -1
+          ],
+          [
+            0.9,
+            -1
+          ],
+          [
+            0.895,
+            -0.924
+          ],
+          [
+            0.89,
+            -0.794
+          ],
+          [
+            0.885,
+            -0.721
+          ],
+          [
+            0.88,
+            -0.667
+          ],
+          [
+            0.875,
+            -0.623
+          ],
+          [
+            0.87,
+            -0.585
+          ],
+          [
+            0.855,
+            -0.491
+          ],
+          [
+            0.845,
+            -0.447
+          ],
+          [
+            0.82,
+            -0.367
+          ],
+          [
+            0.815,
+            -0.359
+          ],
+          [
+            0.795,
+            -0.343
+          ],
+          [
+            0.655,
+            -0.342
+          ],
+          [
+            0.645,
+            -0.337
+          ],
+          [
+            0.64,
+            -0.323
+          ],
+          [
+            0.62,
+            -0.276
+          ],
+          [
+            0.59,
+            -0.255
+          ],
+          [
+            0.55,
+            -0.269
+          ],
+          [
+            0.53,
+            -0.302
+          ],
+          [
+            0.52,
+            -0.331
+          ],
+          [
+            0.515,
+            -0.338
+          ],
+          [
+            0.1,
+            -0.336
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "light-blue band under the windows and its point sweeping up behind the cockpit",
+        "color": "sky",
+        "points": [
+          [
+            0.055,
+            -0.2
+          ],
+          [
+            0.205,
+            0.52
+          ],
+          [
+            0.235,
+            0.52
+          ],
+          [
+            0.19,
+            0.05
+          ],
+          [
+            0.515,
+            0.05
+          ],
+          [
+            0.545,
+            0.085
+          ],
+          [
+            0.59,
+            0.096
+          ],
+          [
+            0.625,
+            0.079
+          ],
+          [
+            0.645,
+            0.051
+          ],
+          [
+            0.8,
+            0.046
+          ],
+          [
+            0.82,
+            0.035
+          ],
+          [
+            0.85,
+            -0.007
+          ],
+          [
+            0.89,
+            -0.09
+          ],
+          [
+            0.91,
+            -0.146
+          ],
+          [
+            0.925,
+            -0.19
+          ],
+          [
+            0.945,
+            -0.243
+          ],
+          [
+            0.96,
+            -0.294
+          ],
+          [
+            0.96,
+            -1
+          ],
+          [
+            0.93,
+            -1
+          ],
+          [
+            0.925,
+            -0.817
+          ],
+          [
+            0.92,
+            -0.746
+          ],
+          [
+            0.915,
+            -0.681
+          ],
+          [
+            0.91,
+            -0.623
+          ],
+          [
+            0.9,
+            -0.537
+          ],
+          [
+            0.89,
+            -0.469
+          ],
+          [
+            0.875,
+            -0.391
+          ],
+          [
+            0.85,
+            -0.293
+          ],
+          [
+            0.82,
+            -0.221
+          ],
+          [
+            0.8,
+            -0.205
+          ],
+          [
+            0.66,
+            -0.202
+          ],
+          [
+            0.645,
+            -0.198
+          ],
+          [
+            0.62,
+            -0.149
+          ],
+          [
+            0.59,
+            -0.133
+          ],
+          [
+            0.55,
+            -0.144
+          ],
+          [
+            0.535,
+            -0.161
+          ],
+          [
+            0.52,
+            -0.193
+          ],
+          [
+            0.51,
+            -0.2
+          ],
+          [
+            0.1,
+            -0.195
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "light-blue band above the windows, ahead of the title",
+        "color": "sky",
+        "points": [
+          [
+            0.205,
+            0.522
+          ],
+          [
+            0.27,
+            0.52
+          ],
+          [
+            0.27,
+            0.32
+          ],
+          [
+            0.205,
+            0.32
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "light-blue band above the windows, behind the title",
+        "color": "sky",
+        "points": [
+          [
+            0.455,
+            0.52
+          ],
+          [
+            0.52,
+            0.522
+          ],
+          [
+            0.55,
+            0.536
+          ],
+          [
+            0.595,
+            0.538
+          ],
+          [
+            0.63,
+            0.529
+          ],
+          [
+            0.655,
+            0.517
+          ],
+          [
+            0.81,
+            0.515
+          ],
+          [
+            0.84,
+            0.507
+          ],
+          [
+            0.865,
+            0.512
+          ],
+          [
+            0.895,
+            0.55
+          ],
+          [
+            0.92,
+            0.598
+          ],
+          [
+            0.925,
+            0.619
+          ],
+          [
+            0.93,
+            0.649
+          ],
+          [
+            0.935,
+            0.689
+          ],
+          [
+            0.94,
+            0.735
+          ],
+          [
+            0.945,
+            0.795
+          ],
+          [
+            0.95,
+            0.892
+          ],
+          [
+            0.955,
+            1
+          ],
+          [
+            0.96,
+            1
+          ],
+          [
+            0.96,
+            0.339
+          ],
+          [
+            0.955,
+            0.317
+          ],
+          [
+            0.95,
+            0.303
+          ],
+          [
+            0.93,
+            0.269
+          ],
+          [
+            0.92,
+            0.26
+          ],
+          [
+            0.87,
+            0.278
+          ],
+          [
+            0.84,
+            0.295
+          ],
+          [
+            0.82,
+            0.309
+          ],
+          [
+            0.8,
+            0.316
+          ],
+          [
+            0.65,
+            0.318
+          ],
+          [
+            0.625,
+            0.339
+          ],
+          [
+            0.595,
+            0.348
+          ],
+          [
+            0.55,
+            0.344
+          ],
+          [
+            0.52,
+            0.323
+          ],
+          [
+            0.455,
+            0.32
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      }
+    ],
+    "radome": {
+      "color": "radome",
+      "to": 0.01
+    },
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "mirrored": true,
+    "areas": [
+      {
+        "name": "navy band up the trailing edge",
+        "color": "navy",
+        "points": [
+          [
+            0.8,
+            -0.05
+          ],
+          [
+            0.88,
+            -0.05
+          ],
+          [
+            0.88,
+            1.05
+          ],
+          [
+            0.8,
+            1.05
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "light-blue band up the trailing edge, aft of the navy",
+        "color": "sky",
+        "points": [
+          [
+            0.88,
+            -0.05
+          ],
+          [
+            0.96,
+            -0.05
+          ],
+          [
+            0.96,
+            1.05
+          ],
+          [
+            0.88,
+            1.05
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "wings": {
+    "top": "metal",
+    "under": "metal"
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "metal",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "RC1979/herman",
+      "place": "fin",
+      "at": [
+        0.4,
+        0.4
+      ],
+      "height": 0.53,
+      "colors": [
+        "navy"
+      ],
+      "description": "Herman the duck: a navy ring with a duck flying across it, its long neck and head reaching forward out of the ring and one wing raised behind, out past the ring's top.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "REPUBLIC",
+      "place": "fuselage",
+      "at": [
+        0.278,
+        0.42
+      ],
+      "height": 0.2,
+      "length": 0.167,
+      "color": "navy",
+      "style": "Widely spaced bold sans capitals in navy, in a gap in the upper light-blue band.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Bold",
+          "Arial Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Measured 2026-11-23 on N940N (DC-9-32, left side, 1984) and drawn on the MD-82 (Republic flew both in it); the MD-82 photo shows the same layout. Heights converted from projected to girth shares. Republic never had an ICAO code (it closed in 1986), so it's keyed RC1979. For Skyarium's ghost flights."
+}

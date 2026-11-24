@@ -1,0 +1,547 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "aircal-heritage",
+  "airline": "AAL",
+  "name": "AirCal heritage",
+  "kind": "retro",
+  "from": "2014",
+  "confidence": "medium",
+  "drawnOn": "B738",
+  "description": "Fuselage: Silver fuselage. Cheatlines: Stacked stripes along the window line full length: yellow (top), orange/red, magenta/purple, then dark navy (bottom). Tail: Silver fin with the same stripes (yellow, orange-red, magenta) fanning up the lower aft fin; 'AirCal' in navy italic capitals above them. Engines: Silver. Winglets: Silver. Titles: Standard 'American' forward. Artwork: none. Colors hex: approximate.",
+  "sources": [
+    {
+      "url": "https://simpleflying.com/american-special-liveries/",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:N917NN_(aircraft)",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:American_Airlines_N917NN_B738.jpg",
+      "title": "American Airlines N917NN B738 (CC BY-SA 4.0)",
+      "accessed": "2026-11-12",
+      "note": "Left side on approach, 2025-04-11, AVA Navigate: all the stripes nose to tail, their step aft of the title, the fin's bands and title."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:American_Airlines_N917NN_and_Skylink_People_Mover_at_DFW.jpg",
+      "title": "American Airlines N917NN and Skylink People Mover at DFW (CC BY-SA 4.0)",
+      "accessed": "2026-11-12",
+      "note": "Left side close up from the wing aft (film), 2024-06-23, Moki8: stripe widths against the windows, the navy sweeping up at the tail, the fin."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:American_Airlines_AirCal_retrojet_N917NN_in_Boston.jpg",
+      "title": "American Airlines AirCal retrojet N917NN in Boston (CC BY 4.0)",
+      "accessed": "2026-11-12",
+      "note": "Left side three-quarter front, 2023-02-26, 4300streetcar: the stripes at the nose and where they step up."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N917NN_Boeing_737-823_American_Airlines_(Air_Cal_Heritage)_MIA_17.1.23_(52850551661).jpg",
+      "title": "N917NN Boeing 737-823 American Airlines (Air Cal Heritage) MIA 17.1.23 (52850551661).jpg (CC BY-SA 2.0)",
+      "accessed": "2026-11-15",
+      "note": "Right side near level, 2023-01-17, Colin Cooke: the AirCal fin title's angle and ends, the American title's ends against the doors."
+    }
+  ],
+  "palette": {
+    "silver": {
+      "hex": "#C6CACF",
+      "name": "silver (American's metallic base)",
+      "official": false
+    },
+    "yellow": {
+      "hex": "#F2B42A",
+      "official": false
+    },
+    "orange": {
+      "hex": "#E4482F",
+      "name": "orange-red",
+      "official": false
+    },
+    "magenta": {
+      "hex": "#8E1F55",
+      "official": false
+    },
+    "navy": {
+      "hex": "#1E2448",
+      "official": false
+    },
+    "titleGray": {
+      "hex": "#36495A",
+      "official": false
+    },
+    "cowl": {
+      "hex": "#CDD0D4",
+      "official": false
+    },
+    "metal": {
+      "hex": "#A8AEB5",
+      "name": "polished inlet lip",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#C0C4C9",
+      "official": false
+    }
+  },
+  "finish": "metallic",
+  "fuselage": {
+    "base": "silver",
+    "areas": [
+      {
+        "name": "yellow stripe: from the cockpit windows' aft corner, stepping up just behind the title",
+        "color": "yellow",
+        "points": [
+          [
+            0.085,
+            0.24
+          ],
+          [
+            0.33,
+            0.23
+          ],
+          [
+            0.37,
+            0.37
+          ],
+          [
+            0.9,
+            0.37
+          ],
+          [
+            0.9,
+            0.3
+          ],
+          [
+            0.37,
+            0.3
+          ],
+          [
+            0.33,
+            0.16
+          ],
+          [
+            0.09,
+            0.16
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "name": "orange-red stripe under the yellow; forward it reaches under the cockpit windows",
+        "color": "orange",
+        "points": [
+          [
+            0.02,
+            0.1
+          ],
+          [
+            0.05,
+            0.22
+          ],
+          [
+            0.09,
+            0.16
+          ],
+          [
+            0.33,
+            0.16
+          ],
+          [
+            0.37,
+            0.3
+          ],
+          [
+            0.9,
+            0.3
+          ],
+          [
+            0.9,
+            0.22
+          ],
+          [
+            0.37,
+            0.22
+          ],
+          [
+            0.33,
+            0.07
+          ],
+          [
+            0.05,
+            0.07
+          ],
+          [
+            0.02,
+            0.06
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "name": "magenta stripe: under the forward windows, through the windows aft of the step",
+        "color": "magenta",
+        "points": [
+          [
+            0.003,
+            0.0
+          ],
+          [
+            0.02,
+            0.06
+          ],
+          [
+            0.05,
+            0.07
+          ],
+          [
+            0.33,
+            0.07
+          ],
+          [
+            0.37,
+            0.22
+          ],
+          [
+            0.9,
+            0.22
+          ],
+          [
+            0.9,
+            0.05
+          ],
+          [
+            0.37,
+            0.05
+          ],
+          [
+            0.33,
+            -0.1
+          ],
+          [
+            0.05,
+            -0.1
+          ],
+          [
+            0.01,
+            -0.08
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "name": "navy stripe, the widest, to the nose tip",
+        "color": "navy",
+        "points": [
+          [
+            0.003,
+            0.0
+          ],
+          [
+            0.01,
+            -0.08
+          ],
+          [
+            0.05,
+            -0.1
+          ],
+          [
+            0.33,
+            -0.1
+          ],
+          [
+            0.37,
+            0.05
+          ],
+          [
+            1,
+            0.05
+          ],
+          [
+            1,
+            -0.12
+          ],
+          [
+            0.37,
+            -0.12
+          ],
+          [
+            0.33,
+            -0.28
+          ],
+          [
+            0.05,
+            -0.28
+          ],
+          [
+            0.01,
+            -0.2
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "name": "navy sweeping up over the stripes to the crown under the fin, and on to the tail cone",
+        "color": "navy",
+        "points": [
+          [
+            0.81,
+            0.0
+          ],
+          [
+            0.875,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -0.12
+          ],
+          [
+            0.81,
+            -0.12
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ]
+      }
+    ],
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3,
+      4
+    ]
+  },
+  "fin": {
+    "base": "silver",
+    "areas": [
+      {
+        "name": "magenta band at the root, behind a diagonal from the leading edge's foot",
+        "color": "magenta",
+        "points": [
+          [
+            0.03,
+            0
+          ],
+          [
+            0.22,
+            0.16
+          ],
+          [
+            1,
+            0.22
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ]
+      },
+      {
+        "name": "orange-red band",
+        "color": "orange",
+        "points": [
+          [
+            0.22,
+            0.16
+          ],
+          [
+            0.55,
+            0.37
+          ],
+          [
+            1,
+            0.4
+          ],
+          [
+            1,
+            0.22
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ]
+      },
+      {
+        "name": "yellow band, a wedge reaching the trailing edge",
+        "color": "yellow",
+        "points": [
+          [
+            0.55,
+            0.37
+          ],
+          [
+            0.95,
+            0.54
+          ],
+          [
+            1,
+            0.56
+          ],
+          [
+            1,
+            0.4
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray",
+    "confidence": "low",
+    "sourceRefs": [
+      2,
+      3
+    ]
+  },
+  "winglets": {
+    "outer": "silver",
+    "inner": "silver",
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      4
+    ]
+  },
+  "engines": {
+    "cowling": "cowl",
+    "inletLip": "metal",
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3,
+      4
+    ]
+  },
+  "logos": [
+    {
+      "mark": "AAL/flight-symbol",
+      "place": "fuselage",
+      "at": [
+        0.205,
+        0.44
+      ],
+      "height": 0.12,
+      "colors": [
+        "#C30019",
+        "#0078D2",
+        "#36495A"
+      ],
+      "description": "American's 2013 flight symbol (an abstract eagle head / 'A' in red, blue and light blue), just ahead of the title.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "AirCal",
+      "place": "fin",
+      "at": [
+        0.1,
+        0.12
+      ],
+      "height": 0.12,
+      "color": "navy",
+      "style": "AirCal's logotype in heavy, wide italic capitals (the I small), set at an angle rising aft along the leading edge's sweep, above the bands; start at the foot of the leading edge, end near the trailing edge at about 0.45 up.",
+      "confidence": "medium",
+      "sourceRefs": [
+        3,
+        5
+      ],
+      "type": {
+        "similar": [
+          "Eurostile Bold Extended",
+          "ITC Avant Garde Gothic Bold Oblique"
+        ],
+        "weight": 800,
+        "slantDeg": 10,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "rotationDeg": 36,
+      "length": 0.9
+    },
+    {
+      "text": "American",
+      "place": "fuselage",
+      "at": [
+        0.215,
+        0.3
+      ],
+      "height": 0.24,
+      "color": "titleGray",
+      "style": "American's 2013 wordmark: a humanist sans, semibold, upright, mixed case, smaller than on the standard scheme.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "length": 0.11,
+      "type": {
+        "similar": [
+          "Frutiger Bold",
+          "Myriad Pro Semibold"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      }
+    }
+  ],
+  "notes": "Drawn from three dated photos of N917NN, all of the left side (2023-02-26, 2024-06-23, 2025-04-11). The tail cone under the tailplane is partly hidden in every shot. The stripes run lower forward of about x 0.33, clearing room for the American title, and step up aft of it. Colors in the 2024 shot are film-shifted; the 2025 shot set them. Belly and the right side not seen. Re-checked 2026-11-15 on the right side (N917NN, 2023): 'AirCal' on the fin is turned about 36 degrees, rising aft from the leading edge's foot (fin x 0.02, y 0.15) to mid-chord at about half height; the fuselage title runs x 0.214-0.324 measured against the doors (737-800), as drawn."
+}

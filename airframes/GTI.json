@@ -1,0 +1,854 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "GTI",
+  "airframes": [
+    {
+      "registration": "N5147A",
+      "hex": "a67399",
+      "type": "B738",
+      "livery": "ATN/prime-air-blue",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Boeing_737-83N%28BCF%29%28WL%29_%28N5147A%2C_msn_32882%2C_ln_1163%29_%285-23-2023%29.jpg",
+          "title": "Boeing 737-83N(BCF)(WL) (N5147A, msn 32882, ln 1163) (5-23-2023).jpg",
+          "accessed": "2026-11-13",
+          "note": "Commons photo, 2023-05-23: in Prime Air paint."
+        },
+        {
+          "url": "https://hexdb.io/api/v1/aircraft/a67399",
+          "title": "hexdb.io aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Registered owner/operator given as 'Prime Air', operator flag GTI (community data)."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Amazon_Air#Fleet",
+          "title": "Wikipedia: Amazon Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "Amazon Air's contract operators and counts (as of January 2025)."
+        }
+      ],
+      "lastSeen": "2023-05-23",
+      "status": "photographed in Prime Air paint 2023-05-23 (Commons)",
+      "notes": "Callsign uncertain: hexdb flags it GTI (Wikipedia: Atlas flies 8 Amazon 737s as of 2025), but N5179A and N5233A, also flagged GTI, fly as Sun Country in November 2026. Not seen in the sample."
+    },
+    {
+      "registration": "N5153A",
+      "hex": "a676c4",
+      "type": "B738",
+      "livery": "ATN/prime-air-blue",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Atlas_Air_-_Prime_Air_Boeing_737-800_N5153A_BWI_MD1.jpg",
+          "title": "Atlas Air - Prime Air Boeing 737-800 N5153A BWI MD1.jpg",
+          "accessed": "2026-11-13",
+          "note": "Commons photo, 2022-05-17: in Prime Air paint."
+        },
+        {
+          "url": "https://hexdb.io/api/v1/aircraft/a676c4",
+          "title": "hexdb.io aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Registered owner/operator given as 'Prime Air', operator flag GTI (community data)."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Amazon_Air#Fleet",
+          "title": "Wikipedia: Amazon Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "Amazon Air's contract operators and counts (as of January 2025)."
+        }
+      ],
+      "lastSeen": "2022-05-17",
+      "status": "photographed in Prime Air paint 2022-05-17 (Commons)",
+      "notes": "Callsign uncertain: hexdb flags it GTI and a 2022 photo caption names Atlas, but N5179A and N5233A, also flagged GTI, fly as Sun Country in November 2026. Not seen in the sample."
+    },
+    {
+      "registration": "N707GT",
+      "hex": "a96f37",
+      "hexSource": "derived from the N-number (tools/nnumber.py)",
+      "type": "B77L",
+      "livery": "LSI/standard",
+      "lastSeen": "2024-06-21",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N707GT_(21_Jun_2024).jpg",
+          "title": "N707GT, 2024-06-21 (CC0, Dltl2010)",
+          "accessed": "2026-11-22"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Li%C3%A8ge_Airport_Atlas_Air_MSC_Air_Cargo_Boeing_777-F_N707GT_(DSC00493).jpg",
+          "title": "N707GT at Liège, 2024-05-12 (CC BY-SA 4.0, MarcelX42)",
+          "accessed": "2026-11-22"
+        }
+      ],
+      "notes": "Flown by Atlas Air for MSC Air (formerly AlisCargo) in MSC AIR CARGO paint."
+    },
+    {
+      "registration": "N708GT",
+      "hex": "a972ee",
+      "hexSource": "derived from the N-number (tools/nnumber.py)",
+      "type": "B77L",
+      "livery": "LSI/standard",
+      "lastSeen": "2023-08-31",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N708GT_(31_Aug_2023).jpg",
+          "title": "N708GT, 2023-08-31 (CC BY-SA 4.0, Dltl2010)",
+          "accessed": "2026-11-22"
+        }
+      ],
+      "notes": "Flown by Atlas Air for MSC Air (formerly AlisCargo) in MSC AIR CARGO paint."
+    },
+    {
+      "registration": "N709GT",
+      "hex": "a976a5",
+      "hexSource": "derived from the N-number (tools/nnumber.py)",
+      "type": "B77L",
+      "livery": "LSI/standard",
+      "lastSeen": "2024-06-28",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:MSC_Air_Cargo_N709GT_at_DFW.jpg",
+          "title": "N709GT at Dallas-Fort Worth, 2024-06-28 (CC0, Carguychris)",
+          "accessed": "2026-11-22"
+        }
+      ],
+      "notes": "Flown by Atlas Air for MSC Air (formerly AlisCargo) in MSC AIR CARGO paint."
+    },
+    {
+      "registration": "N499MC",
+      "hex": "a6329d",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "B744",
+      "livery": "standard",
+      "lastSeen": "2026-01-25",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N499MC_(55077673734).jpg",
+          "title": "N499MC (55077673734).jpg (CC BY-SA 4.0, Liam Thompson)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2026-01-25: in Atlas paint."
+        }
+      ],
+      "status": "photographed in Atlas paint 2026-01-25 (Commons)"
+    },
+    {
+      "registration": "N498MC",
+      "hex": "a62ee6",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "B744",
+      "livery": "standard",
+      "lastSeen": "2024-12-01",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N498MC_-_Atlas_Air_-_Boeing_747-47UF_-_MSN_29259_-_VGHS.jpg",
+          "title": "N498MC - Atlas Air - Boeing 747-47UF - MSN 29259 - VGHS.jpg (CC BY-SA 4.0, Md Shaifuzzaman Ayon)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2024-12-01: in Atlas paint."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Atlas_Air_N498MC_29-09-2024.jpg",
+          "title": "Atlas Air N498MC 29-09-2024.jpg (CC BY-SA 4.0, LN9267)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2024-09-29: in Atlas paint."
+        }
+      ],
+      "status": "photographed in Atlas paint 2024-09-29 and 2024-12-01 (Commons)",
+      "notes": "In the Polar/DHL co-brand in a 2018-11-01 Commons photo; in Atlas paint by 2024-09."
+    },
+    {
+      "registration": "N492MC",
+      "hex": "a6189c",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "B744",
+      "livery": "standard",
+      "lastSeen": "2025-06-22",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Atlas_Air_N492MC_run_5Y8373(Hong_Kong_International_Airport_to_United_States_Ted_Stevens_Anchorage_International_Airport)_22-06-2025.jpg",
+          "title": "Atlas Air N492MC run 5Y8373(Hong Kong International Airport to United States Ted Stevens Anchorage International Airport) 22-06-2025.jpg (CC BY-SA 4.0, LN9267)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2025-06-22: in Atlas paint."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Atlas_Air_N492MC_21-06-2024.jpg",
+          "title": "Atlas Air N492MC 21-06-2024.jpg (CC BY-SA 4.0, LN9267)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2024-06-21: in Atlas paint."
+        }
+      ],
+      "status": "photographed in Atlas paint 2024-06-21 and 2025-06-22 (Commons)"
+    },
+    {
+      "registration": "N489MC",
+      "hex": "a60b1e",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "B744",
+      "livery": "standard",
+      "lastSeen": "2025-12-05",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Atlas_Air_N489MC_05-12-2025.jpg",
+          "title": "Atlas Air N489MC 05-12-2025.jpg (CC BY-SA 4.0, LN9267)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2025-12-05: in Atlas paint."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N489MC_(3_Mar_2023).jpg",
+          "title": "N489MC (3 Mar 2023).jpg (CC BY-SA 4.0, Dltl2010)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2023-03-03: in Atlas paint."
+        }
+      ],
+      "status": "photographed in Atlas paint 2023-03-03 and 2025-12-05 (Commons)"
+    },
+    {
+      "registration": "N476MC",
+      "hex": "a5d87a",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "B744",
+      "livery": "standard",
+      "lastSeen": "2026-06-24",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N476MC_Boeing_747-47UF_Atlas_Cargo_Airlines_Liege_25.6.26_-_55379273591.jpg",
+          "title": "N476MC Boeing 747-47UF Atlas Cargo Airlines Liege 25.6.26 - 55379273591.jpg (CC BY-SA 4.0, Colin Cooke Photo)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2026-06-24: in Atlas paint."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N476MC_Boeing_747-47UF_Atlas_Cargo_Airlines_Liege_25.6.26.jpg",
+          "title": "N476MC Boeing 747-47UF Atlas Cargo Airlines Liege 25.6.26.jpg (CC BY-SA 4.0, Colin Cooke Photo)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2026-06-24: in Atlas paint."
+        }
+      ],
+      "status": "photographed in Atlas paint 2026-06-24 (Commons)"
+    },
+    {
+      "registration": "N475MC",
+      "hex": "a5d4c3",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "B744",
+      "livery": "standard",
+      "lastSeen": "2026-05-31",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Atlas_Air_N475MC_run_5Y8373(Hong_Kong_International_Airport_to_United_States_Ted_Stevens_Anchorage_International_Airport)_31-05-2026(1).jpg",
+          "title": "Atlas Air N475MC run 5Y8373(Hong Kong International Airport to United States Ted Stevens Anchorage International Airport) 31-05-2026(1).jpg (CC BY-SA 4.0, LN9267)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2026-05-31: in Atlas paint."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Atlas_Air_N475MC_run_5Y8373(Hong_Kong_International_Airport_to_United_States_Ted_Stevens_Anchorage_International_Airport)_31-05-2026(2).jpg",
+          "title": "Atlas Air N475MC run 5Y8373(Hong Kong International Airport to United States Ted Stevens Anchorage International Airport) 31-05-2026(2).jpg (CC BY-SA 4.0, LN9267)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2026-05-31: in Atlas paint."
+        }
+      ],
+      "status": "photographed in Atlas paint 2026-05-31 (Commons)"
+    },
+    {
+      "registration": "N473MC",
+      "hex": "a5cd55",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "B744",
+      "livery": "standard",
+      "lastSeen": "2026-03-22",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N473MC_(55183017518).jpg",
+          "title": "N473MC (55183017518).jpg (CC BY-SA 4.0, Liam Thompson)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2026-03-22: in Atlas paint."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Atlas_Air_N473MC_run_5Y9927(United_States_Los_Angeles_International_Airport_to_Hong_Kong_International_Airport)_10-06-2025(2).jpg",
+          "title": "Atlas Air N473MC run 5Y9927(United States Los Angeles International Airport to Hong Kong International Airport) 10-06-2025(2).jpg (CC BY-SA 4.0, LN9267)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2025-06-10: in Atlas paint."
+        }
+      ],
+      "status": "photographed in Atlas paint 2025-06-10 and 2026-03-22 (Commons)",
+      "notes": "747-400 converted to a freighter (BDSF)."
+    },
+    {
+      "registration": "N438GT",
+      "hex": "a5417e",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "B744",
+      "livery": "standard",
+      "lastSeen": "2026-04-06",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N438GT_Boeing_747-4909F_Atlas_Air_Liege_18.3.26_(55191063210).jpg",
+          "title": "N438GT Boeing 747-4909F Atlas Air Liege 18.3.26 (55191063210).jpg (CC BY-SA 4.0, Colin Cooke Photo)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2026-04-06: in Atlas paint."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Atlas_Air_N438GT_run_5Y654(Hong_Kong_International_Airport_to_United_States_Ted_Stevens_Anchorage_International_Airport)_12-03-2026.jpg",
+          "title": "Atlas Air N438GT run 5Y654(Hong Kong International Airport to United States Ted Stevens Anchorage International Airport) 12-03-2026.jpg (CC BY-SA 4.0, LN9267)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2026-03-12: in Atlas paint."
+        }
+      ],
+      "status": "photographed in Atlas paint 2026-03-12 and 2026-04-06 (Commons)"
+    },
+    {
+      "registration": "N431GT",
+      "hex": "a5277d",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "B744",
+      "livery": "standard",
+      "lastSeen": "2026-03-16",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Boeing_747-4H6F_%E2%80%98N431GT%E2%80%99_Atlas_Air_(55499796447).jpg",
+          "title": "Boeing 747-4H6F ‘N431GT’ Atlas Air (55499796447).jpg (CC BY-SA 4.0, Alan Wilson)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2026-03-16: in Atlas paint."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Boeing_747-4H6F_%E2%80%98N431GT%E2%80%99_Atlas_Air_(55500718413).jpg",
+          "title": "Boeing 747-4H6F ‘N431GT’ Atlas Air (55500718413).jpg (CC BY-SA 4.0, Alan Wilson)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2026-03-16: in Atlas paint."
+        }
+      ],
+      "status": "photographed in Atlas paint 2026-03-16 (Commons)",
+      "notes": "All white in a 2024-11-27 Commons photo; in Atlas paint by 2026-03-16."
+    },
+    {
+      "registration": "N418MC",
+      "hex": "a4f2ee",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "B744",
+      "livery": "standard",
+      "lastSeen": "2026-11-14",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:20250402_Boeing_747-47UF_of_Atlas_Air_(N418MC)_taking_off_from_SYD.jpg",
+          "title": "20250402 Boeing 747-47UF of Atlas Air (N418MC) taking off from SYD.jpg (CC BY-SA 4.0, Windmemories)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2025-04-02: in Atlas paint."
+        }
+      ],
+      "status": "photographed in Atlas paint 2025-04-02 (Commons); the maintainer saw it in Atlas paint departing Sydney as Qantas QF7583 on 2026-11-14",
+      "notes": "Flies ACMI for Qantas Freight under QFA flight numbers in Atlas paint (the maintainer's sighting, 2026-11-14): this tag is what keeps it from being drawn in Qantas paint."
+    },
+    {
+      "registration": "N416MC",
+      "hex": "a4eb80",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "B744",
+      "livery": "standard",
+      "lastSeen": "2025-10-25",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Boeing_747-47UF_SCD.jpg",
+          "title": "Boeing 747-47UF SCD.jpg (CC BY-SA 4.0, Samson Ng . D201@EAL)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2025-10-25: in Atlas paint."
+        }
+      ],
+      "status": "photographed in Atlas paint 2025-10-25 (Commons)",
+      "notes": "In the Polar/DHL co-brand in 2013 Commons photos."
+    },
+    {
+      "registration": "N429MC",
+      "hex": "a51e24",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "B744",
+      "livery": "standard",
+      "lastSeen": "2024-01-22",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Atlas_Air_N429MC_22-01-2024.jpg",
+          "title": "Atlas Air N429MC 22-01-2024.jpg (CC BY-SA 4.0, LN9267)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2024-01-22: in Atlas paint."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Atlas_Air_N429MC_03-09-2023.jpg",
+          "title": "Atlas Air N429MC 03-09-2023.jpg (CC BY-SA 4.0, LN9267)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2023-09-03: in Atlas paint."
+        }
+      ],
+      "status": "photographed in Atlas paint 2023-09-03 and 2024-01-22 (Commons)",
+      "notes": "747-400 converted to a freighter (BCF)."
+    },
+    {
+      "registration": "N446MC",
+      "hex": "a561fd",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "B744",
+      "livery": "standard",
+      "lastSeen": "2024-11-27",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Atlas_Air_N446MC_run_5Y8131(Hong_Kong_International_to_India_Delhi_Indira_Gandhi_International_Airport)_27-11-2024.jpg",
+          "title": "Atlas Air N446MC run 5Y8131(Hong Kong International to India Delhi Indira Gandhi International Airport) 27-11-2024.jpg (CC BY-SA 4.0, LN9267)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2024-11-27: in Atlas paint."
+        }
+      ],
+      "status": "photographed in Atlas paint 2024-11-27 (Commons)",
+      "notes": "747-400ERF. One distant photo, climbing: the titles and navy tail readable, little else."
+    },
+    {
+      "registration": "N409MC",
+      "hex": "a4cf26",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "B744",
+      "livery": "standard",
+      "lastSeen": "2023-08-11",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:20230811_Boeing_747-47UF_of_Atlas_Air_(N409MC)_at_SYD_01.jpg",
+          "title": "20230811 Boeing 747-47UF of Atlas Air (N409MC) at SYD 01.jpg (CC BY-SA 4.0, Windmemories)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2023-08-11: in Atlas paint."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:20230811_Boeing_747-47UF_of_Atlas_Air_(N409MC)_at_SYD_02.jpg",
+          "title": "20230811 Boeing 747-47UF of Atlas Air (N409MC) at SYD 02.jpg (CC BY-SA 4.0, Windmemories)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2023-08-11: in Atlas paint."
+        }
+      ],
+      "status": "photographed in Atlas paint 2023-08-11 (Commons)"
+    },
+    {
+      "registration": "N453PA",
+      "hex": "a57e87",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "B744",
+      "livery": "standard",
+      "lastSeen": "2026-03-22",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N453PA_(55181966177).jpg",
+          "title": "N453PA (55181966177).jpg (CC BY-SA 4.0, Liam Thompson)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2026-03-22: in Atlas paint."
+        }
+      ],
+      "status": "photographed in Atlas paint 2026-03-22 (Commons)",
+      "notes": "Ex-Polar (polar-classic, then the Polar/DHL co-brand to at least 2022-07-17); registered to Atlas Air (FAA)."
+    },
+    {
+      "registration": "N450PA",
+      "hex": "a57362",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "B744",
+      "livery": "standard",
+      "lastSeen": "2026-02-21",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Atlas_Air_B747-46NF_N450MC_l_TPE_RCTP_l_21-FEB-2026_(55134199387).jpg",
+          "title": "Atlas Air B747-46NF N450MC l TPE RCTP l 21-FEB-2026 (55134199387).jpg (CC BY-SA 4.0, Steven Byles from Taoyuan, Taiwan)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2026-02-21: in Atlas paint."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Boeing_747-46NF_Atlas_Air.jpg",
+          "title": "Boeing 747-46NF Atlas Air.jpg (CC BY 4.0, Pivowarczyk)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2023-11-18: in Atlas paint."
+        }
+      ],
+      "status": "photographed in Atlas paint 2023-11-18 and 2026-02-21 (Commons)",
+      "notes": "Ex-Polar (PAC/polar-classic to at least 2018); registered to Atlas Air (FAA). The 2026 photo's file name says N450MC; it's in N450PA's Commons category."
+    },
+    {
+      "registration": "N452PA",
+      "hex": "a57ad0",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "B744",
+      "livery": "standard",
+      "lastSeen": "2023-01-18",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N452PA_Boeing_747-46NF_Atlas_Air_MIA_18.1.23_(53272786277).jpg",
+          "title": "N452PA Boeing 747-46NF Atlas Air MIA 18.1.23 (53272786277).jpg (CC BY-SA 2.0, Colin Cooke Photo)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2023-01-18: in Atlas paint."
+        }
+      ],
+      "status": "photographed in Atlas paint 2023-01-18 (Commons)",
+      "notes": "Ex-Polar (Polar/DHL co-brand in 2014); registered to Atlas Air (FAA)."
+    },
+    {
+      "registration": "N482MC",
+      "hex": "a5f11d",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "B744",
+      "livery": "standard",
+      "lastSeen": "2026-06-16",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Atlas_Air_Boeing_747-443_-_N482MC_at_LBSF_-_01.jpg",
+          "title": "Atlas Air Boeing 747-443 - N482MC at LBSF - 01.jpg (CC BY-SA 4.0, DemieK07)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2026-06-16: in Atlas paint."
+        }
+      ],
+      "status": "photographed in Atlas paint 2026-06-16 (Commons)",
+      "notes": "747-400 passenger (charter, military flights)."
+    },
+    {
+      "registration": "N481MC",
+      "hex": "a5ed66",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "B744",
+      "livery": "standard",
+      "lastSeen": "2026-06-14",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Atlas_Air_Boeing_747-443_-_N481MC_at_LBSF_-_01.jpg",
+          "title": "Atlas Air Boeing 747-443 - N481MC at LBSF - 01.jpg (CC BY-SA 4.0, DemieK07)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2026-06-14: in Atlas paint."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Atlas_Air_Boeing_747-400_N481MC_BWI_MD1.jpg",
+          "title": "Atlas Air Boeing 747-400 N481MC BWI MD1.jpg (CC BY-SA 4.0, Acroterion)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2025-04-10: in Atlas paint."
+        }
+      ],
+      "status": "photographed in Atlas paint 2025-04-10 and 2026-06-14 (Commons)",
+      "notes": "747-400 passenger (charter, military flights)."
+    },
+    {
+      "registration": "N480MC",
+      "hex": "a5e9af",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "B744",
+      "livery": "standard",
+      "lastSeen": "2025-05-26",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N480MC,_28812,_Boeing_747-400,_Atlas_Air.jpg",
+          "title": "N480MC, 28812, Boeing 747-400, Atlas Air.jpg (CC BY 4.0, Dmitri Popov)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2025-05-26: in Atlas paint."
+        }
+      ],
+      "status": "photographed in Atlas paint 2025-05-26 (Commons)",
+      "notes": "747-400 passenger (charter, military flights)."
+    },
+    {
+      "registration": "N322SG",
+      "hex": "a37755",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "B744",
+      "livery": "standard",
+      "lastSeen": "2024-09-06",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Atlas_Air_Boeing_747-400_N322SG_BWI_MD1.jpg",
+          "title": "Atlas Air Boeing 747-400 N322SG BWI MD1.jpg (CC BY-SA 4.0, Acroterion)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2024-09-06: in Atlas paint."
+        }
+      ],
+      "status": "photographed in Atlas paint 2024-09-06 (Commons)",
+      "notes": "747-400 passenger (charter, military flights)."
+    },
+    {
+      "registration": "N263SG",
+      "hex": "a28bb9",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "B744",
+      "livery": "standard",
+      "lastSeen": "2024-06-06",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N263SG_-_Boeing_747-481_-_Atlas_Air_STN_060624.jpg",
+          "title": "N263SG - Boeing 747-481 - Atlas Air STN 060624.jpg (CC BY 2.0, kitmasterbloke)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2024-06-06: in Atlas paint."
+        }
+      ],
+      "status": "photographed in Atlas paint 2024-06-06 (Commons)",
+      "notes": "747-400 passenger (charter, military flights)."
+    },
+    {
+      "registration": "N851GT",
+      "hex": "ababb7",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "B748",
+      "livery": "standard",
+      "lastSeen": "2026-10-04",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Atlas_Air_N851GT_run_5Y8037(Hong_Kong_International_Airport_to_United_States_Ted_Stevens_Anchorage_International_Airport)_04-10-2026.jpg",
+          "title": "Atlas Air N851GT run 5Y8037(Hong Kong International Airport to United States Ted Stevens Anchorage International Airport) 04-10-2026.jpg (CC BY-SA 4.0, LN9267)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2026-10-04: in Atlas paint."
+        }
+      ],
+      "status": "photographed in Atlas paint 2026-10-04 (Commons)",
+      "notes": "In the Polar/DHL co-brand in a 2020-10-05 Commons photo; in Atlas paint by 2026-10-04."
+    },
+    {
+      "registration": "N856GT",
+      "hex": "abbe4a",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "B748",
+      "livery": "standard",
+      "lastSeen": "2024-07-29",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Atlas_Air_N856GT_29-07-2024.jpg",
+          "title": "Atlas Air N856GT 29-07-2024.jpg (CC BY-SA 4.0, LN9267)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2024-07-29: in Atlas paint."
+        }
+      ],
+      "status": "photographed in Atlas paint 2024-07-29 (Commons)",
+      "notes": "In the Polar/DHL co-brand in 2018 Commons photos; in Atlas paint by 2024-07-29."
+    },
+    {
+      "registration": "N859GT",
+      "hex": "abc96f",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "B748",
+      "livery": "standard",
+      "lastSeen": "2026",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Atlas_Air_Boeing_747_N859GT_Taiwan_Taoyuan_2026_(01).jpg",
+          "title": "Atlas Air Boeing 747 N859GT Taiwan Taoyuan 2026 (01).jpg (CC BY-SA 4.0, Bahnfrend)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2026: in Atlas paint."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Atlas_Air_Boeing_747_N859GT_Taiwan_Taoyuan_2026_(02).jpg",
+          "title": "Atlas Air Boeing 747 N859GT Taiwan Taoyuan 2026 (02).jpg (CC BY-SA 4.0, Bahnfrend)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2026: in Atlas paint."
+        }
+      ],
+      "status": "photographed in Atlas paint 2026 (Commons)"
+    },
+    {
+      "registration": "N860GT",
+      "hex": "abcf7f",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "B748",
+      "livery": "standard",
+      "lastSeen": "2024-10-30",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Atlas_Air_N860GT_30-10-2024.jpg",
+          "title": "Atlas Air N860GT 30-10-2024.jpg (CC BY-SA 4.0, LN9267)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2024-10-30: in Atlas paint."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Atlas_Air_N860GT_04-07-2024.jpg",
+          "title": "Atlas Air N860GT 04-07-2024.jpg (CC BY-SA 4.0, LN9267)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2024-07-04: in Atlas paint."
+        }
+      ],
+      "status": "photographed in Atlas paint 2024-07-04 and 2024-10-30 (Commons)"
+    },
+    {
+      "registration": "N850GT",
+      "hex": "aba800",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "B748",
+      "livery": "standard",
+      "lastSeen": "2022-06-02",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Atlas_Air_N850GT_Boeing_747-8F_Sydney_Kingsford_Smith_International_Airport_(SYD_YSSY)_(52127068505).jpg",
+          "title": "Atlas Air N850GT Boeing 747-8F Sydney Kingsford Smith International Airport (SYD YSSY) (52127068505).jpg (CC BY-SA 2.0, Mitchul Hope)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2022-06-02: in Atlas paint."
+        }
+      ],
+      "status": "photographed in Atlas paint 2022-06-02 (Commons)",
+      "notes": "Panalpina's scheme in 2018; in Atlas paint by 2022-06-02."
+    },
+    {
+      "registration": "N861GT",
+      "hex": "abd336",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "B748",
+      "livery": "standard",
+      "lastSeen": "2022-10-13",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N861GT_(13_Oct_2022).jpg",
+          "title": "N861GT (13 Oct 2022).jpg (CC BY-SA 4.0, Dltl2010)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2022-10-13: in Atlas paint."
+        }
+      ],
+      "status": "photographed in Atlas paint 2022-10-13 (Commons)"
+    },
+    {
+      "registration": "N712GT",
+      "hex": "a98423",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "B77L",
+      "livery": "standard",
+      "lastSeen": "2025-05-29",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Atlas_Air_N712GT_run_5Y654(Hong_Kong_International_Airport_to_South_Korea_Seoul_Incheon_International_Airport)_29-05-2025.jpg",
+          "title": "Atlas Air N712GT run 5Y654(Hong Kong International Airport to South Korea Seoul Incheon International Airport) 29-05-2025.jpg (CC BY-SA 4.0, LN9267)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2025-05-29: in Atlas paint."
+        }
+      ],
+      "status": "photographed in Atlas paint 2025-05-29 (Commons)",
+      "notes": "One distant photo, climbing. Delivered 2025 (FAA certificate 2025-04-30)."
+    },
+    {
+      "registration": "N722GT",
+      "hex": "a9aba2",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "B77L",
+      "livery": "standard",
+      "lastSeen": "2026-09-09",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N722GT_(9_Sept_2026).jpg",
+          "title": "N722GT (9 Sept 2026).jpg (CC0, Dltl2010)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2026-09-09: in Atlas paint."
+        }
+      ],
+      "status": "photographed in Atlas paint 2026-09-09 (Commons)",
+      "notes": "Seen flying as Etihad (EY9726) in Atlas paint. Delivered 2025 (FAA certificate 2025-06-24)."
+    },
+    {
+      "registration": "N645GT",
+      "hex": "a87876",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "B763",
+      "livery": "standard",
+      "lastSeen": "2025-08-28",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Atlas_Air_Boeing_767-300ER_N645GT_BWI_MD1.jpg",
+          "title": "Atlas Air Boeing 767-300ER N645GT BWI MD1.jpg (CC BY-SA 4.0, Acroterion)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2025-08-28: in Atlas paint."
+        }
+      ],
+      "status": "photographed in Atlas paint 2025-08-28 (Commons)",
+      "notes": "767-300ER passenger (charter)."
+    },
+    {
+      "registration": "N662GT",
+      "hex": "a8bc4f",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "B763",
+      "livery": "standard",
+      "lastSeen": "2025-09-25",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Atlas_Air_Boeing_767-300ER_N662GT_BWI_MD1.jpg",
+          "title": "Atlas Air Boeing 767-300ER N662GT BWI MD1.jpg (CC BY-SA 4.0, Acroterion)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2025-09-25: in Atlas paint."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Atlas_Air_Boeing_767-300ER_N662GT_BWI_MD2.jpg",
+          "title": "Atlas Air Boeing 767-300ER N662GT BWI MD2.jpg (CC BY-SA 4.0, Acroterion)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2025-09-25: in Atlas paint."
+        }
+      ],
+      "status": "photographed in Atlas paint 2025-09-25 (Commons)",
+      "notes": "767-300ER passenger (charter). The photo's description names N645GT; its file name, category and the jet's registration say N662GT."
+    },
+    {
+      "registration": "N664GT",
+      "hex": "a8c3bd",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "B763",
+      "livery": "standard",
+      "lastSeen": "2026-03-19",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Atlas_Air_Boeing_767-300ER_N664GT_BWI_MD1.jpg",
+          "title": "Atlas Air Boeing 767-300ER N664GT BWI MD1.jpg (CC BY-SA 4.0, Acroterion)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2026-03-19: in Atlas paint."
+        }
+      ],
+      "status": "photographed in Atlas paint 2026-03-19 (Commons)",
+      "notes": "767-300ER passenger (charter)."
+    },
+    {
+      "registration": "N857GT",
+      "hex": "abc201",
+      "hexSource": "computed from the N-number (tools/nnumber.py); matches the FAA registry's Mode S code (2026-11-14)",
+      "type": "B748",
+      "livery": "PAC/standard",
+      "lastSeen": "2024-10-01",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Polar_Air_Cargo_N857GT_01-10-2024.jpg",
+          "title": "Polar Air Cargo N857GT 01-10-2024.jpg (CC BY-SA 4.0, LN9267)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2024-10-01: in the Polar/DHL co-brand."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Polar_Air_Cargo_N857GT_24-01-2024.jpg",
+          "title": "Polar Air Cargo N857GT 24-01-2024.jpg (CC BY-SA 4.0, LN9267)",
+          "accessed": "2026-11-22",
+          "note": "Commons photo, 2024-01-24: in the Polar/DHL co-brand."
+        }
+      ],
+      "status": "photographed in the Polar/DHL co-brand 2024-01-24 and 2024-10-01 (Commons)",
+      "notes": "Polar Air Cargo's 747-8F in the Polar/DHL co-brand; Atlas took Polar over in 2025, and sister N858GT had lost its titles by 2025-03, so this may change."
+    }
+  ]
+}

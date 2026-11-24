@@ -1,0 +1,394 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "CAL",
+  "airframes": [
+    {
+      "registration": "B-18771",
+      "livery": "cargo",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/China_Airlines#Fleet",
+          "title": "Wikipedia: China Airlines, fleet",
+          "accessed": "2026-11-13",
+          "note": "China Airlines Cargo: 8 747-400F and 10 777F."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-18771_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "8990a0",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "lastSeen": "2026-11-14",
+      "status": "active: in Commons' 'Current' China Airlines Cargo category"
+    },
+    {
+      "registration": "B-18772",
+      "livery": "cargo",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/China_Airlines#Fleet",
+          "title": "Wikipedia: China Airlines, fleet",
+          "accessed": "2026-11-13",
+          "note": "China Airlines Cargo: 8 747-400F and 10 777F."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-18772_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "8990a4",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "lastSeen": "2026-02-04",
+      "status": "active: in Commons' 'Current' China Airlines Cargo category"
+    },
+    {
+      "registration": "B-18773",
+      "livery": "cargo",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/China_Airlines#Fleet",
+          "title": "Wikipedia: China Airlines, fleet",
+          "accessed": "2026-11-13",
+          "note": "China Airlines Cargo: 8 747-400F and 10 777F."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-18773_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "8990a5",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "lastSeen": "2026-02-04",
+      "status": "active: in Commons' 'Current' China Airlines Cargo category"
+    },
+    {
+      "registration": "B-18775",
+      "livery": "cargo",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/China_Airlines#Fleet",
+          "title": "Wikipedia: China Airlines, fleet",
+          "accessed": "2026-11-13",
+          "note": "China Airlines Cargo: 8 747-400F and 10 777F."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-18775_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "8990eb",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "lastSeen": "2026-03-16",
+      "status": "active: in Commons' 'Current' China Airlines Cargo category"
+    },
+    {
+      "registration": "B-18776",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/China_Airlines#Fleet",
+          "title": "Wikipedia: China Airlines, fleet",
+          "accessed": "2026-11-13",
+          "note": "China Airlines Cargo: 8 747-400F and 10 777F."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-18776_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "8990ee",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "lastSeen": "2024-06-21",
+      "status": "active: in Commons' 'Current' China Airlines Cargo category"
+    },
+    {
+      "registration": "B-18777",
+      "livery": "cargo",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/China_Airlines#Fleet",
+          "title": "Wikipedia: China Airlines, fleet",
+          "accessed": "2026-11-13",
+          "note": "China Airlines Cargo: 8 747-400F and 10 777F."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-18777_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "8990ef",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "lastSeen": "2025-08-07",
+      "status": "active: in Commons' 'Current' China Airlines Cargo category"
+    },
+    {
+      "registration": "B-18778",
+      "livery": "cargo",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/China_Airlines#Fleet",
+          "title": "Wikipedia: China Airlines, fleet",
+          "accessed": "2026-11-13",
+          "note": "China Airlines Cargo: 8 747-400F and 10 777F."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-18778_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "899014",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "lastSeen": "2026-05-02",
+      "status": "active: in Commons' 'Current' China Airlines Cargo category"
+    },
+    {
+      "registration": "B-18779",
+      "livery": "cargo",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/China_Airlines#Fleet",
+          "title": "Wikipedia: China Airlines, fleet",
+          "accessed": "2026-11-13",
+          "note": "China Airlines Cargo: 8 747-400F and 10 777F."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-18779_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "type": "B77L",
+      "lastSeen": "2025-11-27",
+      "status": "active: in Commons' 'Current' China Airlines Cargo category; hexdb has no entry, so no hex"
+    },
+    {
+      "registration": "B-18780",
+      "livery": "cargo",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/China_Airlines#Fleet",
+          "title": "Wikipedia: China Airlines, fleet",
+          "accessed": "2026-11-13",
+          "note": "China Airlines Cargo: 8 747-400F and 10 777F."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-18780_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "899017",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "lastSeen": "2026-03-16",
+      "status": "active: in Commons' 'Current' China Airlines Cargo category"
+    },
+    {
+      "registration": "B-18781",
+      "livery": "cargo",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/China_Airlines#Fleet",
+          "title": "Wikipedia: China Airlines, fleet",
+          "accessed": "2026-11-13",
+          "note": "China Airlines Cargo: 8 747-400F and 10 777F."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-18781_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "8990a6",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "lastSeen": "2026-11-14",
+      "status": "active: in Commons' 'Current' China Airlines Cargo category"
+    },
+    {
+      "registration": "B-18717",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/China_Airlines#Fleet",
+          "title": "Wikipedia: China Airlines, fleet",
+          "accessed": "2026-11-13",
+          "note": "China Airlines Cargo: 8 747-400F and 10 777F."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-18717_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "899103",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B744",
+      "status": "active: in Commons' 'Current' China Airlines Cargo category (747-400F: titles differ, see cargo.json notes)",
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "B-18718",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/China_Airlines#Fleet",
+          "title": "Wikipedia: China Airlines, fleet",
+          "accessed": "2026-11-13",
+          "note": "China Airlines Cargo: 8 747-400F and 10 777F."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-18718_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "899104",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B744",
+      "status": "active: in Commons' 'Current' China Airlines Cargo category (747-400F: titles differ, see cargo.json notes)"
+    },
+    {
+      "registration": "B-18719",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/China_Airlines#Fleet",
+          "title": "Wikipedia: China Airlines, fleet",
+          "accessed": "2026-11-13",
+          "note": "China Airlines Cargo: 8 747-400F and 10 777F."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-18719_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "899105",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B744",
+      "status": "active: in Commons' 'Current' China Airlines Cargo category (747-400F: titles differ)"
+    },
+    {
+      "registration": "B-18720",
+      "livery": "cargo",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/China_Airlines#Fleet",
+          "title": "Wikipedia: China Airlines, fleet",
+          "accessed": "2026-11-13",
+          "note": "China Airlines Cargo: 8 747-400F and 10 777F."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-18720_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "899106",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B744",
+      "lastSeen": "2026-11-14",
+      "status": "active: in Commons' 'Current' China Airlines Cargo category (747-400F: titles differ)"
+    },
+    {
+      "registration": "B-18721",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/China_Airlines#Fleet",
+          "title": "Wikipedia: China Airlines, fleet",
+          "accessed": "2026-11-13",
+          "note": "China Airlines Cargo: 8 747-400F and 10 777F."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-18721_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "899107",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B744",
+      "status": "active: in Commons' 'Current' China Airlines Cargo category (747-400F: titles differ)"
+    },
+    {
+      "registration": "B-18722",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/China_Airlines#Fleet",
+          "title": "Wikipedia: China Airlines, fleet",
+          "accessed": "2026-11-13",
+          "note": "China Airlines Cargo: 8 747-400F and 10 777F."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-18722_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "89911b",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B744",
+      "status": "active: in Commons' 'Current' China Airlines Cargo category (747-400F: titles differ)"
+    },
+    {
+      "registration": "B-18723",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/China_Airlines#Fleet",
+          "title": "Wikipedia: China Airlines, fleet",
+          "accessed": "2026-11-13",
+          "note": "China Airlines Cargo: 8 747-400F and 10 777F."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-18723_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "89911c",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B744",
+      "status": "active: in Commons' 'Current' China Airlines Cargo category (747-400F: titles differ)"
+    },
+    {
+      "registration": "B-18725",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/China_Airlines#Fleet",
+          "title": "Wikipedia: China Airlines, fleet",
+          "accessed": "2026-11-13",
+          "note": "China Airlines Cargo: 8 747-400F and 10 777F."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:B-18725_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "8991a4",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B744",
+      "status": "active: in Commons' 'Current' China Airlines Cargo category (747-400F: titles differ)"
+    }
+  ]
+}

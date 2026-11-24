@@ -1,0 +1,735 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "global",
+  "airline": "ASA",
+  "name": "Global livery (787 aurora)",
+  "kind": "standard",
+  "from": "2026-01-07",
+  "confidence": "medium",
+  "drawnOn": "B789",
+  "description": "Alaska's widebody scheme, inspired by the aurora borealis: a white fuselage with the navy 'Alaska' wordmark large across the forward windows; a thin emerald band along the windows from ahead of the wing widens aft into a sweep of emerald, aqua-green and blue that rises to fill the aft fuselage, the blue reaching the crown at the fin; the fin blue to navy with two aqua-green ribbons, sharp-edged below and fading upward, running from the fillet up to the trailing edge; no Native face on the tail. White engines with an emerald swoosh along the top of each nacelle, widening aft. Worn by every Alaska 787-9.",
+  "sources": [
+    {
+      "url": "https://news.alaskaair.com/images-videos/alaska-airlines-global-livery/",
+      "title": "Alaska Airlines newsroom press kit: Alaska Airlines welcomes first 787 widebody aircraft in new global livery (2026-01-07)",
+      "accessed": "2026-11-22",
+      "note": "Airline press photos of N784HA, painted at Fort Worth in December 2025 and shown at Boeing Field 2026-01-07: 251219_787_stills_2672 (left side, level, measured for the title and checked for the aft sweep), _2512 (fin close-up, measured for the fin's bands), _2675 (engine close-up, measured for the nacelle's green). Measured only; not copied."
+    },
+    {
+      "url": "https://www.alaskaair.com/content/travel-info/our-aircraft/787-global-livery",
+      "title": "Alaska Airlines: New Global Livery",
+      "accessed": "2026-11-22",
+      "note": "Introduced August 2025 for long-haul international flying; the aurora borealis theme."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N782HA_B787_ALASKA_AIRLINES_(55230371040).jpg",
+      "title": "N782HA B787 ALASKA AIRLINES, 2026-04-23 (CC BY-SA 4.0, Jonathan Payne)",
+      "accessed": "2026-11-22",
+      "note": "N782HA left side, level, long lens, 2026-04-23: fitted to the 787-9's measured shape; the aft sweep's edges, the window band and the title probed off it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Alaska_Airlines_global_livery_on_Boeing_787-9_-_inaugural_flight_at_Seattle-Tacoma_International_Airport_-_03.jpg",
+      "title": "Alaska Airlines global livery on Boeing 787-9, inaugural flight at Sea-Tac, 2026-01-08 (CC BY-SA 4.0, SounderBruce)",
+      "accessed": "2026-11-22",
+      "note": "N784HA left side, 2026-01-08: checked against."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Alaska_Airlines_Boeing_787-9_Dreamliner_(N781HA)_at_SEA.jpg",
+      "title": "Alaska Airlines Boeing 787-9 Dreamliner (N781HA) at SEA, 2026-05-13 (CC BY 4.0, Quintin Soloviev)",
+      "accessed": "2026-11-22",
+      "note": "N781HA right side, 2026-05-13: the right side mirrors the left."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N783HA_B787_ALASKA_AIRLINES_(55200581928).jpg",
+      "title": "N783HA B787 ALASKA AIRLINES, 2026-04-11 (CC BY-SA 4.0, Jonathan Payne)",
+      "accessed": "2026-11-22",
+      "note": "N783HA right side, 2026-04-11."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Alaska_Airlines_-_N780HA_-_AS100_(SEA-LHR).jpg",
+      "title": "Alaska Airlines - N780HA - AS100 (SEA-LHR), 2026-10-02 (CC BY 4.0, Aubrey)",
+      "accessed": "2026-11-22",
+      "note": "N780HA in the scheme by 2026-10-02 (it wore Hawaiian's Pualani on 2025-04-26)."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F3F4",
+      "official": false
+    },
+    "midnight": {
+      "hex": "#14306B",
+      "official": false,
+      "name": "Alaska midnight (title)"
+    },
+    "navy": {
+      "hex": "#0F3266",
+      "official": false,
+      "name": "aurora navy"
+    },
+    "blue": {
+      "hex": "#1A4C9C",
+      "official": false,
+      "name": "aurora blue"
+    },
+    "sky": {
+      "hex": "#4AB4E4",
+      "official": false,
+      "name": "aurora sky blue"
+    },
+    "aqua": {
+      "hex": "#45C4A8",
+      "official": false,
+      "name": "aurora aqua green"
+    },
+    "emerald": {
+      "hex": "#1F6F5A",
+      "official": false,
+      "name": "emerald"
+    },
+    "forest": {
+      "hex": "#12352B",
+      "official": false,
+      "name": "deep green"
+    },
+    "wingGray": {
+      "hex": "#C9CDD2",
+      "official": false
+    },
+    "lip": {
+      "hex": "#B9BEC6",
+      "official": false,
+      "name": "bare leading edges"
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "emerald: a thin band along the windows from ahead of the wing, widening aft into the green that sweeps down to the belly behind the wing and fills the lower aft fuselage",
+        "color": "emerald",
+        "points": [
+          [
+            0.338,
+            0.18,
+            1
+          ],
+          [
+            0.384,
+            0.2
+          ],
+          [
+            0.442,
+            0.204
+          ],
+          [
+            0.4995,
+            0.23
+          ],
+          [
+            0.557,
+            0.25
+          ],
+          [
+            0.615,
+            0.2615
+          ],
+          [
+            0.649,
+            0.278
+          ],
+          [
+            0.684,
+            0.327
+          ],
+          [
+            0.718,
+            0.414
+          ],
+          [
+            0.7525,
+            0.498
+          ],
+          [
+            0.787,
+            0.614
+          ],
+          [
+            0.8156,
+            0.774
+          ],
+          [
+            0.83,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            0.77,
+            -1
+          ],
+          [
+            0.755,
+            -0.659
+          ],
+          [
+            0.7316,
+            -0.433
+          ],
+          [
+            0.7083,
+            -0.298
+          ],
+          [
+            0.6734,
+            -0.1755
+          ],
+          [
+            0.6386,
+            -0.088
+          ],
+          [
+            0.6038,
+            -0.0166
+          ],
+          [
+            0.5576,
+            0.028
+          ],
+          [
+            0.4999,
+            0.075
+          ],
+          [
+            0.4422,
+            0.1075
+          ],
+          [
+            0.3845,
+            0.148
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          0
+        ],
+        "smooth": true
+      },
+      {
+        "name": "deep green low on the aft fuselage (the emerald darkening toward the belly, a halftone fade drawn as one edge)",
+        "color": "forest",
+        "points": [
+          [
+            0.762,
+            -1
+          ],
+          [
+            0.765,
+            -0.75
+          ],
+          [
+            0.8,
+            -0.55
+          ],
+          [
+            0.9,
+            -0.47
+          ],
+          [
+            1,
+            -0.42
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0,
+          2
+        ],
+        "smooth": true
+      },
+      {
+        "name": "aurora blue over the upper aft fuselage, its front edge rising from the window line to the crown at the fin and wrapping the tail cone",
+        "color": "blue",
+        "points": [
+          [
+            0.6148,
+            0.2615,
+            1
+          ],
+          [
+            0.649,
+            0.278
+          ],
+          [
+            0.684,
+            0.327
+          ],
+          [
+            0.718,
+            0.414
+          ],
+          [
+            0.7525,
+            0.498
+          ],
+          [
+            0.787,
+            0.614
+          ],
+          [
+            0.8156,
+            0.774
+          ],
+          [
+            0.83,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -0.42
+          ],
+          [
+            0.95,
+            -0.3
+          ],
+          [
+            0.9,
+            -0.2
+          ],
+          [
+            0.84,
+            0.1
+          ],
+          [
+            0.78,
+            0.25
+          ],
+          [
+            0.7,
+            0.235
+          ],
+          [
+            0.64,
+            0.24
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          0
+        ],
+        "smooth": true
+      },
+      {
+        "name": "aqua-green ribbon over the window line between the blue and the green, from behind the wing to under the tailplane",
+        "color": "aqua",
+        "points": [
+          [
+            0.6,
+            0.165,
+            1
+          ],
+          [
+            0.638,
+            0.218
+          ],
+          [
+            0.672,
+            0.242
+          ],
+          [
+            0.707,
+            0.266
+          ],
+          [
+            0.753,
+            0.299
+          ],
+          [
+            0.81,
+            0.33
+          ],
+          [
+            0.87,
+            0.31
+          ],
+          [
+            0.93,
+            0.22
+          ],
+          [
+            0.97,
+            0.1
+          ],
+          [
+            0.93,
+            0.0
+          ],
+          [
+            0.87,
+            -0.06
+          ],
+          [
+            0.8115,
+            0.0
+          ],
+          [
+            0.754,
+            0.03
+          ],
+          [
+            0.7075,
+            0.06
+          ],
+          [
+            0.673,
+            0.08
+          ],
+          [
+            0.638,
+            0.1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          0
+        ],
+        "smooth": true
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      2,
+      3
+    ]
+  },
+  "fin": {
+    "base": "blue",
+    "areas": [
+      {
+        "name": "navy toward the tip and along the leading edge",
+        "color": "navy",
+        "points": [
+          [
+            0,
+            0.3
+          ],
+          [
+            0.25,
+            0.5
+          ],
+          [
+            0.55,
+            0.64
+          ],
+          [
+            1,
+            0.72
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          2
+        ],
+        "smooth": true
+      },
+      {
+        "name": "upper aqua ribbon: a sharp lower edge from the fillet to the trailing edge at half height, fading upward into the blue (drawn to about half the fade)",
+        "color": "aqua",
+        "points": [
+          [
+            0.15,
+            0
+          ],
+          [
+            0.218,
+            0.061
+          ],
+          [
+            0.391,
+            0.197
+          ],
+          [
+            0.657,
+            0.348
+          ],
+          [
+            1,
+            0.47
+          ],
+          [
+            1,
+            0.57
+          ],
+          [
+            0.62,
+            0.45
+          ],
+          [
+            0.33,
+            0.3
+          ],
+          [
+            0.15,
+            0.15
+          ],
+          [
+            0.04,
+            0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          2
+        ],
+        "smooth": true
+      },
+      {
+        "name": "lower aqua ribbon, the same below it",
+        "color": "aqua",
+        "points": [
+          [
+            0.4,
+            0
+          ],
+          [
+            0.413,
+            0.015
+          ],
+          [
+            0.551,
+            0.121
+          ],
+          [
+            0.753,
+            0.227
+          ],
+          [
+            1,
+            0.326
+          ],
+          [
+            1,
+            0.385
+          ],
+          [
+            0.7,
+            0.28
+          ],
+          [
+            0.48,
+            0.165
+          ],
+          [
+            0.33,
+            0.05
+          ],
+          [
+            0.28,
+            0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          2
+        ],
+        "smooth": true
+      },
+      {
+        "name": "sky blue at the root's trailing corner",
+        "color": "sky",
+        "points": [
+          [
+            0.56,
+            0
+          ],
+          [
+            0.77,
+            0.061
+          ],
+          [
+            1,
+            0.136
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0
+        ],
+        "smooth": true
+      },
+      {
+        "name": "bare light-gray leading edge",
+        "color": "lip",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0.035,
+            0
+          ],
+          [
+            0.03,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          2
+        ]
+      }
+    ],
+    "rudder": "blue",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "stabilizer": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "areas": [
+      {
+        "name": "emerald swoosh along the top of the nacelle, thin at the inlet and sweeping down to the fan cowl's serrated trailing edge",
+        "color": "emerald",
+        "points": [
+          [
+            0.08,
+            1
+          ],
+          [
+            0.086,
+            0.88
+          ],
+          [
+            0.25,
+            0.82
+          ],
+          [
+            0.405,
+            0.75
+          ],
+          [
+            0.5,
+            0.64
+          ],
+          [
+            0.589,
+            0.47
+          ],
+          [
+            0.687,
+            0.06
+          ],
+          [
+            0.712,
+            -0.2,
+            1
+          ],
+          [
+            0.712,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ],
+        "smooth": true
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      2
+    ]
+  },
+  "logos": [],
+  "titles": [
+    {
+      "text": "Alaska",
+      "place": "fuselage",
+      "at": [
+        0.112,
+        -0.346
+      ],
+      "height": 0.93,
+      "color": "midnight",
+      "length": 0.163,
+      "style": "The 2016 Alaska wordmark, navy, across the forward windows from just behind the forward door to just ahead of the second; the A's crossbar runs forward as a long stroke.",
+      "confidence": "high",
+      "sourceRefs": [
+        2,
+        0,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Kaufmann Bold",
+          "Futura Bold Oblique"
+        ],
+        "weight": 800,
+        "slantDeg": 16,
+        "width": "normal",
+        "strokes": "brush",
+        "case": "mixed",
+        "xHeight": 0.55
+      }
+    }
+  ],
+  "notes": "Measured on N782HA (2026-04-23, left side, long lens, fitted to the 787-9 shape) for the aft sweep's edges and the title, and on Alaska's own press photos of N784HA (December 2025) for the fin's ribbons and the nacelle. The aurora is halftone gradients: drawn as flat fields, each fade cut at about its middle; the fin's two ribbons and the fuselage's aqua have sharp lower edges in paint, their upper edges are fades. The right side mirrors the left (N781HA, N783HA). Tagged by airframe in airframes/ASA.json because the jets fly as ASA and the callsign default (Alaska's 737 standard) would be wrong for them. The ex-Hawaiian registrations stay (N780HA-N784HA). Alaska's further 787-9 deliveries (through 2027) and the 787-10s (from 2028) will wear it: tag them as they arrive.",
+  "history": "Announced 2025-08-04 with Alaska's first European routes; the first jet, N784HA (built for Hawaiian, delivered December 2025 in white and painted at Fort Worth), was shown at Boeing Field on 2026-01-07. Hawaiian's four 787-9s (N780HA-N783HA) traded their Pualani livery for it by spring 2026 (N780HA by October) as the 787s moved to Seattle."
+}

@@ -1,0 +1,169 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "FLE",
+  "name": "Black and lime",
+  "kind": "standard",
+  "confidence": "medium",
+  "drawnOn": "B38M",
+  "description": "White forward fuselage with a large black lower-case 'flair' over the forward cabin. A black band runs along the lower fuselage from just behind the nose; behind the wing a swoosh sweeps down from the crown to the belly, edged with a lime and a purple pinstripe, and everything aft of it is black. Black fin with a big lime disc at its foot, running down over the tail. Lime engines with bare lips, lime winglets.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:C-FFFX_@_LAX,_2023-11-06.jpg",
+      "title": "C-FFFX @ LAX, 2023-11-06.jpg (CC BY-SA 2.0, Greg Gayden)",
+      "accessed": "2026-11-20",
+      "note": "737-8 C-FFFX landing at LAX, left side from below, 2023-11-06. Fitted to shapes/B38M.json (doors pinned): the swoosh and its pinstripes, the belly band's edge, the lime disc, the title's ends and heights."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:C-FLKA_at_YYZ_20260701.jpg",
+      "title": "C-FLKA at YYZ 20260701.jpg (CC BY 4.0, VynedJ)",
+      "accessed": "2026-11-20",
+      "note": "737-8 C-FLKA at Toronto, left side from ahead and above, 2026-07-01: the scheme still current; the title complete (the r clear of the engine), lime tail and disc, lime engines and winglets."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:C-FLKA_@_LAS,_2024-01-08.jpg",
+      "title": "C-FLKA @ LAS, 2024-01-08.jpg (CC BY-SA 2.0, Tomás Del Coro)",
+      "accessed": "2026-11-20",
+      "note": "737-8 C-FLKA, left side from below, 2024-01-08: the black band under the forward fuselage, the pinstripes down to the belly, both winglets lime."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:C-FLUT_@_YYZ,_2025-02-19.jpg",
+      "title": "C-FLUT @ YYZ, 2025-02-19.jpg (CC BY-SA 2.0, Stanley Ip)",
+      "accessed": "2026-11-20",
+      "note": "737-8 C-FLUT taking off at night, right side from behind, 2025-02-19: the right side matches (title forward, black aft, lime disc low on the fin)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:C-FLUJ_@_LAX,_2023-09-12.jpg",
+      "title": "C-FLUJ @ LAX, 2023-09-12.jpg (CC BY 2.0, Ian Gratton)",
+      "accessed": "2026-11-20",
+      "note": "737-8 C-FLUJ at LAX, 2023-09-12: a simpler variant (all-white body, black fin with the lime disc, white engines, blue winglets), noted, not drawn."
+    }
+  ],
+  "palette": {
+    "white": { "hex": "#F1F1EE", "official": false },
+    "black": { "hex": "#15181D", "official": false },
+    "lime": { "hex": "#88DE72", "official": false },
+    "purple": { "hex": "#A54FC4", "official": false },
+    "lip": { "hex": "#C3C7CC", "official": false }
+  },
+  "fuselage": {
+    "base": "white",
+    "windows": "plain",
+    "areas": [
+      {
+        "name": "black belly band from behind the nose, and the whole aft fuselage behind the swoosh",
+        "color": "black",
+        "smooth": true,
+        "points": [
+          [0.1088, -1], [0.1406, -0.6082], [0.1756, -0.505], [0.3145, -0.4927], [0.4533, -0.479], [0.5921, -0.505], [0.732, -0.53, 1],
+          [0.7177, -0.3499], [0.6975, -0.149], [0.6774, 0.0511], [0.6574, 0.2653], [0.6392, 0.4514], [0.5753, 0.8311], [0.555, 1],
+          [1, 1], [1, -1]
+        ],
+        "confidence": "high",
+        "sourceRefs": [0, 1, 2]
+      },
+      {
+        "name": "lime pinstripe ahead of the purple, crown to belly",
+        "color": "lime",
+        "smooth": true,
+        "points": [
+          [0.555, 1], [0.5753, 0.8311], [0.6392, 0.4514], [0.6574, 0.2653], [0.6774, 0.0511], [0.6975, -0.149], [0.7177, -0.3499], [0.7379, -0.5863], [0.7514, -0.8557], [0.757, -1],
+          [0.766, -1], [0.7604, -0.923], [0.7469, -0.6074], [0.7267, -0.3593], [0.7065, -0.1525], [0.6865, 0.0509], [0.6664, 0.2663], [0.6483, 0.4539], [0.585, 0.83], [0.565, 1]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [0, 1, 2]
+      },
+      {
+        "name": "purple pinstripe behind the lime",
+        "color": "purple",
+        "smooth": true,
+        "points": [
+          [0.565, 1], [0.585, 0.83], [0.6483, 0.4539], [0.6664, 0.2663], [0.6865, 0.0509], [0.7065, -0.1525], [0.7267, -0.3593], [0.7469, -0.6074], [0.7604, -0.923], [0.766, -1],
+          [0.7745, -1], [0.7686, -0.95], [0.7566, -0.6319], [0.7364, -0.371], [0.7163, -0.158], [0.6962, 0.0483], [0.6761, 0.2673], [0.658, 0.4551], [0.595, 0.83], [0.575, 1]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [0, 1, 2]
+      },
+      {
+        "name": "the lime disc's lower part, over the tail under the fin",
+        "color": "lime",
+        "smooth": true,
+        "points": [
+          [0.9625, 1], [0.8593, 1], [0.8556, 0.7278], [0.8574, 0.2029], [0.8642, -0.1392], [0.8754, -0.4629], [0.8895, -1],
+          [0.9379, -1], [0.9503, -0.6754], [0.9588, 0.022], [0.9625, 0.5]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [0, 1]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [0, 1, 2, 3]
+  },
+  "fin": {
+    "base": "black",
+    "areas": [
+      {
+        "name": "lime disc at the fin's foot, toward the trailing edge",
+        "color": "lime",
+        "smooth": true,
+        "points": [
+          [1.0374, -0.0176], [0.9926, 0.0883], [0.903, 0.1862], [0.7739, 0.2603], [0.6179, 0.3108], [0.4592, 0.3258], [0.3269, 0.3094], [0.2537, 0.2577], [0.231, 0.1826], [0.2605, 0.0841], [0.3081, -0.0221], [0.3219, -0.128], [0.3684, -0.2259], [0.4449, -0.3], [0.5419, -0.3504], [0.6552, -0.3655], [0.7704, -0.349], [0.8735, -0.2974], [0.9589, -0.2223], [1.0172, -0.1238]
+        ],
+        "confidence": "high",
+        "sourceRefs": [0, 1, 3, 4]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [0, 1, 3]
+  },
+  "wings": { "top": "#B9BEC5", "under": "#C9CDD2" },
+  "winglets": {
+    "outer": "lime",
+    "inner": "lime",
+    "confidence": "high",
+    "sourceRefs": [0, 1, 2]
+  },
+  "engines": {
+    "cowling": "lime",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [0, 1, 2, 3]
+  },
+  "titles": [
+    {
+      "text": "flair",
+      "place": "fuselage",
+      "at": [0.205, -0.347],
+      "height": 0.99,
+      "length": 0.191,
+      "color": "black",
+      "style": "'flair' in a heavy, slightly condensed lower-case sans, tall ascenders, set tight; across the windows over the forward cabin, from just behind the forward door to the engine's inlet.",
+      "confidence": "high",
+      "sourceRefs": [0, 1, 2],
+      "type": {
+        "similar": ["Futura Extra Bold Condensed", "Gotham Condensed Black"],
+        "weight": 900,
+        "slantDeg": 0,
+        "width": "condensed",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.63
+      }
+    }
+  ],
+  "logos": [
+    {
+      "mark": "FLE/canada-flag",
+      "place": "fuselage",
+      "at": [0.783, 0.29],
+      "height": 0.08,
+      "colors": ["#D52B1E", "white"],
+      "description": "Small Canadian flag behind the registration, over the rear windows.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Flag_of_Canada_(Pantone).svg",
+      "confidence": "medium",
+      "sourceRefs": [0, 1, 2]
+    }
+  ],
+  "notes": "Measured on C-FFFX (737-8, left side, LAX, 2023-11-06); still the scheme on C-FLKA in July 2026. The title runs x 0.205-0.396 with its baseline at y -0.35 (below the windows) and its ascenders at y 0.64, about 2.7 m tall; lower case at 0.63 of that. The swoosh reaches the crown at about x 0.56 (hidden by the wing; a little of it shows above the wing root), the pinstripes about 0.35 m wide each. White lettering runs along the black belly (seen upside down from below; not readable in these photos, so not drawn). Some leased 737-8s fly a simpler variant (C-FLUJ, LAX 2023-09-12): an all-white body with the same 'flair', the black fin with its lime disc, white engines and blue winglets; not drawn. The 'from' year is left out: no dated source for the scheme's introduction in hand.",
+  "history": "New in the LAX round (2026-11-20); Flair had no scheme here before."
+}

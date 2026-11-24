@@ -1,0 +1,196 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "FIN",
+  "name": "2010 livery",
+  "kind": "standard",
+  "from": "2010",
+  "confidence": "medium",
+  "drawnOn": "A321",
+  "description": "All white, with FINNAIR in huge dark blue italic capitals across the forward cabin from just behind the front door to the wing, and the blue Finnair 'F' on the white fin. Plain white engines.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Finnair",
+      "accessed": "2026-11-13"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A321-231_(c-n_8041,_OH-LZT)_2025-07-24_Andre_Gerwing_Collection_ID_024497.jpg",
+      "accessed": "2026-11-13",
+      "title": "Airbus A321-231 (c-n 8041, OH-LZT) 2025-07-24 (CC BY-SA 4.0)",
+      "note": "Left side at rotation, 2025-07-24: title span on a narrow-body, fin F."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Finnair_Airbus_A350-900_(OH-LWT)_@_HEL,_February_2025.jpg",
+      "accessed": "2026-11-13",
+      "title": "Finnair Airbus A350-900 (OH-LWT) @ HEL, February 2025 (CC BY-SA 2.0)",
+      "note": "Left side landing, 2025-02: title height and the F on the fin."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:OH-LWS(A359)AY1337.jpg",
+      "accessed": "2026-11-13",
+      "title": "OH-LWS (A359) (CC BY-SA 4.0)",
+      "note": "Left side from below, 2026-08-19: belly plain white, engines white."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:OH-LWG_at_HEL_20260125.jpg",
+      "accessed": "2026-11-22",
+      "title": "OH-LWG at HEL 20260125 (CC BY 4.0, VynedJ)",
+      "note": "A350 left side, level, 2026-01-25: the FINNAIR lettering measured (rectified by the window row) and the fin's F."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Finnair_A321-231_OH-LZO.jpg",
+      "accessed": "2026-11-22",
+      "title": "Finnair A321-231 OH-LZO (CC BY-SA 4.0, Zima Savolainen-Schtakleff)",
+      "note": "A321 left side, 2026-08-26: the FINNAIR lettering measured, averaged with OH-LWG's."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:OH-LWP_at_AMS_20261006.jpg",
+      "accessed": "2026-11-22",
+      "title": "OH-LWP at AMS 20261006 (CC BY 4.0, VynedJ)",
+      "note": "A350 left side, 2026-10-06: the fin's F traced (the sharpest of four fins)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Finnair_OH-LZN_A321-231.jpg",
+      "accessed": "2026-11-22",
+      "title": "Finnair OH-LZN A321-231 (CC BY-SA 4.0, Zima Savolainen)",
+      "note": "A321 right side, 2025-08-11: the F on the fin is mirrored there (its arms point aft); the title reads normally."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "blue": {
+      "hex": "#0B1560",
+      "name": "Finnair blue",
+      "official": false
+    },
+    "cowl": {
+      "hex": "#ECEDEF",
+      "official": false
+    },
+    "lip": {
+      "hex": "#BFC3C8",
+      "name": "bare metal inlet lip",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2,
+      3
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2,
+      3
+    ]
+  },
+  "winglets": {
+    "outer": "white",
+    "inner": "white",
+    "confidence": "low",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "cowl",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "FIN/f",
+      "place": "fin",
+      "at": [
+        0.42,
+        0.36
+      ],
+      "height": 0.44,
+      "colors": [
+        "blue"
+      ],
+      "description": "The Finnair 'F' alone (no lettering on the fin): a ribbon F in Finnair blue, its stem a broad band leaning about 48° forward of upright that flows at the bottom into a foot bar running forward and at the top into the long top arm running aft; a shorter middle arm. Mirrored on the right side, so its arms point aft on both.",
+      "reference": "https://commons.wikimedia.org/wiki/File:OH-LWP_at_AMS_20261006.jpg",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2,
+        3,
+        6,
+        7
+      ]
+    },
+    {
+      "mark": "FIN/flag",
+      "place": "fuselage",
+      "at": [
+        0.74,
+        0.3
+      ],
+      "height": 0.05,
+      "colors": [
+        "white",
+        "#003580"
+      ],
+      "description": "A small Finnish flag (blue Nordic cross on white) beside the registration above the rear windows.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Flag_of_Finland.svg",
+      "confidence": "low",
+      "sourceRefs": [
+        1,
+        3
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "FINNAIR",
+      "place": "fuselage",
+      "at": [
+        0.133,
+        -0.18
+      ],
+      "height": 1.0,
+      "color": "blue",
+      "style": "The Finnair wordmark, enormous: heavy capitals slanted about 20° forward, squared stems with small rounded corners, the F's and the A's and R's tops swept round in a big curve at the front, the A open at the foot and its crossbar on the window row, the N's diagonals cut square; from behind door 1 to the wing, covering the windows. Reads normally (slanted forward) on both sides.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "type": {
+        "similar": [
+          "Futura Extra Bold Oblique",
+          "Avenir Next Heavy Italic"
+        ],
+        "weight": 800,
+        "slantDeg": 10,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "length": 0.4,
+      "mark": "FIN/wordmark"
+    }
+  ],
+  "notes": "Measured on an A321 (OH-LZT) and A350s; the title runs from x ≈ 0.13 to ≈ 0.53 on the A321 and to ≈ 0.56 on the A350. All photos show the left side; the right side is assumed the same (the F and the title read normally there). A oneworld logo by the forward door and the 'Finnair' small print were not resolved in these photos. Some aircraft wear the Marimekko 'Unikko' or Moomin specials. Re-checked 2026-11-15: the title given its measured length (x 0.133-0.533 on OH-LZT, as noted). Its height and baseline weren't re-measured: the only A321 photo is taken in rotation (pitched up, a little from ahead), and the cited A350 photos are another type; a side-on A320-family photo would settle them.",
+  "history": "Replaced Skyarium v1's approximation (2026-11). The 2010 scheme replaced the white livery with a blue cheatline-free 'FINNAIR' title and the blue globe-and-F tail of 2000."
+}

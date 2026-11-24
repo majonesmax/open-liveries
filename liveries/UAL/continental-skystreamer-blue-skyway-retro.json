@@ -1,0 +1,615 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "continental-skystreamer-blue-skyway-retro",
+  "airline": "UAL",
+  "name": "Continental 'Skystreamer/Blue Skyway' retro",
+  "kind": "retro",
+  "confidence": "medium",
+  "drawnOn": "B739",
+  "description": "Fuselage: Light gray 'face' (radome, nose and cockpit windows, down to the emblem) and light gray below the lower red line; white (slightly warm) only on top: above the cockpit windows and, aft, above the lower red line, the three pinstripes sweeping down from the cockpit to the emblem making the edge between them. Cheatlines: Above the windows three pinstripes, navy over two red, sweeping down at the front to the nose emblem; below the windows a single slightly heavier red line from the emblem to the tail cone. Tail: White fin with a broad navy band across it carrying 'Continental' in white serif, a thin red and a navy pinstripe under the band. Engines: White cowlings, polished lips. Winglets: White with navy and red pinstripes near the root. Titles: 'CONTINENTAL AIRLINES' in widely spaced navy capitals above the forward windows. Logo: the old Continental eagle roundel (red ring, blue eagle, 'CONTINENTAL AIRLINES' on a banner, red and white shield) just behind the radome, under the cockpit. Artwork: none.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:N75435_(aircraft)",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://www.airhistory.net/photo/478408/N75435",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:United_Boeing_737-900ER_N75435_Continental_retro_BWI_MD3.jpg",
+      "title": "United Boeing 737-900ER N75435 Continental retro BWI MD3 (CC BY-SA 4.0)",
+      "accessed": "2026-11-12",
+      "note": "Left side, 2025-08-28: cheatlines, titles, nose emblem, fin band, winglet; the main geometry source."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:United_Boeing_737-900ER_N75435_Continental_retro_BWI_MD1.jpg",
+      "title": "United Boeing 737-900ER N75435 Continental retro BWI MD1 (CC BY-SA 4.0)",
+      "accessed": "2026-11-12",
+      "note": "Left side, 2025-08-28: same layout, a little further away."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:United_Boeing_737-900ER_N75435_Continental_retro_MD1.jpg",
+      "title": "United Boeing 737-900ER N75435 Continental retro MD1 (CC BY-SA 4.0)",
+      "accessed": "2026-11-12",
+      "note": "From below, 2026-03-13: the underside below the red line a light gray, about 0.85 of the white above the line."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:United_Boeing_737-900ER_N75435_Continental_retro_MD2.jpg",
+      "title": "United Boeing 737-900ER N75435 Continental retro MD2 (CC BY-SA 4.0)",
+      "accessed": "2026-11-22",
+      "note": "From below, 2026-03-13: the same light gray underside, the red line its upper edge from the nose emblem to the tail."
+    }
+  ],
+  "notes": "Drawn from left-side photos (2025-08-28); the right side wasn't seen clearly (only from below, 2026-03-13), so the right is assumed to match. The navy pinstripe under the fin band and the winglet pinstripes are small in the photos (low confidence). Scheme name varies by source ('Skystreamer' 1940s-50s vs 'Blue Skyway'). Re-checked 2026-11-15 on N75435 (737-900ER, 2025-08-28): the pinstripes' sweep down to the nose drawn as curves (straight from the forward door aft, with a corner where they kink down at the tail); the fin's 'Continental' given its length, x 0.08-0.94 of the chord, filling the band. Redrawn 2026-11-22 after a report that the underside is gray: below the red line under the windows it is a light, neutral gray, about 0.81 of the white's brightness in direct sun on the side (2025-08-28) and 0.85 from below (2026-03-13, white clipped there, so if anything darker); #C4C6C9 is that share of the white. The red line is its upper edge from the emblem to the tail. Corrected the same day (a report from someone who watches this jet: a gray 'face', white only on top): contrast-stretched, the 2025-08-28 left side (MD3) and front quarter (MD2) both show the radome, the nose ahead of the windshield (to the crown), the cockpit windows' surround and the area under them ahead of the pinstripes' sweep the same light gray (about 0.88-0.9 of the white crown just above), while above the cockpit windows and aft of the sweep, above the red line, it is white (0.98-1.0). So the gray's edge meets the crown just ahead of the windshield (x 0.045), runs along the cockpit windows' tops as the renderer draws them on shapes/B739.json (y 0.32 at the windshield's front, 0.44 over the side windows), drops behind the last side window to the navy pinstripe and follows the pinstripes' sweep down to the emblem, then the red line aft. The windows' tops stand in for a measured edge: a fit of the 2025-08-28 photo to shapes/B739 was too loose (20-30 px at the doors; the photo is 18 degrees below) to probe it, and in the renders the cockpit windows sit a little aft of the emblem compared with the photos. The cowlings were already a light gray and stay so. The three pinstripes' sweep down to the emblem, drawn before as smooth curves, is now two straight segments meeting at a corner (x 0.085), with a corner again where they run level (x 0.13); the photos show a gentle bend there, so this is an approximation by corners, not a measurement. shapes/B739.json exists now, but the photos are too oblique for a fitted check. United's own newsroom and hub.united.com didn't answer automated requests (2026-11-22), so no airline press photo was used. 2026-11-22: the fin's 'Continental' names the mark COA/wordmark (Skyarium's own shape, traced from the 2025-08-28 left-side photo's fin, levelled): a very condensed, slanted bold with a tall C and flared ends, which no typeface we can draw comes close to; the title's box (at, height, length) is unchanged.",
+  "from": "2020",
+  "palette": {
+    "white": {
+      "hex": "#EEEEEB",
+      "official": false
+    },
+    "navy": {
+      "hex": "#1D2B5F",
+      "official": false
+    },
+    "red": {
+      "hex": "#C23B2C",
+      "official": false
+    },
+    "cowl": {
+      "hex": "#DDDFE1",
+      "official": false
+    },
+    "metal": {
+      "hex": "#B4B9BF",
+      "name": "polished inlet lip",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC5",
+      "official": false
+    },
+    "lowerGray": {
+      "hex": "#C4C6C9",
+      "name": "light gray lower fuselage",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "light gray nose, cockpit and lower fuselage: white only above the cockpit windows and the pinstripes",
+        "color": "lowerGray",
+        "points": [
+          [
+            0,
+            1
+          ],
+          [
+            0.045,
+            1
+          ],
+          [
+            0.0499,
+            0.32
+          ],
+          [
+            0.074,
+            0.44
+          ],
+          [
+            0.083,
+            0.44
+          ],
+          [
+            0.09,
+            0.39
+          ],
+          [
+            0.092,
+            0.287
+          ],
+          [
+            0.085,
+            0.279
+          ],
+          [
+            0.062,
+            0.039
+          ],
+          [
+            0.075,
+            -0.02
+          ],
+          [
+            0.97,
+            -0.02
+          ],
+          [
+            1.0,
+            -0.07
+          ],
+          [
+            1.0,
+            -1
+          ],
+          [
+            0,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "upper navy pinstripe",
+        "color": "navy",
+        "points": [
+          [
+            0.062,
+            0.039
+          ],
+          [
+            0.085,
+            0.279
+          ],
+          [
+            0.13,
+            0.324
+          ],
+          [
+            0.95,
+            0.324
+          ],
+          [
+            0.975,
+            0.289
+          ],
+          [
+            0.975,
+            0.261
+          ],
+          [
+            0.95,
+            0.296
+          ],
+          [
+            0.13,
+            0.296
+          ],
+          [
+            0.085,
+            0.251
+          ],
+          [
+            0.062,
+            0.011
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ]
+      },
+      {
+        "name": "upper red pinstripe",
+        "color": "red",
+        "points": [
+          [
+            0.062,
+            0.019
+          ],
+          [
+            0.085,
+            0.247
+          ],
+          [
+            0.13,
+            0.292
+          ],
+          [
+            0.95,
+            0.292
+          ],
+          [
+            0.975,
+            0.257
+          ],
+          [
+            0.975,
+            0.233
+          ],
+          [
+            0.95,
+            0.268
+          ],
+          [
+            0.13,
+            0.268
+          ],
+          [
+            0.085,
+            0.223
+          ],
+          [
+            0.062,
+            -0.005
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ]
+      },
+      {
+        "name": "second red pinstripe",
+        "color": "red",
+        "points": [
+          [
+            0.062,
+            -0.008
+          ],
+          [
+            0.085,
+            0.202
+          ],
+          [
+            0.13,
+            0.247
+          ],
+          [
+            0.95,
+            0.247
+          ],
+          [
+            0.975,
+            0.212
+          ],
+          [
+            0.975,
+            0.188
+          ],
+          [
+            0.95,
+            0.223
+          ],
+          [
+            0.13,
+            0.223
+          ],
+          [
+            0.085,
+            0.178
+          ],
+          [
+            0.062,
+            -0.032
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ]
+      },
+      {
+        "name": "red line below the windows",
+        "color": "red",
+        "points": [
+          [
+            0.075,
+            0.022
+          ],
+          [
+            0.97,
+            0.022
+          ],
+          [
+            1.0,
+            -0.028
+          ],
+          [
+            1.0,
+            -0.072
+          ],
+          [
+            0.97,
+            -0.022
+          ],
+          [
+            0.075,
+            -0.022
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ]
+      }
+    ],
+    "radome": {
+      "color": "lowerGray"
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "rudder": "white",
+    "areas": [
+      {
+        "name": "navy band",
+        "color": "navy",
+        "points": [
+          [
+            0,
+            0.38
+          ],
+          [
+            1,
+            0.33
+          ],
+          [
+            1,
+            0.57
+          ],
+          [
+            0,
+            0.62
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ]
+      },
+      {
+        "name": "red pinstripe under the band",
+        "color": "red",
+        "points": [
+          [
+            0,
+            0.345
+          ],
+          [
+            1,
+            0.295
+          ],
+          [
+            1,
+            0.31
+          ],
+          [
+            0,
+            0.36
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ]
+      },
+      {
+        "name": "navy pinstripe under that",
+        "color": "navy",
+        "points": [
+          [
+            0,
+            0.315
+          ],
+          [
+            1,
+            0.265
+          ],
+          [
+            1,
+            0.28
+          ],
+          [
+            0,
+            0.33
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          2,
+          3
+        ]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "white",
+    "inner": "white",
+    "areas": [
+      {
+        "name": "navy pinstripe",
+        "color": "navy",
+        "points": [
+          [
+            0,
+            0.12
+          ],
+          [
+            1,
+            0.12
+          ],
+          [
+            1,
+            0.15
+          ],
+          [
+            0,
+            0.15
+          ]
+        ]
+      },
+      {
+        "name": "red pinstripe",
+        "color": "red",
+        "points": [
+          [
+            0,
+            0.17
+          ],
+          [
+            1,
+            0.17
+          ],
+          [
+            1,
+            0.2
+          ],
+          [
+            0,
+            0.2
+          ]
+        ]
+      },
+      {
+        "name": "red pinstripe",
+        "color": "red",
+        "points": [
+          [
+            0,
+            0.22
+          ],
+          [
+            1,
+            0.22
+          ],
+          [
+            1,
+            0.25
+          ],
+          [
+            0,
+            0.25
+          ]
+        ]
+      }
+    ],
+    "confidence": "low",
+    "sourceRefs": [
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "cowl",
+    "inletLip": "metal",
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3
+    ]
+  },
+  "logos": [
+    {
+      "mark": "COA/eagle-roundel",
+      "place": "fuselage",
+      "at": [
+        0.055,
+        -0.05
+      ],
+      "height": 0.7,
+      "colors": [
+        "white",
+        "red",
+        "navy"
+      ],
+      "description": "Continental's early eagle roundel: a white disc in a red ring, a blue spread eagle across the top, 'CONTINENTAL AIRLINES' in red on a white banner, a red and white stepped shield below. Sits below the cockpit windows, the upper pinstripes sweeping down to it.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "CONTINENTAL AIRLINES",
+      "place": "fuselage",
+      "at": [
+        0.27,
+        0.33
+      ],
+      "height": 0.2,
+      "color": "navy",
+      "style": "Widely spaced, extended capitals with small flared serifs, upright, above the pinstripes from just aft of the forward door to over the wing.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ],
+      "length": 0.31,
+      "type": {
+        "similar": [
+          "Copperplate Gothic Bold",
+          "Friz Quadrata Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "Continental",
+      "mark": "COA/wordmark",
+      "place": "fin",
+      "at": [
+        0.08,
+        0.44
+      ],
+      "height": 0.15,
+      "color": "white",
+      "style": "Bold serif, upper and lower case, slightly slanted, filling the navy band from leading to trailing edge.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Clarendon Bold",
+          "Century Schoolbook Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 6,
+        "width": "condensed",
+        "strokes": "contrast",
+        "case": "mixed",
+        "xHeight": 0.68
+      },
+      "length": 0.86
+    }
+  ]
+}

@@ -1,0 +1,820 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "yellow",
+  "airline": "HLF",
+  "name": "Central Airlines (yellow, ex-DHL 777Fs)",
+  "kind": "standard",
+  "confidence": "low",
+  "drawnOn": "B77L",
+  "description": "The ex-DHL 777Fs keep DHL's yellow with the dark red belly and the bundles of three red speed lines (at the nose, by the forward door, under the titles and along the aft fuselage), with no DHL wordmark: '中州航空 Central Airlines' in black behind the forward door, and Central's tile mosaic on the yellow fin. Grey engines.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:B-226Y_Boeing_777-F_Central_Airlines_Brussels_28.4.25_(54523814288).jpg",
+      "title": "B-226Y Boeing 777-F Central Airlines Brussels 28.4.25 (54523814288).jpg (CC BY-SA 2.0, Colin Cooke Photo)",
+      "accessed": "2026-11-20",
+      "note": "777F B-226Y, left side from well below, climbing out of Brussels, 2025-04-28 (the file's name; Commons gives 2025-05-16, its upload). Fitted to shapes/B77L.json (forward door pinned, camera 16° below): the speed lines, the Chinese title's ends, the start of 'Central', the fin mosaic, grey engines."
+    }
+  ],
+  "palette": {
+    "yellow": {
+      "hex": "#FFCC00",
+      "official": false
+    },
+    "red": {
+      "hex": "#D11A32",
+      "official": false
+    },
+    "black": {
+      "hex": "#1C1F26",
+      "official": false
+    },
+    "engineGray": {
+      "hex": "#C9CCD0",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false
+    },
+    "lightblue": {
+      "hex": "#5BBCE8",
+      "official": false
+    },
+    "blue": {
+      "hex": "#1592D3",
+      "official": false
+    },
+    "darkblue": {
+      "hex": "#0858A6",
+      "official": false
+    },
+    "orange": {
+      "hex": "#E57E0A",
+      "official": false
+    },
+    "redorange": {
+      "hex": "#CC3F12",
+      "official": false
+    },
+    "pinkred": {
+      "hex": "#E04660",
+      "official": false
+    },
+    "darkred": {
+      "hex": "#A60A1E",
+      "official": false
+    },
+    "green": {
+      "hex": "#1E8C32",
+      "official": false
+    },
+    "lightgreen": {
+      "hex": "#55AE5B",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "yellow",
+    "windows": "hidden",
+    "areas": [
+      {
+        "name": "red belly",
+        "color": "red",
+        "below": [
+          [
+            0.0,
+            -0.55
+          ],
+          [
+            0.04,
+            -0.4
+          ],
+          [
+            0.3,
+            -0.36
+          ],
+          [
+            0.6,
+            -0.36
+          ],
+          [
+            0.8,
+            -0.45
+          ],
+          [
+            0.87,
+            -1.0
+          ]
+        ],
+        "smooth": true,
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "nose speed line 1",
+        "color": "red",
+        "below": [
+          [
+            0.0,
+            -0.068
+          ],
+          [
+            0.08,
+            -0.068
+          ]
+        ],
+        "above": [
+          [
+            0.0,
+            -0.022
+          ],
+          [
+            0.08,
+            -0.022
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "nose speed line 2",
+        "color": "red",
+        "below": [
+          [
+            0.0,
+            -0.152
+          ],
+          [
+            0.08,
+            -0.152
+          ]
+        ],
+        "above": [
+          [
+            0.0,
+            -0.108
+          ],
+          [
+            0.08,
+            -0.108
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "nose speed line 3",
+        "color": "red",
+        "below": [
+          [
+            0.0,
+            -0.232
+          ],
+          [
+            0.08,
+            -0.232
+          ]
+        ],
+        "above": [
+          [
+            0.0,
+            -0.188
+          ],
+          [
+            0.08,
+            -0.188
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "speed line by the forward door 1",
+        "color": "red",
+        "below": [
+          [
+            0.088,
+            -0.068
+          ],
+          [
+            0.13,
+            -0.068
+          ]
+        ],
+        "above": [
+          [
+            0.088,
+            -0.022
+          ],
+          [
+            0.13,
+            -0.022
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "speed line by the forward door 2",
+        "color": "red",
+        "below": [
+          [
+            0.088,
+            -0.152
+          ],
+          [
+            0.13,
+            -0.152
+          ]
+        ],
+        "above": [
+          [
+            0.088,
+            -0.108
+          ],
+          [
+            0.13,
+            -0.108
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "speed line by the forward door 3",
+        "color": "red",
+        "below": [
+          [
+            0.088,
+            -0.232
+          ],
+          [
+            0.13,
+            -0.232
+          ]
+        ],
+        "above": [
+          [
+            0.088,
+            -0.188
+          ],
+          [
+            0.13,
+            -0.188
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "forward speed line 1, under the titles",
+        "color": "red",
+        "below": [
+          [
+            0.135,
+            -0.068
+          ],
+          [
+            0.34,
+            -0.068
+          ]
+        ],
+        "above": [
+          [
+            0.135,
+            -0.022
+          ],
+          [
+            0.34,
+            -0.022
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "forward speed line 2, under the titles",
+        "color": "red",
+        "below": [
+          [
+            0.135,
+            -0.152
+          ],
+          [
+            0.34,
+            -0.152
+          ]
+        ],
+        "above": [
+          [
+            0.135,
+            -0.108
+          ],
+          [
+            0.34,
+            -0.108
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "forward speed line 3, under the titles",
+        "color": "red",
+        "below": [
+          [
+            0.135,
+            -0.232
+          ],
+          [
+            0.34,
+            -0.232
+          ]
+        ],
+        "above": [
+          [
+            0.135,
+            -0.188
+          ],
+          [
+            0.34,
+            -0.188
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "aft speed line 1",
+        "color": "red",
+        "below": [
+          [
+            0.58,
+            -0.131
+          ],
+          [
+            0.93,
+            -0.314
+          ]
+        ],
+        "above": [
+          [
+            0.58,
+            -0.085
+          ],
+          [
+            0.93,
+            -0.268
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "aft speed line 2",
+        "color": "red",
+        "below": [
+          [
+            0.58,
+            -0.205
+          ],
+          [
+            0.93,
+            -0.392
+          ]
+        ],
+        "above": [
+          [
+            0.58,
+            -0.161
+          ],
+          [
+            0.93,
+            -0.346
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "aft speed line 3",
+        "color": "red",
+        "below": [
+          [
+            0.58,
+            -0.291
+          ],
+          [
+            0.93,
+            -0.441
+          ]
+        ],
+        "above": [
+          [
+            0.58,
+            -0.246
+          ],
+          [
+            0.93,
+            -0.395
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "fin": {
+    "base": "yellow",
+    "areas": [
+      {
+        "name": "light blue square at the top, cut by the leading edge",
+        "color": "lightblue",
+        "points": [
+          [
+            -0.083,
+            0.863
+          ],
+          [
+            0.427,
+            0.862
+          ],
+          [
+            -0.022,
+            0.982
+          ],
+          [
+            -0.597,
+            0.983
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "blue square under it",
+        "color": "blue",
+        "points": [
+          [
+            0.336,
+            0.687
+          ],
+          [
+            0.718,
+            0.686
+          ],
+          [
+            0.427,
+            0.862
+          ],
+          [
+            -0.083,
+            0.863
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "blue square ahead of the dark blue one, the cross's left arm",
+        "color": "blue",
+        "points": [
+          [
+            0.269,
+            0.518
+          ],
+          [
+            0.579,
+            0.518
+          ],
+          [
+            0.336,
+            0.687
+          ],
+          [
+            -0.048,
+            0.687
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "dark blue square at the cross's middle",
+        "color": "darkblue",
+        "points": [
+          [
+            0.579,
+            0.518
+          ],
+          [
+            0.888,
+            0.517
+          ],
+          [
+            0.718,
+            0.686
+          ],
+          [
+            0.336,
+            0.687
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "orange square aft of the dark blue, cut by the trailing edge",
+        "color": "orange",
+        "points": [
+          [
+            0.888,
+            0.517
+          ],
+          [
+            1.333,
+            0.516
+          ],
+          [
+            1.269,
+            0.685
+          ],
+          [
+            0.718,
+            0.686
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "red-orange square under the orange, a sliver at the trailing edge",
+        "color": "redorange",
+        "points": [
+          [
+            0.999,
+            0.356
+          ],
+          [
+            1.375,
+            0.355
+          ],
+          [
+            1.333,
+            0.516
+          ],
+          [
+            0.888,
+            0.517
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "crimson square at the red row's front, cut by the leading edge",
+        "color": "pinkred",
+        "points": [
+          [
+            -0.193,
+            0.359
+          ],
+          [
+            0.215,
+            0.358
+          ],
+          [
+            -0.041,
+            0.519
+          ],
+          [
+            -0.523,
+            0.52
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "red square in the red row",
+        "color": "red",
+        "points": [
+          [
+            0.215,
+            0.358
+          ],
+          [
+            0.476,
+            0.357
+          ],
+          [
+            0.269,
+            0.518
+          ],
+          [
+            -0.041,
+            0.519
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "dark red column, two squares tall, under the cross's middle",
+        "color": "darkred",
+        "points": [
+          [
+            0.634,
+            0.189
+          ],
+          [
+            0.859,
+            0.188
+          ],
+          [
+            0.579,
+            0.518
+          ],
+          [
+            0.269,
+            0.518
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "green square aft of the dark red, cut by the trailing edge",
+        "color": "green",
+        "points": [
+          [
+            0.859,
+            0.188
+          ],
+          [
+            1.208,
+            0.187
+          ],
+          [
+            1.143,
+            0.356
+          ],
+          [
+            0.738,
+            0.357
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "light green square under it, running to the fin's root at the trailing edge",
+        "color": "lightgreen",
+        "points": [
+          [
+            0.962,
+            -0.007
+          ],
+          [
+            1.265,
+            -0.008
+          ],
+          [
+            1.208,
+            0.187
+          ],
+          [
+            0.859,
+            0.188
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "engines": {
+    "cowling": "engineGray",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "titles": [
+    {
+      "text": "中州航空",
+      "place": "fuselage",
+      "side": "left",
+      "at": [
+        0.142,
+        0.02
+      ],
+      "height": 0.37,
+      "length": 0.11,
+      "color": "black",
+      "style": "Chinese in a bold plain sans, black, behind the forward door and its short bundle of speed lines.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ],
+      "type": {
+        "similar": [
+          "Noto Sans SC Medium",
+          "Source Han Sans Medium"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      }
+    },
+    {
+      "text": "Central Airlines",
+      "place": "fuselage",
+      "side": "left",
+      "at": [
+        0.266,
+        0.02
+      ],
+      "height": 0.34,
+      "length": 0.209,
+      "color": "black",
+      "style": "Bold geometric sans, upper and lower case, black, after the Chinese. Only 'Central' is in view (the engine hides the rest): its length assumed as on the white aircraft.",
+      "confidence": "low",
+      "sourceRefs": [
+        0
+      ],
+      "type": {
+        "similar": [
+          "Montserrat SemiBold",
+          "Gotham Medium"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      }
+    }
+  ],
+  "notes": "Worn by the ex-DHL 777Fs: B-226Y on Commons (2025-04-28). B-226W (ex-G-DHMB, owned by DHL Express per airport-data.com) is probably the same but no dated photo was found: not tagged. Only one photo, the left side from well below: the right side isn't seen, so its titles are drawn on the left only (the white scheme's right side carries the same titles over the same stretch, likely here too). The forward speed lines are seen to x 0.34, where the engine hides them, and the aft ones from 0.58 (the wing hides the stretch between): not drawn across the hidden part. The nose lines are less certain (the fit is weakest round the nose). The red belly's edge follows BCS/standard's (DHL's own 777F scheme, which this keeps) and agrees with the photo's overlay. The fin mosaic is the white scheme's, the same tiles at the same places in this photo, its white tile here yellow (the fin's base). Colours by eye.",
+  "history": "New in the LAX round (2026-11-20)."
+}

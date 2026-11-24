@@ -1,0 +1,50 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "pikachu-jet-bc1",
+  "airline": "SKY",
+  "name": "Pikachu Jet BC1 (ピカチュウジェット BC1)",
+  "kind": "special",
+  "from": "2021-06-21",
+  "confidence": "low",
+  "description": "Skymark's first Pokémon jet (737-800 JA73AB), part of the Pokémon Air Adventures project with Okinawa: Pikachu and other Pokémon over a tropical-sea design on the fuselage, Skymark's navy fin with its star kept.",
+  "sources": [
+    {
+      "url": "https://www.aviationwire.jp/?p=341046",
+      "title": "Aviation Wire (2026-04-01): Skymark's entrance ceremony at its Haneda hangar",
+      "accessed": "2026-11-22",
+      "note": "Pikachu Jet BC1, 737-800 JA73AB, at the ceremony on 2026-04-01; Skymark has two Pikachu Jets."
+    },
+    {
+      "url": "https://www.aviationwire.jp/?p=344457",
+      "title": "Aviation Wire (2026-05-29): Skymark's Pikachu Jet merchandise",
+      "accessed": "2026-11-22",
+      "note": "BC1 (JA73AB) in service from 2021-06-21, BC2 (737-800 JA73NG) from 2022-05-30; BC1's flight-tag key ring sold on board from 2026-06-01."
+    },
+    {
+      "url": "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_aircraft",
+      "title": "Bulbapedia: Pokémon aircraft",
+      "accessed": "2026-11-22",
+      "note": "BC2 shows Pikachu, Wailord, Magikarp and Shaymin (Sky Forme) in a sea scene; planned to fly about five years."
+    }
+  ],
+  "logos": [
+    {
+      "mark": "SKY/pikachu-bc1",
+      "licensed": "The Pokémon Company",
+      "place": "fuselage",
+      "at": [
+        0.5,
+        0
+      ],
+      "height": 1.6,
+      "colors": [],
+      "description": "Pikachu and other Pokémon over the fuselage (Pokémon artwork, never drawn from here).",
+      "confidence": "low",
+      "sourceRefs": [
+        2
+      ]
+    }
+  ],
+  "notes": "Described in words only: no openly licensed photo of JA73AB in this paint on Commons (searched 2026-11-22). In service from 2021-06-21; at Skymark's hangar on 2026-04-01 and named in May 2026, so current. Draw it when an open photo appears.",
+  "history": "New 2026-11-22."
+}

@@ -1,0 +1,412 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "connection",
+  "airline": "DAL",
+  "name": "Delta Connection (2007 livery)",
+  "kind": "standard",
+  "from": "2007-04",
+  "confidence": "high",
+  "drawnOn": "E75L",
+  "description": "Delta's 2007 scheme on the Delta Connection regional jets: white over the navy belly, the navy fin with the red widget, navy engines; the red widget and 'DELTA' in spaced navy capitals above the forward windows, and 'CONNECTION' in small, light, widely spaced navy capitals below them. Nothing under the belly.",
+  "sources": [
+    {
+      "url": "https://github.com/majonesmax/open-liveries/blob/main/liveries/DAL/standard.json",
+      "title": "Open Liveries: DAL/standard",
+      "accessed": "2026-11-13",
+      "note": "The mainline scheme this variant starts from: its fuselage, fin, engine and logo geometry are kept except where the regional photos differ."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Delta_Air_Lines",
+      "title": "Wikipedia: Delta Air Lines (livery history)",
+      "accessed": "2026-11-13",
+      "note": "The widget and the 2007 livery's introduction (April 2007)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Delta_Airbus_A321neo_N572DT_on_final_approach_to_Boston_Feb_2025.jpg",
+      "title": "Delta Airbus A321neo N572DT on final approach to Boston Feb 2025.jpg (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "N572DT left side, 2025-02-01: geometry, title, widget, fin facets."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Delta_Airbus_A321neo_N583DT_departing_Boston_June_2025.jpg",
+      "title": "Delta Airbus A321neo N583DT departing Boston June 2025.jpg (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "N583DT from below, 2025-06-20: the navy belly, its end, and 'DELTA' with the widget under it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N302SY_ERJ-175,_SkyWest_Delta_Connection,_Salt_Lake_City_07-23-26.jpg",
+      "title": "N302SY ERJ-175, SkyWest Delta Connection, Salt Lake City 07-23-26.jpg",
+      "accessed": "2026-11-13",
+      "note": "N302SY (E175, SkyWest), left side, 2026-07-23: titles, widget, flag measured here (CC BY 4.0)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Republic_Delta_Connnection_Embraer_175_N222JQ_BWI_MD2.jpg",
+      "title": "Republic Delta Connnection Embraer 175 N222JQ BWI MD2.jpg",
+      "accessed": "2026-11-13",
+      "note": "N222JQ (E175, Republic) from below, 2026-03-19: navy belly with no title or widget under it; 'CONNECTION' on the right side."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N717EV_CRJ-550,_Delta_Connection,_Salt_Lake_City_07-23-26.jpg",
+      "title": "N717EV CRJ-550, Delta Connection, Salt Lake City 07-23-26.jpg",
+      "accessed": "2026-11-13",
+      "note": "N717EV (CRJ550, SkyWest), 2026-07-23: the same scheme on a CRJ."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F3F1",
+      "official": false
+    },
+    "navy": {
+      "hex": "#0B1F45",
+      "official": false,
+      "name": "Delta blue (navy)"
+    },
+    "red": {
+      "hex": "#C8102E",
+      "official": false,
+      "name": "widget red"
+    },
+    "darkRed": {
+      "hex": "#8E0A22",
+      "official": false,
+      "name": "widget's shaded facet"
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false,
+      "name": "polished inlet lip"
+    },
+    "flagRed": {
+      "hex": "#C8102E",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "navy belly, from behind the radome to a rounded end before the tail",
+        "color": "navy",
+        "points": [
+          [
+            0.025,
+            -0.75
+          ],
+          [
+            0.08,
+            -0.62
+          ],
+          [
+            0.3,
+            -0.58
+          ],
+          [
+            0.55,
+            -0.48
+          ],
+          [
+            0.68,
+            -0.45
+          ],
+          [
+            0.74,
+            -0.5
+          ],
+          [
+            0.775,
+            -0.7
+          ],
+          [
+            0.785,
+            -1
+          ],
+          [
+            0.02,
+            -1
+          ]
+        ],
+        "sourceRefs": [
+          2,
+          3
+        ],
+        "smooth": true
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      2,
+      3
+    ]
+  },
+  "fin": {
+    "base": "navy",
+    "areas": [
+      {
+        "name": "widget, bright upper facet",
+        "color": "red",
+        "points": [
+          [
+            0.073,
+            0.737
+          ],
+          [
+            0.99,
+            0.732
+          ],
+          [
+            0.99,
+            0.601
+          ],
+          [
+            0.589,
+            0.395
+          ],
+          [
+            0.028,
+            0.57
+          ]
+        ],
+        "sourceRefs": [
+          2,
+          3
+        ]
+      },
+      {
+        "name": "widget, shaded left facet",
+        "color": "darkRed",
+        "points": [
+          [
+            0.028,
+            0.57
+          ],
+          [
+            0.589,
+            0.395
+          ],
+          [
+            0.762,
+            -0.031
+          ],
+          [
+            0.614,
+            -0.031
+          ],
+          [
+            0.021,
+            0.439
+          ]
+        ],
+        "sourceRefs": [
+          2,
+          3
+        ]
+      },
+      {
+        "name": "widget, bright lower-right facet",
+        "color": "red",
+        "points": [
+          [
+            0.773,
+            0.32
+          ],
+          [
+            1.002,
+            0.452
+          ],
+          [
+            0.995,
+            0.219
+          ]
+        ],
+        "sourceRefs": [
+          2,
+          3
+        ]
+      },
+      {
+        "name": "widget, shaded lower-right facet",
+        "color": "darkRed",
+        "points": [
+          [
+            0.773,
+            0.32
+          ],
+          [
+            0.995,
+            0.219
+          ],
+          [
+            1.01,
+            -0.057
+          ],
+          [
+            0.86,
+            -0.057
+          ]
+        ],
+        "sourceRefs": [
+          2,
+          3
+        ]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "high",
+    "sourceRefs": [
+      2,
+      3
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "navy",
+    "inner": "navy",
+    "confidence": "medium",
+    "sourceRefs": [
+      3
+    ]
+  },
+  "engines": {
+    "cowling": "navy",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      2,
+      3
+    ]
+  },
+  "logos": [
+    {
+      "mark": "DAL/widget",
+      "place": "fuselage",
+      "at": [
+        0.214,
+        0.549
+      ],
+      "height": 0.21,
+      "colors": [
+        "red",
+        "darkRed"
+      ],
+      "description": "The red widget (an upward triangle, shaded in facets: lighter left, darker right) just ahead of 'DELTA'.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Delta_logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        4
+      ]
+    },
+    {
+      "mark": "DAL/widget",
+      "place": "fin",
+      "at": [
+        0.5,
+        0.5
+      ],
+      "height": 0.8,
+      "colors": [
+        "red",
+        "darkRed",
+        "navy"
+      ],
+      "description": "The widget drawn huge across the fin, cropped by its edges: a bright red upper facet, darker red facets below, split by a navy Y.",
+      "confidence": "high",
+      "sourceRefs": [
+        2,
+        3
+      ]
+    },
+    {
+      "mark": "DAL/us-flag",
+      "place": "fuselage",
+      "at": [
+        0.641,
+        0.326
+      ],
+      "height": 0.1,
+      "colors": [
+        "flagRed",
+        "white",
+        "navy"
+      ],
+      "description": "A small US flag ahead of the registration over the rear windows.",
+      "confidence": "medium",
+      "sourceRefs": [
+        4
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "DELTA",
+      "place": "fuselage",
+      "at": [
+        0.232,
+        0.454
+      ],
+      "height": 0.173,
+      "color": "navy",
+      "style": "Delta's wordmark: widely spaced semibold navy capitals above the forward windows, just behind the widget.",
+      "confidence": "high",
+      "sourceRefs": [
+        4,
+        6
+      ],
+      "length": 0.066,
+      "type": {
+        "similar": [
+          "Whitney Semibold",
+          "Gotham Medium"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "CONNECTION",
+      "place": "fuselage",
+      "at": [
+        0.28,
+        0.123
+      ],
+      "height": 0.125,
+      "color": "navy",
+      "style": "Thin, widely spaced navy capitals below the window line, starting under 'DELTA''s E and running a little past it.",
+      "confidence": "high",
+      "sourceRefs": [
+        4,
+        5,
+        6
+      ],
+      "length": 0.0753,
+      "type": {
+        "similar": [
+          "Whitney Book",
+          "Gotham Book"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Measured on the E175 N302SY (left, Jul 2026); the belly from N222JQ (Mar 2026), which has no 'DELTA' or widget underneath (the mainline has both). CRJs (N717EV, N625CA) show the same titles. The fleet number on the fin tip and the small operator name under the cockpit are not drawn. Positions are measured on E175s, whose window line is higher (y about 0.3) than the narrow-body average in COORDINATES.md, so titles placed above or below the windows sit higher than they would on a 737. Re-checked 2026-11-15: titles already carry measured lengths (N302SY); the belly's edge drawn as the curve it is. No measured E175 shape yet.",
+  "history": "Delta Connection jets took the 2007 scheme with the mainline, 'CONNECTION' added under the title."
+}

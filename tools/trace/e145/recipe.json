@@ -1,0 +1,194 @@
+{
+  "_about": "Embraer EMB-145 (ERJ-145 EP/ER/EU/MP/MK/LR/LU), from Embraer's Airport Planning Manual APM-145/1100, Revision 16 (Nov 29/24): 2.2 Airplane Dimensions (page index 17-18), Figure 2.2.1 EMB-145 Airplane General Dimensions (page index 19: side, plan and front views on one sheet), Figure 2.3.1 Ground Clearances (page index 21-24), Figure 2.7.1 Door Clearances (page index 32-33). Black strokes (layers.py --mode strokes --color 0,0,0), drawn level and to one scale (the 27.93 m fuselage, 29.87 m overall length, 20.04 m span and 7.55 m tailplane agree within 0.6%). Pixels of those rasters at scale 16, line centres. Scaled by the printed 27.93 m fuselage length, nose tip to the tail cone's end. A T-tail (the tailplane on the fin's top fairing) with two AE 3007 nacelles on stub pylons on the rear fuselage, a plain wing tip. The side view's tube is 492 px tall ahead of the wing and 482 px behind it (its belly rises 4 cm), 2.28 m across the middle third as printed; the plan and front draw it 485 and 482 px: no height fit. The side view draws 20 cabin windows (one in the overwing exit), the main door, the overwing exit and the baggage door (left side: Figure 2.7.1's plan); the baggage door's top is behind the nacelle (Figure 2.7.1's 1.00 m height). The right side's service door is Figure 2.7.1's: 0.69 m wide, its middle 6.17 m from the nose, 1.47 m tall, its sill at the main door's. Overwing exits on both sides (Figure 2.7.1 sheet 2's plan).",
+  "out": "../../../../shapes/E145.json",
+  "length": 27.93,
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "engines": {
+    "mount": "fuselage"
+  },
+  "stabilizer": {
+    "mount": "fin"
+  },
+  "refs": {
+    "side": {
+      "nose": 129,
+      "tail": 6055,
+      "cowlEnd": 5108,
+      "windowRow": [
+        853,
+        936
+      ],
+      "windowGap": 5,
+      "windowMinWidth": 50,
+      "windowInset": 3
+    },
+    "plan": {
+      "nose": 110,
+      "centerline": 2205
+    },
+    "front": {
+      "centerline": 2310,
+      "crownTop": 689
+    }
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [
+        1090,
+        750,
+        1253,
+        1114
+      ],
+      "side": "left",
+      "name": "main door"
+    },
+    {
+      "kind": "door",
+      "box": [
+        1365,
+        802,
+        1511,
+        1114
+      ],
+      "side": "right",
+      "name": "service door"
+    },
+    {
+      "kind": "exit",
+      "box": [
+        3218,
+        815,
+        3324,
+        1007
+      ],
+      "name": "emergency exit"
+    },
+    {
+      "kind": "cargo",
+      "box": [
+        4810,
+        943,
+        5023,
+        1155
+      ],
+      "side": "left",
+      "name": "baggage door"
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [
+        652,
+        880
+      ],
+      [
+        700,
+        849
+      ],
+      [
+        750,
+        816
+      ],
+      [
+        788,
+        790
+      ],
+      [
+        838,
+        797
+      ],
+      [
+        840,
+        806
+      ],
+      [
+        752,
+        892
+      ],
+      [
+        742,
+        896
+      ],
+      [
+        700,
+        889
+      ],
+      [
+        652,
+        881
+      ]
+    ],
+    [
+      [
+        862,
+        802
+      ],
+      [
+        938,
+        805
+      ],
+      [
+        946,
+        814
+      ],
+      [
+        946,
+        900
+      ],
+      [
+        936,
+        911
+      ],
+      [
+        800,
+        893
+      ],
+      [
+        788,
+        885
+      ],
+      [
+        790,
+        873
+      ],
+      [
+        855,
+        806
+      ]
+    ]
+  ],
+  "printed": {
+    "fuselage length": 27.93,
+    "fuselage height": 2.28,
+    "fuselage width": 2.28,
+    "wingspan": 20.04,
+    "tailplane span": 7.55,
+    "overall length": 29.87,
+    "main door from the nose": 4.9,
+    "service door from the nose": 6.17,
+    "emergency exit from the nose": 14.77,
+    "baggage door from the nose": 22.51
+  },
+  "meta": {
+    "id": "E145",
+    "name": "Embraer ERJ-145",
+    "types": [
+      "E145"
+    ],
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://www.embraer.com/media/2q1d040a/erj-emb-145_apm_140.pdf",
+        "title": "Embraer, EMB-145 Airport Planning Manual (APM-145/1100, Revision 16, Nov 29/24), 2.2 Airplane Dimensions, Figure 2.2.1 EMB-145 Airplane General Dimensions, Figure 2.3.1 Ground Clearances, Figure 2.7.1 Door Clearances",
+        "accessed": "2026-11-16",
+        "note": "Dimensions and outlines read off Figure 2.2.1's side, plan and front views (tools/trace/e145/); the figures are the aircraft's measurements, not a copy of the drawing. The right side's service door is placed from Figure 2.7.1 (its middle 6.17 m from the nose, 0.69 m wide, 1.47 m tall); the baggage door's top, behind the nacelle in the side view, from its 1.00 m height."
+      }
+    ]
+  }
+}

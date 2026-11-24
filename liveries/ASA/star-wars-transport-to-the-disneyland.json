@@ -1,0 +1,416 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "star-wars-transport-to-the-disneyland",
+  "airline": "ASA",
+  "name": "Star Wars Transport to the Disneyland Resort (Galaxy's Edge)",
+  "kind": "special",
+  "confidence": "medium",
+  "drawnOn": "B738",
+  "description": "Fuselage: Entire fuselage, belly and fin painted space-black with small white stars scattered over it. Cheatlines: None. Tail: Black fin; the Millennium Falcon (gray/white, painted in detail) covers the whole tail cone and the base of the fin, with a green beam effect ahead of it; TIE fighters chase it: one large ahead of the wing and four smaller between the wing and the Falcon (left side). Engines: Black cowlings. Winglets: Black, with a porg looking back toward the cabin. Titles: Large white 'Alaska' script on forward fuselage behind the door; 'STAR WARS GALAXY'S EDGE' and 'Disneyland' logos in white above the wing at window level; registration in white on the aft fuselage. Artwork: Hand-painted Millennium Falcon and TIE fighters; another porg by the forward boarding door. Colors hex: approximate: near-black base.",
+  "sources": [
+    {
+      "url": "https://www.alaskaair.com/content/travel-info/our-aircraft/737-800-star-wars-transport-to-the-disneyland-resort",
+      "title": "Alaska Airlines: Star Wars Transport to the Disneyland Resort",
+      "accessed": "2026-11-14",
+      "note": "Alaska's page: unveiled May the Fourth 2022; its photo shows N538AS's left side side-on: the black body, the Falcon over the tail cone, TIE fighters, the Galaxy's Edge and Disneyland logos, the white Alaska title (about 0.11-0.28 of the length)."
+    },
+    {
+      "url": "https://news.alaskaair.com/alaska-airlines/starwars-galaxysedge-livery/",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:N538AS_(aircraft)",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N538AS_B737-800,_Alaska_(Star_Wars_-_Galaxy's_Edge),_Fort_Lauderdale_02-20-26_(55149995525).jpg",
+      "title": "N538AS B737-800, Alaska (Star Wars - Galaxy's Edge), Fort Lauderdale 02-20-26 (CC BY 4.0)",
+      "accessed": "2026-11-12",
+      "note": "Left side, taxiing, 2026-02-20/21: the whole scheme side-on; geometry of the Falcon, logos and titles measured from it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Alaska_737_in_Star_Wars_Galaxy's_Edge_Livery_Landing_at_Santa_Barbara_(52617652147).jpg",
+      "title": "Alaska 737 in Star Wars Galaxy's Edge Livery Landing at Santa Barbara (CC BY 2.0)",
+      "accessed": "2026-11-12",
+      "note": "Front left three-quarter, 2023-01-08: engines (black cowling, polished lip), the porg on the right winglet's inner face, nose."
+    }
+  ],
+  "palette": {
+    "space": {
+      "hex": "#0D0F14",
+      "official": false
+    },
+    "white": {
+      "hex": "#F4F5F6",
+      "official": false
+    },
+    "falcon": {
+      "hex": "#D3D5D4",
+      "name": "Millennium Falcon hull (light gray with dark line detail)",
+      "official": false
+    },
+    "beam": {
+      "hex": "#A6E24E",
+      "official": false
+    },
+    "lip": {
+      "hex": "#BFC3C8",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B4BAC1",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "space",
+    "areas": [
+      {
+        "name": "Millennium Falcon (its silhouette, wrapping the tail cone)",
+        "color": "falcon",
+        "side": "left",
+        "points": [
+          [
+            0.772,
+            0.2
+          ],
+          [
+            0.772,
+            -0.4
+          ],
+          [
+            0.776,
+            -0.66
+          ],
+          [
+            0.8,
+            -0.76
+          ],
+          [
+            0.88,
+            -0.86
+          ],
+          [
+            0.97,
+            -0.8
+          ],
+          [
+            1.0,
+            -0.6
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            0.8,
+            1.0
+          ],
+          [
+            0.782,
+            0.65
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          3
+        ]
+      },
+      {
+        "name": "green beam across the Falcon at window level",
+        "color": "beam",
+        "side": "left",
+        "points": [
+          [
+            0.775,
+            0.22
+          ],
+          [
+            0.96,
+            0.1
+          ],
+          [
+            0.96,
+            -0.12
+          ],
+          [
+            0.775,
+            0.02
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          3
+        ]
+      }
+    ],
+    "radome": {
+      "color": "space"
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      3,
+      4
+    ]
+  },
+  "fin": {
+    "base": "space",
+    "rudder": "space",
+    "areas": [
+      {
+        "name": "Millennium Falcon, its upper hull over the fin's root",
+        "color": "falcon",
+        "side": "left",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0.14
+          ],
+          [
+            0.1,
+            0.23
+          ],
+          [
+            0.5,
+            0.26
+          ],
+          [
+            0.88,
+            0.24
+          ],
+          [
+            0.93,
+            0.1
+          ],
+          [
+            0.95,
+            0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          3
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      3
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "stabilizer": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "space",
+    "inner": "space",
+    "confidence": "medium",
+    "sourceRefs": [
+      3,
+      4
+    ]
+  },
+  "engines": {
+    "cowling": "space",
+    "inletLip": "lip",
+    "pylon": "space",
+    "confidence": "medium",
+    "sourceRefs": [
+      3,
+      4
+    ]
+  },
+  "logos": [
+    {
+      "mark": "ASA/millennium-falcon",
+      "licensed": "Lucasfilm",
+      "place": "fuselage",
+      "at": [
+        0.885,
+        0.15
+      ],
+      "height": 1.5,
+      "colors": [
+        "falcon",
+        "space",
+        "beam"
+      ],
+      "description": "The Millennium Falcon, painted in detail in light gray with dark panel lines and red accents, flying aft-to-forward over the tail cone with its cockpit tube forward and up toward the fin; its top reaches about a quarter of the way up the fin. A green beam crosses it at window level.",
+      "side": "left",
+      "confidence": "medium",
+      "sourceRefs": [
+        3
+      ]
+    },
+    {
+      "mark": "ASA/tie-fighter",
+      "licensed": "Lucasfilm",
+      "place": "fuselage",
+      "at": [
+        0.372,
+        0.13
+      ],
+      "height": 1.4,
+      "colors": [
+        "falcon",
+        "space"
+      ],
+      "description": "A large TIE fighter (gray wings, dark panels) ahead of the wing root, spanning the window line.",
+      "side": "left",
+      "confidence": "medium",
+      "sourceRefs": [
+        3
+      ]
+    },
+    {
+      "mark": "ASA/tie-fighter",
+      "licensed": "Lucasfilm",
+      "place": "fuselage",
+      "at": [
+        0.65,
+        -0.13
+      ],
+      "height": 0.7,
+      "colors": [
+        "falcon",
+        "space"
+      ],
+      "description": "Two small TIE fighters side by side just behind the wing, below the windows.",
+      "side": "left",
+      "confidence": "medium",
+      "sourceRefs": [
+        3
+      ]
+    },
+    {
+      "mark": "ASA/tie-fighter",
+      "licensed": "Lucasfilm",
+      "place": "fuselage",
+      "at": [
+        0.738,
+        0.36
+      ],
+      "height": 0.9,
+      "colors": [
+        "falcon",
+        "space"
+      ],
+      "description": "Two more TIE fighters ahead of the Falcon, at and above the window line.",
+      "side": "left",
+      "confidence": "medium",
+      "sourceRefs": [
+        3
+      ]
+    },
+    {
+      "mark": "ASA/star-wars-galaxys-edge",
+      "licensed": "Lucasfilm",
+      "place": "fuselage",
+      "at": [
+        0.526,
+        0.45
+      ],
+      "height": 0.38,
+      "colors": [
+        "white"
+      ],
+      "description": "The 'STAR WARS / GALAXY'S EDGE' logo in white over the wing, above the windows; a thin white vertical rule separates it from the Disneyland logo aft.",
+      "confidence": "high",
+      "sourceRefs": [
+        3,
+        4
+      ]
+    },
+    {
+      "mark": "ASA/disneyland-resort",
+      "licensed": "Disney",
+      "place": "fuselage",
+      "at": [
+        0.642,
+        0.45
+      ],
+      "height": 0.4,
+      "colors": [
+        "white"
+      ],
+      "description": "The 'Disneyland Resort' script logo in white, above the windows just aft of the Star Wars logo.",
+      "confidence": "high",
+      "sourceRefs": [
+        3,
+        4
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Alaska",
+      "place": "fuselage",
+      "at": [
+        0.147,
+        -0.26
+      ],
+      "height": 0.82,
+      "color": "white",
+      "style": "The 2016 Alaska wordmark: heavy, slanted, hand-drawn lowercase after a capital A whose crossbar sweeps forward; across the windows behind the forward door.",
+      "confidence": "high",
+      "sourceRefs": [
+        3,
+        4
+      ],
+      "type": {
+        "similar": [
+          "Kaufmann Bold",
+          "Futura Bold Oblique"
+        ],
+        "weight": 800,
+        "slantDeg": 16,
+        "width": "normal",
+        "strokes": "brush",
+        "case": "mixed",
+        "xHeight": 0.55
+      },
+      "length": 0.178
+    },
+    {
+      "text": "N538AS",
+      "place": "fuselage",
+      "at": [
+        0.698,
+        -0.22
+      ],
+      "height": 0.16,
+      "color": "white",
+      "style": "Bold sans capitals, small, below the rear windows, with a US flag aft of it.",
+      "side": "left",
+      "confidence": "high",
+      "sourceRefs": [
+        3
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Bold",
+          "Arial Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "length": 0.049
+    }
+  ],
+  "notes": "Drawn from the left side only (2026 photo); no dated photo of the right side was found, so the Falcon, beam and TIE fighters are marked left and the right side's artwork is left out. Small white stars are scattered all over the black, on the fin too (not drawn). A porg looks back from the inner face of the right winglet (2023 photo); the porg by the forward door wasn't visible at this size. Wings and tailplane are standard gray. Re-checked 2026-11-15 on the February 2026 side-on left photo (drawn on the 737-800; the forward door and the overwing exits as the scale, which grows aft in that close, low view): 'Alaska' runs 5.6-12.4 m back (x 0.147-0.325), starting about 0.5 m further aft than first drawn; the registration N538AS 26.5-28.4 m (0.697-0.746). The Falcon's outline has corners and stays as polygons.",
+  "from": "2022-05"
+}

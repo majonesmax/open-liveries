@@ -1,0 +1,61 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "TSC",
+  "airframes": [
+    {
+      "registration": "C-GOKE",
+      "hex": "c06aa9",
+      "type": "A21N",
+      "livery": "cf-montreal",
+      "from": "2024-09",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:C-GOKE_FLL_Flaring_28R_TS_A321_271_NX_CF_Montreal_Small_(54417127457).png",
+          "title": "C-GOKE FLL Flaring 28R TS A321 271 NX CF Montreal Small (54417127457).png",
+          "accessed": "2026-11-22",
+          "note": "Photo 2025-03-29 (CC BY-SA 2.0), Fort Lauderdale, in the CF Montréal scheme."
+        },
+        {
+          "url": "https://www.aerotelegraph.com/air-transat-verpasst-airbus-a321-lr-fussball-sonderlackierung",
+          "title": "aeroTELEGRAPH (2024-10-03)",
+          "accessed": "2026-11-22",
+          "note": "Names C-GOKE as the CF Montréal A321LR."
+        },
+        {
+          "url": "https://wwwapps.tc.gc.ca/saf-sec-sur/2/ccarcs-riacc/RchSimpRes.aspx?cn=%7c%7c&mn=%7c%7c&sn=%7c%7c&on=%7c%7c&m=%7cGOKE%7c&cl=&ls=&lang=en",
+          "title": "Transport Canada, Canadian Civil Aircraft Register: C-GOKE",
+          "accessed": "2026-11-22",
+          "note": "Air Transat A321-271NX msn 11802, registered 2024-05-29; address C06AA9 (adsbdb still lists the mark's earlier Bell 206)."
+        }
+      ],
+      "hexSource": "Transport Canada's Canadian Civil Aircraft Register (24 Bit Address, 2026-11-22); hexdb.io agrees (adsbdb's record is a stale earlier holder of the mark)",
+      "lastSeen": "2025-03-29",
+      "status": "Newest open photo in this paint 2025-03-29."
+    },
+    {
+      "registration": "C-GOKG",
+      "hex": "c06aab",
+      "type": "A21N",
+      "livery": "cf-montreal",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Airbus_A321-271NXLR_(c-n_11883,_C-GOKG)_2026-07-31_Andre_Gerwing_Collection_ID_030658.jpg",
+          "title": "Airbus A321-271NXLR (c/n 11883, C-GOKG) 2026-07-31 (CC BY-SA 4.0, André Gerwing)",
+          "accessed": "2026-11-22",
+          "note": "Left side on approach, 2026-07-31: the CF Montréal scheme, the crest and stripe as on C-GOKE (fin 718)."
+        },
+        {
+          "url": "https://wwwapps.tc.gc.ca/saf-sec-sur/2/ccarcs-riacc/RchSimpRes.aspx?cn=%7c%7c&mn=%7c%7c&sn=%7c%7c&on=%7c%7c&m=%7cGOKG%7c&cl=&ls=&lang=en",
+          "title": "Transport Canada, Canadian Civil Aircraft Register: C-GOKG",
+          "accessed": "2026-11-22",
+          "note": "Air Transat A321-271NX; 24-bit address."
+        }
+      ],
+      "hexSource": "Transport Canada's Canadian Civil Aircraft Register (24 Bit Address, 2026-11-22)",
+      "lastSeen": "2026-07-31",
+      "status": "Newest open photo in this paint 2026-07-31 (a second CF Montréal jet; no press source names it)."
+    }
+  ]
+}

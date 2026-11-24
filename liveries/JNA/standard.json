@@ -1,0 +1,322 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "JNA",
+  "name": "Standard (lime green, butterfly)",
+  "kind": "standard",
+  "from": "2008",
+  "description": "White upper fuselage over a lime-green belly that starts behind the nose gear, runs under the cabin and sweeps up behind the rear door into an all-green fin. A butterfly of four heart-shaped petals (two sky blue, two plum) on the fin; 'jinair.com' above the forward windows in squared extended lettering, 'jin' and '.com' plum, 'air' sky blue; lime-green engines and winglets.",
+  "confidence": "high",
+  "drawnOn": "B738",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:(KOR-Incheon)_Jin_Air_Boeing_737_MAX_8_HL8353_@_RKSI_2026-06-04.jpg",
+      "title": "(KOR-Incheon) Jin Air Boeing 737 MAX 8 HL8353 @ RKSI 2026-06-04 (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Left side, level, 2026-06-04: the green sweep, title, fin butterfly, engine, winglet."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Jin_Air_Boeing_737-800_HL8013_departing_Taoyuan_February_2026.jpg",
+      "title": "Jin Air Boeing 737-800 HL8013 departing Taoyuan February 2026 (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Left side from slightly below, 2026-02-15: the green belly from the nose gear aft."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Jin_Air_B737-8_MAX_HL7218_l_FUK_RJFF_l_06-JUN-2025_(55048387122).jpg",
+      "title": "Jin Air B737-8 MAX HL7218, FUK, 2025-06-06 (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Found, not used for measurement."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F0F1F3",
+      "official": false
+    },
+    "lime": {
+      "hex": "#A8CF3C",
+      "name": "Jin Air green",
+      "official": false
+    },
+    "sky": {
+      "hex": "#45BCE8",
+      "official": false
+    },
+    "plum": {
+      "hex": "#6B2C45",
+      "official": false
+    },
+    "lip": {
+      "hex": "#BFC4C9",
+      "name": "bare metal inlet lip",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B7BCC2",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "lime belly, sweeping up behind the rear door to the fin",
+        "color": "lime",
+        "below": [
+          [
+            0,
+            -1
+          ],
+          [
+            0.1,
+            -1
+          ],
+          [
+            0.14,
+            -0.6
+          ],
+          [
+            0.22,
+            -0.48
+          ],
+          [
+            0.55,
+            -0.5
+          ],
+          [
+            0.7,
+            -0.38
+          ],
+          [
+            0.755,
+            -0.14
+          ],
+          [
+            0.8,
+            0.22
+          ],
+          [
+            0.83,
+            0.75
+          ],
+          [
+            0.845,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "fin": {
+    "base": "lime",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "stabilizer": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "lime",
+    "inner": "lime",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "lime",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "JNA/butterfly",
+      "place": "fin",
+      "at": [
+        0.4,
+        0.33
+      ],
+      "height": 0.3,
+      "colors": [
+        "sky",
+        "plum"
+      ],
+      "description": "Jin Air's 'nabi' butterfly: four heart-shaped petals meeting at a point, the two forward ones sky blue (large above, small below), the two aft ones plum (large above, small below).",
+      "reference": "https://commons.wikimedia.org/wiki/Category:Jin_Air",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "JNA/butterfly",
+      "place": "engines",
+      "at": [
+        0.12,
+        0.0
+      ],
+      "height": 0.18,
+      "colors": [
+        "sky",
+        "plum"
+      ],
+      "description": "The butterfly small at the front of the cowl, before the engine 'jinair.com'.",
+      "reference": "https://commons.wikimedia.org/wiki/Category:Jin_Air",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "JNA/butterfly",
+      "place": "winglets",
+      "at": [
+        0.5,
+        0.25
+      ],
+      "height": 0.2,
+      "colors": [
+        "sky",
+        "plum"
+      ],
+      "description": "The butterfly low on the outer face of the green winglet.",
+      "reference": "https://commons.wikimedia.org/wiki/Category:Jin_Air",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "JNA/kr-flag",
+      "place": "fin",
+      "at": [
+        0.6,
+        0.95
+      ],
+      "height": 0.04,
+      "colors": [
+        "white",
+        "#CD2E3A",
+        "#0047A0",
+        "#111111"
+      ],
+      "description": "A small Taegukgi at the fin tip.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Korea.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "JINAIR.com",
+      "place": "fuselage",
+      "at": [
+        0.174,
+        0.27
+      ],
+      "height": 0.37,
+      "color": "plum",
+      "parts": [
+        {
+          "text": "JIN",
+          "color": "plum"
+        },
+        {
+          "text": "AIR",
+          "color": "sky"
+        },
+        {
+          "text": ".com",
+          "color": "plum"
+        }
+      ],
+      "style": "The Jin Air wordmark: squared, extended, even-stroke lettering, 'jinair' in letters all of capital height (painted as JINAIR), '.com' in lowercase 0.63 of them; 'jin' in plum.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Eurostile Extended Bold",
+          "Michroma",
+          "Orbitron Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.63
+      },
+      "length": 0.198
+    },
+    {
+      "text": "JINAIR.com",
+      "place": "engines",
+      "at": [
+        0.2,
+        -0.1
+      ],
+      "height": 0.2,
+      "color": "plum",
+      "length": 0.6,
+      "style": "The wordmark small along the green cowl ('air' sky blue).",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Eurostile Extended Bold",
+          "Michroma",
+          "Orbitron Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.63
+      }
+    }
+  ],
+  "notes": "Drawn from 737 MAX 8 HL8353 (2026-06-04) and 737-800 HL8013 (2026-02-15), both left side; the right side wasn't checked, so the butterfly is assumed to read the same way on both sides (mirror false) and the fin isn't mirrored-checked. The dorsal fillet ahead of the fin stays white. Jin Air is Korean Air's low-cost subsidiary and is to absorb Air Busan and Air Seoul into one LCC (planned with the Korean Air-Asiana integration); its 777-200ERs wear the same scheme. Year of introduction taken as the airline's 2008 launch (not checked). Re-checked 2026-11-15 on HL8353 (737 MAX 8, left, 2026-06-04) and the B738 measured shape: the wordmark's 'jinair' is lettered at capital height throughout (no ascenders or dots), so the title's text is JINAIR.com with '.com' in lowercase at 0.63 of the capitals; its place over the windows, height and length agree with the photo; the lime belly's line is straight between its corners.",
+  "history": "New entry (Skyarium v1 had no Jin Air). The scheme since the airline's 2008 launch."
+}

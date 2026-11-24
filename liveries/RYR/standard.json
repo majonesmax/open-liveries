@@ -1,0 +1,550 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "RYR",
+  "name": "Standard (blue belly, yellow line)",
+  "kind": "standard",
+  "confidence": "high",
+  "drawnOn": "B738",
+  "description": "White upper fuselage over a dark-blue belly, split by a thin yellow line that starts low on the nose and runs straight back just under the windows to the tail cone. Huge dark-blue 'RYANAIR' capitals across the forward cabin with a small blue harp ahead of them by the door; all-blue fin with the big yellow harp (a flying woman whose wings form the harp's top). Engines white over blue with a yellow line; winglets blue outside with 'RYANAIR' in yellow.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Ryanair,_9H-VVJ,_Boeing_737-8200_MAX_(54403420406).jpg",
+      "accessed": "2026-11-13",
+      "title": "Ryanair, 9H-VVJ, Boeing 737-8200 MAX (CC BY-SA 2.0)",
+      "note": "Left side, 2025-03-20: belly split, yellow line, titles, door harp, fin, engine."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Ryanair_737_MAX_8200_Departing_MAN.jpg",
+      "accessed": "2026-11-13",
+      "title": "Ryanair 737 MAX 8200 Departing MAN (CC0)",
+      "note": "EI-IGK from the left, climbing, 2025-04-08: the same, sharper; winglet outer face."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:EI-IJE_-_Boeing_737_MAX_8-200_Ryanair_landing_BHX_180124.jpg",
+      "accessed": "2026-11-13",
+      "title": "EI-IJE landing BHX (CC BY 2.0)",
+      "note": "Front three-quarter, 2024-01-19: winglets (outer blue with yellow title, inner white with blue title), engines, lower fuselage."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Boeing_737-8-200_MAX_(c-n_62349,_EI-IFX)_2025-07-22_Andre_Gerwing_Collection_ID_024469.jpg",
+      "accessed": "2026-11-13",
+      "title": "EI-IFX, 2025-07-22 (CC BY-SA 4.0)",
+      "note": "Cross-check."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Ryanair_logo.svg",
+      "accessed": "2026-11-13",
+      "title": "Ryanair logo (Commons)",
+      "note": "The harp and wordmark."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Ryanair,_9H-QFO,_Boeing_737-8AS_(54402535617).jpg",
+      "title": "Ryanair, 9H-QFO, Boeing 737-8AS (54402535617).jpg (CC BY-SA 2.0)",
+      "accessed": "2026-11-15",
+      "note": "737-800 9H-QFO left side, 2025-03-09, level: the belly split and yellow line measured on the measured 737-800 shape (tools/photo_trace.py, doors pinned); title length and height."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:EI-GXH_Boeing_737-8AS_-_Ryanair_STN_180725.jpg",
+      "title": "EI-GXH Boeing 737-8AS - Ryanair STN 180725.jpg (CC BY 4.0)",
+      "accessed": "2026-11-15",
+      "note": "737-800 EI-GXH left side, 2025-07-19: second check of the yellow line and the title."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "blue": {
+      "hex": "#073590",
+      "official": false,
+      "name": "Ryanair blue (web brand color; paint looks a touch darker)"
+    },
+    "yellow": {
+      "hex": "#F1C933",
+      "official": false,
+      "name": "Ryanair yellow (web brand color)"
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false,
+      "name": "bare metal inlet lip"
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "blue belly",
+        "color": "blue",
+        "below": [
+          [
+            0.036,
+            -1
+          ],
+          [
+            0.042,
+            -0.67
+          ],
+          [
+            0.051,
+            -0.638
+          ],
+          [
+            0.067,
+            -0.524
+          ],
+          [
+            0.095,
+            -0.44
+          ],
+          [
+            0.12,
+            -0.42
+          ],
+          [
+            0.15,
+            -0.385
+          ],
+          [
+            0.2,
+            -0.345
+          ],
+          [
+            0.25,
+            -0.305
+          ],
+          [
+            0.31,
+            -0.267
+          ],
+          [
+            0.36,
+            -0.243
+          ],
+          [
+            0.42,
+            -0.228
+          ],
+          [
+            0.5,
+            -0.215
+          ],
+          [
+            0.6,
+            -0.2
+          ],
+          [
+            0.7,
+            -0.19
+          ],
+          [
+            0.75,
+            -0.198
+          ],
+          [
+            0.8,
+            -0.222
+          ],
+          [
+            0.86,
+            -0.24
+          ],
+          [
+            0.91,
+            -0.26
+          ],
+          [
+            1,
+            -0.28
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1,
+          5,
+          6
+        ],
+        "smooth": true
+      },
+      {
+        "name": "yellow line on the split",
+        "color": "yellow",
+        "below": [
+          [
+            0.034,
+            -1
+          ],
+          [
+            0.041,
+            -0.61
+          ],
+          [
+            0.051,
+            -0.515
+          ],
+          [
+            0.067,
+            -0.414
+          ],
+          [
+            0.095,
+            -0.36
+          ],
+          [
+            0.12,
+            -0.33
+          ],
+          [
+            0.15,
+            -0.3
+          ],
+          [
+            0.2,
+            -0.265
+          ],
+          [
+            0.25,
+            -0.225
+          ],
+          [
+            0.31,
+            -0.192
+          ],
+          [
+            0.36,
+            -0.168
+          ],
+          [
+            0.42,
+            -0.145
+          ],
+          [
+            0.5,
+            -0.133
+          ],
+          [
+            0.6,
+            -0.125
+          ],
+          [
+            0.7,
+            -0.11
+          ],
+          [
+            0.75,
+            -0.12
+          ],
+          [
+            0.8,
+            -0.135
+          ],
+          [
+            0.86,
+            -0.148
+          ],
+          [
+            0.91,
+            -0.155
+          ],
+          [
+            1,
+            -0.16
+          ]
+        ],
+        "above": [
+          [
+            0.036,
+            -1
+          ],
+          [
+            0.042,
+            -0.67
+          ],
+          [
+            0.051,
+            -0.638
+          ],
+          [
+            0.067,
+            -0.524
+          ],
+          [
+            0.095,
+            -0.44
+          ],
+          [
+            0.12,
+            -0.42
+          ],
+          [
+            0.15,
+            -0.385
+          ],
+          [
+            0.2,
+            -0.345
+          ],
+          [
+            0.25,
+            -0.305
+          ],
+          [
+            0.31,
+            -0.267
+          ],
+          [
+            0.36,
+            -0.243
+          ],
+          [
+            0.42,
+            -0.228
+          ],
+          [
+            0.5,
+            -0.215
+          ],
+          [
+            0.6,
+            -0.2
+          ],
+          [
+            0.7,
+            -0.19
+          ],
+          [
+            0.75,
+            -0.198
+          ],
+          [
+            0.8,
+            -0.222
+          ],
+          [
+            0.86,
+            -0.24
+          ],
+          [
+            0.91,
+            -0.26
+          ],
+          [
+            1,
+            -0.28
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1,
+          5,
+          6
+        ],
+        "smooth": true
+      }
+    ],
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "fin": {
+    "base": "blue",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "wings": {
+    "top": "#B9BEC5",
+    "under": "#C9CDD2"
+  },
+  "winglets": {
+    "outer": "blue",
+    "inner": "white",
+    "areas": [
+      {
+        "name": "yellow root / lower winglet",
+        "color": "yellow",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0.18
+          ],
+          [
+            0,
+            0.18
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          2
+        ]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "areas": [
+      {
+        "name": "blue lower cowl",
+        "color": "blue",
+        "below": [
+          [
+            0,
+            -0.42
+          ],
+          [
+            1,
+            -0.42
+          ]
+        ]
+      },
+      {
+        "name": "yellow line",
+        "color": "yellow",
+        "below": [
+          [
+            0,
+            -0.3
+          ],
+          [
+            1,
+            -0.3
+          ]
+        ],
+        "above": [
+          [
+            0,
+            -0.42
+          ],
+          [
+            1,
+            -0.42
+          ]
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "RYR/harp",
+      "place": "fin",
+      "at": [
+        0.57,
+        0.38
+      ],
+      "height": 0.5,
+      "colors": [
+        "yellow"
+      ],
+      "description": "Ryanair's harp: an Irish harp whose fore-pillar is a winged woman; her head at the front, her swept wing forming the harp's top bar, her body curving down to a point; four strings slanting inside. Flat yellow, drawn as lines with gaps.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Ryanair_logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "mark": "RYR/harp",
+      "place": "fuselage",
+      "at": [
+        0.16,
+        0.22
+      ],
+      "height": 0.7,
+      "colors": [
+        "blue"
+      ],
+      "description": "The harp in dark blue, ahead of the title just aft of the forward door.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Ryanair_logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "RYR/wordmark",
+      "place": "winglets",
+      "at": [
+        0.5,
+        0.6
+      ],
+      "height": 0.25,
+      "colors": [
+        "yellow"
+      ],
+      "description": "'RYANAIR' in yellow capitals running up the blue outer face of the winglet (blue on white on the inner face). Lettering, not a symbol: here as a logo only because titles can't sit on winglets.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Ryanair_logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "RYANAIR",
+      "place": "fuselage",
+      "at": [
+        0.2,
+        -0.05
+      ],
+      "height": 0.58,
+      "length": 0.335,
+      "color": "blue",
+      "style": "Very large, widely spaced bold upright sans capitals over the forward windows, flat terminals, slightly wide letters.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        5,
+        6
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Bold",
+          "Arial Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Measured on 737-8200s (2024-2025); the 737-800s carry the same scheme. Some aircraft add small 'Malta Air', 'Ryanair UK' or flag marks by the registration. The small white mark low on the fin's trailing edge and the belly (no photo from below) aren't drawn. Colors are Ryanair's web brand values, not paint specs. Re-checked 2026-11-15 on two 737-800s (9H-QFO, EI-GXH) fitted to the measured 737-800 shape: the yellow line and the blue belly start at the belly about 1.3 m behind the nose tip (the lower nose is white), run lower than first drawn ahead of the wing (by about 0.1 of the half-height), and curve (smooth); the title is about 13 m long (0.335 of the fuselage, not 0.29).",
+  "history": "Replaced Skyarium v1's approximation (blue fin with a generic yellow band). The scheme itself evolved from the late-1990s blue-and-yellow; the flat harp and bigger 'RYANAIR' titles date from the 2013 logo refresh (date not confirmed from an official source)."
+}

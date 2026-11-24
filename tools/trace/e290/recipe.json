@@ -1,0 +1,105 @@
+{
+  "_about": "Embraer 190-E2, from APM 5824 Rev 25 (Nov 29/24; Section 02 Aug 05/22) Figure 2.1 General Aircraft Dimensions (page index 19): side, plan and front views on one sheet, black lines over a pale yellow fill (layers.py --mode strokes-in-fill, as Airbus's). Drawn to one scale both ways (the plan's 10.0 m tailplane and the front's 33.72 m span agree with the side's length to 0.3%). Scaled by the figure's 36.33 m nose-to-tail-cone length (Section 2.2.1 prints 36.24 m overall). Pixels of layers.py rasters at scale 16, line centres. Windows joined to other lines (two to the 6.82 m and 24.57 m dimensions' extension lines, four to the wing's) are placed at their drawn centres (windowsAlso); windowMinWidth leaves out a dashed window on the far side.",
+  "out": "../../../../shapes/E290.json",
+  "length": 36.33,
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "refs": {
+    "side": {
+      "nose": 66.5,
+      "tail": 4616.5,
+      "cowlEnd": 1824,
+      "windowRow": [826, 881],
+      "windowGap": 5,
+      "windowsAlso": [896.5, 2554.5, 2647.5, 2739.5, 2831.5, 3125.5],
+      "windowMinWidth": 30,
+      "windowInset": 2.5
+    },
+    "plan": {
+      "nose": 66,
+      "centerline": 2194.5
+    },
+    "front": {
+      "centerline": 2183.5,
+      "crownTop": 724.5
+    }
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [660, 745, 773, 987]
+    },
+    {
+      "kind": "exit",
+      "box": [1800, 807, 1880, 927]
+    },
+    {
+      "kind": "door",
+      "box": [3535, 761, 3635, 987]
+    },
+    {
+      "kind": "cargo",
+      "box": [925, 1002, 1070, 1121]
+    },
+    {
+      "kind": "cargo",
+      "box": [3155, 1002, 3302, 1116]
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [272, 869],
+      [300, 869],
+      [350, 870],
+      [356, 867],
+      [375, 838],
+      [393, 808],
+      [398, 804],
+      [380, 804],
+      [365, 805],
+      [320, 836],
+      [280, 863]
+    ],
+    [
+      [383, 869],
+      [380, 860],
+      [390, 832],
+      [398, 808],
+      [405, 805],
+      [440, 806],
+      [470, 807],
+      [476, 813],
+      [476, 840],
+      [476, 866],
+      [470, 872],
+      [430, 871],
+      [388, 870]
+    ]
+  ],
+  "printed": {
+    "fuselage height": 3.35,
+    "fuselage width": 3.01,
+    "wingspan": 33.72,
+    "tailplane span": 10.0
+  },
+  "meta": {
+    "id": "E290",
+    "name": "Embraer 190-E2",
+    "types": [
+      "E290"
+    ],
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://www.embraer.com/media/vmsjxvk5/e-jets-e2_apm_e-jetse2.pdf",
+        "title": "Embraer, E-Jets E2 Airport Planning Manual (APM 5824 Rev 25, Nov 29/24), Section 02, Figure 2.1 General Aircraft Dimensions (E190-E2); Figure 2.19 cabin cross-section",
+        "accessed": "2026-11-15",
+        "note": "Dimensions and outlines read off the side, plan and front views (tools/trace/e290/); the figures are the aircraft's measurements, not a copy of the drawing. Scaled by the figure's 36.33 m nose-to-tail-cone length; the manual's text prints 36.24 m overall, 0.25% shorter."
+      }
+    ]
+  }
+}

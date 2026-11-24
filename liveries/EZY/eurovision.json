@@ -1,0 +1,561 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "eurovision",
+  "airline": "EZY",
+  "name": "Eurovision Song Contest",
+  "kind": "special",
+  "from": "2015",
+  "confidence": "medium",
+  "drawnOn": "A320",
+  "description": "The standard swoosh scheme with a Eurovision wrap behind the wing on both sides: a band of small hearts in oranges, reds and yellow along the rear windows, from over the wing back to the aft door; under the windows the slogan 'IT'S YOUR SHOW, GET OUT THERE' in dark red condensed capitals, and under that the Eurovision Song Contest logo with 'OFFICIAL AIRLINE'. Fin, engines and the forward swoosh as on the standard scheme.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:G-UZLY_(53785223230).jpg",
+      "title": "G-UZLY (53785223230).jpg (CC BY-SA 2.0)",
+      "accessed": "2026-11-13",
+      "note": "A320neo G-UZLY from the left, 2024-06-11: geometry of the swoosh, tail sweep, titles. Re-checked 2026-11-15: fitted to the measured A320 shape (tools/photo_trace.py, doors and windows pinned), the swoosh's and tail sweep's edges and the titles measured on it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:G-UZLZ_(aircraft)",
+      "accessed": "2026-11-13",
+      "note": "A320neo G-UZLZ from the left, landing, 2025-03-05: the same, a little from below."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:EasyJet_A321-200neo_arriving_at_LGW.jpg",
+      "title": "EasyJet A321-200neo arriving at LGW (CC0)",
+      "accessed": "2026-11-13",
+      "note": "A321neo G-UZMH from the left, 2024-03-04: same layout on the long fuselage."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:EasyJet_logo.svg",
+      "title": "EasyJet logo.svg",
+      "accessed": "2026-11-13",
+      "note": "The wordmark and its orange, #FF6600."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A320-251N_(c-n_12334,_G-UZLZ)_2025-03-05_Andre_Gerwing_Collection_ID_022837.jpg",
+      "title": "Airbus A320-251N (c-n 12334, G-UZLZ) 2025-03-05 Andre Gerwing Collection ID 022837.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-15",
+      "note": "G-UZLZ left side from below, 2025-03-05: second check of the swoosh (its spike's lower edge behind the wing) and the tail sweep, and of the titles."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A320-251N_%E2%80%98G-UZHS%E2%80%99_easyJet_(Eurovision_Song_Contest_Livery)_(55621974866).jpg",
+      "title": "Airbus A320-251N ‘G-UZHS’ easyJet (Eurovision Song Contest Livery) (CC BY-SA 4.0, Alan Wilson)",
+      "accessed": "2026-11-21",
+      "note": "Right side on the runway, 2026-04-22. Flipped and fitted to shapes/A320.json (doors, windows and crown as landmarks; the doors sit 0.5 m off, perspective from slightly ahead): the band of hearts, the slogan's ends and height, the Eurovision logo."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Easyjet_aircraft_at_Glasgow_Airport_-_geograph.org.uk_-_8336270.jpg",
+      "title": "Easyjet aircraft at Glasgow Airport (CC BY-SA 2.0, Thomas Nugent)",
+      "accessed": "2026-11-21",
+      "note": "Left side from a terminal window, above and ahead, 2026-06-07: the same layout on the left (band from over the wing to the aft door, slogan under the rear windows ending at the door, logo under it)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Easyjet_aircraft_at_Glasgow_Airport_-_geograph.org.uk_-_8336268.jpg",
+      "title": "Easyjet aircraft at Glasgow Airport (CC BY-SA 2.0, Thomas Nugent)",
+      "accessed": "2026-11-21",
+      "note": "Right side from above, 2026-06-07: the right side as in the April photo."
+    },
+    {
+      "url": "https://www.easyjet.com/en/eurovision-song-contest",
+      "accessed": "2026-11-21",
+      "note": "easyJet's Eurovision page: Official Airline of the Eurovision Song Contest (2024-2026), slogan 'It's your show, get out there'. For the name only."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:G-UZHS_(51936528424).jpg",
+      "title": "G-UZHS (CC BY-SA 2.0, Alec Wilson)",
+      "accessed": "2026-11-21",
+      "note": "Right side, 2022-03-13: G-UZHS in the plain standard scheme before the wrap."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F6",
+      "official": false
+    },
+    "orange": {
+      "hex": "#FF6600",
+      "name": "easyJet orange",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "name": "bare metal inlet lip",
+      "official": false
+    },
+    "hearts": {
+      "hex": "#E8823A",
+      "name": "the hearts band, an average of its oranges, reds and yellow",
+      "official": false
+    },
+    "slogan": {
+      "hex": "#8E3A22",
+      "name": "dark red slogan",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "band of small hearts along the rear windows (orange, red and yellow, drawn as one field); under the swoosh, which ends it forward",
+        "color": "hearts",
+        "smooth": true,
+        "points": [
+          [
+            0.342,
+            0.47
+          ],
+          [
+            0.42,
+            0.505
+          ],
+          [
+            0.54,
+            0.5
+          ],
+          [
+            0.66,
+            0.48
+          ],
+          [
+            0.752,
+            0.45,
+            1
+          ],
+          [
+            0.756,
+            0.09,
+            1
+          ],
+          [
+            0.62,
+            0.09
+          ],
+          [
+            0.54,
+            0.1
+          ],
+          [
+            0.47,
+            0.15
+          ],
+          [
+            0.42,
+            0.32
+          ],
+          [
+            0.36,
+            0.43
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "name": "swoosh from the cockpit roof to a point aft of the wing",
+        "color": "orange",
+        "points": [
+          [
+            0.042,
+            1
+          ],
+          [
+            0.265,
+            1
+          ],
+          [
+            0.307,
+            0.618
+          ],
+          [
+            0.35,
+            0.45
+          ],
+          [
+            0.392,
+            0.315
+          ],
+          [
+            0.434,
+            0.194
+          ],
+          [
+            0.476,
+            0.08
+          ],
+          [
+            0.519,
+            -0.032
+          ],
+          [
+            0.561,
+            -0.145
+          ],
+          [
+            0.603,
+            -0.262
+          ],
+          [
+            0.646,
+            -0.39
+          ],
+          [
+            0.688,
+            -0.54,
+            1
+          ],
+          [
+            0.644,
+            -0.462
+          ],
+          [
+            0.6,
+            -0.392
+          ],
+          [
+            0.557,
+            -0.328
+          ],
+          [
+            0.513,
+            -0.266
+          ],
+          [
+            0.469,
+            -0.207
+          ],
+          [
+            0.425,
+            -0.15
+          ],
+          [
+            0.381,
+            -0.095
+          ],
+          [
+            0.338,
+            -0.04
+          ],
+          [
+            0.294,
+            0.015
+          ],
+          [
+            0.25,
+            0.07,
+            1
+          ],
+          [
+            0.192,
+            0.133
+          ],
+          [
+            0.158,
+            0.17
+          ],
+          [
+            0.134,
+            0.225
+          ],
+          [
+            0.111,
+            0.28
+          ],
+          [
+            0.077,
+            0.443
+          ],
+          [
+            0.057,
+            0.568
+          ],
+          [
+            0.054,
+            0.748
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          4
+        ],
+        "smooth": true
+      },
+      {
+        "name": "tail sweep, belly to fin",
+        "color": "orange",
+        "points": [
+          [
+            0.694,
+            -1.0
+          ],
+          [
+            0.703,
+            -0.627
+          ],
+          [
+            0.713,
+            -0.465
+          ],
+          [
+            0.722,
+            -0.333
+          ],
+          [
+            0.731,
+            -0.216
+          ],
+          [
+            0.741,
+            -0.107
+          ],
+          [
+            0.75,
+            0.0
+          ],
+          [
+            0.759,
+            0.107
+          ],
+          [
+            0.769,
+            0.216
+          ],
+          [
+            0.778,
+            0.333
+          ],
+          [
+            0.787,
+            0.465
+          ],
+          [
+            0.797,
+            0.627
+          ],
+          [
+            0.806,
+            1
+          ],
+          [
+            0.927,
+            1.0
+          ],
+          [
+            0.935,
+            0.71
+          ],
+          [
+            0.941,
+            0.2
+          ],
+          [
+            0.927,
+            -0.4
+          ],
+          [
+            0.914,
+            -0.68
+          ],
+          [
+            0.901,
+            -1.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          4,
+          2
+        ],
+        "smooth": true
+      }
+    ],
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "orange",
+    "fillet": "white",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "#B9BEC5",
+    "under": "#C9CDD2"
+  },
+  "winglets": {
+    "outer": "orange",
+    "inner": "orange",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "orange",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "EZY/eurovision",
+      "place": "fuselage",
+      "at": [
+        0.638,
+        -0.2
+      ],
+      "height": 0.18,
+      "colors": [
+        "#1B1B1B",
+        "#E4202B"
+      ],
+      "description": "The Eurovision Song Contest logo (the word 'eurovision' with a heart for the v, 'SONG CONTEST' under it) in black, 'OFFICIAL AIRLINE' small beneath, centred under the slogan.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Airbus_A320-251N_%E2%80%98G-UZHS%E2%80%99_easyJet_(Eurovision_Song_Contest_Livery)_(55621974866).jpg",
+      "licensed": "European Broadcasting Union",
+      "confidence": "medium",
+      "sourceRefs": [
+        5,
+        6
+      ]
+    },
+    {
+      "mark": "EZY/eurovision-hearts",
+      "place": "fuselage",
+      "at": [
+        0.6,
+        0.3
+      ],
+      "height": 0.4,
+      "colors": [
+        "#F26B1F",
+        "#E03A2A",
+        "#F7B500",
+        "#F4A3A0"
+      ],
+      "description": "The band of hearts itself: dozens of small overlapping hearts in oranges, reds, yellow and pale pink, densest round the windows behind the wing; the area under it carries its average colour.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Airbus_A320-251N_%E2%80%98G-UZHS%E2%80%99_easyJet_(Eurovision_Song_Contest_Livery)_(55621974866).jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        5,
+        6,
+        7
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "easyJet",
+      "mark": "EZY/wordmark",
+      "place": "fuselage",
+      "at": [
+        0.152,
+        0.45
+      ],
+      "height": 0.34,
+      "color": "white",
+      "style": "The easyJet wordmark: very heavy, rounded, soft-serifed lowercase with a capital J, white on the orange over the forward windows, just aft of the front door. Baseline just above the window tops; measured directly off G-UZLY (2024-06-11): cap 0.34, lowercase 0.78 of the J.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        4,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Cooper Black",
+          "Recoleta Black"
+        ],
+        "weight": 900,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "contrast",
+        "case": "mixed",
+        "xHeight": 0.78
+      },
+      "length": 0.142
+    },
+    {
+      "text": "easyJet",
+      "mark": "EZY/wordmark",
+      "place": "fin",
+      "at": [
+        0.3,
+        0.107
+      ],
+      "height": 0.15,
+      "color": "white",
+      "style": "The wordmark again, large, in white, set along the fin: its baseline rises at about 60° from near the root (mid-chord) to the tip, reading upward toward the leading edge's top. Drawn horizontal by tools that can't rotate text.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        4,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Cooper Black",
+          "Recoleta Black"
+        ],
+        "weight": 900,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "contrast",
+        "case": "mixed",
+        "xHeight": 0.8
+      },
+      "rotationDeg": 44,
+      "length": 1.17
+    },
+    {
+      "text": "IT'S YOUR SHOW, GET OUT THERE",
+      "place": "fuselage",
+      "at": [
+        0.541,
+        -0.07
+      ],
+      "height": 0.15,
+      "length": 0.181,
+      "color": "slogan",
+      "style": "Dark red condensed bold capitals under the rear windows, ending just ahead of the aft door (on the right side starting there).",
+      "confidence": "medium",
+      "sourceRefs": [
+        5,
+        6
+      ],
+      "type": {
+        "similar": [
+          "Bebas Neue",
+          "Oswald Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "condensed",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "G-UZHS (A320neo) only. Measured on the right side (2026-04-22) fitted to the A320 shape, the left side checked on a terminal-window photo (2026-06-07). The band runs from about x 0.34 (thin, over the wing) to the aft door (0.75), from the windows' bottoms (y 0.09) to y 0.5; its edge is ragged (it's made of hearts), drawn smooth. The slogan x 0.541-0.722, cap height about 0.45 m; the logo centred at x 0.64 under it. easyJet has been the contest's official airline since 2024; one forum thread says a Eurovision livery was painted in Basel in 2025 (perhaps a Swiss aircraft); when G-UZHS got its wrap isn't sourced (plain in March 2022, wrapped by April 2026), so no 'from'. Whether it was removed after the May 2026 contest: still worn in June 2026. The base scheme is the standard's, copied as it stands (2026-11-21).",
+  "history": "New 2026-11-21 (the maintainer's sightings: G-UZHS seen with the wrap)."
+}

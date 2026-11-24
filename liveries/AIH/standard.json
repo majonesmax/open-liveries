@@ -1,0 +1,219 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "AIH",
+  "name": "AirZeta (2025)",
+  "kind": "standard",
+  "from": "2025",
+  "confidence": "medium",
+  "drawnOn": "B744",
+  "description": "Light gray-white fuselage; behind the wing a royal-blue field covers the aft fuselage, its front edge running from the crown at the fin's leading edge down and forward to the mid-side, then back to the belly; blue fin with the AirZeta mark (a red slanted bar over a white slanted block notched in blue); 'AIRZETA' in big wide royal-blue capitals over the forward fuselage; red winglets; a Korean flag on the aft fuselage.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:HL7419_Boeing_747-48EF_AirZeta_Stansted_16.2.26_(55099153111).jpg",
+      "title": "HL7419 Boeing 747-48EF AirZeta Stansted 16.2.26 (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Left side, level, 2026-02-16: all geometry, title, fin mark, flag."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:HL7616_Boeing_747-446F_Air_Zeta_Stansted_25.9.26_(55548937432).jpg",
+      "title": "HL7616 Boeing 747-446F Air Zeta Stansted 25.9.26 (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Left side from below, 2026-09-25: the blue field's edge on the belly, red winglets."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:HL7419.jpg",
+      "title": "HL7419.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Right side, landing at Los Angeles, 2026-09-07: title and fin the same on the right."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/AirZeta",
+      "title": "Wikipedia: AirZeta",
+      "accessed": "2026-11-13",
+      "note": "Air Incheon renamed AirZeta on 2025-08-01 on taking over Asiana's cargo division (ten 747-400Fs, one 767-300F); ICAO AIH."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#E9EBEE",
+      "official": false,
+      "name": "light gray-white"
+    },
+    "blue": {
+      "hex": "#1F2FA6",
+      "official": false,
+      "name": "AirZeta royal blue"
+    },
+    "red": {
+      "hex": "#E8203A",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false
+    },
+    "flagRed": {
+      "hex": "#CD2E3A",
+      "official": false
+    },
+    "flagBlue": {
+      "hex": "#0047A0",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "blue aft field",
+        "color": "blue",
+        "points": [
+          [
+            0.8,
+            1
+          ],
+          [
+            0.713,
+            0.05
+          ],
+          [
+            0.747,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "windows": "hidden",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "blue",
+    "mirrored": true,
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "red",
+    "inner": "red",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "logos": [
+    {
+      "mark": "AIH/zeta",
+      "place": "fin",
+      "at": [
+        0.52,
+        0.43
+      ],
+      "height": 0.63,
+      "colors": [
+        "red",
+        "white",
+        "blue"
+      ],
+      "description": "The AirZeta mark: two parallel slanted blocks leaning forward at the top, the upper a red parallelogram, the lower a white one whose upper-left part is notched in blue so the pair reads as a stylised Z; on the blue fin, high and aft.",
+      "reference": "https://commons.wikimedia.org/wiki/File:AirZeta_logo_2025.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        2
+      ]
+    },
+    {
+      "mark": "AIH/korea-flag",
+      "place": "fuselage",
+      "at": [
+        0.84,
+        0.45
+      ],
+      "height": 0.12,
+      "colors": [
+        "white",
+        "flagRed",
+        "flagBlue"
+      ],
+      "description": "A small South Korean flag on the blue aft fuselage under the fin's leading edge.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Korea.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "AIRZETA",
+      "place": "fuselage",
+      "at": [
+        0.17,
+        0.13
+      ],
+      "height": 0.49,
+      "length": 0.233,
+      "color": "blue",
+      "style": "Big wide geometric capitals in royal blue, heavy, the A's without crossbars' serifs and slightly leaning, across the forward main deck.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Eurostile Extended Black",
+          "Microgramma Bold Extended"
+        ],
+        "weight": 800,
+        "slantDeg": 14,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Drawn from 747-400F HL7419 (left side, February 2026) and checked on HL7616 (September 2026) and HL7419's right side. Not every AirZeta freighter wears it yet: ex-Asiana 747s fly in all-white or in basic Asiana paint with titles removed (HL7620 'in basic Asiana scheme', April 2026; HL7646 white with a black 'CARGO', September 2026; HL7421 white with a gray swoosh and 'CARGO', May 2026). Those aren't tagged: there is no file for those plain schemes. The callsign became QUANTUM SKY on 2026-07-01 (Wikipedia, uncited). Re-checked 2026-11-15 on HL7419 (2026-02-16) and HL7616 (2026-09-25): AIRZETA leans ~14° (the I and T stems), not 5°; its place and length (0.233) agree; the blue aft field's edge is two straight diagonals meeting at a point by the window line: the points along them replaced by their ends.",
+  "history": "Added with the cargo divisions (2026-11-13): Air Incheon rebranded as AirZeta on 2025-08-01 when it took over Asiana Airlines' cargo division."
+}

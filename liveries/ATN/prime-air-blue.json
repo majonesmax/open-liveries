@@ -1,0 +1,225 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "prime-air-blue",
+  "airline": "ATN",
+  "name": "Amazon Prime Air (blue, 737 freighters)",
+  "kind": "standard",
+  "from": "2019",
+  "confidence": "medium",
+  "drawnOn": "B738",
+  "description": "The narrowbody version of Amazon's scheme, on its 737-800 freighters: sky-blue fuselage with 'Prime Air' in big white letters behind the cockpit; a white band sweeps from the belly behind the wing up to the crown at the fin's root, and behind it the aft fuselage, tail cone and fin are dark slate; the white Amazon smile low across the fin; blue engines.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Amazon_Boeing_737-800_N7922A_BWI_MD1.jpg",
+      "title": "Amazon Boeing 737-800 N7922A BWI MD1.jpg (CC BY-SA 4.0, Acroterion; the aircraft is N7933A)",
+      "accessed": "2026-11-13",
+      "note": "N7933A (Sun Country-flown 737-800BCF), left side, level, 2026-08-06: geometry, title, fin."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:EI-AZC_Boeing_737-86J(SF)_Amazon_Prime_ASL_Ireland_Liege_18.3.26_(55197304156).jpg",
+      "title": "EI-AZC Boeing 737-86J(SF) Amazon Prime ASL Ireland Liege 18.3.26 (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "EI-AZC (ASL Airlines Ireland) right side, 2026-03-18: the right side matches; the smile unmirrored; blue winglets and engines."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Amazon_Air",
+      "title": "Wikipedia: Amazon Air",
+      "accessed": "2026-11-13",
+      "note": "Fleet and contract operators (ATI, Atlas, Sun Country, Hawaiian, ASL Ireland, Cargojet, 21 Air, Quikjet); 'Prime Air' renamed Amazon Air in 2017 while the jets kept 'Prime Air' titles."
+    }
+  ],
+  "palette": {
+    "blue": {
+      "hex": "#45ADDE",
+      "official": false,
+      "name": "sky blue (Prime blue on the 737s reads lighter than the 767 titles)"
+    },
+    "white": {
+      "hex": "#F2F3F5",
+      "official": false
+    },
+    "navy": {
+      "hex": "#3A424C",
+      "official": false,
+      "name": "dark slate"
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "blue",
+    "areas": [
+      {
+        "name": "white band from the belly behind the wing up to the crown at the fin root",
+        "color": "white",
+        "points": [
+          [
+            0.49,
+            -1.0
+          ],
+          [
+            0.5612,
+            -0.5013
+          ],
+          [
+            0.7842,
+            0.6204
+          ],
+          [
+            0.814,
+            1.0
+          ],
+          [
+            0.83,
+            1.0
+          ],
+          [
+            0.8015,
+            0.4787
+          ],
+          [
+            0.6039,
+            -1.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "dark slate aft fuselage and tail cone",
+        "color": "navy",
+        "points": [
+          [
+            0.6039,
+            -1.0
+          ],
+          [
+            0.8015,
+            0.4787
+          ],
+          [
+            0.83,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "radome": {
+      "color": "blue"
+    },
+    "windows": "hidden",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "fin": {
+    "base": "navy",
+    "mirrored": true,
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "blue",
+    "inner": "blue",
+    "confidence": "low",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "blue",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "ATN/amazon-smile",
+      "place": "fin",
+      "at": [
+        0.5,
+        0.2
+      ],
+      "height": 0.12,
+      "colors": [
+        "white"
+      ],
+      "description": "The Amazon smile: a curved white swoosh, thin at its left end, thickest under the middle, rising to the right into an arrowhead whose point is at its upper right (the corner of a short hook that drops down and back). Low across the fin, about four-fifths of its chord wide. Unmirrored on the right side (EI-AZC).",
+      "reference": "https://commons.wikimedia.org/wiki/File:Amazon_logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Prime Air",
+      "place": "fuselage",
+      "at": [
+        0.143,
+        -0.02
+      ],
+      "height": 0.58,
+      "color": "white",
+      "style": "'Prime Air' in big white bold sans-serif, mixed case, italic (about 12°, Amazon's Prime wordmark), from just behind the forward door.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Amazon Ember Display Bold",
+          "Helvetica Neue Bold",
+          "Arial Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 12,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "length": 0.28
+    }
+  ],
+  "notes": "Drawn on the 737-800 from N7933A (Sun Country, 2026-08-06, left) and EI-AZC (ASL Ireland, 2026-03-18, right); every Amazon 737 photographed (N5147A, N5153A, N5233A, N5693A, N7901A, EI-AZA...EI-AZG, VT-AAZ) wears it. A small 'Operated by <contractor>' line by the cockpit changes with the operator (Sun Country, ASL Airlines, Atlas; ASL's jets add 'Always High AIR'): left out. The white band is a little wider low down than on the 767's blue band; the belly under it isn't seen and is assumed to wrap. Winglets blue with a white root sweep (low). See ATN/prime-air for the 767 version. Re-checked 2026-11-15 on the 737-800 (B738 measured shape; N7933A left 2026-08-06, fitted with photo_trace and its doors; EI-AZC right 2026-04-09): the white band's edges re-measured off the fitted photo (straight diagonals as seen from the side, bending only near the crown) (its aft edge had been up to ~0.5 m too far forward low down); the title (italic, as on the 767s) runs ~0.14-0.42 with its cap top at y ~0.56 (it had been drawn ~30% too tall); EI-AZC's right-side title sits ~0.5 m further aft and a little higher than N7933A's left one, so operators' paint shops differ slightly. The white band continues up the aft edge of the blue dorsal fillet to the fin's leading edge: not drawn (the fillet takes the fin's root paint).",
+  "history": "New in Open Liveries (2026-11-13). The blue narrowbody version came with Amazon's first 737-800BCFs in 2019 (N855DM shown at the 2019 Paris Air Show)."
+}

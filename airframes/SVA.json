@@ -1,0 +1,170 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "SVA",
+  "airframes": [
+    {
+      "registration": "HZ-AK71",
+      "livery": "cargo",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:HZ-AK71_(aircraft)",
+          "title": "Commons: HZ-AK71 (aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Saudia_Cargo",
+          "title": "Wikipedia: Saudia Cargo",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "type": "B77L",
+      "hex": "710100",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "status": "Commons photo at Liège, 2024-05-12.",
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "HZ-AK72",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:HZ-AK72_(aircraft)",
+          "title": "Commons: HZ-AK72 (aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Saudia_Cargo",
+          "title": "Wikipedia: Saudia Cargo",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "type": "B77L",
+      "hex": "710101",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register"
+    },
+    {
+      "registration": "HZ-AK73",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:HZ-AK73_(aircraft)",
+          "title": "Commons: HZ-AK73 (aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Saudia_Cargo",
+          "title": "Wikipedia: Saudia Cargo",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "type": "B77L",
+      "hex": "710102",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "HZ-AK74",
+      "livery": "cargo",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:HZ-AK74_(aircraft)",
+          "title": "Commons: HZ-AK74 (aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Saudia_Cargo",
+          "title": "Wikipedia: Saudia Cargo",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "type": "B77L",
+      "hex": "710103",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "status": "Commons photo at Hong Kong, 2024-08-06."
+    },
+    {
+      "registration": "9H-AKA",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:9H-AKA_(aircraft)",
+          "title": "Commons: 9H-AKA (aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Saudi_Cargo_9H-AKA_run_SV3013(Hong_Kong_International_Airport_to_Saudi_Arabia_Riyadh_King_Khalid_International_Airport)_27-08-2025.jpg",
+          "title": "Saudi Cargo 9H-AKA run SV3013 ... 27-08-2025.jpg",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "type": "B744",
+      "hex": "4d243e",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "status": "Commons photo at Hong Kong, 2025-08-27, as SV3013, in Saudia Cargo paint.",
+      "notes": "747-400BDSF wet-leased from Air Atlanta Europe (Malta), flying Saudia flight numbers; hexdb.io gives operator SVA."
+    },
+    {
+      "registration": "9H-AKF",
+      "livery": "cargo",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://www.airhistory.net/photo/608528/9H-AKF",
+          "title": "AirHistory.net photo of 9H-AKF, captioned 'Saudi Arabian Airlines Cargo' (evidence only; undated here)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "type": "B744",
+      "hex": "4d2470",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "notes": "747-45E(BDSF) of Air Atlanta Europe on Saudia's wet lease; hexdb.io gives operator SVA. Livery from photo-site captions, not an open photo."
+    },
+    {
+      "registration": "9H-AKJ",
+      "livery": "cargo",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://www.airhistory.net/photo/844827/9H-AKJ",
+          "title": "AirHistory.net photo of 9H-AKJ, captioned 'Saudi Arabian Airlines Cargo' (evidence only; undated here)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "type": "B744",
+      "hex": "4d24a9",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "notes": "747-412F of Air Atlanta Europe on Saudia's wet lease; hexdb.io gives operator SVA. Livery from photo-site captions, not an open photo.",
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "HZ-ARF",
+      "livery": "welcome-to-arabia",
+      "confidence": "high",
+      "type": "B789",
+      "hex": "7103d7",
+      "hexSource": "looked up: hexdb.io and adsbdb agree (2026-11-22); not verified against the national register",
+      "from": "2026-01",
+      "lastSeen": "2026-01-24",
+      "sources": [
+        {
+          "url": "https://www.aerotime.aero/articles/saudia-introduces-boeing-787-dreamliner-new-livery/amp",
+          "title": "Saudia introduces Boeing 787 Dreamliner draped in new celebratory livery (Aerotime)",
+          "accessed": "2026-11-22",
+          "note": "HZ-ARF, unveiled in Jeddah 18 January 2026 with the Saudi Tourism Authority."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:HZ-ARF_Boeing_787-9_Saudia_LGW_24.1.26_(55058428846).jpg",
+          "title": "HZ-ARF Boeing 787-9 Saudia LGW 24.1.26 (CC BY-SA 4.0)",
+          "accessed": "2026-11-22",
+          "note": "Right side at Gatwick, 2026-01-24."
+        }
+      ],
+      "status": "active: unveiled 18 January 2026 for a year-round campaign (Zawya); Commons photo 2026-01-24; Reddit sighting reported by the maintainer 2026-11-22 (lead)."
+    }
+  ]
+}

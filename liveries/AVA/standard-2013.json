@@ -1,0 +1,541 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard-2013",
+  "airline": "AVA",
+  "name": "2013 livery (capital 'Avianca')",
+  "kind": "standard",
+  "from": "2013",
+  "description": "The 2013 scheme: as the 2023 one but titled 'Avianca' with a capital A. White fuselage, red bird and titles, red swoosh into a faceted red fin, red engines.",
+  "confidence": "medium",
+  "drawnOn": "A320",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N965AV_-_Airbus_A320-251N_-_Avianca_SJO_220126.jpg",
+      "title": "N965AV - Airbus A320-251N - Avianca SJO 220126 (CC BY 4.0, kitmasterbloke)",
+      "accessed": "2026-11-13",
+      "note": "Left side, level, 2026-01-24: lowercase titles, bird, swoosh, fin, engine."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Avianca_Airbus_A320neo_HK-5366_departing_Boston_Feb_2025_2.jpg",
+      "title": "Avianca Airbus A320neo HK-5366 departing Boston Feb 2025 2 (CC BY 4.0, 4300streetcar)",
+      "accessed": "2026-11-13",
+      "note": "From below and left, 2025-02-22: white belly, red engines, winglets. An ex-Viva Air aircraft, repainted without the aft swoosh."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N967AV_@_MIA,_2024-04-19.png",
+      "title": "N967AV @ MIA, 2024-04-19 (CC BY-SA 2.0, Mark Bess)",
+      "accessed": "2026-11-13",
+      "note": "Left side, 2024-04-19, still in the 2013 'Avianca' titles: the clearest view of the fin's facets."
+    },
+    {
+      "url": "https://www.larepublica.co/empresas/nuevo-logo-de-avianca-2023-3731384",
+      "title": "La República: nuevo logo de Avianca (2023)",
+      "accessed": "2026-11-13",
+      "note": "October 2023 rebrand: 'Avianca' becomes 'avianca', the bird kept."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F1F2F3",
+      "official": false
+    },
+    "red": {
+      "hex": "#D7262B",
+      "official": false
+    },
+    "darkRed": {
+      "hex": "#A9202A",
+      "official": false
+    },
+    "orange": {
+      "hex": "#E86A1F",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC5",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "name": "bare metal inlet lip",
+      "official": false
+    },
+    "core": {
+      "hex": "#8A8F96",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "red swoosh from the lower aft fuselage up into the fin",
+        "color": "red",
+        "points": [
+          [
+            0.645,
+            -0.8
+          ],
+          [
+            0.7,
+            -0.45
+          ],
+          [
+            0.76,
+            -0.1
+          ],
+          [
+            0.8,
+            0.25
+          ],
+          [
+            0.83,
+            0.6
+          ],
+          [
+            0.85,
+            0.9
+          ],
+          [
+            0.86,
+            1.0
+          ],
+          [
+            0.918,
+            1.0
+          ],
+          [
+            0.9,
+            0.55
+          ],
+          [
+            0.875,
+            0.0
+          ],
+          [
+            0.842,
+            -0.76
+          ],
+          [
+            0.75,
+            -0.82
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          2
+        ],
+        "smooth": true
+      },
+      {
+        "name": "orange dorsal fillet ahead of the fin",
+        "color": "orange",
+        "points": [
+          [
+            0.772,
+            1.0
+          ],
+          [
+            0.79,
+            0.9
+          ],
+          [
+            0.83,
+            0.9
+          ],
+          [
+            0.83,
+            1.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2
+        ]
+      }
+    ],
+    "radome": {
+      "color": "white",
+      "to": 0.025
+    },
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "red",
+    "areas": [
+      {
+        "name": "orange at the root's leading edge",
+        "color": "orange",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0.38,
+            0
+          ],
+          [
+            0.24,
+            0.1
+          ],
+          [
+            0.15,
+            0.19
+          ],
+          [
+            0,
+            0.19
+          ]
+        ]
+      },
+      {
+        "name": "white sliver up the leading edge",
+        "color": "white",
+        "points": [
+          [
+            0,
+            0.19
+          ],
+          [
+            0.15,
+            0.19
+          ],
+          [
+            0.06,
+            0.29
+          ],
+          [
+            0,
+            0.39
+          ]
+        ]
+      },
+      {
+        "name": "dark red facet, lower aft",
+        "color": "darkRed",
+        "points": [
+          [
+            0.38,
+            0
+          ],
+          [
+            0.24,
+            0.1
+          ],
+          [
+            0.3,
+            0.24
+          ],
+          [
+            0.37,
+            0.37
+          ],
+          [
+            0.5,
+            0.46
+          ],
+          [
+            0.63,
+            0.56
+          ],
+          [
+            0.78,
+            0.68
+          ],
+          [
+            0.88,
+            0.77
+          ],
+          [
+            0.93,
+            0.76
+          ],
+          [
+            0.8,
+            0
+          ]
+        ]
+      },
+      {
+        "name": "white panel at the tip's trailing edge",
+        "color": "white",
+        "points": [
+          [
+            0.45,
+            1.0
+          ],
+          [
+            1,
+            1.0
+          ],
+          [
+            1,
+            0.74
+          ],
+          [
+            0.86,
+            0.77
+          ]
+        ]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "white",
+    "inner": "white",
+    "areas": [
+      {
+        "name": "red tip",
+        "color": "red",
+        "points": [
+          [
+            0,
+            0.72
+          ],
+          [
+            1,
+            0.82
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      }
+    ],
+    "confidence": "low",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "red",
+    "inletLip": "lip",
+    "areas": [
+      {
+        "name": "gray core and exhaust",
+        "color": "core",
+        "points": [
+          [
+            0.82,
+            -0.55
+          ],
+          [
+            1,
+            -0.4
+          ],
+          [
+            1,
+            0.4
+          ],
+          [
+            0.82,
+            0.55
+          ]
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "AVA/bird",
+      "place": "fuselage",
+      "at": [
+        0.19,
+        0.18
+      ],
+      "height": 1.0,
+      "colors": [
+        "red"
+      ],
+      "description": "Avianca's bird (since 2013): two red blades, an upper wing curving up and back to a sharp tip and a lower sweep pointing forward and down, like a stylised flamingo/condor in flight, just ahead of the titles and behind the forward door.",
+      "reference": "https://commons.wikimedia.org/wiki/Category:Avianca",
+      "confidence": "high",
+      "sourceRefs": [
+        2
+      ]
+    },
+    {
+      "mark": "AVA/bird",
+      "place": "engines",
+      "at": [
+        0.45,
+        0.1
+      ],
+      "height": 0.37,
+      "colors": [
+        "white"
+      ],
+      "description": "The bird in white on the red cowling's outboard face.",
+      "reference": "https://commons.wikimedia.org/wiki/Category:Avianca",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        2
+      ]
+    },
+    {
+      "mark": "AVA/bird",
+      "place": "winglets",
+      "at": [
+        0.5,
+        0.4
+      ],
+      "height": 0.3,
+      "colors": [
+        "red"
+      ],
+      "description": "A small red bird on the white sharklet; seen from below (2025), face not certain.",
+      "reference": "https://commons.wikimedia.org/wiki/Category:Avianca",
+      "confidence": "low",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "AVA/star-alliance",
+      "place": "fuselage",
+      "at": [
+        0.096,
+        0.32
+      ],
+      "height": 0.21,
+      "colors": [
+        "#4A4F57"
+      ],
+      "description": "The small Star Alliance star outline, gray, behind the cockpit windows, before the forward door.",
+      "reference": "https://commons.wikimedia.org/wiki/Category:Star_Alliance",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        2
+      ]
+    },
+    {
+      "mark": "AVA/flag",
+      "place": "fuselage",
+      "at": [
+        0.068,
+        0.02
+      ],
+      "height": 0.18,
+      "colors": [
+        "#FCD116",
+        "#003893",
+        "#CE1126"
+      ],
+      "description": "The flag of the aircraft's home country under the cockpit (Colombia on HK- and most N- registered A320s; Ecuador or El Salvador on those based there).",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        2
+      ]
+    },
+    {
+      "mark": "AVA/flag",
+      "place": "fin",
+      "at": [
+        0.79,
+        0.955
+      ],
+      "height": 0.05,
+      "colors": [
+        "#FCD116",
+        "#003893",
+        "#CE1126"
+      ],
+      "description": "The same flag, small, in the white panel at the fin's tip.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Avianca",
+      "place": "fuselage",
+      "at": [
+        0.234,
+        0.0
+      ],
+      "height": 0.72,
+      "color": "red",
+      "style": "Bold humanist sans, capital A then lowercase with double-storey a's, across the windows ahead of the wing.",
+      "confidence": "high",
+      "sourceRefs": [
+        2
+      ],
+      "type": {
+        "similar": [
+          "Myriad Pro Bold",
+          "Frutiger Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.66
+      },
+      "length": 0.186
+    },
+    {
+      "text": "COLOMBIA",
+      "place": "fuselage",
+      "at": [
+        0.06,
+        -0.09
+      ],
+      "height": 0.05,
+      "color": "#4A4F57",
+      "style": "Tiny gray capitals under the flag: the registry country, which varies.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Drawn from N967AV (2024-04-19, left side), sharing the 2023 scheme's geometry (N965AV, HK-5366). Still on part of the fleet as aircraft wait for repaints; which ones isn't tracked here. Re-checked 2026-11-15 on N967AV itself (not the 2023 scheme's geometry), placed by its doors: the title runs 0.234 to 0.420, lowercase 0.66 of the A; the swoosh starts low at about 0.64 as on the 2023 scheme, and is drawn smooth.",
+  "history": "Replaced the cream-fuselage, red-topped scheme in 2013 (Avianca/TACA merger). Superseded by the lowercase 2023 wordmark, applied as aircraft are repainted."
+}

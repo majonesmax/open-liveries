@@ -1,0 +1,376 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "go-dawgs",
+  "airline": "ASA",
+  "name": "Go Dawgs! (University of Washington)",
+  "kind": "special",
+  "confidence": "high",
+  "drawnOn": "E75L",
+  "description": "Fuselage: Husky purple, with a white stripe from the fin's root down and forward to the belly, gold behind it over the tail cone. Cheatlines: None. Tail: Gold with a purple leading edge edged in white, UW's purple block 'W'. Engines: Purple. Winglets: Gold with the 'W'. Titles: White 'Alaska' with 'HORIZON' after it under the forward windows; 'GO DAWGS!' big in gold across the windows; 'PROUD SPONSOR OF UW ATHLETICS' small under the windows ahead of the stripe. Colors hex: UW purple and gold are the university's; the paint matched by eye.",
+  "sources": [
+    {
+      "url": "https://www.alaskaair.com/content/travel-info/our-aircraft/e175-uw",
+      "title": "Alaska Airlines: The \"Go Dawgs\" Aircraft",
+      "accessed": "2026-11-14",
+      "note": "Alaska's page: N662QX, debuted 2023-09-22; its photo shows the left side from behind: the colors, the stripe and fin, the titles."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:N662QX_(aircraft)",
+      "title": "N662QX on Commons",
+      "accessed": "2026-11-14"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N662QX.jpg",
+      "title": "N662QX.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-14",
+      "note": "Right side side-on, SFO 2026-04-19: 'GO DAWGS!' and the titles on the right; still flying in it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Alaska_Go_Dawgs!_E175_taking_off_from_Santa_Barbara.jpg",
+      "title": "Alaska Go Dawgs! E175 taking off from Santa Barbara.jpg (CC BY 4.0)",
+      "accessed": "2026-11-14",
+      "note": "Left side from below, 2025-03-28: belly purple, the stripe reaching the belly."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N661QX_@_LAX,_2024-01-20.jpg",
+      "title": "N661QX @ LAX, 2024-01-20.jpg (CC0)",
+      "accessed": "2026-11-14",
+      "note": "The sister jet N661QX (Go Cougs) side-on: the same design in WSU's colors; positions along the fuselage measured from it."
+    }
+  ],
+  "notes": "Flown by Horizon (QXE) on the E175. Alaska's photo is from behind the wing, so positions along the fuselage were measured on the side-on photo of its sister jet N661QX ('Go Cougs', the same design in WSU's colors) and checked against this one's. 'PROUD SPONSOR OF UW ATHLETICS' isn't drawn. On the right, 'HORIZON' is forward of 'Alaska' (as on Horizon's standard E175s).",
+  "from": "2023-09",
+  "palette": {
+    "purple": {
+      "hex": "#4B2E9A",
+      "name": "Husky purple",
+      "official": false
+    },
+    "gold": {
+      "hex": "#D2A332",
+      "name": "Husky gold",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC5",
+      "official": false
+    },
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "purple",
+    "areas": [
+      {
+        "name": "white stripe from the fin's root down and forward to the belly",
+        "color": "white",
+        "points": [
+          [
+            0.692,
+            -1
+          ],
+          [
+            0.712,
+            -1
+          ],
+          [
+            0.79,
+            1
+          ],
+          [
+            0.77,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          2,
+          4
+        ]
+      },
+      {
+        "name": "gold aft fuselage and tail cone behind the stripe",
+        "color": "gold",
+        "points": [
+          [
+            0.712,
+            -1
+          ],
+          [
+            0.79,
+            1
+          ],
+          [
+            1.02,
+            1
+          ],
+          [
+            1.02,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          2,
+          4
+        ]
+      }
+    ],
+    "radome": {
+      "color": "purple"
+    },
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      2,
+      4
+    ]
+  },
+  "fin": {
+    "base": "gold",
+    "rudder": "gold",
+    "areas": [
+      {
+        "name": "purple band down the leading edge, edged in white",
+        "color": "purple",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0.1,
+            1
+          ],
+          [
+            0.1,
+            0
+          ]
+        ],
+        "sourceRefs": [
+          0,
+          2,
+          4
+        ]
+      },
+      {
+        "name": "white pinstripe behind it",
+        "color": "white",
+        "points": [
+          [
+            0.1,
+            0
+          ],
+          [
+            0.1,
+            1
+          ],
+          [
+            0.13,
+            1
+          ],
+          [
+            0.13,
+            0
+          ]
+        ],
+        "sourceRefs": [
+          0,
+          2,
+          4
+        ]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      2,
+      4
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "stabilizer": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "gold",
+    "inner": "gold",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      2,
+      4
+    ]
+  },
+  "engines": {
+    "cowling": "purple",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      2,
+      4
+    ]
+  },
+  "logos": [
+    {
+      "mark": "ASA/uw-block-w",
+      "place": "fin",
+      "at": [
+        0.58,
+        0.45
+      ],
+      "height": 0.35,
+      "colors": [
+        "purple",
+        "white"
+      ],
+      "description": "UW's block 'W' in purple outlined in white, on the gold fin.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        2,
+        4
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Alaska",
+      "place": "fuselage",
+      "at": [
+        0.114,
+        -0.23
+      ],
+      "height": 0.6,
+      "color": "white",
+      "style": "The 2016 Alaska wordmark in white, under the forward windows.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        2,
+        4
+      ],
+      "length": 0.2,
+      "type": {
+        "similar": [
+          "Kaufmann Bold",
+          "Futura Bold Oblique"
+        ],
+        "weight": 800,
+        "slantDeg": 16,
+        "width": "normal",
+        "strokes": "brush",
+        "case": "mixed",
+        "xHeight": 0.55
+      }
+    },
+    {
+      "text": "HORIZON",
+      "place": "fuselage",
+      "at": [
+        0.318,
+        -0.23
+      ],
+      "height": 0.11,
+      "color": "white",
+      "style": "Horizon's name in small spaced bold capitals right after 'Alaska'.",
+      "side": "left",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        2,
+        4
+      ],
+      "length": 0.05,
+      "type": {
+        "similar": [
+          "Helvetica Neue Bold",
+          "Arial Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "HORIZON",
+      "place": "fuselage",
+      "at": [
+        0.058,
+        -0.23
+      ],
+      "height": 0.11,
+      "color": "white",
+      "style": "On the right it follows 'Alaska' in reading order, forward of it.",
+      "side": "right",
+      "confidence": "low",
+      "sourceRefs": [
+        0,
+        2,
+        4
+      ],
+      "length": 0.05,
+      "type": {
+        "similar": [
+          "Helvetica Neue Bold",
+          "Arial Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "GO DAWGS!",
+      "place": "fuselage",
+      "at": [
+        0.37,
+        -0.09
+      ],
+      "height": 0.85,
+      "color": "gold",
+      "style": "Heavy slanted slab capitals in gold with a dark outline, across the windows from ahead of the wing to the aft door.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        2,
+        4
+      ],
+      "length": 0.355,
+      "type": {
+        "similar": [
+          "Rockwell Extra Bold",
+          "Clarendon Black"
+        ],
+        "weight": 800,
+        "slantDeg": 10,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ]
+}

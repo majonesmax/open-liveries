@@ -1,0 +1,788 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "tri-color-1968",
+  "airline": "AAL",
+  "name": "Tri-color (1968 retro)",
+  "kind": "retro",
+  "from": "2013",
+  "confidence": "high",
+  "drawnOn": "B738",
+  "description": "Fuselage: Polished aluminum, unpainted. Cheatlines: Three equal stripes along the windows, blue (the windows in it), white, red, running from the nose to just behind the rear door; straight in side view, red and white running off the nose, blue starting just behind the cockpit windows (they sit on bare metal, a hairline of blue under them not drawn). Tail: Polished fin with the AA eagle: a red 'A' and a blue 'A' side by side, thinly edged in white, a blue eagle diving between their tops. Engines: Silver. Winglets: Silver. Titles: 'American' in red upright sans (Helvetica) over the forward cabin, above the stripes, thinly edged in white. Artwork: none. Colors hex: approximate.",
+  "sources": [
+    {
+      "url": "https://airlinegeeks.com/2017/12/14/american-quietly-adds-new-polished-aluminum-retro-livery-to-a-boeing-737-800/",
+      "accessed": "2026-11-18"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N921NN_B737-823W_American_Al_YVR_24JUL13_(9362686624).jpg",
+      "title": "N921NN B737-823W American Al YVR 24JUL13 (Ken Fielding, CC BY-SA 3.0)",
+      "accessed": "2026-11-18",
+      "note": "Left side, 2013-07-24: the stripes, the title and the fin, measured on the B738's outline."
+    }
+  ],
+  "palette": {
+    "metal": {
+      "hex": "#AEB3B9",
+      "name": "polished aluminum",
+      "official": false
+    },
+    "white": {
+      "hex": "#F2F3F5",
+      "official": false
+    },
+    "red": {
+      "hex": "#D02A1E",
+      "official": false
+    },
+    "blue": {
+      "hex": "#16307E",
+      "official": false
+    },
+    "cowl": {
+      "hex": "#C9CDD2",
+      "official": false
+    }
+  },
+  "finish": "metallic",
+  "fuselage": {
+    "base": "metal",
+    "areas": [
+      {
+        "name": "red stripe, rising to the nose tip",
+        "color": "red",
+        "points": [
+          [
+            0,
+            1
+          ],
+          [
+            0.003,
+            0.144
+          ],
+          [
+            0.005,
+            0.107
+          ],
+          [
+            0.008,
+            0.085
+          ],
+          [
+            0.01,
+            0.075
+          ],
+          [
+            0.03,
+            0.012
+          ],
+          [
+            0.038,
+            -0.021
+          ],
+          [
+            0.04,
+            -0.032
+          ],
+          [
+            0.05,
+            -0.061
+          ],
+          [
+            0.06,
+            -0.077
+          ],
+          [
+            0.07,
+            -0.088
+          ],
+          [
+            0.08,
+            -0.095
+          ],
+          [
+            0.15,
+            -0.131
+          ],
+          [
+            0.19,
+            -0.145
+          ],
+          [
+            0.22,
+            -0.15
+          ],
+          [
+            0.58,
+            -0.15
+          ],
+          [
+            0.68,
+            -0.156
+          ],
+          [
+            0.69,
+            -0.16
+          ],
+          [
+            0.71,
+            -0.171
+          ],
+          [
+            0.74,
+            -0.197
+          ],
+          [
+            0.78,
+            -0.247
+          ],
+          [
+            0.8,
+            -0.28
+          ],
+          [
+            0.82,
+            -0.324
+          ],
+          [
+            0.84,
+            -0.379
+          ],
+          [
+            0.85,
+            -0.414
+          ],
+          [
+            0.85,
+            -0.22
+          ],
+          [
+            0.84,
+            -0.196
+          ],
+          [
+            0.82,
+            -0.156
+          ],
+          [
+            0.8,
+            -0.123
+          ],
+          [
+            0.78,
+            -0.097
+          ],
+          [
+            0.75,
+            -0.066
+          ],
+          [
+            0.73,
+            -0.05
+          ],
+          [
+            0.71,
+            -0.037
+          ],
+          [
+            0.69,
+            -0.028
+          ],
+          [
+            0.68,
+            -0.025
+          ],
+          [
+            0.59,
+            -0.02
+          ],
+          [
+            0.22,
+            -0.02
+          ],
+          [
+            0.18,
+            -0.011
+          ],
+          [
+            0.15,
+            0.003
+          ],
+          [
+            0.11,
+            0.03
+          ],
+          [
+            0.08,
+            0.055
+          ],
+          [
+            0.07,
+            0.07
+          ],
+          [
+            0.06,
+            0.093
+          ],
+          [
+            0.055,
+            0.109
+          ],
+          [
+            0.05,
+            0.127
+          ],
+          [
+            0.048,
+            0.14
+          ],
+          [
+            0.045,
+            0.154
+          ],
+          [
+            0.04,
+            0.189
+          ],
+          [
+            0.038,
+            0.212
+          ],
+          [
+            0.032,
+            0.263
+          ],
+          [
+            0.03,
+            0.29
+          ],
+          [
+            0.027,
+            0.316
+          ],
+          [
+            0.023,
+            0.371
+          ],
+          [
+            0.02,
+            0.405
+          ],
+          [
+            0.018,
+            0.445
+          ],
+          [
+            0.015,
+            0.493
+          ],
+          [
+            0.013,
+            0.554
+          ],
+          [
+            0.01,
+            0.638
+          ],
+          [
+            0.008,
+            0.792
+          ],
+          [
+            0.005,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "white stripe",
+        "color": "white",
+        "points": [
+          [
+            0,
+            1
+          ],
+          [
+            0.005,
+            1
+          ],
+          [
+            0.008,
+            0.792
+          ],
+          [
+            0.01,
+            0.638
+          ],
+          [
+            0.013,
+            0.554
+          ],
+          [
+            0.015,
+            0.493
+          ],
+          [
+            0.018,
+            0.445
+          ],
+          [
+            0.02,
+            0.405
+          ],
+          [
+            0.023,
+            0.371
+          ],
+          [
+            0.027,
+            0.316
+          ],
+          [
+            0.03,
+            0.29
+          ],
+          [
+            0.032,
+            0.263
+          ],
+          [
+            0.038,
+            0.212
+          ],
+          [
+            0.04,
+            0.189
+          ],
+          [
+            0.045,
+            0.154
+          ],
+          [
+            0.048,
+            0.14
+          ],
+          [
+            0.05,
+            0.127
+          ],
+          [
+            0.055,
+            0.109
+          ],
+          [
+            0.06,
+            0.093
+          ],
+          [
+            0.07,
+            0.07
+          ],
+          [
+            0.08,
+            0.055
+          ],
+          [
+            0.11,
+            0.03
+          ],
+          [
+            0.15,
+            0.003
+          ],
+          [
+            0.18,
+            -0.011
+          ],
+          [
+            0.22,
+            -0.02
+          ],
+          [
+            0.59,
+            -0.02
+          ],
+          [
+            0.68,
+            -0.025
+          ],
+          [
+            0.7,
+            -0.032
+          ],
+          [
+            0.73,
+            -0.05
+          ],
+          [
+            0.75,
+            -0.066
+          ],
+          [
+            0.78,
+            -0.097
+          ],
+          [
+            0.8,
+            -0.123
+          ],
+          [
+            0.82,
+            -0.156
+          ],
+          [
+            0.84,
+            -0.196
+          ],
+          [
+            0.85,
+            -0.22
+          ],
+          [
+            0.87,
+            -0.28
+          ],
+          [
+            0.87,
+            -0.104
+          ],
+          [
+            0.86,
+            -0.08
+          ],
+          [
+            0.84,
+            -0.04
+          ],
+          [
+            0.82,
+            -0.009
+          ],
+          [
+            0.8,
+            0.017
+          ],
+          [
+            0.78,
+            0.037
+          ],
+          [
+            0.75,
+            0.062
+          ],
+          [
+            0.72,
+            0.081
+          ],
+          [
+            0.7,
+            0.09
+          ],
+          [
+            0.68,
+            0.096
+          ],
+          [
+            0.59,
+            0.1
+          ],
+          [
+            0.22,
+            0.1
+          ],
+          [
+            0.18,
+            0.111
+          ],
+          [
+            0.15,
+            0.128
+          ],
+          [
+            0.12,
+            0.152
+          ],
+          [
+            0.09,
+            0.183
+          ],
+          [
+            0.08,
+            0.198
+          ],
+          [
+            0.07,
+            0.22
+          ],
+          [
+            0.06,
+            0.256
+          ],
+          [
+            0.05,
+            0.314
+          ],
+          [
+            0.048,
+            0.335
+          ],
+          [
+            0.045,
+            0.358
+          ],
+          [
+            0.04,
+            0.419
+          ],
+          [
+            0.038,
+            0.459
+          ],
+          [
+            0.032,
+            0.562
+          ],
+          [
+            0.03,
+            0.626
+          ],
+          [
+            0.027,
+            0.696
+          ],
+          [
+            0.023,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "blue stripe along the windows, from behind the cockpit windows",
+        "color": "blue",
+        "points": [
+          [
+            0.076,
+            0.206
+          ],
+          [
+            0.086,
+            0.187
+          ],
+          [
+            0.116,
+            0.155
+          ],
+          [
+            0.146,
+            0.131
+          ],
+          [
+            0.186,
+            0.108
+          ],
+          [
+            0.216,
+            0.101
+          ],
+          [
+            0.586,
+            0.1
+          ],
+          [
+            0.676,
+            0.096
+          ],
+          [
+            0.706,
+            0.088
+          ],
+          [
+            0.736,
+            0.072
+          ],
+          [
+            0.766,
+            0.049
+          ],
+          [
+            0.796,
+            0.021
+          ],
+          [
+            0.816,
+            -0.003
+          ],
+          [
+            0.836,
+            -0.033
+          ],
+          [
+            0.856,
+            -0.071
+          ],
+          [
+            0.885,
+            -0.143
+          ],
+          [
+            0.885,
+            0.098
+          ],
+          [
+            0.856,
+            0.148
+          ],
+          [
+            0.836,
+            0.174
+          ],
+          [
+            0.816,
+            0.195
+          ],
+          [
+            0.796,
+            0.212
+          ],
+          [
+            0.766,
+            0.232
+          ],
+          [
+            0.716,
+            0.257
+          ],
+          [
+            0.686,
+            0.266
+          ],
+          [
+            0.596,
+            0.27
+          ],
+          [
+            0.216,
+            0.271
+          ],
+          [
+            0.186,
+            0.28
+          ],
+          [
+            0.146,
+            0.311
+          ],
+          [
+            0.116,
+            0.345
+          ],
+          [
+            0.096,
+            0.377
+          ],
+          [
+            0.086,
+            0.394
+          ],
+          [
+            0.076,
+            0.426
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          1
+        ]
+      }
+    ]
+  },
+  "fin": {
+    "base": "metal",
+    "confidence": "high",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "wings": {
+    "top": "metal",
+    "under": "metal"
+  },
+  "winglets": {
+    "outer": "metal",
+    "inner": "metal"
+  },
+  "engines": {
+    "cowling": "cowl",
+    "inletLip": "metal",
+    "confidence": "medium",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "AAL/aa-eagle",
+      "place": "fin",
+      "at": [
+        0.32,
+        0.38
+      ],
+      "height": 0.43,
+      "colors": [
+        "red",
+        "blue",
+        "white"
+      ],
+      "description": "The AA eagle: a red 'A' and a blue 'A', thinly edged in white, a blue eagle diving between their tops.",
+      "confidence": "high",
+      "sourceRefs": [
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "American",
+      "place": "fuselage",
+      "at": [
+        0.212,
+        0.36
+      ],
+      "height": 0.3,
+      "length": 0.166,
+      "color": "red",
+      "style": "Upright Helvetica, bold, mixed case, thinly edged in white, over the forward cabin above the stripes.",
+      "confidence": "high",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Bold",
+          "Arial Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      }
+    }
+  ],
+  "notes": "Measured 2026-11-18 on the 2013 Commons photo, fitted to the B738's outline (a view from a little below, so within about 0.02). The stripes' edges are each at one height in meters, as on the aircraft: straight in side view to where they meet the nose's outline, and along the windows (a row at one height) to the tail; heights at x 0.3 lowered 0.02 from the photo, the blue's lower edge to 0.1, so a renderer's window glass (taller than the real windows) sits in the blue as the windows do. N921NN kept this scheme when the rest of the 737-800s were repainted in the 2013 flag livery, and was touched up in 2017."
+}

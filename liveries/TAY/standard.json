@@ -1,0 +1,419 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "TAY",
+  "name": "ASL Airlines group scheme",
+  "kind": "standard",
+  "confidence": "medium",
+  "drawnOn": "B744",
+  "description": "White aircraft. 'ASL AIRLINES' on the forward fuselage in italic capitals, ASL heavy and navy, AIRLINES lighter and light blue, over a light-blue blade swooping down and back from under the A. The fin's top is navy, cut off below by a line that falls slightly toward the trailing edge; under a white wedge that closes toward the trailing edge, the fin's lower part is light blue, its top edge curving up from the leading edge's root. The winglets the same, navy above light blue. White engines.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Leipzig_Halle_Airport_ASL_Airlines_Belgium_Boeing_747-4B5ERF_OE-IFB_(DSC07878).jpg",
+      "title": "Leipzig Halle Airport ASL Airlines Belgium Boeing 747-4B5ERF OE-IFB (DSC07878) (CC BY-SA 4.0, MarcelX42)",
+      "accessed": "2026-11-22",
+      "note": "747-400ERF OE-IFB on approach at Leipzig, left side from below, 2025-03-02. Fitted to shapes/B744.json (doors pinned, within 13 px): the fin's navy and light-blue edges, the titles' ends, the blade, the colours."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:OE-IFM_Boeing_747-4KZF_ASL_Cargo_Airlines_LGG_18.3.26_(55179743070).jpg",
+      "title": "OE-IFM Boeing 747-4KZF ASL Cargo Airlines LGG 18.3.26 (CC BY-SA 4.0, Colin Cooke Photo)",
+      "accessed": "2026-11-22",
+      "note": "747-400F OE-IFM taxiing at Liège, left side, 2026-03-18: the same scheme still worn in 2026 (it also carries a small multicoloured badge ahead of the registration, not drawn)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:20240127_Boeing_747-4B5ERF_of_ASL_Airlines_Belgium_(OE-IFD)_at_HGH_05.jpg",
+      "title": "20240127 Boeing 747-4B5ERF of ASL Airlines Belgium (OE-IFD) at HGH 05 (CC BY-SA 4.0, Windmemories)",
+      "accessed": "2026-11-22",
+      "note": "OE-IFD at Hangzhou, left side on the ground, 2024-01-27: the title's height against the upper deck, the winglets."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:OE-ILC_JFK_Landing_31R_3V_B747_409_F_SCD_Small_(52540815386).png",
+      "title": "OE-ILC JFK Landing 31R 3V B747 409 F SCD Small (CC BY-SA 2.0, Mark Bess)",
+      "accessed": "2026-11-22",
+      "note": "747-400F OE-ILC (the maintainer's sighting) landing at JFK, left side from below, 2022-12-03: the same scheme on it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:20240127_Boeing_747-4B5ERF_of_ASL_Airlines_Belgium_(OE-IFD)_at_HGH_03.jpg",
+      "title": "20240127 Boeing 747-4B5ERF of ASL Airlines Belgium (OE-IFD) at HGH 03 (CC BY-SA 4.0, Windmemories)",
+      "accessed": "2026-11-22",
+      "note": "OE-IFD's right side, 2024-01-27: ASL AIRLINES read from the tail (ASL aft), the blade under it, the fin's bands the same way round."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F1F2F3",
+      "official": false
+    },
+    "navy": {
+      "hex": "#123A88",
+      "name": "ASL navy",
+      "official": false
+    },
+    "lightBlue": {
+      "hex": "#80C0D4",
+      "name": "ASL light blue",
+      "official": false
+    },
+    "ink": {
+      "hex": "#2E4A8A",
+      "name": "'ASL' lettering",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "windows": "plain",
+    "areas": [
+      {
+        "name": "light-blue blade under the title, from under the A down and back to a point",
+        "color": "lightBlue",
+        "smooth": true,
+        "points": [
+          [
+            0.162,
+            0.14,
+            1
+          ],
+          [
+            0.185,
+            0.125
+          ],
+          [
+            0.21,
+            0.07
+          ],
+          [
+            0.235,
+            -0.01
+          ],
+          [
+            0.258,
+            -0.11,
+            1
+          ],
+          [
+            0.236,
+            -0.06
+          ],
+          [
+            0.212,
+            -0.0
+          ],
+          [
+            0.188,
+            0.04
+          ],
+          [
+            0.168,
+            0.06
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0,
+          2
+        ]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "navy top of the fin",
+        "color": "navy",
+        "smooth": true,
+        "points": [
+          [
+            0,
+            0.41,
+            1
+          ],
+          [
+            0.42,
+            0.39
+          ],
+          [
+            0.8,
+            0.36
+          ],
+          [
+            1,
+            0.32,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "name": "light-blue lower fin, its top edge curving up from the leading edge's root to meet the navy at the trailing edge",
+        "color": "lightBlue",
+        "smooth": true,
+        "points": [
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0.14,
+            0.03
+          ],
+          [
+            0.27,
+            0.2
+          ],
+          [
+            0.485,
+            0.315
+          ],
+          [
+            0.8,
+            0.345
+          ],
+          [
+            1,
+            0.32,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "#B9BEC5",
+    "under": "#C9CDD2"
+  },
+  "winglets": {
+    "outer": "navy",
+    "inner": "navy",
+    "areas": [
+      {
+        "name": "light blue on the winglet's lower part",
+        "color": "lightBlue",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0.45
+          ],
+          [
+            0,
+            0.5
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          2
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "titles": [
+    {
+      "text": "ASL",
+      "place": "fuselage",
+      "at": [
+        0.161,
+        0.2
+      ],
+      "height": 0.2,
+      "length": 0.047,
+      "color": "ink",
+      "style": "'ASL' in heavy italic capitals, navy.",
+      "side": "left",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Futura Extra Bold Oblique",
+          "Helvetica Neue Black Italic"
+        ],
+        "weight": 800,
+        "slantDeg": 12,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "AIRLINES",
+      "place": "fuselage",
+      "at": [
+        0.217,
+        0.2
+      ],
+      "height": 0.2,
+      "length": 0.106,
+      "color": "lightBlue",
+      "style": "'AIRLINES' straight after, in lighter, widely spaced italic capitals, light blue.",
+      "side": "left",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Futura Medium Oblique",
+          "Avenir Next Medium Italic"
+        ],
+        "weight": 500,
+        "slantDeg": 10,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "AIRLINES",
+      "place": "fuselage",
+      "at": [
+        0.161,
+        0.2
+      ],
+      "height": 0.2,
+      "length": 0.106,
+      "color": "lightBlue",
+      "style": "On the right, 'AIRLINES' forward, after 'ASL' read from the tail.",
+      "side": "right",
+      "confidence": "medium",
+      "sourceRefs": [
+        4
+      ],
+      "type": {
+        "similar": [
+          "Futura Medium Oblique",
+          "Avenir Next Medium Italic"
+        ],
+        "weight": 500,
+        "slantDeg": 10,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "ASL",
+      "place": "fuselage",
+      "at": [
+        0.276,
+        0.2
+      ],
+      "height": 0.2,
+      "length": 0.047,
+      "color": "ink",
+      "style": "On the right, 'ASL' aft.",
+      "side": "right",
+      "confidence": "medium",
+      "sourceRefs": [
+        4
+      ],
+      "type": {
+        "similar": [
+          "Futura Extra Bold Oblique",
+          "Helvetica Neue Black Italic"
+        ],
+        "weight": 800,
+        "slantDeg": 12,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "logos": [
+    {
+      "mark": "TAY/flags",
+      "place": "fuselage",
+      "at": [
+        0.82,
+        0.12
+      ],
+      "height": 0.05,
+      "colors": [
+        "#C8102E",
+        "white",
+        "#003399",
+        "#FFCC00"
+      ],
+      "description": "Small Austrian and European flags side by side above the registration, behind the aft door (the 747s are on the Austrian register).",
+      "reference": "https://commons.wikimedia.org/wiki/File:Leipzig_Halle_Airport_ASL_Airlines_Belgium_Boeing_747-4B5ERF_OE-IFB_(DSC07878).jpg",
+      "confidence": "low",
+      "sourceRefs": [
+        0
+      ]
+    }
+  ],
+  "notes": "Measured on OE-IFB (747-400ERF, left side from below, Leipzig, 2025-03-02) fitted to the 747-400F shape; OE-IFM (2026, right), OE-IFD (2024, left) and OE-ILC (2022, the maintainer's sighting) wear the same. The fin carries no logo: the navy top and light-blue lower band are the mark, drawn as areas; the navy's lower edge runs from y 0.41 at the leading edge to 0.32 at the trailing edge, the light blue's top edge from the leading edge's root up to meet it there. The titles' baseline reads 0.12 at ASL to 0.34 at the end of AIRLINES in this fit (the camera is 13° below and the title is level in the photo: perspective), drawn level at 0.2 with cap height 0.2 (the fit reads 0.17 at ASL to 0.26 at the end of AIRLINES); ASL x 0.161-0.208, AIRLINES 0.217-0.323. The blade under the title is placed relative to the title (low): from under the A down and back to a point at about x 0.25, about 0.6 m deep at its root. The right side's order (ASL aft) is from OE-IFD (2024). ASL Airlines Belgium's 737s and the group's other airlines (ASL Airlines France, FPO; ASL Airlines Ireland, ABR, whose tagged jets wear Amazon's Prime Air paint) use the same scheme as far as photos show; not drawn or tagged here.",
+  "history": "New 2026-11-22 (the maintainer's sightings: OE-ILC). The scheme replaced TNT Airways' orange after ASL bought it in 2016."
+}

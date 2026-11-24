@@ -1,0 +1,24 @@
+{
+  "_about": "Boeing D6-58324 (727 Airplane Characteristics for Airport Planning), 2.2 General Dimensions, Model 727-200: page index 18, a 1978 scan on graph paper: layers.py --mode image at scale 5, clip 110,330,525,432 (side). Pixels of that raster, line centres. The grid's lines run through the drawing (the nose tip and the tail cone's end sit on two of them); the placed points pick the aircraft's; where the nose's crown runs along a grid line it's placed point by point (free points, joined straight). The S-duct's intake stands on the crown ahead of the fin: its top from the lip to the fin's leading edge, then bridged under the fin to the rudder's trailing edge a meter below the fin's root; its bottom the crown, then up the rudder's trailing edge from its foot: between them the fin's root fairing over the duct, down to the tail cone. The nozzle is the tail cone's last 1.5 m behind the rudder's foot.",
+  "fuselage.crown": [
+    {"free": [46, 350]}, "hidden", {"free": [49, 341]}, "hidden", {"free": [56, 334]}, "hidden", {"free": [66, 328]}, "hidden",
+    {"free": [80, 322]}, "hidden", {"free": [95, 315]}, "hidden", {"free": [110, 307]}, "hidden", {"free": [122, 300]}, "hidden",
+    {"free": [136, 292]}, "hidden", {"free": [150, 286]}, "hidden", {"free": [170, 280]}, "hidden", [200, 273], [300, 262],
+    [500, 258], [700, 257], [1000, 254], [1200, 253], [1300, 255], [1400, 268], [1500, 282], [1600, 296], [1650, 302],
+    [1689, 307]
+  ],
+  "fuselage.belly": [
+    [48, 358], [55, 372], [70, 386], [90, 396], [120, 405], [160, 412], [250, 417], [500, 417], [650, 420], [700, 426],
+    [1000, 424], [1150, 422], [1200, 420], [1300, 410], [1350, 404], [1450, 388], [1500, 377], [1550, 365], [1600, 355],
+    [1650, 344], [1689, 339]
+  ],
+  "fin.leading": [[1470, 183], [1520, 152], [1580, 109], [1620, 76], [1650, 66], [1700, 63]],
+  "fin.trailing": [[1643, 292], [1700, 226], [1760, 163], [1800, 121], [1860, 98], [1912, 89]],
+  "fin.rudder": [[1592, 259], [1650, 199], [1733, 128]],
+  "engine.top": [[1259, 312], [1263, 293], [1280, 289], [1400, 289], [1440, 292], [1478, 300]],
+  "engine.bottom": [[1259, 320], [1265, 338], [1290, 343], [1420, 345], [1460, 343], [1478, 333]],
+  "tail.top": [[1247, 222], [1247, 196], [1256, 188], [1350, 187], [1440, 186], [1470, 183], "hidden", {"free": [1702, 224]}],
+  "tail.bottom": [[1247, 222], [1249, 245], [1260, 253], [1310, 256], [1400, 268], [1500, 282], [1600, 296], [1641, 300], [1645, 290], [1672, 259], [1702, 224]],
+  "tail.nozzleTop": [[1633, 299], [1660, 303], [1689, 307]],
+  "tail.nozzleBottom": [[1633, 352], [1660, 344], [1689, 339]]
+}

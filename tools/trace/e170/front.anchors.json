@@ -1,0 +1,8 @@
+{
+  "_about": "Embraer 170 APM-1346 Rev 17, Figure 2.1 General Aircraft Dimensions: page index 29, layers.py --mode strokes --color 0,0,0 at scale 15.946 (the front view drawn 0.34% larger than the side, from its printed 26.00 m span: rendered to the side's scale), clip 145,520,425,665 (front; the image's right half is the aircraft's left side; centerline x 2239.5). Pixels of that raster, line centres. Placed here (the E175's front points don't fit its wing and winglet).",
+  "fuselage.section": [[2240, 900], [2330, 916], [2400, 955], [2445, 1005], [2470, 1055], [2480, 1110], [2481, 1160]],
+  "wing.upper": [[2475, 1272], [2600, 1265], [2800, 1252], [3000, 1237], [3300, 1212], [3600, 1186], [3900, 1160], [4100, 1143], [4220, 1132], [4250, 1115], [4270, 1060], [4295, 990], [4322, 904]],
+  "wing.lower": [[3300, 1272], [3600, 1238], [3900, 1203], [4100, 1180], [4220, 1166], [4258, 1140], [4280, 1075], [4302, 1000], [4322, 904]],
+  "stabilizer.upper": [[2455, 1005], [2600, 995], [2825, 977], [3000, 955], [3025, 965]],
+  "stabilizer.lower": [[2475, 1070], [2600, 1052], [2825, 1010], [3000, 972], [3025, 965]]
+}

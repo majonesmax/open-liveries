@@ -1,0 +1,551 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "ETD",
+  "name": "Facets of Abu Dhabi (2014)",
+  "kind": "standard",
+  "from": "2014-09",
+  "confidence": "medium",
+  "drawnOn": "A35K",
+  "description": "Pale pearl-beige all over. The fin and the rear fuselage are tiled in big triangles, gold, dark brown, cream and pale gray, gold at the fin's top. A gold 'ETIHAD' in wide rounded capitals over the forward windows, 'الاتحاد' ahead of it and the gold UAE falcon emblem aft of it, 'FROM ABU DHABI TO THE WORLD' small below the windows, a small UAE flag by the front door. Gold winglets on the A350s.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Etihad_Airways#Livery",
+      "title": "Etihad Airways, 'Livery' (Wikipedia)",
+      "accessed": "2026-11-13",
+      "note": "'Facets of Abu Dhabi', unveiled September 2014: gold and silver triangles on the fin and rear fuselage, gold logo and UAE emblem over the windows, UAE flag by the front door, light beige body."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:A6-XWA_at_JFK_20261005.jpg",
+      "title": "A6-XWA at JFK 20261005 (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "A350-1000, left side from behind, 2026-10-05: the fin's facets and the rear fuselage's."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Etihad_Airways,_A6-XWF,_Airbus_A350-1041.jpg",
+      "title": "Etihad Airways, A6-XWF, Airbus A350-1041 (CC BY-SA 2.0)",
+      "accessed": "2026-11-13",
+      "note": "Left side, level, 2022-10-10: the titles, emblem, tagline and flag measured; the crown's gold wedge ahead of the fin."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:A6-XWE_NRT_2026-05-24.jpg",
+      "title": "A6-XWE NRT 2026-05-24 (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Right side, 2026-05-24: right side's titles (Arabic forward, emblem aft, Arabic tagline below), gold winglet."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:A6-XWN_NRT_2026-05-16.jpg",
+      "title": "A6-XWN NRT 2026-05-16 (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Right side of the tail at dusk, 2026-05-16: the facets on the right face mirror the left's."
+    }
+  ],
+  "palette": {
+    "pearl": {
+      "hex": "#E8E3D5",
+      "name": "light beige",
+      "official": false
+    },
+    "gold": {
+      "hex": "#C9963F",
+      "name": "desert gold",
+      "official": false
+    },
+    "brown": {
+      "hex": "#6A4B2F",
+      "official": false
+    },
+    "cream": {
+      "hex": "#F1EDE2",
+      "official": false
+    },
+    "silver": {
+      "hex": "#C2C0B4",
+      "name": "silver-gray facet",
+      "official": false
+    },
+    "titleGold": {
+      "hex": "#B88B3E",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#BFC2C4",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CCCF",
+      "name": "bare metal inlet lip",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "pearl",
+    "areas": [
+      {
+        "name": "gold wedge along the crown ahead of the fin",
+        "color": "gold",
+        "points": [
+          [
+            0.64,
+            1
+          ],
+          [
+            0.79,
+            0.55
+          ],
+          [
+            0.81,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ]
+      },
+      {
+        "name": "silver facet under the fin's root",
+        "color": "silver",
+        "points": [
+          [
+            0.76,
+            0.45
+          ],
+          [
+            0.81,
+            0.9
+          ],
+          [
+            0.88,
+            0.25
+          ],
+          [
+            0.82,
+            0.0
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "dark brown facet on the lower rear fuselage",
+        "color": "brown",
+        "points": [
+          [
+            0.77,
+            -0.35
+          ],
+          [
+            0.88,
+            -0.3
+          ],
+          [
+            0.9,
+            -0.75
+          ],
+          [
+            0.75,
+            -0.85
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "gold tail cone",
+        "color": "gold",
+        "points": [
+          [
+            0.9,
+            0.4
+          ],
+          [
+            1.0,
+            0.4
+          ],
+          [
+            1.0,
+            -0.6
+          ],
+          [
+            0.92,
+            -0.5
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      }
+    ],
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2,
+      3
+    ]
+  },
+  "fin": {
+    "base": "cream",
+    "areas": [
+      {
+        "name": "gold top",
+        "color": "gold",
+        "points": [
+          [
+            -0.05,
+            1.05
+          ],
+          [
+            1.05,
+            1.05
+          ],
+          [
+            1.05,
+            0.38
+          ],
+          [
+            0.82,
+            0.5
+          ],
+          [
+            0.5,
+            0.74
+          ],
+          [
+            -0.05,
+            0.78
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "dark brown triangle at the leading edge",
+        "color": "brown",
+        "points": [
+          [
+            -0.05,
+            0.78
+          ],
+          [
+            0.42,
+            0.76
+          ],
+          [
+            0.05,
+            0.58
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "dark brown triangle toward the trailing edge",
+        "color": "brown",
+        "points": [
+          [
+            0.5,
+            0.74
+          ],
+          [
+            0.88,
+            0.66
+          ],
+          [
+            0.72,
+            0.46
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "silver facets in the middle",
+        "color": "silver",
+        "points": [
+          [
+            0.05,
+            0.58
+          ],
+          [
+            0.42,
+            0.76
+          ],
+          [
+            0.72,
+            0.46
+          ],
+          [
+            0.55,
+            0.28
+          ],
+          [
+            0.15,
+            0.36
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "dark brown triangle low on the leading edge",
+        "color": "brown",
+        "points": [
+          [
+            -0.05,
+            0.36
+          ],
+          [
+            0.3,
+            0.38
+          ],
+          [
+            -0.05,
+            0.22
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "gold band low on the trailing half",
+        "color": "gold",
+        "points": [
+          [
+            0.3,
+            0.06
+          ],
+          [
+            1.05,
+            0.04
+          ],
+          [
+            1.05,
+            0.2
+          ],
+          [
+            0.6,
+            0.14
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2,
+      4
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "gold",
+    "inner": "gold",
+    "confidence": "medium",
+    "sourceRefs": [
+      3
+    ]
+  },
+  "engines": {
+    "cowling": "pearl",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3
+    ]
+  },
+  "logos": [
+    {
+      "mark": "ETD/uae-emblem",
+      "place": "fuselage",
+      "at": [
+        0.345,
+        0.31
+      ],
+      "height": 0.32,
+      "colors": [
+        "titleGold"
+      ],
+      "description": "The Emblem of the United Arab Emirates (a falcon with spread wings round a disc), in gold, just aft of 'ETIHAD'.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Emblem_of_the_United_Arab_Emirates.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "mark": "ETD/uae-flag",
+      "place": "fuselage",
+      "at": [
+        0.086,
+        -0.02
+      ],
+      "height": 0.15,
+      "colors": [
+        "#EF3340",
+        "#009739",
+        "#FFFFFF",
+        "#000000"
+      ],
+      "description": "A small UAE flag (red bar at the hoist; green, white, black stripes) by the forward door, below the cockpit windows' line.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_Arab_Emirates.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        2,
+        3
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "ETIHAD",
+      "place": "fuselage",
+      "at": [
+        0.2,
+        0.216
+      ],
+      "height": 0.32,
+      "length": 0.116,
+      "color": "titleGold",
+      "style": "The Etihad wordmark: wide, rounded geometric capitals of even medium weight, the A without a crossbar's serif, over the forward windows.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Medium",
+          "Gotham Medium"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "الاتحاد",
+      "place": "fuselage",
+      "at": [
+        0.144,
+        0.216
+      ],
+      "height": 0.28,
+      "color": "titleGold",
+      "style": "'Al Ittihad' in a geometric, even-stroked Arabic matching the wordmark, just ahead of it.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Noto Kufi Arabic Medium",
+          "Geeza Pro"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      },
+      "length": 0.035
+    },
+    {
+      "text": "FROM ABU DHABI TO THE WORLD",
+      "place": "fuselage",
+      "at": [
+        0.147,
+        -0.12
+      ],
+      "height": 0.15,
+      "length": 0.089,
+      "color": "titleGold",
+      "side": "left",
+      "style": "Small, plain, widely set capitals under the windows below the titles.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Regular",
+          "Gotham Book"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "من أبوظبي إلى العالم",
+      "place": "fuselage",
+      "at": [
+        0.147,
+        -0.12
+      ],
+      "height": 0.15,
+      "color": "titleGold",
+      "side": "right",
+      "style": "The same tagline in Arabic on the right side.",
+      "confidence": "low",
+      "sourceRefs": [
+        3
+      ],
+      "type": {
+        "similar": [
+          "Noto Kufi Arabic",
+          "Geeza Pro"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      },
+      "length": 0.08
+    }
+  ],
+  "notes": "Drawn from A350-1000 photos, 2022-2026, both sides. The tessellation is simplified to its biggest facets: on the aircraft there are more, smaller triangles in several tones of gold, brown, cream and gray, and they differ a little between types. The right face's facets mirror the left's (A6-XWN). The wing's under-side and the belly are plain beige as far as the photos show. Text placements are for the left side; on the right the Arabic is still forward and the emblem aft, and the tagline is in Arabic. Re-checked 2026-11-15 on A6-XWF (left, 2022): the titles sit where drawn (within about 0.2 m); the Arabic name runs x 0.156 to 0.19, ahead of 'ETIHAD'; the Arabic tagline on the right is given about the English one's length (low: not measured). The facets are straight-edged and stay as drawn.",
+  "history": "Replaced Skyarium v1's approximation (a few remembered colors, 2026-11-12). 'Facets of Abu Dhabi' replaced the first (2003) livery from September 2014; it still flies fleet-wide."
+}

@@ -1,0 +1,158 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "SIA",
+  "airframes": [
+    {
+      "registration": "9V-SFI",
+      "livery": "cargo",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Singapore_Airlines_Cargo",
+          "title": "Wikipedia: Singapore Airlines Cargo",
+          "accessed": "2026-11-13",
+          "note": "Seven 747-400Fs in service."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:9V-SFI_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "76ccc9",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B744",
+      "lastSeen": "2026-09-03",
+      "status": "active: in Commons' 'Current Boeing 747-400F of Singapore Airlines Cargo'"
+    },
+    {
+      "registration": "9V-SFK",
+      "livery": "cargo",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Singapore_Airlines_Cargo",
+          "title": "Wikipedia: Singapore Airlines Cargo",
+          "accessed": "2026-11-13",
+          "note": "Seven 747-400Fs in service."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:9V-SFK_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "76cccb",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B744",
+      "lastSeen": "2026-02-07",
+      "status": "active: in Commons' 'Current Boeing 747-400F of Singapore Airlines Cargo'"
+    },
+    {
+      "registration": "9V-SFM",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Singapore_Airlines_Cargo",
+          "title": "Wikipedia: Singapore Airlines Cargo",
+          "accessed": "2026-11-13",
+          "note": "Seven 747-400Fs in service."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:9V-SFM_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "76cccd",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B744",
+      "status": "active: in Commons' 'Current Boeing 747-400F of Singapore Airlines Cargo'"
+    },
+    {
+      "registration": "9V-SFN",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Singapore_Airlines_Cargo",
+          "title": "Wikipedia: Singapore Airlines Cargo",
+          "accessed": "2026-11-13",
+          "note": "Seven 747-400Fs in service."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:9V-SFN_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "76ccce",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B744",
+      "status": "active: in Commons' 'Current Boeing 747-400F of Singapore Airlines Cargo'"
+    },
+    {
+      "registration": "9V-SFO",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Singapore_Airlines_Cargo",
+          "title": "Wikipedia: Singapore Airlines Cargo",
+          "accessed": "2026-11-13",
+          "note": "Seven 747-400Fs in service."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:9V-SFO_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "76cccf",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B744",
+      "status": "active: in Commons' 'Current Boeing 747-400F of Singapore Airlines Cargo'",
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "9V-SFP",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Singapore_Airlines_Cargo",
+          "title": "Wikipedia: Singapore Airlines Cargo",
+          "accessed": "2026-11-13",
+          "note": "Seven 747-400Fs in service."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:9V-SFP_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "76ccd0",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B744",
+      "lastSeen": "2026-11-14",
+      "status": "active: in Commons' 'Current Boeing 747-400F of Singapore Airlines Cargo'"
+    },
+    {
+      "registration": "9V-SFQ",
+      "livery": "cargo",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Singapore_Airlines_Cargo",
+          "title": "Wikipedia: Singapore Airlines Cargo",
+          "accessed": "2026-11-13",
+          "note": "Seven 747-400Fs in service."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:9V-SFQ_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "76ccd1",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B744",
+      "lastSeen": "2026-03-11",
+      "status": "active: in Commons' 'Current Boeing 747-400F of Singapore Airlines Cargo'"
+    }
+  ]
+}

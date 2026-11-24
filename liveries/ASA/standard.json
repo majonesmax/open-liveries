@@ -1,0 +1,1449 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "ASA",
+  "name": "2016 livery",
+  "kind": "standard",
+  "from": "2016-01",
+  "confidence": "high",
+  "drawnOn": "B739",
+  "description": "White fuselage; behind the wing a sweep of lime, Atlas blue, mid blue and midnight blue rises from the aft belly to the fin, leaving the tail cone midnight; 'Alaska' huge in midnight blue in the 2016 script-like italic, its A's crossbar running forward as a long stroke, across the forward windows; the midnight fin with the cream Native face and lime/Atlas-blue aurora stripes; white engines with the same sweep at the back.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Alaska_Airlines",
+      "title": "Wikipedia: Alaska Airlines (livery history)",
+      "accessed": "2026-11-13",
+      "note": "The 2016 brand: the wordmark, the aurora colors, the Native face kept."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Alaska_Airlines_Boeing_737-9_MAX_N928AK_departing_Boston_June_2025_1.jpg",
+      "title": "Alaska Airlines Boeing 737-9 MAX N928AK departing Boston June 2025 1.jpg (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "N928AK left side, climbing, 2025-06-20: title position and size, the aft sweep, fin."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Alaska_Boeing_737-9_MAX_N963AK_IAD_MD1.jpg",
+      "title": "Alaska Boeing 737-9 MAX N963AK IAD MD1.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "N963AK from below, 2025-04-18: the belly white forward of the sweep, which wraps under the tail; engines and winglets."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:N486AS_(aircraft)",
+      "title": "N486AS (oneworld scheme) on Commons",
+      "accessed": "2026-11-13",
+      "note": "The aft sweep, fin and engines were measured on this aircraft for the oneworld entry; they're Alaska's standard."
+    },
+    {
+      "url": "https://www.alaskaair.com/content/travel-info/our-aircraft/737-9-max-mariners",
+      "title": "Alaska Airlines: Seattle Mariners Livery",
+      "accessed": "2026-11-14",
+      "note": "Alaska's side-on photo of N710AL, which wears the standard title and sweep: the title's length measured from it (0.15-0.35 of the length)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N298AK_@_LAS,_2024-01-16.jpg",
+      "title": "N298AK @ LAS, 2024-01-16.jpg (CC BY-SA 2.0)",
+      "accessed": "2026-11-15",
+      "note": "N298AK, a 737-900ER, from the left and a little below, 2024-01-16: the title measured against the door and windows (0.168-0.382 of the length, baseline about 1.6 m under the windows), the aft sweep's front edge probed (within 0.4 m of the drawing)."
+    },
+    {
+      "url": "https://news.alaskaair.com/images-videos/alaska-airlines-global-livery/",
+      "title": "Alaska Airlines newsroom press kit: Alaska Airlines welcomes first 787 widebody aircraft in new global livery (2026-01-07)",
+      "accessed": "2026-11-22",
+      "note": "Airline press photos of N784HA, painted at Fort Worth in December 2025 and shown at Boeing Field 2026-01-07: 251219_787_stills_2672 (left side, level, measured for the title and checked for the aft sweep), _2512 (fin close-up, measured for the fin's bands), _2675 (engine close-up, measured for the nacelle's green). Measured only; not copied."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N782HA_B787_ALASKA_AIRLINES_(55230371040).jpg",
+      "title": "N782HA B787 ALASKA AIRLINES, 2026-04-23 (CC BY-SA 4.0, Jonathan Payne)",
+      "accessed": "2026-11-22",
+      "note": "N782HA left side, level, long lens, 2026-04-23: fitted to the 787-9's measured shape; the aft sweep's edges, the window band and the title probed off it."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "midnight": {
+      "hex": "#14306B",
+      "official": false
+    },
+    "blue": {
+      "hex": "#1F6DB8",
+      "official": false
+    },
+    "atlas": {
+      "hex": "#52B3E3",
+      "official": false
+    },
+    "lime": {
+      "hex": "#B6D433",
+      "official": false
+    },
+    "cream": {
+      "hex": "#F1EFE8",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC5",
+      "official": false
+    },
+    "silver": {
+      "hex": "#C3C8CE",
+      "name": "silver-grey stripe",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "silver-grey stripe ahead of the lime (seen on every photo, sharp-edged: paint, not shade)",
+        "color": "silver",
+        "points": [
+          [
+            0.608,
+            -1.0
+          ],
+          [
+            0.64,
+            -0.93
+          ],
+          [
+            0.688,
+            -0.6
+          ],
+          [
+            0.727,
+            -0.17
+          ],
+          [
+            0.763,
+            0.2
+          ],
+          [
+            0.785,
+            0.43
+          ],
+          [
+            0.808,
+            0.75
+          ],
+          [
+            0.818,
+            1.0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2,
+          5
+        ],
+        "smooth": true
+      },
+      {
+        "name": "lime band, the front of the aft sweep (rising from the belly behind the wing to the crown ahead of the fin)",
+        "color": "lime",
+        "points": [
+          [
+            0.62,
+            -1.0
+          ],
+          [
+            0.652,
+            -0.93
+          ],
+          [
+            0.7,
+            -0.6
+          ],
+          [
+            0.739,
+            -0.17
+          ],
+          [
+            0.775,
+            0.2
+          ],
+          [
+            0.797,
+            0.43
+          ],
+          [
+            0.815,
+            0.75
+          ],
+          [
+            0.822,
+            1.0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "Atlas (light) blue band",
+        "color": "atlas",
+        "points": [
+          [
+            0.642,
+            -1.0
+          ],
+          [
+            0.674,
+            -0.93
+          ],
+          [
+            0.722,
+            -0.6
+          ],
+          [
+            0.761,
+            -0.17
+          ],
+          [
+            0.797,
+            0.2
+          ],
+          [
+            0.819,
+            0.43
+          ],
+          [
+            0.837,
+            0.75
+          ],
+          [
+            0.844,
+            1.0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "mid-blue band",
+        "color": "blue",
+        "points": [
+          [
+            0.665,
+            -1.0
+          ],
+          [
+            0.697,
+            -0.93
+          ],
+          [
+            0.745,
+            -0.6
+          ],
+          [
+            0.784,
+            -0.17
+          ],
+          [
+            0.82,
+            0.2
+          ],
+          [
+            0.842,
+            0.43
+          ],
+          [
+            0.86,
+            0.75
+          ],
+          [
+            0.867,
+            1.0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "midnight-blue tail cone and rear belly",
+        "color": "midnight",
+        "points": [
+          [
+            0.68,
+            -1.0
+          ],
+          [
+            0.712,
+            -0.93
+          ],
+          [
+            0.76,
+            -0.6
+          ],
+          [
+            0.799,
+            -0.17
+          ],
+          [
+            0.835,
+            0.2
+          ],
+          [
+            0.857,
+            0.43
+          ],
+          [
+            0.875,
+            0.75
+          ],
+          [
+            0.882,
+            1.0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2,
+          3
+        ],
+        "smooth": true
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2,
+      3
+    ]
+  },
+  "fin": {
+    "base": "midnight",
+    "rudder": "midnight",
+    "areas": [
+      {
+        "name": "Atlas-blue wedge at the root's leading edge (the fuselage sweep running up the fin)",
+        "color": "atlas",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0.24
+          ],
+          [
+            0.46,
+            0
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "name": "lower lime stripe, from the leading edge down and back to the root",
+        "color": "lime",
+        "points": [
+          [
+            0,
+            0.25
+          ],
+          [
+            0,
+            0.3
+          ],
+          [
+            0.56,
+            0
+          ],
+          [
+            0.48,
+            0
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "name": "upper lime stripe near the tip",
+        "color": "lime",
+        "points": [
+          [
+            0,
+            0.88
+          ],
+          [
+            0.5,
+            0.82
+          ],
+          [
+            0.93,
+            0.72
+          ],
+          [
+            0.9,
+            0.69
+          ],
+          [
+            0.5,
+            0.78
+          ],
+          [
+            0,
+            0.84
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "name": "Atlas-blue sliver under the upper stripe",
+        "color": "atlas",
+        "points": [
+          [
+            0.55,
+            0.76
+          ],
+          [
+            0.95,
+            0.68
+          ],
+          [
+            0.95,
+            0.63
+          ],
+          [
+            0.65,
+            0.71
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2,
+          3
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2,
+      3
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "stabilizer": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "white",
+    "inner": "white",
+    "areas": [
+      {
+        "name": "midnight root",
+        "color": "midnight",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0.18
+          ],
+          [
+            0,
+            0.32
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "name": "Atlas-blue band",
+        "color": "atlas",
+        "points": [
+          [
+            0,
+            0.32
+          ],
+          [
+            1,
+            0.18
+          ],
+          [
+            1,
+            0.26
+          ],
+          [
+            0,
+            0.4
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "name": "lime band",
+        "color": "lime",
+        "points": [
+          [
+            0,
+            0.4
+          ],
+          [
+            1,
+            0.26
+          ],
+          [
+            1,
+            0.32
+          ],
+          [
+            0,
+            0.46
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2,
+          3
+        ]
+      }
+    ],
+    "confidence": "low",
+    "sourceRefs": [
+      1,
+      2,
+      3
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "wingGray",
+    "areas": [
+      {
+        "name": "lime stripe sweeping up toward the exhaust",
+        "color": "lime",
+        "points": [
+          [
+            0.3,
+            -1
+          ],
+          [
+            0.49,
+            -0.49
+          ],
+          [
+            0.75,
+            0.15
+          ],
+          [
+            1,
+            0.6
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "name": "Atlas blue",
+        "color": "atlas",
+        "points": [
+          [
+            0.36,
+            -1
+          ],
+          [
+            0.55,
+            -0.49
+          ],
+          [
+            0.81,
+            0.15
+          ],
+          [
+            1.06,
+            0.6
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "name": "midnight, low at the back",
+        "color": "midnight",
+        "points": [
+          [
+            0.44,
+            -1
+          ],
+          [
+            0.63,
+            -0.49
+          ],
+          [
+            0.89,
+            0.15
+          ],
+          [
+            1.14,
+            0.6
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2,
+          3
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2,
+      3
+    ]
+  },
+  "logos": [
+    {
+      "mark": "ASA/native-face",
+      "place": "fin",
+      "at": [
+        0.59,
+        0.35
+      ],
+      "height": 0.53,
+      "colors": [
+        "cream",
+        "midnight"
+      ],
+      "description": "Alaska's Eskimo (the 'Alaska Native man'): a smiling face in a fur-trimmed parka hood, cream on the midnight-blue fin, facing forward, large on the aft fin.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2,
+        3
+      ],
+      "reference": "https://commons.wikimedia.org/wiki/File:Alaska_Airlines_logo.svg"
+    }
+  ],
+  "titles": [
+    {
+      "text": "Alaska",
+      "place": "fuselage",
+      "at": [
+        0.16,
+        -0.42
+      ],
+      "height": 0.95,
+      "color": "midnight",
+      "style": "The 2016 Alaska wordmark: heavy, slanted, brush-like letters, the capital A's crossbar extended forward as a long stroke; midnight blue, very large across the forward windows from behind the door.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "type": {
+        "similar": [
+          "Kaufmann Bold",
+          "Futura Bold Oblique"
+        ],
+        "weight": 800,
+        "slantDeg": 16,
+        "width": "normal",
+        "strokes": "brush",
+        "case": "mixed",
+        "xHeight": 0.55
+      },
+      "length": 0.21
+    }
+  ],
+  "notes": "The aft sweep, fin, engines and winglets are the ones measured from photos for the oneworld scheme (N486AS/N487AS), checked here against N928AK and N963AK (2025). The title's place and size are from a climbing, tilted view (N928AK) and approximate. Hawaiian (HAL) keeps its own scheme under the Alaska Air Group. Alaska's 787-9s (ex-Hawaiian order, from January 2026) wear a separate 'global' livery (ASA/global). The title's length (0.19) was measured on Alaska's side-on photo of N710AL, which wears the standard title. Re-checked 2026-11-15 on N298AK (737-900ER, Jan 2024) and N928AK (737-9, June 2025), drawn on the 737-900ER (the commonest type, the -9 the same length): the title runs from just behind the forward door (x 0.16, the A's long crossbar) to 0.37 on both photos, so it starts a little aft and runs longer than first drawn; its lowercase is about 0.55 of the capital A's height; its baseline sits about 1.6 m under the windows, as drawn. The aft sweep's front edge probed within 0.4 m of the drawing; its four edges made smooth curves. On a 737-800 (about 2.6 m shorter) the title sits a little further aft as a share of the length. A narrow silver-grey stripe runs just ahead of the lime (sharp-edged on N298AK, N928AK and the E175s, in sun and shade): added under the lime, its front edge about 0.5 m ahead of the lime's, measured relative to the lime because the photos are from below.",
+  "history": "Replaces Skyarium v1's approximate standard (a few colors from memory). The 2016 livery replaced the 1990 scheme (Native face, blue 'Alaska' in a different script with a blue-green stripe); the merged Virgin America fleet took it from 2018.",
+  "types": {
+    "B789": {
+      "note": "Alaska's 787-9s wear the widebody 'global' (aurora) livery, not this one: drawn in full as ASA/global (the same paint, copied here so a 787 flying as ASA that isn't tagged yet still gets it). Measured on N782HA (Commons, 2026-04-23) and Alaska's press photos of N784HA. No Native face on the tail: the logos list is empty. Keep this entry and ASA/global the same.",
+      "confidence": "medium",
+      "sourceRefs": [
+        6
+      ],
+      "palette": {
+        "white": {
+          "hex": "#F3F3F4",
+          "official": false
+        },
+        "midnight": {
+          "hex": "#14306B",
+          "official": false,
+          "name": "Alaska midnight (title)"
+        },
+        "navy": {
+          "hex": "#0F3266",
+          "official": false,
+          "name": "aurora navy"
+        },
+        "blue": {
+          "hex": "#1A4C9C",
+          "official": false,
+          "name": "aurora blue"
+        },
+        "sky": {
+          "hex": "#4AB4E4",
+          "official": false,
+          "name": "aurora sky blue"
+        },
+        "aqua": {
+          "hex": "#45C4A8",
+          "official": false,
+          "name": "aurora aqua green"
+        },
+        "emerald": {
+          "hex": "#1F6F5A",
+          "official": false,
+          "name": "emerald"
+        },
+        "forest": {
+          "hex": "#12352B",
+          "official": false,
+          "name": "deep green"
+        },
+        "wingGray": {
+          "hex": "#C9CDD2",
+          "official": false
+        },
+        "lip": {
+          "hex": "#B9BEC6",
+          "official": false,
+          "name": "bare leading edges"
+        }
+      },
+      "fuselage": {
+        "base": "white",
+        "areas": [
+          {
+            "name": "emerald: a thin band along the windows from ahead of the wing, widening aft into the green that sweeps down to the belly behind the wing and fills the lower aft fuselage",
+            "color": "emerald",
+            "points": [
+              [
+                0.338,
+                0.18,
+                1
+              ],
+              [
+                0.384,
+                0.2
+              ],
+              [
+                0.442,
+                0.204
+              ],
+              [
+                0.4995,
+                0.23
+              ],
+              [
+                0.557,
+                0.25
+              ],
+              [
+                0.615,
+                0.2615
+              ],
+              [
+                0.649,
+                0.278
+              ],
+              [
+                0.684,
+                0.327
+              ],
+              [
+                0.718,
+                0.414
+              ],
+              [
+                0.7525,
+                0.498
+              ],
+              [
+                0.787,
+                0.614
+              ],
+              [
+                0.8156,
+                0.774
+              ],
+              [
+                0.83,
+                1
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                1,
+                -1
+              ],
+              [
+                0.77,
+                -1
+              ],
+              [
+                0.755,
+                -0.659
+              ],
+              [
+                0.7316,
+                -0.433
+              ],
+              [
+                0.7083,
+                -0.298
+              ],
+              [
+                0.6734,
+                -0.1755
+              ],
+              [
+                0.6386,
+                -0.088
+              ],
+              [
+                0.6038,
+                -0.0166
+              ],
+              [
+                0.5576,
+                0.028
+              ],
+              [
+                0.4999,
+                0.075
+              ],
+              [
+                0.4422,
+                0.1075
+              ],
+              [
+                0.3845,
+                0.148
+              ]
+            ],
+            "confidence": "medium",
+            "sourceRefs": [
+              6,
+              7
+            ],
+            "smooth": true
+          },
+          {
+            "name": "deep green low on the aft fuselage (the emerald darkening toward the belly, a halftone fade drawn as one edge)",
+            "color": "forest",
+            "points": [
+              [
+                0.762,
+                -1
+              ],
+              [
+                0.765,
+                -0.75
+              ],
+              [
+                0.8,
+                -0.55
+              ],
+              [
+                0.9,
+                -0.47
+              ],
+              [
+                1,
+                -0.42
+              ],
+              [
+                1,
+                -1
+              ]
+            ],
+            "confidence": "low",
+            "sourceRefs": [
+              6,
+              7
+            ],
+            "smooth": true
+          },
+          {
+            "name": "aurora blue over the upper aft fuselage, its front edge rising from the window line to the crown at the fin and wrapping the tail cone",
+            "color": "blue",
+            "points": [
+              [
+                0.6148,
+                0.2615,
+                1
+              ],
+              [
+                0.649,
+                0.278
+              ],
+              [
+                0.684,
+                0.327
+              ],
+              [
+                0.718,
+                0.414
+              ],
+              [
+                0.7525,
+                0.498
+              ],
+              [
+                0.787,
+                0.614
+              ],
+              [
+                0.8156,
+                0.774
+              ],
+              [
+                0.83,
+                1
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                1,
+                -0.42
+              ],
+              [
+                0.95,
+                -0.3
+              ],
+              [
+                0.9,
+                -0.2
+              ],
+              [
+                0.84,
+                0.1
+              ],
+              [
+                0.78,
+                0.25
+              ],
+              [
+                0.7,
+                0.235
+              ],
+              [
+                0.64,
+                0.24
+              ]
+            ],
+            "confidence": "medium",
+            "sourceRefs": [
+              6,
+              7
+            ],
+            "smooth": true
+          },
+          {
+            "name": "aqua-green ribbon over the window line between the blue and the green, from behind the wing to under the tailplane",
+            "color": "aqua",
+            "points": [
+              [
+                0.6,
+                0.165,
+                1
+              ],
+              [
+                0.638,
+                0.218
+              ],
+              [
+                0.672,
+                0.242
+              ],
+              [
+                0.707,
+                0.266
+              ],
+              [
+                0.753,
+                0.299
+              ],
+              [
+                0.81,
+                0.33
+              ],
+              [
+                0.87,
+                0.31
+              ],
+              [
+                0.93,
+                0.22
+              ],
+              [
+                0.97,
+                0.1
+              ],
+              [
+                0.93,
+                0.0
+              ],
+              [
+                0.87,
+                -0.06
+              ],
+              [
+                0.8115,
+                0.0
+              ],
+              [
+                0.754,
+                0.03
+              ],
+              [
+                0.7075,
+                0.06
+              ],
+              [
+                0.673,
+                0.08
+              ],
+              [
+                0.638,
+                0.1
+              ]
+            ],
+            "confidence": "medium",
+            "sourceRefs": [
+              6,
+              7
+            ],
+            "smooth": true
+          }
+        ],
+        "radome": {
+          "color": "white"
+        },
+        "windows": "plain",
+        "confidence": "medium",
+        "sourceRefs": [
+          6,
+          7
+        ]
+      },
+      "fin": {
+        "base": "blue",
+        "areas": [
+          {
+            "name": "navy toward the tip and along the leading edge",
+            "color": "navy",
+            "points": [
+              [
+                0,
+                0.3
+              ],
+              [
+                0.25,
+                0.5
+              ],
+              [
+                0.55,
+                0.64
+              ],
+              [
+                1,
+                0.72
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "confidence": "medium",
+            "sourceRefs": [
+              6,
+              7
+            ],
+            "smooth": true
+          },
+          {
+            "name": "upper aqua ribbon: a sharp lower edge from the fillet to the trailing edge at half height, fading upward into the blue (drawn to about half the fade)",
+            "color": "aqua",
+            "points": [
+              [
+                0.15,
+                0
+              ],
+              [
+                0.218,
+                0.061
+              ],
+              [
+                0.391,
+                0.197
+              ],
+              [
+                0.657,
+                0.348
+              ],
+              [
+                1,
+                0.47
+              ],
+              [
+                1,
+                0.57
+              ],
+              [
+                0.62,
+                0.45
+              ],
+              [
+                0.33,
+                0.3
+              ],
+              [
+                0.15,
+                0.15
+              ],
+              [
+                0.04,
+                0
+              ]
+            ],
+            "confidence": "medium",
+            "sourceRefs": [
+              6,
+              7
+            ],
+            "smooth": true
+          },
+          {
+            "name": "lower aqua ribbon, the same below it",
+            "color": "aqua",
+            "points": [
+              [
+                0.4,
+                0
+              ],
+              [
+                0.413,
+                0.015
+              ],
+              [
+                0.551,
+                0.121
+              ],
+              [
+                0.753,
+                0.227
+              ],
+              [
+                1,
+                0.326
+              ],
+              [
+                1,
+                0.385
+              ],
+              [
+                0.7,
+                0.28
+              ],
+              [
+                0.48,
+                0.165
+              ],
+              [
+                0.33,
+                0.05
+              ],
+              [
+                0.28,
+                0
+              ]
+            ],
+            "confidence": "medium",
+            "sourceRefs": [
+              6,
+              7
+            ],
+            "smooth": true
+          },
+          {
+            "name": "sky blue at the root's trailing corner",
+            "color": "sky",
+            "points": [
+              [
+                0.56,
+                0
+              ],
+              [
+                0.77,
+                0.061
+              ],
+              [
+                1,
+                0.136
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "confidence": "low",
+            "sourceRefs": [
+              6
+            ],
+            "smooth": true
+          },
+          {
+            "name": "bare light-gray leading edge",
+            "color": "lip",
+            "points": [
+              [
+                0,
+                0
+              ],
+              [
+                0.035,
+                0
+              ],
+              [
+                0.03,
+                1
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "confidence": "medium",
+            "sourceRefs": [
+              6,
+              7
+            ]
+          }
+        ],
+        "rudder": "blue",
+        "confidence": "medium",
+        "sourceRefs": [
+          6,
+          7
+        ]
+      },
+      "stabilizer": {
+        "top": "wingGray",
+        "under": "wingGray"
+      },
+      "wings": {
+        "top": "wingGray",
+        "under": "wingGray"
+      },
+      "engines": {
+        "cowling": "white",
+        "inletLip": "lip",
+        "areas": [
+          {
+            "name": "emerald swoosh along the top of the nacelle, thin at the inlet and sweeping down to the fan cowl's serrated trailing edge",
+            "color": "emerald",
+            "points": [
+              [
+                0.08,
+                1
+              ],
+              [
+                0.086,
+                0.88
+              ],
+              [
+                0.25,
+                0.82
+              ],
+              [
+                0.405,
+                0.75
+              ],
+              [
+                0.5,
+                0.64
+              ],
+              [
+                0.589,
+                0.47
+              ],
+              [
+                0.687,
+                0.06
+              ],
+              [
+                0.712,
+                -0.2,
+                1
+              ],
+              [
+                0.712,
+                1
+              ]
+            ],
+            "confidence": "medium",
+            "sourceRefs": [
+              6
+            ],
+            "smooth": true
+          }
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6,
+          7
+        ]
+      },
+      "titles": [
+        {
+          "text": "Alaska",
+          "place": "fuselage",
+          "at": [
+            0.112,
+            -0.346
+          ],
+          "height": 0.93,
+          "color": "midnight",
+          "length": 0.163,
+          "style": "The 2016 Alaska wordmark, navy, across the forward windows from just behind the forward door to just ahead of the second; the A's crossbar runs forward as a long stroke.",
+          "confidence": "high",
+          "sourceRefs": [
+            6,
+            7
+          ],
+          "type": {
+            "similar": [
+              "Kaufmann Bold",
+              "Futura Bold Oblique"
+            ],
+            "weight": 800,
+            "slantDeg": 16,
+            "width": "normal",
+            "strokes": "brush",
+            "case": "mixed",
+            "xHeight": 0.55
+          }
+        }
+      ],
+      "logos": []
+    }
+  }
+}

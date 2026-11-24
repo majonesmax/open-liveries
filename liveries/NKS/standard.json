@@ -1,0 +1,224 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "NKS",
+  "name": "Bare Fare yellow (2014)",
+  "kind": "standard",
+  "from": "2014",
+  "to": "2026-05-02",
+  "confidence": "high",
+  "drawnOn": "A320",
+  "description": "Yellow all over, belly and fin included; 'spirit' in huge black heavy lower case across the forward fuselage from the windows down past the engine; 'spirit' again in black on the fin, set diagonally up toward the tip; yellow engines with 'spirit.com' in black.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Spirit_Airlines",
+      "title": "Wikipedia: Spirit Airlines",
+      "accessed": "2026-11-13",
+      "note": "The 2014 yellow livery; Spirit ceased all scheduled operations on 2 May 2026."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Spirit_Airbus_A320neo_N967NK_on_final_approach_to_Boston_Feb_2025.jpg",
+      "title": "Spirit Airbus A320neo N967NK on final approach to Boston Feb 2025.jpg (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "N967NK left side, 2025-02-01: titles, fin title, engine title."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Spirit_Airbus_A321neo_N713NK_BWI_MD1.jpg",
+      "title": "Spirit Airbus A321neo N713NK BWI MD1.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "N713NK, 2025-10-22: the same scheme on an A321neo, among the last before the shutdown."
+    }
+  ],
+  "palette": {
+    "yellow": {
+      "hex": "#F5D10C",
+      "official": false,
+      "name": "Spirit yellow"
+    },
+    "black": {
+      "hex": "#111111",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false,
+      "name": "polished inlet lip"
+    },
+    "flagRed": {
+      "hex": "#B22234",
+      "official": false
+    },
+    "flagNavy": {
+      "hex": "#1F2A5C",
+      "official": false
+    },
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "yellow",
+    "areas": [],
+    "radome": {
+      "color": "yellow"
+    },
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "yellow",
+    "areas": [],
+    "mirrored": true,
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "yellow",
+    "inner": "yellow",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "yellow",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "NKS/us-flag",
+      "place": "fuselage",
+      "at": [
+        0.823,
+        0.209
+      ],
+      "height": 0.13,
+      "colors": [
+        "flagRed",
+        "white",
+        "flagNavy"
+      ],
+      "description": "A small US flag under the registration on the rear fuselage.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "spirit",
+      "place": "fuselage",
+      "at": [
+        0.221,
+        -0.135
+      ],
+      "height": 0.75,
+      "color": "black",
+      "style": "Spirit's wordmark: ultra-heavy geometric lower case in black, enormous, its x-height filling the side from the windows down; the p's descender reaching toward the wing root.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "length": 0.329,
+      "type": {
+        "similar": [
+          "Futura Extra Bold",
+          "Avenir Next Heavy"
+        ],
+        "weight": 900,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.87
+      }
+    },
+    {
+      "text": "spirit",
+      "place": "fin",
+      "at": [
+        0.37,
+        0.044
+      ],
+      "height": 0.155,
+      "color": "black",
+      "style": "The wordmark again on the fin, rotated about 50° to read upward parallel to the leading edge, from the root's middle to near the tip's trailing corner.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Futura Extra Bold",
+          "Avenir Next Heavy"
+        ],
+        "weight": 900,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.87
+      },
+      "rotationDeg": 46,
+      "length": 0.95
+    },
+    {
+      "text": "spirit.com",
+      "place": "engines",
+      "at": [
+        0.21,
+        0.1
+      ],
+      "height": 0.25,
+      "color": "black",
+      "style": "Heavy lower case with '.com', along the cowling's side.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Futura Extra Bold",
+          "Avenir Next Heavy"
+        ],
+        "weight": 900,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.77
+      },
+      "length": 0.63
+    }
+  ],
+  "notes": "Drawn from N967NK (A320neo, Feb 2025), seen slightly from below. The fin title is rotated, which the title fields can't express: its start is given, the angle is in the style. No later scheme was introduced before Spirit stopped flying on 2 May 2026. Re-checked 2026-11-15 on N967NK fitted to the measured A320 shape (photo_trace.py probe): the fuselage title runs x 0.221 to 0.55 (its end under the wing), baseline y -0.135, lowercase y -0.135 to 0.52 (about 1.9 m tall; the t and the i-dots barely rise above it, so xHeight is high); the fin title starts at fin (0.37, 0.04) and runs about 4.9 m up at 46° (length is a share of the root chord, 0.95), lowercase about 0.8 m; the engine title runs 0.21 to 0.84 of the nacelle, seen a little foreshortened. The fin title is now a turned title (rotationDeg).",
+  "history": "Replaces Skyarium v1's approximate standard (a few colors from memory). The yellow 'Bare Fare' scheme replaced Spirit's previous scheme from 2014 and was the last; Spirit ceased scheduled flights on 2 May 2026."
+}

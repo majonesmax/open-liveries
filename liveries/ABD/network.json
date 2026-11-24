@@ -1,0 +1,414 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "network",
+  "airline": "ABD",
+  "name": "Network Aviation (blue)",
+  "kind": "standard",
+  "confidence": "medium",
+  "drawnOn": "B744",
+  "description": "Network Aviation Group's paint on Air Atlanta Icelandic 747-400 freighters: white, a large light-grey 'Network' in plain semibold lowercase (capital N) over the forward main deck, and a royal-blue aft fuselage behind a diagonal rising from the belly under the wing's trailing edge to the fin's root. The blue fin carries a big stylised white eagle's head facing forward (its beak toward the leading edge, two blue feather streaks across it, a blue disc bitten out of its lower front) that runs off the trailing edge. A small 'Network' with its square logo and 'Airline Management' sits just ahead of and on the blue. White engines; blue winglets with the white eagle.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:TF-AMU_Boeing_747-48EF_Network_Aviation_op_Air_Atlanta_Liege_25.6.26.jpg",
+      "title": "TF-AMU Boeing 747-48EF Network Aviation op Air Atlanta Liege 25.6.26.jpg (CC BY-SA 4.0, Colin Cooke Photo)",
+      "accessed": "2026-11-20",
+      "note": "747-400ERF TF-AMU, left side from below and ahead, landing at Liège, 2026-06-24 (taken 25 June 2026 per the title). Fitted to shapes/B744.json (doors pinned; ~0.7 m aft bias at the doors, taken out): the diagonal's edge, the fin's eagle, the titles' ends and heights, the blue winglet."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:TF-AMM_Boeing_747-4H6_Network_Aviation_orby_Air_Atlanta_Liege_17.3.26_(55189776017).jpg",
+      "title": "TF-AMM Boeing 747-4H6 Network Aviation orby Air Atlanta Liege 17.3.26 (CC BY-SA 4.0, Colin Cooke Photo)",
+      "accessed": "2026-11-20",
+      "note": "747-400BDSF TF-AMM, right side, level, at Liège, 2026-03-17 (Commons date 2026-04-06). Measured by its doors (L1-L4) on the flipped photo: the main title over the same stretch as the left, the blue edge at ~52 m at the window line and ~53 m at the crown, the small titles' order reversed (logo aft)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:TF-AMM_Boeing_747-4H6_Network_Aviation_orby_Air_Atlanta_Liege_17.3.26_(55186720491).jpg",
+      "title": "TF-AMM Boeing 747-4H6 Network Aviation orby Air Atlanta Liege 17.3.26 (CC BY-SA 4.0, Colin Cooke Photo)",
+      "accessed": "2026-11-20",
+      "note": "TF-AMM, right side landing, 2026-03-17 (Commons date 2026-04-04): the blue under the aft belly, the right winglet blue with the eagle."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F2F2F0",
+      "official": false
+    },
+    "blue": {
+      "hex": "#1A3E9E",
+      "official": false
+    },
+    "grey": {
+      "hex": "#A6A8AA",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C4C8CC",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "windows": "hidden",
+    "areas": [
+      {
+        "name": "royal-blue aft fuselage behind a diagonal from the belly (under the wing's trailing edge) to the fin's root",
+        "color": "blue",
+        "points": [
+          [
+            0.652,
+            -1
+          ],
+          [
+            0.688,
+            -0.65
+          ],
+          [
+            0.722,
+            -0.27
+          ],
+          [
+            0.748,
+            0.0
+          ],
+          [
+            0.768,
+            0.3
+          ],
+          [
+            0.785,
+            0.65
+          ],
+          [
+            0.795,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            -1,
+            1
+          ]
+        ],
+        "smooth": true,
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "blue",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "winglets": {
+    "outer": "blue",
+    "inner": "blue",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "titles": [
+    {
+      "text": "Network",
+      "place": "fuselage",
+      "at": [
+        0.181,
+        -0.018
+      ],
+      "height": 0.35,
+      "length": 0.195,
+      "color": "grey",
+      "style": "Plain semibold sans, capital N and lowercase, upright, light grey, over the main deck from just behind door 1 to about two thirds of the way to the wing; the same stretch on the right.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Open Sans Semibold",
+          "Segoe UI Semibold"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.7
+      }
+    },
+    {
+      "text": "Network",
+      "place": "fuselage",
+      "side": "left",
+      "at": [
+        0.716,
+        0.42
+      ],
+      "height": 0.18,
+      "length": 0.073,
+      "color": "grey",
+      "style": "Small grey semibold 'Network' behind its square logo, on the white just ahead of the blue (its last letter reaching the blue); followed by a thin bar and 'Airline Management'.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ],
+      "type": {
+        "similar": [
+          "Open Sans Semibold Italic"
+        ],
+        "weight": 600,
+        "slantDeg": 10,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      }
+    },
+    {
+      "text": "Airline",
+      "place": "fuselage",
+      "side": "left",
+      "at": [
+        0.795,
+        0.52
+      ],
+      "height": 0.09,
+      "length": 0.024,
+      "color": "white",
+      "style": "Small white text on the blue, the upper of two lines after 'Network |'.",
+      "confidence": "low",
+      "sourceRefs": [
+        0
+      ],
+      "type": {
+        "similar": [
+          "Open Sans"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      }
+    },
+    {
+      "text": "Management",
+      "place": "fuselage",
+      "side": "left",
+      "at": [
+        0.795,
+        0.36
+      ],
+      "height": 0.09,
+      "length": 0.047,
+      "color": "white",
+      "style": "Small white text on the blue, the lower line.",
+      "confidence": "low",
+      "sourceRefs": [
+        0
+      ],
+      "type": {
+        "similar": [
+          "Open Sans"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      }
+    },
+    {
+      "text": "Network",
+      "place": "fuselage",
+      "side": "right",
+      "at": [
+        0.745,
+        0.42
+      ],
+      "height": 0.18,
+      "length": 0.07,
+      "color": "white",
+      "style": "On the right the group reads logo, 'Network', bar, 'Airline Management' from the tail forward: 'Network' in white italic on the blue, ahead of the logo.",
+      "confidence": "low",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "Open Sans Semibold Italic"
+        ],
+        "weight": 600,
+        "slantDeg": 10,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      }
+    },
+    {
+      "text": "Airline",
+      "place": "fuselage",
+      "side": "right",
+      "at": [
+        0.69,
+        0.52
+      ],
+      "height": 0.09,
+      "length": 0.024,
+      "color": "#1C1E21",
+      "style": "Small dark text on the white ahead of the blue, the upper line.",
+      "confidence": "low",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "Open Sans"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      }
+    },
+    {
+      "text": "Management",
+      "place": "fuselage",
+      "side": "right",
+      "at": [
+        0.69,
+        0.36
+      ],
+      "height": 0.09,
+      "length": 0.047,
+      "color": "#1C1E21",
+      "style": "Small dark text on the white, the lower line.",
+      "confidence": "low",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "Open Sans"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      }
+    }
+  ],
+  "logos": [
+    {
+      "mark": "ABD/network-square",
+      "place": "fuselage",
+      "side": "left",
+      "at": [
+        0.707,
+        0.51
+      ],
+      "height": 0.18,
+      "colors": [
+        "blue",
+        "white"
+      ],
+      "description": "Network's small square logo ahead of the aft 'Network': a blue square with white curved speed lines.",
+      "reference": "https://commons.wikimedia.org/wiki/File:TF-AMU_Boeing_747-48EF_Network_Aviation_op_Air_Atlanta_Liege_25.6.26.jpg",
+      "confidence": "low",
+      "sourceRefs": [
+        0
+      ]
+    },
+    {
+      "mark": "ABD/network-square",
+      "place": "fuselage",
+      "side": "right",
+      "at": [
+        0.82,
+        0.51
+      ],
+      "height": 0.18,
+      "colors": [
+        "blue",
+        "white"
+      ],
+      "description": "The same square on the right, aft of 'Network', on the blue.",
+      "reference": "https://commons.wikimedia.org/wiki/File:TF-AMM_Boeing_747-4H6_Network_Aviation_orby_Air_Atlanta_Liege_17.3.26_(55189776017).jpg",
+      "confidence": "low",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "ABD/network-eagle",
+      "place": "fin",
+      "at": [
+        0.67,
+        0.342
+      ],
+      "height": 0.712,
+      "colors": [
+        "white",
+        "blue"
+      ],
+      "description": "The eagle's white head on the blue fin, beak forward, a blue streak and a feather notch across it; it runs off the trailing edge (the fin's outline crops it there) and down past the root, a blue disc bitten from its lower front.",
+      "reference": "https://commons.wikimedia.org/wiki/File:TF-AMU_Boeing_747-48EF_Network_Aviation_op_Air_Atlanta_Liege_25.6.26.jpg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        2
+      ]
+    },
+    {
+      "mark": "ABD/network-eagle",
+      "place": "winglets",
+      "at": [
+        0.5,
+        0.5
+      ],
+      "height": 0.6,
+      "colors": [
+        "white",
+        "blue"
+      ],
+      "description": "The fin's eagle head small and white on each blue winglet, beak forward.",
+      "reference": "https://commons.wikimedia.org/wiki/File:TF-AMU_Boeing_747-48EF_Network_Aviation_op_Air_Atlanta_Liege_25.6.26.jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        2
+      ]
+    }
+  ],
+  "notes": "Flown by Air Atlanta Icelandic (ABD) for Network Aviation Group (Network Airline Management); tagged per airframe in airframes/ABD.json (TF-AMM, TF-AMU). The blue tail and aft fuselage with the eagle predate the Network titles: TF-AMU (2020-04-08) and TF-AMM (2023-04-30) carried them under ASTRAL titles. The tail's eagle is drawn as fin areas, measured on TF-AMU; its proposed simplified mark is ABD/network-eagle (used on the winglets). Measured on the left (TF-AMU, a factory 747-400ERF with the short upper deck) and checked on the right (TF-AMM, a converted 747-400BDSF with the long one): the main title runs about 12.4-25.8 m back on both sides, cap height ~1.1 m; the blue's edge is at ~45 m at the belly, ~51 m at the window line, ~54-55 m at the crown. The aft small titles are a few tenths of a metre tall and partly by eye; the right side's 'Network' may be grey where it sits on white. A small 'Operated by Air Atlanta Icelandic' by door 1 is not drawn. Colours by eye.",
+  "history": "New in the LAX round (2026-11-20); Air Atlanta Icelandic's customer paint, not drawn before."
+}

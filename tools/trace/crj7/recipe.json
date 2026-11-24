@@ -1,0 +1,135 @@
+{
+  "_about": "CRJ700 (CL-600-2C10), from Bombardier's CRJ700 Airport Planning Manual (CSP B-020, Revision 15; Figure 1 sheets dated Dec 17/2015), 00-02-02 Figure 1 Aircraft Dimensions sheets 1 (side and front, page index 30) and 2 (plan and Detail A, page index 31), Table 1 and Table 3 (page index 28-29), Figure 4 Door Dimensions and Clearances (page index 35). The aircraft is drawn in black strokes, like the dimension lines (layers.py --mode strokes --color 0,0,0); the side view at the 1.8 degree static ground angle, turned level (--rotate -1.78). Pixels of those rasters at scale 20, line centres. Scaled by the printed 29.68 m (1168.5 in) fuselage length, nose tip to the tail cone's end. A T-tail (the tailplane on the fin's top fairing) with two CF34-8C nacelles on stub pylons on the rear fuselage, and winglets. The side view draws the cabin windows, the passenger door, the overwing exit and the forward and aft cargo doors (both on the left: Figure 4); the right side's service door is placed from Figure 4's dashed outline, relative to the passenger door. The aft cargo door's top is behind the nacelle: its height is Table 3's 0.84 m. Detail A prints the nacelle 59.6 in from the centerline to its inner side and 61.1 in wide: its middle 2.29 m out.",
+  "out": "../../../../shapes/CRJ7.json",
+  "length": 29.68,
+  "wingtip": "winglet",
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "engines": {
+    "mount": "fuselage"
+  },
+  "stabilizer": {
+    "mount": "fin"
+  },
+  "refs": {
+    "side": {
+      "nose": 88,
+      "tail": 6941,
+      "cowlEnd": 5618,
+      "windowRow": [1615, 1718],
+      "windowGap": 5,
+      "windowMinWidth": 50,
+      "windowInset": 6,
+      "windowBand": [1627, 1705],
+      "windowsAlso": [
+        4882
+      ]
+    },
+    "plan": {
+      "nose": 167,
+      "centerline": 2821
+    },
+    "front": {
+      "centerline": 2897,
+      "crownTop": 836
+    }
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [
+        1061,
+        1469,
+        1286,
+        1923
+      ],
+      "side": "left"
+    },
+    {
+      "kind": "door",
+      "box": [
+        1079,
+        1562,
+        1270,
+        1909
+      ],
+      "side": "right"
+    },
+    {
+      "kind": "exit",
+      "box": [
+        3728,
+        1584,
+        3848,
+        1819
+      ]
+    },
+    {
+      "kind": "cargo",
+      "box": [
+        2380,
+        1956,
+        2628,
+        2065
+      ],
+      "side": "left"
+    },
+    {
+      "kind": "cargo",
+      "box": [
+        5107,
+        1714,
+        5359,
+        1908
+      ],
+      "side": "left"
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [455, 1683],
+      [596, 1676],
+      [686, 1590],
+      [603, 1590]
+    ],
+    [
+      [628, 1672],
+      [703, 1592],
+      [852, 1592],
+      [862, 1602],
+      [862, 1662],
+      [852, 1672]
+    ]
+  ],
+  "printed": {
+    "fuselage length": 29.68,
+    "fuselage height": 2.69,
+    "fuselage width": 2.69,
+    "wingspan": 23.25,
+    "tailplane span": 8.54,
+    "overall length": 32.48,
+    "engine out from the centerline": 2.29,
+    "nacelle width": 1.55,
+    "engine inlet from the nose": 21.77
+  },
+  "meta": {
+    "id": "CRJ7",
+    "name": "Mitsubishi (Bombardier) CRJ700",
+    "types": [
+      "CRJ7"
+    ],
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://customer.aero.bombardier.com/webd/BAG/CustSite/BRAD/RACSDocument.nsf/51aae8b2b3bfdf6685256c300045ff31/ec63f8639ff3ab9d85257c1500635bd8/$FILE/ATTE8Q23.pdf/CRJ700APMR15.pdf",
+        "title": "Bombardier, CRJ700 Airport Planning Manual (CSP B-020, Revision 15), 00-02-02 Dimensions: Table 1, Table 3, Figure 1 Aircraft Dimensions (sheets 1-2), Figure 4 Door Dimensions and Clearances",
+        "accessed": "2026-11-15",
+        "note": "Dimensions and outlines read off Figure 1's side, plan and front views (tools/trace/crj7/); the figures are the aircraft's measurements, not a copy of the drawing. The side view is drawn at the 1.8 degree static ground angle and was turned level. A T-tail (the tailplane on the fin's top fairing) with winglets and two CF34-8C nacelles on stub pylons on the rear fuselage. The side view draws the 20 cabin windows a side, the passenger door, the overwing exit (0.52 by 1.02 m drawn, Table 3's 0.51 by 0.97 m opening) and the forward and aft cargo doors, both on the left (Figure 4). The right side's service door is placed from Figure 4's dashed outline, relative to the passenger door. The aft cargo door's top is behind the nacelle in the drawing: its height is Table 3's 0.84 m. The engine's position is Detail A's: 59.6 in from the centerline to the nacelle's inner side and 61.1 in across, its middle 2.29 m out. All checks within 0.6%."
+      }
+    ]
+  }
+}

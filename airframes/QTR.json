@@ -1,0 +1,680 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "QTR",
+  "airframes": [
+    {
+      "registration": "A7-BFA",
+      "hex": "06a07f",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Qatar_Airways_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Commons' list of current Qatar 777Fs (A7-BFA to A7-BFY)."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:A7-BFA_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Qatar_Airways_fleet",
+          "accessed": "2026-11-13",
+          "note": "29 777Fs in the cargo fleet (Nov 2025)."
+        }
+      ]
+    },
+    {
+      "registration": "A7-BFB",
+      "hex": "06a080",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Qatar_Airways_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Commons' list of current Qatar 777Fs (A7-BFA to A7-BFY)."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:A7-BFB_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Qatar_Airways_fleet",
+          "accessed": "2026-11-13",
+          "note": "29 777Fs in the cargo fleet (Nov 2025)."
+        }
+      ],
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "A7-BFC",
+      "hex": "06a081",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Qatar_Airways_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Commons' list of current Qatar 777Fs (A7-BFA to A7-BFY)."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:A7-BFC_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Qatar_Airways_fleet",
+          "accessed": "2026-11-13",
+          "note": "29 777Fs in the cargo fleet (Nov 2025)."
+        }
+      ],
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "A7-BFD",
+      "hex": "06a0dd",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Qatar_Airways_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Commons' list of current Qatar 777Fs (A7-BFA to A7-BFY)."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:A7-BFD_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Qatar_Airways_fleet",
+          "accessed": "2026-11-13",
+          "note": "29 777Fs in the cargo fleet (Nov 2025)."
+        }
+      ]
+    },
+    {
+      "registration": "A7-BFE",
+      "hex": "06a0de",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Qatar_Airways_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Commons' list of current Qatar 777Fs (A7-BFA to A7-BFY)."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:A7-BFE_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Qatar_Airways_fleet",
+          "accessed": "2026-11-13",
+          "note": "29 777Fs in the cargo fleet (Nov 2025)."
+        }
+      ],
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "A7-BFF",
+      "hex": "06a0df",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Qatar_Airways_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Commons' list of current Qatar 777Fs (A7-BFA to A7-BFY)."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:A7-BFF_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Qatar_Airways_fleet",
+          "accessed": "2026-11-13",
+          "note": "29 777Fs in the cargo fleet (Nov 2025)."
+        }
+      ]
+    },
+    {
+      "registration": "A7-BFG",
+      "hex": "06a140",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Qatar_Airways_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Commons' list of current Qatar 777Fs (A7-BFA to A7-BFY)."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:A7-BFG_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Qatar_Airways_fleet",
+          "accessed": "2026-11-13",
+          "note": "29 777Fs in the cargo fleet (Nov 2025)."
+        }
+      ]
+    },
+    {
+      "registration": "A7-BFH",
+      "hex": "06a141",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Qatar_Airways_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Commons' list of current Qatar 777Fs (A7-BFA to A7-BFY)."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:A7-BFH_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Qatar_Airways_fleet",
+          "accessed": "2026-11-13",
+          "note": "29 777Fs in the cargo fleet (Nov 2025)."
+        }
+      ],
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "A7-BFI",
+      "hex": "06a1e6",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Qatar_Airways_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Commons' list of current Qatar 777Fs (A7-BFA to A7-BFY)."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:A7-BFI_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Qatar_Airways_fleet",
+          "accessed": "2026-11-13",
+          "note": "29 777Fs in the cargo fleet (Nov 2025)."
+        }
+      ]
+    },
+    {
+      "registration": "A7-BFJ",
+      "hex": "06a1e7",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Qatar_Airways_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Commons' list of current Qatar 777Fs (A7-BFA to A7-BFY)."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:A7-BFJ_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Qatar_Airways_fleet",
+          "accessed": "2026-11-13",
+          "note": "29 777Fs in the cargo fleet (Nov 2025)."
+        }
+      ]
+    },
+    {
+      "registration": "A7-BFK",
+      "hex": "06a1e8",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Qatar_Airways_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Commons' list of current Qatar 777Fs (A7-BFA to A7-BFY)."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:A7-BFK_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Qatar_Airways_fleet",
+          "accessed": "2026-11-13",
+          "note": "29 777Fs in the cargo fleet (Nov 2025)."
+        }
+      ],
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "A7-BFL",
+      "hex": "06a1e9",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Qatar_Airways_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Commons' list of current Qatar 777Fs (A7-BFA to A7-BFY)."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:A7-BFL_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Qatar_Airways_fleet",
+          "accessed": "2026-11-13",
+          "note": "29 777Fs in the cargo fleet (Nov 2025)."
+        }
+      ]
+    },
+    {
+      "registration": "A7-BFM",
+      "hex": "06a1ea",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Qatar_Airways_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Commons' list of current Qatar 777Fs (A7-BFA to A7-BFY)."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:A7-BFM_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Qatar_Airways_fleet",
+          "accessed": "2026-11-13",
+          "note": "29 777Fs in the cargo fleet (Nov 2025)."
+        }
+      ],
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "A7-BFN",
+      "hex": "06a1eb",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Qatar_Airways_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Commons' list of current Qatar 777Fs (A7-BFA to A7-BFY)."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:A7-BFN_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Qatar_Airways_fleet",
+          "accessed": "2026-11-13",
+          "note": "29 777Fs in the cargo fleet (Nov 2025)."
+        }
+      ]
+    },
+    {
+      "registration": "A7-BFO",
+      "hex": "06a1ec",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Qatar_Airways_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Commons' list of current Qatar 777Fs (A7-BFA to A7-BFY)."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:A7-BFO_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Qatar_Airways_fleet",
+          "accessed": "2026-11-13",
+          "note": "29 777Fs in the cargo fleet (Nov 2025)."
+        }
+      ]
+    },
+    {
+      "registration": "A7-BFP",
+      "hex": "06a1ed",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Qatar_Airways_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Commons' list of current Qatar 777Fs (A7-BFA to A7-BFY)."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:A7-BFP_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Qatar_Airways_fleet",
+          "accessed": "2026-11-13",
+          "note": "29 777Fs in the cargo fleet (Nov 2025)."
+        }
+      ]
+    },
+    {
+      "registration": "A7-BFQ",
+      "hex": "06a2de",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Qatar_Airways_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Commons' list of current Qatar 777Fs (A7-BFA to A7-BFY)."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:A7-BFQ_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Qatar_Airways_fleet",
+          "accessed": "2026-11-13",
+          "note": "29 777Fs in the cargo fleet (Nov 2025)."
+        }
+      ],
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "A7-BFR",
+      "hex": "06a2df",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Qatar_Airways_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Commons' list of current Qatar 777Fs (A7-BFA to A7-BFY)."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:A7-BFR_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Qatar_Airways_fleet",
+          "accessed": "2026-11-13",
+          "note": "29 777Fs in the cargo fleet (Nov 2025)."
+        }
+      ]
+    },
+    {
+      "registration": "A7-BFS",
+      "hex": "06a2e0",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Qatar_Airways_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Commons' list of current Qatar 777Fs (A7-BFA to A7-BFY)."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:A7-BFS_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Qatar_Airways_fleet",
+          "accessed": "2026-11-13",
+          "note": "29 777Fs in the cargo fleet (Nov 2025)."
+        }
+      ]
+    },
+    {
+      "registration": "A7-BFT",
+      "hex": "06a2e1",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Qatar_Airways_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Commons' list of current Qatar 777Fs (A7-BFA to A7-BFY)."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:A7-BFT_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Qatar_Airways_fleet",
+          "accessed": "2026-11-13",
+          "note": "29 777Fs in the cargo fleet (Nov 2025)."
+        }
+      ]
+    },
+    {
+      "registration": "A7-BFU",
+      "hex": "06a2e2",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Qatar_Airways_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Commons' list of current Qatar 777Fs (A7-BFA to A7-BFY)."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:A7-BFU_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Qatar_Airways_fleet",
+          "accessed": "2026-11-13",
+          "note": "29 777Fs in the cargo fleet (Nov 2025)."
+        }
+      ],
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "A7-BFV",
+      "hex": "06a2e3",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Qatar_Airways_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Commons' list of current Qatar 777Fs (A7-BFA to A7-BFY)."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:A7-BFV_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Qatar_Airways_fleet",
+          "accessed": "2026-11-13",
+          "note": "29 777Fs in the cargo fleet (Nov 2025)."
+        }
+      ],
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "A7-BFW",
+      "hex": "06a30a",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Qatar_Airways_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Commons' list of current Qatar 777Fs (A7-BFA to A7-BFY)."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:A7-BFW_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Qatar_Airways_fleet",
+          "accessed": "2026-11-13",
+          "note": "29 777Fs in the cargo fleet (Nov 2025)."
+        }
+      ]
+    },
+    {
+      "registration": "A7-BFX",
+      "hex": "06a30b",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Qatar_Airways_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Commons' list of current Qatar 777Fs (A7-BFA to A7-BFY)."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:A7-BFX_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Qatar_Airways_fleet",
+          "accessed": "2026-11-13",
+          "note": "29 777Fs in the cargo fleet (Nov 2025)."
+        }
+      ]
+    },
+    {
+      "registration": "A7-BFY",
+      "hex": "06a30c",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "livery": "cargo",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Boeing_777F_of_Qatar_Airways_Cargo",
+          "accessed": "2026-11-13",
+          "note": "Commons' list of current Qatar 777Fs (A7-BFA to A7-BFY)."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:A7-BFY_(aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Qatar_Airways_fleet",
+          "accessed": "2026-11-13",
+          "note": "29 777Fs in the cargo fleet (Nov 2025)."
+        }
+      ],
+      "lastSeen": "2026-06-27"
+    },
+    {
+      "registration": "A7-BFZ",
+      "hex": "06a30d",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "livery": "cargo",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Qatar_Airways_fleet",
+          "accessed": "2026-11-13",
+          "note": "29 777Fs in the cargo fleet (Nov 2025)."
+        },
+        {
+          "url": "https://hexdb.io/reg-hex?reg=A7-BFZ",
+          "accessed": "2026-11-13",
+          "note": "hexdb lists it as a Qatar Airways 777F."
+        }
+      ],
+      "notes": "Not in Commons' current-fleet category; registered to Qatar Airways as a 777F (hexdb.io). Wikipedia's count of 29 777Fs implies the fleet runs past A7-BFY."
+    },
+    {
+      "registration": "A7-BTA",
+      "hex": "06a390",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "livery": "cargo",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Qatar_Airways_fleet",
+          "accessed": "2026-11-13",
+          "note": "29 777Fs in the cargo fleet (Nov 2025)."
+        },
+        {
+          "url": "https://hexdb.io/reg-hex?reg=A7-BTA",
+          "accessed": "2026-11-13",
+          "note": "hexdb lists it as a Qatar Airways 777F."
+        }
+      ],
+      "notes": "Not in Commons' current-fleet category; registered to Qatar Airways as a 777F (hexdb.io). Wikipedia's count of 29 777Fs implies the fleet runs past A7-BFY.",
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "A7-BTB",
+      "hex": "06a391",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "livery": "cargo",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Qatar_Airways_fleet",
+          "accessed": "2026-11-13",
+          "note": "29 777Fs in the cargo fleet (Nov 2025)."
+        },
+        {
+          "url": "https://hexdb.io/reg-hex?reg=A7-BTB",
+          "accessed": "2026-11-13",
+          "note": "hexdb lists it as a Qatar Airways 777F."
+        }
+      ],
+      "notes": "Not in Commons' current-fleet category; registered to Qatar Airways as a 777F (hexdb.io). Wikipedia's count of 29 777Fs implies the fleet runs past A7-BFY."
+    }
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "RYS",
+  "name": "Buzz livery",
+  "kind": "standard",
+  "from": "2019",
+  "confidence": "medium",
+  "drawnOn": "B38M",
+  "description": "White 737s with big yellow 'BUZZ' capitals outlined in black over the forward cabin, small 'by RYANAIR' near the nose, and a thin gold line low along the fuselage. All-yellow fin with a cartoon bee (round smiling face, antennae, black-and-yellow striped body with a 'B'). White engines with a yellow band and 'BUZZ'; winglets striped yellow and black like a bee.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Buzz_Air_SP-RZA_Boeing_737-8-200_MAX_London_Stansted_Airport.jpg",
+      "accessed": "2026-11-13",
+      "title": "Buzz SP-RZA 737-8200, Stansted (CC BY-SA 4.0)",
+      "note": "Left side, 2021-11-15: titles, gold line, the bee on the yellow fin, engine, striped winglet."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:SP-RZ%3F_at_MLA_20251018.jpg",
+      "accessed": "2026-11-13",
+      "title": "Buzz SP-RZ? at Malta (CC BY 4.0)",
+      "note": "2025-10-18: the scheme unchanged."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Buzz_Poland_wordmark.svg",
+      "accessed": "2026-11-13",
+      "title": "Buzz wordmark (Commons)"
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "yellow": {
+      "hex": "#F2C200",
+      "official": false,
+      "name": "Buzz yellow"
+    },
+    "black": {
+      "hex": "#1C1C1C",
+      "official": false
+    },
+    "gold": {
+      "hex": "#B08A2A",
+      "official": false,
+      "name": "gold line"
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false,
+      "name": "bare metal inlet lip"
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "gold line",
+        "color": "gold",
+        "below": [
+          [
+            0,
+            -0.5
+          ],
+          [
+            0.5,
+            -0.5
+          ],
+          [
+            0.85,
+            -0.42
+          ],
+          [
+            1,
+            -0.38
+          ]
+        ],
+        "above": [
+          [
+            0,
+            -0.54
+          ],
+          [
+            0.5,
+            -0.54
+          ],
+          [
+            0.85,
+            -0.46
+          ],
+          [
+            1,
+            -0.42
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0
+        ]
+      }
+    ],
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "fin": {
+    "base": "yellow",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "wings": {
+    "top": "#B9BEC5",
+    "under": "#C9CDD2"
+  },
+  "winglets": {
+    "outer": "yellow",
+    "inner": "yellow",
+    "areas": [
+      {
+        "name": "black stripe",
+        "color": "black",
+        "points": [
+          [
+            0,
+            0.2
+          ],
+          [
+            1,
+            0.2
+          ],
+          [
+            1,
+            0.32
+          ],
+          [
+            0,
+            0.32
+          ]
+        ]
+      },
+      {
+        "name": "black stripe",
+        "color": "black",
+        "points": [
+          [
+            0,
+            0.45
+          ],
+          [
+            1,
+            0.45
+          ],
+          [
+            1,
+            0.57
+          ],
+          [
+            0,
+            0.57
+          ]
+        ]
+      },
+      {
+        "name": "black stripe",
+        "color": "black",
+        "points": [
+          [
+            0,
+            0.7
+          ],
+          [
+            1,
+            0.7
+          ],
+          [
+            1,
+            0.82
+          ],
+          [
+            0,
+            0.82
+          ]
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "areas": [
+      {
+        "name": "yellow band",
+        "color": "yellow",
+        "below": [
+          [
+            0.1,
+            -0.3
+          ],
+          [
+            1,
+            -0.3
+          ]
+        ],
+        "above": [
+          [
+            0.1,
+            -0.5
+          ],
+          [
+            1,
+            -0.5
+          ]
+        ]
+      }
+    ],
+    "confidence": "low",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "logos": [
+    {
+      "mark": "RYS/bee",
+      "place": "fin",
+      "at": [
+        0.63,
+        0.43
+      ],
+      "height": 0.73,
+      "colors": [
+        "yellow",
+        "black",
+        "white"
+      ],
+      "description": "The Buzz bee: a round yellow smiling face with big white eyes and two antennae, over a plump body striped yellow and black with a 'B' on it, little arms out; outlined in black.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Buzz_Poland_wordmark.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "BUZZ",
+      "place": "fuselage",
+      "at": [
+        0.158,
+        -0.18
+      ],
+      "height": 0.9,
+      "length": 0.184,
+      "color": "yellow",
+      "style": "Heavy slanted capitals in yellow with a thick black outline, over the forward windows.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Futura Extra Bold Oblique",
+          "Arial Black Italic"
+        ],
+        "weight": 900,
+        "slantDeg": 10,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "by RYANAIR",
+      "place": "fuselage",
+      "at": [
+        0.043,
+        -0.24
+      ],
+      "height": 0.11,
+      "color": "black",
+      "style": "Small dark sans below the cockpit, 'RYANAIR' in Ryanair's capitals.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ],
+      "length": 0.043
+    },
+    {
+      "text": "BUZZ",
+      "place": "engines",
+      "at": [
+        0.15,
+        0.0
+      ],
+      "height": 0.3,
+      "length": 0.4,
+      "color": "yellow",
+      "style": "As the fuselage title, on the cowling.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ]
+    }
+  ],
+  "notes": "Buzz (Ryanair group, Poland; formerly Ryanair Sun) flies 737-800s and 737-8200s for Ryanair's network. Best side view is from 2021; a 2025 photo shows it unchanged. Belly and right side not measured. Re-checked 2026-11-15 on SP-RZA (737-8200, left, 2021-11-15), measuring between its doors on the B738 shape's door positions and placing the title by the window line: BUZZ runs x 0.158-0.342 (it had been 0.148-0.283), its letters from y ~-0.18 to just over the windows' top (height 0.9 without the black outline); by RYANAIR runs 0.043-0.086. Drawn on the 737-8200 (B38M; the measured B738 shape is 0.6 m shorter, close enough here).",
+  "history": "New entry. Buzz replaced the Ryanair Sun brand in late 2019; some aircraft still fly in full Ryanair paint under the RYS code."
+}

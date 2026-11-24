@@ -1,0 +1,183 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "GEC",
+  "name": "Lufthansa Cargo (2018 livery)",
+  "kind": "standard",
+  "from": "2018",
+  "commonest": true,
+  "confidence": "high",
+  "drawnOn": "B77L",
+  "description": "Lufthansa's 2018 scheme on the freighters: white fuselage, no windows; the fin and the rear fuselage under it dark Lufthansa blue from a diagonal running down and forward from the fin's leading edge to the belly; a white crane in a thin white ring on the fin; 'Lufthansa Cargo' in dark blue over the forward fuselage; white engines.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Lufthansa_Cargo",
+      "title": "Wikipedia: Lufthansa Cargo",
+      "accessed": "2026-11-13",
+      "note": "Fleet as of July 2026: 12 Boeing 777F, 4 A321-200P2F (from Lufthansa CityLine, Oct 2024); MD-11F retired."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:D-ALFH_AIRCRAFT_Boeing_777-F.jpg",
+      "title": "D-ALFH AIRCRAFT Boeing 777-F.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "D-ALFH (777F) right side, level, 2026-01-23: the blue tail block, fin ring, title place and size."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Lufthansa_Cargo_D-ALFK_finish_to_run_LH8460(Germany_Frankfurt_Airport_to_Hong_Kong_International_Airport)_01-10-2026(2).jpg",
+      "title": "Lufthansa Cargo D-ALFK ... 01-10-2026(2).jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "D-ALFK (777F) left side at Hong Kong, 2026-10-01: same."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Lufthansa_Cargo_D-ALFL_run_LH8461(Hong_Kong_International_Airport_to_Turkey_Istanbul_Airport)_16-08-2025.jpg",
+      "title": "Lufthansa Cargo D-ALFL ... 16-08-2025.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "D-ALFL from below-left, 2025-08-16: belly white, the blue block wraps under the tail."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Lufthansa_Cargo_D-ALFG(Flying_100%25_CO%E2%82%82_neutral_livery)_run_LH8460(Germany_Frankfurt_Airport_to_Hong_Kong_International_Airport)_17-02-2026(5).jpg",
+      "title": "Lufthansa Cargo D-ALFG ... 17-02-2026(5).jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "D-ALFG left side, 2026-02-17: 2018 scheme plus a small 'Sharkskin Technology' sticker aft of the wing."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F6",
+      "official": false
+    },
+    "blue": {
+      "hex": "#05164D",
+      "name": "Lufthansa Blue",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "blue tail block, its forward edge a straight diagonal from the fin's leading edge down and forward to the belly",
+        "color": "blue",
+        "points": [
+          [
+            0.81,
+            1
+          ],
+          [
+            0.728,
+            -1
+          ],
+          [
+            0.94,
+            -1
+          ],
+          [
+            0.94,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2,
+          3
+        ]
+      }
+    ],
+    "windows": "hidden",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2,
+      3
+    ]
+  },
+  "fin": {
+    "base": "blue",
+    "mirrored": true,
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "DLH/crane-ring",
+      "place": "fin",
+      "at": [
+        0.53,
+        0.29
+      ],
+      "height": 0.44,
+      "colors": [
+        "white"
+      ],
+      "description": "The Lufthansa crane (Kranich): a stylised flying crane, wings raised in a V, neck stretched forward, inside a thin ring; white line art on the dark blue.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Lufthansa_Logo_2018.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Lufthansa Cargo",
+      "place": "fuselage",
+      "at": [
+        0.143,
+        0.17
+      ],
+      "height": 0.38,
+      "length": 0.241,
+      "color": "blue",
+      "style": "Lufthansa Head, dark blue, bold mixed case, one line ahead of the wing over the forward fuselage (where the passenger jets' windows would be).",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2,
+        4
+      ],
+      "type": {
+        "official": "Lufthansa Head",
+        "similar": [
+          "Helvetica Neue Bold",
+          "Arial Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.68
+      }
+    }
+  ],
+  "notes": "Drawn from D-ALFH (Jan 2026), D-ALFK (Oct 2026) and D-ALFL (Aug 2025), all 777F. Confirmed in this scheme in 2025-2026 photos: D-ALFF, D-ALFG, D-ALFH, D-ALFK, D-ALFL; D-ALFA and D-ALFB still wore the pre-2018 scheme in 2025 (see standard-1988, tagged in airframes/GEC.json). No crane under the cockpit seen on the freighters (a cargo door sits there). Small text not drawn: 'Boeing 777 Freighter' and the aircraft name under the title, the registration with a German flag ahead of the blue block, D-ALFG's 'Sharkskin Technology' sticker. The A321P2Fs carry the same scheme (with the passenger jets' narrow-body tail block); 777Fs have raked wingtips, no winglets. Re-checked 2026-11-15 on D-ALFH (right, 2026-01-23) and D-ALFK (left, 2026-10-01): the title starts ~1.6 m behind the forward door on both sides (x 0.143, not 0.24) and runs 0.241; its baseline sits just under the door's top (y ~0.17) and its capitals reach ~0.55 (cap 0.38, from 0.43 at y 0.3); lowercase ~0.68 of the capitals. D-ALFH's photo is its right side (the source note had said left). The tail block's forward edge is a straight diagonal as seen from the side: its points along the line replaced by the two ends (2026-11-15).",
+  "history": "New: Lufthansa Cargo (GEC) was mapped to DLH/standard in operators.json; it wears the Lufthansa 2018 scheme with its own 'Lufthansa Cargo' title. Repaints of the 777Fs from the 1988 scheme began 2018-2019 and weren't complete in 2025."
+}

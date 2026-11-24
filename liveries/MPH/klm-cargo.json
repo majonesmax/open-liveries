@@ -1,0 +1,667 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "klm-cargo",
+  "airline": "MPH",
+  "name": "KLM Cargo",
+  "kind": "standard",
+  "confidence": "medium",
+  "drawnOn": "B744",
+  "description": "KLM Cargo paint on the Martinair-operated 747-400ERFs: KLM blue over the whole fuselage, nose and tail cone included, a white belly under a thin dark-blue line; a huge white 'CARGO' in squared stencil-cut capitals over the forward main deck, the small KLM crown, 'KLM' and 'Royal Dutch Airlines' in white ahead of it, and 'Operated by Martinair' small on the white belly by the nose. White fin with the blue crown, a big blue 'KLM' and 'CARGO' under it; pale gray engines with the blue KLM logo; white winglets with 'KLM CARGO'.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Boeing_747-406F_ER_SCD_(55041130104).jpg",
+      "title": "Boeing 747-406F ER SCD (55041130104).jpg (CC BY-SA 4.0, Samson Ng . D201@EAL)",
+      "accessed": "2026-11-20",
+      "note": "747-406ERF PH-CKB, right side from above, side-on, at Hong Kong, 2025-11-22. Flipped and fitted to shapes/B744.json (no doors clear: nose, tail, fin tip, crown and belly pinned): the belly line, the fuselage titles' ends and heights, the fin's crown, 'KLM' and gray 'CARGO'."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:KLM_Cargo_PH-CKA_run_MP9462(Hong_Kong_International_Airport_to_United_Arab_Emirates_Dubai_Al_Maktoum_International_Airport)_12-01-2025.jpg",
+      "title": "KLM Cargo PH-CKA run MP9462 (Hong Kong to Dubai Al Maktoum) 12-01-2025.jpg (CC BY-SA 4.0, LN9267)",
+      "accessed": "2026-11-20",
+      "note": "PH-CKA, left side from above at Hong Kong, 2025-01-12: on the left 'KLM' leads 'Royal Dutch Airlines', then 'CARGO'; 'Operated by Martinair' with the red chevron on the white below the forward door; the winglet's 'KLM CARGO'; PH-CKA's fin 'CARGO' is blue. Too foreshortened to fit closely: proportions read off it and matched to the right side's stretch."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Boeing_747-400ERF_KLM_Cargo_-_PH-CKC_taking_off_from_Schiphol.jpg",
+      "title": "Boeing 747-400ERF KLM Cargo - PH-CKC taking off from Schiphol.jpg (CC BY 4.0, Mees Jansen)",
+      "accessed": "2026-11-20",
+      "note": "PH-CKC, right side taking off from Schiphol, 2026-08-01: the scheme current; the fin's 'CARGO' gray as on PH-CKB; the blue tail cone over the white belly."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:KLM_Cargo_PH-CKB_prepare_to_run_MP9452(Hong_Kong_International_Airport_to_Azerbaijan_Baku_Heydar_Aliyev_International_Airport)_12-09-2026.jpg",
+      "title": "KLM Cargo PH-CKB prepare to run MP9452 (Hong Kong to Baku) 12-09-2026.jpg (CC BY-SA 4.0, LN9267)",
+      "accessed": "2026-11-20",
+      "note": "PH-CKB, right side at Hong Kong, 2026-09-12: the same layout, current."
+    }
+  ],
+  "palette": {
+    "blue": {
+      "hex": "#1E9BDC",
+      "name": "KLM blue",
+      "official": false
+    },
+    "navy": {
+      "hex": "#0B2A6F",
+      "official": false
+    },
+    "white": {
+      "hex": "#F3F5F7",
+      "official": false
+    },
+    "finWhite": {
+      "hex": "#E9ECEF",
+      "official": false
+    },
+    "gray": {
+      "hex": "#6B6D70",
+      "official": false
+    },
+    "cowl": {
+      "hex": "#D6DADF",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC5",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "name": "bare metal inlet lip",
+      "official": false
+    },
+    "red": {
+      "hex": "#D0202E",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "blue",
+    "windows": "hidden",
+    "areas": [
+      {
+        "name": "thin dark-blue line over the belly, nose to tail cone",
+        "color": "navy",
+        "below": [
+          [
+            0,
+            -0.95
+          ],
+          [
+            0.03,
+            -0.85
+          ],
+          [
+            0.051,
+            -0.78
+          ],
+          [
+            0.076,
+            -0.61
+          ],
+          [
+            0.107,
+            -0.45
+          ],
+          [
+            0.13,
+            -0.36
+          ],
+          [
+            0.17,
+            -0.25
+          ],
+          [
+            0.22,
+            -0.2
+          ],
+          [
+            0.26,
+            -0.17
+          ],
+          [
+            0.32,
+            -0.155
+          ],
+          [
+            0.45,
+            -0.13
+          ],
+          [
+            0.6,
+            -0.11
+          ],
+          [
+            0.68,
+            -0.12
+          ],
+          [
+            0.73,
+            -0.18
+          ],
+          [
+            0.77,
+            -0.26
+          ],
+          [
+            0.81,
+            -0.33
+          ],
+          [
+            0.85,
+            -0.39
+          ],
+          [
+            0.88,
+            -0.45
+          ],
+          [
+            0.93,
+            -0.53
+          ],
+          [
+            0.97,
+            -0.6
+          ],
+          [
+            1,
+            -0.64
+          ]
+        ],
+        "smooth": true,
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "name": "white belly",
+        "color": "white",
+        "below": [
+          [
+            0,
+            -0.985
+          ],
+          [
+            0.03,
+            -0.885
+          ],
+          [
+            0.051,
+            -0.815
+          ],
+          [
+            0.076,
+            -0.645
+          ],
+          [
+            0.107,
+            -0.485
+          ],
+          [
+            0.13,
+            -0.395
+          ],
+          [
+            0.17,
+            -0.285
+          ],
+          [
+            0.22,
+            -0.235
+          ],
+          [
+            0.26,
+            -0.205
+          ],
+          [
+            0.32,
+            -0.19
+          ],
+          [
+            0.45,
+            -0.165
+          ],
+          [
+            0.6,
+            -0.145
+          ],
+          [
+            0.68,
+            -0.155
+          ],
+          [
+            0.73,
+            -0.215
+          ],
+          [
+            0.77,
+            -0.295
+          ],
+          [
+            0.81,
+            -0.365
+          ],
+          [
+            0.85,
+            -0.425
+          ],
+          [
+            0.88,
+            -0.485
+          ],
+          [
+            0.93,
+            -0.565
+          ],
+          [
+            0.97,
+            -0.635
+          ],
+          [
+            1,
+            -0.675
+          ]
+        ],
+        "smooth": true,
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "fin": {
+    "base": "finWhite",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "white",
+    "inner": "white",
+    "confidence": "medium",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "cowl",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "titles": [
+    {
+      "text": "CARGO",
+      "place": "fuselage",
+      "at": [
+        0.233,
+        -0.05
+      ],
+      "height": 0.33,
+      "length": 0.19,
+      "color": "white",
+      "style": "Huge white squared capitals with stencil-like cuts, upright, over the forward main deck from just aft of the KLM block to ahead of the wing.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Eurostile Bold",
+          "Microgramma Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "KLM",
+      "place": "fuselage",
+      "side": "left",
+      "at": [
+        0.117,
+        0.0
+      ],
+      "height": 0.12,
+      "length": 0.037,
+      "color": "white",
+      "style": "The KLM wordmark, white, under the crown; on the left it leads 'Royal Dutch Airlines'.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Bold Extended",
+          "Eurostile Extended Bold",
+          "Arial Black"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "Royal Dutch Airlines",
+      "place": "fuselage",
+      "side": "left",
+      "at": [
+        0.156,
+        0.0
+      ],
+      "height": 0.07,
+      "length": 0.062,
+      "color": "white",
+      "style": "Small white upright sans, mixed case, after 'KLM' on its baseline.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "Frutiger",
+          "Myriad Pro",
+          "Helvetica Neue"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.7
+      }
+    },
+    {
+      "text": "Royal Dutch Airlines",
+      "place": "fuselage",
+      "side": "right",
+      "at": [
+        0.117,
+        0.0
+      ],
+      "height": 0.07,
+      "length": 0.062,
+      "color": "white",
+      "style": "On the right it comes first from the nose, 'KLM' aft of it, so the line reads 'KLM Royal Dutch Airlines' from that side.",
+      "confidence": "high",
+      "sourceRefs": [
+        0
+      ],
+      "type": {
+        "similar": [
+          "Frutiger",
+          "Myriad Pro",
+          "Helvetica Neue"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.7
+      }
+    },
+    {
+      "text": "KLM",
+      "place": "fuselage",
+      "side": "right",
+      "at": [
+        0.181,
+        0.01
+      ],
+      "height": 0.12,
+      "length": 0.037,
+      "color": "white",
+      "style": "The KLM wordmark under the crown, aft of 'Royal Dutch Airlines' on the right.",
+      "confidence": "high",
+      "sourceRefs": [
+        0
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Bold Extended",
+          "Eurostile Extended Bold",
+          "Arial Black"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "Operated by Martinair",
+      "place": "fuselage",
+      "at": [
+        0.122,
+        -0.56
+      ],
+      "height": 0.06,
+      "length": 0.074,
+      "color": "navy",
+      "style": "Small dark lettering on the white belly below the forward door: 'Operated by' small and plain, 'Martinair' bolder after the red chevron.",
+      "confidence": "low",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "Frutiger",
+          "Myriad Pro",
+          "Helvetica Neue"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.7
+      }
+    },
+    {
+      "text": "KLM",
+      "place": "fin",
+      "at": [
+        0.161,
+        0.29
+      ],
+      "height": 0.13,
+      "length": 0.72,
+      "color": "blue",
+      "style": "The KLM wordmark in blue across the middle of the fin, under the crown; reads normally on both sides.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Bold Extended",
+          "Eurostile Extended Bold",
+          "Arial Black"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "CARGO",
+      "place": "fin",
+      "at": [
+        0.315,
+        0.14
+      ],
+      "height": 0.085,
+      "length": 0.63,
+      "color": "gray",
+      "style": "Lighter extended capitals in gray under the fin's 'KLM' (blue on PH-CKA).",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Medium Extended",
+          "Eurostile Extended"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "logos": [
+    {
+      "mark": "KLM/crown",
+      "place": "fuselage",
+      "side": "left",
+      "at": [
+        0.1355,
+        0.2
+      ],
+      "height": 0.1,
+      "colors": [
+        "white"
+      ],
+      "description": "The KLM crown in white over the fuselage 'KLM'.",
+      "reference": "https://commons.wikimedia.org/wiki/File:KLM_logo.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "KLM/crown",
+      "place": "fuselage",
+      "side": "right",
+      "at": [
+        0.2005,
+        0.21
+      ],
+      "height": 0.1,
+      "colors": [
+        "white"
+      ],
+      "description": "The crown over 'KLM', aft of 'Royal Dutch Airlines' on the right.",
+      "reference": "https://commons.wikimedia.org/wiki/File:KLM_logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0
+      ]
+    },
+    {
+      "mark": "KLM/crown",
+      "place": "fin",
+      "at": [
+        0.242,
+        0.553
+      ],
+      "height": 0.166,
+      "colors": [
+        "blue"
+      ],
+      "description": "The crown in blue over the fin's 'KLM'.",
+      "reference": "https://commons.wikimedia.org/wiki/File:KLM_logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "KLM/logo",
+      "place": "engines",
+      "at": [
+        0.45,
+        0.15
+      ],
+      "height": 0.4,
+      "colors": [
+        "blue"
+      ],
+      "description": "The KLM logo (crown over 'KLM') in blue on the side of each cowling.",
+      "reference": "https://commons.wikimedia.org/wiki/File:KLM_logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "KLM/logo",
+      "place": "winglets",
+      "at": [
+        0.45,
+        0.65
+      ],
+      "height": 0.3,
+      "colors": [
+        "blue"
+      ],
+      "description": "The KLM logo in blue on the winglet's outer face, with 'CARGO' under it (winglet lettering can't be a title: noted only).",
+      "reference": "https://commons.wikimedia.org/wiki/File:KLM_logo.svg",
+      "confidence": "low",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "MPH/chevron",
+      "place": "fuselage",
+      "at": [
+        0.15,
+        -0.53
+      ],
+      "height": 0.06,
+      "colors": [
+        "red"
+      ],
+      "description": "Martinair's red chevron, tiny, in 'Operated by Martinair'.",
+      "reference": "https://commons.wikimedia.org/wiki/File:KLM_Cargo_PH-CKA_run_MP9462(Hong_Kong_International_Airport_to_United_Arab_Emirates_Dubai_Al_Maktoum_International_Airport)_12-01-2025.jpg",
+      "confidence": "low",
+      "sourceRefs": [
+        1
+      ]
+    }
+  ],
+  "notes": "Worn by PH-CKA, PH-CKB and PH-CKC (airframes/MPH.json). Measured on PH-CKB's right side (2025-11-22, flipped; a 747-400ERF, the factory freighter's short upper deck: shapes/B744.json): 'CARGO' runs x 0.233-0.423 with its capitals about 1.9 m tall; on the right 'Royal Dutch Airlines' 0.117-0.179 then 'KLM' 0.181-0.218 under the crown; on the left the same block reads 'KLM' (0.117-0.154) then 'Royal Dutch Airlines', placed from PH-CKA's left side by proportion (that photo is too foreshortened to fit). The fin's 'KLM' spans 0.16-0.88 of the chord with its foot about 6.4 m up. The fin's 'CARGO' is gray on PH-CKB and PH-CKC, blue on PH-CKA: drawn gray. The winglets' 'CARGO' under the logo isn't drawn (titles can't sit on winglets). The 'Operated by Martinair' line and logos are read off small details (low). Each aircraft's name in small script under the cockpit, 'The Flying Dutchman' on the belly, the registration with its flags and the small 'BOEING 747-400ERF' aren't drawn. Colours by eye, KLM's blues as in KLM/standard.",
+  "history": "New in the LAX round (2026-11-20): KLM Cargo paint on Martinair's freighters, drawn here for the MPH callsign."
+}

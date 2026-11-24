@@ -1,0 +1,264 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "white",
+  "airline": "MNB",
+  "name": "White with titles (25 years)",
+  "kind": "standard",
+  "confidence": "medium",
+  "drawnOn": "A333",
+  "description": "An all-white A330-300 freighter with only titles: 'MNG' in heavy dark grey and 'AIRLINES' in thin blue capitals above the wing's leading edge, and ahead of them '25years' in a large light-blue handwritten script (MNG's 25th year, 2022). A small Turkish flag behind the forward door. White fin with no mark, white engines.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:TC-MCM_JFK_Landing_4R_MB_A330_343_F_25_Years_Small_(52554424120).png",
+      "title": "TC-MCM JFK Landing 4R MB A330 343 F 25 Years Small (CC BY-SA 2.0, Mark Bess)",
+      "accessed": "2026-11-22",
+      "note": "TC-MCM on approach at JFK, right side from below, 2022-12-10. Fitted (flipped nose-left) to shapes/A333.json, loosely (within 33 px: three-quarter from below): the titles' and script's ends along the fuselage. Their heights are taken from MNB/standard's, which the photo agrees with."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:TC-MCM_(13_Jan_2024).jpg",
+      "title": "TC-MCM (13 Jan 2024) (CC0, Dltl2010)",
+      "accessed": "2026-11-22",
+      "note": "Right side climbing out at Hong Kong, 2024-01-13: the same, still all white, '25years' still on."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:MNG_Airlines_Airbus_A330-343P2F_TC-MCM.jpg",
+      "title": "MNG Airlines Airbus A330-343P2F TC-MCM (CC BY-SA 4.0, Liuboyoupeter)",
+      "accessed": "2026-11-22",
+      "note": "From below, 2022-07-05: plain white fin and belly; not measured (the photo carries a watermark)."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F1F2F2",
+      "official": false
+    },
+    "blue": {
+      "hex": "#3A80C8",
+      "name": "MNG blue",
+      "official": false
+    },
+    "script": {
+      "hex": "#7DA8D8",
+      "name": "the 25 years script's light blue",
+      "official": false
+    },
+    "ink": {
+      "hex": "#3A3D44",
+      "name": "'MNG' dark grey",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "windows": "hidden",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "#B9BEC5",
+    "under": "#C9CDD2"
+  },
+  "winglets": {
+    "outer": "white",
+    "inner": "white",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "titles": [
+    {
+      "text": "MNG",
+      "place": "fuselage",
+      "at": [
+        0.311,
+        0.321
+      ],
+      "height": 0.26,
+      "length": 0.068,
+      "color": "ink",
+      "style": "'MNG' in heavy geometric capitals, dark grey.",
+      "side": "left",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ],
+      "type": {
+        "similar": [
+          "Montserrat ExtraBold",
+          "Gotham Black"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "AIRLINES",
+      "place": "fuselage",
+      "at": [
+        0.383,
+        0.33
+      ],
+      "height": 0.25,
+      "length": 0.11,
+      "color": "blue",
+      "style": "'AIRLINES' in thin blue capitals straight after.",
+      "side": "left",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ],
+      "type": {
+        "similar": [
+          "Montserrat Regular",
+          "Gill Sans"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "AIRLINES",
+      "place": "fuselage",
+      "at": [
+        0.311,
+        0.33
+      ],
+      "height": 0.25,
+      "length": 0.11,
+      "color": "blue",
+      "style": "On the right, 'AIRLINES' forward, after 'MNG' read from the tail.",
+      "side": "right",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Montserrat Regular",
+          "Gill Sans"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "MNG",
+      "place": "fuselage",
+      "at": [
+        0.425,
+        0.321
+      ],
+      "height": 0.26,
+      "length": 0.068,
+      "color": "ink",
+      "style": "On the right, 'MNG' aft, partly behind the wing root from the front.",
+      "side": "right",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Montserrat ExtraBold",
+          "Gotham Black"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "25years",
+      "place": "fuselage",
+      "at": [
+        0.148,
+        -0.1
+      ],
+      "height": 0.42,
+      "length": 0.128,
+      "color": "script",
+      "style": "A large flowing handwritten script in light blue, the 2 and 5 tall and joined, 'years' running on from the 5 and rising slightly, ahead of the titles across the main deck.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Great Vibes",
+          "Snell Roundhand"
+        ],
+        "weight": 400,
+        "slantDeg": 15,
+        "width": "normal",
+        "strokes": "contrast",
+        "case": "lower"
+      }
+    }
+  ],
+  "logos": [
+    {
+      "mark": "MNB/flag",
+      "place": "fuselage",
+      "at": [
+        0.124,
+        0.4
+      ],
+      "height": 0.07,
+      "colors": [
+        "#E30A17",
+        "white"
+      ],
+      "description": "Small Turkish flag behind the forward door.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Flag_of_Turkey.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "notes": "TC-MCM came to MNG as a converted A330-300 freighter (P2F) and has flown all white with titles since at least July 2022 (2022 and January 2024 photos, both from the right). Its titles run x 0.311-0.493 (AIRLINES forward on the right; on the left, not seen in an open photo, MNG is put forward, as on the standard), further forward than on TC-MCZ's A330-200, and the script x 0.148-0.276. The fit is loose (three-quarter from below), so heights come from MNB/standard. Whether the '25years' script has since been taken off isn't known from open photos (the latest is January 2024). Kept as its own scheme rather than a special: it's the aircraft's everyday paint, not an occasion's wrap.",
+  "history": "New 2026-11-22 (the maintainer's sightings: TC-MCM)."
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "hello-kitty-sanrio-characters-besties-jet",
+  "airline": "EVA",
+  "name": "Hello Kitty / Sanrio Characters 'Besties' jet",
+  "kind": "special",
+  "confidence": "medium",
+  "description": "Fuselage: White fuselage covered with Sanrio character stickers (Hello Kitty, My Melody, Kuromi and others) with hearts, tickets and cupcakes in pinks and purples. Cheatlines: None. Tail: Standard EVA green fin with the orange/white globe emblem. Engines: White. Winglets: Raked tips. Titles: Green 'EVA AIR' forward; pink 'SANRIO CHARACTERS' mid-fuselage. Artwork: Sanrio characters. Colors hex: approximate.",
+  "sources": [
+    {
+      "url": "https://www.evaair.com/en-global/fly-prepare/flying-with-eva/hello-kitty-jet/default.html",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:B-16722_(aircraft)",
+      "accessed": "2026-11-12"
+    }
+  ],
+  "notes": "Which 777 operates Chicago on a given day is not fixed; registration-to-route link not confirmed.",
+  "from": "2024"
+}

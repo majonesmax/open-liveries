@@ -1,0 +1,120 @@
+{
+  "_about": "A330-800, from Airbus AC A330 (Dec 01/25) 2-2-0 General Aircraft Dimensions, A330-800 sheets 1 (side, front: page index 66) and 2 (plan: page index 67). Pixels of layers.py --mode strokes-in-fill rasters, line centres: the side at scale 16 turned level (--rotate -0.46), the plan at 15.147 and the front at 16, as the A330-900's. The sheet draws the aircraft 1.4% shorter than its printed 58.82 m overall length while its height and width are drawn at the A330-900 sheet's scale (its other printed lengths, 47.09 m, 57.51 m and the plan's, are the A330-900's less 5.33 m, ten frames): the side and plan are stretched lengthwise by 1.01385 (--xscale) so the printed length and the printed 5.64 m height share one scale, 81.56 px a meter. The A330-900's points moved by the two plugs out (plug.py: 3.20 m ahead of door 2 and 2.39 m between door 3 and door 4 on the side, as the drawn doors show; 3.19 m and 2.14 m on the plan, as its printed figures), stretched as the sheet, the parts laid on by best fit, then snapped; the fin, the A330-200's taller one, is the A330-200's points laid on this sheet. Windows behind the wing's lines at the drawing's pitch; door 3 (a Type A, as the A330-200's) is drawn only above the wing: its height is the A330-900's.",
+  "out": "../../../../shapes/A338.json",
+  "length": 58.82,
+  "wingtip": "sharklet",
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "refs": {
+    "side": {
+      "nose": 426,
+      "tail": 5223,
+      "cowlEnd": 2349,
+      "windowRow": [1102, 1166],
+      "windowBand": [1114, 1160],
+      "windowGap": 5,
+      "windowsAlso": [3160, 3203, 3247, 3291, 3335, 3379, 3423]
+    },
+    "plan": {
+      "nose": 406,
+      "centerline": 2826
+    },
+    "front": {
+      "centerline": 2897,
+      "crownTop": 448
+    }
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [856, 1070, 955, 1223]
+    },
+    {
+      "kind": "door",
+      "box": [1569, 1072, 1666, 1223]
+    },
+    {
+      "kind": "exit",
+      "box": [3053, 1071, 3149, 1193]
+    },
+    {
+      "kind": "door",
+      "box": [4129, 1050, 4226, 1201]
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [527, 1150],
+      [533, 1144],
+      [556, 1124],
+      [562, 1119],
+      [584, 1119],
+      [586, 1121],
+      [585, 1123],
+      [578, 1134],
+      [569, 1148],
+      [567, 1150],
+      [565, 1151],
+      [543, 1152],
+      [529, 1152]
+    ],
+    [
+      [630, 1122],
+      [630, 1156],
+      [627, 1159],
+      [617, 1159],
+      [596, 1158],
+      [592, 1157],
+      [589, 1156],
+      [587, 1154],
+      [586, 1150],
+      [586, 1147],
+      [588, 1141],
+      [596, 1130],
+      [602, 1122],
+      [604, 1120],
+      [606, 1119],
+      [616, 1119],
+      [628, 1120]
+    ],
+    [
+      [643, 1157],
+      [643, 1120],
+      [645, 1118],
+      [671, 1118],
+      [673, 1119],
+      [676, 1122],
+      [686, 1134],
+      [687, 1136],
+      [687, 1156],
+      [685, 1158],
+      [683, 1159],
+      [645, 1159]
+    ]
+  ],
+  "printed": {
+    "fuselage height": 5.64,
+    "fuselage width": 5.64,
+    "wingspan": 64.0,
+    "tailplane span": 19.4,
+    "engine out from the centerline": 9.37
+  },
+  "meta": {
+    "id": "A338",
+    "name": "Airbus A330-800",
+    "types": ["A338"],
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://www.aircraft.airbus.com/sites/default/files/2025-12/AC_A330_20251201.pdf",
+        "title": "Airbus, A330 Aircraft Characteristics: Airport and Maintenance Planning (Dec 01/25), 2-2-0 General Aircraft Dimensions, A330-800 sheets 1 and 2",
+        "accessed": "2026-11-15",
+        "note": "Dimensions and outlines read off the side, plan and front views (tools/trace/a338/); the figures are the aircraft's measurements, not a copy of the drawing. The A330-900's points moved by the two fuselage plugs out (plug.py) and snapped to this sheet; the fin is the A330-200's (8.80 m, against the A330-900's 8.30 m). The sheet draws the aircraft 1.4% shorter than its printed 58.82 m (it and its other printed lengths are the A330-900's less ten frames, 5.33 m, where the overall lengths differ by 4.84 m), at the A330-900 sheet's scale across: the side and plan are stretched lengthwise to the printed length, so the length and the printed 5.64 m height share one scale. The side view is turned level from the sheet's ground attitude (0.46\u00b0). Engine out from the centerline: half the printed 18.74 m between the engines."
+      }
+    ]
+  }
+}

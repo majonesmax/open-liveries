@@ -1,0 +1,49 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "CSZ",
+  "airframes": [
+    {
+      "registration": "B-32F0",
+      "hex": "781fb3",
+      "hexSource": "the maintainer's ADS-B sighting at Heathrow (2026-11-22), matched to the registration; not checked against China's register",
+      "type": "A359",
+      "livery": "kunpeng",
+      "from": "2026-06-30",
+      "lastSeen": "2026-11-22",
+      "confidence": "high",
+      "status": "active: entered service 30 June 2026; Commons photos October 2026; the maintainer saw it at Heathrow 2026-11-22.",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:B-32F0@PEK_(20261005121537).jpg",
+          "title": "B-32F0@PEK (20261005121537).jpg (CC BY-SA 4.0, N509FZ)",
+          "accessed": "2026-11-22",
+          "note": "Beijing, 2026-10-05, in this scheme."
+        },
+        {
+          "url": "https://flyingphotosmagazinenews.blogspot.com/2026/06/fleet-shenzhen-airlines-welcomes-1st.html",
+          "title": "Flying Photos Magazine News, 2026-06-23",
+          "accessed": "2026-11-22",
+          "note": "Ex-Air China B-32F0 (msn 614), Shenzhen Airlines' first A350, in its special livery."
+        }
+      ]
+    },
+    {
+      "registration": "B-1758",
+      "hex": "780d69",
+      "type": "B738",
+      "livery": "star-alliance",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:20251130_Boeing_737-87L(WL)_of_Shenzhen_Airlines_(B-1758)_taxiing_at_CGO.jpg",
+          "title": "20251130 Boeing 737-87L(WL) of Shenzhen Airlines (B-1758) taxiing at CGO.jpg",
+          "accessed": "2026-11-22",
+          "note": "Photo 2025-11-30 (CC BY-SA 4.0)."
+        }
+      ],
+      "hexSource": "looked up: hexdb.io community database (2026-11-22); not verified against the Chinese register",
+      "lastSeen": "2025-11-30",
+      "status": "Newest open photo in this paint 2025-11-30."
+    }
+  ]
+}

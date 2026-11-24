@@ -1,0 +1,144 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "ABD",
+  "airframes": [
+    {
+      "registration": "TF-AMP",
+      "hex": "4cc45a",
+      "type": "B744",
+      "livery": "magma",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:TF-AMP_Boeing_747-481(BCF)_Magma_Air_Atlanta_Liege_25.6.26.jpg",
+          "title": "TF-AMP Boeing 747-481(BCF) Magma Air Atlanta Liege 25.6.26.jpg (CC BY-SA 4.0, Colin Cooke Photo)",
+          "accessed": "2026-11-20",
+          "note": "In Magma paint at Liège, 2026-06-24."
+        },
+        {
+          "url": "https://hexdb.io/api/v1/aircraft/4cc45a",
+          "title": "hexdb.io aircraft record",
+          "accessed": "2026-11-20",
+          "note": "4CC45A = TF-AMP, 747-481BCF, owner Magma Aviation, operator flag ABD; seen airborne as ABD7045 on adsb.lol (api.adsb.lol/v2/type/B744) on 2026-11-20."
+        }
+      ],
+      "lastSeen": "2026-06-24"
+    },
+    {
+      "registration": "TF-AMN",
+      "type": "B744",
+      "livery": "magma",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:TF-AMN_Boeing_747-4F6_Magma_Aitr_Atlanta_Liege_25.6.26.jpg",
+          "title": "TF-AMN Boeing 747-4F6 Magma Aitr Atlanta Liege 25.6.26.jpg (CC BY-SA 4.0, Colin Cooke Photo)",
+          "accessed": "2026-11-20",
+          "note": "In Magma paint at Liège, 2026-06-24."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:TF-AMN_Boeing_747-4F6_Magma_Aviation_orby_Air_Atlanta_Liege_17.3.26_(55186720476).jpg",
+          "title": "TF-AMN Boeing 747-4F6 Magma Aviation orby Air Atlanta Liege 17.3.26 (55186720476).jpg (CC BY-SA 4.0, Colin Cooke Photo)",
+          "accessed": "2026-11-20",
+          "note": "Right side, in Magma paint, 2026-03-17."
+        }
+      ],
+      "lastSeen": "2026-06-24",
+      "notes": "A 747-400(BDSF) passenger conversion. Hex not confirmed."
+    },
+    {
+      "registration": "TF-AKD",
+      "type": "B744",
+      "livery": "magma",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Air_Atlanta_Icelandic_TF-AKD_13-05-2025.jpg",
+          "title": "Air Atlanta Icelandic TF-AKD 13-05-2025.jpg (CC BY-SA 4.0, LN9267)",
+          "accessed": "2026-11-20",
+          "note": "In Magma paint at Hong Kong, 2025-05-13."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:TF-AKD_B747_AIR_ATLANTA_(53760499634).jpg",
+          "title": "TF-AKD B747 AIR ATLANTA (53760499634).jpg (CC BY-SA 2.0, Jonathan Payne)",
+          "accessed": "2026-11-20",
+          "note": "In Magma paint, 2024-05-31."
+        }
+      ],
+      "lastSeen": "2025-05-13",
+      "notes": "A factory 747-400F (409F); a light grey-blue lower fuselage in both photos, not in the drawn scheme. No 2026 photo. Hex not confirmed."
+    },
+    {
+      "registration": "TF-AMM",
+      "hex": "4cc4bd",
+      "type": "B744",
+      "livery": "network",
+      "lastSeen": "2026-03-17",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:TF-AMM_Boeing_747-4H6_Network_Aviation_orby_Air_Atlanta_Liege_17.3.26_(55189776017).jpg",
+          "title": "TF-AMM Boeing 747-4H6 Network Aviation orby Air Atlanta Liege 17.3.26 (Colin Cooke Photo, CC BY-SA 4.0)",
+          "accessed": "2026-11-20",
+          "note": "In the blue Network scheme at Liège, 2026-03-17."
+        },
+        {
+          "url": "https://hexdb.io/api/v1/aircraft/4cc4bd",
+          "title": "hexdb.io aircraft record",
+          "accessed": "2026-11-20",
+          "note": "TF-AMM, mode S 4CC4BD, registered to Air Atlanta Icelandic, operator flag ABD (community data)."
+        },
+        {
+          "url": "https://api.adsb.lol/v2/type/B744",
+          "title": "adsb.lol live aircraft by type",
+          "accessed": "2026-11-20",
+          "note": "Airborne as ABD2615, hex 4cc4bd, 2026-11-20."
+        }
+      ]
+    },
+    {
+      "registration": "TF-AMU",
+      "hex": "4cc481",
+      "type": "B744",
+      "livery": "network",
+      "lastSeen": "2026-06-25",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:TF-AMU_Boeing_747-48EF_Network_Aviation_op_Air_Atlanta_Liege_25.6.26.jpg",
+          "title": "TF-AMU Boeing 747-48EF Network Aviation op Air Atlanta Liege 25.6.26.jpg (Colin Cooke Photo, CC BY-SA 4.0)",
+          "accessed": "2026-11-20",
+          "note": "In the blue Network scheme landing at Liège, 2026-06-25."
+        },
+        {
+          "url": "https://hexdb.io/api/v1/aircraft/4cc481",
+          "title": "hexdb.io aircraft record",
+          "accessed": "2026-11-20",
+          "note": "TF-AMU, mode S 4CC481, registered to Air Atlanta Icelandic, operator flag ABD (community data)."
+        }
+      ]
+    },
+    {
+      "registration": "TF-AKE",
+      "hex": "4cc54b",
+      "type": "B744",
+      "livery": "network-white",
+      "lastSeen": "2026-06-25",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:TF-AKE_Boeing_747-409F_Network_Aviation_op_by_Atlanta_Airlines_Liege_25.6.26.jpg",
+          "title": "TF-AKE Boeing 747-409F Network Aviation op by Atlanta Airlines Liege 25.6.26.jpg (Colin Cooke Photo, CC BY-SA 4.0)",
+          "accessed": "2026-11-20",
+          "note": "All white with the grey 'Network' title at Liège, 2026-06-25 (also 2025-04-29 and 2024-10-25)."
+        },
+        {
+          "url": "https://hexdb.io/api/v1/aircraft/4cc54b",
+          "title": "hexdb.io aircraft record",
+          "accessed": "2026-11-20",
+          "note": "TF-AKE, mode S 4CC54B, registered to Air Atlanta Icelandic, operator flag ABD (community data)."
+        }
+      ]
+    }
+  ]
+}

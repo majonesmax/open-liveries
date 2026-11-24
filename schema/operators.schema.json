@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/majonesmax/open-liveries/main/schema/operators.schema.json",
+  "title": "Open Liveries operators",
+  "description": "Operators that fly in another airline's paint (a regional in its mainline's, a subsidiary in its parent's), by their own ICAO code: whose scheme they wear. A jet flying under one of these callsigns is drawn in that scheme unless it's tagged otherwise in airframes/.",
+  "type": "object",
+  "propertyNames": {
+    "description": "The operator's ICAO code.",
+    "pattern": "^[A-Z]{3}$"
+  },
+  "additionalProperties": {
+    "type": "object",
+    "required": [
+      "wears"
+    ],
+    "additionalProperties": false,
+    "properties": {
+      "wears": {
+        "description": "The scheme it flies in, as a livery ref: <airline>/<id> (liveries/<airline>/<id>.json).",
+        "type": "string",
+        "pattern": "^[A-Z0-9]{3,6}/[a-z0-9-]+$"
+      },
+      "note": {
+        "description": "Who the operator is and why it's in that paint, for a reader.",
+        "type": "string"
+      }
+    }
+  }
+}

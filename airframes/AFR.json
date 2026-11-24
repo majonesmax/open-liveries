@@ -1,0 +1,57 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "AFR",
+  "airframes": [
+    {
+      "registration": "F-GUOB",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:F-GUOB_(aircraft)",
+          "title": "Commons: F-GUOB (aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:777F_Air_France_Cargo.jpg",
+          "title": "777F Air France Cargo.jpg (2022-05-31)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://www.air-journal.fr/2022-04-25-en-attendant-les-a350f-air-france-repeint-ses-777f-photos-video-5235375.html",
+          "title": "Air Journal, 2022-04-25",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "type": "B77L",
+      "hex": "3951c1",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "from": "2022-04",
+      "status": "Repainted April 2022; Commons photo 2022-05-31.",
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "F-GUOC",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:F-GUOC_(aircraft)",
+          "title": "Commons: F-GUOC (aircraft)",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://www.air-journal.fr/2022-04-25-en-attendant-les-a350f-air-france-repeint-ses-777f-photos-video-5235375.html",
+          "title": "Air Journal, 2022-04-25",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "type": "B77L",
+      "hex": "3951c2",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "from": "2022-07",
+      "status": "Reported repainted by July 2022 (photo at Prestwick); FlightAware shows it flying in June 2025.",
+      "lastSeen": "2026-11-14"
+    }
+  ]
+}

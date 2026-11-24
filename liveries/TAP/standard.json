@@ -1,0 +1,665 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "TAP",
+  "name": "2017 livery",
+  "kind": "standard",
+  "from": "2017",
+  "confidence": "high",
+  "drawnOn": "A21N",
+  "description": "White all over. The TAP logo very large on the forward fuselage just behind the cockpit (a green T with a small white A arrow, a red P), 'AIR PORTUGAL' in dark gray ahead of the wing, 'flytap.com' small at the rear. The fin is the logo cropped: lime green along the leading edge, red aft of a slanting line with two white bars (the P's counter), 'AIR PORTUGAL' set vertically in white. Unmirrored on the right: lime along the trailing edge, red forward with a white bar and white at the leading edge's foot, the title reading upward. Sharklets red below, green above.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:TAP_Air_Portugal_CS-TJM_and_Luxembourg_Airlines_LX-LBB_photographed_at_Lisbon_Airport,_July_20,_2026.jpg",
+      "title": "TAP Air Portugal CS-TJM and Luxembourg Airlines LX-LBB photographed at Lisbon Airport, July 20, 2026.jpg (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Left side, 2026-07-20: fuselage logo, titles, fin."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:CS-TJM,_London_Heathrow,_September_26th_2021.jpg",
+      "title": "CS-TJM, London Heathrow, September 26th 2021.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "A321neo CS-TJM, left side at LHR (2021-09-26): positions of the logo, titles, fin art and sharklet measured from this one."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A330-941N_(c-n_1819,_CS-TUA)_2026-04-08_Andre_Gerwing_Collection_ID_028231.jpg",
+      "title": "Airbus A330-941N (c-n 1819, CS-TUA) 2026-04-08 Andre Gerwing Collection ID 028231.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "A330neo, right side, 2026-04-08: the fin artwork is not mirrored (green at the trailing edge on the right)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:TAP_Airbus_A321neo_CS-TXA_MD1.jpg",
+      "title": "TAP Airbus A321neo CS-TXA MD1.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "A321LR, right side climbing, 2026-07-01: from below."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/TAP_Air_Portugal",
+      "accessed": "2026-11-13",
+      "title": "TAP Air Portugal (Wikipedia)",
+      "note": "The 2017 rebrand: 'TAP Air Portugal', the logo moved large onto the forward fuselage."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:CS-TJM_(aircraft)",
+      "title": "CS-TJM category (Commons): right side, side-on, 2022-09-19",
+      "accessed": "2026-11-15",
+      "note": "A321neo CS-TJM right side, side-on, 2022-09-19: the titles' ends (re-check 2026-11-15)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A321-251N_%E2%80%98CS-TJM%E2%80%99_TAP_Air_Portugal_(53757422182).jpg",
+      "title": "Airbus A321-251N ‘CS-TJM’ TAP Air Portugal (53757422182).jpg (CC BY-SA 2.0)",
+      "accessed": "2026-11-22",
+      "note": "A321neo, right side from the front quarter, 2022-09-19: the right fin measured on it (its corners mapped to shapes/A21N.json's fin): lime only along the trailing edge, widening toward the tip, aft of a line straight up the fin; 'AIR PORTUGAL' reading upward on the red just ahead of it; white at the leading edge's foot to about 0.28 of the span and a white bar at the leading edge at about 0.56-0.71 (the left face's cross, unmirrored)."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F2F3F5",
+      "official": false
+    },
+    "lime": {
+      "hex": "#8CC63F",
+      "official": false
+    },
+    "green": {
+      "hex": "#3AA935",
+      "official": false
+    },
+    "red": {
+      "hex": "#E3102B",
+      "official": false
+    },
+    "gray": {
+      "hex": "#2E3236",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    },
+    "rudderRed": {
+      "hex": "#C80F27",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "mirrored": false,
+    "areas": [
+      {
+        "name": "green leading edge (the T)",
+        "color": "lime",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0.1,
+            0
+          ],
+          [
+            0.18,
+            0.09
+          ],
+          [
+            0.48,
+            0.09
+          ],
+          [
+            0.34,
+            0.5
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "side": "left"
+      },
+      {
+        "name": "red (the P), aft of a slanting line",
+        "color": "red",
+        "points": [
+          [
+            0.5,
+            0.02
+          ],
+          [
+            1,
+            0.02
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0.34,
+            0.5
+          ]
+        ],
+        "side": "left"
+      },
+      {
+        "name": "upper white bar (the P's counter)",
+        "color": "white",
+        "points": [
+          [
+            0.55,
+            0.55
+          ],
+          [
+            1,
+            0.55
+          ],
+          [
+            1,
+            0.69
+          ],
+          [
+            0.55,
+            0.69
+          ]
+        ],
+        "side": "left"
+      },
+      {
+        "name": "lower white bar",
+        "color": "white",
+        "points": [
+          [
+            0.79,
+            0.02
+          ],
+          [
+            1,
+            0.02
+          ],
+          [
+            1,
+            0.24
+          ],
+          [
+            0.74,
+            0.24
+          ]
+        ],
+        "side": "left"
+      },
+      {
+        "name": "right face: red over the whole fin, under the lime and the white",
+        "color": "red",
+        "side": "right",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6,
+          2
+        ]
+      },
+      {
+        "name": "right face: lime along the trailing edge, aft of a line straight up the fin as seen from the side, widening to most of the tip's chord (written as the left face's picture: x is 1 - the right face's)",
+        "color": "lime",
+        "side": "right",
+        "points": [
+          [
+            0.78,
+            1.05
+          ],
+          [
+            0.78,
+            1.0
+          ],
+          [
+            0.52,
+            0.88
+          ],
+          [
+            0.36,
+            0.74
+          ],
+          [
+            0.22,
+            0.55
+          ],
+          [
+            0.12,
+            0.34
+          ],
+          [
+            0.045,
+            0.12
+          ],
+          [
+            0.0,
+            -0.04
+          ],
+          [
+            -0.05,
+            -0.05
+          ],
+          [
+            -0.05,
+            1.05
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6,
+          2
+        ]
+      },
+      {
+        "name": "right face: white at the leading edge's foot, up to about a third of the span, aft to a line straight down the fin",
+        "color": "white",
+        "side": "right",
+        "points": [
+          [
+            1.05,
+            -0.1
+          ],
+          [
+            1.05,
+            0.33
+          ],
+          [
+            0.48,
+            0.33
+          ],
+          [
+            0.32,
+            -0.1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6,
+          2
+        ]
+      },
+      {
+        "name": "right face: white bar at the leading edge (the cross's arm), about 0.58-0.74 of the span",
+        "color": "white",
+        "side": "right",
+        "points": [
+          [
+            1.05,
+            0.74
+          ],
+          [
+            0.92,
+            0.74
+          ],
+          [
+            0.71,
+            0.58
+          ],
+          [
+            1.05,
+            0.58
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6,
+          2
+        ]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "#B9BEC5",
+    "under": "#C9CDD2"
+  },
+  "winglets": {
+    "outer": "lime",
+    "inner": "white",
+    "areas": [
+      {
+        "name": "red lower part",
+        "color": "red",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0.42
+          ],
+          [
+            0,
+            0.42
+          ]
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "logos": [
+    {
+      "mark": "TAP/logo",
+      "place": "fuselage",
+      "at": [
+        0.21,
+        -0.02
+      ],
+      "height": 1.7,
+      "colors": [
+        "lime",
+        "green",
+        "red",
+        "white"
+      ],
+      "description": "The TAP logo (2005), very large just behind the cockpit door: a blocky green T (lime top, deeper green stem) with a small white upward arrow standing for the A, then a red P whose counter is a white square; reads left to right on both sides.",
+      "reference": "https://commons.wikimedia.org/wiki/File:TAP_Air_Portugal_Logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mark": "SAL/star-alliance",
+      "place": "fuselage",
+      "at": [
+        0.085,
+        0.22
+      ],
+      "height": 0.08,
+      "colors": [
+        "gray"
+      ],
+      "description": "Small Star Alliance star outline next to the forward door.",
+      "reference": "https://www.staralliance.com",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "TAP/portugal-flag",
+      "place": "fuselage",
+      "at": [
+        0.81,
+        -0.12
+      ],
+      "height": 0.06,
+      "colors": [
+        "green",
+        "red"
+      ],
+      "description": "Small Portuguese flag after the registration, under the rear windows.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "AIR",
+      "at": [
+        0.364,
+        0.28
+      ],
+      "length": 0.041,
+      "side": "left",
+      "style": "'AIR' in bold capitals, ahead of 'PORTUGAL' (left side: placed as the right side's stretch, mirrored; no side-on left photo measured).",
+      "type": {
+        "similar": [
+          "Helvetica Neue Medium",
+          "Arial"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "place": "fuselage",
+      "height": 0.26,
+      "color": "gray",
+      "confidence": "low",
+      "sourceRefs": [
+        5,
+        1
+      ]
+    },
+    {
+      "text": "PORTUGAL",
+      "at": [
+        0.41,
+        0.28
+      ],
+      "length": 0.115,
+      "side": "left",
+      "style": "'PORTUGAL' in regular capitals after 'AIR'.",
+      "type": {
+        "similar": [
+          "Helvetica Neue Medium",
+          "Arial"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "place": "fuselage",
+      "height": 0.26,
+      "color": "gray",
+      "confidence": "low",
+      "sourceRefs": [
+        5,
+        1
+      ]
+    },
+    {
+      "text": "AIR",
+      "at": [
+        0.484,
+        0.28
+      ],
+      "length": 0.041,
+      "side": "right",
+      "style": "'AIR' in bold capitals; on the right side it's aft, reading first from that side.",
+      "type": {
+        "similar": [
+          "Helvetica Neue Medium",
+          "Arial"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "place": "fuselage",
+      "height": 0.26,
+      "color": "gray",
+      "confidence": "medium",
+      "sourceRefs": [
+        5,
+        1
+      ]
+    },
+    {
+      "text": "PORTUGAL",
+      "at": [
+        0.364,
+        0.28
+      ],
+      "length": 0.115,
+      "side": "right",
+      "style": "'PORTUGAL' in regular capitals, forward of 'AIR' on the right side.",
+      "type": {
+        "similar": [
+          "Helvetica Neue Medium",
+          "Arial"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "place": "fuselage",
+      "height": 0.26,
+      "color": "gray",
+      "confidence": "medium",
+      "sourceRefs": [
+        5,
+        1
+      ]
+    },
+    {
+      "text": "flytap.com",
+      "place": "fuselage",
+      "at": [
+        0.748,
+        0.28
+      ],
+      "height": 0.12,
+      "color": "gray",
+      "style": "Small lower-case web address over the rear windows.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue",
+          "Arial"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.7
+      },
+      "length": 0.065
+    },
+    {
+      "text": "AIR PORTUGAL",
+      "place": "fin",
+      "at": [
+        0.44,
+        0.06
+      ],
+      "height": 0.09,
+      "color": "white",
+      "style": "Set vertically, reading upward, on the red just aft of the green: 'AIR' bold, 'PORTUGAL' regular; runs from the root to about 0.75 of the span.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Medium",
+          "Arial"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "rotationDeg": 90,
+      "length": 0.78,
+      "side": "left"
+    },
+    {
+      "text": "AIR PORTUGAL",
+      "place": "fin",
+      "at": [
+        0.46,
+        0.6
+      ],
+      "height": 0.08,
+      "color": "white",
+      "style": "Right face: set vertically, reading upward (the left face's picture isn't mirrored here), on the red just ahead of the trailing edge's lime: 'AIR' bold, 'PORTUGAL' regular; from just above the root to about 0.76 of the span. Placed as the left face's picture (x is 1 - the right face's), at its top end.",
+      "confidence": "medium",
+      "sourceRefs": [
+        6,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Medium",
+          "Arial"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "rotationDeg": -90,
+      "length": 0.98,
+      "side": "right"
+    }
+  ],
+  "notes": "The fin title is vertical (90° anticlockwise); a renderer that lays titles horizontally will misplace it. The right face shows the fin art unmirrored: the same picture as the left, so it still reads T then P from left to right (green at the trailing edge on the right, red forward). Checked 2026-11-22 for the order: the logo and the fin read T (green) then P (red) from either side, as here; nothing in this scheme assumes P before T. The right face has its own areas and title (side: right, 2026-11-22), as TAP/express's: the left's picture reversed put a big lime field forward and the title reading down off the trailing edge, where CS-TJM's and CS-TXA's right sides (2022-09-19) show red with lime only along the trailing edge, widening toward the tip, white at the leading edge's foot to about a third of the span and a white bar at about 0.58-0.74, and 'AIR PORTUGAL' reading upward just ahead of the lime. Measured from front-quarter photos by mapping the fin's corners onto shapes/A21N.json (within about 0.05 of the span). Some older A319/A320/A330ceo still carried the 2005 'TAP Portugal' scheme (logo on the fin, smaller fuselage titles) after 2017; not drawn here. Belly not seen in detail: white. Re-checked 2026-11-15 on CS-TJM (A321neo, right side, side-on): 'AIR' (bold) and 'PORTUGAL' (regular) are different lettering reading as one line, so a pair per side; the line runs x 0.364-0.525 (it had started at 0.33, over the logo's aft end); 'flytap.com' x 0.748-0.813; the fin title runs about 0.78 of the root chord. The left side's pair is placed as the right side shows it, mirrored (low).",
+  "history": "Replaced Skyarium v1's approximation (green belly, red stripe). The 2017 rebrand moved the 2005 logo large onto the fuselage and retitled the airline 'TAP Air Portugal'."
+}

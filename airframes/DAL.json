@@ -1,0 +1,119 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "DAL",
+  "airframes": [
+    {
+      "registration": "N527DN",
+      "livery": "delta-100-years",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://airlinegeeks.com/2025/03/17/delta-officially-debuts-100-year-livery/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N527DN_(aircraft)",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "a6a347",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "A359",
+      "from": "2025-03",
+      "lastSeen": "2026-01-08",
+      "status": "active: Commons photo at Sydney 8 Jan 2026; video at LAX 13 Mar 2026 (to Melbourne)."
+    },
+    {
+      "registration": "N531DN",
+      "livery": "team-usa-milano-cortina-2026",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://news.delta.com/100-days-olympic-winter-games-milano-cortina-2026-delta-unveils-custom-aircraft-livery-releases",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "a6b47c",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "A359",
+      "from": "2025",
+      "lastSeen": "2026-01-08",
+      "status": "unknown after Games: On display at Delta TechOps event 8 Jan 2026 per secondary reporting; Delta's release gives no tail number."
+    },
+    {
+      "registration": "N589DT",
+      "livery": "delta-100-years",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://airlinegeeks.com/2025/03/17/delta-officially-debuts-100-year-livery/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N589DT_(aircraft)",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N527DN_(aircraft)",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "a797b4",
+      "hexSource": "looked up: FAA Registry Mode S code (2026-11-12); matches value derived from the N-number",
+      "type": "A21N",
+      "from": "2025-03",
+      "lastSeen": "2026-11-14",
+      "status": "active (presumed): Unveiled 15 Mar 2025; Commons photos Boston 27 Mar 2025."
+    },
+    {
+      "registration": "N411DX",
+      "livery": "team-usa",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N411DX_(aircraft)",
+          "title": "N411DX on Commons",
+          "accessed": "2026-11-22",
+          "note": "Photos 2022-2025 in the Team USA scheme, both sides."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Delta_Air_Lines_Airbus_A330-900_N411DX_Team_USA_at_Boston_June_2025.jpg",
+          "title": "Delta Air Lines Airbus A330-900 N411DX Team USA at Boston June 2025.jpg (CC BY 4.0)",
+          "accessed": "2026-11-22",
+          "note": "N411DX left side at Boston, 2025-06-16 (the newest open photo): the same scheme, still flying."
+        }
+      ],
+      "hex": "a4d838",
+      "hexSource": "derived from the N-number (tools/nnumber.py), 2026-11-22",
+      "type": "A339",
+      "from": "2022-01",
+      "lastSeen": "2025-06-16",
+      "status": "active: Commons photo at Boston 16 Jun 2025 (the newest; the scheme flying since 2022)."
+    },
+    {
+      "registration": "N845MH",
+      "livery": "bcrf-pink",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://www.deltamuseum.org/delta-history/delta-brand/aircraft-livery_group/special-livery",
+          "title": "Delta Flight Museum: special liveries",
+          "accessed": "2026-11-22",
+          "note": "Ship 1821 (N845MH) first wore pink in 2010; repainted in 2015 with the pink ribbon wrapped round the fuselage, for the Breast Cancer Research Foundation."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Delta_Air_Lines_Boeing_767-400ER_ATL-MAD.jpg",
+          "title": "Delta Air Lines Boeing 767-400ER ATL-MAD.jpg (CC BY-SA 4.0)",
+          "accessed": "2026-11-22",
+          "note": "N845MH at LAX, 2024-02-25 (left side, distant): the same scheme still flying."
+        }
+      ],
+      "hex": "ab9387",
+      "hexSource": "derived from the N-number (tools/nnumber.py), 2026-11-22",
+      "type": "B764",
+      "from": "2015",
+      "lastSeen": "2024-02-25",
+      "status": "active: Commons photo at LAX 25 Feb 2024; still reported flying in it through November 2025 (lead only)."
+    }
+  ]
+}

@@ -1,0 +1,536 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "mickeys-toontown-express",
+  "airline": "ASA",
+  "name": "Mickey's Toontown Express",
+  "kind": "special",
+  "confidence": "medium",
+  "drawnOn": "B738",
+  "description": "Fuselage: Full-body cartoon wrap in bright Toontown colors: sky-blue upper fuselage with clouds, green landscape lower fuselage. Cheatlines: None. Tail: Multicolored (rainbow/pastel) Toontown artwork on the fin. Engines: approximate: light blue/white. Winglets: Chip 'n' Dale artwork. Titles: 'Toontown' lettering on the fuselage; 'Alaska' titles. Artwork: Mickey, Minnie, Donald, Goofy and friends on both sides; Chip 'n' Dale on doors and winglets. Painted at Spokane, ~400 hours over 20 days. Colors hex: approximate.",
+  "sources": [
+    {
+      "url": "https://www.alaskaair.com/content/travel-info/our-aircraft/737-800-mickeys-toontown-express",
+      "accessed": "2026-11-14",
+      "title": "Alaska Airlines: Mickey's Toontown at Disneyland Resort",
+      "note": "Alaska's page: N565AS, introduced 2023-11-01, hand-painted over 20 days; Chip 'n' Dale on the boarding doors and winglets. Its photo shows the left side from ahead: Daisy, Donald and Goofy, the skyline on the fin, 'TOONTOWN'."
+    },
+    {
+      "url": "https://airlinegeeks.com/2023/11/02/alaska-s-new-disneyland-livery-mickey-s-toontown/",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:N565AS_(aircraft)",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N565AS_ANC_Disneyland_Resort_Toontown_Small.png",
+      "title": "N565AS ANC Disneyland Resort Toontown (CC BY-SA 2.0)",
+      "accessed": "2026-11-12",
+      "note": "Right side, side-on, Anchorage 2025-06-06: the right side's green landscape, TOONTOWN title, Mickey, Minnie, Pluto and Mickey's house on the fin; geometry measured from it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Toontown_on_the_Go!_(54152176146).jpg",
+      "title": "Toontown on the Go! (CC BY 2.0)",
+      "accessed": "2026-11-12",
+      "note": "Left side, side-on on take-off, Santa Barbara 2024-08-08: the left side's landscape, Daisy, Donald and Goofy, the skyline on the fin; geometry measured from it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Alaska_Toontown_Livery_Inbound!_(53780149873).jpg",
+      "title": "Alaska Toontown Livery Inbound! (CC BY 2.0)",
+      "accessed": "2026-11-12",
+      "note": "Front left, 2024-04-20: Mickey-ears nose, engines, colors in daylight."
+    }
+  ],
+  "notes": "Drawn from both sides (right 2025-06-06, left 2024-08-08). The two sides differ: the green landscape reaches the crown at about x 0.36 on the right and 0.46 on the left; the right side has Pluto, Minnie and Mickey with Mickey's house on the fin, the left Daisy, Donald and Goofy with the Toontown towers on the fin. White cartoon clouds are scattered over the aqua (not drawn); the green carries darker bushes along its lower edge. The winglets' Chip 'n' Dale artwork wasn't visible in these photos. 'TOONTOWN' measured at x 0.48 (right) and 0.51 (left). Re-checked 2026-11-15 (drawn on the 737-800): the landscape's rounded front edge made smooth on both sides; titles' lengths kept (TOONTOWN measured, 'Alaska' 0.155-0.385 agrees with the right-side photo within about 0.3 m); 'Alaska' lowercase about 0.55 of its A.",
+  "from": "2023-11",
+  "palette": {
+    "aqua": {
+      "hex": "#8CD3E4",
+      "name": "sky aqua",
+      "official": false
+    },
+    "engineAqua": {
+      "hex": "#A9DCE5",
+      "official": false
+    },
+    "green": {
+      "hex": "#52B847",
+      "official": false
+    },
+    "darkGreen": {
+      "hex": "#2F8F3A",
+      "official": false
+    },
+    "white": {
+      "hex": "#F6F8F8",
+      "official": false
+    },
+    "mickeyRed": {
+      "hex": "#E0352B",
+      "official": false
+    },
+    "balloonYellow": {
+      "hex": "#F4D432",
+      "official": false
+    },
+    "goofyOrange": {
+      "hex": "#EE6A2C",
+      "official": false
+    },
+    "donaldBlue": {
+      "hex": "#2B56B8",
+      "official": false
+    },
+    "black": {
+      "hex": "#1A1A1A",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC5",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "aqua",
+    "areas": [
+      {
+        "name": "green Toontown landscape: rounded hills rising from the belly under the wing to the crown, green aft to the tail",
+        "color": "green",
+        "side": "left",
+        "points": [
+          [
+            0.21,
+            -1
+          ],
+          [
+            0.218,
+            -0.85
+          ],
+          [
+            0.233,
+            -0.61
+          ],
+          [
+            0.273,
+            -0.42
+          ],
+          [
+            0.329,
+            -0.18
+          ],
+          [
+            0.377,
+            -0.15
+          ],
+          [
+            0.4,
+            -0.08
+          ],
+          [
+            0.44,
+            0.29
+          ],
+          [
+            0.452,
+            0.6
+          ],
+          [
+            0.46,
+            1.0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          3,
+          4
+        ],
+        "smooth": true
+      },
+      {
+        "name": "green Toontown landscape (right side: it reaches the crown further forward, over the wing)",
+        "color": "green",
+        "side": "right",
+        "points": [
+          [
+            0.235,
+            -1
+          ],
+          [
+            0.314,
+            -0.6
+          ],
+          [
+            0.336,
+            -0.17
+          ],
+          [
+            0.359,
+            0.26
+          ],
+          [
+            0.364,
+            1.0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          3
+        ],
+        "smooth": true
+      }
+    ],
+    "radome": {
+      "color": "aqua"
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      3,
+      4,
+      5
+    ]
+  },
+  "fin": {
+    "base": "aqua",
+    "rudder": "aqua",
+    "mirrored": false,
+    "confidence": "medium",
+    "sourceRefs": [
+      3,
+      4
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "stabilizer": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "aqua",
+    "inner": "aqua",
+    "confidence": "low",
+    "sourceRefs": [
+      4
+    ]
+  },
+  "engines": {
+    "cowling": "engineAqua",
+    "inletLip": "lip",
+    "pylon": "engineAqua",
+    "confidence": "medium",
+    "sourceRefs": [
+      3,
+      4,
+      5
+    ]
+  },
+  "logos": [
+    {
+      "mark": "ASA/mickey-ears-nose",
+      "licensed": "Disney",
+      "place": "fuselage",
+      "at": [
+        0.025,
+        -0.05
+      ],
+      "height": 0.3,
+      "colors": [
+        "mickeyRed"
+      ],
+      "description": "A small red Mickey head (three circles) on each side of the nose, with a thin line drawn back from it like a balloon string.",
+      "confidence": "high",
+      "sourceRefs": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "mark": "ASA/disneyland-resort",
+      "licensed": "Disney",
+      "place": "fuselage",
+      "at": [
+        0.09,
+        -0.1
+      ],
+      "height": 0.4,
+      "colors": [
+        "black"
+      ],
+      "description": "'Follow us to' over the 'Disneyland Resort' script logo, in dark navy/black, between the cockpit and the forward door.",
+      "confidence": "high",
+      "sourceRefs": [
+        3,
+        4
+      ]
+    },
+    {
+      "mark": "ASA/mickey-balloon",
+      "licensed": "Disney",
+      "place": "fuselage",
+      "at": [
+        0.43,
+        0.75
+      ],
+      "height": 0.6,
+      "colors": [
+        "balloonYellow"
+      ],
+      "description": "A yellow Mickey-shaped balloon at the front of the green, near the crown (about x 0.45 on the left, 0.40 on the right).",
+      "confidence": "medium",
+      "sourceRefs": [
+        3,
+        4
+      ]
+    },
+    {
+      "mark": "ASA/daisy-duck",
+      "licensed": "Disney",
+      "place": "fuselage",
+      "at": [
+        0.68,
+        -0.4
+      ],
+      "height": 1.0,
+      "colors": [
+        "white",
+        "donaldBlue"
+      ],
+      "description": "Daisy Duck waving, low on the fuselage behind the wing.",
+      "side": "left",
+      "confidence": "medium",
+      "sourceRefs": [
+        4
+      ]
+    },
+    {
+      "mark": "ASA/donald-duck",
+      "licensed": "Disney",
+      "place": "fuselage",
+      "at": [
+        0.785,
+        -0.35
+      ],
+      "height": 1.3,
+      "colors": [
+        "white",
+        "donaldBlue",
+        "mickeyRed"
+      ],
+      "description": "Donald Duck in his blue sailor shirt, striding forward, below the windows aft of Daisy.",
+      "side": "left",
+      "confidence": "medium",
+      "sourceRefs": [
+        4
+      ]
+    },
+    {
+      "mark": "ASA/goofy",
+      "licensed": "Disney",
+      "place": "fuselage",
+      "at": [
+        0.91,
+        0.1
+      ],
+      "height": 2.0,
+      "colors": [
+        "goofyOrange",
+        "black",
+        "white"
+      ],
+      "description": "Goofy (orange shirt, black ears, green hat) filling the tail cone and rising up the lower fin, leaning forward over a film-strip frame.",
+      "side": "left",
+      "confidence": "medium",
+      "sourceRefs": [
+        4
+      ]
+    },
+    {
+      "mark": "ASA/toontown-skyline",
+      "licensed": "Disney",
+      "place": "fin",
+      "at": [
+        0.7,
+        0.6
+      ],
+      "height": 0.55,
+      "colors": [
+        "mickeyRed",
+        "balloonYellow",
+        "donaldBlue"
+      ],
+      "description": "Tall cartoon Toontown towers in red, yellow and blue up the fin's aft half, with a red Mickey balloon near the tip (left face).",
+      "side": "left",
+      "confidence": "medium",
+      "sourceRefs": [
+        4
+      ]
+    },
+    {
+      "mark": "ASA/pluto",
+      "licensed": "Disney",
+      "place": "fuselage",
+      "at": [
+        0.655,
+        -0.3
+      ],
+      "height": 0.9,
+      "colors": [
+        "balloonYellow",
+        "black"
+      ],
+      "description": "Pluto, tongue out, just behind the wing.",
+      "side": "right",
+      "confidence": "medium",
+      "sourceRefs": [
+        3
+      ]
+    },
+    {
+      "mark": "ASA/minnie-mouse",
+      "licensed": "Disney",
+      "place": "fuselage",
+      "at": [
+        0.725,
+        -0.05
+      ],
+      "height": 1.4,
+      "colors": [
+        "black",
+        "mickeyRed",
+        "white"
+      ],
+      "description": "Minnie Mouse (red polka-dot bow) ahead of Mickey, across the windows.",
+      "side": "right",
+      "confidence": "medium",
+      "sourceRefs": [
+        3
+      ]
+    },
+    {
+      "mark": "ASA/mickey-mouse",
+      "licensed": "Disney",
+      "place": "fuselage",
+      "at": [
+        0.81,
+        0.1
+      ],
+      "height": 1.9,
+      "colors": [
+        "black",
+        "mickeyRed",
+        "white"
+      ],
+      "description": "Mickey Mouse, big, waving forward from the aft fuselage under the fin, almost belly to crown.",
+      "side": "right",
+      "confidence": "medium",
+      "sourceRefs": [
+        3
+      ]
+    },
+    {
+      "mark": "ASA/mickeys-house",
+      "licensed": "Disney",
+      "place": "fin",
+      "at": [
+        0.45,
+        0.45
+      ],
+      "height": 0.6,
+      "colors": [
+        "goofyOrange",
+        "balloonYellow",
+        "white"
+      ],
+      "description": "Mickey's Toontown house on the fin's lower half: a big orange-and-red striped roof gable over a yellow wall with a round white window; red Mickey balloons near the tip (right face).",
+      "side": "right",
+      "confidence": "medium",
+      "sourceRefs": [
+        3
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Alaska",
+      "place": "fuselage",
+      "at": [
+        0.155,
+        -0.31
+      ],
+      "height": 1.0,
+      "color": "white",
+      "style": "The 2016 Alaska wordmark in white, big, across the forward windows; it ends ahead of the wing, well clear of TOONTOWN (length estimated from the photos, not measured).",
+      "confidence": "high",
+      "sourceRefs": [
+        3,
+        4
+      ],
+      "type": {
+        "similar": [
+          "Kaufmann Bold",
+          "Futura Bold Oblique"
+        ],
+        "weight": 800,
+        "slantDeg": 16,
+        "width": "normal",
+        "strokes": "brush",
+        "case": "mixed",
+        "xHeight": 0.55
+      },
+      "length": 0.23
+    },
+    {
+      "text": "TOONTOWN",
+      "place": "fuselage",
+      "at": [
+        0.5,
+        0.28
+      ],
+      "height": 0.43,
+      "color": "white",
+      "style": "Rounded, bouncy cartoon capitals in white over the green, above the windows over the wing, the letters jumping up and down.",
+      "length": 0.18,
+      "confidence": "high",
+      "sourceRefs": [
+        3,
+        4
+      ],
+      "type": {
+        "similar": [
+          "Cooper Black",
+          "Bauhaus 93"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ]
+}

@@ -1,0 +1,795 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "isla-del-bluencanto",
+  "airline": "JBU",
+  "name": "Isla del Bluencanto (Puerto Rico)",
+  "kind": "special",
+  "confidence": "low",
+  "drawnOn": "A320",
+  "from": "2025-10",
+  "commemorates": "Puerto Rico: JetBlue's service to the island.",
+  "description": "Fuselage: JetBlue blue, plain ahead of the wing; from the wing aft it's covered in tropical art on the blue: orange flowers, pink-red flowers, a fan of yellow banana leaves, big orange fruits, a cluster of red berries, pale-green leaves, and light-blue and navy stripes round the tail cone. 'jetBlue' in white over the forward windows; '¡SOMOS BORICUA!' large in white on the belly. Tail: a jíbaro (a Puerto Rican countryman in a yellow straw pava hat and a light-blue shirt) among teal palm fronds on the blue fin. Engines blue. Designed by Puerto Rican artist Juan Gutiérrez Rovira (The Stencil Network), chosen by public vote.",
+  "sources": [
+    {
+      "url": "https://www.businesswire.com/news/home/20251002169259/en/",
+      "title": "JetBlue: Isla del Bluencanto release (Business Wire, 2025-10-02)",
+      "accessed": "2026-11-22",
+      "note": "A320 N657JB 'Isla del Bluencanto', unveiled at San Juan in October 2025: designed by Puerto Rican artist Juan Gutiérrez Rovira (The Stencil Network), chosen by public vote; 'Somos Boricua' on the belly. JetBlue's second Puerto Rico livery after Bluericua (2018)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N657JB_FLL_17.11.25_(55595075900).jpg",
+      "title": "N657JB FLL 17.11.25 (55595075900).jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-22",
+      "note": "N657JB left side from below on approach at Fort Lauderdale (2025-11-17 by its title; Commons' metadata says 2026-10-17): fitted to shapes/A320.json (doors, nose, tail, fin tip; within 6 px, 0.15 m, camera 17 degrees below). The art's big colour masses, the fin's figure and the title read off it."
+    }
+  ],
+  "palette": {
+    "blue": {
+      "hex": "#0A2E9C",
+      "official": false,
+      "name": "JetBlue blue"
+    },
+    "orange": {
+      "hex": "#FF9A35",
+      "official": false
+    },
+    "pink": {
+      "hex": "#D2408A",
+      "official": false,
+      "name": "pink-red flowers"
+    },
+    "yellow": {
+      "hex": "#F8D020",
+      "official": false
+    },
+    "teal": {
+      "hex": "#35D6C4",
+      "official": false,
+      "name": "palm fronds"
+    },
+    "lightGreen": {
+      "hex": "#A9CF7A",
+      "official": false,
+      "name": "pale-green leaves"
+    },
+    "red": {
+      "hex": "#D8303A",
+      "official": false,
+      "name": "red berries"
+    },
+    "lightBlue": {
+      "hex": "#8CD3E8",
+      "official": false,
+      "name": "tail cone and shirt light blue"
+    },
+    "skin": {
+      "hex": "#E8A07E",
+      "official": false
+    },
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false,
+      "name": "polished inlet lip"
+    },
+    "flagRed": {
+      "hex": "#B22234",
+      "official": false
+    },
+    "navy": {
+      "hex": "#14275A",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "blue",
+    "areas": [
+      {
+        "name": "orange flowers just aft of the wing",
+        "color": "orange",
+        "smooth": true,
+        "points": [
+          [
+            0.523,
+            0.085
+          ],
+          [
+            0.549,
+            0.215
+          ],
+          [
+            0.574,
+            0.066
+          ],
+          [
+            0.578,
+            -0.357
+          ],
+          [
+            0.562,
+            -0.644
+          ],
+          [
+            0.53,
+            -0.64
+          ],
+          [
+            0.521,
+            -0.283
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "pink-red flowers",
+        "color": "pink",
+        "smooth": true,
+        "points": [
+          [
+            0.576,
+            0.619
+          ],
+          [
+            0.608,
+            0.95
+          ],
+          [
+            0.632,
+            0.579
+          ],
+          [
+            0.636,
+            -0.068
+          ],
+          [
+            0.629,
+            -0.504
+          ],
+          [
+            0.6,
+            -0.643
+          ],
+          [
+            0.581,
+            -0.355
+          ],
+          [
+            0.577,
+            0.069
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "the fan of yellow banana leaves",
+        "color": "yellow",
+        "smooth": true,
+        "points": [
+          [
+            0.638,
+            0.455
+          ],
+          [
+            0.664,
+            0.95
+          ],
+          [
+            0.694,
+            0.95
+          ],
+          [
+            0.708,
+            0.256
+          ],
+          [
+            0.707,
+            -0.28
+          ],
+          [
+            0.697,
+            -0.623
+          ],
+          [
+            0.681,
+            -0.706
+          ],
+          [
+            0.659,
+            -0.555
+          ],
+          [
+            0.645,
+            -0.303
+          ],
+          [
+            0.636,
+            0.056
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "big orange fruit, upper",
+        "color": "orange",
+        "smooth": true,
+        "points": [
+          [
+            0.718,
+            0.95
+          ],
+          [
+            0.747,
+            0.95
+          ],
+          [
+            0.764,
+            0.534
+          ],
+          [
+            0.76,
+            -0.022
+          ],
+          [
+            0.739,
+            -0.154
+          ],
+          [
+            0.72,
+            -0.025
+          ],
+          [
+            0.713,
+            0.26
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "big orange fruit, lower",
+        "color": "orange",
+        "smooth": true,
+        "points": [
+          [
+            0.728,
+            -0.218
+          ],
+          [
+            0.755,
+            -0.125
+          ],
+          [
+            0.777,
+            -0.31
+          ],
+          [
+            0.772,
+            -0.618
+          ],
+          [
+            0.745,
+            -0.662
+          ],
+          [
+            0.726,
+            -0.485
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "orange fruit by the aft door",
+        "color": "orange",
+        "smooth": true,
+        "points": [
+          [
+            0.787,
+            -0.023
+          ],
+          [
+            0.808,
+            0.018
+          ],
+          [
+            0.817,
+            -0.338
+          ],
+          [
+            0.804,
+            -0.581
+          ],
+          [
+            0.788,
+            -0.471
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "the cluster of red berries",
+        "color": "red",
+        "smooth": true,
+        "points": [
+          [
+            0.807,
+            0.95
+          ],
+          [
+            0.834,
+            0.95
+          ],
+          [
+            0.845,
+            0.183
+          ],
+          [
+            0.841,
+            -0.447
+          ],
+          [
+            0.817,
+            -0.508
+          ],
+          [
+            0.805,
+            -0.022
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "pale-green leaves",
+        "color": "lightGreen",
+        "smooth": true,
+        "points": [
+          [
+            0.84,
+            0.412
+          ],
+          [
+            0.866,
+            0.95
+          ],
+          [
+            0.893,
+            0.426
+          ],
+          [
+            0.895,
+            -0.437
+          ],
+          [
+            0.868,
+            -0.667
+          ],
+          [
+            0.844,
+            -0.451
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "light-blue tail cone (navy stripes across it not drawn)",
+        "color": "lightBlue",
+        "smooth": false,
+        "points": [
+          [
+            0.9,
+            0.95,
+            1
+          ],
+          [
+            0.904,
+            -1.0,
+            1
+          ],
+          [
+            1.008,
+            -1.0,
+            1
+          ],
+          [
+            1.005,
+            0.95,
+            1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1
+        ]
+      }
+    ],
+    "radome": {
+      "color": "blue"
+    },
+    "windows": "plain",
+    "confidence": "low",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "fin": {
+    "base": "blue",
+    "rudder": "blue",
+    "mirrored": true,
+    "areas": [
+      {
+        "name": "teal palm frond at the tip",
+        "color": "teal",
+        "points": [
+          [
+            0.054,
+            0.975,
+            1
+          ],
+          [
+            0.356,
+            0.983,
+            1
+          ],
+          [
+            0.153,
+            0.643,
+            1
+          ],
+          [
+            -0.027,
+            0.673,
+            1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "teal palm frond at the tip, aft",
+        "color": "teal",
+        "points": [
+          [
+            0.625,
+            0.99,
+            1
+          ],
+          [
+            0.934,
+            0.996,
+            1
+          ],
+          [
+            0.781,
+            0.669,
+            1
+          ],
+          [
+            0.653,
+            0.7,
+            1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "teal palm frond low on the fin",
+        "color": "teal",
+        "points": [
+          [
+            0.065,
+            0.453,
+            1
+          ],
+          [
+            0.248,
+            0.407,
+            1
+          ],
+          [
+            0.215,
+            0.091,
+            1
+          ],
+          [
+            0.091,
+            0.12,
+            1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "the jíbaro's yellow straw hat",
+        "color": "yellow",
+        "smooth": true,
+        "points": [
+          [
+            0.026,
+            0.582
+          ],
+          [
+            0.009,
+            0.73
+          ],
+          [
+            0.348,
+            0.798
+          ],
+          [
+            0.653,
+            0.773
+          ],
+          [
+            0.652,
+            0.664
+          ],
+          [
+            0.341,
+            0.596
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "his face",
+        "color": "skin",
+        "smooth": true,
+        "points": [
+          [
+            0.318,
+            0.54
+          ],
+          [
+            0.58,
+            0.571
+          ],
+          [
+            0.749,
+            0.416
+          ],
+          [
+            0.717,
+            0.307
+          ],
+          [
+            0.571,
+            0.316
+          ],
+          [
+            0.401,
+            0.434
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "his light-blue shirt",
+        "color": "lightBlue",
+        "smooth": true,
+        "points": [
+          [
+            0.474,
+            0.292
+          ],
+          [
+            0.812,
+            0.348
+          ],
+          [
+            1.012,
+            0.182
+          ],
+          [
+            0.986,
+            0.002
+          ],
+          [
+            0.696,
+            -0.019
+          ],
+          [
+            0.523,
+            0.113
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1
+        ]
+      }
+    ],
+    "confidence": "low",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "stabilizer": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "blue",
+    "inner": "blue",
+    "confidence": "medium",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "blue",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "JBU/boricua-art",
+      "place": "fuselage",
+      "at": [
+        0.75,
+        0.0
+      ],
+      "height": 2.0,
+      "colors": [
+        "orange",
+        "pink",
+        "yellow",
+        "red",
+        "lightGreen",
+        "teal"
+      ],
+      "description": "The tropical art aft of the wing, in its detail: flowers, banana leaves, fruits, berries and leaves overlapping on the blue (only its big masses are drawn as areas).",
+      "confidence": "low",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "JBU/jibaro",
+      "place": "fin",
+      "at": [
+        0.55,
+        0.45
+      ],
+      "height": 0.8,
+      "colors": [
+        "yellow",
+        "skin",
+        "lightBlue",
+        "teal"
+      ],
+      "description": "A jíbaro in a straw pava hat, a hand raised, among teal palm fronds, filling the fin (only its big masses are drawn as areas).",
+      "confidence": "low",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "JBU/us-flag",
+      "place": "fuselage",
+      "at": [
+        0.695,
+        0.43
+      ],
+      "height": 0.12,
+      "colors": [
+        "flagRed",
+        "white",
+        "navy"
+      ],
+      "description": "A small US flag ahead of the registration over the rear windows.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "jetBlue",
+      "place": "fuselage",
+      "at": [
+        0.181,
+        -0.03
+      ],
+      "height": 0.57,
+      "length": 0.174,
+      "color": "white",
+      "style": "The jetBlue wordmark in white over the forward windows.",
+      "confidence": "high",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "Gotham Rounded Bold",
+          "VAG Rounded Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      }
+    },
+    {
+      "text": "¡SOMOS BORICUA!",
+      "place": "belly",
+      "at": [
+        0.14,
+        -1
+      ],
+      "height": 0.45,
+      "length": 0.42,
+      "color": "white",
+      "style": "Large white rounded capitals along the belly, seen from below.",
+      "confidence": "low",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "VAG Rounded Bold",
+          "Gotham Rounded Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Drawn from one photo from below and behind the left wing (N657JB at Fort Lauderdale; the file's title dates it 2025-11-17, its metadata 2026-10-17). An art livery: only the big colour masses are areas, each drawn as one rounded blob where the photo has a cluster of shapes on the blue, so the jet reads as blue ahead and many-coloured aft; their edges are approximate (low). The crown isn't seen from below: the masses are carried up over it. The fin's teal fronds are straight bands as the photo shows them; only three of the dozen are drawn. The belly reads '¡SOMOS BORICUA!' (JetBlue's release; the lead called the jet 'Yo Soy Boricua'); its direction (which end it starts) isn't certain from an oblique view. 'Isla del Bluencanto' (the aircraft's name, small white script under the cockpit) and the registration aren't drawn. The right side isn't seen."
+}

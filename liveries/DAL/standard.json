@@ -1,0 +1,436 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "DAL",
+  "name": "2007 livery",
+  "kind": "standard",
+  "from": "2007-04",
+  "confidence": "high",
+  "drawnOn": "A21N",
+  "description": "White fuselage over a dark-blue belly that runs from behind the radome to a rounded end ahead of the tail; 'DELTA' in widely spaced navy capitals with the red widget ahead of it over the forward windows; the fin navy with the widget drawn large and faceted in two reds, cut by a navy Y. Navy engines. 'DELTA' and the widget again in white under the belly.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Delta_Air_Lines",
+      "title": "Wikipedia: Delta Air Lines (livery history)",
+      "accessed": "2026-11-13",
+      "note": "The widget and the 2007 livery's introduction (April 2007)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Delta_Airbus_A321neo_N572DT_on_final_approach_to_Boston_Feb_2025.jpg",
+      "title": "Delta Airbus A321neo N572DT on final approach to Boston Feb 2025.jpg (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "N572DT left side, 2025-02-01: geometry, title, widget, fin facets."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Delta_Airbus_A321neo_N583DT_departing_Boston_June_2025.jpg",
+      "title": "Delta Airbus A321neo N583DT departing Boston June 2025.jpg (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "N583DT from below, 2025-06-20: the navy belly, its end, and 'DELTA' with the widget under it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N953AT_-_Boeing_717-2BD_-_Delta_Air_Lines_(52848399267).jpg",
+      "title": "N953AT - Boeing 717-2BD - Delta Air Lines (CC BY 2.0, Colin Brown)",
+      "accessed": "2026-11-15",
+      "note": "717-200, left side taking off, 2023-04-16: white nacelles with a polished lip, not the navy of the Airbus and 737 cowlings."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N922AT_-_KHPN_-_31-7-23.jpg",
+      "title": "N922AT - KHPN - 31-7-23 (CC BY 4.0, Dave Montiverdi)",
+      "accessed": "2026-11-15",
+      "note": "A 717-200 at White Plains, right front quarter, 2023-07-31 (filed under N922AT; the jet's registration reads N992AT): white nacelle, polished lip."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F3F1",
+      "official": false
+    },
+    "navy": {
+      "hex": "#0B1F45",
+      "official": false,
+      "name": "Delta blue (navy)"
+    },
+    "red": {
+      "hex": "#C8102E",
+      "official": false,
+      "name": "widget red"
+    },
+    "darkRed": {
+      "hex": "#8E0A22",
+      "official": false,
+      "name": "widget's shaded facet"
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false,
+      "name": "polished inlet lip"
+    },
+    "flagRed": {
+      "hex": "#C8102E",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "navy belly, from behind the radome to a rounded end before the tail",
+        "color": "navy",
+        "points": [
+          [
+            0.025,
+            -0.75
+          ],
+          [
+            0.08,
+            -0.62
+          ],
+          [
+            0.3,
+            -0.58
+          ],
+          [
+            0.55,
+            -0.48
+          ],
+          [
+            0.68,
+            -0.45
+          ],
+          [
+            0.74,
+            -0.5
+          ],
+          [
+            0.775,
+            -0.7
+          ],
+          [
+            0.785,
+            -1
+          ],
+          [
+            0.02,
+            -1
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2
+        ],
+        "smooth": true
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "navy",
+    "areas": [
+      {
+        "name": "widget, bright upper facet",
+        "color": "red",
+        "points": [
+          [
+            0.073,
+            0.737
+          ],
+          [
+            0.99,
+            0.732
+          ],
+          [
+            0.99,
+            0.601
+          ],
+          [
+            0.589,
+            0.395
+          ],
+          [
+            0.028,
+            0.57
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "widget, shaded left facet",
+        "color": "darkRed",
+        "points": [
+          [
+            0.028,
+            0.57
+          ],
+          [
+            0.589,
+            0.395
+          ],
+          [
+            0.762,
+            -0.031
+          ],
+          [
+            0.614,
+            -0.031
+          ],
+          [
+            0.021,
+            0.439
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "widget, bright lower-right facet",
+        "color": "red",
+        "points": [
+          [
+            0.773,
+            0.32
+          ],
+          [
+            1.002,
+            0.452
+          ],
+          [
+            0.995,
+            0.219
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "widget, shaded lower-right facet",
+        "color": "darkRed",
+        "points": [
+          [
+            0.773,
+            0.32
+          ],
+          [
+            0.995,
+            0.219
+          ],
+          [
+            1.01,
+            -0.057
+          ],
+          [
+            0.86,
+            -0.057
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2
+        ]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "navy",
+    "inner": "navy",
+    "confidence": "medium",
+    "sourceRefs": [
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "navy",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "DAL/widget",
+      "place": "fuselage",
+      "at": [
+        0.151,
+        0.488
+      ],
+      "height": 0.306,
+      "colors": [
+        "red",
+        "darkRed"
+      ],
+      "description": "The red widget (an upward triangle, shaded in facets: lighter left, darker right) just ahead of 'DELTA'.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Delta_logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "DAL/widget",
+      "place": "fin",
+      "at": [
+        0.5,
+        0.5
+      ],
+      "height": 0.8,
+      "colors": [
+        "red",
+        "darkRed",
+        "navy"
+      ],
+      "description": "The widget drawn huge across the fin, cropped by its edges: a bright red upper facet, darker red facets below, split by a navy Y.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "DAL/widget",
+      "place": "belly",
+      "at": [
+        0.38,
+        -1
+      ],
+      "height": 0.35,
+      "colors": [
+        "white"
+      ],
+      "description": "A white widget ahead of the belly 'DELTA'.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2
+      ]
+    },
+    {
+      "mark": "DAL/us-flag",
+      "place": "fuselage",
+      "at": [
+        0.729,
+        0.278
+      ],
+      "height": 0.165,
+      "colors": [
+        "flagRed",
+        "white",
+        "navy"
+      ],
+      "description": "A small US flag ahead of the registration over the rear windows.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "DELTA",
+      "place": "fuselage",
+      "at": [
+        0.176,
+        0.364
+      ],
+      "height": 0.271,
+      "color": "navy",
+      "style": "Delta's wordmark: widely spaced semibold capitals in navy, over the windows behind the forward door.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "length": 0.102,
+      "type": {
+        "similar": [
+          "Whitney Semibold",
+          "Gotham Medium"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "DELTA",
+      "place": "belly",
+      "at": [
+        0.4,
+        -1
+      ],
+      "height": 0.4,
+      "color": "white",
+      "style": "The same capitals in white under the navy belly, ahead of and under the wing; read from below.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2
+      ],
+      "length": 0.14,
+      "type": {
+        "similar": [
+          "Whitney Semibold",
+          "Gotham Medium"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "types": {
+    "B712": {
+      "note": "The nacelles are white, the fuselage's paint, with a polished lip, not the navy of the Airbus and 737 cowlings (N953AT 2023-04-16, N992AT 2023-07-31).",
+      "confidence": "high",
+      "sourceRefs": [
+        3,
+        4
+      ],
+      "engines": {
+        "cowling": "white",
+        "inletLip": "lip",
+        "confidence": "high",
+        "sourceRefs": [
+          3,
+          4
+        ]
+      }
+    }
+  },
+  "notes": "Drawn from A321neos in 2025 (N572DT left, N583DT from below). The navy belly is narrow from the side and broad from below. The widget's facets on the fin are traced from the left side; the fleet number on the fin tip and the registration are not drawn. 'Delta' isn't on the engines. Re-checked 2026-11-15 on N572DT (A321neo, Delta's commonest family): the title runs x 0.176-0.278 (about 4.5 m); the belly's edge drawn as the curve it is. No measured A321 shape yet, so no fitted check. On the shorter A320/737-800 the same title covers a larger share. On the 717 the nacelles are white, the fuselage's paint, with a polished lip (N953AT 2023-04-16, N992AT 2023-07-31: sources 3 and 4), not navy: drawn so on the 717's shape (`types.B712`). On the 717 'DELTA' and the widget sit a little further aft and run about 4.3 m (N953AT), as on the A321neo in metres, so the shares here draw them a little short there; left as measured.",
+  "history": "Replaces Skyarium v1's approximate standard (a few colors from memory). The 2007 livery replaced the 'colors in motion' scheme (2000–2007) and was carried onto the Northwest fleet after the 2008 merger."
+}

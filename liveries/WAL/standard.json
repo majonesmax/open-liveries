@@ -1,0 +1,663 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "WAL",
+  "name": "Navy tail with green and light-blue rings",
+  "kind": "standard",
+  "confidence": "medium",
+  "commonest": true,
+  "drawnOn": "MD82",
+  "description": "A white MD-83 with a navy tail. The rear fuselage, tail cone and belly behind a slant under the engines' inlets are navy, a thin light-blue line along the navy's top edge running up into the fin. The navy fin carries big concentric rings: an outer light-blue one from the leading edge at the root arcing up and aft, a broad green one from the fin's foot bowing forward and sweeping up to the trailing edge under the tailplane, and an inner light-blue crescent against the trailing edge low down. The green carries on as a band round the tail cone, and a light-blue band rings the cone's end. Navy engines. 'World Atlantic' in navy serif upper-and-lower case above the forward windows, the green and light-blue isotype just aft of the forward door.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N802WA_MD-83,_World_Atlantic,_Miami_02-20-26_(55148230509).jpg",
+      "title": "N802WA MD-83, World Atlantic, Miami 02-20-26 (CC BY 4.0, Duncan Kirk)",
+      "accessed": "2026-11-22",
+      "note": "MD-83 N802WA on approach to Miami, right side, near level, 2026-02-20. Flipped and fitted to shapes/MD82.json (nose, tail, fin root, crown and belly at two places, two cabin windows; within 12 px, camera about 10 degrees below): every fuselage edge, the title's ends and height, the logo's place and size. The jet is banked a little, so its fin shows about 13% short: the fin's rings are measured as shares of the fin as it shows in the photo (its root, top and edges), not through the fit."
+    },
+    {
+      "url": "https://www.flywaa.com/img/hero/hero-1.webp",
+      "title": "World Atlantic Airlines, airline press photo (home page): N802WA, left side",
+      "accessed": "2026-11-22",
+      "note": "Undated; N802WA from below on approach, left side. Checked, not measured: the left side carries the same layout (the fin's rings mirrored, so they sweep the same way; the logo reads as the airline's isotype; the title the same stretch above the forward windows)."
+    },
+    {
+      "url": "https://www.flywaa.com/img/hero/hero-5.webp",
+      "title": "World Atlantic Airlines, airline press photo (home page): N808WA, right side",
+      "accessed": "2026-11-22",
+      "note": "Undated; N808WA taking off, right side, motion-blurred: the same scheme on the jet the maintainer saw at Tampa. Checked, not measured."
+    },
+    {
+      "url": "https://www.flywaa.com/fleet",
+      "title": "World Atlantic Airlines, Fleet (the site's fleet list)",
+      "accessed": "2026-11-22",
+      "note": "Three MD-83s listed: N802WA 'Claudia', N805WA 'Luis Tomas', N808WA 'Patrick Joseph'. Its fleet pictures are seat maps, the tail in this scheme."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:World_Atlantic_Airways_MD-83,_N804WA,_MSN_1371_(06_1987),_as_WL_9315_Los_Angeles_(LAX)_-_Minneapolis_(MSP),_Flight_Time_3_25_(51719020132).jpg",
+      "title": "World Atlantic Airways MD-83, N804WA ... (CC BY 2.0, Charles from Port Chester, New York)",
+      "accessed": "2026-11-22",
+      "note": "N804WA in this scheme, 2021-11-24, left side from below in flight: the scheme was flying by then. Not measured."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F4F5F5",
+      "official": false
+    },
+    "navy": {
+      "hex": "#16296E",
+      "name": "World Atlantic navy",
+      "official": false
+    },
+    "sky": {
+      "hex": "#23B0E6",
+      "name": "World Atlantic light blue",
+      "official": false
+    },
+    "green": {
+      "hex": "#8DC21F",
+      "name": "World Atlantic green",
+      "official": false
+    },
+    "metal": {
+      "hex": "#B4B9BF",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "windows": "plain",
+    "areas": [
+      {
+        "name": "navy rear fuselage and tail cone: its forward edge a straight slant from the belly under the engine's inlet up behind the nacelle to the light-blue line",
+        "color": "navy",
+        "points": [
+          [
+            0.794,
+            -1,
+            1
+          ],
+          [
+            0.8025,
+            -0.624
+          ],
+          [
+            0.811,
+            -0.398
+          ],
+          [
+            0.8393,
+            0.215,
+            1
+          ],
+          [
+            0.8627,
+            0.346
+          ],
+          [
+            0.8755,
+            0.5
+          ],
+          [
+            0.886,
+            0.63
+          ],
+          [
+            0.9,
+            0.78
+          ],
+          [
+            0.915,
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "smooth": true,
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "name": "light-blue line along the navy's top edge, from behind the nacelle up to the fin's root, where it becomes the fin's outer ring",
+        "color": "sky",
+        "points": [
+          [
+            0.8393,
+            0.215,
+            1
+          ],
+          [
+            0.8509,
+            0.301
+          ],
+          [
+            0.8626,
+            0.417
+          ],
+          [
+            0.8754,
+            0.66
+          ],
+          [
+            0.8859,
+            0.889
+          ],
+          [
+            0.89,
+            1,
+            1
+          ],
+          [
+            0.905,
+            1,
+            1
+          ],
+          [
+            0.896,
+            0.78
+          ],
+          [
+            0.886,
+            0.63
+          ],
+          [
+            0.8755,
+            0.5
+          ],
+          [
+            0.8627,
+            0.346
+          ],
+          [
+            0.85,
+            0.262
+          ]
+        ],
+        "smooth": true,
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "name": "green band round the tail cone under the fin's trailing edge, carrying the fin's green ring down to the belly",
+        "color": "green",
+        "points": [
+          [
+            0.944,
+            1,
+            1
+          ],
+          [
+            0.9453,
+            0.577
+          ],
+          [
+            0.9515,
+            0.161
+          ],
+          [
+            0.9577,
+            -0.22
+          ],
+          [
+            0.9629,
+            -0.934
+          ],
+          [
+            0.9635,
+            -1,
+            1
+          ],
+          [
+            0.9758,
+            -1,
+            1
+          ],
+          [
+            0.9731,
+            -0.213
+          ],
+          [
+            0.9692,
+            0.262
+          ],
+          [
+            0.9653,
+            0.889
+          ],
+          [
+            0.966,
+            1,
+            1
+          ]
+        ],
+        "smooth": true,
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "name": "light-blue band at the tail cone's end, a thin navy rim behind it",
+        "color": "sky",
+        "points": [
+          [
+            0.983,
+            1,
+            1
+          ],
+          [
+            0.9833,
+            0.564
+          ],
+          [
+            0.9884,
+            -0.243
+          ],
+          [
+            0.991,
+            -0.976
+          ],
+          [
+            0.9912,
+            -1,
+            1
+          ],
+          [
+            0.996,
+            -1,
+            1
+          ],
+          [
+            0.996,
+            1,
+            1
+          ]
+        ],
+        "smooth": true,
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "navy",
+    "fillet": "white",
+    "areas": [
+      {
+        "name": "light-blue outer ring: from the leading edge at the root, arcing up and aft until it runs under the green",
+        "color": "sky",
+        "points": [
+          [
+            0,
+            -0.05,
+            1
+          ],
+          [
+            0.03,
+            0.0
+          ],
+          [
+            0.06,
+            0.06
+          ],
+          [
+            0.075,
+            0.156
+          ],
+          [
+            0.1,
+            0.247
+          ],
+          [
+            0.135,
+            0.325
+          ],
+          [
+            0.189,
+            0.377
+          ],
+          [
+            0.266,
+            0.403
+          ],
+          [
+            0.361,
+            0.409
+          ],
+          [
+            0.43,
+            0.39
+          ],
+          [
+            0.47,
+            0.3,
+            1
+          ],
+          [
+            0.475,
+            0.143
+          ],
+          [
+            0.411,
+            0.13
+          ],
+          [
+            0.353,
+            0.091
+          ],
+          [
+            0.278,
+            0.039
+          ],
+          [
+            0.188,
+            0.0
+          ],
+          [
+            0.067,
+            -0.045
+          ],
+          [
+            0,
+            -0.08,
+            1
+          ]
+        ],
+        "smooth": true,
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "name": "light-blue inner ring: a crescent against the trailing edge low on the fin, navy between it and the green",
+        "color": "sky",
+        "points": [
+          [
+            1,
+            0.27,
+            1
+          ],
+          [
+            0.884,
+            0.253
+          ],
+          [
+            0.848,
+            0.214
+          ],
+          [
+            0.809,
+            0.188
+          ],
+          [
+            0.854,
+            0.071
+          ],
+          [
+            0.952,
+            -0.065
+          ],
+          [
+            1,
+            -0.1,
+            1
+          ]
+        ],
+        "smooth": true,
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "name": "green ring: a broad band from the fin's foot over the tail cone, bowing forward round the outer light-blue ring's end and sweeping up and aft to the trailing edge under the tailplane",
+        "color": "green",
+        "points": [
+          [
+            0.654,
+            -0.208,
+            1
+          ],
+          [
+            0.588,
+            -0.013
+          ],
+          [
+            0.5,
+            0.1
+          ],
+          [
+            0.43,
+            0.22
+          ],
+          [
+            0.392,
+            0.33
+          ],
+          [
+            0.38,
+            0.42
+          ],
+          [
+            0.4,
+            0.5
+          ],
+          [
+            0.45,
+            0.58
+          ],
+          [
+            0.53,
+            0.68
+          ],
+          [
+            0.63,
+            0.77
+          ],
+          [
+            0.78,
+            0.85
+          ],
+          [
+            1,
+            0.915,
+            1
+          ],
+          [
+            1,
+            0.865,
+            1
+          ],
+          [
+            0.88,
+            0.8
+          ],
+          [
+            0.8,
+            0.7
+          ],
+          [
+            0.72,
+            0.6
+          ],
+          [
+            0.66,
+            0.5
+          ],
+          [
+            0.628,
+            0.4
+          ],
+          [
+            0.628,
+            0.3
+          ],
+          [
+            0.665,
+            0.21
+          ],
+          [
+            0.75,
+            0.09
+          ],
+          [
+            0.85,
+            -0.08
+          ],
+          [
+            0.904,
+            -0.221,
+            1
+          ]
+        ],
+        "smooth": true,
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "#B9BEC5",
+    "under": "#C9CDD2"
+  },
+  "engines": {
+    "cowling": "navy",
+    "inletLip": "metal",
+    "areas": [
+      {
+        "name": "bare thrust reverser and exhaust behind the navy cowl",
+        "color": "metal",
+        "points": [
+          [
+            0.76,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0.76,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "titles": [
+    {
+      "text": "World Atlantic",
+      "place": "fuselage",
+      "at": [
+        0.1745,
+        0.21
+      ],
+      "height": 0.19,
+      "length": 0.147,
+      "color": "navy",
+      "style": "Upper-and-lower-case serif, roman, fairly light and wide-set, in navy above the forward cabin windows: from about a window behind the logo to above the 15th window.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Goudy Old Style",
+          "Times New Roman"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "contrast",
+        "case": "mixed"
+      }
+    }
+  ],
+  "logos": [
+    {
+      "mark": "WAL/isotype",
+      "place": "fuselage",
+      "at": [
+        0.131,
+        0.125
+      ],
+      "height": 0.98,
+      "colors": [
+        "green",
+        "sky",
+        "navy"
+      ],
+      "description": "World Atlantic's isotype (our own simplified mark, WAL/isotype): a green crescent like a swept wing, its long tip high and aft, bowing forward and ending in a point low and aft; a light-blue stroke from where it bows forward down to a point low and forward; a second light-blue stroke from the same place down to a point low and aft beside the green's; a small navy wedge where they meet. Just aft of the forward door, across the window line, its lower tips under the windows.",
+      "reference": "https://www.flywaa.com/waa-isotype.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "notes": "Measured on N802WA (Commons, 2026-02-20, right side, flipped) fitted to the MD-80 shape; checked against the airline's own photos of N802WA's left side and N808WA's right. The fit put the title's baseline 0.09 higher at its aft end than its forward end (the photo's perspective): drawn level at the windows' tops, y 0.21, capitals to 0.40. The navy's forward edge is hidden by the nacelle between y -0.4 and 0.2 and is drawn straight across, as it runs on both sides of it. The fin's rings are measured where they show between the tailplane and the root; the green's top end, under the tailplane's root, is drawn to the trailing edge, as the left-side photo shows it. The rudder's hinge line shows as a thin dark line inside the green (not drawn). Small things not drawn: the jet's name in script under the cockpit ('Claudia' on N802WA), a small US flag ahead of the title on the forward door, the registration in navy above the aft windows. The engines' reversers and exhausts are bare metal (silver in every photo), from about three-quarters of the way back.",
+  "history": "New 2026-11-22 (the maintainer saw N808WA at Tampa). The earlier scheme (2011-2017 on Commons: N802WA, N803WA, N804WA, N807WA) had the same fin with white engines, a white rear fuselage and 'www.flywaa.com' under the title; this one, with the navy rear and engines and no web address, was flying by November 2021 (N804WA). The airline is Caribbean Sun Airlines, Inc., trading as World Atlantic Airlines; callsign DORAL, IATA WL."
+}

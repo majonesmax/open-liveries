@@ -1,0 +1,25 @@
+{
+  "name": "open-liveries-tools",
+  "private": true,
+  "description": "Build and lint tooling for the renderer (renderer/) and the viewer (examples/svg-viewer). The dataset itself needs none of this.",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -b",
+    "test": "tsc -b && node --test renderer/test/",
+    "lint": "eslint renderer/src examples/svg-viewer/src && tsc -b",
+    "render": "node renderer/dist/cli.js",
+    "check": "npm run build && node renderer/dist/cli.js --all build/render",
+    "format": "prettier --write renderer examples/svg-viewer package.json tsconfig.json tsconfig.base.json eslint.config.js",
+    "format:check": "prettier --check renderer examples/svg-viewer package.json tsconfig.json tsconfig.base.json eslint.config.js",
+    "check:built": "tsc -b && git diff --exit-code -- renderer/dist examples/svg-viewer/js"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^22.20.5",
+    "@types/three": "^0.170.0",
+    "eslint": "^10.15.0",
+    "prettier": "^3.10.1",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.72.2"
+  }
+}

@@ -1,0 +1,491 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "HLF",
+  "name": "Central Airlines",
+  "kind": "standard",
+  "confidence": "medium",
+  "drawnOn": "B77L",
+  "description": "White freighter with '中州航空 Central Airlines' in mid grey along the forward fuselage, the Chinese ahead of the English, both at the height of the forward door. On the white fin a mosaic of square tiles forms a cross: a blue column (light blue at the top, blue, dark blue at the middle) with a blue arm forward and orange aft, a red row (crimson, red, dark red) running out to the leading edge, a dark red square below, and a green column (green, light green) down the trailing edge to the root. White engines.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:B-227W_Boeing_777-F1H_Central_Airlines_Prague_1.6.26.jpg",
+      "title": "B-227W Boeing 777-F1H Central Airlines Prague 1.6.26.jpg (CC BY-SA 4.0, Colin Cooke Photo)",
+      "accessed": "2026-11-20",
+      "note": "777F B-227W, left side, level, taxiing at Prague, 2026-06-01. Fitted to shapes/B77L.json (forward door pinned): the titles' ends and heights, every tile of the fin mosaic, white engines."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:B-227H_Boeing_777-F1H_Central_Airlines_Liege.jpg",
+      "title": "B-227H Boeing 777-F1H Central Airlines Liege.jpg (CC BY-SA 4.0, Colin Cooke Photo)",
+      "accessed": "2026-11-20",
+      "note": "777F B-227H, right side landing at Liège, 2026-07-09. Flipped and fitted to shapes/B77L.json: the right side has the Chinese forward too (reading 空航州中 from the tail toward the nose), the English aft, over the same stretches (x 0.122-0.237 and 0.242-0.454); the mosaic mirrored (the same tiles at the same fin coordinates)."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F2F3F4",
+      "official": false
+    },
+    "grey": {
+      "hex": "#7D8790",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C4C8CC",
+      "official": false
+    },
+    "lightblue": {
+      "hex": "#5BBCE8",
+      "official": false
+    },
+    "blue": {
+      "hex": "#1592D3",
+      "official": false
+    },
+    "darkblue": {
+      "hex": "#0858A6",
+      "official": false
+    },
+    "orange": {
+      "hex": "#E57E0A",
+      "official": false
+    },
+    "redorange": {
+      "hex": "#CC3F12",
+      "official": false
+    },
+    "pinkred": {
+      "hex": "#E04660",
+      "official": false
+    },
+    "red": {
+      "hex": "#D11A32",
+      "official": false
+    },
+    "darkred": {
+      "hex": "#A60A1E",
+      "official": false
+    },
+    "green": {
+      "hex": "#1E8C32",
+      "official": false
+    },
+    "lightgreen": {
+      "hex": "#55AE5B",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "windows": "hidden",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "light blue square at the top, cut by the leading edge",
+        "color": "lightblue",
+        "points": [
+          [
+            -0.083,
+            0.863
+          ],
+          [
+            0.427,
+            0.862
+          ],
+          [
+            -0.022,
+            0.982
+          ],
+          [
+            -0.597,
+            0.983
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "blue square under it",
+        "color": "blue",
+        "points": [
+          [
+            0.336,
+            0.687
+          ],
+          [
+            0.718,
+            0.686
+          ],
+          [
+            0.427,
+            0.862
+          ],
+          [
+            -0.083,
+            0.863
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "blue square ahead of the dark blue one, the cross's left arm",
+        "color": "blue",
+        "points": [
+          [
+            0.269,
+            0.518
+          ],
+          [
+            0.579,
+            0.518
+          ],
+          [
+            0.336,
+            0.687
+          ],
+          [
+            -0.048,
+            0.687
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "dark blue square at the cross's middle",
+        "color": "darkblue",
+        "points": [
+          [
+            0.579,
+            0.518
+          ],
+          [
+            0.888,
+            0.517
+          ],
+          [
+            0.718,
+            0.686
+          ],
+          [
+            0.336,
+            0.687
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "orange square aft of the dark blue, cut by the trailing edge",
+        "color": "orange",
+        "points": [
+          [
+            0.888,
+            0.517
+          ],
+          [
+            1.333,
+            0.516
+          ],
+          [
+            1.269,
+            0.685
+          ],
+          [
+            0.718,
+            0.686
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "red-orange square under the orange, a sliver at the trailing edge",
+        "color": "redorange",
+        "points": [
+          [
+            0.999,
+            0.356
+          ],
+          [
+            1.375,
+            0.355
+          ],
+          [
+            1.333,
+            0.516
+          ],
+          [
+            0.888,
+            0.517
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "crimson square at the red row's front, cut by the leading edge",
+        "color": "pinkred",
+        "points": [
+          [
+            -0.193,
+            0.359
+          ],
+          [
+            0.215,
+            0.358
+          ],
+          [
+            -0.041,
+            0.519
+          ],
+          [
+            -0.523,
+            0.52
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "red square in the red row",
+        "color": "red",
+        "points": [
+          [
+            0.215,
+            0.358
+          ],
+          [
+            0.476,
+            0.357
+          ],
+          [
+            0.269,
+            0.518
+          ],
+          [
+            -0.041,
+            0.519
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "dark red column, two squares tall, under the cross's middle",
+        "color": "darkred",
+        "points": [
+          [
+            0.634,
+            0.189
+          ],
+          [
+            0.859,
+            0.188
+          ],
+          [
+            0.579,
+            0.518
+          ],
+          [
+            0.269,
+            0.518
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "green square aft of the dark red, cut by the trailing edge",
+        "color": "green",
+        "points": [
+          [
+            0.859,
+            0.188
+          ],
+          [
+            1.208,
+            0.187
+          ],
+          [
+            1.143,
+            0.356
+          ],
+          [
+            0.738,
+            0.357
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "light green square under it, running to the fin's root at the trailing edge",
+        "color": "lightgreen",
+        "points": [
+          [
+            0.962,
+            -0.007
+          ],
+          [
+            1.265,
+            -0.008
+          ],
+          [
+            1.208,
+            0.187
+          ],
+          [
+            0.859,
+            0.188
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "titles": [
+    {
+      "text": "中州航空",
+      "place": "fuselage",
+      "side": "left",
+      "at": [
+        0.12,
+        0.078
+      ],
+      "height": 0.335,
+      "length": 0.111,
+      "color": "grey",
+      "style": "Chinese in a plain geometric sans, medium weight, mid grey, just behind the forward door, its top level with the door's top.",
+      "confidence": "high",
+      "sourceRefs": [
+        0
+      ],
+      "type": {
+        "similar": [
+          "Noto Sans SC Medium",
+          "Source Han Sans Medium"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      }
+    },
+    {
+      "text": "空航州中",
+      "place": "fuselage",
+      "side": "right",
+      "at": [
+        0.12,
+        0.078
+      ],
+      "height": 0.335,
+      "length": 0.115,
+      "color": "grey",
+      "style": "As on the left, the characters ordered so 中 is nearest the nose (it reads 空航州中 left to right on this side), just behind the forward door.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "Noto Sans SC Medium",
+          "Source Han Sans Medium"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      }
+    },
+    {
+      "text": "Central Airlines",
+      "place": "fuselage",
+      "at": [
+        0.237,
+        0.067
+      ],
+      "height": 0.318,
+      "length": 0.209,
+      "color": "grey",
+      "style": "Rounded geometric sans, semibold, upper and lower case, mid grey, right after the Chinese; the same stretch on the right.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Montserrat SemiBold",
+          "Gotham Medium"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      }
+    }
+  ],
+  "notes": "Central Airlines (中州航空, ICAO HLF, IATA I9): FAA JO 7340.2 lists HLF as CENTRAL AIRLINES CO., LTD, China, telephony HOMELAND. Measured on B-227W (left, 2026-06-01): the Chinese runs x 0.120-0.230 and the English 0.237-0.443, both with a cap height about 1.45 m; on B-227H (right, 2026-07-09) the same stretches within 0.01. The fin mosaic's tiles are square on the aircraft (about 1.6 m), each its own shade: drawn as 11 areas, the one white tile is the fin's base. A partner sticker ('CARGO CITY Katowice Airport') under the forward titles on B-227W only, not drawn. The ex-DHL 777Fs B-226W and B-226Y (the ones seen on HLF flights at LAX) wear a yellow variant (liveries/HLF/yellow.json); two 777Fs (B-2079, B-2082) wear a YunExpress special (teal aft fuselage, green pixel band), not drawn. Colours by eye. The 'from' year is left out: no dated source for the scheme's introduction in hand.",
+  "history": "New in the LAX round (2026-11-20); Central Airlines had no scheme here before."
+}

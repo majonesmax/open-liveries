@@ -1,0 +1,100 @@
+{
+  "_about": "A350-900, from Airbus AC A350 (Jul 01/26) 2-2-0 General Aircraft Dimensions, A350-900 sheets 1 (side, front: page index 49) and 2 (plan: page index 50). Shaded pictures: layers.py --mode lines (the lines without the shading), line centres. The side sheet is scaled by its printed 65.26 m (nose to tail cone), which also puts the fin's tip at its printed 66.61 m; the plan sheet is drawn larger and is rendered at 7.41 to the same pixels a meter (its own 66.80 m and 46.68 m). Door 3 (over the wing; only its top is drawn) is placed from the door-location figure (2-7-0, page index 109: 37.93 m), which the drawn doors 1, 2 and 4 match within 4 cm. The windows behind the wing's lines are placed at the drawing's pitch.",
+  "out": "../../../../shapes/A359.json",
+  "length": 65.26,
+  "wingtip": "blended",
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "refs": {
+    "side": {
+      "nose": 40,
+      "tail": 2688,
+      "cowlEnd": 1175,
+      "windowRow": [676, 701],
+      "windowGap": 4,
+      "windowInset": 2,
+      "windowsAlso": [1326, 1351, 1377, 1403, 1428, 1454, 1480, 1505, 1531, 1634, 1659, 1685]
+    },
+    "plan": {
+      "nose": 59,
+      "centerline": 1408
+    },
+    "front": {
+      "centerline": 1386,
+      "crownTop": 399
+    }
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [290, 644, 347, 733]
+    },
+    {
+      "kind": "door",
+      "box": [777, 644, 833, 733]
+    },
+    {
+      "kind": "door",
+      "box": [1551, 644, 1607, 733]
+    },
+    {
+      "kind": "door",
+      "box": [2144, 644, 2199, 733]
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [112, 697],
+      [140, 672],
+      [150, 671],
+      [148, 676],
+      [138, 690],
+      [128, 694]
+    ],
+    [
+      [145, 700],
+      [150, 685],
+      [155, 673],
+      [158, 669],
+      [168, 669],
+      [168, 700],
+      [160, 702],
+      [150, 700]
+    ],
+    [
+      [172, 669],
+      [183, 669],
+      [190, 675],
+      [193, 685],
+      [192, 695],
+      [185, 701],
+      [173, 701]
+    ]
+  ],
+  "printed": {
+    "fuselage height": 6.09,
+    "fuselage width": 5.96,
+    "wingspan": 64.75,
+    "tailplane span": 18.79,
+    "engine out from the centerline": 10.5,
+    "overall length": 66.8
+  },
+  "meta": {
+    "id": "A359",
+    "name": "Airbus A350-900",
+    "types": ["A359"],
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://aircraft.airbus.com/en/customer-care/fleet-wide-care/airport-operations-and-aircraft-characteristics/aircraft-characteristics",
+        "title": "Airbus, A350 Aircraft Characteristics: Airport and Maintenance Planning (Jul 01/26), 2-2-0 General Aircraft Dimensions (A350-900, sheets 1-2); 2-7-0 Door Location",
+        "accessed": "2026-11-15",
+        "note": "Dimensions and outlines read off the side, plan and front views (tools/trace/a359/); the figures are the aircraft's measurements, not a copy of the drawing. The sheets are shaded pictures of about 41 pixels a meter, so the outlines are good to about 3 cm. Door 3, over the wing, is placed from the door-location figure; the windows behind the wing's lines at the drawing's pitch. The plan draws the tailplane about 2% wider than its printed 18.79 m span (the front view agrees with the print); the shape keeps the plan's."
+      }
+    ]
+  }
+}

@@ -1,0 +1,464 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "stars-and-stripes",
+  "airline": "UAL",
+  "name": "Stars and Stripes (America250)",
+  "kind": "special",
+  "confidence": "medium",
+  "drawnOn": "B78X",
+  "description": "Fuselage: Forward fuselage bright royal blue nose to wing, belly included; aft fuselage a darker navy. Cheatlines: Red and white flag stripes divide the two: at the crown a red and a white band just behind the wing's trailing edge, curving down and forward to run along the belly under the wing as alternating red and white stripes. Tail: Standard United blue fin with the light-blue globe. Engines: Blue cowlings with polished lips. Winglets: none on the 787-10 (raked tips). Titles: Large, widely spaced white 'UNITED' capitals over the forward windows. Artwork: About 50 white stars spread over the navy aft fuselage behind the stripes.",
+  "sources": [
+    {
+      "url": "https://simpleflying.com/united-airlines-stunning-boeing-737-787-america-250-liveries/",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:N91007_(aircraft)",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://airlinegeeks.com/?p=100376",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N91007.jpg",
+      "title": "N91007 (CC BY-SA 4.0)",
+      "accessed": "2026-11-12",
+      "note": "Left side from below and ahead, 2026-08-12 (787-10 N91007): the two blues, the red and white stripes, the star field, titles, fin, engines. The only photo of the scheme found on Commons."
+    }
+  ],
+  "notes": "Drawn from one left-side photo of the 787-10 N91007 (2026-08-12); the right side and the 737-800 N78285 weren't seen in any openly licensed photo. The 737's version may place the stripes differently (shares are taken from the 787). The stripes under the wing are partly hidden by the flaps and gear; the lower red stripe there is low confidence. Small markings (Star Alliance badge by the forward door, a line of text under the cockpit, the reported tribute plaque) aren't drawn. One source misprinted the registration as N911007; FAA/Commons support N91007. Re-checked 2026-11-15: the navy field's edge and the stripes' sweep forward from the crown drawn as curves (corners at the stripes' square forward ends); title already measured. No new photo of either airframe was found; the 737-800 N78285's version is still unseen.",
+  "from": "2026-06",
+  "palette": {
+    "blue": {
+      "hex": "#2740B0",
+      "name": "bright royal blue (forward fuselage)",
+      "official": false
+    },
+    "navy": {
+      "hex": "#1D2C84",
+      "name": "navy (aft fuselage, the star field)",
+      "official": false
+    },
+    "red": {
+      "hex": "#C8202F",
+      "official": false
+    },
+    "white": {
+      "hex": "#F2F3F5",
+      "official": false
+    },
+    "finBlue": {
+      "hex": "#1C3594",
+      "official": false
+    },
+    "globe": {
+      "hex": "#5AAFE6",
+      "name": "globe light blue",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#D3D7DC",
+      "official": false
+    },
+    "metal": {
+      "hex": "#B8BDC3",
+      "name": "polished inlet lip",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "blue",
+    "areas": [
+      {
+        "name": "navy aft fuselage (star field)",
+        "color": "navy",
+        "points": [
+          [
+            0.72,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            0.58,
+            -1
+          ],
+          [
+            0.6,
+            -0.75
+          ],
+          [
+            0.64,
+            -0.4
+          ],
+          [
+            0.693,
+            0.13
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "flag stripes: white",
+        "color": "white",
+        "points": [
+          [
+            0.684,
+            1
+          ],
+          [
+            0.72,
+            1
+          ],
+          [
+            0.693,
+            0.13
+          ],
+          [
+            0.64,
+            -0.4
+          ],
+          [
+            0.6,
+            -0.75
+          ],
+          [
+            0.58,
+            -1
+          ],
+          [
+            0.45,
+            -1
+          ],
+          [
+            0.45,
+            -0.55,
+            1
+          ],
+          [
+            0.55,
+            -0.5
+          ],
+          [
+            0.62,
+            -0.3
+          ],
+          [
+            0.658,
+            0.13
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "flag stripes: red band at the crown, curving forward along the belly",
+        "color": "red",
+        "points": [
+          [
+            0.684,
+            1
+          ],
+          [
+            0.702,
+            1
+          ],
+          [
+            0.676,
+            0.13
+          ],
+          [
+            0.625,
+            -0.35
+          ],
+          [
+            0.56,
+            -0.62
+          ],
+          [
+            0.45,
+            -0.67,
+            1
+          ],
+          [
+            0.45,
+            -0.55,
+            1
+          ],
+          [
+            0.55,
+            -0.5
+          ],
+          [
+            0.62,
+            -0.3
+          ],
+          [
+            0.658,
+            0.13
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "flag stripes: lower red stripe along the belly",
+        "color": "red",
+        "points": [
+          [
+            0.45,
+            -0.8
+          ],
+          [
+            0.56,
+            -0.78
+          ],
+          [
+            0.605,
+            -0.6
+          ],
+          [
+            0.62,
+            -0.62
+          ],
+          [
+            0.585,
+            -0.86
+          ],
+          [
+            0.45,
+            -0.9
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          3
+        ]
+      }
+    ],
+    "radome": {
+      "color": "blue"
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      3
+    ]
+  },
+  "fin": {
+    "base": "finBlue",
+    "areas": [
+      {
+        "name": "globe disc (its lines are in the logo entry)",
+        "color": "globe",
+        "points": [
+          [
+            0.81,
+            0.21
+          ],
+          [
+            0.797,
+            0.31
+          ],
+          [
+            0.76,
+            0.402
+          ],
+          [
+            0.702,
+            0.482
+          ],
+          [
+            0.625,
+            0.543
+          ],
+          [
+            0.536,
+            0.582
+          ],
+          [
+            0.44,
+            0.595
+          ],
+          [
+            0.344,
+            0.582
+          ],
+          [
+            0.255,
+            0.543
+          ],
+          [
+            0.178,
+            0.482
+          ],
+          [
+            0.12,
+            0.402
+          ],
+          [
+            0.083,
+            0.31
+          ],
+          [
+            0.07,
+            0.21
+          ],
+          [
+            0.083,
+            0.11
+          ],
+          [
+            0.12,
+            0.018
+          ],
+          [
+            0.178,
+            -0.062
+          ],
+          [
+            0.255,
+            -0.123
+          ],
+          [
+            0.344,
+            -0.162
+          ],
+          [
+            0.44,
+            -0.175
+          ],
+          [
+            0.536,
+            -0.162
+          ],
+          [
+            0.625,
+            -0.123
+          ],
+          [
+            0.702,
+            -0.062
+          ],
+          [
+            0.76,
+            0.017
+          ],
+          [
+            0.797,
+            0.11
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          3
+        ]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [
+      3
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "stabilizer": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "engines": {
+    "cowling": "blue",
+    "inletLip": "metal",
+    "confidence": "medium",
+    "sourceRefs": [
+      3
+    ]
+  },
+  "logos": [
+    {
+      "mark": "UAL/globe",
+      "place": "fin",
+      "at": [
+        0.44,
+        0.21
+      ],
+      "height": 0.77,
+      "colors": [
+        "globe",
+        "finBlue"
+      ],
+      "description": "United's globe: a light-blue disc crossed by curved dark-blue latitude and longitude lines, low on the aft fin and cut off by its trailing edge and root, as on the standard scheme.",
+      "confidence": "medium",
+      "sourceRefs": [
+        3
+      ]
+    },
+    {
+      "mark": "UAL/america250-stars",
+      "place": "fuselage",
+      "at": [
+        0.77,
+        0.15
+      ],
+      "height": 1.3,
+      "colors": [
+        "white"
+      ],
+      "description": "About 50 small white five-pointed stars in staggered rows over the navy aft fuselage, from just behind the white stripe to about the aft door, crown to below the windows.",
+      "confidence": "medium",
+      "sourceRefs": [
+        3
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "UNITED",
+      "place": "fuselage",
+      "at": [
+        0.144,
+        0.0
+      ],
+      "height": 0.55,
+      "color": "white",
+      "style": "United's 2019 wordmark: heavy, widely spaced sans capitals, straddling the window line from behind the forward door to ahead of the wing.",
+      "confidence": "medium",
+      "sourceRefs": [
+        3
+      ],
+      "length": 0.207,
+      "type": {
+        "similar": [
+          "Helvetica Neue Bold",
+          "Open Sans ExtraBold"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ]
+}

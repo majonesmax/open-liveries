@@ -1,0 +1,521 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "boston-bruins",
+  "airline": "JBU",
+  "name": "Boston Bruins (Bear Force One)",
+  "kind": "special",
+  "confidence": "medium",
+  "drawnOn": "A320",
+  "from": "2023",
+  "commemorates": "The Boston Bruins' centennial (1924-2024); JetBlue is the team's official airline.",
+  "description": "Fuselage: black, with Bruins gold sweeping up from the belly behind the wing to the crown at the fin's root, edged with a thin white pinstripe; a narrow gold strip runs on forward along the lower fuselage to under the nose. Titles: 'jetBlue' in white over the forward windows; the gold Bruins centennial badge ('BRUINS 100 CENTENNIAL') over the windows ahead of the wing's trailing edge. Tail: gold fin carrying the Bruins' spoked B huge across it: a black ring round a white disc with gold spokes and the black B outlined in gold, cut by the leading edge. Engines black with 'jetblue.com' in white.",
+  "sources": [
+    {
+      "url": "https://airlinegeeks.com/2025/12/22/jetblue-rolls-out-boston-themed-livery/",
+      "title": "AirlineGeeks: JetBlue Rolls Out Boston-Themed Livery (2025-12-22)",
+      "accessed": "2026-11-22",
+      "note": "On the Wicked Blue A320: it joins JetBlue's Boston liveries, 'including ones for the Red Sox, the Celtics, the Bruins, and Dunkin' Donuts' (the Bruins jet still flying in it)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N632JB_BOS_Taxiing_Out_9_B6_A320_232_Bear_Force_One_Bruins_Centennial_1924_2024_Small_(53248946288).png",
+      "title": "N632JB BOS Taxiing Out 9 B6 A320 232 Bear Force One Bruins Centennial 1924 2024 Small (53248946288).png (CC BY-SA 2.0)",
+      "accessed": "2026-11-22",
+      "note": "N632JB right side taxiing at Boston, 2023-10-10, near level: flipped nose-left and fitted to shapes/A320.json (doors and fin tip; within about 11 px, 0.25 m). The gold sweep, the fin's spoked B, the titles and the centennial badge read off it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A320-232_'Bear_Force_One'_(N632JB,_cn_2647)_(3-11-2024).jpg",
+      "title": "Airbus A320-232 'Bear Force One' (N632JB, cn 2647) (3-11-2024).jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-22",
+      "note": "N632JB right side, 2024-03-11, three-quarter front: the same layout, checked by eye (too oblique to fit)."
+    }
+  ],
+  "palette": {
+    "black": {
+      "hex": "#16181D",
+      "official": false
+    },
+    "gold": {
+      "hex": "#FCB514",
+      "official": false,
+      "name": "Bruins gold"
+    },
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false,
+      "name": "polished inlet lip"
+    },
+    "flagRed": {
+      "hex": "#B22234",
+      "official": false
+    },
+    "navy": {
+      "hex": "#14275A",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "black",
+    "areas": [
+      {
+        "name": "white pinstripe along the gold's edge",
+        "color": "white",
+        "smooth": true,
+        "points": [
+          [
+            0.782,
+            1.0
+          ],
+          [
+            0.771,
+            0.318
+          ],
+          [
+            0.749,
+            0.03
+          ],
+          [
+            0.712,
+            -0.15
+          ],
+          [
+            0.668,
+            -0.3
+          ],
+          [
+            0.606,
+            -0.46
+          ],
+          [
+            0.544,
+            -0.585
+          ],
+          [
+            0.482,
+            -0.69
+          ],
+          [
+            0.389,
+            -0.725
+          ],
+          [
+            0.238,
+            -0.64
+          ],
+          [
+            0.075,
+            -0.585
+          ],
+          [
+            0.019,
+            -0.7
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "gold sweep from the belly behind the wing to the crown at the fin, and the narrow strip along the lower fuselage to the nose",
+        "color": "gold",
+        "smooth": true,
+        "points": [
+          [
+            0.787,
+            1.0
+          ],
+          [
+            0.776,
+            0.312
+          ],
+          [
+            0.754,
+            0.009
+          ],
+          [
+            0.716,
+            -0.184
+          ],
+          [
+            0.672,
+            -0.337
+          ],
+          [
+            0.609,
+            -0.5
+          ],
+          [
+            0.546,
+            -0.63
+          ],
+          [
+            0.483,
+            -0.746
+          ],
+          [
+            0.389,
+            -0.784
+          ],
+          [
+            0.238,
+            -0.688
+          ],
+          [
+            0.075,
+            -0.632
+          ],
+          [
+            0.022,
+            -0.76
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      }
+    ],
+    "radome": {
+      "color": "black"
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "gold",
+    "rudder": "gold",
+    "mirrored": true,
+    "areas": [
+      {
+        "name": "the spoked B's black ring (cut by the leading edge)",
+        "color": "black",
+        "smooth": true,
+        "points": [
+          [
+            1.027,
+            0.325
+          ],
+          [
+            1.029,
+            0.149
+          ],
+          [
+            0.952,
+            0.004
+          ],
+          [
+            0.808,
+            -0.095
+          ],
+          [
+            0.626,
+            -0.13
+          ],
+          [
+            0.444,
+            -0.096
+          ],
+          [
+            0.282,
+            0.003
+          ],
+          [
+            0.05,
+            0.147
+          ],
+          [
+            -0.188,
+            0.323
+          ],
+          [
+            -0.408,
+            0.498
+          ],
+          [
+            -0.519,
+            0.643
+          ],
+          [
+            -0.459,
+            0.743
+          ],
+          [
+            -0.17,
+            0.777
+          ],
+          [
+            0.259,
+            0.743
+          ],
+          [
+            0.658,
+            0.645
+          ],
+          [
+            0.92,
+            0.5
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "the spoked B's white disc",
+        "color": "white",
+        "smooth": true,
+        "points": [
+          [
+            0.928,
+            0.325
+          ],
+          [
+            0.94,
+            0.176
+          ],
+          [
+            0.885,
+            0.054
+          ],
+          [
+            0.778,
+            -0.03
+          ],
+          [
+            0.626,
+            -0.061
+          ],
+          [
+            0.468,
+            -0.031
+          ],
+          [
+            0.299,
+            0.052
+          ],
+          [
+            0.106,
+            0.174
+          ],
+          [
+            -0.09,
+            0.323
+          ],
+          [
+            -0.255,
+            0.472
+          ],
+          [
+            -0.331,
+            0.594
+          ],
+          [
+            -0.268,
+            0.678
+          ],
+          [
+            -0.037,
+            0.709
+          ],
+          [
+            0.299,
+            0.678
+          ],
+          [
+            0.611,
+            0.595
+          ],
+          [
+            0.824,
+            0.473
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "stabilizer": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "engines": {
+    "cowling": "black",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "JBU/bruins-spoked-b",
+      "place": "fin",
+      "at": [
+        0.42,
+        0.32
+      ],
+      "height": 0.9,
+      "colors": [
+        "black",
+        "white",
+        "gold"
+      ],
+      "description": "The Bruins' spoked B filling the fin: a black ring round a white disc with gold spokes, the black B outlined in gold in its middle; the leading edge cuts its upper left and its foot runs onto the fuselage by the stabilizer.",
+      "reference": "https://en.wikipedia.org/wiki/Boston_Bruins",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "JBU/bruins-centennial",
+      "place": "fuselage",
+      "at": [
+        0.594,
+        0.26
+      ],
+      "height": 0.49,
+      "colors": [
+        "gold",
+        "black"
+      ],
+      "description": "The Bruins centennial badge: 'BRUINS' arched in gold over a gold '100', 'CENTENNIAL' in a gold bar below, over the windows ahead of the wing's trailing edge.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "JBU/us-flag",
+      "place": "fuselage",
+      "at": [
+        0.7,
+        0.42
+      ],
+      "height": 0.13,
+      "colors": [
+        "flagRed",
+        "white",
+        "navy"
+      ],
+      "description": "A small US flag by the registration over the rear windows.",
+      "confidence": "low",
+      "sourceRefs": [
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "jetBlue",
+      "place": "fuselage",
+      "at": [
+        0.18,
+        -0.025
+      ],
+      "height": 0.527,
+      "length": 0.149,
+      "color": "white",
+      "style": "The jetBlue wordmark in white over the forward windows.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Gotham Rounded Bold",
+          "VAG Rounded Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      }
+    },
+    {
+      "text": "jetblue.com",
+      "place": "engines",
+      "at": [
+        0.43,
+        0.0
+      ],
+      "height": 0.25,
+      "length": 0.36,
+      "color": "white",
+      "style": "Bold rounded lower case along the cowling's side, as on the standard.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Gotham Rounded Bold",
+          "VAG Rounded Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.72
+      }
+    }
+  ],
+  "notes": "Measured on the right side only (no left-side photo on Commons): N632JB at Boston 2023-10-10, flipped and fitted; the left side is taken to be the same. The gold's edge is a smooth sweep (three or four points would kink it), its white pinstripe about 0.1 m. The ring's foot over the fuselage by the stabilizer is clipped at the fin's root. 'Bear Force One' (small white script under the cockpit), the gold door outlines and the registration aren't drawn. The newest open photo is 2024-03-11; AirlineGeeks (2025-12-22) still counts the Bruins livery among JetBlue's Boston liveries."
+}

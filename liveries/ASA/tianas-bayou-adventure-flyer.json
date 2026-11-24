@@ -1,0 +1,412 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "tianas-bayou-adventure-flyer",
+  "airline": "ASA",
+  "name": "Tiana's Bayou Adventure Flyer",
+  "kind": "special",
+  "confidence": "medium",
+  "drawnOn": "B738",
+  "description": "Fuselage: Whole aircraft in deep teal/dark blue-green bayou night scene with dark tree silhouettes along the crown and glowing yellow-green firefly dots scattered nose to tail. Cheatlines: None. Tail: Teal fin with a crescent moon and stars near the top; Princess Tiana (yellow dress, red/white hat) painted on the lower fin and aft fuselage. Engines: Dark teal/blue cowlings. Winglets: Mama Odie and Prince Naveen artwork. Titles: White 'Alaska' script on forward fuselage; 'Follow us to Disneyland' small by the nose; 'TIANA'S BAYOU ADVENTURE' in white serif capitals on aft fuselage below the windows. Artwork: Louis the alligator among water lilies; trail of fireflies from nose to tail. >2,000 painting hours. Colors hex: approximate.",
+  "sources": [
+    {
+      "url": "https://www.alaskaair.com/content/travel-info/our-aircraft/737-800-tiannas-bayou-adventure",
+      "title": "Alaska Airlines: Tiana's Bayou Adventure Flyer",
+      "accessed": "2026-11-14",
+      "note": "Alaska's page: N596AS, introduced 2025-04-25, the ninth Disneyland livery; its photo shows the left side from ahead: the bayou, Tiana on the fin, the titles' lengths."
+    },
+    {
+      "url": "https://news.alaskaair.com/guest-experience/alaska-airlines-livery-tianas-bayou-adventure-flyer-celebrates-spirit-of-adventure/",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:N596AS_(aircraft)",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Alaska_Airlines_B737-890,_N596AS,_MSN_2587_(04_2008),_as_AS_1352_Los_Angeles_(LAX)_-_San_José_(SJO),_Flight_time_5_14_(55264671039).jpg",
+      "title": "Alaska Airlines B737-890, N596AS, as AS 1352 LAX-SJO (55264671039) (CC0)",
+      "accessed": "2026-11-12",
+      "note": "Left side from slightly below, climbing out of LAX, 2026-04-30: the whole left side; positions along the fuselage measured from it (heights less reliable, seen from below)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Alaska_Airlines_B737-890,_N596AS,_MSN_2587_(04_2008),_as_AS_1352_Los_Angeles_(LAX)_-_San_José_(SJO),_Flight_time_5_14_(55264671069).jpg",
+      "title": "Alaska Airlines B737-890, N596AS, as AS 1352 LAX-SJO (55264671069) (CC0)",
+      "accessed": "2026-11-12",
+      "note": "Left side, same flight, 2026-04-30: the fin (moon and stars, Tiana) and the aft fuselage."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Alaska_Airlines_Boeing_737-800_(Tiana’s_Bayou_Adventure_Flyer_livery).jpg",
+      "title": "Alaska Airlines Boeing 737-800 (Tiana's Bayou Adventure Flyer livery) (CC BY 4.0)",
+      "accessed": "2026-11-12",
+      "note": "Front left from above, Portland 2025-06-19, in daylight: the colors (turquoise sky with dark tree silhouettes over dark-teal water), title heights, winglets."
+    }
+  ],
+  "from": "2025-04",
+  "palette": {
+    "bayou": {
+      "hex": "#0E4A52",
+      "name": "dark bayou teal",
+      "official": false
+    },
+    "turquoise": {
+      "hex": "#2BB0BF",
+      "official": false
+    },
+    "night": {
+      "hex": "#123F5C",
+      "name": "night-sky teal on the fin",
+      "official": false
+    },
+    "gown": {
+      "hex": "#F2CF3A",
+      "name": "Tiana's yellow gown",
+      "official": false
+    },
+    "cream": {
+      "hex": "#F1ECDD",
+      "official": false
+    },
+    "firefly": {
+      "hex": "#D8E85A",
+      "official": false
+    },
+    "lilyPink": {
+      "hex": "#E8648A",
+      "official": false
+    },
+    "hair": {
+      "hex": "#2A1B16",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC5",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "bayou",
+    "areas": [
+      {
+        "name": "turquoise twilight sky above the window line, broken up by dark tree silhouettes (not drawn) that cover about half of it",
+        "color": "turquoise",
+        "points": [
+          [
+            0.05,
+            0.25
+          ],
+          [
+            0.12,
+            0.12
+          ],
+          [
+            0.8,
+            0.12
+          ],
+          [
+            0.8,
+            1
+          ],
+          [
+            0.06,
+            1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          5
+        ]
+      },
+      {
+        "name": "Tiana's yellow gown, filling the lower tail cone",
+        "color": "gown",
+        "points": [
+          [
+            0.775,
+            -1
+          ],
+          [
+            0.778,
+            -0.6
+          ],
+          [
+            0.8,
+            -0.3
+          ],
+          [
+            0.833,
+            -0.23
+          ],
+          [
+            0.87,
+            0.0
+          ],
+          [
+            0.9,
+            0.21
+          ],
+          [
+            0.95,
+            0.5
+          ],
+          [
+            0.982,
+            0.9
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "side": "left",
+        "confidence": "medium",
+        "sourceRefs": [
+          3,
+          4
+        ],
+        "smooth": true
+      }
+    ],
+    "radome": {
+      "color": "bayou"
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      3,
+      4,
+      5
+    ]
+  },
+  "fin": {
+    "base": "night",
+    "rudder": "night",
+    "confidence": "medium",
+    "sourceRefs": [
+      4,
+      5
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "stabilizer": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "bayou",
+    "inner": "turquoise",
+    "confidence": "low",
+    "sourceRefs": [
+      5
+    ]
+  },
+  "engines": {
+    "cowling": "bayou",
+    "inletLip": "lip",
+    "pylon": "bayou",
+    "confidence": "medium",
+    "sourceRefs": [
+      3,
+      5
+    ]
+  },
+  "logos": [
+    {
+      "mark": "ASA/disneyland-resort",
+      "licensed": "Disney",
+      "place": "fuselage",
+      "at": [
+        0.08,
+        -0.1
+      ],
+      "height": 0.4,
+      "colors": [
+        "cream"
+      ],
+      "description": "'Follow us to' over the 'Disneyland Resort' script logo, in white, below the cockpit; a pink water lily by the forward door.",
+      "confidence": "high",
+      "sourceRefs": [
+        3,
+        5
+      ]
+    },
+    {
+      "mark": "ASA/tiana",
+      "licensed": "Disney",
+      "place": "fin",
+      "at": [
+        0.5,
+        0.3
+      ],
+      "height": 0.6,
+      "colors": [
+        "hair",
+        "cream",
+        "lilyPink",
+        "gown"
+      ],
+      "description": "Princess Tiana's head and shoulders on the lower fin, smiling forward: dark hair, a cream hat with a magenta band; her yellow gown and a lantern carry on down the tail cone.",
+      "confidence": "high",
+      "sourceRefs": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "mark": "ASA/crescent-moon",
+      "place": "fin",
+      "at": [
+        0.55,
+        0.87
+      ],
+      "height": 0.08,
+      "colors": [
+        "cream"
+      ],
+      "description": "A small white crescent moon and white stars near the fin tip.",
+      "confidence": "high",
+      "sourceRefs": [
+        4,
+        5
+      ]
+    },
+    {
+      "mark": "ASA/louis-the-alligator",
+      "licensed": "Disney",
+      "place": "fuselage",
+      "at": [
+        0.55,
+        0.3
+      ],
+      "height": 0.7,
+      "colors": [
+        "firefly",
+        "bayou"
+      ],
+      "description": "Louis the alligator with water lilies, at the window line over the wing (seen on the left side).",
+      "side": "left",
+      "confidence": "low",
+      "sourceRefs": [
+        5
+      ]
+    },
+    {
+      "mark": "ASA/fireflies",
+      "place": "fuselage",
+      "at": [
+        0.5,
+        -0.2
+      ],
+      "height": 1.5,
+      "colors": [
+        "firefly"
+      ],
+      "description": "A trail of glowing yellow-green firefly dots from the nose to the tail, densest round Tiana and the title.",
+      "confidence": "medium",
+      "sourceRefs": [
+        3,
+        5
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Alaska",
+      "place": "fuselage",
+      "at": [
+        0.141,
+        -0.3
+      ],
+      "height": 1.0,
+      "color": "cream",
+      "style": "The 2016 Alaska wordmark in white, big, across the forward windows.",
+      "confidence": "medium",
+      "sourceRefs": [
+        3,
+        5
+      ],
+      "type": {
+        "similar": [
+          "Kaufmann Bold",
+          "Futura Bold Oblique"
+        ],
+        "weight": 800,
+        "slantDeg": 16,
+        "width": "normal",
+        "strokes": "brush",
+        "case": "mixed",
+        "xHeight": 0.55
+      },
+      "length": 0.18
+    },
+    {
+      "text": "TIANA'S",
+      "place": "fuselage",
+      "at": [
+        0.619,
+        -0.3
+      ],
+      "height": 0.28,
+      "color": "cream",
+      "style": "Cream serif capitals with art-nouveau flourishes, centered over the second line, just below the windows.",
+      "confidence": "medium",
+      "sourceRefs": [
+        3,
+        5
+      ],
+      "type": {
+        "similar": [
+          "Trajan Pro",
+          "Cinzel"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "contrast",
+        "case": "upper"
+      },
+      "length": 0.09
+    },
+    {
+      "text": "BAYOU ADVENTURE",
+      "place": "fuselage",
+      "at": [
+        0.558,
+        -0.75
+      ],
+      "height": 0.4,
+      "color": "cream",
+      "style": "Second line, larger: cream art-nouveau serif capitals, a lily emblem in the O of BAYOU.",
+      "length": 0.21,
+      "confidence": "medium",
+      "sourceRefs": [
+        3,
+        5
+      ],
+      "type": {
+        "similar": [
+          "Trajan Pro",
+          "Cinzel"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "contrast",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Drawn from the left side (2026-04-30, two photos from slightly below) with colors from the 2025-06-19 daylight photo. No dated photo of the right side was found: the body colors are assumed to be the same both sides (they're a scene, not a figure), the gown and Louis are marked left. Heights on the fuselage are less certain than positions along it (photos from below or above). The upper fuselage's tree silhouettes and the lower fuselage's leaves aren't drawn. Re-checked 2026-11-15 (drawn on the 737-800): the gown's curved front edge made smooth; the sky band is a straight-edged field, kept. Titles' lengths kept; 'Alaska' lowercase about 0.55 of its A."
+}

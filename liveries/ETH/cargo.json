@@ -1,0 +1,479 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "cargo",
+  "airline": "ETH",
+  "name": "Ethiopian Cargo",
+  "kind": "standard",
+  "from": "2010",
+  "confidence": "medium",
+  "drawnOn": "B77L",
+  "description": "The passenger scheme on the freighters with 'Cargo' added: white, the green-yellow-red swept bands on the fin; 'Ethiopian' in big crimson serif over the forward fuselage with 'Cargo' in crimson under its tail end; 'የኢትዮጵያ' aft; the gold lion by the nose.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:20261001_Boeing_777-F_of_Ethiopian_Cargo_(ET-AVT)_taxiing_at_CGO_03.jpg",
+      "title": "20261001 Boeing 777-F of Ethiopian Cargo (ET-AVT) taxiing at CGO 03.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "777F ET-AVT, left side, 2026-10-01: titles, lion, fin measured."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Ethiopian_Cargo_Boeing_777-F_ET-BAA_EMA_25-05-2025.jpg",
+      "title": "Ethiopian Cargo Boeing 777-F ET-BAA EMA 25-05-2025.jpg (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "777F ET-BAA, right side, 2025-05-25: same titles; on the right 'Cargo' is also under '-pian', the Ethiopic aft."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:ET-BBF_Boeing_767-300F_Ethiopian_Airlines_Cargo_MST_19.3.26_(55199171137).jpg",
+      "title": "ET-BBF Boeing 767-300F Ethiopian Airlines Cargo MST 19.3.26 (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "767-300F ET-BBF, right side, 2026-03-19: the 767 freighters wear it too."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ethiopian_Airlines_fleet",
+      "title": "Wikipedia: Ethiopian Airlines fleet",
+      "accessed": "2026-11-13",
+      "note": "Cargo fleet (Nov 2025): 777F, 767-300BDSF, 737-800SF."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F4F5F6",
+      "official": false
+    },
+    "green": {
+      "hex": "#3E8E2A",
+      "official": false,
+      "name": "tail green"
+    },
+    "yellow": {
+      "hex": "#F7B500",
+      "official": false,
+      "name": "tail yellow"
+    },
+    "red": {
+      "hex": "#C8141C",
+      "official": false,
+      "name": "tail red"
+    },
+    "titleRed": {
+      "hex": "#D21034",
+      "official": false,
+      "name": "title crimson"
+    },
+    "gold": {
+      "hex": "#E8A20C",
+      "official": false,
+      "name": "lion gold"
+    },
+    "ink": {
+      "hex": "#2A2A2A",
+      "official": false,
+      "name": "small black text"
+    },
+    "wingGray": {
+      "hex": "#B9BEC5",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "hidden",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "green band, the top and longest of the three, from the leading edge's root sweeping up to near the tip by the trailing edge",
+        "color": "green",
+        "points": [
+          [
+            0.0,
+            0.05
+          ],
+          [
+            0.13,
+            0.2
+          ],
+          [
+            0.24,
+            0.425
+          ],
+          [
+            0.35,
+            0.69
+          ],
+          [
+            0.48,
+            0.88
+          ],
+          [
+            0.64,
+            0.92
+          ],
+          [
+            0.8,
+            0.895
+          ],
+          [
+            0.9,
+            0.81
+          ],
+          [
+            0.93,
+            0.7
+          ],
+          [
+            0.89,
+            0.6
+          ],
+          [
+            0.79,
+            0.505
+          ],
+          [
+            0.62,
+            0.403
+          ],
+          [
+            0.417,
+            0.28
+          ],
+          [
+            0.239,
+            0.168
+          ],
+          [
+            0.086,
+            0.089
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ],
+        "smooth": true
+      },
+      {
+        "name": "yellow band, under the green",
+        "color": "yellow",
+        "points": [
+          [
+            0.01,
+            0.027
+          ],
+          [
+            0.23,
+            0.112
+          ],
+          [
+            0.473,
+            0.224
+          ],
+          [
+            0.684,
+            0.336
+          ],
+          [
+            0.84,
+            0.447
+          ],
+          [
+            0.91,
+            0.515
+          ],
+          [
+            0.95,
+            0.49
+          ],
+          [
+            0.96,
+            0.425
+          ],
+          [
+            0.93,
+            0.336
+          ],
+          [
+            0.86,
+            0.26
+          ],
+          [
+            0.703,
+            0.168
+          ],
+          [
+            0.479,
+            0.101
+          ],
+          [
+            0.233,
+            0.045
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ],
+        "smooth": true
+      },
+      {
+        "name": "red band, the lowest and shortest, along the root",
+        "color": "red",
+        "points": [
+          [
+            0.132,
+            0.018
+          ],
+          [
+            0.342,
+            0.067
+          ],
+          [
+            0.562,
+            0.123
+          ],
+          [
+            0.759,
+            0.19
+          ],
+          [
+            0.89,
+            0.235
+          ],
+          [
+            0.93,
+            0.224
+          ],
+          [
+            0.95,
+            0.157
+          ],
+          [
+            0.92,
+            0.089
+          ],
+          [
+            0.86,
+            0.045
+          ],
+          [
+            0.737,
+            0.018
+          ],
+          [
+            0.488,
+            0.011
+          ],
+          [
+            0.205,
+            0.009
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ],
+        "smooth": true
+      }
+    ],
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "white",
+    "inner": "white",
+    "confidence": "low",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "ETH/tricolor",
+      "place": "fin",
+      "at": [
+        0.5,
+        0.45
+      ],
+      "height": 0.9,
+      "colors": [
+        "green",
+        "yellow",
+        "red"
+      ],
+      "description": "The tail's three swept bands (green, yellow, red, top to bottom), the airline's symbol; on the fin it is drawn as the fin's areas.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Ethiopian_Airlines_Logo.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "ETH/lion",
+      "place": "fuselage",
+      "at": [
+        0.074,
+        -0.265
+      ],
+      "height": 0.42,
+      "colors": [
+        "gold"
+      ],
+      "description": "A small gold rampant lion (the Lion of Judah) under the cockpit windows, facing the nose.",
+      "reference": "https://commons.wikimedia.org/wiki/File:20261001_Boeing_777-F_of_Ethiopian_Cargo_(ET-AVT)_taxiing_at_CGO_03.jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Ethiopian",
+      "place": "fuselage",
+      "at": [
+        0.132,
+        -0.045
+      ],
+      "height": 0.68,
+      "color": "titleRed",
+      "style": "Large crimson serif, upper and lower case, across the middle of the forward fuselage (lower than on the airliners, where it sits over the windows).",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Times New Roman",
+          "Georgia"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "contrast",
+        "case": "mixed",
+        "xHeight": 0.62
+      },
+      "length": 0.29
+    },
+    {
+      "text": "Cargo",
+      "place": "fuselage",
+      "at": [
+        0.133,
+        -0.53
+      ],
+      "height": 0.4,
+      "color": "titleRed",
+      "style": "'Cargo' in the same crimson serif, about 60% of the size, under 'Ethiopian' toward the nose: on the left side it starts under the E (on the right, under '-pian', so on both sides it sits forward).",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Times New Roman",
+          "Georgia"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "contrast",
+        "case": "mixed",
+        "xHeight": 0.62
+      },
+      "length": 0.103
+    },
+    {
+      "text": "የኢትዮጵያ",
+      "place": "fuselage",
+      "at": [
+        0.662,
+        0.24
+      ],
+      "height": 0.28,
+      "color": "titleRed",
+      "style": "'Ye Ityopya' in crimson Ethiopic, aft of the wing.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ],
+      "type": {
+        "similar": [
+          "Noto Serif Ethiopic",
+          "Abyssinica SIL"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "contrast",
+        "case": "mixed"
+      },
+      "length": 0.076
+    },
+    {
+      "text": "Ethiopia",
+      "place": "fuselage",
+      "at": [
+        0.71,
+        -0.02
+      ],
+      "height": 0.08,
+      "color": "ink",
+      "style": "Small black slogan text 'Ethiopia / Land of Origins' under the Ethiopic title.",
+      "confidence": "low",
+      "sourceRefs": [
+        0
+      ],
+      "type": {
+        "similar": [
+          "Frutiger",
+          "Myriad Pro"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.62
+      },
+      "length": 0.025
+    }
+  ],
+  "notes": "The passenger scheme (ETH/standard) plus a 'Cargo' title, with the titles lower on the windowless freighter. Measured on the 777F ET-AVT (left, 2026-10-01); ET-BAA (right, 2025-05-25) agrees. The 767-300F ET-BBF wears it too, with 'Cargo' under '-opian'. Temporary 'Pharma Wing' engine titles (ET-AVT) and '80 years' decals not drawn. Freighters have no cabin windows. Re-checked 2026-11-15 on ET-AVT (777F, left, 2026-10-01, a little from ahead): lengths measured, Ethiopian 0.29 (x ~0.135-0.43), Cargo 0.103, the Amharic 0.076, the small Ethiopia 0.025; the serif lowercase stands 0.62 of the capitals. ET-AVT also carries a small 'Land of Origins' under 'Ethiopia' and 'Pharma Wing' on the engines (not drawn). The photo is foreshortened toward the tail, so the aft titles' places were left as drawn. The fin's three bands are curved sweeps (smooth).",
+  "history": "New file. Ethiopian's freighters have worn the 2010 passenger scheme with 'Cargo' added since it was introduced."
+}

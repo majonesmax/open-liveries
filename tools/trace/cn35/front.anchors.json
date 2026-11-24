@@ -1,0 +1,8 @@
+{
+  "_about": "EADS-CASA, CN-235-300 Technical Review (2002), page 4: the front view, an embedded 719 x 230 px picture, extracted as it is (front_raw.png) and rendered with layers.py --mode lines --contrast 25 at scale 4 (the side's scale: its tips 25.86 m apart against the printed 25.81 m). Pixels of that raster, line centres; the left half. The fuselage's outline is the nose's (the cabin's section seen from ahead), its top at the centerline. The wing's upper surface runs over the top of the fuselage; its lower surface inboard of the nacelle is behind the tailplane's line (bridged across the nacelle). The tailplane is drawn as a bar under the wing, from the fuselage's side to its rounded tip, hidden by the nacelle across it (bridged).",
+  "fuselage.section": [[1078, 389], [1040, 392], [1010, 398], [985, 412], [968, 440], [962, 500], [965, 560], [985, 600], [1030, 628], [1078, 637]],
+  "wing.upper": [[958, 338], [884, 338], [804, 339], [724, 338], [644, 337], [564, 335], [444, 332], [324, 329], [204, 328], [124, 326], [44, 325], [6, 328]],
+  "wing.lower": [[958, 398], "hidden", [604, 379], [524, 372], [444, 366], [364, 361], [284, 354], [204, 348], [124, 339], [44, 336], [6, 331]],
+  "stabilizer.upper": [[958, 386], [860, 386], "hidden", [700, 384], [650, 383], [625, 386]],
+  "stabilizer.lower": [[958, 399], [860, 399], "hidden", [700, 398], [650, 398], [625, 392]]
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "KLM",
+  "airframes": [
+    {
+      "registration": "PH-BVA",
+      "livery": "orange-pride",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:PH-BVA_(aircraft)",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "hex": "48455e",
+      "hexSource": "looked up: hexdb.io community database (2026-11-12); not verified against the national register",
+      "type": "B77W",
+      "from": "2016",
+      "lastSeen": "2026-09-17",
+      "status": "active: Commons photo dated 17 Sep 2026."
+    }
+  ]
+}

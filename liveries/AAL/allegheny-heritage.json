@@ -1,0 +1,380 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "allegheny-heritage",
+  "airline": "AAL",
+  "name": "Allegheny heritage (VistaJet)",
+  "kind": "retro",
+  "confidence": "medium",
+  "drawnOn": "A321",
+  "description": "Fuselage: American's metallic silver overall. Cheatlines: A navy band through the windows, with a thin white pinstripe under it, from a point under the windscreen (the cockpit windows sit in it, with a black mask below them) to the end of the tail cone, where it widens down over the cone. Tail: Silver fin with the Allegheny mark (a red-orange swept wedge over a navy triangle) and 'ALLEGHENY' in red-orange slanted capitals below it. Engines: Silver, polished lips. Winglets: Navy wingtip fences. Titles: American's 'American' and flight symbol on top of the band forward; 'Vistajet' small in red under the cockpit. Artwork: none. Colors hex: matched by eye from photos.",
+  "sources": [
+    {
+      "url": "https://airlinegeeks.com/2023/10/11/first-look-american-debuts-refreshed-allegheny-retro-jet/",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:N579UW_(aircraft)",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N579UW_FLL_Landing_28R_AA_A321_231_Vistajet_Allegheny_Heritage_Small_(54432435219).png",
+      "title": "N579UW FLL Landing 28R AA A321 231 Vistajet Allegheny Heritage Small (CC BY-SA 2.0)",
+      "accessed": "2026-11-12",
+      "note": "Left side, near level, 2025-04-05: the window band and pinstripe, the nose, the fin logo and ALLEGHENY, Vistajet title."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:American_Airlines_Allegheny_retrojet_N579UW_departing_Boston_June_2025.jpg",
+      "title": "American Airlines Allegheny retrojet N579UW departing Boston June 2025 (CC BY 4.0)",
+      "accessed": "2026-11-12",
+      "note": "Left side from below, 2025-06-20: the band over the tail cone, silver belly, engines, wingtip fences."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:American_Airlines_Airbus_A321_retrojet_N579UW_at_Chicago_O'Hare_June_2025.jpg",
+      "title": "American Airlines Airbus A321 retrojet N579UW at Chicago O'Hare June 2025 (CC BY 4.0)",
+      "accessed": "2026-11-12",
+      "note": "Left front three-quarter at the gate, 2025-06-10: the band wrapping the cockpit windows, the black mask under the windscreen, the polished cowlings."
+    }
+  ],
+  "history": "Previously on A319 N745VJ (2013-2023).",
+  "from": "2023-10",
+  "palette": {
+    "silver": {
+      "hex": "#C6CACF",
+      "name": "American's metallic silver",
+      "official": false
+    },
+    "navy": {
+      "hex": "#1E2D6C",
+      "official": false
+    },
+    "white": {
+      "hex": "#F0F1F2",
+      "official": false
+    },
+    "red": {
+      "hex": "#E0452D",
+      "name": "Allegheny red-orange (matched by eye)",
+      "official": false
+    },
+    "lip": {
+      "hex": "#B4B9BF",
+      "official": false
+    },
+    "titleGray": {
+      "hex": "#36495A",
+      "official": false
+    },
+    "flightRed": {
+      "hex": "#C30019",
+      "official": false
+    },
+    "flightBlue": {
+      "hex": "#0078D2",
+      "official": false
+    },
+    "flightNavy": {
+      "hex": "#36495A",
+      "official": false
+    }
+  },
+  "finish": "metallic",
+  "fuselage": {
+    "base": "silver",
+    "areas": [
+      {
+        "name": "white pinstripe under the band",
+        "color": "white",
+        "below": [
+          [
+            0.035,
+            0.05
+          ],
+          [
+            0.8,
+            0.05
+          ],
+          [
+            0.87,
+            -0.05
+          ],
+          [
+            0.93,
+            -0.35
+          ],
+          [
+            1,
+            -0.8
+          ]
+        ],
+        "above": [
+          [
+            0.035,
+            0.025
+          ],
+          [
+            0.8,
+            0.025
+          ],
+          [
+            0.87,
+            -0.075
+          ],
+          [
+            0.93,
+            -0.375
+          ],
+          [
+            1,
+            -0.825
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3,
+          4
+        ],
+        "smooth": true
+      },
+      {
+        "name": "navy window band, from a point under the windscreen to the tail cone",
+        "color": "navy",
+        "points": [
+          [
+            0.02,
+            0.2
+          ],
+          [
+            0.035,
+            0.05
+          ],
+          [
+            0.8,
+            0.05
+          ],
+          [
+            0.87,
+            -0.05
+          ],
+          [
+            0.93,
+            -0.35
+          ],
+          [
+            1,
+            -0.8
+          ],
+          [
+            1,
+            0.45
+          ],
+          [
+            0.93,
+            0.36
+          ],
+          [
+            0.85,
+            0.31
+          ],
+          [
+            0.035,
+            0.31
+          ],
+          [
+            0.02,
+            0.2
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3,
+          4
+        ],
+        "smooth": true
+      }
+    ],
+    "radome": {
+      "color": "silver",
+      "to": 0.025
+    },
+    "cockpitWindows": {
+      "mask": "navy"
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3,
+      4
+    ]
+  },
+  "fin": {
+    "base": "silver",
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3,
+      4
+    ]
+  },
+  "engines": {
+    "cowling": "silver",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      3,
+      4
+    ]
+  },
+  "wings": {
+    "top": "#C3C7CC",
+    "under": "#C3C7CC",
+    "confidence": "low",
+    "sourceRefs": [
+      3
+    ]
+  },
+  "winglets": {
+    "outer": "navy",
+    "inner": "navy",
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3
+    ]
+  },
+  "logos": [
+    {
+      "mark": "AAL/allegheny-1970s",
+      "place": "fin",
+      "at": [
+        0.45,
+        0.32
+      ],
+      "height": 0.18,
+      "colors": [
+        "red",
+        "navy"
+      ],
+      "description": "Allegheny's 1970s mark: a long red-orange wedge sweeping up and aft, over a short navy triangle at its aft end, like a stylised swept wing.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mark": "AAL/flight-symbol",
+      "place": "fuselage",
+      "at": [
+        0.177,
+        0.45
+      ],
+      "height": 0.22,
+      "colors": [
+        "flightRed",
+        "flightBlue",
+        "flightNavy"
+      ],
+      "description": "American's 2013 flight symbol: a stylised eagle's head and wing in red, light blue and dark blue, ahead of the 'American' title.",
+      "confidence": "high",
+      "sourceRefs": [
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "American",
+      "place": "fuselage",
+      "at": [
+        0.189,
+        0.34
+      ],
+      "height": 0.24,
+      "color": "titleGray",
+      "style": "American's standard title: mixed-case sans, semibold, upright, sitting on top of the navy band.",
+      "confidence": "high",
+      "sourceRefs": [
+        2,
+        3,
+        4
+      ],
+      "type": {
+        "similar": [
+          "Proxima Nova Semibold",
+          "Gotham Medium"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "length": 0.09
+    },
+    {
+      "text": "ALLEGHENY",
+      "place": "fin",
+      "at": [
+        0.18,
+        0.125
+      ],
+      "height": 0.08,
+      "color": "red",
+      "length": 0.64,
+      "style": "Bold, slanted, slightly spaced capitals in red-orange, under the logo near the fin's root.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3,
+        4
+      ],
+      "type": {
+        "similar": [
+          "Futura Bold Oblique",
+          "Helvetica Neue Bold Italic"
+        ],
+        "weight": 700,
+        "slantDeg": 12,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "Vistajet",
+      "place": "fuselage",
+      "at": [
+        0.06,
+        -0.1
+      ],
+      "height": 0.1,
+      "color": "red",
+      "style": "Small bold italic, mixed case, below the cockpit windows.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        4
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Bold Italic"
+        ],
+        "weight": 700,
+        "slantDeg": 12,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.7
+      },
+      "length": 0.02
+    }
+  ],
+  "notes": "Drawn from left-side photos (2025). The band's end over the tail cone is approximate: it's seen only from below and at an angle. The cockpit windows sit inside the band on the real aircraft, with a black strip under the windscreen (not drawn; the mask stands for the band round the windscreen). The right side isn't in these photos; taken as the same. Belly: silver as far as the June 2025 view from below shows. Re-checked 2026-11-15 on N579UW (left, 2025-04-05, side on): 'American' x 0.188-0.278, 'Vistajet' x 0.06-0.08, 'ALLEGHENY' on the fin from 0.18 to 0.82 of the chord with its baseline at 0.125, the logo above it (centre 0.32 up); the band's sweep down to the tail cone drawn as a curve. No measured A321 shape yet."
+}

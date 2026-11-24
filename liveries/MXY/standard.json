@@ -1,0 +1,314 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "MXY",
+  "name": "Breeze blue",
+  "kind": "standard",
+  "confidence": "medium",
+  "drawnOn": "BCS3",
+  "description": "Breeze blue all over the forward and middle fuselage; behind the wing the fuselage turns navy, crossed by a pale-blue diagonal; 'Breeze' in white over the forward windows with a small tick over the 'ee'; the fin navy with a white swoosh sweeping up from the root and pale blue below it; navy-blue engines.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Breeze_Airways",
+      "title": "Wikipedia: Breeze Airways",
+      "accessed": "2026-11-13"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A220-300_-_Breeze_Airways_-_N256BZ.jpg",
+      "title": "Airbus A220-300 - Breeze Airways - N256BZ.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "N256BZ (A220-300) left side, 2026-02-18: geometry, title, fin."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A220-371_(N237BZ,_cn_55285)_(1-16-2026).jpg",
+      "title": "Airbus A220-371 (N237BZ, cn 55285) (1-16-2026).jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "N237BZ right side, 2026-01-16: the same scheme; 'flybreeze.com' small on the aft fuselage."
+    }
+  ],
+  "palette": {
+    "blue": {
+      "hex": "#2C7BE0",
+      "official": false,
+      "name": "Breeze blue"
+    },
+    "navy": {
+      "hex": "#1A2F80",
+      "official": false,
+      "name": "navy"
+    },
+    "pale": {
+      "hex": "#8EC0F0",
+      "official": false,
+      "name": "pale blue"
+    },
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "blue",
+    "areas": [
+      {
+        "name": "navy aft fuselage",
+        "color": "navy",
+        "points": [
+          [
+            0.7640718562874251,
+            -1
+          ],
+          [
+            0.76,
+            -0.697
+          ],
+          [
+            0.731,
+            -0.172
+          ],
+          [
+            0.683,
+            0.342
+          ],
+          [
+            0.635,
+            0.697
+          ],
+          [
+            0.6287425149700598,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2
+        ],
+        "smooth": true
+      },
+      {
+        "name": "pale-blue diagonal across the navy",
+        "color": "pale",
+        "points": [
+          [
+            0.701,
+            0.64
+          ],
+          [
+            0.754,
+            0.64
+          ],
+          [
+            0.796,
+            -0.318
+          ],
+          [
+            0.781,
+            -0.641
+          ],
+          [
+            0.754,
+            -0.325
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      }
+    ],
+    "radome": {
+      "color": "blue"
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "navy",
+    "areas": [
+      {
+        "name": "pale blue under the swoosh",
+        "color": "pale",
+        "points": [
+          [
+            -0.001,
+            0.019
+          ],
+          [
+            1.006,
+            -0.019
+          ],
+          [
+            0.927,
+            0.328
+          ],
+          [
+            0.413,
+            0.212
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "white swoosh rising from the root's leading edge to the aft fin",
+        "color": "white",
+        "points": [
+          [
+            0.028,
+            0.019
+          ],
+          [
+            0.301,
+            0.212
+          ],
+          [
+            0.835,
+            0.598
+          ],
+          [
+            0.868,
+            0.483
+          ],
+          [
+            0.459,
+            0.158
+          ],
+          [
+            0.187,
+            0.004
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2
+        ]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "engines": {
+    "cowling": "navy",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "MXY/tick",
+      "place": "fuselage",
+      "at": [
+        0.292,
+        0.2
+      ],
+      "height": 0.3,
+      "colors": [
+        "white"
+      ],
+      "description": "A small white tick (a stylised bird or breeze stroke) over the 'ee' of the title.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Breeze_Airways_logo.svg",
+      "confidence": "low",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Breeze",
+      "place": "fuselage",
+      "at": [
+        0.177,
+        -0.175
+      ],
+      "height": 0.27,
+      "color": "white",
+      "style": "Breeze's wordmark: medium-weight geometric sans, capital B, in white just under the forward windows.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Gotham Medium",
+          "Avenir Next Medium"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.75
+      },
+      "length": 0.162
+    },
+    {
+      "text": "flybreeze.com",
+      "place": "fuselage",
+      "at": [
+        0.59,
+        -0.22
+      ],
+      "height": 0.12,
+      "color": "white",
+      "style": "The web address in small white lower case on the aft fuselage under the wing's trailing edge.",
+      "confidence": "low",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Gotham Medium",
+          "Avenir Next Medium"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower"
+      },
+      "length": 0.08
+    }
+  ],
+  "notes": "Drawn from two A220-300s in early 2026 (N256BZ left, N237BZ right). Breeze launched in 2021 with a white fuselage and navy tail; this all-blue scheme replaced it later (its year isn't confirmed here, so 'from' is left out), and some aircraft may still wear the white one. The navy section's pale diagonals are simplified. Re-checked 2026-11-15 on N256BZ (near side-on) and N237BZ: the title sits under the windows (cap height y -0.175 to 0.1, x 0.177 to 0.339; it had been drawn reaching over them), lowercase 0.75 of the B; the tick crosses the windows over the 'ee' (centred y 0.2, 0.3 tall); the navy's front edge is a convex curve, now smooth. 'flybreeze.com' added: small, under the wing's trailing edge, mostly hidden by the flaps on the left photo and seen whole on the right (x about 0.59 to 0.67 once the right photo's perspective is allowed for; low).",
+  "history": "Replaces Skyarium v1's approximate standard (a few colors from memory)."
+}

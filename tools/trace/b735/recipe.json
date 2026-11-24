@@ -1,0 +1,101 @@
+{
+  "_about": "737-500, from Boeing D6-58325-6 Rev E (November 2023) 2.2.6 (page index 34): side, plan and front views on one sheet, drawn 2.6% smaller than the 737-300's. Pixels of layers.py rasters at scale 14, line centres (side_all.png: fills and the blue strokes together). The 737-300's points moved by the two plugs (plug.py: 1.37 m out ahead of the wing, 1.02 m behind it), then snapped. The cabin windows are drawn.",
+  "out": "../../../../shapes/B735.json",
+  "length": 29.79,
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "refs": {
+    "side": {
+      "nose": 221.5,
+      "tail": 3911,
+      "cowlEnd": 1716,
+      "windowRow": [1105, 1165],
+      "windowGap": 5,
+      "windowMinWidth": 20,
+      "windowInset": 2,
+      "windowBand": [1113, 1155],
+      "windowsAlso": [2438.5]
+    },
+    "plan": {
+      "nose": 219.5,
+      "centerline": 1992
+    },
+    "front": {
+      "centerline": 2037,
+      "crownTop": 933
+    }
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [754, 1031, 857, 1255]
+    },
+    {
+      "kind": "exit",
+      "box": [1839, 1084, 1893, 1194]
+    },
+    {
+      "kind": "door",
+      "box": [3106, 1031, 3209, 1255]
+    },
+    {
+      "kind": "cargo",
+      "box": [1086, 1307, 1232, 1414]
+    },
+    {
+      "kind": "cargo",
+      "box": [2597, 1288, 2744, 1404]
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [391, 1133],
+      [454, 1086],
+      [461, 1090],
+      [432, 1140],
+      [393, 1135]
+    ],
+    [
+      [437, 1139],
+      [465, 1091],
+      [507, 1101],
+      [489, 1158],
+      [439, 1142]
+    ],
+    [
+      [561, 1094],
+      [584, 1115],
+      [498, 1156],
+      [497, 1148],
+      [510, 1102],
+      [513, 1099]
+    ]
+  ],
+  "printed": {
+    "fuselage height": 4.01,
+    "fuselage width": 3.76,
+    "wingspan": 28.88,
+    "tailplane span": 12.7,
+    "engine out from the centerline": 4.83,
+    "overall length": 31.01,
+    "engine inlet from the nose": 9.35
+  },
+  "meta": {
+    "id": "B735",
+    "name": "Boeing 737-500",
+    "types": ["B735"],
+    "confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/airports/acaps/737CL_REV_E.pdf",
+        "title": "Boeing, 737-100/-200/-300/-400/-500 Airplane Characteristics for Airport Planning (D6-58325-6 Rev E, November 2023), 2.2.6 General Dimensions: Model 737-500",
+        "accessed": "2026-11-15",
+        "note": "Dimensions and outlines read off the side, plan and front views (tools/trace/b735/); the figures are the aircraft's measurements, not a copy of the drawing. The 737-300's points moved by the fuselage plugs, then snapped onto this sheet. Plain wing tips, as the sheet draws them. The sheet draws the cabin windows; the one behind the wing's line in the drawing is placed at its own position. The side view draws the fuselage 3.93 m tall (line centres) where the sheet prints 4.01 m and the front view draws 3.99 m, so the shape is fit to the printed height (fit_height.py). The side view draws the engine's inlet lip 8.94 m from the nose and the plan view 9.63 m; the sheet prints 9.35 m (the 737-300, -400 and -500 sheets all draw the plan's nacelle 0.69 m further back than the side's). The nacelle is moved 0.41 m back to the printed figure (build.py, as for any inlet more than 1.5% off); the wing stays where the plan draws it. Confidence medium for the views' disagreement."
+      }
+    ]
+  }
+}

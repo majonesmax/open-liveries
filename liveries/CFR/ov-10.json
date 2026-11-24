@@ -1,0 +1,199 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "ov-10",
+  "airline": "CFR",
+  "name": "CAL FIRE white and red (OV-10 air attack)",
+  "kind": "standard",
+  "from": "2016",
+  "confidence": "low",
+  "drawnOn": "V10",
+  "description": "CAL FIRE's scheme on its North American Rockwell OV-10A/D Bronco air-attack planes, in its colours placed for the Bronco: the pod white, its sides under the canopy red from just behind the nose cone back past the cockpit, between thin black lines and with a pair of black pinstripes on white across the middle, all leaning back toward the canopy; the air-attack number in black on the nose with CAL FIRE's emblem. The nacelles black. The twin fins red with black tips (the air-attack number in white on the black, 'CAL' over 'FIRE' in white bold capitals shadowed in black on the red), the tailplane red. The booms white with the registration in black. The outer wings with long red bands. A twin-boom aircraft drawn as a scheme on one fuselage and one fin: the pod's paint as the fuselage's, one fin for both. No measured shape for the OV-10 (under 25 m, so no card drawing in Skyarium): approximate, its colours and their order right, their places by eye.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:20250830_FS_Sierra_GarnetFire_SW_(54757389166).jpg",
+      "title": "CAL FIRE OV-10 '430' at Fresno during the Garnet Fire, 2025-08-30, right side of the pod (USDA Forest Service Region 5, public domain)",
+      "accessed": "2026-11-22",
+      "note": "The pod's sides: the red panel from behind the nose cone, its forward black line leaning back toward the canopy, the white gap with two black pinstripes, the second red panel and the black line aft, the emblem and '430' on the nose."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:20250830_FS_Sierra_GarnetFire_SW_(54756535597).jpg",
+      "title": "CAL FIRE OV-10 '430' at Fresno, 2025-08-30, right front quarter (USDA Forest Service Region 5, public domain)",
+      "accessed": "2026-11-22",
+      "note": "The whole aircraft: the red fins with black tips, the red tailplane, the wings' red outer bands, the black nacelles, the registration on the boom."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Rockwell_OV-10A_Bronco_%E2%80%98N418DF_-_340%E2%80%99_(30288492815).jpg",
+      "title": "CAL FIRE OV-10As N418DF ('340') and N470DF at McClellan, 2016, left side (Alan Wilson, CC BY-SA 2.0)",
+      "accessed": "2026-11-22",
+      "note": "The fins' lettering ('340' on the black tip, 'CAL' over 'FIRE' on the red) and the registration on the boom."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F2F4F7"
+    },
+    "red": {
+      "hex": "#D0202E",
+      "official": false,
+      "name": "CAL FIRE red (as on the C-130H, CFR/standard)"
+    },
+    "black": {
+      "hex": "#1C1F24"
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "windows": "plain",
+    "areas": [
+      {
+        "name": "the black line leading the red, leaning back toward the canopy",
+        "color": "black",
+        "points": [
+          [0.215, 0.35],
+          [0.223, 0.35],
+          [0.163, -1.0],
+          [0.155, -1.0]
+        ],
+        "confidence": "low",
+        "sourceRefs": [0]
+      },
+      {
+        "name": "the forward red panel on the pod's side, under the canopy",
+        "color": "red",
+        "points": [
+          [0.233, 0.35],
+          [0.33, 0.35],
+          [0.27, -1.0],
+          [0.173, -1.0]
+        ],
+        "confidence": "low",
+        "sourceRefs": [0]
+      },
+      {
+        "name": "the first black pinstripe on the white gap",
+        "color": "black",
+        "points": [
+          [0.344, 0.35],
+          [0.351, 0.35],
+          [0.291, -1.0],
+          [0.284, -1.0]
+        ],
+        "confidence": "low",
+        "sourceRefs": [0]
+      },
+      {
+        "name": "the second black pinstripe",
+        "color": "black",
+        "points": [
+          [0.362, 0.35],
+          [0.369, 0.35],
+          [0.309, -1.0],
+          [0.302, -1.0]
+        ],
+        "confidence": "low",
+        "sourceRefs": [0]
+      },
+      {
+        "name": "the aft red panel",
+        "color": "red",
+        "points": [
+          [0.383, 0.35],
+          [0.5, 0.35],
+          [0.44, -1.0],
+          [0.323, -1.0]
+        ],
+        "confidence": "low",
+        "sourceRefs": [0]
+      },
+      {
+        "name": "the black line closing the red",
+        "color": "black",
+        "points": [
+          [0.51, 0.35],
+          [0.517, 0.35],
+          [0.457, -1.0],
+          [0.45, -1.0]
+        ],
+        "confidence": "low",
+        "sourceRefs": [0]
+      }
+    ],
+    "confidence": "low",
+    "sourceRefs": [0, 1]
+  },
+  "fin": {
+    "base": "red",
+    "areas": [
+      {
+        "name": "the black tip",
+        "color": "black",
+        "points": [
+          [0, 0.8],
+          [1, 0.8],
+          [1, 1],
+          [0, 1]
+        ],
+        "confidence": "low",
+        "sourceRefs": [1, 2]
+      }
+    ],
+    "confidence": "low",
+    "sourceRefs": [1, 2]
+  },
+  "wings": {
+    "top": "white",
+    "under": "white"
+  },
+  "stabilizer": {
+    "top": "red",
+    "under": "white"
+  },
+  "engines": {
+    "cowling": "black",
+    "inletLip": "black",
+    "confidence": "low",
+    "sourceRefs": [1, 2]
+  },
+  "titles": [
+    {
+      "text": "CAL",
+      "place": "fin",
+      "at": [0.22, 0.56],
+      "height": 0.15,
+      "length": 0.5,
+      "color": "white",
+      "style": "White bold capitals with a black drop shadow, over 'FIRE' on the red.",
+      "confidence": "low",
+      "sourceRefs": [2],
+      "type": {
+        "similar": ["Helvetica Neue Heavy", "Arial Black"],
+        "weight": 900,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "FIRE",
+      "place": "fin",
+      "at": [0.12, 0.36],
+      "height": 0.15,
+      "length": 0.62,
+      "color": "white",
+      "style": "The lower line, a little forward of 'CAL' (as the fin sweeps).",
+      "confidence": "low",
+      "sourceRefs": [2],
+      "type": {
+        "similar": ["Helvetica Neue Heavy", "Arial Black"],
+        "weight": 900,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Placed by eye from the photos: no OV-10 shape, and the pod (the fuselage here) is seen whole in none of them, so its x shares assume the red panels run from about 0.16 to 0.52 of the pod, up to the canopy's sill (y 0.35). Not drawn: the air-attack number on the nose and on the fins' black tips (each aircraft its own: 430, 340, 240 ...), the emblem on the nose, the registration on the booms, the wings' red outer bands, 'PROPELLER' and the base's name in script. The OV-10A and OV-10D wear the same scheme."
+}

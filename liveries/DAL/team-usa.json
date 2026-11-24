@@ -1,0 +1,649 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "team-usa",
+  "airline": "DAL",
+  "name": "Team USA (A330-900)",
+  "kind": "special",
+  "confidence": "medium",
+  "drawnOn": "A339",
+  "from": "2022-01",
+  "commemorates": "Delta as official airline of Team USA (first for Beijing 2022).",
+  "description": "Fuselage: white, with sweeps rising from the belly behind the nose: a mid-blue band and a broad sky-light-blue one sweeping up over the wing to the crown aft of it; a red field on the lower aft fuselage over a navy belly. Titles: huge navy 'TEAM USA' across the windows over the wing; 'DELTA' with the widget forward, a US flag and 'OFFICIAL AIRLINE' with the Olympic rings below it. Aft, ahead of the stabilizer, the Team USA emblem: stars over two red chevrons. Tail: Delta's standard navy fin with the red widget. Engines navy.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Delta_Airbus_A330-900_Team_USA_Livery_2023-08-27.jpg",
+      "title": "Delta Airbus A330-900 Team USA Livery 2023-08-27.jpg (CC0)",
+      "accessed": "2026-11-22",
+      "note": "N411DX left side taxiing at Haneda, 2023-08-27, from above, nearly side-on: fitted to shapes/A339.json (doors 1 and 4, nose, tail, fin tip; within 15 px, 0.5 m). The sweeps, titles and emblems read off it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Delta_Air_Lines_Airbus_A330-900_N411DX_Team_USA_at_Boston_June_2025.jpg",
+      "title": "Delta Air Lines Airbus A330-900 N411DX Team USA at Boston June 2025.jpg (CC BY 4.0)",
+      "accessed": "2026-11-22",
+      "note": "N411DX left side at Boston, 2025-06-16 (the newest open photo): the same scheme, still flying."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A330-941N_(N411DX,_cn_1991)_(3-11-2024).jpg",
+      "title": "Airbus A330-941N (N411DX, cn 1991) (3-11-2024).jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-22",
+      "note": "N411DX left side, 2024-03-11: the same."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:N411DX_(aircraft)",
+      "title": "N411DX on Commons",
+      "accessed": "2026-11-22",
+      "note": "Photos 2022-2025 in the Team USA scheme, both sides."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F3F1",
+      "official": false
+    },
+    "navy": {
+      "hex": "#0B1F45",
+      "official": false,
+      "name": "Delta blue (navy)"
+    },
+    "red": {
+      "hex": "#C8102E",
+      "official": false,
+      "name": "widget red"
+    },
+    "darkRed": {
+      "hex": "#8E0A22",
+      "official": false,
+      "name": "widget's shaded facet"
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false,
+      "name": "polished inlet lip"
+    },
+    "flagRed": {
+      "hex": "#C8102E",
+      "official": false
+    },
+    "lightBlue": {
+      "hex": "#A6DDF5",
+      "official": false,
+      "name": "sky light blue"
+    },
+    "midBlue": {
+      "hex": "#1F5FB0",
+      "official": false,
+      "name": "mid blue sweep"
+    },
+    "teamNavy": {
+      "hex": "#16295B",
+      "official": false,
+      "name": "TEAM USA navy"
+    },
+    "gray": {
+      "hex": "#A9B3BD",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "sky light-blue sweep, from the belly behind the nose up over the wing to the crown",
+        "color": "lightBlue",
+        "smooth": true,
+        "points": [
+          [
+            0.17,
+            -1.0
+          ],
+          [
+            0.183,
+            -0.572
+          ],
+          [
+            0.258,
+            -0.244
+          ],
+          [
+            0.332,
+            0.044
+          ],
+          [
+            0.407,
+            0.297
+          ],
+          [
+            0.495,
+            0.485
+          ],
+          [
+            0.596,
+            0.669
+          ],
+          [
+            0.685,
+            0.804
+          ],
+          [
+            0.799,
+            0.919
+          ],
+          [
+            0.84,
+            1.0
+          ],
+          [
+            0.82,
+            1.0
+          ],
+          [
+            0.72,
+            0.62
+          ],
+          [
+            0.6,
+            0.38
+          ],
+          [
+            0.5,
+            0.17
+          ],
+          [
+            0.4,
+            -0.08
+          ],
+          [
+            0.3,
+            -0.38
+          ],
+          [
+            0.22,
+            -0.8
+          ],
+          [
+            0.2,
+            -1.0
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "mid-blue sweep under it, ending under the wing",
+        "color": "midBlue",
+        "smooth": true,
+        "points": [
+          [
+            0.18,
+            -1.0
+          ],
+          [
+            0.184,
+            -0.685
+          ],
+          [
+            0.284,
+            -0.275
+          ],
+          [
+            0.371,
+            -0.03
+          ],
+          [
+            0.466,
+            0.072
+          ],
+          [
+            0.53,
+            0.1
+          ],
+          [
+            0.5,
+            -0.04
+          ],
+          [
+            0.4,
+            -0.28
+          ],
+          [
+            0.3,
+            -0.58
+          ],
+          [
+            0.23,
+            -1.0
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "red field on the lower aft fuselage",
+        "color": "red",
+        "smooth": true,
+        "points": [
+          [
+            0.46,
+            -1.0
+          ],
+          [
+            0.48,
+            -0.42
+          ],
+          [
+            0.565,
+            -0.289
+          ],
+          [
+            0.628,
+            -0.227
+          ],
+          [
+            0.754,
+            -0.096
+          ],
+          [
+            0.88,
+            -0.242
+          ],
+          [
+            0.968,
+            -0.467
+          ],
+          [
+            1.0,
+            -0.55
+          ],
+          [
+            1.0,
+            -1.0
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "navy belly",
+        "color": "navy",
+        "smooth": true,
+        "points": [
+          [
+            0.2,
+            -1.0
+          ],
+          [
+            0.286,
+            -0.727
+          ],
+          [
+            0.439,
+            -0.543
+          ],
+          [
+            0.566,
+            -0.442
+          ],
+          [
+            0.693,
+            -0.419
+          ],
+          [
+            0.82,
+            -0.733
+          ],
+          [
+            0.944,
+            -0.967
+          ],
+          [
+            0.95,
+            -1.0
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "plain",
+    "confidence": "low",
+    "sourceRefs": [
+      1,
+      2,
+      3
+    ]
+  },
+  "fin": {
+    "base": "navy",
+    "areas": [
+      {
+        "name": "widget, bright upper facet",
+        "color": "red",
+        "points": [
+          [
+            0.073,
+            0.737
+          ],
+          [
+            0.99,
+            0.732
+          ],
+          [
+            0.99,
+            0.601
+          ],
+          [
+            0.589,
+            0.395
+          ],
+          [
+            0.028,
+            0.57
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "widget, shaded left facet",
+        "color": "darkRed",
+        "points": [
+          [
+            0.028,
+            0.57
+          ],
+          [
+            0.589,
+            0.395
+          ],
+          [
+            0.762,
+            -0.031
+          ],
+          [
+            0.614,
+            -0.031
+          ],
+          [
+            0.021,
+            0.439
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "widget, bright lower-right facet",
+        "color": "red",
+        "points": [
+          [
+            0.773,
+            0.32
+          ],
+          [
+            1.002,
+            0.452
+          ],
+          [
+            0.995,
+            0.219
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "widget, shaded lower-right facet",
+        "color": "darkRed",
+        "points": [
+          [
+            0.773,
+            0.32
+          ],
+          [
+            0.995,
+            0.219
+          ],
+          [
+            1.01,
+            -0.057
+          ],
+          [
+            0.86,
+            -0.057
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2
+        ]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "stabilizer": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "engines": {
+    "cowling": "navy",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "DAL/widget",
+      "place": "fuselage",
+      "at": [
+        0.116,
+        0.348
+      ],
+      "height": 0.2,
+      "colors": [
+        "red",
+        "darkRed"
+      ],
+      "description": "Delta's widget ahead of 'DELTA'.",
+      "confidence": "high",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "DAL/us-flag",
+      "place": "fuselage",
+      "at": [
+        0.112,
+        -0.03
+      ],
+      "height": 0.17,
+      "colors": [
+        "flagRed",
+        "white",
+        "navy"
+      ],
+      "description": "A US flag under the widget, with 'OFFICIAL AIRLINE' beside it.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "DAL/olympic-rings",
+      "place": "fuselage",
+      "at": [
+        0.112,
+        -0.2
+      ],
+      "height": 0.1,
+      "colors": [
+        "gray"
+      ],
+      "description": "The Olympic rings, small and gray, under the flag (the IOC's mark, carried as Team USA's official airline).",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "DAL/team-usa-chevrons",
+      "place": "fuselage",
+      "at": [
+        0.855,
+        0.19
+      ],
+      "height": 0.37,
+      "colors": [
+        "red",
+        "midBlue"
+      ],
+      "description": "The Team USA emblem ahead of the stabilizer: three small blue stars over two red chevrons pointing down.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "DAL/us-flag",
+      "place": "fuselage",
+      "at": [
+        0.744,
+        0.37
+      ],
+      "height": 0.1,
+      "colors": [
+        "flagRed",
+        "white",
+        "navy"
+      ],
+      "description": "A small US flag ahead of the registration over the rear windows.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "TEAM USA",
+      "place": "fuselage",
+      "at": [
+        0.336,
+        -0.399
+      ],
+      "height": 1.04,
+      "length": 0.285,
+      "color": "teamNavy",
+      "style": "Huge navy capitals, condensed and slanted, from over the forward wing root to over the trailing edge, the windows through them.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Oswald Bold",
+          "Bebas Neue"
+        ],
+        "weight": 700,
+        "slantDeg": 8,
+        "width": "condensed",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "DELTA",
+      "place": "fuselage",
+      "at": [
+        0.14,
+        0.254
+      ],
+      "height": 0.21,
+      "length": 0.089,
+      "color": "navy",
+      "style": "Delta's wordmark, spaced capitals over the forward windows.",
+      "confidence": "high",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "Gotham Medium",
+          "Montserrat SemiBold"
+        ],
+        "weight": 600,
+        "slantDeg": 8,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "OFFICIAL AIRLINE",
+      "place": "fuselage",
+      "at": [
+        0.14,
+        -0.02
+      ],
+      "height": 0.06,
+      "length": 0.075,
+      "color": "gray",
+      "style": "Small gray capitals beside the flag.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "Gotham Book",
+          "Montserrat"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Measured on N411DX's left side (Haneda 2023-08-27, from above; checked on Boston 2025-06-16 and 2024-03-11). The sweeps' edges are read off by hand and drawn smooth through a few points each; the wing and engine hide their middles, so between x 0.4 and 0.55 low on the body they're estimated (low). The light blue is a gradient on the aircraft, lighter toward the crown; drawn flat. 'TEAM USA' is the scheme's lettering, not a typeface: its stand-in is close in weight and slant only. The fin is Delta's standard (copied from DAL/standard). The right side isn't measured; the photos show it mirrored. The Olympic rings are the IOC's: a renderer may leave them out (no simplified mark proposed)."
+}

@@ -1,0 +1,15 @@
+{
+  "_about": "Boeing MD-11 Airport Planning (Rev E), 2.2: page index 13, layers.py --mode image --unrotate --rotate 180 at scale 4, clip 95,440,520,740 (plan). Pixels of that raster, line centres; the upper half (the aircraft's right side, the same as its left). The fuselage's end is under the tail engine's nacelle: bridged to a free point at the tail cone's end. The tail engine's nacelle from above (tail.halfWidth): inlet, fan cowl, nozzle and plug.",
+  "fuselage.halfWidth": [
+    [38, 848], [41, 830], [50, 815], [70, 801], [100, 790], [160, 779], [250, 772], [400, 770], [1100, 770],
+    [1200, 772], [1300, 782], [1360, 789], [1450, 806], "hidden", {"free": [1583, 826]}
+  ],
+  "wing.leading": [[666, 770], [780, 620], "hidden", [810, 580], [1000, 331], [1100, 199], [1110, 189]],
+  "wing.trailing": [[978, 769], [990, 718], [1002, 663], [1100, 420], [1190, 192], [1205, 178]],
+  "stabilizer.leading": [[1362, 787], [1440, 700], [1515, 620], [1522, 616]],
+  "stabilizer.trailing": [[1506, 812], [1540, 715], [1572, 617]],
+  "tail.halfWidth": [
+    [1284, 846], [1285, 815], [1295, 804], [1350, 804], [1450, 807], [1540, 809], [1578, 810], [1600, 820],
+    [1620, 829], [1640, 838], [1660, 846]
+  ]
+}

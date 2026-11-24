@@ -1,0 +1,458 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "cargo",
+  "airline": "SIA",
+  "name": "Singapore Airlines Cargo",
+  "kind": "standard",
+  "confidence": "medium",
+  "drawnOn": "B744",
+  "description": "Singapore Airlines' scheme on the 747-400Fs: white, the midnight-blue band with orange line and muted-gold band under it from behind the nose to the tail; 'SINGAPORE AIRLINES CARGO' in spaced dark-blue capitals over the forward fuselage with a small flag after it; dark-blue fin with the gold Kris bird and orange trailing-edge stripe; white engines, dark-blue winglets.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:(SGP-Singapore)_Singapore_Airlines_Boeing_787-10_9V-SCU_@_WSSS_2025-11-19.jpg",
+      "title": "(SGP-Singapore) Singapore Airlines Boeing 787-10 9V-SCU @ WSSS 2025-11-19 (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Right side, level, 2025-11-19: cheatline layers and ends, title size and place, flag, fin stripe."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:9V-SKP_-_Airbus_A380-841_-_Singapore_Airlines_SIN_230325.jpg",
+      "title": "9V-SKP - Airbus A380-841 - Singapore Airlines SIN 230325 (CC BY 2.0)",
+      "accessed": "2026-11-13",
+      "note": "Left side, 2025: the Kris bird as seen from the left (its wing strokes rise aft on both sides), the orange trailing-edge stripe, the flag aft of the title."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:(SGP-Singapore)_Singapore_Airlines_Airbus_A350-941_9V-SMP_@_WSSS_2026-09-03.jpg",
+      "title": "(SGP-Singapore) Singapore Airlines Airbus A350-941 9V-SMP @ WSSS 2026-09-03 (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Right side from below, 2026-09-03: belly and engines white, dark winglet."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Singapore_Airlines_(9V-MBD)_Boeing_737_MAX_8_at_Darwin,_Oct_2025_01.jpg",
+      "title": "Singapore Airlines (9V-MBD) Boeing 737 MAX 8 at Darwin, Oct 2025 (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Right side, 2025-10-11: the same scheme on the narrow-bodies taken over from Scoot/SilkAir."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Singapore_Airlines#Corporate_livery",
+      "title": "Singapore Airlines, 'Corporate livery' (Wikipedia)",
+      "accessed": "2026-11-13",
+      "note": "The 1987 livery, its 2005 update, the orange line behind the bird, engine logos removed since 2007."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:(SGP-Singapore)_Singapore_Airlines_Cargo_Boeing_747-412F_9V-SFQ_@_WSSS_2026-03-11.jpg",
+      "title": "(SGP-Singapore) Singapore Airlines Cargo Boeing 747-412F 9V-SFQ @ WSSS 2026-03-11 (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Left side from below, 2026-03-11: the title, flag after it, cheatline running to the tail, fin."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:(SGP-Singapore)_Singapore_Airlines_Cargo_Boeing_747-412F_9V-SFI_@_WSSS_2026-09-03.jpg",
+      "title": "(SGP-Singapore) Singapore Airlines Cargo Boeing 747-412F 9V-SFI @ WSSS 2026-09-03 (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Right side, 2026-09-03: the same title and bands."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Singapore_Airlines_Cargo",
+      "title": "Wikipedia: Singapore Airlines Cargo",
+      "accessed": "2026-11-13",
+      "note": "Seven 747-400Fs; five 777Fs operated for DHL (in DHL paint); A350Fs on order."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F4F5F6",
+      "official": false
+    },
+    "navy": {
+      "hex": "#1F2A5A",
+      "name": "midnight blue",
+      "official": false
+    },
+    "gold": {
+      "hex": "#C9AE72",
+      "name": "Kris bird gold",
+      "official": false
+    },
+    "bandGold": {
+      "hex": "#B99D5C",
+      "name": "muted gold band",
+      "official": false
+    },
+    "orange": {
+      "hex": "#E0782A",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#BEC2C7",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C8CBCF",
+      "name": "bare metal inlet lip",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "dark-blue window band",
+        "color": "navy",
+        "points": [
+          [
+            0.108,
+            0.05
+          ],
+          [
+            1.0,
+            0.05
+          ],
+          [
+            1.0,
+            0.2
+          ],
+          [
+            0.108,
+            0.2
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "thin orange line, over the gold band",
+        "color": "orange",
+        "points": [
+          [
+            0.108,
+            0.015
+          ],
+          [
+            1.0,
+            0.015
+          ],
+          [
+            1.0,
+            0.045
+          ],
+          [
+            0.108,
+            0.045
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "muted gold band",
+        "color": "bandGold",
+        "points": [
+          [
+            0.11,
+            -0.1
+          ],
+          [
+            1.0,
+            -0.1
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.11,
+            0.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "windows": "hidden",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2,
+      5,
+      6
+    ]
+  },
+  "fin": {
+    "base": "navy",
+    "areas": [
+      {
+        "name": "orange trailing-edge stripe",
+        "color": "orange",
+        "points": [
+          [
+            0.955,
+            -0.05
+          ],
+          [
+            1.05,
+            -0.05
+          ],
+          [
+            1.05,
+            1.05
+          ],
+          [
+            0.955,
+            1.05
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "Kris bird, wing strokes",
+        "color": "gold",
+        "points": [
+          [
+            0.06,
+            0.77
+          ],
+          [
+            0.25,
+            0.7
+          ],
+          [
+            0.45,
+            0.62
+          ],
+          [
+            0.65,
+            0.54
+          ],
+          [
+            0.65,
+            0.14
+          ],
+          [
+            0.5,
+            0.1
+          ],
+          [
+            0.06,
+            0.3
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "gap between the upper wing strokes",
+        "color": "navy",
+        "points": [
+          [
+            0.23,
+            0.71
+          ],
+          [
+            0.275,
+            0.7
+          ],
+          [
+            0.275,
+            0.24
+          ],
+          [
+            0.23,
+            0.25
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "gap between the lower wing strokes",
+        "color": "navy",
+        "points": [
+          [
+            0.43,
+            0.63
+          ],
+          [
+            0.475,
+            0.62
+          ],
+          [
+            0.475,
+            0.16
+          ],
+          [
+            0.43,
+            0.17
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "Kris bird, curling foot",
+        "color": "gold",
+        "points": [
+          [
+            0.0,
+            0.31
+          ],
+          [
+            0.12,
+            0.33
+          ],
+          [
+            0.5,
+            0.15
+          ],
+          [
+            0.72,
+            0.1
+          ],
+          [
+            0.92,
+            0.1
+          ],
+          [
+            0.93,
+            0.06
+          ],
+          [
+            0.6,
+            0.05
+          ],
+          [
+            0.3,
+            0.17
+          ],
+          [
+            0.07,
+            0.27
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "navy",
+    "inner": "navy",
+    "confidence": "low",
+    "sourceRefs": [
+      2,
+      3
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "SIA/kris-bird",
+      "place": "fin",
+      "at": [
+        0.4,
+        0.42
+      ],
+      "height": 0.72,
+      "colors": [
+        "gold",
+        "navy"
+      ],
+      "description": "The Singapore Airlines bird: three parallel gold strokes sweeping up and back like a wing, flowing at the bottom into a curl that reaches forward, on the dark-blue fin; it faces the nose on both sides.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Singapore_Airlines_Logo.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "SIA/singapore-flag",
+      "place": "fuselage",
+      "at": [
+        0.66,
+        0.3
+      ],
+      "height": 0.15,
+      "colors": [
+        "#EF3340",
+        "#FFFFFF"
+      ],
+      "description": "A small Singapore flag (red over white, a white crescent and five stars in the red) just aft of the title.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Flag_of_Singapore.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        5
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "SINGAPORE AIRLINES CARGO",
+      "place": "fuselage",
+      "at": [
+        0.156,
+        0.26
+      ],
+      "height": 0.28,
+      "length": 0.468,
+      "color": "navy",
+      "style": "The passenger title's spaced dark-blue capitals, with 'CARGO' added, over the forward fuselage just above the blue band.",
+      "confidence": "medium",
+      "sourceRefs": [
+        5,
+        6
+      ],
+      "type": {
+        "similar": [
+          "Futura Medium",
+          "Century Gothic Bold"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "The passenger scheme (standard.json) with 'CARGO' added to the title and no windows. Measured on 747-400Fs 9V-SFQ (left, March 2026) and 9V-SFI (right, September 2026). Along the tapering tail cone the horizontal gold band covers more of the fuselage's lower side, so it looks broader aft; it is the same band. The 777Fs Singapore Airlines flies for DHL wear DHL's scheme, not this one. Re-checked 2026-11-15: nothing to change; the title has its measured length and every edge is straight.",
+  "history": "Added with the cargo divisions (2026-11-13). The 747-400Fs have worn this since delivery (1990s-2000s)."
+}

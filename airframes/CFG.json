@@ -1,0 +1,795 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "CFG",
+  "airframes": [
+    {
+      "registration": "D-ABOI",
+      "hex": "3c49e9",
+      "hexSource": "looked up: hexdb.io community database and tar1090-db (github.com/wiedehopf/tar1090-db) agree (2026-11-22); not verified against the German register",
+      "type": "B753",
+      "livery": "sea",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:D-ABOI_Condor_Boeing_757-330(WL)_2.jpg",
+          "title": "D-ABOI Condor Boeing 757-330(WL) 2.jpg (CC BY 2.0, Tony Hisgett)",
+          "accessed": "2026-11-22",
+          "note": "757-300 D-ABOI in Sea stripes, 2023-06-07."
+        }
+      ],
+      "lastSeen": "2023-06-07",
+      "notes": "The newest photo is from 2023; Condor has been retiring its 757s."
+    },
+    {
+      "registration": "D-AIAF",
+      "hex": "3c6426",
+      "hexSource": "looked up: hexdb.io community database and tar1090-db (github.com/wiedehopf/tar1090-db) agree (2026-11-22); not verified against the German register",
+      "type": "A321",
+      "livery": "sea",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:D-AIAF_AIRCRAFT_Airbus_A321-211_(1b).jpg",
+          "title": "D-AIAF AIRCRAFT Airbus A321-211 (1b).jpg (CC BY-SA 4.0, Sg1959)",
+          "accessed": "2026-11-22",
+          "note": "A321 D-AIAF in Sea stripes, 2025-12-02."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Condor_Sea_livery",
+          "accessed": "2026-11-22",
+          "note": "Commons files D-AIAF under Condor's Sea livery."
+        }
+      ],
+      "lastSeen": "2025-12-02"
+    },
+    {
+      "registration": "D-AICA",
+      "hex": "3c6461",
+      "hexSource": "looked up: hexdb.io community database and tar1090-db (github.com/wiedehopf/tar1090-db) agree (2026-11-22); not verified against the German register",
+      "type": "A320",
+      "livery": "sea",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Airbus_A320-212_(c-n_774,_D-AICA)_2026-10-07_Andre_Gerwing_Collection_ID_031376.jpg",
+          "title": "Airbus A320-212 (c-n 774, D-AICA) 2026-10-07 Andre Gerwing Collection ID 031376.jpg (CC BY-SA 4.0, André Gerwing)",
+          "accessed": "2026-11-22",
+          "note": "A320 D-AICA in Sea stripes, 2026-10-07."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Condor_Sea_livery",
+          "accessed": "2026-11-22",
+          "note": "Commons files D-AICA under Condor's Sea livery."
+        }
+      ],
+      "lastSeen": "2026-10-07"
+    },
+    {
+      "registration": "D-AICI",
+      "hex": "3c6469",
+      "hexSource": "looked up: hexdb.io community database and tar1090-db (github.com/wiedehopf/tar1090-db) agree (2026-11-22); not verified against the German register",
+      "type": "A320",
+      "livery": "sea",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Airbus_A320-212_(c-n_1381,_D-AICI)_2026-06-11_Andre_Gerwing_Collection_ID_029725.jpg",
+          "title": "Airbus A320-212 (c-n 1381, D-AICI) 2026-06-11 Andre Gerwing Collection ID 029725.jpg (CC BY-SA 4.0, André Gerwing)",
+          "accessed": "2026-11-22",
+          "note": "A320 D-AICI in Sea stripes, 2026-06-11."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Condor_Sea_livery",
+          "accessed": "2026-11-22",
+          "note": "Commons files D-AICI under Condor's Sea livery."
+        }
+      ],
+      "lastSeen": "2026-06-11"
+    },
+    {
+      "registration": "D-AICT",
+      "hex": "3c6474",
+      "hexSource": "looked up: tar1090-db community database (github.com/wiedehopf/tar1090-db, 2026-11-22; hexdb.io has no record); not verified against the German register",
+      "type": "A320",
+      "livery": "sea",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Airbus_A320-214_(c-n_5661,_D-AICT)_2026-06-09_Andre_Gerwing_Collection_ID_029505.jpg",
+          "title": "Airbus A320-214 (c-n 5661, D-AICT) 2026-06-09 Andre Gerwing Collection ID 029505.jpg (CC BY-SA 4.0, André Gerwing)",
+          "accessed": "2026-11-22",
+          "note": "A320 D-AICT in Sea stripes, 2026-06-09."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Condor_Sea_livery",
+          "accessed": "2026-11-22",
+          "note": "Commons files D-AICT under Condor's Sea livery."
+        }
+      ],
+      "lastSeen": "2026-06-09"
+    },
+    {
+      "registration": "D-ANLC",
+      "hex": "3c7983",
+      "hexSource": "looked up: tar1090-db community database (github.com/wiedehopf/tar1090-db, 2026-11-22; hexdb.io has no record); not verified against the German register",
+      "type": "A21N",
+      "livery": "sea",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://www.planespotters.net/photo/1998676/d-anlc-condor-airbus-a321-271nx",
+          "title": "planespotters.net photo 1998676 (JRC Aviation)",
+          "accessed": "2026-11-22",
+          "note": "Sea stripes on the thumbnail from planespotters.net's public photo API. Spotter site, evidence only; the API gives no date and the photo page blocks automated access, so undated."
+        }
+      ],
+      "notes": "No Commons photo yet: confirm with a dated photo."
+    },
+    {
+      "registration": "D-ANLD",
+      "hex": "3c7984",
+      "hexSource": "looked up: tar1090-db community database (github.com/wiedehopf/tar1090-db, 2026-11-22; hexdb.io has no record); not verified against the German register",
+      "type": "A21N",
+      "livery": "sea",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:D-ANLD_A321neo,_Condor,_Palma_de_Mallorca_09-05-26.jpg",
+          "title": "D-ANLD A321neo, Condor, Palma de Mallorca 09-05-26.jpg (CC BY 4.0, DUNCAN KIRK)",
+          "accessed": "2026-11-22",
+          "note": "A321neo D-ANLD in Sea stripes, 2026-09-06."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Condor_Sea_livery",
+          "accessed": "2026-11-22",
+          "note": "Commons files D-ANLD under Condor's Sea livery."
+        }
+      ],
+      "lastSeen": "2026-09-06"
+    },
+    {
+      "registration": "D-ANLE",
+      "hex": "3c7985",
+      "hexSource": "looked up: tar1090-db community database (github.com/wiedehopf/tar1090-db, 2026-11-22; hexdb.io has no record); not verified against the German register",
+      "type": "A21N",
+      "livery": "sea",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://www.planespotters.net/photo/2002006/d-anle-condor-airbus-a321-271nx",
+          "title": "planespotters.net photo 2002006 (Sierra Aviation Photography)",
+          "accessed": "2026-11-22",
+          "note": "Sea stripes on the thumbnail from planespotters.net's public photo API. Spotter site, evidence only; the API gives no date and the photo page blocks automated access, so undated."
+        }
+      ],
+      "notes": "No Commons photo yet: confirm with a dated photo."
+    },
+    {
+      "registration": "D-ANRB",
+      "hex": "3c7a42",
+      "hexSource": "looked up: hexdb.io community database and tar1090-db (github.com/wiedehopf/tar1090-db) agree (2026-11-22); not verified against the German register",
+      "type": "A339",
+      "livery": "sea",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:D-ANRB_AIRCRAFT_Airbus_A330-941_-1b.jpg",
+          "title": "D-ANRB AIRCRAFT Airbus A330-941 -1b.jpg (CC BY-SA 4.0, Sg1959)",
+          "accessed": "2026-11-22",
+          "note": "A330-900 D-ANRB in Sea stripes, 2026-03-08."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Condor_Sea_livery",
+          "accessed": "2026-11-22",
+          "note": "Commons files D-ANRB under Condor's Sea livery."
+        }
+      ],
+      "lastSeen": "2026-03-08"
+    },
+    {
+      "registration": "D-ANRC",
+      "hex": "3c7a43",
+      "hexSource": "looked up: hexdb.io community database and tar1090-db (github.com/wiedehopf/tar1090-db) agree (2026-11-22); not verified against the German register",
+      "type": "A339",
+      "livery": "sea",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:D-ANRC_AIRCRAFT_Airbus_A330-941_-1b.jpg",
+          "title": "D-ANRC AIRCRAFT Airbus A330-941 -1b.jpg (CC BY-SA 4.0, Sg1959)",
+          "accessed": "2026-11-22",
+          "note": "A330-900 D-ANRC in Sea stripes, 2026-05-23."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Condor_Sea_livery",
+          "accessed": "2026-11-22",
+          "note": "Commons files D-ANRC under Condor's Sea livery."
+        }
+      ],
+      "lastSeen": "2026-05-23"
+    },
+    {
+      "registration": "D-ANRF",
+      "hex": "3c7a46",
+      "hexSource": "looked up: hexdb.io community database and tar1090-db (github.com/wiedehopf/tar1090-db) agree (2026-11-22); not verified against the German register",
+      "type": "A339",
+      "livery": "sea",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:D-ANRF_at_YYZ_20260701.jpg",
+          "title": "D-ANRF at YYZ 20260701.jpg (CC BY 4.0, VynedJ)",
+          "accessed": "2026-11-22",
+          "note": "A330-900 D-ANRF in Sea stripes, 2026-07-01."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Condor_Sea_livery",
+          "accessed": "2026-11-22",
+          "note": "Commons files D-ANRF under Condor's Sea livery."
+        }
+      ],
+      "lastSeen": "2026-07-01"
+    },
+    {
+      "registration": "D-ANRG",
+      "hex": "3c7a47",
+      "hexSource": "looked up: hexdb.io community database and tar1090-db (github.com/wiedehopf/tar1090-db) agree (2026-11-22); not verified against the German register",
+      "type": "A339",
+      "livery": "sea",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:D-ANRG_1758647253_c281a450.jpg",
+          "title": "D-ANRG 1758647253 c281a450.jpg (CC BY-SA 4.0, Sg1959)",
+          "accessed": "2026-11-22",
+          "note": "A330-900 D-ANRG in Sea stripes, 2025-11."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Condor_Sea_livery",
+          "accessed": "2026-11-22",
+          "note": "Commons files D-ANRG under Condor's Sea livery."
+        }
+      ],
+      "lastSeen": "2025-11"
+    },
+    {
+      "registration": "D-ANRN",
+      "hex": "3c7a4e",
+      "hexSource": "looked up: hexdb.io community database and tar1090-db (github.com/wiedehopf/tar1090-db) agree (2026-11-22); not verified against the German register",
+      "type": "A339",
+      "livery": "sea",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:D-ANRN.jpg",
+          "title": "D-ANRN.jpg (CC BY-SA 4.0, Liam Thompson)",
+          "accessed": "2026-11-22",
+          "note": "A330-900 D-ANRN in Sea stripes, 2026-05-02."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Condor_Sea_livery",
+          "accessed": "2026-11-22",
+          "note": "Commons files D-ANRN under Condor's Sea livery."
+        }
+      ],
+      "lastSeen": "2026-05-02"
+    },
+    {
+      "registration": "D-ANRT",
+      "hex": "3c7a54",
+      "hexSource": "looked up: hexdb.io community database and tar1090-db (github.com/wiedehopf/tar1090-db) agree (2026-11-22); not verified against the German register",
+      "type": "A339",
+      "livery": "sea",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Condor_Airbus_A330-941_D-ANRT_at_YYZ.jpg",
+          "title": "Condor Airbus A330-941 D-ANRT at YYZ.jpg (CC BY-SA 2.0, Stanley Ip)",
+          "accessed": "2026-11-22",
+          "note": "A330-900 D-ANRT in Sea stripes, 2025-02-23."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Condor_Sea_livery",
+          "accessed": "2026-11-22",
+          "note": "Commons files D-ANRT under Condor's Sea livery."
+        }
+      ],
+      "lastSeen": "2025-02-23",
+      "notes": "Carries 'danke, tecke' in place of the 'condor' title (a farewell to CEO Ralf Teckentrup), seen 2024-07-04 and 2025-02-23; drawn with the 'condor' title. Whether it still carries it is unknown."
+    },
+    {
+      "registration": "D-ATCA",
+      "hex": "3c0ac5",
+      "hexSource": "looked up: hexdb.io community database and tar1090-db (github.com/wiedehopf/tar1090-db) agree (2026-11-22); not verified against the German register",
+      "type": "A321",
+      "livery": "sea",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Airbus_A321-211_(c-n_4334,_D-ATCA)_2026-10-07_Andre_Gerwing_Collection_ID_031402.jpg",
+          "title": "Airbus A321-211 (c-n 4334, D-ATCA) 2026-10-07 Andre Gerwing Collection ID 031402.jpg (CC BY-SA 4.0, André Gerwing)",
+          "accessed": "2026-11-22",
+          "note": "A321 D-ATCA in Sea stripes, 2026-10-07."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Condor_Sea_livery",
+          "accessed": "2026-11-22",
+          "note": "Commons files D-ATCA under Condor's Sea livery."
+        }
+      ],
+      "lastSeen": "2026-10-07"
+    },
+    {
+      "registration": "D-ATCF",
+      "hex": "3c0aca",
+      "hexSource": "looked up: hexdb.io community database and tar1090-db (github.com/wiedehopf/tar1090-db) agree (2026-11-22); not verified against the German register",
+      "type": "A321",
+      "livery": "sea",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:D-ATCF_AIRCRAFT_Airbus_A321-211_-1c.jpg",
+          "title": "D-ATCF AIRCRAFT Airbus A321-211 -1c.jpg (CC BY-SA 4.0, Sg1959)",
+          "accessed": "2026-11-22",
+          "note": "A321 D-ATCF in Sea stripes, 2026-05-23."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Condor_Sea_livery",
+          "accessed": "2026-11-22",
+          "note": "Commons files D-ATCF under Condor's Sea livery."
+        }
+      ],
+      "lastSeen": "2026-05-23"
+    },
+    {
+      "registration": "D-ABOM",
+      "hex": "3c49ed",
+      "hexSource": "looked up: hexdb.io community database and tar1090-db (github.com/wiedehopf/tar1090-db) agree (2026-11-22); not verified against the German register",
+      "type": "B753",
+      "livery": "passion",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:D-ABOM_1753283661_d1751393.jpg",
+          "title": "D-ABOM 1753283661 d1751393.jpg (CC BY-SA 4.0, Sg1959)",
+          "accessed": "2026-11-22",
+          "note": "757-300 D-ABOM in Passion stripes, 2025-11."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Condor_Passion_livery",
+          "accessed": "2026-11-22",
+          "note": "Commons files D-ABOM under Condor's Passion livery."
+        }
+      ],
+      "lastSeen": "2025-11"
+    },
+    {
+      "registration": "D-AIAI",
+      "hex": "3c6429",
+      "hexSource": "looked up: hexdb.io community database and tar1090-db (github.com/wiedehopf/tar1090-db) agree (2026-11-22); not verified against the German register",
+      "type": "A321",
+      "livery": "passion",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:D-AIAI_AIRCRAFT_Airbus_A321-211_-1l.jpg",
+          "title": "D-AIAI AIRCRAFT Airbus A321-211 -1l.jpg (CC BY-SA 4.0, Sg1959)",
+          "accessed": "2026-11-22",
+          "note": "A321 D-AIAI in Passion stripes, 2026-06-14."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Condor_Passion_livery",
+          "accessed": "2026-11-22",
+          "note": "Commons files D-AIAI under Condor's Passion livery."
+        }
+      ],
+      "lastSeen": "2026-06-14"
+    },
+    {
+      "registration": "D-ANCW",
+      "hex": "3c7877",
+      "hexSource": "looked up: tar1090-db community database (github.com/wiedehopf/tar1090-db, 2026-11-22; hexdb.io has no record); not verified against the German register",
+      "type": "A20N",
+      "livery": "passion",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:D-ANCW_A320neo,_Palma_de_Mallorca_09-05-26.jpg",
+          "title": "D-ANCW A320neo, Palma de Mallorca 09-05-26.jpg (CC BY 4.0, DUNCAN KIRK)",
+          "accessed": "2026-11-22",
+          "note": "A320neo D-ANCW in Passion stripes, 2026-09-06."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Condor_Passion_livery",
+          "accessed": "2026-11-22",
+          "note": "Commons files D-ANCW under Condor's Passion livery."
+        }
+      ],
+      "lastSeen": "2026-09-06"
+    },
+    {
+      "registration": "D-ANCX",
+      "hex": "3c7878",
+      "hexSource": "looked up: tar1090-db community database (github.com/wiedehopf/tar1090-db, 2026-11-22; hexdb.io has no record); not verified against the German register",
+      "type": "A20N",
+      "livery": "passion",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:D-ANCX_A320neo,_Condor,_Palma_de_Mallorca_09-04-26.jpg",
+          "title": "D-ANCX A320neo, Condor, Palma de Mallorca 09-04-26.jpg (CC BY 4.0, DUNCAN KIRK)",
+          "accessed": "2026-11-22",
+          "note": "A320neo D-ANCX in Passion stripes, 2026-09-05."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Condor_Passion_livery",
+          "accessed": "2026-11-22",
+          "note": "Commons files D-ANCX under Condor's Passion livery."
+        }
+      ],
+      "lastSeen": "2026-09-05"
+    },
+    {
+      "registration": "D-ANCY",
+      "hex": "3c7879",
+      "hexSource": "looked up: hexdb.io community database and tar1090-db (github.com/wiedehopf/tar1090-db) agree (2026-11-22); not verified against the German register",
+      "type": "A20N",
+      "livery": "passion",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Airbus_A320-271N_(c-n_12303,_D-ANCY)_2025-05-23_Andre_Gerwing_Collection_ID_023804.jpg",
+          "title": "Airbus A320-271N (c-n 12303, D-ANCY) 2025-05-23 Andre Gerwing Collection ID 023804.jpg (CC BY-SA 4.0, André Gerwing)",
+          "accessed": "2026-11-22",
+          "note": "A320neo D-ANCY in Passion stripes, 2025-05-23."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Condor_Passion_livery",
+          "accessed": "2026-11-22",
+          "note": "Commons files D-ANCY under Condor's Passion livery."
+        }
+      ],
+      "lastSeen": "2025-05-23"
+    },
+    {
+      "registration": "D-ANCZ",
+      "hex": "3c787a",
+      "hexSource": "looked up: hexdb.io community database and tar1090-db (github.com/wiedehopf/tar1090-db) agree (2026-11-22); not verified against the German register",
+      "type": "A20N",
+      "livery": "passion",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:D-ANCZ_AIRCRAFT_Airbus_A320-271N_-1c.jpg",
+          "title": "D-ANCZ AIRCRAFT Airbus A320-271N -1c.jpg (CC BY-SA 4.0, Sg1959)",
+          "accessed": "2026-11-22",
+          "note": "A320neo D-ANCZ in Passion stripes, 2026-04-25."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Condor_Passion_livery",
+          "accessed": "2026-11-22",
+          "note": "Commons files D-ANCZ under Condor's Passion livery."
+        }
+      ],
+      "lastSeen": "2026-04-25"
+    },
+    {
+      "registration": "D-ATCG",
+      "hex": "3c0acb",
+      "hexSource": "looked up: hexdb.io community database and tar1090-db (github.com/wiedehopf/tar1090-db) agree (2026-11-22); not verified against the German register",
+      "type": "A321",
+      "livery": "passion",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:D-ATCG_AIRCRAFT_Airbus_A321-211.jpg",
+          "title": "D-ATCG AIRCRAFT Airbus A321-211.jpg (CC BY-SA 4.0, Sg1959)",
+          "accessed": "2026-11-22",
+          "note": "A321 D-ATCG in Passion stripes, 2026-02-08."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Condor_Passion_livery",
+          "accessed": "2026-11-22",
+          "note": "Commons files D-ATCG under Condor's Passion livery."
+        }
+      ],
+      "lastSeen": "2026-02-08"
+    },
+    {
+      "registration": "D-ABOJ",
+      "hex": "3c49ea",
+      "hexSource": "looked up: hexdb.io community database and tar1090-db (github.com/wiedehopf/tar1090-db) agree (2026-11-22); not verified against the German register",
+      "type": "B753",
+      "livery": "sunshine",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Boeing_757-300_(D-ABOJ),_Düsseldorf_DUS_(DE)_--_2024_--_0540.jpg",
+          "title": "Boeing 757-300 (D-ABOJ), Düsseldorf DUS (DE) -- 2024 -- 0540.jpg (CC BY 4.0, Anil Öztas)",
+          "accessed": "2026-11-22",
+          "note": "757-300 D-ABOJ in Sunshine stripes, 2024-09-29."
+        }
+      ],
+      "lastSeen": "2024-09-29",
+      "notes": "The newest photo is from 2024; Condor has been retiring its 757s."
+    },
+    {
+      "registration": "D-AIAD",
+      "hex": "3c6424",
+      "hexSource": "looked up: hexdb.io community database and tar1090-db (github.com/wiedehopf/tar1090-db) agree (2026-11-22); not verified against the German register",
+      "type": "A321",
+      "livery": "sunshine",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:D-AIAD_A321,_Condor,_Palma_de_Mallorca_09-05-26.jpg",
+          "title": "D-AIAD A321, Condor, Palma de Mallorca 09-05-26.jpg (CC BY 4.0, DUNCAN KIRK)",
+          "accessed": "2026-11-22",
+          "note": "A321 D-AIAD in Sunshine stripes, 2026-09-06."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Condor_Sunshine_livery",
+          "accessed": "2026-11-22",
+          "note": "Commons files D-AIAD under Condor's Sunshine livery."
+        }
+      ],
+      "lastSeen": "2026-09-06"
+    },
+    {
+      "registration": "D-AIAS",
+      "hex": "3c6433",
+      "hexSource": "looked up: hexdb.io community database and tar1090-db (github.com/wiedehopf/tar1090-db) agree (2026-11-22); not verified against the German register",
+      "type": "A321",
+      "livery": "sunshine",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Airbus_A321-211_(c-n_6122,_D-AIAS)_2026-09-09_Andre_Gerwing_Collection_ID_031067.jpg",
+          "title": "Airbus A321-211 (c-n 6122, D-AIAS) 2026-09-09 Andre Gerwing Collection ID 031067.jpg (CC BY-SA 4.0, André Gerwing)",
+          "accessed": "2026-11-22",
+          "note": "A321 D-AIAS in Sunshine stripes, 2026-09-09."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Condor_Sunshine_livery",
+          "accessed": "2026-11-22",
+          "note": "Commons files D-AIAS under Condor's Sunshine livery."
+        }
+      ],
+      "lastSeen": "2026-09-09"
+    },
+    {
+      "registration": "D-AICU",
+      "hex": "3c6475",
+      "hexSource": "looked up: hexdb.io community database and tar1090-db (github.com/wiedehopf/tar1090-db) agree (2026-11-22); not verified against the German register",
+      "type": "A320",
+      "livery": "sunshine",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Airbus_A320-214_(c-n_3767,_D-AICU)_2026-09-04_Andre_Gerwing_Collection_ID_031026.jpg",
+          "title": "Airbus A320-214 (c-n 3767, D-AICU) 2026-09-04 Andre Gerwing Collection ID 031026.jpg (CC BY-SA 4.0, André Gerwing)",
+          "accessed": "2026-11-22",
+          "note": "A320 D-AICU in Sunshine stripes, 2026-09-04."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Condor_Sunshine_livery",
+          "accessed": "2026-11-22",
+          "note": "Commons files D-AICU under Condor's Sunshine livery."
+        }
+      ],
+      "lastSeen": "2026-09-04"
+    },
+    {
+      "registration": "D-ANLA",
+      "hex": "3c7981",
+      "hexSource": "looked up: hexdb.io community database and tar1090-db (github.com/wiedehopf/tar1090-db) agree (2026-11-22); not verified against the German register",
+      "type": "A21N",
+      "livery": "sunshine",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:D-ANLA_AIRCRAFT_Airbus_A321-271NX_-1b.jpg",
+          "title": "D-ANLA AIRCRAFT Airbus A321-271NX -1b.jpg (CC BY-SA 4.0, Sg1959)",
+          "accessed": "2026-11-22",
+          "note": "A321neo D-ANLA in Sunshine stripes, 2026-04-22."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Condor_Sunshine_livery",
+          "accessed": "2026-11-22",
+          "note": "Commons files D-ANLA under Condor's Sunshine livery."
+        }
+      ],
+      "lastSeen": "2026-04-22"
+    },
+    {
+      "registration": "D-ANLB",
+      "hex": "3c7982",
+      "hexSource": "looked up: hexdb.io community database and tar1090-db (github.com/wiedehopf/tar1090-db) agree (2026-11-22); not verified against the German register",
+      "type": "A21N",
+      "livery": "sunshine",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:D-ANLB_A321neo,_Condor,_Palma_de_Mallorca_09-04-26.jpg",
+          "title": "D-ANLB A321neo, Condor, Palma de Mallorca 09-04-26.jpg (CC BY 4.0, DUNCAN KIRK)",
+          "accessed": "2026-11-22",
+          "note": "A321neo D-ANLB in Sunshine stripes, 2026-09-05."
+        }
+      ],
+      "lastSeen": "2026-09-05"
+    },
+    {
+      "registration": "D-ANLI",
+      "hex": "3c7989",
+      "hexSource": "looked up: tar1090-db community database (github.com/wiedehopf/tar1090-db, 2026-11-22; hexdb.io has no record); not verified against the German register",
+      "type": "A21N",
+      "livery": "sunshine",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://www.planespotters.net/photo/1998080/d-anli-condor-airbus-a321-271nx",
+          "title": "planespotters.net photo 1998080 (Sebastian K)",
+          "accessed": "2026-11-22",
+          "note": "Sunshine stripes on the thumbnail from planespotters.net's public photo API. Spotter site, evidence only; the API gives no date and the photo page blocks automated access, so undated."
+        }
+      ],
+      "notes": "No Commons photo yet: confirm with a dated photo."
+    },
+    {
+      "registration": "D-ATCC",
+      "hex": "3c0ac7",
+      "hexSource": "looked up: hexdb.io community database and tar1090-db (github.com/wiedehopf/tar1090-db) agree (2026-11-22); not verified against the German register",
+      "type": "A321",
+      "livery": "sunshine",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Observation_Point_East,_Frankfurt_(20260412-P1075009).jpg",
+          "title": "Observation Point East, Frankfurt (20260412-P1075009).jpg (CC BY-SA 4.0, Matti Blume)",
+          "accessed": "2026-11-22",
+          "note": "A321 D-ATCC in Sunshine stripes, 2026-04-12."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Condor_Sunshine_livery",
+          "accessed": "2026-11-22",
+          "note": "Commons files D-ATCC under Condor's Sunshine livery."
+        }
+      ],
+      "lastSeen": "2026-04-12"
+    },
+    {
+      "registration": "D-ANRH",
+      "hex": "3c7a48",
+      "hexSource": "looked up: hexdb.io community database and tar1090-db (github.com/wiedehopf/tar1090-db) agree (2026-11-22); not verified against the German register",
+      "type": "A339",
+      "livery": "beach",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:D-ANRH_Condor_A330-900neo_Beach.jpg",
+          "title": "D-ANRH Condor A330-900neo Beach.jpg (CC BY 2.0, TJDarmstadt)",
+          "accessed": "2026-11-22",
+          "note": "A330-900 D-ANRH in Beach stripes, 2023-01-21."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Condor_Beach_livery",
+          "accessed": "2026-11-22",
+          "note": "Commons files D-ANRH under Condor's Beach livery."
+        }
+      ],
+      "lastSeen": "2023-01-21",
+      "notes": "Only one photo, from 2023 (the A330-900s were delivered in their colors)."
+    },
+    {
+      "registration": "D-ANRJ",
+      "hex": "3c7a4a",
+      "hexSource": "looked up: hexdb.io community database and tar1090-db (github.com/wiedehopf/tar1090-db) agree (2026-11-22); not verified against the German register",
+      "type": "A339",
+      "livery": "beach",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:20231231_-_Airbus_A330-941neo_D-ANRJ.jpg",
+          "title": "20231231 - Airbus A330-941neo D-ANRJ.jpg (CC BY 4.0, AirplaneNiner)",
+          "accessed": "2026-11-22",
+          "note": "A330-900 D-ANRJ in Beach stripes, 2023-12-31."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Condor_Beach_livery",
+          "accessed": "2026-11-22",
+          "note": "Commons files D-ANRJ under Condor's Beach livery."
+        }
+      ],
+      "lastSeen": "2023-12-31",
+      "notes": "The newest photos are from 2023 (the A330-900s were delivered in their colors)."
+    },
+    {
+      "registration": "D-ANRL",
+      "hex": "3c7a4c",
+      "hexSource": "looked up: hexdb.io community database and tar1090-db (github.com/wiedehopf/tar1090-db) agree (2026-11-22); not verified against the German register",
+      "type": "A339",
+      "livery": "beach",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:D-ANRL_AIRCRAFT_Airbus_A330-941_(2b).jpg",
+          "title": "D-ANRL AIRCRAFT Airbus A330-941 (2b).jpg (CC BY-SA 4.0, Sg1959)",
+          "accessed": "2026-11-22",
+          "note": "A330-900 D-ANRL in Beach stripes, 2026-02-08."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Condor_Beach_livery",
+          "accessed": "2026-11-22",
+          "note": "Commons files D-ANRL under Condor's Beach livery."
+        }
+      ],
+      "lastSeen": "2026-02-08"
+    },
+    {
+      "registration": "D-ANRO",
+      "hex": "3c7a4f",
+      "hexSource": "looked up: hexdb.io community database and tar1090-db (github.com/wiedehopf/tar1090-db) agree (2026-11-22); not verified against the German register",
+      "type": "A339",
+      "livery": "beach",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:D-ANRO_AIRCRAFT_Airbus_A330-941.jpg",
+          "title": "D-ANRO AIRCRAFT Airbus A330-941.jpg (CC BY-SA 4.0, Sg1959)",
+          "accessed": "2026-11-22",
+          "note": "A330-900 D-ANRO in Beach stripes, 2026-01-02."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Condor_Beach_livery",
+          "accessed": "2026-11-22",
+          "note": "Commons files D-ANRO under Condor's Beach livery."
+        }
+      ],
+      "lastSeen": "2026-01-02"
+    },
+    {
+      "registration": "D-ANRP",
+      "hex": "3c7a50",
+      "hexSource": "looked up: hexdb.io community database and tar1090-db (github.com/wiedehopf/tar1090-db) agree (2026-11-22); not verified against the German register",
+      "type": "A339",
+      "livery": "beach",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:D-ANRP.jpg",
+          "title": "D-ANRP.jpg (CC BY-SA 4.0, Liam Thompson)",
+          "accessed": "2026-11-22",
+          "note": "A330-900 D-ANRP in Beach stripes, 2026-07-28."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Condor_Beach_livery",
+          "accessed": "2026-11-22",
+          "note": "Commons files D-ANRP under Condor's Beach livery."
+        }
+      ],
+      "lastSeen": "2026-07-28"
+    },
+    {
+      "registration": "D-ANRQ",
+      "hex": "3c7a51",
+      "hexSource": "looked up: hexdb.io community database and tar1090-db (github.com/wiedehopf/tar1090-db) agree (2026-11-22); not verified against the German register",
+      "type": "A339",
+      "livery": "beach",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:D-ANRQ_AIRCRAFT_Airbus_A330-941_-1b.jpg",
+          "title": "D-ANRQ AIRCRAFT Airbus A330-941 -1b.jpg (CC BY-SA 4.0, Sg1959)",
+          "accessed": "2026-11-22",
+          "note": "A330-900 D-ANRQ in Beach stripes, 2026-03-05."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Condor_Beach_livery",
+          "accessed": "2026-11-22",
+          "note": "Commons files D-ANRQ under Condor's Beach livery."
+        }
+      ],
+      "lastSeen": "2026-03-05"
+    }
+  ]
+}

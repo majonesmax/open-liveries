@@ -1,0 +1,105 @@
+{
+  "_about": "737-600, from Boeing D6-58325-7 Rev C (October 2025) 2.2.1 (page index 29): side, plan and front views on one sheet, drawn about 3.5% smaller than the 737-700W's and in thinner lines. Pixels of layers.py rasters at scale 14, line centres (side_all.png: fills and the blue strokes of doors and cockpit panes together). The 737-700's points moved by the two plugs (plug.py), then snapped; the fin, the plain wing tip, the wing and the nacelle placed here (this sheet draws them a little differently from the 737-700W's).",
+  "out": "../../../../shapes/B736.json",
+  "length": 29.79,
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "refs": {
+    "side": {
+      "nose": 378,
+      "tail": 3985,
+      "cowlEnd": 1866
+    },
+    "plan": {
+      "nose": 374,
+      "centerline": 2226
+    },
+    "front": {
+      "centerline": 2292,
+      "crownTop": 990
+    }
+  },
+  "windows": {
+    "from": 5.784,
+    "to": 22.548,
+    "pitch": 0.508,
+    "width": 0.25,
+    "z": [0.362, 0.693],
+    "note": "Boeing's drawing has no cabin windows: placed at the 737's 20 in (0.508 m) frame pitch, on the overwing exit's window, from the first door to the aft door; their height is the 737-800's (the same fuselage section)."
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [899, 1204, 999, 1423]
+    },
+    {
+      "kind": "exit",
+      "box": [1975, 1256, 2027, 1363]
+    },
+    {
+      "kind": "door",
+      "box": [3227, 1204, 3326, 1423]
+    },
+    {
+      "kind": "cargo",
+      "box": [1171, 1474, 1314, 1578]
+    },
+    {
+      "kind": "cargo",
+      "box": [2730, 1455, 2872, 1568]
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [601, 1255],
+      [613, 1262],
+      [584, 1312],
+      [540, 1307],
+      [537, 1303]
+    ],
+    [
+      [616, 1262],
+      [655, 1268],
+      [658, 1273],
+      [644, 1325],
+      [640, 1328],
+      [591, 1314],
+      [588, 1310]
+    ],
+    [
+      [712, 1264],
+      [735, 1285],
+      [731, 1289],
+      [648, 1326],
+      [645, 1321],
+      [659, 1272],
+      [663, 1268]
+    ]
+  ],
+  "printed": {
+    "fuselage width": 3.76,
+    "wingspan": 34.32,
+    "tailplane span": 14.35,
+    "engine out from the centerline": 4.83,
+    "overall length": 31.24,
+    "engine inlet from the nose": 8.84
+  },
+  "meta": {
+    "id": "B736",
+    "name": "Boeing 737-600",
+    "types": ["B736"],
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/airports/acaps/737NG_REV_C.pdf",
+        "title": "Boeing, 737-600/-700/-800/-900 Airplane Characteristics for Airport Planning (D6-58325-7 Rev C, October 2025), 2.2.1 General Dimensions: Model 737-600",
+        "accessed": "2026-11-15",
+        "note": "Dimensions and outlines read off the side, plan and front views (tools/trace/b736/); the figures are the aircraft's measurements, not a copy of the drawing. Plain wing tips, as the sheet draws them (few 737-600s carry winglets). The drawing has no cabin windows: they're placed at the 737's frame pitch on the overwing exit, at the 737-800's height. The eyebrow windows are left out, as on the 737-700 and -800. The side view draws the engine's inlet lip 9.08 m from the nose where the sheet prints 8.84 m (its plan view draws it at 9.38 m): the nacelle is moved 0.24 m forward to the printed figure (build.py, as for any inlet more than 1.5% off). This sheet also draws the fin about 0.3 m further aft on the tail cone than the 737-700W's sheet does; kept as drawn."
+      }
+    ]
+  }
+}

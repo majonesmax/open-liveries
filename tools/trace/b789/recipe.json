@@ -1,0 +1,118 @@
+{
+  "_about": "787-9, from Boeing D6-58333 Rev Q 2.2.2 (page index 21): side, plan and front views on one sheet, a picture rather than vector paths (about 47 px a meter at scale 8, so outlines good to about 3 cm). Line centres. Scaled by the printed 62.81 m overall length from the nose to the tail cone's tip in the side view (2978): with that scale the drawing's doors land within 0.1 m of the door-location table (2.7.1). Door 3 is hidden behind the wing in the drawing and is placed from that table (35.43 m to its centre). The windows behind the wing's lines are placed at the drawing's own pitch (windowsAlso).",
+  "out": "../../../../shapes/B789.json",
+  "length": 62.81,
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "refs": {
+    "side": {
+      "nose": 31,
+      "tail": 2978,
+      "cowlEnd": 1265,
+      "windowRow": [541, 567],
+      "windowGap": 5,
+      "windowInset": 2,
+      "windowsAlso": [1419, 1448, 1476, 1505, 1533, 1562, 1590, 1619, 1648, 1762, 1790, 1819, 1848]
+    },
+    "plan": {
+      "nose": 31,
+      "centerline": 1472
+    },
+    "front": {
+      "centerline": 1452,
+      "crownTop": 445
+    }
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [297, 515, 354, 610]
+    },
+    {
+      "kind": "door",
+      "box": [864, 515, 918, 610]
+    },
+    {
+      "kind": "door",
+      "box": [1666, 515, 1720, 610]
+    },
+    {
+      "kind": "door",
+      "box": [2332, 515, 2386, 610]
+    },
+    {
+      "kind": "cargo",
+      "box": [480, 616, 612, 701]
+    },
+    {
+      "kind": "cargo",
+      "box": [1997, 616, 2129, 701]
+    },
+    {
+      "kind": "cargo",
+      "box": [2243, 636, 2298, 701]
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [147, 539],
+      [149, 541],
+      [149, 543],
+      [144, 549],
+      [136, 557],
+      [124, 565],
+      [119, 568],
+      [108, 568],
+      [106, 566],
+      [106, 564],
+      [111, 559],
+      [128, 545],
+      [134, 542],
+      [143, 539]
+    ],
+    [
+      [160, 542],
+      [165, 539],
+      [170, 539],
+      [182, 542],
+      [184, 544],
+      [187, 550],
+      [189, 558],
+      [189, 560],
+      [187, 562],
+      [182, 565],
+      [170, 571],
+      [168, 571],
+      [140, 568],
+      [138, 566],
+      [138, 564],
+      [143, 558],
+      [145, 556]
+    ]
+  ],
+  "printed": {
+    "fuselage height": 5.94,
+    "fuselage width": 5.77,
+    "wingspan": 60.12,
+    "tailplane span": 19.81,
+    "engine out from the centerline": 9.91
+  },
+  "meta": {
+    "id": "B789",
+    "name": "Boeing 787-9",
+    "types": ["B789"],
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/boeingdotcom/commercial/airports/acaps/787.pdf",
+        "title": "Boeing, 787 Airplane Characteristics for Airport Planning (D6-58333 Rev Q, October 2025), 2.2.2 General Dimensions: Model 787-9; 2.7.1 Door Locations",
+        "accessed": "2026-11-15",
+        "note": "Dimensions and outlines read off the side, plan and front views (tools/trace/b789/); the figures are the aircraft's measurements, not a copy of the drawing. The sheet is a picture of about 47 pixels a meter, so the outlines are good to about 3 cm. The drawing shows the cabin windows; those behind the wing's lines, and door 3 (placed from the door-location table), are hidden there."
+      }
+    ]
+  }
+}

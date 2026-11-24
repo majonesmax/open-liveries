@@ -1,0 +1,119 @@
+{
+  "_about": "767-300 and 767-300ER (passenger), from Boeing D6-58328 Rev K 2.2.2 (page index 28): side, plan and front views on one sheet. Pixels of layers.py rasters at scale 20, line centres. The sheet prints no fuselage length: the scale is the plan's 54.94 m overall length, which is to the fin tip's trailing corner (the plan's dimension arrows, 301.66 pt apart; the 47.57 m span gives the same scale within 0.06%), so 'length' is the nose-to-tail-cone distance at that scale. The tailplane's tips reach 0.5 m behind the tail cone. A plain wingtip: the document has no winglet sheet. Its fills sit on a white panel (layers.py skips white fills).",
+  "out": "../../../../shapes/B763-passenger.json",
+  "length": 53.654,
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "refs": {
+    "side": {
+      "nose": 165,
+      "tail": 6057,
+      "cowlEnd": 2603
+    },
+    "plan": {
+      "nose": 165,
+      "centerline": 2787
+    },
+    "front": {
+      "centerline": 2811,
+      "crownTop": 1133
+    }
+  },
+  "windows": {
+    "from": 6.861,
+    "to": 41.405,
+    "pitch": 0.508,
+    "width": 0.27,
+    "z": [0.484, 0.884],
+    "clearOfDoors": true,
+    "note": "Boeing's drawing has no cabin windows: placed at the 767's 20 in (0.508 m) frame pitch, from behind door 1 to ahead of the aft door, none where door 2 is and one in the middle of each overwing exit; size and height from photos (0.27 by 0.40 m, their tops 0.55 m below the doors' tops)."
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [726, 1226, 840, 1422]
+    },
+    {
+      "kind": "door",
+      "box": [1935, 1226, 2039, 1422]
+    },
+    {
+      "kind": "exit",
+      "box": [2559, 1277, 2625, 1394]
+    },
+    {
+      "kind": "exit",
+      "box": [2650, 1277, 2716, 1394]
+    },
+    {
+      "kind": "door",
+      "box": [4783, 1211, 4899, 1407]
+    },
+    {
+      "kind": "cargo",
+      "box": [1417, 1442, 1615, 1642]
+    },
+    {
+      "kind": "cargo",
+      "box": [4165, 1442, 4363, 1642]
+    },
+    {
+      "kind": "cargo",
+      "box": [4574, 1482, 4675, 1629]
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [355, 1256],
+      [385, 1264],
+      [364, 1307],
+      [354, 1308],
+      [319, 1305],
+      [335, 1281]
+    ],
+    [
+      [430, 1261],
+      [434, 1262],
+      [420, 1327],
+      [375, 1310],
+      [396, 1267]
+    ],
+    [
+      [448, 1260],
+      [487, 1263],
+      [492, 1314],
+      [489, 1316],
+      [432, 1330]
+    ]
+  ],
+  "printed": {
+    "fuselage height": 5.41,
+    "fuselage width": 5.03,
+    "wingspan": 47.57,
+    "tailplane span": 18.62,
+    "engine out from the centerline": 7.92,
+    "overall length": 54.94,
+    "wing tip leading edge from the nose": 32.87,
+    "wing tip chord": 2.29,
+    "engine inlet from the nose": 18.72,
+    "nacelle width": 2.79
+  },
+  "meta": {
+    "id": "B763-passenger",
+    "name": "Boeing 767-300ER (passenger), plain wingtips",
+    "types": ["B763"],
+    "confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/airports/acaps/767_REV_K.pdf",
+        "title": "Boeing, 767 Airplane Characteristics for Airport Planning (D6-58328 Rev K, December 2024), 2.2.2 General Dimensions: Model 767-300, -300ER; 2.7.1 Door Clearances",
+        "accessed": "2026-11-15",
+        "note": "Dimensions and outlines read off the side, plan and front views (tools/trace/b763-passenger/); the figures are the aircraft's measurements, not a copy of the drawing. The 767-300 and -300ER passenger aircraft as Boeing draws them: plain wingtips (the document has no winglet sheet; most US 767-300ERs now fly with blended winglets, which this shape doesn't have), and door 2 (an option on the -300 and -300ER). Checks over 1.5%: the side view draws the fuselage 5.54 m tall between its own dimension arrows, labelled 5.41 m (+2.4%, as on the 767-300F's sheet); the shape keeps the drawing's. The plan draws the wing tip's leading-edge corner 34.15 m from the nose and its straight tip 1.71 m long, where it prints 32.87 m and 2.29 m; the 767-200 and 767-300F sheets draw the same tip, 3.1 m apart (the -300's forward plug) where their printed figures are 2.47 m apart, so the shape keeps the drawing's (a 2.08 m tip chord with its rounded corner). Also kept from the drawing: the engine's inlet 18.92 m from the nose (the side view; the plan draws it at 18.17 m, printed 18.72 m RR/PW, 18.54 m GE), and door 2's middle at 16.6 m (drawn there here and on the door sheet 2.7.1, whose figure is 15.96 m)."
+      }
+    ]
+  }
+}

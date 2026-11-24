@@ -1,0 +1,496 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "boston-celtics",
+  "airline": "JBU",
+  "name": "Boston Celtics (Lucky Blue)",
+  "kind": "special",
+  "confidence": "medium",
+  "drawnOn": "A320",
+  "from": "2018",
+  "commemorates": "JetBlue's sponsorship of the Boston Celtics (official airline).",
+  "description": "Fuselage: Celtics green all over. Titles: 'jetBlue' in white over the forward windows with the small Celtics roundel after it. Tail: green fin with the Celtics' Lucky the Leprechaun roundel huge across its lower aft part: a white disc with the leprechaun, a green ring lettered 'BOSTON CELTICS' in white, a thin white rim; it runs off the trailing edge and down by the stabilizer. Engines black with 'jetblue.com' in white.",
+  "sources": [
+    {
+      "url": "https://airlinegeeks.com/2025/12/22/jetblue-rolls-out-boston-themed-livery/",
+      "title": "AirlineGeeks: JetBlue Rolls Out Boston-Themed Livery (2025-12-22)",
+      "accessed": "2026-11-22",
+      "note": "On the Wicked Blue A320: it joins JetBlue's Boston liveries, 'including ones for the Red Sox, the Celtics, the Bruins, and Dunkin' Donuts' (the Celtics jet still flying in it)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N595JB_Airbus_A320-232_Jet_Blue_Lucky_Blue,_595,_Boston_Celtics_cs_SJU_22.1.23_(52960614076).jpg",
+      "title": "N595JB Airbus A320-232 Jet Blue Lucky Blue, 595, Boston Celtics cs SJU 22.1.23 (52960614076).jpg (CC BY-SA 2.0)",
+      "accessed": "2026-11-22",
+      "note": "N595JB left side taxiing at San Juan, 2023-01-22, level and side-on: fitted to shapes/A320.json (doors, nose, fin tip, crown; within 4 px, 0.1 m). Everything measured on it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:Lucky_Blue_(aircraft)",
+      "title": "Lucky Blue (aircraft) on Commons",
+      "accessed": "2026-11-22",
+      "note": "N595JB in the Celtics scheme 2018-2021, left and right sides: the same layout."
+    }
+  ],
+  "palette": {
+    "green": {
+      "hex": "#1C9A50",
+      "official": false,
+      "name": "Celtics green (as painted, brighter than the team's)"
+    },
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "black": {
+      "hex": "#1A1C20",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false,
+      "name": "polished inlet lip"
+    },
+    "flagRed": {
+      "hex": "#B22234",
+      "official": false
+    },
+    "navy": {
+      "hex": "#14275A",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "green",
+    "areas": [],
+    "radome": {
+      "color": "green"
+    },
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "green",
+    "rudder": "green",
+    "mirrored": true,
+    "areas": [
+      {
+        "name": "the roundel's thin white rim",
+        "color": "white",
+        "smooth": true,
+        "points": [
+          [
+            1.241,
+            0.111
+          ],
+          [
+            1.23,
+            -0.052
+          ],
+          [
+            1.142,
+            -0.196
+          ],
+          [
+            1.012,
+            -0.312
+          ],
+          [
+            0.852,
+            -0.387
+          ],
+          [
+            0.674,
+            -0.412
+          ],
+          [
+            0.499,
+            -0.387
+          ],
+          [
+            0.345,
+            -0.31
+          ],
+          [
+            0.224,
+            -0.194
+          ],
+          [
+            0.148,
+            -0.049
+          ],
+          [
+            0.024,
+            0.114
+          ],
+          [
+            -0.112,
+            0.277
+          ],
+          [
+            -0.188,
+            0.421
+          ],
+          [
+            -0.173,
+            0.537
+          ],
+          [
+            -0.036,
+            0.612
+          ],
+          [
+            0.23,
+            0.637
+          ],
+          [
+            0.557,
+            0.611
+          ],
+          [
+            0.858,
+            0.535
+          ],
+          [
+            1.077,
+            0.419
+          ],
+          [
+            1.202,
+            0.274
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "the roundel's green lettered ring (inside the rim)",
+        "color": "green",
+        "smooth": true,
+        "points": [
+          [
+            1.221,
+            0.111
+          ],
+          [
+            1.211,
+            -0.046
+          ],
+          [
+            1.126,
+            -0.185
+          ],
+          [
+            1.0,
+            -0.297
+          ],
+          [
+            0.846,
+            -0.37
+          ],
+          [
+            0.674,
+            -0.394
+          ],
+          [
+            0.505,
+            -0.37
+          ],
+          [
+            0.357,
+            -0.295
+          ],
+          [
+            0.24,
+            -0.183
+          ],
+          [
+            0.166,
+            -0.043
+          ],
+          [
+            0.047,
+            0.114
+          ],
+          [
+            -0.084,
+            0.271
+          ],
+          [
+            -0.158,
+            0.41
+          ],
+          [
+            -0.143,
+            0.522
+          ],
+          [
+            -0.011,
+            0.594
+          ],
+          [
+            0.246,
+            0.619
+          ],
+          [
+            0.561,
+            0.594
+          ],
+          [
+            0.852,
+            0.52
+          ],
+          [
+            1.063,
+            0.408
+          ],
+          [
+            1.184,
+            0.268
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "the roundel's white disc (the leprechaun on it)",
+        "color": "white",
+        "smooth": true,
+        "points": [
+          [
+            1.073,
+            0.111
+          ],
+          [
+            1.071,
+            -0.004
+          ],
+          [
+            1.02,
+            -0.113
+          ],
+          [
+            0.926,
+            -0.196
+          ],
+          [
+            0.806,
+            -0.25
+          ],
+          [
+            0.68,
+            -0.268
+          ],
+          [
+            0.555,
+            -0.249
+          ],
+          [
+            0.44,
+            -0.195
+          ],
+          [
+            0.353,
+            -0.111
+          ],
+          [
+            0.295,
+            -0.002
+          ],
+          [
+            0.193,
+            0.113
+          ],
+          [
+            0.115,
+            0.229
+          ],
+          [
+            0.079,
+            0.338
+          ],
+          [
+            0.11,
+            0.421
+          ],
+          [
+            0.218,
+            0.475
+          ],
+          [
+            0.384,
+            0.492
+          ],
+          [
+            0.582,
+            0.474
+          ],
+          [
+            0.78,
+            0.419
+          ],
+          [
+            0.932,
+            0.336
+          ],
+          [
+            1.031,
+            0.227
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "stabilizer": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "engines": {
+    "cowling": "black",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "JBU/celtics-roundel",
+      "place": "fin",
+      "at": [
+        0.62,
+        0.12
+      ],
+      "height": 1.06,
+      "colors": [
+        "green",
+        "white"
+      ],
+      "description": "The Celtics' roundel: Lucky the Leprechaun (in a bowler hat with a shamrock, a pipe, a shamrock-patterned waistcoat, leaning on a shillelagh, a basketball at his feet) on a white disc, in a green ring lettered 'BOSTON CELTICS'; across the fin's lower aft part, running off the trailing edge.",
+      "reference": "https://en.wikipedia.org/wiki/Boston_Celtics",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "JBU/celtics-roundel",
+      "place": "fuselage",
+      "at": [
+        0.359,
+        0.19
+      ],
+      "height": 0.5,
+      "colors": [
+        "green",
+        "white"
+      ],
+      "description": "The same roundel small after 'jetBlue', over the windows.",
+      "confidence": "high",
+      "sourceRefs": [
+        1
+      ]
+    },
+    {
+      "mark": "JBU/us-flag",
+      "place": "fuselage",
+      "at": [
+        0.692,
+        0.407
+      ],
+      "height": 0.13,
+      "colors": [
+        "flagRed",
+        "white",
+        "navy"
+      ],
+      "description": "A small US flag ahead of the registration over the rear windows.",
+      "confidence": "high",
+      "sourceRefs": [
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "jetBlue",
+      "place": "fuselage",
+      "at": [
+        0.179,
+        -0.041
+      ],
+      "height": 0.515,
+      "length": 0.148,
+      "color": "white",
+      "style": "The jetBlue wordmark in white over the forward windows.",
+      "confidence": "high",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "Gotham Rounded Bold",
+          "VAG Rounded Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      }
+    },
+    {
+      "text": "jetblue.com",
+      "place": "engines",
+      "at": [
+        0.43,
+        0.0
+      ],
+      "height": 0.25,
+      "length": 0.36,
+      "color": "white",
+      "style": "Bold rounded lower case along the cowling's side.",
+      "confidence": "high",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "Gotham Rounded Bold",
+          "VAG Rounded Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.72
+      }
+    }
+  ],
+  "notes": "Measured on N595JB's left side at San Juan, 2023-01-22 (the newest open photo; earlier Commons photos 2018-2021 show the same). The fin roundel is about 6.5 m across, centred low on the aft fin (fin x 0.62, y 0.12): its rings are drawn as areas so the fin reads right without the mark; parts past the trailing edge and below the root are clipped. 'Lucky Blue' (small white script under the cockpit) and the registration aren't drawn. Still current by AirlineGeeks' December 2025 report, though no open photo since January 2023."
+}

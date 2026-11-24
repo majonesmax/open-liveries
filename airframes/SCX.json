@@ -1,0 +1,262 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "SCX",
+  "airframes": [
+    {
+      "registration": "N5179A",
+      "hex": "a67f04",
+      "type": "B738",
+      "livery": "ATN/prime-air-blue",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N5179A_B737-800F%2C_Prime_Air%2C_Las_Vegas_02-09-24_%2855206667169%29.jpg",
+          "title": "N5179A B737-800F, Prime Air, Las Vegas 02-09-24 (55206667169).jpg",
+          "accessed": "2026-11-13",
+          "note": "Commons photo, 2024-02-09."
+        },
+        {
+          "url": "https://hexdb.io/api/v1/aircraft/a67f04",
+          "title": "hexdb.io aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Registered owner/operator given as 'Prime Air', operator flag GTI (community data)."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Amazon_Air#Fleet",
+          "title": "Wikipedia: Amazon Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "Amazon Air's contract operators and counts (as of January 2025)."
+        }
+      ],
+      "lastSeen": "2026-11-13",
+      "status": "flying as SCX3084 on adsb.lol, 2026-11-13; photographed in Prime Air paint 2024-02-09 (Commons)",
+      "notes": "hexdb's flag still says GTI; flying as Sun Country in November 2026."
+    },
+    {
+      "registration": "N5233A",
+      "hex": "a696d5",
+      "type": "B738",
+      "livery": "ATN/prime-air-blue",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Boeing_737-84P%28BCF%29%28WL%29_%28N5233A%2C_msn_34029%2C_ln_1921%29_%285-22-2023%29.jpg",
+          "title": "Boeing 737-84P(BCF)(WL) (N5233A, msn 34029, ln 1921) (5-22-2023).jpg",
+          "accessed": "2026-11-13",
+          "note": "Commons photo, 2023-05-22: in Prime Air paint."
+        },
+        {
+          "url": "https://hexdb.io/api/v1/aircraft/a696d5",
+          "title": "hexdb.io aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Registered owner/operator given as 'Prime Air', operator flag GTI (community data)."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Amazon_Air#Fleet",
+          "title": "Wikipedia: Amazon Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "Amazon Air's contract operators and counts (as of January 2025)."
+        }
+      ],
+      "lastSeen": "2026-11-14",
+      "status": "flying as SCX3096 on adsb.lol, 2026-11-13; photographed in Prime Air paint 2023-05-22 (Commons)",
+      "notes": "hexdb's flag still says GTI; flying as Sun Country in November 2026."
+    },
+    {
+      "registration": "N7933A",
+      "hex": "aac5ec",
+      "type": "B738",
+      "livery": "ATN/prime-air-blue",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Amazon_Boeing_737-800_N7922A_BWI_MD1.jpg",
+          "title": "Amazon Boeing 737-800 N7922A BWI MD1.jpg",
+          "accessed": "2026-11-13",
+          "note": "Commons photo, 2026-08-06: in Prime Air paint."
+        },
+        {
+          "url": "https://hexdb.io/api/v1/aircraft/aac5ec",
+          "title": "hexdb.io aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Registered owner/operator given as 'Prime Air', operator flag SCX (community data)."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Amazon_Air#Fleet",
+          "title": "Wikipedia: Amazon Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "Amazon Air's contract operators and counts (as of January 2025)."
+        }
+      ],
+      "lastSeen": "2026-11-13",
+      "status": "flying as SCX3022 on adsb.lol, 2026-11-13; photographed in Prime Air paint 2026-08-06 (Commons)",
+      "notes": "The Commons file is titled N7922A but shows N7933A."
+    },
+    {
+      "registration": "N8011A",
+      "hex": "aae810",
+      "type": "B738",
+      "livery": "ATN/prime-air-blue",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://hexdb.io/api/v1/aircraft/aae810",
+          "title": "hexdb.io aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Registered owner/operator given as 'Prime Air', operator flag SCX (community data)."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Amazon_Air#Fleet",
+          "title": "Wikipedia: Amazon Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "Amazon Air's contract operators and counts (as of January 2025)."
+        }
+      ],
+      "lastSeen": "2026-11-13",
+      "status": "flying as SCX3088 on adsb.lol, 2026-11-13",
+      "notes": "No open photo found; an Amazon 737 (registration series, Amazon flight numbers): every Amazon 737 photographed wears this paint."
+    },
+    {
+      "registration": "N8093A",
+      "hex": "ab060e",
+      "type": "B738",
+      "livery": "ATN/prime-air-blue",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Amazon_Air#Fleet",
+          "title": "Wikipedia: Amazon Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "Amazon Air's contract operators and counts (as of January 2025)."
+        }
+      ],
+      "lastSeen": "2026-11-13",
+      "status": "flying as SCX3097 on adsb.lol, 2026-11-13",
+      "notes": "No open photo found; an Amazon 737 (registration series, Amazon flight numbers): every Amazon 737 photographed wears this paint."
+    },
+    {
+      "registration": "N8111A",
+      "hex": "ab0f8f",
+      "type": "B738",
+      "livery": "ATN/prime-air-blue",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Amazon_Air#Fleet",
+          "title": "Wikipedia: Amazon Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "Amazon Air's contract operators and counts (as of January 2025)."
+        }
+      ],
+      "lastSeen": "2026-11-13",
+      "status": "flying as SCX3070 on adsb.lol, 2026-11-13",
+      "notes": "No open photo found; an Amazon 737 (registration series, Amazon flight numbers): every Amazon 737 photographed wears this paint."
+    },
+    {
+      "registration": "N5693A",
+      "hex": "a74b1b",
+      "type": "B738",
+      "livery": "ATN/prime-air-blue",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N5693A_-_Boeing_737-84P%28BCF%29_-_Prime_Air_%2852828485740%29.jpg",
+          "title": "N5693A - Boeing 737-84P(BCF) - Prime Air (52828485740).jpg",
+          "accessed": "2026-11-13",
+          "note": "Commons photo, 2023-03-26: in Prime Air paint."
+        },
+        {
+          "url": "https://hexdb.io/api/v1/aircraft/a74b1b",
+          "title": "hexdb.io aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Registered owner/operator given as 'Prime Air', operator flag SCX (community data)."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Amazon_Air#Fleet",
+          "title": "Wikipedia: Amazon Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "Amazon Air's contract operators and counts (as of January 2025)."
+        }
+      ],
+      "lastSeen": "2023-03-26",
+      "status": "photographed in Prime Air paint 2023-03-26 (Commons)",
+      "notes": "Not seen flying during the 2026-11-13 adsb.lol sample: the callsign is hexdb's operator flag."
+    },
+    {
+      "registration": "N7901A",
+      "hex": "aaba81",
+      "type": "B738",
+      "livery": "ATN/prime-air-blue",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Amazon_Prime_Air_%28Sun_Country_Airlines%29_Boeing_737-84P%28BCF%29_N7901A_approaching_JFK_Airport.jpg",
+          "title": "Amazon Prime Air (Sun Country Airlines) Boeing 737-84P(BCF) N7901A approaching JFK Airport.jpg",
+          "accessed": "2026-11-13",
+          "note": "Commons photo, date not stated: in Prime Air paint."
+        },
+        {
+          "url": "https://hexdb.io/api/v1/aircraft/aaba81",
+          "title": "hexdb.io aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Registered owner/operator given as 'Prime Air', operator flag SCX (community data)."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Amazon_Air#Fleet",
+          "title": "Wikipedia: Amazon Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "Amazon Air's contract operators and counts (as of January 2025)."
+        }
+      ],
+      "status": "photographed in Prime Air paint, November of an unstated year (Commons)",
+      "notes": "Photo caption names Sun Country as operator. Not seen flying during the 2026-11-13 adsb.lol sample: the callsign is hexdb's operator flag."
+    },
+    {
+      "registration": "N826SY",
+      "hex": "ab48cc",
+      "type": "B738",
+      "livery": "retro-1994",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Sun_Country_Airlines_737-800_at_SYR_(55521853399).jpg",
+          "title": "Sun Country Airlines 737-800 at SYR (55521853399).jpg",
+          "accessed": "2026-11-22",
+          "note": "Photo 2026-09-11 (CC0): in the retro scheme."
+        },
+        {
+          "url": "https://worldairlinenews.com/2026/05/13/sun-country-airlines-unveils-a-1994-retro-livery-honoring-its-43-year-legacy-as-allegiant-completes-the-acquisition-of-the-company/",
+          "accessed": "2026-11-22",
+          "note": "Unveiled 2026-05-12 on N826SY."
+        }
+      ],
+      "hexSource": "derived from the N-number (tools/nnumber.py); adsb.lol saw it under this address on 2026-11-22",
+      "from": "2026-05-12",
+      "lastSeen": "2026-11-22",
+      "status": "Flying 2026-11-22 (adsb.lol live, callsign SCX1948). Newest open photo of the paint 2026-09-11."
+    },
+    {
+      "registration": "N809SY",
+      "hex": "ab04f3",
+      "type": "B738",
+      "livery": "gophers",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://stories.suncountry.com/post/our-first-ever-custom-aircraft-livery-minnesota-gopher-athletics",
+          "title": "Sun Country: Our first-ever custom aircraft livery: Minnesota Gopher Athletics",
+          "accessed": "2026-11-22",
+          "note": "Unveiled 2024-12-21 as tail 809; the press photo shows N809SY."
+        },
+        {
+          "url": "https://stories.suncountry.com/post/elevating-our-partnership-empowering-gopher-athletes-through-travel",
+          "accessed": "2026-11-22",
+          "note": "Press photo, 2025: N809SY still in the scheme."
+        }
+      ],
+      "hexSource": "derived from the N-number (tools/nnumber.py)",
+      "from": "2024-12-21",
+      "status": "The maintainer saw it fly FLL-MSP in November 2026. Newest press photo of the paint 2025."
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "_about": "Airbus AC A319 (Jul 01/26), 2-2-0 General Aircraft Dimensions, Sharklet sheet 3 (page index 43): layers.py --mode strokes-in-fill at scale 20 with --xscale 1.0249, clip 135,165,460,272 (side). The sheet is drawn 2.5% short lengthwise against its printed 33.84 m and 11.04 m (the height matches the A320's sheet): --xscale evens it out. The A320's points (a320/) moved by the A319's shorter fuselage (2.13 m, 4 frames, ahead of the wing; 1.60 m, 3 frames, ahead of the aft door) onto this sheet, then snapped. Pixels of that raster, line centres. Groups then laid on this sheet by their best fit lengthwise (fin -78 px, engine +58, sharklet +128; plan: wing +92, tailplane -12): the A319 sheet places them a little differently from the plugs alone.",
+  "fuselage.crown": [
+    [608, 1591],
+    [815, 1410],
+    [905, 1323],
+    [1905, 1141],
+    [3062, 1138],
+    [3787, 1137],
+    "hidden",
+    [3932, 1136],
+    [5205, 1151],
+    [5705, 1187],
+    [5905, 1211],
+    [6046, 1243]
+  ],
+  "fuselage.belly": [
+    [608, 1591],
+    [1305, 1807],
+    [1905, 1807],
+    [2122, 1807],
+    "hidden",
+    [3662, 1803],
+    [4062, 1803],
+    [4605, 1715],
+    [5705, 1443],
+    [6046, 1337]
+  ],
+  "fin.fillet": [
+    [4570, 1142],
+    [4677, 1110],
+    [4777, 1065],
+    [4847, 1005],
+    [4897, 955]
+  ],
+  "fin.leading": [
+    [4897, 955],
+    [5177, 627],
+    [5487, 265],
+    [5527, 222],
+    [5577, 203],
+    [5627, 200]
+  ],
+  "fin.trailing": [
+    [5617, 1185],
+    [5727, 675],
+    [5827, 205]
+  ],
+  "fin.rudder": [
+    [5405, 1165],
+    [5795, 205]
+  ],
+  "engine.top": [
+    [2195, 1655],
+    [2320, 1627],
+    [2520, 1635],
+    [2700, 1665],
+    [2715, 1685],
+    [2720, 1710],
+    [2820, 1727],
+    [2900, 1743]
+  ],
+  "engine.bottom": [
+    [2210, 1950],
+    [2270, 1975],
+    [2333, 1983],
+    "hidden",
+    [2453, 1985],
+    [2620, 1960],
+    [2705, 1940],
+    [2717, 1925],
+    [2720, 1905],
+    [2820, 1883],
+    [2900, 1864]
+  ],
+  "wingtip.leading": [
+    [3790, 1315],
+    [3890, 1185],
+    [3990, 1065],
+    [4040, 1005],
+    [4070, 990],
+    [4087, 989]
+  ],
+  "wingtip.trailing": [
+    [3890, 1403],
+    [3930, 1375],
+    [3960, 1285],
+    [4040, 1115],
+    [4087, 989]
+  ]
+}

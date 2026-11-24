@@ -1,0 +1,792 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "regional",
+  "airline": "ASA",
+  "name": "Alaska regional, SkyWest (2016 livery)",
+  "kind": "standard",
+  "from": "2016-01",
+  "confidence": "high",
+  "drawnOn": "E75L",
+  "description": "Alaska's 2016 scheme on the E175s flown by SkyWest: white with the lime/Atlas-blue/midnight sweep behind the wing, the midnight fin with the Native face; 'Alaska' smaller than on the mainline, just under the forward windows, followed by 'SkyWest' in small letters.",
+  "sources": [
+    {
+      "url": "https://github.com/majonesmax/open-liveries/blob/main/liveries/ASA/standard.json",
+      "title": "Open Liveries: ASA/standard",
+      "accessed": "2026-11-13",
+      "note": "The mainline scheme this variant starts from: its fuselage, fin, engine and logo geometry are kept except where the regional photos differ."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Alaska_Airlines",
+      "title": "Wikipedia: Alaska Airlines (livery history)",
+      "accessed": "2026-11-13",
+      "note": "The 2016 brand: the wordmark, the aurora colors, the Native face kept."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Alaska_Airlines_Boeing_737-9_MAX_N928AK_departing_Boston_June_2025_1.jpg",
+      "title": "Alaska Airlines Boeing 737-9 MAX N928AK departing Boston June 2025 1.jpg (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "N928AK left side, climbing, 2025-06-20: title position and size, the aft sweep, fin."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Alaska_Boeing_737-9_MAX_N963AK_IAD_MD1.jpg",
+      "title": "Alaska Boeing 737-9 MAX N963AK IAD MD1.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "N963AK from below, 2025-04-18: the belly white forward of the sweep, which wraps under the tail; engines and winglets."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:N486AS_(aircraft)",
+      "title": "N486AS (oneworld scheme) on Commons",
+      "accessed": "2026-11-13",
+      "note": "The aft sweep, fin and engines were measured on this aircraft for the oneworld entry; they're Alaska's standard."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N188SY_@_LAX,_2023-11-06.jpg",
+      "title": "N188SY @ LAX, 2023-11-06.jpg",
+      "accessed": "2026-11-13",
+      "note": "N188SY (E175, SkyWest), left side, 2023-11-06: titles measured here (CC BY-SA 2.0)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N411SY_(55157479231).jpg",
+      "title": "N411SY (55157479231).jpg",
+      "accessed": "2026-11-13",
+      "note": "N411SY (E175, SkyWest), 2026-02-28: the same (CC BY-SA 4.0)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N657QX_ERJ-175,_Horizon_Alaska,_Bozeman_07-27-26.jpg",
+      "title": "N657QX ERJ-175, Horizon Alaska, Bozeman 07-27-26.jpg (CC BY 4.0)",
+      "accessed": "2026-11-15",
+      "note": "N657QX (E175, Horizon) from the right, nearly level, 2026-07-27: the aft sweep's edges measured on it (the same paint as SkyWest's E175s)."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "midnight": {
+      "hex": "#14306B",
+      "official": false
+    },
+    "blue": {
+      "hex": "#1F6DB8",
+      "official": false
+    },
+    "atlas": {
+      "hex": "#52B3E3",
+      "official": false
+    },
+    "lime": {
+      "hex": "#B6D433",
+      "official": false
+    },
+    "cream": {
+      "hex": "#F1EFE8",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC5",
+      "official": false
+    },
+    "silver": {
+      "hex": "#C3C8CE",
+      "name": "silver-grey stripe",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "silver-grey stripe ahead of the lime (seen on every photo, sharp-edged: paint, not shade)",
+        "color": "silver",
+        "points": [
+          [
+            0.578,
+            -1.0
+          ],
+          [
+            0.616,
+            -0.55
+          ],
+          [
+            0.653,
+            -0.23
+          ],
+          [
+            0.69,
+            -0.02
+          ],
+          [
+            0.716,
+            0.18
+          ],
+          [
+            0.739,
+            0.47
+          ],
+          [
+            0.757,
+            0.75
+          ],
+          [
+            0.768,
+            1.0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          5,
+          6,
+          7
+        ],
+        "smooth": true
+      },
+      {
+        "name": "lime band, the front of the aft sweep (rising from the belly behind the wing to the crown ahead of the fin)",
+        "color": "lime",
+        "points": [
+          [
+            0.59,
+            -1.0
+          ],
+          [
+            0.628,
+            -0.55
+          ],
+          [
+            0.665,
+            -0.23
+          ],
+          [
+            0.702,
+            -0.02
+          ],
+          [
+            0.728,
+            0.18
+          ],
+          [
+            0.751,
+            0.47
+          ],
+          [
+            0.764,
+            0.75
+          ],
+          [
+            0.772,
+            1.0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          5,
+          6,
+          7
+        ],
+        "smooth": true
+      },
+      {
+        "name": "Atlas (light) blue band",
+        "color": "atlas",
+        "points": [
+          [
+            0.604,
+            -1.0
+          ],
+          [
+            0.642,
+            -0.55
+          ],
+          [
+            0.679,
+            -0.23
+          ],
+          [
+            0.716,
+            -0.02
+          ],
+          [
+            0.742,
+            0.18
+          ],
+          [
+            0.765,
+            0.47
+          ],
+          [
+            0.778,
+            0.75
+          ],
+          [
+            0.782,
+            1.0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          5,
+          6,
+          7
+        ],
+        "smooth": true
+      },
+      {
+        "name": "mid-blue band",
+        "color": "blue",
+        "points": [
+          [
+            0.642,
+            -1.0
+          ],
+          [
+            0.685,
+            -0.55
+          ],
+          [
+            0.717,
+            -0.23
+          ],
+          [
+            0.743,
+            -0.02
+          ],
+          [
+            0.762,
+            0.18
+          ],
+          [
+            0.778,
+            0.47
+          ],
+          [
+            0.788,
+            0.75
+          ],
+          [
+            0.791,
+            1.0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          5,
+          6,
+          7
+        ],
+        "smooth": true
+      },
+      {
+        "name": "midnight-blue tail cone and rear belly",
+        "color": "midnight",
+        "points": [
+          [
+            0.68,
+            -1.0
+          ],
+          [
+            0.7,
+            -0.93
+          ],
+          [
+            0.737,
+            -0.42
+          ],
+          [
+            0.765,
+            -0.13
+          ],
+          [
+            0.784,
+            0.22
+          ],
+          [
+            0.797,
+            0.65
+          ],
+          [
+            0.8,
+            1.0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          5,
+          6,
+          7
+        ],
+        "smooth": true
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "fin": {
+    "base": "midnight",
+    "rudder": "midnight",
+    "areas": [
+      {
+        "name": "Atlas-blue wedge at the root's leading edge (the fuselage sweep running up the fin)",
+        "color": "atlas",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0.24
+          ],
+          [
+            0.46,
+            0
+          ]
+        ],
+        "sourceRefs": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "name": "lower lime stripe, from the leading edge down and back to the root",
+        "color": "lime",
+        "points": [
+          [
+            0,
+            0.25
+          ],
+          [
+            0,
+            0.3
+          ],
+          [
+            0.56,
+            0
+          ],
+          [
+            0.48,
+            0
+          ]
+        ],
+        "sourceRefs": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "name": "upper lime stripe near the tip",
+        "color": "lime",
+        "points": [
+          [
+            0,
+            0.88
+          ],
+          [
+            0.5,
+            0.82
+          ],
+          [
+            0.93,
+            0.72
+          ],
+          [
+            0.9,
+            0.69
+          ],
+          [
+            0.5,
+            0.78
+          ],
+          [
+            0,
+            0.84
+          ]
+        ],
+        "sourceRefs": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "name": "Atlas-blue sliver under the upper stripe",
+        "color": "atlas",
+        "points": [
+          [
+            0.55,
+            0.76
+          ],
+          [
+            0.95,
+            0.68
+          ],
+          [
+            0.95,
+            0.63
+          ],
+          [
+            0.65,
+            0.71
+          ]
+        ],
+        "sourceRefs": [
+          2,
+          3,
+          4
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3,
+      4
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "stabilizer": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "white",
+    "inner": "white",
+    "areas": [
+      {
+        "name": "midnight root",
+        "color": "midnight",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0.18
+          ],
+          [
+            0,
+            0.32
+          ]
+        ],
+        "sourceRefs": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "name": "Atlas-blue band",
+        "color": "atlas",
+        "points": [
+          [
+            0,
+            0.32
+          ],
+          [
+            1,
+            0.18
+          ],
+          [
+            1,
+            0.26
+          ],
+          [
+            0,
+            0.4
+          ]
+        ],
+        "sourceRefs": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "name": "lime band",
+        "color": "lime",
+        "points": [
+          [
+            0,
+            0.4
+          ],
+          [
+            1,
+            0.26
+          ],
+          [
+            1,
+            0.32
+          ],
+          [
+            0,
+            0.46
+          ]
+        ],
+        "sourceRefs": [
+          2,
+          3,
+          4
+        ]
+      }
+    ],
+    "confidence": "low",
+    "sourceRefs": [
+      2,
+      3,
+      4
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "wingGray",
+    "areas": [
+      {
+        "name": "lime stripe sweeping up toward the exhaust",
+        "color": "lime",
+        "points": [
+          [
+            0.3,
+            -1
+          ],
+          [
+            0.49,
+            -0.49
+          ],
+          [
+            0.75,
+            0.15
+          ],
+          [
+            1,
+            0.6
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "sourceRefs": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "name": "Atlas blue",
+        "color": "atlas",
+        "points": [
+          [
+            0.36,
+            -1
+          ],
+          [
+            0.55,
+            -0.49
+          ],
+          [
+            0.81,
+            0.15
+          ],
+          [
+            1.06,
+            0.6
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "sourceRefs": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "name": "midnight, low at the back",
+        "color": "midnight",
+        "points": [
+          [
+            0.44,
+            -1
+          ],
+          [
+            0.63,
+            -0.49
+          ],
+          [
+            0.89,
+            0.15
+          ],
+          [
+            1.14,
+            0.6
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "sourceRefs": [
+          2,
+          3,
+          4
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      2,
+      3,
+      4
+    ]
+  },
+  "logos": [
+    {
+      "mark": "ASA/native-face",
+      "place": "fin",
+      "at": [
+        0.59,
+        0.35
+      ],
+      "height": 0.53,
+      "colors": [
+        "cream",
+        "midnight"
+      ],
+      "description": "Alaska's Eskimo (the 'Alaska Native man'): a smiling face in a fur-trimmed parka hood, cream on the midnight-blue fin, facing forward, large on the aft fin.",
+      "confidence": "high",
+      "sourceRefs": [
+        2,
+        3,
+        4
+      ],
+      "reference": "https://commons.wikimedia.org/wiki/File:Alaska_Airlines_logo.svg"
+    }
+  ],
+  "titles": [
+    {
+      "text": "Alaska",
+      "place": "fuselage",
+      "at": [
+        0.11,
+        -0.44
+      ],
+      "height": 0.66,
+      "color": "midnight",
+      "style": "The 2016 Alaska wordmark (slanted, brush-like, the A's crossbar run forward), smaller than the mainline's, just below the forward windows.",
+      "confidence": "high",
+      "sourceRefs": [
+        5,
+        6
+      ],
+      "type": {
+        "similar": [
+          "Kaufmann Bold",
+          "Futura Bold Oblique"
+        ],
+        "weight": 800,
+        "slantDeg": 16,
+        "width": "normal",
+        "strokes": "brush",
+        "case": "mixed",
+        "xHeight": 0.55
+      },
+      "length": 0.18
+    },
+    {
+      "text": "SkyWest",
+      "place": "fuselage",
+      "side": "left",
+      "at": [
+        0.286,
+        -0.44
+      ],
+      "height": 0.15,
+      "color": "midnight",
+      "style": "SkyWest's name in small bold italic mixed case, right after 'Alaska' on its baseline.",
+      "confidence": "high",
+      "sourceRefs": [
+        5,
+        6
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Bold Italic",
+          "Arial Bold Italic"
+        ],
+        "weight": 700,
+        "slantDeg": 12,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "length": 0.04
+    }
+  ],
+  "notes": "Measured on the E175 N188SY (left, Nov 2023), checked on N411SY (Feb 2026). SkyWest's E175s for Alaska differ from the mainline in the title: smaller, higher, with 'SkyWest' after it. The right side's 'SkyWest' wasn't seen in these photos, so only the left is drawn (on Horizon's jets the operator name follows the title in reading order, i.e. forward of it on the right). Horizon's own E175s carry 'HORIZON' instead: see regional-horizon. Positions are measured on E175s, whose window line is higher (y about 0.3) than the narrow-body average in COORDINATES.md, so titles placed above or below the windows sit higher than they would on a 737. Re-checked 2026-11-15 on N188SY, N411SY (left, from below) and N657QX (right, nearly level), drawn on the E175: the aft sweep had been copied from the 737 and sat about 2 m too far aft as a share of the E175's length; its edges re-measured on the three photos (they agree within about 0.3 m) as smooth curves, with the silver-grey stripe ahead of the lime that the mainline also has. The title placed against the windows: the capital A's top just above the window tops, the baseline about 1.2 m under the windows (y -0.44, cap height 0.66), running 0.11-0.29 on the left and 0.13-0.31 on the right; lowercase about 0.55 of the capital. The fin's art is the 737's as shares of the fin (it looks the same on the E175's photos).",
+  "history": "Alaska's regional E175s took the 2016 scheme with the mainline; the operator's name follows the title."
+}

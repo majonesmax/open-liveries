@@ -1,0 +1,585 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "SJX",
+  "name": "STARLUX livery (2020)",
+  "kind": "standard",
+  "from": "2020",
+  "confidence": "medium",
+  "drawnOn": "A35K",
+  "description": "White over a dark navy belly, the two parted by a gold band that starts under the nose, sweeps up and thins to a fine line along the lower side, and a second gold line edging the belly that widens aft and sweeps up into the fin's lower trailing corner. The navy fin, woven all over with a fine gold basket-weave, runs down onto the body in a sweep ahead of the fin's root, edged in gold, with a white band between it and the gold corner. Two slanted white bars and a small white four-point star near the fin's top. 'STARLUX' in wide navy capitals over the forward windows; the A350-1000s add a big woven '1000' behind the wing. Dark engines.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A350-1041_‘B-58551’_STARLUX_Airlines_(55500781624).jpg",
+      "title": "Airbus A350-1041 ‘B-58551’ STARLUX Airlines (55500781624).jpg (CC BY-SA 4.0, Alan Wilson)",
+      "accessed": "2026-11-20",
+      "note": "A350-1000 B-58551, right side at Taoyuan, 2026-03-16: flipped nose-left and measured on the A350-1000 shape (fit 3–14 px with doors 1 and 4): belly, gold bands, the woven sweep, titles, fin."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A350-1041_‘B-58551’_STARLUX_Airlines_(55498183206).jpg",
+      "title": "Airbus A350-1041 ‘B-58551’ STARLUX Airlines (55498183206).jpg (CC BY-SA 4.0, Alan Wilson)",
+      "accessed": "2026-11-20",
+      "note": "B-58551, left side from ahead, 2026-03-16: the left side's titles (STARLUX forward, 1000 aft) and fin."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:StarLux_A350-1041_B-58551_l_TPE_RCTP_l_03-MAR-2026_(55133642544).jpg",
+      "title": "StarLux A350-1041 B-58551 l TPE RCTP l 03-MAR-2026 (55133642544).jpg (CC BY-SA 4.0, Steven Byles)",
+      "accessed": "2026-11-20",
+      "note": "B-58551 rotating, left side from below, 2026-03-07: navy belly, dark engines."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Starlux_Airlines",
+      "title": "Wikipedia: Starlux Airlines",
+      "accessed": "2026-11-20",
+      "note": "Started flying in 2020; A321neo, A330neo, A350-900 and A350-1000."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F2F2F3",
+      "official": false
+    },
+    "navy": {
+      "hex": "#1C2130",
+      "official": false,
+      "name": "STARLUX navy"
+    },
+    "gold": {
+      "hex": "#A6895A",
+      "official": false,
+      "name": "champagne gold"
+    },
+    "wingGray": {
+      "hex": "#C4C8CD",
+      "official": false
+    },
+    "engineGray": {
+      "hex": "#3A3F4A",
+      "official": false,
+      "name": "dark engine grey"
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "gold aft band over the belly, widening aft and sweeping up to the fin's trailing root (its lower part is covered by the navy belly)",
+        "color": "gold",
+        "smooth": true,
+        "points": [
+          [
+            0.4,
+            -1
+          ],
+          [
+            0.4,
+            -0.15,
+            1
+          ],
+          [
+            0.55,
+            -0.16
+          ],
+          [
+            0.7,
+            -0.2
+          ],
+          [
+            0.786,
+            -0.243
+          ],
+          [
+            0.846,
+            -0.18
+          ],
+          [
+            0.907,
+            0.12
+          ],
+          [
+            0.94,
+            0.6
+          ],
+          [
+            0.955,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ]
+      },
+      {
+        "name": "navy belly, rising from the nose gear to a level edge under the windows and up the tail cone",
+        "color": "navy",
+        "smooth": true,
+        "points": [
+          [
+            0.0995,
+            -1
+          ],
+          [
+            0.22,
+            -0.366
+          ],
+          [
+            0.363,
+            -0.182
+          ],
+          [
+            0.518,
+            -0.176
+          ],
+          [
+            0.697,
+            -0.227
+          ],
+          [
+            0.786,
+            -0.37
+          ],
+          [
+            0.846,
+            -0.338
+          ],
+          [
+            0.906,
+            -0.173
+          ],
+          [
+            0.967,
+            0.19
+          ],
+          [
+            1,
+            0.25
+          ],
+          [
+            1,
+            -1
+          ]
+        ]
+      },
+      {
+        "name": "gold band from under the nose, sweeping up and thinning to a fine line along the lower side, to the woven sweep's tip",
+        "color": "gold",
+        "smooth": true,
+        "points": [
+          [
+            0.005,
+            -1
+          ],
+          [
+            0.06,
+            -0.62
+          ],
+          [
+            0.1725,
+            -0.247
+          ],
+          [
+            0.364,
+            -0.1
+          ],
+          [
+            0.459,
+            -0.084
+          ],
+          [
+            0.697,
+            -0.09
+          ],
+          [
+            0.7866,
+            -0.143,
+            1
+          ],
+          [
+            0.697,
+            -0.115
+          ],
+          [
+            0.459,
+            -0.11
+          ],
+          [
+            0.411,
+            -0.16
+          ],
+          [
+            0.268,
+            -0.325
+          ],
+          [
+            0.124,
+            -0.62
+          ],
+          [
+            0.028,
+            -1
+          ]
+        ]
+      },
+      {
+        "name": "gold edge under the woven sweep",
+        "color": "gold",
+        "smooth": true,
+        "points": [
+          [
+            0.7866,
+            -0.143,
+            1
+          ],
+          [
+            0.8467,
+            -0.09
+          ],
+          [
+            0.912,
+            0.36
+          ],
+          [
+            0.932,
+            0.72
+          ],
+          [
+            0.948,
+            1
+          ],
+          [
+            0.94,
+            1
+          ],
+          [
+            0.925,
+            0.75
+          ],
+          [
+            0.9074,
+            0.4
+          ],
+          [
+            0.8467,
+            -0.05
+          ]
+        ]
+      },
+      {
+        "name": "navy woven sweep, the fin's weave carried down onto the body ahead of the fin's root to a point over the last door",
+        "color": "navy",
+        "smooth": true,
+        "points": [
+          [
+            0.7866,
+            -0.143,
+            1
+          ],
+          [
+            0.82,
+            0.3
+          ],
+          [
+            0.8576,
+            1
+          ],
+          [
+            0.94,
+            1
+          ],
+          [
+            0.925,
+            0.75
+          ],
+          [
+            0.9074,
+            0.4
+          ],
+          [
+            0.8467,
+            -0.05
+          ]
+        ]
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "navy",
+    "areas": [
+      {
+        "name": "white band along the lower trailing edge, between the weave and the gold corner",
+        "color": "white",
+        "smooth": true,
+        "points": [
+          [
+            0.5,
+            -0.1
+          ],
+          [
+            0.527,
+            -0.035
+          ],
+          [
+            0.634,
+            0.087
+          ],
+          [
+            0.716,
+            0.233
+          ],
+          [
+            0.779,
+            0.38
+          ],
+          [
+            0.84,
+            0.4675
+          ],
+          [
+            0.92,
+            0.51
+          ],
+          [
+            1,
+            0.53
+          ],
+          [
+            1,
+            -0.1
+          ]
+        ]
+      },
+      {
+        "name": "gold lower trailing corner, the body's gold band swept up",
+        "color": "gold",
+        "smooth": true,
+        "points": [
+          [
+            0.6,
+            -0.1
+          ],
+          [
+            0.628,
+            -0.07
+          ],
+          [
+            0.74,
+            0.014
+          ],
+          [
+            0.82,
+            0.126
+          ],
+          [
+            0.914,
+            0.233
+          ],
+          [
+            1,
+            0.3
+          ],
+          [
+            1,
+            -0.1
+          ]
+        ]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "engines": {
+    "cowling": "engineGray",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "SJX/bars",
+      "place": "fin",
+      "at": [
+        0.45,
+        0.49
+      ],
+      "height": 0.43,
+      "colors": [
+        "white"
+      ],
+      "description": "STARLUX's mark: two parallel white bars slanting up and aft (leaning back like the fin), one above the other, high on the fin.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Airbus_A350-1041_%E2%80%98B-58551%E2%80%99_STARLUX_Airlines_(55500781624).jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "SJX/star",
+      "place": "fin",
+      "at": [
+        0.73,
+        0.6
+      ],
+      "height": 0.08,
+      "colors": [
+        "white"
+      ],
+      "description": "A small white four-pointed star (a compass-rose sparkle) aft of the bars.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Airbus_A350-1041_%E2%80%98B-58551%E2%80%99_STARLUX_Airlines_(55500781624).jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ]
+    },
+    {
+      "mark": "SJX/weave",
+      "place": "fin",
+      "at": [
+        0.5,
+        0.5
+      ],
+      "height": 1,
+      "colors": [
+        "gold",
+        "navy"
+      ],
+      "description": "A fine gold basket-weave pattern over the whole navy fin and its sweep onto the body (and inside the '1000' digits); areas leave it navy.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Airbus_A350-1041_%E2%80%98B-58551%E2%80%99_STARLUX_Airlines_(55500781624).jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "STARLUX",
+      "place": "fuselage",
+      "at": [
+        0.247,
+        0.005
+      ],
+      "height": 0.397,
+      "length": 0.2,
+      "color": "navy",
+      "style": "Wide, widely spaced dark navy geometric capitals over the windows ahead of the wing (the windows show through).",
+      "type": {
+        "similar": [
+          "Gotham Medium",
+          "Montserrat Medium"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "types": {
+    "A35K": {
+      "note": "The A350-1000s add a big woven '1000' behind the wing (B-58551, 2026-03).",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "titles": [
+        {
+          "text": "STARLUX",
+          "place": "fuselage",
+          "at": [
+            0.247,
+            0.005
+          ],
+          "height": 0.397,
+          "length": 0.2,
+          "color": "navy",
+          "style": "Wide, widely spaced dark navy geometric capitals over the windows ahead of the wing (the windows show through).",
+          "type": {
+            "similar": [
+              "Gotham Medium",
+              "Montserrat Medium"
+            ],
+            "weight": 500,
+            "slantDeg": 0,
+            "width": "extended",
+            "strokes": "uniform",
+            "case": "upper"
+          },
+          "confidence": "medium",
+          "sourceRefs": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "1000",
+          "place": "fuselage",
+          "at": [
+            0.648,
+            -0.09
+          ],
+          "height": 0.5,
+          "length": 0.118,
+          "color": "navy",
+          "style": "Big round outlined digits filled with the tail's gold-on-navy weave, behind the wing (the A350-1000s only).",
+          "type": {
+            "similar": [
+              "Avenir Next Demi Bold",
+              "Futura Medium"
+            ],
+            "weight": 600,
+            "slantDeg": 0,
+            "width": "extended",
+            "strokes": "uniform",
+            "case": "upper"
+          },
+          "confidence": "medium",
+          "sourceRefs": [
+            0,
+            1
+          ]
+        }
+      ]
+    }
+  },
+  "notes": "Measured on B-58551's right side (2026-03-16), flipped nose-left and fitted to the A350-1000 shape; checked against its left side the same day. Layout assumed the same on both sides (the left photo agrees on titles, sweep and fin). The weave is too fine for areas: the fin and sweep are navy, the weave is the SJX/weave entry. B-58553 flies in an all-grey special (not this scheme). Winglets not seen clearly; left out. Small registration and 'A350-1000' lettering not drawn.",
+  "history": "New file (STARLUX had no scheme here). Its only standard scheme since the airline's first flights in 2020."
+}

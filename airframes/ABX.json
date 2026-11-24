@@ -1,0 +1,96 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "ABX",
+  "airframes": [
+    {
+      "registration": "N1321A",
+      "hex": "a0851b",
+      "type": "B763",
+      "livery": "ATN/prime-air",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Atlas_Air_N1321A_landing_at_Lakeland_Linder_International_Airport.jpg",
+          "title": "Atlas Air N1321A landing at Lakeland Linder International Airport.jpg",
+          "accessed": "2026-11-13",
+          "note": "Commons photo, 2023-07-15: in Prime Air paint."
+        },
+        {
+          "url": "https://hexdb.io/api/v1/aircraft/a0851b",
+          "title": "hexdb.io aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Registered owner/operator given as 'Prime Air', operator flag GTI (community data)."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Amazon_Air#Fleet",
+          "title": "Wikipedia: Amazon Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "Amazon Air's contract operators and counts (as of January 2025)."
+        }
+      ],
+      "lastSeen": "2026-11-13",
+      "status": "flying as ABX3158 on adsb.lol, 2026-11-13; photographed in Prime Air paint 2023-07-15 (Commons)",
+      "notes": "Flown by Atlas Air in 2023 (photo caption); by November 2026 it flies under ABX Air's callsign (hexdb's flag still says GTI)."
+    },
+    {
+      "registration": "N1361A",
+      "hex": "a093f7",
+      "type": "B763",
+      "livery": "ATN/prime-air",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Boeing_767-31B%28ER%29%28BCF%29%28WL%29_%28N1361A%2C_msn_26265%2C_ln_570%29_%285-22-2023%29.jpg",
+          "title": "Boeing 767-31B(ER)(BCF)(WL) (N1361A, msn 26265, ln 570) (5-22-2023).jpg",
+          "accessed": "2026-11-13",
+          "note": "Commons photo, 2023-05-22: in Prime Air paint."
+        },
+        {
+          "url": "https://hexdb.io/api/v1/aircraft/a093f7",
+          "title": "hexdb.io aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Registered owner/operator given as 'Prime Air', operator flag GTI (community data)."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Amazon_Air#Fleet",
+          "title": "Wikipedia: Amazon Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "Amazon Air's contract operators and counts (as of January 2025)."
+        }
+      ],
+      "lastSeen": "2026-11-13",
+      "status": "flying as ABX3165 on adsb.lol, 2026-11-13; photographed in Prime Air paint 2023-05-22 (Commons)",
+      "notes": "Flown by Atlas until about 2025 (hexdb's flag still says GTI); flying as ABX in November 2026."
+    },
+    {
+      "registration": "N1327A",
+      "hex": "a085ed",
+      "type": "B763",
+      "livery": "ATN/prime-air",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Boeing_767-37D%28ER%29%28BDSF%29_%28N1327A%2C_msn_26328%2C_ln_637%29_%284-10-2024%29.jpg",
+          "title": "Boeing 767-37D(ER)(BDSF) (N1327A, msn 26328, ln 637) (4-10-2024).jpg",
+          "accessed": "2026-11-13",
+          "note": "Commons photo, 2024-04-10: in Prime Air paint."
+        },
+        {
+          "url": "https://hexdb.io/api/v1/aircraft/a085ed",
+          "title": "hexdb.io aircraft record",
+          "accessed": "2026-11-13",
+          "note": "Registered owner/operator given as 'Prime Air', operator flag GTI (community data)."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Amazon_Air#Fleet",
+          "title": "Wikipedia: Amazon Air, fleet",
+          "accessed": "2026-11-13",
+          "note": "Amazon Air's contract operators and counts (as of January 2025)."
+        }
+      ],
+      "lastSeen": "2024-04-10",
+      "status": "photographed in Prime Air paint 2024-04-10 (Commons)",
+      "notes": "Callsign uncertain: hexdb flags it GTI (Atlas), but its ex-Atlas sisters N1321A and N1361A fly as ABX in November 2026; not seen in the sample."
+    }
+  ]
+}

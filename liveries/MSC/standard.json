@@ -1,0 +1,139 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "MSC",
+  "name": "Purple with mosaic tail",
+  "kind": "standard",
+  "confidence": "medium",
+  "drawnOn": "A20N",
+  "description": "White fuselage with the 'AIR CAIRO' wordmark across the forward windows, purple with an orange C and O. A purple fin with the stacked AIR CAIRO logo in white and orange; below it the whole rear fuselage, from the fin's root down past the aft door to the belly, is a mosaic of small triangles in purple, magenta, orange and yellow. 'aircairo.com' above the windows over the wing. Purple engines and winglets carrying the logo.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Hannover_Airport_Air_Cairo_Airbus_A320-251N_SU-BUX_(DSC00251).jpg",
+      "title": "Hannover Airport Air Cairo Airbus A320-251N SU-BUX (DSC00251) (CC BY-SA 4.0, MarcelX42)",
+      "accessed": "2026-11-21",
+      "note": "A320neo SU-BUX taxiing at Hannover, left side, close and level, 2024-09-05. Fitted to shapes/A20N.json (doors within 21 px: the aircraft is close, so perspective): the mosaic's forward edge traced, the wordmark's ends and height, the fin logo, aircairo.com."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:SU-BUK_@_FRA,_2024-08-11.jpg",
+      "title": "SU-BUK @ FRA, 2024-08-11 (CC BY-SA 2.0, Anna Zvereva)",
+      "accessed": "2026-11-21",
+      "note": "Right side from below on approach, 2024-08-11: the same layout from the right (wordmark forward, mosaic aft of the aft door, purple engines and fin)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A320-251N_(cn_9056,_SU-BUM)_2024-10-30_Andre_Gerwing_Collection_ID_022153.jpg",
+      "title": "Airbus A320-251N (cn 9056, SU-BUM) 2024-10-30 (CC BY-SA 4.0, André Gerwing)",
+      "accessed": "2026-11-21",
+      "note": "Left side from below, 2024-10-30: the wordmark repeated under the belly in purple and orange, the mosaic's lower edge."
+    }
+  ],
+  "palette": {
+    "white": { "hex": "#F2F2F2", "official": false },
+    "purple": { "hex": "#4E2A78", "name": "Air Cairo purple", "official": false },
+    "mosaic": { "hex": "#6E3A80", "name": "the tail mosaic's commonest colour (purple); its triangles are described in the logo", "official": false },
+    "orange": { "hex": "#EF792B", "official": false },
+    "ink": { "hex": "#2F2A33", "official": false },
+    "lip": { "hex": "#C3C7CC", "official": false }
+  },
+  "fuselage": {
+    "base": "white",
+    "windows": "plain",
+    "areas": [
+      {
+        "name": "the triangle mosaic over the rear fuselage, from the fin's root down past the aft door to the belly",
+        "color": "mosaic",
+        "smooth": true,
+        "points": [[0.7465, 1], [0.754, 0.85], [0.762, 0.6], [0.77, 0.45], [0.789, 0.23], [0.8, 0.06], [0.81, -0.14], [0.816, -0.3], [0.825, -0.65], [0.829, -1], [1, -1], [1, 1]],
+        "confidence": "medium",
+        "sourceRefs": [0, 1, 2]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [0, 1]
+  },
+  "fin": { "base": "purple", "confidence": "high", "sourceRefs": [0, 1, 2] },
+  "wings": { "top": "#B9BEC5", "under": "#C9CDD2" },
+  "winglets": { "outer": "purple", "inner": "purple", "confidence": "high", "sourceRefs": [0, 1] },
+  "engines": { "cowling": "purple", "inletLip": "lip", "pylon": "white", "confidence": "high", "sourceRefs": [0, 1, 2] },
+  "titles": [
+    {
+      "text": "AIR CAIRO",
+      "mark": "MSC/wordmark",
+      "parts": [
+        { "text": "AIR ", "color": "purple" },
+        { "text": "C", "color": "orange" },
+        { "text": "AIR", "color": "purple" },
+        { "text": "O", "color": "orange" }
+      ],
+      "place": "fuselage",
+      "at": [0.163, 0.02],
+      "height": 0.39,
+      "length": 0.223,
+      "color": "purple",
+      "style": "Heavy geometric capitals across the forward windows: the A's without crossbars and slanted, AIR in purple, then a big round orange C overlapping the next A, purple AIR and a round orange O.",
+      "confidence": "high",
+      "sourceRefs": [0, 1],
+      "type": { "similar": ["Futura Extra Bold", "Montserrat Black"], "weight": 900, "slantDeg": 0, "width": "extended", "strokes": "uniform", "case": "upper" }
+    },
+    {
+      "text": "aircairo.com",
+      "place": "fuselage",
+      "at": [0.667, 0.39],
+      "height": 0.16,
+      "length": 0.08,
+      "color": "ink",
+      "style": "Dark lower-case sans above the windows over the wing.",
+      "confidence": "medium",
+      "sourceRefs": [0, 1],
+      "type": { "similar": ["Helvetica Neue Medium", "Arial"], "weight": 500, "slantDeg": 0, "width": "normal", "strokes": "uniform", "case": "lower", "xHeight": 0.72 }
+    }
+  ],
+  "logos": [
+    {
+      "mark": "MSC/logo",
+      "place": "fin",
+      "at": [0.49, 0.48],
+      "height": 0.28,
+      "colors": ["white", "orange"],
+      "description": "The AIR CAIRO logo stacked in two lines: AIR in white over CAIRO with the C and O orange, the rest white, in the fin's middle.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Hannover_Airport_Air_Cairo_Airbus_A320-251N_SU-BUX_(DSC00251).jpg",
+      "confidence": "high",
+      "sourceRefs": [0, 1]
+    },
+    {
+      "mark": "MSC/mosaic",
+      "place": "fuselage",
+      "at": [0.88, 0.0],
+      "height": 1.6,
+      "colors": ["#4B2E6E", "#A0408F", "#E8782F", "#EAC752"],
+      "description": "The tail's mosaic: rows of small equilateral triangles (about 40 cm a side) in purple, magenta, orange and yellow, purple the commonest (about half), filling the area under it.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Hannover_Airport_Air_Cairo_Airbus_A320-251N_SU-BUX_(DSC00251).jpg",
+      "confidence": "medium",
+      "sourceRefs": [0, 1, 2]
+    },
+    {
+      "mark": "MSC/logo",
+      "place": "engines",
+      "at": [0.4, 0.15],
+      "height": 0.55,
+      "colors": ["white", "orange"],
+      "description": "The stacked logo on the purple cowl.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Hannover_Airport_Air_Cairo_Airbus_A320-251N_SU-BUX_(DSC00251).jpg",
+      "confidence": "medium",
+      "sourceRefs": [0, 1]
+    },
+    {
+      "mark": "MSC/flag",
+      "place": "fuselage",
+      "at": [0.732, -0.066],
+      "height": 0.12,
+      "colors": ["#CE1126", "white", "#000000"],
+      "description": "Small Egyptian flag ahead of the registration, under the rear windows.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Flag_of_Egypt.svg",
+      "confidence": "medium",
+      "sourceRefs": [0]
+    }
+  ],
+  "notes": "Measured on SU-BUX (A320neo, left side, 2024-09-05) fitted to the A320neo shape; SU-BUK (right, 2024) and SU-BUM (left from below, 2024) agree. No Commons photo of SU-BVO (the maintainer's sighting) was found; same type, assumed the same scheme. The wordmark runs x 0.163-0.386, from the windows' bottoms to y 0.41, about 1.9 m tall. The mosaic's forward edge leaves the crown at x 0.747 (ahead of the fin's root) and curves down behind the aft door to the belly at x 0.83; it's drawn as one area in the mosaic's commonest colour, purple (about half its triangles; magenta, yellow, orange and dark red make up the rest, in triangles too small to draw as areas), and described as a logo. SU-BUX carried a '20 YEARS' badge under the cockpit in 2024 (the airline's anniversary), not drawn. The belly carries the wordmark again (SU-BUM); not drawn. Air Cairo's A320ceos may wear an older scheme.",
+  "history": "New 2026-11-21 (the maintainer's sightings: SU-BVO)."
+}

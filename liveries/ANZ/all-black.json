@@ -1,0 +1,21 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "all-black",
+  "airline": "ANZ",
+  "name": "All Black (Silver Fern)",
+  "kind": "special",
+  "confidence": "medium",
+  "description": "Fuselage: Entire fuselage, belly and fin gloss black. Cheatlines: None. Tail: Black fin with the white Air NZ koru (Mangopare) logo. Engines: White/gray cowlings. Winglets: Raked tips. Titles: 'AIR NEW ZEALAND' in white capitals forward over the windows. Artwork: A large white silver-fern frond on the aft fuselage ahead of the tail. Colors hex: approximate.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:ZK-OKQ_(aircraft)",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:ZK-NZE_(aircraft)",
+      "accessed": "2026-11-12"
+    }
+  ],
+  "notes": "No 2025-26 official statement; photo evidence only.",
+  "from": "2011"
+}

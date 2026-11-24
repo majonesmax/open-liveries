@@ -1,0 +1,628 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "cargo",
+  "airline": "UAE",
+  "name": "Emirates SkyCargo",
+  "kind": "standard",
+  "from": "2023",
+  "confidence": "medium",
+  "drawnOn": "B77L",
+  "description": "The 2023 Emirates livery on the 777 freighters: white with no windows, the rippled flag on the fin with its red band sweeping down the rear fuselage; 'Emirates' in gold over the forward fuselage underlined with a thin gold rule, 'SkyCargo' in red under its end, the Arabic title in gold just ahead of the wing, red belly panel with 'Emirates'.",
+  "sources": [
+    {
+      "url": "https://www.emirates.com/media-centre/emirates-unveils-new-signature-livery-for-its-fleet/",
+      "title": "Emirates unveils new signature livery for its fleet (press release, 16 March 2023; cited by Wikipedia)",
+      "accessed": "2026-11-13",
+      "note": "A flowing, 3D UAE flag on the tail; red wingtips with the logo in white calligraphy, the flag's colors on their inner faces. Read through Wikipedia's 'Livery' section."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:A6-EXL_landing_at_Glasgow.jpg",
+      "title": "A6-EXL landing at Glasgow (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "A350-900, right side from below, 2026-04-30: the fin, the red sweep to the lower fuselage, red belly title, red winglets, engine logo."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Emirates_A350-900_Bologna_Airport_-_2025.jpg",
+      "title": "Emirates A350-900 Bologna Airport - 2025 (A6-EXH, CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Right side, level, 2026-02-12 (file date): title sizes and places, the Arabic title aft of the English."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:20250402_Airbus_A380-861_of_Emirates_(A6-EOE)_landing_at_SYD.jpg",
+      "title": "Airbus A380-861 of Emirates (A6-EOE) landing at SYD (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "2025-04-02, right side: the new tail at its clearest (the fuselage wears a Wimbledon decal; the tail and red sweep are standard)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Emirates_A350_(A6-EXA).png",
+      "title": "Emirates A350 (A6-EXA) (CC0)",
+      "accessed": "2026-11-13",
+      "note": "2024-11-05, right side from below: belly panel and the winglet."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:A6-ENP_-_Boeing_777-31H(ER)_-_Emirates_SIN_220325.jpg",
+      "title": "A6-ENP - Boeing 777-31H(ER) - Emirates SIN 220325 (CC BY 2.0)",
+      "accessed": "2026-11-13",
+      "note": "Left side in the earlier scheme, 2025: on the left too the English title is forward and the Arabic aft."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:A6-EWK_-_Boeing_777-F_-_Emirates_Sky_Cargo_OSL_010426.jpg",
+      "title": "A6-EWK - Boeing 777-F - Emirates Sky Cargo OSL 010426.jpg",
+      "accessed": "2026-11-13",
+      "note": "A6-EWK (777F, delivered 2026) right side, level, 2026-04-01: titles measured here, the gold rule, the 2023 tail on a freighter."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:A6-EWQ_(9_Sept_2026).jpg",
+      "title": "A6-EWQ (9 Sept 2026).jpg",
+      "accessed": "2026-11-13",
+      "note": "A6-EWQ (777F), left side from below, 2026-09-09: titles, red belly panel, fin."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:A6-EFV_Boeing_777-F1H_Emirates_Cargo_Liege_19.3.26_(55168523815).jpg",
+      "title": "A6-EFV Boeing 777-F1H Emirates Cargo Liege 19.3.26 (55168523815).jpg",
+      "accessed": "2026-11-13",
+      "note": "A6-EFV right side, 2026-03-19: an older 777F repainted in the 2023 scheme; the Arabic title aft of 'Emirates'."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:A6-EFZ_(27_Sep_2026).jpg",
+      "title": "A6-EFZ (27 Sep 2026).jpg",
+      "accessed": "2026-11-13",
+      "note": "A6-EFZ, 2026-09-27: 2023 scheme."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Emirates_SkyCargo",
+      "title": "Emirates SkyCargo (Wikipedia)",
+      "accessed": "2026-11-13",
+      "note": "Fleet, Oct 2026: 19 777Fs, 2 777-300ERSF, 6 wet-leased 747-400Fs."
+    },
+    {
+      "url": "https://www.emirates.com/media-centre/emirates-becomes-first-airline-cargo-carrier-to-deploy-the-boeing-777-300ersf/",
+      "title": "Emirates becomes first airline cargo carrier to deploy the Boeing 777-300ERSF",
+      "accessed": "2026-11-13",
+      "note": "June 2026: the converted A6-EBK; new freighters delivered in the new livery."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F5",
+      "official": false
+    },
+    "red": {
+      "hex": "#D71921",
+      "name": "Emirates red",
+      "official": false
+    },
+    "green": {
+      "hex": "#00843D",
+      "name": "flag green",
+      "official": false
+    },
+    "black": {
+      "hex": "#16181B",
+      "name": "flag black",
+      "official": false
+    },
+    "flagWhite": {
+      "hex": "#D9DCDF",
+      "name": "the flag's white, read through its fine black ripple lines",
+      "official": false
+    },
+    "gold": {
+      "hex": "#A98C4E",
+      "name": "Emirates gold",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#C3C7CC",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C6CACF",
+      "name": "bare metal inlet lip",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "red sweep, from the fin down the rear fuselage",
+        "color": "red",
+        "points": [
+          [
+            0.805,
+            1
+          ],
+          [
+            0.783,
+            0.5
+          ],
+          [
+            0.73,
+            0.0
+          ],
+          [
+            0.673,
+            -0.55
+          ],
+          [
+            0.69,
+            -0.64
+          ],
+          [
+            0.726,
+            -0.55
+          ],
+          [
+            0.783,
+            0.0
+          ],
+          [
+            0.836,
+            0.5
+          ],
+          [
+            0.858,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "red belly panel between the wings",
+        "color": "red",
+        "points": [
+          [
+            0.37,
+            -1
+          ],
+          [
+            0.37,
+            -0.86
+          ],
+          [
+            0.39,
+            -0.8
+          ],
+          [
+            0.58,
+            -0.8
+          ],
+          [
+            0.6,
+            -0.86
+          ],
+          [
+            0.6,
+            -1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1,
+          4
+        ]
+      },
+      {
+        "name": "thin gold rule under 'Emirates', from its start to the end of 'SkyCargo'",
+        "color": "gold",
+        "points": [
+          [
+            0.1,
+            -0.238
+          ],
+          [
+            0.303,
+            -0.238
+          ],
+          [
+            0.303,
+            -0.256
+          ],
+          [
+            0.1,
+            -0.256
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6,
+          7
+        ]
+      }
+    ],
+    "windows": "hidden",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2,
+      3
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "flag green, along the top of the trailing half",
+        "color": "green",
+        "points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            0.9,
+            1.0
+          ],
+          [
+            0.62,
+            0.88
+          ],
+          [
+            0.53,
+            0.7
+          ],
+          [
+            0.3,
+            0.585
+          ],
+          [
+            0.44,
+            0.44
+          ],
+          [
+            0.62,
+            0.53
+          ],
+          [
+            0.81,
+            0.69
+          ],
+          [
+            1.0,
+            0.73
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          3
+        ]
+      },
+      {
+        "name": "flag white (rippled), under the green",
+        "color": "flagWhite",
+        "points": [
+          [
+            1.0,
+            0.73
+          ],
+          [
+            0.81,
+            0.69
+          ],
+          [
+            0.62,
+            0.53
+          ],
+          [
+            0.44,
+            0.44
+          ],
+          [
+            0.33,
+            0.43
+          ],
+          [
+            0.36,
+            0.1
+          ],
+          [
+            0.43,
+            0.086
+          ],
+          [
+            0.55,
+            0.2
+          ],
+          [
+            0.79,
+            0.4
+          ],
+          [
+            1.0,
+            0.44
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          3
+        ]
+      },
+      {
+        "name": "flag black (rippled)",
+        "color": "black",
+        "points": [
+          [
+            1.0,
+            0.44
+          ],
+          [
+            0.79,
+            0.4
+          ],
+          [
+            0.55,
+            0.2
+          ],
+          [
+            0.43,
+            0.086
+          ],
+          [
+            0.4,
+            -0.05
+          ],
+          [
+            0.65,
+            -0.05
+          ],
+          [
+            0.81,
+            0.155
+          ],
+          [
+            1.0,
+            0.19
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          3
+        ]
+      },
+      {
+        "name": "red band, the flag's hoist, running off the root onto the fuselage",
+        "color": "red",
+        "points": [
+          [
+            0.29,
+            0.585
+          ],
+          [
+            0.216,
+            0.44
+          ],
+          [
+            0.15,
+            0.32
+          ],
+          [
+            0.13,
+            0.155
+          ],
+          [
+            0.07,
+            -0.05
+          ],
+          [
+            0.35,
+            -0.05
+          ],
+          [
+            0.353,
+            0.155
+          ],
+          [
+            0.33,
+            0.32
+          ],
+          [
+            0.33,
+            0.44
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          3
+        ]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      3
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "red",
+    "inner": "green",
+    "confidence": "low",
+    "sourceRefs": [
+      0,
+      1,
+      4
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "UAE/calligraphy",
+      "place": "engines",
+      "at": [
+        0.55,
+        0.05
+      ],
+      "height": 0.36,
+      "colors": [
+        "gold"
+      ],
+      "description": "The Emirates logo: the name in Arabic calligraphy (Diwani-style), a compact knot of strokes about as tall as wide, in gold on the outboard side of each cowling.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Emirates_logo.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "UAE/calligraphy",
+      "place": "winglets",
+      "at": [
+        0.45,
+        0.55
+      ],
+      "height": 0.25,
+      "colors": [
+        "white"
+      ],
+      "description": "The calligraphy logo, small, in white on the red winglet's outer face.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Emirates_logo.svg",
+      "confidence": "low",
+      "sourceRefs": [
+        1,
+        4
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Emirates",
+      "place": "fuselage",
+      "at": [
+        0.1,
+        -0.151
+      ],
+      "height": 0.74,
+      "length": 0.209,
+      "color": "gold",
+      "style": "The Emirates wordmark in gold: a bold old-style serif, mixed case, over the forward fuselage.",
+      "confidence": "medium",
+      "sourceRefs": [
+        6,
+        7
+      ],
+      "type": {
+        "similar": [
+          "Minion Pro Bold",
+          "Times New Roman Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "contrast",
+        "case": "mixed",
+        "xHeight": 0.66
+      }
+    },
+    {
+      "text": "SkyCargo",
+      "place": "fuselage",
+      "at": [
+        0.101,
+        -0.554
+      ],
+      "height": 0.27,
+      "length": 0.076,
+      "color": "red",
+      "style": "'SkyCargo' in red, one word with a capital C, a semi-bold upright serif, right-aligned under the end of 'Emirates'.",
+      "confidence": "medium",
+      "sourceRefs": [
+        6,
+        7
+      ],
+      "type": {
+        "similar": [
+          "Minion Pro Semibold",
+          "Times New Roman Bold"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "contrast",
+        "case": "mixed",
+        "xHeight": 0.7
+      }
+    },
+    {
+      "text": "الإمارات",
+      "place": "fuselage",
+      "at": [
+        0.317,
+        -0.12
+      ],
+      "height": 0.29,
+      "color": "gold",
+      "style": "'Al Emarat' in gold Arabic calligraphy, aft of 'Emirates' just ahead of the wing root (often hidden by the wing in photos).",
+      "confidence": "low",
+      "sourceRefs": [
+        6,
+        8
+      ],
+      "type": {
+        "similar": [
+          "Noto Naskh Arabic Bold",
+          "Geeza Pro Bold"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "contrast",
+        "case": "mixed"
+      },
+      "length": 0.077
+    },
+    {
+      "text": "Emirates",
+      "place": "belly",
+      "at": [
+        0.4,
+        -1
+      ],
+      "height": 0.3,
+      "length": 0.17,
+      "color": "white",
+      "style": "The wordmark in white on the red belly panel, reading along the fuselage.",
+      "confidence": "low",
+      "sourceRefs": [
+        1,
+        4
+      ],
+      "type": {
+        "similar": [
+          "Minion Pro Bold",
+          "Times New Roman Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "contrast",
+        "case": "mixed"
+      }
+    }
+  ],
+  "notes": "The passenger 2023 scheme with the freighter titles: 'Emirates' moves down and forward, a thin gold rule runs under it, 'SkyCargo' in red under its tail end, the Arabic sits aft. Measured on A6-EWK (right side, 2026-04-01; nose to the right, the titles read the same on both sides, as A6-EWQ's left side shows). New 777Fs (A6-EW*) arrive in it and older ones are being repainted (A6-EFN, EFV, EFX and EFZ wear it in 2026 photos); the rest still wear the 1999 flag scheme with the same titles (cargo-1999). The fin, red sweep and belly panel are the passenger file's, which these photos agree with. The six wet-leased 747-400Fs fly in their operators' colors and are not tagged. Belly title 'Emirates' as on the passenger aircraft, seen only obliquely on A6-EWQ. Re-checked 2026-11-15 on A6-EWK (777F): 'Emirates' (x 0.100 to 0.309), 'SkyCargo' (0.102 to 0.177) and the red sweep (leaving the crown about x 0.82 to 0.85, its point about x 0.70, y -0.54) agree with the drawing within the photo's perspective; the Arabic title's aft end is behind the wing, so its length (0.077) is the 2023 scheme's 4.9 m on the A350 taken onto the 777F (low). The red sweep is smooth.",
+  "history": "Emirates SkyCargo's freighters took the 2023 livery from 2024-2025 (new deliveries and repaints); it replaces the 1999 flag-tail cargo scheme (cargo-1999), still worn by about half the 777Fs in late 2026."
+}

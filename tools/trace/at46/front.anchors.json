@@ -1,0 +1,63 @@
+{
+  "_about": "The same sheet's front view: layers.py --mode lines --contrast 20 at scale 40.84 (the side's scale, from the printed 24.57 m span: drawn 2.1% smaller than the side), clip 14,176,166,222. Pixels of that raster, line centres. The left half; the nacelle hides the wing's underside across it, the sponsons the fuselage's lower side (bridged).",
+  "fuselage.section": [
+    [3262, 1038],
+    [3150, 1060],
+    [3081, 1100],
+    "hidden",
+    [2978, 1250],
+    [2965, 1300],
+    [2961, 1350],
+    [2957, 1400],
+    "hidden",
+    {
+      "free": [2985, 1510]
+    },
+    "hidden",
+    {
+      "free": [3100, 1585]
+    },
+    "hidden",
+    {
+      "free": [3262, 1606]
+    }
+  ],
+  "wing.upper": [
+    [2987, 968],
+    [2800, 968],
+    [2500, 968],
+    [2200, 967],
+    [1800, 954],
+    [1200, 937],
+    [700, 923],
+    [633, 921]
+  ],
+  "wing.lower": [[2987, 1069], [2800, 1066], [2500, 1069], "hidden", [1800, 1050], [1200, 994], [700, 965], [633, 962]],
+  "stabilizer.upper": [
+    [3215, 302],
+    [3100, 303],
+    [2900, 308],
+    [2700, 314],
+    "hidden",
+    {
+      "free": [2373, 325]
+    }
+  ],
+  "stabilizer.lower": [
+    [3215, 380],
+    [3100, 377],
+    [2900, 370],
+    [2700, 361],
+    "hidden",
+    {
+      "free": [2373, 335]
+    }
+  ],
+  "engine.inlet": [
+    [2343, 1190],
+    [2392, 1172],
+    [2441, 1190],
+    [2392, 1208],
+    [2343, 1190]
+  ]
+}

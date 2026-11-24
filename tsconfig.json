@@ -1,0 +1,11 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "renderer"
+    },
+    {
+      "path": "examples/svg-viewer"
+    }
+  ]
+}

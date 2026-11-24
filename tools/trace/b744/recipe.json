@@ -1,0 +1,144 @@
+{
+  "_about": "747-400F, from Boeing D6-58326-1 Rev F (December 2024) 2.2.2 General Dimensions: Model 747-400 Freighter, -400ER Freighter (page index 31), drawn 8.4% larger than 2.2.1's 747-400: rasterized at scale 19.372 and clipped so its raster lies on the 747-400's (b744-passenger/) pixel for pixel, the same references serve. Its outlines are the 747-400's but for the shorter upper deck (placed here); the plan and front are the 747-400's sheet's (the same wing, tail and nacelles). The sheet draws the nose cargo door raised: the closed nose's outline under it is followed, and the door isn't a box the format holds (left out). No cabin windows drawn; doors from this drawing's outlines: the forward crew door, the aft door, the main-deck side cargo door (left), lower cargo doors and the bulk door (right: D6-58326-1 2.7.6-2.7.8 draw them in right side views). The windshield's forward edge, drawn up to 18 cm under the outline, is put on it (windshieldTolerance 0.2: Boeing draws its panes low).",
+  "out": "../../../../shapes/B744.json",
+  "length": 68.63,
+  "wingtip": "winglet",
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "refs": {
+    "side": {
+      "nose": 218,
+      "tail": 5768,
+      "mainCrown": 1079,
+      "cowlEnd": 2378,
+      "cowlEnd2": 3077,
+      "windowRow": [1338, 1385]
+    },
+    "plan": {
+      "nose": 218,
+      "centerline": 3081.5
+    },
+    "front": {
+      "centerline": 2877.5,
+      "crownTop": 797
+    }
+  },
+  "windows": {
+    "x": [],
+    "z": [-0.256, 0.325],
+    "width": 0.346,
+    "note": "The 747-400F has no main-deck cabin windows, and its sheet draws none on the upper deck. A passenger 747-400 (also B744) is shapes/B744-passenger.json."
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [
+        940,
+        1290,
+        1025,
+        1441
+      ]
+    },
+    {
+      "kind": "door",
+      "box": [
+        4630,
+        1290,
+        4716,
+        1441
+      ]
+    },
+    {
+      "kind": "cargo",
+      "box": [
+        3710,
+        1249,
+        3953,
+        1442
+      ],
+      "side": "left"
+    },
+    {
+      "kind": "cargo",
+      "box": [
+        1187,
+        1488,
+        1399,
+        1619
+      ],
+      "side": "right"
+    },
+    {
+      "kind": "cargo",
+      "box": [
+        3754,
+        1469,
+        3967,
+        1600
+      ],
+      "side": "right"
+    },
+    {
+      "kind": "cargo",
+      "box": [
+        4104,
+        1465,
+        4200,
+        1580
+      ],
+      "side": "right"
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [582, 1150],
+      [604, 1130],
+      [632, 1108],
+      [653, 1108],
+      [623, 1146]
+    ],
+    [
+      [660, 1108],
+      [680, 1108],
+      [680, 1149],
+      [632, 1146]
+    ],
+    [
+      [687, 1108],
+      [719, 1108],
+      [719, 1151],
+      [687, 1149]
+    ]
+  ],
+  "printed": {
+    "fuselage width": 6.5,
+    "wingspan": 64.44,
+    "tailplane span": 22.17,
+    "engine out from the centerline": 11.68,
+    "outboard engine out from the centerline": 20.83,
+    "engine inlet from the nose": 24.05,
+    "outboard engine inlet from the nose": 32.77,
+    "overall length": 70.67
+  },
+  "meta": {
+    "id": "B744",
+    "name": "Boeing 747-400F",
+    "types": [
+      "B744"
+    ],
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/boeingdotcom/commercial/airports/acaps/747-400_Rev_F.pdf",
+        "title": "Boeing, 747-400 Airplane Characteristics for Airport Planning (D6-58326-1 Rev F, December 2024), 2.2.2 General Dimensions: Model 747-400 Freighter, -400ER Freighter, and 2.2.1 (plan and front views)",
+        "accessed": "2026-11-15",
+        "note": "Dimensions and outlines read off the side view of 2.2.2 and the plan and front views of 2.2.1 (tools/trace/b744/); the figures are the aircraft's measurements, not a copy of the drawing. 2.2.2 draws the 747-400F 8.4% larger than 2.2.1 draws the 747-400; at their own scales the two side views lie on each other but for the upper deck, so the shape is the 747-400's (shapes/B744-passenger.json) with the freighter's shorter upper deck (fuselage.hump, from 5.5 m to 22.6 m) and its doors. No cabin windows are drawn. The nose cargo door is drawn raised and is left out (the format's doors are boxes); the main-deck side cargo door is on the left. This sheet prints the outboard engines 20.83 m out (2.2.1: 21 m, the same wing); the drawing's 21.18 m is +1.7% on it. The other checks and notes are the 747-400's."
+      }
+    ]
+  },
+  "windshieldTolerance": 0.2
+}

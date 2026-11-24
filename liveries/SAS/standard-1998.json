@@ -1,0 +1,315 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard-1998",
+  "airline": "SAS",
+  "name": "1998 livery (Scandinavian titles)",
+  "kind": "standard",
+  "from": "1998",
+  "confidence": "high",
+  "drawnOn": "A20N",
+  "description": "A warm light gray fuselage with 'Scandinavian' in silver-gray above the forward windows and 'Airlines' below them, from behind the forward door. The fin alone is blue (the fuselage stays gray under it) with a large white SAS logo across its lower half. Red fan cowls with 'Scandinavian' in white, the rear of the nacelle gray. Blue sharklets with a small white SAS; the three Scandinavian flags above the rear windows and small under the cockpit.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Scandinavian_Airlines_System_(SAS)_SE-ROG_Airbus_A320-251N_(neo)_Stockholm-Arlanda_Airport_(ARN_ESSA)_(52712410578).jpg",
+      "title": "Scandinavian Airlines System (SAS) SE-ROG Airbus A320-251N (neo) Stockholm-Arlanda Airport (CC BY-SA 2.0, Mitchul Hope)",
+      "accessed": "2026-11-21",
+      "note": "A320neo SE-ROG landing at Arlanda, left side, level, 2023-02-25. Fitted to shapes/A20N.json (doors pinned): both titles' ends and heights, the fin's SAS, the flags; the blue stops at the fin's root."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:SAS,_SE-ROG,_Airbus_A320-251N_(49734619606).jpg",
+      "title": "SAS, SE-ROG, Airbus A320-251N (CC BY-SA 2.0, Anna Zvereva)",
+      "accessed": "2026-11-21",
+      "note": "Right side on the ground, 2020-03-09: the same layout from the right (titles forward, 'Scandinavian' over the windows, 'Airlines' under them), red engine with white 'Scandinavian', the far sharklet blue."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A320-251N_(c-n_9089,_SE-ROG)_2026-10-07_Andre_Gerwing_Collection_ID_031334.jpg",
+      "title": "Airbus A320-251N (c-n 9089, SE-ROG) 2026-10-07 (CC BY-SA 4.0, André Gerwing)",
+      "accessed": "2026-11-21",
+      "note": "Left side from below and ahead, taking off, 2026-10-07: SE-ROG still in this scheme."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:SAS_Scandinavian_Airlines_Airbus_A320neo_SE-ROG_at_Schiphol_03-03-2022.jpg",
+      "title": "SAS Scandinavian Airlines Airbus A320neo SE-ROG at Schiphol 03-03-2022 (CC BY-SA 4.0, Robbie Klinkenberg)",
+      "accessed": "2026-11-21",
+      "note": "Right side from ahead, 2022-03-03: both engines red, no blue on the rear fuselage."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Scandinavian_Airlines",
+      "accessed": "2026-11-21",
+      "note": "The livery designed by Stockholm Design Lab, introduced in 1998; scarlet engine casings with 'Scandinavian' in white. Replaced by the 2019 livery on new aircraft."
+    }
+  ],
+  "palette": {
+    "gray": {
+      "hex": "#D9D7D5",
+      "name": "fuselage gray",
+      "official": false
+    },
+    "silver": {
+      "hex": "#8C8F95",
+      "name": "silver-gray titles",
+      "official": false
+    },
+    "blue": {
+      "hex": "#25248C",
+      "name": "SAS blue",
+      "official": false
+    },
+    "white": {
+      "hex": "#F6F7F8",
+      "official": false
+    },
+    "red": {
+      "hex": "#E02D25",
+      "name": "scarlet engines",
+      "official": false
+    },
+    "cowl": {
+      "hex": "#CFCFCF",
+      "official": false
+    },
+    "lip": {
+      "hex": "#B8BCC1",
+      "name": "bare metal inlet lip",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "gray",
+    "windows": "plain",
+    "areas": [],
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "fin": {
+    "base": "blue",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "winglets": {
+    "outer": "blue",
+    "inner": "blue",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "red",
+    "inletLip": "lip",
+    "pylon": "gray",
+    "areas": [
+      {
+        "name": "gray rear of the nacelle behind the red fan cowl",
+        "color": "cowl",
+        "points": [
+          [
+            0.77,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            0.77,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      3
+    ]
+  },
+  "titles": [
+    {
+      "text": "Scandinavian",
+      "place": "fuselage",
+      "at": [
+        0.159,
+        0.27
+      ],
+      "height": 0.25,
+      "length": 0.164,
+      "color": "silver",
+      "style": "'Scandinavian' in a light upright humanist sans, mixed case, above the forward windows from just behind the forward door to about the wing's leading edge; metallic, so it reads dark in some light and lighter than the gray in others.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Frutiger Light",
+          "Myriad Pro Light"
+        ],
+        "weight": 300,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.7
+      }
+    },
+    {
+      "text": "Airlines",
+      "place": "fuselage",
+      "at": [
+        0.1616,
+        -0.22
+      ],
+      "height": 0.26,
+      "length": 0.089,
+      "color": "silver",
+      "style": "'Airlines' in the same lettering below the windows, starting under the first letter of 'Scandinavian'.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Frutiger Light",
+          "Myriad Pro Light"
+        ],
+        "weight": 300,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.7
+      }
+    },
+    {
+      "text": "SAS",
+      "place": "fin",
+      "at": [
+        0.26,
+        0.056
+      ],
+      "height": 0.25,
+      "length": 0.7,
+      "color": "white",
+      "style": "The SAS logo in white across the lower fin, reading normally on both sides, its last S near the trailing edge: heavy italic rounded capitals.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Futura Bold Oblique",
+          "Avenir Next Heavy Italic"
+        ],
+        "weight": 800,
+        "slantDeg": 12,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "Scandinavian",
+      "place": "engines",
+      "at": [
+        0.11,
+        0.26
+      ],
+      "height": 0.18,
+      "length": 0.32,
+      "color": "white",
+      "style": "White upright humanist sans, mixed case, on the red cowl's upper half.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Frutiger",
+          "Myriad Pro"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.7
+      }
+    }
+  ],
+  "logos": [
+    {
+      "mark": "SAS/flags",
+      "place": "fuselage",
+      "at": [
+        0.675,
+        0.5
+      ],
+      "height": 0.16,
+      "colors": [
+        "#C8102E",
+        "#FFFFFF",
+        "#00205B",
+        "#006AA7",
+        "#FECC00"
+      ],
+      "description": "The Danish, Norwegian and Swedish flags side by side above the windows ahead of the wing's trailing edge.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Scandinavian_Airlines_System_(SAS)_SE-ROG_Airbus_A320-251N_(neo)_Stockholm-Arlanda_Airport_(ARN_ESSA)_(52712410578).jpg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "SAS/flags",
+      "place": "fuselage",
+      "at": [
+        0.065,
+        0.02
+      ],
+      "height": 0.05,
+      "colors": [
+        "#C8102E",
+        "#FFFFFF",
+        "#00205B",
+        "#006AA7",
+        "#FECC00"
+      ],
+      "description": "The three flags again, tiny, under the cockpit windows above the aircraft's Viking name.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Scandinavian_Airlines_System_(SAS)_SE-ROG_Airbus_A320-251N_(neo)_Stockholm-Arlanda_Airport_(ARN_ESSA)_(52712410578).jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ]
+    }
+  ],
+  "notes": "Measured on SE-ROG (A320neo, left side, Arlanda, 2023-02-25), fitted to the A320neo shape with the doors pinned; checked on the right side (2020-03-09) and still worn in October 2026. 'Scandinavian' runs x 0.159-0.323, baseline about 0.8-1.0 m above the centerline, cap height about 0.6 m; 'Airlines' x 0.162-0.251 below the windows. The fin's SAS baseline at y 0.056 (lower and larger than the 2019 scheme's). The blue doesn't reach the fuselage: the gray runs on under the fin to the tail cone (unlike the 2019 scheme's wrap). The titles are a metallic silver-gray: they read dark gray in the 2020 and 2022 photos and lighter than the body in the overcast 2023 one; drawn mid-gray. The red covers the fan cowl to about 77% of the nacelle, the rest gray. In 2023 a small Star Alliance mark sat behind the cockpit; SAS moved to SkyTeam in 2024 and what replaced it on this scheme isn't legible in the 2026 photo, so no alliance mark is drawn. The A320neos delivered before late 2019 (SE-ROA onward) were delivered in this scheme; which of them have been repainted isn't sourced here, so only SE-ROG is tagged (airframes/SAS.json).",
+  "history": "New 2026-11-21 (the maintainer's sightings): SE-ROG was drawn in the 2019 scheme (standard), which it doesn't wear."
+}

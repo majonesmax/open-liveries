@@ -1,0 +1,312 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "EVA",
+  "name": "Evergreen green and orange",
+  "kind": "standard",
+  "description": "White above, dark green below, split along the lower side by a thin orange pinstripe running from the nose to the tail cone. Aft, a lighter green sweeps up from the pinstripe in a curve into the light-green fin, which carries the EVA globe: a white disc with an orange ring and meridians and a green four-pointed star. 'EVA AIR' in bold, wide light-green capitals over the forward windows; a Star Alliance badge behind the cockpit.",
+  "confidence": "high",
+  "drawnOn": "B77W",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:B-17807_B787-10,_EVA_Air,_Taipei_Taoyuan_11-08-25_(55045368401).jpg",
+      "title": "B-17807 B787-10, EVA Air, Taipei Taoyuan (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Left side, 2025-11-07: title, belly, orange pinstripe, light-green aft sweep, fin."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:(SGP-Singapore)_EVA_Air_Boeing_777-36NER_B-16723_@_WSSS_2025-08-30.jpg",
+      "title": "EVA Air Boeing 777-36NER B-16723 @ WSSS 2025-08-30 (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Right side, square-on, 2025-08-30: positions measured here."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:(VNM-Ho_Chi_Minh_City)_EVA_Air_Boeing_777-35EER_B-16717_@_VVTS_2025-10-08.jpg",
+      "title": "EVA Air Boeing 777-35EER B-16717 @ VVTS 2025-10-08 (CC BY 4.0)",
+      "accessed": "2026-11-13"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/EVA_Air",
+      "accessed": "2026-11-13",
+      "note": "The globe logo; the green and orange of the Evergreen Group."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F6",
+      "official": false
+    },
+    "green": {
+      "hex": "#1E9E57",
+      "name": "Evergreen green (light)",
+      "official": false
+    },
+    "darkGreen": {
+      "hex": "#0E4A2E",
+      "official": false
+    },
+    "orange": {
+      "hex": "#E8591A",
+      "official": false
+    },
+    "badge": {
+      "hex": "#5A5F66",
+      "official": false
+    },
+    "cowl": {
+      "hex": "#E2E4E7",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "light-green sweep up to the fin (its forward edge a concave curve from the crown down to the pinstripe)",
+        "color": "green",
+        "points": [
+          [
+            0.83,
+            1.0
+          ],
+          [
+            0.818,
+            0.8
+          ],
+          [
+            0.805,
+            0.575
+          ],
+          [
+            0.783,
+            0.25
+          ],
+          [
+            0.76,
+            0.02
+          ],
+          [
+            0.737,
+            -0.155
+          ],
+          [
+            0.72,
+            -0.2,
+            1
+          ],
+          [
+            0.8,
+            -0.5,
+            1
+          ],
+          [
+            0.87,
+            -0.55,
+            1
+          ],
+          [
+            1.0,
+            -0.5
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ],
+        "smooth": true
+      },
+      {
+        "name": "orange pinstripe",
+        "color": "orange",
+        "below": [
+          [
+            0.0,
+            -0.465
+          ],
+          [
+            0.01,
+            -0.435
+          ],
+          [
+            0.09,
+            -0.335
+          ],
+          [
+            0.48,
+            -0.185
+          ],
+          [
+            0.7,
+            -0.195
+          ],
+          [
+            0.87,
+            -0.465
+          ],
+          [
+            1.0,
+            -0.415
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ],
+        "smooth": true
+      },
+      {
+        "name": "dark green belly",
+        "color": "darkGreen",
+        "below": [
+          [
+            0.0,
+            -0.5
+          ],
+          [
+            0.01,
+            -0.47
+          ],
+          [
+            0.09,
+            -0.37
+          ],
+          [
+            0.48,
+            -0.22
+          ],
+          [
+            0.7,
+            -0.23
+          ],
+          [
+            0.87,
+            -0.5
+          ],
+          [
+            1.0,
+            -0.45
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ],
+        "smooth": true
+      }
+    ],
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "fin": {
+    "base": "green",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "wings": {
+    "top": "#BCC1C7",
+    "under": "#C9CDD2",
+    "confidence": "low"
+  },
+  "engines": {
+    "cowling": "cowl",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "EVA/globe",
+      "place": "fin",
+      "at": [
+        0.35,
+        0.47
+      ],
+      "height": 0.49,
+      "colors": [
+        "white",
+        "orange",
+        "green"
+      ],
+      "description": "The EVA globe: a white disc ringed in orange, with thin orange meridians and parallels drawn on it like a wire globe, and a green four-pointed star (long vertical and horizontal points, short diagonals) at its center.",
+      "reference": "https://commons.wikimedia.org/wiki/File:EVA_Air_logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "EVA/star-alliance",
+      "place": "fuselage",
+      "at": [
+        0.059,
+        0.3
+      ],
+      "height": 0.2,
+      "colors": [
+        "badge"
+      ],
+      "description": "The Star Alliance star, small and gray, behind the cockpit windows.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Star_Alliance_Logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "EVA AIR",
+      "place": "fuselage",
+      "at": [
+        0.156,
+        0.25
+      ],
+      "height": 0.33,
+      "length": 0.148,
+      "color": "green",
+      "style": "Heavy, wide sans capitals, square-shouldered, upright.",
+      "type": {
+        "similar": [
+          "Eurostile Extended Black",
+          "Helvetica Neue Black Extended"
+        ],
+        "weight": 900,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "notes": "Measured on the 777-300ER (B-16723, right side) and checked on the 787-10 (B-17807, left). The A321neo and A330 carry the same scheme; winglets/sharklets not checked. The far side's details (and whether any Chinese title appears) not checked. Colors by eye. The Hello Kitty and Star Alliance aircraft are separate liveries. Re-checked 2026-11-15 on B-16717 (777-300ER, right side): the title agrees (0.159 to 0.306); the sweep's forward edge re-measured as a curve against the window line (it ran about 0.7 m forward mid-height), the pinstripe and belly split drawn as curves.",
+  "history": "Replaces Skyarium v1's approximation. EVA's green-and-orange Evergreen scheme, in this form with the dark green belly and the light-green aft sweep, has been standard since the 2010s; the exact year isn't confirmed here, so `from` is left out."
+}

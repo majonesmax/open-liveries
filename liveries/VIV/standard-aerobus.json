@@ -1,0 +1,801 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard-aerobus",
+  "airline": "VIV",
+  "name": "'viva aerobus' livery (before 2024)",
+  "kind": "standard",
+  "description": "The pre-2024 scheme: white, bold green 'viva' over the forward windows with 'aerobus' in red below it, led by three dots (green, white, red). Fin: a red circle at the top trailing edge with a white dot, and a gray outlined ring with a gray dot at the root; a green circle with a white dot round the aft door.",
+  "confidence": "low",
+  "drawnOn": "A320",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:XA-VIX_A320_neo,_Viva,_Roswell_12-02-25_(55075299247).jpg",
+      "title": "XA-VIX A320 neo, Viva, Roswell 12-02-25 (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Left side, 2025-12-02: titles, dots, fin ring."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:XA-VXJ_Viva_Aerobus_Airbus_A321neo_s_n_11316_(54867054020).jpg",
+      "title": "XA-VXJ Viva Aerobus Airbus A321neo (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Left side from below, 2025-10-18: green engines and winglets, white belly."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:XA-VDH_(55183109899).jpg",
+      "title": "XA-VDH (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "A320, left side, level, LAX 2026-03-22: titles, fin circles, aft circle, engines; the geometry is measured from it."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F2F3F4",
+      "official": false
+    },
+    "green": {
+      "hex": "#26A84A",
+      "official": false
+    },
+    "lime": {
+      "hex": "#8CCB2E",
+      "official": false
+    },
+    "red": {
+      "hex": "#E5352B",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC5",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "name": "bare metal inlet lip",
+      "official": false
+    },
+    "gray": {
+      "hex": "#A7ACB2",
+      "official": false
+    },
+    "titleRed": {
+      "hex": "#D9262E",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "green circle round the aft door",
+        "color": "green",
+        "points": [
+          [
+            0.852,
+            -0.222
+          ],
+          [
+            0.851,
+            -0.079
+          ],
+          [
+            0.848,
+            0.052
+          ],
+          [
+            0.844,
+            0.168
+          ],
+          [
+            0.838,
+            0.269
+          ],
+          [
+            0.83,
+            0.348
+          ],
+          [
+            0.822,
+            0.399
+          ],
+          [
+            0.813,
+            0.417
+          ],
+          [
+            0.804,
+            0.401
+          ],
+          [
+            0.796,
+            0.354
+          ],
+          [
+            0.788,
+            0.285
+          ],
+          [
+            0.782,
+            0.2
+          ],
+          [
+            0.777,
+            0.103
+          ],
+          [
+            0.774,
+            -0.003
+          ],
+          [
+            0.773,
+            -0.115
+          ],
+          [
+            0.774,
+            -0.232
+          ],
+          [
+            0.777,
+            -0.356
+          ],
+          [
+            0.782,
+            -0.488
+          ],
+          [
+            0.788,
+            -0.634
+          ],
+          [
+            0.796,
+            -0.822
+          ],
+          [
+            0.804,
+            -0.844
+          ],
+          [
+            0.813,
+            -0.844
+          ],
+          [
+            0.822,
+            -0.844
+          ],
+          [
+            0.83,
+            -0.844
+          ],
+          [
+            0.838,
+            -0.844
+          ],
+          [
+            0.844,
+            -0.691
+          ],
+          [
+            0.848,
+            -0.516
+          ],
+          [
+            0.851,
+            -0.363
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ],
+        "smooth": true
+      },
+      {
+        "name": "white dot in the aft circle",
+        "color": "white",
+        "points": [
+          [
+            0.836,
+            -0.037
+          ],
+          [
+            0.836,
+            0.026
+          ],
+          [
+            0.833,
+            0.08
+          ],
+          [
+            0.83,
+            0.117
+          ],
+          [
+            0.825,
+            0.132
+          ],
+          [
+            0.821,
+            0.123
+          ],
+          [
+            0.818,
+            0.091
+          ],
+          [
+            0.815,
+            0.043
+          ],
+          [
+            0.814,
+            -0.016
+          ],
+          [
+            0.815,
+            -0.075
+          ],
+          [
+            0.818,
+            -0.129
+          ],
+          [
+            0.821,
+            -0.168
+          ],
+          [
+            0.825,
+            -0.186
+          ],
+          [
+            0.83,
+            -0.179
+          ],
+          [
+            0.833,
+            -0.148
+          ],
+          [
+            0.836,
+            -0.098
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0
+        ],
+        "smooth": true
+      }
+    ],
+    "radome": {
+      "color": "white",
+      "to": 0.025
+    },
+    "windows": "plain",
+    "confidence": "low",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "red circle, top trailing edge",
+        "color": "red",
+        "points": [
+          [
+            1,
+            0.668
+          ],
+          [
+            1,
+            0.739
+          ],
+          [
+            1,
+            0.805
+          ],
+          [
+            0.926,
+            0.862
+          ],
+          [
+            0.782,
+            0.905
+          ],
+          [
+            0.618,
+            0.932
+          ],
+          [
+            0.454,
+            0.942
+          ],
+          [
+            0.313,
+            0.932
+          ],
+          [
+            0.211,
+            0.905
+          ],
+          [
+            0.158,
+            0.862
+          ],
+          [
+            0.153,
+            0.805
+          ],
+          [
+            0.189,
+            0.739
+          ],
+          [
+            0.255,
+            0.668
+          ],
+          [
+            0.341,
+            0.597
+          ],
+          [
+            0.44,
+            0.531
+          ],
+          [
+            0.544,
+            0.475
+          ],
+          [
+            0.649,
+            0.431
+          ],
+          [
+            0.752,
+            0.404
+          ],
+          [
+            0.849,
+            0.395
+          ],
+          [
+            0.938,
+            0.404
+          ],
+          [
+            1,
+            0.431
+          ],
+          [
+            1,
+            0.475
+          ],
+          [
+            1,
+            0.531
+          ],
+          [
+            1,
+            0.597
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "gray ring at the root",
+        "color": "gray",
+        "points": [
+          [
+            0.824,
+            0.112
+          ],
+          [
+            0.788,
+            0.181
+          ],
+          [
+            0.729,
+            0.244
+          ],
+          [
+            0.651,
+            0.299
+          ],
+          [
+            0.559,
+            0.341
+          ],
+          [
+            0.46,
+            0.368
+          ],
+          [
+            0.365,
+            0.377
+          ],
+          [
+            0.285,
+            0.368
+          ],
+          [
+            0.226,
+            0.341
+          ],
+          [
+            0.194,
+            0.299
+          ],
+          [
+            0.19,
+            0.244
+          ],
+          [
+            0.21,
+            0.181
+          ],
+          [
+            0.252,
+            0.112
+          ],
+          [
+            0.308,
+            0.044
+          ],
+          [
+            0.84,
+            0.044
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "white inside the ring",
+        "color": "white",
+        "points": [
+          [
+            0.79,
+            0.112
+          ],
+          [
+            0.757,
+            0.172
+          ],
+          [
+            0.705,
+            0.229
+          ],
+          [
+            0.636,
+            0.277
+          ],
+          [
+            0.556,
+            0.314
+          ],
+          [
+            0.471,
+            0.337
+          ],
+          [
+            0.389,
+            0.345
+          ],
+          [
+            0.32,
+            0.337
+          ],
+          [
+            0.268,
+            0.314
+          ],
+          [
+            0.239,
+            0.277
+          ],
+          [
+            0.234,
+            0.229
+          ],
+          [
+            0.251,
+            0.172
+          ],
+          [
+            0.286,
+            0.112
+          ],
+          [
+            0.335,
+            0.052
+          ],
+          [
+            0.805,
+            0.052
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "gray dot in the ring",
+        "color": "gray",
+        "points": [
+          [
+            0.591,
+            0.179
+          ],
+          [
+            0.572,
+            0.203
+          ],
+          [
+            0.545,
+            0.224
+          ],
+          [
+            0.513,
+            0.237
+          ],
+          [
+            0.482,
+            0.242
+          ],
+          [
+            0.457,
+            0.237
+          ],
+          [
+            0.442,
+            0.224
+          ],
+          [
+            0.439,
+            0.203
+          ],
+          [
+            0.449,
+            0.179
+          ],
+          [
+            0.469,
+            0.155
+          ],
+          [
+            0.496,
+            0.135
+          ],
+          [
+            0.526,
+            0.121
+          ],
+          [
+            0.555,
+            0.117
+          ],
+          [
+            0.579,
+            0.121
+          ],
+          [
+            0.594,
+            0.135
+          ],
+          [
+            0.598,
+            0.155
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "white dot in the red circle",
+        "color": "white",
+        "points": [
+          [
+            0.937,
+            0.776
+          ],
+          [
+            0.914,
+            0.802
+          ],
+          [
+            0.874,
+            0.823
+          ],
+          [
+            0.823,
+            0.838
+          ],
+          [
+            0.77,
+            0.843
+          ],
+          [
+            0.724,
+            0.838
+          ],
+          [
+            0.693,
+            0.823
+          ],
+          [
+            0.683,
+            0.802
+          ],
+          [
+            0.694,
+            0.776
+          ],
+          [
+            0.722,
+            0.75
+          ],
+          [
+            0.762,
+            0.728
+          ],
+          [
+            0.809,
+            0.714
+          ],
+          [
+            0.855,
+            0.709
+          ],
+          [
+            0.896,
+            0.714
+          ],
+          [
+            0.926,
+            0.728
+          ],
+          [
+            0.941,
+            0.75
+          ]
+        ],
+        "smooth": true
+      }
+    ],
+    "mirrored": true,
+    "confidence": "low",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "green",
+    "inner": "green",
+    "confidence": "low",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "green",
+    "inletLip": "lip",
+    "confidence": "low",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "VIV/dots",
+      "place": "fuselage",
+      "at": [
+        0.19,
+        -0.42
+      ],
+      "height": 0.2,
+      "colors": [
+        "green",
+        "white",
+        "titleRed"
+      ],
+      "description": "Viva Aerobus' three dots before 'aerobus': green, white (gray outline), red.",
+      "reference": "https://commons.wikimedia.org/wiki/Category:VivaAerobús",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "VIV/flag",
+      "place": "fuselage",
+      "at": [
+        0.74,
+        0.333
+      ],
+      "height": 0.15,
+      "colors": [
+        "#006847",
+        "white",
+        "#CE1126"
+      ],
+      "description": "A small Mexican flag above the registration.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "viva",
+      "place": "fuselage",
+      "at": [
+        0.161,
+        0.06
+      ],
+      "height": 0.72,
+      "color": "green",
+      "style": "Heavy rounded lowercase, tightly set, over the forward windows; x-height measured about 0.47 R, `height` the matching cap height.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Arial Rounded MT Bold",
+          "VAG Rounded Bold"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.65
+      },
+      "length": 0.121
+    },
+    {
+      "text": "aerobus",
+      "place": "fuselage",
+      "at": [
+        0.207,
+        -0.45
+      ],
+      "height": 0.33,
+      "color": "titleRed",
+      "style": "Light lowercase sans after the three dots, under 'viva'.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Regular",
+          "Helvetica Neue"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.71
+      },
+      "length": 0.076
+    }
+  ],
+  "notes": "Drawn from XA-VIX (A320neo, stored at Roswell, 2025-12-02, left side from above) and XA-VXJ (A321neo, 2025-10-18, left side from below), sharing the 2024 scheme's measured geometry where the elements match (red fin circle, aft circle). Engines and winglets vary: green (XA-VXJ), red (XA-VIX), or red and green. Introduced in the late 2010s; the year wasn't confirmed. The gray ring spills a little onto the fuselage below the fin root, not drawn. Still on part of the fleet in 2025-2026 as aircraft are repainted. Re-checked 2026-11-15 on XA-VIX itself (A320neo, from above), placed by its doors and overwing exits: 'viva' runs 0.161 to 0.282 and 'aerobus' 0.207 to 0.283 (lowercase 0.71 of its ascenders); 'viva' has no capitals, so its xHeight 0.65 states the measured lowercase against the nominal cap height. The aft and fin circles sit where the 2024 scheme's do on this photo; the circles, ring and dots are now drawn smooth.",
+  "history": "Replaced by the October 2024 'viva' scheme (standard), applied as aircraft are repainted."
+}

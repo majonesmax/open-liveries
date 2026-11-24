@@ -1,0 +1,399 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "THY",
+  "airframes": [
+    {
+      "registration": "TC-JCI",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Turkish_Cargo",
+          "title": "Wikipedia: Turkish Cargo",
+          "accessed": "2026-11-13",
+          "note": "Freighter fleet late 2025: ten A330-200F and nine 777F."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:TC-JCI_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "4ba869",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "A332",
+      "status": "active: in Commons' 'Current' freighter category; hexdb lists it with THY",
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "TC-JDO",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Turkish_Cargo",
+          "title": "Wikipedia: Turkish Cargo",
+          "accessed": "2026-11-13",
+          "note": "Freighter fleet late 2025: ten A330-200F and nine 777F."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:TC-JDO_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "4ba88f",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "A332",
+      "status": "active: in Commons' 'Current' freighter category; hexdb lists it with THY"
+    },
+    {
+      "registration": "TC-JDP",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Turkish_Cargo",
+          "title": "Wikipedia: Turkish Cargo",
+          "accessed": "2026-11-13",
+          "note": "Freighter fleet late 2025: ten A330-200F and nine 777F."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:TC-JDP_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "4ba890",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "A332",
+      "status": "active: in Commons' 'Current' freighter category; hexdb lists it with THY"
+    },
+    {
+      "registration": "TC-JDR",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Turkish_Cargo",
+          "title": "Wikipedia: Turkish Cargo",
+          "accessed": "2026-11-13",
+          "note": "Freighter fleet late 2025: ten A330-200F and nine 777F."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:TC-JDR_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "4ba892",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "A332",
+      "status": "active: in Commons' 'Current' freighter category; hexdb lists it with THY",
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "TC-JDS",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Turkish_Cargo",
+          "title": "Wikipedia: Turkish Cargo",
+          "accessed": "2026-11-13",
+          "note": "Freighter fleet late 2025: ten A330-200F and nine 777F."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:TC-JDS_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "4ba893",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "A332",
+      "status": "active: in Commons' 'Current' freighter category; hexdb lists it with THY",
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "TC-JOO",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Turkish_Cargo",
+          "title": "Wikipedia: Turkish Cargo",
+          "accessed": "2026-11-13",
+          "note": "Freighter fleet late 2025: ten A330-200F and nine 777F."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:TC-JOO_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "4ba9ef",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "A332",
+      "status": "active: in Commons' 'Current' freighter category; hexdb lists it with THY",
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "TC-JOU",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Turkish_Cargo",
+          "title": "Wikipedia: Turkish Cargo",
+          "accessed": "2026-11-13",
+          "note": "Freighter fleet late 2025: ten A330-200F and nine 777F."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:TC-JOU_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "4ba9f5",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "A332",
+      "lastSeen": "2024-11-05",
+      "status": "active: in Commons' 'Current' freighter category; hexdb lists it with THY"
+    },
+    {
+      "registration": "TC-JOV",
+      "livery": "cargo",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Turkish_Cargo",
+          "title": "Wikipedia: Turkish Cargo",
+          "accessed": "2026-11-13",
+          "note": "Freighter fleet late 2025: ten A330-200F and nine 777F."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:TC-JOV_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "4ba9f6",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "A332",
+      "lastSeen": "2025-06-22",
+      "status": "active: in Commons' 'Current' freighter category; hexdb lists it with THY"
+    },
+    {
+      "registration": "TC-JOY",
+      "livery": "cargo",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Turkish_Cargo",
+          "title": "Wikipedia: Turkish Cargo",
+          "accessed": "2026-11-13",
+          "note": "Freighter fleet late 2025: ten A330-200F and nine 777F."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:TC-JOY_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "4ba9f9",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "A332",
+      "lastSeen": "2026-11-14",
+      "status": "active: in Commons' 'Current' freighter category; hexdb lists it with THY"
+    },
+    {
+      "registration": "TC-JOZ",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Turkish_Cargo",
+          "title": "Wikipedia: Turkish Cargo",
+          "accessed": "2026-11-13",
+          "note": "Freighter fleet late 2025: ten A330-200F and nine 777F."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:TC-JOZ_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "4ba9fa",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "A332",
+      "lastSeen": "2026-11-14",
+      "status": "active: in Commons' 'Current' freighter category; hexdb lists it with THY"
+    },
+    {
+      "registration": "TC-LJL",
+      "livery": "cargo",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Turkish_Cargo",
+          "title": "Wikipedia: Turkish Cargo",
+          "accessed": "2026-11-13",
+          "note": "Freighter fleet late 2025: ten A330-200F and nine 777F."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:TC-LJL_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "4bb14c",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "lastSeen": "2025-05-05",
+      "status": "active: in Commons' 'Current' freighter category; hexdb lists it with THY"
+    },
+    {
+      "registration": "TC-LJM",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Turkish_Cargo",
+          "title": "Wikipedia: Turkish Cargo",
+          "accessed": "2026-11-13",
+          "note": "Freighter fleet late 2025: ten A330-200F and nine 777F."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:TC-LJM_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "4bb14d",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "status": "active: in Commons' 'Current' freighter category; hexdb lists it with THY",
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "TC-LJN",
+      "livery": "cargo",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Turkish_Cargo",
+          "title": "Wikipedia: Turkish Cargo",
+          "accessed": "2026-11-13",
+          "note": "Freighter fleet late 2025: ten A330-200F and nine 777F."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:TC-LJN_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "4bb14e",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "lastSeen": "2026-11-14",
+      "status": "active: in Commons' 'Current' freighter category; hexdb lists it with THY"
+    },
+    {
+      "registration": "TC-LJO",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Turkish_Cargo",
+          "title": "Wikipedia: Turkish Cargo",
+          "accessed": "2026-11-13",
+          "note": "Freighter fleet late 2025: ten A330-200F and nine 777F."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:TC-LJO_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "4bb14f",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "lastSeen": "2024-11-18",
+      "status": "active: in Commons' 'Current' freighter category; hexdb lists it with THY"
+    },
+    {
+      "registration": "TC-LJP",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Turkish_Cargo",
+          "title": "Wikipedia: Turkish Cargo",
+          "accessed": "2026-11-13",
+          "note": "Freighter fleet late 2025: ten A330-200F and nine 777F."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:TC-LJP_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "4bb150",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "status": "active: in Commons' 'Current' freighter category; hexdb lists it with THY",
+      "lastSeen": "2026-11-14"
+    },
+    {
+      "registration": "TC-LJR",
+      "livery": "cargo",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Turkish_Cargo",
+          "title": "Wikipedia: Turkish Cargo",
+          "accessed": "2026-11-13",
+          "note": "Freighter fleet late 2025: ten A330-200F and nine 777F."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:TC-LJR_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "4bb152",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "lastSeen": "2026-03-11",
+      "status": "active: in Commons' 'Current' freighter category; hexdb lists it with THY"
+    },
+    {
+      "registration": "TC-LJS",
+      "livery": "cargo",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Turkish_Cargo",
+          "title": "Wikipedia: Turkish Cargo",
+          "accessed": "2026-11-13",
+          "note": "Freighter fleet late 2025: ten A330-200F and nine 777F."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:TC-LJS_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "4bb153",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "lastSeen": "2025-07-14",
+      "status": "active: in Commons' 'Current' freighter category; hexdb lists it with THY"
+    },
+    {
+      "registration": "TC-LJT",
+      "livery": "cargo",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Turkish_Cargo",
+          "title": "Wikipedia: Turkish Cargo",
+          "accessed": "2026-11-13",
+          "note": "Freighter fleet late 2025: ten A330-200F and nine 777F."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:TC-LJT_(aircraft)",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "hex": "4bb154",
+      "hexSource": "looked up: hexdb.io community database (2026-11-13); not verified against the national register",
+      "type": "B77L",
+      "status": "hexdb lists it as a Turkish Airlines 777F; no Commons photo found (a 2025 delivery)"
+    }
+  ]
+}

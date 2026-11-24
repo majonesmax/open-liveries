@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "negus-negus-retro",
+  "airline": "BAW",
+  "name": "Negus & Negus (1974-84) retro (BA100)",
+  "kind": "retro",
+  "confidence": "high",
+  "description": "Fuselage: White upper fuselage; dark navy-blue lower fuselage; a red speedwing pinstripe along the boundary. Cheatlines: Red stripe at the white/navy join. Tail: Navy fin with a large Union Flag segment on the upper fin. Engines: Navy (approximate). Winglets: approximate. Titles: 'British airways' in dark blue, 'airways' larger. Artwork: Red speedwing at the nose. Colors hex: approximate.",
+  "sources": [
+    {
+      "url": "https://mediacentre.britishairways.com/news/26102020/iconic-british-airways-747-queen-of-the-skies-to-be-preserved-at-cotswold-airport",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://cotswoldairport.com/?p=716",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:G-CIVB_(aircraft)",
+      "accessed": "2026-11-12"
+    }
+  ],
+  "notes": "History/ground exhibit only; never airborne now.",
+  "from": "2019-02"
+}

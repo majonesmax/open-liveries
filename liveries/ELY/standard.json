@@ -1,0 +1,460 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "ELY",
+  "name": "Dreamliner livery (2017)",
+  "kind": "standard",
+  "from": "2017",
+  "confidence": "medium",
+  "drawnOn": "B789",
+  "description": "White, with one long blue swoosh that rises from the belly behind the nose gear across the forward body, thinning to a point on the crown over the wing: navy along its lower, forward part, bright blue along its upper edge, with a thin silver line under its aft part. White fin with two slanting blue bands, one near the tip and one at the root, each over a thin silver line (a tallit's stripes), and a blue Star of David between them. 'EL AL' and 'אל על' as one navy wordmark over the forward windows. White engines.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:4X-EDJ_14042019LHR_(47067820024).jpg",
+      "title": "4X-EDJ 14042019LHR (47067820024).jpg (CC BY-SA 2.0, John Taggart)",
+      "accessed": "2026-11-20",
+      "note": "787-9 4X-EDJ, left side at Heathrow, 2019-04-14: measured on the 787-9 shape (fit 5–11 px with doors 1 and 4): swoosh, title, fin."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Boeing_787-9_Dreamliner_(55004485125).jpg",
+      "title": "Boeing 787-9 Dreamliner (55004485125).jpg (CC BY-SA 4.0, Samson Ng)",
+      "accessed": "2026-11-20",
+      "note": "787-9 4X-EDK, right side at Heathrow, 2025-08-20: the scheme unchanged in 2025; the right side's swoosh and fin."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:(THA-Bangkok)_El_Al_Boeing_787-9_4X-EDK_@_VTBS_2024-02-13.jpg",
+      "title": "(THA-Bangkok) El Al Boeing 787-9 4X-EDK @ VTBS 2024-02-13.jpg (Attribution, S5A-0043)",
+      "accessed": "2026-11-20",
+      "note": "4X-EDK, left side, 2024-02-13: the left side in 2024."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:4X-EDI_04022019LHR_(40163667513).jpg",
+      "title": "4X-EDI 04022019LHR (40163667513).jpg (CC BY-SA 2.0, John Taggart)",
+      "accessed": "2026-11-20",
+      "note": "4X-EDI, left side, 2019-02-04: the swoosh's lower end and the silver line."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:4X-EDN_Micha.jpg",
+      "title": "4X-EDN Micha.jpg (CC BY-SA 4.0, LLHZ2805)",
+      "accessed": "2026-11-20",
+      "note": "4X-EDN in flight from below left, 2025-05-16: a newer 787-9 with the lower rear body painted navy (see notes)."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/El_Al",
+      "title": "Wikipedia: El Al",
+      "accessed": "2026-11-20",
+      "note": "The 787-9 fleet, from 2017."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F2F3F5",
+      "official": false
+    },
+    "navy": {
+      "hex": "#13308F",
+      "official": false,
+      "name": "El Al navy"
+    },
+    "blue": {
+      "hex": "#1F6FD0",
+      "official": false,
+      "name": "swoosh blue"
+    },
+    "silver": {
+      "hex": "#B5BCC6",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#C4C8CD",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "thin silver line under the swoosh's aft part",
+        "color": "silver",
+        "smooth": true,
+        "points": [
+          [
+            0.29,
+            -0.33,
+            1
+          ],
+          [
+            0.3455,
+            -0.047
+          ],
+          [
+            0.4045,
+            0.146
+          ],
+          [
+            0.4632,
+            0.309
+          ],
+          [
+            0.5217,
+            0.4545
+          ],
+          [
+            0.5801,
+            0.61,
+            1
+          ],
+          [
+            0.5214,
+            0.37
+          ],
+          [
+            0.4628,
+            0.22
+          ],
+          [
+            0.4041,
+            0.05
+          ],
+          [
+            0.3452,
+            -0.14
+          ]
+        ],
+        "confidence": "low"
+      },
+      {
+        "name": "blue swoosh, from the belly behind the nose gear to a point on the crown over the wing",
+        "color": "blue",
+        "smooth": true,
+        "points": [
+          [
+            0.1392,
+            -1
+          ],
+          [
+            0.1575,
+            -0.718
+          ],
+          [
+            0.1992,
+            -0.381
+          ],
+          [
+            0.2348,
+            -0.202
+          ],
+          [
+            0.2881,
+            0.009
+          ],
+          [
+            0.347,
+            0.197
+          ],
+          [
+            0.4055,
+            0.346
+          ],
+          [
+            0.464,
+            0.477
+          ],
+          [
+            0.5222,
+            0.583
+          ],
+          [
+            0.5803,
+            0.686
+          ],
+          [
+            0.621,
+            0.811
+          ],
+          [
+            0.645,
+            0.95,
+            1
+          ],
+          [
+            0.5801,
+            0.61
+          ],
+          [
+            0.5217,
+            0.4545
+          ],
+          [
+            0.4632,
+            0.309
+          ],
+          [
+            0.4045,
+            0.146
+          ],
+          [
+            0.3455,
+            -0.047
+          ],
+          [
+            0.2862,
+            -0.316
+          ],
+          [
+            0.2327,
+            -0.7
+          ],
+          [
+            0.21,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "name": "navy lower part of the swoosh, tapering out by the wing's leading edge",
+        "color": "navy",
+        "smooth": true,
+        "points": [
+          [
+            0.145,
+            -1
+          ],
+          [
+            0.162,
+            -0.73
+          ],
+          [
+            0.2,
+            -0.42
+          ],
+          [
+            0.2348,
+            -0.25
+          ],
+          [
+            0.2878,
+            -0.039
+          ],
+          [
+            0.3457,
+            -0.015,
+            1
+          ],
+          [
+            0.3455,
+            -0.047
+          ],
+          [
+            0.2862,
+            -0.316
+          ],
+          [
+            0.2327,
+            -0.7
+          ],
+          [
+            0.21,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          3
+        ]
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "thin silver line under the upper band",
+        "color": "silver",
+        "points": [
+          [
+            0,
+            0.56
+          ],
+          [
+            1,
+            0.76
+          ],
+          [
+            1,
+            0.79
+          ],
+          [
+            0,
+            0.59
+          ]
+        ]
+      },
+      {
+        "name": "upper blue band, slanting up to the trailing edge near the tip",
+        "color": "blue",
+        "points": [
+          [
+            0,
+            0.59
+          ],
+          [
+            1,
+            0.79
+          ],
+          [
+            1,
+            0.95
+          ],
+          [
+            0.24,
+            0.9
+          ],
+          [
+            0,
+            0.77
+          ]
+        ]
+      },
+      {
+        "name": "thin silver line under the lower band",
+        "color": "silver",
+        "points": [
+          [
+            0,
+            -0.01
+          ],
+          [
+            1,
+            0.06
+          ],
+          [
+            1,
+            0.095
+          ],
+          [
+            0,
+            0.02
+          ]
+        ]
+      },
+      {
+        "name": "lower blue band along the root, slanting up aft",
+        "color": "blue",
+        "points": [
+          [
+            0,
+            0.02
+          ],
+          [
+            1,
+            0.095
+          ],
+          [
+            1,
+            0.27
+          ],
+          [
+            0,
+            0.09
+          ]
+        ]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "ELY/star-of-david",
+      "place": "fin",
+      "at": [
+        0.512,
+        0.416
+      ],
+      "height": 0.32,
+      "colors": [
+        "blue"
+      ],
+      "description": "A blue Star of David (two interlaced outline triangles), upright, between the fin's bands, as on Israel's flag.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Flag_of_Israel.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "EL AL אל על",
+      "place": "fuselage",
+      "at": [
+        0.137,
+        0.25
+      ],
+      "height": 0.21,
+      "length": 0.149,
+      "color": "navy",
+      "style": "El Al's wordmark in navy over the forward windows: 'EL AL' in squared wide capitals run into 'אל על' in matching Hebrew letters, a small Star of David above the end.",
+      "type": {
+        "similar": [
+          "Eurostile Extended",
+          "Microgramma"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "notes": "Measured on 4X-EDJ (left, 2019-04-14), fitted to the 787-9 shape; 4X-EDK (2025 right, 2024 left) shows the same scheme. The swoosh's blues blend (navy low and forward, bright blue on its upper edge): drawn as two areas. 4X-EDN (delivered 2025, one photo from below) has the lower rear body navy up to the windows, joining the fin's lower band: an airframe variant not drawn here. Aircraft names by the nose (city names, and since 2024 a Hebrew line on some) not drawn. The 787's raked wingtips carry no winglet paint.",
+  "history": "New file (El Al had no scheme here). Introduced with the 787-9s from 2017; the older 737s and 777s that carried the earlier cheatline scheme have been repainted or retired, not checked here."
+}

@@ -1,0 +1,232 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "ACA",
+  "name": "2017 livery",
+  "kind": "standard",
+  "from": "2017-02",
+  "confidence": "high",
+  "drawnOn": "B38M",
+  "description": "White fuselage over a black belly (a narrow strip from the side, from the nose gear to ahead of the tail); black mask round the cockpit windows; 'AIR CANADA' in black capitals over the forward windows, the small red maple-leaf roundel under it by the door; the fin black with the red roundel (a red ring round a red maple leaf); black engines.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Air_Canada",
+      "title": "Wikipedia: Air Canada (livery)",
+      "accessed": "2026-11-13",
+      "note": "The 2017 black-and-white livery."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Air_Canada_737-8_MAX_C-FFJG_@YYZ.jpg",
+      "title": "Air Canada 737-8 MAX C-FFJG @YYZ.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "C-FFJG left side, 2025-10-13: geometry, titles, roundels, belly."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Air_Canada_Airbus_A220-300_C-GJXN_on_final_approach_to_Boston_June_2026_1.jpg",
+      "title": "Air Canada Airbus A220-300 C-GJXN on final approach to Boston June 2026 1.jpg (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "C-GJXN (A220) from below, 2026-06-19: the belly black, the cockpit mask."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Air_Canada,_C-FSES,_Boeing_737-8_MAX_(52343501039).jpg",
+      "title": "Air Canada, C-FSES, Boeing 737-8 MAX (52343501039).jpg (CC BY-SA 2.0, Anna Zvereva)",
+      "accessed": "2026-11-15",
+      "note": "C-FSES left side, nearly side-on from a little above, 2022-08-22: the title, roundel and Star Alliance mark against the forward door; the belly line."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "black": {
+      "hex": "#14171B",
+      "official": false,
+      "name": "Air Canada black"
+    },
+    "red": {
+      "hex": "#D0202E",
+      "official": false,
+      "name": "Air Canada red"
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "black belly from behind the radome to ahead of the tail",
+        "color": "black",
+        "points": [
+          [
+            0.051,
+            -0.655
+          ],
+          [
+            0.789,
+            -0.655
+          ],
+          [
+            0.798866568840763,
+            -1
+          ],
+          [
+            0.03,
+            -1
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2
+        ]
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "cockpitWindows": {
+      "mask": "black"
+    },
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2,
+      3
+    ]
+  },
+  "fin": {
+    "base": "black",
+    "areas": [],
+    "mirrored": false,
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "black",
+    "inner": "black",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "black",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "ACA/roundel",
+      "place": "fin",
+      "at": [
+        0.596,
+        0.306
+      ],
+      "height": 0.45,
+      "colors": [
+        "red",
+        "black"
+      ],
+      "description": "The Air Canada roundel: a red ring round a red eleven-point maple leaf, on the black fin, cut slightly by the fin's trailing edge.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Air_Canada_Logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "ACA/roundel",
+      "place": "fuselage",
+      "at": [
+        0.16,
+        -0.142
+      ],
+      "height": 0.543,
+      "colors": [
+        "red",
+        "white"
+      ],
+      "description": "The roundel small, red on white, under the title just aft of the forward door.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mark": "SAL/star-alliance",
+      "place": "fuselage",
+      "at": [
+        0.1,
+        0.354
+      ],
+      "height": 0.196,
+      "colors": [
+        "#8A8F96"
+      ],
+      "description": "The small Star Alliance star ahead of the forward door.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "AIR CANADA",
+      "place": "fuselage",
+      "at": [
+        0.145,
+        0.409
+      ],
+      "height": 0.359,
+      "color": "black",
+      "style": "Widely spaced, medium-weight geometric capitals in black over the forward windows.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        2,
+        3
+      ],
+      "length": 0.243,
+      "type": {
+        "similar": [
+          "Futura Medium",
+          "Avenir Next Medium"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Drawn from the 737 MAX C-FFJG (Oct 2025), checked from below on an A220 (June 2026). Jazz (Air Canada Express) and Rouge are separate: Rouge has its own scheme. Re-checked 2026-11-15 on C-FSES (2022, near side-on) fitted to the measured 737-800 shape, and C-FFJG: the title starts just aft of the forward door (x 0.145) and runs 0.243 (it had been drawn starting 1.7 m further aft and shorter); the small roundel sits under the door's aft edge (x 0.16, not 0.21) and the Star Alliance star just ahead of the door (x 0.10). The belly line is straight from the side: drawn now by its two ends.",
+  "history": "Replaces Skyarium v1's approximate standard (a few colors from memory). The 2017 black-and-white livery replaced the 2004 pale blue-gray scheme."
+}

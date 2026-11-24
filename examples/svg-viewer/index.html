@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Open Liveries</title>
+    <meta name="description" content="Airline paint schemes described as open data, drawn on a generic airliner." />
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+          "three/examples/jsm/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+        }
+      }
+    </script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="layout">
+      <aside class="side" aria-label="Find a scheme">
+        <div class="brand">
+          <h1>Open Liveries</h1>
+          <p id="stats" class="muted">Loading…</p>
+        </div>
+        <label class="search">
+          <span class="sr">Search</span>
+          <input
+            id="q"
+            type="search"
+            placeholder="Airline, scheme or registration"
+            autocomplete="off"
+            spellcheck="false"
+          />
+        </label>
+        <div class="chips" role="group" aria-label="Filters">
+          <button class="chip" data-kind="standard" aria-pressed="false">Standard</button>
+          <button class="chip" data-kind="special" aria-pressed="false">Special</button>
+          <button class="chip" data-kind="retro" aria-pressed="false">Retro</button>
+          <button class="chip" data-kind="alliance" aria-pressed="false">Alliance</button>
+          <button class="chip" id="drawn" aria-pressed="false">Drawn only</button>
+        </div>
+        <label class="jump">
+          <span class="sr">Jump to airline</span>
+          <select id="jump">
+            <option value="">Jump to airline…</option>
+          </select>
+        </label>
+        <nav id="airlines" class="airlines" aria-label="Airlines"></nav>
+      </aside>
+      <main id="main" class="main">
+        <p id="empty" class="empty" hidden>No scheme matches.</p>
+      </main>
+    </div>
+    <div id="detail" class="detail" hidden>
+      <div class="scrim" data-close></div>
+      <article class="panel" role="dialog" aria-modal="true" aria-labeledby="d-title" tabindex="-1">
+        <button class="close" data-close aria-label="Close">×</button>
+        <div id="d-body"></div>
+      </article>
+    </div>
+    <script type="module" src="js/main.js"></script>
+    <script>
+      // Browsers don't run module scripts from file:// URLs, so say how to open it instead of staying on "Loading…".
+      if (location.protocol === 'file:') {
+        document.getElementById('stats').textContent =
+          'Serve the repository root (python3 -m http.server) and open /examples/svg-viewer/.';
+      }
+    </script>
+  </body>
+</html>

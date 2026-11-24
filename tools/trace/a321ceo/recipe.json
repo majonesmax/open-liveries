@@ -1,0 +1,117 @@
+{
+  "_about": "A321-200 with sharklets, from Airbus AC A321 (Jul 01/26) 2-2-0, A321-100/-200 sharklet sheets 3 (side, front: page index 68) and 4 (plan: 69). Pixels of layers.py rasters at scale 20, line centres.",
+  "out": "../../../../shapes/A321.json",
+  "length": 44.51,
+  "wingtip": "sharklet",
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "refs": {
+    "side": {
+      "nose": 309.5,
+      "tail": 7389.5,
+      "cowlEnd": 3328,
+      "windowRow": [1353, 1408],
+      "windowsAlso": [4112, 4460]
+    },
+    "plan": {
+      "nose": 126,
+      "centerline": 3772
+    },
+    "front": {
+      "centerline": 3532.5,
+      "crownTop": 1570.5
+    }
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [1036, 1232, 1197, 1550]
+    },
+    {
+      "kind": "door",
+      "box": [2445, 1233, 2589, 1537]
+    },
+    {
+      "kind": "door",
+      "box": [4177, 1233, 4322, 1537]
+    },
+    {
+      "kind": "door",
+      "box": [6033, 1212, 6195, 1525]
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [608, 1328],
+      [637, 1327],
+      [655, 1327],
+      [659, 1331],
+      [651, 1340],
+      [619, 1373],
+      [600, 1392],
+      [594, 1393],
+      [546, 1399],
+      [544, 1399],
+      [540, 1395],
+      [571, 1364]
+    ],
+    [
+      [734, 1328],
+      [734, 1407],
+      [730, 1411],
+      [701, 1411],
+      [655, 1402],
+      [615, 1394],
+      [613, 1393],
+      [609, 1389],
+      [619, 1378],
+      [651, 1345],
+      [670, 1326],
+      [691, 1325],
+      [713, 1324],
+      [730, 1324]
+    ],
+    [
+      [736, 1407],
+      [736, 1328],
+      [740, 1324],
+      [801, 1324],
+      [803, 1325],
+      [808, 1329],
+      [819, 1338],
+      [824, 1343],
+      [824, 1400],
+      [820, 1404],
+      [817, 1406],
+      [808, 1411],
+      [740, 1411]
+    ]
+  ],
+  "printed": {
+    "fuselage height": 4.14,
+    "fuselage width": 3.95,
+    "wingspan": 35.8,
+    "tailplane span": 12.45,
+    "engine out from the centerline": 5.75,
+    "fin tip above the crown": 5.87,
+    "winglet height": 2.43
+  },
+  "meta": {
+    "id": "A321",
+    "name": "Airbus A321-200 with sharklets (CFM56)",
+    "types": ["A321"],
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://aircraft.airbus.com/en/customer-care/fleet-wide-care/airport-operations-and-aircraft-characteristics/aircraft-characteristics",
+        "title": "Airbus, A321 Aircraft Characteristics: Airport and Maintenance Planning (Jul 01/26), 2-2-0 General Aircraft Dimensions, A321-100/-200 Sharklet sheets 3 and 4 (FIGURE-2-2-0-991-005-A01)",
+        "accessed": "2026-11-15",
+        "note": "Dimensions and outlines read off the side, plan and front views (tools/trace/a321ceo/); the figures are the aircraft's measurements, not a copy of the drawing. The CFM56 nacelle is drawn; the V2500's is a little longer. Earlier A321s have wingtip fences, not sharklets."
+      }
+    ]
+  }
+}

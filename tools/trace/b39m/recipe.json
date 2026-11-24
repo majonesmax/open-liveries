@@ -1,0 +1,125 @@
+{
+  "_about": "737-9 (MAX 9), from Boeing D6-38A004 Rev K 2.2.3 (page index 26): side, plan and front views on one sheet, a picture rather than vector paths. Pixels of layers.py --mode image rasters at scale 12, line centres.",
+  "out": "../../../../shapes/B39M.json",
+  "length": 41.76,
+  "wingtip": "split",
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "refs": {
+    "side": {
+      "nose": 68,
+      "tail": 3691,
+      "cowlEnd": 1653,
+      "windowRow": [820, 846],
+      "windowsAlso": [960, 2024, 2069, 2116]
+    },
+    "plan": {
+      "nose": 68,
+      "centerline": 1624
+    },
+    "front": {
+      "centerline": 1658,
+      "crownTop": 726
+    }
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [470, 754, 545, 911]
+    },
+    {
+      "kind": "exit",
+      "box": [1632, 804, 1679, 886]
+    },
+    {
+      "kind": "exit",
+      "box": [1718, 804, 1761, 886]
+    },
+    {
+      "kind": "exit",
+      "box": [2356, 800, 2417, 911]
+    },
+    {
+      "kind": "door",
+      "box": [3033, 754, 3098, 911]
+    },
+    {
+      "kind": "cargo",
+      "box": [759, 951, 864, 1027]
+    },
+    {
+      "kind": "cargo",
+      "box": [2677, 944, 2782, 1027]
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [209, 827],
+      [211, 825],
+      [233, 804],
+      [246, 804],
+      [253, 808],
+      [255, 810],
+      [255, 812],
+      [252, 816],
+      [250, 818],
+      [235, 832],
+      [211, 832],
+      [209, 830]
+    ],
+    [
+      [268, 843],
+      [247, 836],
+      [245, 834],
+      [245, 831],
+      [252, 817],
+      [258, 811],
+      [265, 808],
+      [292, 808],
+      [294, 810],
+      [294, 816],
+      [284, 841],
+      [282, 843]
+    ],
+    [
+      [291, 831],
+      [302, 810],
+      [308, 804],
+      [339, 804],
+      [341, 806],
+      [341, 826],
+      [339, 828],
+      [332, 832],
+      [321, 836],
+      [296, 843],
+      [293, 843],
+      [291, 841]
+    ]
+  ],
+  "printed": {
+    "fuselage height": 4.01,
+    "fuselage width": 3.76,
+    "wingspan": 35.92,
+    "tailplane span": 14.35,
+    "engine out from the centerline": 4.82,
+    "overall length": 42.11
+  },
+  "meta": {
+    "id": "B39M",
+    "name": "Boeing 737-9 (737 MAX 9)",
+    "types": ["B39M"],
+    "confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/boeingdotcom/commercial/airports/acaps/737MAX_RevK.pdf",
+        "title": "Boeing, 737 MAX Airplane Characteristics for Airport Planning (D6-38A004 Rev K, July 2025), 2.2.3 General Dimensions: Model 737-9 / BBJ MAX 9",
+        "accessed": "2026-11-15",
+        "note": "Dimensions and outlines read off the side, plan and front views (tools/trace/b39m/); the figures are the aircraft's measurements, not a copy of the drawing. The sheet is a picture of about 24 pixels a meter, so the outlines are good to about 5 cm, not the 1 cm of the vector sheets. The Advanced Technology winglet's lower blade isn't traced."
+      }
+    ]
+  }
+}

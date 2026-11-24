@@ -1,0 +1,1297 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "excellence-awards-2025",
+  "airline": "ACA",
+  "name": "Employee Excellence Awards 2025",
+  "kind": "special",
+  "from": "2025-04",
+  "confidence": "high",
+  "drawnOn": "B789",
+  "description": "Air Canada's 2017 white and black (white fuselage over a black belly, black cockpit mask, black fin with the red roundel, black engines) on 787-9 C-FSBV (fin 852), with the 2025 Excellence Award recipients honoured on it. Over the windows behind the wing, from ahead of the third door to ahead of the fourth, 'EXCELLENCE | 2025' in thin, widely spaced black capitals with a thin upright bar between the word and the year (the same words and order on both sides, so on the right side the year is forward). Under it, in smaller black semibold upper- and lowercase ending at the same point: 'Congratulations to our award-winning employees' on the left, 'Félicitations à nos employés lauréats' on the right. On the black fin under the roundel, the 55 recipients' names in small white type, in alphabetical order, in rows that fill the fin from its leading edge to its trailing edge: 17 rows on the left side, 18 on the right (the rows break differently on each side). 'AIR CANADA', the small roundel and the Star Alliance star forward as in the standard scheme.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:C-FSBV@PEK_(20250602160725).jpg",
+      "title": "C-FSBV@PEK (20250602160725).jpg (CC BY-SA 4.0, N509FZ)",
+      "accessed": "2026-11-23",
+      "note": "Left side on approach to Beijing, 2025-06-02, nearly side-on from a little below (fitted to the 787-9 shape, 7° below; doors within 6 px): every left-side position, the belly line and the fin's 17 rows of names (read off the 6898 px original). The wing hides 'EX' of the title."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:C-FSBV@PEK_(20250530154223).jpg",
+      "title": "C-FSBV@PEK (20250530154223).jpg (CC BY-SA 4.0, N509FZ)",
+      "accessed": "2026-11-23",
+      "note": "Right side on approach to Beijing, 2025-05-30, nearly side-on (flipped and fitted, 5° below; doors within 15 px, so positions taken relative to the doors): the whole 'EXCELLENCE | 2025', the French line, the fin's 18 rows of names, the roundel."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:C-FSBV@PEK_(20250824153720).jpg",
+      "title": "C-FSBV@PEK (20250824153720).jpg (CC BY-SA 4.0, N509FZ)",
+      "accessed": "2026-11-23",
+      "note": "Left side from ahead and below, 2025-08-24: checked only (too oblique to measure); shows the whole left title, 'EXCELLENCE' starting just ahead of the third door, as drawn."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Air_Canada_-_Boeing_787-9_Dreamliner_(Excellence_2025_Livery)_C-FSBV_(55156244385).jpg",
+      "title": "Air Canada - Boeing 787-9 Dreamliner (Excellence 2025 Livery) C-FSBV (55156244385).jpg (CC BY-SA 4.0, Umedha Hettigoda)",
+      "accessed": "2026-11-23",
+      "note": "Right side on the ground from ahead, 2026-03-13: checked only (three-quarter view); still in the scheme, French line on the right."
+    },
+    {
+      "url": "https://www.aircanada.com/media/honouring-air-canadas-excellence-award-recipients-2025/",
+      "title": "Air Canada newsroom: Honouring Air Canada's Excellence Award Recipients (2025-04-29), with its hangar photo of fin 852 (airline press photo)",
+      "accessed": "2026-11-22",
+      "note": "The 55 recipients' names on the tail of fin 852, a 787; photo 2025-04-08 at Toronto, from above and behind: looked at, not measured."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "black": {
+      "hex": "#14171B",
+      "official": false,
+      "name": "Air Canada black"
+    },
+    "red": {
+      "hex": "#D0202E",
+      "official": false,
+      "name": "Air Canada red"
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "black belly from behind the radome to under the fin, its top edge level from the side about 2.1 m under the centerline",
+        "color": "black",
+        "points": [
+          [
+            0.02,
+            -0.778
+          ],
+          [
+            0.0375,
+            -0.572
+          ],
+          [
+            0.0535,
+            -0.537
+          ],
+          [
+            0.171,
+            -0.502
+          ],
+          [
+            0.421,
+            -0.493
+          ],
+          [
+            0.688,
+            -0.485
+          ],
+          [
+            0.763,
+            -0.546
+          ],
+          [
+            0.779,
+            -0.59
+          ],
+          [
+            0.795,
+            -0.647
+          ],
+          [
+            0.816,
+            -0.77
+          ],
+          [
+            0.832,
+            -0.956
+          ],
+          [
+            0.835,
+            -1
+          ],
+          [
+            0.02,
+            -1
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "cockpitWindows": {
+      "mask": "black"
+    },
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "fin": {
+    "base": "black",
+    "areas": [
+      {
+        "name": "recipients' names, row 1 of 17 on the left side, as a plain white bar",
+        "color": "white",
+        "side": "left",
+        "points": [
+          [
+            0.198,
+            0.52
+          ],
+          [
+            0.972,
+            0.52
+          ],
+          [
+            0.972,
+            0.5315
+          ],
+          [
+            0.198,
+            0.5315
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "recipients' names, row 2 of 17 on the left side, as a plain white bar",
+        "color": "white",
+        "side": "left",
+        "points": [
+          [
+            0.194,
+            0.492
+          ],
+          [
+            0.969,
+            0.492
+          ],
+          [
+            0.969,
+            0.5035
+          ],
+          [
+            0.194,
+            0.5035
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "recipients' names, row 3 of 17 on the left side, as a plain white bar",
+        "color": "white",
+        "side": "left",
+        "points": [
+          [
+            0.191,
+            0.465
+          ],
+          [
+            0.97,
+            0.465
+          ],
+          [
+            0.97,
+            0.4765
+          ],
+          [
+            0.191,
+            0.4765
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "recipients' names, row 4 of 17 on the left side, as a plain white bar",
+        "color": "white",
+        "side": "left",
+        "points": [
+          [
+            0.183,
+            0.435
+          ],
+          [
+            0.971,
+            0.435
+          ],
+          [
+            0.971,
+            0.4465
+          ],
+          [
+            0.183,
+            0.4465
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "recipients' names, row 5 of 17 on the left side, as a plain white bar",
+        "color": "white",
+        "side": "left",
+        "points": [
+          [
+            0.182,
+            0.406
+          ],
+          [
+            0.975,
+            0.406
+          ],
+          [
+            0.975,
+            0.4175
+          ],
+          [
+            0.182,
+            0.4175
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "recipients' names, row 6 of 17 on the left side, as a plain white bar",
+        "color": "white",
+        "side": "left",
+        "points": [
+          [
+            0.177,
+            0.378
+          ],
+          [
+            0.972,
+            0.378
+          ],
+          [
+            0.972,
+            0.3895
+          ],
+          [
+            0.177,
+            0.3895
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "recipients' names, row 7 of 17 on the left side, as a plain white bar",
+        "color": "white",
+        "side": "left",
+        "points": [
+          [
+            0.174,
+            0.347
+          ],
+          [
+            0.975,
+            0.347
+          ],
+          [
+            0.975,
+            0.3585
+          ],
+          [
+            0.174,
+            0.3585
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "recipients' names, row 8 of 17 on the left side, as a plain white bar",
+        "color": "white",
+        "side": "left",
+        "points": [
+          [
+            0.168,
+            0.32
+          ],
+          [
+            0.973,
+            0.32
+          ],
+          [
+            0.973,
+            0.3315
+          ],
+          [
+            0.168,
+            0.3315
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "recipients' names, row 9 of 17 on the left side, as a plain white bar",
+        "color": "white",
+        "side": "left",
+        "points": [
+          [
+            0.161,
+            0.291
+          ],
+          [
+            0.976,
+            0.291
+          ],
+          [
+            0.976,
+            0.3025
+          ],
+          [
+            0.161,
+            0.3025
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "recipients' names, row 10 of 17 on the left side, as a plain white bar",
+        "color": "white",
+        "side": "left",
+        "points": [
+          [
+            0.164,
+            0.26
+          ],
+          [
+            0.979,
+            0.26
+          ],
+          [
+            0.979,
+            0.2715
+          ],
+          [
+            0.164,
+            0.2715
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "recipients' names, row 11 of 17 on the left side, as a plain white bar",
+        "color": "white",
+        "side": "left",
+        "points": [
+          [
+            0.154,
+            0.232
+          ],
+          [
+            0.977,
+            0.232
+          ],
+          [
+            0.977,
+            0.2435
+          ],
+          [
+            0.154,
+            0.2435
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "recipients' names, row 12 of 17 on the left side, as a plain white bar",
+        "color": "white",
+        "side": "left",
+        "points": [
+          [
+            0.151,
+            0.202
+          ],
+          [
+            0.976,
+            0.202
+          ],
+          [
+            0.976,
+            0.2135
+          ],
+          [
+            0.151,
+            0.2135
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "recipients' names, row 13 of 17 on the left side, as a plain white bar",
+        "color": "white",
+        "side": "left",
+        "points": [
+          [
+            0.147,
+            0.174
+          ],
+          [
+            0.977,
+            0.174
+          ],
+          [
+            0.977,
+            0.1855
+          ],
+          [
+            0.147,
+            0.1855
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "recipients' names, row 14 of 17 on the left side, as a plain white bar",
+        "color": "white",
+        "side": "left",
+        "points": [
+          [
+            0.14,
+            0.146
+          ],
+          [
+            0.976,
+            0.146
+          ],
+          [
+            0.976,
+            0.1575
+          ],
+          [
+            0.14,
+            0.1575
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "recipients' names, row 15 of 17 on the left side, as a plain white bar",
+        "color": "white",
+        "side": "left",
+        "points": [
+          [
+            0.135,
+            0.117
+          ],
+          [
+            0.976,
+            0.117
+          ],
+          [
+            0.976,
+            0.1285
+          ],
+          [
+            0.135,
+            0.1285
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "recipients' names, row 16 of 17 on the left side, as a plain white bar",
+        "color": "white",
+        "side": "left",
+        "points": [
+          [
+            0.124,
+            0.088
+          ],
+          [
+            0.976,
+            0.088
+          ],
+          [
+            0.976,
+            0.0995
+          ],
+          [
+            0.124,
+            0.0995
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "recipients' names, row 17 of 17 on the left side, as a plain white bar",
+        "color": "white",
+        "side": "left",
+        "points": [
+          [
+            0.116,
+            0.058
+          ],
+          [
+            0.892,
+            0.058
+          ],
+          [
+            0.892,
+            0.0695
+          ],
+          [
+            0.116,
+            0.0695
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "recipients' names, row 1 of 18 on the right side, as a plain white bar",
+        "color": "white",
+        "side": "right",
+        "points": [
+          [
+            0.154,
+            0.521
+          ],
+          [
+            0.969,
+            0.521
+          ],
+          [
+            0.969,
+            0.5325
+          ],
+          [
+            0.154,
+            0.5325
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "recipients' names, row 2 of 18 on the right side, as a plain white bar",
+        "color": "white",
+        "side": "right",
+        "points": [
+          [
+            0.209,
+            0.492
+          ],
+          [
+            0.968,
+            0.492
+          ],
+          [
+            0.968,
+            0.5035
+          ],
+          [
+            0.209,
+            0.5035
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "recipients' names, row 3 of 18 on the right side, as a plain white bar",
+        "color": "white",
+        "side": "right",
+        "points": [
+          [
+            0.2,
+            0.463
+          ],
+          [
+            0.97,
+            0.463
+          ],
+          [
+            0.97,
+            0.4745
+          ],
+          [
+            0.2,
+            0.4745
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "recipients' names, row 4 of 18 on the right side, as a plain white bar",
+        "color": "white",
+        "side": "right",
+        "points": [
+          [
+            0.192,
+            0.434
+          ],
+          [
+            0.971,
+            0.434
+          ],
+          [
+            0.971,
+            0.4455
+          ],
+          [
+            0.192,
+            0.4455
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "recipients' names, row 5 of 18 on the right side, as a plain white bar",
+        "color": "white",
+        "side": "right",
+        "points": [
+          [
+            0.189,
+            0.405
+          ],
+          [
+            0.971,
+            0.405
+          ],
+          [
+            0.971,
+            0.4165
+          ],
+          [
+            0.189,
+            0.4165
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "recipients' names, row 6 of 18 on the right side, as a plain white bar",
+        "color": "white",
+        "side": "right",
+        "points": [
+          [
+            0.183,
+            0.376
+          ],
+          [
+            0.973,
+            0.376
+          ],
+          [
+            0.973,
+            0.3875
+          ],
+          [
+            0.183,
+            0.3875
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "recipients' names, row 7 of 18 on the right side, as a plain white bar",
+        "color": "white",
+        "side": "right",
+        "points": [
+          [
+            0.178,
+            0.347
+          ],
+          [
+            0.974,
+            0.347
+          ],
+          [
+            0.974,
+            0.3585
+          ],
+          [
+            0.178,
+            0.3585
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "recipients' names, row 8 of 18 on the right side, as a plain white bar",
+        "color": "white",
+        "side": "right",
+        "points": [
+          [
+            0.172,
+            0.319
+          ],
+          [
+            0.975,
+            0.319
+          ],
+          [
+            0.975,
+            0.3305
+          ],
+          [
+            0.172,
+            0.3305
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "recipients' names, row 9 of 18 on the right side, as a plain white bar",
+        "color": "white",
+        "side": "right",
+        "points": [
+          [
+            0.167,
+            0.289
+          ],
+          [
+            0.978,
+            0.289
+          ],
+          [
+            0.978,
+            0.3005
+          ],
+          [
+            0.167,
+            0.3005
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "recipients' names, row 10 of 18 on the right side, as a plain white bar",
+        "color": "white",
+        "side": "right",
+        "points": [
+          [
+            0.162,
+            0.261
+          ],
+          [
+            0.976,
+            0.261
+          ],
+          [
+            0.976,
+            0.2725
+          ],
+          [
+            0.162,
+            0.2725
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "recipients' names, row 11 of 18 on the right side, as a plain white bar",
+        "color": "white",
+        "side": "right",
+        "points": [
+          [
+            0.162,
+            0.232
+          ],
+          [
+            0.976,
+            0.232
+          ],
+          [
+            0.976,
+            0.2435
+          ],
+          [
+            0.162,
+            0.2435
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "recipients' names, row 12 of 18 on the right side, as a plain white bar",
+        "color": "white",
+        "side": "right",
+        "points": [
+          [
+            0.159,
+            0.203
+          ],
+          [
+            0.975,
+            0.203
+          ],
+          [
+            0.975,
+            0.2145
+          ],
+          [
+            0.159,
+            0.2145
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "recipients' names, row 13 of 18 on the right side, as a plain white bar",
+        "color": "white",
+        "side": "right",
+        "points": [
+          [
+            0.158,
+            0.173
+          ],
+          [
+            0.977,
+            0.173
+          ],
+          [
+            0.977,
+            0.1845
+          ],
+          [
+            0.158,
+            0.1845
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "recipients' names, row 14 of 18 on the right side, as a plain white bar",
+        "color": "white",
+        "side": "right",
+        "points": [
+          [
+            0.154,
+            0.144
+          ],
+          [
+            0.978,
+            0.144
+          ],
+          [
+            0.978,
+            0.1555
+          ],
+          [
+            0.154,
+            0.1555
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "recipients' names, row 15 of 18 on the right side, as a plain white bar",
+        "color": "white",
+        "side": "right",
+        "points": [
+          [
+            0.148,
+            0.116
+          ],
+          [
+            0.978,
+            0.116
+          ],
+          [
+            0.978,
+            0.1275
+          ],
+          [
+            0.148,
+            0.1275
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "recipients' names, row 16 of 18 on the right side, as a plain white bar",
+        "color": "white",
+        "side": "right",
+        "points": [
+          [
+            0.14,
+            0.088
+          ],
+          [
+            0.979,
+            0.088
+          ],
+          [
+            0.979,
+            0.0995
+          ],
+          [
+            0.14,
+            0.0995
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "recipients' names, row 17 of 18 on the right side, as a plain white bar",
+        "color": "white",
+        "side": "right",
+        "points": [
+          [
+            0.134,
+            0.057
+          ],
+          [
+            0.98,
+            0.057
+          ],
+          [
+            0.98,
+            0.0685
+          ],
+          [
+            0.134,
+            0.0685
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "recipients' names, row 18 of 18 on the right side, as a plain white bar",
+        "color": "white",
+        "side": "right",
+        "points": [
+          [
+            0.798,
+            0.026
+          ],
+          [
+            0.978,
+            0.026
+          ],
+          [
+            0.978,
+            0.0375
+          ],
+          [
+            0.798,
+            0.0375
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "engines": {
+    "cowling": "black",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "ACA/roundel",
+      "place": "fin",
+      "at": [
+        0.62,
+        0.707
+      ],
+      "height": 0.29,
+      "colors": [
+        "red",
+        "black"
+      ],
+      "description": "The Air Canada roundel, red ring round a red maple leaf, high on the black fin over the names; at the same place on both faces (left 0.611/0.712, right 0.629/0.703).",
+      "reference": "https://commons.wikimedia.org/wiki/File:Air_Canada_Logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "ACA/roundel",
+      "place": "fuselage",
+      "at": [
+        0.142,
+        -0.146
+      ],
+      "height": 0.34,
+      "colors": [
+        "red",
+        "white"
+      ],
+      "description": "The roundel small, red on white, under the title's first letters, aft of the forward door.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "SAL/star-alliance",
+      "place": "fuselage",
+      "at": [
+        0.085,
+        0.255
+      ],
+      "height": 0.12,
+      "colors": [
+        "#8A8F96"
+      ],
+      "description": "The small Star Alliance star between the cockpit windows and the forward door.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "AIR CANADA",
+      "place": "fuselage",
+      "at": [
+        0.132,
+        0.325
+      ],
+      "height": 0.24,
+      "color": "black",
+      "length": 0.211,
+      "style": "Widely spaced, medium-weight geometric capitals in black over the forward windows, from over the forward door's aft edge to over the second door.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Futura Medium",
+          "Avenir Next Medium"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "EXCELLENCE | 2025",
+      "place": "fuselage",
+      "at": [
+        0.539,
+        0.32
+      ],
+      "height": 0.185,
+      "color": "black",
+      "length": 0.237,
+      "style": "Thin, widely spaced geometric capitals in black, a thin upright bar between the word and the year; over the windows behind the wing, ending about 1.5 m ahead of the fourth door's middle.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        0,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Ultra Light",
+          "Futura Light"
+        ],
+        "weight": 300,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "Congratulations to our award-winning employees",
+      "place": "fuselage",
+      "side": "left",
+      "at": [
+        0.591,
+        -0.035
+      ],
+      "height": 0.072,
+      "color": "black",
+      "length": 0.185,
+      "style": "Black semibold humanist sans, upper- and lowercase, under the windows, ending under the title's end.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Myriad Pro Semibold",
+          "Open Sans Semibold"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.68
+      }
+    },
+    {
+      "text": "Félicitations à nos employés lauréats",
+      "place": "fuselage",
+      "side": "right",
+      "at": [
+        0.639,
+        -0.043
+      ],
+      "height": 0.07,
+      "color": "black",
+      "length": 0.137,
+      "style": "The left side's line in French, same lettering and size, ending at the same point (so it starts further aft).",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Myriad Pro Semibold",
+          "Open Sans Semibold"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.68
+      }
+    }
+  ],
+  "notes": "Measured on the 787-9 shape from two nearly side-on Commons photos at Beijing: the left side 2025-06-02 (fit within 6 px) and the right side 2025-05-30 (within 15 px: its positions were taken relative to the doors, which put the right side's title ends within 0.005 of the left's). Both sides seen. The rest is ACA/standard's colors and marks, re-measured on the 787 (its own drawing is on the 737 MAX): 'AIR CANADA' x 0.132-0.343 (cap height 0.25 on the left, 0.22 on the right: 0.24 drawn), the roundel and star. The belly line is level from the side, about 2.1 m under the centerline, from behind the radome to where it meets the underside at x 0.835. The fin carries the 2025 recipients' names, drawn as plain bars on purpose to keep private people's names out of the dataset: one thin white bar per row of text (17 rows on the left, 18 on the right, where the last row is a short one starting at the trailing edge), each covering its row's measured extent, from the baseline up about 0.4 of the row spacing. The rows were measured off the full-resolution photos. The right side's rows came out about 0.02 further aft than the left's on its looser fit, so they are scaled to end where the left's do (x 0.975). The fin roundel measured at the same place on both faces, so the fin is mirrored. Not drawn: the fleet number '852' at the fin tip and on the nose gear door, the small registration and Canadian flag under the aft title, and the fin's white leading edge (thin; the fin shape's edge). C-FSBV was still in it on 2026-03-13 (Commons).",
+  "history": "New 2026-11-23, split from ACA/excellence-awards (described only), which now covers the 2024 (C-FVNB) and 2026 (C-FIVM) versions. Air Canada painted its 2025 recipients' names on fin 852 in April 2025 (shown 2025-04-08 at Toronto, announced 2025-04-29)."
+}

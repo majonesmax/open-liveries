@@ -1,0 +1,340 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "AFR",
+  "name": "2009 livery",
+  "kind": "standard",
+  "from": "2009",
+  "confidence": "high",
+  "drawnOn": "A359",
+  "description": "All-white with 'AIRFRANCE' in big navy extended capitals over the forward windows, a red slash (the hallmark) after it, and a small navy seahorse roundel by the nose; the fin's navy and red stripes run parallel to its swept leading edge (a wide navy, a thin navy, and a red one that tapers out toward the tip); white engines with the roundel; navy winglets on the A350.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Air_France_F-HUVA_A350-900.jpg",
+      "title": "Air France F-HUVA A350-900 (CC BY-SA 4.0, Zima Savolainen-Schtakleff)",
+      "accessed": "2026-11-13",
+      "note": "Left side, 2026-09-26: title, hallmark, roundel, fin stripes, navy winglet."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:F-HTYQ_-_Airbus_A350-941_-_Air_France_SJO_220126.jpg",
+      "title": "F-HTYQ - Airbus A350-941 - Air France SJO 220126 (CC BY 4.0, kitmasterbloke)",
+      "accessed": "2026-11-13",
+      "note": "Right side, 2026-01-24: fin close-up (stripes, mirrored), title and hallmark, roundel."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A220-300_-_BD-500-1A11_(c-n_55187,_F-HZUN)_2025-05-16_Andre_Gerwing_Collection_ID_023716.jpg",
+      "title": "Airbus A220-300 F-HZUN, 2025-05-16 (CC BY-SA 4.0, André Gerwing)",
+      "accessed": "2026-11-13",
+      "note": "Right side from below: white belly, white engines with the roundel."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:F-HTYP_@_CDG,_2024-08-14.jpg",
+      "title": "F-HTYP @ CDG, 2024-08-14 (CC BY-SA 2.0, Anna Zvereva)",
+      "accessed": "2026-11-13",
+      "note": "Left side: the same layout."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Air_France#Livery",
+      "title": "Wikipedia: Air France, livery",
+      "accessed": "2026-11-13",
+      "note": "History of the schemes: the 2009 refresh of the fin stripes and wordmark."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F6",
+      "official": false
+    },
+    "navy": {
+      "hex": "#051C5B",
+      "official": false
+    },
+    "red": {
+      "hex": "#E1251B",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC5",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "name": "bare metal inlet lip",
+      "official": false
+    },
+    "gold": {
+      "hex": "#F2C200",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "mirrored": true,
+    "areas": [
+      {
+        "name": "wide navy stripe",
+        "color": "navy",
+        "points": [
+          [
+            0.22,
+            0
+          ],
+          [
+            0.46,
+            0
+          ],
+          [
+            0.58,
+            1
+          ],
+          [
+            0.16,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "middle navy stripe",
+        "color": "navy",
+        "points": [
+          [
+            0.5,
+            0
+          ],
+          [
+            0.6,
+            0
+          ],
+          [
+            0.76,
+            1
+          ],
+          [
+            0.64,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "thin navy stripe",
+        "color": "navy",
+        "points": [
+          [
+            0.64,
+            0
+          ],
+          [
+            0.69,
+            0
+          ],
+          [
+            0.88,
+            1
+          ],
+          [
+            0.81,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "red stripe, tapering out toward the tip",
+        "color": "red",
+        "points": [
+          [
+            0.73,
+            0
+          ],
+          [
+            0.92,
+            0
+          ],
+          [
+            0.92,
+            0.3
+          ],
+          [
+            0.9,
+            0.66
+          ],
+          [
+            0.86,
+            0.66
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "navy",
+    "confidence": "medium",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "AFR/hallmark",
+      "place": "fuselage",
+      "at": [
+        0.418,
+        0.42
+      ],
+      "height": 0.38,
+      "colors": [
+        "red"
+      ],
+      "description": "The Air France hallmark: a single red slash leaning forward like '/', thin at its foot and widening to the top, set just after the title's last letter (aft of it on the left side, ahead of it on the right, since it follows the text).",
+      "reference": "https://commons.wikimedia.org/wiki/File:Air_France_Logo.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "AFR/seahorse",
+      "place": "fuselage",
+      "at": [
+        0.095,
+        0.3
+      ],
+      "height": 0.32,
+      "colors": [
+        "navy",
+        "white"
+      ],
+      "description": "A small roundel with Air France's winged seahorse (hippocampe ailé) in navy line work, between the cockpit and the forward door.",
+      "reference": "https://en.wikipedia.org/wiki/Air_France#Corporate_identity",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "AFR/seahorse",
+      "place": "engines",
+      "at": [
+        0.45,
+        0.2
+      ],
+      "height": 0.35,
+      "colors": [
+        "navy",
+        "white"
+      ],
+      "description": "The same seahorse roundel on the engine cowling.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        2
+      ]
+    },
+    {
+      "mark": "AFR/eu-flag",
+      "place": "fin",
+      "at": [
+        0.3,
+        0.88
+      ],
+      "height": 0.07,
+      "colors": [
+        "gold",
+        "navy"
+      ],
+      "description": "A small ring of twelve gold stars (the European flag) on the wide navy stripe near the tip, added in 2022.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Flag_of_Europe.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "AIRFRANCE",
+      "place": "fuselage",
+      "at": [
+        0.137,
+        0.245
+      ],
+      "height": 0.36,
+      "color": "navy",
+      "length": 0.256,
+      "style": "Navy, heavy, extended geometric capitals with no space between AIR and FRANCE, upright, over the forward window line from just aft of door 1.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Heavy Extended",
+          "Univers 83 Extra Black Extended",
+          "Eurostile Extended Black"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Lengths taken from A350s: on the A220 the title runs about x 0.2–0.4 with the hallmark tighter to it. The EU stars on the fin show on both A350s photographed in 2026 but may not be on the whole fleet. A dark band round the A350's engine aft of the fan cowl is probably the reverser seam and isn't drawn. A320-family winglets and the far underside weren't checked; the belly shows white from below. Re-checked 2026-11-15 on F-HUVA (A350-900, side-on): the title's ends (x 0.127-0.37) and the straight fin stripes agree with the drawing within the brief's tolerance; nothing moved.",
+  "history": "Replaces Skyarium v1's approximation. The 2009 refresh (Brandimage) redrew the fin's tricolor as stripes parallel to the leading edge and set the title as one word with the hallmark; it replaced the 1975–2009 scheme. The year is from memory of the brand history and should be checked against an Air France source."
+}

@@ -1,0 +1,44 @@
+# The tools in tools/ are scripts, not a package: this file only holds their lint and type settings and the
+# development dependencies (`.venv/bin/pip install --group dev`; dependency groups need pip 25.1 or later).
+
+[project]
+name = "open-liveries-tools"
+version = "0"
+description = "Tools for the Open Liveries dataset: validate, preview, count, export"
+requires-python = ">=3.11"
+license = "MIT"
+readme = "README.md"
+dependencies = ["jsonschema>=4.18"]
+
+[project.urls]
+Homepage = "https://github.com/majonesmax/open-liveries"
+
+[dependency-groups]
+dev = ["ruff", "mypy", "types-jsonschema", "numpy", "pillow"]
+# tools/photo_trace.py: measuring paint edges off photos (`.venv/bin/pip install --group photos`)
+photos = ["numpy", "pillow"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+src = ["tools"]
+include = ["tools/**/*.py"]
+# tools/trace/ is the shape-measuring pipeline: research scripts run by hand on one type at a time, not linted.
+extend-exclude = ["tools/trace"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "SIM", "RUF", "N"]
+ignore = [
+    "N815",    # camelCase fields in shapes.py are the data's own names (sourceRefs, inletLip)
+    "RUF001",  # the house style writes → and – in strings
+    "RUF002",
+    "RUF003",
+]
+
+[tool.mypy]
+files = ["tools"]
+exclude = ["tools/trace/"]
+mypy_path = "tools"
+python_version = "3.11"
+strict = true
+warn_unreachable = true

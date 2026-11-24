@@ -1,0 +1,473 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "AZU",
+  "name": "Azul livery",
+  "kind": "standard",
+  "from": "2008",
+  "description": "Fuselage: white, with a dark navy belly whose edge rises from under the nose to just below the windows and drops back to the belly ahead of the tail, edged by thin yellow and green (Brazil) pinstripes. Tail: dark navy fin with the Brazil map built of colored squares, a yellow and green line down the trailing edge and a white pinstripe inside the leading edge. Engines: royal blue with 'voeazul.com.br' in white. Titles: a huge navy 'Azul' over the forward windows, 'Brasil' with a small flag above the windows behind it. Artwork: the pixel Brazil map (fin, and small by the cockpit).",
+  "confidence": "high",
+  "drawnOn": "A320",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Embraer_E195-E2_da_Azul_no_Aeroporto_Internacional_de_Belo_Horizonte-Confins_MG.JPG",
+      "title": "PS-ADP, Azul Embraer 195-E2 at Belo Horizonte-Confins, CC BY 4.0, HVL",
+      "accessed": "2026-11-13",
+      "note": "Left side, 2026-09-05: everything measured from this (belly line, pinstripes, fin, titles, engine)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A330-941_%E2%80%98PR-ANX%E2%80%99_Azul_Linhas_A%C3%A9reas_(53742201929).jpg",
+      "title": "PR-ANX, Azul Airbus A330-900 at Lisbon, CC BY-SA 2.0",
+      "accessed": "2026-11-13",
+      "note": "Right side, 2022-09-19: same scheme on a widebody; the map isn't mirrored; 'flyazul.com' on its engines."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:A320neo_AZUL_SBGR_(32870342280).jpg",
+      "title": "PR-YRE, Azul Airbus A320neo at Guarulhos, CC BY-SA 2.0",
+      "accessed": "2026-11-13",
+      "note": "Right side, 2017-01-24: the A320neo version, navy sharklets edged yellow and green. Re-checked 2026-11-15: the titles, flag and belly line measured on it against its doors and window line (the A320neo is the commonest type)."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "navy": {
+      "hex": "#10204F",
+      "official": false
+    },
+    "engineBlue": {
+      "hex": "#1D2F86",
+      "official": false
+    },
+    "green": {
+      "hex": "#0A8A3A",
+      "official": false
+    },
+    "yellow": {
+      "hex": "#E8D21A",
+      "official": false
+    },
+    "lip": {
+      "hex": "#B8BCC2",
+      "official": false
+    },
+    "mapCyan": {
+      "hex": "#4FB3E8",
+      "official": false
+    },
+    "mapBlue": {
+      "hex": "#2F6FD0",
+      "official": false
+    },
+    "mapGreen": {
+      "hex": "#3DB54A",
+      "official": false
+    },
+    "mapOrange": {
+      "hex": "#F2A33A",
+      "official": false
+    },
+    "mapTeal": {
+      "hex": "#1E9AA5",
+      "official": false
+    },
+    "mapMagenta": {
+      "hex": "#8E3A8C",
+      "official": false
+    },
+    "mapRed": {
+      "hex": "#D8343C",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "green pinstripe (outer)",
+        "color": "green",
+        "below": [
+          [
+            0.065,
+            -1
+          ],
+          [
+            0.15,
+            -0.55
+          ],
+          [
+            0.235,
+            -0.28
+          ],
+          [
+            0.371,
+            -0.07
+          ],
+          [
+            0.55,
+            -0.03
+          ],
+          [
+            0.718,
+            -0.04
+          ],
+          [
+            0.796,
+            -0.28
+          ],
+          [
+            0.88,
+            -1
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "yellow pinstripe",
+        "color": "yellow",
+        "below": [
+          [
+            0.067,
+            -1
+          ],
+          [
+            0.15,
+            -0.585
+          ],
+          [
+            0.235,
+            -0.315
+          ],
+          [
+            0.371,
+            -0.105
+          ],
+          [
+            0.55,
+            -0.065
+          ],
+          [
+            0.718,
+            -0.075
+          ],
+          [
+            0.796,
+            -0.315
+          ],
+          [
+            0.876,
+            -1
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "navy belly",
+        "color": "navy",
+        "below": [
+          [
+            0.07,
+            -1
+          ],
+          [
+            0.15,
+            -0.62
+          ],
+          [
+            0.235,
+            -0.35
+          ],
+          [
+            0.371,
+            -0.14
+          ],
+          [
+            0.55,
+            -0.1
+          ],
+          [
+            0.718,
+            -0.11
+          ],
+          [
+            0.796,
+            -0.35
+          ],
+          [
+            0.872,
+            -1
+          ]
+        ],
+        "smooth": true
+      }
+    ],
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "navy",
+    "areas": [
+      {
+        "name": "white pinstripe inside the leading edge",
+        "color": "white",
+        "points": [
+          [
+            0.02,
+            0.02
+          ],
+          [
+            0.03,
+            0.02
+          ],
+          [
+            0.03,
+            0.99
+          ],
+          [
+            0.02,
+            0.99
+          ]
+        ]
+      },
+      {
+        "name": "yellow line down the trailing edge",
+        "color": "yellow",
+        "points": [
+          [
+            0.95,
+            0.0
+          ],
+          [
+            0.975,
+            0.0
+          ],
+          [
+            0.975,
+            1.0
+          ],
+          [
+            0.95,
+            1.0
+          ]
+        ]
+      },
+      {
+        "name": "green line on the trailing edge",
+        "color": "green",
+        "points": [
+          [
+            0.975,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            0.975,
+            1.0
+          ]
+        ]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "winglets": {
+    "outer": "navy",
+    "inner": "navy",
+    "confidence": "medium",
+    "sourceRefs": [
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "engineBlue",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "AZU/brazil-map",
+      "place": "fin",
+      "at": [
+        0.63,
+        0.32
+      ],
+      "height": 0.52,
+      "colors": [
+        "mapCyan",
+        "mapBlue",
+        "mapGreen",
+        "yellow",
+        "mapOrange",
+        "mapTeal",
+        "mapMagenta",
+        "mapRed"
+      ],
+      "description": "The Azul symbol: the outline of Brazil built from overlapping squares and rectangles of different sizes in cyan, blues, greens, teal, yellow, orange, purple and red, the northeast bulge to the east (toward the trailing edge on the left side; the same artwork on both sides, not mirrored).",
+      "reference": "https://commons.wikimedia.org/wiki/File:Logo_da_Azul_Linhas_A%C3%A9reas_Brasileiras.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "AZU/brazil-map",
+      "place": "fuselage",
+      "at": [
+        0.115,
+        0.22
+      ],
+      "height": 0.26,
+      "colors": [
+        "mapCyan",
+        "mapBlue",
+        "mapGreen",
+        "yellow",
+        "mapOrange",
+        "mapTeal",
+        "mapMagenta",
+        "mapRed"
+      ],
+      "description": "The same pixel map, small, just behind the cockpit windows.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "AZU/brazil-flag",
+      "place": "fuselage",
+      "at": [
+        0.326,
+        0.46
+      ],
+      "height": 0.18,
+      "colors": [
+        "green",
+        "yellow",
+        "mapBlue"
+      ],
+      "description": "A small flag of Brazil just ahead of the 'Brasil' title.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Flag_of_Brazil.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Azul",
+      "place": "fuselage",
+      "at": [
+        0.159,
+        -0.07
+      ],
+      "height": 0.58,
+      "color": "navy",
+      "style": "The Azul wordmark: very large, heavy geometric sans, capital A and lowercase zul, upright, running down over the forward windows.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Heavy",
+          "Futura Bold"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.62
+      },
+      "length": 0.14
+    },
+    {
+      "text": "Brasil",
+      "place": "fuselage",
+      "at": [
+        0.337,
+        0.37
+      ],
+      "height": 0.13,
+      "color": "navy",
+      "style": "Thin, light sans, mixed case, above the windows behind the 'Azul' title, the flag just ahead of it.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Ultra Light",
+          "Helvetica Neue Light"
+        ],
+        "weight": 300,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      },
+      "length": 0.031
+    },
+    {
+      "text": "voeazul.com.br",
+      "place": "engines",
+      "at": [
+        0.14,
+        0.0
+      ],
+      "height": 0.2,
+      "color": "white",
+      "style": "Bold lowercase sans, across the cowling's side (widebodies and export-routed aircraft carry 'flyazul.com').",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Demi Bold",
+          "Helvetica Neue Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower"
+      }
+    }
+  ],
+  "notes": "Belly line and pinstripes measured on an E195-E2; A320neo and A330 show the same design. Each aircraft has its own small italic name or slogan under the cockpit (e.g. 'Felicidade é voar', 'Azul Around the World'): not drawn. On PR-YRE (2017) the 'ul' of the title looked lighter blue; later photos show it all navy. Azul has many specials (Disney, Brazilian flag, Toy Story, parrots) on part of the fleet; this is the standard. The underside wasn't photographed from below: the navy is assumed to run across the belly, as the side views show it reaching the bottom. Re-checked 2026-11-15 on the A320neo (the commonest type; PR-YRE from the right, 2017, the only side-on standard A320neo photo found; 2024-26 Commons A320neos are Disney specials): Azul runs 0.159 to 0.299 with its cap height 0.58 (on the E195-E2's narrower fuselage it was 0.93), lowercase 0.62 of the A; Brasil 0.337 to 0.368 after the flag at 0.326. The belly line agrees mid-fuselage; near the nose the photo puts it higher (about -0.55 at x 0.09 against -0.9 drawn), but the nose's outline there is too uncertain to move it on one photo. The lines are curves, now drawn smooth.",
+  "history": "Replaces Skyarium v1's approximation. Azul has flown this scheme since its 2008 launch, with minor title changes; no older scheme flies."
+}

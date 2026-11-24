@@ -1,0 +1,758 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "uae-flag",
+  "airline": "UAE",
+  "name": "UAE flag (This Flag Will Always Fly)",
+  "kind": "special",
+  "from": "2026-05",
+  "confidence": "medium",
+  "drawnOn": "A388",
+  "description": "The 2023 scheme with the UAE flag carried from the tail along the rear half of the fuselage, as a waving ribbon: a red block (the flag's hoist) standing from the crown to the wing root just aft of 'Emirates', then green along the crown from it, the white between, and black sweeping down from the fin's root across the rear fuselage to low on the side behind the wing; the tail's red sweep, flag ribbon fin, gold titles, red belly panel, gold engine logo and red winglets are the standard's. No Arabic title (the red block stands where it was).",
+  "sources": [
+    {
+      "url": "https://www.emirates.com/media-centre/emirates-unveils-a-striking-new-uae-flag-livery-on-its-a380/",
+      "title": "Emirates unveils a striking new UAE flag livery on its A380 (press release, 8 May 2026)",
+      "accessed": "2026-11-22",
+      "note": "A6-EVG; the UAE's colours in a 3D design across both sides, extending the tail's design; part of the 'This Flag Will Always Fly' campaign; already flown to New York and Brisbane; a similar design planned for one 777. Read through its reprints (World Airline News, Gulf News)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:A6-EVG.jpg",
+      "title": "A6-EVG.jpg (Liam Thompson, CC BY-SA 4.0)",
+      "accessed": "2026-11-22",
+      "note": "Left side from below, landing, 2026-07-28: fitted to shapes/A388.json (nose, tail, fin tip, the first and last main-deck doors; within 35 px, about 1.5 m at the tail). The red sweep, the black band and the white line between them measured on it; the red block's top seen over the wing."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Emirates_Airlines_(UAE_Flag_Livery)_Airbus_A380-800_-_A6-EVG.jpg",
+      "title": "Emirates Airlines (UAE Flag Livery) Airbus A380-800 - A6-EVG.jpg (Umedha Hettigoda, CC BY-SA 4.0)",
+      "accessed": "2026-11-22",
+      "note": "Right side, taking off at Auckland, 2026-07-01, flipped nose-left and fitted the same way (within 34 px): the red block, the green along the crown and the black's top measured on it; the same layout as the left."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:(GBR-Greater_Manchester)_Emirates_Airbus_A380-842_A6-EVG_@_EGCC_2025-06-09.jpg",
+      "title": "(GBR-Greater Manchester) Emirates Airbus A380-842 A6-EVG @ EGCC 2025-06-09 (S5A-0043, CC BY 4.0)",
+      "accessed": "2026-11-22",
+      "note": "Right side, 2025-06-09: A6-EVG in the plain 2023 scheme before the flag, for comparison (the red sweep is the same)."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F5",
+      "official": false
+    },
+    "red": {
+      "hex": "#D71921",
+      "name": "Emirates red",
+      "official": false
+    },
+    "green": {
+      "hex": "#00843D",
+      "name": "flag green",
+      "official": false
+    },
+    "black": {
+      "hex": "#16181B",
+      "name": "flag black",
+      "official": false
+    },
+    "flagWhite": {
+      "hex": "#D9DCDF",
+      "name": "the flag's white, read through its fine black ripple lines",
+      "official": false
+    },
+    "gold": {
+      "hex": "#A98C4E",
+      "name": "Emirates gold",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#C3C7CC",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C6CACF",
+      "name": "bare metal inlet lip",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "red sweep from the fin down the rear fuselage, as on the A380s in the 2023 scheme",
+        "color": "red",
+        "smooth": true,
+        "points": [
+          [
+            0.765,
+            1
+          ],
+          [
+            0.76,
+            0.66
+          ],
+          [
+            0.745,
+            0.43
+          ],
+          [
+            0.722,
+            0.13
+          ],
+          [
+            0.7,
+            -0.28
+          ],
+          [
+            0.677,
+            -0.43,
+            1
+          ],
+          [
+            0.72,
+            -0.37
+          ],
+          [
+            0.752,
+            -0.21
+          ],
+          [
+            0.793,
+            0.09
+          ],
+          [
+            0.809,
+            0.49
+          ],
+          [
+            0.815,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "flag black, from the crown ahead of the red sweep down and forward across the side to low on it behind the wing, its lower edge rounded; a thin white line between it and the red",
+        "color": "black",
+        "smooth": true,
+        "points": [
+          [
+            0.598,
+            0.08
+          ],
+          [
+            0.637,
+            0.32
+          ],
+          [
+            0.672,
+            0.37
+          ],
+          [
+            0.686,
+            0.57
+          ],
+          [
+            0.7,
+            0.85
+          ],
+          [
+            0.708,
+            1
+          ],
+          [
+            0.752,
+            1
+          ],
+          [
+            0.752,
+            0.62
+          ],
+          [
+            0.738,
+            0.4
+          ],
+          [
+            0.714,
+            0.12
+          ],
+          [
+            0.69,
+            -0.1
+          ],
+          [
+            0.663,
+            -0.19
+          ],
+          [
+            0.625,
+            -0.38
+          ],
+          [
+            0.586,
+            -0.57
+          ],
+          [
+            0.572,
+            -0.6
+          ],
+          [
+            0.567,
+            -0.45
+          ],
+          [
+            0.571,
+            -0.24
+          ],
+          [
+            0.58,
+            -0.05
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ],
+        "side": "left"
+      },
+      {
+        "name": "flag black, from the crown ahead of the red sweep down and forward across the side to low on it behind the wing, its lower edge rounded; a thin white line between it and the red (on the right its top begins about 3 m further aft)",
+        "color": "black",
+        "smooth": true,
+        "points": [
+          [
+            0.62,
+            0.1
+          ],
+          [
+            0.645,
+            0.26
+          ],
+          [
+            0.669,
+            0.6
+          ],
+          [
+            0.694,
+            0.92
+          ],
+          [
+            0.7,
+            1
+          ],
+          [
+            0.752,
+            1
+          ],
+          [
+            0.752,
+            0.62
+          ],
+          [
+            0.738,
+            0.4
+          ],
+          [
+            0.714,
+            0.12
+          ],
+          [
+            0.69,
+            -0.1
+          ],
+          [
+            0.663,
+            -0.19
+          ],
+          [
+            0.625,
+            -0.38
+          ],
+          [
+            0.586,
+            -0.57
+          ],
+          [
+            0.572,
+            -0.6
+          ],
+          [
+            0.567,
+            -0.45
+          ],
+          [
+            0.571,
+            -0.24
+          ],
+          [
+            0.58,
+            -0.05
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2
+        ],
+        "side": "right"
+      },
+      {
+        "name": "flag green, along the crown aft of the red block, its lower edge rising to a point",
+        "color": "green",
+        "smooth": true,
+        "points": [
+          [
+            0.489,
+            1
+          ],
+          [
+            0.505,
+            0.62
+          ],
+          [
+            0.518,
+            0.36
+          ],
+          [
+            0.546,
+            0.4
+          ],
+          [
+            0.58,
+            0.5
+          ],
+          [
+            0.615,
+            0.7
+          ],
+          [
+            0.642,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2
+        ]
+      },
+      {
+        "name": "red block, the flag's hoist, from the crown down to the wing root fairing",
+        "color": "red",
+        "smooth": true,
+        "points": [
+          [
+            0.432,
+            1
+          ],
+          [
+            0.436,
+            0.6
+          ],
+          [
+            0.442,
+            0.25
+          ],
+          [
+            0.447,
+            -0.05,
+            1
+          ],
+          [
+            0.535,
+            -0.05,
+            1
+          ],
+          [
+            0.53,
+            0.06
+          ],
+          [
+            0.518,
+            0.34
+          ],
+          [
+            0.502,
+            0.66
+          ],
+          [
+            0.489,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "red belly panel between the wings",
+        "color": "red",
+        "points": [
+          [
+            0.37,
+            -1
+          ],
+          [
+            0.37,
+            -0.86
+          ],
+          [
+            0.39,
+            -0.8
+          ],
+          [
+            0.58,
+            -0.8
+          ],
+          [
+            0.6,
+            -0.86
+          ],
+          [
+            0.6,
+            -1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          1
+        ]
+      }
+    ],
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "flag green, along the top of the trailing half",
+        "color": "green",
+        "points": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            0.9,
+            1.0
+          ],
+          [
+            0.62,
+            0.88
+          ],
+          [
+            0.53,
+            0.7
+          ],
+          [
+            0.3,
+            0.585
+          ],
+          [
+            0.44,
+            0.44
+          ],
+          [
+            0.62,
+            0.53
+          ],
+          [
+            0.81,
+            0.69
+          ],
+          [
+            1.0,
+            0.73
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ],
+        "smooth": true
+      },
+      {
+        "name": "flag white (rippled), under the green",
+        "color": "flagWhite",
+        "points": [
+          [
+            1.0,
+            0.73
+          ],
+          [
+            0.81,
+            0.69
+          ],
+          [
+            0.62,
+            0.53
+          ],
+          [
+            0.44,
+            0.44
+          ],
+          [
+            0.33,
+            0.43
+          ],
+          [
+            0.36,
+            0.1
+          ],
+          [
+            0.43,
+            0.086
+          ],
+          [
+            0.55,
+            0.2
+          ],
+          [
+            0.79,
+            0.4
+          ],
+          [
+            1.0,
+            0.44
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ],
+        "smooth": true
+      },
+      {
+        "name": "flag black (rippled)",
+        "color": "black",
+        "points": [
+          [
+            1.0,
+            0.44
+          ],
+          [
+            0.79,
+            0.4
+          ],
+          [
+            0.55,
+            0.2
+          ],
+          [
+            0.43,
+            0.086
+          ],
+          [
+            0.4,
+            -0.05
+          ],
+          [
+            0.65,
+            -0.05
+          ],
+          [
+            0.81,
+            0.155
+          ],
+          [
+            1.0,
+            0.19
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ],
+        "smooth": true
+      },
+      {
+        "name": "red band, the flag's hoist, running off the root onto the fuselage",
+        "color": "red",
+        "points": [
+          [
+            0.29,
+            0.585
+          ],
+          [
+            0.216,
+            0.44
+          ],
+          [
+            0.15,
+            0.32
+          ],
+          [
+            0.13,
+            0.155
+          ],
+          [
+            0.07,
+            -0.05
+          ],
+          [
+            0.35,
+            -0.05
+          ],
+          [
+            0.353,
+            0.155
+          ],
+          [
+            0.33,
+            0.32
+          ],
+          [
+            0.33,
+            0.44
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ],
+        "smooth": true
+      }
+    ],
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "red",
+    "inner": "green",
+    "confidence": "low",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "UAE/calligraphy",
+      "place": "engines",
+      "at": [
+        0.55,
+        0.05
+      ],
+      "height": 0.36,
+      "colors": [
+        "gold"
+      ],
+      "description": "The Emirates logo: the name in Arabic calligraphy (Diwani-style), a compact knot of strokes about as tall as wide, in gold on the outboard side of each cowling.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Emirates_logo.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "UAE/calligraphy",
+      "place": "winglets",
+      "at": [
+        0.45,
+        0.55
+      ],
+      "height": 0.25,
+      "colors": [
+        "white"
+      ],
+      "description": "The calligraphy logo, small, in white on the red winglet's outer face.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Emirates_logo.svg",
+      "confidence": "low",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Emirates",
+      "place": "fuselage",
+      "at": [
+        0.127,
+        -0.157
+      ],
+      "height": 0.495,
+      "length": 0.265,
+      "color": "gold",
+      "style": "The Emirates wordmark, larger than on the twins, between the decks: its capitals' tops just under the upper deck's windows, the main deck's windows through the lower part of its letters.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Minion Pro Bold",
+          "Times New Roman Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "contrast",
+        "case": "mixed",
+        "xHeight": 0.8
+      }
+    },
+    {
+      "text": "Emirates",
+      "place": "belly",
+      "at": [
+        0.4,
+        -1
+      ],
+      "height": 0.3,
+      "length": 0.17,
+      "color": "white",
+      "style": "The wordmark in white on the red belly panel, reading along the fuselage.",
+      "confidence": "low",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "Minion Pro Bold",
+          "Times New Roman Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "contrast",
+        "case": "mixed"
+      }
+    }
+  ],
+  "notes": "Drawn on the A380 (A6-EVG), from the two 2026 Commons photos, one each side; the two sides carry the same layout. The flag's bands are drawn as their big masses; on the aircraft they're shaded in 3D, with the white and black in fine ripple lines like the fin's, and the white between the green and the black is left as the base white. Below the wing root the red block isn't seen in either photo (the wing, fairing and engines hide it): drawn ending at the fairing, and how far it runs toward the belly isn't known. The black's rounded lower end is seen only from below at an angle (left photo); white runs under it to the belly's red title panel, the 2023 scheme's, seen in the left photo between the engines. On the right the black's front is hidden under the wing, so its front edge is the left photo's. The fin, winglets, engines and titles are the 2023 scheme's (UAE/standard and its A380 titles), checked on both photos; the Arabic title isn't painted (the red block is where it would be). The press release says a similar flag is planned for one 777: not seen in an open photo yet (A6-EQH is a lead, in TODO).",
+  "history": "A6-EVG was repainted in the 2023 scheme by early 2025 (Commons, 2025-02 and 2025-06); the flag was added and unveiled on 8 May 2026."
+}

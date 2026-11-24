@@ -1,0 +1,36 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "AAY",
+  "airframes": [
+    {
+      "registration": "N198NV",
+      "hex": "a18723",
+      "type": "A320",
+      "livery": "insomniac-edc",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N198NV_-_KSWF_-_15-8-25.jpg",
+          "title": "N198NV - KSWF - 15-8-25.jpg",
+          "accessed": "2026-11-22",
+          "note": "Photo 2025-08-15 (CC BY 4.0): right side in the Insomniac/EDC scheme."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N198NV_FLL_Landing_28R_G4_A320_214_Insomniac_EDC_Small_(54375657750).png",
+          "title": "N198NV FLL Landing 28R G4 A320 214 Insomniac EDC Small (54375657750).png",
+          "accessed": "2026-11-22",
+          "note": "Photo 2025-03-09 (CC BY-SA 2.0)."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N198NV_Allegiant_Air_Airbus_A320-214_s_n_7138_%22Insomniac%22_(53455077594).jpg",
+          "title": "N198NV Allegiant Air Airbus A320-214 s n 7138 \"Insomniac\" (53455077594).jpg",
+          "accessed": "2026-11-22",
+          "note": "Photo 2024-01-08 (CC BY-SA 2.0)."
+        }
+      ],
+      "hexSource": "derived from the N-number (tools/nnumber.py); adsb.lol saw it under this address on 2026-11-22",
+      "lastSeen": "2026-11-22",
+      "status": "Flying 2026-11-22 (adsb.lol live, callsign AAY563). Newest open photo of the paint 2025-08-15."
+    }
+  ]
+}

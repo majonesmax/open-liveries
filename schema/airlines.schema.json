@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/majonesmax/open-liveries/main/schema/airlines.schema.json",
+  "title": "Open Liveries airlines",
+  "description": "The airlines with schemes or tagged jets here, by ICAO code: the name to show and the country of their operating certificate (ISO 3166-1 alpha-2). An airline that closed before ICAO's three-letter codes (1987) is keyed by its IATA code and founding year instead (Republic, 1979–86: RC1979).",
+  "type": "object",
+  "required": [
+    "airlines"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "description": "The JSON Schema this file follows, as a relative path.",
+      "type": "string"
+    },
+    "airlines": {
+      "description": "Each airline with schemes or tagged airframes here, by its ICAO code.",
+      "type": "object",
+      "propertyNames": {
+        "pattern": "^([A-Z]{3}|[A-Z0-9]{2}[0-9]{4})$"
+      },
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "name",
+          "country"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "description": "As the airline writes it."
+          },
+          "country": {
+            "description": "Where its operating certificate is from (ISO 3166-1 alpha-2).",
+            "type": "string",
+            "pattern": "^[A-Z]{2}$"
+          },
+          "ceased": {
+            "type": "string",
+            "pattern": "^[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$",
+            "description": "When it stopped flying under its own name: a past airline (a ghost flight's)."
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "_about": "Lockheed C-130J Hercules (the HC-130J's airframe: the C-130's standard 97 ft 9 in fuselage), read off the three views in the USAF technical order T.O. 1C-130A-2-2, page 1-3 (the C-130A, late: radome nose), as uploaded to Wikimedia Commons (File:Lockheed C-130A Hercules (late) 3-view line drawing.png: a 1797 x 2566 px greyscale scan, public domain as a USAF work). No C-130J airport-planning document is public; Lockheed Martin's own C-130J Pocket Guide (General Arrangement, p. 6) draws the stretched C-130J-30 as a brochure illustration not to one scale (its side view 10% longer than its plan against their printed figures), so it serves as a check of the J's nacelles and propellers, not the outlines. The C-130J keeps the C-130's fuselage, wing, tail and nacelle lines; it differs in its six-bladed Dowty R391 propellers, 13 ft 6 in across (the recipe's propeller diameter: the drawing's discs are the C-130A's 15 ft 1 in), and its AE2100D3 engines in nacelles of the same outline. Rasterized with layers.py --mode image --threshold 170: the side at scale 3 (3 raster px per scan px); the plan, drawn nose down, turned to nose left and rendered to the side's scale (side.anchors.json, plan.anchors.json); the front at 2.9895. Scaled by the printed 97 ft 9 in (29.79 m) overall length, between its extension lines at the nose tip and the tail cone (92, 3622 px, line centres); the wheelbase it prints (29 ft 4 in, 8.94 m) is drawn within 0.1% of that scale. The centerline: the scan draws the fuselage 10 px (0.08 m) off the middle of the wing in the plan and 15 px in the front view, so each view's centerline is halfway between the fuselage's middle and the wing tips' (plan 2448, front 2462): every part within 0.07 m of either. The front view's crownTop (866) is its fuselage section's top. The tailplane: the front view draws it as one line along the wing's upper surface, the side view edge on 0.31 m under the crown (stabilizerZ 925, the middle of its edge-on outline at its root). Nacelles: both a side are drawn in the side view, the outboard one 28 px higher (the dihedral): engine 1 is the inboard (its top, behind the outboard nacelle, placed 28 px under the outboard's), engine 2 the outboard; their halfWidth from the plan (nacelle, nacelle2); the propellers' hubs from the front view's blade roots, their spinners and plane from the side. Doors as drawn on the left: the crew entrance door (left only) and the paratroop door behind the main gear's sponson (both sides); the C-130A's forward cargo door (left) isn't on the C-130J and is left out, as are its small round windows (the C-130J's few cabin windows are in its doors). The sponsons are left out of the belly (bridged), as on the C-17. The cockpit panes (cockpitPanes) are the C-130J's, placed in meters from HC-130J photos against the drawing's panes and written here in this raster's pixels; the front pane's forward edge lies on the crown (its center post) from 0.86 to 1.32 m up, the front view's center panes. See the shape's source note.",
+  "out": "../../../../shapes/C30J.json",
+  "length": 29.794,
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "stabilizerZ": 925,
+  "propeller": {
+    "blades": 6,
+    "diameter": 4.115,
+    "x": 1197,
+    "hub": 971,
+    "front": [1585, 2131],
+    "spinner": [1122, 1197],
+    "spinnerHeight": [928, 1016]
+  },
+  "propeller2": {
+    "hub": 943,
+    "front": [977, 1523],
+    "spinnerHeight": [900, 988]
+  },
+  "refs": {
+    "side": {
+      "nose": 92,
+      "tail": 3622
+    },
+    "plan": {
+      "nose": 137,
+      "centerline": 2448
+    },
+    "front": {
+      "centerline": 2462,
+      "crownTop": 866
+    }
+  },
+  "windows": {
+    "x": [],
+    "z": [0.4, 0.8],
+    "width": 0.3,
+    "note": "No cabin windows: the C-130J's few are in its doors (the crew door's and the paratroop doors'), and the drawing's round windows are the C-130A's."
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [
+        639,
+        1154,
+        740,
+        1304
+      ],
+      "side": "left"
+    },
+    {
+      "kind": "door",
+      "box": [
+        2129,
+        1075,
+        2235,
+        1316
+      ]
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [282.7, 1017.6],
+      [290.9, 1007.3],
+      [299.1, 996.9],
+      [307.3, 986.6],
+      [315.5, 977.5],
+      [323.7, 970.1],
+      [331.9, 963.1],
+      [356.8, 966.6],
+      [337.3, 1017.6]
+    ],
+    [
+      [343.2, 1024.7],
+      [363.3, 971.4],
+      [383.5, 973.8],
+      [365.7, 1025.9]
+    ],
+    [
+      [372.8, 1025.9],
+      [389.4, 973.8],
+      [436.8, 974.9],
+      [430.9, 1027.1]
+    ],
+    [
+      [438.0, 1027.1],
+      [442.7, 974.9],
+      [479.4, 976.1],
+      [480.6, 1028.3]
+    ],
+    [
+      [372.8, 963.1],
+      [385.8, 944.1],
+      [402.4, 942.9],
+      [395.3, 964.3]
+    ],
+    [
+      [401.2, 964.3],
+      [409.5, 942.9],
+      [439.1, 942.9],
+      [438.0, 965.5]
+    ],
+    [
+      [445.1, 965.5],
+      [445.1, 942.9],
+      [478.2, 942.9],
+      [480.6, 966.6]
+    ],
+    [
+      [291.0, 1028.3],
+      [317.1, 1029.4],
+      [308.8, 1055.5],
+      [282.8, 1054.3]
+    ],
+    [
+      [337.3, 1072.1],
+      [369.2, 1072.1],
+      [369.2, 1139.6],
+      [337.3, 1139.6]
+    ]
+  ],
+  "printed": {
+    "overall length": 29.794,
+    "wingspan": 40.437,
+    "tailplane span": 16.053,
+    "fuselage width": 4.32,
+    "propeller diameter": 4.115,
+    "propeller plane from the nose": 9.119
+  },
+  "meta": {
+    "id": "C30J",
+    "name": "Lockheed Martin C-130J Hercules",
+    "types": [
+      "C30J",
+      "C130"
+    ],
+    "confidence": "medium",
+    "sources": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Lockheed_C-130A_Hercules_(late)_3-view_line_drawing.png",
+        "title": "USAF, T.O. 1C-130A-2-2, page 1-3: the C-130A Hercules (late, radome nose) side, plan and front views with their dimensions (a scan on Wikimedia Commons, public domain as a USAF work)",
+        "accessed": "2026-11-22",
+        "note": "Outlines read off the three views (tools/trace/c30j/); the figures are the aircraft's measurements, not a copy of the drawing. A technical order's dimensioned drawing, not a manufacturer's airport-planning sheet (none is public for any C-130): a 1797 x 2566 px scan of about 39 px a meter. The C-130J keeps the C-130's fuselage (the same 97 ft 9 in), wing, tail and nacelle outlines, so the airframe is the C-130A's here. Scaled by its printed 97 ft 9 in (29.79 m) overall length; its 29 ft 4 in wheelbase is drawn within 0.1% at that scale, its plan's span and its front view's within 0.2% of the printed 132 ft 8 in (each view rendered to the side's scale: the plan is drawn 3.1% short lengthwise, evened out). It doesn't quite draw its own figures elsewhere: the side view puts the propellers' plane 0.21 m behind the printed 29 ft 11 in from the nose, which the plan draws (the nacelles and propellers are moved to it, the wing staying as drawn); the tailplane is 1.5% wider than its printed 52 ft 8 in (kept as drawn); the crown is drawn 4.40 m above the ground line where it prints 15 ft (4.57 m), and the fin's top 11.45 m where it prints 38 ft 4 in: the fuselage's drawn height (3.88 m; the front view 3.84 m) is kept, as a side-on photo of an HC-130J bears out (below). The fuselage is drawn 10-15 px (0.08-0.13 m) off the wing's middle in the plan and front views: each view's centerline is halfway between, so every part is within 0.07 m of either. The front view draws the tailplane as one line along the wing's upper surface: its height is the side view's (0.31 m under the crown at its root). Main gear sponsons are left out of the belly (bridged); the crew entrance door (left) and the paratroop door behind the sponson (both sides) as drawn; the C-130A's forward cargo door and round windows aren't the C-130J's and are left out (no cabin windows). The flight deck's glass is the C-130J's, from the HC-130J photos (Juneau, Barbers Point, Grand Forks) placed against the drawing's panes, which the late C-130A shares within about 0.1 m: the front pane each side carried forward to its center post on the crown from the front view (0.86-1.32 m up at the centerline, where the front view draws the center panes' bottom and top), three side panes under three eyebrow panes (the C-130A's fourth, forward eyebrow isn't the J's), one chin window under the front pane, and the tall side window by the number (the C-130A's two small ones there aren't the J's); the photo, taken a little from ahead, draws the side's panes up to 0.1 m aft of the drawing's. Confidence medium."
+      },
+      {
+        "url": "https://www.easa.europa.eu/en/downloads/7845/en",
+        "title": "EASA, Type-Certificate Data Sheet P.087, R391 series propellers (Dowty Propellers, Issue 03, 11 December 2018)",
+        "accessed": "2026-11-22",
+        "note": "The C-130J's propeller, R391/6-132-F/3: six composite blades, 411.5 cm across (the shape's 4.115 m; the drawing's discs are the C-130A's 15 ft 1 in)."
+      },
+      {
+        "url": "https://www.lockheedmartin.com/content/dam/lockheed-martin/aero/documents/C-130J/C130JPocketGuide.pdf",
+        "title": "Lockheed Martin, C-130J Super Hercules Pocket Guide: General Arrangement and General Characteristics (pp. 6-7)",
+        "accessed": "2026-11-22",
+        "note": "The C-130J-30's general arrangement (span 132 ft 7 in, height 38 ft 10 in, fuselage 14 ft 2 in wide; four AE2100D3s with Dowty R391 six-blade propellers). A brochure illustration not drawn to one scale (its side view 10% longer than its plan against its own figures), so a check only: the J's nacelles are drawn in the same places and outline as the C-130A's; its 14 ft 2 in is the shape's fuselage width check (+1.6% by line centres)."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Juneau_USCG_C130_55.jpg",
+        "title": "USCG HC-130J 2002 at Juneau, 2019-08-19, right side (CC BY-SA 4.0)",
+        "accessed": "2026-11-22",
+        "note": "A check only (only measurements are taken): flipped nose-left and fitted at the nose, tail cone, fin tip and the fuselage's height 5.9 m back (tools/photo_trace.py), the outline lands on the crown, belly, nose and the fin's root and trailing edge within about 0.1 m; the fin's leading edge near its top is up to 0.3 m forward of the shape's in the photo (taken a little from ahead)."
+      }
+    ]
+  }
+}

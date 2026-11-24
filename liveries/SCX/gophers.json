@@ -1,0 +1,450 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "gophers",
+  "airline": "SCX",
+  "name": "Minnesota Gopher Athletics",
+  "kind": "special",
+  "from": "2024-12-21",
+  "confidence": "medium",
+  "drawnOn": "B738",
+  "description": "Sun Country's first custom livery, for the University of Minnesota's Gopher Athletics, on the 737-800 N809SY (tail 809): the 2018 scheme's layout in maroon and gold. Gold forward fuselage and nose with 'sun country' in maroon lower case over the windows and 'PROUD SPONSOR OF MINNESOTA GOPHER ATHLETICS' in small maroon capitals under it; over the wing the gold gives way to a white upper fuselage, the gold carried on as a band under it; behind the wing a maroon lower fuselage rising to the fin; the Minnesota block M (maroon outlined in gold) big on the white behind the wing, the registration and a small US flag aft of it; the fin gold with the sun-and-S in maroon and a maroon tip; maroon engines.",
+  "sources": [
+    {
+      "url": "https://stories.suncountry.com/post/our-first-ever-custom-aircraft-livery-minnesota-gopher-athletics",
+      "title": "Sun Country, 'Our first-ever custom aircraft livery: Minnesota Gopher Athletics' (stories.suncountry.com, 2024-12-21)",
+      "accessed": "2026-11-22",
+      "note": "Unveiled as tail 809, maroon and gold with the Minnesota Block M. Airline press photo: N809SY's left side from ahead at a hangar (static.wixstatic.com/media/a54e07_a2f74046bfd243a8abc85dd7fabd9aea~mv2.jpg, December 2024): the layout, colors, fin and block M read off it; too oblique to fit."
+    },
+    {
+      "url": "https://stories.suncountry.com/post/elevating-our-partnership-empowering-gopher-athletes-through-travel",
+      "title": "Sun Country, 'Elevating our partnership: empowering Gopher athletes through travel' (stories.suncountry.com, 2025-08-21)",
+      "accessed": "2026-11-22",
+      "note": "Airline press photo: N809SY's left side from ahead, the team boarding (static.wixstatic.com/media/a54e07_309d15073f564bedb7b7321efeaf4cfe~mv2.png, 2025). Fitted to shapes/B738.json: the title, sub-title, block M, registration and the gold's edge over the wing measured off it."
+    },
+    {
+      "url": "https://spokesman-recorder.com/2024/12/25/sun-country-airlines-gopher-athletics/",
+      "title": "Minnesota Spokesman-Recorder: Sun Country Airlines unveils custom livery for Gopher Athletics (2024-12-25)",
+      "accessed": "2026-11-22",
+      "note": "The Block M and maroon and gold; first trip the football team to the Duke's Mayo Bowl, 2024-12-30."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Sun_Country_Boeing_737-800_N856SY_FDK_MD1.jpg",
+      "title": "Sun Country Boeing 737-800 N856SY FDK MD1.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-22",
+      "note": "The 2018 standard on N856SY, 2024-08-28: the geometry SCX/standard measured off it is this scheme's (see notes)."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F2F3F5",
+      "official": false
+    },
+    "gold": {
+      "hex": "#E8A820",
+      "official": false,
+      "name": "Gopher gold (paint, by eye)"
+    },
+    "maroon": {
+      "hex": "#7B2240",
+      "official": false,
+      "name": "Gopher maroon (paint, by eye)"
+    },
+    "registration": {
+      "hex": "#3A3440",
+      "official": false,
+      "name": "registration's dark lettering"
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false
+    },
+    "flagRed": {
+      "hex": "#B22234",
+      "official": false
+    },
+    "flagBlue": {
+      "hex": "#1B2A7A",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "gold forward fuselage, carried aft as a band under the white",
+        "color": "gold",
+        "smooth": true,
+        "points": [
+          [
+            0,
+            1
+          ],
+          [
+            0.4211822660098522,
+            1
+          ],
+          [
+            0.421,
+            0.9
+          ],
+          [
+            0.458,
+            0.427
+          ],
+          [
+            0.483,
+            0.125
+          ],
+          [
+            0.532,
+            -0.272
+          ],
+          [
+            0.594,
+            -0.458
+          ],
+          [
+            0.686,
+            -0.379
+          ],
+          [
+            0.778,
+            -0.07
+          ],
+          [
+            0.828,
+            0.41
+          ],
+          [
+            0.846,
+            1.0
+          ],
+          [
+            0.8491379310344828,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            0,
+            -1
+          ]
+        ],
+        "sourceRefs": [
+          0,
+          1,
+          3
+        ],
+        "confidence": "medium"
+      },
+      {
+        "name": "maroon lower aft fuselage and tail cone",
+        "color": "maroon",
+        "smooth": true,
+        "points": [
+          [
+            0.5566502463054187,
+            -1
+          ],
+          [
+            0.563,
+            -1.0
+          ],
+          [
+            0.624,
+            -0.682
+          ],
+          [
+            0.692,
+            -0.546
+          ],
+          [
+            0.791,
+            -0.184
+          ],
+          [
+            0.838,
+            0.404
+          ],
+          [
+            0.855,
+            1.0
+          ],
+          [
+            0.8583743842364532,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "sourceRefs": [
+          0,
+          1,
+          3
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "radome": {
+      "color": "gold"
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      3
+    ]
+  },
+  "fin": {
+    "base": "maroon",
+    "areas": [
+      {
+        "name": "gold sun round the S (rays and ring, simplified)",
+        "color": "gold",
+        "points": [
+          [
+            0.05,
+            0.12
+          ],
+          [
+            0.6,
+            0.0
+          ],
+          [
+            1.0,
+            0.1
+          ],
+          [
+            1.0,
+            0.85
+          ],
+          [
+            0.6,
+            0.98
+          ],
+          [
+            0.25,
+            0.9
+          ],
+          [
+            0.05,
+            0.55
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0,
+          3
+        ]
+      }
+    ],
+    "mirrored": false,
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      3
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "engines": {
+    "cowling": "maroon",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "SCX/sun-s",
+      "place": "fin",
+      "at": [
+        0.55,
+        0.5
+      ],
+      "height": 0.8,
+      "colors": [
+        "gold",
+        "maroon"
+      ],
+      "description": "Sun Country's sun across the fin in gold, the S, its ring and the gaps between the rays maroon.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Sun_Country_Airlines_logo.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        3
+      ]
+    },
+    {
+      "mark": "SCX/minnesota-block-m",
+      "place": "fuselage",
+      "at": [
+        0.564,
+        0.25
+      ],
+      "height": 0.67,
+      "colors": [
+        "maroon",
+        "gold"
+      ],
+      "description": "The University of Minnesota's block M, maroon with a gold outline edged in maroon, big on the white behind the wing, its foot on the window line. Drawn as our own simplified slab-serif M (SCX/minnesota-block-m), not the university's artwork.",
+      "reference": "https://stories.suncountry.com/post/our-first-ever-custom-aircraft-livery-minnesota-gopher-athletics",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "SCX/us-flag",
+      "place": "fuselage",
+      "at": [
+        0.637,
+        0.3
+      ],
+      "height": 0.08,
+      "colors": [
+        "flagRed",
+        "white",
+        "flagBlue"
+      ],
+      "side": "left",
+      "description": "A small US flag after the registration.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "SCX/us-flag",
+      "place": "fuselage",
+      "at": [
+        0.603,
+        0.3
+      ],
+      "height": 0.08,
+      "colors": [
+        "flagRed",
+        "white",
+        "flagBlue"
+      ],
+      "side": "right",
+      "description": "The flag after the registration on the right side, forward of it: placed as the left side's mirror, no photo shows it.",
+      "confidence": "low",
+      "sourceRefs": [
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "sun country",
+      "place": "fuselage",
+      "at": [
+        0.175,
+        -0.02
+      ],
+      "height": 0.55,
+      "color": "maroon",
+      "style": "Sun Country's wordmark in maroon lower case over the forward windows, the y descending.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Gotham Rounded Medium",
+          "Avenir Next Rounded Medium"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.88
+      },
+      "length": 0.262
+    },
+    {
+      "text": "PROUD SPONSOR OF MINNESOTA GOPHER ATHLETICS",
+      "place": "fuselage",
+      "at": [
+        0.18,
+        -0.218
+      ],
+      "height": 0.062,
+      "length": 0.22,
+      "color": "maroon",
+      "style": "Small maroon capitals under the wordmark, from just after its start to under the 'r'.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Montserrat SemiBold",
+          "Gotham Medium"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "N809SY",
+      "registration": true,
+      "place": "fuselage",
+      "at": [
+        0.609,
+        0.27
+      ],
+      "height": 0.1,
+      "length": 0.022,
+      "color": "registration",
+      "style": "The aircraft's own registration in dark capitals on the white above the aft windows, behind the block M.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Bold",
+          "Arial Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Both of Sun Country's press photos show the left side from well ahead with a short lens, and neither fits the measured 737-800 well enough to trace the paint (the December 2024 one not at all; the 2025 one within 10 px at the nose, forward door and overwing exits, which it was fitted to, but 20-60 px off elsewhere). They show the 2018 standard's layout in maroon and gold, so the fuselage and fin areas are SCX/standard's, measured off N856SY, recoloured. Checked against the 2025 photo: the gold's edge over the wing crosses the window line at x 0.487 (the standard's at 0.483) and runs to the crown at about 0.41 (0.42): within the fit's error. Measured off that photo: 'sun country' from x 0.175 to 0.437 (the standard's from 0.149: the two placements may really differ by that, or it's the fit), its baseline just under the windows; the sub-title under it to about 0.40 (its start hidden by a passenger: placed just after the wordmark's start, as the 2024 photo shows it); the block M centered at x 0.564, from just above the window line's foot to near the top of the side (1.27 m tall, 0.67 of the radius), the two fits agreeing within 0.001 along the fuselage; the registration 0.609-0.631 and the flag after it. Left side only: no photo of the right side was found; it's drawn the same, and nothing shows whether it differs. Not drawn or unknown: the winglets (out of frame or edge-on in both photos: left out), whether the maroon carries the standard's fine contour lines (too small to see), and the ETOPS and '809' on the nose-gear door. No mascot (Goldy Gopher) appears in either photo or in the press coverage, so none is described. The block M is the university's mark; ours is a simplified slab-serif M in its colours."
+}

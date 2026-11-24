@@ -1,0 +1,147 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard-1988",
+  "airline": "GEC",
+  "name": "Lufthansa Cargo (1988 livery)",
+  "kind": "standard",
+  "from": "1988",
+  "confidence": "medium",
+  "drawnOn": "B77L",
+  "description": "Lufthansa's 1988 (Otl Aicher) scheme as worn by the 777Fs: white fuselage, no windows; the fin Lufthansa blue with a large yellow disc carrying a blue crane in a thin blue ring; 'Lufthansa Cargo' in blue Helvetica over the forward fuselage; white engines.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Lufthansa_Cargo",
+      "title": "Wikipedia: Lufthansa Cargo",
+      "accessed": "2026-11-13",
+      "note": "Fleet as of July 2026: 12 Boeing 777F, 4 A321-200P2F (from Lufthansa CityLine, Oct 2024); MD-11F retired."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Lufthansa_Cargo_D-ALFB_run_LH8471(Hong_Kong_International_Airport_to_Germany_Frankfurt_Airport)_12-03-2025.jpg",
+      "title": "Lufthansa Cargo D-ALFB ... 12-03-2025.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "D-ALFB (777F) left side at Hong Kong, 2025-03-12: fin, disc, title, all-white fuselage."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Lufthansa_Cargo_D-ALFA_run_LH8463(Hong_Kong_International_Airport_to_Turkey_Istanbul_Airport)_02-07-2025.jpg",
+      "title": "Lufthansa Cargo D-ALFA ... 02-07-2025.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "D-ALFA (777F) from below-left, 2025-07-02: still in this scheme; white belly."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Lufthansa#Corporate_identity",
+      "title": "Wikipedia: Lufthansa, corporate identity",
+      "accessed": "2026-11-13",
+      "note": "Otl Aicher's 1960s identity; the 1988 livery; replaced in 2018."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F6",
+      "official": false
+    },
+    "blue": {
+      "hex": "#0A1D5A",
+      "name": "Lufthansa blue (pre-2018)",
+      "official": false
+    },
+    "yellow": {
+      "hex": "#F9B000",
+      "name": "Lufthansa yellow",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [],
+    "windows": "hidden",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "blue",
+    "mirrored": true,
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "DLH/crane-disc",
+      "place": "fin",
+      "at": [
+        0.52,
+        0.32
+      ],
+      "height": 0.5,
+      "colors": [
+        "yellow",
+        "blue"
+      ],
+      "description": "The pre-2018 tail: a large yellow disc with the blue Lufthansa crane (wings raised in a V, neck forward) inside a thin blue ring.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Lufthansa_Logo_2018.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Lufthansa Cargo",
+      "place": "fuselage",
+      "at": [
+        0.143,
+        0.3
+      ],
+      "height": 0.42,
+      "length": 0.22,
+      "color": "blue",
+      "style": "Helvetica Bold, Lufthansa blue, mixed case, over the forward fuselage.",
+      "confidence": "high",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "official": "Helvetica (Lufthansa's pre-2018 typeface)",
+        "similar": [
+          "Helvetica Neue Bold",
+          "Arial Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      }
+    }
+  ],
+  "notes": "Drawn from D-ALFB (March 2025) and D-ALFA (July 2025), both 777F; tagged in airframes/GEC.json. Other 777Fs without recent photos (D-ALFC, D-ALFD, D-ALFE, D-ALFI, D-ALFJ) may wear either scheme. Unlike the passenger jets' 1988 scheme, no gray belly on the freighters (white all over in both photos). The fin's blue runs down onto the fin fairing only. The reference link is the current logo; the disc version is the same crane on yellow. Re-checked 2026-11-15 on D-ALFB (right, 2025-03-12): as on the current scheme, the title starts just behind the forward door (x ~0.14, not 0.22); the photos are too oblique to re-measure its height or lowercase.",
+  "history": "The scheme Lufthansa Cargo's 777Fs were delivered in from 2013, kept on part of the fleet after the 2018 rebrand; still flying 2025."
+}

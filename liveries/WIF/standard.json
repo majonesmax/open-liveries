@@ -1,0 +1,245 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "WIF",
+  "name": "2018 livery",
+  "kind": "standard",
+  "from": "2018",
+  "confidence": "medium",
+  "drawnOn": "E290",
+  "description": "White, with 'widerøe' in green lowercase behind the cockpit; a green fin with a mosaic of darker green, pale and lime-green diamonds at its root and a small white seagull high up; green engines with 'widerøe.no' in white.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Wider%C3%B8e",
+      "accessed": "2026-11-13"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Wider%C3%B8e,_LN-WEB,_Embraer_E190-E2_(49581185587).jpg",
+      "accessed": "2026-11-13",
+      "title": "Widerøe, LN-WEB, Embraer E190-E2 (CC BY-SA 2.0)",
+      "note": "Left side, side-on, 2020-02-15 (Flickr upload): title, fin mosaic, bird, engine."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Wider%C3%B8e,_DHC-8_402,_LN-WDS,_Bergen_2025.jpg",
+      "accessed": "2026-11-13",
+      "title": "Widerøe, DHC-8 402, LN-WDS, Bergen 2025 (CC BY-SA 4.0)",
+      "note": "Right front, 2025-05-11: the same scheme on a Dash 8-400 (green fin with the bird, green nacelles, 'widerøe' title)."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "green": {
+      "hex": "#3FA83E",
+      "name": "Widerøe green",
+      "official": false
+    },
+    "darkGreen": {
+      "hex": "#2B8A3E",
+      "official": false
+    },
+    "lime": {
+      "hex": "#7DCB3A",
+      "official": false
+    },
+    "pale": {
+      "hex": "#E3F0E6",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "green",
+    "areas": [
+      {
+        "name": "dark green facet at the root's leading edge",
+        "color": "darkGreen",
+        "points": [
+          [
+            0,
+            0.006
+          ],
+          [
+            0,
+            0.428
+          ],
+          [
+            0.54,
+            0.12
+          ],
+          [
+            0.493,
+            0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "pale diamond",
+        "color": "pale",
+        "points": [
+          [
+            0.254,
+            0.307
+          ],
+          [
+            0.296,
+            0.416
+          ],
+          [
+            0.611,
+            0.223
+          ],
+          [
+            0.543,
+            0.114
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "lime diamond at the root",
+        "color": "lime",
+        "points": [
+          [
+            0.543,
+            0.114
+          ],
+          [
+            0.617,
+            0.316
+          ],
+          [
+            0.85,
+            0.12
+          ],
+          [
+            0.794,
+            0
+          ],
+          [
+            0.597,
+            0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "green",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "WIF/seagull",
+      "place": "fin",
+      "at": [
+        0.45,
+        0.6
+      ],
+      "height": 0.075,
+      "colors": [
+        "white"
+      ],
+      "description": "Widerøe's seagull: a simple white gull in flight seen head-on, two swept, slightly curved wings and a small body, high on the fin.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Wider%C3%B8e,_LN-WEB,_Embraer_E190-E2_(49581185587).jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "widerøe",
+      "place": "fuselage",
+      "at": [
+        0.168,
+        -0.4
+      ],
+      "height": 0.42,
+      "color": "green",
+      "style": "The Widerøe wordmark: lowercase rounded humanist sans, medium-bold, with the ø; below the windows behind the cockpit (by the forward door on the Dash 8).",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Gotham Rounded Medium",
+          "Avenir Next Demi Bold"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.62
+      },
+      "length": 0.113
+    },
+    {
+      "text": "widerøe.no",
+      "place": "engines",
+      "at": [
+        0.25,
+        0.0
+      ],
+      "height": 0.2,
+      "color": "white",
+      "style": "The wordmark with '.no', small, on the green cowling.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "Gotham Rounded Medium",
+          "Avenir Next Demi Bold"
+        ],
+        "weight": 600,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower"
+      },
+      "length": 0.5
+    }
+  ],
+  "notes": "Fin mosaic measured on the E190-E2's left side and mapped to fin space; the Dash 8-400's tall T-tail carries the same elements (proportions differ). The Dash 8s, which are most of the fleet, have green engine nacelles and the title by the forward door. Right side and belly not seen side-on (the right-front Dash 8 view agrees in colors). Some Dash 8s may still wear the older white scheme with the blue-green tail (not drawn). Re-checked 2026-11-15 on LN-WEB (E190-E2, side-on): the title runs x 0.168-0.281, lowercase 0.62 of its ascenders, the ascenders' tops just under the windows. drawnOn is the E190-E2 because that's the only side-on photo; the fleet's commonest type is the Dash 8-400, whose T-tail and fuselage would need their own measuring (no side-on Dash 8 photo in hand): a to-do.",
+  "history": "Replaced Skyarium v1's approximation (2026-11). Introduced with the E190-E2 deliveries in 2018 (year approximate), replacing the earlier white scheme with a teal tail."
+}

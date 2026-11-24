@@ -1,0 +1,752 @@
+{
+  "$schema": "schema/airlines.schema.json",
+  "airlines": {
+    "AAE": {
+      "name": "Air Atlanta Europe",
+      "country": "MT"
+    },
+    "AAL": {
+      "name": "American Airlines",
+      "country": "US"
+    },
+    "AAR": {
+      "name": "Asiana Airlines",
+      "country": "KR"
+    },
+    "AAY": {
+      "name": "Allegiant Air",
+      "country": "US"
+    },
+    "ABD": {
+      "name": "Air Atlanta Icelandic",
+      "country": "IS"
+    },
+    "ABR": {
+      "name": "ASL Airlines Ireland",
+      "country": "IE"
+    },
+    "ABX": {
+      "name": "ABX Air",
+      "country": "US"
+    },
+    "ABY": {
+      "name": "Air Arabia",
+      "country": "AE"
+    },
+    "ACA": {
+      "name": "Air Canada",
+      "country": "CA"
+    },
+    "ADO": {
+      "name": "AIRDO",
+      "country": "JP"
+    },
+    "AEA": {
+      "name": "Air Europa",
+      "country": "ES"
+    },
+    "AEE": {
+      "name": "Aegean Airlines",
+      "country": "GR"
+    },
+    "AEZ": {
+      "name": "Aeroitalia",
+      "country": "IT"
+    },
+    "AFR": {
+      "name": "Air France",
+      "country": "FR"
+    },
+    "AIC": {
+      "name": "Air India",
+      "country": "IN"
+    },
+    "AIH": {
+      "name": "AirZeta",
+      "country": "KR"
+    },
+    "AIQ": {
+      "name": "Thai AirAsia",
+      "country": "TH"
+    },
+    "AJT": {
+      "name": "Amerijet International",
+      "country": "US"
+    },
+    "AMX": {
+      "name": "Aeroméxico",
+      "country": "MX"
+    },
+    "ANA": {
+      "name": "All Nippon Airways",
+      "country": "JP"
+    },
+    "ANZ": {
+      "name": "Air New Zealand",
+      "country": "NZ"
+    },
+    "APJ": {
+      "name": "Peach Aviation",
+      "country": "JP"
+    },
+    "APZ": {
+      "name": "Air Premia",
+      "country": "KR"
+    },
+    "ARG": {
+      "name": "Aerolíneas Argentinas",
+      "country": "AR"
+    },
+    "ASA": {
+      "name": "Alaska Airlines",
+      "country": "US"
+    },
+    "ASL": {
+      "name": "Air Serbia",
+      "country": "RS"
+    },
+    "ATN": {
+      "name": "Air Transport International",
+      "country": "US"
+    },
+    "AUA": {
+      "name": "Austrian Airlines",
+      "country": "AT"
+    },
+    "AVA": {
+      "name": "Avianca",
+      "country": "CO"
+    },
+    "AXB": {
+      "name": "Air India Express",
+      "country": "IN"
+    },
+    "AZG": {
+      "name": "Silk Way West Airlines",
+      "country": "AZ"
+    },
+    "AZU": {
+      "name": "Azul Brazilian Airlines",
+      "country": "BR"
+    },
+    "BAW": {
+      "name": "British Airways",
+      "country": "GB"
+    },
+    "BCS": {
+      "name": "European Air Transport Leipzig (DHL)",
+      "country": "DE"
+    },
+    "BEL": {
+      "name": "Brussels Airlines",
+      "country": "BE"
+    },
+    "BTI": {
+      "name": "airBaltic",
+      "country": "LV"
+    },
+    "CAL": {
+      "name": "China Airlines",
+      "country": "TW"
+    },
+    "CAO": {
+      "name": "Air China Cargo",
+      "country": "CN"
+    },
+    "CAY": {
+      "name": "Cayman Airways",
+      "country": "KY"
+    },
+    "CBJ": {
+      "name": "Capital Airlines",
+      "country": "CN"
+    },
+    "CCA": {
+      "name": "Air China",
+      "country": "CN"
+    },
+    "CEB": {
+      "name": "Cebu Pacific",
+      "country": "PH"
+    },
+    "CES": {
+      "name": "China Eastern Airlines",
+      "country": "CN"
+    },
+    "CFG": {
+      "name": "Condor",
+      "country": "DE"
+    },
+    "CFR": {
+      "name": "CAL FIRE",
+      "country": "US"
+    },
+    "CHH": {
+      "name": "Hainan Airlines",
+      "country": "CN"
+    },
+    "CJT": {
+      "name": "Cargojet",
+      "country": "CA"
+    },
+    "CKK": {
+      "name": "China Cargo Airlines",
+      "country": "CN"
+    },
+    "CKS": {
+      "name": "Kalitta Air",
+      "country": "US"
+    },
+    "CLX": {
+      "name": "Cargolux",
+      "country": "LU"
+    },
+    "CMP": {
+      "name": "Copa Airlines",
+      "country": "PA"
+    },
+    "CPA": {
+      "name": "Cathay Pacific",
+      "country": "HK"
+    },
+    "CSC": {
+      "name": "Sichuan Airlines",
+      "country": "CN"
+    },
+    "CSG": {
+      "name": "China Southern Airlines Cargo",
+      "country": "CN"
+    },
+    "CSN": {
+      "name": "China Southern Airlines",
+      "country": "CN"
+    },
+    "CSS": {
+      "name": "SF Airlines",
+      "country": "CN"
+    },
+    "CSZ": {
+      "name": "Shenzhen Airlines",
+      "country": "CN"
+    },
+    "CXA": {
+      "name": "Xiamen Airlines",
+      "country": "CN"
+    },
+    "DAH": {
+      "name": "Air Algérie",
+      "country": "DZ"
+    },
+    "DAL": {
+      "name": "Delta Air Lines",
+      "country": "US"
+    },
+    "DLA": {
+      "name": "Air Dolomiti",
+      "country": "IT"
+    },
+    "DLH": {
+      "name": "Lufthansa",
+      "country": "DE"
+    },
+    "EDW": {
+      "name": "Edelweiss Air",
+      "country": "CH"
+    },
+    "EIN": {
+      "name": "Aer Lingus",
+      "country": "IE"
+    },
+    "EJA": {
+      "name": "NetJets",
+      "country": "US"
+    },
+    "ELY": {
+      "name": "El Al",
+      "country": "IL"
+    },
+    "ETD": {
+      "name": "Etihad Airways",
+      "country": "AE"
+    },
+    "ETH": {
+      "name": "Ethiopian Airlines",
+      "country": "ET"
+    },
+    "EVA": {
+      "name": "EVA Air",
+      "country": "TW"
+    },
+    "EWG": {
+      "name": "Eurowings",
+      "country": "DE"
+    },
+    "EXS": {
+      "name": "Jet2",
+      "country": "GB"
+    },
+    "EZY": {
+      "name": "easyJet",
+      "country": "GB"
+    },
+    "FDB": {
+      "name": "flydubai",
+      "country": "AE"
+    },
+    "FDX": {
+      "name": "FedEx Express",
+      "country": "US"
+    },
+    "FFT": {
+      "name": "Frontier Airlines",
+      "country": "US"
+    },
+    "FIN": {
+      "name": "Finnair",
+      "country": "FI"
+    },
+    "FJI": {
+      "name": "Fiji Airways",
+      "country": "FJ"
+    },
+    "FLE": {
+      "name": "Flair Airlines",
+      "country": "CA"
+    },
+    "GEC": {
+      "name": "Lufthansa Cargo",
+      "country": "DE"
+    },
+    "GIA": {
+      "name": "Garuda Indonesia",
+      "country": "ID"
+    },
+    "GLO": {
+      "name": "Gol Linhas Aéreas",
+      "country": "BR"
+    },
+    "GTI": {
+      "name": "Atlas Air",
+      "country": "US"
+    },
+    "GXA": {
+      "name": "GlobalX",
+      "country": "US"
+    },
+    "HAL": {
+      "name": "Hawaiian Airlines",
+      "country": "US"
+    },
+    "HKE": {
+      "name": "HK Express",
+      "country": "HK"
+    },
+    "HLF": {
+      "name": "Central Airlines",
+      "country": "CN"
+    },
+    "HVN": {
+      "name": "Vietnam Airlines",
+      "country": "VN"
+    },
+    "IBE": {
+      "name": "Iberia",
+      "country": "ES"
+    },
+    "ICE": {
+      "name": "Icelandair",
+      "country": "IS"
+    },
+    "IGO": {
+      "name": "IndiGo",
+      "country": "IN"
+    },
+    "ISR": {
+      "name": "Israir",
+      "country": "IL"
+    },
+    "ITY": {
+      "name": "ITA Airways",
+      "country": "IT"
+    },
+    "JAL": {
+      "name": "Japan Airlines",
+      "country": "JP"
+    },
+    "JAT": {
+      "name": "JetSMART",
+      "country": "CL"
+    },
+    "JBU": {
+      "name": "JetBlue",
+      "country": "US"
+    },
+    "JJA": {
+      "name": "Jeju Air",
+      "country": "KR"
+    },
+    "JNA": {
+      "name": "Jin Air",
+      "country": "KR"
+    },
+    "JST": {
+      "name": "Jetstar Airways",
+      "country": "AU"
+    },
+    "JSX": {
+      "name": "JSX",
+      "country": "US"
+    },
+    "KAL": {
+      "name": "Korean Air",
+      "country": "KR"
+    },
+    "KII": {
+      "name": "Kalitta Charters II",
+      "country": "US"
+    },
+    "KLM": {
+      "name": "KLM Royal Dutch Airlines",
+      "country": "NL"
+    },
+    "KMM": {
+      "name": "KM Malta Airlines",
+      "country": "MT"
+    },
+    "LAE": {
+      "name": "LATAM Cargo Colombia",
+      "country": "CO"
+    },
+    "LDM": {
+      "name": "Lauda Europe",
+      "country": "MT"
+    },
+    "LGL": {
+      "name": "Luxair",
+      "country": "LU"
+    },
+    "LHX": {
+      "name": "Lufthansa City Airlines",
+      "country": "DE"
+    },
+    "LOT": {
+      "name": "LOT Polish Airlines",
+      "country": "PL"
+    },
+    "LSI": {
+      "name": "MSC Air",
+      "country": "IT"
+    },
+    "LVL": {
+      "name": "LEVEL",
+      "country": "ES"
+    },
+    "MAA": {
+      "name": "MasAir",
+      "country": "MX"
+    },
+    "MNB": {
+      "name": "MNG Airlines",
+      "country": "TR"
+    },
+    "MPH": {
+      "name": "Martinair Cargo",
+      "country": "NL"
+    },
+    "MSC": {
+      "name": "Air Cairo",
+      "country": "EG"
+    },
+    "MSR": {
+      "name": "EgyptAir",
+      "country": "EG"
+    },
+    "MXY": {
+      "name": "Breeze Airways",
+      "country": "US"
+    },
+    "NCA": {
+      "name": "Nippon Cargo Airlines",
+      "country": "JP"
+    },
+    "NCR": {
+      "name": "National Airlines",
+      "country": "US"
+    },
+    "NKS": {
+      "name": "Spirit Airlines",
+      "country": "US"
+    },
+    "NOZ": {
+      "name": "Norwegian (Norwegian Air Sweden)",
+      "country": "SE"
+    },
+    "NWA": {
+      "name": "Northwest Airlines",
+      "country": "US",
+      "ceased": "2010-01-07"
+    },
+    "OCN": {
+      "name": "Discover Airlines",
+      "country": "DE"
+    },
+    "PAC": {
+      "name": "Polar Air Cargo",
+      "country": "US"
+    },
+    "PAL": {
+      "name": "Philippine Airlines",
+      "country": "PH"
+    },
+    "PGT": {
+      "name": "Pegasus Airlines",
+      "country": "TR"
+    },
+    "POE": {
+      "name": "Porter Airlines",
+      "country": "CA"
+    },
+    "QFA": {
+      "name": "Qantas",
+      "country": "AU"
+    },
+    "QTR": {
+      "name": "Qatar Airways",
+      "country": "QA"
+    },
+    "RAM": {
+      "name": "Royal Air Maroc",
+      "country": "MA"
+    },
+    "RC1979": {
+      "name": "Republic Airlines",
+      "country": "US",
+      "ceased": "1986-10-01"
+    },
+    "RCH": {
+      "name": "U.S. Air Force (Air Mobility Command)",
+      "country": "US"
+    },
+    "ROU": {
+      "name": "Air Canada Rouge",
+      "country": "CA"
+    },
+    "RPA": {
+      "name": "Republic Airways",
+      "country": "US"
+    },
+    "RYR": {
+      "name": "Ryanair",
+      "country": "IE"
+    },
+    "RYS": {
+      "name": "Buzz",
+      "country": "PL"
+    },
+    "RZN": {
+      "name": "Gridiron Air",
+      "country": "US"
+    },
+    "SAM": {
+      "name": "U.S. Air Force (Special Air Mission)",
+      "country": "US"
+    },
+    "SAS": {
+      "name": "Scandinavian Airlines",
+      "country": "SE"
+    },
+    "SCX": {
+      "name": "Sun Country Airlines",
+      "country": "US"
+    },
+    "SEH": {
+      "name": "SKY express",
+      "country": "GR"
+    },
+    "SIA": {
+      "name": "Singapore Airlines",
+      "country": "SG"
+    },
+    "SJX": {
+      "name": "STARLUX Airlines",
+      "country": "TW"
+    },
+    "SKW": {
+      "name": "SkyWest Airlines",
+      "country": "US"
+    },
+    "SKY": {
+      "name": "Skymark Airlines",
+      "country": "JP"
+    },
+    "SVA": {
+      "name": "Saudia",
+      "country": "SA"
+    },
+    "SWA": {
+      "name": "Southwest Airlines",
+      "country": "US"
+    },
+    "SWR": {
+      "name": "Swiss International Air Lines",
+      "country": "CH"
+    },
+    "SWU": {
+      "name": "SkyAlps",
+      "country": "MT"
+    },
+    "SXS": {
+      "name": "SunExpress",
+      "country": "TR"
+    },
+    "TAM": {
+      "name": "LATAM Airlines Brasil",
+      "country": "BR"
+    },
+    "TAP": {
+      "name": "TAP Air Portugal",
+      "country": "PT"
+    },
+    "TAY": {
+      "name": "ASL Airlines Belgium",
+      "country": "BE"
+    },
+    "TGW": {
+      "name": "Scoot",
+      "country": "SG"
+    },
+    "THA": {
+      "name": "Thai Airways",
+      "country": "TH"
+    },
+    "THT": {
+      "name": "Air Tahiti Nui",
+      "country": "PF"
+    },
+    "THY": {
+      "name": "Turkish Airlines",
+      "country": "TR"
+    },
+    "TKJ": {
+      "name": "AJet",
+      "country": "TR"
+    },
+    "TNO": {
+      "name": "Avianca Cargo México",
+      "country": "MX"
+    },
+    "TOM": {
+      "name": "TUI Airways",
+      "country": "GB"
+    },
+    "TPA": {
+      "name": "Avianca Cargo",
+      "country": "CO"
+    },
+    "TRA": {
+      "name": "Transavia",
+      "country": "NL"
+    },
+    "TSC": {
+      "name": "Air Transat",
+      "country": "CA"
+    },
+    "TWB": {
+      "name": "T'way Air",
+      "country": "KR"
+    },
+    "TZP": {
+      "name": "ZIPAIR Tokyo",
+      "country": "JP"
+    },
+    "UAE": {
+      "name": "Emirates",
+      "country": "AE"
+    },
+    "UAL": {
+      "name": "United Airlines",
+      "country": "US"
+    },
+    "UCG": {
+      "name": "U.S. Coast Guard",
+      "country": "US"
+    },
+    "UPS": {
+      "name": "UPS Airlines",
+      "country": "US"
+    },
+    "VIR": {
+      "name": "Virgin Atlantic",
+      "country": "GB"
+    },
+    "VIV": {
+      "name": "Viva Aerobus",
+      "country": "MX"
+    },
+    "VJC": {
+      "name": "VietJet Air",
+      "country": "VN"
+    },
+    "VLG": {
+      "name": "Vueling",
+      "country": "ES"
+    },
+    "VOC": {
+      "name": "Volaris Costa Rica",
+      "country": "CR"
+    },
+    "VOE": {
+      "name": "Volotea",
+      "country": "ES"
+    },
+    "VOI": {
+      "name": "Volaris",
+      "country": "MX"
+    },
+    "VOS": {
+      "name": "Volaris El Salvador",
+      "country": "SV"
+    },
+    "VOZ": {
+      "name": "Virgin Australia",
+      "country": "AU"
+    },
+    "VTE": {
+      "name": "Contour Airlines",
+      "country": "US"
+    },
+    "VXP": {
+      "name": "Avelo Airlines",
+      "country": "US"
+    },
+    "WA1926": {
+      "name": "Western Airlines",
+      "country": "US",
+      "ceased": "1987-04-01"
+    },
+    "WAL": {
+      "name": "World Atlantic Airlines",
+      "country": "US"
+    },
+    "WGN": {
+      "name": "Western Global Airlines",
+      "country": "US"
+    },
+    "WIF": {
+      "name": "Widerøe",
+      "country": "NO"
+    },
+    "WIN": {
+      "name": "Awesome Cargo",
+      "country": "MX"
+    },
+    "WJA": {
+      "name": "WestJet",
+      "country": "CA"
+    },
+    "WZZ": {
+      "name": "Wizz Air",
+      "country": "HU"
+    }
+  }
+}

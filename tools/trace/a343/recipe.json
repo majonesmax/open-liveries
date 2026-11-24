@@ -1,0 +1,164 @@
+{
+  "_about": "A340-300, from Airbus AC A340-200/-300 (Dec 01/25) 2-2-0 General Aircraft Dimensions, A340-300 sheets 1 (side, front: page index 38) and 2 (plan: page index 39). Pixels of layers.py --mode strokes-in-fill rasters, line centres: the side at scale 16 turned level (--rotate -0.72), the plan at scale 15.147, as the A330-300's (a333/), whose fuselage, fin, wing and tail points were moved onto these sheets and snapped. Scaled by the printed 63.66 m from the nose to the tail cone. The windows behind the wing's lines are the A330-300's, moved by the same transform (the sheets draw the same fuselage). Engines out from the centerline from the front view's inlets (the plan draws its two nacelles at different widths). The cockpit panes are the A330-300's outlines centred on this drawing's own panes. Doors from this drawing's own outlines (features.py); door 3, drawn only above the wing, takes the A330-300's door-3 height.",
+  "out": "../../../../shapes/A343.json",
+  "length": 63.66,
+  "wingtip": "winglet",
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "refs": {
+    "side": {
+      "nose": 145,
+      "tail": 5320,
+      "cowlEnd": 2430,
+      "windowRow": [1093.5, 1155.2],
+      "windowBand": [1106.4, 1150.3],
+      "windowsAlso": [
+        1336.1,
+        2800.3,
+        2844.1,
+        2887.9,
+        2930.8,
+        2973.6,
+        3017.5,
+        3104.1,
+        3147.0,
+        3190.8,
+        3234.7,
+        3277.5,
+        3320.4,
+        3364.2,
+        3408.0,
+        3450.9
+      ],
+      "windowGap": 5,
+      "cowlEnd2": 2970
+    },
+    "plan": {
+      "nose": 164.4,
+      "centerline": 2666.2
+    },
+    "front": {
+      "centerline": 2647.3,
+      "crownTop": 846.9
+    }
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [
+        578,
+        1057,
+        677,
+        1212
+      ]
+    },
+    {
+      "kind": "door",
+      "box": [
+        1532,
+        1058,
+        1629,
+        1213
+      ]
+    },
+    {
+      "kind": "exit",
+      "box": [
+        3034,
+        1061,
+        3096,
+        1185
+      ]
+    },
+    {
+      "kind": "door",
+      "box": [
+        4239,
+        1043,
+        4334,
+        1195
+      ]
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [254.1, 1134.0],
+      [260.1, 1128.0],
+      [282.0, 1108.1],
+      [288.0, 1103.1],
+      [309.9, 1103.1],
+      [311.9, 1105.1],
+      [310.9, 1107.1],
+      [303.9, 1118.1],
+      [295.0, 1132.0],
+      [293.0, 1134.0],
+      [291.0, 1135.0],
+      [269.1, 1136.0],
+      [256.1, 1136.0]
+    ],
+    [
+      [355.9, 1105.6],
+      [355.9, 1139.5],
+      [353.0, 1142.5],
+      [343.0, 1142.5],
+      [323.1, 1141.5],
+      [319.1, 1140.5],
+      [316.1, 1139.5],
+      [314.1, 1137.5],
+      [313.1, 1133.5],
+      [313.1, 1130.5],
+      [315.1, 1124.5],
+      [323.1, 1113.6],
+      [329.0, 1105.6],
+      [331.0, 1103.6],
+      [333.0, 1102.6],
+      [342.0, 1102.6],
+      [354.0, 1103.6]
+    ],
+    [
+      [369.1, 1140.0],
+      [369.1, 1103.1],
+      [371.1, 1101.1],
+      [397.0, 1101.1],
+      [399.0, 1102.1],
+      [402.0, 1105.1],
+      [410.9, 1117.1],
+      [411.9, 1119.1],
+      [411.9, 1139.0],
+      [409.9, 1141.0],
+      [408.0, 1142.0],
+      [371.1, 1142.0]
+    ]
+  ],
+  "printed": {
+    "fuselage height": 5.64,
+    "fuselage width": 5.64,
+    "wingspan": 60.3,
+    "tailplane span": 19.4,
+    "engine out from the centerline": 9.37,
+    "outboard engine out from the centerline": 19.27,
+    "engine inlet from the nose": 22.39,
+    "outboard engine inlet from the nose": 28.96,
+    "overall length": 63.69
+  },
+  "meta": {
+    "id": "A343",
+    "name": "Airbus A340-300",
+    "types": [
+      "A343"
+    ],
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://www.aircraft.airbus.com/sites/default/files/2025-12/AC_A340-200-300_20251201.pdf",
+        "title": "Airbus, A340-200/-300 Aircraft Characteristics: Airport and Maintenance Planning (Dec 01/25), 2-2-0 General Aircraft Dimensions, A340-300 sheets 1 and 2",
+        "accessed": "2026-11-15",
+        "note": "Dimensions and outlines read off the side, plan and front views (tools/trace/a343/); the figures are the aircraft's measurements, not a copy of the drawing. The sheets draw the A330-300's fuselage, wing and tail (the A330-300's traced points, a333/, moved onto them and snapped); the four CFM56-5C nacelles are traced here. The side view is turned level from the sheet's ground attitude (0.72\u00b0); the plan and front are rasterized at the side view's scale (this side view is drawn 0.37% smaller than the A330-300's, its plan and front the same). Engines out from the centerline from the front view's inlets: the inboard pair on the printed 18.74 m; the outboard pair 0.43 m further out each side than the printed 38.54 m apart (+2.2%), which the plan's nacelle (0.17 m out) agrees with in direction: kept as drawn. The inboard nacelle's nozzle is hidden past the outboard nacelle's lip and ends there. The cabin windows are the drawing's; those behind the wing's lines are placed at its pitch. Fuselage width from 2-5-0's cabin cross-section (5.64 m)."
+      }
+    ]
+  }
+}

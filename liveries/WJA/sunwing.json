@@ -1,0 +1,259 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "sunwing",
+  "airline": "WJA",
+  "name": "Sunwing (ex-Sunwing jets flown by WestJet)",
+  "kind": "standard",
+  "confidence": "medium",
+  "drawnOn": "B38M",
+  "description": "Sunwing Airlines' scheme, still worn by its 737-800s and 737 MAX 8s now flying for WestJet after Sunwing was folded in: a white fuselage with 'sunwing' in orange lower case over the forward windows and a small Canadian flag under the cockpit; the orange fin sweeps forward along the crown and down round the rear fuselage behind the aft door, the tail cone orange; 'sunwing' in white up the fin; orange engines with Sunwing's white sun.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:C-FMXG_-_Boeing_737_MAX_8_-_Sunwing_Airlines_LIR_260225.jpg",
+      "title": "C-FMXG - Boeing 737 MAX 8 - Sunwing Airlines LIR 260225.jpg (CC BY 2.0, kitmasterbloke)",
+      "accessed": "2026-11-22",
+      "note": "C-FMXG (737 MAX 8) left side, on the ground and side-on, 2025-02-27: fitted to the measured 737 MAX 8 shape (tools/photo_trace.py, doors pinned); the orange sweep, the titles, the fin title."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:WestJet_737-8DC_C-FJVE_@YYZ.jpg",
+      "title": "WestJet 737-8DC C-FJVE @YYZ.jpg (CC BY-SA 4.0, AVA Navigate)",
+      "accessed": "2026-11-22",
+      "note": "C-FJVE (737-800) left side from ahead, 2025-10-13, captioned WestJet: the same scheme on a -800 under WestJet, a small sun over the fin title's 'w'."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:C-FMXG_B737_MAX_8,_Sunwing_WestJet,_Cancun_03-09-26_(55176379234).jpg",
+      "title": "C-FMXG B737 MAX 8, Sunwing WestJet, Cancun 03-09-26 (55176379234).jpg (CC BY 4.0, Duncan Kirk)",
+      "accessed": "2026-11-22",
+      "note": "C-FMXG right side climbing, 2026-03-09: still in Sunwing's scheme; the right side matches."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:C-GFEH_B737-800,_WestJet,_Sunwing_scheme,_Cancun_03-09-26_(55176495560).jpg",
+      "title": "C-GFEH B737-800, WestJet, Sunwing scheme, Cancun 03-09-26 (55176495560).jpg (CC BY 4.0, Duncan Kirk)",
+      "accessed": "2026-11-22",
+      "note": "C-GFEH (737-800) right side climbing, 2026-03-09: the same scheme."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F6",
+      "official": false
+    },
+    "orange": {
+      "hex": "#F05A22",
+      "official": false,
+      "name": "Sunwing orange"
+    },
+    "navy": {
+      "hex": "#223158",
+      "official": false,
+      "name": "the MAX winglets' lower blade"
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false
+    },
+    "flagRed": {
+      "hex": "#D52B1E",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "orange sweeping forward from the fin along the crown and down round the rear fuselage behind the aft door; the tail cone orange",
+        "color": "orange",
+        "smooth": true,
+        "points": [
+          [
+            0.72,
+            1
+          ],
+          [
+            0.769,
+            0.726
+          ],
+          [
+            0.807,
+            0.563
+          ],
+          [
+            0.844,
+            0.327
+          ],
+          [
+            0.869,
+            0.083
+          ],
+          [
+            0.888,
+            -0.232
+          ],
+          [
+            0.9,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "fin": {
+    "base": "orange",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "orange",
+    "inner": "orange",
+    "confidence": "low",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "engines": {
+    "cowling": "orange",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "SWG/sun",
+      "place": "engines",
+      "at": [
+        0.45,
+        0.0
+      ],
+      "height": 0.7,
+      "colors": [
+        "white",
+        "orange"
+      ],
+      "description": "Sunwing's sun, white on the orange cowling: a small open ring with eight short rays round it.",
+      "reference": "https://commons.wikimedia.org/wiki/File:C-FMXG_-_Boeing_737_MAX_8_-_Sunwing_Airlines_LIR_260225.jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "WJA/canada-flag",
+      "place": "fuselage",
+      "at": [
+        0.08,
+        -0.07
+      ],
+      "height": 0.12,
+      "colors": [
+        "flagRed",
+        "white"
+      ],
+      "description": "A small Canadian flag under the cockpit windows.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "sunwing",
+      "place": "fuselage",
+      "at": [
+        0.192,
+        0.27
+      ],
+      "height": 0.32,
+      "length": 0.141,
+      "color": "orange",
+      "style": "Sunwing's wordmark: bold rounded lower case in orange over the forward windows, from behind the forward door.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Museo Sans Rounded 900",
+          "VAG Rounded Bold"
+        ],
+        "weight": 800,
+        "slantDeg": 8,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.72
+      }
+    },
+    {
+      "text": "sunwing",
+      "place": "fin",
+      "at": [
+        0.374,
+        0.08
+      ],
+      "height": 0.19,
+      "length": 1.0,
+      "rotationDeg": 47,
+      "color": "white",
+      "style": "The wordmark in white up the fin, reading upward toward the tip's trailing corner.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Museo Sans Rounded 900",
+          "VAG Rounded Bold"
+        ],
+        "weight": 800,
+        "slantDeg": 8,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.72
+      }
+    }
+  ],
+  "notes": "Sunwing Airlines (SWG) was folded into WestJet in 2025; its 737s fly on as WestJet (WJA callsigns) in Sunwing's paint until they're repainted, so the scheme sits under WJA. Drawn on C-FMXG (MAX 8, left side, 2025-02-27), the most side-on open photo, fitted to the measured shape; the orange's edge is a smooth sweep (the photos show it curved, as Sunwing paints it, not a stripe). C-FJVE (2025-10) and C-FMXG and C-GFEH (2026-03) show it current. The belly under the sweep is assumed orange from the edge back. The fin's small sun over the 'w' (on C-FJVE) isn't drawn. Winglets: the 737-800's blended winglets are orange with 'sunwing' in white (C-FJVE); on the MAX the split winglet's lower blade is navy (C-FMXG), drawn orange."
+}

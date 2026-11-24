@@ -1,0 +1,21 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "landor-retro",
+  "airline": "BAW",
+  "name": "Landor (1984-97) retro (BA100)",
+  "kind": "retro",
+  "confidence": "medium",
+  "description": "Fuselage: Pearl-gray upper fuselage; midnight-blue lower fuselage; thin red 'speedwing' pinstripe at the join. Cheatlines: Red pinstripe. Tail: Midnight-blue upper fin with the BA coat of arms; lower fin with a quartered red/gray Union-flag segment. Engines: Midnight blue. Winglets: approximate. Titles: 'BRITISH AIRWAYS' in dark blue capitals. Artwork: none. Colors hex: approximate.",
+  "sources": [
+    {
+      "url": "https://key.aero/article/where-are-all-british-airways-boeing-747s-now",
+      "accessed": "2026-11-12"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:G-BNLY_(aircraft)",
+      "accessed": "2026-11-12"
+    }
+  ],
+  "notes": "Retired; history entry.",
+  "from": "2019-03"
+}

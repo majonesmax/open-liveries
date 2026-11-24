@@ -1,0 +1,414 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "cargo",
+  "airline": "KAL",
+  "name": "Korean Air Cargo (1984 sky blue)",
+  "kind": "standard",
+  "from": "1984",
+  "description": "Korean Air's 1984 sky-blue scheme on the freighters: pale sky blue above, silver-gray below, no windows; the red-and-blue taegeuk large on the blue fin and on the engines; 'KOREAN AIR CARGO' in big navy capitals over the forward fuselage with the taegeuk as the O of KOREAN, 대한항공 small by the forward door.",
+  "confidence": "medium",
+  "drawnOn": "B77L",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:20250504_Boeing_737-8BK(WL)_of_Korean_Air_(HL8240)_taxiing_at_CGO.jpg",
+      "title": "20250504 Boeing 737-8BK(WL) of Korean Air (HL8240) taxiing at CGO (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Right side, level, 2025-05-04: the blue/silver split and band, fin logo and flag, titles, Hangul title, engine and winglet logos."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:HL8008_-_Boeing_777-3B5(ER)_-_Korean_Air_(31831785938).jpg",
+      "title": "HL8008 - Boeing 777-3B5(ER) - Korean Air (CC BY 2.0)",
+      "accessed": "2026-11-13",
+      "note": "Left side, 2018-11-03 (colors heavily processed; geometry only): left-side title place, Hangul title under the cockpit, fin logo."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Korean_Air_Taegeuk.svg",
+      "title": "Korean Air Taegeuk (Commons)",
+      "accessed": "2026-11-13",
+      "note": "The 1984 symbol: red #E1251B and blue #002F87 in the file."
+    },
+    {
+      "url": "https://www.asiae.co.kr/en/article/2025031117024816144",
+      "title": "CI Changed After 41 Years (Asia Economy, 2025-03-11)",
+      "accessed": "2026-11-13",
+      "note": "The 1984 CI was replaced in March 2025."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:HL8045_(55183017783).jpg",
+      "title": "HL8045 (55183017783).jpg",
+      "accessed": "2026-11-13",
+      "note": "HL8045 (777F) left side, climbing out of LAX, 2026-03-22: 'KOREAN AIR CARGO', Hangul, SkyTeam Cargo badge measured here."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:HL7639_(55170853665).jpg",
+      "title": "HL7639 (55170853665).jpg",
+      "accessed": "2026-11-13",
+      "note": "HL7639 (747-8F) left side, 2026-03-13: the same layout on the 747-8F, still the 1984 scheme."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Korean_Air_Cargo_HL8285_run_KE9314_(Hong_Kong_International_Airport_to_South_Korea_Seoul_Incheon_International_Airport)_23-12-2024.jpg",
+      "title": "Korean Air Cargo HL8285 run KE9314 (Hong Kong International Airport to South Korea Seoul Incheon International Airport) 23-12-2024.jpg",
+      "accessed": "2026-11-13",
+      "note": "HL8285 (777F) right side, 2024-12-23: the title on the right side."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Korean_Air_Cargo",
+      "title": "Korean Air Cargo (Wikipedia)",
+      "accessed": "2026-11-13",
+      "note": "Fleet (Jan 2026): 4 747-400ERF, 7 747-8F, 12 777F; the 1984 logo 'still used on some aircraft'."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:20251024_Boeing_777-F_of_Korean_Air_Cargo_(HL8077)_on_final_approach_at_HKG.jpg",
+      "title": "20251024 Boeing 777-F of Korean Air Cargo (HL8077) on final approach at HKG.jpg",
+      "accessed": "2026-11-13",
+      "note": "HL8077 (777F) right side, level, 2025-10-24: titles, Hangul and the SkyTeam Cargo badge measured here."
+    }
+  ],
+  "palette": {
+    "blue": {
+      "hex": "#9AD8F2",
+      "name": "sky blue",
+      "official": false
+    },
+    "silver": {
+      "hex": "#B5BEC3",
+      "name": "silver band",
+      "official": false
+    },
+    "lower": {
+      "hex": "#DCDCD8",
+      "name": "light silver-gray",
+      "official": false
+    },
+    "navy": {
+      "hex": "#14317F",
+      "official": false
+    },
+    "red": {
+      "hex": "#E1251B",
+      "official": false
+    },
+    "logoBlue": {
+      "hex": "#002F87",
+      "official": false
+    },
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "cowl": {
+      "hex": "#E6E8EA",
+      "official": false
+    },
+    "lip": {
+      "hex": "#BFC4C9",
+      "name": "bare metal inlet lip",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B7BCC2",
+      "official": false
+    },
+    "flagRed": {
+      "hex": "#CD2E3A",
+      "official": false
+    },
+    "flagBlue": {
+      "hex": "#0047A0",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "blue",
+    "areas": [
+      {
+        "name": "light silver-gray lower fuselage",
+        "color": "lower",
+        "below": [
+          [
+            0,
+            0.05
+          ],
+          [
+            1,
+            0.0
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "silver band under the windows",
+        "color": "silver",
+        "below": [
+          [
+            0,
+            0.05
+          ],
+          [
+            1,
+            0.0
+          ]
+        ],
+        "above": [
+          [
+            0,
+            -0.17
+          ],
+          [
+            1,
+            -0.2
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      }
+    ],
+    "radome": {
+      "color": "lower",
+      "to": 0.025
+    },
+    "windows": "hidden",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "fin": {
+    "base": "blue",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "stabilizer": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "blue",
+    "inner": "blue",
+    "confidence": "medium",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "engines": {
+    "cowling": "cowl",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "logos": [
+    {
+      "mark": "KAL/taegeuk",
+      "place": "fin",
+      "at": [
+        0.42,
+        0.38
+      ],
+      "height": 0.36,
+      "colors": [
+        "red",
+        "white",
+        "logoBlue"
+      ],
+      "description": "The 1984 taegeuk: a circle split by an S-curve, red above and blue below, a white 'propeller' stripe running through the S between them, all inside a thin white ring.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Korean_Air_Taegeuk.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "KAL/taegeuk",
+      "place": "engines",
+      "at": [
+        0.45,
+        0.0
+      ],
+      "height": 0.25,
+      "colors": [
+        "red",
+        "white",
+        "logoBlue"
+      ],
+      "description": "The taegeuk small on the outboard cowl.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Korean_Air_Taegeuk.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "KAL/taegeuk",
+      "place": "winglets",
+      "at": [
+        0.5,
+        0.3
+      ],
+      "height": 0.2,
+      "colors": [
+        "red",
+        "white",
+        "logoBlue"
+      ],
+      "description": "The taegeuk on the outer face of the blue winglet, low down.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Korean_Air_Taegeuk.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ]
+    },
+    {
+      "mark": "KAL/kr-flag",
+      "place": "fin",
+      "at": [
+        0.5,
+        0.95
+      ],
+      "height": 0.05,
+      "colors": [
+        "white",
+        "flagRed",
+        "flagBlue",
+        "#111111"
+      ],
+      "description": "A small Taegukgi at the fin tip.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Korea.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "KAL/skyteam",
+      "place": "fuselage",
+      "at": [
+        0.085,
+        0.26
+      ],
+      "height": 0.35,
+      "colors": [
+        "navy"
+      ],
+      "description": "The SkyTeam Cargo badge (SkyTeam's swirl with 'CARGO' under it), small above the cockpit door.",
+      "reference": "https://commons.wikimedia.org/wiki/Category:SkyTeam",
+      "confidence": "medium",
+      "sourceRefs": [
+        8,
+        4
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "KOREAN AIR CARGO",
+      "place": "fuselage",
+      "at": [
+        0.16,
+        0.225
+      ],
+      "height": 0.3,
+      "color": "navy",
+      "length": 0.274,
+      "style": "Bold flared serif capitals in navy (the 1984 Korean Air wordmark extended with CARGO), the O of KOREAN replaced by the taegeuk.",
+      "confidence": "high",
+      "sourceRefs": [
+        8,
+        4,
+        5,
+        6
+      ],
+      "type": {
+        "similar": [
+          "Optima ExtraBlack",
+          "Friz Quadrata Bold",
+          "Albertus"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "contrast",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "대한항공",
+      "place": "fuselage",
+      "at": [
+        0.057,
+        -0.175
+      ],
+      "height": 0.12,
+      "color": "navy",
+      "side": "left",
+      "style": "Small Hangul under the cockpit on the left side, bold sans.",
+      "confidence": "medium",
+      "sourceRefs": [
+        8,
+        4
+      ],
+      "type": {
+        "similar": [
+          "Noto Sans KR Bold",
+          "Apple SD Gothic Neo Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      },
+      "length": 0.037
+    },
+    {
+      "text": "대한항공",
+      "place": "fuselage",
+      "at": [
+        0.057,
+        -0.175
+      ],
+      "height": 0.12,
+      "color": "navy",
+      "side": "right",
+      "style": "Small Hangul under the cockpit on the right side too (HL8077, 2025-10-24).",
+      "confidence": "medium",
+      "sourceRefs": [
+        8
+      ],
+      "type": {
+        "similar": [
+          "Noto Sans KR Bold",
+          "Apple SD Gothic Neo Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      },
+      "length": 0.037
+    }
+  ],
+  "notes": "The 1984 scheme with 'KOREAN AIR CARGO': every freighter still wears it in 2024-2026 photos (777Fs HL8045 2026-03, HL8226 2026-06, HL8077 2025-10; 747-8F HL7639 2026-03). No freighter was found in the 2025 livery (standard) by Nov 2026; when one is repainted it will need its own entry. Titles measured on HL8077 (777F, level, right side, nose to the right). The blue/gray split is the passenger file's (the freighters have no windows to set it by; it runs at the same height). Re-checked 2026-11-15: the Hangul title given a length and added on the right side, where HL8077 shows it under the cockpit as on the left (0.037, the 777-300ER's Hangul in metres on the 777F); the cargo title as measured.",
+  "history": "Korean Air Cargo's freighters have worn the 1984 sky-blue scheme with the CARGO title since the 1980s; the 2025 rebrand has not reached them yet."
+}

@@ -1,0 +1,351 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "go-cougs",
+  "airline": "ASA",
+  "name": "Go Cougs (Washington State University)",
+  "kind": "special",
+  "confidence": "high",
+  "drawnOn": "E75L",
+  "description": "Fuselage: Crimson, with a white stripe from the fin's root down and forward to the belly, gray behind it over the tail cone. Cheatlines: None. Tail: Gray with a crimson leading edge edged in white, WSU's white Cougar head. Engines: Crimson. Winglets: Gray, the Cougar head small. Titles: White 'Alaska' with 'HORIZON' after it under the forward windows; 'GO COUGS' very big in white across the windows; 'WASHINGTON STATE UNIVERSITY' small behind the wing. Colors hex: WSU crimson and gray are the university's; the paint matched by eye.",
+  "sources": [
+    {
+      "url": "https://www.alaskaair.com/content/travel-info/our-aircraft/e175-wsu",
+      "title": "Alaska Airlines: The \"Go Cougs\" Aircraft",
+      "accessed": "2026-11-14",
+      "note": "Alaska's page: N661QX, revealed 2023-09-22, painted in WSU crimson and gray, to fly for about a decade; its photo shows the left side side-on: geometry measured from it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:N661QX_(aircraft)",
+      "title": "N661QX on Commons",
+      "accessed": "2026-11-14"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N661QX_@_LAX,_2024-01-20.jpg",
+      "title": "N661QX @ LAX, 2024-01-20.jpg (CC0)",
+      "accessed": "2026-11-14",
+      "note": "Left side landing at LAX, 2024-01-20: the same layout."
+    }
+  ],
+  "notes": "Flown by Horizon (QXE) on the E175. No photo of the right side was found: it's drawn like the left, with 'HORIZON' forward of 'Alaska' as on Horizon's standard E175s and the sister jet N662QX. 'WASHINGTON STATE UNIVERSITY' (small, behind the wing) isn't drawn.",
+  "from": "2023-09",
+  "palette": {
+    "crimson": {
+      "hex": "#A3122F",
+      "name": "Crimson",
+      "official": false
+    },
+    "cougGray": {
+      "hex": "#3E4247",
+      "name": "Gray",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC5",
+      "official": false
+    },
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "crimson",
+    "areas": [
+      {
+        "name": "white stripe from the fin's root down and forward to the belly",
+        "color": "white",
+        "points": [
+          [
+            0.692,
+            -1
+          ],
+          [
+            0.712,
+            -1
+          ],
+          [
+            0.79,
+            1
+          ],
+          [
+            0.77,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          2
+        ]
+      },
+      {
+        "name": "cougGray aft fuselage and tail cone behind the stripe",
+        "color": "cougGray",
+        "points": [
+          [
+            0.712,
+            -1
+          ],
+          [
+            0.79,
+            1
+          ],
+          [
+            1.02,
+            1
+          ],
+          [
+            1.02,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          2
+        ]
+      }
+    ],
+    "radome": {
+      "color": "crimson"
+    },
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      2
+    ]
+  },
+  "fin": {
+    "base": "cougGray",
+    "rudder": "cougGray",
+    "areas": [
+      {
+        "name": "crimson band down the leading edge, edged in white",
+        "color": "crimson",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0.1,
+            1
+          ],
+          [
+            0.1,
+            0
+          ]
+        ],
+        "sourceRefs": [
+          0,
+          2
+        ]
+      },
+      {
+        "name": "white pinstripe behind it",
+        "color": "white",
+        "points": [
+          [
+            0.1,
+            0
+          ],
+          [
+            0.1,
+            1
+          ],
+          [
+            0.13,
+            1
+          ],
+          [
+            0.13,
+            0
+          ]
+        ],
+        "sourceRefs": [
+          0,
+          2
+        ]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "stabilizer": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "cougGray",
+    "inner": "cougGray",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "crimson",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "WSU/cougar-head",
+      "place": "fin",
+      "at": [
+        0.6,
+        0.38
+      ],
+      "height": 0.4,
+      "colors": [
+        "white",
+        "cougGray"
+      ],
+      "description": "WSU's Cougar head logo in white on the gray fin.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Alaska",
+      "place": "fuselage",
+      "at": [
+        0.114,
+        -0.23
+      ],
+      "height": 0.6,
+      "color": "white",
+      "style": "The 2016 Alaska wordmark in white, under the forward windows.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        2
+      ],
+      "length": 0.2,
+      "type": {
+        "similar": [
+          "Kaufmann Bold",
+          "Futura Bold Oblique"
+        ],
+        "weight": 800,
+        "slantDeg": 16,
+        "width": "normal",
+        "strokes": "brush",
+        "case": "mixed",
+        "xHeight": 0.55
+      }
+    },
+    {
+      "text": "HORIZON",
+      "place": "fuselage",
+      "at": [
+        0.318,
+        -0.23
+      ],
+      "height": 0.11,
+      "color": "white",
+      "style": "Horizon's name in small spaced bold capitals right after 'Alaska'.",
+      "side": "left",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        2
+      ],
+      "length": 0.05,
+      "type": {
+        "similar": [
+          "Helvetica Neue Bold",
+          "Arial Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "HORIZON",
+      "place": "fuselage",
+      "at": [
+        0.058,
+        -0.23
+      ],
+      "height": 0.11,
+      "color": "white",
+      "style": "On the right it follows 'Alaska' in reading order, forward of it.",
+      "side": "right",
+      "confidence": "low",
+      "sourceRefs": [
+        0,
+        2
+      ],
+      "length": 0.05,
+      "type": {
+        "similar": [
+          "Helvetica Neue Bold",
+          "Arial Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "GO COUGS",
+      "place": "fuselage",
+      "at": [
+        0.37,
+        -0.09
+      ],
+      "height": 0.85,
+      "color": "white",
+      "style": "Very heavy rounded capitals in white across the windows, from ahead of the wing to the aft door.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        2
+      ],
+      "length": 0.355,
+      "type": {
+        "similar": [
+          "Futura Extra Bold",
+          "Avenir Next Heavy"
+        ],
+        "weight": 900,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ]
+}

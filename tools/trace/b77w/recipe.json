@@ -1,0 +1,122 @@
+{
+  "_about": "777-300ER, from Boeing D6-58329-2 Rev G 2.2.2 (page index 17): side, plan and front views on one sheet, drawn at a different scale from the 777F's (2.2.3). Pixels of layers.py rasters at scale 20, line centres. The side view draws the cabin windows as closed outlines in blue strokes (side_all.png: fills and strokes together); those behind the wing's lines in the drawing (windowsAlso) are placed at the drawing's own pitch.",
+  "out": "../../../../shapes/B77W.json",
+  "length": 73.08,
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "refs": {
+    "side": {
+      "nose": 200,
+      "tail": 6325.5,
+      "cowlEnd": 2783,
+      "windowRow": [1193, 1231],
+      "windowGap": 8,
+      "windowMinWidth": 20,
+      "windowsAlso": [3118, 3165, 3212, 3259, 3306, 3353, 3400, 3447, 3494, 3541, 3588, 3635, 3682, 3729, 3776, 3823]
+    },
+    "plan": {
+      "nose": 200,
+      "centerline": 2873
+    },
+    "front": {
+      "centerline": 2939,
+      "crownTop": 942
+    }
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [717, 1134, 808, 1295]
+    },
+    {
+      "kind": "door",
+      "box": [1588, 1134, 1679, 1295]
+    },
+    {
+      "kind": "door",
+      "box": [2915, 1134, 3005, 1295]
+    },
+    {
+      "kind": "door",
+      "box": [4048, 1134, 4138, 1295]
+    },
+    {
+      "kind": "door",
+      "box": [5168, 1134, 5258, 1295]
+    },
+    {
+      "kind": "cargo",
+      "box": [1073, 1305, 1311, 1470],
+      "side": "right"
+    },
+    {
+      "kind": "cargo",
+      "box": [4441, 1303, 4598, 1475],
+      "side": "right"
+    },
+    {
+      "kind": "cargo",
+      "box": [4902, 1357, 4984, 1469],
+      "side": "right"
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [323, 1188],
+      [347, 1167],
+      [364, 1166],
+      [366, 1168],
+      [342, 1205],
+      [308, 1205],
+      [306, 1203]
+    ],
+    [
+      [364, 1190],
+      [379, 1166],
+      [405, 1166],
+      [407, 1168],
+      [395, 1215],
+      [393, 1217],
+      [371, 1209],
+      [356, 1208],
+      [354, 1206]
+    ],
+    [
+      [411, 1191],
+      [416, 1170],
+      [419, 1166],
+      [448, 1168],
+      [450, 1170],
+      [446, 1206],
+      [443, 1212],
+      [407, 1216],
+      [405, 1214]
+    ]
+  ],
+  "printed": {
+    "fuselage height": 6.2,
+    "fuselage width": 6.2,
+    "wingspan": 64.8,
+    "tailplane span": 21.53,
+    "engine out from the centerline": 9.61,
+    "overall length": 73.86
+  },
+  "meta": {
+    "id": "B77W",
+    "name": "Boeing 777-300ER",
+    "types": ["B77W"],
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/airports/acaps/777-200LR-300ER-F_Rev_G.pdf",
+        "title": "Boeing, 777-200LR/-300ER/-Freighter Airplane Characteristics for Airport Planning (D6-58329-2 Rev G, December 2024), 2.2.2 General Dimensions: Model 777-300ER",
+        "accessed": "2026-11-15",
+        "note": "Dimensions and outlines read off the side, plan and front views (tools/trace/b77w/); the figures are the aircraft's measurements, not a copy of the drawing. The sheet draws the cabin windows; the 16 behind the wing's lines in the drawing are placed at the drawing's own window pitch."
+      }
+    ]
+  }
+}

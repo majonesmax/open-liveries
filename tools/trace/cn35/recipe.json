@@ -1,0 +1,178 @@
+{
+  "_about": "Airbus (CASA) CN-235-300 (the HC-144's airframe: the CN-235-300 MP Persuader), read off the 'Three View Drawing' on page 4 of EADS-CASA's CN-235-300 Technical Review, as published in the BLM National Aviation Office's CN-235 Preliminary Aircraft Evaluation (2002, nifc.gov: CN235Report.pdf). No CN-235 airport-planning document is public. The three views are embedded pictures on one page at one scale (596 x 226, 604 x 718 and 719 x 230 px, about 27.8 px a meter), shaded, with black outlines: extracted as they are (side_raw.png, plan_raw.png, front_raw.png) and rendered with layers.py --mode lines --contrast 25 at scale 4 (3 raster px per picture px). Scaled by the printed 21.40 m overall length, nose tip to tail cone (2, 1786 px, the picture cropped at both); the front view's span is drawn within 0.2% of the printed 25.81 m at that scale; the plan is drawn 1.3% long lengthwise, evened out (--xscale 0.98673). The sheet's figures don't all match its drawing: its '6.20 m (22 ft 4 in)' wheelbase is drawn 7.25 m (the USACE's TSC 13-2 gives 272.5 in, 6.92 m), its tailplane 11.16 m in plan and about 11.0 m in front against the printed 10.20 m (stabilizerSpan: the printed span taken, the tailplane narrowed outboard of its root), its propellers 7.31 m apart in front, 7.05 m in plan, against the printed 7.0 m (propeller.apart: the printed spacing places them), and its discs about 3.4 m across where the same document's text gives the 14RF-37 propellers' 3.66 m (propeller.diameter). The front view's crownTop (396) ties it to the side view: the fin's tip, the propeller hubs and the wing's height at its root put it at 389-401; the middle is taken. The tailplane's height is the side view's (stabilizerZ 405: the middle of its edge-on outline at its root). Doors as drawn on the left: the forward exit (its outline also on the right in photos of HC-144s) and the paratroop door ahead of the ramp (both sides). Windows: none (windows.note): the transport's row of 12 is plugged on the HC-144 but for two or three portholes a side. The main gear's sponsons are left out of the belly (bridged), as are the HC-144's search radar radome under the forward fuselage and its sensor turret.",
+  "out": "../../../../shapes/CN35.json",
+  "length": 21.4,
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "stabilizerZ": 405,
+  "propeller": {
+    "blades": 4,
+    "diameter": 3.66,
+    "apart": 7.0,
+    "x": 503,
+    "hub": 401,
+    "front": [
+      632,
+      913
+    ],
+    "spinner": [
+      457,
+      507
+    ],
+    "spinnerHeight": [
+      382,
+      420
+    ]
+  },
+  "refs": {
+    "side": {
+      "nose": 2,
+      "tail": 1786
+    },
+    "plan": {
+      "nose": 3,
+      "centerline": 1078
+    },
+    "front": {
+      "centerline": 1078,
+      "crownTop": 396
+    }
+  },
+  "doors": [
+    {
+      "kind": "exit",
+      "box": [
+        372,
+        455,
+        421,
+        537
+      ]
+    },
+    {
+      "kind": "door",
+      "box": [
+        925,
+        433,
+        1003,
+        576
+      ]
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [
+        152,
+        465
+      ],
+      [
+        160,
+        448
+      ],
+      [
+        172,
+        436
+      ],
+      [
+        177,
+        436
+      ],
+      [
+        166,
+        470
+      ]
+    ],
+    [
+      [
+        180,
+        472
+      ],
+      [
+        190,
+        440
+      ],
+      [
+        210,
+        432
+      ],
+      [
+        205,
+        476
+      ]
+    ],
+    [
+      [
+        218,
+        478
+      ],
+      [
+        222,
+        432
+      ],
+      [
+        240,
+        434
+      ],
+      [
+        255,
+        445
+      ],
+      [
+        258,
+        465
+      ],
+      [
+        248,
+        479
+      ]
+    ]
+  ],
+  "printed": {
+    "overall length": 21.4,
+    "wingspan": 25.81,
+    "tailplane span": 10.2,
+    "propellers apart": 7.0,
+    "propeller diameter": 3.66
+  },
+  "meta": {
+    "id": "CN35",
+    "name": "Airbus (CASA) CN-235",
+    "types": [
+      "CN35"
+    ],
+    "confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.nifc.gov/sites/default/files/blm/aviation/BLMsmkj/CN235Report.pdf",
+        "title": "EADS-CASA, CN-235-300 Technical Review: Three View Drawing (p. 4) and Propeller (p. 29), in the BLM National Aviation Office's EADS CASA CN-235 Preliminary Aircraft Evaluation (2002), published by the National Interagency Fire Center",
+        "accessed": "2026-11-22",
+        "note": "Outlines read off the three views (tools/trace/cn35/); only measurements are taken, not the drawing. The manufacturer's own dimensioned three-view of the CN-235-300, a brochure illustration (embedded pictures at about 27.8 px a meter), not an airport-planning sheet (none is public). The pages carry EADS-CASA's proprietary-information notice; the document has been public on nifc.gov since 2002. Scaled by its printed 21.40 m overall length; span within 0.4% of the printed 25.81 m; the plan drawn 1.3% long lengthwise, evened out. It draws its tailplane 9.4% wider than its printed 10.20 m (narrowed to it), its propellers 0.3 m further apart in the front view than the printed 7.0 m (placed by it) and smaller than the text's 3.66 m (given), and labels a wheelbase it draws 17% longer (6.20 m printed, 7.25 m drawn; the USACE gives 6.92 m). Main gear sponsons left out. Confidence medium."
+      },
+      {
+        "url": "https://transportation.erdc.dren.mil/tsmcx/downloads/Military%20Aircraft%20Characteristics%20TSC%2013-2%20Dec%2013%20Rev%202.pdf",
+        "title": "U.S. Army Corps of Engineers (ERDC), Transportation Systems Center, Aircraft Characteristics for Airfield-Heliport Design and Evaluation, Military Aircraft, TSC 13-2 (December 2013, Rev 2): CN-235 CASA (public domain, U.S. government work)",
+        "accessed": "2026-11-22",
+        "note": "A check: the CN-235's printed length (70.21 ft, 21.40 m) and span (84.7 ft, 25.82 m), its main gear track (153.5 in, 3.90 m: the brochure's 3.9 m) and wheelbase (272.5 in, 6.92 m: the brochure labels 6.20 m and draws 7.25 m)."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:2311_Casa_HC-144B_Ocean_Sentry_United_States_Coast_Guard_Opa_Locka_18.1.23_(52665543749).jpg",
+        "title": "USCG HC-144B 2311 at Opa-locka, 2023-01-18, right side (Colin Cooke, CC BY-SA 2.0)",
+        "accessed": "2026-11-22",
+        "note": "A check only (only measurements are taken): flipped nose-left and fitted at the nose, tail cone, the fin's top trailing corner and the fuselage's height 3 and 16.7 m back (tools/photo_trace.py), the outline lands on the nose, crown, belly, the fin's leading and trailing edges and its top within about 2-12 px (under 0.1 m). It shows the HC-144's two cabin windows a side and the radome under the forward fuselage."
+      }
+    ]
+  },
+  "stabilizerSpan": "printed",
+  "windows": {
+    "x": [],
+    "z": [
+      -0.05,
+      0.36
+    ],
+    "width": 0.31,
+    "note": "No cabin windows: the HC-144's transport row is plugged but for a porthole behind each propeller and one ahead of the paratroop door (the drawing's 12 a side are the CN-235-300 transport's, at z -0.05 to 0.36, 0.31 m wide). A shape with a short window row would also tie the cabin's end, a landmark, to mid-body ahead of the ramp."
+  }
+}

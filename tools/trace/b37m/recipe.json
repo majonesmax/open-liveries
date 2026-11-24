@@ -1,0 +1,129 @@
+{
+  "_about": "737-7 (MAX 7), from Boeing D6-38A004 Rev K 2.2.1 (page index 24): side, plan and front views on one sheet, a picture rather than vector paths, drawn about 1% smaller than the 737-8's. Pixels of layers.py --mode image rasters at scale 12, line centres. The 737-8's points moved by the two plugs (plug.py), then snapped.",
+  "out": "../../../../shapes/B37M.json",
+  "length": 35.2,
+  "wingtip": "split",
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "refs": {
+    "side": {
+      "nose": 68,
+      "tail": 3085,
+      "cowlEnd": 1312
+    },
+    "plan": {
+      "nose": 68,
+      "centerline": 1624
+    },
+    "front": {
+      "centerline": 1655,
+      "crownTop": 730
+    }
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [468, 758, 542, 913]
+    },
+    {
+      "kind": "exit",
+      "box": [1292, 807, 1335, 889]
+    },
+    {
+      "kind": "exit",
+      "box": [1373, 807, 1420, 889]
+    },
+    {
+      "kind": "door",
+      "box": [2438, 758, 2505, 913]
+    },
+    {
+      "kind": "cargo",
+      "box": [755, 953, 854, 1031]
+    },
+    {
+      "kind": "cargo",
+      "box": [2084, 946, 2186, 1027]
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [209, 830],
+      [229, 810],
+      [233, 807],
+      [250, 807],
+      [252, 809],
+      [252, 818],
+      [235, 835],
+      [211, 835],
+      [209, 833]
+    ],
+    [
+      [245, 826],
+      [254, 817],
+      [258, 814],
+      [265, 810],
+      [292, 810],
+      [294, 812],
+      [294, 815],
+      [291, 825],
+      [284, 840],
+      [282, 842],
+      [278, 845],
+      [268, 845],
+      [258, 842],
+      [247, 838],
+      [245, 836]
+    ],
+    [
+      [291, 834],
+      [299, 816],
+      [302, 812],
+      [304, 810],
+      [308, 807],
+      [339, 807],
+      [341, 809],
+      [341, 825],
+      [337, 833],
+      [335, 835],
+      [296, 845],
+      [293, 845],
+      [291, 843]
+    ]
+  ],
+  "printed": {
+    "fuselage height": 4.01,
+    "fuselage width": 3.76,
+    "wingspan": 35.92,
+    "tailplane span": 14.35,
+    "engine out from the centerline": 4.82,
+    "overall length": 35.56
+  },
+  "meta": {
+    "id": "B37M",
+    "name": "Boeing 737-7 (737 MAX 7)",
+    "types": ["B37M"],
+    "confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/boeingdotcom/commercial/airports/acaps/737MAX_RevK.pdf",
+        "title": "Boeing, 737 MAX Airplane Characteristics for Airport Planning (D6-38A004 Rev K, July 2025), 2.2.1 General Dimensions: Model 737-7",
+        "accessed": "2026-11-15",
+        "note": "Dimensions and outlines read off the side, plan and front views (tools/trace/b37m/); the figures are the aircraft's measurements, not a copy of the drawing. The sheet is a picture of about 24 pixels a meter, so the outlines are good to about 5 cm, not the 1 cm of the vector sheets. The Advanced Technology winglet's lower blade isn't traced."
+      }
+    ]
+  },
+  "windows": {
+    "from": 6.17,
+    "to": 27.0,
+    "pitch": 0.508,
+    "width": 0.25,
+    "z": [0.362, 0.693],
+    "clearOfDoors": true,
+    "note": "The sheet draws the windows only roughly (their spacing 0.49 to 0.55 m, some left out): placed at the 737's 20 in (0.508 m) frame pitch from the sheet's first window to ahead of the aft door, none where an exit is and one in the middle of each; their size and height are the 737-8's (the same fuselage section)."
+  }
+}

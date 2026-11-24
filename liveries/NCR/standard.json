@@ -1,0 +1,712 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "NCR",
+  "name": "National",
+  "kind": "standard",
+  "confidence": "medium",
+  "drawnOn": "B744",
+  "description": "Silver-white freighter with 'NATIONAL' in big royal-blue heavy italic capitals over the forward main deck, led by a blue italic block (ahead of it on the left, aft of it on the right) and followed by a small red-and-blue logo of two interlocked outlined parallelograms; 'www.NationalAirlines.com' small underneath. A thin red line curves up from the wing root to the crown. Behind the wing a broad royal-blue swoosh rises from the belly to the fin's root and up the fin, where white lines split it into three bands sweeping up to the trailing edge, a red line along the top. Blue engines, blue winglets.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N537CA_Boeing_747-446F_National_Airline_Liege_18.3.26_(55184792881).jpg",
+      "title": "N537CA Boeing 747-446F National Airline Liege 18.3.26 (55184792881).jpg (CC BY-SA 4.0, Colin Cooke Photo)",
+      "accessed": "2026-11-20",
+      "note": "747-400F N537CA, right side, level, at Liège, 2026-03-18 (Commons date 2026-04-03). Flipped and fitted to shapes/B744.json: the swoosh, the red line, the fin's bands, white lines and red line, the right-side title, block, logo and small titles, the blue engines and winglet."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:NATIONAL_AIRLINES_BOEING_747-400F_N537CA_(53341039555).jpg",
+      "title": "NATIONAL AIRLINES BOEING 747-400F N537CA (53341039555).jpg (CC BY 2.0, simon butler)",
+      "accessed": "2026-11-20",
+      "note": "747-400F N537CA, left side taking off, 2023-11-15: the left side's layout, the block ahead of the title, the logo aft of it, the swoosh, red line and fin as on the right; the blue left winglet. Positions read along the fuselage (a pitched view, not fitted)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:20260810_Boeing_747-4HAERF_of_National_Airlines_(N663CA)_taxiing_at_CGO.jpg",
+      "title": "20260810 Boeing 747-4HAERF of National Airlines (N663CA) taxiing at CGO.jpg (CC BY-SA 4.0, Windmemories)",
+      "accessed": "2026-11-20",
+      "note": "747-400ERF N663CA, right side, 2026-08-10: the same scheme, blue engines."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#E9EDF0",
+      "official": false
+    },
+    "blue": {
+      "hex": "#1A3DB0",
+      "official": false
+    },
+    "red": {
+      "hex": "#E0283A",
+      "official": false
+    },
+    "grey": {
+      "hex": "#3A3D42",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C4C8CC",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "windows": "hidden",
+    "areas": [
+      {
+        "name": "the blue swoosh: rising from the belly behind the wing to the fin's root",
+        "color": "blue",
+        "points": [
+          [
+            0.6,
+            -1,
+            1
+          ],
+          [
+            0.6138,
+            -0.7619
+          ],
+          [
+            0.6477,
+            -0.4619
+          ],
+          [
+            0.6674,
+            -0.3002
+          ],
+          [
+            0.6843,
+            -0.1554
+          ],
+          [
+            0.721,
+            0.0272
+          ],
+          [
+            0.7606,
+            0.2626
+          ],
+          [
+            0.7945,
+            0.5139
+          ],
+          [
+            0.8114,
+            0.7181
+          ],
+          [
+            0.826,
+            1,
+            1
+          ],
+          [
+            0.884,
+            1,
+            1
+          ],
+          [
+            0.8796,
+            0.9144
+          ],
+          [
+            0.8513,
+            0.4239
+          ],
+          [
+            0.8117,
+            0.1787
+          ],
+          [
+            0.7721,
+            -0.0001
+          ],
+          [
+            0.7269,
+            -0.2268
+          ],
+          [
+            0.7044,
+            -0.3535
+          ],
+          [
+            0.6547,
+            -0.795
+          ],
+          [
+            0.645,
+            -1,
+            1
+          ]
+        ],
+        "smooth": true,
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "thin red line curving up from the wing root to the crown",
+        "color": "red",
+        "points": [
+          [
+            0.5121,
+            -0.0107,
+            1
+          ],
+          [
+            0.5138,
+            -0.0315,
+            1
+          ],
+          [
+            0.5448,
+            0.1874
+          ],
+          [
+            0.5787,
+            0.4347
+          ],
+          [
+            0.607,
+            0.6636
+          ],
+          [
+            0.6268,
+            0.8792
+          ],
+          [
+            0.63,
+            1.0,
+            1
+          ],
+          [
+            0.6239,
+            1.0,
+            1
+          ],
+          [
+            0.6041,
+            0.741
+          ],
+          [
+            0.5758,
+            0.4915
+          ],
+          [
+            0.542,
+            0.2315
+          ]
+        ],
+        "smooth": true,
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "the blue italic block ahead of the title (left)",
+        "color": "blue",
+        "points": [
+          [
+            0.072,
+            -0.08,
+            1
+          ],
+          [
+            0.116,
+            -0.08,
+            1
+          ],
+          [
+            0.14,
+            0.43,
+            1
+          ],
+          [
+            0.096,
+            0.43,
+            1
+          ]
+        ],
+        "side": "left",
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "the blue italic block aft of the title (right)",
+        "color": "blue",
+        "points": [
+          [
+            0.3929,
+            -0.086,
+            1
+          ],
+          [
+            0.4372,
+            -0.079,
+            1
+          ],
+          [
+            0.4128,
+            0.437,
+            1
+          ],
+          [
+            0.3685,
+            0.427,
+            1
+          ]
+        ],
+        "side": "right",
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          2
+        ]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "blue: the swoosh carried up the fin behind a white strip along the leading edge, over all but the lower trailing corner",
+        "color": "blue",
+        "points": [
+          [
+            0.045,
+            -0.04,
+            1
+          ],
+          [
+            0.0468,
+            0.0066
+          ],
+          [
+            0.0541,
+            0.134
+          ],
+          [
+            0.0439,
+            0.2929
+          ],
+          [
+            0.0699,
+            0.4523
+          ],
+          [
+            0.047,
+            0.6031
+          ],
+          [
+            0.0547,
+            0.7066
+          ],
+          [
+            0.1989,
+            0.7994
+          ],
+          [
+            0.5072,
+            0.8773
+          ],
+          [
+            1.0192,
+            0.9248
+          ],
+          [
+            1.3548,
+            0.939,
+            1
+          ],
+          [
+            1.4572,
+            0.2488,
+            1
+          ],
+          [
+            1.0119,
+            0.2415
+          ],
+          [
+            0.6473,
+            0.2157
+          ],
+          [
+            0.4923,
+            0.1221
+          ],
+          [
+            0.3799,
+            0.0409
+          ],
+          [
+            0.2943,
+            -0.0199
+          ],
+          [
+            0.29,
+            -0.04,
+            1
+          ]
+        ],
+        "smooth": true,
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "upper white line splitting the blue, from a point mid-fin to the trailing edge",
+        "color": "white",
+        "points": [
+          [
+            0.246,
+            0.2961,
+            1
+          ],
+          [
+            0.3099,
+            0.4081
+          ],
+          [
+            0.4694,
+            0.5251
+          ],
+          [
+            0.6973,
+            0.6148
+          ],
+          [
+            0.9908,
+            0.681
+          ],
+          [
+            1.4066,
+            0.7207,
+            1
+          ],
+          [
+            1.4099,
+            0.6973,
+            1
+          ],
+          [
+            1.0054,
+            0.6576
+          ],
+          [
+            0.7187,
+            0.5914
+          ],
+          [
+            0.4942,
+            0.5017
+          ],
+          [
+            0.3314,
+            0.3886
+          ]
+        ],
+        "smooth": true,
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "lower white line splitting the blue, from the root to the trailing edge",
+        "color": "white",
+        "points": [
+          [
+            0.2531,
+            0.0107,
+            1
+          ],
+          [
+            0.3327,
+            0.139
+          ],
+          [
+            0.4589,
+            0.256
+          ],
+          [
+            0.6677,
+            0.358
+          ],
+          [
+            1.0128,
+            0.4575
+          ],
+          [
+            1.4335,
+            0.5296,
+            1
+          ],
+          [
+            1.4365,
+            0.5023,
+            1
+          ],
+          [
+            1.0256,
+            0.4302
+          ],
+          [
+            0.6877,
+            0.3307
+          ],
+          [
+            0.4819,
+            0.2287
+          ],
+          [
+            0.3576,
+            0.1117
+          ],
+          [
+            0.2777,
+            -0.0085,
+            1
+          ]
+        ],
+        "smooth": true,
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "red line along the top of the blue, under the white leading-edge strip",
+        "color": "red",
+        "points": [
+          [
+            0.047,
+            0.6906,
+            1
+          ],
+          [
+            0.1841,
+            0.8072
+          ],
+          [
+            0.4813,
+            0.8929
+          ],
+          [
+            1.0382,
+            0.9524
+          ],
+          [
+            1.3441,
+            0.9702,
+            1
+          ],
+          [
+            1.3268,
+            1.0014,
+            1
+          ],
+          [
+            1.0031,
+            0.9875
+          ],
+          [
+            0.5023,
+            0.9287
+          ],
+          [
+            0.1945,
+            0.839
+          ],
+          [
+            0.0533,
+            0.7344
+          ]
+        ],
+        "smooth": true,
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "winglets": {
+    "outer": "blue",
+    "inner": "blue",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "blue",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      2
+    ]
+  },
+  "titles": [
+    {
+      "text": "NATIONAL",
+      "place": "fuselage",
+      "side": "left",
+      "at": [
+        0.12,
+        -0.08
+      ],
+      "height": 0.51,
+      "length": 0.285,
+      "color": "blue",
+      "style": "Big heavy italic capitals, tightly set, over the forward main deck behind the block.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ],
+      "type": {
+        "similar": [
+          "Futura Extra Bold Oblique",
+          "Helvetica Neue Black Italic"
+        ],
+        "weight": 800,
+        "slantDeg": 14,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "NATIONAL",
+      "place": "fuselage",
+      "side": "right",
+      "at": [
+        0.0895,
+        -0.08
+      ],
+      "height": 0.51,
+      "length": 0.29,
+      "color": "blue",
+      "style": "As on the left, reading from its aft end, the block aft of it; a small ® after the L (not drawn).",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Futura Extra Bold Oblique",
+          "Helvetica Neue Black Italic"
+        ],
+        "weight": 800,
+        "slantDeg": 14,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "www.NationalAirlines.com",
+      "place": "fuselage",
+      "at": [
+        0.15,
+        -0.33
+      ],
+      "height": 0.09,
+      "length": 0.12,
+      "color": "blue",
+      "style": "Small plain sans under the title's front half.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Arial",
+          "Helvetica"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      }
+    },
+    {
+      "text": "We Deliver the World",
+      "place": "fuselage",
+      "at": [
+        0.618,
+        0.163
+      ],
+      "height": 0.1,
+      "length": 0.1,
+      "color": "grey",
+      "style": "Small plain sans in dark grey above the wing's trailing edge.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Arial",
+          "Helvetica"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      }
+    }
+  ],
+  "logos": [
+    {
+      "mark": "NCR/parallelograms",
+      "place": "fuselage",
+      "at": [
+        0.457,
+        0.21
+      ],
+      "height": 0.42,
+      "colors": [
+        "red",
+        "blue"
+      ],
+      "description": "National's logo: two interlocked outlined italic parallelograms, one red and one blue, with fading speed lines trailing forward from them; aft of the title and block on both sides.",
+      "reference": "https://commons.wikimedia.org/wiki/File:National_Airlines_logo.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "notes": "National Airlines' LAX flights (a few a month) are 777Fs (N792CA seen as NCR645, adsb.lol 2026-11-20) and 747-400Fs; Commons has no photo of a National 777F, so this is drawn on the 747-400F (N537CA) and its placement on a 777F is a carry-over, not measured. Two versions of the scheme fly on the 747s: this one (the broad blue swoosh from the belly, the red line atop the fin, the red-and-blue logo, blue engines) on the 747-400F N537CA and 747-400ERF N663CA (2026), and N952CA (2022); the converted 747-400BCF N729CA wears a version with two thin blue lines in place of the swoosh, no red on the fin, no logo and white engines (liveries/NCR/thin-lines.json, tagged in airframes/NCR.json). Which the other BCFs (N702CA, N756CA, N919CA, N952CA) wear now isn't settled by 2024-2026 photos. N936CA wears a red and gold 30th-anniversary scheme (2022-2024 photos), not drawn. Measured on the right side (N537CA, 2026-03-18, fitted): the title runs x 0.090-0.379 with its capitals about 2.7 m tall, the block aft of it at 0.37-0.44, the logo at 0.457; the swoosh leaves the belly at x 0.60-0.65 and reaches the crown at 0.83-0.88. The left side (N537CA, 2023-11-15, a pitched take-off, read along the fuselage, not fitted): the block ahead at 0.07-0.14, the title 0.12-0.40, the logo at about the same place as on the right. The winglets are blue with thin white lines on their outer faces (lines not drawn); their inner faces aren't seen: drawn blue. The swoosh's continuation under the belly isn't seen. A small ® after the title is not drawn. Colours by eye.",
+  "history": "New in the LAX round (2026-11-20); National had no scheme here before."
+}

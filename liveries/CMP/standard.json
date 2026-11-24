@@ -1,0 +1,1362 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "CMP",
+  "name": "Globe livery",
+  "kind": "standard",
+  "description": "White, with a thin gold pinstripe along the lower side from the nose to the tail, and royal blue 'CopaAirlines' above the forward windows. Navy fin carrying the Copa globe: white meridian arcs sweeping back and down, with gold sweeps among the upper ones. Gray engines, navy winglets.",
+  "confidence": "medium",
+  "drawnOn": "B38M",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Copa_Boeing_737-8_MAX_HP-9814CMP_BWI_MD1.jpg",
+      "title": "Copa Boeing 737-8 MAX HP-9814CMP BWI MD1 (CC BY-SA 4.0)",
+      "accessed": "2026-11-13",
+      "note": "Left side, level, 2026-01-12: the geometry, titles, pinstripe and fin are measured from it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:HP-9932CMP_-_Boeing_737_MAX_9_-_Copa_Airlines_SJO_220126.jpg",
+      "title": "HP-9932CMP - Boeing 737 MAX 9 - Copa Airlines SJO 220126 (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "MAX 9, left side, 2026-01-24: the same scheme."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Copa_Boeing_737-800_HP-1730CMP_departing_Boston_December_2025_1.jpg",
+      "title": "Copa Boeing 737-800 HP-1730CMP departing Boston December 2025 (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "From below left, 2025-12-01: white belly, gray engines, navy winglets."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F1F2F3",
+      "official": false
+    },
+    "navy": {
+      "hex": "#1F3393",
+      "official": false
+    },
+    "titleBlue": {
+      "hex": "#2A44B0",
+      "official": false
+    },
+    "gold": {
+      "hex": "#BF9A5A",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC5",
+      "official": false
+    },
+    "cowl": {
+      "hex": "#D9DCE0",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "name": "bare metal inlet lip",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "gold pinstripe",
+        "color": "gold",
+        "below": [
+          [
+            0,
+            -0.01
+          ],
+          [
+            0.3,
+            -0.07
+          ],
+          [
+            0.68,
+            -0.07
+          ],
+          [
+            0.8,
+            -0.18
+          ],
+          [
+            0.88,
+            -0.33
+          ],
+          [
+            0.93,
+            -0.42
+          ]
+        ],
+        "above": [
+          [
+            0,
+            -0.04
+          ],
+          [
+            0.3,
+            -0.1
+          ],
+          [
+            0.68,
+            -0.1
+          ],
+          [
+            0.8,
+            -0.21
+          ],
+          [
+            0.88,
+            -0.36
+          ],
+          [
+            0.93,
+            -0.45
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          2
+        ]
+      }
+    ],
+    "radome": {
+      "color": "white",
+      "to": 0.025
+    },
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "navy",
+    "areas": [
+      {
+        "name": "white at the root's leading edge",
+        "color": "white",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0.03,
+            0
+          ],
+          [
+            0,
+            0.21
+          ]
+        ]
+      },
+      {
+        "name": "white arc, lowest",
+        "color": "white",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0.368,
+            0
+          ],
+          [
+            0.41,
+            0
+          ],
+          [
+            0.453,
+            0.002
+          ],
+          [
+            0.497,
+            0.015
+          ],
+          [
+            0.542,
+            0.027
+          ],
+          [
+            0.587,
+            0.039
+          ],
+          [
+            0.634,
+            0.051
+          ],
+          [
+            0.681,
+            0.064
+          ],
+          [
+            0.726,
+            0.063
+          ],
+          [
+            0.772,
+            0.062
+          ],
+          [
+            0.817,
+            0.061
+          ],
+          [
+            0.862,
+            0.06
+          ],
+          [
+            0.908,
+            0.059
+          ],
+          [
+            0.953,
+            0.058
+          ],
+          [
+            0.998,
+            0.057
+          ],
+          [
+            1,
+            0.056
+          ],
+          [
+            1,
+            0.002
+          ],
+          [
+            1,
+            0.003
+          ],
+          [
+            0.977,
+            0.004
+          ],
+          [
+            0.934,
+            0.005
+          ],
+          [
+            0.89,
+            0.005
+          ],
+          [
+            0.847,
+            0.006
+          ],
+          [
+            0.804,
+            0.007
+          ],
+          [
+            0.76,
+            0.008
+          ],
+          [
+            0.717,
+            0.009
+          ],
+          [
+            0.671,
+            0
+          ],
+          [
+            0.626,
+            0
+          ],
+          [
+            0.582,
+            0
+          ],
+          [
+            0.539,
+            0
+          ],
+          [
+            0.496,
+            0
+          ],
+          [
+            0.454,
+            0
+          ],
+          [
+            0.413,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "white arc",
+        "color": "white",
+        "points": [
+          [
+            0,
+            0.02
+          ],
+          [
+            0.137,
+            0.04
+          ],
+          [
+            0.164,
+            0.061
+          ],
+          [
+            0.191,
+            0.081
+          ],
+          [
+            0.22,
+            0.102
+          ],
+          [
+            0.249,
+            0.122
+          ],
+          [
+            0.28,
+            0.143
+          ],
+          [
+            0.311,
+            0.163
+          ],
+          [
+            0.344,
+            0.184
+          ],
+          [
+            0.419,
+            0.182
+          ],
+          [
+            0.495,
+            0.181
+          ],
+          [
+            0.57,
+            0.18
+          ],
+          [
+            0.645,
+            0.178
+          ],
+          [
+            0.72,
+            0.177
+          ],
+          [
+            0.794,
+            0.175
+          ],
+          [
+            0.869,
+            0.174
+          ],
+          [
+            0.943,
+            0.173
+          ],
+          [
+            1,
+            0.173
+          ],
+          [
+            1,
+            0.118
+          ],
+          [
+            0.97,
+            0.118
+          ],
+          [
+            0.899,
+            0.12
+          ],
+          [
+            0.828,
+            0.121
+          ],
+          [
+            0.757,
+            0.122
+          ],
+          [
+            0.685,
+            0.124
+          ],
+          [
+            0.614,
+            0.125
+          ],
+          [
+            0.542,
+            0.126
+          ],
+          [
+            0.47,
+            0.128
+          ],
+          [
+            0.398,
+            0.129
+          ],
+          [
+            0.366,
+            0.109
+          ],
+          [
+            0.335,
+            0.088
+          ],
+          [
+            0.305,
+            0.068
+          ],
+          [
+            0.276,
+            0.047
+          ],
+          [
+            0.248,
+            0.027
+          ],
+          [
+            0.22,
+            0.006
+          ],
+          [
+            0.194,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "white arc",
+        "color": "white",
+        "points": [
+          [
+            0,
+            0.22
+          ],
+          [
+            0.032,
+            0.231
+          ],
+          [
+            0.076,
+            0.243
+          ],
+          [
+            0.121,
+            0.254
+          ],
+          [
+            0.167,
+            0.265
+          ],
+          [
+            0.214,
+            0.277
+          ],
+          [
+            0.263,
+            0.288
+          ],
+          [
+            0.312,
+            0.3
+          ],
+          [
+            0.362,
+            0.311
+          ],
+          [
+            0.433,
+            0.303
+          ],
+          [
+            0.503,
+            0.295
+          ],
+          [
+            0.571,
+            0.288
+          ],
+          [
+            0.639,
+            0.28
+          ],
+          [
+            0.706,
+            0.272
+          ],
+          [
+            0.772,
+            0.265
+          ],
+          [
+            0.837,
+            0.257
+          ],
+          [
+            0.901,
+            0.249
+          ],
+          [
+            1,
+            0.249
+          ],
+          [
+            1,
+            0.202
+          ],
+          [
+            0.928,
+            0.202
+          ],
+          [
+            0.866,
+            0.21
+          ],
+          [
+            0.804,
+            0.217
+          ],
+          [
+            0.742,
+            0.225
+          ],
+          [
+            0.678,
+            0.233
+          ],
+          [
+            0.613,
+            0.24
+          ],
+          [
+            0.548,
+            0.248
+          ],
+          [
+            0.481,
+            0.256
+          ],
+          [
+            0.414,
+            0.264
+          ],
+          [
+            0.365,
+            0.252
+          ],
+          [
+            0.318,
+            0.241
+          ],
+          [
+            0.271,
+            0.23
+          ],
+          [
+            0.225,
+            0.218
+          ],
+          [
+            0.18,
+            0.207
+          ],
+          [
+            0.137,
+            0.195
+          ],
+          [
+            0.093,
+            0.184
+          ],
+          [
+            0,
+            0.173
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "gold sweep, broad",
+        "color": "gold",
+        "points": [
+          [
+            0,
+            0.265
+          ],
+          [
+            0.023,
+            0.277
+          ],
+          [
+            0.06,
+            0.289
+          ],
+          [
+            0.098,
+            0.301
+          ],
+          [
+            0.137,
+            0.313
+          ],
+          [
+            0.177,
+            0.325
+          ],
+          [
+            0.218,
+            0.336
+          ],
+          [
+            0.26,
+            0.348
+          ],
+          [
+            0.303,
+            0.36
+          ],
+          [
+            0.374,
+            0.362
+          ],
+          [
+            0.444,
+            0.364
+          ],
+          [
+            0.516,
+            0.365
+          ],
+          [
+            0.587,
+            0.367
+          ],
+          [
+            0.659,
+            0.369
+          ],
+          [
+            0.731,
+            0.371
+          ],
+          [
+            0.803,
+            0.373
+          ],
+          [
+            0.876,
+            0.375
+          ],
+          [
+            1,
+            0.375
+          ],
+          [
+            1,
+            0.338
+          ],
+          [
+            0.9,
+            0.338
+          ],
+          [
+            0.83,
+            0.336
+          ],
+          [
+            0.76,
+            0.335
+          ],
+          [
+            0.691,
+            0.333
+          ],
+          [
+            0.622,
+            0.331
+          ],
+          [
+            0.553,
+            0.329
+          ],
+          [
+            0.484,
+            0.327
+          ],
+          [
+            0.415,
+            0.325
+          ],
+          [
+            0.347,
+            0.324
+          ],
+          [
+            0.305,
+            0.312
+          ],
+          [
+            0.265,
+            0.3
+          ],
+          [
+            0.225,
+            0.288
+          ],
+          [
+            0.185,
+            0.276
+          ],
+          [
+            0.147,
+            0.265
+          ],
+          [
+            0.11,
+            0.253
+          ],
+          [
+            0.073,
+            0.241
+          ],
+          [
+            0,
+            0.229
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "white arc, upper",
+        "color": "white",
+        "points": [
+          [
+            0,
+            0.402
+          ],
+          [
+            0.046,
+            0.404
+          ],
+          [
+            0.107,
+            0.405
+          ],
+          [
+            0.167,
+            0.407
+          ],
+          [
+            0.228,
+            0.409
+          ],
+          [
+            0.29,
+            0.411
+          ],
+          [
+            0.351,
+            0.413
+          ],
+          [
+            0.413,
+            0.415
+          ],
+          [
+            0.474,
+            0.416
+          ],
+          [
+            0.526,
+            0.405
+          ],
+          [
+            0.575,
+            0.394
+          ],
+          [
+            0.624,
+            0.382
+          ],
+          [
+            0.672,
+            0.371
+          ],
+          [
+            0.718,
+            0.36
+          ],
+          [
+            0.764,
+            0.348
+          ],
+          [
+            0.808,
+            0.337
+          ],
+          [
+            0.852,
+            0.325
+          ],
+          [
+            1,
+            0.325
+          ],
+          [
+            1,
+            0.293
+          ],
+          [
+            0.874,
+            0.293
+          ],
+          [
+            0.832,
+            0.304
+          ],
+          [
+            0.789,
+            0.315
+          ],
+          [
+            0.745,
+            0.327
+          ],
+          [
+            0.7,
+            0.338
+          ],
+          [
+            0.655,
+            0.35
+          ],
+          [
+            0.608,
+            0.361
+          ],
+          [
+            0.56,
+            0.372
+          ],
+          [
+            0.511,
+            0.384
+          ],
+          [
+            0.451,
+            0.382
+          ],
+          [
+            0.392,
+            0.38
+          ],
+          [
+            0.332,
+            0.378
+          ],
+          [
+            0.273,
+            0.376
+          ],
+          [
+            0.214,
+            0.375
+          ],
+          [
+            0.155,
+            0.373
+          ],
+          [
+            0.097,
+            0.371
+          ],
+          [
+            0,
+            0.369
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "gold sweep",
+        "color": "gold",
+        "points": [
+          [
+            0,
+            0.444
+          ],
+          [
+            0.069,
+            0.448
+          ],
+          [
+            0.143,
+            0.452
+          ],
+          [
+            0.217,
+            0.456
+          ],
+          [
+            0.292,
+            0.46
+          ],
+          [
+            0.367,
+            0.464
+          ],
+          [
+            0.444,
+            0.468
+          ],
+          [
+            0.521,
+            0.472
+          ],
+          [
+            0.598,
+            0.476
+          ],
+          [
+            0.639,
+            0.477
+          ],
+          [
+            0.679,
+            0.478
+          ],
+          [
+            0.719,
+            0.479
+          ],
+          [
+            0.76,
+            0.48
+          ],
+          [
+            0.801,
+            0.481
+          ],
+          [
+            0.841,
+            0.482
+          ],
+          [
+            0.882,
+            0.483
+          ],
+          [
+            0.923,
+            0.484
+          ],
+          [
+            1,
+            0.484
+          ],
+          [
+            1,
+            0.462
+          ],
+          [
+            0.939,
+            0.462
+          ],
+          [
+            0.899,
+            0.461
+          ],
+          [
+            0.859,
+            0.46
+          ],
+          [
+            0.819,
+            0.459
+          ],
+          [
+            0.779,
+            0.458
+          ],
+          [
+            0.74,
+            0.457
+          ],
+          [
+            0.7,
+            0.456
+          ],
+          [
+            0.661,
+            0.455
+          ],
+          [
+            0.622,
+            0.455
+          ],
+          [
+            0.546,
+            0.45
+          ],
+          [
+            0.47,
+            0.446
+          ],
+          [
+            0.396,
+            0.442
+          ],
+          [
+            0.322,
+            0.438
+          ],
+          [
+            0.249,
+            0.434
+          ],
+          [
+            0.176,
+            0.43
+          ],
+          [
+            0.104,
+            0.426
+          ],
+          [
+            0,
+            0.422
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "gold sweep, top",
+        "color": "gold",
+        "points": [
+          [
+            0,
+            0.556
+          ],
+          [
+            0.058,
+            0.555
+          ],
+          [
+            0.124,
+            0.555
+          ],
+          [
+            0.189,
+            0.554
+          ],
+          [
+            0.253,
+            0.553
+          ],
+          [
+            0.318,
+            0.552
+          ],
+          [
+            0.383,
+            0.551
+          ],
+          [
+            0.447,
+            0.55
+          ],
+          [
+            0.511,
+            0.549
+          ],
+          [
+            0.537,
+            0.549
+          ],
+          [
+            0.562,
+            0.549
+          ],
+          [
+            0.587,
+            0.549
+          ],
+          [
+            0.612,
+            0.549
+          ],
+          [
+            0.637,
+            0.549
+          ],
+          [
+            0.663,
+            0.549
+          ],
+          [
+            0.688,
+            0.549
+          ],
+          [
+            0.713,
+            0.549
+          ],
+          [
+            1,
+            0.549
+          ],
+          [
+            1,
+            0.535
+          ],
+          [
+            0.728,
+            0.535
+          ],
+          [
+            0.703,
+            0.535
+          ],
+          [
+            0.679,
+            0.535
+          ],
+          [
+            0.654,
+            0.535
+          ],
+          [
+            0.629,
+            0.535
+          ],
+          [
+            0.604,
+            0.535
+          ],
+          [
+            0.58,
+            0.535
+          ],
+          [
+            0.555,
+            0.535
+          ],
+          [
+            0.53,
+            0.535
+          ],
+          [
+            0.467,
+            0.535
+          ],
+          [
+            0.404,
+            0.536
+          ],
+          [
+            0.34,
+            0.537
+          ],
+          [
+            0.277,
+            0.538
+          ],
+          [
+            0.213,
+            0.539
+          ],
+          [
+            0.149,
+            0.54
+          ],
+          [
+            0.085,
+            0.541
+          ],
+          [
+            0,
+            0.542
+          ]
+        ],
+        "smooth": true
+      }
+    ],
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "navy",
+    "inner": "navy",
+    "areas": [
+      {
+        "name": "white root",
+        "color": "white",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0.3
+          ],
+          [
+            0,
+            0.36
+          ]
+        ]
+      },
+      {
+        "name": "gold line over the white",
+        "color": "gold",
+        "points": [
+          [
+            0,
+            0.36
+          ],
+          [
+            1,
+            0.3
+          ],
+          [
+            1,
+            0.33
+          ],
+          [
+            0,
+            0.39
+          ]
+        ]
+      }
+    ],
+    "confidence": "low",
+    "sourceRefs": [
+      0,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "cowl",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "CMP/star-alliance",
+      "place": "fuselage",
+      "at": [
+        0.096,
+        0.38
+      ],
+      "height": 0.24,
+      "colors": [
+        "#4A4F57"
+      ],
+      "description": "The Star Alliance star, small and gray, between the cockpit windows and the forward door.",
+      "reference": "https://commons.wikimedia.org/wiki/Category:Star_Alliance",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        2
+      ]
+    },
+    {
+      "mark": "CMP/flag",
+      "place": "fuselage",
+      "at": [
+        0.763,
+        0.45
+      ],
+      "height": 0.12,
+      "colors": [
+        "#DA121A",
+        "white",
+        "#072357"
+      ],
+      "description": "A small Panamanian flag over the aft windows, ahead of the aft door.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "CopaAirlines",
+      "place": "fuselage",
+      "at": [
+        0.198,
+        0.2
+      ],
+      "height": 0.41,
+      "color": "titleBlue",
+      "style": "The Copa wordmark, one run with no space: bold, upright geometric sans in mixed case, royal blue, above the windows ahead of the wing.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Bold",
+          "Century Gothic Bold",
+          "Futura Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.7
+      },
+      "length": 0.174
+    }
+  ],
+  "notes": "Measured from HP-9814CMP (737-8, 2026-01-12, left side); HP-9932CMP (737-9, 2026) and HP-1730CMP (737-800, from below, 2025) agree. The globe's arcs are simplified to seven bands: four white, three gold. The fin's globe is drawn as areas, so no separate tail logo. Small type markings ('737 MAX 8' under the cockpit) are left out. Copa has worn this Continental-era globe scheme since around 2000 (date not confirmed here). Its Colombian sister Copa Colombia (later Wingo) wore it too; Wingo now has its own scheme. Re-checked 2026-11-15 on HP-9814CMP (737-8, left, 2026-01-12), measured between its doors and placed by the window line: the title runs x 0.198-0.372, its baseline just inside the windows' top (y ~0.2) and its capitals 0.41 tall (it had been drawn smaller and higher, at y 0.39, cap 0.3); lowercase 0.70 of the capitals. The globe's arcs on the fin are curves (smooth). The 737-800s and MAX 9s carry the title at the same place behind the forward door.",
+  "history": "New: Copa Airlines wasn't in Skyarium v1's table."
+}
