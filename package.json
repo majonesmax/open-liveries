@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "tsc -b",
-    "test": "tsc -b && node --test renderer/test/",
+    "test": "tsc -b && node --test \"renderer/test/*.test.mjs\"",
     "lint": "eslint renderer/src examples/svg-viewer/src && tsc -b",
     "render": "node renderer/dist/cli.js",
     "check": "npm run build && node renderer/dist/cli.js --all build/render",
