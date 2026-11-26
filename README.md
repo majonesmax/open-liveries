@@ -4,7 +4,7 @@ Airline paint schemes written down as data for apps and sims that want to draw a
 is CC0 and the code is MIT. Use either for anything.
 
 You can browse every scheme at [majonesmax.github.io/open-liveries](https://majonesmax.github.io/open-liveries/).
-Each one is drawn from both sides and below and in 3D.
+Every aircraft drawn from the sides, below and in 3D.
 
 ## Three parts
 
