@@ -73,6 +73,11 @@
       "name": "Amerijet International",
       "country": "US"
     },
+    "AL1979": {
+      "name": "USAir",
+      "country": "US",
+      "ceased": "2015-10-17"
+    },
     "AMX": {
       "name": "Aeroméxico",
       "country": "MX"
@@ -469,6 +474,16 @@
       "name": "Muse Air",
       "country": "US",
       "ceased": "1987-08-09"
+    },
+    "MC1986": {
+      "name": "TranStar Airlines",
+      "country": "US",
+      "ceased": "1987-08-09"
+    },
+    "ML1979": {
+      "name": "Midway Airlines",
+      "country": "US",
+      "ceased": "1991-11-13"
     },
     "MNB": {
       "name": "MNG Airlines",

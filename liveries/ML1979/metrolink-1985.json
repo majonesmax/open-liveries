@@ -1,0 +1,615 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "metrolink-1985",
+  "airline": "ML1979",
+  "name": "Metrolink (1985)",
+  "kind": "standard",
+  "from": "1983",
+  "to": "1986",
+  "confidence": "medium",
+  "drawnOn": "DC93",
+  "description": "Midway's Metrolink scheme as the fleet wore it in 1984 and early 1985: an all-white aircraft with no cheatline. On the forward fuselage the Metrolink mark big, just behind the front door: a gray bar over a red one, the red turning down from its forward end in a long diagonal to a point below the windows and a gray stroke inside the angle, so the two read as an M. Behind it 'Midway' in gray bold italic above the windows and 'Metrolink' twice as tall in red heavy italic below them, its first letter tucked under the mark's diagonal. The same mark large on the white fin, heavier and sheared aft, its aft edge on the fin's trailing edge. Gray wings, white nacelles with bare metal lips.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:20_15-9-84_N931ML_Washington_(53895729129).jpg",
+      "title": "20 15-9-84 N931ML Washington (CC BY-SA 2.0, Pete Macklin)",
+      "accessed": "2026-11-26",
+      "note": "DC-9-31 N931ML at Washington National, right side, side-on, 15 September 1984: the mark, both titles and the fin's mark measured on it (the DC-9-30, drawnOn DC93), scaled by its windows (43.7 px/m)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:McDonnell_Douglas_DC-9-31,_Midway_Airlines_JP5950381.jpg",
+      "title": "McDonnell Douglas DC-9-31, Midway Airlines (GFDL 1.2, Jon Proctor)",
+      "accessed": "2026-11-26",
+      "note": "DC-9-31 N931ML, right side from ahead, 15 October 1984: a check of the same layout and the fin."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:35_16-9-84_N935ML_Minneapolis_(53895787969).jpg",
+      "title": "35 16-9-84 N935ML Minneapolis (CC BY-SA 2.0, Pete Macklin)",
+      "accessed": "2026-11-26",
+      "note": "DC-9-31 N935ML at Minneapolis, left side from ahead, 16 September 1984: the left side's order (mark forward, titles behind it) and the fin's mark facing forward."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:WASHINGTON_NATIONAL_NOVEMBER_1983_MIDWAY_AIRLINES_DOUGLAS_DC9-31_N932ML_(21575356936).jpg",
+      "title": "Washington National November 1983 Midway Airlines Douglas DC9-31 N932ML (CC BY 2.0, simon butler)",
+      "accessed": "2026-11-26",
+      "note": "DC-9-31 N932ML, right side, November 1983: the scheme already on the DC-9-30s by late 1983."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:McDonnell_Douglas_DC-9-15,_Midway_Airlines_JP5949902.jpg",
+      "title": "McDonnell Douglas DC-9-15, Midway Airlines (GFDL 1.2, Jon Proctor)",
+      "accessed": "2026-11-26",
+      "note": "DC-9-15 N1064T, left side from ahead, April 1984: the DC-9-10's layout measured on it (types.DC91), scaled by its door and overwing exit through the perspective. The closest view of the mark and titles: the mark's bars and inner stroke gray, the diagonal red."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:McDonnell_Douglas_MD-81,_Midway_Airlines_JP5956387.jpg",
+      "title": "McDonnell Douglas MD-81, Midway Airlines (GFDL 1.2, Jon Proctor)",
+      "accessed": "2026-11-26",
+      "note": "MD-81 N10029, left side, side-on, July 1984: the MD-80's layout measured on it (types.MD82), scaled by its windows (25.3 px/m)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:139_22-9-84_N10028_Detroit_(54052800743).jpg",
+      "title": "139 22-9-84 N10028 Detroit (CC BY-SA 2.0, Pete Macklin)",
+      "accessed": "2026-11-26",
+      "note": "MD-81 N10028, right side, 22 September 1984: a check of the MD-80 from the right."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:WASHINGTON_NATIONAL_NOVEMBER_1983_MIDWAY_AIRLINES_DOUGLAS_MD81_N10029_AND_TRANS_WORLD_DOUGLAS_MD82_N904TW_(21590185192).jpg",
+      "title": "Washington National November 1983 Midway Airlines Douglas MD81 N10029 (CC BY 2.0, simon butler)",
+      "accessed": "2026-11-26",
+      "note": "MD-81 N10029, right side, November 1983: the MD-81s in the scheme from 1983."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N1067T_DC9_MIDWAY_METROLINK_(49712186493).jpg",
+      "title": "N1067T DC9 Midway Metrolink (CC BY 2.0, Jonathan Payne)",
+      "accessed": "2026-11-26",
+      "note": "DC-9-15 N1067T at Detroit, right side, May 1986: still in this paint after the Metrolink name was dropped in early 1985."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Midway_Airlines_Douglas_DC-9-14_N1056T.jpg",
+      "title": "Midway Airlines Douglas DC-9-14 N1056T (CC BY-SA 4.0, Richard Vandervord)",
+      "accessed": "2026-11-26",
+      "note": "DC-9-14 N1056T, October 1979: the first scheme (white over bare metal, orange, red and brown stripes, a dark blue tail with an orange disc). Not this one."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:McDonnell_Douglas_DC-9-15,_Midway_Airlines_JP5949901.jpg",
+      "title": "McDonnell Douglas DC-9-15, Midway Airlines (GFDL 1.2, Jon Proctor)",
+      "accessed": "2026-11-26",
+      "note": "DC-9-15 N1060T, 11 December 1982: still in the first scheme, the latest dated photo of it found."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:328_17-10-86_N937ML_La_Guardia_(52976106102).jpg",
+      "title": "328 17-10-86 N937ML La Guardia (CC BY 2.0, Pete Macklin)",
+      "accessed": "2026-11-26",
+      "note": "DC-9-31 N937ML, 17 October 1986: the red scheme that replaced this one (a red tail and belly, 'Midway' in red italic)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Midway_Airlines_Boeing_737-2L9;_OY-MBW@MIA,_July_1986_ATP_(5056732733).jpg",
+      "title": "Midway Airlines Boeing 737-2L9; OY-MBW@MIA, July 1986 (CC BY-SA 2.0, Aero Icarus)",
+      "accessed": "2026-11-26",
+      "note": "A leased 737-200 in the red scheme, July 1986."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Midway_Express_Boeing_737-2T4;_N51AF@MIA,_October_1984_CKF_(5288235981).jpg",
+      "title": "Midway Express Boeing 737-2T4; N51AF@MIA, October 1984 (CC BY-SA 2.0, Aero Icarus)",
+      "accessed": "2026-11-26",
+      "note": "737-200 N51AF at Miami, October 1984, in the Midway Express scheme of the ex-Air Florida operation (red and maroon cheatlines, the mark on the fin, 'Midway Express' titles). Not drawn here."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Midway_Airlines_(1976%E2%80%931991)",
+      "title": "Midway Airlines (1976–1991), Wikipedia",
+      "accessed": "2026-11-26",
+      "note": "History: service from 1 November 1979 (IATA ML), the Metrolink branding of 1983 dropped in early 1985, Midway Express flown from Miami from October 1984 and folded into Midway in August 1985."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F4F4F1",
+      "official": false
+    },
+    "red": {
+      "hex": "#A8323A",
+      "name": "Midway red",
+      "official": false
+    },
+    "gray": {
+      "hex": "#6B6769",
+      "name": "Metrolink gray",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#A9AEB4",
+      "name": "wing gray",
+      "official": false
+    },
+    "metal": {
+      "hex": "#C4C8CD",
+      "name": "polished bare metal",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "windows": "plain",
+    "areas": [],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "mirrored": true,
+    "areas": [],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "metal",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "titles": [
+    {
+      "text": "Midway",
+      "place": "fuselage",
+      "at": [
+        0.2539,
+        0.285
+      ],
+      "height": 0.241,
+      "length": 0.1147,
+      "color": "gray",
+      "style": "Bold italic sans-serif in gray, above the forward windows just aft of the mark.",
+      "type": {
+        "similar": [
+          "Helvetica Neue Bold Italic",
+          "Helvetica Bold Oblique",
+          "Arial Bold Italic"
+        ],
+        "weight": 700,
+        "slantDeg": 12,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "text": "Metrolink",
+      "place": "fuselage",
+      "at": [
+        0.2245,
+        -0.3402
+      ],
+      "height": 0.327,
+      "length": 0.1745,
+      "color": "red",
+      "style": "Heavy italic sans-serif in red, about twice the height of 'Midway', below the windows; its M starts under the mark's diagonal.",
+      "type": {
+        "similar": [
+          "Helvetica Neue Heavy Italic",
+          "Helvetica Black Oblique",
+          "Arial Black"
+        ],
+        "weight": 900,
+        "slantDeg": 12,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "logos": [
+    {
+      "mark": "ML1979/metrolink",
+      "place": "fuselage",
+      "at": [
+        0.2131,
+        0.0568
+      ],
+      "height": 0.844,
+      "colors": [
+        "red",
+        "gray"
+      ],
+      "description": "The Metrolink mark big on the forward fuselage: a gray bar over a red one, the red turning down from its forward end in a long diagonal to a point, a gray stroke inside the angle beside it. Facing forward on both sides.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mark": "ML1979/metrolink-fin",
+      "place": "fin",
+      "at": [
+        0.7,
+        0.28
+      ],
+      "height": 0.71,
+      "colors": [
+        "red",
+        "gray"
+      ],
+      "description": "The Metrolink mark large on the fin, its bars heavier and sheared aft with the fin, its aft edge on the trailing edge. Facing forward on both sides.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "notes": "Measured 2026-11-26 for ghost flights on DC-9-31 N931ML (September 1984, right side, side-on) on shapes/DC93.json, with the DC-9-15 (N1064T, April 1984) and MD-81 (N10029, July 1984) measured as types and the 737-200 fitted. The scheme came with the Metrolink business-class branding of 1983 (on N932ML and N10029 by November 1983) and replaced the 1979 striped scheme with the dark blue tail, which the last dated photo found shows in December 1982. Metrolink as a product was dropped in early 1985 but the paint stayed: N1067T still wore it in May 1986. By July 1986 the red scheme was on the fleet's new aircraft and by October 1986 on the DC-9-30s. So in February 1985 the DC-9s and MD-81s wore this. The 737-200s flown then were most likely the ex-Air Florida aircraft of Midway Express at Miami, which wore their own Midway Express scheme (N51AF, October 1984: red and maroon cheatlines, 'Midway Express' titles); no Midway 737 in Metrolink paint was found, so the 737 here is fitted. The aircraft is plain white: no cheatline or belly color on any photo (the lower fuselage reads gray only in shade). The mark is our own simplified drawing (two marks: the body's, and the fin's heavier sheared version). Its red reads from brick to crimson on the slides and the gray from warm gray to charcoal. Titles' heights read within about 0.1 m.",
+  "types": {
+    "DC91": {
+      "note": "DC-9-15 N1064T (April 1984), seen from ahead so scaled through the perspective by its door and overwing exit: the mark starts right behind the door (about 2.1 m long, 1.95 m tall) and the titles are a little smaller than on N931ML ('Midway' 3.2 m, 'Metrolink' 4.5 m). Within about 0.2 m.",
+      "confidence": "medium",
+      "sourceRefs": [
+        4
+      ],
+      "titles": [
+        {
+          "text": "Midway",
+          "place": "fuselage",
+          "at": [
+            0.2508,
+            0.2594
+          ],
+          "height": 0.238,
+          "length": 0.1151,
+          "color": "gray",
+          "style": "Bold italic sans-serif in gray, above the forward windows just aft of the mark.",
+          "type": {
+            "similar": [
+              "Helvetica Neue Bold Italic",
+              "Helvetica Bold Oblique",
+              "Arial Bold Italic"
+            ],
+            "weight": 700,
+            "slantDeg": 12,
+            "width": "normal",
+            "strokes": "uniform",
+            "case": "mixed",
+            "xHeight": 0.72
+          },
+          "confidence": "medium",
+          "sourceRefs": [
+            4
+          ]
+        },
+        {
+          "text": "Metrolink",
+          "place": "fuselage",
+          "at": [
+            0.2376,
+            -0.3261
+          ],
+          "height": 0.294,
+          "length": 0.1592,
+          "color": "red",
+          "style": "Heavy italic sans-serif in red, about twice the height of 'Midway', below the windows; its M starts under the mark's diagonal.",
+          "type": {
+            "similar": [
+              "Helvetica Neue Heavy Italic",
+              "Helvetica Black Oblique",
+              "Arial Black"
+            ],
+            "weight": 900,
+            "slantDeg": 12,
+            "width": "normal",
+            "strokes": "uniform",
+            "case": "mixed",
+            "xHeight": 0.72
+          },
+          "confidence": "medium",
+          "sourceRefs": [
+            4
+          ]
+        }
+      ],
+      "logos": [
+        {
+          "mark": "ML1979/metrolink",
+          "place": "fuselage",
+          "at": [
+            0.2102,
+            0.081
+          ],
+          "height": 0.731,
+          "colors": [
+            "red",
+            "gray"
+          ],
+          "description": "The Metrolink mark big on the forward fuselage: a gray bar over a red one, the red turning down from its forward end in a long diagonal to a point, a gray stroke inside the angle beside it. Facing forward on both sides.",
+          "confidence": "medium",
+          "sourceRefs": [
+            4
+          ]
+        },
+        {
+          "mark": "ML1979/metrolink-fin",
+          "place": "fin",
+          "at": [
+            0.7,
+            0.28
+          ],
+          "height": 0.75,
+          "colors": [
+            "red",
+            "gray"
+          ],
+          "description": "The Metrolink mark large on the fin, its bars heavier and sheared aft with the fin, its aft edge on the trailing edge. Facing forward on both sides.",
+          "confidence": "medium",
+          "sourceRefs": [
+            4
+          ]
+        }
+      ]
+    },
+    "MD82": {
+      "note": "MD-81 N10029 (July 1984), side-on from a little below: the mark about 0.9 m behind the door, 'Midway' 3.2 m and 'Metrolink' 4.7 m long, the fin's mark on its trailing edge. Checked on N10028 from the right (September 1984).",
+      "confidence": "medium",
+      "sourceRefs": [
+        5,
+        6,
+        7
+      ],
+      "titles": [
+        {
+          "text": "Midway",
+          "place": "fuselage",
+          "at": [
+            0.2042,
+            0.2835
+          ],
+          "height": 0.258,
+          "length": 0.077,
+          "color": "gray",
+          "style": "Bold italic sans-serif in gray, above the forward windows just aft of the mark.",
+          "type": {
+            "similar": [
+              "Helvetica Neue Bold Italic",
+              "Helvetica Bold Oblique",
+              "Arial Bold Italic"
+            ],
+            "weight": 700,
+            "slantDeg": 12,
+            "width": "normal",
+            "strokes": "uniform",
+            "case": "mixed",
+            "xHeight": 0.72
+          },
+          "confidence": "medium",
+          "sourceRefs": [
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "text": "Metrolink",
+          "place": "fuselage",
+          "at": [
+            0.1886,
+            -0.277
+          ],
+          "height": 0.301,
+          "length": 0.1128,
+          "color": "red",
+          "style": "Heavy italic sans-serif in red, about twice the height of 'Midway', below the windows; its M starts under the mark's diagonal.",
+          "type": {
+            "similar": [
+              "Helvetica Neue Heavy Italic",
+              "Helvetica Black Oblique",
+              "Arial Black"
+            ],
+            "weight": 900,
+            "slantDeg": 12,
+            "width": "normal",
+            "strokes": "uniform",
+            "case": "mixed",
+            "xHeight": 0.72
+          },
+          "confidence": "medium",
+          "sourceRefs": [
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "logos": [
+        {
+          "mark": "ML1979/metrolink",
+          "place": "fuselage",
+          "at": [
+            0.1746,
+            0.0985
+          ],
+          "height": 0.848,
+          "colors": [
+            "red",
+            "gray"
+          ],
+          "description": "The Metrolink mark big on the forward fuselage: a gray bar over a red one, the red turning down from its forward end in a long diagonal to a point, a gray stroke inside the angle beside it. Facing forward on both sides.",
+          "confidence": "medium",
+          "sourceRefs": [
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "mark": "ML1979/metrolink-fin",
+          "place": "fin",
+          "at": [
+            0.68,
+            0.29
+          ],
+          "height": 0.76,
+          "colors": [
+            "red",
+            "gray"
+          ],
+          "description": "The Metrolink mark large on the fin, its bars heavier and sheared aft with the fin, its aft edge on the trailing edge. Facing forward on both sides.",
+          "confidence": "medium",
+          "sourceRefs": [
+            5,
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    "B733": {
+      "note": "Fitted, not measured: no photo of a Midway 737 in this scheme was found. The DC-9-30's mark and titles at the same distance behind the front door and the same sizes; the fin's mark at the DC-9's size in meters, toward the trailing edge.",
+      "confidence": "low",
+      "sourceRefs": [
+        0
+      ],
+      "titles": [
+        {
+          "text": "Midway",
+          "place": "fuselage",
+          "at": [
+            0.2672,
+            0.252
+          ],
+          "height": 0.203,
+          "length": 0.1162,
+          "color": "gray",
+          "style": "Bold italic sans-serif in gray, above the forward windows just aft of the mark.",
+          "type": {
+            "similar": [
+              "Helvetica Neue Bold Italic",
+              "Helvetica Bold Oblique",
+              "Arial Bold Italic"
+            ],
+            "weight": 700,
+            "slantDeg": 12,
+            "width": "normal",
+            "strokes": "uniform",
+            "case": "mixed",
+            "xHeight": 0.72
+          },
+          "confidence": "low",
+          "sourceRefs": [
+            0
+          ]
+        },
+        {
+          "text": "Metrolink",
+          "place": "fuselage",
+          "at": [
+            0.2374,
+            -0.298
+          ],
+          "height": 0.289,
+          "length": 0.1768,
+          "color": "red",
+          "style": "Heavy italic sans-serif in red, about twice the height of 'Midway', below the windows; its M starts under the mark's diagonal.",
+          "type": {
+            "similar": [
+              "Helvetica Neue Heavy Italic",
+              "Helvetica Black Oblique",
+              "Arial Black"
+            ],
+            "weight": 900,
+            "slantDeg": 12,
+            "width": "normal",
+            "strokes": "uniform",
+            "case": "mixed",
+            "xHeight": 0.72
+          },
+          "confidence": "low",
+          "sourceRefs": [
+            0
+          ]
+        }
+      ],
+      "logos": [
+        {
+          "mark": "ML1979/metrolink",
+          "place": "fuselage",
+          "at": [
+            0.2259,
+            0.0567
+          ],
+          "height": 0.746,
+          "colors": [
+            "red",
+            "gray"
+          ],
+          "description": "The Metrolink mark big on the forward fuselage: a gray bar over a red one, the red turning down from its forward end in a long diagonal to a point, a gray stroke inside the angle beside it. Facing forward on both sides.",
+          "confidence": "medium",
+          "sourceRefs": [
+            0
+          ]
+        },
+        {
+          "mark": "ML1979/metrolink-fin",
+          "place": "fin",
+          "at": [
+            0.68,
+            0.3
+          ],
+          "height": 0.44,
+          "colors": [
+            "red",
+            "gray"
+          ],
+          "description": "The Metrolink mark large on the fin, its bars heavier and sheared aft with the fin, its aft edge on the trailing edge. Facing forward on both sides.",
+          "confidence": "low",
+          "sourceRefs": [
+            0
+          ]
+        }
+      ]
+    }
+  }
+}
