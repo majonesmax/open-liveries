@@ -10,7 +10,8 @@ import { SchemeList } from './ui/list.js';
 import { KINDS } from './ui/search.js';
 import type { Filters } from './ui/search.js';
 
-const SCHEME_ID = /^[A-Z]{3}\/[a-z0-9-]+$/;
+// An airline's ICAO code, or a departed airline's two characters and founding year (BN1984), as schema/ has it.
+const SCHEME_ID = /^([A-Z]{3}|[A-Z0-9]{2}[0-9]{4})\/[a-z0-9-]+$/;
 /** Wait this long after the last keystroke before searching. */
 const SEARCH_DELAY_MS = 120;
 
