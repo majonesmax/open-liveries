@@ -40,17 +40,17 @@ both sides, from below and in 3D.
 ## What's in it
 
 <!-- stats:start -->
-*Counted by `tools/stats.py` on 2026-11-25.*
+*Counted by `tools/stats.py` on 2026-11-26.*
 
-- **367 schemes** from **190 airlines**: 260 standard, 79 special, 23 retro, 5 alliance.
-- **316 drawn** with colored areas you can reproduce. The other 51 are described in words only so far. 343 have their titles set out, 312 their logos placed.
-- **190 airlines' everyday schemes** (260 with freighter and older variants), plus **93 operators** that fly in another airline's paint (regionals in their mainline's).
+- **368 schemes** from **191 airlines**: 261 standard, 79 special, 23 retro, 5 alliance.
+- **317 drawn** with colored areas you can reproduce. The other 51 are described in words only so far. 344 have their titles set out, 313 their logos placed.
+- **191 airlines' everyday schemes** (261 with freighter and older variants), plus **93 operators** that fly in another airline's paint (regionals in their mainline's).
 - **1468 airframes tagged** (registration, usually its ICAO address, and the scheme it wears): 1458 current and 10 past. 191 have their own tail art.
 - **89 leads**: special schemes seen on public lists, not yet researched.
 
 | Scheme confidence | Schemes |
 |---|--:|
-| medium | 255 |
+| medium | 256 |
 | high | 83 |
 | low | 29 |
 
@@ -78,7 +78,7 @@ Sources cited by the schemes:
 
 | Source | Citations |
 |---|--:|
-| dated photo (Wikimedia Commons) | 1642 |
+| dated photo (Wikimedia Commons) | 1653 |
 | aviation press and other | 221 |
 | Wikipedia | 157 |
 | the airline or its press release | 57 |

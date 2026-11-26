@@ -215,6 +215,11 @@
       "name": "Copa Airlines",
       "country": "PA"
     },
+    "CO1934": {
+      "name": "Continental Airlines",
+      "country": "US",
+      "ceased": "2012-03-03"
+    },
     "CPA": {
       "name": "Cathay Pacific",
       "country": "HK"
