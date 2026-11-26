@@ -117,7 +117,7 @@ button {
 }
 .pill {
   border: 1px solid var(--line);
-  border-radius: 999px;
+  border-radius: 4px;
   background: var(--chip);
   color: var(--ink);
   padding: 6px 12px;
@@ -163,7 +163,7 @@ button {
   border: 0;
   background: var(--chip);
   padding: 3px 10px;
-  border-radius: 999px;
+  border-radius: 4px;
   cursor: pointer;
   font-size: 12px;
 }
@@ -557,7 +557,7 @@ details summary {
   background: var(--chip-on);
   color: var(--chip-on-ink);
   padding: 7px 16px;
-  border-radius: 999px;
+  border-radius: 4px;
   cursor: pointer;
 }
 
