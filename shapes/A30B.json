@@ -9,9 +9,9 @@
  "sources": [
   {
    "url": "https://www.aircraft.airbus.com/sites/default/files/2023-02/Airbus-Commercial-Aircraft-AC-A300-Dec-2009.pdf",
-   "title": "Airbus Industrie, A300 Airplane Characteristics for Airport Planning (Revision 22, Dec 01/09), 2.2 General Dimensions, Model B2-B4 (Feb. 1980); 2.3 Ground Clearances; 2.8 Door Clearances",
+   "title": "Airbus Industrie, A300 Airplane Characteristics for Airport Planning (Revision 22, Dec 01/09), 2.2 General Dimensions, Model B2-B4 (Feb. 1980); 2.3 Ground Clearances; 2.8 Door Clearances; 7.2 Landing Gear Footprint, Model B2-B4-C4 (Mar. 1986)",
    "accessed": "2026-11-24",
-   "note": "Dimensions and outlines read off the B2-B4 sheet's side, plan and front views (tools/trace/a30b/), a 1980 scan on graph paper (about 32 px a meter, so outlines are good to about 5 cm); the figures are the aircraft's measurements, not a copy of the drawing. Scaled by the printed 53.61 m nose to tail cone; the plan turned level by 0.25°. Engine out from the centerline: half the printed 15.87 m between the engines, read at the front view's inlet (the plan draws the nacelle 8.07 m out). Engine inlet from the nose: 2.8.2's 15.86 m. Doors 1, 2 and the aft door at 2.8's 5.80, 13.08 and 39.78 m to their middles (the sheet draws them 0.2-0.6 m further forward; a photo agrees with 2.8's). The fin's tip is 8.28 m above the crown as drawn, and 2.3's own side view draws it the same (8.23 m at its scale); 2.3's printed heights (L 16.72 m to the fin's tip, M 7.71 m to the crown, empty) give 8.95 m, but they're at the aircraft's ground attitude, about 0.9° nose down by its door sills (A 4.67 m, E 5.38 m), which lifts the fin's tip by about 0.6 m against the crown at the cockpit. Fitted to a side-on photo (N291EA, 1984) the drawing's fin lands within 4 px of the photo's, so the drawing's is kept. Cabin windows measured on that photo (cabin.windows.note). The lower-deck cargo doors aren't on this sheet and are left out. Engines: the CF6-50 nacelle the sheet draws."
+   "note": "Dimensions and outlines read off the B2-B4 sheet's side, plan and front views (tools/trace/a30b/), a 1980 scan on graph paper (about 32 px a meter, so outlines are good to about 5 cm); the figures are the aircraft's measurements, not a copy of the drawing. Scaled by the printed 53.61 m nose to tail cone; the plan turned level by 0.25°. Engine out from the centerline: half the printed 15.87 m between the engines, read at the front view's inlet (the plan draws the nacelle 8.07 m out). Engine inlet from the nose: 2.8.2's 15.86 m. Doors 1, 2 and the aft door at 2.8's 5.80, 13.08 and 39.78 m to their middles (the sheet draws them 0.2-0.6 m further forward; a photo agrees with 2.8's). The fin's tip is 8.28 m above the crown as drawn, and 2.3's own side view draws it the same (8.23 m at its scale); 2.3's printed heights (L 16.72 m to the fin's tip, M 7.71 m to the crown, empty) give 8.95 m, but they're at the aircraft's ground attitude, about 0.9° nose down by its door sills (A 4.67 m, E 5.38 m), which lifts the fin's tip by about 0.6 m against the crown at the cockpit. Fitted to a side-on photo (N291EA, 1984) the drawing's fin lands within 4 px of the photo's, so the drawing's is kept. Cabin windows measured on that photo (cabin.windows.note). The lower-deck cargo doors aren't on this sheet and are left out. Engines: the CF6-50 nacelle the sheet draws. Gear (`gear`): 2.2 prints the nose gear 6.67 m behind the nose, the wheelbase 18.60 m to the bogies' middles and the track 9.60 m; 7.2 prints the B2K-B4's bogie 0.927 m across and 1.397 m along (before MOD 2204), the nose wheels 0.625 m apart, the standard 46 x 16-20 main tires and 40 x 14-16 nose tires. The ground is -5.10 m, the mean of the forward crown less 2.3's M (7.63 m: -4.83), the nacelle's bottom less H (1.01 m: -5.04), the wingtip less J (5.99 m: -5.16) and the tailplane's tip less F (7.72 m: -5.33), the middles of 2.3's operating empty and maximum ramp weight columns (the fin, drawn 0.67 m short, isn't used). The front view draws five flap track fairings under each wing (5.76, 10.36, 13.06, 15.01 and 17.65 m out, 0.34-0.67 m deep) but the side view's flaps and fairings run together, so their lengths can't be read and they're left out."
   }
  ],
  "fuselage": {
@@ -636,6 +636,13 @@
    ]
   ]
  },
+ "gear": {
+  "ground": -5.1,
+  "legs": [
+   {"kind": "nose", "x": 6.67, "y": 0, "wheels": 2, "spacing": 0.625, "tire": [1.016, 0.356]},
+   {"kind": "main", "x": 25.27, "y": 4.8, "wheels": 4, "spacing": 0.927, "tandem": 1.397, "tire": [1.168, 0.406]}
+  ]
+ },
  "checks": [
   {
    "dimension": "fuselage width",
@@ -678,6 +685,12 @@
    "printed": 8.95,
    "shape": 8.278,
    "off": "-7.5%"
+  },
+  {
+   "dimension": "overall height",
+   "printed": 16.575,
+   "shape": 16.18,
+   "off": "-2.4%"
   }
  ]
 }

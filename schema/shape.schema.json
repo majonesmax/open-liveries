@@ -522,6 +522,93 @@
         }
       }
     },
+    "gear": {
+      "description": "The landing gear, down, with the aircraft standing on its wheels (docs/SHAPES.md, Gear). Measured from the airport-planning document's wheelbase, track, ground clearances and tire sizes. Left out: not measured.",
+      "type": "object",
+      "required": [
+        "ground",
+        "legs"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "ground": {
+          "description": "The ground's height (z, below the centerline, so negative), the aircraft on its wheels at a middle weight: a part's height in the shape less its printed height above the ground (the middle of the document's range). Every tire stands on it.",
+          "type": "number",
+          "exclusiveMaximum": 0
+        },
+        "legs": {
+          "description": "One side's legs, nose first (a leg on the centerline once; the other side mirrors the rest).",
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "kind",
+              "x",
+              "y",
+              "wheels",
+              "tire"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "kind": {
+                "description": "`nose`; `main` (on the wing); `body` (a 747's, under the fuselage beside the centerline); `center` (a DC-10-30's or MD-11's, on the centerline).",
+                "enum": [
+                  "nose",
+                  "main",
+                  "body",
+                  "center"
+                ]
+              },
+              "x": {
+                "description": "The axle's distance from the nose, meters (a bogie's: its middle's, between its axles).",
+                "type": "number",
+                "exclusiveMinimum": 0
+              },
+              "y": {
+                "description": "The leg's middle out from the centerline, meters: half the gear's track, 0 on the centerline.",
+                "type": "number",
+                "minimum": 0
+              },
+              "mount": {
+                "description": "What the strut hangs from: `wing` (its lower surface over the leg, the default for main gear) or `fuselage` (the belly, the default for the others).",
+                "enum": [
+                  "wing",
+                  "fuselage"
+                ]
+              },
+              "top": {
+                "description": "The strut's attachment, [x, z], where the drawing shows it (a raked strut's). Left out: straight up from the axle to the wing's lower surface or the belly.",
+                "$ref": "#/$defs/point"
+              },
+              "wheels": {
+                "description": "Wheels on the leg: 1, 2 side by side on one axle, 4 on a two-axle bogie (two a side), 6 on a three-axle bogie.",
+                "enum": [
+                  1,
+                  2,
+                  4,
+                  6
+                ]
+              },
+              "spacing": {
+                "description": "Between the tires' centers across an axle, meters. Needed with more than one wheel.",
+                "type": "number",
+                "exclusiveMinimum": 0
+              },
+              "tandem": {
+                "description": "A bogie's axles apart (first to last), meters.",
+                "type": "number",
+                "exclusiveMinimum": 0
+              },
+              "tire": {
+                "description": "The tire's size as the document prints it, meters: [diameter, width] (a 40 x 14 in tire is [1.016, 0.356]).",
+                "$ref": "#/$defs/range"
+              }
+            }
+          }
+        }
+      }
+    },
     "checks": {
       "description": "The source's printed dimensions against the shape's.",
       "type": "array",
@@ -655,6 +742,99 @@
               },
               "width": {
                 "description": "Its greatest width, meters, from the front view. Left out: as deep as it is.",
+                "type": "number"
+              }
+            }
+          }
+        },
+        "flaps": {
+          "description": "A wing's trailing-edge flaps (docs/SHAPES.md, Flaps), as the plan view draws their lines, and the settings the document names. Left out: not measured (the flaps are drawn up).",
+          "type": "object",
+          "required": [
+            "segments"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "segments": {
+              "description": "Each flap panel, inboard first.",
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "required": [
+                  "y",
+                  "chord",
+                  "slots"
+                ],
+                "additionalProperties": false,
+                "properties": {
+                  "y": {
+                    "description": "Its inboard and outboard ends, meters out from the centerline.",
+                    "$ref": "#/$defs/range"
+                  },
+                  "chord": {
+                    "description": "Its chord (up), as a share of the wing's chord there: from the plan view's flap line to the trailing edge.",
+                    "type": "number",
+                    "exclusiveMinimum": 0,
+                    "maximum": 0.6
+                  },
+                  "slots": {
+                    "description": "Its elements when down: 1 a single-slotted flap, 2 double-slotted (a vane ahead of the flap, the DC-9's), 3 triple-slotted (the 727's, 747's).",
+                    "enum": [
+                      1,
+                      2,
+                      3
+                    ]
+                  }
+                }
+              }
+            },
+            "detents": {
+              "description": "The flap settings the document names, degrees, by what they're for (`landing`, `takeoff`; the largest is full travel). Left out: none printed, so the flaps stay up.",
+              "type": "object",
+              "additionalProperties": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 60
+              }
+            },
+            "note": {
+              "type": "string",
+              "description": "Where the lines and settings were read."
+            }
+          }
+        },
+        "slats": {
+          "description": "A wing's leading-edge devices, as the plan view draws them, inboard first. Left out: none measured.",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "y",
+              "kind",
+              "chord"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "y": {
+                "description": "Its inboard and outboard ends, meters out from the centerline.",
+                "$ref": "#/$defs/range"
+              },
+              "kind": {
+                "description": "`slat` (moves forward and down off the leading edge) or `krueger` (a panel hinged from under the leading edge, swung down and forward: the 727's and 747's inboard).",
+                "enum": [
+                  "slat",
+                  "krueger"
+                ]
+              },
+              "chord": {
+                "description": "Its chord as a share of the wing's chord there.",
+                "type": "number",
+                "exclusiveMinimum": 0,
+                "maximum": 0.4
+              },
+              "angle": {
+                "description": "How far it turns when out, degrees, where a source prints it. Left out: drawn stowed.",
                 "type": "number"
               }
             }

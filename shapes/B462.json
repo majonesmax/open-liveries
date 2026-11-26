@@ -11,7 +11,7 @@
    "url": "https://commons.wikimedia.org/wiki/File:BAe_146_v1.0.png",
    "title": "Julien.scavini, \"BAe 146 v1.0.png\": British Aerospace BAe 146 schematic, side, top, front and section views with printed dimensions and a scale bar (Wikimedia Commons, own work, CC BY-SA 3.0)",
    "accessed": "2026-11-24",
-   "note": "The shape's outlines are measured off this schematic (tools/trace/b462/): only the figures are taken, not the drawing; credit Julien.scavini, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/). It's an enthusiast's drawing, not a manufacturer's or government's: no BAe 146 airport-planning document is openly available (BAE Systems' Airport Planning Manual APM 146.1 is on its iSAPPHIRE customer portal) and no public-domain government three-view was found (the RAF's 146s are Crown copyright; the FAA's 2026 airtanker loads report DOT/FAA/TC-20/13, NTSB and NIFC documents draw none). So the confidence is low. A 1355 x 830 px picture of about 21 px a meter. Its side and plan are drawn 9.3% long lengthwise against their own span, height, fuselage width and scale bar; evened out by EASA's length and span (recipe.json), after which its own 8.61 m height lands within 0.2% and its scale bar within 0.3%. Its printed 28.60 m length and 26.21 m span are the Avro RJ85's published figures; its lines match the 146-200's (EASA's 28.55 m and 26.34 m). Its fuselage is drawn 3.54 m wide in plan and front view (it prints 3.50 m between extension lines drawn 3.57 m apart). Its main gear is drawn 4.50 m apart against EASA's 4.72 m track and its wheelbase 11.33 m against 11.20 m (the gear isn't part of the shape). Cabin windows: 29 a side on the drawn pitch (0.513 m), 12 of them behind the nacelles and pylons placed on it; their height from the photos below."
+   "note": "The shape's outlines are measured off this schematic (tools/trace/b462/): only the figures are taken, not the drawing; credit Julien.scavini, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/). It's an enthusiast's drawing, not a manufacturer's or government's: no BAe 146 airport-planning document is openly available (BAE Systems' Airport Planning Manual APM 146.1 is on its iSAPPHIRE customer portal) and no public-domain government three-view was found (the RAF's 146s are Crown copyright; the FAA's 2026 airtanker loads report DOT/FAA/TC-20/13, NTSB and NIFC documents draw none). So the confidence is low. A 1355 x 830 px picture of about 21 px a meter. Its side and plan are drawn 9.3% long lengthwise against their own span, height, fuselage width and scale bar; evened out by EASA's length and span (recipe.json), after which its own 8.61 m height lands within 0.2% and its scale bar within 0.3%. Its printed 28.60 m length and 26.21 m span are the Avro RJ85's published figures; its lines match the 146-200's (EASA's 28.55 m and 26.34 m). Its fuselage is drawn 3.54 m wide in plan and front view (it prints 3.50 m between extension lines drawn 3.57 m apart). Its main gear is drawn 4.50 m apart against EASA's 4.72 m track and its wheelbase 11.33 m against 11.20 m (the shape's gear takes EASA's track and wheelbase). Cabin windows: 29 a side on the drawn pitch (0.513 m), 12 of them behind the nacelles and pylons placed on it; their height from the photos below. Gear (`gear`): the main gear's axle as the schematic draws it (13.38 m from the nose), the nose gear EASA's 11.20 m wheelbase ahead of it (drawn 0.13 m further back), EASA's 4.72 m track and tire sizes (24 x 7.7-10 nose, 39 x 13-16 main), and the ground at EASA's 8.61 m height below the fin's top. The main legs hang from the fuselage's side, not the high wing: the front view draws each strut from the sponson about 1.7 m out and 1.41 m above the ground (`top`) down and out to its wheels. The wheels' spacing across (0.74 m main, 0.44 m nose) is the schematic's, not a printed figure. No flap track fairings: the plan draws three tabs behind each wing's trailing edge (4.05, 6.73 and 9.39 m out, ending 0.62 m behind it) and the front view one 0.29 m deep (the others are behind the nacelles), but no view gives their fronts."
   },
   {
    "url": "https://www.easa.europa.eu/en/downloads/7266/en",
@@ -425,6 +425,13 @@
     [3.34, 0.364],
     [3.069, 0.317]
    ]
+  ]
+ },
+ "gear": {
+  "ground": -2.39,
+  "legs": [
+   {"kind": "nose", "x": 2.18, "y": 0, "wheels": 2, "spacing": 0.44, "tire": [0.61, 0.196]},
+   {"kind": "main", "x": 13.38, "y": 2.36, "mount": "fuselage", "top": [13.38, -0.98], "wheels": 2, "spacing": 0.74, "tire": [0.991, 0.33]}
   ]
  },
  "checks": [

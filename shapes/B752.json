@@ -9,9 +9,9 @@
  "sources": [
   {
    "url": "https://www.boeing.com/content/dam/boeing/v2/airports/acaps/757_Rev_H.pdf",
-   "title": "Boeing, 757 Airplane Characteristics for Airport Planning (D6-58327 Rev H, December 2024), 2.2.1 General Dimensions: Model 757-200, -200PF; 2.7.1 Door Clearances",
+   "title": "Boeing, 757 Airplane Characteristics for Airport Planning (D6-58327 Rev H, December 2024), 2.2.1 General Dimensions: Model 757-200, -200PF; 2.7.1 Door Clearances; 2.3.1 Ground Clearances: Model 757-200, -200PF; 7.2 Landing Gear Footprint: Model 757-200, -200PF, -300",
    "accessed": "2026-11-15",
-   "note": "Dimensions and outlines read off the side, plan and front views (tools/trace/b752/); the figures are the aircraft's measurements, not a copy of the drawing. Plain wingtips (the document has no winglet sheet; many US 757-200s now fly with blended winglets, which this shape doesn't have) and the PW2000's nacelle (a short fan cowl, the core's nozzle behind; the RB211's is longer). The sheet draws the cabin windows; the seven behind the wing's lines in the drawing are placed at its own window pitch. Doors 1, 2 and 4 and the cargo doors sit within 1 cm of the door table (2.7.1). Checks over 1.5%: the side view draws the fuselage 4.19 m tall between its own dimension arrows, labelled 4.01 m (+4.5%), and its belly 0.12 m lower aft of the wing, so over the middle third it reads +6.0%; the plan's width is as printed and the front view's section is 3.93 m tall, so it's the side view's drawing: the tube is fit to the printed height (fit_height.py; the check's +1.6% is the wing-body fairing). The front view draws the nacelle 2.34 m across where the sheet prints 2.46 m (RR) and 2.69 m (PW); kept the drawing's."
+   "note": "Dimensions and outlines read off the side, plan and front views (tools/trace/b752/); the figures are the aircraft's measurements, not a copy of the drawing. Plain wingtips (the document has no winglet sheet; many US 757-200s now fly with blended winglets, which this shape doesn't have) and the PW2000's nacelle (a short fan cowl, the core's nozzle behind; the RB211's is longer). The sheet draws the cabin windows; the seven behind the wing's lines in the drawing are placed at its own window pitch. Doors 1, 2 and 4 and the cargo doors sit within 1 cm of the door table (2.7.1). Checks over 1.5%: the side view draws the fuselage 4.19 m tall between its own dimension arrows, labelled 4.01 m (+4.5%), and its belly 0.12 m lower aft of the wing, so over the middle third it reads +6.0%; the plan's width is as printed and the front view's section is 3.93 m tall, so it's the side view's drawing: the tube is fit to the printed height (fit_height.py; the check's +1.6% is the wing-body fairing). The front view draws the nacelle 2.34 m across where the sheet prints 2.46 m (RR) and 2.69 m (PW); kept the drawing's. Gear: the nose gear 5.89 m from the nose, the 18.29 m wheelbase and 7.32 m track from 2.2.1; 7.2's tire sizes (H31 x 13.0-12 nose, H40 x 14.5-19 main), spacings (0.61 m, 0.86 m) and bogie (1.14 m). The ground is 4.22 m below the centerline: the mean of 2.3.1's A (the crown at the nose), K (the fin) and L (the nacelle) less each part's height in the shape (4.13-4.30 m); its M and O are left out, as the figure doesn't make clear which wingtip or tailplane point they reach."
   }
  ],
  "fuselage": {
@@ -518,6 +518,13 @@
    ]
   ]
  },
+ "gear": {
+  "ground": -4.22,
+  "legs": [
+   {"kind": "nose", "x": 5.89, "y": 0, "wheels": 2, "spacing": 0.61, "tire": [0.787, 0.33]},
+   {"kind": "main", "x": 24.18, "y": 3.66, "wheels": 4, "spacing": 0.86, "tandem": 1.14, "tire": [1.016, 0.368]}
+  ]
+ },
  "checks": [
   {
    "dimension": "fuselage height",
@@ -566,6 +573,12 @@
    "printed": 2.69,
    "shape": 2.342,
    "off": "-12.9%"
+  },
+  {
+   "dimension": "overall height",
+   "printed": 13.615,
+   "shape": 13.705,
+   "off": "+0.7%"
   }
  ]
 }

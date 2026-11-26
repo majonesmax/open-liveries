@@ -15,6 +15,23 @@ interface Surface {
         depth: number;
         width?: number;
     }[];
+    /** A wing's trailing-edge flaps: each panel's ends (y), chord share and slots; the settings printed, in degrees. */
+    flaps?: {
+        segments: {
+            y: [number, number];
+            chord: number;
+            slots: 1 | 2 | 3;
+        }[];
+        detents?: Record<string, number>;
+        note?: string;
+    };
+    /** A wing's leading-edge devices: ends (y), kind, chord share, and how far they turn when out where printed. */
+    slats?: {
+        y: [number, number];
+        kind: 'slat' | 'krueger';
+        chord: number;
+        angle?: number;
+    }[];
 }
 /** A rear-mounted engine's stub pylon: a surface from the fuselage's side to the nacelle, and its thickness. */
 interface Pylon extends Surface {
@@ -123,6 +140,29 @@ export interface MeasuredShape {
     cockpit: {
         windows: Line[];
     };
+    /** The landing gear down, the aircraft on its wheels: the ground's height (z) and one side's legs, nose first. */
+    gear?: {
+        ground: number;
+        legs: GearLeg[];
+    };
+}
+/** A landing gear leg (docs/SHAPES.md, Gear): meters, its axle (a bogie's middle) at x, its middle y out. */
+export interface GearLeg {
+    kind: 'nose' | 'main' | 'body' | 'center';
+    x: number;
+    y: number;
+    /** What its strut hangs from: the wing's lower surface (main gear's default) or the belly (the others'). */
+    mount?: 'wing' | 'fuselage';
+    /** The strut's attachment, [x, z], where the drawing shows it. */
+    top?: Point;
+    /** 1, 2 side by side, 4 or 6 on a bogie of two or three axles. */
+    wheels: 1 | 2 | 4 | 6;
+    /** Between the tires' centers across an axle. */
+    spacing?: number;
+    /** A bogie's first to last axle. */
+    tandem?: number;
+    /** [diameter, width]. */
+    tire: [number, number];
 }
 /** A parsed JSON value that is a shape file rather than a parametric AircraftShape. */
 export declare function isMeasuredShape(shape: unknown): shape is MeasuredShape;

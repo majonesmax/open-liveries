@@ -9,21 +9,33 @@
  "sources": [
   {
    "url": "https://www.boeing.com/content/dam/boeing/boeingdotcom/commercial/airports/acaps/747-400_Rev_F.pdf",
-   "title": "Boeing, 747-400 Airplane Characteristics for Airport Planning (D6-58326-1 Rev F, December 2024), 2.2.1 General Dimensions: Model 747-400",
+   "title": "Boeing, 747-400 Airplane Characteristics for Airport Planning (D6-58326-1 Rev F, December 2024), 2.2.1 General Dimensions: Model 747-400; 2.2.1 plan's flap and aileron lines; 3.3.26 F.A.R. Takeoff Runway-Length Requirements, Model 747SP (flaps 10 and 20); 3.4.3 F.A.R. Landing Runway-Length Requirements, Model 747SP (flaps 30)",
    "accessed": "2026-11-25",
-   "note": "The nose, cockpit, section, main-deck windows, doors, wing, nacelles, fin and tailplane heights are the 747-400's measured outlines (shapes/B744-passenger.json; the upper deck is the 747-400F's short one, shapes/B744.json), taken apart and changed by tools/trace/b74s/derive.py as the 747SP pages of D6-58326 say."
+   "note": "The nose, cockpit, section, main-deck windows, doors, wing, nacelles, fin and tailplane heights are the 747-400's measured outlines (shapes/B744-passenger.json; the upper deck is the 747-400F's short one, shapes/B744.json), taken apart and changed by tools/trace/b74s/derive.py as the 747SP pages of D6-58326 say. Flaps: the 747-100/-200's spans and chords (2.2.1's plan) with the SP's single slot, settings off 3.3.26's and 3.4.3's charts."
   },
   {
    "url": "https://www.boeing.com/content/dam/boeing/v2/airports/acaps/747_123sp.pdf",
-   "title": "Boeing, 747 Airplane Characteristics for Airport Planning, Models 747-100, -200, -300, SP (D6-58326, May 1984, the 2023 reissue on boeing.com): 2.2.2 General Dimensions, Model 747SP (August 1975); 2.3.3 Ground Clearances, Model 747SP; 2.7.1-2.7.2 Main Entry Door Locations; 2.7.6, 2.7.10-2.7.12 Door Clearances",
+   "title": "Boeing, 747 Airplane Characteristics for Airport Planning, Models 747-100, -200, -300, SP (D6-58326, May 1984, the 2023 reissue on boeing.com): 2.2.2 General Dimensions, Model 747SP (August 1975); 2.3.3 Ground Clearances, Model 747SP; 2.7.1-2.7.2 Main Entry Door Locations; 2.7.6, 2.7.10-2.7.12 Door Clearances; 7.2.1 Landing Gear Footprint, Model 747SP; 7.2.2 Landing Gear Footprint Data, Models 747-100B, -300B, SP",
    "accessed": "2026-11-25",
-   "note": "A scan: 2.2.2 is drawn in lines about 0.35 m thick on a 5 ft grid (about 22 px a meter), too coarse to trace. Its figures (the 56.31 m overall length to the fin's top, 53.87 m to the tail cone, 55.85 m to the tailplane's tip, 59.64 m span, 25.22 m tailplane, 6.5 m width, engines 11.94 m and 21.18 m out), 2.3.3's fin tip 10.76 m above the crown, and the door tables' positions (doors at 9.50, 16.41, 31.60 and 41.35 m; 1984 tables 2.7.1 for the 747-100's) set the plugs, the tail's size and the squeezed aft body; the tailplane's plan and the aft body's taper are read off the scan to about 0.15 m (see the derive script). The JT9D-7 nacelles aren't told apart from the 747-400's RB211s at the scan's resolution, so the 747-400's stand in for them. The SP's single-slotted flaps' track fairings aren't drawn on the scan: the 747-400's four stand in. Confidence medium."
+   "note": "A scan: 2.2.2 is drawn in lines about 0.35 m thick on a 5 ft grid (about 22 px a meter), too coarse to trace. Its figures (the 56.31 m overall length to the fin's top, 53.87 m to the tail cone, 55.85 m to the tailplane's tip, 59.64 m span, 25.22 m tailplane, 6.5 m width, engines 11.94 m and 21.18 m out), 2.3.3's fin tip 10.76 m above the crown, and the door tables' positions (doors at 9.50, 16.41, 31.60 and 41.35 m; 1984 tables 2.7.1 for the 747-100's) set the plugs, the tail's size and the squeezed aft body; the tailplane's plan and the aft body's taper are read off the scan to about 0.15 m (see the derive script). The JT9D-7 nacelles aren't told apart from the 747-400's RB211s at the scan's resolution, so the 747-400's stand in for them. The SP's single-slotted flaps' track fairings aren't drawn on the scan: the 747-400's four stand in. Confidence medium. Gear: 2.2.2's nose gear 7.75 m from the nose; 7.2.1's 18.99 m from it to the wing gear and 3.07 m on to the body gear, the wing gear's 11.00 m and the body gear's 3.84 m track, tires 1.10 m apart and bogies of 1.37 m (2.2.2's 20.52 m to the gear's middle agrees); 7.2.2's 49 x 17 nose and 46 x 16 main tires. The ground is 5.35 m below the centerline: the mean of 2.3.3's A, H, K, L and M (upper deck, aft crown, fin, tailplane tip, wingtip) less each part's height in the shape, spread from 5.03 m (the tailplane tip) to 5.61 m (the fin). The nacelles are left out (RB211 stand-ins)."
   },
   {
    "url": "https://commons.wikimedia.org/wiki/File:Boeing_747SP-21,_Pan_American_World_Airways_-_Pan_Am_AN1014020.jpg",
    "title": "Boeing 747SP-21 N532PA, Pan Am, Paris, 17 July 1985 (Wikimedia Commons, GFDL 1.2)",
    "accessed": "2026-11-25",
    "note": "Left side, nearly side-on: the upper deck's ten windows, placed between doors 1 and 2. Only measurements are taken; nothing of the photo is copied."
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Boeing_747SP",
+   "title": "Boeing 747SP, Wikipedia: Design (single-piece trailing-edge flaps in place of the standard 747's triple-slotted ones)",
+   "accessed": "2026-11-26",
+   "note": "The SP's flaps have one slot. Their spans are the 747-100/-200's on the same wing (2.2.2's plan draws the same panels, too small to measure apart)."
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Boeing_747",
+   "title": "Boeing 747, Wikipedia: Design (triple-slotted trailing-edge flaps; Krueger flaps almost the whole leading edge)",
+   "accessed": "2026-11-26",
+   "note": "The flaps' three slots only. The Krueger flaps aren't drawn on D6-58326's plans, so the shape has no leading-edge devices."
   }
  ],
  "fuselage": {
@@ -409,7 +421,15 @@
     "depth": 0.58,
     "width": 0.7
    }
-  ]
+  ],
+  "flaps": {
+   "segments": [
+    {"y": [3.27, 10.6], "chord": 0.17, "slots": 1},
+    {"y": [13.2, 21.4], "chord": 0.24, "slots": 1}
+   ],
+   "detents": {"takeoff": 10, "takeoff-20": 20, "landing": 30},
+   "note": "The 747-100/-200's panels on the same wing (2.2.1's plan; 2.2.2's draws the same layout, too small to measure apart), with one slot each (Wikipedia: the SP's single-piece flaps). Settings: 3.3.26's takeoff chart (747SP, flaps 10 and 20) and 3.4.3's landing chart (flaps 30). The Krueger flaps aren't drawn, so none are given."
+  }
  },
  "stabilizer": {
   "leading": [
@@ -732,6 +752,14 @@
    ]
   ]
  },
+ "gear": {
+  "ground": -5.35,
+  "legs": [
+   {"kind": "nose", "x": 7.75, "y": 0, "wheels": 2, "spacing": 0.91, "tire": [1.245, 0.432]},
+   {"kind": "body", "x": 29.81, "y": 1.92, "wheels": 4, "spacing": 1.1, "tandem": 1.37, "tire": [1.168, 0.406]},
+   {"kind": "main", "x": 26.74, "y": 5.5, "wheels": 4, "spacing": 1.1, "tandem": 1.37, "tire": [1.168, 0.406]}
+  ]
+ },
  "checks": [
   {
    "dimension": "fuselage length",
@@ -828,6 +856,12 @@
    "printed": 35.94,
    "shape": 35.964,
    "off": "+0.1%"
+  },
+  {
+   "dimension": "overall height",
+   "printed": 19.95,
+   "shape": 19.686,
+   "off": "-1.3%"
   }
  ]
 }

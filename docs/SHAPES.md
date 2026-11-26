@@ -390,7 +390,57 @@ front view's bumps under the wing), its front and aft ends (`x`, from the side v
 behind it) and how far it hangs below the wing's lower surface (`depth`). The side view draws the near wing's as canoes
 from its underside. They're deepest a little aft of their middle and rise to a point at the aft end, in the wing's
 underside color, with the wing's edge over their tops. They're measured from the manufacturers' drawings, never from
-anyone's artwork.
+anyone's artwork. The 727's sheet draws none, so its four a wing are measured on an openly licensed Commons photo
+from below (G-OSRB, flaps up), checked on a flaps-down one, with their depth from a side-on one. The DC-9s' four are
+their front views', the DC-10's two outboard ones the MD-11's on the same wing. The L-1011s, A300B4 and BAe 146 have
+none yet: their drawings show where some are across the span but not their fore and aft ends (the shapes' notes give
+what's read).
+
+**Flaps** (`wing.flaps`, left out where not measured) are the trailing-edge flaps as the plan view draws their lines:
+each panel's inboard and outboard ends (`y`), its `chord` as a share of the wing's chord there (from its line to the
+trailing edge) and its `slots`, the elements it opens into (1, 2 for a vane ahead of the flap as on the DC-9, 3 for the
+727's and 747's triple-slotted flaps). `detents` are the settings the document prints, in degrees by what they're for
+(`takeoff`, `landing`; the largest is full travel), from its runway-length charts or the type certificate. A shape
+without them keeps its flaps up: no setting is guessed. `wing.slats` are the leading-edge devices the plan draws, each
+a `slat` or a `krueger` (a panel swung down and forward from under the leading edge, the 727's and 747's inboard),
+with its ends, chord share and, where a source prints it, the `angle` it turns when out. A device without an angle
+stays drawn stowed. The flaps ride on the fairings: in 3D a flap down moves aft and down along the canoes, its
+elements opening into slots. How far aft (0.7 of the flap's chord at full travel), how the setting is shared among the
+elements (the aft one turned by all of it) and the slots' size are the model's convention, not measurements. Ailerons
+and spoilers aren't modeled.
+
+Flaps are measured on the 727s, 747-100/-200, 747SP, DC-9s and DC-10, the types the broadcast shows landing. Their
+panels are read off the airport-planning plans (good to about 0.05 of the chord: the scans are coarse and spoilers
+drawn ahead of the flaps hide their front edge, so the 747's are likely short). Their settings are the runway-length
+charts' (section 3), with the DC-9-30's approach settings and the DC-10's takeoff setting from NTSB reports
+(AAR-95/03, AAR-79-17), as the charts name none. Their slots are from NASA CR-4695 (DC-9, DC-10) and the types'
+published descriptions (727, 747, the 747SP's single-slotted flaps). No source here prints the slats' or Krueger
+flaps' travel, so they stay stowed; the 747's Kruegers aren't drawn on its scan and aren't in the shape.
+
+**Gear** (`gear`, left out where not measured) is the landing gear down, with the aircraft standing on its wheels.
+Its `ground` is the ground's height (z, so below the centerline). That's a part's height in the shape less its printed
+height above the ground: the middle of the ground-clearance table's range (a document prints it at its lightest and
+heaviest), from two or three parts that agree. Every tire stands on it, so the model's lowest point with the gear down
+is one flat ground. `legs` are one side's, nose first. Each has its `kind` (`nose`, `main` on the wing, `body` under
+the fuselage beside the centerline as a 747's, `center` on the centerline as a DC-10-30's), its axle's `x` from the
+nose (a bogie's middle), its `y` out from the centerline (half the printed track), its `wheels` (1, 2 side by side, 4
+or 6 on a bogie), their `spacing` across an axle and a bogie's `tandem` (axles apart), and its `tire` [diameter,
+width] as printed. These are all in the airport-planning documents: the wheelbase and track on the general dimensions
+(2.2), the clearances (2.3) and the landing gear footprint (7.2), which prints the tire sizes and spacings. The nose
+gear's x is the main gear's less the printed wheelbase. The strut hangs from the wing's lower surface over the axle
+(`mount: "wing"`, a main leg's default) or from the belly (`fuselage`, the others'). `top` gives its attachment
+where the drawing shows it raked. Gear doors aren't measured.
+
+Gear is measured on the fifteen shapes the 1985 broadcast flies, each from its own document's sections (named in its
+source): the 727s, 737-300, 747-100/-200, 747SP, 757-200, MD-80, DC-9-10/-30/-50, DC-10, L-1011-1 and -500, A300B4 and
+BAe 146-200. The 747s have body gear and the DC-10-30 its two-wheel center gear (the -10, which the shape also serves,
+has none). The L-1011's tire sizes are from its FAA type certificate (A23WE) and Goodyear's application chart, as its
+maintenance manual prints only the footprint. The L-1011-500's wheelbase (18.80 m) is the -1's less the forward plug,
+which lands on the published figure. The BAe 146's gear is EASA's track, wheelbase and tires with its main legs where
+the Commons schematic draws them, hung from the fuselage's side (its sponsons aren't drawn). Ground lines agree within
+0.15 m between parts on most types. The DC-9-50's, A300's and 747s' parts spread 0.4-0.7 m (a sheet drawing the aircraft
+tail- or nose-high, or a derived wing's dihedral), and the mean is taken. The overall height check reads the fin's tip
+above that ground.
 
 **A high wing** (the Dash 8's, ATR's) is a wing like any other whose root is on the crown. Its plan's edges still start
 at the fuselage's side. Its `z` there is the front view's, at or above the crown. The Dash 8-400's middle is at the
@@ -567,7 +617,7 @@ on a shape without cabin windows, so an app can take the freighter of a type wit
   side but isn't modeled round in 3D.
 - **The fuselage's real cross-section.** Two quarter-ellipses are close on the A320 (3.97 m wide, 4.15 m tall). The
   front view has the true one, partly hidden by the wing and gear.
-- **The wing-to-body fairing, pylons, flap-track fairings, landing gear:** in the drawings, not yet in the
-  shapes.
+- **The wing-to-body fairing and pylons:** in the drawings, not yet in the shapes. Landing gear is measured on the
+  types the 1985 broadcast flies (Gear, above); the rest are to follow, busiest first. Gear doors aren't measured.
 - **In the renderer:** smooth curves through a scheme's area points, a pylon where a nacelle sits as high as the wing
   (the A320's gets none) and the 3D example built from a measured shape.

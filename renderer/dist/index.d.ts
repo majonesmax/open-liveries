@@ -5,7 +5,7 @@ import type { AircraftShape } from './shape.js';
 import type { LogoPainter } from './svg.js';
 export type * from './scheme.js';
 export type { AircraftShape, Chords } from './shape.js';
-export type { MeasuredShape } from './measured.js';
+export type { GearLeg, MeasuredShape } from './measured.js';
 export { isMeasuredShape, measuredShapeProblems } from './measured.js';
 export { schemeOn } from './per-type.js';
 /** A shape to draw on: a parametric one (built in, or your own numbers), or a measured type from shapes/. */

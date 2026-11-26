@@ -2,6 +2,7 @@
 // pylons in the side view's outline. Meters; x back from the nose, y up, z out to the aircraft's left.
 
 import * as THREE from 'three';
+import type { GearLeg } from '../../../../renderer/dist/index.js';
 import { lerp, paint, surface } from './model.js';
 
 /** A station across a lifting surface: its edges (x), its middle height, and how far out it is (z). */
@@ -13,7 +14,7 @@ export interface Station {
 }
 
 /** Half an airfoil's thickness at chord share u, for thickness ratio t (NACA four-digit, closed trailing edge). */
-const halfThickness = (u: number, t: number): number =>
+export const halfThickness = (u: number, t: number): number =>
   5 * t * (0.2969 * Math.sqrt(u) - 0.126 * u - 0.3516 * u ** 2 + 0.2843 * u ** 3 - 0.1036 * u ** 4);
 
 /** Chord share from 0 to 1, bunched at the leading edge, where an airfoil curves most. */
@@ -23,7 +24,8 @@ const along = (u: number): number => (1 - Math.cos(u * Math.PI)) / 2;
  * A wing or tailplane: a top and an underside meeting at the leading and trailing edges, thickness ratio `root` at
  * span share 0 easing to `tip` at 1. The underside is flatter than the top, as a cambered airfoil's is. Its tip is
  * closed by its section (else the sky shows through it, between the skins and a winglet); a stub carried in to the
- * centerline (`tip` false) ends inside the wing and leaves it open.
+ * centerline (`tip` false) ends inside the wing and leaves it open. `root` true closes its root the same way (a piece
+ * of a wing whose neighbour's chord differs: a flap's cut-out, a flap panel).
  */
 export function liftingSurface(
   station: (v: number) => Station,
@@ -32,6 +34,7 @@ export function liftingSurface(
   side: number,
   steps = 40,
   tip = true,
+  root = false,
 ): THREE.Object3D {
   const group = new THREE.Group();
   // Height at chord share u and span share v, `share` of the way from the middle to the top (1) or underside (-0.55).
@@ -49,8 +52,13 @@ export function liftingSurface(
     const skin = surface((u, v) => point(u, v, share), [24, steps], new THREE.Vector3(0, face, 0));
     group.add(new THREE.Mesh(skin, paint(color)));
   }
-  if (tip) {
-    const section = surface((u, w) => point(u, 1, -0.55 + 1.55 * w), [24, 1], new THREE.Vector3(0, 0, side));
+  for (const [end, closed] of [
+    [1, tip],
+    [0, root],
+  ] as const) {
+    if (!closed) continue;
+    const outward = new THREE.Vector3(0, 0, end ? side : -side);
+    const section = surface((u, w) => point(u, end, -0.55 + 1.55 * w), [24, 1], outward);
     group.add(new THREE.Mesh(section, paint(colors.top)));
   }
   return group;
@@ -180,5 +188,99 @@ export function propeller(p: Propeller, out: number, spinnerColor: string, blade
   disc.rotation.y = Math.PI / 2;
   disc.position.set(p.x, p.z, out);
   group.add(disc);
+  return group;
+}
+
+/** The gear's paint: gray metal struts, a bright oleo piston, black tires, light hubs (one set a leg). */
+const gearPaint = (): Record<'strut' | 'piston' | 'tire' | 'hub', THREE.Material> => ({
+  strut: paint('#8e959c', { metalness: 0.55, roughness: 0.45 }),
+  piston: paint('#d9dde1', { metalness: 0.85, roughness: 0.2 }),
+  tire: paint('#1c1d1f', { metalness: 0, roughness: 0.9 }),
+  hub: paint('#a9afb5', { metalness: 0.5, roughness: 0.4 }),
+});
+
+/** A round rod from one point to another. */
+function rod(from: THREE.Vector3, to: THREE.Vector3, radius: number, material: THREE.Material): THREE.Mesh {
+  const along = new THREE.Vector3().subVectors(to, from);
+  const mesh = new THREE.Mesh(new THREE.CylinderGeometry(radius, radius, along.length(), 10, 1), material);
+  mesh.position.copy(from).addScaledVector(along, 0.5);
+  mesh.quaternion.setFromUnitVectors(new THREE.Vector3(0, 1, 0), along.normalize());
+  return mesh;
+}
+
+/** A tire (diameter, width) on its hub, its axle across (along z), centered on the origin. */
+type GearPaint = ReturnType<typeof gearPaint>;
+
+function wheel(diameter: number, width: number, metal: GearPaint): THREE.Group {
+  const R = diameter / 2;
+  const rim = 0.52 * R;
+  // The tire's section, turned round its axle: a rounded box from the rim out to the tread.
+  const profile = Array.from({ length: 13 }, (_, i) => {
+    const t = -Math.PI / 2 + (i / 12) * Math.PI;
+    const c = Math.cos(t);
+    return new THREE.Vector2(rim + (R - rim) * Math.sign(c) * Math.abs(c) ** 0.3, (width / 2) * Math.sin(t));
+  });
+  const tire = new THREE.Mesh(new THREE.LatheGeometry(profile, 28), metal.tire);
+  tire.rotation.x = Math.PI / 2;
+  const hub = new THREE.Mesh(new THREE.CylinderGeometry(rim, rim, 0.86 * width, 20), metal.hub);
+  hub.rotation.x = Math.PI / 2;
+  const group = new THREE.Group();
+  group.add(tire, hub);
+  return group;
+}
+
+/**
+ * A landing gear leg standing on the ground: its wheels (side by side, or on a bogie), its axles, and its strut from
+ * `top` (on the wing or the belly) down to the axle or the bogie's beam, the oleo's bright piston at its foot. `brace`,
+ * where given, is a side strut from two-thirds down the leg up to that point on the structure. Meters, the model's
+ * frame (x back, y up, z out to the left); `out` is the leg's middle across.
+ */
+export function gearLeg(
+  leg: GearLeg,
+  out: number,
+  ground: number,
+  top: THREE.Vector3,
+  brace?: THREE.Vector3,
+): THREE.Group {
+  const group = new THREE.Group();
+  const metal = gearPaint();
+  const [diameter, width] = leg.tire;
+  const axleY = ground + diameter / 2;
+  const spread = leg.wheels === 1 ? 0 : (leg.spacing ?? width * 1.2) / 2;
+  const axles = leg.wheels <= 2 ? 1 : leg.wheels / 2;
+  const tandem = axles > 1 ? (leg.tandem ?? diameter * 1.3) : 0;
+  const alongs = Array.from(
+    { length: axles },
+    (_, i) => leg.x + (axles > 1 ? -tandem / 2 + (i * tandem) / (axles - 1) : 0),
+  );
+  const hub = diameter * (leg.kind === 'nose' ? 0.045 : 0.055);
+  for (const x of alongs) {
+    for (const a of spread ? [-spread, spread] : [0]) {
+      const w = wheel(diameter, width, metal);
+      w.position.set(x, axleY, out + a);
+      group.add(w);
+    }
+    if (spread)
+      group.add(
+        rod(new THREE.Vector3(x, axleY, out - spread), new THREE.Vector3(x, axleY, out + spread), hub, metal.strut),
+      );
+  }
+  // A bogie's beam, along x between its first and last axles, the strut meeting it in the middle.
+  const foot = new THREE.Vector3(leg.x, axleY + (axles > 1 ? 0.05 * diameter : 0), out);
+  if (axles > 1)
+    group.add(
+      rod(
+        new THREE.Vector3(leg.x - tandem / 2 - 0.1, foot.y, out),
+        new THREE.Vector3(leg.x + tandem / 2 + 0.1, foot.y, out),
+        1.4 * hub,
+        metal.strut,
+      ),
+    );
+  const radius = diameter * (leg.kind === 'nose' ? 0.1 : 0.19);
+  // The oleo: the piston's bright lower third, the cylinder above.
+  const knee = new THREE.Vector3().lerpVectors(foot, top, 0.3);
+  group.add(rod(foot, knee, 0.68 * radius, metal.piston));
+  group.add(rod(knee, top, radius, metal.strut));
+  if (brace) group.add(rod(new THREE.Vector3().lerpVectors(foot, top, 0.65), brace, 0.4 * radius, metal.strut));
   return group;
 }

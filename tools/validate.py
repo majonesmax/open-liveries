@@ -262,6 +262,36 @@ def windshield_gap(shape: dict[str, Any]) -> float:
     return 1 - best
 
 
+def gear_problems(shape: dict[str, Any], where: str) -> list[str]:
+    """The landing gear (docs/SHAPES.md, Gear): nose first, along the fuselage, below the belly, a main leg under the
+    wing it hangs from, and the wheels a leg says it has spaced as it says."""
+    gear = shape.get("gear")
+    if not gear:
+        return []
+    problems: list[str] = []
+    fuselage, legs = shape["fuselage"], gear["legs"]
+    if legs[0]["kind"] != "nose":
+        problems.append(f"{where}: gear.legs should start with the nose gear")
+    lowest = min(z for _, z in fuselage["belly"])
+    if gear["ground"] >= lowest:
+        problems.append(f"{where}: gear.ground ({gear['ground']}) should be below the belly's lowest point ({lowest})")
+    span = max(y for y, _ in shape["wing"]["trailing"])
+    for k, leg in enumerate(legs):
+        if not 0 < leg["x"] < fuselage["length"]:
+            problems.append(f"{where}: gear.legs[{k}] at x {leg['x']} isn't along the fuselage")
+        if leg["kind"] in ("nose", "center") and leg["y"] != 0:
+            problems.append(f"{where}: gear.legs[{k}] ({leg['kind']}) should be on the centerline (y 0)")
+        if leg.get("mount", "wing" if leg["kind"] == "main" else "fuselage") == "wing" and not 0 < leg["y"] < span:
+            problems.append(f"{where}: gear.legs[{k}] at y {leg['y']} isn't under the wing it hangs from")
+        if leg["wheels"] > 1 and "spacing" not in leg:
+            problems.append(f"{where}: gear.legs[{k}] has {leg['wheels']} wheels: give their spacing")
+        if leg["wheels"] > 2 and "tandem" not in leg:
+            problems.append(f"{where}: gear.legs[{k}] is a bogie: give its tandem (axles apart)")
+        if leg.get("spacing", 1) <= leg["tire"][1]:
+            problems.append(f"{where}: gear.legs[{k}]'s tires overlap (spacing under their width)")
+    return problems
+
+
 def check_shape(path: Path, validator: Draft202012Validator) -> list[str]:
     """A shape file: its schema, its id matching its name, and each line running the way docs/SHAPES.md says."""
     where = str(path.relative_to(ROOT))
@@ -340,6 +370,7 @@ def check_shape(path: Path, validator: Draft202012Validator) -> list[str]:
             )
         if depth <= 0:
             problems.append(f"{where}: wing.fairings[{k}] should hang below the wing (depth > 0)")
+    problems += gear_problems(shape, where)
     # Several engines a side: inboard first (the side view draws them in that order, the nearer over the farther).
     if any(b["y"] < a["y"] for a, b in pairwise(shape["engines"])):
         problems.append(f"{where}: engines should run inboard first (y rising)")

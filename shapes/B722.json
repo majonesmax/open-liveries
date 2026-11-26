@@ -9,9 +9,33 @@
  "sources": [
   {
    "url": "https://www.boeing.com/content/dam/boeing/v2/airports/acaps/727.pdf",
-   "title": "Boeing, 727 Airplane Characteristics for Airport Planning (D6-58324, June 1978, revised May 2011), 2.2 General Dimensions: Model 727-200, 2.3 Ground Clearances, 2.7 Door Clearances: Models 727-100, -100C and 727-200",
+   "title": "Boeing, 727 Airplane Characteristics for Airport Planning (D6-58324, June 1978, revised May 2011), 2.2 General Dimensions: Model 727-200, 2.3 Ground Clearances, 2.7 Door Clearances: Models 727-100, -100C and 727-200, 7.2.2 Landing Gear Footprint: Models Advanced 727-200 and -200F; 2.2 plan's flap, aileron and leading-edge lines; 3.2 C.A.R. Takeoff Runway Length (flaps 5-25); 3.3 C.A.R. Landing Runway Requirements, 30 and 40 Flaps",
    "accessed": "2026-11-15",
-   "note": "Dimensions and outlines read off the side, plan and front views of 2.2 (tools/trace/b722/); the figures are the aircraft's measurements, not a copy of the drawing. The sheet is a 1978 scan drawn on graph paper, about 40 px a meter: the grid's lines run through the drawing (the nose's crown along one is placed by hand). Scaled by the printed 41.50 m to the tail cone, its overall length, span and width are within 0.7% of their printed figures; its plan draws the tailplane 3.2% short of the printed 10.90 m and the side nacelles 2.75 m out against the printed 2.82 m (the front view's inlet), and its front view draws what stands beside and above the fuselage 0.25-0.5 m low against the fuselage's circle, so the tailplane's height is the side view's. A T-tail, two JT8D nacelles on the rear fuselage on stub pylons, and the third engine in the tail cone (engines[0], mount tail, duct s): its S-duct's intake stands on the crown ahead of the fin, the fin's leading edge rising from its top; its outline runs on under the fin's root fairing to the rudder's trailing edge, and its nozzle is the tail cone's last 1.5 m. The freighter (727-200F conversions): no cabin windows; the main-deck cargo door (left) is the 727-100C's from 2.7 (10.67 m to its middle, 3.40 m wide, 2.18 m tall), the size the conversions fit just aft of the entry door; the entry door (left), forward galley service door (right) and lower-deck cargo doors (right) at 2.7's 727-200 table, their sills from its ground-to-sill heights against the entry door's as drawn (the drawing's entry door sits 0.3 m ahead of the table's 5.03 m); the overwing exits and aft galley door, deactivated on freighters, left out. The fin's tip is checked against 2.3's ground clearances (J less L, middles of their ranges: about 0.15 m). The tail's straight edges (the fin's, the rudder's hinge line, the intake fairing's top and lip, the tail cone's top under it, the tailplane's) are set to their least-squares lines through the scan's line centres and its corners to fitted curves, the grid's steps left out (tools/trace/b722/straighten.py)."
+   "note": "Dimensions and outlines read off the side, plan and front views of 2.2 (tools/trace/b722/); the figures are the aircraft's measurements, not a copy of the drawing. The sheet is a 1978 scan drawn on graph paper, about 40 px a meter: the grid's lines run through the drawing (the nose's crown along one is placed by hand). Scaled by the printed 41.50 m to the tail cone, its overall length, span and width are within 0.7% of their printed figures; its plan draws the tailplane 3.2% short of the printed 10.90 m and the side nacelles 2.75 m out against the printed 2.82 m (the front view's inlet), and its front view draws what stands beside and above the fuselage 0.25-0.5 m low against the fuselage's circle, so the tailplane's height is the side view's. A T-tail, two JT8D nacelles on the rear fuselage on stub pylons, and the third engine in the tail cone (engines[0], mount tail, duct s): its S-duct's intake stands on the crown ahead of the fin, the fin's leading edge rising from its top; its outline runs on under the fin's root fairing to the rudder's trailing edge, and its nozzle is the tail cone's last 1.5 m. The freighter (727-200F conversions): no cabin windows; the main-deck cargo door (left) is the 727-100C's from 2.7 (10.67 m to its middle, 3.40 m wide, 2.18 m tall), the size the conversions fit just aft of the entry door; the entry door (left), forward galley service door (right) and lower-deck cargo doors (right) at 2.7's 727-200 table, their sills from its ground-to-sill heights against the entry door's as drawn (the drawing's entry door sits 0.3 m ahead of the table's 5.03 m); the overwing exits and aft galley door, deactivated on freighters, left out. The fin's tip is checked against 2.3's ground clearances (J less L, middles of their ranges: about 0.15 m). The tail's straight edges (the fin's, the rudder's hinge line, the intake fairing's top and lip, the tail cone's top under it, the tailplane's) are set to their least-squares lines through the scan's line centres and its corners to fitted curves, the grid's steps left out (tools/trace/b722/straighten.py). Gear: 2.2's nose gear 4.6 m from the nose, its 19.28 m wheelbase and 5.72 m track (7.2.2 agrees); 7.2.2's tire sizes (32 x 11.5 nose, 50 x 21 main, the -200F's and most Advanced -200s') and spacings (0.61 m, 0.86 m). The ground is 3.22 m below the centerline: the mean of 2.3's -200 crown (L), forward and mid-fuselage bottoms (B, F), fin (J) and wingtip (K) less each part's height in the shape (3.17-3.31 m). No view in the document draws the flap track fairings; they're measured on the photos below. Flaps and leading-edge devices: their spans and chords read off 2.2's plan (dashed under the inner wing's leading edge, the Krueger flaps; a strip along the outer wing's, the slats), settings off 3.2's and 3.3's charts."
+  },
+  {
+   "url": "https://commons.wikimedia.org/wiki/File:G-OSRB_Boeing_727-200_T2_Aviation.jpg",
+   "title": "G-OSRB Boeing 727-200 T2 Aviation, from below, 14 June 2015 (Paul Lucas, CC BY 2.0)",
+   "accessed": "2026-11-26",
+   "note": "The flap track fairings, measured (only measurements are taken): a 727-2S2F(Adv) seen from almost straight below, both wings, flaps up. Each wing's root and tip corners (the shape's plan) fix a projective map from the photo to the plan; four canoes a wing, their ends mapped to y and x. The two wings agree within 0.4-0.7 m in y; the fairings are their means. Their width is from the same photo (0.33-0.40 m). Two smaller fairings a wing (at the flap gap and the aileron) are left out."
+  },
+  {
+   "url": "https://commons.wikimedia.org/wiki/File:727_AIRPLANE_TAKE_OFF_-_NARA_-_17446753.jpg",
+   "title": "727 Airplane Take Off, an Eastern 727-200 from behind and below (NARA 17446753, public domain)",
+   "accessed": "2026-11-26",
+   "note": "A check on the fairings' spans (only measurements are taken): flaps down, the outboard flap's two canoes at 8.7 and 11.0 m out (the outboard flap's ends from the document's plan), against 8.68 and 11.08 m from G-OSRB."
+  },
+  {
+   "url": "https://commons.wikimedia.org/wiki/File:Eastern_Air_Lines_N819EA,_Las_Vegas_-_Harry_Reid_International,_October_1982.jpg",
+   "title": "Eastern Air Lines N819EA, Las Vegas - Harry Reid International, October 1982 (Leslie Snelleman, CC BY-SA 4.0)",
+   "accessed": "2026-11-26",
+   "note": "The fairings' depth (only measurements are taken): side-on, flaps up, their aft ends show below the wing's lower edge at 26.2-26.9 m from the nose, about 0.45 m down (to perhaps 0.15 m either way: the camera is a little above the wing)."
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Boeing_727",
+   "title": "Boeing 727, Wikipedia: Design (Krueger flaps on the inner wing's leading edge and slats out to the tip, triple-slotted Fowler flaps)",
+   "accessed": "2026-11-26",
+   "note": "The kind of each high-lift device only (Krueger or slat, three slots); their spans and chords are read off D6-58324's 2.2 plan."
   }
  ],
  "fuselage": {
@@ -379,6 +403,24 @@
    [15.114, -0.777],
    [15.832, -0.735],
    [16.539, -0.718]
+  ],
+  "fairings": [
+   {"y": 3.17, "x": [22.0, 26.1], "depth": 0.45, "width": 0.37},
+   {"y": 5.04, "x": [22.64, 26.41], "depth": 0.45, "width": 0.37},
+   {"y": 8.68, "x": [24.48, 27.11], "depth": 0.45, "width": 0.37},
+   {"y": 11.08, "x": [25.53, 28.29], "depth": 0.45, "width": 0.37}
+  ],
+  "flaps": {
+   "segments": [
+    {"y": [1.89, 6.44], "chord": 0.26, "slots": 3},
+    {"y": [7.7, 12.58], "chord": 0.35, "slots": 3}
+   ],
+   "detents": {"takeoff-5": 5, "takeoff": 15, "takeoff-20": 20, "takeoff-25": 25, "landing": 30, "landing-40": 40},
+   "note": "D6-58324 2.2's plan (727-200): the inboard flap from the body to the inboard aileron (6.44-7.70 m), the outboard flap to the outboard aileron (12.58 m to the tip), each chord from its forward line to the trailing edge (the inboard one from the boxes ahead of its strip: within 0.05). Settings: 3.2's takeoff charts (Advanced 727-200, page 45: flaps 5, 15, 20 and 25; `takeoff` is 15) and 3.3's landing chart (page 53: flaps 30 and 40, 40 the full travel). Three slots: Wikipedia."
+  },
+  "slats": [
+   {"y": [2.35, 6.89], "kind": "krueger", "chord": 0.1},
+   {"y": [6.89, 15.86], "kind": "slat", "chord": 0.21}
   ]
  },
  "stabilizer": {
@@ -642,6 +684,13 @@
    ]
   ]
  },
+ "gear": {
+  "ground": -3.22,
+  "legs": [
+   {"kind": "nose", "x": 4.6, "y": 0, "wheels": 2, "spacing": 0.61, "tire": [0.813, 0.292]},
+   {"kind": "main", "x": 23.88, "y": 2.86, "wheels": 2, "spacing": 0.86, "tire": [1.27, 0.533]}
+  ]
+ },
  "checks": [
   {
    "dimension": "fuselage width",
@@ -684,6 +733,12 @@
    "printed": 4.88,
    "shape": 4.683,
    "off": "-4.0%"
+  },
+  {
+   "dimension": "overall height",
+   "printed": 10.13,
+   "shape": 10.038,
+   "off": "-0.9%"
   }
  ]
 }

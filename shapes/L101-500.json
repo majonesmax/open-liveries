@@ -9,9 +9,9 @@
  "sources": [
   {
    "url": "https://archive.org/details/chapter-22_202208",
-   "title": "Lockheed, L-1011 Maintenance Manual, chapter 6 Dimensions and Areas, 6-10-00 Principal Dimensions: Figure 1 Aircraft Dimensions - Front and Side Views (Nov 15/78), Figure 2 Aircraft Dimensions - Plan View (Dec 1/71), Figure 4 General Ground Clearance (Nov 15/75), Figure 6 Door Size and Location Data; EFFECTIVITY: ALL (a scan in the Internet Archive item 'Lockheed L1011 Maintenance Manual', file 'Chapter 6.pdf')",
+   "title": "Lockheed, L-1011 Maintenance Manual, chapter 6 Dimensions and Areas, 6-10-00 Principal Dimensions: Figure 1 Aircraft Dimensions - Front and Side Views (Nov 15/78), Figure 2 Aircraft Dimensions - Plan View (Dec 1/71), Figure 4 General Ground Clearance (Nov 15/75), Figure 6 Door Size and Location Data; EFFECTIVITY: ALL (a scan in the Internet Archive item 'Lockheed L1011 Maintenance Manual', file 'Chapter 6.pdf'), Figure 7 Landing Gear Footprint Dimensions (Feb 15/78)",
    "accessed": "2026-11-25",
-   "note": "The -1's outlines (shapes/L101.json, tools/trace/l101/) are this shape's, taken apart by tools/trace/l101-500/derive.py: this chapter covers the standard-body aircraft only and no openly available document draws the -500. Its door stations (Figure 6: L1 FS 304.5, L2 FS 873.0, L3 FS 1513.0, L4 FS 1778.0) are the stations the plugs and doors are placed by."
+   "note": "The -1's outlines (shapes/L101.json, tools/trace/l101/) are this shape's, taken apart by tools/trace/l101-500/derive.py: this chapter covers the standard-body aircraft only and no openly available document draws the -500. Its door stations (Figure 6: L1 FS 304.5, L2 FS 873.0, L3 FS 1513.0, L4 FS 1778.0) are the stations the plugs and doors are placed by. Gear (`gear`): the -1's (shapes/L101.json: Figure 1's nose gear 9.067 m from the nose, Figure 7's track and bogie, Figure 4's ground) with the main gear moved forward by the -500's forward plug (2.54 m, which lies between the nose gear and the wing), giving the -500's published wheelbase of 61 ft 8 in (18.80 m; tristar500.net's specifications). Its tires are Goodyear's application chart's for the -500 (52 x 20.5-20 main, 37 x 13.0-16 nose); its tire spacings are the -1's (the -500's footprint isn't in the open). No flap track fairings (none legible on the -1's drawings)."
   },
   {
    "url": "https://en.wikipedia.org/wiki/Lockheed_L-1011_TriStar",
@@ -840,6 +840,13 @@
     [3.377, 0.347],
     [2.726, 0.378]
    ]
+  ]
+ },
+ "gear": {
+  "ground": -5.19,
+  "legs": [
+   {"kind": "nose", "x": 9.07, "y": 0, "wheels": 2, "spacing": 0.61, "tire": [0.94, 0.33]},
+   {"kind": "main", "x": 27.86, "y": 5.487, "wheels": 4, "spacing": 1.321, "tandem": 1.778, "tire": [1.321, 0.521]}
   ]
  },
  "checks": [

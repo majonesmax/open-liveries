@@ -9,9 +9,15 @@
  "sources": [
   {
    "url": "https://www.boeing.com/content/dam/boeing/v2/airports/acaps/DC9.pdf",
-   "title": "Boeing (Douglas Aircraft Company), DC-9 Airplane Characteristics for Airport Planning (June 1984, revised F 5/84), 2.2 General Airplane Dimensions: Model DC-9-51 and Model DC-9-32; 2.7.4 Passenger Entrance and Service Door Clearances, Model DC-9",
+   "title": "Boeing (Douglas Aircraft Company), DC-9 Airplane Characteristics for Airport Planning (June 1984, revised F 5/84), 2.2 General Airplane Dimensions: Model DC-9-51 and Model DC-9-32; 2.7.4 Passenger Entrance and Service Door Clearances, Model DC-9; 2.3 Ground Clearances, Model DC-9-51; 7.2 Footprint, Model DC-9; 2.2 plan's flap, aileron and slat lines; 3.4 FAR Landing Runway Length Requirements, Model DC-9-51 (flaps 40 and 50)",
    "accessed": "2026-11-24",
-   "note": "Dimensions and outlines read off the DC-9-51 sheet's side, plan and front views (tools/trace/dc95/), starting from the DC-9-30's points (tools/trace/dc93/) with its two plugs added; the figures are the aircraft's measurements, not a copy of the drawing. The sheet is a 1-bit scan on graph paper (about 47 px a meter at the scale rendered, so outlines are good to about 5 cm). Scaled by the printed 36.96 m from the nose to the tail cone. The wing, fin and tailplane are the DC-9-30's, snapped onto this sheet's drawing of them; the JT8D-17 nacelle with its later thrust reverser is this sheet's. Its side view draws the tube 3.52 m tall against the printed 3.61 m (its front view 3.57 m), so the fuselage is fit to the printed height (fit_height.py). The sheet draws 44 cabin windows (a dashed one at the aft end, optional, left out), the main entry door, two overwing exits a side and the cargo doors (dashed); the service door is placed from 2.7.4 as on the DC-9-30. Windows' height and width and the cockpit panes are the MD-80's (MD82: the same nose and cabin section). The nose strakes 2.7.4 notes on the DC-9-51 aren't drawn. Confidence medium: a scan."
+   "note": "Dimensions and outlines read off the DC-9-51 sheet's side, plan and front views (tools/trace/dc95/), starting from the DC-9-30's points (tools/trace/dc93/) with its two plugs added; the figures are the aircraft's measurements, not a copy of the drawing. The sheet is a 1-bit scan on graph paper (about 47 px a meter at the scale rendered, so outlines are good to about 5 cm). Scaled by the printed 36.96 m from the nose to the tail cone. The wing, fin and tailplane are the DC-9-30's, snapped onto this sheet's drawing of them; the JT8D-17 nacelle with its later thrust reverser is this sheet's. Its side view draws the tube 3.52 m tall against the printed 3.61 m (its front view 3.57 m), so the fuselage is fit to the printed height (fit_height.py). The sheet draws 44 cabin windows (a dashed one at the aft end, optional, left out), the main entry door, two overwing exits a side and the cargo doors (dashed); the service door is placed from 2.7.4 as on the DC-9-30. Windows' height and width and the cockpit panes are the MD-80's (MD82: the same nose and cabin section). The nose strakes 2.7.4 notes on the DC-9-51 aren't drawn. Confidence medium: a scan. Gear (`gear`): 2.2 prints the nose gear 2.32 m (7 ft 7.2 in) behind the nose and the wheelbase 18.57 m (60 ft 11 in); 7.2 prints the track 4.88 m (16 ft 0 in), the main wheels 26 in (0.66 m) apart and the nose wheels 14 in (0.36 m), the main tires 41 x 15-18 and the nose tires 26 x 6.6. The ground is -2.85 m: the crown less M (4.57 m) gives -2.75, the fin-top fairing less F (8.69 m) -3.04, the nacelle's middle less J (3.12 m) -2.97, the wingtip less G (2.21 m) -2.64 (the middles of 2.3's maximum and minimum). 2.3 has the DC-9-51 sitting tail-high, which a level ground can't follow, so the ground is their mean and the height check is -2.2%. Flap hinge fairings (`wing.fairings`): the DC-9-32 sheet's front view (2.2, and 2.3's) draws four under each wing, at 4.09, 4.59, 6.45 and 8.52 m out, 0.27-0.41 m deep, and its side view draws the near wing's as short V-shaped pods at the trailing edge (0.98, 0.66 and 0.38 m long; the 4.59 m one is hidden behind the first and given its length). The side view draws them ending 0.2-0.5 m ahead of the plan's trailing edge, so each is moved aft to end 0.16 m behind it (as the other shapes' fairings drawn ahead of it). The DC-9-51 sheet's front view draws the same fairings; they're the DC-9-32's, each kept at its distance from the trailing edge. Flaps and slats: the DC-9-32's spans and chords (2.2's plans), landing settings off 3.4's charts."
+  },
+  {
+   "url": "https://ntrs.nasa.gov/citations/19960003437",
+   "title": "Yamamoto, Donelson, Huang and Joshi, Airframe Noise Prediction Evaluation, NASA Contractor Report 4695 (October 1995): Figure 1.1, Outboard Flap Section (a) DC-9-31, (b) DC-10-10; section 5 (\"DC-9-30 series aircraft have one double-slotted flap\"; \"DC-10-10 has two flaps\")",
+   "accessed": "2026-11-26",
+   "note": "The flaps' slots: a vane ahead of the flap on the DC-9-31's and the DC-10-10's outboard flap (the DC-10's inboard flap isn't drawn there and is taken to be the same)."
   }
  ],
  "fuselage": {
@@ -283,6 +289,22 @@
    [13.466, -0.504],
    [13.634, -0.489],
    [14.008, -0.433]
+  ],
+  "fairings": [
+   {"y": 4.09, "x": [21.51, 22.49], "depth": 0.41, "width": 0.14},
+   {"y": 4.59, "x": [21.63, 22.61], "depth": 0.27, "width": 0.13},
+   {"y": 6.45, "x": [22.39, 23.05], "depth": 0.38, "width": 0.16},
+   {"y": 8.52, "x": [23.17, 23.55], "depth": 0.27, "width": 0.1}
+  ],
+  "flaps": {
+   "segments": [
+    {"y": [1.68, 8.82], "chord": 0.2, "slots": 2}
+   ],
+   "detents": {"landing": 40, "landing-50": 50},
+   "note": "The DC-9-32's flap and slats (2.2's plan) on the same wing; the DC-9-51 sheet draws the same layout. Settings: 3.4's landing charts (DC-9-51: flaps 40 and 50). Two slots: NASA CR-4695 (the DC-9-31's)."
+  },
+  "slats": [
+   {"y": [1.68, 13.6], "kind": "slat", "chord": 0.17}
   ]
  },
  "stabilizer": {
@@ -558,6 +580,13 @@
    ]
   ]
  },
+ "gear": {
+  "ground": -2.85,
+  "legs": [
+   {"kind": "nose", "x": 2.32, "y": 0, "wheels": 2, "spacing": 0.356, "tire": [0.66, 0.168]},
+   {"kind": "main", "x": 20.89, "y": 2.44, "wheels": 2, "spacing": 0.66, "tire": [1.041, 0.381]}
+  ]
+ },
  "checks": [
   {
    "dimension": "fuselage height",
@@ -606,6 +635,12 @@
    "printed": 4.506,
    "shape": 4.504,
    "off": "-0.0%"
+  },
+  {
+   "dimension": "overall height",
+   "printed": 8.687,
+   "shape": 8.5,
+   "off": "-2.2%"
   }
  ]
 }

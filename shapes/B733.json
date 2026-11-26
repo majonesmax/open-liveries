@@ -7,9 +7,9 @@
   "sources": [
     {
       "url": "https://www.boeing.com/content/dam/boeing/v2/airports/acaps/737CL_REV_E.pdf",
-      "title": "Boeing, 737-100/-200/-300/-400/-500 Airplane Characteristics for Airport Planning (D6-58325-6 Rev E, November 2023), 2.2.3 General Dimensions: Model 737-300",
+      "title": "Boeing, 737-100/-200/-300/-400/-500 Airplane Characteristics for Airport Planning (D6-58325-6 Rev E, November 2023), 2.2.3 General Dimensions: Model 737-300; 2.3.2 Ground Clearances: Model 737-300, -400, -500; 7.2.4 Landing Gear Footprint: Model Advanced 737-300, -400, -500",
       "accessed": "2026-11-15",
-      "note": "Dimensions and outlines read off the side, plan and front views (tools/trace/b733/); the figures are the aircraft's measurements, not a copy of the drawing. Plain wing tips, as the sheet draws them (the -300W sheet has Aviation Partners' blended winglets, flown mostly by Southwest, now retired). The sheet draws the cabin windows; the one behind the wing's line in the drawing is placed at its own position. The side view draws the fuselage 3.93 m tall (line centres) where the sheet prints 4.01 m and the front view draws 3.99 m, so the shape is fit to the printed height (fit_height.py). The side view draws the engine's inlet lip 10.32 m from the nose and the plan view 11.00 m; the sheet prints 11.00 m (the 737-300, -400 and -500 sheets all draw the plan's nacelle 0.69 m further back than the side's). The nacelle is moved 0.69 m back to the printed figure (build.py, as for any inlet more than 1.5% off); the wing stays where the plan draws it. Confidence medium for the views' disagreement."
+      "note": "Dimensions and outlines read off the side, plan and front views (tools/trace/b733/); the figures are the aircraft's measurements, not a copy of the drawing. Plain wing tips, as the sheet draws them (the -300W sheet has Aviation Partners' blended winglets, flown mostly by Southwest, now retired). The sheet draws the cabin windows; the one behind the wing's line in the drawing is placed at its own position. The side view draws the fuselage 3.93 m tall (line centres) where the sheet prints 4.01 m and the front view draws 3.99 m, so the shape is fit to the printed height (fit_height.py). The side view draws the engine's inlet lip 10.32 m from the nose and the plan view 11.00 m; the sheet prints 11.00 m (the 737-300, -400 and -500 sheets all draw the plan's nacelle 0.69 m further back than the side's). The nacelle is moved 0.69 m back to the printed figure (build.py, as for any inlet more than 1.5% off); the wing stays where the plan draws it. Confidence medium for the views' disagreement. Gear: the nose gear 4.01 m from the nose, the 12.45 m wheelbase and 5.23 m track from 2.2.3; 7.2.4's tire sizes (27 x 7.75-15 nose, H40 x 14.5-19 main) and spacings (0.41 m, 0.77 m). The ground is 3.05 m below the centerline: the mean of 2.3.2's crown, bottom of fuselage, engine, wingtip, stabilizer and fin heights (middles of their ranges) less each part's height in the shape, which spread from 2.92 m (the fin) to 3.18 m (the crown)."
     }
   ],
   "fuselage": {
@@ -319,6 +319,13 @@
       ]
     ]
   },
+  "gear": {
+    "ground": -3.05,
+    "legs": [
+      {"kind": "nose", "x": 4.01, "y": 0, "wheels": 2, "spacing": 0.41, "tire": [0.686, 0.197]},
+      {"kind": "main", "x": 16.46, "y": 2.615, "wheels": 2, "spacing": 0.77, "tire": [1.016, 0.368]}
+    ]
+  },
   "checks": [
     {
       "dimension": "fuselage height",
@@ -361,6 +368,12 @@
       "printed": 11.0,
       "shape": 11.0,
       "off": "+0.0%"
+    },
+    {
+      "dimension": "overall height",
+      "printed": 11.11,
+      "shape": 11.239,
+      "off": "+1.2%"
     }
   ]
 }

@@ -9,9 +9,21 @@
  "sources": [
   {
    "url": "https://www.boeing.com/content/dam/boeing/v2/airports/acaps/DC9.pdf",
-   "title": "Boeing (Douglas Aircraft Company), DC-9 Airplane Characteristics for Airport Planning (June 1984, revised F 5/84), 2.2 General Airplane Dimensions: Model DC-9-32; 2.7.4 Passenger Entrance and Service Door Clearances, Model DC-9",
+   "title": "Boeing (Douglas Aircraft Company), DC-9 Airplane Characteristics for Airport Planning (June 1984, revised F 5/84), 2.2 General Airplane Dimensions: Model DC-9-32; 2.7.4 Passenger Entrance and Service Door Clearances, Model DC-9; 2.3 Ground Clearances, Model DC-9-32; 7.2 Footprint, Model DC-9; 2.2 plan's flap, aileron and slat lines; 3.4 FAR Landing Runway Length Requirements, Model DC-9-32 (flaps 40 and 50)",
    "accessed": "2026-11-24",
-   "note": "Dimensions and outlines read off the DC-9-32 sheet's side, plan and front views (tools/trace/dc93/); the figures are the aircraft's measurements, not a copy of the drawing. The sheet is a 1-bit scan on graph paper (about 47 px a meter, so outlines are good to about 5 cm), drawn 0.43 degrees off level (turned level). Scaled by the printed 32.61 m (107 ft) from the nose to the tail cone; the plan and front views are at the side's scale. Against the sheet's printed figures: overall length 36.36 m (to the fin's top fairing's tail), span 28.44 m, tailplane 11.22 m, width 3.35 m, height 3.61 m and the engines 2.70 m out (see checks). The side and front views draw the tube within 0.8% of the printed 3.61 m, so it isn't fit to it. The JT8D nacelle (with its target thrust reverser and nozzle cone) is the sheet's, its fan cowl ending at 30.3 m. The sheet draws the cabin windows (34 solid, plus a dashed one at each end of the row, optional on some aircraft and left out), the left side's main entry door, the overwing exits and the right side's cargo doors (dashed); the right side's service door is placed from 2.7.4's partial plan (27 in wide, 4.51 m to its middle; its height the 48.5 in of 2.4's door list, its sill with the main door's). The main entry door's middle sits within 4 cm of 2.7.4's printed 172.5 in (4.38 m). The windows' height and width and the cockpit panes are the MD-80's (MD82: the same nose and cabin section), the windows' places along the body this sheet's. Confidence medium: a scan."
+   "note": "Dimensions and outlines read off the DC-9-32 sheet's side, plan and front views (tools/trace/dc93/); the figures are the aircraft's measurements, not a copy of the drawing. The sheet is a 1-bit scan on graph paper (about 47 px a meter, so outlines are good to about 5 cm), drawn 0.43 degrees off level (turned level). Scaled by the printed 32.61 m (107 ft) from the nose to the tail cone; the plan and front views are at the side's scale. Against the sheet's printed figures: overall length 36.36 m (to the fin's top fairing's tail), span 28.44 m, tailplane 11.22 m, width 3.35 m, height 3.61 m and the engines 2.70 m out (see checks). The side and front views draw the tube within 0.8% of the printed 3.61 m, so it isn't fit to it. The JT8D nacelle (with its target thrust reverser and nozzle cone) is the sheet's, its fan cowl ending at 30.3 m. The sheet draws the cabin windows (34 solid, plus a dashed one at each end of the row, optional on some aircraft and left out), the left side's main entry door, the overwing exits and the right side's cargo doors (dashed); the right side's service door is placed from 2.7.4's partial plan (27 in wide, 4.51 m to its middle; its height the 48.5 in of 2.4's door list, its sill with the main door's). The main entry door's middle sits within 4 cm of 2.7.4's printed 172.5 in (4.38 m). The windows' height and width and the cockpit panes are the MD-80's (MD82: the same nose and cabin section), the windows' places along the body this sheet's. Confidence medium: a scan. Gear (`gear`): 2.2 prints the nose gear 2.32 m (7 ft 7.2 in) behind the nose and the wheelbase 16.22 m (53 ft 2.4 in); 7.2 prints the track 4.98 m (16 ft 4 in) (2.2 prints 5.00 m, used here), the main wheels 25 in (0.64 m) apart and the nose wheels 14 in (0.36 m), the main tires 40 x 14-16 and the nose tires 26 x 6.6. The ground is -2.81 m: the crown 1.78 m above the centerline less M (4.59 m) gives -2.80, the fin-top fairing less F (8.40 m) -2.81, the nacelle's middle less J (2.98 m) -2.87, the wingtip less G (2.27 m) -2.73 (the middles of 2.3's maximum and minimum). Flap hinge fairings (`wing.fairings`): the DC-9-32 sheet's front view (2.2, and 2.3's) draws four under each wing, at 4.09, 4.59, 6.45 and 8.52 m out, 0.27-0.41 m deep, and its side view draws the near wing's as short V-shaped pods at the trailing edge (0.98, 0.66 and 0.38 m long; the 4.59 m one is hidden behind the first and given its length). The side view draws them ending 0.2-0.5 m ahead of the plan's trailing edge, so each is moved aft to end 0.16 m behind it (as the other shapes' fairings drawn ahead of it). Flaps and slats: spans and chords read off 2.2's plan (the slat the strip between the leading edge's two lines, 0.15-0.18 of the chord), landing settings off 3.4's charts."
+  },
+  {
+   "url": "https://ntrs.nasa.gov/citations/19960003437",
+   "title": "Yamamoto, Donelson, Huang and Joshi, Airframe Noise Prediction Evaluation, NASA Contractor Report 4695 (October 1995): Figure 1.1, Outboard Flap Section (a) DC-9-31, (b) DC-10-10; section 5 (\"DC-9-30 series aircraft have one double-slotted flap\"; \"DC-10-10 has two flaps\")",
+   "accessed": "2026-11-26",
+   "note": "The flaps' slots: a vane ahead of the flap on the DC-9-31's and the DC-10-10's outboard flap (the DC-10's inboard flap isn't drawn there and is taken to be the same)."
+  },
+  {
+   "url": "https://libraryonline.erau.edu/online-full-text/ntsb/aircraft-accident-reports/AAR95-03.pdf",
+   "title": "NTSB, Aircraft Accident Report AAR-95/03, USAir Flight 1016, DC-9-31 N954VJ (1995), 1.6.1: landing reference speeds at flaps 15, 25 and 40 degrees",
+   "accessed": "2026-11-26",
+   "note": "The DC-9-30's approach flap settings (15 and 25) beside the document's landing ones."
   }
  ],
  "fuselage": {
@@ -276,6 +288,22 @@
    [12.248, -0.546],
    [13.148, -0.523],
    [14.124, -0.456]
+  ],
+  "fairings": [
+   {"y": 4.09, "x": [19.0, 19.98], "depth": 0.41, "width": 0.14},
+   {"y": 4.59, "x": [19.11, 20.09], "depth": 0.27, "width": 0.13},
+   {"y": 6.45, "x": [19.86, 20.52], "depth": 0.38, "width": 0.16},
+   {"y": 8.52, "x": [20.62, 21.0], "depth": 0.27, "width": 0.1}
+  ],
+  "flaps": {
+   "segments": [
+    {"y": [1.69, 8.82], "chord": 0.2, "slots": 2}
+   ],
+   "detents": {"approach": 15, "approach-25": 25, "landing": 40, "landing-50": 50},
+   "note": "2.2's plan (DC-9-32): one flap from the body to the aileron (8.82 m out to the tip), its chord from its forward line to the trailing edge (rows from 4.3 to 8.5 m out agree within 0.01). Settings: 3.4's landing charts (DC-9-32: flaps 40, and full down at 50); the approach settings 15 and 25 are NTSB AAR-95/03's. Two slots (a vane ahead of the flap): NASA CR-4695."
+  },
+  "slats": [
+   {"y": [1.69, 13.6], "kind": "slat", "chord": 0.17}
   ]
  },
  "stabilizer": {
@@ -512,6 +540,13 @@
    ]
   ]
  },
+ "gear": {
+  "ground": -2.81,
+  "legs": [
+   {"kind": "nose", "x": 2.32, "y": 0, "wheels": 2, "spacing": 0.356, "tire": [0.66, 0.168]},
+   {"kind": "main", "x": 18.54, "y": 2.5, "wheels": 2, "spacing": 0.635, "tire": [1.016, 0.356]}
+  ]
+ },
  "checks": [
   {
    "dimension": "fuselage height",
@@ -560,6 +595,12 @@
    "printed": 4.506,
    "shape": 4.511,
    "off": "+0.1%"
+  },
+  {
+   "dimension": "overall height",
+   "printed": 8.4,
+   "shape": 8.4,
+   "off": "+0.0%"
   }
  ]
 }

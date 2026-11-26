@@ -11,10 +11,13 @@
 //   an inlet lip, a fan and a pylon: under a wing as the side view draws it; on the fuselage (`mount: 'fuselage'`)
 //   its stub pylon, a thick airfoil from the fuselage's side to the nacelle's middle between its measured edges; with a
 //   propeller (a turboprop's), the nacelle as wide as its plan, the spinner, blades and a faint disc, and no pylon.
+// - **Flap track fairings:** always, canoes under the wing in its underside's paint.
+// - **Landing gear** (`{ gear: true }`, where the shape measures it): each leg's wheels on the shape's ground line,
+//   its strut up to the wing's lower surface or the belly. Off by default, so the views without it don't change.
 import * as THREE from 'three';
 import { colorOf, NEUTRAL, PROPELLER, sideProjection, wingletBox, spinnerPaint, stubPylonColor, UNPAINTED_FUSELAGE, } from '../../../../renderer/dist/index.js';
 import { finMaterial, finUv, lerp, paint, surface } from './model.js';
-import { liftingSurface, nacelle, propeller, pylon } from './parts.js';
+import { gearLeg, halfThickness, liftingSurface, nacelle, propeller, pylon } from './parts.js';
 /** b at a along a line of [a, b] points, held level beyond its ends. */
 function at(line, a) {
     const sorted = [...line].sort((p, q) => p[0] - q[0]);
@@ -40,7 +43,11 @@ const ends = (line, i) => {
     const values = line.map((p) => p[i]);
     return [Math.min(...values), Math.max(...values)];
 };
-export function buildMeasuredAircraft(scheme, shape, textures) {
+/**
+ * The aircraft, centered on its fuselage's middle, nose toward −x. With `{ gear: true }` and a shape that measures
+ * it, its wheels stand on one ground plane, at `userData.ground` (y) in the returned group's frame.
+ */
+export function buildMeasuredAircraft(scheme, shape, textures, options = {}) {
     const group = new THREE.Group();
     const { fuselage, fin, wing, stabilizer, wingtip } = shape;
     const L = fuselage.length;
@@ -172,6 +179,127 @@ export function buildMeasuredAircraft(scheme, shape, textures) {
     const wingletInner = color(winglets.inner ?? winglets.outer, NEUTRAL.winglets);
     const engines = scheme.engines ?? {};
     const cowling = color(engines.cowling, NEUTRAL.engines);
+    // Flaps and slats down (docs/SHAPES.md, Flaps): at the option's setting, where the shape prints its settings.
+    const flapData = wing.flaps;
+    const detents = flapData?.detents ?? {};
+    const fullTravel = Math.max(0, ...Object.values(detents));
+    const asked = typeof options.flaps === 'string' ? (detents[options.flaps] ?? 0) : (options.flaps ?? 0);
+    const flapAngle = flapData && fullTravel > 0 ? Math.min(Math.max(asked, 0), fullTravel) : 0;
+    /**
+     * The wing with its flaps (and slats, where their angle is printed) out. The wing is built in pieces between the
+     * panels' ends, each cut back by its flap's chord (and its slat's), closed at both ends. Each flap panel is its
+     * slots' elements (a vane, the flap, an aft flap), each a thin airfoil turned trailing edge down, more the further
+     * aft (the aft one by the setting), the first moved aft and down along the canoes' tracks, each next one tucked
+     * under the one ahead with a slot between. The travel aft (0.7 of the flap's chord at full travel) and the slot's
+     * size are the drawing's convention, not measured.
+     */
+    const highLift = (side) => {
+        const segments = flapData?.segments ?? [];
+        const out = (wing.slats ?? []).filter((s) => s.angle !== undefined);
+        const share = flapAngle / fullTravel;
+        const [root, span] = ends(wing.leading, 0);
+        const chordAt = (y) => {
+            const leading = at(wing.leading, y);
+            const trailing = at(wing.trailing, y);
+            return [leading, trailing, trailing - leading];
+        };
+        const thicknessAt = (y) => 0.14 + (0.1 - 0.14) * ((y - root) / (span - root || 1));
+        const within = (list, y) => list.find((s) => y >= s.y[0] && y <= s.y[1]);
+        // The fixed wing, piece by piece.
+        const cuts = [root, span, ...segments.flatMap((s) => s.y), ...out.flatMap((s) => s.y)]
+            .map((y) => Math.min(Math.max(y, root), span))
+            .sort((a, b) => a - b)
+            .filter((y, i, all) => i === 0 || y - (all[i - 1] ?? 0) > 0.01);
+        for (const [i, a] of cuts.slice(0, -1).entries()) {
+            const b = cuts[i + 1] ?? span;
+            const flap = within(segments, (a + b) / 2)?.chord ?? 0;
+            const slat = within(out, (a + b) / 2);
+            const nose = slat?.kind === 'slat' ? slat.chord : 0;
+            const kept = 1 - flap - nose;
+            const station = (v) => {
+                const y = lerp(a, b, v);
+                const [leading, trailing, chord] = chordAt(y);
+                return { leading: leading + nose * chord, trailing: trailing - flap * chord, height: at(wing.z, y), out: y };
+            };
+            const thickness = { root: thicknessAt(a) / kept, tip: thicknessAt(b) / kept };
+            const steps = Math.max(2, Math.round((40 * (b - a)) / (span - root)));
+            group.add(liftingSurface(station, thickness, { top: wingTop, under: wingUnder }, side, steps, b >= span, a > root));
+        }
+        if (root > 0) {
+            const [leading, trailing] = chordAt(root);
+            const stub = (v) => ({ leading, trailing, height: at(wing.z, root), out: lerp(0, root, v) });
+            group.add(liftingSurface(stub, { root: 0.14, tip: 0.14 }, { top: wingTop, under: wingUnder }, side, 2, false));
+        }
+        /** A thin airfoil of chord `chord(y)` from y0 to y1, its points then placed by `place` at each span station. */
+        const element = (y0, y1, chord, ratio, place) => {
+            const station = (v) => {
+                const y = lerp(y0, y1, v);
+                return { leading: 0, trailing: chord(y), height: 0, out: y };
+            };
+            const part = liftingSurface(station, { root: ratio, tip: ratio }, { top: wingUnder, under: wingUnder }, side, 6, true, true);
+            part.traverse((node) => {
+                if (!(node instanceof THREE.Mesh))
+                    return;
+                const position = node.geometry.getAttribute('position');
+                for (let k = 0; k < position.count; k++) {
+                    const [x, z] = place(Math.abs(position.getZ(k)), position.getX(k), position.getY(k));
+                    position.setXY(k, x, z);
+                }
+                node.geometry.computeVertexNormals();
+            });
+            group.add(part);
+        };
+        const radians = (flapAngle * Math.PI) / 180;
+        const shares = { 1: [1], 2: [0.3, 0.7], 3: [0.2, 0.5, 0.3] };
+        for (const segment of segments) {
+            const parts = shares[segment.slots];
+            // Each element's leading edge and angle at a span station.
+            const chain = (y) => {
+                const [, trailing, chord] = chordAt(y);
+                const flap = segment.chord * chord;
+                let x = trailing - flap + share * 0.7 * flap;
+                let z = at(wing.z, y) - share * 0.12 * flap;
+                return parts.map((p, k) => {
+                    const here = { x, z, angle: (radians * (k + 1)) / parts.length, chord: p * flap };
+                    x += 0.85 * here.chord * Math.cos(here.angle);
+                    z -= 0.85 * here.chord * Math.sin(here.angle) + 0.015 * chord * share;
+                    return here;
+                });
+            };
+            for (const k of parts.keys()) {
+                const of = (y) => chain(y)[k] ?? { x: 0, z: 0, angle: 0, chord: 0 };
+                element(segment.y[0], segment.y[1], (y) => of(y).chord, 0.12, (y, u, w) => {
+                    const e = of(y);
+                    return [
+                        e.x + u * Math.cos(e.angle) + w * Math.sin(e.angle),
+                        e.z - u * Math.sin(e.angle) + w * Math.cos(e.angle),
+                    ];
+                });
+            }
+        }
+        // Slats forward and nose down off the leading edge; Krueger flaps swung down and forward from under it.
+        for (const slat of out) {
+            const angle = ((slat.angle ?? 0) * Math.PI) / 180;
+            const size = (y) => slat.chord * chordAt(y)[2];
+            if (slat.kind === 'slat') {
+                element(slat.y[0], slat.y[1], size, 0.1, (y, u, w) => {
+                    const [leading, , chord] = chordAt(y);
+                    const v = size(y) - u; // ahead of its trailing edge
+                    const tx = leading + 0.65 * size(y);
+                    const tz = at(wing.z, y) - 0.03 * chord;
+                    return [tx - v * Math.cos(angle) - w * Math.sin(angle), tz - v * Math.sin(angle) + w * Math.cos(angle)];
+                });
+            }
+            else {
+                element(slat.y[0], slat.y[1], size, 0.06, (y, u, w) => {
+                    const [leading, , chord] = chordAt(y);
+                    const hx = leading + 0.05 * chord;
+                    const hz = at(wing.z, y) - 0.03 * chord;
+                    return [hx + u * Math.cos(angle) + w * Math.sin(angle), hz - u * Math.sin(angle) + w * Math.cos(angle)];
+                });
+            }
+        }
+    };
     for (const side of [1, -1]) {
         // Wings and tailplane: between their edges from above, at their heights from the front, with an airfoil's
         // thickness (a top and an underside).
@@ -191,7 +319,10 @@ export function buildMeasuredAircraft(scheme, shape, textures) {
                 group.add(liftingSurface(stub, { root: thickness.root, tip: thickness.root }, { top, under }, side, 2, false));
             }
         };
-        lifting(wing, { root: 0.14, tip: 0.1 }, wingTop, wingUnder);
+        if (flapAngle > 0)
+            highLift(side);
+        else
+            lifting(wing, { root: 0.14, tip: 0.1 }, wingTop, wingUnder);
         // The flap track fairings: canoes under the wing (docs/SHAPES.md), from inside it down to their depth below its
         // lower surface, deepest a little aft of their middle and closing to a point behind the trailing edge, as the side
         // view draws them; round in section, their width from the front view (as deep as they are where not measured).
@@ -373,9 +504,58 @@ export function buildMeasuredAircraft(scheme, shape, textures) {
             group.add(new THREE.Mesh(surface(nozzle, [24, 32], new THREE.Vector3(0, -1, 0)), paint('#9da4ac', { metalness: 0.6, roughness: 0.35, side: THREE.DoubleSide })));
         }
     }
+    // The landing gear down: each leg's wheels on the ground line, its strut straight up to the structure over the
+    // axle (the wing's lower surface, or the belly), unless the shape gives its attachment; a main leg's side brace runs
+    // in to the structure a little inboard.
+    const gear = options.gear ? shape.gear : undefined;
+    if (gear) {
+        const [root, span] = ends(wing.leading, 0);
+        /** The wing's lower surface at (x, y), x held inside the chord's middle (where a main gear's trunnion is). */
+        const underWing = (x, y) => {
+            const out = Math.min(Math.max(y, root), span);
+            const leading = at(wing.leading, out);
+            const chord = at(wing.trailing, out) - leading;
+            const a = Math.min(Math.max((x - leading) / chord, 0.3), 0.75);
+            const t = 0.14 + (0.1 - 0.14) * ((out - root) / (span - root || 1));
+            return [leading + a * chord, at(wing.z, out) - 0.55 * halfThickness(a, t) * chord];
+        };
+        /** The fuselage's underside at x, y out from the centerline (its lower quarter-ellipse). */
+        const underBody = (x, y) => {
+            const widest = widestAt(x);
+            const t = Math.min(Math.abs(y) / (half(x) || 1), 0.95);
+            return widest - (widest - belly(x)) * Math.sqrt(1 - t * t);
+        };
+        for (const leg of gear.legs) {
+            const onWing = (leg.mount ?? (leg.kind === 'main' ? 'wing' : 'fuselage')) === 'wing';
+            // Into the structure a little, so no seam shows where the strut meets it.
+            const mountAt = (x, y) => {
+                if (onWing) {
+                    const [mx, mz] = underWing(x, y);
+                    return new THREE.Vector3(mx, mz + 0.05, y);
+                }
+                // A leg outboard of the fuselage's side (the BAe 146's, from a sponson) leans in to the side.
+                const inside = Math.min(y, 0.9 * half(x));
+                return new THREE.Vector3(x, underBody(x, inside) + 0.1, inside);
+            };
+            for (const side of leg.y > 0 ? [1, -1] : [1]) {
+                const top = mountAt(leg.top?.[0] ?? leg.x, leg.y);
+                if (leg.top)
+                    top.setY(leg.top[1]);
+                const length = top.y - gear.ground;
+                const brace = leg.kind === 'nose' || leg.kind === 'center' ? undefined : mountAt(top.x, leg.y - 0.35 * length);
+                if (brace && leg.kind === 'body')
+                    brace.set(top.x - 0.3 * length, underBody(top.x - 0.3 * length, leg.y), leg.y);
+                top.z *= side;
+                brace?.setZ(brace.z * side);
+                group.add(gearLeg(leg, side * leg.y, gear.ground, top, brace));
+            }
+        }
+    }
     // Centered on the origin, nose toward −x.
     group.position.x = -L / 2;
     const holder = new THREE.Group();
     holder.add(group);
+    if (gear)
+        holder.userData.ground = gear.ground;
     return holder;
 }

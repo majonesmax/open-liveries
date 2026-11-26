@@ -10,15 +10,15 @@
  "sources": [
   {
    "url": "https://www.boeing.com/content/dam/boeing/boeingdotcom/commercial/airports/acaps/747-400_Rev_F.pdf",
-   "title": "Boeing, 747-400 Airplane Characteristics for Airport Planning (D6-58326-1 Rev F, December 2024), 2.2.1 General Dimensions: Model 747-400",
+   "title": "Boeing, 747-400 Airplane Characteristics for Airport Planning (D6-58326-1 Rev F, December 2024), 2.2.1 General Dimensions: Model 747-400; 2.2.1 plan's flap and aileron lines; 3.3.16 F.A.R. Takeoff Runway-Length Requirements (flaps 10 and 20); 3.4.1 and 3.4.2 F.A.R. Landing Runway-Length Requirements (flaps 25 and 30)",
    "accessed": "2026-11-25",
-   "note": "The nose, cockpit, fuselage, main-deck windows, doors, wing, nacelles, fin and tailplane are the 747-400's measured outlines (shapes/B744-passenger.json; the upper deck is the 747-400F's short one, shapes/B744.json), changed by tools/trace/b742/derive.py as D6-58326's 747-100B/-200 pages say."
+   "note": "The nose, cockpit, fuselage, main-deck windows, doors, wing, nacelles, fin and tailplane are the 747-400's measured outlines (shapes/B744-passenger.json; the upper deck is the 747-400F's short one, shapes/B744.json), changed by tools/trace/b742/derive.py as D6-58326's 747-100B/-200 pages say. Flaps: their spans and chords read off 2.2.1's plan, settings off 3.3.16's and 3.4's charts."
   },
   {
    "url": "https://www.boeing.com/content/dam/boeing/v2/airports/acaps/747_123sp.pdf",
-   "title": "Boeing, 747 Airplane Characteristics for Airport Planning, Models 747-100, -200, -300, SP (D6-58326, May 1984, the 2023 reissue on boeing.com): 2.2.1 General Dimensions, Models 747-100B, -200, -300; 2.3.1 Ground Clearances; 2.7.1 Main Entry Door Locations; 2.7.6 Upper Deck Exit Door",
+   "title": "Boeing, 747 Airplane Characteristics for Airport Planning, Models 747-100, -200, -300, SP (D6-58326, May 1984, the 2023 reissue on boeing.com): 2.2.1 General Dimensions, Models 747-100B, -200, -300; 2.3.1 Ground Clearances; 2.7.1 Main Entry Door Locations; 2.7.6 Upper Deck Exit Door; 7.2.1 Landing Gear Footprint, Model 747; 7.2.3 Landing Gear Footprint Data, Models 747-200, -300",
    "accessed": "2026-11-25",
-   "note": "A scan: 2.2.1 is drawn in lines about 0.35 m thick on a 5 ft grid, too coarse to trace. Its figures (225 ft 2 in to the tail cone, 231 ft 10 in overall, printed 70.4 m but 70.66 m in feet, 229 ft 2 in to the tailplane's tips, 195 ft 8 in span, 72 ft 9 in tailplane, 21 ft 4 in width) are the 747-400's but the span, which is cut to it. Its plan prints the engines 39 ft 9 in and 69 ft 10 in out (12.1 m, 21.3 m); its front view draws their inlets 11.9 m and 21.1 m out, where the 747-400's are kept (11.97 m, 21.18 m). 2.3.1 puts the fin's tip 9.64-10.15 m above the aft crown (K less H, minimum and maximum: two attitudes); the 747-400's fin is 10.08 m, kept. 2.7.1's doors (9.50, 18.80, 30.61, 40.74, 55.14 m) are the 747-400's. The upper deck exit door is 2.7.6's (0.61 by 1.22 m at 8.00 m). The JT9D-7 nacelles aren't told apart from the 747-400's RB211s at the scan's resolution, so the 747-400's stand in for them. Confidence medium."
+   "note": "A scan: 2.2.1 is drawn in lines about 0.35 m thick on a 5 ft grid, too coarse to trace. Its figures (225 ft 2 in to the tail cone, 231 ft 10 in overall, printed 70.4 m but 70.66 m in feet, 229 ft 2 in to the tailplane's tips, 195 ft 8 in span, 72 ft 9 in tailplane, 21 ft 4 in width) are the 747-400's but the span, which is cut to it. Its plan prints the engines 39 ft 9 in and 69 ft 10 in out (12.1 m, 21.3 m); its front view draws their inlets 11.9 m and 21.1 m out, where the 747-400's are kept (11.97 m, 21.18 m). 2.3.1 puts the fin's tip 9.64-10.15 m above the aft crown (K less H, minimum and maximum: two attitudes); the 747-400's fin is 10.08 m, kept. 2.7.1's doors (9.50, 18.80, 30.61, 40.74, 55.14 m) are the 747-400's. The upper deck exit door is 2.7.6's (0.61 by 1.22 m at 8.00 m). The JT9D-7 nacelles aren't told apart from the 747-400's RB211s at the scan's resolution, so the 747-400's stand in for them. Confidence medium. Gear: 2.2.1's nose gear 7.75 m from the nose; 7.2.1's 24.07 m from it to the wing gear and 3.07 m on to the body gear, the wing gear's 11.00 m and the body gear's 3.84 m track, tires 1.12 m apart and bogies of 1.47 m (2.2.1's 25.62 m to the gear's middle agrees); 49 x 17 tires (7.2.3, the 747-200B's and most -100Bs'). The ground is 5.46 m below the centerline: the mean of 2.3.1's A, H, K, L and M (upper deck, aft crown, fin, tailplane tip, wingtip) less each part's height in the shape, spread from 5.14 m (the wingtip) to 5.87 m (the tailplane tip); the body parts alone give 5.43 m. The nacelles (N, P) are left out: the shape's are RB211 stand-ins."
   },
   {
    "url": "https://commons.wikimedia.org/wiki/File:Boeing_747-131,_Trans_World_Airlines_(TWA)_JP5896855.jpg",
@@ -37,6 +37,12 @@
    "title": "Boeing 747-121 N739PA, Pan Am, July 1986 (Wikimedia Commons, CC BY 2.0, Kambui)",
    "accessed": "2026-11-25",
    "note": "Right side: three upper-deck windows and the upper deck exit door behind the flight deck. Looked at, not measured."
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Boeing_747",
+   "title": "Boeing 747, Wikipedia: Design (triple-slotted trailing-edge flaps; Krueger flaps almost the whole leading edge)",
+   "accessed": "2026-11-26",
+   "note": "The flaps' three slots only. The Krueger flaps aren't drawn on D6-58326's plans, so the shape has no leading-edge devices."
   }
  ],
  "fuselage": {
@@ -432,7 +438,15 @@
     "depth": 0.58,
     "width": 0.7
    }
-  ]
+  ],
+  "flaps": {
+   "segments": [
+    {"y": [3.27, 10.6], "chord": 0.17, "slots": 3},
+    {"y": [13.2, 21.4], "chord": 0.24, "slots": 3}
+   ],
+   "detents": {"takeoff": 10, "takeoff-20": 20, "landing-25": 25, "landing": 30},
+   "note": "D6-58326 2.2.1's plan (747-100B, -200): the inboard flap from the body to the inboard aileron (10.6-13.2 m), the outboard flap to the outboard aileron (21.4 m out); each chord from the spoilers' aft edge to the trailing edge, the part the coarse scan draws (the fore flap under the spoilers isn't shown; good to about 0.05). Settings: 3.3.16's takeoff chart (747-200, flaps 10 and 20) and 3.4.1 and 3.4.2's landing charts (flaps 25 and 30, 30 the full travel). Three slots: Wikipedia. The Krueger flaps aren't drawn, so none are given."
+  }
  },
  "stabilizer": {
   "leading": [
@@ -791,6 +805,14 @@
    ]
   ]
  },
+ "gear": {
+  "ground": -5.46,
+  "legs": [
+   {"kind": "nose", "x": 7.75, "y": 0, "wheels": 2, "spacing": 0.91, "tire": [1.245, 0.432]},
+   {"kind": "body", "x": 34.89, "y": 1.92, "wheels": 4, "spacing": 1.12, "tandem": 1.47, "tire": [1.245, 0.432]},
+   {"kind": "main", "x": 31.82, "y": 5.5, "wheels": 4, "spacing": 1.12, "tandem": 1.47, "tire": [1.245, 0.432]}
+  ]
+ },
  "checks": [
   {
    "dimension": "fuselage length",
@@ -881,6 +903,12 @@
    "printed": 8.0,
    "shape": 8.0,
    "off": "+0.0%"
+  },
+  {
+   "dimension": "overall height",
+   "printed": 18.96,
+   "shape": 19.072,
+   "off": "+0.6%"
   }
  ]
 }

@@ -12,9 +12,9 @@
  "sources": [
   {
    "url": "https://www.boeing.com/content/dam/boeing/v2/airports/acaps/MD80.pdf",
-   "title": "Boeing, MD-80 Airplane Characteristics for Airport Planning (Rev. 12/89), 2.2 General Airplane Dimensions: Model MD-81, -82, -83 and -88; 2.7.2 Passenger Entrance and Service Door Clearances",
+   "title": "Boeing, MD-80 Airplane Characteristics for Airport Planning (Rev. 12/89), 2.2 General Airplane Dimensions: Model MD-81, -82, -83 and -88; 2.7.2 Passenger Entrance and Service Door Clearances; 2.3 Ground Clearances: Model MD-81, -82, -83 and -88; 7.2 Footprint: Model MD-80 Series",
    "accessed": "2026-11-15",
-   "note": "One outline for the MD-81, -82, -83 and -88: the document draws and dimensions them together. Its 2.2 is a 1-bit scan over a printed grid (about 33 px a meter, the grid's lines as thick as the outlines and crossing them), so the fuselage, wing, fin and tailplane are the MD-90's measured lines with its 1.45 m plug ahead of the wing taken out (tools/trace/md82/), checked against this sheet: laid over its views at their scale they fall on its lines within a line's width along the fuselage, wing and tailplane, and the printed figures (45.02 m overall, 32.85 m span, 12.25 m tailplane, 3.35 m width) within 0.4%. Where the two sheets differ the shape keeps the MD-90's vector drawing of the same tail: the MD-80 scan draws the tail cone's underside up to 0.35 m higher and the fin's leading edge about 0.3 m further forward. This sheet's own: the JT8D-200 nacelle (side view; its inlet and stub pylon in the front view, 2.70 m from the centerline as printed, where the plan draws it at 2.62 m), the pylon in the plan, and the doors' and cabin windows' places along the body (the side view, at the printed 41.58 m from the nose to the tail cone). The main entry door sits within 2 cm of 2.7.2's printed 4.38 m to its middle; the right side's service door is placed from 2.7.2's partial plan (27 in wide, 48.5 in tall, 4.51 m to its middle, its sill with the main door's). The scan draws every door 0.1-0.2 m higher on the tube than the MD-90's vector sheet and 2.7.2's section (its door sill 0.53 m below the centerline), so the doors' and windows' heights are the MD-90 sheet's. The side view draws the tube 1.4% short of the printed 3.61 m and the MD-90's 3.6% tall: the fuselage is fit to the printed height (fit_height.py). Confidence medium: the scan, and the tail's two drawings."
+   "note": "One outline for the MD-81, -82, -83 and -88: the document draws and dimensions them together. Its 2.2 is a 1-bit scan over a printed grid (about 33 px a meter, the grid's lines as thick as the outlines and crossing them), so the fuselage, wing, fin and tailplane are the MD-90's measured lines with its 1.45 m plug ahead of the wing taken out (tools/trace/md82/), checked against this sheet: laid over its views at their scale they fall on its lines within a line's width along the fuselage, wing and tailplane, and the printed figures (45.02 m overall, 32.85 m span, 12.25 m tailplane, 3.35 m width) within 0.4%. Where the two sheets differ the shape keeps the MD-90's vector drawing of the same tail: the MD-80 scan draws the tail cone's underside up to 0.35 m higher and the fin's leading edge about 0.3 m further forward. This sheet's own: the JT8D-200 nacelle (side view; its inlet and stub pylon in the front view, 2.70 m from the centerline as printed, where the plan draws it at 2.62 m), the pylon in the plan, and the doors' and cabin windows' places along the body (the side view, at the printed 41.58 m from the nose to the tail cone). The main entry door sits within 2 cm of 2.7.2's printed 4.38 m to its middle; the right side's service door is placed from 2.7.2's partial plan (27 in wide, 48.5 in tall, 4.51 m to its middle, its sill with the main door's). The scan draws every door 0.1-0.2 m higher on the tube than the MD-90's vector sheet and 2.7.2's section (its door sill 0.53 m below the centerline), so the doors' and windows' heights are the MD-90 sheet's. The side view draws the tube 1.4% short of the printed 3.61 m and the MD-90's 3.6% tall: the fuselage is fit to the printed height (fit_height.py). Confidence medium: the scan, and the tail's two drawings. Gear: 2.2's nose gear 2.32 m from the nose and 22.05 m wheelbase (7.2 prints 22.08 m), 7.2's 5.09 m track, tire spacings (0.356 m nose, 0.714 m main) and tires (26 x 6.6 nose, H44.5 x 16.5-20 main). The ground is 3.16 m below the centerline: the mean of 2.3's M (the crown), Q (mid-fuselage bottom), F (fin), H (tailplane tip) and G (wingtip) less each part's height in the shape (2.89-3.39 m). The aircraft sits a little nose down on its gear, which a level shape and one ground line can't show: 2.3's P puts the belly at the nose gear 0.9-1.1 m up, 0.3-0.4 m lower than this ground gives."
   },
   {
    "url": "https://www.boeing.com/content/dam/boeing/v2/airports/acaps/MD90.pdf",
@@ -563,6 +563,13 @@
    ]
   ]
  },
+ "gear": {
+  "ground": -3.16,
+  "legs": [
+   {"kind": "nose", "x": 2.32, "y": 0, "wheels": 2, "spacing": 0.356, "tire": [0.66, 0.168]},
+   {"kind": "main", "x": 24.37, "y": 2.545, "wheels": 2, "spacing": 0.714, "tire": [1.13, 0.419]}
+  ]
+ },
  "checks": [
   {
    "dimension": "fuselage height",
@@ -611,6 +618,12 @@
    "printed": 4.51,
    "shape": 4.511,
    "off": "+0.0%"
+  },
+  {
+   "dimension": "overall height",
+   "printed": 9.1,
+   "shape": 9.238,
+   "off": "+1.5%"
   }
  ]
 }

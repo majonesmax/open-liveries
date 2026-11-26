@@ -9,9 +9,21 @@
  "sources": [
   {
    "url": "https://www.boeing.com/content/dam/boeing/v2/airports/acaps/DC10.pdf",
-   "title": "Boeing (McDonnell Douglas Corporation, Douglas Aircraft Company), DC/MD-10 Airplane Characteristics for Airport Planning (DAC-67803A, reprinted January 1991, Revision A April 2004), 2.2 General Airplane Dimensions: Model DC-10 Series 30 and 30CF (Lower Galley)",
+   "title": "Boeing (McDonnell Douglas Corporation, Douglas Aircraft Company), DC/MD-10 Airplane Characteristics for Airport Planning (DAC-67803A, reprinted January 1991, Revision A April 2004), 2.2 General Airplane Dimensions: Model DC-10 Series 30 and 30CF (Lower Galley); 2.3 Ground Clearances, Model DC-10 Series 30, 30CF, 40 and 40CF; 7.2.2 Footprint, Model DC-10 Series 30, 30CF, 40, 40CF and MD-10 Series 30F; 2.2 plan's flap, aileron and slat lines; 3.4 FAR Landing Runway Length Requirements, Series 30 and 30CF (flaps 50)",
    "accessed": "2026-11-25",
-   "note": "Dimensions and outlines read off the DC-10-30 sheet's side, plan and front views (tools/trace/dc10/), starting from the MD-11's placed points moved by plug.py; the figures are the aircraft's measurements, not a copy of the drawing. The sheet is a 1-bit scan on graph paper (about 27.5 px a meter, so outlines are good to about 5 cm). Scaled by the printed 51.97 m (170 ft 6 in) from the nose to the tail cone. The plan is drawn 1.2% narrow across (by its own 6.02 m width dimension), rendered to the side's scale; the front view's fuselage circle is drawn 2% small (tied to the side by its middle). Its plan draws the tailplane 3.2% short of the printed 21.69 m (the front view within 0.2%), so the tailplane is widened to the printed span outboard of its root. Three CF6-50 nacelles: two under the wing and the third through the fin's base on a short strut, the fin's leading edge standing on its top and a fairing over its nozzle (engines[0], mount tail, a straight duct, as the MD-11's). The sheet draws the cabin windows, four doors a side (the left side's drawn; the DC-10's are the same both sides) and, dashed, the 30CF's main-deck cargo door, left out here (a passenger shape); the lower-deck cargo doors aren't placed. Cockpit panes: the MD-11's (the same nose). One shape for the DC-10-10, -30 and -40 passenger airframes: the -30 and -40 have the -10's fuselage and fin, but their wing spans 50.39 m against the -10's 47.35 m (the -10 here is 1.5 m too wide each side); the -30 and -40 have a third main gear leg on the centerline (not modeled: shapes have no gear), and the -40's nacelles are the JT9D-20's, not the CF6-50's drawn here. Confidence medium: a scan."
+   "note": "Dimensions and outlines read off the DC-10-30 sheet's side, plan and front views (tools/trace/dc10/), starting from the MD-11's placed points moved by plug.py; the figures are the aircraft's measurements, not a copy of the drawing. The sheet is a 1-bit scan on graph paper (about 27.5 px a meter, so outlines are good to about 5 cm). Scaled by the printed 51.97 m (170 ft 6 in) from the nose to the tail cone. The plan is drawn 1.2% narrow across (by its own 6.02 m width dimension), rendered to the side's scale; the front view's fuselage circle is drawn 2% small (tied to the side by its middle). Its plan draws the tailplane 3.2% short of the printed 21.69 m (the front view within 0.2%), so the tailplane is widened to the printed span outboard of its root. Three CF6-50 nacelles: two under the wing and the third through the fin's base on a short strut, the fin's leading edge standing on its top and a fairing over its nozzle (engines[0], mount tail, a straight duct, as the MD-11's). The sheet draws the cabin windows, four doors a side (the left side's drawn; the DC-10's are the same both sides) and, dashed, the 30CF's main-deck cargo door, left out here (a passenger shape); the lower-deck cargo doors aren't placed. Cockpit panes: the MD-11's (the same nose). One shape for the DC-10-10, -30 and -40 passenger airframes: the -30 and -40 have the -10's fuselage and fin, but their wing spans 50.39 m against the -10's 47.35 m (the -10 here is 1.5 m too wide each side); the -30 and -40 have a third main gear leg on the centerline (`gear`, below), and the -40's nacelles are the JT9D-20's, not the CF6-50's drawn here. Confidence medium: a scan. Gear (`gear`): 2.2 prints the nose gear 8.50 m (27 ft 10.5 in) behind the nose, the wheelbase 22.07 m (72 ft 5 in) to the main bogies' middles and the track 10.67 m (35 ft); 7.2.2 prints the bogies' wheels 54 in (1.37 m) apart across and 64 in (1.63 m) along, the center gear's two wheels 37.5 in (0.95 m) apart and its axle 30 in (0.76 m) behind the bogies' middles, the nose wheels 25 in (0.64 m) apart, the main and center tires 52 x 20.5-23 and the nose tires 40 x 15.5-16. The center gear is the -30's and -40's: the -10, which this shape also serves, has none. The ground is -5.20 m, the mean of the crown less A (8.41 m: -5.29), the fin's tip less L (17.64 m: -5.27), the wing nacelle's bottom less N (0.98 m: -5.14), the tailplane's tip less S (7.36 m: -5.15) and the tail engine's middle less T (9.98 m: -5.16), the middles of 2.3's minimum and maximum. 2.3's wingtip R (4.66 m) would put it at -4.34: this shape's wingtip is about 0.9 m higher than 2.3 has it (its front view, a scan, draws the wing flatter), so the wingtip isn't used. Flap track fairings (`wing.fairings`): 2.3's front view draws three under each wing (one between the main gear and the nacelle, two outboard, their bottoms 2.3's M, O and P above the ground); no side view draws them. The two outboard are the MD-11's (shapes/MD11.json, the same wing), each kept at its distance from the trailing edge; the inboard one's length isn't drawn anywhere, so it's left out. Flaps and slats: spans and chords read off 2.2's plan (the slats inboard and outboard of the pylon), the landing setting off 3.4's chart."
+  },
+  {
+   "url": "https://ntrs.nasa.gov/citations/19960003437",
+   "title": "Yamamoto, Donelson, Huang and Joshi, Airframe Noise Prediction Evaluation, NASA Contractor Report 4695 (October 1995): Figure 1.1, Outboard Flap Section (a) DC-9-31, (b) DC-10-10; section 5 (\"DC-9-30 series aircraft have one double-slotted flap\"; \"DC-10-10 has two flaps\")",
+   "accessed": "2026-11-26",
+   "note": "The flaps' slots: a vane ahead of the flap on the DC-9-31's and the DC-10-10's outboard flap (the DC-10's inboard flap isn't drawn there and is taken to be the same)."
+  },
+  {
+   "url": "https://libraryonline.erau.edu/online-full-text/ntsb/aircraft-accident-reports/AAR79-17.pdf",
+   "title": "NTSB, Aircraft Accident Report AAR-79-17, American Airlines Flight 191, DC-10-10 N110AA (1979), 1.6: the trailing edge flaps set at 10 degrees for takeoff",
+   "accessed": "2026-11-26",
+   "note": "The DC-10's takeoff flap setting; the document's takeoff charts don't name one."
   }
  ],
  "fuselage": {
@@ -471,6 +483,22 @@
    [24.475, 0.29],
    [25.084, 0.319],
    [25.507, 0.322]
+  ],
+  "fairings": [
+   {"y": 12.36, "x": [33.93, 36.51], "depth": 0.97, "width": 0.4},
+   {"y": 16.25, "x": [36.21, 38.34], "depth": 0.8, "width": 0.4}
+  ],
+  "flaps": {
+   "segments": [
+    {"y": [3.0, 7.2], "chord": 0.19, "slots": 2},
+    {"y": [9.2, 17.4], "chord": 0.22, "slots": 2}
+   ],
+   "detents": {"takeoff": 10, "landing": 50},
+   "note": "2.2's plan (Series 30): the inboard flap from the body to the inboard aileron behind the engine (7.2-9.2 m), the outboard flap to the outboard aileron (17.4 m out), each chord from the spoilers' aft edge to the trailing edge (rows agree within 0.02). Settings: 3.4's landing chart (Series 30: flaps 50); takeoff 10 is NTSB AAR-79-17's (a DC-10-10). Two slots: NASA CR-4695's DC-10-10 outboard flap (the inboard one taken to be the same)."
+  },
+  "slats": [
+   {"y": [3.0, 7.74], "kind": "slat", "chord": 0.12},
+   {"y": [8.33, 24.3], "kind": "slat", "chord": 0.16}
   ]
  },
  "stabilizer": {
@@ -960,6 +988,14 @@
    ]
   ]
  },
+ "gear": {
+  "ground": -5.2,
+  "legs": [
+   {"kind": "nose", "x": 8.5, "y": 0, "wheels": 2, "spacing": 0.635, "tire": [1.016, 0.394]},
+   {"kind": "main", "x": 30.57, "y": 5.335, "wheels": 4, "spacing": 1.372, "tandem": 1.626, "tire": [1.321, 0.521]},
+   {"kind": "center", "x": 31.33, "y": 0, "mount": "fuselage", "wheels": 2, "spacing": 0.953, "tire": [1.321, 0.521]}
+  ]
+ },
  "checks": [
   {
    "dimension": "fuselage height",
@@ -996,6 +1032,12 @@
    "printed": 8.18,
    "shape": 8.221,
    "off": "+0.5%"
+  },
+  {
+   "dimension": "overall height",
+   "printed": 17.64,
+   "shape": 17.574,
+   "off": "-0.4%"
   }
  ]
 }
