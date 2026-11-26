@@ -2,6 +2,7 @@
 // URL: ?q=search keeps the search; #ICAO/id opens a scheme; #air-ICAO scrolls to an airline.
 import { Dataset } from './data.js';
 import { $, $as, escapeHtml } from './dom.js';
+import { aboutIsOpen, setUpAbout } from './ui/about.js';
 import { DetailPanel, hashId } from './ui/detail.js';
 import { SchemeList } from './ui/list.js';
 import { KINDS } from './ui/search.js';
@@ -74,12 +75,13 @@ async function main() {
             closeDetail();
     });
     document.addEventListener('keydown', (event) => {
-        if (event.key === 'Escape' && !detailBox.hidden)
+        if (event.key === 'Escape' && !detailBox.hidden && !aboutIsOpen())
             closeDetail();
     });
     window.addEventListener('hashchange', route);
     render();
     route();
+    setUpAbout(dataset);
     document.body.dataset.ready = '1';
 }
 /** Replaces ?q= in the URL without adding a history entry. */

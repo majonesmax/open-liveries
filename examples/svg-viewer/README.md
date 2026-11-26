@@ -74,6 +74,7 @@ npm run format       # Prettier
 - `src/draw.ts`: the renderer's pictures as page elements. The drawing itself is `renderer/`. The viewer imports
   its compiled `dist/`, so the page needs the repository root served (as above).
 - `src/ui/`: the page. `search.ts` (matching and order), `list.ts` (cards, lazy drawing, the sidebar),
-  `detail.ts`, `detail-sections.ts` and `airframes.ts` (the detail panel), `tags.ts`.
+  `detail.ts`, `detail-sections.ts` and `airframes.ts` (the detail panel), `tags.ts`,
+  `about.ts` (About this viewer: what it is, what you can do and its limits; open on a first visit).
 - `src/three/`: the 3D view (above).
 - `src/main.ts`: wires the controls and the URL together.

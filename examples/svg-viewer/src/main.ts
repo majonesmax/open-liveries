@@ -4,6 +4,7 @@
 import { Dataset } from './data.js';
 import { $, $as, escapeHtml } from './dom.js';
 import type { Kind } from './types.js';
+import { aboutIsOpen, setUpAbout } from './ui/about.js';
 import { DetailPanel, hashId } from './ui/detail.js';
 import { SchemeList } from './ui/list.js';
 import { KINDS } from './ui/search.js';
@@ -80,12 +81,13 @@ async function main(): Promise<void> {
     if (event.target instanceof Element && event.target.closest('[data-close]')) closeDetail();
   });
   document.addEventListener('keydown', (event) => {
-    if (event.key === 'Escape' && !detailBox.hidden) closeDetail();
+    if (event.key === 'Escape' && !detailBox.hidden && !aboutIsOpen()) closeDetail();
   });
   window.addEventListener('hashchange', route);
 
   render();
   route();
+  setUpAbout(dataset);
   document.body.dataset.ready = '1';
 }
 

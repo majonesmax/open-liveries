@@ -3,6 +3,7 @@
 import { $, escapeHtml } from '../dom.js';
 import { belowLabelCount, drawBelow, drawSide, shapeNamed, SHAPES } from '../draw.js';
 import { isMeasuredShape, measuredShapeProblems, shapeProblems } from '../../../../renderer/dist/index.js';
+import { aboutIsOpen } from './about.js';
 import { airframesHtml } from './airframes.js';
 import { logosHtml, paletteHtml, partsHtml, proseHtml, sourcesHtml, titlesHtml } from './detail-sections.js';
 import { tagsHtml } from './tags.js';
@@ -46,6 +47,9 @@ export class DetailPanel {
     view3d;
     /** The scheme drawn now, for stepping through types. */
     drawn;
+    /** The scheme open now, and whether it's drawn as its airline's default: for the notes under the chips. */
+    scheme;
+    fallback = false;
     constructor(dataset) {
         this.dataset = dataset;
         // ?shape=A359 (a measured type) or ?shape=widebody (a built-in one) picks the shape to draw on.
@@ -55,7 +59,7 @@ export class DetailPanel {
         else if (shapeNamed(picked))
             [this.useMeasured, this.shape] = [false, picked];
         document.addEventListener('keydown', (event) => {
-            if (this.box.hidden || !this.drawn)
+            if (this.box.hidden || !this.drawn || aboutIsOpen())
                 return;
             if (event.target instanceof HTMLSelectElement || event.target instanceof HTMLInputElement)
                 return;
@@ -86,6 +90,8 @@ export class DetailPanel {
         if (hashId() !== id)
             return; // Closed, or moved on to another scheme, while loading.
         this.drawn = undefined;
+        this.scheme = scheme;
+        this.fallback = !!drawable.fallbackId;
         const measured = drawable.fallbackId ? undefined : this.dataset.measuredFor(scheme);
         this.measured = measured ? { ...measured, shape: await this.dataset.shape(measured.id) } : undefined;
         if (hashId() !== id)
@@ -123,6 +129,7 @@ export class DetailPanel {
             livery.fuselage || livery.fin
                 ? shapeChipsHtml(this.chosen(), this.measured?.name, this.typeOptions(), this.otherType, this.show3d)
                 : '',
+            '<div class="view-notes" id="d-notes"></div>',
             '<div class="views" id="d-views"></div>',
             proseHtml(livery),
             partsHtml(livery),
@@ -147,6 +154,7 @@ export class DetailPanel {
                 : shapeNamed(this.shape);
         if (other !== this.otherType)
             return; // Another type was picked while this one loaded.
+        $('#d-notes', this.body).innerHTML = this.notesHtml(livery, !other && this.chosen() !== MEASURED);
         const views = $('#d-views', this.body);
         views.replaceChildren();
         if (this.show3d) {
@@ -163,6 +171,25 @@ export class DetailPanel {
         const belowFigure = figure(drawBelow(livery, shape, this.measured?.shape), caption, 'belowart');
         belowFigure.className = 'below';
         views.appendChild(belowFigure);
+    }
+    /** Plain notes on what the drawing can't show: a stand-in shape, and logos as dashed boxes. */
+    notesHtml(livery, onStandIn) {
+        const more = (section) => ` <button type="button" class="linkish" data-about="${section}">More</button>`;
+        const notes = [];
+        if (onStandIn) {
+            const type = this.scheme?.drawnOn;
+            const why = this.measured
+                ? `The ${escapeHtml(this.measured.name.replace(/ with .*/, ''))} button shows its real outline.`
+                : type && !this.fallback
+                    ? `This type (${escapeHtml(type)}) isn’t measured yet.`
+                    : 'It isn’t the real type.';
+            notes.push(`Drawn on a simple stand-in. ${why}${more('placeholder')}`);
+        }
+        if (livery.logos?.length) {
+            notes.push('Dashed boxes are logos. Airline logos are trademarks, so they’re described below instead of drawn.' +
+                more('logos'));
+        }
+        return notes.map((note) => `<p>${note}</p>`).join('');
     }
     /** three.js loads the first time the 3D view is shown. */
     async paint3d(box, livery, shape) {

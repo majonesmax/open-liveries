@@ -3,8 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Open Liveries</title>
-    <meta name="description" content="Airline paint schemes described as open data, drawn on a generic airliner." />
+    <title>Open Liveries · Scheme Viewer</title>
+    <meta
+      name="description"
+      content="Airline paint schemes as open data. See each one drawn in 3D and from both sides, and try it on other types."
+    />
     <script type="importmap">
       {
         "imports": {
@@ -16,12 +19,19 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <header class="top">
+      <div class="title">
+        <h1>Open Liveries <span class="tool">· Scheme Viewer</span></h1>
+        <p class="intro">Airline paint schemes as open data, and a renderer that draws them. Free for anyone to use.</p>
+      </div>
+      <nav class="toplinks" aria-label="About Open Liveries">
+        <button type="button" class="pill" data-about="top">About this viewer</button>
+        <a class="pill" href="https://github.com/majonesmax/open-liveries#whats-here">Docs</a>
+        <a class="pill" href="https://github.com/majonesmax/open-liveries">GitHub</a>
+      </nav>
+    </header>
     <div class="layout">
       <aside class="side" aria-label="Find a scheme">
-        <div class="brand">
-          <h1>Open Liveries</h1>
-          <p id="stats" class="muted">Loading…</p>
-        </div>
         <label class="search">
           <span class="sr">Search</span>
           <input
@@ -39,6 +49,7 @@
           <button class="chip" data-kind="alliance" aria-pressed="false">Alliance</button>
           <button class="chip" id="drawn" aria-pressed="false">Drawn only</button>
         </div>
+        <p id="stats" class="muted stats">Loading…</p>
         <label class="jump">
           <span class="sr">Jump to airline</span>
           <select id="jump">
@@ -58,6 +69,82 @@
         <div id="d-body"></div>
       </article>
     </div>
+    <dialog id="about" class="about" aria-labelledby="about-title">
+      <div class="about-body">
+        <button type="button" class="close" data-about-close aria-label="Close">×</button>
+        <h2 id="about-title">About this viewer</h2>
+        <p>
+          Open Liveries describes airline paint schemes as open data, from which colors go where to what the titles say
+          and where the logos sit. Each scheme is measured from openly licensed photos and the airlines’ own images, and
+          a small renderer draws it. The data is CC0 and the code is MIT, so you can use both for anything.
+        </p>
+        <p class="links">
+          <a href="https://github.com/majonesmax/open-liveries">Code and data on GitHub</a>
+          <span aria-hidden="true">·</span>
+          <a href="https://github.com/majonesmax/open-liveries#whats-here">Read the docs</a>
+        </p>
+
+        <h3 id="about-seeing">What you’re seeing</h3>
+        <p>
+          Every picture here is drawn live from a scheme’s JSON file rather than taken from a photo. The cards in the
+          list all use the same simple placeholder airplane.
+        </p>
+        <p>
+          Open a scheme to see it in 3D, from both sides and from below. It’s drawn on the type it was measured on if we
+          have that type’s real outline, and on the placeholder if we don’t.
+        </p>
+
+        <h3 id="about-do">What you can do</h3>
+        <ul>
+          <li>Search by airline, scheme or registration, and filter by kind.</li>
+          <li>Open a scheme and drag the 3D model to turn it. Scroll or pinch to zoom, and Spin stops it.</li>
+          <li>
+            Step through every measured type with ‹ and › (or the arrow keys). Any livery fits any type, so you can try
+            Pan Am’s 1985 cheatline on a 787 and make planes that never flew.
+          </li>
+          <li>Load your own aircraft’s shape file with <b>Your shape…</b> to see any scheme on it.</li>
+          <li>
+            Share what you see with the page’s link, which keeps the scheme (<code>#ICAO/id</code>) and the type
+            (<code>?shape=B789</code>).
+          </li>
+        </ul>
+
+        <h3 id="about-limits">What it can’t do yet</h3>
+        <ul>
+          <li id="about-placeholder">
+            <b>The default airplane is a placeholder.</b> The narrowbody, widebody and regional jet are simple generic
+            models rather than any real type. <span data-count="shapes">Eighty-odd</span> types have their real outline,
+            measured mostly from the makers’ own drawings, and everything else goes on a placeholder.
+          </li>
+          <li id="about-logos">
+            <b>Logos show as dashed boxes.</b> The label in the box is the logo’s name, like “globe” or “logo”. Airline
+            logos are trademarks and their artwork belongs to the airline, so Open Liveries describes each one in words
+            and says where it goes without copying it. Apps that use the data draw their own simple marks.
+          </li>
+          <li>
+            <b>The lettering is a stand-in.</b> Titles are set in the closest common typeface, not the airline’s own.
+          </li>
+          <li>
+            <b>It can be off.</b> Colors and positions are measured by hand from photos, and each scheme lists its
+            sources and how sure we are.
+          </li>
+          <li>
+            <b>Some schemes aren’t drawn yet.</b> <span data-count="words">Some</span> have only words so far and show
+            their airline’s usual scheme with a note. <b>Drawn only</b> hides them.
+          </li>
+        </ul>
+
+        <h3 id="about-help">Help out</h3>
+        <p>
+          See something wrong?
+          <a href="https://github.com/majonesmax/open-liveries/issues">Open an issue</a> with a link to a photo, or fix
+          it yourself.
+          <a href="https://github.com/majonesmax/open-liveries/blob/main/CONTRIBUTING.md">CONTRIBUTING</a> says how to
+          add a scheme, tag a jet or measure a new type.
+        </p>
+        <p class="about-end"><button type="button" class="start" data-about-close>Start browsing</button></p>
+      </div>
+    </dialog>
     <script type="module" src="js/main.js"></script>
     <script>
       // Browsers don't run module scripts from file:// URLs, so say how to open it instead of staying on "Loading…".
