@@ -198,7 +198,7 @@ export class DetailPanel {
     }
     if (livery.logos?.length) {
       notes.push(
-        'Dashed boxes are logos. Airline logos are trademarks, so they’re described below instead of drawn.' +
+        'Dashed boxes are logos. Airline logos are trademarks and are described below instead of drawn.' +
           more('logos'),
       );
     }

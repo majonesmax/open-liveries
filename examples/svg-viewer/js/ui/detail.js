@@ -186,7 +186,7 @@ export class DetailPanel {
             notes.push(`Drawn on a simple stand-in. ${why}${more('placeholder')}`);
         }
         if (livery.logos?.length) {
-            notes.push('Dashed boxes are logos. Airline logos are trademarks, so they’re described below instead of drawn.' +
+            notes.push('Dashed boxes are logos. Airline logos are trademarks and are described below instead of drawn.' +
                 more('logos'));
         }
         return notes.map((note) => `<p>${note}</p>`).join('');
