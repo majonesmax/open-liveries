@@ -1,0 +1,244 @@
+{
+  "_about": "DC-9-30 (DC-9-31, -32, -33, -34: one airframe), from Boeing's copy of the Douglas DC-9 Airplane Characteristics for Airport Planning (June 1984, Rev F 5/84; boeing.com's airport planning page, DC9.pdf, 2023), 2.2 General Airplane Dimensions, Model DC-9-32 (page index 14): side, plan and front views on one sheet, a 1-bit scan on graph paper. Pixels of layers.py --mode image rasters at scale 4, --unrotate --rotate 179.57 (the page is stored turned; the scan is drawn 0.43 degrees off level), line centres. Clips (stored page points): side 72,310,530,424; plan 92,392,530,730; front 92,112,442,217. Scaled by the printed 32.61 m (107 ft) from the nose to the tail cone (43.5, 1579.5 px: 47.10 px a meter); the plan and front are at the side's scale. A T-tail (`stabilizer.mount`) and two JT8D nacelles on the rear fuselage on stub pylons (`engines.mount`), as the MD-80 (MD82) it was stretched into. Windows: the sheet's 34 solid ones (closed outlines; the dashed first and last left out), each one's place along the body measured here, their height and width the MD-80's (the same cabin). Doors: the main entry door (left), the overwing exits and the cargo doors (right, dashed) as drawn; the service door (right) from 2.7.4 (27 in wide, 177.4 in to its middle, 48.5 in tall, its sill with the main door's). Cockpit panes: the MD-80's (the same nose), in this raster's pixels. The side view draws the tube 0.6% short of the printed 3.61 m, the front view 0.8% short: no height fit. Rebuild: layers.py per view, snap.py, features.py, build.py dc93/recipe.json W, smooth.py, dc93/straighten.py, windshield.py.",
+  "out": "../../../shapes/DC93.json",
+  "length": 32.61,
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "engines": {
+    "mount": "fuselage"
+  },
+  "stabilizer": {
+    "mount": "fin"
+  },
+  "refs": {
+    "side": {
+      "nose": 43.5,
+      "tail": 1579.5,
+      "cowlEnd": 1326.5
+    },
+    "plan": {
+      "nose": 38.5,
+      "centerline": 680.5
+    },
+    "front": {
+      "centerline": 694.75,
+      "crownTop": 191
+    }
+  },
+  "windows": {
+    "z": [
+      0.162,
+      0.568
+    ],
+    "width": 0.275,
+    "x": [
+      6.061,
+      6.55,
+      6.985,
+      7.484,
+      7.983,
+      8.492,
+      8.991,
+      9.49,
+      9.957,
+      10.467,
+      10.955,
+      11.433,
+      11.889,
+      12.335,
+      12.791,
+      13.29,
+      13.789,
+      14.288,
+      14.776,
+      15.254,
+      15.785,
+      16.326,
+      16.868,
+      17.398,
+      17.887,
+      18.333,
+      18.821,
+      19.32,
+      19.819,
+      20.307,
+      20.753,
+      21.241,
+      21.719,
+      22.165
+    ],
+    "note": "Each window's place along the body measured on the DC-9-32 sheet's side view (2.2), which draws them as closed outlines: 34 solid, from just behind the main door to beside the nacelle's inlet, the overwing exits' windows among them. A dashed window at each end of the row (optional on some aircraft) is left out. Their height and width are the MD-80's (MD82: the same cabin section and windows)."
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [
+        226,
+        260,
+        270,
+        342
+      ],
+      "side": "left",
+      "name": "main entry door"
+    },
+    {
+      "kind": "door",
+      "box": [
+        240,
+        284,
+        272,
+        342
+      ],
+      "side": "right",
+      "name": "service door"
+    },
+    {
+      "kind": "exit",
+      "box": [
+        774,
+        278,
+        799,
+        320
+      ]
+    },
+    {
+      "kind": "exit",
+      "box": [
+        825,
+        278,
+        850,
+        321
+      ]
+    },
+    {
+      "kind": "cargo",
+      "box": [
+        480.5,
+        352.5,
+        541,
+        398
+      ],
+      "side": "right",
+      "name": "forward cargo door"
+    },
+    {
+      "kind": "cargo",
+      "box": [
+        1107,
+        357,
+        1152,
+        397.5
+      ],
+      "side": "right",
+      "name": "aft cargo door"
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [
+        144.1,
+        288.6
+      ],
+      [
+        145.2,
+        287.7
+      ],
+      [
+        157.4,
+        276.2
+      ],
+      [
+        170.0,
+        279.3
+      ],
+      [
+        159.6,
+        295.3
+      ]
+    ],
+    [
+      [
+        170.0,
+        279.3
+      ],
+      [
+        184.7,
+        279.3
+      ],
+      [
+        184.7,
+        305.2
+      ],
+      [
+        159.6,
+        295.3
+      ]
+    ],
+    [
+      [
+        184.7,
+        279.3
+      ],
+      [
+        211.7,
+        278.8
+      ],
+      [
+        211.7,
+        298.2
+      ],
+      [
+        184.7,
+        305.2
+      ]
+    ],
+    [
+      [
+        172.7,
+        275.9
+      ],
+      [
+        182.8,
+        265.1
+      ],
+      [
+        192.2,
+        265.6
+      ],
+      [
+        186.0,
+        276.2
+      ]
+    ]
+  ],
+  "printed": {
+    "fuselage height": 3.61,
+    "fuselage width": 3.35,
+    "wingspan": 28.44,
+    "tailplane span": 11.22,
+    "overall length": 36.36,
+    "engine out from the centerline": 2.7,
+    "main entry door from the nose": 4.382,
+    "service door from the nose": 4.506
+  },
+  "meta": {
+    "id": "DC93",
+    "name": "McDonnell Douglas DC-9-30",
+    "types": [
+      "DC93"
+    ],
+    "confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/airports/acaps/DC9.pdf",
+        "title": "Boeing (Douglas Aircraft Company), DC-9 Airplane Characteristics for Airport Planning (June 1984, revised F 5/84), 2.2 General Airplane Dimensions: Model DC-9-32; 2.7.4 Passenger Entrance and Service Door Clearances, Model DC-9",
+        "accessed": "2026-11-24",
+        "note": "Dimensions and outlines read off the DC-9-32 sheet's side, plan and front views (tools/trace/dc93/); the figures are the aircraft's measurements, not a copy of the drawing. The sheet is a 1-bit scan on graph paper (about 47 px a meter, so outlines are good to about 5 cm), drawn 0.43 degrees off level (turned level). Scaled by the printed 32.61 m (107 ft) from the nose to the tail cone; the plan and front views are at the side's scale. Against the sheet's printed figures: overall length 36.36 m (to the fin's top fairing's tail), span 28.44 m, tailplane 11.22 m, width 3.35 m, height 3.61 m and the engines 2.70 m out (see checks). The side and front views draw the tube within 0.8% of the printed 3.61 m, so it isn't fit to it. The JT8D nacelle (with its target thrust reverser and nozzle cone) is the sheet's, its fan cowl ending at 30.3 m. The sheet draws the cabin windows (34 solid, plus a dashed one at each end of the row, optional on some aircraft and left out), the left side's main entry door, the overwing exits and the right side's cargo doors (dashed); the right side's service door is placed from 2.7.4's partial plan (27 in wide, 4.51 m to its middle; its height the 48.5 in of 2.4's door list, its sill with the main door's). The main entry door's middle sits within 4 cm of 2.7.4's printed 172.5 in (4.38 m). The windows' height and width and the cockpit panes are the MD-80's (MD82: the same nose and cabin section), the windows' places along the body this sheet's. Confidence medium: a scan."
+      }
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "_about": "Airbus A300F4-600 AC (Dec 01/09), 2.2 Airplane Dimensions, page 2 (page index 17): layers.py --mode image at scale 4.89, clip 60,355,560,570 (front): the front view is drawn 2.3% larger than the side (its printed 44.84 m span between its extension lines), rendered to the side's scale. Pixels of that raster, line centres; the right half as drawn (the aircraft's left side). The A30B's points moved onto it (plug.py --shift -172,247) and snapped. The centerline is 918 px, the middle of the wing tips and of the two nacelles (the circle draws 5 px right of it, the fin 3 px left). The nacelles are drawn 16.5 m apart against the printed 15.88 m (the B2-B4 sheet draws its 15.87 m as printed, for the same wing): the inlet's ring, 106 px tall as drawn, is placed as free points about the printed 7.94 m out. The tailplane is drawn 16.9 m across, the A300B4's, against the printed 16.26 m: its span is taken from the print (stabilizerSpan).",
+  "fuselage.section": [
+    [926, 617],
+    [971, 627],
+    [991, 637],
+    [1011, 657],
+    [1018, 667],
+    [1030, 687],
+    [1035, 707],
+    [1036, 727],
+    [1033, 747],
+    [1029, 760]
+  ],
+  "wing.upper": [
+    [1036, 736],
+    [1048, 735],
+    [1088, 733],
+    [1128, 729],
+    [1178, 727],
+    [1278, 720],
+    [1328, 717],
+    [1428, 710],
+    [1528, 703],
+    [1628, 696],
+    [1728, 689],
+    [1758, 686],
+    [1778, 686],
+    [1784, 693]
+  ],
+  "wing.lower": [
+    [1024, 784],
+    [1058, 782],
+    [1128, 771],
+    [1178, 763],
+    "hidden",
+    [1308, 744],
+    "hidden",
+    [1348, 740],
+    "hidden",
+    [1388, 736],
+    "hidden",
+    [1448, 730],
+    "hidden",
+    [1548, 720],
+    "hidden",
+    [1608, 715],
+    "hidden",
+    [1648, 710],
+    "hidden",
+    [1688, 707],
+    "hidden",
+    [1728, 703],
+    [1758, 700],
+    [1778, 698],
+    [1784, 693]
+  ],
+  "stabilizer.upper": [
+    [1028, 645],
+    [1078, 641],
+    [1128, 637],
+    [1208, 629],
+    [1228, 627],
+    [1243, 626],
+    [1252, 631]
+  ],
+  "stabilizer.lower": [
+    [1028, 663],
+    [1078, 658],
+    [1128, 651],
+    [1208, 641],
+    [1228, 638],
+    [1243, 637],
+    [1252, 631]
+  ],
+  "engine.inlet": [
+    {
+      "free": [1171, 832]
+    },
+    "hidden",
+    {
+      "free": [1187, 795]
+    },
+    "hidden",
+    {
+      "free": [1224, 779]
+    },
+    "hidden",
+    {
+      "free": [1261, 795]
+    },
+    "hidden",
+    {
+      "free": [1277, 832]
+    },
+    "hidden",
+    {
+      "free": [1261, 869]
+    },
+    "hidden",
+    {
+      "free": [1224, 885]
+    },
+    "hidden",
+    {
+      "free": [1187, 869]
+    },
+    "hidden",
+    {
+      "free": [1171, 832]
+    }
+  ]
+}

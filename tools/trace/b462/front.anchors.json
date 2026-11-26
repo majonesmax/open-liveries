@@ -1,0 +1,10 @@
+{
+  "_about": "The same schematic's front view: layers.py --mode image --threshold 170 at scale 4, clip 765,5,1345,200 (drawn to the plan's span scale: its wingtips 2242 px apart against the plan's 2241). Pixels of that raster, line centres; the left half (the aircraft's right: mirrored, the same). The fuselage's circle is drawn under the wing's root (the wing's upper line runs on over the top); below its widest, the main gear's legs and fairings cross its lower side (bridged). The inlets are rings round busy fan faces: their outer line's top, bottom and sides are placed (free).",
+  "fuselage.section": [[1154, 420], [1100, 430], [1079, 440], [1053, 455], [1040, 470], [1021, 500], [1014, 515], [1009, 530], [1006, 545], [1004, 560], [1003, 575], [1004, 590], [1007, 605], [1011, 620], "hidden", [1024, 650], [1035, 665], [1049, 680], [1066, 695], "hidden", {"free": [1153.5, 725]}],
+  "wing.upper": [[1003, 413], [960, 417], [900, 422], [800, 432], [700, 440], [600, 449], [500, 458], [400, 467], [300, 476], [200, 484], [100, 494], [50, 498], [36, 503]],
+  "wing.lower": [[1003, 470], [960, 471], [900, 474], [800, 480], [700, 482], [600, 486], [500, 490], [300, 498], [200, 501], [100, 505], [50, 507], [36, 503]],
+  "stabilizer.upper": [[1134, 78], [1100, 79], [1000, 80], [900, 82], [800, 83], [700, 85], [664, 88]],
+  "stabilizer.lower": [[1134, 112], [1100, 112], [1000, 109], [900, 106], [800, 102], [700, 99], [664, 90]],
+  "engine.inlet": [{"free": [864.5, 586]}, "hidden", {"free": [814, 637]}, "hidden", {"free": [763.5, 586]}, "hidden", {"free": [814, 535]}, "hidden", {"free": [864.5, 586]}],
+  "engine2.inlet": [{"free": [634, 595]}, "hidden", {"free": [584, 647.5]}, "hidden", {"free": [534, 595]}, "hidden", {"free": [584, 543]}, "hidden", {"free": [634, 595]}]
+}

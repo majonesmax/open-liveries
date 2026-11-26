@@ -1,0 +1,37 @@
+{
+  "_about": "Airbus A300 Airplane Characteristics for Airport Planning (Rev 22, Dec 01/09), 2.2 General Dimensions, Model B2-B4 (Feb. 1980; page index 28), a scan on graph paper: layers.py --mode image at scale 5, clip 110,380,555,525 (side). Pixels of that raster, line centres. The grid's lines run through the drawing: the cabin's crown runs along one (369-377 px, the crown's line its upper part), and the nose tip sits on another. The belly's line is thick and doubled by a dashed line under the cabin: its level run is placed by its middle (free points, 588-589 px). The nacelle hides the belly from its inlet to its exhaust (hidden). The side view draws the flaps extended, below and behind the wing: not traced (the wing is the plan's and front view's). The long low fairing drawn on the crown over the wing (1060-1390 px) is left out of the crown. Aft, the belly is the lower of the tail cone's lines (the tailplane's own outline lies between it and the crown).",
+  "fuselage.crown": [
+    [68, 497], [72, 482], [80, 470], [100, 461], [120, 445], [160, 418], [200, 400], [260, 385], [300, 379], [400,
+    373], [600, 372], [800, 372], [1000, 372], [1200, 372], [1400, 372], [1600, 372], [1800, 372], [1950, 374],
+    [2000, 375], [2050, 378], [2080, 380], {"free": [2110, 383]}, [2134, 385]
+  ],
+  "fuselage.belly": [
+    [68, 497], [72, 512], [80, 518], [90, 526], [100, 532], [120, 543], [140, 552], [160, 559], [200, 570], [260,
+    581], [300, 584], {"free": [400, 588]}, "hidden", {"free": [650, 588]}, "hidden", {"free": [990, 589]},
+    "hidden", {"free": [1300, 589]}, [1350, 587], [1400, 581], [1450, 574], [1500, 565], [1550, 552], [1600, 543],
+    [1650, 530], [1700, 516], [1750, 502], [1850, 476], [1950, 449], [2040, 425], [2060, 418], {"free": [2085,
+    400]}, "hidden", {"free": [2110, 390]}, "hidden", [2134, 385]
+  ],
+  "fin.fillet": [
+    [1560, 372], [1600, 370], [1635, 364], [1671, 350], [1693, 340], [1724, 320], [1750, 300]
+  ],
+  "fin.leading": [
+    [1750, 300], [1801, 250], [1850, 200], [1898, 150], [1946, 100], [1966, 80], [1977, 70], [1991, 60], [2000, 54]
+  ],
+  "fin.trailing": [
+    [1982, 370], [1985, 360], [1993, 340], [2010, 300], [2032, 250], [2052, 200], [2073, 150], [2093, 100], [2105,
+    70], [2109, 60], [2113, 54]
+  ],
+  "fin.rudder": [
+    [1890, 370], [1894, 360], [1906, 340], [1930, 300], [1960, 250], [1990, 200], [2019, 150], [2048, 100], [2065,
+    70], [2071, 60], [2074, 54]
+  ],
+  "engine.top": [
+    [677, 548], [681, 537], [690, 531], [740, 529], [800, 530], [836, 533], [841, 542], [870, 550], [900, 556],
+    [944, 561]
+  ],
+  "engine.bottom": [
+    [677, 615], [681, 627], [690, 632], [740, 637], [800, 634], [836, 624], [841, 616], [870, 609], [900, 603],
+    [944, 596]
+  ]
+}

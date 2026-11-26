@@ -265,7 +265,7 @@
   },
   "PGA": {
     "wears": "TAP/express",
-    "note": "Portugália, flying as TAP Express (E190/E195) in TAP's 2017 colors with 'express' in the emblem and on the fin (TAP/express)."
+    "note": "Portugália, flying as TAP Express (E190/E195) in TAP's 2017 colors with 'express' in the emblem and on the fin (TAP/express). Its jets mostly fly under TAP's own callsign (TAP), so they're also tagged by registration in airframes/TAP.json (2026-11-25)."
   },
   "QLK": {
     "wears": "QFA/standard",
@@ -290,6 +290,10 @@
   "RUK": {
     "wears": "RYR/standard",
     "note": "Ryanair UK (G-RUK.. 737-800s): full Ryanair paint with a small Union flag by the registration."
+  },
+  "SHT": {
+    "wears": "BAW/standard",
+    "note": "British Airways Shuttle: the callsign (telephony SHUTTLE) British Airways flies its UK domestic shuttle A320s under from Heathrow, in its own paint (G-EUYD and G-EUUS seen as SHT at Heathrow, Nov 2026)."
   },
   "SLI": {
     "wears": "AMX/standard",

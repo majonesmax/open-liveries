@@ -23,12 +23,22 @@ function piecewise(knots, slope = 1) {
     };
 }
 /** Pairs kept only where both sides keep increasing (a landmark out of order on either type is left out). */
+/** A landmark carried further than this share of the body to its match is the first to go when two disagree. */
+const FAR = 0.2;
 function increasing(pairs) {
     const out = [];
     for (const [a, b] of pairs) {
         const last = out.at(-1);
         if (!last || (a > last[0] + 1e-6 && b > last[1] + 1e-6))
             out.push([a, b]);
+        // Two landmarks in a different order on the two types (a 747's first window under its upstairs cockpit, the
+        // Convair 580's behind its propeller, 7.4 m back): where the one kept would carry a position more than FAR along
+        // the body, the one that moves less stays instead, so the nose of one isn't carried to the other's mid-cabin.
+        else if (Math.abs(last[1] - last[0]) > FAR && Math.abs(b - a) < Math.abs(last[1] - last[0])) {
+            const before = out.at(-2);
+            if (!before || (a > before[0] + 1e-6 && b > before[1] + 1e-6))
+                out[out.length - 1] = [a, b];
+        }
     }
     return out;
 }

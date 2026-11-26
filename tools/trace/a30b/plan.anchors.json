@@ -1,0 +1,23 @@
+{
+  "_about": "Airbus A300 AC (Rev 22, Dec 01/09), 2.2 General Dimensions, Model B2-B4 (page index 28): layers.py --mode image at scale 5, clip 110,80,555,395 (plan), --rotate 0.25 (the sheet draws the plan turned about a quarter of a degree, the nose 7 px above the tail cone). Pixels of that raster, line centres; the upper half (the aircraft's right side, the same as its left). Ahead of the wing the fuselage side runs along the 5.64 m dimension's extension line. The flap-track fairings stand behind the trailing edge: the edge is the straight line from the tip to the unswept inboard trailing edge. The nacelle hides the leading edge (hidden). The nacelle's sides aren't traced: its plan draws the nacelle's middle 8.07 m out against the printed 15.87 m apart; the front view's inlet (7.94 m) places it.",
+  "fuselage.halfWidth": [
+    {"free": [72, 905]}, "hidden", [80, 882], [100, 866], [150, 845], [200, 826], [250, 812], [300, 801], [350,
+    796], [450, 793], [600, 794], [800, 796], [1000, 795], [1200, 799], [1400, 802], [1550, 813], [1600, 819],
+    [1650, 825], [1700, 831], [1750, 838], [1800, 845], [1850, 853], [1900, 859], [1950, 866], [2000, 876], [2050,
+    884], [2080, 890], [2100, 896], [2120, 901], [2136, 904]
+  ],
+  "wing.leading": [
+    [782, 791], [796, 770], [839, 700], "hidden", [933, 540], [957, 500], [1074, 300], [1193, 100], [1213, 66],
+    [1220, 56], [1228, 46], [1240, 42]
+  ],
+  "wing.trailing": [
+    [1143, 793], [1143, 770], [1144, 700], [1146, 600], [1151, 540], [1164, 500], [1237, 300], [1312, 100], [1326,
+    60], [1331, 50], [1333, 42]
+  ],
+  "stabilizer.leading": [
+    [1840, 851], [1875, 800], [1948, 700], [2021, 600], [2032, 590], [2045, 583]
+  ],
+  "stabilizer.trailing": [
+    [2026, 879], [2028, 870], [2034, 850], [2053, 800], [2088, 700], [2124, 600], [2130, 584]
+  ]
+}

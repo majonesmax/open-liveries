@@ -1,0 +1,113 @@
+{
+  "_about": "British Aerospace BAe 146-200 (B462), read off an enthusiast's dimensioned schematic: Wikimedia Commons File:BAe 146 v1.0.png by Julien.scavini (CC BY-SA 3.0, own work: side, plan ('TOP'), front and section views with printed figures and a 0-10 m scale bar; 1355 x 830 px, about 21 px a meter). No BAe 146 airport-planning document is openly available (BAE Systems' APM 146.1 is on its customer portal) and no public-domain government three-view was found, so the confidence is low. Only measurements are taken, not the drawing. The PNG's background is transparent: it's flattened onto white and saved at 72 dpi (pymupdf opens it at 1 pt a pixel), then rasterized with layers.py --mode image --threshold 170 at scale 4. The side and plan views are drawn 9.3% long lengthwise against everything across: their 28.60 m length runs 663.5 px between its extension lines (23.2 px a meter), where the span's 26.21 m runs 560 px, the height's 8.61 m 183 px and the scale bar's 10 m 212 px (21.2-21.4 px a meter). The two are made one scale with EASA's figures for the 146-200 (TCDS EASA.A.182): its 28.55 m length over the drawn 663.5 px and its 26.34 m span over the drawn 560 px give the side and plan --xscale 0.9148; the drawing's own 8.61 m height then lands within 0.1% and its scale bar within 0.3%. So one scale serves every view: 85.04 raster px a meter (side, plan and front). The front view needs no evening out (its wingtips 2242 px apart against the plan's 2241). The recipe's length (26.094 m) is the nose tip to the tail cone (the clamshell airbrake's end, a blunt 0.7 m tall end): the drawing's printed overall length runs on to the fin-top fairing's tip. A high wing over the fuselage's top, four ALF502 nacelles on pylons under it (the outboard pair lower: the wing's anhedral), a T-tail with the tailplane on the fin's top fairing and a long dorsal fillet from the wing to the fin. The drawing's figures that don't match EASA's: its 28.60 m length (EASA 28.55 m) and 26.21 m span (26.34 m) are the Avro RJ85's published figures; its lines match EASA's. Windows: their height (0.33 m) is from the Commons photos of N356PS and N348PS (the schematic draws them 0.45 m tall, 1.5 times their width; the photos show them 1.4 times as tall as wide at 0.3 m), their middle and width the schematic's. 7 ahead of the nacelles and 13 behind on the left side as drawn; 3 behind the pylons joined to their lines (windowsAlso) and 9 hidden behind the nacelles and pylons placed on the drawn 43.6 px pitch (a right-side Commons photo of N356PS shows the row unbroken there). Doors as drawn on the left side (the forward and aft passenger doors); the right side's service doors are mirrored. Rebuild: build.py b462/recipe.json W, smooth.py shapes/B462.json, b462/straighten.py shapes/B462.json (the cabin's crown, belly and plan width set to their least-squares lines, the nose and tail eased, the schematic's ground-line and gear checks added), windshield.py.",
+  "out": "../../../shapes/B462.json",
+  "length": 26.094,
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "stabilizer": {
+    "mount": "fin"
+  },
+  "refs": {
+    "side": {
+      "nose": 45,
+      "tail": 2264,
+      "cowlEnd": 997,
+      "cowlEnd2": 1065,
+      "windowRow": [505, 562],
+      "windowBand": [519, 547],
+      "windowGap": 5,
+      "windowMinWidth": 15,
+      "windowInset": 3,
+      "windowsAlso": [
+        825.6,
+        869.3,
+        912.9,
+        956.6,
+        1000.2,
+        1043.9,
+        1087.5,
+        1131.2,
+        1174.8,
+        1218.5,
+        1262.0,
+        1305.8
+      ]
+    },
+    "plan": {
+      "nose": 45,
+      "centerline": 1150.5
+    },
+    "front": {
+      "centerline": 1153.5,
+      "crownTop": 420
+    }
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [
+        406,
+        460,
+        474,
+        633
+      ]
+    },
+    {
+      "kind": "door",
+      "box": [
+        1783,
+        482,
+        1853,
+        633
+      ]
+    }
+  ],
+  "cockpitPanes": [
+    [[209, 530], [236, 503], [258, 501], [262, 506], [241, 529], [236, 533], [212, 533]],
+    [[251, 531], [269, 509], [284, 499], [298, 498], [302, 504], [294, 539], [288, 546], [255, 537]],
+    [[302, 539], [310, 502], [317, 496], [331, 497], [339, 505], [339, 531], [329, 541], [306, 545]]
+  ],
+  "printed": {
+    "overall length": 28.55,
+    "wingspan": 26.34,
+    "fuselage width": 3.5
+  },
+  "meta": {
+    "id": "B462",
+    "name": "British Aerospace BAe 146-200",
+    "types": [
+      "B462"
+    ],
+    "confidence": "low",
+    "sources": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:BAe_146_v1.0.png",
+        "title": "Julien.scavini, \"BAe 146 v1.0.png\": British Aerospace BAe 146 schematic, side, top, front and section views with printed dimensions and a scale bar (Wikimedia Commons, own work, CC BY-SA 3.0)",
+        "accessed": "2026-11-24",
+        "note": "The shape's outlines are measured off this schematic (tools/trace/b462/): only the figures are taken, not the drawing; credit Julien.scavini, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/). It's an enthusiast's drawing, not a manufacturer's or government's: no BAe 146 airport-planning document is openly available (BAE Systems' Airport Planning Manual APM 146.1 is on its iSAPPHIRE customer portal) and no public-domain government three-view was found (the RAF's 146s are Crown copyright; the FAA's 2026 airtanker loads report DOT/FAA/TC-20/13, NTSB and NIFC documents draw none). So the confidence is low. A 1355 x 830 px picture of about 21 px a meter. Its side and plan are drawn 9.3% long lengthwise against their own span, height, fuselage width and scale bar; evened out by EASA's length and span (recipe.json), after which its own 8.61 m height lands within 0.2% and its scale bar within 0.3%. Its printed 28.60 m length and 26.21 m span are the Avro RJ85's published figures; its lines match the 146-200's (EASA's 28.55 m and 26.34 m). Its fuselage is drawn 3.54 m wide in plan and front view (it prints 3.50 m between extension lines drawn 3.57 m apart). Its main gear is drawn 4.50 m apart against EASA's 4.72 m track and its wheelbase 11.33 m against 11.20 m (the gear isn't part of the shape). Cabin windows: 29 a side on the drawn pitch (0.513 m), 12 of them behind the nacelles and pylons placed on it; their height from the photos below."
+      },
+      {
+        "url": "https://www.easa.europa.eu/en/downloads/7266/en",
+        "title": "EASA, Type-Certificate Data Sheet No. EASA.A.182, BAe 146 / AVRO 146-RJ Series, Issue 3.0: section 4, Dimensions, and section 22, Wheels and Tyres",
+        "accessed": "2026-11-24",
+        "note": "The printed figures the shape is scaled by and checked against: the Series 200's length 28.55 m (93 ft 8 in), wingspan 26.34 m (86 ft 5 in), height 8.61 m (28 ft 3 in); track 4.72 m and wheelbase 11.20 m."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:PSA_BAe_146-200;_N356PS,_July_1986_CBG_(4848643600).jpg",
+        "title": "PSA BAe 146-200 N356PS, July 1986, right side (Aero Icarus, CC BY-SA 2.0)",
+        "accessed": "2026-11-24",
+        "note": "A check only (only measurements are taken): flipped nose-left and fitted at the nose, tail cone, fin tip and root and both doors (tools/photo_trace.py align), the outline lands on the nose, crown, belly and tail cone within about 0.25 m; the fin's leading edge and top are drawn up to 0.3-0.5 m ahead of and above the photo's (the fit is a flat one on a photo taken 3 degrees from below, so the fin is the least certain part). It shows the window row unbroken behind the pylons (12 aft of the nacelles, 5 ahead on the right side) and the windows' height."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:PSA_BAe_146-200A;_N348PS,_May_1987_BEW_(5601032629).jpg",
+        "title": "PSA BAe 146-200A N348PS on approach, May 1987, left side (Aero Icarus, CC BY-SA 2.0)",
+        "accessed": "2026-11-24",
+        "note": "A check only: the left side's windows (7 between the forward door and the nacelles, as the schematic draws) and doors."
+      }
+    ]
+  }
+}

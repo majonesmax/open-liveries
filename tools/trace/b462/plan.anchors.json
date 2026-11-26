@@ -1,0 +1,8 @@
+{
+  "_about": "The same schematic's plan view (TOP): layers.py --mode image --threshold 170 at scale 4, clip 15,240,710,815, --xscale 0.9148 (as the side). Pixels of that raster, line centres; the upper half (the aircraft's left side; mirrored, the same). The fuselage's side is hidden under the wing (bridged) and aft under the tailplane: its end at the tail cone is placed by its line carried on (free). The tailplane's root is at the fin's side (a T-tail).",
+  "fuselage.halfWidth": [[45, 1150], [50, 1140], [60, 1132], [80, 1119], [100, 1107], [150, 1079], [200, 1056], [300, 1023], [400, 1004], [500, 999], [700, 999], [900, 999], "hidden", [1300, 999], [1500, 999], [1600, 999], [1700, 1007], [1800, 1016], [1900, 1032], [2000, 1050], [2100, 1072], [2150, 1085], "hidden", {"free": [2264, 1112]}],
+  "wing.leading": [[937, 999], [942, 980], [951, 950], [967, 900], [997, 800], [1028, 700], "hidden", [1088, 500], [1119, 400], [1149, 300], [1180, 200], [1210, 100], [1227, 50], [1235, 40], [1244, 33]],
+  "wing.trailing": [[1238, 999], [1241, 950], [1247, 900], [1257, 800], [1267, 700], [1278, 600], [1300, 400], [1310, 300], [1321, 200], [1332, 100], [1337, 50], [1338, 33]],
+  "stabilizer.leading": [[2152, 1120], [2159, 1100], [2178, 1050], [2197, 1000], [2235, 900], [2274, 800], [2312, 700], [2331, 670], [2340, 663]],
+  "stabilizer.trailing": [[2432, 1120], [2436, 1100], [2441, 1050], [2445, 1000], [2453, 900], [2463, 800], [2471, 700], [2474, 670], [2474, 663]]
+}

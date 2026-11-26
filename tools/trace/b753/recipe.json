@@ -1,0 +1,232 @@
+{
+  "_about": "757-300, from Boeing D6-58327 Rev H 2.2.2 (page index 20): side, plan and front views on one sheet, drawn 3.6% larger than 2.2.1 (the 757-200's). Pixels of layers.py rasters at scale 20, line centres. The B752's points moved by the two plugs (plug.py: 4.064 m behind door 2, 3.048 m behind the wing, from 2.7.1's door table and the wheelbases; --scale 1.0364) and snapped onto this sheet. Scaled by the printed 54.08 m from the nose to the tail cone (as drawn: the sheet's dimension arrow reaches 0.38 m past the drawn tail cone; the plan's 54.43 m overall and span agree with the drawn ends within 0.3%). The side view is snapped on side_all.png (fills and strokes together): the belly aft of the wing and the nacelle's core are thin strokes on this sheet. The sheet draws the cabin windows (thin strokes, closed outlines); seven behind the wing's lines are placed at the drawing's own pitch. The nacelle is the PW2000's, as on the 757-200's sheet. The cockpit panes are the B752's (the same nose), moved as its points are. A plain wingtip: the document has no winglet sheet.",
+  "out": "../../../shapes/B753.json",
+  "length": 54.08,
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "refs": {
+    "side": {
+      "nose": 351,
+      "tail": 6405,
+      "cowlEnd": 3160,
+      "windowRow": [
+        1210,
+        1272
+      ],
+      "windowGap": 5,
+      "windowMinWidth": 20,
+      "windowInset": 1,
+      "windowBand": [
+        1222,
+        1263
+      ],
+      "windowsAlso": [
+        3730,
+        3787,
+        3847,
+        3904,
+        3961,
+        4018,
+        4070
+      ]
+    },
+    "plan": {
+      "nose": 351,
+      "centerline": 2428
+    },
+    "front": {
+      "centerline": 2431,
+      "crownTop": 781
+    }
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "name": "door 1",
+      "box": [
+        870,
+        1144,
+        963,
+        1350
+      ]
+    },
+    {
+      "kind": "door",
+      "name": "door 2",
+      "box": [
+        1872,
+        1144,
+        1965,
+        1350
+      ]
+    },
+    {
+      "kind": "exit",
+      "box": [
+        3082,
+        1192,
+        3149,
+        1295
+      ]
+    },
+    {
+      "kind": "exit",
+      "box": [
+        3181,
+        1192,
+        3248,
+        1295
+      ]
+    },
+    {
+      "kind": "exit",
+      "name": "door 3",
+      "box": [
+        4344,
+        1178,
+        4437,
+        1349
+      ]
+    },
+    {
+      "kind": "door",
+      "name": "door 4",
+      "box": [
+        5384,
+        1144,
+        5478,
+        1350
+      ]
+    },
+    {
+      "kind": "cargo",
+      "name": "forward cargo door",
+      "side": "right",
+      "box": [
+        1498,
+        1381,
+        1656,
+        1502
+      ]
+    },
+    {
+      "kind": "cargo",
+      "name": "aft cargo door",
+      "side": "right",
+      "box": [
+        4629,
+        1371,
+        4786,
+        1497
+      ]
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [
+        567,
+        1228
+      ],
+      [
+        571,
+        1228
+      ],
+      [
+        540,
+        1286
+      ],
+      [
+        475,
+        1288
+      ],
+      [
+        493,
+        1269
+      ],
+      [
+        512,
+        1243
+      ],
+      [
+        522,
+        1234
+      ]
+    ],
+    [
+      [
+        577,
+        1228
+      ],
+      [
+        619,
+        1230
+      ],
+      [
+        608,
+        1293
+      ],
+      [
+        547,
+        1286
+      ]
+    ],
+    [
+      [
+        651,
+        1231
+      ],
+      [
+        676,
+        1232
+      ],
+      [
+        684,
+        1276
+      ],
+      [
+        613,
+        1293
+      ],
+      [
+        625,
+        1232
+      ]
+    ]
+  ],
+  "printed": {
+    "fuselage height": 4.01,
+    "fuselage width": 3.76,
+    "wingspan": 38.06,
+    "tailplane span": 15.22,
+    "engine out from the centerline": 6.5,
+    "overall length": 54.43,
+    "engine inlet from the nose": 20.68,
+    "nacelle width": 2.7,
+    "door 1 from the nose": 5.05,
+    "door 2 from the nose": 13.99,
+    "door 3 from the nose": 35.99,
+    "door 4 from the nose": 45.34,
+    "forward cargo door from the nose": 10.95,
+    "aft cargo door from the nose": 38.89
+  },
+  "meta": {
+    "id": "B753",
+    "name": "Boeing 757-300 (PW2000 nacelles), plain wingtips",
+    "types": [
+      "B753"
+    ],
+    "confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/airports/acaps/757_Rev_H.pdf",
+        "title": "Boeing, 757 Airplane Characteristics for Airport Planning (D6-58327 Rev H, December 2024), 2.2.2 General Dimensions: Model 757-300; 2.7.1 Door Clearances",
+        "accessed": "2026-11-25",
+        "note": "Dimensions and outlines read off 2.2.2's side, plan and front views (tools/trace/b753/), starting from the 757-200's points (tools/trace/b752/) moved by the two plugs 2.7.1's door table and the wheelbases give (4.064 m between door 2 and the wing, 3.048 m between the wing and the aft cargo door) and snapped onto this sheet, which is drawn 3.6% larger than 2.2.1; the figures are the aircraft's measurements, not a copy of the drawing. Plain wingtips (the document has no winglet sheet; United's and Delta's 757-300s fly with blended winglets, which this shape doesn't have) and the PW2000's nacelle (as on the 757-200's sheet; Condor's and Icelandair's RB211s are longer). The sheet draws the cabin windows; the seven behind the wing's lines are placed at its own pitch. Doors 1, 2, 3 (the Type I exit behind the wing), 4 and the cargo doors sit within 0.1 m of 2.7.1's table. As on the 757-200's sheet the side view draws the fuselage 4.22 m tall against the printed 4.01 m (2.2.1's figure: 2.2.2 prints no height; its plan's width is as printed): fit to it (fit_height.py; the check's +1.4% is the wing-body fairing). The front view draws the nacelle 2.35 m across where the sheet prints 2.46 m (RR) and 2.70 m (PW); kept the drawing's."
+      }
+    ]
+  }
+}

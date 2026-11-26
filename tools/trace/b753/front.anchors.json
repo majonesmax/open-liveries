@@ -1,0 +1,55 @@
+{
+  "_about": "Boeing D6-58327 Rev H (757), 2.2.2 General Dimensions, 757-300: page index 20, layers.py --mode fills at scale 20, clip 222,540,460,630 (front; the image's right half is the aircraft's left side; centerline x 2431). The B752's points scaled 1.035 about its circle's middle onto this one's. Pixels of that raster, line centres.",
+  "fuselage.section": [
+    [2435, 781],
+    [2508, 800],
+    [2570, 849],
+    [2611, 911],
+    [2637, 984],
+    [2640, 1025]
+  ],
+  "wing.upper": [
+    [2647, 1054],
+    [2870, 1046],
+    [3284, 1027],
+    [3801, 996],
+    [4215, 969],
+    [4474, 949],
+    [4526, 935],
+    [4563, 951]
+  ],
+  "wing.lower": [
+    [3180, 1093],
+    [3387, 1074],
+    [3801, 1038],
+    [4215, 998],
+    [4474, 976],
+    [4526, 971],
+    [4563, 951]
+  ],
+  "stabilizer.upper": [
+    [2647, 927],
+    [2870, 903],
+    [3077, 880],
+    [3180, 868],
+    [3273, 876]
+  ],
+  "stabilizer.lower": [
+    [2647, 979],
+    [2870, 942],
+    [3077, 906],
+    [3180, 887],
+    [3273, 876]
+  ],
+  "engine.inlet": [
+    [3290, 1255],
+    [3252, 1161],
+    [3160, 1116],
+    [3063, 1157],
+    [3028, 1255],
+    [3063, 1349],
+    [3160, 1394],
+    [3256, 1349],
+    [3290, 1255]
+  ]
+}

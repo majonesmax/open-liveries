@@ -1,0 +1,140 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "white-tail",
+  "airline": "GTI",
+  "name": "White tail (Atlas titles on an all-white 747-8F)",
+  "kind": "standard",
+  "confidence": "medium",
+  "drawnOn": "B748",
+  "description": "All white, tail and engines too: no navy aft fuselage, no navy fin and no globe. The big 'ATLAS AIR' titles of the standard scheme over the forward fuselage. Seen on N864GT, a 747-8F that came to Atlas without its navy tail.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:N864GT_(aircraft)",
+      "title": "N864GT on Commons",
+      "accessed": "2026-11-25"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N864GT_(55066801910).jpg",
+      "title": "N864GT (55066801910).jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-25",
+      "note": "2026-01-19 at Los Angeles, from the left: all white with only 'Operated By ATLAS AIR INC.' small under the cockpit; white fin, engines and aft fuselage."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N864GT_(55066632078).jpg",
+      "title": "N864GT (55066632078).jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-25",
+      "note": "The same day, climbing out: white fin and aft fuselage."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Atlas_Air_Boeing_747-400_N322SG_BWI_MD1.jpg",
+      "title": "Atlas Air Boeing 747-400 N322SG (the standard scheme)",
+      "accessed": "2026-11-25",
+      "note": "The 'ATLAS AIR' title as measured for the standard scheme (GTI/standard), reused here."
+    },
+    {
+      "url": "https://www.jetphotos.com/registration/N864GT",
+      "title": "N864GT on JetPhotos",
+      "accessed": "2026-11-25",
+      "note": "Evidence only: a later photo shows the big 'ATLAS AIR' titles added on the forward fuselage, the tail still white. Nothing measured from it."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F2F3F5",
+      "official": false
+    },
+    "navy": {
+      "hex": "#1D2160",
+      "official": false,
+      "name": "Atlas navy"
+    },
+    "gold": {
+      "hex": "#D9A12A",
+      "official": false,
+      "name": "Atlas gold"
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "radome": {
+      "color": "white"
+    },
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "mirrored": false,
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "titles": [
+    {
+      "text": "ATLAS AIR",
+      "place": "fuselage",
+      "at": [
+        0.17,
+        0.12
+      ],
+      "height": 0.75,
+      "color": "navy",
+      "parts": [
+        {
+          "text": "ATLAS",
+          "color": "navy"
+        },
+        {
+          "text": " AIR",
+          "color": "gold"
+        }
+      ],
+      "style": "Heavy, slightly slanted capitals in navy, very large over the forward fuselage.",
+      "confidence": "low",
+      "sourceRefs": [
+        3
+      ],
+      "type": {
+        "similar": [
+          "Futura Extra Bold Oblique",
+          "Avenir Next Heavy Italic"
+        ],
+        "weight": 850,
+        "slantDeg": 8,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "length": 0.22
+    }
+  ],
+  "notes": "The title is the standard scheme's, placed as measured there; that it's painted on N864GT rests on a spotter photo (evidence only), and its exact place on this airframe isn't measured. The belly isn't seen: drawn white, without the standard's belly title."
+}

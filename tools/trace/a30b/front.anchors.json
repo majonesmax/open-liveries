@@ -1,0 +1,27 @@
+{
+  "_about": "Airbus A300 AC (Rev 22, Dec 01/09), 2.2 General Dimensions, Model B2-B4 (page index 28): layers.py --mode image at scale 5, clip 110,520,555,665 (front). Pixels of that raster, line centres; the right half as drawn (the aircraft's left side). The fuselage is a circle of 110 px about (1098, 480); its top sits on one of the grid's lines. The centerline is 1096 px, the middle of the wing tips, the engines and the fin (the circle draws 2 px right of it). The cockpit's side windows are the double arcs inside it. The flap-track fairings hang under the wing's lower line: it's bridged past them (hidden), through points read between them. The inlet is the nacelle's outer ring, placed as free points (the inner ring and the pylon run close by): 102 px across, 104 high, its middle 7.93 m out (the printed 15.87 m apart).",
+  "fuselage.section": [
+    [1098, 370], [1143, 380], [1163, 390], [1183, 410], [1190, 420], [1202, 440], [1207, 460], [1208, 480], [1205,
+    500], [1201, 513]
+  ],
+  "wing.upper": [
+    [1208, 489], [1220, 488], [1260, 486], [1300, 482], [1350, 480], [1450, 473], [1500, 470], [1600, 463], [1700,
+    456], [1800, 449], [1900, 442], [1930, 439], [1950, 439], [1956, 446]
+  ],
+  "wing.lower": [
+    [1196, 537], [1230, 535], [1300, 524], [1350, 516], "hidden", [1480, 497], "hidden", [1520, 493], "hidden",
+    [1560, 489], "hidden", [1620, 483], "hidden", [1720, 473], "hidden", [1780, 468], "hidden", [1820, 463],
+    "hidden", [1860, 460], "hidden", [1900, 456], [1930, 453], [1950, 451], [1956, 446]
+  ],
+  "stabilizer.upper": [
+    [1200, 398], [1250, 394], [1300, 390], [1380, 382], [1400, 380], [1415, 379], [1424, 384]
+  ],
+  "stabilizer.lower": [
+    [1200, 416], [1250, 411], [1300, 404], [1380, 394], [1400, 391], [1415, 390], [1424, 384]
+  ],
+  "engine.inlet": [
+    {"free": [1352, 583]}, "hidden", {"free": [1366, 546]}, "hidden", {"free": [1402, 531]}, "hidden", {"free":
+    [1439, 546]}, "hidden", {"free": [1453, 583]}, "hidden", {"free": [1439, 620]}, "hidden", {"free": [1402, 635]},
+    "hidden", {"free": [1366, 620]}, "hidden", {"free": [1352, 583]}
+  ]
+}

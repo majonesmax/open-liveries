@@ -1,0 +1,32 @@
+{
+  "id": "CVLT",
+  "name": "Convair 580",
+  "types": ["CVLT"],
+  "confidence": "medium",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Convair_C-131B_Samaritan_3-view_line_drawing.png",
+      "title": "USAF, T.O. 1C-131B-2-2, page 2B: the Convair C-131B Samaritan side, plan and front views with their dimensions (a scan on Wikimedia Commons, public domain as a USAF work)",
+      "accessed": "2026-11-24",
+      "note": "The Convair 340 airframe the 580 is converted from (the C-131B is a 340 with R-2800 radials), read off the three views (tools/trace/cvlt/, step 1); the figures are the aircraft's measurements, not a copy of the drawing. From it: the fuselage aft of the radar nose (crown from 3.75 m, belly from 4.9 m back, eased into the photo's over 0.75 m and 3 m), the plan's width, the wing (plan and front view), the tailplane's planform, and the engines' 12 ft 6 in out from the centerline. Scaled by its printed 79 ft 2 in (24.13 m); the plan is drawn 5% short lengthwise (evened out: the propellers' plane then lands on the side view's) and the front view 0.7% small (rendered to the side's scale). The span is drawn 0.5% short of the printed 105 ft 4 in, the tailplane 0.4% wide of 36 ft 7 in. The fuselage is drawn 2.80 m wide by its lines' centres in plan and front view against the printed 9 ft 5 in, which is to the lines' outer edges (kept: -2.6%); its height 2.86 m. The tailplane is the 340's: the 580's 'modified' tailplane couldn't be measured from the side, but a side-on photo puts its aft end where the drawing does. The drawing's own fin stands 8.03 m above its ground line where it prints 28 ft 1.64 in, so it isn't used for the fin (the 580's is larger anyway)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Convair_CV-580_ZK-CIE_Air_Chathams_07-09-2020_18045.jpg",
+      "title": "Air Chathams Convair 580 ZK-CIE at Auckland, 2020-07-09, left side (CC BY 4.0)",
+      "accessed": "2026-11-24",
+      "note": "The 580's own parts (tools/trace/cvlt/photo.json, derive.py; only measurements are taken), scaled by the published 81 ft 6 in nose to tail cone (169 px a meter; the fuselage then measures 2.90 m tall against the printed 9 ft 5 in, and the vertical propeller blade 4.14 m tip to tip). The weather-radar nose: the 0.71 m the 580 is longer than the 340 is ahead of the nose gear (nose tip to nose wheel 3.16 m against the drawing's 7 ft 11 in; nose wheel to main wheels and to the tail cone as the drawing prints them), and its outline from the tip to behind the flight deck is the photo's. The enlarged fin and its dorsal fillet: the tip 4.22 m above the crown (the C-131B drawing's 3.59 m), the leading edge's straight run on the drawn 340's line, the trailing edge 0.2-0.3 m further aft. The Allison 501-D13 nacelle from the side (the spinner, the cowl, the gear pod under it and the exhaust over the wing's trailing edge) and the four-bladed propeller's plane, 0.4 m ahead of the 340's. The camera looks down about 5 degrees (the near main wheel stands 0.27 m lower than the nose wheel): the nacelle, 3.81 m nearer, and the near side's windows, doors and glass are put back up by it, which puts the propeller's hub 0.51 m under the centerline, where the C-131B's drawing has its own. The nacelle's width from above isn't in any photo found: it's estimated (1.2 m at most, about 1.4 spinner diameters), and the shape's confidence is medium. Windows: twelve a side (eleven between the doors, three of them window exits, one behind the aft door), as the Republic Airlines photos below show them too. Doors: the forward airstair door and the aft door on the left; the right side's doors aren't measured (the left's are mirrored only where a door has no side). The flight deck's three panes a side."
+    },
+    {
+      "url": "https://firewebext.ffm.vic.gov.au/BurnsToday/sau/SAU_External/documents/MEAT/SAU%20Aircraft%20Fact%20Sheet%20Convair%20CV-580%20V1.pdf",
+      "title": "State Aircraft Unit (CFA and DSE, Victoria), Aircraft Fact Sheet: Convair CV-580 (2010)",
+      "accessed": "2026-11-24",
+      "note": "The published figures the shape is checked against: wingspan 105 ft 4 in (32.10 m), length 81 ft 6 in (24.84 m, the scale), height 29 ft 2 in (8.89 m); Allison 501-D13 engines with Aero-products A6441FN-606A propellers. Other published tables give the 580's height as 28 ft 2 in (the 340's figure). The shape's fin tip stands 8.67 m above the C-131B drawing's ground line: -2.4% against 29 ft 2 in, +1.0% against 28 ft 2 in. The propeller's 13 ft 6 in (4.115 m) is the commonly published figure for the 580's Aeroproducts propeller (not found in a primary document); the photo's vertical blade measures 4.14 m, and the C-131B drawing prints the same 13 ft 6 in for its own."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Convair_580_(Air_Chathams)_Wellington_07.jpg",
+      "title": "Air Chathams Convair 580 ZK-CIB on approach at Wellington, 2007-05-04, nearly head on (CC BY 2.0)",
+      "accessed": "2026-11-24",
+      "note": "A check only: the two propeller hubs 0.3-0.5 m under the fuselage's centerline (the aircraft a little banked), as the shape has them (0.51 m)."
+    }
+  ]
+}

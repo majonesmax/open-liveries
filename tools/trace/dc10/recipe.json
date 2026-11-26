@@ -1,0 +1,248 @@
+{
+  "_about": "DC-10-30 (passenger; the DC-10-10 and -40 share its fuselage and fin), from Boeing's copy of McDonnell Douglas's DC/MD-10 Airplane Characteristics for Airport Planning (DAC-67803A, reprinted January 1991, Revision A April 2004; boeing.com's airport planning page, DC10.pdf, 2023), 2.2 General Airplane Dimensions, Model DC-10 Series 30 and 30CF (Lower Galley) (page index 13): side, plan and front views on one sheet, a 1-bit scan on graph paper. Pixels of layers.py --mode image rasters, --unrotate --rotate 180, line centres: side at scale 4 (clip 120,300,505,434), plan at 4.047 with --xscale 0.9884 (clip 120,382,505,722; drawn 1.2% narrow across by its own 6.02 m dimension), front at 4 (clip 137,132,492,262; its circle drawn 2% small, so crownTop is the circle's middle less the printed radius). Scaled by the printed 51.97 m (170 ft 6 in) from the nose to the tail cone (23, 1409 px, where that dimension's extension line meets the tail cone: 26.67 px a meter); the overall 55.35 m reaches the tail engine's exhaust. The MD-11's placed points (md11/) moved by plug.py (3.0 m out at 15 m, 3.68 m at 40 m), then the fuselage's tail, fin, tail engine, wing engine, wing and tailplane placed here. Tail engine as the MD-11's (`tailEngine`, straight duct; strut 1160-1420 px). Windows drawn: each one's middle listed (`windows.x`), the doors' own windows and the cockpit's glass left out; four Type A doors as drawn on the left (both sides). The 30CF's main-deck cargo door (dashed) and the lower-deck cargo doors left out. Cockpit panes: the MD-11's. Rebuild: layers.py per view, snap.py, features.py, build.py dc10/recipe.json W, smooth.py, windshield.py. The plan draws the tailplane 3.2% short of the printed 21.69 m while the front view draws it within 0.2%: `stabilizerSpan: printed`.",
+  "out": "../../../shapes/DC10.json",
+  "length": 51.97,
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "tailEngine": {
+    "duct": "straight",
+    "strut": [
+      1160,
+      1420
+    ]
+  },
+  "refs": {
+    "side": {
+      "nose": 23,
+      "tail": 1409,
+      "cowlEnd": 684,
+      "tailCowlEnd": 1435,
+      "tailExhaust": 1508
+    },
+    "plan": {
+      "nose": 26,
+      "centerline": 684.9
+    },
+    "front": {
+      "centerline": 701.75,
+      "crownTop": 279.6
+    }
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [
+        147,
+        334,
+        169,
+        383
+      ],
+      "name": "door 1"
+    },
+    {
+      "kind": "door",
+      "box": [
+        400,
+        334,
+        428,
+        386
+      ],
+      "name": "door 2"
+    },
+    {
+      "kind": "door",
+      "box": [
+        710,
+        336,
+        738,
+        388
+      ],
+      "name": "door 3"
+    },
+    {
+      "kind": "door",
+      "box": [
+        1116,
+        337,
+        1144,
+        390
+      ],
+      "name": "door 4"
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [
+        49.9,
+        352.2
+      ],
+      [
+        62.0,
+        343.1
+      ],
+      [
+        72.1,
+        335.1
+      ],
+      [
+        83.3,
+        337.1
+      ],
+      [
+        78.2,
+        352.2
+      ]
+    ],
+    [
+      [
+        83.3,
+        337.1
+      ],
+      [
+        97.5,
+        337.1
+      ],
+      [
+        93.4,
+        359.2
+      ],
+      [
+        85.3,
+        357.2
+      ],
+      [
+        78.2,
+        353.2
+      ]
+    ],
+    [
+      [
+        98.5,
+        337.1
+      ],
+      [
+        117.7,
+        337.1
+      ],
+      [
+        119.8,
+        344.1
+      ],
+      [
+        119.8,
+        356.2
+      ],
+      [
+        117.7,
+        359.2
+      ],
+      [
+        99.5,
+        359.2
+      ],
+      [
+        94.4,
+        357.2
+      ]
+    ]
+  ],
+  "printed": {
+    "fuselage height": 6.02,
+    "fuselage width": 6.02,
+    "wingspan": 50.39,
+    "tailplane span": 21.69,
+    "overall length": 55.35,
+    "engine out from the centerline": 8.18
+  },
+  "meta": {
+    "id": "DC10",
+    "name": "McDonnell Douglas DC-10-30",
+    "types": [
+      "DC10"
+    ],
+    "confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/airports/acaps/DC10.pdf",
+        "title": "Boeing (McDonnell Douglas Corporation, Douglas Aircraft Company), DC/MD-10 Airplane Characteristics for Airport Planning (DAC-67803A, reprinted January 1991, Revision A April 2004), 2.2 General Airplane Dimensions: Model DC-10 Series 30 and 30CF (Lower Galley)",
+        "accessed": "2026-11-25",
+        "note": "Dimensions and outlines read off the DC-10-30 sheet's side, plan and front views (tools/trace/dc10/), starting from the MD-11's placed points moved by plug.py; the figures are the aircraft's measurements, not a copy of the drawing. The sheet is a 1-bit scan on graph paper (about 27.5 px a meter, so outlines are good to about 5 cm). Scaled by the printed 51.97 m (170 ft 6 in) from the nose to the tail cone. The plan is drawn 1.2% narrow across (by its own 6.02 m width dimension), rendered to the side's scale; the front view's fuselage circle is drawn 2% small (tied to the side by its middle). Its plan draws the tailplane 3.2% short of the printed 21.69 m (the front view within 0.2%), so the tailplane is widened to the printed span outboard of its root. Three CF6-50 nacelles: two under the wing and the third through the fin's base on a short strut, the fin's leading edge standing on its top and a fairing over its nozzle (engines[0], mount tail, a straight duct, as the MD-11's). The sheet draws the cabin windows, four doors a side (the left side's drawn; the DC-10's are the same both sides) and, dashed, the 30CF's main-deck cargo door, left out here (a passenger shape); the lower-deck cargo doors aren't placed. Cockpit panes: the MD-11's (the same nose). One shape for the DC-10-10, -30 and -40 passenger airframes: the -30 and -40 have the -10's fuselage and fin, but their wing spans 50.39 m against the -10's 47.35 m (the -10 here is 1.5 m too wide each side); the -30 and -40 have a third main gear leg on the centerline (not modeled: shapes have no gear), and the -40's nacelles are the JT9D-20's, not the CF6-50's drawn here. Confidence medium: a scan."
+      }
+    ]
+  },
+  "stabilizerSpan": "printed",
+  "windows": {
+    "z": [
+      0.347,
+      0.684
+    ],
+    "width": 0.225,
+    "x": [
+      6.262,
+      6.768,
+      7.237,
+      7.743,
+      8.23,
+      8.774,
+      9.28,
+      9.749,
+      10.293,
+      10.799,
+      11.305,
+      11.811,
+      12.299,
+      12.805,
+      13.349,
+      15.917,
+      16.386,
+      16.892,
+      17.436,
+      17.942,
+      18.392,
+      18.936,
+      19.404,
+      19.948,
+      20.417,
+      20.942,
+      21.448,
+      21.992,
+      22.46,
+      22.967,
+      23.473,
+      23.979,
+      24.504,
+      25.01,
+      27.522,
+      28.01,
+      28.479,
+      29.022,
+      29.566,
+      30.035,
+      30.541,
+      31.066,
+      31.572,
+      32.059,
+      32.622,
+      33.109,
+      33.578,
+      34.065,
+      34.609,
+      35.115,
+      35.603,
+      36.128,
+      36.671,
+      37.14,
+      37.646,
+      38.134,
+      38.715,
+      39.184,
+      39.671,
+      40.196
+    ],
+    "note": "Each window's place along the body measured on the DC-10-30 sheet's side view (2.2), which draws them as small closed outlines: 60 on the left side between doors 1 and 4 (one under the 30CF cargo door's dashed outline placed on the pitch), the doors' own windows left out; their height and width the drawing's (line centres)."
+  }
+}

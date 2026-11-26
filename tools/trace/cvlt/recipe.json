@@ -1,0 +1,60 @@
+{
+  "_about": "Convair 580 (CVLT), step 1 of 2: the Convair 340 airframe it's converted from, read off the three views in the USAF technical order T.O. 1C-131B-2-2, page 2B (the C-131B Samaritan, a 340 airframe with R-2800 radials), as uploaded to Wikimedia Commons (File:Convair C-131B Samaritan 3-view line drawing.png: a 1850 x 2408 px greyscale scan, public domain as a USAF work). Rasterized with layers.py --mode image --threshold 170: the side at scale 3; the plan, drawn nose down, turned nose left and evened out lengthwise (--xscale 1.0525, drawn 5% short); the front at 3.0214 (side.anchors.json, plan.anchors.json, front.anchors.json). Scaled by the printed 79 ft 2 in (24.13 m) overall length between its extension lines at the nose tip and the tail cone (68, 3468.5 px). The C-131B's nacelles, propellers, square windows and cargo door aren't the 580's: they're placeholders here (the propeller's plane and hub from the drawing's three-bladed one, no windows or doors). Step 2, derive.py, writes the 580 over this from photo.json: the longer radar nose, the enlarged fin, the Allison nacelles and four-bladed propellers, the cabin windows, doors and flight-deck glass. The tailplane is drawn edge on in the side view 0.11 m under the centerline (stabilizerZ 785, its lens's middle at its root); the front view draws it only between the propeller disc and the fuselage.",
+  "out": "../../../shapes/CVLT.json",
+  "length": 24.13,
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "stabilizerZ": 785,
+  "propeller": {
+    "blades": 3,
+    "diameter": 4.115,
+    "apart": 7.62,
+    "x": 895,
+    "hub": 860,
+    "front": [1530, 2075],
+    "spinner": [860, 936],
+    "spinnerHeight": [827, 892]
+  },
+  "refs": {
+    "side": {
+      "nose": 68,
+      "tail": 3468.5
+    },
+    "plan": {
+      "nose": 221,
+      "centerline": 2334
+    },
+    "front": {
+      "centerline": 2347,
+      "crownTop": 442
+    }
+  },
+  "windows": {
+    "x": [],
+    "z": [0.06, 0.42],
+    "width": 0.36,
+    "note": "Placeholder: the 580's windows come from derive.py."
+  },
+  "doors": [],
+  "cockpitPanes": [],
+  "printed": {
+    "overall length": 24.13,
+    "wingspan": 32.106,
+    "tailplane span": 11.151,
+    "fuselage width": 2.87,
+    "fuselage height": 2.87,
+    "engine out from the centerline": 3.81,
+    "propeller diameter": 4.115
+  },
+  "meta": {
+    "id": "CVLT",
+    "name": "Convair 580",
+    "types": ["CVLT"],
+    "confidence": "medium",
+    "sources": []
+  }
+}

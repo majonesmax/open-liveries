@@ -51,4 +51,4 @@ export declare function finClearance(g: Geometry, item: Title | Logo): number;
  * 30% of its size (a 727's fin, under its T-tail, is half an A320's height; Southwest's long diagonal name needs
  * that).
  */
-export declare function clearOnTheFin<T extends Title | Logo>(item: T, from: Geometry, to: Geometry): T;
+export declare function clearOnTheFin<T extends Title | Logo>(measuredItem: T, from: Geometry, to: Geometry): T;

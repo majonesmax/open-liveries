@@ -6,7 +6,7 @@
   "kind": "retro",
   "confidence": "high",
   "drawnOn": "E75L",
-  "description": "Fuselage: White. Cheatlines: Horizon's 1981 stripes from the nose to the tail cone along the window line's bottom: orange over red-orange over burgundy, sweeping down under the cockpit at the nose. Tail: White with Horizon's 'meatball', an orange setting sun with a burgundy lower segment split by white lines. Engines: White. Winglets: Burgundy and orange stripes. Titles: The 2016 'Alaska' wordmark in dark navy over the stripes forward; 'HORIZON AIR' in white capitals on the orange band right after it. Colors hex: not published; matched by eye.",
+  "description": "Fuselage: White. Cheatlines: Horizon's 1981 stripes from the nose to the tail cone along the window line's bottom: orange over red-orange over burgundy, sweeping down under the cockpit at the nose. Tail: White with Horizon's 'meatball', an orange setting sun in two oranges over a red and burgundy base, split by a thin white line. Engines: White. Winglets: Burgundy and orange stripes. Titles: The 2016 'Alaska' wordmark in dark navy over the stripes forward; 'HORIZON AIR' in white capitals on the orange band right after it. Colors hex: not published; matched by eye.",
   "sources": [
     {
       "url": "https://www.alaskaair.com/content/travel-info/our-aircraft/e175-horizon",
@@ -441,19 +441,18 @@
       "place": "fin",
       "at": [
         0.6,
-        0.55
+        0.36
       ],
-      "height": 0.42,
+      "height": 0.52,
       "colors": [
         "orange",
         "redOrange",
         "burgundy",
         "white"
       ],
-      "description": "Horizon's 'meatball': a big orange disc, its lower part burgundy, split by thin white lines, on the white fin.",
+      "description": "Horizon's 'meatball': a big disc on the white fin, its upper part a light orange ring round a darker red-orange disc, cut level by a thin white line about 0.3 of the way up; under it a red band over a burgundy base. Placed and sized off the right side of N652MK (Commons, CC BY-SA 4.0, 2026-03-14) scaled by the E175 fuselage length: about 2.8 m across, its center 3.4 m below the fin tip and 61% back along the chord. It fills the lower half of the fin.",
       "confidence": "high",
       "sourceRefs": [
-        0,
         2,
         3
       ]

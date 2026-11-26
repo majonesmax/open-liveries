@@ -1,0 +1,11 @@
+{
+  "_about": "Boeing (Douglas), DC-9 Airplane Characteristics for Airport Planning (Rev F 5/84), 2.2 General Airplane Dimensions, Model DC-9-32 (page index 14): its front view, at the side view's scale, layers.py --mode image at scale 4 --unrotate --rotate 179.57, clip 92,112,442,217. Pixels of that raster, line centres; the right half as drawn (the aircraft's left side). The fuselage's top sits on a grid line (y 190.5), as does its right side's lower part (x 768) and the wing's lower line at its root (y 333). The inlet is the nacelle's outer ring (the inner ring is the lip's inside); its bottom meets the wing's upper line, so it's a free point there. The stub pylon is the short box between the fuselage and the nacelle (pylon.upper, pylon.lower).",
+  "fuselage.section": [[695, 191], [718, 195], [741, 205], [760, 225], [769, 245], [773, 265], [772, 285], [763, 315], [750, 335], [737, 345], [720, 355], [695, 360]],
+  "wing.upper": [[772, 309], [870, 306], [960, 305], [1080, 302], [1200, 299], [1320, 297], [1350, 295], [1360, 295]],
+  "wing.lower": [[780, 338], [810, 335], [870, 331], [930, 327], [990, 323], [1080, 317], [1140, 313], [1200, 310], [1260, 306], [1320, 303], [1350, 301], [1358, 299]],
+  "stabilizer.upper": [[706, 32], [760, 34], [820, 37], [880, 40], [940, 43], [962, 45]],
+  "stabilizer.lower": [[706, 46], [790, 47], [880, 48], [940, 50], [962, 47]],
+  "engine.inlet": [[823, 234], [846, 244], [856, 268], [851, 286], {"free": [824, 302]}, [799, 292], [792, 274], [797, 250], [823, 234]],
+  "pylon.upper": [[775, 259], [790, 259]],
+  "pylon.lower": [[775, 277], [790, 277]]
+}

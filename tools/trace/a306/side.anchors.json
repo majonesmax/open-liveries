@@ -1,0 +1,211 @@
+{
+  "_about": "Airbus A300F4-600 Airplane Characteristics for Airport Planning (Dec 01/09), 2.2 Airplane Dimensions, Model A300F4-600 (page 2, Jan 30/94; page index 17), a scan without the grid: layers.py --mode image at scale 4.677 with --xscale 1.069, clip 20,150,600,365 (side). The sheet draws the side view 6.9% taller than long (the tube 6.03 m against its printed 5.64 m diameter, the fin 8.88 m above the crown against its printed 8.30 m; lengthwise it's at the front view's and printed lengths' scale): evened out. Pixels of that raster, line centres. The A30B's points moved onto it (plug.py --shift -19,193) and snapped; the fin is the A30B's moved 18 px (0.47 m) aft, where it lands on this drawing's edges (free points: the sheet's dimension lines and text cross it); the belly and crown behind the cabin, the tail cone and the CF6-80C2 nacelle are placed on this sheet. Dimension lines cross the drawing; the dashed lines are the lower-deck cargo doors (right side) and the fuselage's centerline.",
+  "fuselage.crown": [
+    [49, 690],
+    [53, 675],
+    [61, 663],
+    [81, 654],
+    [101, 638],
+    [141, 611],
+    [181, 593],
+    [241, 578],
+    [281, 572],
+    [381, 566],
+    [581, 565],
+    [781, 565],
+    [981, 565],
+    [1181, 565],
+    [1381, 565],
+    [1581, 565],
+    [1781, 565],
+    [1950, 567],
+    [2000, 569],
+    [2050, 572],
+    {
+      "free": [2100, 575]
+    },
+    [2133, 579]
+  ],
+  "fuselage.belly": [
+    [49, 690],
+    [53, 705],
+    [61, 711],
+    [71, 719],
+    [81, 725],
+    [101, 736],
+    [121, 745],
+    [141, 752],
+    [181, 763],
+    [241, 774],
+    [281, 777],
+    {
+      "free": [381, 781]
+    },
+    "hidden",
+    {
+      "free": [631, 781]
+    },
+    "hidden",
+    {
+      "free": [971, 782]
+    },
+    "hidden",
+    {
+      "free": [1281, 782]
+    },
+    [1350, 779],
+    [1400, 779],
+    [1450, 775],
+    [1500, 768],
+    [1550, 759],
+    [1600, 747],
+    [1650, 734],
+    [1700, 720],
+    [1750, 706],
+    [1800, 693],
+    [1850, 679],
+    [1900, 666],
+    [1950, 651],
+    [2000, 637],
+    [2050, 623],
+    [2080, 615],
+    {
+      "free": [2105, 602]
+    },
+    "hidden",
+    {
+      "free": [2122, 590]
+    },
+    "hidden",
+    [2133, 579]
+  ],
+  "fin.fillet": [
+    [1541, 565],
+    [1581, 563],
+    [1616, 557],
+    [1652, 543],
+    [1674, 533],
+    [1705, 513],
+    [1731, 493]
+  ],
+  "fin.leading": [
+    [1731, 493],
+    {
+      "free": [1800, 443]
+    },
+    {
+      "free": [1849, 393]
+    },
+    {
+      "free": [1897, 343]
+    },
+    {
+      "free": [1945, 293]
+    },
+    {
+      "free": [1965, 273]
+    },
+    {
+      "free": [1976, 263]
+    },
+    {
+      "free": [1990, 253]
+    },
+    {
+      "free": [1999, 247]
+    }
+  ],
+  "fin.trailing": [
+    {
+      "free": [1981, 563]
+    },
+    {
+      "free": [1984, 553]
+    },
+    {
+      "free": [1992, 533]
+    },
+    {
+      "free": [2009, 493]
+    },
+    {
+      "free": [2031, 443]
+    },
+    {
+      "free": [2051, 393]
+    },
+    {
+      "free": [2072, 343]
+    },
+    {
+      "free": [2092, 293]
+    },
+    {
+      "free": [2104, 263]
+    },
+    {
+      "free": [2108, 253]
+    },
+    {
+      "free": [2112, 247]
+    }
+  ],
+  "fin.rudder": [
+    {
+      "free": [1889, 563]
+    },
+    {
+      "free": [1893, 553]
+    },
+    {
+      "free": [1905, 533]
+    },
+    {
+      "free": [1929, 493]
+    },
+    {
+      "free": [1959, 443]
+    },
+    {
+      "free": [1989, 393]
+    },
+    {
+      "free": [2018, 343]
+    },
+    {
+      "free": [2047, 293]
+    },
+    {
+      "free": [2064, 263]
+    },
+    {
+      "free": [2070, 253]
+    },
+    {
+      "free": [2073, 247]
+    }
+  ],
+  "engine.top": [
+    [653, 705],
+    [660, 702],
+    [700, 701],
+    [740, 703],
+    [780, 708],
+    [817, 713],
+    [822, 720],
+    [870, 727],
+    [910, 737],
+    [922, 743]
+  ],
+  "engine.bottom": [
+    [655, 803],
+    [670, 808],
+    [710, 813],
+    [760, 807],
+    [820, 792],
+    [822, 787],
+    [860, 784],
+    [910, 774],
+    [922, 768]
+  ]
+}

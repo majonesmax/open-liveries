@@ -20,6 +20,12 @@ the side elevation. So a stripe or a diagonal needs only its corners. In `y` tha
 draws it through side-view heights (`sin(y · 90°)`) and turns the points back. Areas apply to both sides unless `side`
 says one. An asymmetric design (a wrap with different artwork on each side) uses `left` and `right` areas.
 
+Because y is a share of the local radius, an edge at a constant y follows the side outline: it dips under a wing-to-body
+fairing and bends down the nose and tail tapers. On a measured type a stripe that runs straight on the aircraft is
+written at a constant height in meters (or a straight diagonal), with a point at every crown and belly outline point
+along it, so it draws straight between them. The same shares on another type don't keep it straight.
+`tools/edge_straightness.py` lists edges that wander and has the helper (`straight_edge`) that writes such a line.
+
 Some useful landmarks on a typical narrow-body follow. All are approximate. The cockpit windows are around x 0.06–0.09
 and y 0.2–0.45. The cabin windows are at y 0.05–0.2. The wing root is at x 0.38–0.52. The fin's leading edge meets the
 fuselage at about x 0.8.
@@ -87,7 +93,9 @@ intake on the crown ahead of the fin. It wears the fin's paint carried down. The
 root (its leading and trailing edges continued straight down) and out past its edges. The fin's base is under it and the
 fin's areas carry on across it. An area's points on the fin's foot go on down and those on its leading or trailing edge
 go on out. So a stripe that runs off the fin's foot runs on across the nacelle. The fin's own space is unchanged (its
-root is the leading edge's foot, on the nacelle), so fin art measured on any type maps as before. The rudder's color
+root is the leading edge's foot, on the nacelle), so fin art measured on any type maps as before. The fin's titles and logos carry on
+across it too, where they reach down past the root (TWA's 'TWA' sits mostly on a 727's S-duct fairing). On a type
+without a tail engine such lettering is lifted to stand on the fin's root. The rudder's color
 stays on the rudder. The engine's inlet lip takes `engines.inletLip` and its exhaust is bare metal. Engine areas, titles
 and logos are for the other engines.
 

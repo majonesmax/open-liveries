@@ -40,31 +40,31 @@ both sides, from below and in 3D.
 ## What's in it
 
 <!-- stats:start -->
-*Counted by `tools/stats.py` on 2026-11-24.*
+*Counted by `tools/stats.py` on 2026-11-25.*
 
-- **340 schemes** from **178 airlines**: 233 standard, 79 special, 23 retro, 5 alliance.
-- **292 drawn** with colored areas you can reproduce. The other 48 are described in words only so far. 316 have their titles set out, 299 their logos placed.
-- **178 airlines' everyday schemes** (233 with freighter and older variants), plus **92 operators** that fly in another airline's paint (regionals in their mainline's).
-- **1448 airframes tagged** (registration, usually its ICAO address, and the scheme it wears): 1438 current and 10 past. 191 have their own tail art.
+- **367 schemes** from **190 airlines**: 260 standard, 79 special, 23 retro, 5 alliance.
+- **316 drawn** with colored areas you can reproduce. The other 51 are described in words only so far. 343 have their titles set out, 312 their logos placed.
+- **190 airlines' everyday schemes** (260 with freighter and older variants), plus **93 operators** that fly in another airline's paint (regionals in their mainline's).
+- **1468 airframes tagged** (registration, usually its ICAO address, and the scheme it wears): 1458 current and 10 past. 191 have their own tail art.
 - **89 leads**: special schemes seen on public lists, not yet researched.
 
 | Scheme confidence | Schemes |
 |---|--:|
-| medium | 229 |
+| medium | 255 |
 | high | 83 |
-| low | 28 |
+| low | 29 |
 
 | Airframe confidence | Airframes |
 |---|--:|
-| medium | 721 |
-| high | 385 |
+| medium | 732 |
+| high | 394 |
 | low | 342 |
 
 Evidence behind each airframe's tag, by its first source (most have more than one):
 
 | Evidence | Airframes |
 |---|--:|
-| dated photo (Wikimedia Commons) | 562 |
+| dated photo (Wikimedia Commons) | 582 |
 | aircraft database (adsbdb) | 250 |
 | where it flies (adsb.lol flight history) | 238 |
 | the airline or its press release | 161 |
@@ -78,9 +78,9 @@ Sources cited by the schemes:
 
 | Source | Citations |
 |---|--:|
-| dated photo (Wikimedia Commons) | 1182 |
-| aviation press and other | 164 |
-| Wikipedia | 140 |
+| dated photo (Wikimedia Commons) | 1642 |
+| aviation press and other | 221 |
+| Wikipedia | 157 |
 | the airline or its press release | 57 |
 
 | Most airframes tagged (airline) | Airframes |
@@ -89,7 +89,7 @@ Sources cited by the schemes:
 | RPA | 204 |
 | FFT | 193 |
 | CFR | 50 |
-| GTI | 39 |
+| GTI | 40 |
 | CFG | 37 |
 | QTR | 28 |
 | ASA | 25 |

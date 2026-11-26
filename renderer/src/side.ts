@@ -14,7 +14,7 @@ import {
   WINDOW_GLASS,
 } from './colors.js';
 import type { Geometry, Mapping } from './geometry.js';
-import { rect } from './geometry.js';
+import { inside, rect } from './geometry.js';
 import {
   doorSeam,
   drawAreas,
@@ -30,7 +30,7 @@ import type { Livery, Point } from './scheme.js';
 import { drawLabels } from './side-labels.js';
 import { finFaceX, finStrip, partOutlines, sideParts } from './side-parts.js';
 import type { Outlines, Parts } from './side-parts.js';
-import { createCanvas, densify, svgElement } from './svg.js';
+import { createCanvas, densify, round1, svgElement } from './svg.js';
 import type { Canvas, DrawOptions, Element } from './svg.js';
 
 type Side = 'left' | 'right';
@@ -124,7 +124,8 @@ const carriedDown = ([x, y]: Point): Point => [x <= 0 ? -3 : x >= 1 ? 4 : x, y <
 /**
  * Engines on the tail's centerline (the MD-11's through the fin's base, the 727's S-duct intake), over the fuselage
  * and the fin's foot: the fin's paint carried down (its base, and its areas where they reach its foot; not the rudder,
- * a separate surface), the inlet lip as the scheme's other engines', the bare exhaust in metal (docs/COORDINATES.md).
+ * a separate surface) and on an S-duct's fairing the fin's logos where they reach down over it, the inlet lip as the scheme's other engines',
+ * the bare exhaust in metal (docs/COORDINATES.md).
  */
 function drawTailEngines(livery: Livery, side: Side, canvas: Canvas, parts: Parts): void {
   const tails = parts.geometry.measured?.tailEngines;
@@ -132,17 +133,108 @@ function drawTailEngines(livery: Livery, side: Side, canvas: Canvas, parts: Part
   const fin = livery.fin ?? { base: livery.fuselage?.base ?? UNPAINTED_FUSELAGE };
   const faceX = finFaceX(livery, side);
   const onFace: Mapping = (x, y) => parts.fin(faceX(x), y);
+  const outlines = partOutlines(parts);
   tails.forEach((tail, i) => {
     const outline = tail.outline.map(parts.mirror);
-    const group = svgElement('g', { 'clip-path': canvas.clipTo(`tail${i}`, outline) }, canvas.svg);
+    // An S-duct fairing's paint meets the fin's along its outline under the fin, the same paint on both sides: the
+    // group is painted whole and then clipped (isolated), or each shape clipped on its own leaves a pale hairline there
+    // where the base shows through the areas' anti-aliased edge.
+    const group = svgElement(
+      'g',
+      { 'clip-path': canvas.clipTo(`tail${i}`, outline), ...(tail.duct === 's' ? { style: 'isolation:isolate' } : {}) },
+      canvas.svg,
+    );
     canvas.polygon(outline, canvas.color(fin.base), group);
     drawAreas(fin.areas, side, [-2, 1.1], onFace, canvas, group, carriedDown, [0, 1]);
+    // An S-duct's intake fairing is the fin's foot (the 727's, the L-1011's): the fin's lettering and logos placed low
+    // run on over it (TWA's title, Pan Am's globe and flag). A straight-through nacelle (the MD-11's) is in front of the
+    // fin, and covers it as before.
+    if (tail.duct === 's') drawLabels(livery, side, canvas, parts, outlines, 'fin', group);
     if (livery.engines?.inletLip)
       canvas.polygon(tail.lip.map(parts.mirror), canvas.color(livery.engines.inletLip), group);
-    canvas.polygon(outline, 'none', canvas.svg, { stroke: OUTLINE_DARK });
+    if (tail.duct === 's') {
+      // Under the fin, an S-duct's fairing runs on behind the fin's skin (its outline bridged there): the paint is one
+      // surface from the fairing up into the fin, so its outline is drawn only where it shows, outside the fin (the
+      // lip, the top and its fillet) and along the crown. Where it runs along the fin's own edge, the fin's line is it.
+      const hidden = (p: Point, inward: Point): boolean =>
+        inside(inward, outlines.fin) &&
+        !inside(inward, outlines.fuselage) &&
+        edgeDistance(p, outlines.fuselage) > SEAM_MARGIN;
+      for (const run of shownRuns(outline, hidden)) {
+        svgElement(
+          'polyline',
+          { points: run.map(([x, y]) => `${round1(x)},${round1(y)}`).join(' '), fill: 'none', stroke: OUTLINE_DARK },
+          canvas.svg,
+        );
+      }
+    } else canvas.polygon(outline, 'none', canvas.svg, { stroke: OUTLINE_DARK });
     if (tail.nozzle) canvas.polygon(tail.nozzle.map(parts.mirror), NOZZLE, canvas.svg, { stroke: OUTLINE_DARK });
   });
 }
+
+/** How near the fuselage's outline (px) an S-duct fairing's outline always shows: where it runs along the crown. */
+const SEAM_MARGIN = 1.5;
+
+/** The distance from a point to a closed outline's nearest edge. */
+function edgeDistance([px, py]: Point, outline: readonly Point[]): number {
+  let best = Infinity;
+  outline.forEach(([x0, y0], i) => {
+    const [x1, y1] = outline[(i + 1) % outline.length] ?? [x0, y0];
+    const dx = x1 - x0;
+    const dy = y1 - y0;
+    const t = dx || dy ? Math.max(0, Math.min(1, ((px - x0) * dx + (py - y0) * dy) / (dx * dx + dy * dy))) : 0;
+    best = Math.min(best, Math.hypot(px - (x0 + t * dx), py - (y0 + t * dy)));
+  });
+  return best;
+}
+
+/**
+ * A closed outline's stretches that show, as open polylines: each edge cut into pieces of at most `step` px, a piece
+ * left out where it's `hidden`, asked of its middle and of that point half a pixel into the outline (so a stretch
+ * lying along another part's edge counts as inside that part when the outline's inside is).
+ */
+function shownRuns(outline: readonly Point[], hidden: (p: Point, inward: Point) => boolean, step = 1.5): Point[][] {
+  // Which way is in: the outline's turn (its signed area; y runs down).
+  const area = outline.reduce((sum, [x0, y0], i) => {
+    const [x1, y1] = outline[(i + 1) % outline.length] ?? [x0, y0];
+    return sum + x0 * y1 - x1 * y0;
+  }, 0);
+  const turn = area > 0 ? 1 : -1;
+  const pieces: [Point, Point, boolean][] = [];
+  outline.forEach(([x0, y0], i) => {
+    const [x1, y1] = outline[(i + 1) % outline.length] ?? [x0, y0];
+    const length = Math.hypot(x1 - x0, y1 - y0);
+    const n = Math.max(1, Math.ceil(length / step));
+    const [nx, ny] = length ? [(-(y1 - y0) / length) * turn * 0.5, ((x1 - x0) / length) * turn * 0.5] : [0, 0];
+    for (let k = 0; k < n; k++) {
+      const a: Point = [x0 + ((x1 - x0) * k) / n, y0 + ((y1 - y0) * k) / n];
+      const b: Point = [x0 + ((x1 - x0) * (k + 1)) / n, y0 + ((y1 - y0) * (k + 1)) / n];
+      const mid: Point = [(a[0] + b[0]) / 2, (a[1] + b[1]) / 2];
+      pieces.push([a, b, !hidden(mid, [mid[0] + nx, mid[1] + ny])]);
+    }
+  });
+  // Start at a hidden piece so a run doesn't wrap round the outline's first point.
+  const start = Math.max(
+    0,
+    pieces.findIndex(([, , shown]) => !shown),
+  );
+  const runs: Point[][] = [];
+  let run: Point[] | undefined;
+  for (const [a, b, shown] of [...pieces.slice(start), ...pieces.slice(0, start)]) {
+    if (!shown) {
+      run = undefined;
+      continue;
+    }
+    if (!run) runs.push((run = [a]));
+    run.push(b);
+  }
+  // Each run thinned back to the outline's own corners (the cut points along a straight edge add nothing).
+  return runs.map((r) => r.filter((p, k) => !collinear(r[k - 1], p, r[k + 1])));
+}
+
+/** Whether b lies on the straight line from a to c (false at a run's ends, where a or c is missing). */
+const collinear = (a: Point | undefined, [bx, by]: Point, c: Point | undefined): boolean =>
+  !!a && !!c && Math.abs((bx - a[0]) * (c[1] - a[1]) - (by - a[1]) * (c[0] - a[0])) < 1e-6;
 
 /**
  * The fin alone, painted and lettered, in the side view's frame with nothing else drawn: a texture for a flat fin

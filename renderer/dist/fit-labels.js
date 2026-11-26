@@ -343,10 +343,14 @@ const FIN_MOVES = { reach: [0.3, 0.2], step: [0.03, 0.04] };
  * 30% of its size (a 727's fin, under its T-tail, is half an A320's height; Southwest's long diagonal name needs
  * that).
  */
-export function clearOnTheFin(item, from, to) {
-    const measured = finClearance(from, item);
+export function clearOnTheFin(measuredItem, from, to) {
+    const measured = finClearance(from, measuredItem);
     if (measured <= 0)
-        return item;
+        return measuredItem;
+    // Lettering that reaches down past the fin's root over a tail engine's fairing where it was measured (TWA's on
+    // the 727) has nothing under it on a fin without one: it's lifted to stand on the root, then kept clear as below.
+    const lifted = measuredItem.at[1] < 0 && from.measured?.tailEngines?.length && !to.measured?.tailEngines?.length;
+    const item = lifted ? { ...measuredItem, at: [measuredItem.at[0], 0] } : measuredItem;
     const need = measured * FIN_CLEARANCE_KEPT * (finSpanMeters(to) / (finSpanMeters(from) || 1));
     if (finClearance(to, item) >= need)
         return item;

@@ -1,0 +1,266 @@
+{
+  "_about": "A300F4-600 (the A300-600 freighter: FedEx's and UPS's), from Airbus, A300F4-600 Airplane Characteristics for Airport Planning (Dec 01/09; the copy on aircraft.airbus.com's Aircraft Characteristics page), 2.2 Airplane Dimensions, Model A300F4-600 (Jan 30/94): page 2 (page index 17), a scan of about 33 px a meter with its side and front views, no grid. The side view evened out (layers.py --scale 4.677 --xscale 1.069: drawn 6.9% taller than long), the front view rendered to its scale (4.89: drawn 2.3% larger, by its printed 44.84 m span; its nacelles drawn 16.5 m apart are placed at the printed 15.88 m). The plan is the A300B4's with the -600's 0.47 m (plan.py: page 1's plan isn't to one scale). Scaled by the printed 54.08 m from the nose to the tail cone. No cabin windows. Doors as drawn: the crew door (left; drawn down to the centerline), the main-deck cargo door (left), the lower-deck forward and aft cargo doors and the bulk door (right, drawn dashed). The nacelle is the CF6-80C2's the sheet draws. The cockpit panes are the A30B's (the same nose), moved as its points are. The tailplane is drawn as the B4's 16.9 m and narrowed to the printed 16.26 m. No wingtip fence: the sheet doesn't draw one.",
+  "out": "../../../shapes/A306.json",
+  "length": 54.08,
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "stabilizerSpan": "printed",
+  "refs": {
+    "side": {
+      "nose": 49,
+      "tail": 2133,
+      "cowlEnd": 821
+    },
+    "plan": {
+      "nose": 74,
+      "centerline": 907
+    },
+    "front": {
+      "centerline": 918,
+      "crownTop": 617.5
+    }
+  },
+  "windows": {
+    "from": 1,
+    "to": 0,
+    "pitch": 0.533,
+    "width": 0.26,
+    "z": [
+      0.64,
+      1.03
+    ],
+    "note": "The A300-600F has no cabin windows."
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "side": "left",
+      "box": [
+        257,
+        605,
+        301,
+        673
+      ]
+    },
+    {
+      "kind": "cargo",
+      "side": "left",
+      "box": [
+        359,
+        581,
+        499,
+        669
+      ]
+    },
+    {
+      "kind": "cargo",
+      "side": "right",
+      "box": [
+        359,
+        683,
+        463,
+        748
+      ]
+    },
+    {
+      "kind": "cargo",
+      "side": "right",
+      "box": [
+        1339,
+        682,
+        1409,
+        743
+      ]
+    },
+    {
+      "kind": "cargo",
+      "side": "right",
+      "box": [
+        1483,
+        710,
+        1520,
+        740
+      ]
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [
+        98,
+        645
+      ],
+      [
+        99,
+        643
+      ],
+      [
+        104,
+        638
+      ],
+      [
+        110,
+        633
+      ],
+      [
+        112,
+        632
+      ],
+      [
+        116,
+        632
+      ],
+      [
+        118,
+        634
+      ],
+      [
+        118,
+        636
+      ],
+      [
+        115,
+        642
+      ],
+      [
+        111,
+        646
+      ],
+      [
+        105,
+        647
+      ],
+      [
+        100,
+        647
+      ]
+    ],
+    [
+      [
+        115,
+        642
+      ],
+      [
+        118,
+        637
+      ],
+      [
+        120,
+        634
+      ],
+      [
+        123,
+        631
+      ],
+      [
+        127,
+        630
+      ],
+      [
+        138,
+        630
+      ],
+      [
+        140,
+        632
+      ],
+      [
+        142,
+        639
+      ],
+      [
+        142,
+        645
+      ],
+      [
+        139,
+        648
+      ],
+      [
+        128,
+        649
+      ],
+      [
+        119,
+        649
+      ],
+      [
+        117,
+        648
+      ],
+      [
+        115,
+        646
+      ]
+    ],
+    [
+      [
+        142,
+        632
+      ],
+      [
+        146,
+        628
+      ],
+      [
+        157,
+        628
+      ],
+      [
+        164,
+        631
+      ],
+      [
+        169,
+        636
+      ],
+      [
+        169,
+        643
+      ],
+      [
+        168,
+        645
+      ],
+      [
+        165,
+        648
+      ],
+      [
+        145,
+        648
+      ],
+      [
+        142,
+        645
+      ]
+    ]
+  ],
+  "printed": {
+    "fuselage width": 5.64,
+    "wingspan": 44.84,
+    "tailplane span": 16.26,
+    "engine out from the centerline": 7.94,
+    "overall length": 54.08,
+    "fin tip above the crown": 8.3
+  },
+  "meta": {
+    "id": "A306",
+    "name": "Airbus A300-600F",
+    "types": [
+      "A306"
+    ],
+    "confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.aircraft.airbus.com/sites/default/files/2023-02/Airbus-Commercial-Aircraft-AC-A300F4-600-Dec-2009.pdf",
+        "title": "Airbus, A300F4-600 Airplane Characteristics for Airport Planning (Dec 01/09), 2.2 General Airplane Dimensions and Airplane Dimensions, Model A300F4-600 (Jan 30/94)",
+        "accessed": "2026-11-25",
+        "note": "Dimensions and outlines read off 2.2's side and front views (page 2, tools/trace/a306/), a 1994 scan of about 33 px a meter without a grid, starting from the A300B4's points (tools/trace/a30b/) moved onto it and snapped; the figures are the aircraft's measurements, not a copy of the drawing. The side view is drawn 6.9% taller than long (the tube 6.03 m against its printed 5.64 m, the fin 8.88 m above the crown against its printed 8.30 m) and is evened out; the front view is drawn 2.3% large against its printed 44.84 m span and is rendered to the side's scale. Page 1's plan is on graph paper and not to one scale (3% wider than long), so the plan is the B4's (the same wing and section) with the -600's 0.47 m longer aft fuselage (a plug at 34.4 m: plan.py), which the side view bears out: its fin is the B4's 0.47 m further aft, within a line's width. The tail cone, the belly's sweep up to it and the CF6-80C2 nacelle are this sheet's. The tailplane is drawn as the B4's 16.9 m and narrowed to the printed 16.26 m. The front view draws the nacelles 16.5 m apart against the printed 15.88 m: placed at the print. The A300-600's wingtip fences aren't drawn on this sheet and aren't in the shape. No cabin windows. Doors as drawn: the crew door (left; drawn down to the centerline), the main-deck cargo door (left, 3.63 by 2.29 m drawn), the lower-deck forward and aft cargo doors and the bulk door (right, drawn dashed)."
+      }
+    ]
+  }
+}

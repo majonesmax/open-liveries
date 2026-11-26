@@ -1,0 +1,49 @@
+{
+  "_about": "Boeing D6-58329 Rev E, 2.2.1 General Dimensions, 777-200: page index 19, layers.py --mode fills at scale 20, clip 200,560,480,665 (front; the image's right half is the aircraft's left side; centerline x 2853). The B77L's points moved by plug.py --scale 1.057 --origin 2731.5,798 --shift 121.5,417.5; the wing's tip re-placed on this sheet's. Pixels of that raster, line centres.",
+  "fuselage.section": [
+    [2852, 1216],
+    [2925, 1222],
+    [3021, 1270],
+    [3072, 1323],
+    [3107, 1376],
+    [3120, 1429],
+    [3125, 1482],
+    [3124, 1535]
+  ],
+  "wing.upper": [
+    [3137, 1541],
+    [3243, 1530],
+    [3454, 1511],
+    [3665, 1492],
+    [3982, 1463],
+    [4194, 1444],
+    [4722, 1395],
+    [5251, 1347],
+    [5440, 1328],
+    [5465, 1336]
+  ],
+  "wing.lower": [
+    [3454, 1628],
+    [3665, 1567],
+    [3982, 1533],
+    [4194, 1505],
+    [4722, 1441],
+    [5251, 1377],
+    [5440, 1344],
+    [5465, 1336]
+  ],
+  "stabilizer.upper": [
+    [3137, 1366],
+    [3243, 1354],
+    [3454, 1332],
+    [3665, 1309],
+    [3776, 1300]
+  ],
+  "stabilizer.lower": [
+    [3137, 1414],
+    [3243, 1397],
+    [3454, 1363],
+    [3665, 1330],
+    [3776, 1313]
+  ]
+}

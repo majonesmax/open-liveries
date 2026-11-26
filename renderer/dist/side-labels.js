@@ -89,10 +89,20 @@ function labelGeometry(parts, outlines, engine) {
  * (outboard) engine's labels are drawn last with the winglet's; each one behind it has its labels in `behind`, by
  * engine, to be drawn straight after that engine, so the nearer nacelle covers them as it covers the engine.
  */
-export function drawLabels(livery, side, canvas, parts, outlines, only) {
+export function drawLabels(livery, side, canvas, parts, outlines, only, finParent) {
     const faceX = finFaceX(livery, side);
-    const fuselageLayer = svgElement('g', { 'clip-path': canvas.clipTo('fusLabels', outlines.fuselage) }, canvas.svg);
-    const finLayer = svgElement('g', { 'clip-path': canvas.clipTo('finLabels', outlines.fin) }, canvas.svg);
+    // Each part's layer is made when first drawn on; `finParent` (a tail engine's, clipped to its nacelle) takes the
+    // fin's labels in place of the fin's own layer.
+    let fuselageLayer;
+    let finLayer = finParent;
+    const layer = (part) => {
+        if (part === 'fuselage') {
+            fuselageLayer ??= svgElement('g', { 'clip-path': canvas.clipTo('fusLabels', outlines.fuselage) }, canvas.svg);
+            return fuselageLayer;
+        }
+        finLayer ??= svgElement('g', { 'clip-path': canvas.clipTo('finLabels', outlines.fin) }, canvas.svg);
+        return finLayer;
+    };
     const deferred = Object.assign([], {
         behind: parts.engines.slice(0, -1).map(() => []),
     });
@@ -106,7 +116,7 @@ export function drawLabels(livery, side, canvas, parts, outlines, only) {
         if (part === 'fuselage' || part === 'fin') {
             const g = geometries[0]?.[part];
             if (g)
-                draw(g, part === 'fuselage' ? fuselageLayer : finLayer);
+                draw(g, layer(part));
             return;
         }
         const perEngine = part === 'engines' ? geometries : geometries.slice(0, 1);

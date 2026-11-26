@@ -6,7 +6,7 @@
   "kind": "standard",
   "confidence": "medium",
   "drawnOn": "A320",
-  "description": "White fuselage with the gray 'vueling' wordmark behind the forward door; a halftone of dark-gray dots, growing larger toward the tail, covers the fin and wraps the aft fuselage behind the wing, with one yellow dot high on the fin; bright yellow engines with 'vueling.com'; yellow sharklets; dark gray tail cone.",
+  "description": "White fuselage with the gray 'vueling' wordmark behind the forward door; a halftone of dark-gray dots on white, growing larger toward the tail and merging into solid gray along the rudder and ahead of the tail cone, covers the fin and wraps the aft fuselage behind the wing, with one yellow dot high on the fin; bright yellow engines with 'vueling.com'; yellow sharklets; dark gray tail cone.",
   "sources": [
     {
       "url": "https://commons.wikimedia.org/wiki/File:EC-NAJ_(52048113116).jpg",
@@ -42,16 +42,6 @@
       "name": "dark gray (dots, title)",
       "official": false
     },
-    "halftone": {
-      "hex": "#A6AAB0",
-      "name": "the dot field's average tone",
-      "official": false
-    },
-    "halftoneLight": {
-      "hex": "#D2D5D9",
-      "name": "the dot field's light leading edge",
-      "official": false
-    },
     "yellow": {
       "hex": "#FFCC00",
       "official": false
@@ -71,42 +61,15 @@
     "base": "white",
     "areas": [
       {
-        "name": "halftone dots, small, at the front of the aft field",
-        "color": "halftoneLight",
+        "name": "the aft dot field's dense end, where its dots merge, ahead of the tail cone",
+        "color": "gray",
         "points": [
           [
-            0.79,
+            0.9538,
             1
           ],
           [
-            0.69,
-            -1
-          ],
-          [
-            1,
-            -1
-          ],
-          [
-            1,
-            1
-          ]
-        ],
-        "confidence": "medium",
-        "sourceRefs": [
-          0,
-          1
-        ]
-      },
-      {
-        "name": "halftone dots, larger, toward the tail",
-        "color": "halftone",
-        "points": [
-          [
-            0.83,
-            1
-          ],
-          [
-            0.74,
+            0.9318,
             -1
           ],
           [
@@ -159,31 +122,31 @@
     ]
   },
   "fin": {
-    "base": "halftone",
+    "base": "white",
     "mirrored": true,
     "areas": [
       {
-        "name": "lighter (smaller dots) along the leading edge",
-        "color": "halftoneLight",
+        "name": "the fin's dot field's dense edge along the rudder, where its dots merge",
+        "color": "gray",
         "points": [
           [
-            0,
+            0.93,
             0
           ],
           [
-            0.18,
+            1,
             0
           ],
           [
-            0.25,
+            1,
             1
           ],
           [
-            0,
+            0.93,
             1
           ]
         ],
-        "confidence": "low",
+        "confidence": "medium",
         "sourceRefs": [
           0,
           1
@@ -221,18 +184,54 @@
   },
   "logos": [
     {
+      "mark": "VLG/halftone-fin",
+      "place": "fin",
+      "at": [
+        0.2293,
+        0.4743
+      ],
+      "height": 1.083,
+      "colors": [
+        "gray"
+      ],
+      "description": "The fin's halftone: dark gray dots on white in columns parallel to the leading edge, about 0.41 m apart, small along the leading edge and growing toward the rudder until they merge into solid gray with small white gaps. Drawn as one mark over the whole fin (clipped to it). Measured on the A320 shape against EC-MYB's right side: about 14 rows up the fin; the dots' size by their share of the chord.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
       "mark": "VLG/yellow-dot",
       "place": "fin",
       "at": [
-        0.4,
-        0.55
+        0.44,
+        0.6
       ],
-      "height": 0.09,
+      "height": 0.075,
       "colors": [
         "yellow"
       ],
-      "description": "A single yellow dot among the fin's gray halftone dots, high on the fin.",
+      "description": "A single yellow dot in place of one of the fin's gray dots, high on the fin a little ahead of mid-chord. Placed off EC-MYB's right side (2018): 60% up the fin, 44% back along the chord, about the size of the dots around it.",
       "reference": "https://commons.wikimedia.org/wiki/File:EC-MYB_01082018LHR_(43853190142).jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "VLG/halftone-aft",
+      "place": "fuselage",
+      "at": [
+        0.74,
+        0
+      ],
+      "height": 2,
+      "colors": [
+        "gray"
+      ],
+      "description": "The aft fuselage's halftone: dark gray dots on white in level rows about 0.41 m apart, from a forward edge slanting from the crown at x 0.79 to the belly at 0.69, growing toward the tail until they merge ahead of the tail cone. Drawn as one mark centered where the body is still full height, its forward half empty, clipped to the body.",
       "confidence": "medium",
       "sourceRefs": [
         0,
@@ -299,6 +298,6 @@
       "length": 0.6
     }
   ],
-  "notes": "The halftone (dots growing from small at the front of each field to large at the back) can't be drawn as flat areas: it's given as two average tones; a renderer could draw dots instead. Recent (2024–26) Commons photos weren't found for this pass, so the 2018–2022 photos stand in. The belly under the aft field isn't seen. Re-checked 2026-11-15: the title measured on EC-NAJ (A320neo, side-on, 2022; it wears a 'We love places' decal special, the title as on the standard) and sized against EC-MYB (2018): it runs x 0.153-0.235, its baseline just above the window tops and its ascenders about 0.5 m tall, smaller and higher than drawn; lowercase 0.65 of the l. The halftone fields' forward edges reduced to their ends (straight from the side). Still no 2024-26 standard photo on Commons.",
+  "notes": "The halftone (dots growing from small at the front of each field to large at the back) is two marks (VLG/halftone-fin, VLG/halftone-aft) over white; only the dense ends where the dots merge are areas (2026-11-25, before that two average gray tones). Recent (2024–26) Commons photos weren't found for this pass, so the 2018–2022 photos stand in. The belly under the aft field isn't seen. Re-checked 2026-11-15: the title measured on EC-NAJ (A320neo, side-on, 2022; it wears a 'We love places' decal special, the title as on the standard) and sized against EC-MYB (2018): it runs x 0.153-0.235, its baseline just above the window tops and its ascenders about 0.5 m tall, smaller and higher than drawn; lowercase 0.65 of the l. The halftone fields' forward edges reduced to their ends (straight from the side). Still no 2024-26 standard photo on Commons.",
   "history": "Replaces Skyarium v1's approximation. The dot-pattern scheme replaced Vueling's earlier white-and-yellow scheme with the large gray-and-yellow tail lettering; the year it was introduced isn't confirmed here."
 }

@@ -1,0 +1,333 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "sundance-1979",
+  "airline": "RW1968",
+  "name": "Sundance yellow (1979)",
+  "kind": "standard",
+  "from": "1971",
+  "to": "1980-10",
+  "confidence": "medium",
+  "drawnOn": "MD82",
+  "description": "Hughes Airwest's 'Sundance' scheme as worn in 1979: the whole aircraft a bright golden yellow, body, fin, rudder, the 727's center engine fairing and the nacelles alike, with a black radome and light frames round the cockpit windows. 'HUGHES AIRWEST' in the airline's own blue lettering (heavy, extended, forward-leaning capitals tied by long horizontal strokes) under the forward cabin windows, from the first window behind the door to about the wing. On the fin a large blue mark: three tall upright-sided parallelograms side by side whose tops and bottoms slope down toward the nose, so it reads as an M over a W. Gray wings and tailplane, the nacelles' inlet lips polished. Worn by the DC-9s and the 727-200s until the merger into Republic in October 1980.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:McDonnell_Douglas_DC-9-31,_Hughes_Airwest_JP6241490.jpg",
+      "title": "McDonnell Douglas DC-9-31, Hughes Airwest (GFDL 1.2, Jon Proctor)",
+      "accessed": "2026-11-24",
+      "note": "N912RW at Las Vegas, 26 June 1976, right side, side-on in sun: the title's height and place (against the crown and belly at the same station, 22.4 px/m, and the windows and forward door), the fin mark's size and place, the yellow nacelles with a polished lip, the black radome."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Hughes_Airwest_DC-9-31;_N912RW;_September_1977_DAP_(4693783350).jpg",
+      "title": "Hughes Airwest DC-9-31; N912RW; September 1977 (CC BY-SA 2.0, Aero Icarus)",
+      "accessed": "2026-11-24",
+      "note": "N912RW, right side from behind, high resolution: the fin mark's form (three parallelograms with thin gaps) and the lettering's slant and letterforms."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Hughes_Airwest_McDonnell_Douglas_DC-9-31_Silagi-2.jpg",
+      "title": "Hughes Airwest McDonnell Douglas DC-9-31, February 1979 (GFDL, Richard Silagi)",
+      "accessed": "2026-11-24",
+      "note": "N915RW, right side, 1979: the scheme as worn in 1979 (yellow fin, black radome, light frames round the cockpit windows, no flag)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:McDonnell_Douglas_DC-9-31,_Hughes_Airwest_AN0077665.jpg",
+      "title": "McDonnell Douglas DC-9-31, Hughes Airwest, 28 April 1979 (GFDL 1.2, Ted Quackenbush)",
+      "accessed": "2026-11-24",
+      "note": "Right side from ahead, 1979: the black radome and the light cockpit window frames up close."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Hughes_Airwest_McDonnell_Douglas_DC-9-31_Silagi-1.jpg",
+      "title": "Hughes Airwest McDonnell Douglas DC-9-31, November 1979 (GFDL, Richard Silagi)",
+      "accessed": "2026-11-24",
+      "note": "N9344 (yellow fin) and N9337 (bare metal fin with the mark on a yellow panel, bare nacelles), right sides, 1979: both versions side by side; the mark's form read off N9337's panel."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Hughes_Airwest_McDonnell_Douglas_DC-9-31_Silagi-3.jpg",
+      "title": "Hughes Airwest McDonnell Douglas DC-9-31, June 1980 (GFDL, Richard Silagi)",
+      "accessed": "2026-11-24",
+      "note": "N9332, left side, 1980: the title on the left side (the same forward lean, over the same windows), the fin mark mirrored to face forward; this jet has the bare metal fin and a small US flag over the forward windows."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:727_Hughes_Airwest_N721RW_(5520269222).jpg",
+      "title": "727 Hughes Airwest N721RW, landing at San Jose, 29 January 1980 (CC BY-SA 2.0, Bill Larkins)",
+      "accessed": "2026-11-24",
+      "note": "727-200 N721RW, left side from below in flight: the 727's yellow body, nacelles and S-duct fairing, the title behind the forward door (its length in window pitches), the fin mark high on the fin. Taken from below, so its heights are approximate."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Hughes_Airwest_DC-9-31;_N9339,_October_1978_BEX_(4848072935).jpg",
+      "title": "Hughes Airwest DC-9-31; N9339, October 1978 (CC BY-SA 2.0, Aero Icarus)",
+      "accessed": "2026-11-24",
+      "note": "Right side, 1978: a check of the title and fin mark; this jet's radome is yellow."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Hughes_Airwest_McDonnell_Douglas_DC-9_N9102_01.jpg",
+      "title": "Hughes Airwest McDonnell Douglas DC-9 N9102 (CC BY 3.0, Piergiuliano Chesi, August 1974)",
+      "accessed": "2026-11-25",
+      "note": "DC-9-14 N9102, right side at an angle: the title's length and height on the DC-9-10 (the DC91 entry)."
+    }
+  ],
+  "palette": {
+    "yellow": {
+      "hex": "#F4C02C",
+      "name": "Sundance yellow",
+      "official": false
+    },
+    "blue": {
+      "hex": "#2C3C78",
+      "name": "Hughes Airwest blue",
+      "official": false
+    },
+    "black": {
+      "hex": "#1C1D22",
+      "official": false
+    },
+    "frame": {
+      "hex": "#E4E4DE",
+      "name": "light cockpit window frames",
+      "official": false
+    },
+    "gray": {
+      "hex": "#B0B5BB",
+      "name": "wing gray",
+      "official": false
+    },
+    "metal": {
+      "hex": "#C4C8CD",
+      "name": "polished bare metal",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "yellow",
+    "windows": "plain",
+    "radome": {
+      "color": "black",
+      "to": 0.012
+    },
+    "cockpitWindows": {
+      "mask": "frame"
+    },
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      2,
+      3
+    ]
+  },
+  "fin": {
+    "base": "yellow",
+    "rudder": "yellow",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "stabilizer": {
+    "top": "gray",
+    "under": "gray"
+  },
+  "wings": {
+    "top": "gray",
+    "under": "gray"
+  },
+  "engines": {
+    "cowling": "yellow",
+    "inletLip": "metal",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "RW1968/logo",
+      "place": "fin",
+      "at": [
+        0.47,
+        0.29
+      ],
+      "height": 0.54,
+      "colors": [
+        "blue"
+      ],
+      "description": "Hughes Airwest's mark in blue: three tall parallelograms side by side, their sides upright and their tops and bottoms sloping down toward the nose, so the top edge is a row of three sawteeth and the bottom another (an M over a W), with thin gaps of the fin's yellow between them. Painted facing forward on both sides.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1,
+        4
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "HUGHES AIRWEST",
+      "mark": "RW1968/wordmark",
+      "place": "fuselage",
+      "at": [
+        0.1498,
+        -0.2195
+      ],
+      "height": 0.2155,
+      "length": 0.2133,
+      "color": "blue",
+      "style": "Hughes Airwest's own lettering in blue: heavy, extended, forward-leaning block capitals with square counters, the letters packed close and tied by long horizontal strokes (the S's and the T's bars run out under and over their neighbours, the A is a forward-pointing wedge). Under the forward cabin windows, from the first window behind the door aft.",
+      "type": {
+        "similar": [
+          "Eurostile Black Extended Oblique",
+          "Microgramma Bold Extended"
+        ],
+        "weight": 800,
+        "slantDeg": 15,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "notes": "Measured 2026-11-24 for Skyarium's ghost flights. Hughes Airwest flew DC-9-10s and -30s and, from 1979, 727-200s; there's no DC-9 shape yet, so the scheme is drawn on the MD-82 (MD82), whose nose, forward door and cross-section are the DC-9-30's. The title is placed in meters from the forward door as on DC-9-31 N912RW (1976, side-on): from 1.84 m behind the door's middle, 8.87 m long, the capitals 0.60 m tall with their tops just under the centerline, about 0.35 m under the windows' middle. On the longer MD-82 it ends well ahead of the wing where on a DC-9-30 it reaches the wing root. The lettering leans forward the same way on both sides (N912RW's right side, N9332's left), as ordinary italics. The fin mark's size and place are shares of the fin's own outline on N912RW (its foot just above the root, about half the fin's height from the root to the top of the tailplane's fairing, its middle a little behind the middle of the chord). The body's paint has no edges to measure: everything but the radome, the window frames, the wings and the tailplane is yellow. In 1979-80 some DC-9s (N9337, N9332) had a bare metal fin with the mark on a yellow six-sided panel and bare nacelles; that variant isn't drawn. Radomes were mostly black in 1979 (N915RW, N9337, April 1979); some were yellow (N9339 in 1978, N9332 in 1980). The registration was lettered small in blue on the nacelle (N912RW, N915RW) or on the body just ahead of it (N9337, N9332) and isn't drawn; the blue lines round the doors aren't either. The 1979 photos show no US flag; N9332 had a small one over its forward windows by June 1980. The yellows on the slides range from lemon to deep gold with the film; the palette's is a middle reading of sunlit paint, not Hughes Airwest's specification. The scheme came in with the Hughes Air West name in 1971 (approximate here) and was worn until the merger into Republic (RC1979) on 1 October 1980.",
+  "types": {
+    "B722": {
+      "note": "The 727-200's title starts about 1.1 m behind the forward door and runs about 19 window pitches, its capitals a little taller than the DC-9's, under the windows; the fin mark sits on the 727's short fin above the center engine's fairing, made to fill most of its height. Read off N721RW (January 1980), taken from below in flight, so both are approximate. The S-duct fairing, nacelles and body are yellow as on the DC-9s.",
+      "confidence": "low",
+      "sourceRefs": [
+        6
+      ],
+      "titles": [
+        {
+          "text": "HUGHES AIRWEST",
+          "mark": "RW1968/wordmark",
+          "place": "fuselage",
+          "at": [
+            0.1487,
+            -0.1515
+          ],
+          "height": 0.2172,
+          "length": 0.2289,
+          "color": "blue",
+          "style": "Hughes Airwest's own lettering in blue: heavy, extended, forward-leaning block capitals with square counters, the letters packed close and tied by long horizontal strokes (the S's and the T's bars run out under and over their neighbours, the A is a forward-pointing wedge). Under the forward cabin windows, from the first window behind the door aft.",
+          "type": {
+            "similar": [
+              "Eurostile Black Extended Oblique",
+              "Microgramma Bold Extended"
+            ],
+            "weight": 800,
+            "slantDeg": 15,
+            "width": "extended",
+            "strokes": "uniform",
+            "case": "upper"
+          },
+          "confidence": "low",
+          "sourceRefs": [
+            6
+          ]
+        }
+      ],
+      "logos": [
+        {
+          "mark": "RW1968/logo",
+          "place": "fin",
+          "at": [
+            0.5,
+            0.42
+          ],
+          "height": 0.72,
+          "colors": [
+            "blue"
+          ],
+          "description": "Hughes Airwest's mark in blue: three tall parallelograms side by side, their sides upright and their tops and bottoms sloping down toward the nose, so the top edge is a row of three sawteeth and the bottom another (an M over a W), with thin gaps of the fin's yellow between them. Painted facing forward on both sides.",
+          "confidence": "low",
+          "sourceRefs": [
+            6
+          ]
+        }
+      ]
+    },
+    "DC93": {
+      "note": "The title in meters as the scheme's notes measure it on DC-9-31 N912RW: from 1.84 m behind the forward door's middle, 8.87 m long, so it reaches the wing root.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1
+      ],
+      "titles": [
+        {
+          "text": "HUGHES AIRWEST",
+          "mark": "RW1968/wordmark",
+          "place": "fuselage",
+          "at": [
+            0.1907,
+            -0.2195
+          ],
+          "height": 0.2155,
+          "length": 0.272,
+          "color": "blue",
+          "style": "Hughes Airwest's own lettering in blue: heavy, extended, forward-leaning block capitals with square counters, the letters packed close and tied by long horizontal strokes (the S's and the T's bars run out under and over their neighbours, the A is a forward-pointing wedge). Under the forward cabin windows, from the first window behind the door aft.",
+          "type": {
+            "similar": [
+              "Eurostile Black Extended Oblique",
+              "Microgramma Bold Extended"
+            ],
+            "weight": 800,
+            "slantDeg": 15,
+            "width": "extended",
+            "strokes": "uniform",
+            "case": "upper"
+          },
+          "confidence": "medium",
+          "sourceRefs": [
+            0,
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    "DC91": {
+      "note": "On the DC-9-10 the title is shorter: DC-9-14 N9102 (1974, right side, sourceRefs 8) has it 5.55-11.54 m from the nose with capitals about 0.48 m tall, their tops just under the centerline (by the service door and the overwing exit). Read off one photo taken at an angle, so approximate.",
+      "confidence": "low",
+      "sourceRefs": [
+        8
+      ],
+      "titles": [
+        {
+          "text": "HUGHES AIRWEST",
+          "mark": "RW1968/wordmark",
+          "place": "fuselage",
+          "at": [
+            0.1977,
+            -0.1728
+          ],
+          "height": 0.1714,
+          "length": 0.2134,
+          "color": "blue",
+          "style": "Hughes Airwest's own lettering in blue: heavy, extended, forward-leaning block capitals with square counters, the letters packed close and tied by long horizontal strokes (the S's and the T's bars run out under and over their neighbours, the A is a forward-pointing wedge). Under the forward cabin windows, from the first window behind the door aft.",
+          "type": {
+            "similar": [
+              "Eurostile Black Extended Oblique",
+              "Microgramma Bold Extended"
+            ],
+            "weight": 800,
+            "slantDeg": 15,
+            "width": "extended",
+            "strokes": "uniform",
+            "case": "upper"
+          },
+          "confidence": "medium",
+          "sourceRefs": [
+            0,
+            1,
+            2
+          ]
+        }
+      ]
+    }
+  }
+}

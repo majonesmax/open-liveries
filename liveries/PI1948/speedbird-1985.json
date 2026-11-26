@@ -1,0 +1,1396 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "speedbird-1985",
+  "airline": "PI1948",
+  "name": "Blue band and speedbird (1985)",
+  "kind": "standard",
+  "to": "1989-08",
+  "confidence": "medium",
+  "drawnOn": "B733",
+  "description": "Piedmont's 1980s scheme: a white upper body over a polished bare-metal belly, the line between them straight just under the windows' level and curving down to the chin at the nose. A royal blue band through the cabin windows runs straight from the tail to the cockpit, where the whole nose ahead of the windshield is blue down to a line that slopes from the band's lower edge to the nose tip; white below it wraps the chin. 'PIEDMONT' in Piedmont's red slanted wordmark above the forward windows. A white fin with the blue speedbird (a flat bar pointed forward with three strokes rising back from it) over a smaller red 'PIEDMONT'. Polished engines. Worn by the 737-200s, 727-200s and the first 737-300s until the merger into USAir in August 1989.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:BALTIMORE-WASHINGTON_NOVEMBER_1983_PIEDMONT_AIRLINES_BOEING_737_N803N_(21413886099).jpg",
+      "title": "Baltimore-Washington, November 1983, Piedmont Airlines Boeing 737 N803N (CC BY 2.0, Simon Butler)",
+      "accessed": "2026-11-24",
+      "note": "737-200 N803N, left side from a little ahead, camera about level: the band's and the belly line's heights (against the crown and belly at the same station), the nose's curves, the title's height and place (from the door and the overwing exit)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Piedmont_Airlines_Boeing_737-201;_N794N,_April_1983_(5288852738).jpg",
+      "title": "Piedmont Airlines Boeing 737-201 N794N, April 1983 (CC BY-SA 2.0, Aero Icarus)",
+      "accessed": "2026-11-24",
+      "note": "Right side from ahead, high resolution, in sun: the fin's speedbird and title (fin edges segmented against the sky), the nose's paint, the colors."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Boeing_737-201,_Piedmont_Airlines_JP5946978.jpg",
+      "title": "Boeing 737-201, Piedmont Airlines (GFDL 1.2, Jon Proctor)",
+      "accessed": "2026-11-24",
+      "note": "N753N at LaGuardia, left side, December 1984: the nose's curves and the fin's marks checked on it (taken from a little above)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Piedmont_Airlines_Boeing_727-200_Silagi-1.jpg",
+      "title": "Piedmont Airlines Boeing 727-214/Adv (GFDL, Richard Silagi)",
+      "accessed": "2026-11-24",
+      "note": "N555PS, right side, side-on, December 1984: the 727's band, belly line, nose, title and fin marks measured on it (flipped nose-left; 19.7 px/m along the body, 19.9 up it)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:WASHINGTON_NATIONAL_NOVEMBER_1983_PIEDMONT_AIRLINES_BOEING_727_N857N_(20980451653).jpg",
+      "title": "Washington National, November 1983, Piedmont Airlines Boeing 727 N857N (CC BY 2.0, Simon Butler)",
+      "accessed": "2026-11-24",
+      "note": "727-200 N857N, left side, 1983: the same layout on the 727 from the left."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Boeing_737-301_N301P_Piedmont_La_Guardia_17.08.85.jpg",
+      "title": "Boeing 737-301 N301P, Piedmont, LaGuardia, 17 August 1985 (CC BY 3.0)",
+      "accessed": "2026-11-24",
+      "note": "Evidence for 1985: the 737-301 and a 737-201 (N734N) behind it in this scheme. The 737-300's extra '737-300' lettering and stripes on the fin aren't drawn here."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Aircraft_N783N_Piedmont_Airlines.jpg",
+      "title": "Aircraft N783N Piedmont Airlines, Louisville, June 1988 (CC BY-SA 4.0, Svanbaaren)",
+      "accessed": "2026-11-24",
+      "note": "737-200, left side from ahead, 1988: the belly is polished metal and the nose's paint, up close."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Logo_wordmark_Piedmont_Airlines_(1989).png",
+      "title": "Logo wordmark Piedmont Airlines (1989) (Wikimedia Commons, public domain)",
+      "accessed": "2026-11-24",
+      "note": "The PIEDMONT wordmark: the reference for the title's lettering (its slant measured at 34 degrees). Painted on the aircraft it's set a little wider than this file."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Piedmont_Airlines_B-737_N738N.jpg",
+      "title": "Piedmont Airlines B-737 N738N, August 1975 (CC BY-SA 3.0, Piergiuliano Chesi)",
+      "accessed": "2026-11-24",
+      "note": "Evidence only for dating: the same scheme in flight in 1975."
+    }
+  ],
+  "palette": {
+    "metal": {
+      "hex": "#C3C7CC",
+      "name": "polished bare metal",
+      "official": false
+    },
+    "white": {
+      "hex": "#F3F4F2",
+      "official": false
+    },
+    "blue": {
+      "hex": "#2C4C9C",
+      "name": "Piedmont blue",
+      "official": false
+    },
+    "red": {
+      "hex": "#C4262E",
+      "name": "Piedmont red",
+      "official": false
+    }
+  },
+  "finish": "metallic",
+  "fuselage": {
+    "base": "metal",
+    "windows": "plain",
+    "areas": [
+      {
+        "name": "white over the polished belly: the line straight at one height, curving down to the chin",
+        "color": "white",
+        "smooth": true,
+        "points": [
+          [
+            0,
+            -1
+          ],
+          [
+            0.0193,
+            -1
+          ],
+          [
+            0.0264,
+            -0.4272
+          ],
+          [
+            0.0404,
+            -0.2686
+          ],
+          [
+            0.0622,
+            -0.2044
+          ],
+          [
+            0.0932,
+            -0.171
+          ],
+          [
+            0.1336,
+            -0.158
+          ],
+          [
+            0.2511,
+            -0.1929
+          ],
+          [
+            0.6364,
+            -0.2048
+          ],
+          [
+            0.7053,
+            -0.2567
+          ],
+          [
+            0.7707,
+            -0.3482
+          ],
+          [
+            0.8054,
+            -0.4274
+          ],
+          [
+            0.8318,
+            -0.5186
+          ],
+          [
+            0.8805,
+            -0.9589
+          ],
+          [
+            0.8808,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "name": "blue band through the windows, nose to tail, all blue over the nose ahead of the windshield",
+        "color": "blue",
+        "smooth": true,
+        "points": [
+          [
+            1,
+            -0.6879
+          ],
+          [
+            0.9877,
+            -0.4203
+          ],
+          [
+            0.9787,
+            -0.3406
+          ],
+          [
+            0.9476,
+            -0.1872
+          ],
+          [
+            0.9165,
+            -0.0663
+          ],
+          [
+            0.8821,
+            0.0241
+          ],
+          [
+            0.8078,
+            0.138
+          ],
+          [
+            0.7456,
+            0.1896
+          ],
+          [
+            0.6125,
+            0.2383
+          ],
+          [
+            0.3062,
+            0.2386
+          ],
+          [
+            0.2173,
+            0.2527
+          ],
+          [
+            0.1523,
+            0.2973
+          ],
+          [
+            0.0989,
+            0.3624
+          ],
+          [
+            0.0834,
+            0.4088
+          ],
+          [
+            0.0662,
+            0.5048
+          ],
+          [
+            0.0583,
+            0.5897
+          ],
+          [
+            0.0464,
+            0.9276
+          ],
+          [
+            0.0461,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0.0706
+          ],
+          [
+            0.0367,
+            0.0706
+          ],
+          [
+            0.0733,
+            0.0333
+          ],
+          [
+            0.11,
+            0.0498
+          ],
+          [
+            0.1467,
+            0.0613
+          ],
+          [
+            0.1833,
+            0.0549
+          ],
+          [
+            0.2511,
+            0.0331
+          ],
+          [
+            0.6125,
+            0.0295
+          ],
+          [
+            0.6704,
+            0.0089
+          ],
+          [
+            0.7557,
+            -0.0528
+          ],
+          [
+            0.8204,
+            -0.1442
+          ],
+          [
+            0.8532,
+            -0.2164
+          ],
+          [
+            0.8825,
+            -0.3075
+          ],
+          [
+            0.9136,
+            -0.4568
+          ],
+          [
+            0.9499,
+            -0.9459
+          ],
+          [
+            0.9503,
+            -1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "wings": {
+    "top": "metal",
+    "under": "metal"
+  },
+  "engines": {
+    "cowling": "metal",
+    "inletLip": "metal",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      6
+    ]
+  },
+  "logos": [
+    {
+      "mark": "PI1948/speedbird",
+      "place": "fin",
+      "at": [
+        0.37,
+        0.625
+      ],
+      "height": 0.26,
+      "colors": [
+        "blue"
+      ],
+      "description": "The speedbird in Piedmont blue: a long flat bar along the bottom, pointed forward, with three parallel strokes rising from its aft half up and back to sharp points, the forward stroke the widest, like a bird's wing raised over its body. Painted facing forward on both sides.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "PIEDMONT",
+      "mark": "PI1948/wordmark",
+      "place": "fuselage",
+      "at": [
+        0.2237,
+        0.3222
+      ],
+      "height": 0.2298,
+      "color": "red",
+      "style": "Piedmont's wordmark in red: heavy, steeply slanted squarish capitals with cut corners (the E's bars and the D's and O's square bowls), above the forward windows from a few windows behind the door to over the wing.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ],
+      "length": 0.2331,
+      "type": {
+        "similar": [
+          "Eurostile Bold Extended Oblique",
+          "Microgramma Bold Extended"
+        ],
+        "weight": 700,
+        "slantDeg": 34,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "PIEDMONT",
+      "mark": "PI1948/wordmark",
+      "place": "fin",
+      "at": [
+        0.12,
+        0.415
+      ],
+      "height": 0.052,
+      "color": "red",
+      "style": "The same red wordmark, small, across the fin under the speedbird, nearly the fin's whole chord.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ],
+      "length": 0.83,
+      "type": {
+        "similar": [
+          "Eurostile Bold Extended Oblique",
+          "Microgramma Bold Extended"
+        ],
+        "weight": 700,
+        "slantDeg": 34,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Measured 2026-11-24 for Skyarium's ghost flights. The 737-200 has no measured shape, so the scheme is drawn on the 737-300 (B733): the 737-200's nose and forward body are the same, and its paint is placed in meters from the nose (the title 7.2-14.7 m back). Every straight paint line is one height in meters along the body: the band 0.10-0.74 m and the belly line -0.60 m above the centerline, read off N803N against the crown and belly at the same station (the camera about level) and checked on N753N and N794N; the points are where the shape's outline bends. At the nose the band's lower edge eases down in a gentle curve from 5.6 m back to the nose tip, and the belly line curves down to meet the chin about 0.6 m back. Where the crown dips under the band's top just ahead of the windshield the band covers the nose. At the tail both run straight out through the tail cone's underside. The fin's speedbird and title were placed in fin space on N794N (right side, its fin edges segmented against the sky) and N753N (left side); they agree within a few percent of the chord. Colors are from faded slides and only approximate. On the 737-300s the fin also carried '737-300' between blue pinstripes (N301P, 1985), not drawn. Piedmont Aviation (1948-1989) merged into USAir in August 1989; it's keyed PI1948 because its old code now belongs to a different, living airline (PDT). No US flag shows on the 1983-88 photos; each jet's name (N783N's 'Seminole Pacemaker') is lettered small in blue under the cockpit and isn't drawn. The scheme was already on the 737s in 1975 (N738N); when it came in isn't dated here.",
+  "types": {
+    "B722": {
+      "note": "The 727's band and belly line sit a little higher on its deeper body (0.17-0.81 m and -0.53 m above its centerline) and run out through the tail cone; the title is a little bigger, and the fin's marks sit low on the 727's short fin, as on N555PS (1984). There the title is lettered on the center intake's fairing, its baseline about 0.7 m under the fin's leading-edge foot; fin lettering is drawn clipped to the fin above its root, so it's raised to just above the root here, with the speedbird moved up as far and made about a tenth smaller to stay under the tailplane. Refitted 2026-11-24 on the passenger 727 (shapes/B722-passenger.json): the band 0.66 m tall with the windows in its middle (N555PS), the belly's line 0.98 m under it, both level on the cabin.",
+      "confidence": "medium",
+      "sourceRefs": [
+        3,
+        4
+      ],
+      "fuselage": {
+        "areas": [
+          {
+            "name": "white over the polished belly: the line straight at one height, curving down to the chin",
+            "color": "white",
+            "smooth": true,
+            "points": [
+              [
+                0,
+                -1
+              ],
+              [
+                0.0101,
+                -1
+              ],
+              [
+                0.0241,
+                -0.30991
+              ],
+              [
+                0.041,
+                -0.22171
+              ],
+              [
+                0.0651,
+                -0.1981
+              ],
+              [
+                0.0916,
+                -0.18172
+              ],
+              [
+                0.09301,
+                -0.18169
+              ],
+              [
+                0.09653,
+                -0.18235
+              ],
+              [
+                0.1088,
+                -0.18226
+              ],
+              [
+                0.11566,
+                -0.18474
+              ],
+              [
+                0.12463,
+                -0.18688
+              ],
+              [
+                0.13475,
+                -0.19423
+              ],
+              [
+                0.13602,
+                -0.19495
+              ],
+              [
+                0.1573,
+                -0.20308
+              ],
+              [
+                0.16614,
+                -0.20374
+              ],
+              [
+                0.1734,
+                -0.20579
+              ],
+              [
+                0.1859,
+                -0.20574
+              ],
+              [
+                0.1953,
+                -0.2072
+              ],
+              [
+                0.32851,
+                -0.20674
+              ],
+              [
+                0.33231,
+                -0.20366
+              ],
+              [
+                0.34036,
+                -0.19545
+              ],
+              [
+                0.3479,
+                -0.19099
+              ],
+              [
+                0.36901,
+                -0.16831
+              ],
+              [
+                0.3812,
+                -0.16086
+              ],
+              [
+                0.39058,
+                -0.15893
+              ],
+              [
+                0.53923,
+                -0.15111
+              ],
+              [
+                0.54957,
+                -0.15357
+              ],
+              [
+                0.55207,
+                -0.15187
+              ],
+              [
+                0.55665,
+                -0.1431
+              ],
+              [
+                0.55916,
+                -0.14144
+              ],
+              [
+                0.56214,
+                -0.14328
+              ],
+              [
+                0.56769,
+                -0.15187
+              ],
+              [
+                0.57118,
+                -0.15281
+              ],
+              [
+                0.68458,
+                -0.15797
+              ],
+              [
+                0.70065,
+                -0.163
+              ],
+              [
+                0.71593,
+                -0.17009
+              ],
+              [
+                0.7388,
+                -0.18789
+              ],
+              [
+                0.74581,
+                -0.19223
+              ],
+              [
+                0.75176,
+                -0.19746
+              ],
+              [
+                0.76007,
+                -0.202
+              ],
+              [
+                0.76851,
+                -0.20829
+              ],
+              [
+                0.77463,
+                -0.21047
+              ],
+              [
+                0.78499,
+                -0.21219
+              ],
+              [
+                0.78851,
+                -0.21517
+              ],
+              [
+                0.79371,
+                -0.22011
+              ],
+              [
+                0.80159,
+                -0.22349
+              ],
+              [
+                0.81272,
+                -0.23317
+              ],
+              [
+                0.82026,
+                -0.23849
+              ],
+              [
+                0.82687,
+                -0.24552
+              ],
+              [
+                0.83012,
+                -0.24855
+              ],
+              [
+                0.8341,
+                -0.25375
+              ],
+              [
+                0.84123,
+                -0.266
+              ],
+              [
+                0.84983,
+                -0.27929
+              ],
+              [
+                0.85631,
+                -0.29155
+              ],
+              [
+                0.87708,
+                -0.34356
+              ],
+              [
+                0.89128,
+                -0.38481
+              ],
+              [
+                0.89583,
+                -0.40218
+              ],
+              [
+                0.90304,
+                -0.43138
+              ],
+              [
+                0.91205,
+                -0.48012
+              ],
+              [
+                0.9304,
+                -0.62341
+              ],
+              [
+                0.9306,
+                -1
+              ],
+              [
+                1,
+                -1
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "confidence": "medium",
+            "sourceRefs": [
+              3,
+              4
+            ]
+          },
+          {
+            "name": "blue band through the windows, nose to tail, all blue over the nose ahead of the windshield",
+            "color": "blue",
+            "smooth": true,
+            "points": [
+              [
+                1.0,
+                1.0
+              ],
+              [
+                0.96075,
+                1.0
+              ],
+              [
+                0.95706,
+                0.89463
+              ],
+              [
+                0.95321,
+                0.79254
+              ],
+              [
+                0.94689,
+                0.7
+              ],
+              [
+                0.9413,
+                0.60388
+              ],
+              [
+                0.93884,
+                0.58342
+              ],
+              [
+                0.93364,
+                0.56936
+              ],
+              [
+                0.91205,
+                0.52179
+              ],
+              [
+                0.90304,
+                0.49838
+              ],
+              [
+                0.89583,
+                0.46406
+              ],
+              [
+                0.89128,
+                0.44918
+              ],
+              [
+                0.87708,
+                0.40835
+              ],
+              [
+                0.85631,
+                0.37716
+              ],
+              [
+                0.84983,
+                0.36832
+              ],
+              [
+                0.84123,
+                0.35256
+              ],
+              [
+                0.8341,
+                0.34624
+              ],
+              [
+                0.82687,
+                0.33376
+              ],
+              [
+                0.82026,
+                0.32556
+              ],
+              [
+                0.81272,
+                0.3158
+              ],
+              [
+                0.80159,
+                0.30786
+              ],
+              [
+                0.79371,
+                0.2954
+              ],
+              [
+                0.78499,
+                0.29293
+              ],
+              [
+                0.77463,
+                0.27494
+              ],
+              [
+                0.76851,
+                0.26765
+              ],
+              [
+                0.76007,
+                0.26531
+              ],
+              [
+                0.75176,
+                0.2601
+              ],
+              [
+                0.74581,
+                0.26084
+              ],
+              [
+                0.7388,
+                0.26087
+              ],
+              [
+                0.71593,
+                0.26959
+              ],
+              [
+                0.70065,
+                0.27309
+              ],
+              [
+                0.68458,
+                0.27559
+              ],
+              [
+                0.57118,
+                0.27816
+              ],
+              [
+                0.56769,
+                0.27864
+              ],
+              [
+                0.56214,
+                0.28294
+              ],
+              [
+                0.55916,
+                0.28387
+              ],
+              [
+                0.55665,
+                0.28303
+              ],
+              [
+                0.55207,
+                0.27864
+              ],
+              [
+                0.54957,
+                0.27778
+              ],
+              [
+                0.53923,
+                0.27901
+              ],
+              [
+                0.39058,
+                0.27511
+              ],
+              [
+                0.3812,
+                0.27415
+              ],
+              [
+                0.36901,
+                0.27047
+              ],
+              [
+                0.3479,
+                0.25937
+              ],
+              [
+                0.34036,
+                0.25721
+              ],
+              [
+                0.33231,
+                0.25325
+              ],
+              [
+                0.32851,
+                0.25178
+              ],
+              [
+                0.1953,
+                0.25156
+              ],
+              [
+                0.1859,
+                0.25465
+              ],
+              [
+                0.1734,
+                0.25463
+              ],
+              [
+                0.16614,
+                0.25896
+              ],
+              [
+                0.1573,
+                0.26041
+              ],
+              [
+                0.13602,
+                0.2778
+              ],
+              [
+                0.13475,
+                0.27898
+              ],
+              [
+                0.12463,
+                0.29183
+              ],
+              [
+                0.11566,
+                0.30148
+              ],
+              [
+                0.1088,
+                0.31092
+              ],
+              [
+                0.09653,
+                0.32652
+              ],
+              [
+                0.09024,
+                0.33762
+              ],
+              [
+                0.08357,
+                0.35489
+              ],
+              [
+                0.07781,
+                0.36999
+              ],
+              [
+                0.0746,
+                0.38153
+              ],
+              [
+                0.06636,
+                0.41268
+              ],
+              [
+                0.06463,
+                0.41954
+              ],
+              [
+                0.05969,
+                0.44824
+              ],
+              [
+                0.05839,
+                0.45842
+              ],
+              [
+                0.05422,
+                0.49316
+              ],
+              [
+                0.05164,
+                0.52275
+              ],
+              [
+                0.04402,
+                0.63399
+              ],
+              [
+                0.0377,
+                0.79036
+              ],
+              [
+                0.0374,
+                1
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                0.0949
+              ],
+              [
+                0.0241,
+                0.09028
+              ],
+              [
+                0.0482,
+                0.08419
+              ],
+              [
+                0.0723,
+                0.07604
+              ],
+              [
+                0.0964,
+                0.07666
+              ],
+              [
+                0.1205,
+                0.06706
+              ],
+              [
+                0.12463,
+                0.0645
+              ],
+              [
+                0.13475,
+                0.05501
+              ],
+              [
+                0.13602,
+                0.05411
+              ],
+              [
+                0.1573,
+                0.04201
+              ],
+              [
+                0.16614,
+                0.04101
+              ],
+              [
+                0.1734,
+                0.03797
+              ],
+              [
+                0.1859,
+                0.038
+              ],
+              [
+                0.1953,
+                0.03583
+              ],
+              [
+                0.32851,
+                0.03614
+              ],
+              [
+                0.33231,
+                0.03823
+              ],
+              [
+                0.34036,
+                0.04383
+              ],
+              [
+                0.3479,
+                0.04688
+              ],
+              [
+                0.36901,
+                0.06252
+              ],
+              [
+                0.3812,
+                0.06769
+              ],
+              [
+                0.39058,
+                0.06904
+              ],
+              [
+                0.53923,
+                0.0745
+              ],
+              [
+                0.54957,
+                0.07278
+              ],
+              [
+                0.55207,
+                0.07397
+              ],
+              [
+                0.55665,
+                0.08012
+              ],
+              [
+                0.55916,
+                0.08128
+              ],
+              [
+                0.56214,
+                0.07999
+              ],
+              [
+                0.56769,
+                0.07397
+              ],
+              [
+                0.57118,
+                0.07331
+              ],
+              [
+                0.68458,
+                0.06971
+              ],
+              [
+                0.70065,
+                0.0662
+              ],
+              [
+                0.71593,
+                0.06128
+              ],
+              [
+                0.7388,
+                0.04901
+              ],
+              [
+                0.74581,
+                0.04705
+              ],
+              [
+                0.75176,
+                0.04436
+              ],
+              [
+                0.76007,
+                0.04489
+              ],
+              [
+                0.76851,
+                0.04324
+              ],
+              [
+                0.77463,
+                0.04583
+              ],
+              [
+                0.78499,
+                0.05375
+              ],
+              [
+                0.78851,
+                0.05294
+              ],
+              [
+                0.79371,
+                0.05144
+              ],
+              [
+                0.80159,
+                0.05589
+              ],
+              [
+                0.81272,
+                0.0554
+              ],
+              [
+                0.82026,
+                0.05766
+              ],
+              [
+                0.82687,
+                0.05842
+              ],
+              [
+                0.83012,
+                0.05976
+              ],
+              [
+                0.8341,
+                0.06061
+              ],
+              [
+                0.84123,
+                0.05823
+              ],
+              [
+                0.84983,
+                0.0597
+              ],
+              [
+                0.85631,
+                0.05847
+              ],
+              [
+                0.87708,
+                0.05072
+              ],
+              [
+                0.89128,
+                0.05157
+              ],
+              [
+                0.89583,
+                0.05095
+              ],
+              [
+                0.90304,
+                0.05348
+              ],
+              [
+                0.91205,
+                0.045
+              ],
+              [
+                0.93364,
+                0.00958
+              ],
+              [
+                0.93884,
+                -0.00244
+              ],
+              [
+                0.9413,
+                -0.00418
+              ],
+              [
+                0.94689,
+                0.00183
+              ],
+              [
+                0.95321,
+                -0.00614
+              ],
+              [
+                0.95706,
+                -0.01003
+              ],
+              [
+                0.96075,
+                -0.02052
+              ],
+              [
+                0.96639,
+                -0.03196
+              ],
+              [
+                0.96911,
+                -0.03334
+              ],
+              [
+                0.97342,
+                -0.03285
+              ],
+              [
+                0.9793,
+                -0.02335
+              ],
+              [
+                0.98296,
+                -0.02364
+              ],
+              [
+                0.99043,
+                -0.03092
+              ],
+              [
+                0.99701,
+                -0.04914
+              ],
+              [
+                0.99802,
+                -0.05545
+              ],
+              [
+                1.0,
+                -0.05364
+              ]
+            ],
+            "confidence": "medium",
+            "sourceRefs": [
+              3,
+              4
+            ]
+          }
+        ]
+      },
+      "titles": [
+        {
+          "text": "PIEDMONT",
+          "mark": "PI1948/wordmark",
+          "place": "fuselage",
+          "at": [
+            0.1725,
+            0.2997
+          ],
+          "height": 0.2429,
+          "color": "red",
+          "style": "Piedmont's wordmark in red: heavy, steeply slanted squarish capitals with cut corners (the E's bars and the D's and O's square bowls), above the forward windows from a few windows behind the door to over the wing.",
+          "confidence": "medium",
+          "sourceRefs": [
+            3,
+            4
+          ],
+          "length": 0.1913,
+          "type": {
+            "similar": [
+              "Eurostile Bold Extended Oblique",
+              "Microgramma Bold Extended"
+            ],
+            "weight": 700,
+            "slantDeg": 34,
+            "width": "extended",
+            "strokes": "uniform",
+            "case": "upper"
+          }
+        },
+        {
+          "text": "PIEDMONT",
+          "mark": "PI1948/wordmark",
+          "place": "fin",
+          "at": [
+            0.11,
+            0.025
+          ],
+          "height": 0.12,
+          "color": "red",
+          "style": "The same red wordmark, small, across the fin under the speedbird, nearly the fin's whole chord.",
+          "confidence": "medium",
+          "sourceRefs": [
+            3,
+            4
+          ],
+          "length": 0.6,
+          "type": {
+            "similar": [
+              "Eurostile Bold Extended Oblique",
+              "Microgramma Bold Extended"
+            ],
+            "weight": 700,
+            "slantDeg": 34,
+            "width": "extended",
+            "strokes": "uniform",
+            "case": "upper"
+          }
+        }
+      ],
+      "logos": [
+        {
+          "mark": "PI1948/speedbird",
+          "place": "fin",
+          "at": [
+            0.2,
+            0.505
+          ],
+          "height": 0.7,
+          "colors": [
+            "blue"
+          ],
+          "description": "The speedbird in Piedmont blue: a long flat bar along the bottom, pointed forward, with three parallel strokes rising from its aft half up and back to sharp points, the forward stroke the widest, like a bird's wing raised over its body. Painted facing forward on both sides.",
+          "confidence": "medium",
+          "sourceRefs": [
+            3,
+            4
+          ]
+        }
+      ]
+    }
+  }
+}

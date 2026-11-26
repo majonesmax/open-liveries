@@ -1,0 +1,289 @@
+{
+  "_about": "Lockheed L-1011-1 TriStar (L101), from Lockheed's L-1011 Maintenance Manual, chapter 6 Dimensions and Areas (6-10-00, Principal Dimensions; list of effective pages dated Jun 15/96), as scanned in the Internet Archive item chapter-22_202208 ('Lockheed L1011 Maintenance Manual', file 'Chapter 6.pdf', a greyscale scan of about 300 dpi). No airport-planning document for the L-1011 is in the open; this chapter is the manufacturer's own dimensioned three-view, the same kind of figure. Figure 1 (page index 8, Nov 15/78: side and front views) and Figure 2 (page index 9, Dec 1/71: plan), both EFFECTIVITY: ALL, drawn for the standard-body L-1011-1 (the printed 155 ft 4 in span and 177 ft 2 in to the fin's tip; the -500 is 164 ft 2 in and 50 m). Pixels of layers.py rasters (--mode image --threshold 150): side and front at scale 4, the plan at 4.396 turned -0.67 degrees (drawn at 0.910 of the side's scale and slightly turned, see plan.anchors.json). Scaled by the printed 178 ft 7.5 in (54.437 m) overall length between the nose tip and the tail cone (37, 1794 px: 32.28 px a meter). The front view is at the side's scale (its printed span drawn 1524 px). Three RB211s: two under the wing and the third in the tail cone fed by an S-duct from an intake on the crown ahead of the fin (`tailEngine`, duct s). Doors: placed at Figure 6's door table (Door Size and Location Data, page index 14), fuselage stations to their middles from FS 83 at the nose tip: L1 FS 304.5 (left only), R1 FS 351.0 (right only), L2/R2 FS 873.0, L3/R3 FS 1513.0 (Type A, 42 x 76 in), L4/R4 FS 1778.0 (Type I, 24 x 60 in); on the right the forward cargo door FS 666.0 (70 x 68 in), the lower galley's service door FS 810.6 (32 x 61.5 in), the centre cargo door FS 1588.0 (70 x 68 in) and the bulk cargo door FS 1701.0 (44 x 48 in). The side view draws L1-L4 within 0.3 m of those stations. The passenger doors' sills are the side view's; the lower-deck doors' heights are Figure 6's dashed outlines (about 0.2 m). Windows: the drawing's dots on the 20 in pitch (25 ahead of door 2, 27 between doors 2 and 3, 10 between doors 3 and 4; behind the wing's root they're hidden and carried on the pitch), their size set to the L-1011's own (the drawing's dots are 0.45 m round). The intake's fairing curves up into the fin's leading edge: its top runs along that curve to where the leading edge's straight run begins, which is the fin's root (as the 727's); it isn't a separate fillet. Rebuild: build.py l101/recipe.json W, smooth.py, windshield.py, then smooth.py --parts, l101/straighten.py and windshield.py.",
+  "out": "../../../shapes/L101.json",
+  "length": 54.437,
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "tailEngine": {
+    "duct": "s"
+  },
+  "refs": {
+    "side": {
+      "nose": 37,
+      "tail": 1794,
+      "cowlEnd": 856,
+      "tailCowlEnd": 1726
+    },
+    "plan": {
+      "nose": 167,
+      "centerline": 894
+    },
+    "front": {
+      "centerline": 845,
+      "crownTop": 674
+    }
+  },
+  "windows": {
+    "x": [
+      7.002,
+      7.498,
+      8.009,
+      8.489,
+      8.985,
+      9.496,
+      10.038,
+      10.503,
+      11.03,
+      11.51,
+      12.037,
+      12.533,
+      13.044,
+      13.54,
+      14.051,
+      14.546,
+      15.042,
+      15.538,
+      16.049,
+      16.483,
+      16.979,
+      17.505,
+      17.986,
+      18.512,
+      19.024,
+      21.363,
+      21.827,
+      22.339,
+      22.819,
+      23.284,
+      23.826,
+      24.337,
+      24.833,
+      25.391,
+      25.868,
+      26.37,
+      26.924,
+      27.497,
+      28.117,
+      28.659,
+      29.17,
+      29.713,
+      30.239,
+      30.72,
+      31.2,
+      31.696,
+      32.207,
+      32.749,
+      33.291,
+      33.756,
+      34.314,
+      34.825,
+      37.356,
+      37.858,
+      38.36,
+      38.862,
+      39.364,
+      39.866,
+      40.368,
+      40.87,
+      41.372,
+      41.873
+    ],
+    "z": [
+      0.27,
+      0.65
+    ],
+    "width": 0.27,
+    "note": "Each window's middle from the drawing's row of dots (6-10-00 Figure 1), on the 20 in (0.508 m) pitch; the 10 behind the wing's root are hidden and carried on that pitch back from the last drawn one. Their height band is the drawn row's middle with the L-1011's window size (about 0.27 by 0.38 m), as the drawing's dots are 0.45 m round. Both sides take the left's row: on the right, R1 (1.18 m aft of L1) covers the first two."
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [
+        201.4,
+        490.8,
+        235.8,
+        553.1
+      ],
+      "side": "left",
+      "name": "door 1"
+    },
+    {
+      "kind": "door",
+      "box": [
+        239.5,
+        490.8,
+        273.9,
+        553.1
+      ],
+      "side": "right",
+      "name": "door 1 right"
+    },
+    {
+      "kind": "door",
+      "box": [
+        667.4,
+        490.8,
+        701.9,
+        553.1
+      ],
+      "name": "door 2"
+    },
+    {
+      "kind": "door",
+      "box": [
+        1192.1,
+        490.8,
+        1226.5,
+        553.1
+      ],
+      "name": "door 3"
+    },
+    {
+      "kind": "exit",
+      "box": [
+        1416.7,
+        499.9,
+        1436.4,
+        548.9
+      ],
+      "name": "door 4"
+    },
+    {
+      "kind": "cargo",
+      "box": [
+        486.3,
+        565.1,
+        543.6,
+        620.9
+      ],
+      "side": "right"
+    },
+    {
+      "kind": "cargo",
+      "box": [
+        620.4,
+        564.8,
+        646.6,
+        615.1
+      ],
+      "side": "right"
+    },
+    {
+      "kind": "cargo",
+      "box": [
+        1242.1,
+        565.1,
+        1299.5,
+        620.9
+      ],
+      "side": "right"
+    },
+    {
+      "kind": "cargo",
+      "box": [
+        1345.4,
+        571.2,
+        1381.5,
+        610.6
+      ],
+      "side": "right"
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [
+        81,
+        521
+      ],
+      [
+        90,
+        511
+      ],
+      [
+        100,
+        504
+      ],
+      [
+        104,
+        507
+      ],
+      [
+        105,
+        521
+      ]
+    ],
+    [
+      [
+        108,
+        508
+      ],
+      [
+        121,
+        508
+      ],
+      [
+        121,
+        520
+      ],
+      [
+        108,
+        520
+      ]
+    ],
+    [
+      [
+        124,
+        507
+      ],
+      [
+        145,
+        507
+      ],
+      [
+        148,
+        516
+      ],
+      [
+        146,
+        526
+      ],
+      [
+        125,
+        525
+      ]
+    ]
+  ],
+  "printed": {
+    "overall length": 54.437,
+    "fuselage height": 5.969,
+    "fuselage width": 5.969,
+    "wingspan": 47.344,
+    "tailplane span": 21.817,
+    "engine out from the centerline": 10.716,
+    "nacelle width": 2.692,
+    "engine inlet from the nose": 23.139,
+    "wing root leading edge from the nose": 21.59,
+    "wing tip chord": 3.124,
+    "tail engine inlet width": 2.521
+  },
+  "meta": {
+    "id": "L101",
+    "name": "Lockheed L-1011-1 TriStar",
+    "types": [
+      "L101"
+    ],
+    "confidence": "medium",
+    "sources": [
+      {
+        "url": "https://archive.org/details/chapter-22_202208",
+        "title": "Lockheed, L-1011 Maintenance Manual, chapter 6 Dimensions and Areas, 6-10-00 Principal Dimensions: Figure 1 Aircraft Dimensions - Front and Side Views (Nov 15/78), Figure 2 Aircraft Dimensions - Plan View (Dec 1/71), Figure 4 General Ground Clearance (Nov 15/75), Figure 6 Door Size and Location Data; EFFECTIVITY: ALL (a scan in the Internet Archive item 'Lockheed L1011 Maintenance Manual', file 'Chapter 6.pdf')",
+        "accessed": "2026-11-24",
+        "note": "Lockheed's L-1011 Maintenance Manual, chapter 6 (Dimensions and Areas), as scanned in the Internet Archive item chapter-22_202208: the manufacturer's own dimensioned three-view, used because no L-1011 airport-planning document is openly available. Its figures are measured (tools/trace/l101/); the drawing's artwork isn't copied. It draws the standard-body L-1011-1 (span 155 ft 4 in, 177 ft 2 in nose to the fin's tip, 178 ft 7.5 in to the tail cone, which is the scale). A greyscale scan of about 32 px a meter, its lines 5-8 px thick, so outlines are good to about 0.1 m. The plan is drawn at 0.910 of the side's scale and turned 0.67 degrees (rendered to the side's scale and turned level); the front view is at the side's scale. Against its printed figures: span -0.1%, tailplane -0.6%, height -0.9%, the engine 10.72 m out against WBL 421.90 in (10.716 m), the inlet 0.8% short of the printed 75 ft 11 in, the wing root's leading edge 0.4% short of 70 ft 10 in. The side and front views draw the fuselage 5.92 m tall; the plan and front view draw it 5.83 m wide by line centres against the printed 19 ft 7 in (kept, -2.4%). The nacelle's inlet ring is drawn 2.67 m tall (the printed 8 ft 10 in is 2.692 m, and the side view's nacelle is 2.66 m) but only 2.45 m across, so it's placed round at the drawn height. The centre engine's S-duct intake: its lip 2.39 m tall in the side view and its fairing 2.45 m wide in the plan, against the printed 8 ft 3.25 in (2.521 m); the front view draws its ring about 2.7 m across and isn't used. The fin's tip stands 16.74 m above the side view's ground line (WL 19), at the low end of Figure 4's 55 ft 0 in to 56 ft 0 in (16.76-17.07 m). Windows: the drawing's dots, at the 20 in pitch (25, 27 and 10 between the doors; the 10 behind the wing's root are hidden and carried on that pitch); their size is the L-1011's (the dots are 0.45 m round). Doors: Figure 6's door table (Door Size and Location Data) gives each door's fuselage station and size; the doors are placed there (the side view draws L1-L4 within 0.3 m of them). R1 is 1.18 m aft of L1; the right side also has the forward and centre cargo doors, the lower galley's service door and the bulk cargo door. The flight deck's panes are drawn small and roughly: the windshield and two side panes are placed as drawn. After smooth.py, tools/trace/l101/straighten.py sets the runs that are straight on the aircraft to their least-squares lines (the tube's crown and belly, the plan's side, the fin's leading and trailing edges: the scan zigzags 0.1-0.2 m every half meter) and eases the nose's crown over a meter. Confidence medium."
+      }
+    ]
+  }
+}

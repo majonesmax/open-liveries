@@ -564,9 +564,10 @@ function layoutFin(f: Frame): {
         return trailing === leading ? 0.7 : (share(edgeX(rudder, finZ(fy))) - leading) / (trailing - leading);
       }
     : undefined;
-  // The fin's outline, from a meter inside the fuselage: the fillet's curve, the leading edge above it, over the
-  // tip and down the trailing edge.
-  const below = finRoot - 1;
+  // The fin's outline, from a meter inside the fuselage (or from the trailing edge's foot, where that's lower: the
+  // L-1011's runs down behind its center engine's fairing to the body): the fillet's curve, the leading edge above
+  // it, over the tip and down the trailing edge.
+  const below = Math.min(finRoot - 1, finTrailing[0]?.[0] ?? finRoot);
   const fillet = fin.fillet ?? [];
   const filletTop = fillet.length ? maxOf(fillet, 1) : -Infinity;
   const finOutlineMeters: Point[] = [

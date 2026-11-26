@@ -1,0 +1,468 @@
+{
+ "$schema": "../schema/shape.schema.json",
+ "id": "B462",
+ "name": "British Aerospace BAe 146-200",
+ "types": [
+  "B462"
+ ],
+ "confidence": "low",
+ "sources": [
+  {
+   "url": "https://commons.wikimedia.org/wiki/File:BAe_146_v1.0.png",
+   "title": "Julien.scavini, \"BAe 146 v1.0.png\": British Aerospace BAe 146 schematic, side, top, front and section views with printed dimensions and a scale bar (Wikimedia Commons, own work, CC BY-SA 3.0)",
+   "accessed": "2026-11-24",
+   "note": "The shape's outlines are measured off this schematic (tools/trace/b462/): only the figures are taken, not the drawing; credit Julien.scavini, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/). It's an enthusiast's drawing, not a manufacturer's or government's: no BAe 146 airport-planning document is openly available (BAE Systems' Airport Planning Manual APM 146.1 is on its iSAPPHIRE customer portal) and no public-domain government three-view was found (the RAF's 146s are Crown copyright; the FAA's 2026 airtanker loads report DOT/FAA/TC-20/13, NTSB and NIFC documents draw none). So the confidence is low. A 1355 x 830 px picture of about 21 px a meter. Its side and plan are drawn 9.3% long lengthwise against their own span, height, fuselage width and scale bar; evened out by EASA's length and span (recipe.json), after which its own 8.61 m height lands within 0.2% and its scale bar within 0.3%. Its printed 28.60 m length and 26.21 m span are the Avro RJ85's published figures; its lines match the 146-200's (EASA's 28.55 m and 26.34 m). Its fuselage is drawn 3.54 m wide in plan and front view (it prints 3.50 m between extension lines drawn 3.57 m apart). Its main gear is drawn 4.50 m apart against EASA's 4.72 m track and its wheelbase 11.33 m against 11.20 m (the gear isn't part of the shape). Cabin windows: 29 a side on the drawn pitch (0.513 m), 12 of them behind the nacelles and pylons placed on it; their height from the photos below."
+  },
+  {
+   "url": "https://www.easa.europa.eu/en/downloads/7266/en",
+   "title": "EASA, Type-Certificate Data Sheet No. EASA.A.182, BAe 146 / AVRO 146-RJ Series, Issue 3.0: section 4, Dimensions, and section 22, Wheels and Tyres",
+   "accessed": "2026-11-24",
+   "note": "The printed figures the shape is scaled by and checked against: the Series 200's length 28.55 m (93 ft 8 in), wingspan 26.34 m (86 ft 5 in), height 8.61 m (28 ft 3 in); track 4.72 m and wheelbase 11.20 m."
+  },
+  {
+   "url": "https://commons.wikimedia.org/wiki/File:PSA_BAe_146-200;_N356PS,_July_1986_CBG_(4848643600).jpg",
+   "title": "PSA BAe 146-200 N356PS, July 1986, right side (Aero Icarus, CC BY-SA 2.0)",
+   "accessed": "2026-11-24",
+   "note": "A check only (only measurements are taken): flipped nose-left and fitted at the nose, tail cone, fin tip and root and both doors (tools/photo_trace.py align), the outline lands on the nose, crown, belly and tail cone within about 0.25 m; the fin's leading edge and top are drawn up to 0.3-0.5 m ahead of and above the photo's (the fit is a flat one on a photo taken 3 degrees from below, so the fin is the least certain part). It shows the window row unbroken behind the pylons (12 aft of the nacelles, 5 ahead on the right side) and the windows' height."
+  },
+  {
+   "url": "https://commons.wikimedia.org/wiki/File:PSA_BAe_146-200A;_N348PS,_May_1987_BEW_(5601032629).jpg",
+   "title": "PSA BAe 146-200A N348PS on approach, May 1987, left side (Aero Icarus, CC BY-SA 2.0)",
+   "accessed": "2026-11-24",
+   "note": "A check only: the left side's windows (7 between the forward door and the nacelles, as the schematic draws) and doors."
+  }
+ ],
+ "fuselage": {
+  "length": 26.094,
+  "crown": [
+   [0.0, -0.757],
+   [0.017, -0.67],
+   [0.064, -0.59],
+   [0.152, -0.497],
+   [0.284, -0.391],
+   [0.55, -0.217],
+   [0.8, -0.067],
+   [1.45, 0.28],
+   [1.65, 0.399],
+   [1.867, 0.564],
+   [2.2, 0.871],
+   [2.4, 1.039],
+   [2.6, 1.181],
+   [2.817, 1.308],
+   [3.006, 1.4],
+   [3.229, 1.49],
+   [3.45, 1.564],
+   [3.7, 1.63],
+   [3.903, 1.673],
+   [4.15, 1.712],
+   [4.8, 1.779],
+   [5.1, 1.787],
+   [15.8, 1.777],
+   [16.4, 1.769],
+   [17.1, 1.748],
+   [18.85, 1.668],
+   [21.2, 1.508],
+   [25.45, 1.13],
+   [25.9, 1.077],
+   [26.036, 1.014],
+   [26.094, 1.01]
+  ],
+  "belly": [
+   [0.0, -0.757],
+   [0.016, -0.834],
+   [0.059, -0.902],
+   [0.15, -0.986],
+   [0.24, -1.025],
+   [0.55, -1.138],
+   [0.85, -1.229],
+   [1.2, -1.32],
+   [1.6, -1.411],
+   [2.3, -1.544],
+   [2.95, -1.634],
+   [3.55, -1.692],
+   [4.65, -1.765],
+   [5.05, -1.777],
+   [16.4, -1.779],
+   [16.85, -1.786],
+   [17.4, -1.773],
+   [18.2, -1.716],
+   [18.6, -1.673],
+   [18.976, -1.623],
+   [19.35, -1.561],
+   [19.7, -1.493],
+   [20.45, -1.318],
+   [21.8, -0.946],
+   [25.05, 0.005],
+   [25.45, 0.136],
+   [25.78, 0.261],
+   [25.989, 0.354],
+   [26.0, 0.388],
+   [26.032, 0.427],
+   [26.094, 0.434]
+  ],
+  "halfWidth": [
+   [0.0, 0.006],
+   [0.011, 0.044],
+   [0.04, 0.083],
+   [0.15, 0.184],
+   [0.45, 0.39],
+   [0.793, 0.6],
+   [1.1, 0.769],
+   [1.45, 0.947],
+   [1.75, 1.081],
+   [2.065, 1.204],
+   [2.45, 1.336],
+   [2.8, 1.443],
+   [3.1, 1.523],
+   [3.45, 1.603],
+   [3.821, 1.672],
+   [4.2, 1.727],
+   [4.55, 1.763],
+   [4.85, 1.778],
+   [17.65, 1.779],
+   [18.25, 1.77],
+   [18.85, 1.741],
+   [19.7, 1.675],
+   [20.55, 1.586],
+   [21.3, 1.483],
+   [22.2, 1.335],
+   [22.9, 1.203],
+   [23.65, 1.043],
+   [26.094, 0.453]
+  ],
+  "widest": 0.12
+ },
+ "fin": {
+  "leading": [
+   [21.33, 1.504],
+   [22.537, 3.086],
+   [23.303, 4.124],
+   [24.415, 5.602],
+   [24.629, 5.852],
+   [24.731, 5.947],
+   [24.826, 6.02],
+   [24.928, 6.081],
+   [25.046, 6.133],
+   [25.169, 6.172],
+   [25.296, 6.197],
+   [25.565, 6.217],
+   [26.145, 6.218],
+   [26.564, 6.195],
+   [27.001, 6.145],
+   [27.611, 6.036],
+   [27.928, 5.961]
+  ],
+  "trailing": [
+   [26.094, 1.199],
+   [26.233, 1.509],
+   [27.666, 4.953],
+   [27.746, 5.124],
+   [27.836, 5.252],
+   [27.893, 5.305],
+   [27.957, 5.35],
+   [28.097, 5.425],
+   [28.575, 5.644]
+  ],
+  "fillet": [
+   [16.169, 1.881],
+   [19.589, 1.881],
+   [20.209, 1.874],
+   [20.538, 1.889],
+   [20.805, 1.924],
+   [21.048, 1.983],
+   [21.292, 2.07],
+   [21.527, 2.181],
+   [21.75, 2.314],
+   [21.942, 2.456],
+   [22.135, 2.63],
+   [22.335, 2.84],
+   [22.519, 3.068]
+  ],
+  "rudder": [
+   [24.906, 1.41],
+   [26.635, 4.749],
+   [26.811, 5.074],
+   [26.87, 5.161]
+  ]
+ },
+ "wing": {
+  "leading": [
+   [1.782, 10.489],
+   [2.023, 10.554],
+   [3.803, 11.094],
+   [4.361, 11.251],
+   [4.74, 11.379],
+   [5.684, 11.676],
+   [7.378, 12.191],
+   [8.155, 12.417],
+   [8.966, 12.671],
+   [10.308, 13.072],
+   [12.401, 13.714],
+   [12.714, 13.819],
+   [12.878, 13.89],
+   [13.027, 13.987],
+   [13.141, 14.099]
+  ],
+  "trailing": [
+   [1.782, 14.029],
+   [1.821, 14.021],
+   [1.9, 14.021],
+   [2.259, 14.05],
+   [4.177, 14.26],
+   [5.699, 14.414],
+   [6.603, 14.517],
+   [7.559, 14.608],
+   [9.298, 14.804],
+   [10.293, 14.904],
+   [12.48, 15.144],
+   [13.141, 15.205]
+  ],
+  "z": [
+   [1.77, 1.526],
+   [2.838, 1.456],
+   [3.966, 1.396],
+   [5.023, 1.316],
+   [6.101, 1.247],
+   [6.82, 1.212],
+   [8.326, 1.104],
+   [11.121, 0.931],
+   [12.218, 0.854],
+   [13.141, 0.802]
+  ]
+ },
+ "stabilizer": {
+  "leading": [
+   [0.359, 24.777],
+   [0.446, 24.796],
+   [0.719, 24.894],
+   [5.236, 26.633],
+   [5.398, 26.708],
+   [5.532, 26.794],
+   [5.65, 26.898],
+   [5.721, 26.999]
+  ],
+  "trailing": [
+   [0.359, 28.07],
+   [0.434, 28.095],
+   [0.652, 28.119],
+   [5.721, 28.563]
+  ],
+  "z": [
+   [0.229, 5.6],
+   [0.929, 5.597],
+   [5.109, 5.631],
+   [5.469, 5.638],
+   [5.721, 5.653]
+  ],
+  "mount": "fin"
+ },
+ "engines": [
+  {
+   "x": [9.078, 11.865],
+   "cowlEnd": 11.195,
+   "y": 3.998,
+   "top": [
+    [9.078, 0.622],
+    [9.157, 0.621],
+    [9.404, 0.55],
+    [9.571, 0.524],
+    [10.74, 0.491],
+    [10.966, 0.471],
+    [11.04, 0.45],
+    [11.1, 0.421],
+    [11.289, 0.271],
+    [11.399, 0.208],
+    [11.538, 0.153],
+    [11.865, 0.046]
+   ],
+   "bottom": [
+    [9.137, -0.683],
+    [9.168, -0.733],
+    [9.246, -0.794],
+    [9.358, -0.857],
+    [9.486, -0.911],
+    [9.6, -0.942],
+    [9.718, -0.96],
+    [9.827, -0.965],
+    [9.946, -0.956],
+    [10.21, -0.905],
+    [10.927, -0.721],
+    [11.066, -0.668],
+    [11.274, -0.554],
+    [11.382, -0.505],
+    [11.865, -0.354]
+   ],
+   "inlet": {
+    "z": -0.174,
+    "width": 1.188,
+    "height": 1.199
+   }
+  },
+  {
+   "x": [9.901, 12.665],
+   "cowlEnd": 11.995,
+   "y": 6.697,
+   "top": [
+    [9.901, 0.293],
+    [9.972, 0.329],
+    [10.058, 0.353],
+    [10.185, 0.373],
+    [10.325, 0.383],
+    [11.074, 0.383],
+    [11.304, 0.37],
+    [11.532, 0.348],
+    [11.7, 0.319],
+    [11.823, 0.283],
+    [11.913, 0.243],
+    [12.092, 0.139],
+    [12.191, 0.092],
+    [12.665, -0.071]
+   ],
+   "bottom": [
+    [9.901, -0.801],
+    [9.912, -0.829],
+    [9.943, -0.867],
+    [10.029, -0.932],
+    [10.152, -0.995],
+    [10.292, -1.045],
+    [10.438, -1.077],
+    [10.607, -1.096],
+    [10.776, -1.099],
+    [10.935, -1.088],
+    [11.229, -1.032],
+    [11.563, -0.929],
+    [11.784, -0.837],
+    [12.05, -0.681],
+    [12.167, -0.625],
+    [12.317, -0.572],
+    [12.665, -0.471]
+   ],
+   "inlet": {
+    "z": -0.279,
+    "width": 1.176,
+    "height": 1.223
+   }
+  }
+ ],
+ "cabin": {
+  "windows": {
+   "z": [0.293, 0.622],
+   "width": 0.235,
+   "x": [
+    5.592,
+    6.109,
+    6.609,
+    7.126,
+    7.644,
+    8.149,
+    8.667,
+    9.179,
+    9.693,
+    10.206,
+    10.72,
+    11.233,
+    11.746,
+    12.259,
+    12.773,
+    13.286,
+    13.8,
+    14.311,
+    14.826,
+    15.34,
+    15.852,
+    16.369,
+    16.869,
+    17.386,
+    17.904,
+    18.403,
+    18.921,
+    19.438,
+    19.944
+   ]
+  },
+  "doors": [
+   {
+    "kind": "door",
+    "x": [4.245, 5.045],
+    "z": [-0.718, 1.316]
+   },
+   {
+    "kind": "door",
+    "x": [20.438, 21.261],
+    "z": [-0.718, 1.057]
+   }
+  ]
+ },
+ "cockpit": {
+  "windows": [
+   [
+    [1.929, 0.621],
+    [2.2, 0.871],
+    [2.246, 0.91],
+    [2.505, 0.834],
+    [2.552, 0.775],
+    [2.305, 0.505],
+    [2.246, 0.458],
+    [1.964, 0.576]
+   ],
+   [
+    [2.422, 0.481],
+    [2.634, 0.74],
+    [2.81, 0.858],
+    [2.975, 0.869],
+    [3.022, 0.799],
+    [2.928, 0.387],
+    [2.858, 0.305],
+    [2.469, 0.411]
+   ],
+   [
+    [3.022, 0.387],
+    [3.116, 0.822],
+    [3.199, 0.893],
+    [3.363, 0.881],
+    [3.457, 0.787],
+    [3.457, 0.481],
+    [3.34, 0.364],
+    [3.069, 0.317]
+   ]
+  ]
+ },
+ "checks": [
+  {
+   "dimension": "overall length",
+   "printed": 28.55,
+   "shape": 28.575,
+   "off": "+0.1%"
+  },
+  {
+   "dimension": "wingspan",
+   "printed": 26.34,
+   "shape": 26.282,
+   "off": "-0.2%"
+  },
+  {
+   "dimension": "fuselage width",
+   "printed": 3.5,
+   "shape": 3.54,
+   "off": "+1.1%"
+  },
+  {
+   "dimension": "height (ground to the fin's top)",
+   "printed": 8.61,
+   "shape": 8.596,
+   "off": "-0.2%"
+  },
+  {
+   "dimension": "wheelbase",
+   "printed": 11.2,
+   "shape": 11.33,
+   "off": "+1.2%"
+  },
+  {
+   "dimension": "main gear track",
+   "printed": 4.72,
+   "shape": 4.498,
+   "off": "-4.7%"
+  }
+ ]
+}

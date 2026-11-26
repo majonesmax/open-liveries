@@ -98,7 +98,7 @@
     "mirrored": false,
     "areas": [
       {
-        "name": "green leading edge (the T)",
+        "name": "green leading edge (the T), forward of a line straight up the fin as seen from the side, meeting the leading edge at 0.6 of the span",
         "color": "lime",
         "points": [
           [
@@ -114,26 +114,39 @@
             0.09
           ],
           [
-            0.48,
+            0.504,
             0.09
           ],
           [
-            0.34,
-            0.5
+            0.466,
+            0.15
+          ],
+          [
+            0.354,
+            0.3
+          ],
+          [
+            0.209,
+            0.45
           ],
           [
             0,
-            1
+            0.605
           ]
         ],
-        "side": "left"
+        "side": "left",
+        "sourceRefs": [
+          1,
+          2
+        ],
+        "confidence": "medium"
       },
       {
-        "name": "red (the P), aft of a slanting line",
+        "name": "red (the P), aft of that line and over the whole fin above it",
         "color": "red",
         "points": [
           [
-            0.5,
+            0.543,
             0.02
           ],
           [
@@ -149,11 +162,32 @@
             1
           ],
           [
-            0.34,
-            0.5
+            0,
+            0.605
+          ],
+          [
+            0.209,
+            0.45
+          ],
+          [
+            0.354,
+            0.3
+          ],
+          [
+            0.466,
+            0.15
+          ],
+          [
+            0.504,
+            0.09
           ]
         ],
-        "side": "left"
+        "side": "left",
+        "sourceRefs": [
+          1,
+          2
+        ],
+        "confidence": "medium"
       },
       {
         "name": "upper white bar (the P's counter)",
@@ -603,12 +637,12 @@
       "text": "AIR PORTUGAL",
       "place": "fin",
       "at": [
-        0.44,
-        0.06
+        0.76,
+        0.035
       ],
       "height": 0.09,
       "color": "white",
-      "style": "Set vertically, reading upward, on the red just aft of the green: 'AIR' bold, 'PORTUGAL' regular; runs from the root to about 0.75 of the span.",
+      "style": "Set vertically, reading upward, on the red just aft of the green's vertical edge: 'AIR' bold, 'PORTUGAL' regular; runs from just above the root to about 0.74 of the span.",
       "confidence": "high",
       "sourceRefs": [
         1,
@@ -626,7 +660,7 @@
         "case": "upper"
       },
       "rotationDeg": 90,
-      "length": 0.78,
+      "length": 0.74,
       "side": "left"
     },
     {

@@ -141,6 +141,16 @@
       "name": "Brussels Airlines",
       "country": "BE"
     },
+    "BI1928": {
+      "name": "Braniff International (1928-1982)",
+      "country": "US",
+      "ceased": "1982-05-12"
+    },
+    "BN1984": {
+      "name": "Braniff (Braniff, Inc., 1984-1989)",
+      "country": "US",
+      "ceased": "1989-11-06"
+    },
     "BTI": {
       "name": "airBaltic",
       "country": "LV"
@@ -248,6 +258,11 @@
     "DLH": {
       "name": "Lufthansa",
       "country": "DE"
+    },
+    "EA1926": {
+      "name": "Eastern Air Lines",
+      "country": "US",
+      "ceased": "1991-01-18"
     },
     "EDW": {
       "name": "Edelweiss Air",
@@ -445,6 +460,11 @@
       "name": "MasAir",
       "country": "MX"
     },
+    "MC1981": {
+      "name": "Muse Air",
+      "country": "US",
+      "ceased": "1987-08-09"
+    },
     "MNB": {
       "name": "MNG Airlines",
       "country": "TR"
@@ -486,9 +506,24 @@
       "country": "US",
       "ceased": "2010-01-07"
     },
+    "OC1967": {
+      "name": "AirCal",
+      "country": "US",
+      "ceased": "1987-07-01"
+    },
     "OCN": {
       "name": "Discover Airlines",
       "country": "DE"
+    },
+    "OZ1950": {
+      "name": "Ozark Air Lines",
+      "country": "US",
+      "ceased": "1986-10-27"
+    },
+    "PA1927": {
+      "name": "Pan American World Airways",
+      "country": "US",
+      "ceased": "1991-12-04"
     },
     "PAC": {
       "name": "Polar Air Cargo",
@@ -498,13 +533,28 @@
       "name": "Philippine Airlines",
       "country": "PH"
     },
+    "PE1981": {
+      "name": "People Express Airlines",
+      "country": "US",
+      "ceased": "1987-02-01"
+    },
     "PGT": {
       "name": "Pegasus Airlines",
       "country": "TR"
     },
+    "PI1948": {
+      "name": "Piedmont Airlines (Piedmont Aviation, 1948-1989)",
+      "country": "US",
+      "ceased": "1989-08-05"
+    },
     "POE": {
       "name": "Porter Airlines",
       "country": "CA"
+    },
+    "PS1949": {
+      "name": "Pacific Southwest Airlines",
+      "country": "US",
+      "ceased": "1988-04-09"
     },
     "QFA": {
       "name": "Qantas",
@@ -534,6 +584,11 @@
     "RPA": {
       "name": "Republic Airways",
       "country": "US"
+    },
+    "RW1968": {
+      "name": "Hughes Airwest (Air West, 1968-1980)",
+      "country": "US",
+      "ceased": "1980-10-01"
     },
     "RYR": {
       "name": "Ryanair",
@@ -650,6 +705,11 @@
     "TSC": {
       "name": "Air Transat",
       "country": "CA"
+    },
+    "TW1930": {
+      "name": "Trans World Airlines",
+      "country": "US",
+      "ceased": "2001-12-01"
     },
     "TWB": {
       "name": "T'way Air",

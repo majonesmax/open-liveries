@@ -1,0 +1,12 @@
+{
+  "_about": "Boeing (Douglas), DC-9 Airplane Characteristics for Airport Planning (Rev F 5/84), 2.2 General Airplane Dimensions, Model DC-9-32 (page index 14): its plan, layers.py --mode image at scale 4 --unrotate --rotate 179.57, clip 92,392,530,730. Pixels of that raster, line centres; the upper half (the aircraft's right side: door A, the service door; 2.4 names door B the main entry door). Drawn at the side view's scale. The nose tip sits on a grid line (x 35-39); ahead of the wing the fuselage's side runs a few px from another (y 609.5). The wing's leading edge is the foremost of its two parallel lines (the other is the slats' line); its trailing edge is the rearmost, one straight line from the root (947, 601) to the tip (the lines between are the flaps' and spoilers'; the vertical at 973 is the grid). The tailplane covers the tail cone: the fuselage's side is bridged (hidden) from the tailplane's root to the tail cone's end, a free point at the side view's tail. The nacelle's sides (engine.outer, engine.inner) place it: its middle 2.69 m out against the printed 2.70 m (the front view's inlet ring draws it 2.74 m out). The stub pylon: its leading edge the short line at 1113 from the fuselage to the nacelle, its trailing edge the swept line from the nacelle (1362, 588) to the fuselage (1393, 631).",
+  "fuselage.halfWidth": [[28, 637], [35, 619], [43, 611], [51, 605], [59, 601], [75, 593], [91, 587], [107, 580], [123, 577], [147, 572], [179, 566], [195, 564], [211, 562], [227, 560], [251, 558], [389, 558], [553, 558], [854, 559], [937, 562], [977, 563], [1017, 567], [1057, 570], [1097, 574], [1137, 581], [1177, 588], [1217, 598], [1257, 610], [1282, 620], "hidden", {"free": [1357, 633]}],
+  "wing.leading": [[580, 557], [595, 530], [626, 470], [659, 410], [690, 350], [722, 290], [771, 200], [819, 110], [851, 50], [864, 26], [874, 19], [890, 14], [905, 12]],
+  "wing.trailing": [[803, 557], [810, 530], [824, 470], [838, 410], [852, 350], [866, 290], [880, 230], [893, 170], [904, 110], [915, 80], [922, 50], [930, 25], [925, 13]],
+  "stabilizer.leading": [[1283, 620], [1300, 596], [1335, 548], [1368, 500], [1404, 452], [1437, 404], [1455, 380], [1468, 372], [1498, 371]],
+  "stabilizer.trailing": [[1436, 620], [1448, 584], [1460, 548], [1468, 524], [1483, 476], [1500, 428], [1511, 392], [1512, 376], [1508, 371]],
+  "pylon.leading": [[889, 559], [889, 542]],
+  "pylon.trailing": [[1170, 587], [1139, 544]],
+  "engine.outer": [[927, 480], [977, 478], [1027, 482]],
+  "engine.inner": [[927, 539], [977, 542], [1027, 543]]
+}

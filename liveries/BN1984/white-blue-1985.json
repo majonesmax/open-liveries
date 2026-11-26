@@ -1,0 +1,1513 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "white-blue-1985",
+  "airline": "BN1984",
+  "name": "White over blue (1985)",
+  "kind": "standard",
+  "from": "1984-03",
+  "to": "1989-11",
+  "confidence": "medium",
+  "drawnOn": "B722",
+  "description": "The restarted Braniff's launch scheme, as worn by its 727-200s in 1985: a white body over a dark navy blue belly, the line between them straight and level along the body at about the wing root's height, with a pewter-silver line about 0.3 m deep along its top. Behind the wing the blue rises in a straight diagonal from under the side engines up across the tail cone, the center engine's fairing and the fin to the tailplane's fairing, so the fin's lower aft part, the rudder's foot and the tail cone are blue, the pewter line running on up along it. 'BRANIFF' in Braniff's red wordmark (heavy, slanted, extended capitals, each split by a thin white line a third of the way down) low on the forward body, its foot just on the pewter line, and again along the diagonal on the fin and fairing reading up toward the tail. White engine cowlings with polished lips, gray wings.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Braniff_Airways_Boeing_727-227;_N456BN,_November_1984_DCC_(5288412925).jpg",
+      "title": "Braniff Airways Boeing 727-227 N456BN, November 1984 (CC BY-SA 2.0, Aero Icarus)",
+      "accessed": "2026-11-24",
+      "note": "727-200 N456BN, left side, side-on, high resolution, November 1984: every edge and both titles measured on it (fitted to shapes/B722.json with tools/photo_trace.py from the nose, the tail cone, the tailplane fairing's tip, the fin root, the crown and belly and the forward door, within 3-19 px at 5159 px wide)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Boeing_727-227(Adv),_Braniff_JP5920313.jpg",
+      "title": "Boeing 727-227(Adv), Braniff (GFDL 1.2, Jon Proctor)",
+      "accessed": "2026-11-24",
+      "note": "727-200, left side, 1 December 1984, in good light: the pewter line over the blue along the body and under the fin's title, the colors, white engine cowlings."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:135_21-9-84_N466BN_Chicago_(54052529686).jpg",
+      "title": "N466BN, Chicago, 21 September 1984 (CC BY-SA 2.0, Pete Macklin)",
+      "accessed": "2026-11-24",
+      "note": "727-200 N466BN, left side: a check of the diagonal's line from the fin down behind the side engine, and the titles."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:10_15-9-84_N467BN_Washington_(53895369686).jpg",
+      "title": "N467BN, Washington, 15 September 1984 (CC BY-SA 2.0, Pete Macklin)",
+      "accessed": "2026-11-24",
+      "note": "727-200 N467BN, right side: the title over the same forward body, the fin's blue mirrored and its title reading down toward the nose."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:95_19-9-84_N447BN_Chicago_(53955724831).jpg",
+      "title": "N447BN, Chicago, 19 September 1984 (CC BY-SA 2.0, Pete Macklin)",
+      "accessed": "2026-11-24",
+      "note": "727-200 N447BN, left side: a check of the scheme on another airframe."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Braniff_B727-200_N275WC_at_LGA_(15994209348).jpg",
+      "title": "Braniff B727-200 N275WC at LGA, 17 January 1987 (CC BY-SA 2.0, G B_NZ)",
+      "accessed": "2026-11-24",
+      "note": "727-200 N275WC, left side, in sun, January 1987: the same scheme still worn; the blue running on up into the tailplane fairing's aft end, the pewter line under the fin's title."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Braniff_(1983%E2%80%931990)",
+      "title": "Braniff (1983–1990), Wikipedia",
+      "accessed": "2026-11-24",
+      "note": "Evidence only: service began 1 March 1984 with 727-200s from Dallas/Fort Worth; scheduled flights ended 6 November 1989; the launch scheme (white over dark blue, a pewter-silver cheatline, red titles angled up the tail) kept into the late 1980s; 737-200s from 1987, BAC One-Elevens from 1988, A320s from 1989."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F2",
+      "official": false
+    },
+    "blue": {
+      "hex": "#1F2B55",
+      "name": "Braniff dark blue",
+      "official": false
+    },
+    "pewter": {
+      "hex": "#A6ABAE",
+      "name": "pewter silver",
+      "official": false
+    },
+    "red": {
+      "hex": "#B02A2C",
+      "name": "Braniff red",
+      "official": false
+    },
+    "metal": {
+      "hex": "#C4C8CD",
+      "name": "polished bare metal",
+      "official": false
+    },
+    "gray": {
+      "hex": "#A9AEB4",
+      "name": "wing gray",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "windows": "plain",
+    "areas": [
+      {
+        "name": "pewter line over the blue, along the body and up the tail's diagonal",
+        "color": "pewter",
+        "points": [
+          [
+            0.00391,
+            -1.0
+          ],
+          [
+            0.00424,
+            -1.0
+          ],
+          [
+            0.00641,
+            -1.0
+          ],
+          [
+            0.00793,
+            -0.7987
+          ],
+          [
+            0.01077,
+            -0.60555
+          ],
+          [
+            0.01357,
+            -0.52036
+          ],
+          [
+            0.01484,
+            -0.48895
+          ],
+          [
+            0.01976,
+            -0.4144
+          ],
+          [
+            0.0272,
+            -0.35027
+          ],
+          [
+            0.03082,
+            -0.33167
+          ],
+          [
+            0.03465,
+            -0.31695
+          ],
+          [
+            0.04402,
+            -0.29834
+          ],
+          [
+            0.05164,
+            -0.28999
+          ],
+          [
+            0.05422,
+            -0.28911
+          ],
+          [
+            0.05839,
+            -0.28569
+          ],
+          [
+            0.05969,
+            -0.28544
+          ],
+          [
+            0.06463,
+            -0.28238
+          ],
+          [
+            0.06636,
+            -0.28058
+          ],
+          [
+            0.0746,
+            -0.27579
+          ],
+          [
+            0.07781,
+            -0.27528
+          ],
+          [
+            0.08357,
+            -0.27283
+          ],
+          [
+            0.09024,
+            -0.27257
+          ],
+          [
+            0.09301,
+            -0.27172
+          ],
+          [
+            0.09653,
+            -0.27152
+          ],
+          [
+            0.1088,
+            -0.26886
+          ],
+          [
+            0.11566,
+            -0.27035
+          ],
+          [
+            0.12463,
+            -0.27137
+          ],
+          [
+            0.13475,
+            -0.27826
+          ],
+          [
+            0.13602,
+            -0.27895
+          ],
+          [
+            0.1573,
+            -0.28599
+          ],
+          [
+            0.16614,
+            -0.28655
+          ],
+          [
+            0.1734,
+            -0.28832
+          ],
+          [
+            0.1859,
+            -0.28827
+          ],
+          [
+            0.1953,
+            -0.28953
+          ],
+          [
+            0.32851,
+            -0.289
+          ],
+          [
+            0.33231,
+            -0.28547
+          ],
+          [
+            0.34036,
+            -0.27604
+          ],
+          [
+            0.3479,
+            -0.27094
+          ],
+          [
+            0.36901,
+            -0.24508
+          ],
+          [
+            0.3812,
+            -0.23664
+          ],
+          [
+            0.39058,
+            -0.23445
+          ],
+          [
+            0.53923,
+            -0.2256
+          ],
+          [
+            0.54957,
+            -0.22838
+          ],
+          [
+            0.55207,
+            -0.22646
+          ],
+          [
+            0.55665,
+            -0.21655
+          ],
+          [
+            0.55916,
+            -0.21469
+          ],
+          [
+            0.56214,
+            -0.21676
+          ],
+          [
+            0.56769,
+            -0.22646
+          ],
+          [
+            0.57118,
+            -0.22753
+          ],
+          [
+            0.68458,
+            -0.23336
+          ],
+          [
+            0.70065,
+            -0.23906
+          ],
+          [
+            0.71593,
+            -0.24711
+          ],
+          [
+            0.7388,
+            -0.26739
+          ],
+          [
+            0.74581,
+            -0.27271
+          ],
+          [
+            0.75176,
+            -0.27901
+          ],
+          [
+            0.76007,
+            -0.2855
+          ],
+          [
+            0.76851,
+            -0.29367
+          ],
+          [
+            0.77463,
+            -0.29763
+          ],
+          [
+            0.78499,
+            -0.30285
+          ],
+          [
+            0.78851,
+            -0.30675
+          ],
+          [
+            0.79371,
+            -0.31315
+          ],
+          [
+            0.80159,
+            -0.31951
+          ],
+          [
+            0.81181,
+            -0.33189
+          ],
+          [
+            0.82026,
+            -0.24282
+          ],
+          [
+            0.82687,
+            -0.17511
+          ],
+          [
+            0.83012,
+            -0.14062
+          ],
+          [
+            0.8341,
+            -0.09879
+          ],
+          [
+            0.84123,
+            -0.0242
+          ],
+          [
+            0.84983,
+            0.07598
+          ],
+          [
+            0.85631,
+            0.15581
+          ],
+          [
+            0.87708,
+            0.48487
+          ],
+          [
+            0.88856,
+            1.0
+          ],
+          [
+            0.89583,
+            1.0
+          ],
+          [
+            0.90304,
+            1.0
+          ],
+          [
+            0.91205,
+            1.0
+          ],
+          [
+            0.93884,
+            1.0
+          ],
+          [
+            0.9413,
+            1.0
+          ],
+          [
+            0.94689,
+            1.0
+          ],
+          [
+            0.95706,
+            1.0
+          ],
+          [
+            0.96639,
+            1.0
+          ],
+          [
+            0.97342,
+            1.0
+          ],
+          [
+            0.9793,
+            1.0
+          ],
+          [
+            0.98296,
+            1.0
+          ],
+          [
+            0.99701,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "name": "dark blue belly, level along the body, rising in a straight diagonal behind the side engines over the tail cone",
+        "color": "blue",
+        "points": [
+          [
+            0.01384,
+            -1.0
+          ],
+          [
+            0.01484,
+            -1.0
+          ],
+          [
+            0.01976,
+            -0.82398
+          ],
+          [
+            0.0272,
+            -0.62186
+          ],
+          [
+            0.03082,
+            -0.57507
+          ],
+          [
+            0.03465,
+            -0.53643
+          ],
+          [
+            0.04402,
+            -0.48097
+          ],
+          [
+            0.05164,
+            -0.45242
+          ],
+          [
+            0.05422,
+            -0.44628
+          ],
+          [
+            0.05839,
+            -0.43556
+          ],
+          [
+            0.05969,
+            -0.43341
+          ],
+          [
+            0.06463,
+            -0.42408
+          ],
+          [
+            0.06636,
+            -0.42038
+          ],
+          [
+            0.0746,
+            -0.40818
+          ],
+          [
+            0.07781,
+            -0.40533
+          ],
+          [
+            0.08357,
+            -0.39921
+          ],
+          [
+            0.09024,
+            -0.39557
+          ],
+          [
+            0.09301,
+            -0.39352
+          ],
+          [
+            0.09653,
+            -0.39204
+          ],
+          [
+            0.1088,
+            -0.38551
+          ],
+          [
+            0.11566,
+            -0.38563
+          ],
+          [
+            0.12463,
+            -0.38506
+          ],
+          [
+            0.13475,
+            -0.39151
+          ],
+          [
+            0.13602,
+            -0.39218
+          ],
+          [
+            0.1573,
+            -0.39788
+          ],
+          [
+            0.16614,
+            -0.39833
+          ],
+          [
+            0.1734,
+            -0.39976
+          ],
+          [
+            0.1859,
+            -0.3997
+          ],
+          [
+            0.1953,
+            -0.4007
+          ],
+          [
+            0.32851,
+            -0.40005
+          ],
+          [
+            0.33231,
+            -0.39573
+          ],
+          [
+            0.34036,
+            -0.38423
+          ],
+          [
+            0.3479,
+            -0.37803
+          ],
+          [
+            0.36901,
+            -0.34689
+          ],
+          [
+            0.3812,
+            -0.33681
+          ],
+          [
+            0.39058,
+            -0.3342
+          ],
+          [
+            0.53923,
+            -0.3237
+          ],
+          [
+            0.54957,
+            -0.32699
+          ],
+          [
+            0.55207,
+            -0.32471
+          ],
+          [
+            0.55665,
+            -0.31299
+          ],
+          [
+            0.55916,
+            -0.31079
+          ],
+          [
+            0.56214,
+            -0.31324
+          ],
+          [
+            0.56769,
+            -0.32471
+          ],
+          [
+            0.57118,
+            -0.32598
+          ],
+          [
+            0.68458,
+            -0.3329
+          ],
+          [
+            0.70065,
+            -0.3397
+          ],
+          [
+            0.71593,
+            -0.34932
+          ],
+          [
+            0.7388,
+            -0.37373
+          ],
+          [
+            0.74581,
+            -0.38062
+          ],
+          [
+            0.75176,
+            -0.38868
+          ],
+          [
+            0.76007,
+            -0.39824
+          ],
+          [
+            0.76851,
+            -0.40948
+          ],
+          [
+            0.77463,
+            -0.41624
+          ],
+          [
+            0.78499,
+            -0.42694
+          ],
+          [
+            0.78851,
+            -0.4324
+          ],
+          [
+            0.79371,
+            -0.44133
+          ],
+          [
+            0.80159,
+            -0.45262
+          ],
+          [
+            0.81181,
+            -0.47122
+          ],
+          [
+            0.81272,
+            -0.46041
+          ],
+          [
+            0.82026,
+            -0.37347
+          ],
+          [
+            0.82687,
+            -0.30251
+          ],
+          [
+            0.83012,
+            -0.26724
+          ],
+          [
+            0.8341,
+            -0.22529
+          ],
+          [
+            0.84123,
+            -0.15137
+          ],
+          [
+            0.84983,
+            -0.0554
+          ],
+          [
+            0.85631,
+            0.01922
+          ],
+          [
+            0.87708,
+            0.30022
+          ],
+          [
+            0.89128,
+            0.61444
+          ],
+          [
+            0.89583,
+            0.80874
+          ],
+          [
+            0.89724,
+            1.0
+          ],
+          [
+            0.90304,
+            1.0
+          ],
+          [
+            0.91205,
+            1.0
+          ],
+          [
+            0.93884,
+            1.0
+          ],
+          [
+            0.9413,
+            1.0
+          ],
+          [
+            0.94689,
+            1.0
+          ],
+          [
+            0.95706,
+            1.0
+          ],
+          [
+            0.96639,
+            1.0
+          ],
+          [
+            0.97342,
+            1.0
+          ],
+          [
+            0.9793,
+            1.0
+          ],
+          [
+            0.98296,
+            1.0
+          ],
+          [
+            0.99701,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "pewter line along the diagonal, carried down over the S-duct's fairing",
+        "color": "pewter",
+        "points": [
+          [
+            0.50638,
+            -2.0
+          ],
+          [
+            0.758,
+            0.0001
+          ],
+          [
+            0.75901,
+            0.00675
+          ],
+          [
+            0.774,
+            0.08031
+          ],
+          [
+            0.77711,
+            0.09737
+          ],
+          [
+            0.7916,
+            0.16001
+          ],
+          [
+            0.80276,
+            0.20682
+          ],
+          [
+            0.80417,
+            0.21393
+          ],
+          [
+            0.8228,
+            0.30216
+          ],
+          [
+            0.82523,
+            0.31343
+          ],
+          [
+            0.8309,
+            0.3376
+          ],
+          [
+            0.84733,
+            0.40877
+          ],
+          [
+            0.85278,
+            0.43177
+          ],
+          [
+            0.85587,
+            0.44421
+          ],
+          [
+            0.8711,
+            0.49858
+          ],
+          [
+            0.8753,
+            0.51883
+          ],
+          [
+            0.87505,
+            0.52878
+          ],
+          [
+            0.87236,
+            0.53696
+          ],
+          [
+            0.87224,
+            0.53731
+          ],
+          [
+            0.85925,
+            0.55092
+          ],
+          [
+            0.85503,
+            0.55544
+          ],
+          [
+            0.84342,
+            0.58209
+          ],
+          [
+            0.83851,
+            0.58645
+          ],
+          [
+            0.82651,
+            0.59737
+          ],
+          [
+            0.82499,
+            0.60092
+          ],
+          [
+            0.82212,
+            0.60697
+          ],
+          [
+            0.82137,
+            0.61656
+          ],
+          [
+            0.82151,
+            0.61763
+          ],
+          [
+            0.82174,
+            0.629
+          ],
+          [
+            0.82271,
+            0.63539
+          ],
+          [
+            0.82556,
+            0.64641
+          ],
+          [
+            0.84039,
+            0.68941
+          ],
+          [
+            0.7755,
+            0.69306
+          ],
+          [
+            0.72793,
+            0.69616
+          ],
+          [
+            0.71828,
+            0.69758
+          ],
+          [
+            0.73957,
+            0.69865
+          ],
+          [
+            0.84133,
+            0.69972
+          ],
+          [
+            0.84031,
+            0.70291
+          ],
+          [
+            0.83876,
+            0.70753
+          ],
+          [
+            0.70982,
+            0.70931
+          ],
+          [
+            0.79267,
+            0.71083
+          ],
+          [
+            0.83161,
+            0.71144
+          ],
+          [
+            0.80581,
+            0.71464
+          ],
+          [
+            0.77264,
+            0.71926
+          ],
+          [
+            0.78356,
+            0.72317
+          ],
+          [
+            0.76988,
+            0.7286
+          ],
+          [
+            0.7538,
+            0.73525
+          ],
+          [
+            0.72811,
+            0.74637
+          ],
+          [
+            0.70528,
+            0.75693
+          ],
+          [
+            0.70043,
+            0.76688
+          ],
+          [
+            0.70413,
+            0.78191
+          ],
+          [
+            0.71007,
+            0.79673
+          ],
+          [
+            0.71882,
+            0.81744
+          ],
+          [
+            0.73427,
+            0.85298
+          ],
+          [
+            0.74221,
+            0.87075
+          ],
+          [
+            0.75029,
+            0.88852
+          ],
+          [
+            0.76082,
+            0.91116
+          ],
+          [
+            0.77298,
+            0.93817
+          ],
+          [
+            0.77988,
+            0.95558
+          ],
+          [
+            0.78376,
+            0.96766
+          ],
+          [
+            0.78347,
+            0.98223
+          ],
+          [
+            0.73345,
+            0.98294
+          ],
+          [
+            0.78005,
+            0.98614
+          ],
+          [
+            0.73045,
+            0.98756
+          ],
+          [
+            0.73214,
+            0.99112
+          ],
+          [
+            0.73828,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -2.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "name": "dark blue below the diagonal: the fin's lower aft part and the rudder's foot, up into the tailplane fairing's aft end, carried down over the S-duct's fairing",
+        "color": "blue",
+        "points": [
+          [
+            0.54,
+            -2.0
+          ],
+          [
+            0.8291,
+            0.0001
+          ],
+          [
+            0.83026,
+            0.00675
+          ],
+          [
+            0.84588,
+            0.08031
+          ],
+          [
+            0.84927,
+            0.09737
+          ],
+          [
+            0.86506,
+            0.16001
+          ],
+          [
+            0.87724,
+            0.20682
+          ],
+          [
+            0.87877,
+            0.21393
+          ],
+          [
+            0.89865,
+            0.30216
+          ],
+          [
+            0.90124,
+            0.31343
+          ],
+          [
+            0.9073,
+            0.3376
+          ],
+          [
+            0.92068,
+            0.391
+          ],
+          [
+            0.93116,
+            0.43177
+          ],
+          [
+            0.93446,
+            0.44421
+          ],
+          [
+            0.95071,
+            0.49858
+          ],
+          [
+            0.95516,
+            0.51883
+          ],
+          [
+            0.95482,
+            0.52878
+          ],
+          [
+            0.95183,
+            0.53696
+          ],
+          [
+            0.95171,
+            0.53731
+          ],
+          [
+            0.93737,
+            0.55092
+          ],
+          [
+            0.93272,
+            0.55544
+          ],
+          [
+            0.91975,
+            0.58209
+          ],
+          [
+            0.91435,
+            0.58645
+          ],
+          [
+            0.90114,
+            0.59737
+          ],
+          [
+            0.89944,
+            0.60092
+          ],
+          [
+            0.89639,
+            0.60697
+          ],
+          [
+            0.89571,
+            0.61656
+          ],
+          [
+            0.89588,
+            0.61763
+          ],
+          [
+            0.89696,
+            0.629
+          ],
+          [
+            0.8985,
+            0.63539
+          ],
+          [
+            0.90184,
+            0.64641
+          ],
+          [
+            0.91707,
+            0.68941
+          ],
+          [
+            0.84618,
+            0.69306
+          ],
+          [
+            0.79421,
+            0.69616
+          ],
+          [
+            0.78366,
+            0.69758
+          ],
+          [
+            0.80687,
+            0.69865
+          ],
+          [
+            0.91786,
+            0.69972
+          ],
+          [
+            0.91667,
+            0.70291
+          ],
+          [
+            0.91492,
+            0.70753
+          ],
+          [
+            0.77426,
+            0.70931
+          ],
+          [
+            0.86461,
+            0.71083
+          ],
+          [
+            0.90708,
+            0.71144
+          ],
+          [
+            0.8789,
+            0.71464
+          ],
+          [
+            0.84266,
+            0.71926
+          ],
+          [
+            0.85453,
+            0.72317
+          ],
+          [
+            0.83955,
+            0.7286
+          ],
+          [
+            0.82193,
+            0.73525
+          ],
+          [
+            0.79391,
+            0.74637
+          ],
+          [
+            0.76901,
+            0.75693
+          ],
+          [
+            0.76372,
+            0.76688
+          ],
+          [
+            0.76773,
+            0.78191
+          ],
+          [
+            0.77419,
+            0.79673
+          ],
+          [
+            0.78361,
+            0.81744
+          ],
+          [
+            0.79186,
+            0.83521
+          ],
+          [
+            0.80026,
+            0.85298
+          ],
+          [
+            0.80881,
+            0.87075
+          ],
+          [
+            0.81752,
+            0.88852
+          ],
+          [
+            0.82886,
+            0.91116
+          ],
+          [
+            0.84224,
+            0.93817
+          ],
+          [
+            0.85033,
+            0.95558
+          ],
+          [
+            0.8554,
+            0.96766
+          ],
+          [
+            0.85839,
+            0.98223
+          ],
+          [
+            0.82587,
+            0.98294
+          ],
+          [
+            0.85707,
+            0.98614
+          ],
+          [
+            0.82525,
+            0.98756
+          ],
+          [
+            0.82739,
+            0.99112
+          ],
+          [
+            0.83401,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            -2.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          2,
+          5
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      2,
+      3,
+      5
+    ]
+  },
+  "wings": {
+    "top": "gray",
+    "under": "gray"
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "metal",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "titles": [
+    {
+      "text": "BRANIFF",
+      "mark": "BN1984/wordmark",
+      "place": "fuselage",
+      "at": [
+        0.1436,
+        -0.3034
+      ],
+      "height": 0.3739,
+      "length": 0.2127,
+      "color": "red",
+      "style": "Braniff's wordmark in red: heavy, slanted, extended block capitals, each letter split across by a thin white line about a third of the way down, low on the forward body from just behind the forward door to over the wing's leading edge, its foot just into the pewter line.",
+      "type": {
+        "similar": [
+          "Eurostile Bold Extended Oblique",
+          "Helvetica Neue Black Italic"
+        ],
+        "weight": 900,
+        "slantDeg": 14,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "notes": "Measured 2026-11-24 for ghost flights on 727-200 N456BN (November 1984, fitted to shapes/B722.json); checked on N466BN, N447BN, N467BN (right side), a Jon Proctor photo of December 1984 and N275WC in January 1987. No dated 1985 photo was found on Commons; the 1984 and 1987 photos show the same scheme and Braniff kept it until 1988, when some aircraft got a revival of the earlier Harper and George scheme (not drawn). Every edge is a fitted straight line, not a trace: the blue's top is level 1.11 m below the centerline (within 0.06 m of the photo's along the cabin; the photo's slight rise aft is the fit's tilt, the pewter line's shows the same), the pewter line 0.32 m deep over it, and the tail's diagonal one straight line rising 0.643 m per meter aft (32.7 degrees), within 0.01 m of the photo from the side engine's exhaust to the tailplane's shadow, sampled at the outline's own points so it draws straight. Where it meets the belly line (33.7 m back, under the side engine) is hidden behind the nacelle in every photo; the corner is where the two lines cross. The diagonal runs on into the tailplane fairing's aft end, which is blue on N275WC; the line meets it in shadow on the 1984 photos. The fin's paint is carried down over the S-duct's fairing, where the renderer draws fin space straight from the root to two spans below it: the diagonal's one point there is placed to keep it within 0.02 m of straight over the fairing. The fuselage title's letters dip into the top of the pewter line on N456BN. Registrations (small gray, aft of the wing) and the nose-gear door's fleet number aren't drawn; no US flag shows on any photo. Colors are read off slides (N456BN's is dark and red-shifted) and are approximate; the blue is near black on most photos. The restarted Braniff (Braniff, Inc., 1984-1989, Dallas/Fort Worth then Kansas City) is keyed BN1984 to tell it from Braniff International (1928-1982), which used the same code. Its 1985 fleet was all 727-200s; 737-200s came in 1987. Refitted 2026-11-24 on the passenger 727 (shapes/B722-passenger.json, its cabin level): the pewter line's top 2.89 m and the blue's 3.19 m under the crown (N456BN, clear of the title), the diagonals at their measured 32.7 degrees from the same corner. The title already sat as on N456BN (its foot in the pewter, 0.1 m under the windows).",
+  "types": {
+    "B722": {
+      "note": "Braniff, Inc. flew only 727-200s in 1985, and the fin's 'BRANIFF', lettered up the diagonal on the 727's short fin under its T-tail, was measured there alone (N456BN). So it's the 727's: on another type the scheme keeps its body title and the fin's blue and pewter but no fin lettering, which would crowd a fin of another shape.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "titles": [
+        {
+          "text": "BRANIFF",
+          "mark": "BN1984/wordmark",
+          "place": "fuselage",
+          "at": [
+            0.1436,
+            -0.3034
+          ],
+          "height": 0.3739,
+          "length": 0.2127,
+          "color": "red",
+          "style": "Braniff's wordmark in red: heavy, slanted, extended block capitals, each letter split across by a thin white line about a third of the way down, low on the forward body from just behind the forward door to over the wing's leading edge, its foot just into the pewter line.",
+          "type": {
+            "similar": [
+              "Eurostile Bold Extended Oblique",
+              "Helvetica Neue Black Italic"
+            ],
+            "weight": 900,
+            "slantDeg": 14,
+            "width": "extended",
+            "strokes": "uniform",
+            "case": "upper"
+          },
+          "confidence": "medium",
+          "sourceRefs": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "BRANIFF",
+          "mark": "BN1984/wordmark",
+          "place": "fin",
+          "at": [
+            0.642,
+            -0.8994
+          ],
+          "height": 0.2743,
+          "length": 0.6383,
+          "rotationDeg": 32.7,
+          "color": "red",
+          "style": "The same red wordmark along the diagonal, standing on the pewter line and reading up toward the tail, from the center engine's fairing (over the side engine's exhaust) to just under the tailplane; on the right side it reads down toward the nose.",
+          "type": {
+            "similar": [
+              "Eurostile Bold Extended Oblique",
+              "Helvetica Neue Black Italic"
+            ],
+            "weight": 900,
+            "slantDeg": 14,
+            "width": "extended",
+            "strokes": "uniform",
+            "case": "upper"
+          },
+          "confidence": "medium",
+          "sourceRefs": [
+            0,
+            2,
+            3,
+            5
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,912 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "flying-colors-blue",
+  "airline": "BI1928",
+  "name": "Flying Colors, blue and light blue (1979)",
+  "kind": "standard",
+  "from": "1971-11",
+  "to": "1982-05",
+  "confidence": "medium",
+  "drawnOn": "B722",
+  "description": "Braniff International's 'Flying Colors' two-tone scheme in its blue and light blue pair, as still worn by many 727-200s in 1979: the body Braniff blue above a level line just under the windows (about 0.55 m below the centerline, under the nose tip) and light blue below it to the belly, the fin, rudder, center engine fairing and tailplane Braniff blue. Across the fin's middle a level light blue band from the 'BI' aft to the trailing edge, with a large white 'BI' (heavy extended capitals) on it, standing mostly on the S-duct fairing, and 'Flying Colors' in small white lettering ahead of it on the fairing. 'BRANIFF INTERNATIONAL' in white forward-leaning extended capitals over the forward cabin windows, a small US flag ahead of it. Bare polished nacelles, gray wings.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Boeing_727-227(Adv),_Braniff_International_Airways_JP5938773.jpg",
+      "title": "Boeing 727-227(Adv), Braniff International Airways, October 1980 (GFDL 1.2, via Commons)",
+      "accessed": "2026-11-24",
+      "note": "N447BN in Flying Colors orange over ochre, left side, side-on in sun at Las Vegas: fitted to shapes/B722.json (nose, tail cone, forward door, crown and belly at 10 m; within 3 px): the split's height, the title's ends and height, the windows' height against it, 'Flying Colors' on the S-duct fairing."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Boeing_727-227,_Braniff_International_Airways_JP5938778.jpg",
+      "title": "Boeing 727-227, Braniff International Airways, October 1980 (GFDL 1.2, via Commons)",
+      "accessed": "2026-11-24",
+      "note": "N454BN in Flying Colors red over Aztec gold, right side, side-on: flipped and fitted to shapes/B722.json (nose, tail cone, the tailplane fairing's tip, crown and belly; within 8 px): the split, the fin's band and the 'BI' (size and place), 'Flying Colors'."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Braniff_International_Airways_Boeing_727-227_Adv_N431BN.jpg",
+      "title": "Braniff International Airways Boeing 727-227 Adv N431BN, October 1980 (CC BY-SA 4.0, via Commons)",
+      "accessed": "2026-11-24",
+      "note": "Flying Colors orange over ochre, right side: the fin's band aft of the 'BI' on the right face too, the flag ahead of the title, bare metal nacelles."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Braniff_International_Airways_Boeing_727-227_Adv_N434BN.jpg",
+      "title": "Braniff International Airways Boeing 727-227 Adv N434BN, October 1980 (CC BY-SA 4.0, via Commons)",
+      "accessed": "2026-11-24",
+      "note": "Flying Colors blue over light blue, right side: the blue pair's colors and the same layout."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Braniff_International_Airways_Boeing_727-227_Adv_N426BN.jpg",
+      "title": "Braniff International Airways Boeing 727-227 Adv N426BN, September 1977 (GFDL 1.2, via Commons)",
+      "accessed": "2026-11-24",
+      "note": "Flying Colors green over light green, left side, 1977 (repainted metallic blue in 1978): the green pair's colors."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N452BN_Boeing_727-200_of_Braniff_at_LGA_1978_(6004630370).jpg",
+      "title": "N452BN Boeing 727-200 of Braniff at LGA, 1978 (CC BY-SA 2.0, via Commons)",
+      "accessed": "2026-11-24",
+      "note": "Flying Colors blue pair, 1978: the scheme as worn in the late 1970s."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Boeing_727-227(Adv),_Braniff_International_Airways_JP5938770.jpg",
+      "title": "Boeing 727-227(Adv), Braniff International Airways, October 1980 (GFDL 1.2, via Commons)",
+      "accessed": "2026-11-24",
+      "note": "N455BN in Ultra chocolate brown, left side, side-on: fitted to shapes/B722.json (nose, tail cone, the tailplane fairing's tip, forward door, crown and belly at 17 m; within 6 px): every Ultra edge (the belly's pinstripes and silver, their rise along the belly aft and up the tail cone, the fin's pinstripes), the 'Braniff' title's ends and height, the nacelles' and center inlet's bands."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Braniff_International_Airways_Boeing_727-227_Adv_N412BN_(2).jpg",
+      "title": "Braniff International Airways Boeing 727-227 Adv N412BN, 13 May 1980 (CC BY-SA 4.0, via Commons)",
+      "accessed": "2026-11-24",
+      "note": "N412BN in Ultra terra cotta, left side from ahead (a poor fit, used by eye): the pinstripes' order, the silver belly running up the tail cone behind a diagonal, the fin outlined front and back, the title's lettering up close."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Braniff_International_Airways_Boeing_727-2B7_N404BN.jpg",
+      "title": "Braniff International Airways Boeing 727-2B7 N404BN, 17 May 1980 (CC BY-SA 4.0, via Commons)",
+      "accessed": "2026-11-24",
+      "note": "N404BN, the one sparkling (metallic) burgundy 727, left side: its strawberry-red pinstripes and title."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Boeing_727-227(Adv),_Braniff_International_Airways_JP5938771.jpg",
+      "title": "Boeing 727-227(Adv), Braniff International Airways, October 1980 (GFDL 1.2, via Commons)",
+      "accessed": "2026-11-24",
+      "note": "N467BN in Ultra Perseus green (very dark blue-green, turquoise pinstripes and title), right side."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Boeing_727-227(Adv),_Braniff_International_Airways_JP5938772.jpg",
+      "title": "Boeing 727-227(Adv), Braniff International Airways, October 1980 (GFDL 1.2, via Commons)",
+      "accessed": "2026-11-24",
+      "note": "N468BN, a dark red-brown Ultra 727 (read here as burgundy; terra cotta isn't ruled out), right side."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Boeing_727-227(Adv),_Braniff_International_Airways_JP5938774.jpg",
+      "title": "Boeing 727-227(Adv), Braniff International Airways, October 1980 (GFDL 1.2, via Commons)",
+      "accessed": "2026-11-24",
+      "note": "N478BN in Ultra terra cotta, left side: a check of the layout on another airframe."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Boeing_727-227(Adv),_Braniff_International_Airways_JP5938775.jpg",
+      "title": "Boeing 727-227(Adv), Braniff International Airways, October 1980 (GFDL 1.2, via Commons)",
+      "accessed": "2026-11-24",
+      "note": "N470BN in Ultra Corvette blue (a middle blue, light blue title), left side."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Boeing_727-227-Adv,_Braniff_International_Airways_AN0075387.jpg",
+      "title": "Boeing 727-227-Adv, Braniff International Airways, 14 April 1982 (GFDL 1.2, via Commons)",
+      "accessed": "2026-11-24",
+      "note": "N435BN in Ultra chocolate brown (near black on the slide, light title), right side from ahead."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Braniff_DC-8-62_(5956495127)_(2).jpg",
+      "title": "Braniff DC-8-62, Rio de Janeiro 1980 (CC BY-SA 2.0, via Commons)",
+      "accessed": "2026-11-24",
+      "note": "A DC-8-62 in Ultra Mercury blue (navy, light blue title and pinstripes), 1980."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Braniff_International_DC-8-62;_N806BN,_June_1980_AUR_(4848696736).jpg",
+      "title": "Braniff International DC-8-62; N806BN, June 1980 (CC BY-SA 2.0, via Commons)",
+      "accessed": "2026-11-24",
+      "note": "DC-8-62 N806BN in a middle blue Ultra (Corvette blue), in flight: the Ultra layout on the DC-8."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:McDonnell_Douglas_DC-8-62,_Braniff_International_Airways_AN0069849.jpg",
+      "title": "McDonnell Douglas DC-8-62, Braniff International Airways, 1 November 1980 (GFDL 1.2, via Commons)",
+      "accessed": "2026-11-24",
+      "note": "A DC-8-62 in Ultra chocolate brown, gold title."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Douglas_DC-8-62,_Braniff_International_Airways_AN2007245.jpg",
+      "title": "Douglas DC-8-62, Braniff International Airways, 6 August 1981 (GFDL 1.2, via Commons)",
+      "accessed": "2026-11-24",
+      "note": "A DC-8-62 in Ultra terra cotta, the former Calder aircraft (N1805), 1981."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Braniff_International_Boeing_747-230B;_N611BN@FRA,_June_1979_AUC_(4844977229).jpg",
+      "title": "Braniff International Boeing 747-230B; N611BN@FRA, June 1979 (CC BY-SA 2.0, via Commons)",
+      "accessed": "2026-11-24",
+      "note": "747-200 N611BN in the 747s' Ultra orange, left side, high resolution, June 1979: fitted to shapes/B744-passenger.json by its doors and nose: the title's ends and height, the fin's pinstripe, the nacelles' bands."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Braniff_International_Boeing_747-227B;_N602BN@LGW,_September_1980_CHT_(4845078956).jpg",
+      "title": "Braniff International Boeing 747-227B; N602BN@LGW, September 1980 (CC BY-SA 2.0, via Commons)",
+      "accessed": "2026-11-24",
+      "note": "747-200 N602BN in Ultra orange, left side from ahead: the orange read nearer true than N611BN's red-shifted slide."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Braniff_International_Airways_Boeing_747SP-27_N606BN.jpg",
+      "title": "Braniff International Airways Boeing 747SP-27 N606BN, September 1981 (CC BY-SA 4.0, via Commons)",
+      "accessed": "2026-11-24",
+      "note": "747SP N606BN in Ultra orange: the 747SPs wore it too."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Braniff_International_Airways_Boeing_747-127_N601BN.jpg",
+      "title": "Braniff International Airways Boeing 747-127 N601BN, June 1979 (GFDL 1.2, via Commons)",
+      "accessed": "2026-11-24",
+      "note": "747-100 N601BN 'Big Orange', left side, June 1979: still in the earlier scheme (orange body, white fin with the large 'BI' and a flag, italic title, bare nacelles)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Braniff_International_Boeing_747-100_Rees.jpg",
+      "title": "Braniff International Boeing 747-100, 12 September 1981 (GFDL 1.2, via Commons)",
+      "accessed": "2026-11-24",
+      "note": "N601BN at Gatwick in 1981, right side: the white fin and 'BI' still worn."
+    },
+    {
+      "url": "https://yesterdaysairlines.com/the-elegance-campaign-braniffs-ultra-look/",
+      "title": "Yesterday's Airlines: The Elegance Campaign, Braniff's Ultra Look",
+      "accessed": "2026-11-24",
+      "note": "Evidence only: Ultra unveiled 17 July 1978; eight darker colors (terra cotta, Perseus green, Mercury blue, metallic blue, light Corvette blue, chocolate brown, burgundy, sparkling burgundy); the 25 727s delivered from April 1978 in Ultra, only 12 older 727s repainted; all but two DC-8-62s repainted; the 747s in an orange version with a solid orange belly, except N601BN; a mix of Ultra and Flying Colors to the end in 1982."
+    },
+    {
+      "url": "https://yesterdaysairlines.com/flying-colors-braniffs-727-227-advanceds/",
+      "title": "Yesterday's Airlines: Flying Colors, Braniff's 727-227 Advanceds",
+      "accessed": "2026-11-24",
+      "note": "Evidence only: Flying Colors from late 1971, two tones in four pairs (red/Aztec gold, orange/ochre, green/light green, blue/light blue), seen almost only on 727s."
+    },
+    {
+      "url": "https://airlinercafe.com/forums/topic/ultra-era-memories-braniff/",
+      "title": "The Airliner Modeling Site forum: 'Ultra-era' memories (Braniff)",
+      "accessed": "2026-11-24",
+      "note": "Evidence only: colors per airframe from members' memories and slides (N426BN metallic blue and N404BN sparkling burgundy from about 1978; DC-8s N1809E chocolate, N1807 burgundy, N802BN Mercury blue, N801BN and N1806 Corvette blue, N1805 terra cotta, N1803 and N1804 Perseus green; N412BN terra cotta in 1979) and the planned pinstripe pairs."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Braniff_International_Airways",
+      "title": "Wikipedia: Braniff International Airways",
+      "accessed": "2026-11-24",
+      "note": "Evidence only: the fleet (115 aircraft in December 1979; 747-200Bs from 1978, 747SPs from 1979, ten DC-8-62s, 79 727-200s over the years), the Ultra colors with Halston and Harper and George, 'INTERNATIONAL' dropped from the 727s' and DC-8s' Ultra titles but kept on the 747s, Calder's painted aircraft."
+    },
+    {
+      "url": "https://departedflights.com/BN72S.html",
+      "title": "Departed Flights: Braniff 727-200",
+      "accessed": "2026-11-24",
+      "note": "Evidence only: N438BN in Flying Colors in June 1979, N441BN in red and orange Flying Colors in January 1982, N467BN in Ultra in October 1979."
+    }
+  ],
+  "palette": {
+    "upper": {
+      "hex": "#3D78C4",
+      "name": "Braniff blue",
+      "official": false
+    },
+    "lower": {
+      "hex": "#42B4CC",
+      "name": "light blue",
+      "official": false
+    },
+    "white": {
+      "hex": "#F4F4F0",
+      "official": false
+    },
+    "metal": {
+      "hex": "#C4C8CD",
+      "name": "polished bare metal",
+      "official": false
+    },
+    "gray": {
+      "hex": "#AEB3B9",
+      "name": "wing gray",
+      "official": false
+    },
+    "flagred": {
+      "hex": "#B22234",
+      "official": false
+    },
+    "flagblue": {
+      "hex": "#3C3B6E",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "upper",
+    "windows": "plain",
+    "areas": [
+      {
+        "name": "light blue below the level line under the windows",
+        "color": "lower",
+        "points": [
+          [
+            0.0,
+            -1.0
+          ],
+          [
+            0.00027,
+            -1.0
+          ],
+          [
+            0.00048,
+            -0.66361
+          ],
+          [
+            0.00108,
+            -0.43353
+          ],
+          [
+            0.00116,
+            -0.41614
+          ],
+          [
+            0.00186,
+            -0.37095
+          ],
+          [
+            0.00296,
+            -0.3097
+          ],
+          [
+            0.00424,
+            -0.27558
+          ],
+          [
+            0.006,
+            -0.2333
+          ],
+          [
+            0.00641,
+            -0.22397
+          ],
+          [
+            0.00793,
+            -0.2031
+          ],
+          [
+            0.01077,
+            -0.16509
+          ],
+          [
+            0.01357,
+            -0.14564
+          ],
+          [
+            0.01484,
+            -0.13606
+          ],
+          [
+            0.01976,
+            -0.11658
+          ],
+          [
+            0.0272,
+            -0.10289
+          ],
+          [
+            0.03082,
+            -0.10136
+          ],
+          [
+            0.03465,
+            -0.10349
+          ],
+          [
+            0.04402,
+            -0.11476
+          ],
+          [
+            0.05164,
+            -0.12446
+          ],
+          [
+            0.05422,
+            -0.1286
+          ],
+          [
+            0.05839,
+            -0.13201
+          ],
+          [
+            0.05969,
+            -0.1336
+          ],
+          [
+            0.06463,
+            -0.13674
+          ],
+          [
+            0.06636,
+            -0.13676
+          ],
+          [
+            0.0746,
+            -0.1397
+          ],
+          [
+            0.07781,
+            -0.14173
+          ],
+          [
+            0.08357,
+            -0.14329
+          ],
+          [
+            0.09024,
+            -0.14696
+          ],
+          [
+            0.09301,
+            -0.14751
+          ],
+          [
+            0.09653,
+            -0.1489
+          ],
+          [
+            0.1088,
+            -0.15108
+          ],
+          [
+            0.11566,
+            -0.15466
+          ],
+          [
+            0.12463,
+            -0.15814
+          ],
+          [
+            0.13475,
+            -0.16683
+          ],
+          [
+            0.13602,
+            -0.16772
+          ],
+          [
+            0.1573,
+            -0.17716
+          ],
+          [
+            0.16614,
+            -0.17828
+          ],
+          [
+            0.1734,
+            -0.18069
+          ],
+          [
+            0.1859,
+            -0.18121
+          ],
+          [
+            0.1953,
+            -0.18384
+          ],
+          [
+            0.19817,
+            -0.18388
+          ],
+          [
+            0.2088,
+            -0.18889
+          ],
+          [
+            0.2172,
+            -0.18911
+          ],
+          [
+            0.22781,
+            -0.1922
+          ],
+          [
+            0.23576,
+            -0.19232
+          ],
+          [
+            0.24658,
+            -0.19772
+          ],
+          [
+            0.32851,
+            -0.1975
+          ],
+          [
+            0.33231,
+            -0.1962
+          ],
+          [
+            0.34036,
+            -0.18849
+          ],
+          [
+            0.3479,
+            -0.18469
+          ],
+          [
+            0.36901,
+            -0.16334
+          ],
+          [
+            0.3812,
+            -0.15669
+          ],
+          [
+            0.38901,
+            -0.15621
+          ],
+          [
+            0.39058,
+            -0.1565
+          ],
+          [
+            0.39706,
+            -0.1558
+          ],
+          [
+            0.40034,
+            -0.15749
+          ],
+          [
+            0.40646,
+            -0.15916
+          ],
+          [
+            0.43839,
+            -0.15935
+          ],
+          [
+            0.44877,
+            -0.16202
+          ],
+          [
+            0.48224,
+            -0.16225
+          ],
+          [
+            0.49116,
+            -0.16443
+          ],
+          [
+            0.50176,
+            -0.16225
+          ],
+          [
+            0.51308,
+            -0.165
+          ],
+          [
+            0.53923,
+            -0.165
+          ],
+          [
+            0.54957,
+            -0.16829
+          ],
+          [
+            0.55207,
+            -0.16655
+          ],
+          [
+            0.55665,
+            -0.15794
+          ],
+          [
+            0.55916,
+            -0.15643
+          ],
+          [
+            0.56214,
+            -0.15851
+          ],
+          [
+            0.56769,
+            -0.16752
+          ],
+          [
+            0.57118,
+            -0.16966
+          ],
+          [
+            0.57405,
+            -0.16969
+          ],
+          [
+            0.58607,
+            -0.17265
+          ],
+          [
+            0.60781,
+            -0.17292
+          ],
+          [
+            0.61745,
+            -0.17726
+          ],
+          [
+            0.63839,
+            -0.17789
+          ],
+          [
+            0.64829,
+            -0.18249
+          ],
+          [
+            0.65306,
+            -0.18253
+          ],
+          [
+            0.66487,
+            -0.18529
+          ],
+          [
+            0.67718,
+            -0.1854
+          ],
+          [
+            0.68458,
+            -0.18682
+          ],
+          [
+            0.70065,
+            -0.19314
+          ],
+          [
+            0.71593,
+            -0.20166
+          ],
+          [
+            0.72605,
+            -0.21053
+          ],
+          [
+            0.73547,
+            -0.22125
+          ],
+          [
+            0.7388,
+            -0.22438
+          ],
+          [
+            0.74581,
+            -0.2292
+          ],
+          [
+            0.75176,
+            -0.23496
+          ],
+          [
+            0.76007,
+            -0.24119
+          ],
+          [
+            0.76851,
+            -0.2493
+          ],
+          [
+            0.77463,
+            -0.253
+          ],
+          [
+            0.78499,
+            -0.25757
+          ],
+          [
+            0.78851,
+            -0.26141
+          ],
+          [
+            0.79371,
+            -0.26771
+          ],
+          [
+            0.80159,
+            -0.27351
+          ],
+          [
+            0.81272,
+            -0.28664
+          ],
+          [
+            0.82027,
+            -0.29454
+          ],
+          [
+            0.82687,
+            -0.30418
+          ],
+          [
+            0.83012,
+            -0.30866
+          ],
+          [
+            0.8341,
+            -0.31593
+          ],
+          [
+            0.84123,
+            -0.33177
+          ],
+          [
+            0.84983,
+            -0.35025
+          ],
+          [
+            0.85631,
+            -0.36666
+          ],
+          [
+            0.87708,
+            -0.43626
+          ],
+          [
+            0.89128,
+            -0.49578
+          ],
+          [
+            0.89583,
+            -0.52123
+          ],
+          [
+            0.90304,
+            -0.56667
+          ],
+          [
+            0.91205,
+            -0.64331
+          ],
+          [
+            0.93364,
+            -1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            0.0,
+            -1.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1,
+          3
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      3
+    ]
+  },
+  "fin": {
+    "base": "upper",
+    "rudder": "upper",
+    "areas": [
+      {
+        "name": "level light blue band across the fin and S-duct fairing, from the 'BI' aft to the trailing edge",
+        "color": "lower",
+        "points": [
+          [
+            0.62,
+            -2.0
+          ],
+          [
+            1.1,
+            -2.0
+          ],
+          [
+            1.1,
+            0.0001
+          ],
+          [
+            0.62,
+            0.0001
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2,
+          3
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "stabilizer": {
+    "top": "upper",
+    "under": "upper"
+  },
+  "wings": {
+    "top": "gray",
+    "under": "gray"
+  },
+  "engines": {
+    "cowling": "metal",
+    "inletLip": "metal",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "titles": [
+    {
+      "text": "BRANIFF INTERNATIONAL",
+      "mark": "BI1928/international",
+      "place": "fuselage",
+      "at": [
+        0.159,
+        0.373
+      ],
+      "height": 0.215,
+      "length": 0.2975,
+      "color": "white",
+      "style": "Braniff International's 1970s lettering in white: heavy, extended, forward-leaning capitals with square counters and open, flat-topped A's (Harper and George's 'International' face), over the forward cabin windows from just behind the forward door to about the wing, a small US flag ahead of it.",
+      "type": {
+        "similar": [
+          "Eurostile Bold Extended Oblique",
+          "Microgramma Bold Extended"
+        ],
+        "weight": 800,
+        "slantDeg": 14,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        2
+      ]
+    }
+  ],
+  "logos": [
+    {
+      "mark": "BI1928/us-flag",
+      "place": "fuselage",
+      "at": [
+        0.145,
+        0.53
+      ],
+      "height": 0.17,
+      "colors": [
+        "flagred",
+        "white",
+        "flagblue"
+      ],
+      "description": "A small US flag ahead of the title, the canton forward on each side.",
+      "confidence": "low",
+      "sourceRefs": [
+        0,
+        2
+      ]
+    }
+  ],
+  "notes": "Measured 2026-11-24 for ghost flights. Read on N434BN (October 1980) and N452BN (1978). The four Flying Colors pairs share one drawing (BI1928/flying-colors-red, -orange, -green, -blue differ only in palette, id, name and notes): when one's drawing changes, change all four. The split is level in meters, 0.55 m below the centerline (N454BN reads -0.49 to -0.17 m and N447BN -0.84 to -0.55 m along the cabin; the two fits disagree by up to 0.3 m, so it's their middle, drawn straight and level, not either photo's tilt). Every straight edge is sampled at the shape's own crown and belly points and pruned to 0.3 mm. The fin's band is level on the aircraft, from 2.87 to 4.43 m above the centerline (N454BN), from the 'BI''s aft letter to the trailing edge. Its lower edge falls on the S-duct's fairing, below the fin's root (4.05 m), where fin paint can only run straight on down (the renderer carries any point at or below the root to the fairing's foot): so it's drawn down to the foot of the fairing, and the strip of the upper color under it (1.3 to 2.87 m, aft of the 'BI') is drawn in the lower color. A renderer that can should stop it 2.87 m up. Its top is drawn at the fin's root (4.05 m; the photo reads 4.43 m), level with the 'BI''s top as the photo shows them, and the 'BI''s middle is set at y -0.30, where the reference renderer draws it as N454BN shows it (photo_trace's probe read -0.11; below the root the two place the fairing's paint differently). it runs aft of the 'BI' on both faces (N431BN and N434BN's right sides). The title's capitals are about 0.45 m tall with their foot about 0.15 m over the windows' tops, from 5.8 m back (the flag) to 18.9 m (N447BN). It leans forward on both sides, as ordinary italics. The tailplane is drawn in the upper color as the photos show it from the side. Registrations (small, white, on the aft body) aren't drawn. Colors are read off slides (Kodachrome and Ektachrome shift them) and are approximate, not Braniff's specification. Alexander Calder painted three Braniff aircraft (the DC-8-62 'Flying Colors of South America', 1973; the 727-200 N408BN 'Flying Colors of the United States', 1975-76; 'Salute to Mexico' was planned but never applied). They're his artwork and aren't drawn here. By late 1979 N408BN had been repainted in Braniff's own colors.",
+  "types": {
+    "B722": {
+      "note": "The fin's 'BI' and 'Flying Colors' stand mostly on the 727's S-duct fairing under its short T-tail fin, and were measured there alone (N454BN, N447BN). So they're the 727's: on another type the scheme keeps its body title, flag and the fin's band but no fin lettering, which would crowd or run off a fin of another shape.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ],
+      "titles": [
+        {
+          "text": "BRANIFF INTERNATIONAL",
+          "mark": "BI1928/international",
+          "place": "fuselage",
+          "at": [
+            0.159,
+            0.373
+          ],
+          "height": 0.215,
+          "length": 0.2975,
+          "color": "white",
+          "style": "Braniff International's 1970s lettering in white: heavy, extended, forward-leaning capitals with square counters and open, flat-topped A's (Harper and George's 'International' face), over the forward cabin windows from just behind the forward door to about the wing, a small US flag ahead of it.",
+          "type": {
+            "similar": [
+              "Eurostile Bold Extended Oblique",
+              "Microgramma Bold Extended"
+            ],
+            "weight": 800,
+            "slantDeg": 14,
+            "width": "extended",
+            "strokes": "uniform",
+            "case": "upper"
+          },
+          "confidence": "medium",
+          "sourceRefs": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "Flying Colors",
+          "place": "fin",
+          "at": [
+            -0.3,
+            -0.43
+          ],
+          "height": 0.15,
+          "length": 0.53,
+          "color": "white",
+          "style": "'Flying Colors' in small white upright sans-serif, capitals and lowercase, on the S-duct fairing ahead of the 'BI'.",
+          "type": {
+            "similar": [
+              "Helvetica Bold",
+              "Arial Bold"
+            ],
+            "weight": 700,
+            "case": "mixed",
+            "xHeight": 0.72
+          },
+          "confidence": "medium",
+          "sourceRefs": [
+            0,
+            1
+          ]
+        }
+      ],
+      "logos": [
+        {
+          "mark": "BI1928/bi",
+          "place": "fin",
+          "at": [
+            0.4514,
+            -0.3
+          ],
+          "height": 0.56,
+          "colors": [
+            "white"
+          ],
+          "description": "Braniff International's 'BI' in white: two heavy, extended capitals, square-cornered with small square counters, about 1.55 m tall, standing mostly on the S-duct fairing at the band's forward end. Reads the same way on both sides.",
+          "confidence": "medium",
+          "sourceRefs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mark": "BI1928/us-flag",
+          "place": "fuselage",
+          "at": [
+            0.145,
+            0.53
+          ],
+          "height": 0.17,
+          "colors": [
+            "flagred",
+            "white",
+            "flagblue"
+          ],
+          "description": "A small US flag ahead of the title, the canton forward on each side.",
+          "confidence": "low",
+          "sourceRefs": [
+            0,
+            2
+          ]
+        }
+      ]
+    }
+  }
+}

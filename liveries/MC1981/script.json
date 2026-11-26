@@ -1,0 +1,599 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "script",
+  "airline": "MC1981",
+  "name": "Script (1981)",
+  "kind": "standard",
+  "from": "1981-07",
+  "to": "1986-02",
+  "confidence": "medium",
+  "drawnOn": "MD82",
+  "description": "Muse Air's only scheme, worn from its first flight in July 1981 until it became TranStar in February 1986: an all-white aircraft with 'Muse Air' brushed big along the forward fuselage in a deep purple script, its r's tail running on as a long level stroke under the windows (aft on the left side, forward to the nose on the right), and the same script smaller on the fin, rising toward the tail. A black anti-glare panel runs from the flight deck windows to the nose's top. Grey wings, white nacelles with polished lips.",
+  "notes": "Drawn on the MD-80, from N930MC (left side 1985, right side 1984) and an undated Douglas photo. Muse Air's DC-9-51s (from 1983) are drawn on it too until their own shape is in; no openly licensed photo of one in this paint was found, so they're assumed to match. The two sides were lettered differently: the right side's script is about 8% shorter and sits farther forward, so each side has its own title. The purple is read off color film and could be a little bluer or redder.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Muse_Air_MD-82;_N930MC@MSY,_February_1984_(5067079218).jpg",
+      "title": "Muse Air MD-82; N930MC@MSY, February 1984 (CC BY-SA 2.0, Aero Icarus)",
+      "accessed": "2026-11-24",
+      "note": "MD-82 N930MC, right side, side-on, New Orleans, February 1984 (flipped nose-left and fitted to shapes/MD82.json with tools/photo_trace.py from the windows, exits and crown, within about 0.3 m aft of the cockpit): the script's heights and its run on the right side, the fin script's run and slope, the anti-glare panel, the white nacelles and grey wings. The sharpest of the three; the wordmark's proportions follow it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:5-10-85_Los_Angeles_N930MC_(52730094676).jpg",
+      "title": "5-10-85 Los Angeles N930MC (CC BY 2.0, Pete Macklin)",
+      "accessed": "2026-11-24",
+      "note": "MD-82 N930MC, left side, Los Angeles, 5 October 1985 (fitted to shapes/MD82.json by both passenger doors, both exits, the nose and the crown, within 7 px): the left side's script from just behind the forward door to the swash's end over the second exit, the anti-glare panel's lower edge, the fin script reading up toward the tail. Taken from a little above and soft, so its heights are only a check."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Catalog-26_0007603_413876515_Piction_ID_Muse_Air_Plane_(55627728666).jpg",
+      "title": "Catalog-26_0007603 413876515 Piction ID Muse Air Plane (public domain, San Diego Air & Space Museum Archives)",
+      "accessed": "2026-11-24",
+      "note": "An MD-80 in Muse Air's paint, left side from ahead, undated (about 1981): the script's heights against the windows and swash (the same as the right side's), its run from the forward door to the exits, the anti-glare panel to the nose's top, the fin script rising toward the tail."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Muse_Air",
+      "title": "Muse Air (Wikipedia)",
+      "accessed": "2026-11-24",
+      "note": "Dates: first flights 15 July 1981 (MD-80s), bought by Southwest in 1985, renamed TranStar Airlines in February 1986, shut down 9 August 1987."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Untitled_McDonnell_Douglas_DC-9-51_HB-ISR_(27979958606).jpg",
+      "title": "Untitled McDonnell Douglas DC-9-51 HB-ISR (CC BY 2.0, Kambui)",
+      "accessed": "2026-11-24",
+      "note": "DC-9-51 HB-ISR stripped to bare metal at Zurich in 1983 for its delivery flight to Muse Air: evidence that the DC-9-51s came from Swissair, not of their paint."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F4F4F0",
+      "official": false
+    },
+    "purple": {
+      "hex": "#45346F",
+      "name": "Muse Air purple",
+      "official": false
+    },
+    "black": {
+      "hex": "#1C1B1D",
+      "official": false
+    },
+    "grey": {
+      "hex": "#B9BDC2",
+      "name": "wing grey",
+      "official": false
+    },
+    "metal": {
+      "hex": "#C9CCD0",
+      "name": "polished metal",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "windows": "plain",
+    "areas": [
+      {
+        "name": "black anti-glare panel round the flight deck windows, tapering forward to the nose's top",
+        "color": "black",
+        "points": [
+          [
+            0.0051,
+            1.0
+          ],
+          [
+            0.0078,
+            1.0
+          ],
+          [
+            0.0108,
+            1.0
+          ],
+          [
+            0.0168,
+            1.0
+          ],
+          [
+            0.0247,
+            1.0
+          ],
+          [
+            0.0361,
+            1.0
+          ],
+          [
+            0.0465,
+            1.0
+          ],
+          [
+            0.0488,
+            1.0
+          ],
+          [
+            0.0519,
+            1.0
+          ],
+          [
+            0.0576,
+            1.0
+          ],
+          [
+            0.059,
+            0.8221
+          ],
+          [
+            0.0603,
+            0.7502
+          ],
+          [
+            0.0617,
+            0.6961
+          ],
+          [
+            0.0631,
+            0.6574
+          ],
+          [
+            0.0645,
+            0.6234
+          ],
+          [
+            0.0659,
+            0.5929
+          ],
+          [
+            0.0677,
+            0.5636
+          ],
+          [
+            0.0695,
+            0.5367
+          ],
+          [
+            0.0715,
+            0.513
+          ],
+          [
+            0.0736,
+            0.4909
+          ],
+          [
+            0.0757,
+            0.4701
+          ],
+          [
+            0.0778,
+            0.4495
+          ],
+          [
+            0.08,
+            0.4299
+          ],
+          [
+            0.0837,
+            0.4039
+          ],
+          [
+            0.0875,
+            0.3835
+          ],
+          [
+            0.0878,
+            0.3825
+          ],
+          [
+            0.0878,
+            0.163
+          ],
+          [
+            0.0875,
+            0.1628
+          ],
+          [
+            0.0837,
+            0.1628
+          ],
+          [
+            0.08,
+            0.1659
+          ],
+          [
+            0.0757,
+            0.174
+          ],
+          [
+            0.0726,
+            0.1797
+          ],
+          [
+            0.0695,
+            0.1856
+          ],
+          [
+            0.0659,
+            0.198
+          ],
+          [
+            0.0638,
+            0.209
+          ],
+          [
+            0.0617,
+            0.2205
+          ],
+          [
+            0.0603,
+            0.2322
+          ],
+          [
+            0.0588,
+            0.2444
+          ],
+          [
+            0.0574,
+            0.2572
+          ],
+          [
+            0.0556,
+            0.2741
+          ],
+          [
+            0.0538,
+            0.2923
+          ],
+          [
+            0.0519,
+            0.312
+          ],
+          [
+            0.0503,
+            0.325
+          ],
+          [
+            0.0488,
+            0.3387
+          ],
+          [
+            0.0465,
+            0.3485
+          ],
+          [
+            0.0441,
+            0.3551
+          ],
+          [
+            0.0401,
+            0.3653
+          ],
+          [
+            0.0361,
+            0.3766
+          ],
+          [
+            0.0331,
+            0.39
+          ],
+          [
+            0.0302,
+            0.4047
+          ],
+          [
+            0.0274,
+            0.4187
+          ],
+          [
+            0.0247,
+            0.4342
+          ],
+          [
+            0.0225,
+            0.4548
+          ],
+          [
+            0.0203,
+            0.4778
+          ],
+          [
+            0.0186,
+            0.4976
+          ],
+          [
+            0.0168,
+            0.5198
+          ],
+          [
+            0.0167,
+            0.5213
+          ],
+          [
+            0.0152,
+            0.537
+          ],
+          [
+            0.0137,
+            0.5543
+          ],
+          [
+            0.0123,
+            0.5723
+          ],
+          [
+            0.0108,
+            0.5927
+          ],
+          [
+            0.0105,
+            0.6015
+          ],
+          [
+            0.0096,
+            0.6247
+          ],
+          [
+            0.0087,
+            0.6513
+          ],
+          [
+            0.0078,
+            0.6825
+          ],
+          [
+            0.0072,
+            0.7163
+          ],
+          [
+            0.0065,
+            0.7631
+          ],
+          [
+            0.0058,
+            0.828
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "stabilizer": {
+    "top": "white",
+    "under": "white",
+    "confidence": "low",
+    "sourceRefs": [
+      0,
+      2
+    ]
+  },
+  "wings": {
+    "top": "grey",
+    "under": "grey",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "metal",
+    "pylon": "white",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      2
+    ]
+  },
+  "titles": [
+    {
+      "text": "Muse Air",
+      "place": "fuselage",
+      "side": "left",
+      "at": [
+        0.1222,
+        -0.4829
+      ],
+      "height": 0.7318,
+      "length": 0.4269,
+      "color": "purple",
+      "mark": "MC1981/wordmark",
+      "style": "Muse Air's script: 'Muse Air' brushed in one heavy, fast hand, the letters leaning hard forward. A blob and a thin flick lead into a tall zigzag M; 'use' is small and joined; the A is a big leaning loop rising above the rest, then i (dotted) and r, whose tail runs on as a long level brush stroke under the windows. Drawn as a mark (no typeface comes close).",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Brush Script MT",
+          "Mistral"
+        ],
+        "weight": 700,
+        "slantDeg": 25,
+        "strokes": "brush",
+        "case": "mixed",
+        "xHeight": 0.58
+      }
+    },
+    {
+      "text": "Muse Air",
+      "place": "fuselage",
+      "side": "right",
+      "at": [
+        0.0777,
+        -0.4602
+      ],
+      "height": 0.8055,
+      "length": 0.3942,
+      "color": "purple",
+      "mark": "MC1981/wordmark",
+      "style": "Muse Air's script: 'Muse Air' brushed in one heavy, fast hand, the letters leaning hard forward. A blob and a thin flick lead into a tall zigzag M; 'use' is small and joined; the A is a big leaning loop rising above the rest, then i (dotted) and r, whose tail runs on as a long level brush stroke under the windows. Drawn as a mark (no typeface comes close).",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ],
+      "type": {
+        "similar": [
+          "Brush Script MT",
+          "Mistral"
+        ],
+        "weight": 700,
+        "slantDeg": 25,
+        "strokes": "brush",
+        "case": "mixed",
+        "xHeight": 0.58
+      }
+    },
+    {
+      "text": "Muse Air",
+      "place": "fin",
+      "at": [
+        0.2542,
+        -0.0649
+      ],
+      "height": 0.1629,
+      "length": 1.3133,
+      "rotationDeg": 23.0,
+      "color": "purple",
+      "mark": "MC1981/wordmark",
+      "style": "Muse Air's script: 'Muse Air' brushed in one heavy, fast hand, the letters leaning hard forward. A blob and a thin flick lead into a tall zigzag M; 'use' is small and joined; the A is a big leaning loop rising above the rest, then i (dotted) and r, whose tail runs on as a long level brush stroke under the windows. Drawn as a mark (no typeface comes close).",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Brush Script MT",
+          "Mistral"
+        ],
+        "weight": 700,
+        "slantDeg": 25,
+        "strokes": "brush",
+        "case": "mixed",
+        "xHeight": 0.58
+      }
+    }
+  ],
+  "types": {
+    "DC95": {
+      "note": "No openly licensed photo of a Muse Air DC-9-51 in this paint was found: the scripts keep the MD-80's size and their places in meters from the nose (the same forward fuselage).",
+      "confidence": "low",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "titles": [
+        {
+          "text": "Muse Air",
+          "place": "fuselage",
+          "side": "left",
+          "at": [
+            0.1375,
+            -0.4829
+          ],
+          "height": 0.7318,
+          "length": 0.4803,
+          "color": "purple",
+          "mark": "MC1981/wordmark",
+          "style": "Muse Air's script: 'Muse Air' brushed in one heavy, fast hand, the letters leaning hard forward. A blob and a thin flick lead into a tall zigzag M; 'use' is small and joined; the A is a big leaning loop rising above the rest, then i (dotted) and r, whose tail runs on as a long level brush stroke under the windows. Drawn as a mark (no typeface comes close).",
+          "confidence": "medium",
+          "sourceRefs": [
+            1,
+            2
+          ],
+          "type": {
+            "similar": [
+              "Brush Script MT",
+              "Mistral"
+            ],
+            "weight": 700,
+            "slantDeg": 25,
+            "strokes": "brush",
+            "case": "mixed",
+            "xHeight": 0.58
+          }
+        },
+        {
+          "text": "Muse Air",
+          "place": "fuselage",
+          "side": "right",
+          "at": [
+            0.0874,
+            -0.4602
+          ],
+          "height": 0.8055,
+          "length": 0.4435,
+          "color": "purple",
+          "mark": "MC1981/wordmark",
+          "style": "Muse Air's script: 'Muse Air' brushed in one heavy, fast hand, the letters leaning hard forward. A blob and a thin flick lead into a tall zigzag M; 'use' is small and joined; the A is a big leaning loop rising above the rest, then i (dotted) and r, whose tail runs on as a long level brush stroke under the windows. Drawn as a mark (no typeface comes close).",
+          "confidence": "medium",
+          "sourceRefs": [
+            0
+          ],
+          "type": {
+            "similar": [
+              "Brush Script MT",
+              "Mistral"
+            ],
+            "weight": 700,
+            "slantDeg": 25,
+            "strokes": "brush",
+            "case": "mixed",
+            "xHeight": 0.58
+          }
+        },
+        {
+          "text": "Muse Air",
+          "place": "fin",
+          "at": [
+            0.2542,
+            -0.0649
+          ],
+          "height": 0.1629,
+          "length": 1.3133,
+          "rotationDeg": 23.0,
+          "color": "purple",
+          "mark": "MC1981/wordmark",
+          "style": "Muse Air's script: 'Muse Air' brushed in one heavy, fast hand, the letters leaning hard forward. A blob and a thin flick lead into a tall zigzag M; 'use' is small and joined; the A is a big leaning loop rising above the rest, then i (dotted) and r, whose tail runs on as a long level brush stroke under the windows. Drawn as a mark (no typeface comes close).",
+          "confidence": "medium",
+          "sourceRefs": [
+            0,
+            1,
+            2
+          ],
+          "type": {
+            "similar": [
+              "Brush Script MT",
+              "Mistral"
+            ],
+            "weight": 700,
+            "slantDeg": 25,
+            "strokes": "brush",
+            "case": "mixed",
+            "xHeight": 0.58
+          }
+        }
+      ]
+    }
+  }
+}

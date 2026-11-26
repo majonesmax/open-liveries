@@ -1,0 +1,346 @@
+{
+  "_about": "777-200 and -200ER, from Boeing D6-58329 Rev E 2.2.1 (page index 19): side, plan and front views on one sheet, drawn 5.7% larger than D6-58329-2's 777F sheet (2.2.3). Pixels of layers.py rasters at scale 20, line centres. The B77L's (777F's) points, moved onto this sheet (plug.py with no plugs: --scale 1.057) and snapped; the wing's tip re-placed where this sheet ends it (the 777-200's plain tip, 60.93 m, where the 777F's raked tip begins). The side view draws the cabin windows as closed outlines in blue strokes (side_all.png: fills and strokes together); those behind the wing's lines (windowsAlso) are placed at the drawing's own pitch, from where they're drawn cut by the wing's lines to door 3. Door 3 is drawn behind the flaps, its top and aft corner showing: placed by them (36.45 m to its middle; 2.7.1 prints 36.33 m). The nacelle is the one the sheet draws (a GE90's shape, its inlet 20.42 m from the nose as printed for the GE90 within 0.6%). The cockpit panes are the B77L's (the same nose), moved as its points are. No wingtip device.",
+  "out": "../../../shapes/B772.json",
+  "length": 62.94,
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "refs": {
+    "side": {
+      "nose": 267,
+      "tail": 5681,
+      "cowlEnd": 2457,
+      "windowRow": [
+        1500,
+        1554
+      ],
+      "windowGap": 8,
+      "windowMinWidth": 20,
+      "windowsAlso": [
+        2804,
+        2852,
+        2901,
+        2949,
+        2997,
+        3046,
+        3094,
+        3142,
+        3191,
+        3239,
+        3287,
+        3507,
+        3556
+      ],
+      "windowBand": [
+        1509,
+        1545
+      ]
+    },
+    "plan": {
+      "nose": 266,
+      "centerline": 2953
+    },
+    "front": {
+      "centerline": 2853,
+      "crownTop": 1215.5
+    }
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "name": "door 1",
+      "box": [
+        800,
+        1447,
+        892,
+        1610
+      ]
+    },
+    {
+      "kind": "door",
+      "name": "door 2",
+      "box": [
+        1694,
+        1447,
+        1785,
+        1610
+      ]
+    },
+    {
+      "kind": "door",
+      "name": "door 3",
+      "box": [
+        3356,
+        1447,
+        3448,
+        1610
+      ]
+    },
+    {
+      "kind": "door",
+      "name": "door 4",
+      "box": [
+        4494,
+        1447,
+        4585,
+        1610
+      ]
+    },
+    {
+      "kind": "cargo",
+      "side": "right",
+      "box": [
+        1166,
+        1623,
+        1407,
+        1790
+      ]
+    },
+    {
+      "kind": "cargo",
+      "side": "right",
+      "box": [
+        3748,
+        1620,
+        3907,
+        1794
+      ]
+    },
+    {
+      "kind": "cargo",
+      "side": "right",
+      "box": [
+        4221,
+        1676,
+        4303,
+        1789
+      ]
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [
+        436,
+        1479
+      ],
+      [
+        438,
+        1481
+      ],
+      [
+        438,
+        1482
+      ],
+      [
+        435,
+        1487
+      ],
+      [
+        428,
+        1499
+      ],
+      [
+        418,
+        1514
+      ],
+      [
+        416,
+        1517
+      ],
+      [
+        414,
+        1519
+      ],
+      [
+        379,
+        1519
+      ],
+      [
+        377,
+        1517
+      ],
+      [
+        382,
+        1512
+      ],
+      [
+        394,
+        1501
+      ],
+      [
+        404,
+        1491
+      ],
+      [
+        413,
+        1484
+      ],
+      [
+        417,
+        1481
+      ],
+      [
+        423,
+        1480
+      ],
+      [
+        432,
+        1479
+      ]
+    ],
+    [
+      [
+        429,
+        1522
+      ],
+      [
+        427,
+        1520
+      ],
+      [
+        428,
+        1518
+      ],
+      [
+        445,
+        1490
+      ],
+      [
+        450,
+        1482
+      ],
+      [
+        452,
+        1480
+      ],
+      [
+        478,
+        1480
+      ],
+      [
+        481,
+        1482
+      ],
+      [
+        481,
+        1485
+      ],
+      [
+        478,
+        1494
+      ],
+      [
+        473,
+        1514
+      ],
+      [
+        469,
+        1529
+      ],
+      [
+        467,
+        1532
+      ],
+      [
+        465,
+        1532
+      ]
+    ],
+    [
+      [
+        478,
+        1528
+      ],
+      [
+        490,
+        1482
+      ],
+      [
+        492,
+        1480
+      ],
+      [
+        505,
+        1480
+      ],
+      [
+        514,
+        1481
+      ],
+      [
+        523,
+        1482
+      ],
+      [
+        525,
+        1484
+      ],
+      [
+        525,
+        1487
+      ],
+      [
+        521,
+        1521
+      ],
+      [
+        520,
+        1524
+      ],
+      [
+        518,
+        1526
+      ],
+      [
+        510,
+        1527
+      ],
+      [
+        494,
+        1529
+      ],
+      [
+        486,
+        1531
+      ],
+      [
+        481,
+        1531
+      ]
+    ]
+  ],
+  "printed": {
+    "fuselage height": 6.2,
+    "fuselage width": 6.2,
+    "wingspan": 60.93,
+    "tailplane span": 21.53,
+    "engine out from the centerline": 9.61,
+    "overall length": 63.73,
+    "engine inlet from the nose": 20.42,
+    "wing root leading edge from the nose": 21.58,
+    "wing tip trailing edge from the nose": 42.06,
+    "door 1 from the nose": 6.75,
+    "door 2 from the nose": 17.07,
+    "door 3 from the nose": 36.33,
+    "door 4 from the nose": 49.54
+  },
+  "meta": {
+    "id": "B772",
+    "name": "Boeing 777-200ER",
+    "types": [
+      "B772"
+    ],
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/airports/acaps/777-200-200ER-300_Rev_E.pdf",
+        "title": "Boeing, 777-200/-200ER/-300 Airplane Characteristics for Airport Planning (D6-58329 Rev E, December 2024), 2.2.1 General Dimensions: Model 777-200; 2.7.1 Main Entry Door Locations",
+        "accessed": "2026-11-25",
+        "note": "Dimensions and outlines read off 2.2.1's side, plan and front views (tools/trace/b772/), starting from the 777F's points (tools/trace/b77l/: the same fuselage, fin, tailplane and inboard wing) moved onto this sheet and snapped; the figures are the aircraft's measurements, not a copy of the drawing. The plain wingtip (60.93 m) is this sheet's, ending where the 777F's raked tip begins. The sheet draws the cabin windows; those behind the wing's lines are placed at its own pitch. Doors 1, 2 and 4 are drawn 0.02-0.13 m from 2.7.1's 6.75, 17.07 and 49.54 m; door 3, drawn behind the flaps, is placed by its visible corners (36.45 m against 36.33 m). The nacelle is the one the sheet draws, a GE90-94B's shape: its inlet 20.29 m from the nose against 20.42 m printed for the GE90 (PW4074 20.22 m, Trent 875 20.13 m); 777-200ERs with Trent or PW4000 engines have shorter, slimmer nacelles, not drawn. Width +2.0% and tailplane +1.5% by line centres, as on the 777F's and 777-300ER's sheets; span -0.8%."
+      }
+    ]
+  }
+}

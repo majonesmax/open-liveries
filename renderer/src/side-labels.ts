@@ -125,10 +125,21 @@ export function drawLabels(
   parts: Parts,
   outlines: Outlines,
   only?: LabelPart,
+  finParent?: Element,
 ): ((parent: Element) => void)[] & { behind: ((parent: Element) => void)[][] } {
   const faceX = finFaceX(livery, side);
-  const fuselageLayer = svgElement('g', { 'clip-path': canvas.clipTo('fusLabels', outlines.fuselage) }, canvas.svg);
-  const finLayer = svgElement('g', { 'clip-path': canvas.clipTo('finLabels', outlines.fin) }, canvas.svg);
+  // Each part's layer is made when first drawn on; `finParent` (a tail engine's, clipped to its nacelle) takes the
+  // fin's labels in place of the fin's own layer.
+  let fuselageLayer: Element | undefined;
+  let finLayer: Element | undefined = finParent;
+  const layer = (part: 'fuselage' | 'fin'): Element => {
+    if (part === 'fuselage') {
+      fuselageLayer ??= svgElement('g', { 'clip-path': canvas.clipTo('fusLabels', outlines.fuselage) }, canvas.svg);
+      return fuselageLayer;
+    }
+    finLayer ??= svgElement('g', { 'clip-path': canvas.clipTo('finLabels', outlines.fin) }, canvas.svg);
+    return finLayer;
+  };
   const deferred: ((parent: Element) => void)[] & { behind: ((parent: Element) => void)[][] } = Object.assign([], {
     behind: parts.engines.slice(0, -1).map(() => []),
   });
@@ -140,7 +151,7 @@ export function drawLabels(
     if (only && part !== only) return;
     if (part === 'fuselage' || part === 'fin') {
       const g = geometries[0]?.[part];
-      if (g) draw(g, part === 'fuselage' ? fuselageLayer : finLayer);
+      if (g) draw(g, layer(part));
       return;
     }
     const perEngine = part === 'engines' ? geometries : geometries.slice(0, 1);
@@ -186,3 +197,4 @@ export function drawLabels(
   }
   return deferred;
 }
+

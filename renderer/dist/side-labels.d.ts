@@ -11,7 +11,7 @@ type LabelPart = 'fuselage' | 'fin' | 'engines' | 'winglets';
  * (outboard) engine's labels are drawn last with the winglet's; each one behind it has its labels in `behind`, by
  * engine, to be drawn straight after that engine, so the nearer nacelle covers them as it covers the engine.
  */
-export declare function drawLabels(livery: Livery, side: Side, canvas: Canvas, parts: Parts, outlines: Outlines, only?: LabelPart): ((parent: Element) => void)[] & {
+export declare function drawLabels(livery: Livery, side: Side, canvas: Canvas, parts: Parts, outlines: Outlines, only?: LabelPart, finParent?: Element): ((parent: Element) => void)[] & {
     behind: ((parent: Element) => void)[][];
 };
 export {};

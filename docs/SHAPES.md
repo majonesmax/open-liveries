@@ -1,8 +1,8 @@
 # Shapes
 
-_Status: new (2026-11-15). Sixty-eight shapes: `A319`, `A320`, `A20N`, `A321`, `A21N`, `A332`, `A333`, `A338`, `A339`, `A343` (the A340-300), `AT46` (the ATR 42-600, and -500), `AT76` (the ATR 72-600, and -500), `A346` (the A340-600), `A388` (the A380-800),
-`A359`, `A35K`, `A35K-freighter` (the A350F), `BCS1` (the A220-100), `BCS3` (the A220-300), `B733`, `B734`, `B735` (the 737 Classics), `B736`, `B737`, `B738`, `B739`, `B37M`, `B38M`, `B39M`, `B3XM`, `B752` (the 757-200), `B77L` (the 777F),
-`B77W`, `B778` (the 777-8), `B779` (the 777-9), `B712` (the 717-200), `B722` (the 727-200F), `C17` (the C-17A Globemaster III), `C30J` (the C-130J Hercules), `CN35` (the CN-235: the HC-144), `B744` (the 747-400F), `B744-passenger` (the 747-400), `B748` (the 747-8F), `B748-passenger` (the 747-8 Intercontinental), `B763` (the 767-300F), `B763-passenger` (the 767-300ER), `B788`, `B789`, `B78X`, `CRJ2` (the CRJ200), `CRJ7` (the CRJ700), `CRJ9` (the CRJ900), `DH8D` (the Dash 8-400), `E135` (the ERJ-135), `E135-erj140` (the ERJ-140), `E145` (the ERJ-145), `E45X` (the ERJ-145XR), `E170`, `E75L`, `E275` (the E175-E2), `E190`, `E195`, `E290` (the E190-E2), `E295` (the E195-E2), `MD82` (the MD-80: MD-81, -82, -83, -88), `MD90` (the MD-90-30), `MD11` (the MD-11F), `MD11-passenger` (the MD-11). The renderer draws on them (`--shape shapes/A320.json`, or the parsed file
+_Status: new (2026-11-15). Eighty-three shapes: `A30B` (the A300B4), `A306` (the A300-600F), `L101` (the L-1011-1 TriStar), `L101-500` (the L-1011-500), `B462` (the BAe 146-200), `A319`, `A320`, `A20N`, `A321`, `A21N`, `A332`, `A333`, `A338`, `A339`, `A343` (the A340-300), `AT46` (the ATR 42-600, and -500), `AT76` (the ATR 72-600, and -500), `A346` (the A340-600), `A388` (the A380-800),
+`A359`, `A35K`, `A35K-freighter` (the A350F), `BCS1` (the A220-100), `BCS3` (the A220-300), `B733`, `B734`, `B735` (the 737 Classics), `B736`, `B737`, `B738`, `B739`, `B37M`, `B38M`, `B39M`, `B3XM`, `B752` (the 757-200), `B753` (the 757-300), `B772` (the 777-200ER), `B77L` (the 777F),
+`B77W`, `B778` (the 777-8), `B779` (the 777-9), `B712` (the 717-200), `B722` (the 727-200F), `B722-passenger` (the 727-200), `C17` (the C-17A Globemaster III), `C30J` (the C-130J Hercules), `CN35` (the CN-235: the HC-144), `CVLT` (the Convair 580), `B74S` (the 747SP), `B742` (the 747-100 and -200), `B744` (the 747-400F), `B744-passenger` (the 747-400), `B748` (the 747-8F), `B748-passenger` (the 747-8 Intercontinental), `B763` (the 767-300F), `B763-passenger` (the 767-300ER), `B788`, `B789`, `B78X`, `CRJ2` (the CRJ200), `CRJ7` (the CRJ700), `CRJ9` (the CRJ900), `DH8D` (the Dash 8-400), `E135` (the ERJ-135), `E135-erj140` (the ERJ-140), `E145` (the ERJ-145), `E45X` (the ERJ-145XR), `E170`, `E75L`, `E275` (the E175-E2), `E190`, `E195`, `E290` (the E190-E2), `E295` (the E195-E2), `DC91` (the DC-9-10), `DC93` (the DC-9-30), `DC95` (the DC-9-50), `DC10` (the DC-10-30, serving the -10 and -40), `MD82` (the MD-80: MD-81, -82, -83, -88), `MD90` (the MD-90-30), `MD11` (the MD-11F), `MD11-passenger` (the MD-11). The renderer draws on them (`--shape shapes/A320.json`, or the parsed file
 as `shape`). See renderer/README.md, "A measured type"._
 
 The A350F has no designator of its own in what we can read of ICAO Doc 8643 (the 777-8F shares `B778`), so its shape is
@@ -18,10 +18,22 @@ shape serves. CC0 like the rest of the data.
 
 Two shapes serve `B763`. `B763` is the 767-300F. It has no cabin windows, and the freighter schemes' `drawnOn` names it
 by its id. `B763-passenger` is the 767-300 and -300ER. A designator's own shape is the one whose id it is. For `B763`,
-`B744`, `B748` and `MD11` that's the freighters, as every scheme measured on them is a freighter's. For `A35K` it's the
+`B744`, `B748`, `MD11`, `B722` and `A306` that's the freighters, as every scheme measured on them is a freighter's. For `A35K` it's the
 passenger A350-1000. The other is picked by its id (the viewer's type list, a renderer's `--shape`).
 
 ## Where the numbers come from
+
+Three shapes of the 1980s are measured from other kinds of document, each stated in its sources. The A300B4 (`A30B`) is
+from Airbus's own A300 airport-planning document, its B2/B4 pages (a 1980 scan). The L-1011-1 (`L101`) is from
+Lockheed's L-1011 Maintenance Manual, chapter 6 (Dimensions and Areas), as scanned on the Internet Archive: no
+airport-planning document for it is openly available, and only its figures are taken. The BAe 146-200 (`B462`) has
+no openly available manufacturer's drawing at all (BAE's planning manual is on its customer portal), so it's measured
+from an enthusiast's dimensioned schematic on Wikimedia Commons ("File:BAe 146 v1.0.png", Julien.scavini, CC BY-SA
+3.0), its length and span evened out to EASA's type certificate (TCDS EASA.A.182); its confidence is low and its
+checks are in `tools/trace/b462/README.md`. The A300 and L-1011 scans zigzag at a few centimeters over half a meter, too
+long a wave for `smooth.py`, so their straight runs are fitted straight (`tools/trace/a30b/straighten.py`,
+`tools/trace/l101/straighten.py`). The 727's tail, traced across the 1978 sheet's grid, is set to lines and fitted curves
+through the scan the same way (`tools/trace/b722/straighten.py`).
 
 Each shape is read off its type's airport-planning document (Airbus "Aircraft Characteristics", Boeing "Airplane
 Characteristics for Airport Planning"). Its general-dimensions pages have a dimensioned side, plan and front view. The
@@ -112,6 +124,82 @@ outlines. Laid over it, the MD-90's lines less its plug land on its own within a
 cone, where the scan draws the underside up to 0.35 m higher and the fin 0.3 m further forward. The `MD82` shape keeps
 the vector drawing's tail (confidence medium).
 
+The DC-9s come from Douglas's DC-9 document (June 1984, Rev F 5/84), on boeing.com as DC9.pdf. Its 2.2 sheets are 1-bit
+scans on graph paper like the MD-80's, each drawn a little off level (turned level). `DC93` is traced on the DC-9-32
+sheet. `DC91` and `DC95` are its points moved by the plugs the sheets' printed lengths give, snapped onto the DC-9-15
+and DC-9-51 sheets. The DC-9-10's wing (no slats) and the DC-9-50's JT8D-17 nacelle are their own sheets'. The windows'
+height and width and the cockpit panes are the MD-80's (the same nose and cabin section). The DC-9-15 and DC-9-51
+sheets draw the tube 3% short of the printed 3.61 m (fit to it). Their plans draw the wing short of its printed span:
+the DC-9-10's by 3.1% (the front view agrees with the print). The DC-9-51 sheet draws the cockpit's roof about 0.15 m
+fuller than the DC-9-32's (confidence medium for all three).
+
+The DC-10 (`DC10`) comes from McDonnell Douglas's DC/MD-10 document (DAC-67803A, Revision A April 2004), on boeing.com
+as DC10.pdf. Its DC-10-30 sheet is a gridded scan like the DC-9s'. The shape starts from the MD-11's points less its
+plugs, snapped onto the sheet, with its own wing, tailplane, CF6-50 nacelles, tail engine and fin. The sheet's printed
+51.97 m runs to the tail cone's end under the tail engine. Its plan is drawn 1.2% narrow and its front view's circle
+2% small. The tailplane is widened to the printed span (its plan draws it 3.2% short, its front view as printed). One
+shape serves the -10, -30 and -40: the -10's wing is 3 m shorter, the -40's nacelles are JT9Ds, and the -30's and
+-40's center gear isn't modeled (confidence medium).
+
+The 777-200 and -200ER (`B772`) are on their own sheet, D6-58329 Rev E's 2.2.1, a vector sheet like the 777F's. It's
+the 777F's points (`b77l/`, the same fuselage, fin and tailplane) moved onto it and snapped, with the wing's plain tip
+re-placed where the sheet ends it (60.93 m, where the 777F's raked tip begins). The sheet draws the windows. Door 3 is
+behind the flaps and is placed by its corners that show (36.45 m against the door table's 36.33 m). The nacelle is the
+GE90's the sheet draws. The Trent and PW4000 nacelles of most 777-200ERs are shorter and aren't drawn.
+
+The 757-300 (`B753`) is on D6-58327's 2.2.2, drawn 3.6% larger than the 757-200's sheet. It's the 757-200's points
+moved by the plugs the door table and wheelbases give (4.064 m between door 2 and the wing, 3.048 m behind the wing)
+and snapped onto it. Its doors land within 0.1 m of the table. Like the 757-200's it draws the tube tall (4.22 m) and is
+fit to 2.2.1's printed 4.01 m. It has the PW2000 nacelle and plain tips, as the sheet draws. United's and Delta's fly
+with blended winglets.
+
+The A300-600F (`A306`) is from Airbus's A300F4-600 document (Dec 01/09), its 2.2 page 2, a 1994 scan without a grid.
+Every A300-600 scheme here is a freighter's (FedEx, UPS), so the freighter is the designator's shape, with no cabin
+windows and the main-deck cargo door forward on the left. It's the A300B4's points moved onto the scan and snapped.
+The side view is drawn 6.9% taller than long (the tube 6.03 m against its printed 5.64 m and the fin 8.88 m against
+8.30 m), so it's evened out (`layers.py --xscale`). The front view is rendered to its scale. Page 1's plan is on graph
+paper and not to one scale, so the plan is the B4's with the -600's 0.47 m in the aft fuselage (`a306/plan.py`). The
+side view bears that out, as its fin lands on the B4's moved 0.47 m aft. The tail cone and the CF6-80C2 nacelle are the
+scan's. The tailplane is drawn as the B4's and narrowed to the printed 16.26 m. The nacelles are placed at the printed
+15.88 m apart (the scan draws them 16.5 m). The wingtip fences aren't drawn on the sheet and aren't in the shape
+(confidence medium).
+
+The 747SP (`B74S`) is in Boeing's 747-100/-200/-300/SP document (D6-58326, the May 1984 edition on boeing.com as
+747_123sp.pdf). Its SP pages are scans: the 2.2.2 sheet (August 1975) draws lines about 0.35 m thick over a 5 ft grid,
+too coarse to trace. So, as the 747-8 is, it's the 747-400's measured outlines taken apart where the SP's own figures
+say (`b74s/derive.py`). Its door table (doors at 9.50, 16.41, 31.60 and 41.35 m) and cargo-door tables against the
+747-100's give plugs of 2.39 m between the forward cargo door and door 2, 2.69 m between door 2 and the wing and
+4.06 m behind the wing (the 747's door 3 is gone). The cabin loses 4.65 m more behind the aft cargo door. The body
+behind that door is the 747's taper squeezed lengthwise into the SP's to the printed 53.87 m tail cone, which the
+scan's belly follows within its line. The upper deck is the 747-100's short one (the 747-400F's), not moved: it reaches
+back over the wing box as the scan draws it. Its ten windows a side are from Pan Am photos. The fin is the 747-400's,
+0.68 m taller to 2.3.3's fin tip 10.76 m above the crown, its trailing edge brought to the printed 56.31 m overall length.
+The tailplane is read off the scan's plan, set to the printed 25.22 m span and 55.85 m to its tip. The wing is the
+747-400's without its tip extensions, cut at the printed 59.64 m. The engines sit where the 747-400's do (11.97 m and
+21.18 m out against a printed 11.94 m and 21.18 m). Its nacelles are the 747-400's RB211s standing in for the SP's
+JT9Ds, which the scan can't tell apart. Confidence medium.
+
+The 747-100 and -200 (`B742`, serving `B741` and `B742`) are in the same document's 2.2.1 (747-100B, -200, -300), a
+scan as coarse as the SP's. Its figures and 2.7.1's door table (9.50, 18.80, 30.61, 40.74 and 55.14 m) are the
+747-400's but for the span, so it's the 747-400's measured outlines with what's the -100/-200's own (`b742/derive.py`):
+the 747-400F's short upper deck, 2.7.6's 0.61 by 1.22 m upper deck exit door at 8.00 m, and the wing cut at the printed
+59.64 m with no winglets. Its upper deck has three windows a side, 1.52 m apart, as most 1983-86 photos of Pan Am's
+747-121s, TWA's 747-131s, People Express's 747-143 and Braniff's 747-127 and 747-230B show (placed on TWA's and People
+Express's by doors 1 and 2, 12.45-15.5 m). Pan Am's 747-212Bs and People Express's and Braniff's 747-227Bs had ten; they
+aren't drawn. Its plan prints the inboard engine 12.1 m out (-1.2%); its front view draws it 11.9 m out, as the
+747-400's is. The nacelles are the 747-400's RB211s standing in for the JT9Ds, which the scan can't tell apart (an
+overlay puts the inlets within 0.5 m). Confidence medium.
+
+The L-1011-500 (`L101-500`, serving `L101`) has no openly available drawing at all. The maintenance manual's chapter 6
+that `L101` is read from covers the standard-body aircraft only. So it's the -1's measured outlines with the -500's
+published differences (`l101-500/derive.py`): a fuselage 4.11 m (13 ft 6 in) shorter and a span 9 ft longer (164 ft
+4 in, the extended tips carried out along the -1's planform). Where the plugs go isn't published in the open. They're
+placed 2.54 m between doors 1 and 2 and 1.57 m behind the wing, where the -1's door 3 was. The -500's three Type A
+doors a side are the -1's doors 1 and 2 and one at its Type I door 4. Two side-on photos of N514PA put its door 2
+within 0.5 m and its aft door within 0.9 m of that. The tail, nacelles and lower deck's doors are the -1's. Its length
+is 0.5% over the published 164 ft 2.5 in, as the -1's maintenance manual figure is over its own published length.
+Confidence low.
+
 `E135` covers both the ERJ-135 and the longer ERJ-140, and two shapes serve it. `E135` is the ERJ-135. The other is
 `E135-erj140`. Embraer's ERJ-140 figure isn't drawn to one scale. Its side and plan are short lengthwise against their
 spans and the side is nose down. Evened out, it still misplaces its doors. Its door figure prints the ERJ-135's 12.79 m
@@ -130,7 +218,15 @@ Confidence medium. The 727-200F's sheet (`B722`) is a 1978 scan on graph paper. 
 drawing. Where an outline runs along one (the nose's crown) it's placed point by point. Its front view draws what stands
 above and beside the fuselage 0.25-0.5 m low against the fuselage's circle. So the tailplane takes the side view's
 height (the recipe's `stabilizerZ`). Its main-deck cargo door is the 727-100C's from Boeing's door table (727-200F
-conversions fit the same size just aft of the entry door). Confidence medium.
+conversions fit the same size just aft of the entry door). Confidence medium. `B722-passenger`, the 727-200, is that
+shape with the passenger aircraft's windows and doors (`b722-passenger/derive.py`). The sheet draws the window row
+but too coarsely to count, so two side-on Commons photos (Eastern's N819EA from the left, Piedmont's N555PS from the
+right) count it: 26 windows behind the entry door, the two overwing exits with 2 between them, 15, the aft service
+door, 2. The shape has one window row for both sides, the left's. On the right the galley door blanks the first five.
+The aft service doors (both sides) are at 29.47 m, where N555PS puts them (2.7's table prints 29.6 m and 2.2 draws
+29.25 m). Its crown, belly and width along the cabin are fitted straight (the scan steps 2-4 cm there). The sheet
+draws the aircraft at its ground attitude, the cabin rising 0.44° aft. A window row is one height, so the passenger
+shape is turned about the wing to bring its cabin level, the windows parallel to the crown as photos show them.
 
 The Dash 8-400's sheet (`DH8D`, Figure 2-2 of Bombardier's Series 400 planning manual) draws the side view at the ground
 attitude (turned level, 1.26°). It draws the plan turned 31.92° and 0.896 times the side's size (rendered to its scale
@@ -214,6 +310,22 @@ of 12 is plugged on the HC-144 but for two or three portholes a side. A short ro
 landmark) to mid-body ahead of the ramp. The sponsons are left out, and so are the HC-144's radar radome under the
 forward fuselage and its sensor turret. A side-on photo of HC-144B 2311 lands on the outline within about 0.1 m.
 Confidence medium.
+
+The Convair 580 (`CVLT`) has no airport-planning document in the open. It's a Convair 340 or 440 airframe with
+Allison 501-D13 turboprops, an enlarged fin and a weather-radar nose. So it's built in two steps. The 340's airframe
+is read off the three views in the USAF technical order T.O. 1C-131B-2-2 (page 2B, the C-131B Samaritan: a 340 with
+R-2800 radials). That's a public-domain scan on Wikimedia Commons of about 47 px a meter, read like the C-130's.
+It's scaled by its printed 79 ft 2 in. Its plan is drawn 5% short lengthwise (evened out) and its front view 0.7%
+small. Its span is 0.5% short and its tailplane 0.4% wide. The fuselage is drawn 2.80 m wide by line centres against
+the printed 9 ft 5 in (kept: −2.6%). Then `cvlt/derive.py` writes the 580's own parts over it from a side-on photo of
+Air Chathams' ZK-CIE (CC BY 4.0, scaled by the published 81 ft 6 in). The extra 0.71 m is the nose: the photo puts it
+ahead of the nose gear, so the 340's lines move aft by it and the photo's nose and flight deck take its place. The
+fin and its dorsal fillet are the photo's (the tip 4.22 m above the crown against the C-131B's 3.59 m). So are the
+nacelle from the side, the four-bladed propeller's plane and the windows and doors. The photo looks down about 5°,
+so what stands out toward it (the nacelle, the near side's windows and doors) is put back up by that. The propeller's
+hub then sits 0.51 m under the centerline, where the drawing has its own. The 580's tailplane isn't measured (the
+340's is kept) and its nacelle's width from above is estimated. Its fin stands 8.67 m above the drawing's ground
+line, against a published 29 ft 2 in (−2.4%; other tables give 28 ft 2 in). Confidence medium.
 
 ## Axes
 
@@ -323,7 +435,8 @@ draws both.
   nacelle's bottom to the crown below it (the MD-11's, 0.6 m tall).
 - **`s`** (the 727, L-1011): the engine is in the tail cone, fed by an S-duct from an intake on the crown ahead of the
   fin. `top` and `bottom` are the intake's fairing from the side. Its top runs from the lip back to where it runs into
-  the fin's leading edge (the fin's root sits on it). Its bottom is the crown.
+  the fin's leading edge (the fin's root sits on it). Its bottom is the crown. Under the fin the outline is bridged
+  (hidden): the fairing and fin are one painted surface, so the renderer draws the outline only outside the fin.
 
 Either way `x` is the inlet lip (the intake's) and the exhaust (the nozzle's end). `halfWidth`, [x, y], is the nacelle's
 or intake's side from above. `inlet` is its opening from the front. `nozzle` (`top`, `bottom`) is the bare exhaust where
@@ -441,8 +554,9 @@ on a shape without cabin windows, so an app can take the freighter of a type wit
      Bombardier's planning manual) is done. The **ATR 72-600** (AT76, serving AT75 too) is done from ATR's own
      dimensioned drawing because its planning manual isn't public. The **ATR 42-600** (AT46, serving AT45) is done the
      same way. Next is the Dash 8-100/200/300 (DH8A-C), whose planning manuals are on Bombardier's page too. The center
-     engine is done (the **MD-11**, `MD11` and `MD11-passenger`, and the **727-200F**, `B722`). The **DC-10** (DC10) and
-     **L-1011** (L101, an S-duct like the 727's) would use it.
+     engine is done (the **MD-11**, `MD11` and `MD11-passenger`, and the **727-200F**, `B722`). The **L-1011** (L101, an S-duct like the 727's)
+     and the **DC-10** (DC10, a straight duct like the MD-11's) use it. The **DC-9-10, -30 and -50** (DC91, DC93, DC95) are done from Douglas's
+     DC-9 document, gridded 1984 scans.
      The A319 is drawn with sharklets. Many fly with wingtip fences, which would be a variant. The 757-200 and 767-300ER
      are drawn with plain wingtips, as Boeing's documents draw them. Most US ones fly with blended winglets (Aviation
      Partners Boeing's), which would be variants from a non-Boeing source.

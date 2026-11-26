@@ -1,0 +1,496 @@
+{
+ "$schema": "../schema/shape.schema.json",
+ "id": "CVLT",
+ "name": "Convair 580",
+ "types": [
+  "CVLT"
+ ],
+ "confidence": "medium",
+ "sources": [
+  {
+   "url": "https://commons.wikimedia.org/wiki/File:Convair_C-131B_Samaritan_3-view_line_drawing.png",
+   "title": "USAF, T.O. 1C-131B-2-2, page 2B: the Convair C-131B Samaritan side, plan and front views with their dimensions (a scan on Wikimedia Commons, public domain as a USAF work)",
+   "accessed": "2026-11-24",
+   "note": "The Convair 340 airframe the 580 is converted from (the C-131B is a 340 with R-2800 radials), read off the three views (tools/trace/cvlt/, step 1); the figures are the aircraft's measurements, not a copy of the drawing. From it: the fuselage aft of the radar nose (crown from 3.75 m, belly from 4.9 m back, eased into the photo's over 0.75 m and 3 m), the plan's width, the wing (plan and front view), the tailplane's planform, and the engines' 12 ft 6 in out from the centerline. Scaled by its printed 79 ft 2 in (24.13 m); the plan is drawn 5% short lengthwise (evened out: the propellers' plane then lands on the side view's) and the front view 0.7% small (rendered to the side's scale). The span is drawn 0.5% short of the printed 105 ft 4 in, the tailplane 0.4% wide of 36 ft 7 in. The fuselage is drawn 2.80 m wide by its lines' centres in plan and front view against the printed 9 ft 5 in, which is to the lines' outer edges (kept: -2.6%); its height 2.86 m. The tailplane is the 340's: the 580's 'modified' tailplane couldn't be measured from the side, but a side-on photo puts its aft end where the drawing does. The drawing's own fin stands 8.03 m above its ground line where it prints 28 ft 1.64 in, so it isn't used for the fin (the 580's is larger anyway)."
+  },
+  {
+   "url": "https://commons.wikimedia.org/wiki/File:Convair_CV-580_ZK-CIE_Air_Chathams_07-09-2020_18045.jpg",
+   "title": "Air Chathams Convair 580 ZK-CIE at Auckland, 2020-07-09, left side (CC BY 4.0)",
+   "accessed": "2026-11-24",
+   "note": "The 580's own parts (tools/trace/cvlt/photo.json, derive.py; only measurements are taken), scaled by the published 81 ft 6 in nose to tail cone (169 px a meter; the fuselage then measures 2.90 m tall against the printed 9 ft 5 in, and the vertical propeller blade 4.14 m tip to tip). The weather-radar nose: the 0.71 m the 580 is longer than the 340 is ahead of the nose gear (nose tip to nose wheel 3.16 m against the drawing's 7 ft 11 in; nose wheel to main wheels and to the tail cone as the drawing prints them), and its outline from the tip to behind the flight deck is the photo's. The enlarged fin and its dorsal fillet: the tip 4.22 m above the crown (the C-131B drawing's 3.59 m), the leading edge's straight run on the drawn 340's line, the trailing edge 0.2-0.3 m further aft. The Allison 501-D13 nacelle from the side (the spinner, the cowl, the gear pod under it and the exhaust over the wing's trailing edge) and the four-bladed propeller's plane, 0.4 m ahead of the 340's. The camera looks down about 5 degrees (the near main wheel stands 0.27 m lower than the nose wheel): the nacelle, 3.81 m nearer, and the near side's windows, doors and glass are put back up by it, which puts the propeller's hub 0.51 m under the centerline, where the C-131B's drawing has its own. The nacelle's width from above isn't in any photo found: it's estimated (1.2 m at most, about 1.4 spinner diameters), and the shape's confidence is medium. Windows: twelve a side (eleven between the doors, three of them window exits, one behind the aft door), as the Republic Airlines photos below show them too. Doors: the forward airstair door and the aft door on the left; the right side's doors aren't measured (the left's are mirrored only where a door has no side). The flight deck's three panes a side."
+  },
+  {
+   "url": "https://firewebext.ffm.vic.gov.au/BurnsToday/sau/SAU_External/documents/MEAT/SAU%20Aircraft%20Fact%20Sheet%20Convair%20CV-580%20V1.pdf",
+   "title": "State Aircraft Unit (CFA and DSE, Victoria), Aircraft Fact Sheet: Convair CV-580 (2010)",
+   "accessed": "2026-11-24",
+   "note": "The published figures the shape is checked against: wingspan 105 ft 4 in (32.10 m), length 81 ft 6 in (24.84 m, the scale), height 29 ft 2 in (8.89 m); Allison 501-D13 engines with Aero-products A6441FN-606A propellers. Other published tables give the 580's height as 28 ft 2 in (the 340's figure). The shape's fin tip stands 8.67 m above the C-131B drawing's ground line: -2.4% against 29 ft 2 in, +1.0% against 28 ft 2 in. The propeller's 13 ft 6 in (4.115 m) is the commonly published figure for the 580's Aeroproducts propeller (not found in a primary document); the photo's vertical blade measures 4.14 m, and the C-131B drawing prints the same 13 ft 6 in for its own."
+  },
+  {
+   "url": "https://commons.wikimedia.org/wiki/File:Convair_580_(Air_Chathams)_Wellington_07.jpg",
+   "title": "Air Chathams Convair 580 ZK-CIB on approach at Wellington, 2007-05-04, nearly head on (CC BY 2.0)",
+   "accessed": "2026-11-24",
+   "note": "A check only: the two propeller hubs 0.3-0.5 m under the fuselage's centerline (the aircraft a little banked), as the shape has them (0.51 m)."
+  }
+ ],
+ "fuselage": {
+  "length": 24.84,
+  "crown": [
+   [0.0, -0.407],
+   [0.005, -0.34],
+   [0.02, -0.275],
+   [0.075, -0.163],
+   [0.172, -0.054],
+   [0.316, 0.051],
+   [0.557, 0.171],
+   [0.838, 0.273],
+   [1.342, 0.4],
+   [1.772, 0.49],
+   [1.879, 0.526],
+   [1.94, 0.565],
+   [1.99, 0.619],
+   [2.134, 0.852],
+   [2.2, 0.933],
+   [2.292, 1.0],
+   [2.444, 1.069],
+   [2.72, 1.156],
+   [3.03, 1.233],
+   [3.207, 1.268],
+   [4.376, 1.428],
+   [4.555, 1.444],
+   [4.754, 1.45],
+   [5.429, 1.436],
+   [7.709, 1.43],
+   [14.329, 1.437],
+   [16.358, 1.413],
+   [16.739, 1.362],
+   [17.936, 1.277],
+   [18.652, 1.202],
+   [18.99, 1.178],
+   [19.303, 1.131],
+   [20.037, 1.044],
+   [20.361, 0.99],
+   [20.687, 0.949],
+   [21.298, 0.846],
+   [22.505, 0.616],
+   [23.643, 0.345],
+   [24.56, 0.061],
+   [24.715, -0.005],
+   [24.773, -0.041],
+   [24.814, -0.083],
+   [24.84, -0.089]
+  ],
+  "belly": [
+   [0.0, -0.407],
+   [0.01, -0.513],
+   [0.035, -0.605],
+   [0.08, -0.689],
+   [0.143, -0.761],
+   [0.235, -0.835],
+   [0.349, -0.897],
+   [0.468, -0.947],
+   [0.601, -0.987],
+   [1.086, -1.09],
+   [1.69, -1.199],
+   [2.133, -1.265],
+   [2.996, -1.362],
+   [3.832, -1.425],
+   [4.271, -1.444],
+   [4.741, -1.454],
+   [6.256, -1.449],
+   [6.41, -1.46],
+   [6.558, -1.495],
+   [6.718, -1.451],
+   [6.828, -1.439],
+   [8.016, -1.424],
+   [12.946, -1.43],
+   [17.666, -1.454],
+   [18.434, -1.45],
+   [19.292, -1.435],
+   [19.93, -1.394],
+   [20.703, -1.309],
+   [20.998, -1.262],
+   [21.332, -1.197],
+   [21.927, -1.066],
+   [22.501, -0.93],
+   [23.014, -0.797],
+   [23.426, -0.679],
+   [23.879, -0.528],
+   [24.634, -0.25],
+   [24.75, -0.196],
+   [24.789, -0.166],
+   [24.818, -0.127],
+   [24.84, -0.117]
+  ],
+  "halfWidth": [
+   [0.0, 0.0],
+   [0.024, 0.117],
+   [0.041, 0.163],
+   [0.077, 0.231],
+   [0.129, 0.301],
+   [0.191, 0.364],
+   [0.261, 0.419],
+   [0.451, 0.527],
+   [0.634, 0.606],
+   [0.795, 0.66],
+   [1.293, 0.763],
+   [1.708, 0.876],
+   [1.897, 0.941],
+   [2.179, 1.066],
+   [2.329, 1.118],
+   [2.6, 1.189],
+   [2.864, 1.243],
+   [3.547, 1.338],
+   [4.193, 1.4],
+   [4.773, 1.418],
+   [10.563, 1.398],
+   [12.753, 1.398],
+   [13.148, 1.408],
+   [13.635, 1.391],
+   [17.795, 1.391],
+   [18.625, 1.383],
+   [19.115, 1.358],
+   [19.643, 1.314],
+   [20.327, 1.23],
+   [21.963, 0.946],
+   [22.305, 0.875],
+   [22.888, 0.733],
+   [23.274, 0.628],
+   [23.864, 0.436],
+   [24.119, 0.361],
+   [24.537, 0.182],
+   [24.656, 0.112],
+   [24.788, 0.012],
+   [24.813, 0.0],
+   [24.84, 0.0]
+  ],
+  "widest": 0.202
+ },
+ "fin": {
+  "leading": [
+   [20.511, 0.974],
+   [22.304, 5.134],
+   [22.4, 5.342],
+   [22.445, 5.418],
+   [22.494, 5.478],
+   [22.543, 5.523],
+   [22.608, 5.565],
+   [22.679, 5.596],
+   [22.763, 5.621],
+   [22.976, 5.651]
+  ],
+  "trailing": [
+   [24.811, 0.077],
+   [24.423, 1.66],
+   [23.732, 4.897],
+   [23.676, 5.119],
+   [23.632, 5.229],
+   [23.578, 5.322],
+   [23.517, 5.397],
+   [23.444, 5.461],
+   [23.345, 5.526],
+   [23.238, 5.577],
+   [23.136, 5.612],
+   [22.976, 5.651]
+  ],
+  "fillet": [
+   [16.172, 1.414],
+   [16.539, 1.457],
+   [17.23, 1.572],
+   [17.934, 1.721],
+   [18.668, 1.916],
+   [19.376, 2.134],
+   [19.734, 2.261],
+   [20.187, 2.445],
+   [20.416, 2.547],
+   [20.638, 2.66],
+   [20.852, 2.789],
+   [21.035, 2.927],
+   [21.252, 3.119],
+   [21.44, 3.312],
+   [21.604, 3.509]
+  ],
+  "rudder": [
+   [22.888, 0.432],
+   [23.036, 5.402]
+  ]
+ },
+ "wing": {
+  "leading": [
+   [1.483, 9.005],
+   [8.63, 9.956],
+   [10.271, 10.187],
+   [11.293, 10.315],
+   [12.797, 10.529],
+   [13.254, 10.583],
+   [14.164, 10.714],
+   [14.531, 10.756],
+   [15.095, 10.843],
+   [15.511, 10.897],
+   [15.665, 10.927],
+   [15.77, 10.967],
+   [15.859, 11.031],
+   [15.938, 11.127],
+   [15.953, 11.136],
+   [15.966, 11.134]
+  ],
+  "trailing": [
+   [1.944, 12.489],
+   [2.423, 12.461],
+   [2.883, 12.461],
+   [4.702, 12.657],
+   [5.011, 12.67],
+   [8.248, 12.532],
+   [8.818, 12.519],
+   [10.046, 12.452],
+   [10.535, 12.441],
+   [11.654, 12.391],
+   [12.564, 12.368],
+   [13.563, 12.319],
+   [14.802, 12.278],
+   [15.53, 12.24],
+   [15.649, 12.221],
+   [15.702, 12.196],
+   [15.744, 12.156],
+   [15.849, 11.987],
+   [15.896, 11.931],
+   [15.926, 11.913],
+   [15.966, 11.915]
+  ],
+  "z": [
+   [1.469, -0.955],
+   [2.427, -0.891],
+   [6.68, -0.512],
+   [11.439, 0.027],
+   [15.532, 0.499],
+   [15.973, 0.557]
+  ]
+ },
+ "stabilizer": {
+  "leading": [
+   [1.306, 21.217],
+   [5.038, 22.162],
+   [5.172, 22.202],
+   [5.273, 22.242],
+   [5.512, 22.38],
+   [5.538, 22.387],
+   [5.599, 22.381]
+  ],
+  "trailing": [
+   [1.306, 23.694],
+   [3.507, 23.431],
+   [4.249, 23.325],
+   [5.072, 23.223],
+   [5.178, 23.2],
+   [5.267, 23.164],
+   [5.332, 23.124],
+   [5.513, 22.988],
+   [5.543, 22.981],
+   [5.575, 22.991],
+   [5.599, 22.984]
+  ],
+  "z": [
+   [1.412, -0.041],
+   [1.895, -0.037]
+  ]
+ },
+ "engines": [
+  {
+   "x": [6.379, 12.74],
+   "y": 3.81,
+   "top": [
+    [6.379, 0.291],
+    [6.562, 0.371],
+    [6.675, 0.408],
+    [6.791, 0.432],
+    [6.959, 0.448],
+    [7.328, 0.466],
+    [7.798, 0.467],
+    [8.298, 0.451],
+    [8.587, 0.433],
+    [9.064, 0.381],
+    [9.515, 0.292],
+    [9.787, 0.226],
+    [10.694, -0.021],
+    [10.889, -0.064],
+    [12.74, -0.271]
+   ],
+   "bottom": [
+    [6.379, -1.011],
+    [6.579, -1.101],
+    [6.729, -1.154],
+    [6.874, -1.189],
+    [7.179, -1.244],
+    [7.437, -1.276],
+    [8.484, -1.357],
+    [8.631, -1.374],
+    [8.72, -1.395],
+    [8.788, -1.437],
+    [8.824, -1.498],
+    [8.84, -1.576],
+    [8.861, -1.798],
+    [8.881, -1.871],
+    [8.923, -1.923],
+    [8.989, -1.949],
+    [9.159, -1.962],
+    [10.858, -1.983],
+    [11.005, -1.971],
+    [11.048, -1.954],
+    [11.08, -1.925],
+    [11.113, -1.843],
+    [11.137, -1.624],
+    [11.155, -1.545],
+    [11.192, -1.48],
+    [11.253, -1.435],
+    [11.414, -1.375],
+    [12.74, -0.982]
+   ],
+   "propeller": {
+    "x": 6.142,
+    "z": -0.514,
+    "diameter": 4.115,
+    "blades": 4,
+    "spinner": {
+     "x": [5.479, 6.349],
+     "diameter": 0.858
+    }
+   },
+   "halfWidth": [
+    [6.379, 0.42],
+    [6.599, 0.486],
+    [6.775, 0.52],
+    [7.512, 0.574],
+    [7.852, 0.582],
+    [9.752, 0.597],
+    [10.931, 0.565],
+    [11.161, 0.552],
+    [11.922, 0.437],
+    [12.74, 0.3]
+   ]
+  }
+ ],
+ "cabin": {
+  "windows": {
+   "z": [0.151, 0.577],
+   "width": 0.438,
+   "x": [
+    7.645,
+    8.609,
+    9.533,
+    10.562,
+    11.556,
+    12.473,
+    13.438,
+    14.402,
+    15.373,
+    16.337,
+    17.302,
+    19.544
+   ],
+   "note": "Each window's middle as the photo of ZK-CIE's left side shows it (photo.json): eleven between the forward door and the aft door, one behind it; three are window exits."
+  },
+  "doors": [
+   {
+    "kind": "door",
+    "x": [4.278, 5.237],
+    "z": [-1.098, 0.946],
+    "side": "left"
+   },
+   {
+    "kind": "exit",
+    "x": [9.237, 9.828],
+    "z": [0.081, 0.731]
+   },
+   {
+    "kind": "exit",
+    "x": [11.26, 11.852],
+    "z": [0.08, 0.731]
+   },
+   {
+    "kind": "exit",
+    "x": [14.107, 14.698],
+    "z": [0.08, 0.731]
+   },
+   {
+    "kind": "door",
+    "x": [18.036, 18.923],
+    "z": [-0.72, 1.091],
+    "side": "left"
+   }
+  ]
+ },
+ "cockpit": {
+  "windows": [
+   [
+    [1.985, 0.614],
+    [1.99, 0.619],
+    [2.134, 0.852],
+    [2.2, 0.933],
+    [2.213, 0.942],
+    [2.429, 0.898],
+    [2.213, 0.574]
+   ],
+   [
+    [2.213, 0.513],
+    [2.467, 0.879],
+    [2.666, 0.882],
+    [2.438, 0.464]
+   ],
+   [
+    [2.444, 0.45],
+    [2.695, 0.861],
+    [3.219, 0.874],
+    [3.219, 0.474]
+   ]
+  ]
+ },
+ "checks": [
+  {
+   "dimension": "overall length",
+   "printed": 24.84,
+   "shape": 24.84,
+   "off": "+0.0%"
+  },
+  {
+   "dimension": "wingspan",
+   "printed": 32.106,
+   "shape": 31.932,
+   "off": "-0.5%"
+  },
+  {
+   "dimension": "tailplane span",
+   "printed": 11.151,
+   "shape": 11.198,
+   "off": "+0.4%"
+  },
+  {
+   "dimension": "fuselage width",
+   "printed": 2.87,
+   "shape": 2.796,
+   "off": "-2.6%"
+  },
+  {
+   "dimension": "fuselage height",
+   "printed": 2.87,
+   "shape": 2.856,
+   "off": "-0.5%"
+  },
+  {
+   "dimension": "engine out from the centerline",
+   "printed": 3.81,
+   "shape": 3.81,
+   "off": "+0.0%"
+  },
+  {
+   "dimension": "propeller diameter",
+   "printed": 4.115,
+   "shape": 4.115,
+   "off": "+0.0%"
+  },
+  {
+   "dimension": "overall height",
+   "printed": 8.89,
+   "shape": 8.674,
+   "off": "-2.4%"
+  }
+ ]
+}

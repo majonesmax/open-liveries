@@ -849,6 +849,36 @@
       ],
       "status": "photographed in the Polar/DHL co-brand 2024-01-24 and 2024-10-01 (Commons)",
       "notes": "Polar Air Cargo's 747-8F in the Polar/DHL co-brand; Atlas took Polar over in 2025, and sister N858GT had lost its titles by 2025-03, so this may change."
+    },
+    {
+      "registration": "N864GT",
+      "livery": "white-tail",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:N864GT_(aircraft)",
+          "title": "N864GT on Commons",
+          "accessed": "2026-11-25"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N864GT_(55066801910).jpg",
+          "title": "N864GT (55066801910).jpg (CC BY-SA 4.0)",
+          "accessed": "2026-11-25",
+          "note": "2026-01-19: all white, white tail."
+        },
+        {
+          "url": "https://www.jetphotos.com/registration/N864GT",
+          "title": "N864GT on JetPhotos",
+          "accessed": "2026-11-25",
+          "note": "Evidence only: 'ATLAS AIR' titles added, the tail still white."
+        }
+      ],
+      "hex": "abde5b",
+      "hexSource": "seen with this registration in the adsb.lol feed (2026-11, flying as GTI860), not checked against the FAA registry",
+      "type": "B748",
+      "lastSeen": "2026-11",
+      "status": "active: flying as GTI860 in November 2026 (the maintainer's sighting); white tail with Atlas titles.",
+      "notes": "A 747-8F, but the ADS-B feed reports its type as B743 (a 747-300), so an app taking the feed's type draws it on the wrong shape: draw it as a B748."
     }
   ]
 }

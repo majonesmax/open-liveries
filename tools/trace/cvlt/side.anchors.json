@@ -1,0 +1,24 @@
+{
+  "_about": "USAF T.O. 1C-131B-2-2, page 2B: the Convair C-131B Samaritan (a Convair 340 airframe) three-view, a Wikimedia Commons scan (File:Convair C-131B Samaritan 3-view line drawing.png, 1850 x 2408 px, public domain). The side view: layers.py --mode image --threshold 170 at scale 3 (3 raster px per scan px), clip 280,90,1510,570 (scan px). Pixels of that raster, line centres. The crown runs along the 9 ft 5 in dimension's extension line from behind the windshield back to the fin (snapped onto it: one line). The ADF bump on the crown and the wing's root fairing and nacelle under the belly are bridged (hidden). The C-131B's R-2800 nacelle isn't traced: the Convair 580's Allison nacelle, measured on a photo, replaces it (derive.py), so its outline here is two free points a side. The fin is the 340's: derive.py replaces it with the 580's enlarged fin.",
+  "fuselage.crown": [
+    [68, 789], [80, 747], [100, 724], [130, 704], [160, 688], [200, 674], [250, 662], [290, 652], [320, 613],
+    [350, 598], [400, 587], [450, 579], [500, 573], [700, 566], [1150, 567], "hidden", [1330, 567], [1800, 567],
+    [2200, 568], [2400, 582], [2600, 598], [2800, 623], [3000, 654], [3100, 673], [3200, 696], [3300, 720],
+    [3400, 749], [3440, 762], [3468, 785]
+  ],
+  "fuselage.belly": [
+    [68, 789], [80, 828], [100, 848], [130, 866], [160, 881], [200, 898], [250, 912], [290, 921], [350, 931],
+    [400, 939], [450, 945], [500, 951], [700, 964], [900, 968], "hidden", [1800, 970], [2000, 972], [2200, 972],
+    [2400, 973], [2600, 972], [2800, 963], [3000, 932], [3100, 909], [3200, 885], [3300, 858], [3400, 820],
+    [3440, 806], [3468, 785]
+  ],
+  "fin.fillet": [[2250, 567], [2400, 556], [2600, 530], [2732, 500], [2800, 476], [2928, 400], [2976, 350]],
+  "fin.leading": [[2976, 350], [3006, 300], [3055, 200], [3104, 100], [3115, 75], [3150, 62], [3190, 60]],
+  "fin.trailing": [
+    [3439, 740], [3416, 650], [3390, 550], [3364, 450], [3338, 350], [3312, 250], [3287, 150], [3273, 100],
+    [3255, 80], [3190, 60]
+  ],
+  "fin.rudder": [[3148, 620], [3169, 400], [3192, 200], [3202, 100]],
+  "engine.top": [{"free": [940, 790]}, "hidden", {"free": [1700, 800]}],
+  "engine.bottom": [{"free": [940, 900]}, "hidden", {"free": [1700, 860]}]
+}

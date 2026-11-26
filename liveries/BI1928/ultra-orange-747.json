@@ -1,0 +1,468 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "ultra-orange-747",
+  "airline": "BI1928",
+  "name": "Ultra orange, 747s (1979)",
+  "kind": "standard",
+  "from": "1978-01",
+  "to": "1982-05",
+  "confidence": "medium",
+  "drawnOn": "B742",
+  "description": "The 747s' version of Braniff International's 1978 'Ultra' scheme, worn by every Braniff 747 but N601BN in 1979 (the 747-200s, the leased 747-100 N610BN and the 747SPs): the whole aircraft a deep orange, belly included (no silver belly or belly pinstripes), the fin, rudder and tailplane orange, with a broad cream-gold pinstripe and a thin dark red one just inside the fin's leading edge. 'BRANIFF INTERNATIONAL' in large cream-gold upright capitals (wide, geometric, of even stroke) over the forward main-deck windows, from about 10.4 m back to well behind the second door, just under the upper deck's windows. Orange nacelles with cream and red bands behind polished lips. Gray wings.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Boeing_727-227(Adv),_Braniff_International_Airways_JP5938773.jpg",
+      "title": "Boeing 727-227(Adv), Braniff International Airways, October 1980 (GFDL 1.2, via Commons)",
+      "accessed": "2026-11-24",
+      "note": "N447BN in Flying Colors orange over ochre, left side, side-on in sun at Las Vegas: fitted to shapes/B722.json (nose, tail cone, forward door, crown and belly at 10 m; within 3 px): the split's height, the title's ends and height, the windows' height against it, 'Flying Colors' on the S-duct fairing."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Boeing_727-227,_Braniff_International_Airways_JP5938778.jpg",
+      "title": "Boeing 727-227, Braniff International Airways, October 1980 (GFDL 1.2, via Commons)",
+      "accessed": "2026-11-24",
+      "note": "N454BN in Flying Colors red over Aztec gold, right side, side-on: flipped and fitted to shapes/B722.json (nose, tail cone, the tailplane fairing's tip, crown and belly; within 8 px): the split, the fin's band and the 'BI' (size and place), 'Flying Colors'."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Braniff_International_Airways_Boeing_727-227_Adv_N431BN.jpg",
+      "title": "Braniff International Airways Boeing 727-227 Adv N431BN, October 1980 (CC BY-SA 4.0, via Commons)",
+      "accessed": "2026-11-24",
+      "note": "Flying Colors orange over ochre, right side: the fin's band aft of the 'BI' on the right face too, the flag ahead of the title, bare metal nacelles."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Braniff_International_Airways_Boeing_727-227_Adv_N434BN.jpg",
+      "title": "Braniff International Airways Boeing 727-227 Adv N434BN, October 1980 (CC BY-SA 4.0, via Commons)",
+      "accessed": "2026-11-24",
+      "note": "Flying Colors blue over light blue, right side: the blue pair's colors and the same layout."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Braniff_International_Airways_Boeing_727-227_Adv_N426BN.jpg",
+      "title": "Braniff International Airways Boeing 727-227 Adv N426BN, September 1977 (GFDL 1.2, via Commons)",
+      "accessed": "2026-11-24",
+      "note": "Flying Colors green over light green, left side, 1977 (repainted metallic blue in 1978): the green pair's colors."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N452BN_Boeing_727-200_of_Braniff_at_LGA_1978_(6004630370).jpg",
+      "title": "N452BN Boeing 727-200 of Braniff at LGA, 1978 (CC BY-SA 2.0, via Commons)",
+      "accessed": "2026-11-24",
+      "note": "Flying Colors blue pair, 1978: the scheme as worn in the late 1970s."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Boeing_727-227(Adv),_Braniff_International_Airways_JP5938770.jpg",
+      "title": "Boeing 727-227(Adv), Braniff International Airways, October 1980 (GFDL 1.2, via Commons)",
+      "accessed": "2026-11-24",
+      "note": "N455BN in Ultra chocolate brown, left side, side-on: fitted to shapes/B722.json (nose, tail cone, the tailplane fairing's tip, forward door, crown and belly at 17 m; within 6 px): every Ultra edge (the belly's pinstripes and silver, their rise along the belly aft and up the tail cone, the fin's pinstripes), the 'Braniff' title's ends and height, the nacelles' and center inlet's bands."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Braniff_International_Airways_Boeing_727-227_Adv_N412BN_(2).jpg",
+      "title": "Braniff International Airways Boeing 727-227 Adv N412BN, 13 May 1980 (CC BY-SA 4.0, via Commons)",
+      "accessed": "2026-11-24",
+      "note": "N412BN in Ultra terra cotta, left side from ahead (a poor fit, used by eye): the pinstripes' order, the silver belly running up the tail cone behind a diagonal, the fin outlined front and back, the title's lettering up close."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Braniff_International_Airways_Boeing_727-2B7_N404BN.jpg",
+      "title": "Braniff International Airways Boeing 727-2B7 N404BN, 17 May 1980 (CC BY-SA 4.0, via Commons)",
+      "accessed": "2026-11-24",
+      "note": "N404BN, the one sparkling (metallic) burgundy 727, left side: its strawberry-red pinstripes and title."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Boeing_727-227(Adv),_Braniff_International_Airways_JP5938771.jpg",
+      "title": "Boeing 727-227(Adv), Braniff International Airways, October 1980 (GFDL 1.2, via Commons)",
+      "accessed": "2026-11-24",
+      "note": "N467BN in Ultra Perseus green (very dark blue-green, turquoise pinstripes and title), right side."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Boeing_727-227(Adv),_Braniff_International_Airways_JP5938772.jpg",
+      "title": "Boeing 727-227(Adv), Braniff International Airways, October 1980 (GFDL 1.2, via Commons)",
+      "accessed": "2026-11-24",
+      "note": "N468BN, a dark red-brown Ultra 727 (read here as burgundy; terra cotta isn't ruled out), right side."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Boeing_727-227(Adv),_Braniff_International_Airways_JP5938774.jpg",
+      "title": "Boeing 727-227(Adv), Braniff International Airways, October 1980 (GFDL 1.2, via Commons)",
+      "accessed": "2026-11-24",
+      "note": "N478BN in Ultra terra cotta, left side: a check of the layout on another airframe."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Boeing_727-227(Adv),_Braniff_International_Airways_JP5938775.jpg",
+      "title": "Boeing 727-227(Adv), Braniff International Airways, October 1980 (GFDL 1.2, via Commons)",
+      "accessed": "2026-11-24",
+      "note": "N470BN in Ultra Corvette blue (a middle blue, light blue title), left side."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Boeing_727-227-Adv,_Braniff_International_Airways_AN0075387.jpg",
+      "title": "Boeing 727-227-Adv, Braniff International Airways, 14 April 1982 (GFDL 1.2, via Commons)",
+      "accessed": "2026-11-24",
+      "note": "N435BN in Ultra chocolate brown (near black on the slide, light title), right side from ahead."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Braniff_DC-8-62_(5956495127)_(2).jpg",
+      "title": "Braniff DC-8-62, Rio de Janeiro 1980 (CC BY-SA 2.0, via Commons)",
+      "accessed": "2026-11-24",
+      "note": "A DC-8-62 in Ultra Mercury blue (navy, light blue title and pinstripes), 1980."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Braniff_International_DC-8-62;_N806BN,_June_1980_AUR_(4848696736).jpg",
+      "title": "Braniff International DC-8-62; N806BN, June 1980 (CC BY-SA 2.0, via Commons)",
+      "accessed": "2026-11-24",
+      "note": "DC-8-62 N806BN in a middle blue Ultra (Corvette blue), in flight: the Ultra layout on the DC-8."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:McDonnell_Douglas_DC-8-62,_Braniff_International_Airways_AN0069849.jpg",
+      "title": "McDonnell Douglas DC-8-62, Braniff International Airways, 1 November 1980 (GFDL 1.2, via Commons)",
+      "accessed": "2026-11-24",
+      "note": "A DC-8-62 in Ultra chocolate brown, gold title."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Douglas_DC-8-62,_Braniff_International_Airways_AN2007245.jpg",
+      "title": "Douglas DC-8-62, Braniff International Airways, 6 August 1981 (GFDL 1.2, via Commons)",
+      "accessed": "2026-11-24",
+      "note": "A DC-8-62 in Ultra terra cotta, the former Calder aircraft (N1805), 1981."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Braniff_International_Boeing_747-230B;_N611BN@FRA,_June_1979_AUC_(4844977229).jpg",
+      "title": "Braniff International Boeing 747-230B; N611BN@FRA, June 1979 (CC BY-SA 2.0, via Commons)",
+      "accessed": "2026-11-24",
+      "note": "747-200 N611BN in the 747s' Ultra orange, left side, high resolution, June 1979: fitted to shapes/B744-passenger.json by its doors and nose: the title's ends and height, the fin's pinstripe, the nacelles' bands."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Braniff_International_Boeing_747-227B;_N602BN@LGW,_September_1980_CHT_(4845078956).jpg",
+      "title": "Braniff International Boeing 747-227B; N602BN@LGW, September 1980 (CC BY-SA 2.0, via Commons)",
+      "accessed": "2026-11-24",
+      "note": "747-200 N602BN in Ultra orange, left side from ahead: the orange read nearer true than N611BN's red-shifted slide."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Braniff_International_Airways_Boeing_747SP-27_N606BN.jpg",
+      "title": "Braniff International Airways Boeing 747SP-27 N606BN, September 1981 (CC BY-SA 4.0, via Commons)",
+      "accessed": "2026-11-24",
+      "note": "747SP N606BN in Ultra orange: the 747SPs wore it too."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Braniff_International_Airways_Boeing_747-127_N601BN.jpg",
+      "title": "Braniff International Airways Boeing 747-127 N601BN, June 1979 (GFDL 1.2, via Commons)",
+      "accessed": "2026-11-24",
+      "note": "747-100 N601BN 'Big Orange', left side, June 1979: still in the earlier scheme (orange body, white fin with the large 'BI' and a flag, italic title, bare nacelles)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Braniff_International_Boeing_747-100_Rees.jpg",
+      "title": "Braniff International Boeing 747-100, 12 September 1981 (GFDL 1.2, via Commons)",
+      "accessed": "2026-11-24",
+      "note": "N601BN at Gatwick in 1981, right side: the white fin and 'BI' still worn."
+    },
+    {
+      "url": "https://yesterdaysairlines.com/the-elegance-campaign-braniffs-ultra-look/",
+      "title": "Yesterday's Airlines: The Elegance Campaign, Braniff's Ultra Look",
+      "accessed": "2026-11-24",
+      "note": "Evidence only: Ultra unveiled 17 July 1978; eight darker colors (terra cotta, Perseus green, Mercury blue, metallic blue, light Corvette blue, chocolate brown, burgundy, sparkling burgundy); the 25 727s delivered from April 1978 in Ultra, only 12 older 727s repainted; all but two DC-8-62s repainted; the 747s in an orange version with a solid orange belly, except N601BN; a mix of Ultra and Flying Colors to the end in 1982."
+    },
+    {
+      "url": "https://yesterdaysairlines.com/flying-colors-braniffs-727-227-advanceds/",
+      "title": "Yesterday's Airlines: Flying Colors, Braniff's 727-227 Advanceds",
+      "accessed": "2026-11-24",
+      "note": "Evidence only: Flying Colors from late 1971, two tones in four pairs (red/Aztec gold, orange/ochre, green/light green, blue/light blue), seen almost only on 727s."
+    },
+    {
+      "url": "https://airlinercafe.com/forums/topic/ultra-era-memories-braniff/",
+      "title": "The Airliner Modeling Site forum: 'Ultra-era' memories (Braniff)",
+      "accessed": "2026-11-24",
+      "note": "Evidence only: colors per airframe from members' memories and slides (N426BN metallic blue and N404BN sparkling burgundy from about 1978; DC-8s N1809E chocolate, N1807 burgundy, N802BN Mercury blue, N801BN and N1806 Corvette blue, N1805 terra cotta, N1803 and N1804 Perseus green; N412BN terra cotta in 1979) and the planned pinstripe pairs."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Braniff_International_Airways",
+      "title": "Wikipedia: Braniff International Airways",
+      "accessed": "2026-11-24",
+      "note": "Evidence only: the fleet (115 aircraft in December 1979; 747-200Bs from 1978, 747SPs from 1979, ten DC-8-62s, 79 727-200s over the years), the Ultra colors with Halston and Harper and George, 'INTERNATIONAL' dropped from the 727s' and DC-8s' Ultra titles but kept on the 747s, Calder's painted aircraft."
+    },
+    {
+      "url": "https://departedflights.com/BN72S.html",
+      "title": "Departed Flights: Braniff 727-200",
+      "accessed": "2026-11-24",
+      "note": "Evidence only: N438BN in Flying Colors in June 1979, N441BN in red and orange Flying Colors in January 1982, N467BN in Ultra in October 1979."
+    }
+  ],
+  "palette": {
+    "orange": {
+      "hex": "#EA7A1E",
+      "name": "Braniff orange",
+      "official": false
+    },
+    "cream": {
+      "hex": "#EAD7A0",
+      "name": "cream-gold",
+      "official": false
+    },
+    "red": {
+      "hex": "#A8281E",
+      "name": "dark red",
+      "official": false
+    },
+    "metal": {
+      "hex": "#C4C8CD",
+      "name": "polished bare metal",
+      "official": false
+    },
+    "gray": {
+      "hex": "#AEB3B9",
+      "name": "wing gray",
+      "official": false
+    }
+  },
+  "fuselage": {
+    "base": "orange",
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      18,
+      19,
+      20
+    ]
+  },
+  "fin": {
+    "base": "orange",
+    "rudder": "orange",
+    "areas": [
+      {
+        "name": "broad cream-gold pinstripe just inside the leading edge",
+        "color": "cream",
+        "points": [
+          [
+            0.045,
+            0
+          ],
+          [
+            0.075,
+            0
+          ],
+          [
+            0.075,
+            1
+          ],
+          [
+            0.045,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          18
+        ]
+      },
+      {
+        "name": "thin dark red pinstripe outside it",
+        "color": "red",
+        "points": [
+          [
+            0.025,
+            0
+          ],
+          [
+            0.038,
+            0
+          ],
+          [
+            0.038,
+            1
+          ],
+          [
+            0.025,
+            1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          18
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      18,
+      19
+    ]
+  },
+  "stabilizer": {
+    "top": "orange",
+    "under": "orange"
+  },
+  "wings": {
+    "top": "gray",
+    "under": "gray"
+  },
+  "engines": {
+    "cowling": "orange",
+    "inletLip": "metal",
+    "areas": [
+      {
+        "name": "cream band round the nacelle behind the inlet",
+        "color": "cream",
+        "points": [
+          [
+            0.16,
+            -1
+          ],
+          [
+            0.2,
+            -1
+          ],
+          [
+            0.2,
+            1
+          ],
+          [
+            0.16,
+            1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          18,
+          19
+        ]
+      },
+      {
+        "name": "red band round the nacelle behind the inlet",
+        "color": "red",
+        "points": [
+          [
+            0.21,
+            -1
+          ],
+          [
+            0.23,
+            -1
+          ],
+          [
+            0.23,
+            1
+          ],
+          [
+            0.21,
+            1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          18,
+          19
+        ]
+      },
+      {
+        "name": "cream band round the nacelle behind the inlet",
+        "color": "cream",
+        "points": [
+          [
+            0.24,
+            -1
+          ],
+          [
+            0.28,
+            -1
+          ],
+          [
+            0.28,
+            1
+          ],
+          [
+            0.24,
+            1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          18,
+          19
+        ]
+      },
+      {
+        "name": "red band round the nacelle behind the inlet",
+        "color": "red",
+        "points": [
+          [
+            0.29,
+            -1
+          ],
+          [
+            0.31,
+            -1
+          ],
+          [
+            0.31,
+            1
+          ],
+          [
+            0.29,
+            1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          18,
+          19
+        ]
+      },
+      {
+        "name": "cream band round the nacelle behind the inlet",
+        "color": "cream",
+        "points": [
+          [
+            0.32,
+            -1
+          ],
+          [
+            0.36,
+            -1
+          ],
+          [
+            0.36,
+            1
+          ],
+          [
+            0.32,
+            1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          18,
+          19
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      18,
+      19
+    ]
+  },
+  "titles": [
+    {
+      "text": "BRANIFF INTERNATIONAL",
+      "mark": "BI1928/international-747",
+      "place": "fuselage",
+      "at": [
+        0.1508,
+        0.2567
+      ],
+      "height": 0.1991,
+      "length": 0.2543,
+      "color": "cream",
+      "style": "Braniff's 1970s 'International' capitals in cream-gold: upright, wide and geometric (round O and C, pointed A's and V-less N's), of even, middling weight, with a double space between the words; over the forward main-deck windows.",
+      "type": {
+        "similar": [
+          "ITC Avant Garde Gothic Medium",
+          "Futura Medium"
+        ],
+        "weight": 500,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "confidence": "medium",
+      "sourceRefs": [
+        18,
+        19
+      ]
+    }
+  ],
+  "logos": [],
+  "notes": "Measured 2026-11-24 for ghost flights on 747-230B N611BN (June 1979, right side, high resolution; fitted to shapes/B744-passenger.json by the nose, doors 1 and 5 and the fin's tip, within 2 px). Drawn on the 747-100/-200 shape (shapes/B742.json: the 747-400's main deck, the short upper deck, no winglets); the 747SPs (N603BN-N606BN) are much shorter. The title re-measured 2026-11-25 on the same photo by doors 1 to 3 and against the main deck's and the upper deck's window rows: 10.35 to 27.8 m back, capitals 0.92 m tall (23-26 px, growing toward the nose), the baseline 1.38 m above the centerline, its tops just under the upper deck's three windows (it had been drawn 1.9 m tall, up across them). The fin's pinstripe runs on along the fin's top and the tailplane's leading edge on the photo; only the leading edge's run is drawn. The nacelles' bands are read off a small part of the photo and are approximate. N611BN's slide is red-shifted (it reads red); the orange is N602BN's (1980) and the 747SPs', the 'Big Orange' of Braniff's own name for them. Registrations (small, aft) aren't drawn."
+}

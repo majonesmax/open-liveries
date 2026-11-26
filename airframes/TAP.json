@@ -1,0 +1,552 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "TAP",
+  "airframes": [
+    {
+      "registration": "CS-TAW",
+      "livery": "express",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:CS-TAW_(aircraft)",
+          "title": "CS-TAW on Commons",
+          "accessed": "2026-11-25"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:TAP_Air_Portugal_CS-TAW_E195.jpg",
+          "title": "TAP Air Portugal CS-TAW E195.jpg (CC BY-SA 4.0)",
+          "accessed": "2026-11-25",
+          "note": "2025-07-09: in TAP Express paint, 'express' on the fin."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Embraer_195_of_TAP_Express",
+          "title": "Current Embraer 195 of TAP Express (Commons)",
+          "accessed": "2026-11-25",
+          "note": "The current fleet as Commons lists it."
+        }
+      ],
+      "type": "E195",
+      "lastSeen": "2025-07-09",
+      "status": "active: Commons photo 2025-07-09.",
+      "notes": "Portugália's Embraer, flown for TAP Express under TAP's own callsign (TAP), so it isn't drawn by its operator code (PGA)."
+    },
+    {
+      "registration": "CS-TAX",
+      "livery": "express",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:CS-TAX_(aircraft)",
+          "title": "CS-TAX on Commons",
+          "accessed": "2026-11-25"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:CS-TAX_Embraer_195_TAP_Express_tailfin_OPO_01.jpg",
+          "title": "CS-TAX Embraer 195 TAP Express tailfin OPO 01.jpg (CC BY-SA 4.0)",
+          "accessed": "2026-11-25",
+          "note": "2026-08-03: in TAP Express paint, 'express' on the fin."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Embraer_195_of_TAP_Express",
+          "title": "Current Embraer 195 of TAP Express (Commons)",
+          "accessed": "2026-11-25",
+          "note": "The current fleet as Commons lists it."
+        }
+      ],
+      "type": "E195",
+      "lastSeen": "2026-08-03",
+      "status": "active: Commons photo 2026-08-03.",
+      "notes": "Portugália's Embraer, flown for TAP Express under TAP's own callsign (TAP), so it isn't drawn by its operator code (PGA)."
+    },
+    {
+      "registration": "CS-TAY",
+      "livery": "express",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:CS-TAY_(aircraft)",
+          "title": "CS-TAY on Commons",
+          "accessed": "2026-11-25"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:CS-TAY_TAP_E195_EGCC.jpg",
+          "title": "CS-TAY TAP E195 EGCC.jpg (CC BY 4.0)",
+          "accessed": "2026-11-25",
+          "note": "2026-05-25: in TAP Express paint, 'express' on the fin."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Embraer_195_of_TAP_Express",
+          "title": "Current Embraer 195 of TAP Express (Commons)",
+          "accessed": "2026-11-25",
+          "note": "The current fleet as Commons lists it."
+        }
+      ],
+      "type": "E195",
+      "lastSeen": "2026-05-25",
+      "status": "active: Commons photo 2026-05-25.",
+      "notes": "Portugália's Embraer, flown for TAP Express under TAP's own callsign (TAP), so it isn't drawn by its operator code (PGA)."
+    },
+    {
+      "registration": "CS-TPO",
+      "livery": "express",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:CS-TPO_(aircraft)",
+          "title": "CS-TPO on Commons",
+          "accessed": "2026-11-25"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:CS-TPO.jpg",
+          "title": "CS-TPO.jpg (CC BY-SA 2.0)",
+          "accessed": "2026-11-25",
+          "note": "2024-06-17: in TAP Express paint, 'express' on the fin."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Embraer_190_of_TAP_Express",
+          "title": "Current Embraer 190 of TAP Express (Commons)",
+          "accessed": "2026-11-25",
+          "note": "The current fleet as Commons lists it."
+        }
+      ],
+      "type": "E190",
+      "lastSeen": "2024-06-17",
+      "status": "active: Commons photo 2024-06-17.",
+      "notes": "Portugália's Embraer, flown for TAP Express under TAP's own callsign (TAP), so it isn't drawn by its operator code (PGA)."
+    },
+    {
+      "registration": "CS-TPP",
+      "livery": "express",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:CS-TPP_(aircraft)",
+          "title": "CS-TPP on Commons",
+          "accessed": "2026-11-25"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Embraer_ERJ-190-100LR_-_ERJ-190LR_(c-n_441,_CS-TPP)_2026-01-12_Andre_Gerwing_Collection_ID_027651.jpg",
+          "title": "Embraer ERJ-190-100LR - ERJ-190LR (c-n 441, CS-TPP) 2026-01-12 Andre Gerwing Collection ID 027651.jpg (CC BY-SA 4.0)",
+          "accessed": "2026-11-25",
+          "note": "2026-01-12: in TAP Express paint, 'express' on the fin."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Embraer_190_of_TAP_Express",
+          "title": "Current Embraer 190 of TAP Express (Commons)",
+          "accessed": "2026-11-25",
+          "note": "The current fleet as Commons lists it."
+        }
+      ],
+      "type": "E190",
+      "lastSeen": "2026-01-12",
+      "status": "active: Commons photo 2026-01-12.",
+      "notes": "Portugália's Embraer, flown for TAP Express under TAP's own callsign (TAP), so it isn't drawn by its operator code (PGA)."
+    },
+    {
+      "registration": "CS-TPQ",
+      "livery": "express",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:CS-TPQ_(aircraft)",
+          "title": "CS-TPQ on Commons",
+          "accessed": "2026-11-25"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Embraer_ERJ-190LR_(190-100LR)_%E2%80%98CS-TPQ%E2%80%99_TAP_Express_(53748362596).jpg",
+          "title": "Embraer ERJ-190LR (190-100LR) ‘CS-TPQ’ TAP Express (53748362596).jpg (CC BY-SA 2.0)",
+          "accessed": "2026-11-25",
+          "note": "2022-09-19: in TAP Express paint, 'express' on the fin."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Embraer_190_of_TAP_Express",
+          "title": "Current Embraer 190 of TAP Express (Commons)",
+          "accessed": "2026-11-25",
+          "note": "The current fleet as Commons lists it."
+        }
+      ],
+      "type": "E190",
+      "lastSeen": "2022-09-19",
+      "status": "active (presumed): latest Commons photo in this paint 2022-09-19; listed as current on Commons.",
+      "notes": "Portugália's Embraer, flown for TAP Express under TAP's own callsign (TAP), so it isn't drawn by its operator code (PGA)."
+    },
+    {
+      "registration": "CS-TPR",
+      "livery": "express",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:CS-TPR_(aircraft)",
+          "title": "CS-TPR on Commons",
+          "accessed": "2026-11-25"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Embraer_190LR_(190-100LR)_%E2%80%98CS-TPR%E2%80%99_TAP_Express_(53755747991).jpg",
+          "title": "Embraer 190LR (190-100LR) ‘CS-TPR’ TAP Express (53755747991).jpg (CC BY-SA 2.0)",
+          "accessed": "2026-11-25",
+          "note": "2022-09-19: in TAP Express paint, 'express' on the fin."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Embraer_190_of_TAP_Express",
+          "title": "Current Embraer 190 of TAP Express (Commons)",
+          "accessed": "2026-11-25",
+          "note": "The current fleet as Commons lists it."
+        }
+      ],
+      "type": "E190",
+      "lastSeen": "2022-09-19",
+      "status": "active (presumed): latest Commons photo in this paint 2022-09-19; listed as current on Commons.",
+      "notes": "Portugália's Embraer, flown for TAP Express under TAP's own callsign (TAP), so it isn't drawn by its operator code (PGA)."
+    },
+    {
+      "registration": "CS-TPS",
+      "livery": "express",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:CS-TPS_(aircraft)",
+          "title": "CS-TPS on Commons",
+          "accessed": "2026-11-25"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Hamburg_Airport_Portug%C3%A1lia_Airlines_TAP_Express_Embraer_ERJ-190LR_CS-TPS_(DSC04564).jpg",
+          "title": "Hamburg Airport Portugália Airlines TAP Express Embraer ERJ-190LR CS-TPS (DSC04564).jpg (CC BY-SA 4.0)",
+          "accessed": "2026-11-25",
+          "note": "2024-04-14: in TAP Express paint, 'express' on the fin."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:2026-10-19_TAP_Express_Embraer_E190LR_CS-TPS_in_the_skies_over_Lisbon.jpg",
+          "title": "2026-10-19 TAP Express Embraer E190LR CS-TPS in the skies over Lisbon.jpg (CC BY 4.0)",
+          "accessed": "2026-11-25",
+          "note": "2026-10-19: From below: its TAP Express belly and wings, still flying."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Embraer_190_of_TAP_Express",
+          "title": "Current Embraer 190 of TAP Express (Commons)",
+          "accessed": "2026-11-25",
+          "note": "The current fleet as Commons lists it."
+        }
+      ],
+      "type": "E190",
+      "lastSeen": "2026-10-19",
+      "status": "active: Commons photo 2026-10-19.",
+      "notes": "Portugália's Embraer, flown for TAP Express under TAP's own callsign (TAP), so it isn't drawn by its operator code (PGA)."
+    },
+    {
+      "registration": "CS-TPT",
+      "livery": "express",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:CS-TPT_(aircraft)",
+          "title": "CS-TPT on Commons",
+          "accessed": "2026-11-25"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:CS-TPT_(35004286313).jpg",
+          "title": "CS-TPT (35004286313).jpg (CC BY-SA 2.0)",
+          "accessed": "2026-11-25",
+          "note": "2017-06-09: in TAP Express paint, 'express' on the fin."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Embraer_190_of_TAP_Express",
+          "title": "Current Embraer 190 of TAP Express (Commons)",
+          "accessed": "2026-11-25",
+          "note": "The current fleet as Commons lists it."
+        }
+      ],
+      "type": "E190",
+      "lastSeen": "2017-06-09",
+      "status": "active (presumed): latest Commons photo in this paint 2017-06-09; listed as current on Commons.",
+      "notes": "Portugália's Embraer, flown for TAP Express under TAP's own callsign (TAP), so it isn't drawn by its operator code (PGA)."
+    },
+    {
+      "registration": "CS-TPU",
+      "livery": "express",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:CS-TPU_(aircraft)",
+          "title": "CS-TPU on Commons",
+          "accessed": "2026-11-25"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Embraer_ERJ-190LR_(190-100LR)_%E2%80%98CS-TPU%E2%80%99_TAP_Express_(53750979301).jpg",
+          "title": "Embraer ERJ-190LR (190-100LR) ‘CS-TPU’ TAP Express (53750979301).jpg (CC BY-SA 2.0)",
+          "accessed": "2026-11-25",
+          "note": "2022-09-19: in TAP Express paint, 'express' on the fin."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Embraer_190_of_TAP_Express",
+          "title": "Current Embraer 190 of TAP Express (Commons)",
+          "accessed": "2026-11-25",
+          "note": "The current fleet as Commons lists it."
+        }
+      ],
+      "type": "E190",
+      "lastSeen": "2022-09-19",
+      "status": "active (presumed): latest Commons photo in this paint 2022-09-19; listed as current on Commons.",
+      "notes": "Portugália's Embraer, flown for TAP Express under TAP's own callsign (TAP), so it isn't drawn by its operator code (PGA)."
+    },
+    {
+      "registration": "CS-TPV",
+      "livery": "express",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:CS-TPV_(aircraft)",
+          "title": "CS-TPV on Commons",
+          "accessed": "2026-11-25"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Embraer_ERJ-190LR_(190-100LR)_%E2%80%98CS-TPV%E2%80%99_TAP_Express_(53698930979).jpg",
+          "title": "Embraer ERJ-190LR (190-100LR) ‘CS-TPV’ TAP Express (53698930979).jpg (CC BY-SA 2.0)",
+          "accessed": "2026-11-25",
+          "note": "2022-09-17: in TAP Express paint, 'express' on the fin."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Embraer_190_of_TAP_Express",
+          "title": "Current Embraer 190 of TAP Express (Commons)",
+          "accessed": "2026-11-25",
+          "note": "The current fleet as Commons lists it."
+        }
+      ],
+      "type": "E190",
+      "lastSeen": "2022-09-17",
+      "status": "active (presumed): latest Commons photo in this paint 2022-09-17; listed as current on Commons.",
+      "notes": "Portugália's Embraer, flown for TAP Express under TAP's own callsign (TAP), so it isn't drawn by its operator code (PGA)."
+    },
+    {
+      "registration": "CS-TPW",
+      "livery": "express",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:CS-TPW_(aircraft)",
+          "title": "CS-TPW on Commons",
+          "accessed": "2026-11-25"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Embraer_ERJ-190LR_(190-100LR)_%E2%80%98CS-TPW%E2%80%99_TAP_Express_(53749872022).jpg",
+          "title": "Embraer ERJ-190LR (190-100LR) ‘CS-TPW’ TAP Express (53749872022).jpg (CC BY-SA 2.0)",
+          "accessed": "2026-11-25",
+          "note": "2022-09-19: in TAP Express paint, 'express' on the fin."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Embraer_190_of_TAP_Express",
+          "title": "Current Embraer 190 of TAP Express (Commons)",
+          "accessed": "2026-11-25",
+          "note": "The current fleet as Commons lists it."
+        }
+      ],
+      "type": "E190",
+      "lastSeen": "2022-09-19",
+      "status": "active (presumed): latest Commons photo in this paint 2022-09-19; listed as current on Commons.",
+      "notes": "Portugália's Embraer, flown for TAP Express under TAP's own callsign (TAP), so it isn't drawn by its operator code (PGA)."
+    },
+    {
+      "registration": "CS-TPX",
+      "livery": "express",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:CS-TPX_(aircraft)",
+          "title": "CS-TPX on Commons",
+          "accessed": "2026-11-25"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:TAP_Express,_CS-TPX,_Embraer_ERJ-190AR_(53667287010).jpg",
+          "title": "TAP Express, CS-TPX, Embraer ERJ-190AR (53667287010).jpg (CC BY-SA 2.0)",
+          "accessed": "2026-11-25",
+          "note": "2024-04-10: in TAP Express paint, 'express' on the fin."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Embraer_190_of_TAP_Express",
+          "title": "Current Embraer 190 of TAP Express (Commons)",
+          "accessed": "2026-11-25",
+          "note": "The current fleet as Commons lists it."
+        }
+      ],
+      "type": "E190",
+      "lastSeen": "2024-04-10",
+      "status": "active: Commons photo 2024-04-10.",
+      "notes": "Portugália's Embraer, flown for TAP Express under TAP's own callsign (TAP), so it isn't drawn by its operator code (PGA)."
+    },
+    {
+      "registration": "CS-TPY",
+      "livery": "express",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:CS-TPY_(aircraft)",
+          "title": "CS-TPY on Commons",
+          "accessed": "2026-11-25"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Hamburg_Airport_Portug%C3%A1lia_Airlines_TAP_Express_Embraer_ERJ-190AR_CS-TPY_(DSC09739).jpg",
+          "title": "Hamburg Airport Portugália Airlines TAP Express Embraer ERJ-190AR CS-TPY (DSC09739).jpg (CC BY-SA 4.0)",
+          "accessed": "2026-11-25",
+          "note": "2023-06-11: in TAP Express paint, 'express' on the fin."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Embraer_190_of_TAP_Express",
+          "title": "Current Embraer 190 of TAP Express (Commons)",
+          "accessed": "2026-11-25",
+          "note": "The current fleet as Commons lists it."
+        }
+      ],
+      "type": "E190",
+      "lastSeen": "2023-06-11",
+      "status": "active (presumed): latest Commons photo in this paint 2023-06-11; listed as current on Commons.",
+      "notes": "Portugália's Embraer, flown for TAP Express under TAP's own callsign (TAP), so it isn't drawn by its operator code (PGA)."
+    },
+    {
+      "registration": "CS-TPZ",
+      "livery": "express",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:CS-TPZ_(aircraft)",
+          "title": "CS-TPZ on Commons",
+          "accessed": "2026-11-25"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:TAP_E-190_CS-TPZ_10mar26_LFBO.jpg",
+          "title": "TAP E-190 CS-TPZ 10mar26 LFBO.jpg (CC BY-SA 4.0)",
+          "accessed": "2026-11-25",
+          "note": "2026-03-10: in TAP Express paint, 'express' on the fin."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Embraer_190_of_TAP_Express",
+          "title": "Current Embraer 190 of TAP Express (Commons)",
+          "accessed": "2026-11-25",
+          "note": "The current fleet as Commons lists it."
+        }
+      ],
+      "type": "E190",
+      "lastSeen": "2026-03-10",
+      "status": "active: Commons photo 2026-03-10.",
+      "notes": "Portugália's Embraer, flown for TAP Express under TAP's own callsign (TAP), so it isn't drawn by its operator code (PGA)."
+    },
+    {
+      "registration": "CS-TTW",
+      "livery": "express",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:CS-TTW_(aircraft)",
+          "title": "CS-TTW on Commons",
+          "accessed": "2026-11-25"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Embraer_195AR_(190-200IGW)_%E2%80%98CS-TTW%E2%80%99_TAP_Express_(53703665331).jpg",
+          "title": "Embraer 195AR (190-200IGW) ‘CS-TTW’ TAP Express (53703665331).jpg (CC BY-SA 2.0)",
+          "accessed": "2026-11-25",
+          "note": "2022-09-17: in TAP Express paint, 'express' on the fin."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Embraer_195_of_TAP_Express",
+          "title": "Current Embraer 195 of TAP Express (Commons)",
+          "accessed": "2026-11-25",
+          "note": "The current fleet as Commons lists it."
+        }
+      ],
+      "type": "E195",
+      "lastSeen": "2022-09-17",
+      "status": "active (presumed): latest Commons photo in this paint 2022-09-17; listed as current on Commons.",
+      "notes": "Portugália's Embraer, flown for TAP Express under TAP's own callsign (TAP), so it isn't drawn by its operator code (PGA)."
+    },
+    {
+      "registration": "CS-TTX",
+      "livery": "express",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:CS-TTX_(aircraft)",
+          "title": "CS-TTX on Commons",
+          "accessed": "2026-11-25"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:TAP_Express_Embraer_E195AR.jpg",
+          "title": "TAP Express Embraer E195AR.jpg (CC BY 4.0)",
+          "accessed": "2026-11-25",
+          "note": "2026-03-31: in TAP Express paint, 'express' on the fin."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:2026-10-19_TAP_Express_Embraer_E195AR_CS-TTX_in_the_skies_over_Lisbon.jpg",
+          "title": "2026-10-19 TAP Express Embraer E195AR CS-TTX in the skies over Lisbon.jpg (CC BY 4.0)",
+          "accessed": "2026-11-25",
+          "note": "2026-10-19: From below, still flying."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Embraer_195_of_TAP_Express",
+          "title": "Current Embraer 195 of TAP Express (Commons)",
+          "accessed": "2026-11-25",
+          "note": "The current fleet as Commons lists it."
+        }
+      ],
+      "type": "E195",
+      "lastSeen": "2026-10-19",
+      "status": "active: Commons photo 2026-10-19.",
+      "hex": "495298",
+      "hexSource": "seen with this registration in the adsb.lol feed (2026-11), not checked against the Portuguese register",
+      "notes": "Portugália's Embraer, flown for TAP Express under TAP's own callsign (TAP), so it isn't drawn by its operator code (PGA)."
+    },
+    {
+      "registration": "CS-TTY",
+      "livery": "express",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:CS-TTY_(aircraft)",
+          "title": "CS-TTY on Commons",
+          "accessed": "2026-11-25"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Embraer_195AR_(190-200_IGW)_%E2%80%98CS-TTY%E2%80%99_TAP_Express_(53753735159).jpg",
+          "title": "Embraer 195AR (190-200 IGW) ‘CS-TTY’ TAP Express (53753735159).jpg (CC BY-SA 2.0)",
+          "accessed": "2026-11-25",
+          "note": "2022-09-19: in TAP Express paint, 'express' on the fin."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Embraer_195_of_TAP_Express",
+          "title": "Current Embraer 195 of TAP Express (Commons)",
+          "accessed": "2026-11-25",
+          "note": "The current fleet as Commons lists it."
+        }
+      ],
+      "type": "E195",
+      "lastSeen": "2022-09-19",
+      "status": "active (presumed): latest Commons photo in this paint 2022-09-19; listed as current on Commons.",
+      "notes": "Portugália's Embraer, flown for TAP Express under TAP's own callsign (TAP), so it isn't drawn by its operator code (PGA)."
+    },
+    {
+      "registration": "CS-TTZ",
+      "livery": "express",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:CS-TTZ_(aircraft)",
+          "title": "CS-TTZ on Commons",
+          "accessed": "2026-11-25"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Embraer_ERJ-195AR_(190-200IGW)_%E2%80%98CS-TTZ%E2%80%99_TAP_Express_(53748275291).jpg",
+          "title": "Embraer ERJ-195AR (190-200IGW) ‘CS-TTZ’ TAP Express (53748275291).jpg (CC BY-SA 2.0)",
+          "accessed": "2026-11-25",
+          "note": "2022-09-19: in TAP Express paint, 'express' on the fin."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Current_Embraer_195_of_TAP_Express",
+          "title": "Current Embraer 195 of TAP Express (Commons)",
+          "accessed": "2026-11-25",
+          "note": "The current fleet as Commons lists it."
+        }
+      ],
+      "type": "E195",
+      "lastSeen": "2022-09-19",
+      "status": "active (presumed): latest Commons photo in this paint 2022-09-19; listed as current on Commons.",
+      "notes": "Portugália's Embraer, flown for TAP Express under TAP's own callsign (TAP), so it isn't drawn by its operator code (PGA)."
+    }
+  ]
+}

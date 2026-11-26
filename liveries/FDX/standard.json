@@ -20,6 +20,24 @@
       "title": "FedEx Express Boeing 767-300F N168FE on final approach to Boston July 2026 1.jpg (CC BY 4.0)",
       "accessed": "2026-11-13",
       "note": "N168FE (767-300F) left side, 2026-07-08: geometry, titles."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:20250402_Boeing_777-F_of_FedEx_Express_(N875FD)_taxiing_at_SYD.jpg",
+      "title": "20250402 Boeing 777-F of FedEx Express (N875FD) taxiing at SYD.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-25",
+      "note": "777F from the left, side-on, 2025-04-02: the registration and a small US flag after it on the aft fuselage, ahead of the purple."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:FedEx_2007_N692FE_Express_Airbus_A300F4-605R_(cn_878)_%22Gabriel%22_(54222502202).jpg",
+      "title": "FedEx 2007 N692FE Express Airbus A300F4-605R (cn 878) \"Gabriel\" (54222502202).jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-25",
+      "note": "A300F from the left, side-on, 2024-12-20: the same flag after the registration."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:FedEx_Express,_MD-11F,_N621FE_(24332496500).jpg",
+      "title": "FedEx Express, MD-11F, N621FE (24332496500).jpg (CC BY 2.0)",
+      "accessed": "2026-11-25",
+      "note": "MD-11F from the right, 2016-01-26: on the right the flag is ahead of the registration."
     }
   ],
   "palette": {
@@ -49,6 +67,15 @@
     "lip": {
       "hex": "#C9CDD2",
       "official": false
+    },
+    "flagRed": {
+      "hex": "#B22234"
+    },
+    "flagWhite": {
+      "hex": "#FFFFFF"
+    },
+    "flagBlue": {
+      "hex": "#3C3B6E"
     }
   },
   "finish": "gloss",
@@ -147,7 +174,30 @@
       1
     ]
   },
-  "logos": [],
+  "logos": [
+    {
+      "mark": "FDX/us-flag",
+      "place": "fuselage",
+      "at": [
+        0.777,
+        0.3
+      ],
+      "height": 0.08,
+      "colors": [
+        "flagRed",
+        "flagWhite",
+        "flagBlue"
+      ],
+      "description": "A small US flag right after the registration on the aft fuselage, a little above the middle of the side, ahead of the purple tail. Its canton faces forward on both sides. Placed off N168FE (the 767, from ahead and below) along the body and off the side-on 777F and A300F photos for its height; about 0.5 m tall. Every FedEx type photographed carries it (767, 777, A300, MD-11).",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ],
   "titles": [
     {
       "text": "FedEx",

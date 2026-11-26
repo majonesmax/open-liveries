@@ -1,0 +1,1215 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "billboard",
+  "airline": "PA1927",
+  "name": "Billboard titles (1984)",
+  "kind": "standard",
+  "from": "1984",
+  "to": "1991-12",
+  "confidence": "medium",
+  "drawnOn": "B722",
+  "description": "Pan Am's last scheme, applied from 1984: the cheatline gone and the white body carrying 'PAN AM' in huge blue capitals across the cabin windows, from just behind the forward door to over the wing. A light grey lower fuselage under a level line well below the windows, a small black nose tip, the big blue globe on the white fin and bare metal engines. The A300s and A310s were delivered in it; the 727s and 747s were repainted into it from 1984 on, so both it and the cheatline were common in 1985.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Pan_Am_Boeing_727-200_at_Zurich_Airport_in_May_1985.jpg",
+      "title": "Boeing 727-200 N550PS, Pan Am, Zurich, May 1985 (CC BY-SA 3.0, Eduard Marmet)",
+      "accessed": "2026-11-24",
+      "note": "Left side, side-on, May 1985: the billboard on a 727, measured on it (fitted to shapes/B722.json; positions along the body between the forward door, the wing root and the side engine's inlet; heights against the windows)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Pan_American_World_Airways_-_Pan_Am_Boeing_727-214-Adv_N375PA_%22Clipper_Flying_Cloud%22_(26179093186).jpg",
+      "title": "Boeing 727-214 Adv N375PA, Pan Am, Zurich, August 1985 (CC BY 2.0, Kambui)",
+      "accessed": "2026-11-24",
+      "note": "Left side from ahead, August 1985: the title's lettering and the globe up close (checked)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Pan_American_World_Airways_-_Pan_Am_Boeing_727-235_N4734_%22Clipper_Charmer%22_(25543999024).jpg",
+      "title": "Boeing 727-235 N4734, Pan Am, Zurich, May 1986 (CC BY 2.0, Kambui)",
+      "accessed": "2026-11-24",
+      "note": "Right side, 1986: the title from the right and the grey lower fuselage (checked)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A300B4-203,_Pan_American_World_Airways_-_Pan_Am_AN1451004.jpg",
+      "title": "Airbus A300B4-203 N209PA, Pan Am, December 1986 (CC BY-SA 3.0, Eduard Marmet)",
+      "accessed": "2026-11-24",
+      "note": "Right side, side-on: the A300's title and globe, measured for the A30B entry (flipped nose-left, fitted to shapes/A30B.json; positions between the doors and the overwing exit)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:1-10-85_JFK_N204PA_(52719516101).jpg",
+      "title": "Airbus A300B4 N204PA, Pan Am, JFK, 1 October 1985 (CC BY 2.0, Pete Macklin)",
+      "accessed": "2026-11-24",
+      "note": "Right side, 1985: an A300 in the billboard in 1985 (checked)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Pan_American_World_Airways_-_Pan_Am_Boeing_747-121_N770PA_%22Clipper_Queen_of_the_Pacific%22_(25690908631).jpg",
+      "title": "Boeing 747-121 N770PA, Pan Am, July 1986 (CC BY-SA 2.0, Kambui)",
+      "accessed": "2026-11-24",
+      "note": "Left side, 1986: the billboard on a 747, measured for the B744-passenger entry (positions between the doors, heights against the main deck's windows)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Pan_American_World_Airways_-_Pan_Am_Boeing_747-121_N748PA.jpg",
+      "title": "Boeing 747-121 N748PA, Pan Am, October 1985 (CC BY-SA 4.0, Richard Vandervord)",
+      "accessed": "2026-11-24",
+      "note": "Right side, October 1985: a 747 with the billboard titles but still with a blue cheatline under the windows, a halfway version (not drawn)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Pan_Am_Logo.svg",
+      "title": "Pan Am Logo.svg (Wikimedia Commons, public domain)",
+      "accessed": "2026-11-24",
+      "note": "The globe's reference: described, not copied."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F5F6F7",
+      "official": false
+    },
+    "blue": {
+      "hex": "#1F5FA8",
+      "name": "Pan Am blue",
+      "official": false
+    },
+    "grey": {
+      "hex": "#B9BEC4",
+      "name": "light grey lower fuselage (bare-metal look)",
+      "official": false
+    },
+    "metal": {
+      "hex": "#C4C8CD",
+      "name": "bare metal",
+      "official": false
+    },
+    "radome": {
+      "hex": "#1C1D22",
+      "official": false
+    },
+    "flagRed": {
+      "hex": "#B22234",
+      "name": "the US flag's red",
+      "official": true
+    },
+    "flagBlue": {
+      "hex": "#3C3B6E",
+      "name": "the US flag's blue",
+      "official": true
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "windows": "plain",
+    "areas": [
+      {
+        "name": "light grey lower fuselage under a level line 0.70 m below the side's middle, from just behind the white nose cone to the tail",
+        "color": "grey",
+        "points": [
+          [
+            0.0265,
+            -1.0
+          ],
+          [
+            0.02651,
+            -0.20577
+          ],
+          [
+            0.0272,
+            -0.20323
+          ],
+          [
+            0.03082,
+            -0.19558
+          ],
+          [
+            0.03465,
+            -0.19151
+          ],
+          [
+            0.04402,
+            -0.19151
+          ],
+          [
+            0.05164,
+            -0.19428
+          ],
+          [
+            0.05422,
+            -0.1965
+          ],
+          [
+            0.05839,
+            -0.1973
+          ],
+          [
+            0.05969,
+            -0.19817
+          ],
+          [
+            0.06463,
+            -0.199
+          ],
+          [
+            0.06636,
+            -0.19835
+          ],
+          [
+            0.0746,
+            -0.19855
+          ],
+          [
+            0.07781,
+            -0.19968
+          ],
+          [
+            0.08357,
+            -0.19985
+          ],
+          [
+            0.09024,
+            -0.20219
+          ],
+          [
+            0.09301,
+            -0.20227
+          ],
+          [
+            0.09653,
+            -0.20316
+          ],
+          [
+            0.1088,
+            -0.20385
+          ],
+          [
+            0.11566,
+            -0.20685
+          ],
+          [
+            0.12463,
+            -0.20969
+          ],
+          [
+            0.13475,
+            -0.21809
+          ],
+          [
+            0.13602,
+            -0.21895
+          ],
+          [
+            0.1573,
+            -0.22765
+          ],
+          [
+            0.16614,
+            -0.22868
+          ],
+          [
+            0.1734,
+            -0.2309
+          ],
+          [
+            0.1859,
+            -0.23139
+          ],
+          [
+            0.1953,
+            -0.23381
+          ],
+          [
+            0.19817,
+            -0.23385
+          ],
+          [
+            0.2088,
+            -0.23928
+          ],
+          [
+            0.2172,
+            -0.23951
+          ],
+          [
+            0.22781,
+            -0.24237
+          ],
+          [
+            0.23576,
+            -0.24251
+          ],
+          [
+            0.24658,
+            -0.24837
+          ],
+          [
+            0.32851,
+            -0.24814
+          ],
+          [
+            0.33231,
+            -0.24672
+          ],
+          [
+            0.34036,
+            -0.23834
+          ],
+          [
+            0.3479,
+            -0.23422
+          ],
+          [
+            0.35846,
+            -0.22246
+          ],
+          [
+            0.36901,
+            -0.21108
+          ],
+          [
+            0.3812,
+            -0.20389
+          ],
+          [
+            0.38901,
+            -0.20337
+          ],
+          [
+            0.39058,
+            -0.20363
+          ],
+          [
+            0.39706,
+            -0.20262
+          ],
+          [
+            0.40034,
+            -0.20432
+          ],
+          [
+            0.40646,
+            -0.20611
+          ],
+          [
+            0.43839,
+            -0.2063
+          ],
+          [
+            0.44877,
+            -0.20877
+          ],
+          [
+            0.48224,
+            -0.20898
+          ],
+          [
+            0.49116,
+            -0.211
+          ],
+          [
+            0.50176,
+            -0.20898
+          ],
+          [
+            0.51308,
+            -0.21153
+          ],
+          [
+            0.53923,
+            -0.21153
+          ],
+          [
+            0.54957,
+            -0.21508
+          ],
+          [
+            0.55207,
+            -0.2132
+          ],
+          [
+            0.55665,
+            -0.20391
+          ],
+          [
+            0.55916,
+            -0.20228
+          ],
+          [
+            0.56214,
+            -0.20452
+          ],
+          [
+            0.56769,
+            -0.21424
+          ],
+          [
+            0.57118,
+            -0.21656
+          ],
+          [
+            0.57405,
+            -0.21659
+          ],
+          [
+            0.58607,
+            -0.21935
+          ],
+          [
+            0.60781,
+            -0.21964
+          ],
+          [
+            0.61745,
+            -0.22432
+          ],
+          [
+            0.63839,
+            -0.225
+          ],
+          [
+            0.64829,
+            -0.22997
+          ],
+          [
+            0.65306,
+            -0.23001
+          ],
+          [
+            0.66487,
+            -0.23258
+          ],
+          [
+            0.67718,
+            -0.23269
+          ],
+          [
+            0.68458,
+            -0.23422
+          ],
+          [
+            0.70065,
+            -0.24106
+          ],
+          [
+            0.71593,
+            -0.2503
+          ],
+          [
+            0.72605,
+            -0.25993
+          ],
+          [
+            0.73547,
+            -0.2712
+          ],
+          [
+            0.7388,
+            -0.27459
+          ],
+          [
+            0.74581,
+            -0.28012
+          ],
+          [
+            0.75176,
+            -0.28666
+          ],
+          [
+            0.76007,
+            -0.2942
+          ],
+          [
+            0.76851,
+            -0.30358
+          ],
+          [
+            0.77463,
+            -0.30847
+          ],
+          [
+            0.78499,
+            -0.31539
+          ],
+          [
+            0.78851,
+            -0.31986
+          ],
+          [
+            0.79371,
+            -0.32717
+          ],
+          [
+            0.80159,
+            -0.33502
+          ],
+          [
+            0.81272,
+            -0.35083
+          ],
+          [
+            0.82027,
+            -0.36089
+          ],
+          [
+            0.83012,
+            -0.37862
+          ],
+          [
+            0.8341,
+            -0.38775
+          ],
+          [
+            0.84123,
+            -0.40699
+          ],
+          [
+            0.84553,
+            -0.41841
+          ],
+          [
+            0.84983,
+            -0.43048
+          ],
+          [
+            0.85631,
+            -0.45104
+          ],
+          [
+            0.86151,
+            -0.47067
+          ],
+          [
+            0.8667,
+            -0.49194
+          ],
+          [
+            0.87189,
+            -0.51516
+          ],
+          [
+            0.87708,
+            -0.54067
+          ],
+          [
+            0.88063,
+            -0.55912
+          ],
+          [
+            0.88418,
+            -0.57912
+          ],
+          [
+            0.88773,
+            -0.60094
+          ],
+          [
+            0.89128,
+            -0.62495
+          ],
+          [
+            0.89583,
+            -0.6635
+          ],
+          [
+            0.89943,
+            -0.69883
+          ],
+          [
+            0.90304,
+            -0.74106
+          ],
+          [
+            0.90754,
+            -0.81177
+          ],
+          [
+            0.9098,
+            -0.86197
+          ],
+          [
+            0.91239,
+            -1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          2
+        ]
+      }
+    ],
+    "radome": {
+      "color": "radome",
+      "to": 0.006
+    },
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      2
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "stabilizer": {
+    "top": "white",
+    "under": "white"
+  },
+  "wings": {
+    "top": "grey",
+    "under": "grey"
+  },
+  "engines": {
+    "cowling": "metal",
+    "inletLip": "metal",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "titles": [
+    {
+      "text": "PAN AM",
+      "place": "fuselage",
+      "at": [
+        0.1614,
+        -0.067
+      ],
+      "height": 0.7889,
+      "length": 0.4,
+      "color": "blue",
+      "mark": "PA1927/wordmark",
+      "style": "Very large blue capitals across the cabin windows, wide with flared, tapering strokes (the 'billboard'); the windows show through the letters.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Extended Black",
+          "Eurostile Extended Black",
+          "Microgramma Extended Bold"
+        ],
+        "weight": 800,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "logos": [
+    {
+      "mark": "PA1927/globe",
+      "place": "fin",
+      "at": [
+        0.5,
+        0.255
+      ],
+      "height": 0.96,
+      "colors": [
+        "blue",
+        "white"
+      ],
+      "description": "The globe: a blue disc drawn with white lines of latitude and longitude, the name 'PAN AM' in white capitals across a band through its middle. Painted big on the fin, a little aft of the middle; on the 727 it reaches down over the centre engine's intake fairing.",
+      "reference": "https://commons.wikimedia.org/wiki/Category:Pan_American_logos",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "notes": "Measured 2026-11-24 for ghost flights on 727-200 N550PS (May 1985, fitted to shapes/B722.json), with the A300B4 and the 747 as types (B744-passenger stands in for the 747-100, -200 and SP). The grey's top is a level line at -0.70 m. The lettering is Pan Am's own and no typeface comes close: it's named as a wordmark (PA1927/wordmark) with stand-ins that only get its width and weight. Colors are from faded slides.",
+  "types": {
+    "B722": {
+      "note": "On the 727 the globe is about 2.9 m across and centered at the top of the centre engine's S-duct intake, its lower half on the intake fairing, and the US flag is on that fairing ahead of the fin (N550PS, N4740). Both are in the fin's space carried down below its root, where a renderer draws fin logos over an S-duct's fairing. On other types the scheme's own globe is centered on the fin and the flag is left out.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "titles": [
+        {
+          "text": "PAN AM",
+          "place": "fuselage",
+          "at": [
+            0.1614,
+            -0.067
+          ],
+          "height": 0.7889,
+          "length": 0.4,
+          "color": "blue",
+          "mark": "PA1927/wordmark",
+          "style": "Very large blue capitals across the cabin windows, wide with flared, tapering strokes (the 'billboard'); the windows show through the letters.",
+          "confidence": "medium",
+          "sourceRefs": [
+            0,
+            1,
+            2
+          ],
+          "type": {
+            "similar": [
+              "Helvetica Neue Extended Black",
+              "Eurostile Extended Black",
+              "Microgramma Extended Bold"
+            ],
+            "weight": 800,
+            "width": "extended",
+            "strokes": "uniform",
+            "case": "upper"
+          }
+        }
+      ],
+      "logos": [
+        {
+          "mark": "PA1927/globe",
+          "place": "fin",
+          "at": [
+            0.5387,
+            -0.1613
+          ],
+          "height": 1.0306,
+          "colors": [
+            "blue",
+            "white"
+          ],
+          "description": "The globe: a blue disc drawn with white lines of latitude and longitude, the name 'PAN AM' in white capitals across a band through its middle. Painted big on the fin, a little aft of the middle; on the 727 it reaches down over the centre engine's intake fairing.",
+          "reference": "https://commons.wikimedia.org/wiki/Category:Pan_American_logos",
+          "confidence": "medium",
+          "sourceRefs": [
+            0,
+            1
+          ]
+        },
+        {
+          "mark": "PA1927/us-flag",
+          "place": "fin",
+          "at": [
+            -0.31,
+            -0.35
+          ],
+          "height": 0.22,
+          "colors": [
+            "flagRed",
+            "white",
+            "flagBlue"
+          ],
+          "description": "The flag of the United States, about 1.9 times as wide as it is tall, the canton forward on both sides. On the 727 it's on the side of the centre engine's S-duct intake fairing, ahead of the fin and the registration, about 0.6 m tall: in the fin's space carried down, ahead of and below its root.",
+          "reference": "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_States.svg",
+          "confidence": "medium",
+          "sourceRefs": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    "A30B": {
+      "note": "Pan Am's A300B4s were delivered in the billboard (1984-85) and never wore the cheatline. The title runs from just behind the forward door to just ahead of the overwing exit. The lower fuselage looks white or a very light grey in the photos and is drawn white. Measured on N209PA (1986), checked on N204PA (October 1985).",
+      "confidence": "medium",
+      "sourceRefs": [
+        3,
+        4
+      ],
+      "fuselage": {
+        "areas": [],
+        "radome": {
+          "color": "white",
+          "to": 0.01
+        }
+      },
+      "titles": [
+        {
+          "text": "PAN AM",
+          "place": "fuselage",
+          "at": [
+            0.1231,
+            -0.0637
+          ],
+          "height": 0.5882,
+          "length": 0.4197,
+          "color": "blue",
+          "mark": "PA1927/wordmark",
+          "style": "Very large blue capitals across the cabin windows, wide with flared, tapering strokes (the 'billboard'); the windows show through the letters.",
+          "confidence": "medium",
+          "sourceRefs": [
+            3
+          ],
+          "type": {
+            "similar": [
+              "Helvetica Neue Extended Black",
+              "Eurostile Extended Black",
+              "Microgramma Extended Bold"
+            ],
+            "weight": 800,
+            "width": "extended",
+            "strokes": "uniform",
+            "case": "upper"
+          }
+        }
+      ],
+      "logos": [
+        {
+          "mark": "PA1927/globe",
+          "place": "fin",
+          "at": [
+            0.5587,
+            0.3995
+          ],
+          "height": 0.5227,
+          "colors": [
+            "blue",
+            "white"
+          ],
+          "description": "The globe: a blue disc drawn with white lines of latitude and longitude, the name 'PAN AM' in white capitals across a band through its middle. Painted big on the fin, a little aft of the middle; on the 727 it reaches down over the centre engine's intake fairing.",
+          "reference": "https://commons.wikimedia.org/wiki/Category:Pan_American_logos",
+          "confidence": "medium",
+          "sourceRefs": [
+            3
+          ]
+        },
+        {
+          "mark": "PA1927/us-flag",
+          "place": "fin",
+          "at": [
+            0.7,
+            0.93
+          ],
+          "height": 0.096,
+          "colors": [
+            "flagRed",
+            "white",
+            "flagBlue"
+          ],
+          "description": "The flag of the United States, about 1.9 times as wide as it is tall, the canton forward on both sides. On the A300 it's at the top of the fin toward the trailing edge, above the globe, about 0.8 m tall.",
+          "reference": "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_States.svg",
+          "confidence": "medium",
+          "sourceRefs": [
+            3
+          ]
+        }
+      ]
+    },
+    "B744-passenger": {
+      "note": "On the 747 the title runs from behind the first door to past the third, across the main deck's windows, about 3.5 m tall. Measured on N770PA (1986). N748PA flew in October 1985 with these titles over a blue cheatline (not drawn).",
+      "confidence": "medium",
+      "sourceRefs": [
+        5,
+        6
+      ],
+      "fuselage": {
+        "areas": [
+          {
+            "name": "light grey lower fuselage under a level line 1.22 m below the side's middle, from just behind the white nose cone to the tail",
+            "color": "grey",
+            "points": [
+              [
+                0.0335,
+                -1.0
+              ],
+              [
+                0.03351,
+                -0.36449
+              ],
+              [
+                0.03474,
+                -0.35823
+              ],
+              [
+                0.03596,
+                -0.35228
+              ],
+              [
+                0.03718,
+                -0.34662
+              ],
+              [
+                0.03841,
+                -0.34123
+              ],
+              [
+                0.0411,
+                -0.33182
+              ],
+              [
+                0.04355,
+                -0.32379
+              ],
+              [
+                0.04601,
+                -0.31633
+              ],
+              [
+                0.04846,
+                -0.30939
+              ],
+              [
+                0.0519,
+                -0.30298
+              ],
+              [
+                0.05439,
+                -0.29964
+              ],
+              [
+                0.05688,
+                -0.2965
+              ],
+              [
+                0.05866,
+                -0.29506
+              ],
+              [
+                0.06022,
+                -0.29465
+              ],
+              [
+                0.06283,
+                -0.29521
+              ],
+              [
+                0.06783,
+                -0.29945
+              ],
+              [
+                0.0691,
+                -0.30005
+              ],
+              [
+                0.07334,
+                -0.30385
+              ],
+              [
+                0.07758,
+                -0.30732
+              ],
+              [
+                0.07902,
+                -0.30745
+              ],
+              [
+                0.07962,
+                -0.30706
+              ],
+              [
+                0.08029,
+                -0.30689
+              ],
+              [
+                0.08147,
+                -0.30578
+              ],
+              [
+                0.083,
+                -0.30326
+              ],
+              [
+                0.09065,
+                -0.28809
+              ],
+              [
+                0.09641,
+                -0.27902
+              ],
+              [
+                0.10217,
+                -0.27018
+              ],
+              [
+                0.10882,
+                -0.26198
+              ],
+              [
+                0.11547,
+                -0.25396
+              ],
+              [
+                0.12395,
+                -0.24549
+              ],
+              [
+                0.13242,
+                -0.23722
+              ],
+              [
+                0.14591,
+                -0.22704
+              ],
+              [
+                0.16526,
+                -0.21777
+              ],
+              [
+                0.19736,
+                -0.20652
+              ],
+              [
+                0.21231,
+                -0.20407
+              ],
+              [
+                0.24435,
+                -0.20299
+              ],
+              [
+                0.25361,
+                -0.2047
+              ],
+              [
+                0.41897,
+                -0.21735
+              ],
+              [
+                0.42873,
+                -0.21924
+              ],
+              [
+                0.43447,
+                -0.21931
+              ],
+              [
+                0.56993,
+                -0.22937
+              ],
+              [
+                0.57284,
+                -0.23001
+              ],
+              [
+                0.57686,
+                -0.23369
+              ],
+              [
+                0.57918,
+                -0.23448
+              ],
+              [
+                0.64183,
+                -0.2342
+              ],
+              [
+                0.64618,
+                -0.23498
+              ],
+              [
+                0.66032,
+                -0.24178
+              ],
+              [
+                0.67487,
+                -0.25318
+              ],
+              [
+                0.68397,
+                -0.26309
+              ],
+              [
+                0.69014,
+                -0.27315
+              ],
+              [
+                0.69653,
+                -0.2881
+              ],
+              [
+                0.70293,
+                -0.30368
+              ],
+              [
+                0.70955,
+                -0.31912
+              ],
+              [
+                0.71617,
+                -0.33524
+              ],
+              [
+                0.7214,
+                -0.34909
+              ],
+              [
+                0.72662,
+                -0.36348
+              ],
+              [
+                0.73184,
+                -0.37846
+              ],
+              [
+                0.73707,
+                -0.39408
+              ],
+              [
+                0.74229,
+                -0.41041
+              ],
+              [
+                0.74752,
+                -0.4275
+              ],
+              [
+                0.75274,
+                -0.44545
+              ],
+              [
+                0.75796,
+                -0.46434
+              ],
+              [
+                0.76247,
+                -0.48152
+              ],
+              [
+                0.76698,
+                -0.49957
+              ],
+              [
+                0.77259,
+                -0.52413
+              ],
+              [
+                0.77734,
+                -0.54816
+              ],
+              [
+                0.7796,
+                -0.55968
+              ],
+              [
+                0.78466,
+                -0.58531
+              ],
+              [
+                0.78921,
+                -0.60993
+              ],
+              [
+                0.79376,
+                -0.63669
+              ],
+              [
+                0.79832,
+                -0.6661
+              ],
+              [
+                0.80287,
+                -0.69897
+              ],
+              [
+                0.80742,
+                -0.73661
+              ],
+              [
+                0.81198,
+                -0.78149
+              ],
+              [
+                0.81653,
+                -0.83961
+              ],
+              [
+                0.82166,
+                -0.97998
+              ],
+              [
+                0.82195,
+                -1.0
+              ],
+              [
+                1.0,
+                -1.0
+              ]
+            ],
+            "confidence": "medium",
+            "sourceRefs": [
+              5
+            ]
+          }
+        ],
+        "radome": {
+          "color": "radome",
+          "to": 0.008
+        }
+      },
+      "titles": [
+        {
+          "text": "PAN AM",
+          "place": "fuselage",
+          "at": [
+            0.1632,
+            -0.1018
+          ],
+          "height": 0.7251,
+          "length": 0.392,
+          "color": "blue",
+          "mark": "PA1927/wordmark",
+          "style": "Very large blue capitals across the cabin windows, wide with flared, tapering strokes (the 'billboard'); the windows show through the letters.",
+          "confidence": "medium",
+          "sourceRefs": [
+            5
+          ],
+          "type": {
+            "similar": [
+              "Helvetica Neue Extended Black",
+              "Eurostile Extended Black",
+              "Microgramma Extended Bold"
+            ],
+            "weight": 800,
+            "width": "extended",
+            "strokes": "uniform",
+            "case": "upper"
+          }
+        }
+      ],
+      "logos": [
+        {
+          "mark": "PA1927/globe",
+          "place": "fin",
+          "at": [
+            0.6,
+            0.36
+          ],
+          "height": 0.55,
+          "colors": [
+            "blue",
+            "white"
+          ],
+          "description": "The globe: a blue disc drawn with white lines of latitude and longitude, the name 'PAN AM' in white capitals across a band through its middle. Painted big on the fin, a little aft of the middle; on the 727 it reaches down over the centre engine's intake fairing.",
+          "reference": "https://commons.wikimedia.org/wiki/Category:Pan_American_logos",
+          "confidence": "medium",
+          "sourceRefs": [
+            5
+          ]
+        },
+        {
+          "mark": "PA1927/us-flag",
+          "place": "fin",
+          "at": [
+            0.5,
+            0.85
+          ],
+          "height": 0.11,
+          "colors": [
+            "flagRed",
+            "white",
+            "flagBlue"
+          ],
+          "description": "The flag of the United States, about 1.9 times as wide as it is tall, the canton forward on both sides. On the 747 it's high on the fin above the globe, about 1.1 m tall.",
+          "reference": "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_States.svg",
+          "confidence": "medium",
+          "sourceRefs": [
+            5
+          ]
+        }
+      ]
+    }
+  }
+}

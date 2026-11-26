@@ -20,6 +20,18 @@
       "title": "UPS Boeing 767-300F N339UP on final approach to Boston July 2026 1.jpg (CC BY 4.0)",
       "accessed": "2026-11-13",
       "note": "N339UP (767-300F) left side, 2026-07-08: geometry, title, fin."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N124UP_-_Airbus_A300F4-622R_-_UPS_(37280211124).jpg",
+      "title": "N124UP - Airbus A300F4-622R - UPS (37280211124).jpg (CC BY 2.0, Colin Brown)",
+      "accessed": "2026-11-25",
+      "note": "N124UP (A300-600F) left side, near side-on, 2017: the brown sweep's and gold line's edges on the A300-600F, fitted to its shape (tools/photo_trace.py)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:UPS_A300_N158UP_at_Boston_Nov_2024_2.jpg",
+      "title": "UPS A300 N158UP at Boston Nov 2024 2.jpg (CC BY 4.0, 4300streetcar)",
+      "accessed": "2026-11-25",
+      "note": "N158UP (A300-600F) left front quarter, 2024-11-05: the sweep still leaves the crown over the wing's root. Looked at, not measured."
     }
   ],
   "palette": {
@@ -265,5 +277,179 @@
     }
   ],
   "notes": "Drawn from N339UP (767-300F, July 2026). Freighters have no windows. The brown starts as a thin wedge on the crown over the wing. Re-checked 2026-11-15 on N339UP: 'Worldwide Services' runs x 0.153 to 0.345, lowercase 0.77 of the capitals; the gold edge and the brown are curves (smooth), and the brown's outline, which crossed itself, now follows the gold's aft edge only.",
-  "history": "Replaces Skyarium v1's approximate standard (a few colors from memory). The 2003 livery came with the shield redesign, replacing the 1961 bow-tie shield scheme."
+  "history": "Replaces Skyarium v1's approximate standard (a few colors from memory). The 2003 livery came with the shield redesign, replacing the 1961 bow-tie shield scheme.",
+  "types": {
+    "A306": {
+      "note": "On the A300-600F the sweep is longer and further forward than the 767's fitted by landmarks: it leaves the crown over the wing's root (the gold line at x 0.29, the brown at 0.345, against 0.41 and 0.48 fitted) and reaches the belly at 0.76-0.785 (N124UP, 2017, fitted to the shape; N158UP, 2024, alike). Its title isn't measured here: the 2017 photo has the old second line under it.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ],
+      "fuselage": {
+        "areas": [
+          {
+            "name": "gold edge of the brown sweep",
+            "color": "gold",
+            "points": [
+              [
+                0.29,
+                1
+              ],
+              [
+                0.334,
+                0.71
+              ],
+              [
+                0.375,
+                0.6
+              ],
+              [
+                0.415,
+                0.53
+              ],
+              [
+                0.456,
+                0.455
+              ],
+              [
+                0.517,
+                0.312
+              ],
+              [
+                0.558,
+                0.223
+              ],
+              [
+                0.599,
+                0.114
+              ],
+              [
+                0.661,
+                -0.096
+              ],
+              [
+                0.724,
+                -0.458
+              ],
+              [
+                0.762,
+                -1
+              ],
+              [
+                0.785,
+                -1
+              ],
+              [
+                0.743,
+                -0.388
+              ],
+              [
+                0.68,
+                -0.014
+              ],
+              [
+                0.639,
+                0.124
+              ],
+              [
+                0.598,
+                0.239
+              ],
+              [
+                0.557,
+                0.334
+              ],
+              [
+                0.516,
+                0.421
+              ],
+              [
+                0.475,
+                0.519
+              ],
+              [
+                0.435,
+                0.604
+              ],
+              [
+                0.394,
+                0.69
+              ],
+              [
+                0.345,
+                1
+              ]
+            ],
+            "sourceRefs": [
+              2
+            ],
+            "smooth": true
+          },
+          {
+            "name": "brown sweep: aft fuselage from the crown over the wing's root down to the belly ahead of the tail",
+            "color": "brown",
+            "points": [
+              [
+                0.345,
+                1
+              ],
+              [
+                0.394,
+                0.69
+              ],
+              [
+                0.435,
+                0.604
+              ],
+              [
+                0.475,
+                0.519
+              ],
+              [
+                0.516,
+                0.421
+              ],
+              [
+                0.557,
+                0.334
+              ],
+              [
+                0.598,
+                0.239
+              ],
+              [
+                0.639,
+                0.124
+              ],
+              [
+                0.68,
+                -0.014
+              ],
+              [
+                0.743,
+                -0.388
+              ],
+              [
+                0.785,
+                -1
+              ],
+              [
+                1,
+                -1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "sourceRefs": [
+              2
+            ],
+            "smooth": true
+          }
+        ]
+      }
+    }
+  }
 }

@@ -1,0 +1,68 @@
+{
+  "_about": "The Convair 580's own parts, measured on a side-on photo of a 580 and written over the Convair 340 airframe traced from the C-131B's technical order (recipe.json) by derive.py. The photo: Air Chathams Convair 580 ZK-CIE taxiing at Auckland, 2020-07-09 (File:Convair CV-580 ZK-CIE Air Chathams 07-09-2020 18045.jpg, CC BY 4.0, 4578 x 3270 px), the left side, side-on (the crown and belly run level along the cabin), taken from a little above (cameraAbove). Pixels of the full-size photo. Scale: the nose tip (167 px) to the tail cone's end (4365 px) over the published 81 ft 6 in (24.84 m): 169.0 px a meter; the fuselage is 490 px tall there (2.90 m against the printed 9 ft 5 in, +1%), and the propeller's vertical blade 700 px tip to tip (4.14 m against 13 ft 6 in). The centerline: halfway between crown (1388-1395) and belly (1875-1880), 1633 px. Only the measurements are taken.",
+  "photo": "https://commons.wikimedia.org/wiki/File:Convair_CV-580_ZK-CIE_Air_Chathams_07-09-2020_18045.jpg",
+  "cameraAbove": 5,
+  "_cameraAbove": "Degrees the camera looks down on the aircraft's side. The near main wheel stands 0.27 m lower in the photo than the nose wheel (both on the ground, the main wheel 3.81 m nearer: 4 degrees); photo_trace.py's fit of the finished shape gives 6. Points on the fuselage's near side (windows, doors, glass) are drawn lower than they are by their distance out from the centerline times its sine, and the nacelle, 3.81 m out, by 0.33 m: derive.py puts them back. So put back, the propeller's hub is 0.51 m under the centerline, where the C-131B's drawing has its own (0.49 m in its side view, 0.55 m in its front view), and a near-head-on photo of ZK-CIB (Convair 580 (Air Chathams) Wellington 07.jpg, CC BY 2.0) puts the two hubs 0.3-0.5 m under it. The outlines from the side (crown, belly, nose, fin) are the silhouette and the centerline plane, which it doesn't move.",
+  "groundBelowCenterline": 3.023,
+  "_groundBelowCenterline": "The C-131B drawing's ground line (1195 px in its side view's raster, 769 px its centerline), for the overall-height check only: the 580 stands on the 340's landing gear.",
+  "nose": 167,
+  "centerline": 1633,
+  "ppm": 169.0,
+  "length": 24.84,
+  "nose_crown": [
+    [167, 1695], [168, 1685], [171, 1676], [174, 1669], [180, 1659], [195, 1643], [210, 1631], [225, 1622],
+    [270, 1601], [300, 1590], [315, 1585], [420, 1560], [500, 1545], [540, 1470], [600, 1445], [700, 1420],
+    [800, 1405]
+  ],
+  "nose_crown_blend": [3.75, 4.5],
+  "nose_belly": [
+    [167, 1700], [168, 1709], [175, 1744], [190, 1760], [210, 1776], [240, 1792], [270, 1804], [300, 1816],
+    [330, 1816], [360, 1824], [400, 1832], [450, 1840], [600, 1856], [800, 1878], [1000, 1880]
+  ],
+  "nose_belly_blend": [4.93, 8.0],
+  "nose_width_blend": [1.0, 2.6],
+  "fin": {
+    "fillet": [
+      [2900, 1394], [2950, 1389], [3000, 1380], [3050, 1372], [3100, 1364], [3150, 1353], [3200, 1342],
+      [3250, 1329], [3300, 1316], [3350, 1301], [3400, 1286], [3450, 1270], [3500, 1252], [3550, 1232],
+      [3600, 1211], [3650, 1187], [3700, 1157], [3750, 1115], [3790, 1075], [3818, 1040]
+    ],
+    "leading": [[3818, 1040], [3888, 880], [3905, 840], [3923, 800], [3939, 760], [3956, 720], [3970, 700], [4000, 684], [4050, 678]],
+    "trailing": [
+      [4360, 1620], [4330, 1500], [4305, 1400], [4296, 1360], [4288, 1320], [4279, 1280], [4271, 1240],
+      [4262, 1200], [4185, 840], [4176, 800], [4168, 760], [4146, 720], [4100, 690], [4050, 678]
+    ],
+    "rudder": [[4035, 1560], [4060, 720]]
+  },
+  "stabilizerRoot": [4050, 1640],
+  "engine": {
+    "y": 3.81,
+    "top": [
+      [1245, 1640], [1300, 1616], [1400, 1610], [1500, 1610], [1600, 1614], [1700, 1624], [1800, 1645],
+      [1900, 1672], [2000, 1700], [2150, 1715], [2320, 1735]
+    ],
+    "bottom": [
+      [1245, 1860], [1300, 1885], [1400, 1903], [1500, 1912], [1600, 1918], [1660, 1925], [1665, 2020],
+      [2045, 2025], [2050, 1935], [2200, 1890], [2320, 1855]
+    ],
+    "halfWidth": [[1245, 0.42], [1300, 0.52], [1450, 0.58], [1800, 0.6], [2050, 0.56], [2200, 0.42], [2320, 0.3]],
+    "propeller": {"x": 1205, "hub": 1776, "blades": 4, "diameter": 4.115, "spinner": [1093, 1240], "spinnerHeight": [1705, 1850]}
+  },
+  "windows": {
+    "x": [1459, 1622, 1778, 1952, 2120, 2275, 2438, 2601, 2765, 2928, 3091, 3470],
+    "band": [1555, 1628],
+    "width": 74
+  },
+  "doors": [
+    {"kind": "door", "box": [890, 1490, 1052, 1831], "side": "left", "name": "forward airstair door"},
+    {"kind": "exit", "box": [1728, 1528, 1828, 1640]},
+    {"kind": "exit", "box": [2070, 1528, 2170, 1640]},
+    {"kind": "exit", "box": [2551, 1528, 2651, 1640]},
+    {"kind": "door", "box": [3215, 1458, 3365, 1772], "side": "left", "name": "aft door"}
+  ],
+  "cockpitPanes": [
+    [[502.5, 1540], [541, 1486], [577.5, 1491], [541, 1549]],
+    [[541, 1560], [584, 1495], [617.5, 1496], [579, 1570]],
+    [[580, 1572.5], [622.5, 1500], [711, 1500], [711, 1571]]
+  ]
+}

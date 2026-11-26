@@ -1,0 +1,307 @@
+{
+  "_about": "A300B4 (and B2: the same airframe), from Airbus Industrie, A300 Airplane Characteristics for Airport Planning (Revision 22, Dec 01/09; the copy on aircraft.airbus.com's Aircraft Characteristics page), 2.2 General Dimensions, Model B2-B4 (Feb. 1980, page index 28): side, plan and front views on one sheet, a scan on graph paper of about 32 px a meter. Pixels of layers.py --mode image rasters at scale 5, line centres; the plan turned level (--rotate 0.25). Scaled by the printed 53.61 m (175.50 ft) from the nose to the tail cone; the plan and front views are at the side's scale (the front's span 1727 px for the printed 44.83 m, 38.52 px a meter against the side's 38.54). The sheet draws no cabin windows: they're `windows.x`, measured on side-on Commons photos (see the shape's note). The doors are drawn 0.2-0.6 m ahead of 2.8's door clearance figures (5.80, 13.08 and 39.78 m from the nose to the middles of doors 1, 2 and the aft door): each is moved to its printed middle, its drawn width and height kept (2.8 prints the openings 1.07 m wide and 1.93 m tall). The Type I exit over the wing's trailing edge is drawn above the flaps only, 0.7 m ahead of where two photos put it by counting the cabin windows (30.57 m to its middle, in place of two windows): it's placed there, its top and width the drawing's, its height the Type I's 1.22 m. The lower-deck cargo doors (right side) aren't drawn on 2.2 and are left out. The nacelle is the CF6-50's (the drawing's; the B2's and early B4s' JT9D-59A is about the same size). Engine inlet from the nose: 2.8.2's 15.86 m (52 ft 0.4 in). Fin tip above the crown: 2.3's ground clearances, the middles of L (16.43-16.72 m) less M (7.54-7.71 m), the crown at the cockpit; good to about 0.15 m. Rebuild: build.py a30b/recipe.json W, then smooth.py shapes/A30B.json --parts, a30b/straighten.py shapes/A30B.json (the scan's half-meter zigzags out of the straight parts: the cylinder's crown 7.5-38.6 m and belly 8.9-32.5 m and the fin's leading edge 43.4-49.3 m set to their least-squares lines, the nose's crown eased by a local quadratic; nothing moves more than 4.3 cm from the trace), then windshield.py.",
+  "out": "../../../shapes/A30B.json",
+  "length": 53.61,
+  "files": {
+    "side": "side.snap.json",
+    "plan": "plan.snap.json",
+    "front": "front.snap.json",
+    "features": "features.json"
+  },
+  "refs": {
+    "side": {
+      "nose": 68,
+      "tail": 2134,
+      "cowlEnd": 841
+    },
+    "plan": {
+      "nose": 74,
+      "centerline": 907
+    },
+    "front": {
+      "centerline": 1096,
+      "crownTop": 370
+    }
+  },
+  "windows": {
+    "x": [
+      7.18,
+      7.71,
+      8.27,
+      8.8,
+      9.36,
+      9.92,
+      10.44,
+      11.0,
+      11.56,
+      14.3,
+      14.83,
+      15.36,
+      15.92,
+      16.48,
+      17.04,
+      17.57,
+      18.13,
+      18.66,
+      19.19,
+      19.75,
+      20.31,
+      20.84,
+      21.36,
+      21.89,
+      22.42,
+      22.95,
+      23.48,
+      24.04,
+      24.57,
+      25.1,
+      25.63,
+      26.22,
+      26.72,
+      27.22,
+      27.72,
+      28.17,
+      28.7,
+      29.24,
+      29.77,
+      31.37,
+      31.9,
+      32.44,
+      32.97,
+      33.5,
+      34.04,
+      34.57,
+      35.1,
+      35.64,
+      36.17,
+      36.67,
+      37.2,
+      37.7,
+      38.23,
+      38.73,
+      40.97
+    ],
+    "width": 0.26,
+    "z": [
+      0.64,
+      1.03
+    ],
+    "note": "The sheet draws no cabin windows. Measured on A300B2 N291EA's left side (June 1984, Jon Proctor, GFDL 1.2; tools/photo_trace.py fitted to this shape: its doors land within 0.07 m of 2.8's figures): 9 between doors 1 and 2, 26 behind door 2 to the wing, 6 ahead of the aft door and one behind it, at the 21 in (0.533 m) frame pitch. The 13 the wing hides there are placed at that pitch from door 2's first, two frames left out for the Type I exit as N212EA's right side (1982) shows them, with one in the exit.",
+    "atExits": true
+  },
+  "doors": [
+    {
+      "kind": "door",
+      "box": [
+        266,
+        415,
+        317,
+        488
+      ]
+    },
+    {
+      "kind": "door",
+      "box": [
+        548,
+        412,
+        597,
+        487
+      ]
+    },
+    {
+      "kind": "exit",
+      "box": [
+        1233,
+        424,
+        1260,
+        471
+      ]
+    },
+    {
+      "kind": "door",
+      "box": [
+        1576,
+        404,
+        1627,
+        479
+      ]
+    }
+  ],
+  "cockpitPanes": [
+    [
+      [
+        117,
+        452
+      ],
+      [
+        118,
+        450
+      ],
+      [
+        123,
+        445
+      ],
+      [
+        129,
+        440
+      ],
+      [
+        131,
+        439
+      ],
+      [
+        135,
+        439
+      ],
+      [
+        137,
+        441
+      ],
+      [
+        137,
+        443
+      ],
+      [
+        134,
+        449
+      ],
+      [
+        130,
+        453
+      ],
+      [
+        124,
+        454
+      ],
+      [
+        119,
+        454
+      ]
+    ],
+    [
+      [
+        134,
+        449
+      ],
+      [
+        137,
+        444
+      ],
+      [
+        139,
+        441
+      ],
+      [
+        142,
+        438
+      ],
+      [
+        146,
+        437
+      ],
+      [
+        157,
+        437
+      ],
+      [
+        159,
+        439
+      ],
+      [
+        161,
+        446
+      ],
+      [
+        161,
+        452
+      ],
+      [
+        158,
+        455
+      ],
+      [
+        147,
+        456
+      ],
+      [
+        138,
+        456
+      ],
+      [
+        136,
+        455
+      ],
+      [
+        134,
+        453
+      ]
+    ],
+    [
+      [
+        161,
+        439
+      ],
+      [
+        165,
+        435
+      ],
+      [
+        176,
+        435
+      ],
+      [
+        183,
+        438
+      ],
+      [
+        188,
+        443
+      ],
+      [
+        188,
+        450
+      ],
+      [
+        187,
+        452
+      ],
+      [
+        184,
+        455
+      ],
+      [
+        164,
+        455
+      ],
+      [
+        161,
+        452
+      ]
+    ]
+  ],
+  "printed": {
+    "fuselage width": 5.64,
+    "wingspan": 44.83,
+    "tailplane span": 16.94,
+    "engine out from the centerline": 7.935,
+    "engine inlet from the nose": 15.86,
+    "overall length": 53.61,
+    "fin tip above the crown": 8.95
+  },
+  "meta": {
+    "id": "A30B",
+    "name": "Airbus A300B4",
+    "types": [
+      "A30B"
+    ],
+    "confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.aircraft.airbus.com/sites/default/files/2023-02/Airbus-Commercial-Aircraft-AC-A300-Dec-2009.pdf",
+        "title": "Airbus Industrie, A300 Airplane Characteristics for Airport Planning (Revision 22, Dec 01/09), 2.2 General Dimensions, Model B2-B4 (Feb. 1980); 2.3 Ground Clearances; 2.8 Door Clearances",
+        "accessed": "2026-11-24",
+        "note": "Dimensions and outlines read off the B2-B4 sheet's side, plan and front views (tools/trace/a30b/), a 1980 scan on graph paper (about 32 px a meter, so outlines are good to about 5 cm); the figures are the aircraft's measurements, not a copy of the drawing. Scaled by the printed 53.61 m nose to tail cone; the plan turned level by 0.25\u00b0. Engine out from the centerline: half the printed 15.87 m between the engines, read at the front view's inlet (the plan draws the nacelle 8.07 m out). Engine inlet from the nose: 2.8.2's 15.86 m. Doors 1, 2 and the aft door at 2.8's 5.80, 13.08 and 39.78 m to their middles (the sheet draws them 0.2-0.6 m further forward; a photo agrees with 2.8's). The fin's tip is 8.28 m above the crown as drawn, and 2.3's own side view draws it the same (8.23 m at its scale); 2.3's printed heights (L 16.72 m to the fin's tip, M 7.71 m to the crown, empty) give 8.95 m, but they're at the aircraft's ground attitude, about 0.9\u00b0 nose down by its door sills (A 4.67 m, E 5.38 m), which lifts the fin's tip by about 0.6 m against the crown at the cockpit. Fitted to a side-on photo (N291EA, 1984) the drawing's fin lands within 4 px of the photo's, so the drawing's is kept. Cabin windows measured on that photo (cabin.windows.note). The lower-deck cargo doors aren't on this sheet and are left out. Engines: the CF6-50 nacelle the sheet draws."
+      }
+    ]
+  }
+}

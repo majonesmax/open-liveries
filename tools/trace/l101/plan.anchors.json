@@ -1,0 +1,9 @@
+{
+  "_about": "Lockheed L-1011 Maintenance Manual, 6-10-00 Figure 2, Aircraft Dimensions - Plan View (page 3, Dec 1/71): page index 9, layers.py --mode image --threshold 150 at scale 4.396, clip 60,190,530,700, --rotate -0.67. The plan is drawn at 0.910 of the side's scale (rendered to it: nose to tail cone 1756 px against the side's 1753) and turned 0.67 degrees (its fuselage's centreline ran from y 900 at x 600 to 890 at x 1450; turned, the fuselage, wing tips and tailplane tips share one centreline at y 894). Pixels of that raster, line centres; the upper half (the aircraft's right side, the same as its left). The nose tip is on an extension line (a free point). The S-duct intake's fairing from above is the open box ahead of the fin (tail.halfWidth); behind it the fairing blends into the fin and isn't drawn. The wing's leading edge is the slats' outer line; the inboard trailing edge runs nearly straight out to the kink at the outboard flap.",
+  "fuselage.halfWidth": [{"free": [167, 894]}, "hidden", [174, 874], [227, 843], [304, 820], [381, 805], [500, 801], [700, 800], [856, 800], [1100, 798], [1300, 797], [1400, 799], [1500, 805], [1587, 812], [1700, 832], [1744, 840], [1800, 847], [1850, 862], "hidden", {"free": [1922, 894]}],
+  "wing.leading": [[858, 800], [927, 708], [1000, 612], [1081, 504], [1235, 315], [1381, 131]],
+  "wing.trailing": [[1251, 797], [1262, 700], [1274, 580], [1388, 354], [1486, 131]],
+  "stabilizer.leading": [[1590, 811], [1650, 725], [1700, 659], [1760, 600], [1808, 543]],
+  "stabilizer.trailing": [[1800, 849], [1830, 760], [1860, 660], [1893, 545]],
+  "tail.halfWidth": [[1432, 894], [1432, 862], [1440, 854], [1500, 854], [1583, 854]]
+}

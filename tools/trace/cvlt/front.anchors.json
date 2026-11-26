@@ -1,0 +1,11 @@
+{
+  "_about": "T.O. 1C-131B-2-2 page 2B's front view: the scan's crop 100,1990,1700,2408 saved at 72 dpi, then layers.py --mode image --threshold 170 at scale 3.0214 (the side's scale: its tips 4492 px apart at scale 3, against the printed 105 ft 4 in). Pixels of that raster, line centres; the left half. The wing tip is placed at the plan's (96 px: the front view draws the fuselage 0.11 m right of the middle between its tips). The C-131B's propeller disc and nacelle hide the wing between 1450 and 2000 (bridged, both lines); the tailplane shows only between the disc and the fuselage.",
+  "fuselage.section": [
+    [2347, 442], [2304, 446], [2260, 460], [2203, 500], [2166, 550], [2150, 600], [2146, 650], [2154, 700],
+    [2176, 750], [2223, 800], [2300, 840], [2347, 843]
+  ],
+  "wing.upper": [[2150, 731], [2120, 731], [2080, 728], [2000, 724], "hidden", [1450, 685], [1200, 662], [800, 624], [400, 585], [150, 562], {"free": [96, 564]}],
+  "wing.lower": [[2140, 826], [2120, 824], [2080, 820], [2000, 812], "hidden", [1450, 756], [1200, 722], [800, 670], [400, 616], [150, 582], {"free": [96, 566]}],
+  "stabilizer.upper": [[2150, 619], [2120, 618], [2080, 620]],
+  "stabilizer.lower": [[2150, 660], [2120, 660], [2080, 658]]
+}

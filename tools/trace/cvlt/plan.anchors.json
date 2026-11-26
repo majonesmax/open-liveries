@@ -1,0 +1,24 @@
+{
+  "_about": "T.O. 1C-131B-2-2 page 2B's plan view, drawn nose down on the page: the scan's crop 100,780,1680,1950 turned 90 degrees clockwise (nose left) and saved at 72 dpi, then layers.py --mode image --threshold 170 at scale 3 with --xscale 1.0525: the plan is drawn 5% short lengthwise against the side view and its own printed 79 ft 2 in (nose to tail cone 3231 px at scale 3 against the side's 3400.5), while across it is at the side's scale (its tips 32.14 m apart against the printed 105 ft 4 in; the fuselage 2.81 m wide against 9 ft 5 in). The propellers' plane lands on the side view's once evened out. Pixels of that raster, line centres; the upper half. The nacelle hides the wing's edges across it, and the 13 ft 6 in dimension's arrow crosses the leading edge by the root (both bridged), the tailplane's root the fuselage's side (bridged). The C-131B's nacelle isn't traced (derive.py).",
+  "fuselage.halfWidth": [
+    [221, 2334], [240, 2282], [300, 2236], [400, 2192], [500, 2164], [600, 2148], [800, 2134], [1300, 2136],
+    [2000, 2136], [2700, 2139], [2900, 2151], [3000, 2163], "hidden", [3200, 2197], [3300, 2220], [3400, 2246],
+    [3500, 2278], [3600, 2320], [3624, 2334]
+  ],
+  "wing.leading": [
+    [1390, 2125], [1400, 2060], "hidden", [1414, 1950], "hidden", [1454, 1650], [1474, 1500], [1500, 1300], [1540, 1000],
+    [1581, 700], [1622, 400], [1650, 200], [1662, 110], {"free": [1690, 84]}
+  ],
+  "wing.trailing": [
+    [1880, 2060], [1880, 1930], "hidden", [1907, 1650], [1902, 1500], [1893, 1300], [1880, 1000], [1868, 700],
+    [1856, 400], [1848, 200], [1848, 110], {"free": [1800, 84]}
+  ],
+  "stabilizer.leading": [
+    [3111, 2150], [3118, 2120], [3148, 2000], [3174, 1900], [3200, 1800], [3224, 1700], [3251, 1600],
+    {"free": [3275, 1545]}
+  ],
+  "stabilizer.trailing": [
+    [3460, 2150], [3456, 2120], [3442, 2000], [3430, 1900], [3418, 1800], [3404, 1700], [3391, 1600],
+    {"free": [3360, 1545]}
+  ]
+}
