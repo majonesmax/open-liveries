@@ -1,13 +1,36 @@
 # Open Liveries
 
-An open description of airline paint schemes that's precise enough to reproduce. It says which colors go where on
-the fuselage, fin, wings, winglets and engines, what the titles are and where the logos sit. It also says which
-airframe wears which scheme and when. For apps, flight sims, modelers and spotters.
-
-Started for [Skyarium](https://skyarium.app), which draws the real planes overhead in their colors.
+Airline paint schemes written down as data for apps and sims that want to draw a plane the way it really looks. The data
+is CC0 and the code is MIT. Use either for anything.
 
 **Browse it:** [majonesmax.github.io/open-liveries](https://majonesmax.github.io/open-liveries/). Every scheme from
 both sides, from below and in 3D.
+
+## Three parts
+
+**Liveries.** What a paint scheme looks like. The colors on the fuselage, fin, engines and winglets, the titles and
+where the logos sit. Positions are shares of each part rather than meters. One scheme fits any plane that way.
+There's one file per scheme in `liveries/`, from everyday colors to specials and retro jets.
+
+**Type models.** The real outline of each aircraft type in meters, measured from the makers' airport planning
+drawings. They're in `shapes/`. A livery says "the cheatline runs under the windows" and the type model says where
+the windows are on a 737-800 or an A350. The renderer in `renderer/` puts the two together.
+
+**Tail mappings.** Which actual plane wears which paint. Most jets wear their airline's standard scheme and need no
+entry. The rest are mapped by registration and ICAO address in `airframes/`. That covers specials and retro jets.
+It also covers regionals that fly for more than one airline. SkyWest flies for United, Delta, American and Alaska.
+Its callsign alone can't tell you the paint. Each of its 500-plus jets is mapped to United Express, Delta
+Connection, American Eagle or Alaska colors. The mapping comes from its registration block and the flight numbers
+it flies under. Regionals that fly for one airline only, like Envoy or Endeavor, are a single line in
+`operators.json`.
+
+## How they fit together
+
+Open Liveries started inside [Skyarium](https://skyarium.app), an iPhone app that draws the real planes overhead in
+their colors.
+When a jet passes it gets the plane's ICAO address and callsign from a public flight feed.
+The tail mapping says it's a SkyWest E175 in United Express paint. The livery says what United Express looks like. The E175's type model says where that paint
+goes. Then it draws the plane.
 
 ## What's here
 
