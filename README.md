@@ -3,8 +3,8 @@
 Airline paint schemes written down as data for apps and sims that want to draw a plane the way it really looks. The data
 is CC0 and the code is MIT. Use either for anything.
 
-**Browse it:** [majonesmax.github.io/open-liveries](https://majonesmax.github.io/open-liveries/). Every scheme from
-both sides, from below and in 3D.
+You can browse every scheme at [majonesmax.github.io/open-liveries](https://majonesmax.github.io/open-liveries/).
+Each one is drawn from both sides and below and in 3D.
 
 ## Three parts
 
