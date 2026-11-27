@@ -300,3 +300,32 @@ test('fin lettering keeps clear of a T-tail tailplane', () => {
       );
     }
 });
+
+// A twin's fin, root to tip, covers a trijet's tail from the crown up: American's flag fin on a 727, a DC-10 and an
+// L-1011 covered only the fin above the center engine or its S-duct's fairing (about a quarter of the tail seen
+// from the side). Between two twins, two trijets or from a trijet to a twin, the fin's areas stay as they are.
+test("a twin's fin covers a trijet's tail down to the crown", () => {
+  const s = scheme('AAL/standard');
+  const from = shape(s.drawnOn);
+  const lowest = (fin) => Math.min(...fin.areas.flatMap((a) => a.points.map((p) => p[1])));
+  for (const id of ['B722', 'B722-passenger', 'DC10', 'L101', 'L101-500', 'MD11']) {
+    const to = shape(id);
+    const foot = to.measured.finFoot;
+    assert.ok(foot < -0.4, `${id}: the crown under its fin at y ${foot}`);
+    const fitted = fitScheme(s, from, to).fin;
+    // The flag's lowest red stripe, at y 0.117 on the A321neo's fin, is as far up from the crown on the trijet.
+    const stripe = fitted.areas[3];
+    const bottom = Math.min(...stripe.points.map((p) => p[1]));
+    assert.ok(Math.abs(bottom - (1 - 0.883 * (1 - foot))) < 1e-9, `${id}: lowest stripe at ${bottom}`);
+    // The top stays at the tip.
+    assert.equal(Math.max(...fitted.areas[0].points.map((p) => p[1])), 1);
+    assert.ok(lowest(fitted) < 0, id);
+  }
+  for (const [a, b] of [
+    ['A321', 'B738'],
+    ['B722', 'L101'],
+    ['B722', 'B738'],
+  ])
+    assert.deepEqual(fitScheme(s, shape(a), shape(b)).fin, s.fin, `${a} → ${b}`);
+  for (const id of ['B738', 'A321', 'B752']) assert.equal(shape(id).measured.finFoot, undefined, id);
+});

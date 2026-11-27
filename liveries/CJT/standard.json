@@ -175,40 +175,62 @@
       "mark": "CJT/leaf-globe",
       "place": "fin",
       "at": [
-        0.4,
-        0.4
+        0.64,
+        0.42
       ],
-      "height": 0.35,
+      "height": 0.34,
       "colors": [
         "red",
         "gray",
         "white"
       ],
-      "description": "A red maple leaf overlapping a gray globe (latitude and longitude lines), with gray horizontal speed lines trailing from the leading edge.",
+      "description": "A gray globe (white latitude and longitude lines, a red rim) ahead of a red maple leaf over its aft half, gray horizontal speed lines trailing aft from the leaf to the trailing edge; it faces the nose on both sides (lines aft).",
       "reference": "https://commons.wikimedia.org/wiki/File:CARGOJET_BOEING_767F_C-FDIJ_(51464683982).jpg",
       "confidence": "medium",
       "sourceRefs": [
-        1
+        1,
+        2
       ]
     },
     {
       "mark": "CJT/swoosh",
       "place": "fuselage",
       "at": [
-        0.63,
-        0.45
+        0.626,
+        0.4
       ],
-      "height": 0.56,
+      "height": 0.48,
       "colors": [
         "red"
       ],
-      "description": "A thin red open oval swoosh round 'JET', with a small red maple leaf over the J.",
+      "description": "A thin red open oval swoosh round 'JET', starting fine under the G, round the end beyond the T and back along the top, with a small red maple leaf over the J. Placed per side, since 'JET' is aft on the left and forward on the right.",
       "reference": "https://commons.wikimedia.org/wiki/File:CARGOJET_BOEING_767F_C-FDIJ_(51464683982).jpg",
       "confidence": "low",
       "sourceRefs": [
         1,
         2
-      ]
+      ],
+      "side": "left"
+    },
+    {
+      "mark": "CJT/swoosh",
+      "place": "fuselage",
+      "at": [
+        0.43,
+        0.4
+      ],
+      "height": 0.48,
+      "colors": [
+        "red"
+      ],
+      "description": "A thin red open oval swoosh round 'JET', starting fine under the G, round the end beyond the T and back along the top, with a small red maple leaf over the J. Placed per side, since 'JET' is aft on the left and forward on the right.",
+      "reference": "https://commons.wikimedia.org/wiki/File:CARGOJET_BOEING_767F_C-FDIJ_(51464683982).jpg",
+      "confidence": "low",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "side": "right"
     }
   ],
   "titles": [
@@ -241,6 +263,6 @@
       }
     }
   ],
-  "notes": "Drawn from one right-side photo of 767-300 C-FDIJ (2021); no 2024–2026 Commons photo was found, though the scheme is believed unchanged. Right-side photo only; the left side is assumed to mirror it. Re-checked 2026-11-15 on a level left-side photo (C-FDIJ, 2023-04-30): CARGOJET is far smaller than drawn, its capitals between y 0.29 and 0.52 above the stripes (it had filled the fuselage's middle, cap 0.6), running x 0.356-0.70; the pinstripes, black over red, run level just above the middle from x 0.2 aft and dip toward the belly under the cockpit (they had been drawn as one long slope from high at the nose to low at the tail), the red ending in the swoosh round JET (~0.66), the black at ~0.8.",
+  "notes": "Drawn from one right-side photo of 767-300 C-FDIJ (2021); no 2024–2026 Commons photo was found, though the scheme is believed unchanged. Right-side photo only; the left side is assumed to mirror it. Re-checked 2026-11-15 on a level left-side photo (C-FDIJ, 2023-04-30): CARGOJET is far smaller than drawn, its capitals between y 0.29 and 0.52 above the stripes (it had filled the fuselage's middle, cap 0.6), running x 0.356-0.70; the pinstripes, black over red, run level just above the middle from x 0.2 aft and dip toward the belly under the cockpit (they had been drawn as one long slope from high at the nose to low at the tail), the red ending in the swoosh round JET (~0.66), the black at ~0.8. Re-checked 2026-11-26 on the same left-side photo (2023-04-30) and the right-side one (2021): the tail logo sits aft, its speed lines reaching the trailing edge (centre x 0.64, y 0.42, 0.34 tall; it had been drawn at 0.4); the swoosh's middle is level with the lettering's (y 0.4) and it wraps 'JET', so on the right, where 'JET' reads forward, it sits forward (x 0.43) and on the left aft (0.626).",
   "history": "Replaces Skyarium v1's approximate standard (a few colors from memory)."
 }

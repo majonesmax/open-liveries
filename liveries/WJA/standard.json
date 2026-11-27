@@ -26,6 +26,12 @@
       "title": "C-FNWD - Boeing 737 MAX 8 - WestJet LIR 260225.jpg (CC BY 2.0)",
       "accessed": "2026-11-13",
       "note": "C-FNWD right side on the ground, 2025-02-27: the same scheme."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Westjet_Boeing_787-9_Dreamliner_C-GMKS_at_LHR_01.jpg",
+      "title": "Westjet Boeing 787-9 Dreamliner C-GMKS at LHR 01.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-26",
+      "note": "787-9 C-GMKS left side, 2023-10-05: the fin from the left, the mirror of the right side's (the navy forward at the root, the white band rising aft)."
     }
   ],
   "palette": {
@@ -59,6 +65,11 @@
     "flagRed": {
       "hex": "#D52B1E",
       "official": false
+    },
+    "pale": {
+      "hex": "#AFD0D5",
+      "official": false,
+      "name": "the fin's light half-tone (teal dots on white), as one tone"
     }
   },
   "finish": "gloss",
@@ -149,70 +160,190 @@
     "base": "teal",
     "areas": [
       {
-        "name": "white mountain-like facet across the middle",
-        "color": "white",
+        "name": "light half-tone field across the middle, with the white maple-leaf point rising into the teal",
+        "color": "pale",
         "points": [
           [
-            0.48,
-            0.806
+            0,
+            0.6
           ],
           [
-            -0.0,
-            0.567
+            0.2,
+            0.605,
+            1
           ],
           [
-            -0.173,
-            0.176
+            0.4,
+            0.82,
+            1
           ],
           [
-            0.942,
-            0.189
+            0.5,
+            0.745
           ],
           [
-            1.303,
-            0.327
+            0.6,
+            0.7
           ],
           [
-            1.19,
-            0.592
+            0.7,
+            0.648
+          ],
+          [
+            0.775,
+            0.6,
+            1
+          ],
+          [
+            0.85,
+            0.612
+          ],
+          [
+            1,
+            0.655
+          ],
+          [
+            1,
+            0.388
+          ],
+          [
+            0.5,
+            0.322
+          ],
+          [
+            0,
+            0.26
           ]
         ],
-        "confidence": "low",
+        "confidence": "medium",
         "sourceRefs": [
           1,
-          2
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "teal wedge at the leading edge over the white band",
+        "color": "teal",
+        "points": [
+          [
+            0,
+            0.53
+          ],
+          [
+            0.21,
+            0.295,
+            1
+          ],
+          [
+            0,
+            0.26
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          3
         ]
       },
       {
-        "name": "navy lower facet at the root",
+        "name": "white band rising from the leading edge aft, then turning down to the root",
+        "color": "white",
+        "points": [
+          [
+            0,
+            0.26
+          ],
+          [
+            0.5,
+            0.322
+          ],
+          [
+            1,
+            0.39,
+            1
+          ],
+          [
+            0.94,
+            0.3
+          ],
+          [
+            0.86,
+            0.2
+          ],
+          [
+            0.81,
+            0.1
+          ],
+          [
+            0.79,
+            0
+          ],
+          [
+            0.69,
+            0
+          ],
+          [
+            0.7,
+            0.1
+          ],
+          [
+            0.725,
+            0.2
+          ],
+          [
+            0.735,
+            0.256,
+            1
+          ],
+          [
+            0,
+            0.2
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          3
+        ],
+        "smooth": true
+      },
+      {
+        "name": "navy at the root forward of the white",
         "color": "navy",
         "points": [
           [
-            0.942,
-            0.189
+            0,
+            0.2
           ],
           [
-            -0.213,
-            0.139
+            0.735,
+            0.256,
+            1
           ],
           [
-            -0.388,
-            0.063
+            0.725,
+            0.2
           ],
           [
-            1.003,
-            -0.214
+            0.7,
+            0.1
           ],
           [
-            1.052,
-            -0.113
+            0.69,
+            0
+          ],
+          [
+            0,
+            0
           ]
         ],
-        "confidence": "low",
+        "confidence": "medium",
         "sourceRefs": [
           1,
-          2
-        ]
+          3
+        ],
+        "smooth": true
       }
     ],
     "mirrored": true,
@@ -270,27 +401,6 @@
   },
   "logos": [
     {
-      "mark": "WJA/tail",
-      "place": "fin",
-      "at": [
-        0.5,
-        0.5
-      ],
-      "height": 0.9,
-      "colors": [
-        "teal",
-        "white",
-        "navy"
-      ],
-      "description": "WestJet's 2018 tail: angular facets of teal, white and navy (read as mountains and a maple leaf), finely half-toned at their edges, filling the fin.",
-      "reference": "https://commons.wikimedia.org/wiki/File:WestJet_logo_2018.svg",
-      "confidence": "medium",
-      "sourceRefs": [
-        1,
-        2
-      ]
-    },
-    {
       "mark": "WJA/canada-flag",
       "place": "fuselage",
       "at": [
@@ -340,6 +450,6 @@
       }
     }
   ],
-  "notes": "Drawn from right-side photos only (C-GPFT 2024, C-FNWD 2025) and mirrored: the left side should match. The fin's facets are simplified to two areas. WestJet Encore (WEN) wears this scheme. Re-checked 2026-11-15 on C-GPFT (flipped, fitted to the measured 737-800 shape, whose fuselage the MAX 8 shares): the title's baseline is just under the windows' middle (about 0.3 m below it, y 0.085) and its capitals stand about 0.77 m above it (height 0.40; it had been drawn reaching most of the way to the crown); x 0.16 to 0.37 as drawn. The teal's front edge is straight from the side: drawn by its two ends. The fin's facets stay simplified (the white is a dotted gradient on the aircraft). WestJet's 737-800s, its commonest type, wear the same layout.",
+  "notes": "Drawn from right-side photos only (C-GPFT 2024, C-FNWD 2025) and mirrored: the left side should match. The fin's facets are simplified to two areas. WestJet Encore (WEN) wears this scheme. Re-checked 2026-11-15 on C-GPFT (flipped, fitted to the measured 737-800 shape, whose fuselage the MAX 8 shares): the title's baseline is just under the windows' middle (about 0.3 m below it, y 0.085) and its capitals stand about 0.77 m above it (height 0.40; it had been drawn reaching most of the way to the crown); x 0.16 to 0.37 as drawn. The teal's front edge is straight from the side: drawn by its two ends. The fin's facets stay simplified (the white is a dotted gradient on the aircraft). WestJet's 737-800s, its commonest type, wear the same layout. Fin redrawn 2026-11-26 on C-GPFT (right side, flipped and fitted to shapes/B38M.json, read in fin space) and checked on 787-9 C-GMKS's left side (2023-10-05): teal above and aft; a light half-tone field across the middle with a white point rising to x 0.4, y 0.82 (the maple leaf's tip); a white band rising from the leading edge (y 0.2-0.26) to the trailing edge (y 0.39), turning down to the root at x 0.69-0.79; navy forward of it at the root; a teal wedge at the leading edge. The half-tones are drawn as flat tones. The fin's tail-art logo entry is gone: the areas are the art, and a separate mark drew a second, simpler version over them.",
   "history": "Replaces Skyarium v1's approximate standard (a few colors from memory). The 2018 livery replaced WestJet's teal-and-blue 'tail' scheme of the 2000s."
 }

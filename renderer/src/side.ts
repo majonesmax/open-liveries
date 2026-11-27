@@ -26,7 +26,8 @@ import {
   runs,
   stubPylonPaint,
 } from './paint.js';
-import type { Livery, Point } from './scheme.js';
+import { carriedToTheCrown } from './landmarks.js';
+import type { Area, Livery, Point } from './scheme.js';
 import { drawLabels } from './side-labels.js';
 import { finFaceX, finStrip, partOutlines, sideParts } from './side-parts.js';
 import type { Outlines, Parts } from './side-parts.js';
@@ -117,9 +118,13 @@ function drawHump(livery: Livery, side: Side, canvas: Canvas, parts: Parts): voi
  * The fin's space carried on down below its root and out past its edges, for a tail engine's paint: a point on the
  * fin's lowest edge (y 0 or below) goes 2 spans down, one on its leading or trailing edge 3 chords out. An area
  * running off the fin's foot then runs on across the nacelle under it (Western Global's stripes), sheared as the fin
- * is: its edges carried straight down from their first stretch.
+ * is: its edges carried straight down from their first stretch. An area fitted from a twin's fin
+ * (`carriedToTheCrown`, landmarks.ts) runs below the root already, its foot carried down: only its edges go out.
  */
-const carriedDown = ([x, y]: Point): Point => [x <= 0 ? -3 : x >= 1 ? 4 : x, y <= 0 ? -2 : y];
+const carriedDown = ([x, y]: Point, area: Area): Point => [
+  x <= 0 ? -3 : x >= 1 ? 4 : x,
+  y <= 0 && !carriedToTheCrown.has(area) ? -2 : y,
+];
 
 /**
  * Engines on the tail's centerline (the MD-11's through the fin's base, the 727's S-duct intake), over the fuselage

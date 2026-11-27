@@ -1,0 +1,70 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "SAM",
+  "airframes": [
+    {
+      "registration": "82-8000",
+      "hex": "adfdf8",
+      "type": "B742",
+      "livery": "vc-25a",
+      "from": "1990",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Boeing_787-10_rollout_with_President_Trump_(33150979675)_crop.jpg",
+          "title": "VC-25A 82-8000 in flight over North Charleston, 2017-02-17, right side (North Charleston, cropped by Beyond My Ken, CC BY-SA 2.0)",
+          "accessed": "2026-11-26",
+          "note": "The scheme's measuring photo: 82-8000 in it, '28000' on the fin."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:P20210613CS-0906_(51361788893).jpg",
+          "title": "VC-25A 82-8000 at RAF Mildenhall, 2021-06-13, left side (The White House, public domain)",
+          "accessed": "2026-11-26",
+          "note": "The left side in the same scheme."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:P20260615DT-0075.jpg",
+          "title": "Air Force One at Geneva, 2026-06-15 (The White House, public domain)",
+          "accessed": "2026-11-26",
+          "note": "The newest photo in 82-8000's Commons category: the scheme's blue and pale blue by the forward door and the airstairs."
+        }
+      ],
+      "hexSource": "looked up: hexdb.io community database (2026-11-26); not verified against a register",
+      "lastSeen": "2026-06-15",
+      "status": "Flying 2026: the newest photo in its Commons category is from 2026-06-15. The VC-25B (747-8) that will replace it isn't in service yet.",
+      "notes": "Its number is lettered '28000' on the fin. As Air Force One it flies under the callsign AF1 with the President aboard and SAM28000 otherwise."
+    },
+    {
+      "registration": "92-9000",
+      "hex": "adfdf9",
+      "type": "B742",
+      "livery": "vc-25a",
+      "from": "1990",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Air_Force_One_-_Boeing_VC-25A_92-9000_(SAM29000).jpg",
+          "title": "VC-25A 92-9000 climbing out, 2025-06-25, left side from below (Mees Jansen, CC0)",
+          "accessed": "2026-11-26",
+          "note": "The newest open photo of 92-9000: the scheme, '29000' on the fin."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Boeing_747-2G4B_VC-25A_(USAF_sn_92-9000,_msn_23825,_ln_685)_(2-16-2025).jpg",
+          "title": "VC-25A 92-9000 at Tampa, 2025-02-16, left side (ZLEA, CC BY-SA 4.0)",
+          "accessed": "2026-11-26",
+          "note": "Side-on, the same scheme."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Air_Force_One_Fort_Benning,_Georgia_2019.jpg",
+          "title": "VC-25A 92-9000 at Fort Benning, 2019-03-07, left side (U.S. Army, public domain)",
+          "accessed": "2026-11-26",
+          "note": "Close, the same scheme."
+        }
+      ],
+      "hexSource": "looked up: hexdb.io community database (2026-11-26); not verified against a register",
+      "lastSeen": "2025-06-25",
+      "status": "Flying: the newest open photo is from 2025-06-25. The VC-25B (747-8) that will replace it isn't in service yet.",
+      "notes": "Its number is lettered '29000' on the fin. As Air Force One it flies under the callsign AF1 with the President aboard and SAM29000 otherwise."
+    }
+  ]
+}

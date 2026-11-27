@@ -324,8 +324,8 @@
     "note": "TUI fly Netherlands (ex-Arkefly): same TUI scheme, PH- registered 737s and 787s."
   },
   "TNO": {
-    "wears": "TPA/standard",
-    "note": "Avianca Cargo México (AeroUnion, rebranded 24 June 2025): its A330-300P2Fs fly Avianca Cargo's paint, N338QT in the green scheme with a small 'Mexico' under 'avianca' (LAX, Commons 2026-03-07); N337QT still red (tagged in airframes/TNO.json)."
+    "wears": "TPA/red-2013",
+    "note": "Avianca Cargo México (AeroUnion, rebranded 24 June 2025): its A330-300P2Fs fly Avianca Cargo's paint with a small 'Mexico' under 'avianca', N337QT in the red (LAX, Commons 2026-08-04) and N338QT in the green (LAX, Commons 2026-03-07), both tagged in airframes/TNO.json. Untagged ones take Avianca Cargo's default, the red."
   },
   "TUI": {
     "wears": "TOM/standard",

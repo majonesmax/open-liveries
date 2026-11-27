@@ -1,0 +1,1034 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "dominican-flag",
+  "airline": "DWI",
+  "name": "Dominican flag (Los Haitises)",
+  "kind": "special",
+  "from": "2024-06",
+  "confidence": "low",
+  "drawnOn": "B38M",
+  "description": "Arajet's tenth 737 MAX 8, HI1101 'Los Haitises', delivered in June 2024: the standard white scheme with the parrot fin, violet cowlings and winglets, and a long ribbon in the Dominican flag's colors waving the length of the fuselage. The ribbon is a red band over a blue band with white between. It starts under the cockpit as blue over red, crosses over in a white diagonal (the flag's cross) by the forward door, then runs red over blue up over the forward windows, drops in a twisting loop to the belly, climbs to the crown ahead of the wing, dips behind the wing, climbs again over the windows behind it, loops down once more and rises to end at the crown ahead of the tailplane. A smaller 'arajet' over the forward windows clear of it; the flag and registration over the aft windows.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Boeing_737_Max_-_HI1101_-_Arajet.jpg",
+      "title": "Boeing 737 Max - HI1101 - Arajet.jpg (CC0, Liaam2324)",
+      "accessed": "2026-11-26",
+      "note": "HI1101 left side on approach, 2024-06-10: fitted to the measured 737 MAX 8 shape (nose, tail, fin tip, both doors; within 4 px, camera 9° below); the ribbon's bands traced as centerlines and widths, the title, the flag and registration. The image carries a 'ca350' mark unlike the uploader's name, so its CC0 dedication is the uploader's word; measured only, as any photo is."
+    },
+    {
+      "url": "https://aviacionline.com/arajet-incorpora-su-decimo-boeing-737-max-con-un-homenaje-a-la-bandera-dominicana",
+      "title": "Aviacionline: Arajet incorpora su décimo Boeing 737 MAX con un homenaje a la bandera dominicana",
+      "accessed": "2026-11-26",
+      "note": "The tenth 737 MAX, HI1101, named Los Haitises, in a design of the Dominican flag along the fuselage; received in June 2024. Evidence only."
+    },
+    {
+      "url": "https://flightglobal.com/fleets/arajet-receives-dominican-themed-737-max-in-milestone-delivery/158731.article",
+      "title": "FlightGlobal: Arajet receives Dominican-themed 737 Max in milestone delivery",
+      "accessed": "2026-11-26",
+      "note": "The delivery and the Dominican theme. Evidence only."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F3F5",
+      "official": false
+    },
+    "violet": {
+      "hex": "#4F2F86",
+      "official": false,
+      "name": "Arajet violet (the title, the parrot's arc and crescent, cowlings, winglets)"
+    },
+    "cheek": {
+      "hex": "#7A55A8",
+      "official": false,
+      "name": "the parrot's lighter violet cheek"
+    },
+    "cyan": {
+      "hex": "#4DB8D4",
+      "official": false
+    },
+    "yellow": {
+      "hex": "#F0B92E",
+      "official": false
+    },
+    "orange": {
+      "hex": "#E5582A",
+      "official": false
+    },
+    "green": {
+      "hex": "#9DC673",
+      "official": false
+    },
+    "eye": {
+      "hex": "#14182A",
+      "official": false,
+      "name": "the parrot's eye"
+    },
+    "flagBlue": {
+      "hex": "#002D62",
+      "official": false
+    },
+    "flagRed": {
+      "hex": "#CE1126",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false
+    },
+    "red": {
+      "hex": "#CE1126",
+      "official": false,
+      "name": "the ribbon's flag red"
+    },
+    "blue": {
+      "hex": "#002D62",
+      "official": false,
+      "name": "the ribbon's flag blue"
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "red ribbon at the nose (the flag's lower hoist quarter)",
+        "color": "red",
+        "smooth": true,
+        "points": [
+          [
+            0.033,
+            -0.8,
+            1
+          ],
+          [
+            0.048,
+            -0.75
+          ],
+          [
+            0.068,
+            -0.645
+          ],
+          [
+            0.09,
+            -0.543
+          ],
+          [
+            0.114,
+            -0.413,
+            1
+          ],
+          [
+            0.112,
+            -0.278,
+            1
+          ],
+          [
+            0.087,
+            -0.384
+          ],
+          [
+            0.069,
+            -0.446
+          ],
+          [
+            0.05,
+            -0.471
+          ],
+          [
+            0.036,
+            -0.404,
+            1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "red ribbon from the cross over the forward windows, down the loop and up to the crown ahead of the wing",
+        "color": "red",
+        "smooth": true,
+        "points": [
+          [
+            0.111,
+            -0.088,
+            1
+          ],
+          [
+            0.132,
+            0.045
+          ],
+          [
+            0.152,
+            0.171
+          ],
+          [
+            0.178,
+            0.233
+          ],
+          [
+            0.192,
+            0.2
+          ],
+          [
+            0.2,
+            0.114
+          ],
+          [
+            0.202,
+            -0.048
+          ],
+          [
+            0.2,
+            -0.237
+          ],
+          [
+            0.198,
+            -0.46
+          ],
+          [
+            0.205,
+            -0.726
+          ],
+          [
+            0.223,
+            -0.723
+          ],
+          [
+            0.255,
+            -0.651
+          ],
+          [
+            0.283,
+            -0.512
+          ],
+          [
+            0.311,
+            -0.287
+          ],
+          [
+            0.336,
+            -0.061
+          ],
+          [
+            0.366,
+            0.208
+          ],
+          [
+            0.397,
+            0.481
+          ],
+          [
+            0.427,
+            0.629
+          ],
+          [
+            0.457,
+            0.616
+          ],
+          [
+            0.478,
+            0.507
+          ],
+          [
+            0.487,
+            0.362
+          ],
+          [
+            0.49,
+            0.186
+          ],
+          [
+            0.495,
+            -0.115
+          ],
+          [
+            0.507,
+            -0.428
+          ],
+          [
+            0.53,
+            -0.543
+          ],
+          [
+            0.552,
+            -0.465
+          ],
+          [
+            0.577,
+            -0.327
+          ],
+          [
+            0.601,
+            -0.038
+          ],
+          [
+            0.623,
+            0.159
+          ],
+          [
+            0.65,
+            0.402
+          ],
+          [
+            0.676,
+            0.493
+          ],
+          [
+            0.696,
+            0.417
+          ],
+          [
+            0.703,
+            0.286
+          ],
+          [
+            0.703,
+            0.074
+          ],
+          [
+            0.704,
+            -0.187
+          ],
+          [
+            0.712,
+            -0.393
+          ],
+          [
+            0.734,
+            -0.435
+          ],
+          [
+            0.758,
+            -0.392
+          ],
+          [
+            0.79,
+            -0.198
+          ],
+          [
+            0.816,
+            -0.006
+          ],
+          [
+            0.843,
+            0.164
+          ],
+          [
+            0.861,
+            0.207
+          ],
+          [
+            0.876,
+            0.113
+          ],
+          [
+            0.881,
+            -0.02,
+            1
+          ],
+          [
+            0.888,
+            0.117,
+            1
+          ],
+          [
+            0.88,
+            0.32
+          ],
+          [
+            0.862,
+            0.424
+          ],
+          [
+            0.84,
+            0.349
+          ],
+          [
+            0.813,
+            0.146
+          ],
+          [
+            0.785,
+            -0.061
+          ],
+          [
+            0.755,
+            -0.255
+          ],
+          [
+            0.733,
+            -0.302
+          ],
+          [
+            0.717,
+            -0.271
+          ],
+          [
+            0.713,
+            -0.158
+          ],
+          [
+            0.712,
+            0.088
+          ],
+          [
+            0.712,
+            0.347
+          ],
+          [
+            0.7,
+            0.625
+          ],
+          [
+            0.676,
+            0.783
+          ],
+          [
+            0.646,
+            0.597
+          ],
+          [
+            0.618,
+            0.271
+          ],
+          [
+            0.595,
+            0.062
+          ],
+          [
+            0.572,
+            -0.222
+          ],
+          [
+            0.548,
+            -0.34
+          ],
+          [
+            0.53,
+            -0.406
+          ],
+          [
+            0.514,
+            -0.338
+          ],
+          [
+            0.505,
+            -0.065
+          ],
+          [
+            0.499,
+            0.224
+          ],
+          [
+            0.495,
+            0.457
+          ],
+          [
+            0.483,
+            0.836
+          ],
+          [
+            0.458,
+            0.9
+          ],
+          [
+            0.426,
+            0.9
+          ],
+          [
+            0.394,
+            0.744
+          ],
+          [
+            0.361,
+            0.325
+          ],
+          [
+            0.331,
+            0.038
+          ],
+          [
+            0.306,
+            -0.187
+          ],
+          [
+            0.28,
+            -0.378
+          ],
+          [
+            0.254,
+            -0.495
+          ],
+          [
+            0.222,
+            -0.55
+          ],
+          [
+            0.211,
+            -0.552
+          ],
+          [
+            0.208,
+            -0.441
+          ],
+          [
+            0.21,
+            -0.254
+          ],
+          [
+            0.212,
+            -0.031
+          ],
+          [
+            0.208,
+            0.183
+          ],
+          [
+            0.196,
+            0.336
+          ],
+          [
+            0.177,
+            0.379
+          ],
+          [
+            0.15,
+            0.309
+          ],
+          [
+            0.127,
+            0.178
+          ],
+          [
+            0.106,
+            0.025,
+            1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "blue ribbon at the nose (the flag's upper hoist quarter)",
+        "color": "blue",
+        "smooth": true,
+        "points": [
+          [
+            0.033,
+            -0.442,
+            1
+          ],
+          [
+            0.05,
+            -0.44
+          ],
+          [
+            0.07,
+            -0.337
+          ],
+          [
+            0.091,
+            -0.252
+          ],
+          [
+            0.107,
+            -0.175,
+            1
+          ],
+          [
+            0.104,
+            -0.046,
+            1
+          ],
+          [
+            0.088,
+            -0.116
+          ],
+          [
+            0.068,
+            -0.182
+          ],
+          [
+            0.049,
+            -0.239
+          ],
+          [
+            0.034,
+            -0.163,
+            1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "blue ribbon under the red, from the cross to the tail",
+        "color": "blue",
+        "smooth": true,
+        "points": [
+          [
+            0.12,
+            -0.345,
+            1
+          ],
+          [
+            0.139,
+            -0.156
+          ],
+          [
+            0.165,
+            -0.046
+          ],
+          [
+            0.19,
+            -0.009
+          ],
+          [
+            0.204,
+            -0.056
+          ],
+          [
+            0.211,
+            -0.179
+          ],
+          [
+            0.214,
+            -0.385
+          ],
+          [
+            0.216,
+            -0.669
+          ],
+          [
+            0.227,
+            -0.986
+          ],
+          [
+            0.254,
+            -0.936
+          ],
+          [
+            0.282,
+            -0.759
+          ],
+          [
+            0.31,
+            -0.508
+          ],
+          [
+            0.338,
+            -0.267
+          ],
+          [
+            0.365,
+            -0.049
+          ],
+          [
+            0.396,
+            0.202
+          ],
+          [
+            0.427,
+            0.399
+          ],
+          [
+            0.457,
+            0.464
+          ],
+          [
+            0.482,
+            0.43
+          ],
+          [
+            0.494,
+            0.331
+          ],
+          [
+            0.498,
+            0.16
+          ],
+          [
+            0.503,
+            -0.147
+          ],
+          [
+            0.513,
+            -0.515
+          ],
+          [
+            0.528,
+            -0.698
+          ],
+          [
+            0.551,
+            -0.662
+          ],
+          [
+            0.576,
+            -0.494
+          ],
+          [
+            0.6,
+            -0.261
+          ],
+          [
+            0.622,
+            -0.069
+          ],
+          [
+            0.649,
+            0.189
+          ],
+          [
+            0.675,
+            0.297
+          ],
+          [
+            0.701,
+            0.237
+          ],
+          [
+            0.712,
+            0.115
+          ],
+          [
+            0.714,
+            -0.116
+          ],
+          [
+            0.714,
+            -0.376
+          ],
+          [
+            0.727,
+            -0.597
+          ],
+          [
+            0.757,
+            -0.623
+          ],
+          [
+            0.789,
+            -0.418
+          ],
+          [
+            0.816,
+            -0.251
+          ],
+          [
+            0.842,
+            -0.114
+          ],
+          [
+            0.861,
+            -0.074
+          ],
+          [
+            0.878,
+            -0.188
+          ],
+          [
+            0.887,
+            -0.4,
+            1
+          ],
+          [
+            0.894,
+            -0.275,
+            1
+          ],
+          [
+            0.883,
+            -0.008
+          ],
+          [
+            0.861,
+            0.1
+          ],
+          [
+            0.84,
+            0.047
+          ],
+          [
+            0.812,
+            -0.101
+          ],
+          [
+            0.784,
+            -0.268
+          ],
+          [
+            0.755,
+            -0.457
+          ],
+          [
+            0.73,
+            -0.45
+          ],
+          [
+            0.723,
+            -0.329
+          ],
+          [
+            0.723,
+            -0.104
+          ],
+          [
+            0.721,
+            0.185
+          ],
+          [
+            0.706,
+            0.382
+          ],
+          [
+            0.676,
+            0.454
+          ],
+          [
+            0.646,
+            0.324
+          ],
+          [
+            0.617,
+            0.03
+          ],
+          [
+            0.595,
+            -0.161
+          ],
+          [
+            0.571,
+            -0.376
+          ],
+          [
+            0.549,
+            -0.507
+          ],
+          [
+            0.531,
+            -0.532
+          ],
+          [
+            0.521,
+            -0.436
+          ],
+          [
+            0.513,
+            -0.113
+          ],
+          [
+            0.507,
+            0.197
+          ],
+          [
+            0.501,
+            0.445
+          ],
+          [
+            0.485,
+            0.641
+          ],
+          [
+            0.457,
+            0.704
+          ],
+          [
+            0.425,
+            0.591
+          ],
+          [
+            0.393,
+            0.339
+          ],
+          [
+            0.36,
+            0.05
+          ],
+          [
+            0.333,
+            -0.168
+          ],
+          [
+            0.305,
+            -0.375
+          ],
+          [
+            0.28,
+            -0.576
+          ],
+          [
+            0.253,
+            -0.677
+          ],
+          [
+            0.23,
+            -0.694
+          ],
+          [
+            0.226,
+            -0.594
+          ],
+          [
+            0.224,
+            -0.365
+          ],
+          [
+            0.221,
+            -0.129
+          ],
+          [
+            0.209,
+            0.044
+          ],
+          [
+            0.19,
+            0.11
+          ],
+          [
+            0.162,
+            0.073
+          ],
+          [
+            0.134,
+            -0.035
+          ],
+          [
+            0.114,
+            -0.233,
+            1
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0
+        ]
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "plain",
+    "confidence": "low",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "rudder": "white",
+    "fillet": "white",
+    "mirrored": true,
+    "confidence": "low",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "violet",
+    "inner": "violet",
+    "confidence": "low",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "engines": {
+    "cowling": "violet",
+    "inletLip": "lip",
+    "confidence": "low",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "logos": [
+    {
+      "mark": "DWI/parrot",
+      "place": "fin",
+      "at": [
+        0.52,
+        0.36
+      ],
+      "height": 0.78,
+      "colors": [
+        "violet",
+        "cheek",
+        "eye",
+        "cyan",
+        "yellow",
+        "orange",
+        "green"
+      ],
+      "description": "Arajet's parrot, large on the white fin, facing forward: a thick violet arc over the head from the leading edge to near the trailing edge, a black eye under it, a violet crescent wrapped round the front of a lighter violet rounded cheek (the beak's place), and five curved feathers fanning down and aft from behind the eye, cyan and yellow on top, then orange and green, the longest reaching the fin's root. Mirrored on the right side, so the parrot faces the nose on both.",
+      "confidence": "low",
+      "sourceRefs": [
+        0
+      ]
+    },
+    {
+      "mark": "DWI/flag",
+      "place": "fuselage",
+      "at": [
+        0.731,
+        0.36
+      ],
+      "height": 0.11,
+      "colors": [
+        "flagBlue",
+        "flagRed",
+        "white"
+      ],
+      "description": "A small Dominican flag just forward of the registration, both over the aft windows here (moved up above the ribbon).",
+      "confidence": "low",
+      "sourceRefs": [
+        0
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "arajet",
+      "place": "fuselage",
+      "at": [
+        0.215,
+        0.036
+      ],
+      "height": 0.55,
+      "length": 0.114,
+      "color": "violet",
+      "style": "Arajet's wordmark in violet lowercase, smaller than on the standard scheme and raised to sit over the forward windows clear of the ribbon (the windows through the bottoms of its letters).",
+      "type": {
+        "similar": [
+          "Gilroy ExtraBold",
+          "Nunito Black"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.69
+      },
+      "confidence": "low",
+      "sourceRefs": [
+        0
+      ]
+    }
+  ],
+  "notes": "Drawn from one photo of the left side (HI1101, 2024-06-10), so low: each band was read as a centerline with its width (about 15 px of a 1600 px photo, 0.35 m) and turned into areas on the fitted shape, not traced edge by edge. Where the ribbon passes behind the engine and wing (about x 0.47-0.55) its path is joined up by guess. The ends of the bands at the white cross are drawn square; on the aircraft they're cut on the cross's diagonal. The twists in the loops are drawn as the bands overlapping. The right side isn't in an open photo: drawn the same way round, which may be wrong. Not drawn: the registration, 'Los Haitises' under the cockpit.",
+  "history": "New 2026-11-26. Delivered in June 2024 (Arajet's tenth 737 MAX 8). Still flying in it in 2025 by spotter listings (not cited)."
+}

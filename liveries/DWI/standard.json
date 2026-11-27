@@ -1,0 +1,197 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "DWI",
+  "name": "Arajet",
+  "kind": "standard",
+  "confidence": "medium",
+  "from": "2022",
+  "drawnOn": "B38M",
+  "description": "All white, with Arajet's parrot large on the white fin: a stylized parrot's head facing forward, a thick violet arc over its crown, a black eye, a violet crescent round a lighter violet cheek, and four rainbow feathers (cyan, yellow, orange, green) sweeping down and aft to the fin's root. 'arajet' in big heavy rounded violet lowercase across the forward windows ahead of the wing, the glass through its letters; small 'arajet.com' over the aft windows with the Dominican flag and the registration under it. Violet engine cowlings with bare inlet lips and violet winglets.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Arajet_Boeing_737-8_MAX_HI1098_on_final_approach_to_Boston_December_2025.jpg",
+      "title": "Arajet Boeing 737-8 MAX HI1098 on final approach to Boston December 2025.jpg (CC BY 4.0, 4300streetcar)",
+      "accessed": "2026-11-26",
+      "note": "HI1098 left side, side-on from below at Boston, 2025-12-31: fitted to the measured 737 MAX 8 shape (nose, tail, fin tip, crown and belly at 10 m, both doors; within 16 px, camera 4° below); the title's ends, baseline, x-height and ascenders, 'arajet.com', the flag, the fin's parrot."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:HI1078_B737_MAX_8,_Arajet,_Miami_02-20-26_(55147915671).jpg",
+      "title": "HI1078 B737 MAX 8, Arajet, Miami 02-20-26 (55147915671).jpg (CC BY 4.0, Duncan Kirk)",
+      "accessed": "2026-11-26",
+      "note": "HI1078 right side landing at Miami, 2026-02-20, flipped and fitted to the 737 MAX 8 shape (within 13 px): the title over the same stretch (x 0.21-0.36), 'arajet.com' at x 0.73-0.78, the parrot mirrored (beak forward on both sides), violet cowlings and winglets."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:B737-8_MAX_HI-1081_-_Arajet_-_Take_off.jpg",
+      "title": "B737-8 MAX HI-1081 - Arajet - Take off.jpg (CC BY-SA 4.0, MHernandezp05)",
+      "accessed": "2026-11-26",
+      "note": "HI1081 right side climbing out of Guatemala City, 2023-04-09: the same scheme in 2023."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:ARAJET_-_CURAZAO_INAUGURAL_FLIGHTS_-_October_2nd,_2022.jpg",
+      "title": "ARAJET - CURAZAO INAUGURAL FLIGHTS - October 2nd, 2022.jpg (CC BY-SA 4.0, Adolfo Sesto)",
+      "accessed": "2026-11-26",
+      "note": "HI1082 left side on the ramp at Curaçao, 2022-10: the title close up (violet lowercase with the windows through it), the parrot from behind the wing."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Arajet_Logo.jpg",
+      "title": "Arajet Logo.jpg (public domain as tagged on Commons)",
+      "accessed": "2026-11-26",
+      "note": "The parrot and wordmark as Arajet prints them: the logo's colors and the parrot's parts. Described, not copied."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F3F5",
+      "official": false
+    },
+    "violet": {
+      "hex": "#4F2F86",
+      "official": false,
+      "name": "Arajet violet (the title, the parrot's arc and crescent, cowlings, winglets)"
+    },
+    "cheek": {
+      "hex": "#7A55A8",
+      "official": false,
+      "name": "the parrot's lighter violet cheek"
+    },
+    "cyan": {
+      "hex": "#4DB8D4",
+      "official": false
+    },
+    "yellow": {
+      "hex": "#F0B92E",
+      "official": false
+    },
+    "orange": {
+      "hex": "#E5582A",
+      "official": false
+    },
+    "green": {
+      "hex": "#9DC673",
+      "official": false
+    },
+    "eye": {
+      "hex": "#14182A",
+      "official": false,
+      "name": "the parrot's eye"
+    },
+    "flagBlue": {
+      "hex": "#002D62",
+      "official": false
+    },
+    "flagRed": {
+      "hex": "#CE1126",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [0, 1, 2, 3]
+  },
+  "fin": {
+    "base": "white",
+    "rudder": "white",
+    "fillet": "white",
+    "mirrored": true,
+    "confidence": "high",
+    "sourceRefs": [0, 1, 2]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "violet",
+    "inner": "violet",
+    "confidence": "high",
+    "sourceRefs": [0, 1, 2]
+  },
+  "engines": {
+    "cowling": "violet",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [0, 1, 2, 3]
+  },
+  "logos": [
+    {
+      "mark": "DWI/parrot",
+      "place": "fin",
+      "at": [0.52, 0.36],
+      "height": 0.78,
+      "colors": ["violet", "cheek", "eye", "cyan", "yellow", "orange", "green"],
+      "description": "Arajet's parrot, large on the white fin, facing forward: a thick violet arc over the head from the leading edge to near the trailing edge, a black eye under it, a violet crescent wrapped round the front of a lighter violet rounded cheek (the beak's place), and four curved feathers fanning down and aft from behind the eye, cyan and yellow on top, then orange and green, the longest reaching the fin's root. Mirrored on the right side, so the parrot faces the nose on both.",
+      "confidence": "medium",
+      "sourceRefs": [0, 1, 4]
+    },
+    {
+      "mark": "DWI/flag",
+      "place": "fuselage",
+      "at": [0.744, -0.06],
+      "height": 0.11,
+      "colors": ["flagBlue", "flagRed", "white"],
+      "description": "A small Dominican flag (blue and red quarters with a white cross) just forward of the registration, under 'arajet.com'.",
+      "confidence": "medium",
+      "sourceRefs": [0, 1]
+    }
+  ],
+  "titles": [
+    {
+      "text": "arajet",
+      "place": "fuselage",
+      "at": [0.217, -0.139],
+      "height": 0.68,
+      "length": 0.151,
+      "color": "violet",
+      "style": "Arajet's wordmark: big heavy rounded violet lowercase across the forward windows ahead of the wing (the glass through its letters); the j's tail drops well below the others and its dot rises above.",
+      "type": {
+        "similar": ["Gilroy ExtraBold", "Nunito Black"],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.79
+      },
+      "confidence": "medium",
+      "sourceRefs": [0, 1, 3]
+    },
+    {
+      "text": "arajet.com",
+      "place": "fuselage",
+      "at": [0.737, 0.27],
+      "height": 0.17,
+      "length": 0.058,
+      "color": "violet",
+      "style": "Small violet lowercase web address over the aft windows, ahead of the aft door.",
+      "type": {
+        "similar": ["Gilroy Bold", "Nunito ExtraBold"],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.75
+      },
+      "confidence": "medium",
+      "sourceRefs": [0, 1]
+    }
+  ],
+  "notes": "Measured on HI1098 (left, 2025-12-31) fitted to shapes/B38M.json and checked on HI1078 (right, 2026-02-20, flipped and fitted): 'arajet' x 0.217-0.368, baseline y -0.139, x-height top 0.39, ascenders 0.54 (cap height taken as the ascenders), the same stretch on the right side; 'arajet.com' x 0.737-0.795; the parrot centered at fin (0.52, 0.36), 0.78 of the fin tall, from the leading edge almost to the trailing edge. Not drawn: the registration in violet-black capitals under 'arajet.com' (on HI1098 x 0.755-0.794, y -0.12 to 0.0), each jet's name in small black italics under the cockpit (a Dominican place: 'Laguna Redonda, Miches' on HI1098, 'Los Tres Ojos' on HI1078, 'Los Haitises' on HI1101), what may be a small 'arajet' on the winglets' inner faces (HI1078, too small to read), the nose-gear door's number.",
+  "history": "New 2026-11-26. Arajet, the Dominican Republic's low-cost airline, flies only Boeing 737 MAX 8s from Santo Domingo (first flight 2022-09); every photo since 2022 shows this scheme, except HI1101's flag scheme (DWI/dominican-flag)."
+}

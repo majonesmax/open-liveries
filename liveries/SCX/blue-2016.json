@@ -1,0 +1,521 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "blue-2016",
+  "airline": "SCX",
+  "name": "Blue, simplified (2016)",
+  "kind": "standard",
+  "from": "2016-12",
+  "confidence": "medium",
+  "drawnOn": "B738",
+  "description": "The 2001 blue scheme simplified: a deep blue fuselage with no forward sun, the same red-orange stripe low along it from the nose to the tail cone and light gray-white below; 'SUN COUNTRY AIRLINES' in wide-spaced white capitals over the forward windows; the fin deep blue with a big orange sun on it, cut by the trailing edge and running into the root: a blue S ringed by blue wedge rays pointing in at it; blue engines; blue winglets with the sun in orange.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Sun_Country_Airlines_737-800_N827SY_IND.jpg",
+      "title": "Sun Country Airlines 737-800 N827SY IND.jpg (CC BY-SA 4.0, AVA Navigate)",
+      "accessed": "2026-11-26",
+      "note": "N827SY right side, level and side-on, 2025: measured (flipped nose-left) on shapes/B738.json, fitted by the nose, tail, fin tip and both doors (1-10 px): title, fin's sun field, stripe."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N808sy.jpg",
+      "title": "N808sy.jpg (CC BY-SA 4.0, Railfan99)",
+      "accessed": "2026-11-26",
+      "note": "N808SY right side from above, 2021-03-01: checked by eye."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N827SY_(55089792084).jpg",
+      "title": "N827SY (55089792084).jpg (CC BY-SA 4.0, Liam Thompson)",
+      "accessed": "2026-11-26",
+      "note": "N827SY, 2026-02-01: still flying in it in 2026."
+    },
+    {
+      "url": "https://worldairlinenews.com/2016/12/09/sun-country-airlines-modifies-its-livery/",
+      "title": "World Airline News: Sun Country Airlines modifies its livery (2016-12-09)",
+      "accessed": "2026-11-26",
+      "note": "The scheme 'quietly modified and simplified': full 'Sun Country Airlines' titles, the forward two-tone blue S removed; first on the 737-700 N711SY (December 2016)."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Sun_Country_Airlines",
+      "title": "Wikipedia: Sun Country Airlines",
+      "accessed": "2026-11-26",
+      "note": "Caption: N827SY 'in the 2016-2018 livery'."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:2939912_Sun_Country_aircraft_lands_on_the_flightline_at_Spangdahlem_Air_Base,_Germany,.jpg",
+      "title": "2939912 Sun Country aircraft lands on the flightline at Spangdahlem Air Base, Germany,.jpg (public domain)",
+      "accessed": "2026-11-26",
+      "note": "N821SY in the 2001 scheme (blue-2001), whose stripe this one keeps: the stripe was measured there and agrees on N827SY within the fit (about 0.05 of y along the cabin; up to 0.1 lower at the nose)."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F2F3F5",
+      "official": false
+    },
+    "belly": {
+      "hex": "#E2E4E8",
+      "official": false,
+      "name": "light gray-white belly"
+    },
+    "red": {
+      "hex": "#D0341E",
+      "official": false,
+      "name": "red-orange stripe"
+    },
+    "orange": {
+      "hex": "#F0602A",
+      "official": false,
+      "name": "Sun Country orange"
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "flagRed": {
+      "hex": "#B22234",
+      "official": false
+    },
+    "flagBlue": {
+      "hex": "#1B2A7A",
+      "official": false
+    },
+    "blue": {
+      "hex": "#22259B",
+      "official": false,
+      "name": "deep blue"
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "blue",
+    "areas": [
+      {
+        "name": "white belly under the stripe, nose to tail cone",
+        "color": "belly",
+        "smooth": true,
+        "points": [
+          [
+            0,
+            -0.65
+          ],
+          [
+            0.03,
+            -0.48
+          ],
+          [
+            0.06,
+            -0.49
+          ],
+          [
+            0.1,
+            -0.51
+          ],
+          [
+            0.15,
+            -0.53
+          ],
+          [
+            0.25,
+            -0.55
+          ],
+          [
+            0.33,
+            -0.55
+          ],
+          [
+            0.64,
+            -0.54
+          ],
+          [
+            0.73,
+            -0.565
+          ],
+          [
+            0.77,
+            -0.585
+          ],
+          [
+            0.8,
+            -0.61
+          ],
+          [
+            0.835,
+            -0.635
+          ],
+          [
+            0.87,
+            -0.66
+          ],
+          [
+            0.9,
+            -0.7
+          ],
+          [
+            0.925,
+            -0.75
+          ],
+          [
+            0.95,
+            -0.8
+          ],
+          [
+            0.975,
+            -0.87
+          ],
+          [
+            1,
+            -0.92
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            0,
+            -1
+          ]
+        ],
+        "sourceRefs": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "name": "the red-orange stripe along the lower fuselage, nose to tail cone, rising aft",
+        "color": "red",
+        "smooth": true,
+        "points": [
+          [
+            0,
+            -0.55
+          ],
+          [
+            0.03,
+            -0.4
+          ],
+          [
+            0.06,
+            -0.39
+          ],
+          [
+            0.1,
+            -0.4
+          ],
+          [
+            0.15,
+            -0.415
+          ],
+          [
+            0.25,
+            -0.43
+          ],
+          [
+            0.33,
+            -0.43
+          ],
+          [
+            0.64,
+            -0.42
+          ],
+          [
+            0.73,
+            -0.445
+          ],
+          [
+            0.77,
+            -0.465
+          ],
+          [
+            0.8,
+            -0.495
+          ],
+          [
+            0.835,
+            -0.53
+          ],
+          [
+            0.87,
+            -0.55
+          ],
+          [
+            0.9,
+            -0.57
+          ],
+          [
+            0.925,
+            -0.6
+          ],
+          [
+            0.95,
+            -0.62
+          ],
+          [
+            0.975,
+            -0.65
+          ],
+          [
+            1,
+            -0.68
+          ],
+          [
+            1,
+            -0.92
+          ],
+          [
+            0.975,
+            -0.87
+          ],
+          [
+            0.95,
+            -0.8
+          ],
+          [
+            0.925,
+            -0.75
+          ],
+          [
+            0.9,
+            -0.7
+          ],
+          [
+            0.87,
+            -0.66
+          ],
+          [
+            0.835,
+            -0.635
+          ],
+          [
+            0.8,
+            -0.61
+          ],
+          [
+            0.77,
+            -0.585
+          ],
+          [
+            0.73,
+            -0.565
+          ],
+          [
+            0.64,
+            -0.54
+          ],
+          [
+            0.33,
+            -0.55
+          ],
+          [
+            0.25,
+            -0.55
+          ],
+          [
+            0.15,
+            -0.53
+          ],
+          [
+            0.1,
+            -0.51
+          ],
+          [
+            0.06,
+            -0.49
+          ],
+          [
+            0.03,
+            -0.48
+          ],
+          [
+            0,
+            -0.65
+          ]
+        ],
+        "sourceRefs": [
+          0,
+          1,
+          5
+        ]
+      }
+    ],
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      5
+    ]
+  },
+  "fin": {
+    "base": "blue",
+    "areas": [
+      {
+        "name": "orange field of the sun: a disc from just under the tip down to the root, against the leading edge, cut off by the trailing edge (its outer edge notched by the rays)",
+        "color": "orange",
+        "smooth": true,
+        "points": [
+          [
+            0,
+            0.89
+          ],
+          [
+            0.46,
+            0.855
+          ],
+          [
+            1,
+            0.77
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0.77,
+            0.03
+          ],
+          [
+            0.52,
+            0.09
+          ],
+          [
+            0.3,
+            0.134
+          ],
+          [
+            0.16,
+            0.21
+          ],
+          [
+            0,
+            0.34
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      }
+    ],
+    "mirrored": false,
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "blue",
+    "inner": "blue",
+    "confidence": "low",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "blue",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "SCX/sun-2001",
+      "place": "fin",
+      "at": [
+        0.58,
+        0.44
+      ],
+      "height": 0.84,
+      "colors": [
+        "blue"
+      ],
+      "description": "The 2001 sun: a big bold blue S ringed by twelve blue wedge rays pointing in at it, on the orange field.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Sun_Country_Airlines_737-800_N827SY_IND.jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ]
+    },
+    {
+      "mark": "SCX/sun-2001",
+      "place": "winglets",
+      "at": [
+        0.5,
+        0.5
+      ],
+      "height": 0.4,
+      "colors": [
+        "orange"
+      ],
+      "description": "The sun small on the winglets, orange on blue.",
+      "confidence": "low",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "SCX/us-flag",
+      "place": "fuselage",
+      "at": [
+        0.787,
+        0.29
+      ],
+      "height": 0.13,
+      "colors": [
+        "flagRed",
+        "white",
+        "flagBlue"
+      ],
+      "description": "A small US flag after the registration, above the aft windows.",
+      "confidence": "low",
+      "sourceRefs": [
+        0
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "SUN COUNTRY AIRLINES",
+      "place": "fuselage",
+      "at": [
+        0.149,
+        0.325
+      ],
+      "height": 0.23,
+      "color": "white",
+      "style": "Wide, widely spaced geometric sans capitals, bold, white over the forward windows.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Avenir Next Demi Bold",
+          "Gotham Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      },
+      "length": 0.288
+    }
+  ],
+  "notes": "Measured off N827SY's right side (2025, flipped nose-left) fitted to shapes/B738.json. On the right side the title runs from x 0.149 to 0.437 (5.7 to 16.6 m back), baseline 0.325, caps 0.23; drawn over the same stretch on the left (no open left-side photo found). The fin's orange field: from the leading edge 0.34 to 0.89 of the height, its top arc to the trailing edge at 0.77, down the trailing edge to the root, its lower arc reaching the root about 0.8 of the chord back; the sun centered at fin (0.58, 0.44), 0.84 of the fin's height across its rays. The stripe is blue-2001's (measured on N821SY) and agrees here within the fit. The blue is deeper than the 2001 scheme's royal blue in every photo of the two side by side. Not drawn: the registration and 'BOEING 737-800'. First on the 737-700 N711SY; the 737-700s are gone, so no 737-700 paint is drawn.",
+  "history": "Sun Country's 2001 scheme (blue-2001) simplified in December 2016, on 737s joining or repainted until the 2018 livery (standard) replaced it. The 737-8F2s N825SY-N829SY all wore it. A few still do in 2026."
+}

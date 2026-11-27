@@ -415,24 +415,24 @@
         "color": "red",
         "points": [
           [
-            0.073,
-            0.737
+            0,
+            0.722
           ],
           [
-            0.99,
-            0.732
+            1,
+            0.722
           ],
           [
-            0.99,
-            0.601
+            1,
+            0.595
           ],
           [
-            0.589,
-            0.395
+            0.57,
+            0.39
           ],
           [
-            0.028,
-            0.57
+            0,
+            0.555
           ]
         ],
         "sourceRefs": [
@@ -445,24 +445,24 @@
         "color": "darkRed",
         "points": [
           [
-            0.028,
-            0.57
+            0,
+            0.555
           ],
           [
-            0.589,
-            0.395
+            0.57,
+            0.39
           ],
           [
-            0.762,
-            -0.031
+            0.73,
+            -0.04
           ],
           [
-            0.614,
-            -0.031
+            0.58,
+            -0.04
           ],
           [
-            0.021,
-            0.439
+            0,
+            0.42
           ]
         ],
         "sourceRefs": [
@@ -475,16 +475,16 @@
         "color": "red",
         "points": [
           [
-            0.773,
+            0.75,
             0.32
           ],
           [
-            1.002,
-            0.452
+            1,
+            0.465
           ],
           [
-            0.995,
-            0.219
+            1,
+            0.225
           ]
         ],
         "sourceRefs": [
@@ -497,20 +497,20 @@
         "color": "darkRed",
         "points": [
           [
-            0.773,
+            0.75,
             0.32
           ],
           [
-            0.995,
-            0.219
+            1,
+            0.225
           ],
           [
-            1.01,
-            -0.057
+            1,
+            -0.04
           ],
           [
-            0.86,
-            -0.057
+            0.806,
+            -0.04
           ]
         ],
         "sourceRefs": [
@@ -575,26 +575,6 @@
       "description": "A small pink awareness ribbon after 'BCRF' under the cockpit, 'Breast Cancer Research Foundation' in small gray capitals beside it.",
       "confidence": "medium",
       "sourceRefs": [
-        2
-      ]
-    },
-    {
-      "mark": "DAL/widget",
-      "place": "fin",
-      "at": [
-        0.5,
-        0.5
-      ],
-      "height": 0.8,
-      "colors": [
-        "red",
-        "darkRed",
-        "navy"
-      ],
-      "description": "The widget drawn huge across the fin, cropped by its edges: a bright red upper facet, darker red facets below, split by a navy Y.",
-      "confidence": "high",
-      "sourceRefs": [
-        1,
         2
       ]
     },
@@ -699,6 +679,6 @@
       }
     }
   ],
-  "notes": "Drawn from the right side (N845MH, 2017-07-31, flipped) read by hand: no measured 767-400 shape, so positions are shares of the length (within about 0.02) and heights through sin(y·90°) from a centreline and radius read at mid-fuselage. The ribbon is art: its big masses only, the loop as a pink ellipse with a white inside, the strands straight; the swoosh's pink-to-red shading drawn flat. The left side (2017-04-09, 2024-02-25) shows the same layout; the right side's widget is aft of 'DELTA' as the standard's. The navy belly and fin are Delta's standard (copied). Still flying in it: Commons 2024-02-25; a November 2025 photo elsewhere (lead only).",
+  "notes": "Drawn from the right side (N845MH, 2017-07-31, flipped) read by hand: no measured 767-400 shape, so positions are shares of the length (within about 0.02) and heights through sin(y·90°) from a centreline and radius read at mid-fuselage. The ribbon is art: its big masses only, the loop as a pink ellipse with a white inside, the strands straight; the swoosh's pink-to-red shading drawn flat. The left side (2017-04-09, 2024-02-25) shows the same layout; the right side's widget is aft of 'DELTA' as the standard's. The navy belly and fin are Delta's standard (copied). Still flying in it: Commons 2024-02-25; a November 2025 photo elsewhere (lead only). Fin re-measured 2026-11-26 on N572DT (A321neo, left, 2025-02-01) fitted to shapes/A21N.json and read in fin space: the upper facet reaches the leading edge (it had stopped short), the shaded facet meets the root at x 0.53-0.715 and the lower-right one at 0.8 (both had been drawn 0.06-0.09 aft), the navy Y's stem between them (the edges carried on a little past the root, as the paint runs onto the fairing). The fin's widget logo entry is gone: the areas are the widget, cropped by the fin's edges, and a widget mark centred on the fin drew a second, wrong triangle over them.",
   "history": "Delta's 'pink plane' since 2010 (a 757 before it); this design from 2015."
 }

@@ -29,9 +29,15 @@
       "title": "A350-900 Delta Air Lines MSN755 Milan 26 special livery roll-out 058 (Delta press image; evidence only)",
       "accessed": "2026-11-12",
       "note": "Right side, nose: the red lower forward sweep, the navy belly line, 'DELTA', 'OFFICIAL AIRLINE OF TEAM USA', flags and the Olympic and Paralympic marks."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Delta_Airlines_-_Airbus_A350-900_(Team_USA_Livery)_N521DN_(55196187276).jpg",
+      "title": "Delta Airlines - Airbus A350-900 (Team USA Livery) N521DN (55196187276).jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-26",
+      "note": "N521DN, Delta's other (white) Team USA A350, left side from ahead, Auckland 2026-04-09: the same forward group as this scheme's right side, set out for the left: the widget just behind the forward door, 'DELTA' after it, two flags under the widget with 'OFFICIAL AIRLINE' beside them, the rings under the forward flag and the agitos under the aft one. Used for where this scheme's forward group goes on the left, which no photo shows."
     }
   ],
-  "notes": "Drawn only from Delta's press photos of the right side at Toulouse before delivery (as F-WWXL, MSN 755); no openly licensed photo was found and the left side, belly and engines weren't seen, so titles and logos are given for the right side only and the engines are left out. The press photos are oblique: every position is an estimate (low). The gradient is drawn as five flat bands; the stripes' forward ends are staggered and fade out in the photos, here drawn with one even start. About 13 stripes show on the right side between belly and crown at the rear door, so the 26 are taken as 13 a side. FAA lists N531DN as A350-941 MSN 0755, matching the 'MSN755' in Delta's release image filenames; registration otherwise from secondary reporting. Post-Olympics status unknown. Not this scheme: Commons has N521DN at Auckland 9 Apr 2026 in a different, white Team USA livery (navy 'TEAM USA' with red and navy stripes). Re-checked 2026-11-15 only in part: no openly licensed photo of the aircraft in service was found (the sources are Delta's roll-out pictures), so the title 'OFFICIAL AIRLINE OF TEAM USA' still has no measured length; the red forward sweep's top edge, a curve on those pictures, is drawn smooth.",
+  "notes": "Drawn only from Delta's press photos of the right side at Toulouse before delivery (as F-WWXL, MSN 755); no openly licensed photo was found and the left side, belly and engines weren't seen, so the engines are left out. Titles and logos were first given for the right side only, which left the left side bare (no 'DELTA', widget or 'TEAM USA'); since 2026-11-26 'TEAM USA' covers the same stretch on both sides and the forward group (widget, 'DELTA', flags, rings and agitos, 'Official Airline') is set out on the left as on N521DN's left side, Delta's other Team USA A350 (Commons 2026-04-09): an inference, low. The press photos are oblique: every position is an estimate (low). The gradient is drawn as five flat bands; the stripes' forward ends are staggered and fade out in the photos, here drawn with one even start. About 13 stripes show on the right side between belly and crown at the rear door, so the 26 are taken as 13 a side. FAA lists N531DN as A350-941 MSN 0755, matching the 'MSN755' in Delta's release image filenames; registration otherwise from secondary reporting. Post-Olympics status unknown. Not this scheme: Commons has N521DN at Auckland 9 Apr 2026 in a different, white Team USA livery (navy 'TEAM USA' with red and navy stripes). Re-checked 2026-11-15 only in part: no openly licensed photo of the aircraft in service was found (the sources are Delta's roll-out pictures), so the title 'OFFICIAL AIRLINE OF TEAM USA' still has no measured length; the red forward sweep's top edge, a curve on those pictures, is drawn smooth.",
   "from": "2025",
   "palette": {
     "white": {
@@ -897,7 +903,7 @@
       "mark": "DAL/us-flag",
       "place": "fuselage",
       "at": [
-        0.2,
+        0.189,
         -0.2
       ],
       "height": 0.25,
@@ -906,7 +912,27 @@
         "white",
         "navy"
       ],
-      "description": "Two US flags side by side below the windows, aft of the 'Official Airline' line.",
+      "description": "One of two US flags side by side below the windows, aft of the 'Official Airline' line.",
+      "side": "right",
+      "confidence": "low",
+      "sourceRefs": [
+        3
+      ]
+    },
+    {
+      "mark": "DAL/us-flag",
+      "place": "fuselage",
+      "at": [
+        0.211,
+        -0.2
+      ],
+      "height": 0.25,
+      "colors": [
+        "red",
+        "white",
+        "navy"
+      ],
+      "description": "One of two US flags side by side below the windows, aft of the 'Official Airline' line.",
       "side": "right",
       "confidence": "low",
       "sourceRefs": [
@@ -925,11 +951,89 @@
         "navy",
         "red"
       ],
-      "description": "The Olympic rings (in color) under the forward flag and the Paralympic agitos under the aft one.",
+      "description": "The Olympic rings (in color) under the aft flag and the Paralympic agitos under the forward one, as seen from the right: the pair reads rings then agitos from either side.",
       "side": "right",
       "confidence": "low",
       "sourceRefs": [
         3
+      ]
+    },
+    {
+      "mark": "DAL/widget",
+      "place": "fuselage",
+      "at": [
+        0.117,
+        0.42
+      ],
+      "height": 0.3,
+      "colors": [
+        "finRed",
+        "finDarkRed"
+      ],
+      "description": "The red widget just behind the forward door, ahead of 'DELTA'.",
+      "side": "left",
+      "confidence": "low",
+      "sourceRefs": [
+        4
+      ]
+    },
+    {
+      "mark": "DAL/us-flag",
+      "place": "fuselage",
+      "at": [
+        0.121,
+        -0.2
+      ],
+      "height": 0.25,
+      "colors": [
+        "red",
+        "white",
+        "navy"
+      ],
+      "description": "One of two US flags side by side under the widget.",
+      "side": "left",
+      "confidence": "low",
+      "sourceRefs": [
+        4
+      ]
+    },
+    {
+      "mark": "DAL/us-flag",
+      "place": "fuselage",
+      "at": [
+        0.143,
+        -0.2
+      ],
+      "height": 0.25,
+      "colors": [
+        "red",
+        "white",
+        "navy"
+      ],
+      "description": "The second US flag.",
+      "side": "left",
+      "confidence": "low",
+      "sourceRefs": [
+        4
+      ]
+    },
+    {
+      "mark": "DAL/olympic-paralympic",
+      "place": "fuselage",
+      "at": [
+        0.132,
+        -0.5
+      ],
+      "height": 0.15,
+      "colors": [
+        "navy",
+        "red"
+      ],
+      "description": "The Olympic rings under the forward flag and the Paralympic agitos under the aft one.",
+      "side": "left",
+      "confidence": "low",
+      "sourceRefs": [
+        4
       ]
     }
   ],
@@ -1000,12 +1104,12 @@
       "height": 1.06,
       "color": "white",
       "length": 0.2,
-      "side": "right",
-      "style": "Huge condensed bold capitals across the gradient aft of the wing, from below the windows to high on the side.",
+      "style": "Huge condensed bold capitals across the gradient aft of the wing, from below the windows to high on the side. On the left it covers the same stretch, as the gradient does (no photo of the left; Delta's Team USA jets carry it on both sides).",
       "confidence": "low",
       "sourceRefs": [
         1,
-        2
+        2,
+        4
       ],
       "type": {
         "similar": [
@@ -1015,6 +1119,61 @@
         "weight": 700,
         "slantDeg": 0,
         "width": "condensed",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "DELTA",
+      "place": "fuselage",
+      "at": [
+        0.142,
+        0.3
+      ],
+      "height": 0.3,
+      "color": "navy",
+      "length": 0.09,
+      "side": "left",
+      "style": "Delta's wordmark on the left: behind the widget, which is just aft of the forward door.",
+      "confidence": "low",
+      "sourceRefs": [
+        4
+      ],
+      "type": {
+        "similar": [
+          "Whitney Bold",
+          "Gotham Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "OFFICIAL AIRLINE OF TEAM USA",
+      "place": "fuselage",
+      "at": [
+        0.16,
+        -0.12
+      ],
+      "height": 0.09,
+      "color": "navy",
+      "side": "left",
+      "style": "The same small line on the left, beside the flags (N521DN's left side has it there).",
+      "confidence": "low",
+      "sourceRefs": [
+        4
+      ],
+      "type": {
+        "similar": [
+          "Whitney Medium",
+          "Gotham Book"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "normal",
         "strokes": "uniform",
         "case": "upper"
       }

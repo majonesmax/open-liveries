@@ -572,9 +572,11 @@ function layoutFin(f: Frame): {
   finChord: Geometry['finChord'];
   finSpan: number;
   finPoint: Geometry['finPoint'];
+  /** Where the fin's leading edge, carried straight down, meets the crown: its y in the fin's space. */
+  foot: number;
   detail: Pick<MeasuredDetail, 'finOutline' | 'finFillet' | 'rudderShare'>;
 } {
-  const { m, share, fuselageX, px, y, scale } = f;
+  const { m, share, fuselageX, px, y, scale, crownZ } = f;
   const { fin } = m;
   const finLeading = byHeight(fin.leading);
   const finTrailing = byHeight(fin.trailing);
@@ -606,10 +608,18 @@ function layoutFin(f: Frame): {
     ...[...fin.trailing].reverse(),
     [edgeX(finTrailing, below), below],
   ];
+  // The crown under the fin: about its root on a type whose fin stands on the body, well below it where the fin
+  // stands on a center engine or its S-duct's fairing (the 727's, the DC-10's, the L-1011's).
+  let footZ = finRoot;
+  for (let z = finRoot; z > finRoot - (finTip - finRoot) * 3; z -= 0.01) {
+    footZ = z;
+    if (crownZ(edgeX(finLeading, z)) >= z) break;
+  }
   return {
     finChord,
     finSpan: (finTip - finRoot) * scale,
     finPoint,
+    foot: finTip === finRoot ? 0 : (footZ - finRoot) / (finTip - finRoot),
     detail: {
       finOutline: finOutlineMeters.map(([x, z]): Point => [px(x), y(z)]),
       ...(fillet.length ? { finFillet: true } : {}),
@@ -940,7 +950,7 @@ export function layoutMeasured(m: MeasuredShape): Geometry {
       ...fuselage.detail,
       ...fin.detail,
       wingBelow,
-      ...(tailEngines.length ? { tailEngines } : {}),
+      ...(tailEngines.length ? { tailEngines, finFoot: fin.foot } : {}),
     },
   };
 }

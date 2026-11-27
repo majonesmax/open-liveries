@@ -31,7 +31,7 @@
       "url": "https://commons.wikimedia.org/wiki/File:Sun_Country_Boeing_737-800_N805SY_MD1.jpg",
       "title": "Sun Country Boeing 737-800 N805SY MD1.jpg (CC BY-SA 4.0)",
       "accessed": "2026-11-13",
-      "note": "N805SY, 2026-10-13: still in the earlier blue scheme (with lower-case titles)."
+      "note": "N805SY, 2026-10-13: still in the earlier blue scheme (blue-2001)."
     }
   ],
   "palette": {
@@ -370,6 +370,6 @@
       "length": 0.267
     }
   ],
-  "notes": "Drawn from N856SY (Aug 2024), checked on N843SY (Feb 2026). The navy's contour lines and the fin's rays are reduced to their color fields. A few aircraft still wear the earlier blue scheme (blue with light rays forward, an orange line, white below) with the new lower-case titles: N805SY in October 2026. Re-checked 2026-11-15 on N856SY fitted to the measured 737-800 shape (its windows land on the shape's): the fuselage areas match the photo; the title runs x 0.149 to 0.416, its baseline a little below the windows (y -0.05, it had been drawn on the window line), the t's top at y 0.55, lowercase 0.91 of it (Sun Country's lettering has very short ascenders).",
+  "notes": "Drawn from N856SY (Aug 2024), checked on N843SY (Feb 2026). The navy's contour lines and the fin's rays are reduced to their color fields. A few aircraft still wear the earlier blue schemes, drawn as blue-2001 (N805SY in October 2026) and blue-2016. Re-checked 2026-11-15 on N856SY fitted to the measured 737-800 shape (its windows land on the shape's): the fuselage areas match the photo; the title runs x 0.149 to 0.416, its baseline a little below the windows (y -0.05, it had been drawn on the window line), the t's top at y 0.55, lowercase 0.91 of it (Sun Country's lettering has very short ascenders).",
   "history": "Replaces Skyarium v1's approximate standard (a few colors from memory). The 2018 livery replaced the blue scheme, which survives on a few aircraft."
 }

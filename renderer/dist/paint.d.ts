@@ -5,7 +5,7 @@ type Side = 'left' | 'right';
 /** Paints a part's areas, in order, mapped through its own coordinates. */
 export declare function drawAreas(areas: Area[] | undefined, side: Side, yRange: [number, number], mapping: Mapping, canvas: Canvas, parent: Element, 
 /** Moves the area's own points before they're drawn (a tail engine's: the fin's space carried down, side.ts). */
-adjust?: (p: Point) => Point, 
+adjust?: (p: Point, area: Area) => Point, 
 /** The part's lowest and highest y, where an area's outline stays sharp (default: `yRange`). */
 edges?: [number, number], 
 /** The fuselage: edges straight as seen from the side, not in y (an angle round it). */

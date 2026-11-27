@@ -1,0 +1,37 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "FDX",
+  "airframes": [
+    {
+      "registration": "N884FD",
+      "hex": "ac2d32",
+      "hexSource": "derived from the N-number (tools/nnumber.py), 2026-11-26",
+      "type": "B77L",
+      "livery": "federal-express-retro",
+      "from": "2026",
+      "lastSeen": "2026-10-30",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N884FD@PEK_(20261030161902).jpg",
+          "title": "N884FD@PEK (20261030161902).jpg (CC BY-SA 4.0)",
+          "accessed": "2026-11-26",
+          "note": "N884FD (777F) left side, side-on, landing at Beijing 2026-10-30: fitted to shapes/B77L.json with tools/photo_trace.py (nose, tail, fin tip, forward door; within 8 px). The purple, the stripe, the fin and the titles are measured off it."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N884FD@PEK_(20261030161859).jpg",
+          "title": "N884FD@PEK (20261030161859).jpg (CC BY-SA 4.0)",
+          "accessed": "2026-11-26",
+          "note": "The same, from ahead and below, seconds earlier: the same scheme; the belly white, engines bare metal."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Fed_Ex_B777-FS2_N884FD_l_TPE_RCTP_l_11-JAN-2026_(55070243610).jpg",
+          "title": "Fed Ex B777-FS2 N884FD l TPE RCTP l 11-JAN-2026 (55070243610).jpg (CC BY-SA 4.0)",
+          "accessed": "2026-11-26",
+          "note": "N884FD at Taipei 2026-01-11 still in the standard FedEx scheme: the retro paint is from after this."
+        }
+      ],
+      "status": "active: Commons photos at Beijing 2026-10-30 in the retro; at Taipei 2026-01-11 still in the standard scheme."
+    }
+  ]
+}

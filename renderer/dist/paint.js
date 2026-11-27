@@ -14,7 +14,7 @@ heights = false) {
     for (const area of areas ?? []) {
         if (!showsOn(area, side))
             continue;
-        const outline = areaPolygon(area, ...yRange, edges, heights).map(adjust);
+        const outline = areaPolygon(area, ...yRange, edges, heights).map((p) => adjust(p, area));
         // A curve's own points are close already; a straight outline gets points along every edge, as always.
         const dense = area.smooth === true ? densifyArea(outline) : densify(outline);
         const polygon = dense.map(([x, y]) => mapping(x, heights ? fromHeight(y) : y));

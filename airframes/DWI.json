@@ -1,0 +1,30 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "DWI",
+  "airframes": [
+    {
+      "registration": "HI1101",
+      "hex": "0c4355",
+      "type": "B38M",
+      "livery": "dominican-flag",
+      "from": "2024-06",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Boeing_737_Max_-_HI1101_-_Arajet.jpg",
+          "title": "Boeing 737 Max - HI1101 - Arajet.jpg (CC0, Liaam2324)",
+          "accessed": "2026-11-26",
+          "note": "HI1101 in the flag ribbon scheme, 2024-06-10."
+        },
+        {
+          "url": "https://aviacionline.com/arajet-incorpora-su-decimo-boeing-737-max-con-un-homenaje-a-la-bandera-dominicana",
+          "title": "Aviacionline: Arajet incorpora su décimo Boeing 737 MAX con un homenaje a la bandera dominicana",
+          "accessed": "2026-11-26",
+          "note": "The tenth 737 MAX, HI1101 'Los Haitises', delivered in the Dominican flag design in June 2024."
+        }
+      ],
+      "hexSource": "looked up: hexdb.io community database (2026-11-26); not verified against the Dominican register",
+      "status": "In this paint from its delivery in June 2024 (photographed 2024-06-10). No dated open photo since, so medium."
+    }
+  ]
+}

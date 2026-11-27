@@ -1,0 +1,1329 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "BWA",
+  "name": "I Am Caribbean (2020)",
+  "kind": "standard",
+  "from": "2020-03",
+  "confidence": "medium",
+  "drawnOn": "B38M",
+  "description": "White with 'Caribbean' in big magenta letters over the forward windows and again along the belly. The hummingbird fills the aft half of the fin in bright streaks. A broad red feather sits among mauve and pink ones banded in yellow, lime and sky blue, and its orange and crimson tail runs under the tailplane onto the tail cone. Magenta engines and winglets, gray wings and tailplane. The registration is small in dark purple aft.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:9Y-CAL_B737_MAX_8,_Caribbean,_Fort_Lauderdale_02-18-26_(55114357684).jpg",
+      "title": "9Y-CAL B737 MAX 8, Caribbean, Fort Lauderdale 02-18-26 (CC BY 4.0, Duncan Kirk)",
+      "accessed": "2026-11-26",
+      "note": "737-8 9Y-CAL taxiing at Fort Lauderdale, left side, level, 2026-02-18. Fitted to shapes/B38M.json (forward door within 2 px, windows within 15 px, the tail cone about 0.4 m long on the shape): the title, registration, fin art and tail-cone art are measured from it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:9Y-ANT_Boeing_737-8_Max_Caribbean_Airlines_BGI_20.11.25_(54964179763).jpg",
+      "title": "9Y-ANT Boeing 737-8 Max Caribbean Airlines BGI 20.11.25 (CC BY-SA 4.0, Colin Cooke Photo)",
+      "accessed": "2026-11-26",
+      "note": "737-8 9Y-ANT at Barbados, right side, level, 2025-11-20: the right side, the title at the same stretch, the fin art as seen from the right, magenta engines and winglets."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Caribbean_Airlines_Boeing_737_Max_8_(9Y-JAM)_(54590452914).jpg",
+      "title": "Caribbean Airlines Boeing 737 Max 8 (9Y-JAM) (CC BY-SA 2.0, Can Pac Swire)",
+      "accessed": "2026-11-26",
+      "note": "737-8 9Y-JAM landing, left side from a little below, 2025-05-12: the same scheme; the belly title's start under the forward cabin."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:9Y-BAR_@_BGI,_2022-12-16.jpg",
+      "title": "9Y-BAR @ BGI, 2022-12-16 (CC BY 2.0, Ian Gratton)",
+      "accessed": "2026-11-26",
+      "note": "737-8 9Y-BAR from below left, 2022-12-16: the belly title 'Caribbean' reading nose to tail ahead of the wing, white belly, magenta winglets both faces, gray wings."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:9Y-BAH_@_BGI,_2024-10-15.jpg",
+      "title": "9Y-BAH @ BGI, 2024-10-15 (CC BY-SA 2.0, Colin Cooke Photo)",
+      "accessed": "2026-11-26",
+      "note": "737-8 9Y-BAH landing, right side, 2024-10-15: the same scheme."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:9Y-TTO_JFK_Landing_4R_BW_B737_Max_8_Beacon_Small.png",
+      "title": "9Y-TTO JFK Landing 4R BW B737 Max 8 Beacon Small (CC BY-SA 2.0, Mark Bess)",
+      "accessed": "2026-11-26",
+      "note": "737-8 9Y-TTO at New York JFK, right side, 2022-08-13: the scheme as delivered on the first MAX."
+    },
+    {
+      "url": "https://www.gatechecked.com/?p=2795",
+      "title": "Caribbean Airlines Quietly Unveils New Livery After 13 Years (Gate Checked, 2020-03-13)",
+      "accessed": "2026-11-26",
+      "note": "Evidence only: the refresh ('I Am Caribbean') was to be shown on 2020-03-12 on leased ATR 72-600 9Y-TTI; 'Caribbean' in purple over the forward windows and under the belly, purple engines, the hummingbird redrawn in multicolored streaks; the twelve 737-800s then unlikely to be repainted."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:9Y-TTF_@_BGI,_2024-10-16.jpg",
+      "title": "9Y-TTF @ BGI, 2024-10-16 (CC BY-SA 2.0, Colin Cooke Photo)",
+      "note": "ATR 72-600 9Y-TTF landing at Barbados, right side from below, 2024-10-16. Flipped and fitted to shapes/AT76.json by its windows, aft door and body depth (within 17 px): the ATR's title, ribbon art and registration.",
+      "accessed": "2026-11-26"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:9Y-TTG_@_PIK,_2023-05-02.jpg",
+      "title": "9Y-TTG @ PIK, 2023-05-02 (CC BY-SA 2.0, Jonathan Payne)",
+      "note": "ATR 72-600 9Y-TTG at Prestwick, left side, 2023-05-02: the left side, the title over the same stretch, 'caribbean-airlines.com' on the gear fairing.",
+      "accessed": "2026-11-26"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:9Y-TTA_ATR_72-600_Caribbean_Airlines_BGI_20.11.25_(54976717464).jpg",
+      "title": "9Y-TTA ATR 72-600 Caribbean Airlines BGI 20.11.25 (CC BY-SA 4.0, Colin Cooke Photo)",
+      "note": "ATR 72-600 9Y-TTA, right side from ahead, 2025-11-20: the same scheme; magenta nacelles.",
+      "accessed": "2026-11-26"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:9Y-TTC_ATR_72-600_Caribbean_Airlines_BGI_20.11.25_(54964179768).jpg",
+      "title": "9Y-TTC ATR 72-600 Caribbean Airlines BGI 20.11.25 (CC BY-SA 4.0, Colin Cooke Photo)",
+      "note": "ATR 72-600 9Y-TTC from below right, 2025-11-20: the same scheme; the belly title, faint.",
+      "accessed": "2026-11-26"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:9Y-TTB_@_BGI,_2022-12-11.jpg",
+      "title": "9Y-TTB @ BGI, 2022-12-11 (CC BY 2.0, Ian Gratton)",
+      "note": "Evidence only: ATR 72-600 9Y-TTB still in the 2007 scheme (script 'Caribbean Airlines' titles) on 2022-12-11. Not drawn.",
+      "accessed": "2026-11-26"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Caribbean_Airlines,_9Y-JME,_Boeing_737-86J_(49593252857).jpg",
+      "title": "Caribbean Airlines, 9Y-JME, Boeing 737-86J (CC BY-SA 2.0, Anna Zvereva)",
+      "note": "Evidence only: 737-800 9Y-JME in the 2007 scheme (script titles, plain white fin) on 2019-07-19. The newest open photo of a Caribbean 737-800.",
+      "accessed": "2026-11-26"
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F4F5F6",
+      "official": false
+    },
+    "magenta": {
+      "hex": "#B0418F",
+      "official": false
+    },
+    "mauve": {
+      "hex": "#9B4F92",
+      "official": false
+    },
+    "pink": {
+      "hex": "#D27BAE",
+      "official": false
+    },
+    "red": {
+      "hex": "#D8301F",
+      "official": false
+    },
+    "orange": {
+      "hex": "#E8761E",
+      "official": false
+    },
+    "yellow": {
+      "hex": "#EEE35A",
+      "official": false
+    },
+    "lime": {
+      "hex": "#C6DF6E",
+      "official": false
+    },
+    "sky": {
+      "hex": "#A9D3EC",
+      "official": false
+    },
+    "regPurple": {
+      "hex": "#4E3452",
+      "name": "dark purple registration",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#BEC3C9",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "name": "bare metal inlet lip",
+      "official": false
+    },
+    "crimson": {
+      "hex": "#A8325E",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "hummingbird art on the fillet and round the tail cone (its mixed streaks as mauve)",
+        "color": "mauve",
+        "points": [
+          [
+            0.836,
+            1
+          ],
+          [
+            0.841,
+            0.97
+          ],
+          [
+            0.862,
+            0.817
+          ],
+          [
+            0.882,
+            0.533
+          ],
+          [
+            0.8916,
+            0.457
+          ],
+          [
+            0.892,
+            0.121
+          ],
+          [
+            0.894,
+            -0.053
+          ],
+          [
+            0.899,
+            -0.364
+          ],
+          [
+            0.907,
+            -0.638
+          ],
+          [
+            0.925,
+            -0.8
+          ],
+          [
+            0.9395,
+            -0.66
+          ],
+          [
+            0.9458,
+            -0.443
+          ],
+          [
+            0.948,
+            -0.061
+          ],
+          [
+            0.95,
+            0.35
+          ],
+          [
+            0.95,
+            1
+          ]
+        ],
+        "smooth": true,
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "orange under the tailplane",
+        "color": "orange",
+        "points": [
+          [
+            0.8959,
+            0.0425
+          ],
+          [
+            0.9207,
+            0.0423
+          ],
+          [
+            0.9242,
+            -0.267
+          ],
+          [
+            0.92,
+            -0.8
+          ],
+          [
+            0.907,
+            -0.62
+          ],
+          [
+            0.8976,
+            -0.2792
+          ]
+        ],
+        "smooth": true,
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      },
+      {
+        "name": "crimson feather tips at the tail cone",
+        "color": "crimson",
+        "points": [
+          [
+            0.9265,
+            0.0223
+          ],
+          [
+            0.948,
+            -0.061
+          ],
+          [
+            0.9458,
+            -0.443
+          ],
+          [
+            0.9395,
+            -0.66
+          ],
+          [
+            0.9231,
+            -0.7324
+          ],
+          [
+            0.9285,
+            -0.2944
+          ]
+        ],
+        "smooth": true,
+        "confidence": "medium",
+        "sourceRefs": [
+          0
+        ]
+      }
+    ],
+    "radome": {
+      "color": "white",
+      "to": 0.025
+    },
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2,
+      4
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "streaked band along the fin's root, carried forward to its leading edge",
+        "color": "mauve",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0.11
+          ],
+          [
+            0.067,
+            0.169
+          ],
+          [
+            0.143,
+            0.183
+          ],
+          [
+            0.27,
+            0.154
+          ],
+          [
+            0.35,
+            0.12
+          ],
+          [
+            0.445,
+            0.108
+          ],
+          [
+            0.468,
+            0.138
+          ],
+          [
+            0.52,
+            0.16
+          ],
+          [
+            0.55,
+            0
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "red streak in the root band",
+        "color": "red",
+        "points": [
+          [
+            0.284,
+            0.0
+          ],
+          [
+            0.324,
+            0.0
+          ],
+          [
+            0.299,
+            0.145
+          ],
+          [
+            0.252,
+            0.148
+          ]
+        ]
+      },
+      {
+        "name": "red streak in the root band",
+        "color": "red",
+        "points": [
+          [
+            0.164,
+            0.0
+          ],
+          [
+            0.191,
+            0.0
+          ],
+          [
+            0.157,
+            0.144
+          ],
+          [
+            0.116,
+            0.152
+          ]
+        ]
+      },
+      {
+        "name": "mauve feathers",
+        "color": "mauve",
+        "points": [
+          [
+            0.7,
+            0.8857
+          ],
+          [
+            0.74,
+            0.8786
+          ],
+          [
+            0.76,
+            0.8286
+          ],
+          [
+            0.81,
+            0.8
+          ],
+          [
+            0.84,
+            0.7571
+          ],
+          [
+            0.83,
+            0.7286
+          ],
+          [
+            0.78,
+            0.7
+          ],
+          [
+            0.78,
+            0.6857
+          ],
+          [
+            0.81,
+            0.6714
+          ],
+          [
+            0.85,
+            0.6143
+          ],
+          [
+            0.83,
+            0.5357
+          ],
+          [
+            0.87,
+            0.4929
+          ],
+          [
+            0.89,
+            0.3429
+          ],
+          [
+            0.9,
+            0.3929
+          ],
+          [
+            0.92,
+            0.3929
+          ],
+          [
+            0.96,
+            0.4643
+          ],
+          [
+            0.97,
+            0.7429
+          ],
+          [
+            1.0,
+            0.85
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.87,
+            0.0
+          ],
+          [
+            0.9,
+            0.1143
+          ],
+          [
+            0.87,
+            0.25
+          ],
+          [
+            0.87,
+            0.4143
+          ],
+          [
+            0.82,
+            0.5286
+          ],
+          [
+            0.8,
+            0.5286
+          ],
+          [
+            0.81,
+            0.5643
+          ],
+          [
+            0.74,
+            0.6286
+          ],
+          [
+            0.75,
+            0.7
+          ],
+          [
+            0.78,
+            0.7071
+          ],
+          [
+            0.7,
+            0.8071
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "mauve feathers",
+        "color": "mauve",
+        "points": [
+          [
+            0.6,
+            0.6071
+          ],
+          [
+            0.63,
+            0.6071
+          ],
+          [
+            0.63,
+            0.5643
+          ],
+          [
+            0.68,
+            0.4857
+          ],
+          [
+            0.73,
+            0.4786
+          ],
+          [
+            0.74,
+            0.3286
+          ],
+          [
+            0.73,
+            0.3
+          ],
+          [
+            0.71,
+            0.2929
+          ],
+          [
+            0.69,
+            0.35
+          ],
+          [
+            0.66,
+            0.35
+          ],
+          [
+            0.65,
+            0.3714
+          ],
+          [
+            0.62,
+            0.3643
+          ],
+          [
+            0.63,
+            0.2143
+          ],
+          [
+            0.62,
+            0.1286
+          ],
+          [
+            0.6,
+            0.1071
+          ],
+          [
+            0.6,
+            0.0214
+          ],
+          [
+            0.58,
+            0.0286
+          ],
+          [
+            0.57,
+            0.0786
+          ],
+          [
+            0.55,
+            0.0
+          ],
+          [
+            0.41,
+            0.0
+          ],
+          [
+            0.41,
+            0.0786
+          ],
+          [
+            0.43,
+            0.0929
+          ],
+          [
+            0.46,
+            0.0857
+          ],
+          [
+            0.51,
+            0.1
+          ],
+          [
+            0.53,
+            0.1214
+          ],
+          [
+            0.5,
+            0.2857
+          ],
+          [
+            0.51,
+            0.4071
+          ],
+          [
+            0.57,
+            0.45
+          ],
+          [
+            0.57,
+            0.4714
+          ],
+          [
+            0.61,
+            0.4857
+          ],
+          [
+            0.59,
+            0.5571
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "red feather",
+        "color": "red",
+        "points": [
+          [
+            0.77,
+            0.5357
+          ],
+          [
+            0.82,
+            0.5286
+          ],
+          [
+            0.87,
+            0.4143
+          ],
+          [
+            0.87,
+            0.25
+          ],
+          [
+            0.9,
+            0.1286
+          ],
+          [
+            0.88,
+            0.1143
+          ],
+          [
+            0.87,
+            0.05
+          ],
+          [
+            0.85,
+            0.0429
+          ],
+          [
+            0.84,
+            0.0
+          ],
+          [
+            0.69,
+            0.0
+          ],
+          [
+            0.72,
+            0.1643
+          ],
+          [
+            0.72,
+            0.3
+          ],
+          [
+            0.74,
+            0.3286
+          ],
+          [
+            0.73,
+            0.4786
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "white gap",
+        "color": "white",
+        "points": [
+          [
+            0.63,
+            0.3714
+          ],
+          [
+            0.66,
+            0.3643
+          ],
+          [
+            0.66,
+            0.35
+          ],
+          [
+            0.69,
+            0.35
+          ],
+          [
+            0.72,
+            0.2929
+          ],
+          [
+            0.72,
+            0.1643
+          ],
+          [
+            0.69,
+            0.0
+          ],
+          [
+            0.64,
+            0.0
+          ],
+          [
+            0.63,
+            0.0286
+          ],
+          [
+            0.6,
+            0.0357
+          ],
+          [
+            0.63,
+            0.2143
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "pink feather",
+        "color": "pink",
+        "points": [
+          [
+            0.64,
+            0.7786
+          ],
+          [
+            0.67,
+            0.7786
+          ],
+          [
+            0.74,
+            0.7143
+          ],
+          [
+            0.74,
+            0.6429
+          ],
+          [
+            0.68,
+            0.6571
+          ],
+          [
+            0.62,
+            0.7071
+          ],
+          [
+            0.61,
+            0.7643
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "pink feather",
+        "color": "pink",
+        "points": [
+          [
+            0.37,
+            0.5357
+          ],
+          [
+            0.41,
+            0.5357
+          ],
+          [
+            0.46,
+            0.4857
+          ],
+          [
+            0.46,
+            0.3929
+          ],
+          [
+            0.44,
+            0.3929
+          ],
+          [
+            0.43,
+            0.4214
+          ],
+          [
+            0.4,
+            0.4286
+          ],
+          [
+            0.37,
+            0.4714
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "yellow streak",
+        "color": "yellow",
+        "points": [
+          [
+            0.46,
+            0.4714
+          ],
+          [
+            0.49,
+            0.4571
+          ],
+          [
+            0.51,
+            0.4143
+          ],
+          [
+            0.51,
+            0.3
+          ],
+          [
+            0.49,
+            0.3071
+          ],
+          [
+            0.49,
+            0.3357
+          ],
+          [
+            0.47,
+            0.3286
+          ],
+          [
+            0.47,
+            0.3429
+          ],
+          [
+            0.44,
+            0.35
+          ],
+          [
+            0.42,
+            0.4
+          ],
+          [
+            0.42,
+            0.4214
+          ],
+          [
+            0.44,
+            0.3929
+          ],
+          [
+            0.47,
+            0.4071
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "yellow streak",
+        "color": "yellow",
+        "points": [
+          [
+            0.62,
+            0.7071
+          ],
+          [
+            0.68,
+            0.6571
+          ],
+          [
+            0.74,
+            0.6429
+          ],
+          [
+            0.75,
+            0.6143
+          ],
+          [
+            0.81,
+            0.5643
+          ],
+          [
+            0.8,
+            0.5357
+          ],
+          [
+            0.77,
+            0.5357
+          ],
+          [
+            0.75,
+            0.6071
+          ],
+          [
+            0.69,
+            0.65
+          ],
+          [
+            0.64,
+            0.6643
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "yellow streak",
+        "color": "yellow",
+        "points": [
+          [
+            0.69,
+            0.5571
+          ],
+          [
+            0.75,
+            0.5214
+          ],
+          [
+            0.74,
+            0.4786
+          ],
+          [
+            0.69,
+            0.4857
+          ],
+          [
+            0.68,
+            0.5286
+          ],
+          [
+            0.65,
+            0.5357
+          ]
+        ],
+        "smooth": true
+      },
+      {
+        "name": "pink feather",
+        "color": "pink",
+        "points": [
+          [
+            0.6,
+            0.0357
+          ],
+          [
+            0.63,
+            0.0286
+          ],
+          [
+            0.64,
+            0.0
+          ],
+          [
+            0.55,
+            0.0
+          ],
+          [
+            0.58,
+            0.0071
+          ]
+        ],
+        "smooth": true
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "stabilizer": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "magenta",
+    "inner": "magenta",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      3
+    ]
+  },
+  "engines": {
+    "cowling": "magenta",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "BWA/hummingbird",
+      "place": "fin",
+      "at": [
+        0.7,
+        0.45
+      ],
+      "height": 0.85,
+      "colors": [
+        "red",
+        "mauve",
+        "pink",
+        "magenta",
+        "orange",
+        "yellow",
+        "lime",
+        "sky"
+      ],
+      "description": "Caribbean Airlines' hummingbird as redrawn for the 2020 brand: a bird built of long feather-like streaks rising toward the fin's tip from its aft root, a broad red streak at its heart among mauve and pink feathers outlined and banded in yellow, lime green and pale sky blue, with an orange and crimson tail spilling under the tailplane onto the tail cone and loose streaks running forward along the fillet. Bright, loose and hand-drawn in feel; the leading half of the fin stays white. The areas carry its major color fields; the streaks and outlines are the artwork's.",
+      "reference": "https://commons.wikimedia.org/wiki/File:9Y-CAL_B737_MAX_8,_Caribbean,_Fort_Lauderdale_02-18-26_(55114357684).jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1,
+        4
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Caribbean",
+      "place": "fuselage",
+      "at": [
+        0.171,
+        0.308
+      ],
+      "height": 0.37,
+      "length": 0.181,
+      "color": "magenta",
+      "style": "The 2020 wordmark: heavy geometric sans in mixed case with round bowls and a large x-height, magenta, over the forward windows from just behind the forward door. 'Airlines' isn't on the aircraft.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "type": {
+        "similar": [
+          "Gilroy ExtraBold",
+          "Gotham Rounded Bold",
+          "Nunito ExtraBold"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.78
+      }
+    },
+    {
+      "text": "Caribbean",
+      "place": "belly",
+      "at": [
+        0.2,
+        -1
+      ],
+      "height": 0.55,
+      "length": 0.25,
+      "color": "magenta",
+      "style": "The same wordmark, larger, along the belly ahead of the wing, reading nose to tail from below.",
+      "confidence": "low",
+      "sourceRefs": [
+        2,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Gilroy ExtraBold",
+          "Gotham Rounded Bold",
+          "Nunito ExtraBold"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.78
+      }
+    },
+    {
+      "text": "9Y-CAL",
+      "registration": true,
+      "place": "fuselage",
+      "at": [
+        0.741,
+        -0.141
+      ],
+      "height": 0.108,
+      "length": 0.041,
+      "color": "regPurple",
+      "style": "The aircraft's own registration in dark purple capitals under the last windows ahead of the aft door; 'BOEING 737-8' in small italic capitals above the windows there isn't drawn.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Medium",
+          "Arial"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "types": {
+    "AT76": {
+      "note": "The ATR 72-600s, measured on 9Y-TTF (right side from below, 2024-10-16) fitted to shapes/AT76.json by its windows, aft door and the body's depth, so the lettering keeps its place by the windows (the shape's cabin and nacelle sit about 1.1 to 1.4 m forward of where photos put them against the nose and tail); 9Y-TTG and 9Y-TTH (left, 2023), 9Y-TTA and 9Y-TTC (2025) agree. The title is smaller and sits higher, from the forward exit back over the propeller's arc. A ribbon picture of the hummingbird in thin rainbow lines runs along the window line from just behind the exit to the aft door. The registration is magenta italic over the aft windows. The fin art and the tail cone's colors are drawn as on the 737.",
+      "confidence": "medium",
+      "sourceRefs": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "titles": [
+        {
+          "text": "Caribbean",
+          "place": "fuselage",
+          "at": [
+            0.173,
+            0.39
+          ],
+          "height": 0.27,
+          "length": 0.124,
+          "color": "magenta",
+          "style": "The 2020 wordmark in magenta over the forward windows, from the forward exit aft.",
+          "confidence": "high",
+          "sourceRefs": [
+            7,
+            8,
+            9
+          ],
+          "type": {
+            "similar": [
+              "Gilroy ExtraBold",
+              "Gotham Rounded Bold",
+              "Nunito ExtraBold"
+            ],
+            "weight": 800,
+            "slantDeg": 0,
+            "width": "normal",
+            "strokes": "uniform",
+            "case": "mixed",
+            "xHeight": 0.78
+          }
+        },
+        {
+          "text": "Caribbean",
+          "place": "belly",
+          "at": [
+            0.24,
+            -1
+          ],
+          "height": 0.55,
+          "length": 0.3,
+          "color": "magenta",
+          "style": "The wordmark along the belly, seen faintly from below on 9Y-TTC; its run is estimated.",
+          "confidence": "low",
+          "sourceRefs": [
+            10
+          ],
+          "type": {
+            "similar": [
+              "Gilroy ExtraBold",
+              "Gotham Rounded Bold",
+              "Nunito ExtraBold"
+            ],
+            "weight": 800,
+            "slantDeg": 0,
+            "width": "normal",
+            "strokes": "uniform",
+            "case": "mixed",
+            "xHeight": 0.78
+          }
+        },
+        {
+          "text": "9Y-TTF",
+          "registration": true,
+          "place": "fuselage",
+          "at": [
+            0.645,
+            0.55
+          ],
+          "height": 0.18,
+          "length": 0.054,
+          "color": "magenta",
+          "style": "The registration in magenta italic capitals over the last windows ahead of the aft door.",
+          "confidence": "medium",
+          "sourceRefs": [
+            7,
+            8
+          ],
+          "type": {
+            "similar": [
+              "Helvetica Neue Bold Italic",
+              "Arial Bold Italic"
+            ],
+            "weight": 700,
+            "slantDeg": 12,
+            "width": "normal",
+            "strokes": "uniform",
+            "case": "upper"
+          }
+        }
+      ],
+      "logos": [
+        {
+          "mark": "BWA/hummingbird",
+          "place": "fin",
+          "at": [
+            0.7,
+            0.45
+          ],
+          "height": 0.85,
+          "colors": [
+            "red",
+            "mauve",
+            "pink",
+            "magenta",
+            "orange",
+            "yellow",
+            "lime",
+            "sky"
+          ],
+          "description": "Caribbean Airlines' hummingbird as redrawn for the 2020 brand: a bird built of long feather-like streaks rising toward the fin's tip from its aft root, a broad red streak at its heart among mauve and pink feathers outlined and banded in yellow, lime green and pale sky blue, with an orange and crimson tail spilling under the tailplane onto the tail cone and loose streaks running forward along the fillet. Bright, loose and hand-drawn in feel; the leading half of the fin stays white. The areas carry its major color fields; the streaks and outlines are the artwork's.",
+          "reference": "https://commons.wikimedia.org/wiki/File:9Y-CAL_B737_MAX_8,_Caribbean,_Fort_Lauderdale_02-18-26_(55114357684).jpg",
+          "confidence": "medium",
+          "sourceRefs": [
+            0,
+            1,
+            4
+          ]
+        },
+        {
+          "mark": "BWA/hummingbird-ribbons",
+          "place": "fuselage",
+          "at": [
+            0.48,
+            0.0
+          ],
+          "height": 0.6,
+          "colors": [
+            "red",
+            "orange",
+            "mauve",
+            "magenta",
+            "yellow",
+            "lime",
+            "sky"
+          ],
+          "description": "A long hummingbird drawn in loose thin rainbow ribbons (red, orange, purple, magenta, yellow, lime, sky blue) flowing along and through the window line, its head and beak toward the tail. It runs about 13 m, from just behind the forward exit to the aft door; the windows show through it.",
+          "reference": "https://commons.wikimedia.org/wiki/File:9Y-TTF_@_BGI,_2024-10-16.jpg",
+          "confidence": "medium",
+          "sourceRefs": [
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    }
+  },
+  "notes": "Measured on the 737 MAX 8 from 9Y-CAL (left, level, 2026-02-18) fitted to shapes/B38M.json, checked on 9Y-ANT (right, 2025-11-20), 9Y-JAM (2025), 9Y-BAH (2024) and 9Y-TTO (2022). 'Caribbean' runs x 0.171 to 0.352 just over the windows, its capitals about 0.8 m tall and its lowercase 0.78 of them. The right side carries it over the same stretch. The belly title was read off photos from below (9Y-BAR, 9Y-JAM) and its run is estimated. The hummingbird is the airline's artwork. The fin's areas carry its major color fields (traced with photo_trace fields at half a meter) and the tail cone's orange and crimson; its many thin yellow, lime and sky-blue streaks stay the logo's. The art faces the same way on both sides. Small 'BOEING 737-8' lettering over the aft windows and a small decal under 9Y-JAM's cockpit in 2023 aren't drawn. The ATR 72-600s wear the scheme too, with their own title, registration and a ribbon hummingbird along the windows (`types`, AT76). The 737-800s weren't measured. No open photo shows one in this scheme. When it was unveiled in 2020 the twelve 737-800s were said unlikely to be repainted, and the newest open photo of one (9Y-JME, 2019) shows the 2007 scheme. So a 737-800 drawn in this scheme may be wrong.",
+  "history": "New. Replaced the 2007 scheme (white with red-to-purple script 'Caribbean Airlines' titles and the first hummingbird on the fin). It was first shown on ATR 72-600 9Y-TTI in March 2020 and came with the 737 MAX 8s delivered from early 2022 (9Y-BAH in February 2022). Some 2007-scheme aircraft flew on after that (ATR 9Y-TTB in December 2022)."
+}

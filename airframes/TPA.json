@@ -1,0 +1,129 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "TPA",
+  "airframes": [
+    {
+      "registration": "N330QT",
+      "hex": "a3973f",
+      "type": "A332",
+      "livery": "red-2013",
+      "confidence": "medium",
+      "lastSeen": "2024-12-14",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N330QT_MIA_Landing_27_QT_A330_243_F_Small_(54203626038).png",
+          "title": "N330QT MIA Landing 27 QT A330 243 F Small (54203626038).png (CC BY-SA 2.0, Mark Bess)",
+          "accessed": "2026-11-26",
+          "note": "Landing at Miami, 2024-12-14, left side: red 'Avianca Cargo' titles, bird, red fin with the white tip panel, red engines with the white bird."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Avianca_Cargo,_N330QT,_Airbus_A330-243F_(51531118558).jpg",
+          "title": "Avianca Cargo, N330QT, Airbus A330-243F (51531118558).jpg (CC BY-SA 2.0, Anna Zvereva)",
+          "accessed": "2026-11-26",
+          "note": "Still in Tampa Cargo's yellow and blue on 2021-07-02: repainted red between then and 2024-12."
+        }
+      ],
+      "hexSource": "derived from the N-number (tools/nnumber.py)",
+      "notes": "Its red repaint lacks the scheme's swoosh and orange fillet: the aft fuselage is white up to the fin, and the rudder was paler than the fin in 2024-12. The capital 'Avianca Cargo' titles are as drawn.",
+      "status": "red in its latest open photo (2024-12-14), nearly two years old; the fleet is being repainted green, so it may have changed since."
+    },
+    {
+      "registration": "N331QT",
+      "hex": "a39af6",
+      "type": "A332",
+      "livery": "standard",
+      "confidence": "high",
+      "lastSeen": "2026-01-24",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N331QT_-_Airbus_A330-243F_-_Avianca_Cargo_(green_livery)_SJO_220126.jpg",
+          "title": "N331QT - Airbus A330-243F - Avianca Cargo (green livery) SJO 220126.jpg (CC BY 4.0, kitmasterbloke)",
+          "accessed": "2026-11-26",
+          "note": "Departing San José in the green scheme, 2026-01-24."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N331QT_MIA_Landing_9_QT_A330_243_F_Green_Small_(54450128428).png",
+          "title": "N331QT MIA Landing 9 QT A330 243 F Green Small (54450128428).png (CC BY-SA 2.0, Mark Bess)",
+          "accessed": "2026-11-26",
+          "note": "Green already at Miami on 2025-04-13."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N331QT_Airbus_A330-200F_Transportes_A%C3%A9reos_Mercantiles_Panamericanos_S.A.(Tampa_Cargo)_Miami_17.1.23_(52710623305).jpg",
+          "title": "N331QT Airbus A330-200F … (Tampa Cargo) Miami 17.1.23 (52710623305).jpg (CC BY-SA 2.0, Colin Cooke Photo)",
+          "accessed": "2026-11-26",
+          "note": "Still in Tampa Cargo's paint in 2023-01: it went from Tampa Cargo straight to green."
+        }
+      ],
+      "hexSource": "derived from the N-number (tools/nnumber.py)",
+      "status": "green: painted between 2023-01 and 2025-04; latest open photo 2026-01-24."
+    },
+    {
+      "registration": "N332QT",
+      "hex": "a39ead",
+      "type": "A332",
+      "livery": "red-2013",
+      "confidence": "low",
+      "lastSeen": "2023-01-17",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N332QT_Airbus_A330-243F_Avianca_Cargo_Miami_19.1.23_(53272058084).jpg",
+          "title": "N332QT Airbus A330-243F Avianca Cargo Miami 19.1.23 (53272058084).jpg (CC BY-SA 2.0, Colin Cooke Photo)",
+          "accessed": "2026-11-26",
+          "note": "On approach to Miami, 2023-01-17, right side: the red scheme as drawn, with a round green IATA CEIV Fresh badge ahead of the registration (left out)."
+        }
+      ],
+      "hexSource": "derived from the N-number (tools/nnumber.py)",
+      "status": "red in its latest open photo, 2023-01-17: nearly four years old, before the green repaints began, so it may be retitled or green by now."
+    },
+    {
+      "registration": "N334QT",
+      "hex": "a3a61b",
+      "type": "A332",
+      "livery": "red-2013",
+      "confidence": "low",
+      "lastSeen": "2013-09-28",
+      "from": "2013-09",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:F-WWKU(1448_N334QT)_A330-243F_Avianca_Cargo_TLS_28SEP13_(9983938093).jpg",
+          "title": "F-WWKU(1448 N334QT) A330-243F Avianca Cargo TLS 28SEP13 (9983938093).jpg (CC BY-SA 3.0, Ken Fielding)",
+          "accessed": "2026-11-26",
+          "note": "At Toulouse before delivery, 2013-09-28, in the red scheme as drawn (test registration F-WWKU, msn 1448)."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Airbus_A330-243F,_Avianca_Cargo_JP7680659.jpg",
+          "title": "Airbus A330-243F, Avianca Cargo JP7680659.jpg (CC BY-SA 3.0, Pedro Aragão)",
+          "accessed": "2026-11-26",
+          "note": "The same aircraft in flight at Toulouse, 2013-09-11."
+        }
+      ],
+      "hexSource": "derived from the N-number (tools/nnumber.py)",
+      "status": "only its 2013 delivery photos are open: delivered red; nothing newer, so it may since have been retitled or painted green."
+    },
+    {
+      "registration": "N336QT",
+      "hex": "a3ad89",
+      "type": "A332",
+      "livery": "red-2013",
+      "confidence": "medium",
+      "lastSeen": "2024-08-08",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Airbus_A330_-_Avianca_Cargo_-_N336QT_in_Guatemala_City.jpg",
+          "title": "Airbus A330 - Avianca Cargo - N336QT in Guatemala City.jpg (CC BY-SA 4.0, MHernandezp05)",
+          "accessed": "2026-11-26",
+          "note": "On approach to Guatemala City, 2024-08-08: red, with the swoosh and orange fillet, retitled in the 2023 lowercase 'avianca cargo'."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N336QT_Airbus_A330-243F_Avianca_Cargo_Miami_19.1.23_(53271701361).jpg",
+          "title": "N336QT Airbus A330-243F Avianca Cargo Miami 19.1.23 (53271701361).jpg (CC BY-SA 2.0, Colin Cooke Photo)",
+          "accessed": "2026-11-26",
+          "note": "Taxiing at Miami, 2023-01-17, with the capital 'Avianca Cargo': the photo the red scheme was measured on."
+        }
+      ],
+      "hexSource": "derived from the N-number (tools/nnumber.py)",
+      "notes": "Since 2024 its titles are the lowercase 'avianca cargo' (bold 'avianca', light 'cargo'), not the capital 'Avianca Cargo' drawn on the A330-200F.",
+      "status": "red in its latest open photo (2024-08-08), over two years old."
+    }
+  ]
+}

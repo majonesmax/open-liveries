@@ -340,24 +340,24 @@
         "color": "red",
         "points": [
           [
-            0.073,
-            0.737
+            0,
+            0.722
           ],
           [
-            0.99,
-            0.732
+            1,
+            0.722
           ],
           [
-            0.99,
-            0.601
+            1,
+            0.595
           ],
           [
-            0.589,
-            0.395
+            0.57,
+            0.39
           ],
           [
-            0.028,
-            0.57
+            0,
+            0.555
           ]
         ],
         "sourceRefs": [
@@ -370,24 +370,24 @@
         "color": "darkRed",
         "points": [
           [
-            0.028,
-            0.57
+            0,
+            0.555
           ],
           [
-            0.589,
-            0.395
+            0.57,
+            0.39
           ],
           [
-            0.762,
-            -0.031
+            0.73,
+            -0.04
           ],
           [
-            0.614,
-            -0.031
+            0.58,
+            -0.04
           ],
           [
-            0.021,
-            0.439
+            0,
+            0.42
           ]
         ],
         "sourceRefs": [
@@ -400,16 +400,16 @@
         "color": "red",
         "points": [
           [
-            0.773,
+            0.75,
             0.32
           ],
           [
-            1.002,
-            0.452
+            1,
+            0.465
           ],
           [
-            0.995,
-            0.219
+            1,
+            0.225
           ]
         ],
         "sourceRefs": [
@@ -422,20 +422,20 @@
         "color": "darkRed",
         "points": [
           [
-            0.773,
+            0.75,
             0.32
           ],
           [
-            0.995,
-            0.219
+            1,
+            0.225
           ],
           [
-            1.01,
-            -0.057
+            1,
+            -0.04
           ],
           [
-            0.86,
-            -0.057
+            0.806,
+            -0.04
           ]
         ],
         "sourceRefs": [
@@ -645,5 +645,5 @@
       }
     }
   ],
-  "notes": "Measured on N411DX's left side (Haneda 2023-08-27, from above; checked on Boston 2025-06-16 and 2024-03-11). The sweeps' edges are read off by hand and drawn smooth through a few points each; the wing and engine hide their middles, so between x 0.4 and 0.55 low on the body they're estimated (low). The light blue is a gradient on the aircraft, lighter toward the crown; drawn flat. 'TEAM USA' is the scheme's lettering, not a typeface: its stand-in is close in weight and slant only. The fin is Delta's standard (copied from DAL/standard). The right side isn't measured; the photos show it mirrored. The Olympic rings are the IOC's: a renderer may leave them out (no simplified mark proposed)."
+  "notes": "Measured on N411DX's left side (Haneda 2023-08-27, from above; checked on Boston 2025-06-16 and 2024-03-11). The sweeps' edges are read off by hand and drawn smooth through a few points each; the wing and engine hide their middles, so between x 0.4 and 0.55 low on the body they're estimated (low). The light blue is a gradient on the aircraft, lighter toward the crown; drawn flat. 'TEAM USA' is the scheme's lettering, not a typeface: its stand-in is close in weight and slant only. The fin is Delta's standard (copied from DAL/standard). The right side isn't measured; the photos show it mirrored. The Olympic rings are the IOC's: a renderer may leave them out (no simplified mark proposed). Fin re-measured 2026-11-26 on N572DT (A321neo, left, 2025-02-01) fitted to shapes/A21N.json and read in fin space: the upper facet reaches the leading edge (it had stopped short), the shaded facet meets the root at x 0.53-0.715 and the lower-right one at 0.8 (both had been drawn 0.06-0.09 aft), the navy Y's stem between them (the edges carried on a little past the root, as the paint runs onto the fairing). The fin's widget logo entry is gone: the areas are the widget, cropped by the fin's edges, and a widget mark centred on the fin drew a second, wrong triangle over them."
 }

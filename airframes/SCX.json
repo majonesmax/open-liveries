@@ -257,6 +257,254 @@
       "hexSource": "derived from the N-number (tools/nnumber.py)",
       "from": "2024-12-21",
       "status": "The maintainer saw it fly FLL-MSP in November 2026. Newest press photo of the paint 2025."
+    },
+    {
+      "registration": "N805SY",
+      "hex": "aaf617",
+      "type": "B738",
+      "livery": "blue-2001",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Sun_Country_Boeing_737-800_N805SY_MD1.jpg",
+          "title": "Sun Country Boeing 737-800 N805SY MD1.jpg (CC BY-SA 4.0)",
+          "accessed": "2026-11-26",
+          "note": "Commons photo, 2026-10-13: in the 2001 blue scheme (light-blue sun forward, 'Sun Country' titles)."
+        },
+        {
+          "url": "https://www.planespotters.net/photo/1971666/n805sy-sun-country-airlines-boeing-737-8q8-wl",
+          "title": "planespotters.net: the newest photo of N805SY (photo 1971666)",
+          "accessed": "2026-11-26",
+          "note": "Evidence only, not measured. The newest photo planespotters' public API returns for the registration; the API gives no date and the photo page refuses automated reads, so it's undated here. in the 2001 blue scheme (light-blue sun forward, 'Sun Country' titles)."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Boeing_737-8Q8,_Sun_Country_Airlines_JP6465713.jpg",
+          "title": "Boeing 737-8Q8, Sun Country Airlines JP6465713.jpg (GFDL 1.2)",
+          "accessed": "2026-11-26",
+          "note": "Commons photo, 2007-11-27: the same scheme in 2007."
+        }
+      ],
+      "hexSource": "derived from the N-number (tools/nnumber.py)",
+      "lastSeen": "2026-10-13",
+      "status": "Newest open photo of the paint 2026-10-13 (Commons); in it in every dated photo since 2007."
+    },
+    {
+      "registration": "N821SY",
+      "hex": "ab3639",
+      "type": "B738",
+      "livery": "blue-2001",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Sun_Country_Airlines_-_Boeing_737-8FH_-_N821SY_(Quintin_Soloviev).jpg",
+          "title": "Sun Country Airlines - Boeing 737-8FH - N821SY (Quintin Soloviev).jpg (CC BY-SA 4.0)",
+          "accessed": "2026-11-26",
+          "note": "Commons photo, 2019-05-27: in the 2001 blue scheme (light-blue sun forward, 'Sun Country' titles)."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:2939912_Sun_Country_aircraft_lands_on_the_flightline_at_Spangdahlem_Air_Base,_Germany,.jpg",
+          "title": "2939912 Sun Country aircraft lands on the flightline at Spangdahlem Air Base, Germany,.jpg (public domain)",
+          "accessed": "2026-11-26",
+          "note": "Commons photo, 2016-10-20: in the 2001 blue scheme (light-blue sun forward, 'Sun Country' titles)."
+        },
+        {
+          "url": "https://www.planespotters.net/photo/1856757/n821sy-sun-country-airlines-boeing-737-8fh-wl",
+          "title": "planespotters.net: the newest photo of N821SY (photo 1856757)",
+          "accessed": "2026-11-26",
+          "note": "Evidence only, not measured. The newest photo planespotters' public API returns for the registration; the API gives no date and the photo page refuses automated reads, so it's undated here. in the 2001 blue scheme (light-blue sun forward, 'Sun Country' titles)."
+        }
+      ],
+      "hexSource": "derived from the N-number (tools/nnumber.py); adsb.lol saw it under this address on 2026-11-26",
+      "status": "Flying 2026-11-26 (adsb.lol live, callsign SCX422). Seen in it by the maintainer while spotting (November 2026), and planespotters' newest photo shows it. Newest open photo of the paint 2019-05-27.",
+      "notes": "The maintainer's sighting is what prompted the scheme.",
+      "lastSeen": "2026-11-26"
+    },
+    {
+      "registration": "N822SY",
+      "hex": "ab39f0",
+      "type": "B738",
+      "livery": "blue-2001",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N822SY_-_Boeing_737-8BK_-_Sun_Country_Airlines_(45458861291).jpg",
+          "title": "N822SY - Boeing 737-8BK - Sun Country Airlines (45458861291).jpg (CC BY 2.0)",
+          "accessed": "2026-11-26",
+          "note": "Commons photo, 2018-10-20: in the 2001 blue scheme (light-blue sun forward, 'Sun Country' titles)."
+        },
+        {
+          "url": "https://www.planespotters.net/photo/1882226/n822sy-sun-country-airlines-boeing-737-8bk-wl",
+          "title": "planespotters.net: the newest photo of N822SY (photo 1882226)",
+          "accessed": "2026-11-26",
+          "note": "Evidence only, not measured. The newest photo planespotters' public API returns for the registration; the API gives no date and the photo page refuses automated reads, so it's undated here. Right side from behind: blue, the light-blue forward field showing by the nose."
+        }
+      ],
+      "hexSource": "derived from the N-number (tools/nnumber.py)",
+      "status": "Newest open photo of the paint 2018-10-20; planespotters' newest (undated) still shows it."
+    },
+    {
+      "registration": "N823SY",
+      "hex": "ab3da7",
+      "type": "B738",
+      "livery": "blue-2001",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://www.planespotters.net/photo/1916250/n823sy-sun-country-airlines-boeing-737-85p-wl",
+          "title": "planespotters.net: the newest photo of N823SY (photo 1916250)",
+          "accessed": "2026-11-26",
+          "note": "Evidence only, not measured. The newest photo planespotters' public API returns for the registration; the API gives no date and the photo page refuses automated reads, so it's undated here. in the 2001 blue scheme (light-blue sun forward, 'Sun Country' titles)."
+        }
+      ],
+      "hexSource": "derived from the N-number (tools/nnumber.py)",
+      "status": "Only planespotters' newest (undated) photo; no open photo found."
+    },
+    {
+      "registration": "N808SY",
+      "hex": "ab013c",
+      "type": "B738",
+      "livery": "blue-2016",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N808sy.jpg",
+          "title": "N808sy.jpg (CC BY-SA 4.0)",
+          "accessed": "2026-11-26",
+          "note": "Commons photo, 2021-03-01: in the simplified 2016 blue scheme ('SUN COUNTRY AIRLINES' titles, no forward sun)."
+        },
+        {
+          "url": "https://www.planespotters.net/photo/1876744/n808sy-sun-country-airlines-boeing-737-8bk-wl",
+          "title": "planespotters.net: the newest photo of N808SY (photo 1876744)",
+          "accessed": "2026-11-26",
+          "note": "Evidence only, not measured. The newest photo planespotters' public API returns for the registration; the API gives no date and the photo page refuses automated reads, so it's undated here. in the simplified 2016 blue scheme ('SUN COUNTRY AIRLINES' titles, no forward sun)."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Sun_Country_Boeing_737-800_N-808SY_taking_off_(26872436821).jpg",
+          "title": "Sun Country Boeing 737-800 N-808SY taking off (26872436821).jpg (CC BY-SA 2.0)",
+          "accessed": "2026-11-26",
+          "note": "Commons photo, 2016-05-09: still in the 2001 scheme then: repainted after."
+        }
+      ],
+      "hexSource": "derived from the N-number (tools/nnumber.py); adsb.lol saw it under this address on 2026-11-26",
+      "status": "Flying 2026-11-26 (adsb.lol live, callsign SCX112). Newest open photo of the paint 2021-03-01; planespotters' newest (undated) still shows it.",
+      "notes": "In the 2001 scheme in May 2016; in the 2016 one by March 2021.",
+      "lastSeen": "2026-11-26"
+    },
+    {
+      "registration": "N816SY",
+      "hex": "ab214d",
+      "type": "B738",
+      "livery": "blue-2016",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://www.planespotters.net/photo/1862400/n816sy-sun-country-airlines-boeing-737-8q8-wl",
+          "title": "planespotters.net: the newest photo of N816SY (photo 1862400)",
+          "accessed": "2026-11-26",
+          "note": "Evidence only, not measured. The newest photo planespotters' public API returns for the registration; the API gives no date and the photo page refuses automated reads, so it's undated here. in the simplified 2016 blue scheme ('SUN COUNTRY AIRLINES' titles, no forward sun)."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Sun_Country_Airlines,_N816SY,_Boeing_737-8Q8_(20156220026).jpg",
+          "title": "Sun Country Airlines, N816SY, Boeing 737-8Q8 (20156220026).jpg (CC BY-SA 2.0)",
+          "accessed": "2026-11-26",
+          "note": "Commons photo, 2015-07-24: in the 2001 scheme then: repainted after."
+        }
+      ],
+      "hexSource": "derived from the N-number (tools/nnumber.py)",
+      "status": "Only planespotters' newest (undated) photo shows the 2016 scheme; the newest open photo (2015-07-24) has the 2001 one."
+    },
+    {
+      "registration": "N824SY",
+      "hex": "ab415e",
+      "type": "B738",
+      "livery": "blue-2016",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://www.planespotters.net/photo/1376745/n824sy-sun-country-airlines-boeing-737-85p-wl",
+          "title": "planespotters.net: the newest photo of N824SY (photo 1376745)",
+          "accessed": "2026-11-26",
+          "note": "Evidence only, not measured. The newest photo planespotters' public API returns for the registration; the API gives no date and the photo page refuses automated reads, so it's undated here. in the simplified 2016 blue scheme ('SUN COUNTRY AIRLINES' titles, no forward sun). Its photo number is much older than the other tails' newest, so it may be years old."
+        }
+      ],
+      "hexSource": "derived from the N-number (tools/nnumber.py)",
+      "status": "Only planespotters' newest (undated, probably older) photo; no open photo found."
+    },
+    {
+      "registration": "N827SY",
+      "hex": "ab4c83",
+      "type": "B738",
+      "livery": "blue-2016",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N827SY_(55089792084).jpg",
+          "title": "N827SY (55089792084).jpg (CC BY-SA 4.0)",
+          "accessed": "2026-11-26",
+          "note": "Commons photo, 2026-02-01: in the simplified 2016 blue scheme ('SUN COUNTRY AIRLINES' titles, no forward sun)."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Sun_Country_Airlines_737-800_N827SY_IND.jpg",
+          "title": "Sun Country Airlines 737-800 N827SY IND.jpg (CC BY-SA 4.0)",
+          "accessed": "2026-11-26",
+          "note": "Commons photo, 2025-10-05: in the simplified 2016 blue scheme ('SUN COUNTRY AIRLINES' titles, no forward sun)."
+        },
+        {
+          "url": "https://www.planespotters.net/photo/1836215/n827sy-sun-country-airlines-boeing-737-8f2-wl",
+          "title": "planespotters.net: the newest photo of N827SY (photo 1836215)",
+          "accessed": "2026-11-26",
+          "note": "Evidence only, not measured. The newest photo planespotters' public API returns for the registration; the API gives no date and the photo page refuses automated reads, so it's undated here. in the simplified 2016 blue scheme ('SUN COUNTRY AIRLINES' titles, no forward sun)."
+        }
+      ],
+      "hexSource": "derived from the N-number (tools/nnumber.py)",
+      "lastSeen": "2026-02-01",
+      "status": "Newest open photo of the paint 2026-02-01; in it in every dated photo since 2019-02-14."
+    },
+    {
+      "registration": "N828SY",
+      "hex": "ab503a",
+      "type": "B738",
+      "livery": "blue-2016",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Boeing_737-8F2(WL)_(N828SY,_msn_34413,_ln_1972)_(4-6-2022).jpg",
+          "title": "Boeing 737-8F2(WL) (N828SY, msn 34413, ln 1972) (4-6-2022).jpg (CC BY-SA 4.0)",
+          "accessed": "2026-11-26",
+          "note": "Commons photo, 2022-04-06: in the simplified 2016 blue scheme ('SUN COUNTRY AIRLINES' titles, no forward sun). (Commons' date field says 2023-04-06, the file name 2022.)"
+        },
+        {
+          "url": "https://www.planespotters.net/photo/1856744/n828sy-sun-country-airlines-boeing-737-8f2-wl",
+          "title": "planespotters.net: the newest photo of N828SY (photo 1856744)",
+          "accessed": "2026-11-26",
+          "note": "Evidence only, not measured. The newest photo planespotters' public API returns for the registration; the API gives no date and the photo page refuses automated reads, so it's undated here. in the simplified 2016 blue scheme ('SUN COUNTRY AIRLINES' titles, no forward sun)."
+        }
+      ],
+      "hexSource": "derived from the N-number (tools/nnumber.py)",
+      "status": "Newest open photo of the paint 2022 or 2023; planespotters' newest (undated) still shows it."
+    },
+    {
+      "registration": "N829SY",
+      "hex": "ab53f1",
+      "type": "B738",
+      "livery": "blue-2016",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N829SY_-_Boeing_737-8F2_-_Sun_Country_Airlines.jpg",
+          "title": "N829SY - Boeing 737-8F2 - Sun Country Airlines.jpg (CC BY 2.0)",
+          "accessed": "2026-11-26",
+          "note": "Commons photo, 2019-06-08: in the simplified 2016 blue scheme ('SUN COUNTRY AIRLINES' titles, no forward sun)."
+        },
+        {
+          "url": "https://www.planespotters.net/photo/1946378/n829sy-sun-country-airlines-boeing-737-8f2-wl",
+          "title": "planespotters.net: the newest photo of N829SY (photo 1946378)",
+          "accessed": "2026-11-26",
+          "note": "Evidence only, not measured. The newest photo planespotters' public API returns for the registration; the API gives no date and the photo page refuses automated reads, so it's undated here. From below: deep blue, 'SUN COUNTRY AIRLINES' titles."
+        }
+      ],
+      "hexSource": "derived from the N-number (tools/nnumber.py)",
+      "status": "Newest open photo of the paint 2019-06-08; planespotters' newest (undated) still shows it."
     }
   ]
 }

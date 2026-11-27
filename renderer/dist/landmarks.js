@@ -3,6 +3,7 @@
 // by the window band, so paint follows the features it was placed by when a body's proportions differ.
 import { clearOfTheWing, clearOnTheFin, offThePaint, onTheirAreas, spaced } from './fit-labels.js';
 import { clamp, deckAt, fromHeight, fuselageRadiusAt, toHeight } from './geometry.js';
+import { areaPolygon } from './svg.js';
 function piecewise(knots, slope = 1) {
     return (v) => {
         const first = knots[0];
@@ -250,7 +251,8 @@ function labelSpan(from, to, [fromAlong, toAlong], [y0, y1]) {
  * the type it was measured on (`from`) to `to`. Lettering and logos are placed by their middles, sized with the
  * body and kept clear of the windows where they were; each title keeps its proportions in meters, its length on `to`
  * following its height there. Fin, wings, engines and winglets are in
- * their own parts' spaces and stay as they are.
+ * their own parts' spaces and stay as they are, except the fin's areas from a type whose fin stands on the body onto
+ * one with a tail engine (`finToTheCrown`).
  */
 export function fitScheme(scheme, from, to) {
     if (from === to)
@@ -315,9 +317,11 @@ export function fitScheme(scheme, from, to) {
             ? { radome: { ...scheme.fuselage.radome, to: X(scheme.fuselage.radome.to) } }
             : {}),
     };
+    const fin = finToTheCrown(scheme.fin, from, to);
     return {
         ...scheme,
         ...(fuselage ? { fuselage } : {}),
+        ...(fin ? { fin } : {}),
         ...(scheme.logos
             ? { logos: scheme.logos.map(logo).map((l) => (l.place === 'fin' ? clearOnTheFin(l, from, to) : l)) }
             : {}),
@@ -327,6 +331,56 @@ export function fitScheme(scheme, from, to) {
             }
             : {}),
     };
+}
+/**
+ * Fin areas fitted by `finToTheCrown`: a tail engine's fairing or nacelle draws them as they are, their foot already
+ * carried down (side.ts), where it carries an area measured on a trijet down from the fin's root.
+ */
+export const carriedToTheCrown = new WeakSet();
+/**
+ * The fin's areas from a type whose fin stands on the body (a twin's: its root on the crown) onto one whose fin
+ * stands on a center engine or its S-duct's fairing (the 727's, the DC-10's, the L-1011's). There the fin's root is
+ * well up the tail seen from the side, so the twin's fin, root to tip, is laid over the trijet's from the crown under
+ * its fin (`finFoot`) to the tip, stretched up the fin's space: a design covering the twin's fin covers the trijet's
+ * whole tail, its fairing or nacelle too. Where an area reached the twin's root it runs on down (to y −2, as the
+ * schemes measured on trijets write it), straight down the fin's space from where its edges met the root. Each area
+ * is taken as drawn on the twin (its curve, or its line's paint down to the root) and given as points. Undefined
+ * where nothing changes: between two twins, two trijets, or from a trijet to a twin.
+ */
+function finToTheCrown(fin, from, to) {
+    const foot = to.measured?.finFoot;
+    if (!fin?.areas || from.measured?.tailEngines?.length || foot === undefined || foot >= 0)
+        return undefined;
+    const up = (y) => 1 - (1 - y) * (1 - foot);
+    const areas = fin.areas.map((a) => {
+        // As side.ts draws the fin's areas: a line's paint down to y −0.2, sharp at the root and the tip.
+        const drawn = areaPolygon(a, -0.2, 1.1, [0, 1]);
+        const points = [];
+        drawn.forEach(([x, y], i) => {
+            if (y > 0)
+                points.push([x, up(y)]);
+            else
+                points.push([x, -2]);
+            const [nx, ny] = drawn[(i + 1) % drawn.length] ?? [x, y];
+            if (y > 0 === ny > 0)
+                return;
+            // The edge crosses the twin's root: on there to the crown, then straight down.
+            const t = y / (y - ny);
+            const xc = x + (nx - x) * t;
+            const crossing = [
+                [xc, foot],
+                [xc, -2],
+            ];
+            points.push(...(y > 0 ? crossing : crossing.reverse()));
+        });
+        const fitted = { ...a, points };
+        delete fitted.below;
+        delete fitted.above;
+        delete fitted.smooth;
+        carriedToTheCrown.add(fitted);
+        return fitted;
+    });
+    return { ...fin, areas };
 }
 /** Longer edges than this (in fuselage x) are divided before they're fitted. */
 const EDGE_STEP = 0.02;

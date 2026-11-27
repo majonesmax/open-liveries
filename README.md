@@ -65,35 +65,35 @@ goes. Then it draws the plane.
 <!-- stats:start -->
 *Counted by `tools/stats.py` on 2026-11-26.*
 
-- **373 schemes** from **194 airlines**: 266 standard, 79 special, 23 retro, 5 alliance.
-- **321 drawn** with colored areas you can reproduce. The other 52 are described in words only so far. 349 have their titles set out, 317 their logos placed.
-- **194 airlines' everyday schemes** (266 with freighter and older variants), plus **93 operators** that fly in another airline's paint (regionals in their mainline's).
-- **1468 airframes tagged** (registration, usually its ICAO address, and the scheme it wears): 1458 current and 10 past. 191 have their own tail art.
-- **89 leads**: special schemes seen on public lists, not yet researched.
+- **381 schemes** from **196 airlines**: 272 standard, 80 special, 24 retro, 5 alliance.
+- **328 drawn** with colored areas you can reproduce. The other 53 are described in words only so far. 357 have their titles set out, 325 their logos placed.
+- **196 airlines' everyday schemes** (272 with freighter and older variants), plus **93 operators** that fly in another airline's paint (regionals in their mainline's).
+- **1488 airframes tagged** (registration, usually its ICAO address, and the scheme it wears): 1478 current and 10 past. 191 have their own tail art.
+- **86 leads**: special schemes seen on public lists, not yet researched.
 
 | Scheme confidence | Schemes |
 |---|--:|
-| medium | 261 |
+| medium | 268 |
 | high | 83 |
-| low | 29 |
+| low | 30 |
 
 | Airframe confidence | Airframes |
 |---|--:|
-| medium | 732 |
-| high | 394 |
-| low | 342 |
+| medium | 739 |
+| high | 402 |
+| low | 347 |
 
 Evidence behind each airframe's tag, by its first source (most have more than one):
 
 | Evidence | Airframes |
 |---|--:|
-| dated photo (Wikimedia Commons) | 582 |
+| dated photo (Wikimedia Commons) | 599 |
 | aircraft database (adsbdb) | 250 |
 | where it flies (adsb.lol flight history) | 238 |
 | the airline or its press release | 161 |
 | Wikipedia | 76 |
 | FAA aircraft registry | 63 |
-| aviation press and other | 59 |
+| aviation press and other | 62 |
 | spotter fleet list (names only) | 31 |
 | aircraft database (hexdb) | 8 |
 
@@ -101,10 +101,11 @@ Sources cited by the schemes:
 
 | Source | Citations |
 |---|--:|
-| dated photo (Wikimedia Commons) | 1705 |
-| aviation press and other | 221 |
-| Wikipedia | 161 |
+| dated photo (Wikimedia Commons) | 1750 |
+| aviation press and other | 226 |
+| Wikipedia | 163 |
 | the airline or its press release | 57 |
+| aircraft database (hexdb) | 1 |
 
 | Most airframes tagged (airline) | Airframes |
 |---|--:|

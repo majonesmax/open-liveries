@@ -160,6 +160,10 @@
       "name": "airBaltic",
       "country": "LV"
     },
+    "BWA": {
+      "name": "Caribbean Airlines",
+      "country": "TT"
+    },
     "CAL": {
       "name": "China Airlines",
       "country": "TW"
@@ -268,6 +272,10 @@
     "DLH": {
       "name": "Lufthansa",
       "country": "DE"
+    },
+    "DWI": {
+      "name": "Arajet",
+      "country": "DO"
     },
     "EA1926": {
       "name": "Eastern Air Lines",

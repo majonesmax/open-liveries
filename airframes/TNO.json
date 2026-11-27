@@ -6,17 +6,44 @@
       "registration": "N337QT",
       "hex": "a3b140",
       "type": "A333",
-      "livery": "AVA/standard",
-      "confidence": "medium",
+      "livery": "TPA/red-2013",
+      "confidence": "high",
       "lastSeen": "2026-08-04",
       "sources": [
         {
           "url": "https://commons.wikimedia.org/wiki/File:N337QT.jpg",
           "title": "N337QT.jpg (CC BY-SA 4.0, Liam Thompson)",
-          "accessed": "2026-11-20",
-          "note": "A330-300P2F N337QT on approach to LAX, 2026-08-04, in Avianca's red scheme with 'avianca cargo' and a small 'Mexico' under it (Avianca Cargo México, the former AeroUnion), not the green Avianca Cargo scheme its sister N338QT wears. Tagged to Avianca's passenger scheme, the nearest drawn: it lacks the 'cargo' title and draws windows."
+          "accessed": "2026-11-26",
+          "note": "A330-300P2F N337QT on approach to LAX, 2026-08-04, in Avianca Cargo's red with the lowercase 'avianca cargo' and a small 'Mexico' under it, no swoosh: the A333 paint of TPA/red-2013 was measured on this photo."
         }
-      ]
+      ],
+      "hexSource": "derived from the N-number (tools/nnumber.py)",
+      "notes": "The small 'Mexico' under 'avianca' and the Mexican flag ahead of the registration are left out.",
+      "status": "red, still, on 2026-08-04 while its sister N338QT is green."
+    },
+    {
+      "registration": "N338QT",
+      "hex": "a3b4f7",
+      "type": "A333",
+      "livery": "TPA/standard",
+      "confidence": "high",
+      "lastSeen": "2026-03-07",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N338QT_(55164039452).jpg",
+          "title": "N338QT (55164039452).jpg (CC BY-SA 4.0, Liam Thompson)",
+          "accessed": "2026-11-26",
+          "note": "Taxiing at LAX, 2026-03-07, in the green scheme (the photo it was measured on)."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Airbus_A330-343P2F_-_N338QT_-_Avianca_Cargo_Mexico.jpg",
+          "title": "Airbus A330-343P2F - N338QT - Avianca Cargo Mexico.jpg (GFDL 1.2, Oscar Josué Elvir Vasquez)",
+          "accessed": "2026-11-26",
+          "note": "Green by 2025-10-16."
+        }
+      ],
+      "hexSource": "derived from the N-number (tools/nnumber.py)",
+      "status": "green since at least 2025-10-16; latest open photo 2026-03-07."
     }
   ]
 }

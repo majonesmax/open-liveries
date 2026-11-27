@@ -1,0 +1,1121 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "vc-25a",
+  "airline": "SAM",
+  "name": "Air Force One (VC-25A)",
+  "kind": "standard",
+  "from": "1990",
+  "confidence": "medium",
+  "drawnOn": "B742",
+  "description": "The two VC-25As' scheme, Raymond Loewy's 1962 design for Kennedy's VC-137C as carried onto the 747: a blue cap over the nose and flight deck whose aft edge curves back over the upper deck and runs into a blue band over the main deck's windows, the band straight back to the tail cone; under it a gold pinstripe and a narrow white band; below that the nose is pale blue back to just ahead of the wing, then polished metal to the tail with the wing-to-body fairing light grey. The upper fuselage white, with 'UNITED STATES OF AMERICA' in near-black serif capitals from the cap's end to over the wing. The presidential seal on the pale blue beside the forward door; the Air Force's star-and-bar ahead of the fin. On the fin a blue leading-edge band widening down to the root, a white panel with a rounded lower forward corner, the U.S. flag high on it and the aircraft's number under it. Pale blue nacelles, grey wings and tailplane.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Boeing_787-10_rollout_with_President_Trump_(33150979675)_crop.jpg",
+      "title": "VC-25A 82-8000 in flight over North Charleston, 2017-02-17, right side (North Charleston, cropped by Beyond My Ken, CC BY-SA 2.0)",
+      "accessed": "2026-11-26",
+      "note": "The measuring photo (only measurements are taken): telephoto and nearly side-on, flipped nose-left and fitted to shapes/B742.json (tools/photo_trace.py: nose, tail cone, fin tip, crown and belly, within 3 px). The band's top 0.58 m above the centerline, the gold pinstripe's top 0.42 m below it and its foot 0.56 m below, the white band's foot 0.90 m below, all level from the nose back; the cap's aft edge from the crown at 9.5-10.2 m, farthest forward (9.24 m) 2.9 m up and sweeping back into the band's top by 13.4 m; the pale blue's end at 11.6-12.3 m; the fairing's aft edge 36.9-40.8 m; 'UNITED STATES OF AMERICA' from 14.9 to 39.5 m back, caps 0.70 m; the seal 8.7 m back, 1.2 m across; the star-and-bar 53.2 m back; the fin's white panel, flag and number."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Air_Force_One_Fort_Benning,_Georgia_2019.jpg",
+      "title": "VC-25A 92-9000 at Fort Benning, 2019-03-07, left side (Patrick Albright, Fort Benning Public Affairs, U.S. Army, public domain)",
+      "accessed": "2026-11-26",
+      "note": "The left side close and in even light, the check for the measuring photo: the same cap, band, gold pinstripe, white band and pale blue; the seal aft of the forward door; the strip of polished metal between the pale blue and the fairing, slanted; the fin's blue leading-edge band; '29000' under the flag; the star-and-bar by the fin's root. The colours sampled here."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Boeing_747-2G4B_VC-25A_(USAF_sn_92-9000,_msn_23825,_ln_685)_(2-16-2025).jpg",
+      "title": "VC-25A 92-9000 at Tampa, 2025-02-16, left side (ZLEA, CC BY-SA 4.0)",
+      "accessed": "2026-11-26",
+      "note": "A check in sunlight, the newest side-on photo: unchanged in 2025; the fin's white panel with its rounded lower forward corner and its foot sloping to the trailing edge just above the root."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Air_Force_One_-_Boeing_VC-25A_92-9000_(SAM29000).jpg",
+      "title": "VC-25A 92-9000 climbing out, 2025-06-25, left side from below (Mees Jansen, CC0)",
+      "accessed": "2026-11-26",
+      "note": "From below: the polished metal belly from the pale blue back to the tail's sweep, the grey fairing between the wings, the white tail cone, the pale blue nacelles with bare lips and exhausts, 'USAF' under the wing (not drawn)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:P20210613CS-0906_(51361788893).jpg",
+      "title": "VC-25A 82-8000 at RAF Mildenhall, 2021-06-13, left side (The White House, public domain)",
+      "accessed": "2026-11-26",
+      "note": "A check, close: 82-8000 the same as 92-9000 on the left; the polished strip, the grey fairing and pylons, '28000' on the fin."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:AFOne_2154.jpg",
+      "title": "VC-25A 92-9000, 2023-06-17, left side (Nolabob, CC BY-SA 4.0)",
+      "accessed": "2026-11-26",
+      "note": "A check, nearly level: the pale blue's aft edge and the fairing's front edge both slant forward toward the belly, a strip of polished metal between them."
+    },
+    {
+      "url": "https://hexdb.io/api/v1/aircraft/adfdf8",
+      "title": "hexdb.io: ADFDF8 and ADFDF9 (community database)",
+      "accessed": "2026-11-26",
+      "note": "The two VC-25As' ICAO addresses and type code (B742): adfdf8 is 82-8000, adfdf9 is 92-9000."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F4"
+    },
+    "blue": {
+      "hex": "#2B8BCB",
+      "official": false,
+      "name": "the cap's and band's blue (sampled from the photos: #3282C3 in sun to #45ACD9 overcast)"
+    },
+    "cyan": {
+      "hex": "#A3CFD3",
+      "official": false,
+      "name": "the lower nose's and nacelles' pale blue (#91BFCD in sun to #93C8CB overcast)"
+    },
+    "gold": {
+      "hex": "#B8975E",
+      "official": false,
+      "name": "the pinstripe's gold (#B09152 overcast)"
+    },
+    "metal": {
+      "hex": "#A0A6AD",
+      "official": false,
+      "name": "the lower fuselage's polished metal (a mirror: it shows the ground and sky; drawn as a mid silver)"
+    },
+    "fairing": {
+      "hex": "#C5CBCD",
+      "official": false,
+      "name": "the wing-to-body fairing's and pylons' light grey"
+    },
+    "letter": {
+      "hex": "#1A1E26",
+      "name": "the lettering's near-black"
+    },
+    "wingGray": {
+      "hex": "#B9BEC3",
+      "official": false,
+      "name": "the wings' and tailplane's gray"
+    },
+    "lip": {
+      "hex": "#C7CACE",
+      "official": false,
+      "name": "the engine inlets' bare metal lip"
+    },
+    "flagRed": {
+      "hex": "#B22234"
+    },
+    "flagWhite": {
+      "hex": "#FFFFFF"
+    },
+    "flagBlue": {
+      "hex": "#3C3B6E"
+    },
+    "sealGold": {
+      "hex": "#C9A44C",
+      "official": false,
+      "name": "the seal's gold rim"
+    },
+    "sealNavy": {
+      "hex": "#1C2A4A",
+      "official": false,
+      "name": "the seal's dark blue ring"
+    },
+    "insigniaBlue": {
+      "hex": "#1B3A73",
+      "official": false,
+      "name": "the star-and-bar's blue"
+    },
+    "insigniaRed": {
+      "hex": "#B22234",
+      "official": false,
+      "name": "the star-and-bar's red stripe"
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "windows": "plain",
+    "areas": [
+      {
+        "name": "the pale blue lower nose under the white band, from the nose back to a slanted edge ahead of the wing",
+        "color": "cyan",
+        "points": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            5e-05,
+            -1.0
+          ],
+          [
+            0.00416,
+            -1.0
+          ],
+          [
+            0.00657,
+            -0.58435
+          ],
+          [
+            0.00927,
+            -0.46553
+          ],
+          [
+            0.01341,
+            -0.37778
+          ],
+          [
+            0.02031,
+            -0.29797
+          ],
+          [
+            0.02951,
+            -0.24537
+          ],
+          [
+            0.03864,
+            -0.22305
+          ],
+          [
+            0.0519,
+            -0.20633
+          ],
+          [
+            0.06022,
+            -0.20761
+          ],
+          [
+            0.07902,
+            -0.23721
+          ],
+          [
+            0.083,
+            -0.2345
+          ],
+          [
+            0.10217,
+            -0.20499
+          ],
+          [
+            0.13242,
+            -0.17535
+          ],
+          [
+            0.14591,
+            -0.16616
+          ],
+          [
+            0.17922,
+            -0.1533
+          ],
+          [
+            0.16902,
+            -1.0
+          ],
+          [
+            0.0,
+            -1.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "name": "the polished metal lower fuselage under the white band, from the pale blue's edge back until the belly's sweep up to the tail meets the band",
+        "color": "metal",
+        "points": [
+          [
+            0.17922,
+            -0.1533
+          ],
+          [
+            0.21231,
+            -0.14534
+          ],
+          [
+            0.25361,
+            -0.14592
+          ],
+          [
+            0.57284,
+            -0.16889
+          ],
+          [
+            0.57918,
+            -0.17293
+          ],
+          [
+            0.64618,
+            -0.17331
+          ],
+          [
+            0.66032,
+            -0.17944
+          ],
+          [
+            0.68397,
+            -0.19858
+          ],
+          [
+            0.69014,
+            -0.20759
+          ],
+          [
+            0.71617,
+            -0.26269
+          ],
+          [
+            0.73707,
+            -0.31393
+          ],
+          [
+            0.76698,
+            -0.40267
+          ],
+          [
+            0.80287,
+            -0.55449
+          ],
+          [
+            0.82108,
+            -0.66363
+          ],
+          [
+            0.84336,
+            -1.0
+          ],
+          [
+            0.16902,
+            -1.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1,
+          3
+        ]
+      },
+      {
+        "name": "the light grey wing-to-body fairing over the metal, its front edge slanting forward toward the belly ahead of the wing, its back edge aft toward the belly behind it",
+        "color": "fairing",
+        "points": [
+          [
+            0.21565,
+            -0.14524
+          ],
+          [
+            0.25361,
+            -0.14592
+          ],
+          [
+            0.53767,
+            -0.16615
+          ],
+          [
+            0.55559,
+            -0.26748
+          ],
+          [
+            0.57118,
+            -0.43824
+          ],
+          [
+            0.59449,
+            -1.0
+          ],
+          [
+            0.19234,
+            -1.0
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          0,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "the gold pinstripe under the blue band, level from the nose back until the belly's sweep meets it",
+        "color": "gold",
+        "points": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            5e-05,
+            -1.0
+          ],
+          [
+            0.00023,
+            -0.35905
+          ],
+          [
+            0.00074,
+            -0.18215
+          ],
+          [
+            0.00287,
+            -0.0984
+          ],
+          [
+            0.01206,
+            -0.06055
+          ],
+          [
+            0.03294,
+            -0.05386
+          ],
+          [
+            0.05688,
+            -0.0769
+          ],
+          [
+            0.06283,
+            -0.09093
+          ],
+          [
+            0.07758,
+            -0.13473
+          ],
+          [
+            0.08147,
+            -0.13781
+          ],
+          [
+            0.10217,
+            -0.11102
+          ],
+          [
+            0.13242,
+            -0.08547
+          ],
+          [
+            0.16526,
+            -0.07022
+          ],
+          [
+            0.21231,
+            -0.0594
+          ],
+          [
+            0.25361,
+            -0.05991
+          ],
+          [
+            0.57284,
+            -0.07995
+          ],
+          [
+            0.57918,
+            -0.08343
+          ],
+          [
+            0.64618,
+            -0.08367
+          ],
+          [
+            0.67487,
+            -0.09777
+          ],
+          [
+            0.69014,
+            -0.11315
+          ],
+          [
+            0.71617,
+            -0.15997
+          ],
+          [
+            0.73707,
+            -0.20273
+          ],
+          [
+            0.76698,
+            -0.27453
+          ],
+          [
+            0.80287,
+            -0.39157
+          ],
+          [
+            0.83965,
+            -0.55277
+          ],
+          [
+            0.85422,
+            -0.64881
+          ],
+          [
+            0.87571,
+            -1.0
+          ],
+          [
+            0.86624,
+            -1.0
+          ],
+          [
+            0.83965,
+            -0.61796
+          ],
+          [
+            0.82108,
+            -0.51451
+          ],
+          [
+            0.80287,
+            -0.4354
+          ],
+          [
+            0.76698,
+            -0.31041
+          ],
+          [
+            0.73707,
+            -0.23434
+          ],
+          [
+            0.71617,
+            -0.18937
+          ],
+          [
+            0.69014,
+            -0.14034
+          ],
+          [
+            0.67487,
+            -0.12428
+          ],
+          [
+            0.64618,
+            -0.10956
+          ],
+          [
+            0.57918,
+            -0.10928
+          ],
+          [
+            0.57284,
+            -0.10565
+          ],
+          [
+            0.25361,
+            -0.08481
+          ],
+          [
+            0.21231,
+            -0.08429
+          ],
+          [
+            0.16526,
+            -0.09554
+          ],
+          [
+            0.13242,
+            -0.11143
+          ],
+          [
+            0.10217,
+            -0.13808
+          ],
+          [
+            0.08147,
+            -0.16616
+          ],
+          [
+            0.07758,
+            -0.16385
+          ],
+          [
+            0.06283,
+            -0.1254
+          ],
+          [
+            0.0519,
+            -0.10877
+          ],
+          [
+            0.02951,
+            -0.10663
+          ],
+          [
+            0.0196,
+            -0.12556
+          ],
+          [
+            0.00927,
+            -0.17224
+          ],
+          [
+            0.00523,
+            -0.22903
+          ],
+          [
+            0.00323,
+            -0.28911
+          ],
+          [
+            0.00194,
+            -0.38565
+          ],
+          [
+            0.00131,
+            -0.49525
+          ],
+          [
+            0.00067,
+            -1.0
+          ],
+          [
+            5e-05,
+            -1.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1,
+          3
+        ]
+      },
+      {
+        "name": "the blue: the cap over the nose and flight deck back to a curve over the upper deck, running into the band over the main deck's windows; the band level back to the fin and rising to the tail cone's end",
+        "color": "blue",
+        "points": [
+          [
+            0.0,
+            1.0
+          ],
+          [
+            0.13842,
+            1.0
+          ],
+          [
+            0.13463,
+            0.61089
+          ],
+          [
+            0.13595,
+            0.46246
+          ],
+          [
+            0.13973,
+            0.34129
+          ],
+          [
+            0.14469,
+            0.26312
+          ],
+          [
+            0.15285,
+            0.19174
+          ],
+          [
+            0.16086,
+            0.1508
+          ],
+          [
+            0.16815,
+            0.13231
+          ],
+          [
+            0.17864,
+            0.11987
+          ],
+          [
+            0.19525,
+            0.11606
+          ],
+          [
+            0.25361,
+            0.11756
+          ],
+          [
+            0.57284,
+            0.10233
+          ],
+          [
+            0.57918,
+            0.09974
+          ],
+          [
+            0.64618,
+            0.09979
+          ],
+          [
+            0.67487,
+            0.08936
+          ],
+          [
+            0.69014,
+            0.078
+          ],
+          [
+            0.73707,
+            0.01327
+          ],
+          [
+            0.76698,
+            -0.03642
+          ],
+          [
+            0.77259,
+            -0.04833
+          ],
+          [
+            0.7796,
+            -0.06961
+          ],
+          [
+            0.82108,
+            -0.16195
+          ],
+          [
+            0.84511,
+            -0.22327
+          ],
+          [
+            0.9034,
+            -0.38933
+          ],
+          [
+            0.93691,
+            -0.52758
+          ],
+          [
+            0.96751,
+            -0.59545
+          ],
+          [
+            0.98499,
+            -0.5505
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            0.87571,
+            -1.0
+          ],
+          [
+            0.85422,
+            -0.64881
+          ],
+          [
+            0.83965,
+            -0.55277
+          ],
+          [
+            0.80287,
+            -0.39157
+          ],
+          [
+            0.76698,
+            -0.27453
+          ],
+          [
+            0.73707,
+            -0.20273
+          ],
+          [
+            0.71617,
+            -0.15997
+          ],
+          [
+            0.69014,
+            -0.11315
+          ],
+          [
+            0.67487,
+            -0.09777
+          ],
+          [
+            0.64618,
+            -0.08367
+          ],
+          [
+            0.57918,
+            -0.08343
+          ],
+          [
+            0.57284,
+            -0.07995
+          ],
+          [
+            0.25361,
+            -0.05991
+          ],
+          [
+            0.21231,
+            -0.0594
+          ],
+          [
+            0.16526,
+            -0.07022
+          ],
+          [
+            0.13242,
+            -0.08547
+          ],
+          [
+            0.10217,
+            -0.11102
+          ],
+          [
+            0.08147,
+            -0.13781
+          ],
+          [
+            0.07758,
+            -0.13473
+          ],
+          [
+            0.06283,
+            -0.09093
+          ],
+          [
+            0.05688,
+            -0.0769
+          ],
+          [
+            0.03294,
+            -0.05386
+          ],
+          [
+            0.01206,
+            -0.06055
+          ],
+          [
+            0.00287,
+            -0.0984
+          ],
+          [
+            0.00074,
+            -0.18215
+          ],
+          [
+            0.00023,
+            -0.35905
+          ],
+          [
+            5e-05,
+            -1.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1,
+          3
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "blue",
+    "rudder": "white",
+    "fillet": "blue",
+    "areas": [
+      {
+        "name": "the white panel aft of the blue leading-edge band: its forward edge straight from the tip down to a rounded corner low on the fin, its foot sloping down to the trailing edge just above the root; the rudder with it",
+        "color": "white",
+        "points": [
+          [
+            0.02,
+            1.05
+          ],
+          [
+            0.0511,
+            0.9688
+          ],
+          [
+            0.0742,
+            0.9134
+          ],
+          [
+            0.0922,
+            0.858
+          ],
+          [
+            0.1074,
+            0.8025
+          ],
+          [
+            0.1205,
+            0.7471
+          ],
+          [
+            0.1378,
+            0.692
+          ],
+          [
+            0.1473,
+            0.6365
+          ],
+          [
+            0.1553,
+            0.5811
+          ],
+          [
+            0.1622,
+            0.5257
+          ],
+          [
+            0.1687,
+            0.4702
+          ],
+          [
+            0.1744,
+            0.4148
+          ],
+          [
+            0.1795,
+            0.3594
+          ],
+          [
+            0.1882,
+            0.3042
+          ],
+          [
+            0.1883,
+            0.2485
+          ],
+          [
+            0.2013,
+            0.1937
+          ],
+          [
+            0.2446,
+            0.1414
+          ],
+          [
+            0.2654,
+            0.1244
+          ],
+          [
+            0.2888,
+            0.1078
+          ],
+          [
+            0.3213,
+            0.092
+          ],
+          [
+            0.3541,
+            0.0799
+          ],
+          [
+            0.4784,
+            0.0644
+          ],
+          [
+            0.5978,
+            0.0523
+          ],
+          [
+            0.7171,
+            0.0368
+          ],
+          [
+            0.8331,
+            0.0247
+          ],
+          [
+            0.95,
+            0.0126
+          ],
+          [
+            1.05,
+            0.0
+          ],
+          [
+            1.05,
+            1.05
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "stabilizer": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "engines": {
+    "cowling": "cyan",
+    "inletLip": "lip",
+    "pylon": "fairing",
+    "confidence": "medium",
+    "sourceRefs": [
+      1,
+      3,
+      4
+    ]
+  },
+  "logos": [
+    {
+      "mark": "SAM/us-flag",
+      "place": "fin",
+      "at": [
+        0.514,
+        0.487
+      ],
+      "height": 0.18,
+      "colors": [
+        "flagRed",
+        "flagWhite",
+        "flagBlue"
+      ],
+      "description": "The U.S. flag high on the fin's white panel, the canton forward on both sides.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "mark": "SAM/presidential-seal",
+      "place": "fuselage",
+      "at": [
+        0.1272,
+        -0.341
+      ],
+      "height": 0.21,
+      "colors": [
+        "sealGold",
+        "sealNavy",
+        "flagWhite",
+        "flagRed",
+        "flagBlue"
+      ],
+      "description": "The Seal of the President of the United States on the pale blue lower nose beside the forward door, on both sides, about 1.2 m across: a gold rim round a dark blue ring lettered 'SEAL OF THE PRESIDENT OF THE UNITED STATES', the eagle with its shield, arrows and olive branch inside a ring of stars.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Seal_of_the_President_of_the_United_States.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "SAM/star-and-bar",
+      "place": "fuselage",
+      "at": [
+        0.7757,
+        0.246
+      ],
+      "height": 0.17,
+      "colors": [
+        "insigniaBlue",
+        "flagWhite",
+        "insigniaRed"
+      ],
+      "description": "The national insignia in full color on the white above the band, a little ahead of the fin: a white star on a blue disc, white bars with a red stripe, outlined in blue.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "UNITED STATES OF AMERICA",
+      "place": "fuselage",
+      "at": [
+        0.2177,
+        0.205
+      ],
+      "height": 0.141,
+      "length": 0.358,
+      "color": "letter",
+      "style": "Near-black serif capitals, widely spaced, on the white above the band from where the cap's curve meets it to over the wing: the lettering of the Declaration of Independence, Loewy's choice.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Adobe Caslon Pro",
+          "Big Caslon",
+          "Libre Caslon Text",
+          "Times New Roman"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "contrast",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "28000",
+      "registration": true,
+      "place": "fin",
+      "at": [
+        0.374,
+        0.192
+      ],
+      "height": 0.052,
+      "length": 0.181,
+      "color": "letter",
+      "style": "The aircraft's own number (28000 for 82-8000, 29000 for 92-9000: the last digit of the fiscal year and the serial) in black capitals on the fin's white panel under the flag, a little forward of it.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue",
+          "Arial"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Drawn on shapes/B742.json: the VC-25A is a 747-200B (747-2G4B) airframe. Measured on a telephoto photo of 82-8000's right side (flipped, fitted to the shape within 3 px by tools/photo_trace.py) and checked against side-on photos of both jets' left sides, 2017-2025: the two are painted alike. Every line along the body is level on the aircraft (written as constant heights in meters with tools/edge_straightness.py's straight_edge): the band's top 0.58 m above the centerline (0.25 m over the windows' tops), the gold pinstripe 0.42-0.56 m below it (its top 0.16 m under the windows), the white band's foot 0.90 m below; the belly's sweep up to the tail cuts the white band at 57.9 m and the pinstripe at 59.5-60.1 m, and the band's top rises over the last 10 m to end at the tail cone's tip (read off the measuring photo between 58 and 68 m, partly behind the tailplane: medium-low). The cap's aft edge is a curve from the crown at 9.5 m, farthest forward (9.24 m) 2.9 m up, sweeping back into the band's top by 13.4 m (the upper deck's paint is the crown's carried up, so on the hump the edge stands straight at 9.5 m where the jet's curves back from 9.2 m at the main crown's height to about 10.2 m on top). No radome color: the gold pinstripe, the white band and the pale blue run to the nose's tip, the blue over them. The pale blue ends at a slanted edge 12.3 m back at the white band and 11.6 m at the belly; the light grey fairing starts 14.8 m back at the white band and 13.2 m at the belly (from the left side's photos: the right side's measuring photo shows a wider strip of metal there, behind the engines: low) and ends 36.9-40.8 m back. The polished metal is drawn as a flat silver (`metal`): on the jets it's a mirror. 'UNITED STATES OF AMERICA' from 14.9 to 39.5 m back, its caps 0.70 m, its baseline 1.1 m above the centerline. The fin: the blue leading-edge band's aft edge straight from 0.05 of the chord at the tip to 0.20 low down, a rounded corner, the panel's foot from 0.08 up at 0.35 of the chord to the trailing edge just above the root; the flag centered at 0.51 of the chord, 0.49 up, 0.18 of the fin's height; the number under it. The number is a `registration` title as on the C-32s (28000 measured). How this differs from the C-32A and C-40 (`standard`): those are white over a light blue lower fuselage split by a gold pinstripe, the blue only up to the cockpit windows, no seal and no national insignia; the VC-25A has a blue cap over the whole flight deck and a blue band through the windows, the gold pinstripe and a white band under the band, pale blue only on the lower nose, polished metal under the rest, the seal and the star-and-bar. Differences from the shape (left as they are): the VC-25A's windows are fewer and grouped (six ahead of the forward door, then short runs) where the shape has the airliner's full rows; its upper deck has two small windows on the right behind the flight deck and none showing on the left, where the shape has three a side; its refuelling receptacle fairing over the upper deck and its antenna fairings along the crown aren't in the shape; its built-in forward airstair door under the left forward door isn't either. Not drawn: 'USAF' under the wing, the small stencils, the antennas' greys. The VC-25B (747-8) isn't flying yet."
+}

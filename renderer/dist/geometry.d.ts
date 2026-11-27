@@ -166,6 +166,11 @@ export interface MeasuredDetail {
     };
     /** Engines on the tail's centerline (the MD-11's, the 727's): see TailEngine. */
     tailEngines?: TailEngine[];
+    /**
+     * With a tail engine: the crown under the fin, in the fin's space (y below 0). The fin's root (its leading edge's
+     * foot) is on the engine or its S-duct's fairing, so the tail seen from the side runs on down to here.
+     */
+    finFoot?: number;
 }
 /**
  * An engine on the tail's centerline, in pixels (the side view's left side, the below view's): drawn over the fuselage

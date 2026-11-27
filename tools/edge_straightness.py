@@ -61,6 +61,7 @@ GHOSTFLIGHTS: dict[str, list[str]] = {
 # Schemes whose edges bend by design inside the section, seen in their photos: listed apart, not ranked.
 DELIBERATE: dict[str, str] = {
     "OC1967/stripes-1981": "the bands step up behind the wing in one S (AirCal's 1981 stripes)",
+    "DWI/dominican-flag": "a ribbon waving the body's length, looping down to the belly twice (Arajet's flag jet)",
 }
 
 

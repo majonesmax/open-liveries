@@ -137,7 +137,7 @@ full height as 2, as on the sides. Areas painted on the belly are ordinary fusel
 Bottom to top: the part's base color, the rudder color, areas in the order listed (later over earlier), the radome and
 the paint around the glass (a cockpit mask, a dark window band), titles, logos, then the windows and cockpit windows
 themselves. Glass is never painted. A title across the window line shows the windows through its letters, as on the
-aircraft. A logo can repeat a shape the areas already paint (Delta's widget). A renderer with the artwork draws it over
+aircraft. A logo can repeat a shape the areas already paint. A renderer with the artwork draws it over
 them. One without lets the areas stand.
 
 ## Finish
@@ -261,8 +261,17 @@ shape for the scheme's `drawnOn` (`renderer/src/landmarks.ts`).
   727's fin under its T-tail is half an A320's height. One running off an edge on purpose (United's globe) is left as it
   is. The tailplane drawn across the fin from the side (a T-tail's, over its top) counts as an edge too. Spirit's name
   was clear of a 717's fin edges but came within 7 cm of its tailplane.
-- **Not fitted:** the fin's areas, wings, tailplane, winglets and engines (their spaces are their own parts'), the
-  belly's
+- **A trijet's tail:** a twin's fin stands on the body, its root on the crown. A trijet's stands on its center engine
+  or the S-duct's fairing (the 727's, the DC-10's, the L-1011's), so its root is a third to half way up the tail seen
+  from the side. A scheme measured on a twin has its fin's areas laid over a trijet's from the crown under its fin
+  (where its leading edge, carried straight down, meets it) to the tip, stretched up the fin's space. The fairing or
+  nacelle under the root wears them as the fin's paint carried down. An area that reached the twin's root runs on
+  down from where its edges met it. So American's flag covers a 727's whole tail and its fairing, as full-fin schemes
+  of the time did (TWA's, Braniff's, Continental's), not only the fin above the fairing. The fin's lettering and logos
+  stay where they're written, on the fin above the root. Between two twins, two trijets, or from a trijet to a twin,
+  the fin's areas aren't fitted.
+- **Not fitted:** the fin's areas (but for a trijet's tail, above), wings, tailplane, winglets and engines (their
+  spaces are their own parts'), the belly's
   positions across, and paint carried past the nose or tail or over the crown. On the measured type itself or with
   no `drawnOn` shape, shares are drawn as written. Paint for one type (below) is measured on that type and laid over
   the fitted scheme as it is.

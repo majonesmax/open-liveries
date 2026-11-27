@@ -1,0 +1,326 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "red-2013",
+  "airline": "TPA",
+  "name": "Avianca Cargo red livery (2013)",
+  "kind": "standard",
+  "from": "2013",
+  "confidence": "medium",
+  "commonest": true,
+  "drawnOn": "A332",
+  "description": "Avianca's 2013 red scheme on the freighters: a white fuselage with red 'Avianca Cargo' over the forward fuselage ('Avianca' bold, 'Cargo' light) and Avianca's red bird ahead of it; a red swoosh rising from the belly into the fin, so the whole tail is red; an orange dorsal fillet; a red fin faceted in darker red with a white panel at the tip; red engines with a white bird and white inlets; red winglets.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N336QT_Airbus_A330-243F_Avianca_Cargo_Miami_19.1.23_(53271701361).jpg",
+      "title": "N336QT Airbus A330-243F Avianca Cargo Miami 19.1.23 (53271701361).jpg (CC BY-SA 2.0, Colin Cooke Photo)",
+      "accessed": "2026-11-26",
+      "note": "A330-200F N336QT, right side, level, taxiing at Miami, 2023-01-17. Flipped and fitted to shapes/A332.json (door 1 pinned): the swoosh's front edge, the fin's facets, the white tip panel, the orange fillet, the titles, the bird, the engine's white inlet."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N332QT_Airbus_A330-243F_Avianca_Cargo_Miami_19.1.23_(53272058084).jpg",
+      "title": "N332QT Airbus A330-243F Avianca Cargo Miami 19.1.23 (53272058084).jpg (CC BY-SA 2.0, Colin Cooke Photo)",
+      "accessed": "2026-11-26",
+      "note": "A330-200F N332QT, right side on approach to Miami, 2023-01-17: the same scheme, checked against the fit (red winglets with a white root, the fin's facets). It also carries a round green IATA CEIV Fresh badge ahead of the registration: left out."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A330-243F,_Avianca_Cargo_JP7680659.jpg",
+      "title": "Airbus A330-243F, Avianca Cargo JP7680659.jpg (CC BY-SA 3.0, Pedro Aragão)",
+      "accessed": "2026-11-26",
+      "note": "F-WWKU (msn 1448, delivered as N334QT), left side in flight at Toulouse before delivery, 2013-09-11: the left side's order (bird, 'Avianca', 'Cargo') and stretch, the swoosh and fillet as on the right."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:F-WWKU(1448_N334QT)_A330-243F_Avianca_Cargo_TLS_28SEP13_(9983938093).jpg",
+      "title": "F-WWKU(1448 N334QT) A330-243F Avianca Cargo TLS 28SEP13 (9983938093).jpg (CC BY-SA 3.0, Ken Fielding)",
+      "accessed": "2026-11-26",
+      "note": "The same aircraft on the ground at Toulouse, 2013-09-28, left side: the scheme as delivered in 2013."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N330QT_MIA_Landing_27_QT_A330_243_F_Small_(54203626038).png",
+      "title": "N330QT MIA Landing 27 QT A330 243 F Small (54203626038).png (CC BY-SA 2.0, Mark Bess)",
+      "accessed": "2026-11-26",
+      "note": "A330-200F N330QT landing at Miami, left side, 2024-12-14: 'Avianca Cargo' titles, bird and engines as here, but no swoosh or orange fillet (the aft fuselage is white up to the fin) and a paler rudder. Not measured: shows the plain repaint."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N337QT.jpg",
+      "title": "N337QT.jpg (CC BY-SA 4.0, Liam Thompson)",
+      "accessed": "2026-11-26",
+      "note": "A330-300P2F N337QT (Avianca Cargo México) on approach to LAX, left side, 2026-08-04: the plain repaint with the 2023 lowercase 'avianca cargo' and a small 'Mexico' under 'avianca'. Fitted to shapes/A333.json (door 1 pinned) for the A333 paint."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A330_-_Avianca_Cargo_-_N336QT_in_Guatemala_City.jpg",
+      "title": "Airbus A330 - Avianca Cargo - N336QT in Guatemala City.jpg (CC BY-SA 4.0, MHernandezp05)",
+      "accessed": "2026-11-26",
+      "note": "N336QT on approach to Guatemala City, left side from below, 2024-08-08: retitled in the lowercase 'avianca cargo' with the swoosh and orange fillet kept."
+    }
+  ],
+  "palette": {
+    "white": { "hex": "#F1F2F3", "official": false },
+    "red": { "hex": "#D7262B", "official": false },
+    "darkRed": { "hex": "#A9202A", "official": false },
+    "orange": { "hex": "#E86A1F", "official": false },
+    "wingGray": { "hex": "#B9BEC5", "official": false },
+    "lip": { "hex": "#C3C7CC", "name": "bare metal inlet lip", "official": false },
+    "core": { "hex": "#8A8F96", "official": false }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "red swoosh from the belly up into the fin, the tail red behind it",
+        "color": "red",
+        "points": [
+          [0.62, -1.0],
+          [0.645, -0.734],
+          [0.662, -0.681],
+          [0.702, -0.49],
+          [0.731, -0.358],
+          [0.759, -0.226],
+          [0.782, -0.038],
+          [0.802, 0.169],
+          [0.821, 0.514],
+          [0.832, 0.8],
+          [0.836, 1.0],
+          [0.965, 1.0],
+          [0.965, -1.0]
+        ],
+        "smooth": true,
+        "confidence": "medium",
+        "sourceRefs": [0, 1, 2]
+      }
+    ],
+    "radome": { "color": "white", "to": 0.025 },
+    "windows": "hidden",
+    "confidence": "high",
+    "sourceRefs": [0, 1, 2]
+  },
+  "fin": {
+    "base": "red",
+    "fillet": "orange",
+    "areas": [
+      {
+        "name": "orange at the root's leading edge",
+        "color": "orange",
+        "points": [[0, 0], [0.22, 0], [0.15, 0.229], [0, 0.15]]
+      },
+      {
+        "name": "white sliver up the leading edge above the orange",
+        "color": "white",
+        "points": [[0, 0.15], [0.15, 0.229], [0.05, 0.29], [0, 0.29]]
+      },
+      {
+        "name": "dark red facet, lower aft",
+        "color": "darkRed",
+        "points": [[0.22, 0], [0.15, 0.229], [0.456, 0.444], [0.8, 0.67], [0.9, 0.65], [0.9, 0]]
+      },
+      {
+        "name": "white panel at the tip's trailing corner",
+        "color": "white",
+        "points": [[0.17, 1.05], [1.05, 1.05], [1.05, 0.83], [0.79, 0.68]]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [0, 1, 2]
+  },
+  "wings": { "top": "wingGray", "under": "wingGray" },
+  "winglets": {
+    "outer": "red",
+    "inner": "red",
+    "areas": [{ "name": "white root", "color": "white", "points": [[0, 0], [1, 0], [1, 0.3], [0, 0.3]] }],
+    "confidence": "low",
+    "sourceRefs": [0, 1]
+  },
+  "engines": {
+    "cowling": "red",
+    "inletLip": "lip",
+    "areas": [
+      { "name": "white inlet cowl", "color": "white", "points": [[0, -1], [0.18, -1], [0.18, 1], [0, 1]] },
+      { "name": "gray core and exhaust", "color": "core", "points": [[0.88, -0.55], [1, -0.4], [1, 0.4], [0.88, 0.55]] }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [0, 1, 2]
+  },
+  "titles": [
+    {
+      "text": "Avianca",
+      "place": "fuselage",
+      "side": "left",
+      "at": [0.164, 0.145],
+      "height": 0.37,
+      "length": 0.129,
+      "color": "red",
+      "style": "Avianca's 2013 wordmark: a bold, round geometric sans with a capital A, just behind the bird. Cap height about 1.4 m. Placed on the left by the right side's measure, in the order and stretch the 2013 left-side photos show (bird, 'Avianca', 'Cargo').",
+      "confidence": "medium",
+      "sourceRefs": [2, 3, 4],
+      "type": { "similar": ["Futura Bold", "Avenir Next Bold"], "weight": 700, "slantDeg": 0, "width": "normal", "strokes": "uniform", "case": "mixed" }
+    },
+    {
+      "text": "Cargo",
+      "place": "fuselage",
+      "side": "left",
+      "at": [0.302, 0.13],
+      "height": 0.37,
+      "length": 0.1,
+      "color": "red",
+      "style": "The same face in a light weight, the same cap height, after 'Avianca' on one line.",
+      "confidence": "medium",
+      "sourceRefs": [2, 3, 4],
+      "type": { "similar": ["Futura Book", "Avenir Next Regular"], "weight": 400, "slantDeg": 0, "width": "normal", "strokes": "uniform", "case": "mixed" }
+    },
+    {
+      "text": "Avianca",
+      "place": "fuselage",
+      "side": "right",
+      "at": [0.273, 0.145],
+      "height": 0.37,
+      "length": 0.129,
+      "color": "red",
+      "style": "As on the left, reading normally from the right side: 'Avianca' aft, 'Cargo' ahead of it, the bird ahead of both. Measured x 0.273-0.402, caps 1.4 m.",
+      "confidence": "high",
+      "sourceRefs": [0, 1],
+      "type": { "similar": ["Futura Bold", "Avenir Next Bold"], "weight": 700, "slantDeg": 0, "width": "normal", "strokes": "uniform", "case": "mixed" }
+    },
+    {
+      "text": "Cargo",
+      "place": "fuselage",
+      "side": "right",
+      "at": [0.164, 0.13],
+      "height": 0.37,
+      "length": 0.1,
+      "color": "red",
+      "style": "The light-weight 'Cargo', ahead of 'Avianca' on the right side (x 0.164-0.264).",
+      "confidence": "high",
+      "sourceRefs": [0, 1],
+      "type": { "similar": ["Futura Book", "Avenir Next Regular"], "weight": 400, "slantDeg": 0, "width": "normal", "strokes": "uniform", "case": "mixed" }
+    }
+  ],
+  "logos": [
+    {
+      "mark": "AVA/bird",
+      "place": "fuselage",
+      "at": [0.138, 0.27],
+      "height": 0.5,
+      "colors": ["red"],
+      "description": "Avianca's bird in red, flying forward, at the forward end of the titles on both sides.",
+      "reference": "https://commons.wikimedia.org/wiki/File:N336QT_Airbus_A330-243F_Avianca_Cargo_Miami_19.1.23_(53271701361).jpg",
+      "confidence": "high",
+      "sourceRefs": [0, 1, 2]
+    },
+    {
+      "mark": "AVA/bird",
+      "place": "engines",
+      "at": [0.32, 0.05],
+      "height": 0.9,
+      "colors": ["white"],
+      "description": "A big white bird on the red cowling's outboard face, just behind the white inlet.",
+      "reference": "https://commons.wikimedia.org/wiki/File:N336QT_Airbus_A330-243F_Avianca_Cargo_Miami_19.1.23_(53271701361).jpg",
+      "confidence": "medium",
+      "sourceRefs": [0, 1]
+    }
+  ],
+  "types": {
+    "A333": {
+      "note": "The A330-300P2Fs (Avianca Cargo México's N337QT, LAX 2026-08-04) were painted red after the 2023 rebrand, in a plainer form: no swoosh and no orange (the fuselage all white, the fillet red), lowercase 'avianca' (bold) and 'cargo' (light) with an x-height of about 1.05 m, red engines to the lip, the fin's dark facet down to the root. Left side measured; the right side's titles are placed as the A332's run (cargo ahead of avianca). Its small 'Mexico' under 'avianca' is left out.",
+      "confidence": "medium",
+      "sourceRefs": [5],
+      "fuselage": { "areas": [] },
+      "fin": {
+        "fillet": "red",
+        "areas": [
+          {
+            "name": "dark red facet, lower aft",
+            "color": "darkRed",
+            "points": [[0.03, 0], [0.23, 0.2], [0.53, 0.42], [0.9, 0.65], [1.0, 0.68], [1.0, 0]]
+          },
+          {
+            "name": "white panel at the tip's trailing corner",
+            "color": "white",
+            "points": [[0.25, 1.05], [1.05, 1.05], [1.05, 0.79], [0.9, 0.65]]
+          }
+        ]
+      },
+      "engines": { "areas": [{ "name": "gray core and exhaust", "color": "core", "points": [[0.88, -0.55], [1, -0.4], [1, 0.4], [0.88, 0.55]] }] },
+      "titles": [
+        {
+          "text": "avianca",
+          "place": "fuselage",
+          "side": "left",
+          "at": [0.168, 0.12],
+          "height": 0.36,
+          "length": 0.119,
+          "color": "red",
+          "style": "Avianca's 2023 lowercase wordmark: a heavy, round geometric sans with single-storey a's. x-height 0.26 (about 1.05 m); `height` is the matching cap height.",
+          "confidence": "medium",
+          "sourceRefs": [5],
+          "type": { "similar": ["Futura Bold", "Avenir Next Bold"], "weight": 700, "slantDeg": 0, "width": "normal", "strokes": "uniform", "case": "lower", "xHeight": 0.72 }
+        },
+        {
+          "text": "cargo",
+          "place": "fuselage",
+          "side": "left",
+          "at": [0.3, 0.12],
+          "height": 0.36,
+          "length": 0.087,
+          "color": "red",
+          "style": "The same lowercase in a light weight, the same x-height, after 'avianca' on one line.",
+          "confidence": "medium",
+          "sourceRefs": [5],
+          "type": { "similar": ["Futura Book", "Avenir Next Regular"], "weight": 400, "slantDeg": 0, "width": "normal", "strokes": "uniform", "case": "lower", "xHeight": 0.72 }
+        },
+        {
+          "text": "avianca",
+          "place": "fuselage",
+          "side": "right",
+          "at": [0.269, 0.12],
+          "height": 0.36,
+          "length": 0.119,
+          "color": "red",
+          "style": "As on the left, reading normally from the right side: 'avianca' aft, 'cargo' ahead of it. No right-side photo: placed as the A332's right side runs.",
+          "confidence": "low",
+          "sourceRefs": [5],
+          "type": { "similar": ["Futura Bold", "Avenir Next Bold"], "weight": 700, "slantDeg": 0, "width": "normal", "strokes": "uniform", "case": "lower", "xHeight": 0.72 }
+        },
+        {
+          "text": "cargo",
+          "place": "fuselage",
+          "side": "right",
+          "at": [0.168, 0.12],
+          "height": 0.36,
+          "length": 0.087,
+          "color": "red",
+          "style": "The light-weight 'cargo', ahead of 'avianca' on the right side.",
+          "confidence": "low",
+          "sourceRefs": [5],
+          "type": { "similar": ["Futura Book", "Avenir Next Regular"], "weight": 400, "slantDeg": 0, "width": "normal", "strokes": "uniform", "case": "lower", "xHeight": 0.72 }
+        }
+      ],
+      "logos": [
+        {
+          "mark": "AVA/bird",
+          "place": "fuselage",
+          "at": [0.137, 0.25],
+          "height": 0.49,
+          "colors": ["red"],
+          "description": "Avianca's bird in red, flying forward, ahead of 'avianca'.",
+          "reference": "https://commons.wikimedia.org/wiki/File:N337QT.jpg",
+          "confidence": "medium",
+          "sourceRefs": [5]
+        },
+        {
+          "mark": "AVA/bird",
+          "place": "engines",
+          "at": [0.4, 0.1],
+          "height": 0.7,
+          "colors": ["white"],
+          "description": "The white bird on the red cowling's outboard face.",
+          "reference": "https://commons.wikimedia.org/wiki/File:N337QT.jpg",
+          "confidence": "low",
+          "sourceRefs": [5]
+        }
+      ]
+    }
+  },
+  "notes": "The red Avianca scheme Avianca Cargo's A330-200Fs were delivered in from 2013 (N334QT at Toulouse, 2013-09), drawn as N336QT and N332QT wore it at Miami in 2023-01. Measured on N336QT's right side, flipped and fitted to shapes/A332.json: the swoosh's front edge leaves the belly about 37 m back and meets the crown at the fin's root (49 m); the tail cone's end is left white. 'Avianca' runs x 0.273-0.402 and 'Cargo' 0.164-0.264 with 1.4 m capitals, the bird centred at x 0.138. The fleet's red paint varies: N336QT has been retitled in the 2023 lowercase 'avianca cargo' (2024-08) with the swoosh kept, and repaints since lack the swoosh and orange (N330QT, ex-Tampa Cargo, with capital titles in 2024-12; N337QT with lowercase titles in 2026-08). The A333 paint here is that plainer form, as on N337QT. The country's flag under the cockpit and at the fin's tip and the IATA CEIV Fresh badges some aircraft carry are left out. Avianca Cargo's green scheme (TPA/standard) has replaced this on some aircraft since 2025.",
+  "history": "New 2026-11-26, from a saved plane: N330QT was drawn in the green scheme but wears red."
+}

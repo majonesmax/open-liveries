@@ -19,7 +19,7 @@ export function drawAreas(
   canvas: Canvas,
   parent: Element,
   /** Moves the area's own points before they're drawn (a tail engine's: the fin's space carried down, side.ts). */
-  adjust: (p: Point) => Point = (p) => p,
+  adjust: (p: Point, area: Area) => Point = (p) => p,
   /** The part's lowest and highest y, where an area's outline stays sharp (default: `yRange`). */
   edges: [number, number] = yRange,
   /** The fuselage: edges straight as seen from the side, not in y (an angle round it). */
@@ -27,7 +27,7 @@ export function drawAreas(
 ): void {
   for (const area of areas ?? []) {
     if (!showsOn(area, side)) continue;
-    const outline = areaPolygon(area, ...yRange, edges, heights).map(adjust);
+    const outline = areaPolygon(area, ...yRange, edges, heights).map((p) => adjust(p, area));
     // A curve's own points are close already; a straight outline gets points along every edge, as always.
     const dense = area.smooth === true ? densifyArea(outline) : densify(outline);
     const polygon = dense.map(([x, y]) => mapping(x, heights ? fromHeight(y) : y));
