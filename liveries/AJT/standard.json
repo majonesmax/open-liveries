@@ -37,6 +37,12 @@
       "title": "Amerijet, N432AX, Boeing 767-323ER(BDSF) (CC BY-SA 2.0, Anna Zvereva)",
       "accessed": "2026-11-15",
       "note": "N432AX right side, 2023-06-25: agrees with N349CM."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Amerijet_SVVA_Mayo_2026.jpg",
+      "title": "Amerijet SVVA Mayo 2026 (CC BY-SA 4.0)",
+      "accessed": "2026-11-27",
+      "note": "Left side, close: the star-A with its bars facing forward, the bars running aft to the trailing edge."
     }
   ],
   "palette": {
@@ -235,23 +241,24 @@
   },
   "logos": [
     {
-      "mark": "AJT/star-a",
+      "mark": "AJT/star-flag",
       "place": "fin",
       "at": [
-        0.35,
-        0.35
+        0.761,
+        0.394
       ],
-      "height": 0.4,
+      "height": 0.441,
       "colors": [
         "navy",
         "white",
         "red"
       ],
-      "description": "Amerijet's star-A: a five-pointed navy star outlined in white, its upper left arm formed by an 'A' and crossed by red and white horizontal bars that run out to the fin's leading edge.",
+      "description": "Amerijet's star-A on the navy fin: a star outlined in white whose upper arms form an 'A' with a red stroke inside its navy outline, and red, navy and red bars edged in white running aft from it to the trailing edge.",
       "reference": "https://commons.wikimedia.org/wiki/File:N269CM_Boeing_767-333ER(BDSF)_Amerijet_International_BGI_20.11.25_(54959295871).jpg",
       "confidence": "medium",
       "sourceRefs": [
-        1
+        1,
+        5
       ]
     },
     {

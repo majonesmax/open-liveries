@@ -22,10 +22,15 @@ class PaletteColor(TypedDict):
     official: NotRequired[bool]
 
 
+# A fade across an area (docs/COORDINATES.md › Gradients): [offset, color] stops along `from` → `to`.
+Gradient = TypedDict("Gradient", {"from": list[float], "to": list[float], "stops": list[list[Any]]})
+
+
 class Area(TypedDict):
     """A colored area: `points`, or a `below`/`above` line (docs/COORDINATES.md)."""
 
     color: str
+    gradient: NotRequired[Gradient]
     name: NotRequired[str]
     points: NotRequired[list[Point]]
     below: NotRequired[list[Point]]

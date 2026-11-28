@@ -85,7 +85,10 @@ NEUTRAL, PROPELLER, UNPAINTED_FUSELAGE     // the colors for parts a scheme leav
 - `drawnOn` is the shape the scheme was measured on (`shapes/` for its `drawnOn`). Give it when drawing on another
   type and the fuselage's paint, titles and logos are fitted by the two types' landmarks
   ([docs/COORDINATES.md](../docs/COORDINATES.md), Landmarks). Without it they're placed by their shares as written.
-- `idPrefix` starts the ids of each picture's clip paths. The ids are a hash of the picture, so the same picture
+- **Gradients:** an area with a `gradient` (docs/COORDINATES.md › Gradients) is drawn with an SVG
+  `linearGradient` in the picture's `<defs>`, laid across it so its lines of one paint are the part's own. Textures
+  carry them too, so a 3D model built on them shows the fade.
+- `idPrefix` starts the ids of each picture's clip paths and gradients. The ids are a hash of the picture, so the same picture
   always gives the same markup and different pictures don't collide. Set it to keep them apart from your page's own.
 - `logo(logo, box, view)` draws a logo. `logo` is the scheme's entry (its `mark`, `colors`, `description`). `box`
   is its place in the picture's pixels (`x`, `y`, `width`, `height`, upright). `view` is `'left'`, `'right'` or

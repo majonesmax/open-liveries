@@ -66,6 +66,11 @@ export interface Canvas {
     polygon: (points: readonly Point[], fill: string, parent: Element, attributes?: Attributes) => Element;
     /** Defines a clip path with this outline and returns the value for a `clip-path` attribute. */
     clipTo: (name: string, outline: readonly Point[]) => string;
+    /**
+     * Defines a linear gradient from `from` to `to` in the drawing's own units ([offset, hex] stops) and returns the value
+     * for a `fill` attribute.
+     */
+    gradient: (stops: readonly (readonly [number, string])[], from: Point, to: Point) => string;
     logoPainter: LogoPainter | undefined;
 }
 /** How a view or texture is drawn: its clip-path ids' prefix, and the caller's logo painter. */

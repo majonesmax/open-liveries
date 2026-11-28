@@ -285,6 +285,8 @@ export function fitScheme(scheme: Livery, from: Geometry, to: Geometry): Livery 
       const line = a[key];
       if (line) out[key] = (a.smooth ? line : alongTheSide(line, key === 'points')).map(point);
     }
+    // A fade's ends move with the paint.
+    if (a.gradient) out.gradient = { ...a.gradient, from: point(a.gradient.from), to: point(a.gradient.to) };
     return out as unknown as Area;
   };
   const logo = (l: Logo): Logo => {
@@ -397,6 +399,11 @@ function finToTheCrown(fin: Fin | undefined, from: Geometry, to: Geometry): Fin 
       points.push(...(y > 0 ? crossing : crossing.reverse()));
     });
     const fitted = { ...a, points } as Record<string, unknown>;
+    if (a.gradient) {
+      const [fx, fy] = a.gradient.from;
+      const [tx, ty] = a.gradient.to;
+      fitted.gradient = { ...a.gradient, from: [fx, up(fy)], to: [tx, up(ty)] };
+    }
     delete fitted.below;
     delete fitted.above;
     delete fitted.smooth;

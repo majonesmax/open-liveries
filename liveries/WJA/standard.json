@@ -7,7 +7,7 @@
   "from": "2018",
   "confidence": "medium",
   "drawnOn": "B38M",
-  "description": "White fuselage; behind the wing a teal sweep rises from the belly to the crown ahead of the fin, with a navy wedge at the fin root; 'WESTJET' in heavy navy italic capitals over the forward windows with a small Canadian flag by the door; the fin a faceted design of teal, white and navy (a stylised mountain and maple-leaf pattern, finely dotted); navy winglets.",
+  "description": "White fuselage; behind the wing a teal sweep rises from the belly to the crown ahead of the fin, with a navy wedge at the fin root; 'WESTJET' in heavy navy italic capitals over the forward windows with a small Canadian flag by the door; the fin a stylised maple leaf: its tip rises in white between two teal lobes and fades to teal toward the root through a half-tone of teal dots, over a white band that rises aft and turns down to the root, navy forward of it; navy winglets.",
   "sources": [
     {
       "url": "https://en.wikipedia.org/wiki/WestJet",
@@ -32,6 +32,18 @@
       "title": "Westjet Boeing 787-9 Dreamliner C-GMKS at LHR 01.jpg (CC BY-SA 4.0)",
       "accessed": "2026-11-26",
       "note": "787-9 C-GMKS left side, 2023-10-05: the fin from the left, the mirror of the right side's (the navy forward at the root, the white band rising aft)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:C-GEWJ_B737_MAX_8,_WestJet,_Cancun_03-08-26_(55174409871).jpg",
+      "title": "C-GEWJ B737 MAX 8, WestJet, Cancun 03-08-26 (55174409871).jpg (CC BY 4.0)",
+      "accessed": "2026-11-27",
+      "note": "C-GEWJ (737-8) right side climbing out, 2026-03-08: the fin sharp enough to see the half-tone's dots; flipped, fitted to shapes/B38M.json and read in fin space."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:WestJet_C-GMKS_Boeing_787-9_Dreamliner_London_Heathrow_Airport_(LHR_EGLL)_(52677400646).jpg",
+      "title": "WestJet C-GMKS Boeing 787-9 Dreamliner London Heathrow Airport (LHR EGLL) (52677400646).jpg (CC BY-SA 2.0)",
+      "accessed": "2026-11-27",
+      "note": "787-9 C-GMKS left side in sunshine, 2023-02-06: the teals' colors (the fuselage's and the leading edge's teal, the darker solid at the rudder's top, the lobes' dense dots and the fade's tones) and the navy's sweep down toward the belly behind the aft door."
     }
   ],
   "palette": {
@@ -40,9 +52,9 @@
       "official": false
     },
     "teal": {
-      "hex": "#00A3AD",
+      "hex": "#128AAA",
       "official": false,
-      "name": "WestJet teal"
+      "name": "WestJet teal (as photographed in daylight: bluer and deeper than the screen teal)"
     },
     "navy": {
       "hex": "#1C2272",
@@ -50,9 +62,9 @@
       "name": "navy"
     },
     "darkTeal": {
-      "hex": "#0E6F7C",
+      "hex": "#05709A",
       "official": false,
-      "name": "dark teal"
+      "name": "the solid teal at the top of the rudder (darker than the fuselage's)"
     },
     "wingGray": {
       "hex": "#B9BEC6",
@@ -66,10 +78,35 @@
       "hex": "#D52B1E",
       "official": false
     },
-    "pale": {
-      "hex": "#AFD0D5",
+    "halftoneDense": {
+      "hex": "#4796AE",
       "official": false,
-      "name": "the fin's light half-tone (teal dots on white), as one tone"
+      "name": "the fin's half-tone at its densest (the lobes, over the white band): teal dots on white seen as one tone, from C-GEWJ, C-GPFT and C-GMKS (sunlit)"
+    },
+    "halftone25": {
+      "hex": "#8FB2BF",
+      "official": false,
+      "name": "the fin's half-tone, a quarter of the way up its fade: teal dots on white seen as one tone, from C-GEWJ, C-GPFT and C-GMKS (sunlit)"
+    },
+    "halftone50": {
+      "hex": "#B4C7CF",
+      "official": false,
+      "name": "the fin's half-tone halfway up its fade: teal dots on white seen as one tone, from C-GEWJ, C-GPFT and C-GMKS (sunlit)"
+    },
+    "halftone75": {
+      "hex": "#D6DEE2",
+      "official": false,
+      "name": "the fin's half-tone three quarters of the way up its fade: teal dots on white seen as one tone, from C-GEWJ, C-GPFT and C-GMKS (sunlit)"
+    },
+    "halftoneLight": {
+      "hex": "#EEF0F2",
+      "official": false,
+      "name": "the fin's half-tone at its lightest (the leaf): teal dots on white seen as one tone, from C-GEWJ, C-GPFT and C-GMKS (sunlit)"
+    },
+    "halftoneTop": {
+      "hex": "#93B7C4",
+      "official": false,
+      "name": "the fin's half-tone toward the top of the leading edge: teal dots on white seen as one tone, from C-GEWJ, C-GPFT and C-GMKS (sunlit)"
     }
   },
   "finish": "gloss",
@@ -107,42 +144,59 @@
         ]
       },
       {
-        "name": "navy wedge at the fin root",
+        "name": "navy under the fin: from the crown down to the aft door's top, forward to the door, aft over the teal below it and down toward the belly in a point, then up behind the tailplane to the fin's root",
         "color": "navy",
         "points": [
           [
-            0.802,
-            1.0
-          ],
-          [
-            0.831,
-            0.463
-          ],
-          [
-            0.86,
-            -0.09
-          ],
-          [
-            0.885,
-            -0.375
-          ],
-          [
-            0.905,
-            -0.037
-          ],
-          [
-            0.9175793268458085,
+            0.803,
             1
           ],
           [
-            0.8104337910645568,
+            0.833,
+            0.488
+          ],
+          [
+            0.829,
+            0.2
+          ],
+          [
+            0.863,
+            0.26
+          ],
+          [
+            0.87,
+            0.22
+          ],
+          [
+            0.874,
+            0.13
+          ],
+          [
+            0.876,
+            -0.2
+          ],
+          [
+            0.876,
+            -0.6
+          ],
+          [
+            0.895,
+            0.338
+          ],
+          [
+            0.9176,
+            1
+          ],
+          [
+            0.8104,
             1
           ]
         ],
-        "confidence": "low",
+        "confidence": "medium",
         "sourceRefs": [
           1,
-          2
+          2,
+          4
         ]
       }
     ],
@@ -157,94 +211,264 @@
     ]
   },
   "fin": {
-    "base": "teal",
+    "base": "halftoneDense",
     "areas": [
       {
-        "name": "light half-tone field across the middle, with the white maple-leaf point rising into the teal",
-        "color": "pale",
+        "name": "the half-tone lightening toward the top of the leading edge, over the forward lobe",
+        "color": "halftoneDense",
+        "gradient": {
+          "from": [
+            0.35,
+            0.8
+          ],
+          "to": [
+            0,
+            1
+          ],
+          "stops": [
+            [
+              0,
+              "halftoneDense"
+            ],
+            [
+              1,
+              "halftoneTop"
+            ]
+          ]
+        },
         "points": [
           [
             0,
-            0.6
+            0.55
           ],
           [
-            0.2,
-            0.605,
+            0.7,
+            0.55
+          ],
+          [
+            0.7,
             1
           ],
           [
-            0.4,
-            0.82,
+            0,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "the leaf and the field under it: the half-tone fading from nearly solid over the white band to nearly white at the leaf's top",
+        "color": "halftone50",
+        "gradient": {
+          "from": [
+            0.3,
+            0.33
+          ],
+          "to": [
+            0.33,
+            0.69
+          ],
+          "stops": [
+            [
+              0,
+              "halftoneDense"
+            ],
+            [
+              0.25,
+              "halftone25"
+            ],
+            [
+              0.5,
+              "halftone50"
+            ],
+            [
+              0.75,
+              "halftone75"
+            ],
+            [
+              1,
+              "halftoneLight"
+            ]
+          ]
+        },
+        "points": [
+          [
+            0,
+            0.615
+          ],
+          [
+            0.05,
+            0.606
+          ],
+          [
+            0.12,
+            0.603
+          ],
+          [
+            0.18,
+            0.61
+          ],
+          [
+            0.215,
+            0.633
+          ],
+          [
+            0.25,
+            0.68
+          ],
+          [
+            0.29,
+            0.735
+          ],
+          [
+            0.34,
+            0.783
+          ],
+          [
+            0.395,
+            0.825,
             1
           ],
           [
-            0.5,
-            0.745
+            0.46,
+            0.785
           ],
           [
-            0.6,
+            0.54,
+            0.74
+          ],
+          [
+            0.62,
             0.7
           ],
           [
             0.7,
-            0.648
+            0.652
           ],
           [
-            0.775,
-            0.6,
-            1
+            0.75,
+            0.62
           ],
           [
-            0.85,
-            0.612
+            0.79,
+            0.603
+          ],
+          [
+            0.84,
+            0.599
+          ],
+          [
+            0.91,
+            0.611
           ],
           [
             1,
-            0.655
+            0.63
           ],
           [
             1,
-            0.388
-          ],
-          [
-            0.5,
-            0.322
+            0.38
           ],
           [
             0,
-            0.26
+            0.25
           ]
         ],
         "confidence": "medium",
         "sourceRefs": [
           1,
-          3
+          3,
+          4,
+          5
         ],
         "smooth": true
       },
       {
-        "name": "teal wedge at the leading edge over the white band",
-        "color": "teal",
+        "name": "solid teal at the top of the rudder, darker than the lobes' dense dots",
+        "color": "darkTeal",
         "points": [
           [
-            0,
-            0.53
-          ],
-          [
-            0.21,
-            0.295,
+            0.6,
             1
           ],
           [
-            0,
-            0.26
+            0.7,
+            0.92
+          ],
+          [
+            0.8,
+            0.84
+          ],
+          [
+            0.86,
+            0.8
+          ],
+          [
+            0.93,
+            0.79
+          ],
+          [
+            1,
+            0.795
+          ],
+          [
+            1,
+            1
           ]
         ],
         "confidence": "medium",
         "sourceRefs": [
           1,
-          3
-        ]
+          3,
+          4,
+          5
+        ],
+        "smooth": true
+      },
+      {
+        "name": "solid teal blade at the leading edge over the white band",
+        "color": "teal",
+        "points": [
+          [
+            0,
+            0.495
+          ],
+          [
+            0.11,
+            0.4
+          ],
+          [
+            0.21,
+            0.292,
+            1
+          ],
+          [
+            0.13,
+            0.305
+          ],
+          [
+            0.05,
+            0.35
+          ],
+          [
+            0,
+            0.42
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          3,
+          4,
+          5
+        ],
+        "smooth": true
       },
       {
         "name": "white band rising from the leading edge aft, then turning down to the root",
@@ -304,7 +528,9 @@
         "confidence": "medium",
         "sourceRefs": [
           1,
-          3
+          3,
+          4,
+          5
         ],
         "smooth": true
       },
@@ -341,7 +567,9 @@
         "confidence": "medium",
         "sourceRefs": [
           1,
-          3
+          3,
+          4,
+          5
         ],
         "smooth": true
       }
@@ -450,6 +678,6 @@
       }
     }
   ],
-  "notes": "Drawn from right-side photos only (C-GPFT 2024, C-FNWD 2025) and mirrored: the left side should match. The fin's facets are simplified to two areas. WestJet Encore (WEN) wears this scheme. Re-checked 2026-11-15 on C-GPFT (flipped, fitted to the measured 737-800 shape, whose fuselage the MAX 8 shares): the title's baseline is just under the windows' middle (about 0.3 m below it, y 0.085) and its capitals stand about 0.77 m above it (height 0.40; it had been drawn reaching most of the way to the crown); x 0.16 to 0.37 as drawn. The teal's front edge is straight from the side: drawn by its two ends. The fin's facets stay simplified (the white is a dotted gradient on the aircraft). WestJet's 737-800s, its commonest type, wear the same layout. Fin redrawn 2026-11-26 on C-GPFT (right side, flipped and fitted to shapes/B38M.json, read in fin space) and checked on 787-9 C-GMKS's left side (2023-10-05): teal above and aft; a light half-tone field across the middle with a white point rising to x 0.4, y 0.82 (the maple leaf's tip); a white band rising from the leading edge (y 0.2-0.26) to the trailing edge (y 0.39), turning down to the root at x 0.69-0.79; navy forward of it at the root; a teal wedge at the leading edge. The half-tones are drawn as flat tones. The fin's tail-art logo entry is gone: the areas are the art, and a separate mark drew a second, simpler version over them.",
+  "notes": "Drawn from right-side photos only (C-GPFT 2024, C-FNWD 2025) and mirrored: the left side should match. WestJet Encore (WEN) wears this scheme. Re-checked 2026-11-15 on C-GPFT (flipped, fitted to the measured 737-800 shape, whose fuselage the MAX 8 shares): the title's baseline is just under the windows' middle (about 0.3 m below it, y 0.085) and its capitals stand about 0.77 m above it (height 0.40; it had been drawn reaching most of the way to the crown); x 0.16 to 0.37 as drawn. The teal's front edge is straight from the side: drawn by its two ends. WestJet's 737-800s, its commonest type, wear the same layout. Fin redrawn 2026-11-26 on C-GPFT (right side, flipped and fitted to shapes/B38M.json, read in fin space) and checked on 787-9 C-GMKS's left side (2023-10-05): teal above and aft; a light half-tone field across the middle with a white point rising to x 0.4, y 0.82 (the maple leaf's tip); a white band rising from the leading edge (y 0.2-0.26) to the trailing edge (y 0.39), turning down to the root at x 0.69-0.79; navy forward of it at the root; a teal wedge at the leading edge. The fin's tail-art logo entry is gone: the areas are the art, and a separate mark drew a second, simpler version over them. Redrawn again 2026-11-27 on C-GEWJ (737-8, right side 2026-03-08, sharp enough to see the dots; flipped, fitted to shapes/B38M.json and read in fin space) and checked on C-GPFT's fit: the fin is teal dots on white, the dots growing from nothing at the leaf's top (y 0.6-0.8) to nearly solid just over the white band and in the two lobes. Drawn as our own fade (2026-11-27, with the format's gradients): the leaf and the field under it one area fading from the half-tone's densest just over the white band (y 0.33) to nearly white at the leaf's top (y 0.69), level across the fin and a little lighter aft, as both photos read it; the lobes and the fin aft of the white band at the root the dense tone, lightening toward the top of the leading edge; the top of the rudder the darker solid teal it is in paint (to about x 0.6 at the tip, down to y 0.79 at the trailing edge, its lower corner rounded). The tones are the photos' (C-GEWJ and C-GPFT overcast, C-GMKS in sunshine), each scaled to the white band's white: the dots read greyer than a plain mix of teal and white. The teal at the leading edge over the white band is a narrow blade (to x 0.21, y 0.29). No dots are drawn: the format has no pattern, and a drawn dot screen would be detail we can't measure. The teal itself was re-read the same day on C-GEWJ, C-FNWD and C-GMKS: deeper and bluer (hue about 193°) than the screen teal drawn before. The navy under the fin was re-read on C-GEWJ (its camera a little above the fuselage, about 30°, checked on the aft door) and C-GMKS: from the crown at x 0.80 down to the aft door's top (x 0.833, y 0.49), forward to the door, aft over the teal below it at y about 0.2-0.26 to x 0.863, round that teal's end and down toward the belly in a narrow point (x 0.876, y −0.6; the belly is in shadow in every photo), then up behind the tailplane to the fin's root.",
   "history": "Replaces Skyarium v1's approximate standard (a few colors from memory). The 2018 livery replaced WestJet's teal-and-blue 'tail' scheme of the 2000s."
 }

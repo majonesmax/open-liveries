@@ -391,6 +391,73 @@
       "lastSeen": "2026-11-06",
       "status": "active: unveiled 5 Nov 2026; WPTV reports it's to stay in the scheme at least five years.",
       "notes": "Was 'Blue And Infinity And Beyond' in the standard livery. The registration is lettered on the jet in the photo heading AirlineGeeks' story (credited JetBlue; evidence only); the maintainer also saw it lifting off FLL's 28L on Facebook. No open photo yet."
+    },
+    {
+      "registration": "N989JT",
+      "livery": "prism",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N989JT.jpg",
+          "title": "N989JT.jpg (CC BY-SA 4.0)",
+          "accessed": "2026-11-27",
+          "note": "Right side at LAX, 2026-09-07: the Prism tail; named 'Freshly Minted'."
+        }
+      ],
+      "hex": "adcd6d",
+      "hexSource": "derived from the N-number (tools/nnumber.py), 2026-11-27",
+      "type": "A321",
+      "lastSeen": "2026-09-07",
+      "status": "active: Commons photo 2026-09-07."
+    },
+    {
+      "registration": "N999JQ",
+      "livery": "prism",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:JetBlue_A321-200_(N999JQ)_arriving_at_San_Juan.jpg",
+          "title": "JetBlue A321-200 (N999JQ) arriving at San Juan.jpg (CC0)",
+          "accessed": "2026-11-27",
+          "note": "Right side at San Juan, 2023-02-06: the Prism tail."
+        }
+      ],
+      "hex": "adf4e9",
+      "hexSource": "derived from the N-number (tools/nnumber.py), 2026-11-27",
+      "type": "A321",
+      "lastSeen": "2023-02-06",
+      "status": "active (presumed): Commons photo 2023-02-06; not checked since."
+    },
+    {
+      "registration": "N977JE",
+      "livery": "mint-leaves",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N977JE_A321,_jetBlue,_Fort_Lauderdale_02-20-26_(55150036546).jpg",
+          "title": "N977JE A321, jetBlue, Fort Lauderdale 02-20-26 (55150036546).jpg (CC BY 4.0)",
+          "accessed": "2026-11-27",
+          "note": "Left side, 2026-02-20: the all-blue 2023 livery with the Mint Leaves pattern aft and on the fin, mint sharklets; named 'The Limint Does Not Exist'."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:JetBlue_Airways_A321-231,_N977JE,_named_The_Limint_Does_Not_Exist,_MSN_8641_(12_2018),_as_B6_752_Cancun_(CUN)_-_New_York_(JFK),_Flight_time_3_22_(55279388976).jpg",
+          "title": "JetBlue Airways A321-231, N977JE ... (55279388976).jpg (CC0)",
+          "accessed": "2026-11-27",
+          "note": "Left side at JFK, 2026-04-24: the same scheme."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N977JE_@_LAX,_2023-11-03.jpg",
+          "title": "N977JE @ LAX, 2023-11-03.jpg (CC BY-SA 2.0)",
+          "accessed": "2026-11-27",
+          "note": "Before the repaint: the 2014 Blue/Blue Belly scheme with the Prism tail, 2023-11-03."
+        }
+      ],
+      "hex": "ad9e73",
+      "hexSource": "derived from the N-number (tools/nnumber.py), 2026-11-27; the maintainer saw it with this hex 2026-11-27",
+      "type": "A321",
+      "lastSeen": "2026-11-27",
+      "status": "active: Commons photos 2026-02-20 and 2026-04-24; the maintainer saw it at LAX 2026-11-27 (JBU2801).",
+      "notes": "A Mint-configured A321ceo, repainted into the 2023 livery between November 2023 (Prism tail) and February 2026."
     }
   ]
 }

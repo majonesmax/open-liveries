@@ -22,6 +22,18 @@
       "title": "AAL Piedmont Retro N581UW LAX Apr 7 2026 (CC BY-SA 4.0)",
       "accessed": "2026-11-12",
       "note": "Left side climbing out of LAX, 2026-04-07, Liam Thompson: the blue cheatline and how it meets the nose, the fin's logo, title and pinstripes, the blue wingtip fence."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N744P_(7011184543).jpg",
+      "title": "N744P (7011184543) (CC BY-SA 2.0)",
+      "accessed": "2026-11-27",
+      "note": "US Airways A319 N744P in the same Piedmont scheme, left side and side-on, taxiing 2010-07-28: the cheatline's height and how it wraps the nose, measured against the A320-family outline (same nose and cockpit as the A321)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:US_Air_N744P_A319.jpg",
+      "title": "US Air N744P A319 (CC BY-SA 3.0)",
+      "accessed": "2026-11-27",
+      "note": "N744P from below on the right, 2009-04-15: the cheatline wraps the nose the same way on the right."
     }
   ],
   "palette": {
@@ -53,6 +65,11 @@
     "wingGray": {
       "hex": "#C3C7CC",
       "official": false
+    },
+    "lowerGray": {
+      "hex": "#AEB2B7",
+      "name": "light gray lower fuselage",
+      "official": false
     }
   },
   "finish": "gloss",
@@ -60,51 +77,344 @@
     "base": "white",
     "areas": [
       {
-        "name": "cheatline: blue through the windows, from the nose tip under the cockpit windows to the tail cone",
+        "name": "cheatline: blue through the cabin windows and up round the cockpit windows, over the nose ahead of the windshield, to the tail cone",
         "color": "blue",
         "points": [
           [
-            0.006,
-            0.0
+            1.0,
+            -0.2145
           ],
           [
-            0.025,
-            0.14
+            0.9951,
+            -0.1113
           ],
           [
-            0.055,
-            0.24
+            0.9915,
+            -0.079
           ],
           [
-            1,
-            0.24
+            0.9807,
+            -0.0222
           ],
           [
-            1,
-            -0.1
+            0.9276,
+            0.1058
           ],
           [
-            0.2,
-            -0.1
+            0.8987,
+            0.149
           ],
           [
-            0.08,
-            -0.07
+            0.8623,
+            0.1938
           ],
           [
-            0.03,
-            -0.04
+            0.8534,
+            0.1962
           ],
           [
-            0.01,
-            -0.02
+            0.8275,
+            0.2292
+          ],
+          [
+            0.7554,
+            0.3079
+          ],
+          [
+            0.7032,
+            0.327
+          ],
+          [
+            0.1549,
+            0.3284
+          ],
+          [
+            0.1383,
+            0.3326
+          ],
+          [
+            0.1096,
+            0.3628
+          ],
+          [
+            0.0974,
+            0.384
+          ],
+          [
+            0.0811,
+            0.4279
+          ],
+          [
+            0.0646,
+            0.5101
+          ],
+          [
+            0.0563,
+            0.5823
+          ],
+          [
+            0.0507,
+            0.6604
+          ],
+          [
+            0.046,
+            0.7852
+          ],
+          [
+            0.0439,
+            1.0
+          ],
+          [
+            0.0005,
+            1.0
+          ],
+          [
+            0.0011,
+            0.5709
+          ],
+          [
+            0.0045,
+            0.3143
+          ],
+          [
+            0.0079,
+            0.2804
+          ],
+          [
+            0.0112,
+            0.267
+          ],
+          [
+            0.0146,
+            0.2565
+          ],
+          [
+            0.018,
+            0.2502
+          ],
+          [
+            0.0213,
+            0.2438
+          ],
+          [
+            0.0247,
+            0.2395
+          ],
+          [
+            0.0359,
+            0.1875
+          ],
+          [
+            0.0472,
+            0.1131
+          ],
+          [
+            0.0584,
+            0.0984
+          ],
+          [
+            0.0696,
+            0.095
+          ],
+          [
+            0.0809,
+            0.0918
+          ],
+          [
+            0.0921,
+            0.0913
+          ],
+          [
+            0.1033,
+            0.0901
+          ],
+          [
+            0.1123,
+            0.0903
+          ],
+          [
+            0.1383,
+            0.0732
+          ],
+          [
+            0.7032,
+            0.0683
+          ],
+          [
+            0.7355,
+            0.055
+          ],
+          [
+            0.7554,
+            0.0388
+          ],
+          [
+            0.7846,
+            -0.001
+          ],
+          [
+            0.8275,
+            -0.078
+          ],
+          [
+            0.8731,
+            -0.1796
+          ],
+          [
+            0.8885,
+            -0.2277
+          ],
+          [
+            0.9131,
+            -0.3389
+          ],
+          [
+            0.9276,
+            -0.4312
+          ],
+          [
+            0.9491,
+            -0.6684
+          ],
+          [
+            0.9581,
+            -1.0
+          ],
+          [
+            1.0,
+            -1.0
           ]
         ],
         "confidence": "medium",
         "sourceRefs": [
-          2
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "name": "lower fuselage: light gray under a white strip, level below the cheatline and sweeping down the nose to the belly a little behind the tip",
+        "color": "lowerGray",
+        "points": [
+          [
+            0.0106,
+            -1.0
+          ],
+          [
+            0.0139,
+            -0.6512
+          ],
+          [
+            0.0173,
+            -0.5228
+          ],
+          [
+            0.0207,
+            -0.4429
+          ],
+          [
+            0.024,
+            -0.3867
+          ],
+          [
+            0.0274,
+            -0.3426
+          ],
+          [
+            0.0308,
+            -0.3096
+          ],
+          [
+            0.0341,
+            -0.2916
+          ],
+          [
+            0.0375,
+            -0.2837
+          ],
+          [
+            0.0409,
+            -0.2793
+          ],
+          [
+            0.0443,
+            -0.2758
+          ],
+          [
+            0.0476,
+            -0.2712
+          ],
+          [
+            0.0589,
+            -0.2467
+          ],
+          [
+            0.0701,
+            -0.2204
+          ],
+          [
+            0.0813,
+            -0.1998
+          ],
+          [
+            0.0926,
+            -0.1807
+          ],
+          [
+            0.1038,
+            -0.1624
+          ],
+          [
+            0.1123,
+            -0.1595
+          ],
+          [
+            0.1383,
+            -0.1705
+          ],
+          [
+            0.7032,
+            -0.1756
+          ],
+          [
+            0.7355,
+            -0.1953
+          ],
+          [
+            0.7554,
+            -0.2196
+          ],
+          [
+            0.7817,
+            -0.268
+          ],
+          [
+            0.8275,
+            -0.4023
+          ],
+          [
+            0.8623,
+            -0.5534
+          ],
+          [
+            0.8761,
+            -0.6473
+          ],
+          [
+            0.8941,
+            -1.0
+          ],
+          [
+            1.0,
+            -1.0
+          ]
         ],
-        "smooth": true
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3,
+          4
+        ]
       }
     ],
     "windows": "plain",
@@ -348,10 +658,10 @@
       "mark": "AAL/flight-symbol",
       "place": "fuselage",
       "at": [
-        0.18,
-        0.42
+        0.178,
+        0.49
       ],
-      "height": 0.12,
+      "height": 0.28,
       "colors": [
         "#C30019",
         "#0078D2",
@@ -424,9 +734,9 @@
       "place": "fuselage",
       "at": [
         0.195,
-        0.29
+        0.34
       ],
-      "height": 0.24,
+      "height": 0.37,
       "color": "titleGray",
       "style": "American's 2013 wordmark: a humanist sans, semibold, upright, mixed case, smaller than on the standard scheme.",
       "confidence": "medium",
@@ -448,6 +758,6 @@
       }
     }
   ],
-  "notes": "Drawn from one dated photo of N581UW (left side, 2026-04-07); the Commons category has no other photo in this scheme. Base reads white above the cheatline; under it the fuselage darkens towards the belly, which may be a light gray lower fuselage or only shade: not drawn as a split. Belly, wing undersides and the right side not seen. Small 'Piedmont Pacemaker' script by the nose is too small to read reliably and is left out. Sources disagree on whether N581UW is Piedmont or PSA; dated Commons photos (Piedmont N581UW Apr 2026; PSA N582UW Nov 2025) settle it. Re-checked 2026-11-15 on N581UW (2026-04-07): 'American' x 0.194-0.284 as drawn; 'A321' on the fin fills the gap in the blue pinstripes (x 0.30-0.63); 'PIEDMONT' left as drawn (the photo is a climbing three-quarter view: its ends read 0.12-0.85 of the chord, within the error of the view). The cheatline's rounded nose drawn as a curve. No measured A321 shape yet.",
+  "notes": "Drawn from one dated photo of N581UW (left side, 2026-04-07); the Commons category has no other photo in this scheme. Belly, wing undersides and the right side not seen. Small 'Piedmont Pacemaker' script by the nose is too small to read reliably and is left out. Sources disagree on whether N581UW is Piedmont or PSA; dated Commons photos (Piedmont N581UW Apr 2026; PSA N582UW Nov 2025) settle it. Re-checked 2026-11-15 on N581UW (2026-04-07): 'American' x 0.194-0.284 as drawn; 'A321' on the fin fills the gap in the blue pinstripes (x 0.30-0.63); 'PIEDMONT' left as drawn (the photo is a climbing three-quarter view: its ends read 0.12-0.85 of the chord, within the error of the view). The cheatline's rounded nose drawn as a curve. No measured A321 shape yet. Cheatline redrawn 2026-11-27 from N744P side-on (2010, same scheme and nose) fitted to the A321 outline and checked on N581UW: level from 0.23 to 1.03 m above the body's centerline (the cabin windows in its middle, 'American' standing on its top edge), its top running through the cockpit side windows' tops and off the crown, so the nose ahead of the windshield is blue over the top; its lower edge sweeps down from about door 1 to meet the nose's outline just above the tip, which stays white. Blue checked against the sunlit N581UW photo (about #2680C5): kept. Lower fuselage added 2026-11-27: light gray under a white strip, a crisp line in all three photos (N744P 2010 and 2009, N581UW 2026), level about 0.56 m below the centerline (just under door 1's sill) and sweeping down the nose to meet the belly about 0.5 m behind the tip. Its tone from the step across that line, where both sides are lit alike: about 0.65 of the white in sun (N581UW) and 0.78 in haze (N744P 2010), drawn #AEB2B7. 'American' enlarged to the photo's size (capitals about as tall as the cheatline, the same length) and the flight symbol with it.",
   "history": "Previously on A319 N744P."
 }

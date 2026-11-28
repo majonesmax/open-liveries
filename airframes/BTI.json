@@ -1,0 +1,37 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "BTI",
+  "airframes": [
+    {
+      "registration": "YL-CSJ",
+      "hex": "502ce4",
+      "type": "BCS3",
+      "livery": "estonian-flag",
+      "from": "2019",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:YL-CSJ,_airBaltic_AIRBUS_A220-300,_Estonian_flag_livery.jpg",
+          "title": "YL-CSJ, airBaltic AIRBUS A220-300, Estonian flag livery.jpg (CC BY-SA 2.0)",
+          "accessed": "2026-11-27",
+          "note": "Photo 2020-01-04."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:AirBaltic%27s_Estonian_livery.jpg",
+          "title": "AirBaltic's Estonian livery.jpg (CC BY-SA 4.0)",
+          "accessed": "2026-11-27",
+          "note": "Photo 2021-08-25."
+        },
+        {
+          "url": "https://www.planespotters.net/photo/2009909/yl-csj-airbaltic-airbus-a220-300-bd-500-1a11",
+          "title": "planespotters.net photo of YL-CSJ",
+          "accessed": "2026-11-27",
+          "note": "A recent photo (2025-2026), still in the flag scheme; the owner saw it from Lisbon on 2026-11-27."
+        }
+      ],
+      "hexSource": "aircraft database (adsbdb, 2026-11-27) and the flight the app saw",
+      "lastSeen": "2026-11-27",
+      "status": "In the flag scheme in every photo since mid-2019; seen by the app 2026-11-27."
+    }
+  ]
+}

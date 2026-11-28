@@ -25,6 +25,18 @@
       "title": "C-FJQH - Airbus A321-211 - Air Canada Rouge LIR 260225.jpg (CC BY 2.0)",
       "accessed": "2026-11-13",
       "note": "C-FJQH (A321) left side on the ground, 2025-02-27: the same scheme."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:C-GHPJ_A321,_Air_Canada_Rouge,_Miami_02-19-26_(55146433763).jpg",
+      "title": "C-GHPJ A321, Air Canada Rouge, Miami 02-19-26 (CC BY 4.0)",
+      "accessed": "2026-11-27",
+      "note": "Left side, close: the fin's disc (its edge an arc through the fin, centered low and aft of the fin) and the white leaf on it, its top point at the disc's edge."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:C-FYJH_at_YUL_20260629.jpg",
+      "title": "C-FYJH at YUL 20260629 (CC BY 4.0)",
+      "accessed": "2026-11-27",
+      "note": "Right side: the disc and leaf mirrored."
     }
   ],
   "palette": {
@@ -159,151 +171,6 @@
     "base": "white",
     "areas": [
       {
-        "name": "red disc",
-        "color": "red",
-        "points": [
-          [
-            1.237,
-            0.323
-          ],
-          [
-            1.187,
-            0.459
-          ],
-          [
-            1.071,
-            0.586
-          ],
-          [
-            0.876,
-            0.696
-          ],
-          [
-            0.602,
-            0.78
-          ],
-          [
-            0.275,
-            0.832
-          ],
-          [
-            -0.048,
-            0.85
-          ],
-          [
-            -0.297,
-            0.832
-          ],
-          [
-            -0.428,
-            0.78
-          ],
-          [
-            -0.438,
-            0.696
-          ],
-          [
-            -0.358,
-            0.586
-          ],
-          [
-            -0.222,
-            0.459
-          ],
-          [
-            -0.06,
-            0.323
-          ],
-          [
-            0.109,
-            0.186
-          ],
-          [
-            0.276,
-            0.059
-          ],
-          [
-            0.434,
-            -0.05
-          ],
-          [
-            0.582,
-            -0.134
-          ],
-          [
-            0.719,
-            -0.187
-          ],
-          [
-            0.844,
-            -0.205
-          ],
-          [
-            0.957,
-            -0.187
-          ],
-          [
-            1.056,
-            -0.134
-          ],
-          [
-            1.139,
-            -0.05
-          ],
-          [
-            1.202,
-            0.059
-          ],
-          [
-            1.238,
-            0.186
-          ]
-        ],
-        "sourceRefs": [
-          1,
-          2
-        ]
-      },
-      {
-        "name": "white maple leaf on the disc (simplified)",
-        "color": "white",
-        "points": [
-          [
-            0.821,
-            0.728
-          ],
-          [
-            1.027,
-            0.5
-          ],
-          [
-            1.007,
-            0.019
-          ],
-          [
-            0.779,
-            -0.032
-          ],
-          [
-            0.209,
-            0.297
-          ],
-          [
-            0.4,
-            0.399
-          ],
-          [
-            0.627,
-            0.5
-          ]
-        ],
-        "confidence": "low",
-        "sourceRefs": [
-          1,
-          2
-        ]
-      },
-      {
         "name": "red tip",
         "color": "red",
         "points": [
@@ -330,7 +197,7 @@
         ]
       }
     ],
-    "mirrored": false,
+    "mirrored": true,
     "confidence": "medium",
     "sourceRefs": [
       1,
@@ -364,20 +231,22 @@
       "mark": "ROU/leaf-disc",
       "place": "fin",
       "at": [
-        0.589,
-        0.323
+        1.48,
+        -0.8
       ],
-      "height": 0.55,
+      "height": 3.26,
       "colors": [
         "red",
         "white"
       ],
-      "description": "Rouge's tail: a large red disc, cropped by the fin's edges, with a big white maple leaf tilted on it.",
+      "description": "Rouge's tail: a huge red disc, its center low and aft of the fin so the fin's edges crop it to a curved red field over the lower two thirds, with a big white maple leaf on it tilted forward, its top point at the disc's edge. Mirrored on the right (C-FYJH).",
       "reference": "https://commons.wikimedia.org/wiki/File:Air_Canada_Rouge_logo.svg",
       "confidence": "medium",
       "sourceRefs": [
         1,
-        2
+        2,
+        3,
+        4
       ]
     },
     {

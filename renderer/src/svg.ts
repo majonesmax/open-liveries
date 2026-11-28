@@ -329,6 +329,11 @@ export interface Canvas {
   polygon: (points: readonly Point[], fill: string, parent: Element, attributes?: Attributes) => Element;
   /** Defines a clip path with this outline and returns the value for a `clip-path` attribute. */
   clipTo: (name: string, outline: readonly Point[]) => string;
+  /**
+   * Defines a linear gradient from `from` to `to` in the drawing's own units ([offset, hex] stops) and returns the value
+   * for a `fill` attribute.
+   */
+  gradient: (stops: readonly (readonly [number, string])[], from: Point, to: Point) => string;
   logoPainter: LogoPainter | undefined;
 }
 
@@ -370,5 +375,24 @@ export function createCanvas(
     polygon(outline, '#000', svgElement('clipPath', { id }, defs));
     return `url(#${id})`;
   };
-  return { svg, color, polygon, clipTo, logoPainter: options.logo };
+  let gradients = 0;
+  const gradient = (stops: readonly (readonly [number, string])[], from: Point, to: Point): string => {
+    const id = `${ID_MARK}fade${gradients++}`;
+    const element = svgElement(
+      'linearGradient',
+      {
+        id,
+        gradientUnits: 'userSpaceOnUse',
+        x1: round1(from[0]),
+        y1: round1(from[1]),
+        x2: round1(to[0]),
+        y2: round1(to[1]),
+      },
+      defs,
+    );
+    for (const [offset, hex] of stops)
+      svgElement('stop', { offset: Math.round(offset * 1000) / 1000, 'stop-color': hex }, element);
+    return `url(#${id})`;
+  };
+  return { svg, color, polygon, clipTo, gradient, logoPainter: options.logo };
 }

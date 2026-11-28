@@ -223,38 +223,53 @@
         "sourceRefs": [
           2,
           3
-        ]
+        ],
+        "side": "left"
       },
       {
         "name": "Crossland: red quarter, lower forward (nose and forward belly)",
         "color": "mdRed",
         "points": [
           [
+            0.104,
+            0.155,
+            1
+          ],
+          [
+            0.06942,
+            0.11161
+          ],
+          [
+            0.03403,
+            0.14334
+          ],
+          [
+            0.0169,
+            0.11838
+          ],
+          [
+            0,
+            0.0
+          ],
+          [
             0,
             -1.0
           ],
           [
-            0.104,
-            0.155
+            0.307,
+            -1
           ],
           [
             0.307,
             0.102
-          ],
-          [
-            0.307,
-            -1
-          ],
-          [
-            0,
-            -1
           ]
         ],
         "confidence": "medium",
         "sourceRefs": [
           2,
           3
-        ]
+        ],
+        "side": "left"
       },
       {
         "name": "Crossland: red quarter, upper aft (crown over the wing)",
@@ -285,7 +300,8 @@
         "sourceRefs": [
           2,
           3
-        ]
+        ],
+        "side": "left"
       },
       {
         "name": "cross bottony: forward arm, upper half",
@@ -311,7 +327,8 @@
         "confidence": "medium",
         "sourceRefs": [
           2
-        ]
+        ],
+        "side": "left"
       },
       {
         "name": "cross bottony: forward arm's bottony end, upper half",
@@ -380,7 +397,8 @@
         "sourceRefs": [
           2
         ],
-        "smooth": true
+        "smooth": true,
+        "side": "left"
       },
       {
         "name": "cross bottony: forward arm, lower half",
@@ -406,7 +424,8 @@
         "confidence": "medium",
         "sourceRefs": [
           2
-        ]
+        ],
+        "side": "left"
       },
       {
         "name": "cross bottony: forward arm's bottony end, lower half",
@@ -475,7 +494,8 @@
         "sourceRefs": [
           2
         ],
-        "smooth": true
+        "smooth": true,
+        "side": "left"
       },
       {
         "name": "cross bottony: upper arm, forward half",
@@ -501,7 +521,8 @@
         "confidence": "medium",
         "sourceRefs": [
           2
-        ]
+        ],
+        "side": "left"
       },
       {
         "name": "cross bottony: upper arm's bottony end, forward half",
@@ -570,7 +591,8 @@
         "sourceRefs": [
           2
         ],
-        "smooth": true
+        "smooth": true,
+        "side": "left"
       },
       {
         "name": "cross bottony: upper arm, aft half",
@@ -596,7 +618,8 @@
         "confidence": "medium",
         "sourceRefs": [
           2
-        ]
+        ],
+        "side": "left"
       },
       {
         "name": "cross bottony: upper arm's bottony end, aft half",
@@ -665,7 +688,8 @@
         "sourceRefs": [
           2
         ],
-        "smooth": true
+        "smooth": true,
+        "side": "left"
       },
       {
         "name": "cross bottony: aft arm, upper half",
@@ -691,7 +715,8 @@
         "confidence": "medium",
         "sourceRefs": [
           2
-        ]
+        ],
+        "side": "left"
       },
       {
         "name": "cross bottony: aft arm's bottony end, upper half",
@@ -760,7 +785,8 @@
         "sourceRefs": [
           2
         ],
-        "smooth": true
+        "smooth": true,
+        "side": "left"
       },
       {
         "name": "cross bottony: aft arm, lower half",
@@ -786,7 +812,8 @@
         "confidence": "medium",
         "sourceRefs": [
           2
-        ]
+        ],
+        "side": "left"
       },
       {
         "name": "cross bottony: aft arm's bottony end, lower half",
@@ -855,7 +882,8 @@
         "sourceRefs": [
           2
         ],
-        "smooth": true
+        "smooth": true,
+        "side": "left"
       },
       {
         "name": "cross bottony: lower arm, forward half",
@@ -881,7 +909,8 @@
         "confidence": "medium",
         "sourceRefs": [
           2
-        ]
+        ],
+        "side": "left"
       },
       {
         "name": "cross bottony: lower arm's bottony end, forward half",
@@ -950,7 +979,8 @@
         "sourceRefs": [
           2
         ],
-        "smooth": true
+        "smooth": true,
+        "side": "left"
       },
       {
         "name": "cross bottony: lower arm, aft half",
@@ -976,7 +1006,8 @@
         "confidence": "medium",
         "sourceRefs": [
           2
-        ]
+        ],
+        "side": "left"
       },
       {
         "name": "cross bottony: lower arm's bottony end, aft half",
@@ -1045,7 +1076,897 @@
         "sourceRefs": [
           2
         ],
-        "smooth": true
+        "smooth": true,
+        "side": "left"
+      },
+      {
+        "name": "Crossland half: red ground, nose to over the wing (right side: counterchanged)",
+        "color": "mdRed",
+        "points": [
+          [
+            0,
+            1
+          ],
+          [
+            0.488,
+            1
+          ],
+          [
+            0.516,
+            0.351
+          ],
+          [
+            0.559,
+            -0.366
+          ],
+          [
+            0.573,
+            -1
+          ],
+          [
+            0,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ],
+        "side": "right"
+      },
+      {
+        "name": "Crossland: white quarter, lower forward (nose and forward belly) (right side: counterchanged)",
+        "color": "mdWhite",
+        "points": [
+          [
+            0.104,
+            0.155,
+            1
+          ],
+          [
+            0.06942,
+            0.11161
+          ],
+          [
+            0.03403,
+            0.14334
+          ],
+          [
+            0.0169,
+            0.11838
+          ],
+          [
+            0,
+            0.0
+          ],
+          [
+            0,
+            -1.0
+          ],
+          [
+            0.307,
+            -1
+          ],
+          [
+            0.307,
+            0.102
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ],
+        "side": "right"
+      },
+      {
+        "name": "Crossland: white quarter, upper aft (crown over the wing) (right side: counterchanged)",
+        "color": "mdWhite",
+        "points": [
+          [
+            0.307,
+            0.102
+          ],
+          [
+            0.307,
+            1
+          ],
+          [
+            0.488,
+            1
+          ],
+          [
+            0.516,
+            0.351
+          ],
+          [
+            0.495,
+            0.173
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          3
+        ],
+        "side": "right"
+      },
+      {
+        "name": "cross bottony: forward arm, upper half (right side: counterchanged)",
+        "color": "mdWhite",
+        "points": [
+          [
+            0.139,
+            0.298
+          ],
+          [
+            0.307,
+            0.226
+          ],
+          [
+            0.307,
+            0.102
+          ],
+          [
+            0.139,
+            0.137
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2
+        ],
+        "side": "right"
+      },
+      {
+        "name": "cross bottony: forward arm's bottony end, upper half (right side: counterchanged)",
+        "color": "mdWhite",
+        "points": [
+          [
+            0.17,
+            0.124,
+            1
+          ],
+          [
+            0.168,
+            0.209
+          ],
+          [
+            0.165,
+            0.295
+          ],
+          [
+            0.16,
+            0.377
+          ],
+          [
+            0.153,
+            0.451
+          ],
+          [
+            0.145,
+            0.51
+          ],
+          [
+            0.136,
+            0.544
+          ],
+          [
+            0.127,
+            0.544
+          ],
+          [
+            0.119,
+            0.508
+          ],
+          [
+            0.112,
+            0.442
+          ],
+          [
+            0.107,
+            0.356
+          ],
+          [
+            0.103,
+            0.258
+          ],
+          [
+            0.102,
+            0.157,
+            1
+          ],
+          [
+            0.136,
+            0.139
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2
+        ],
+        "smooth": true,
+        "side": "right"
+      },
+      {
+        "name": "cross bottony: forward arm, lower half (right side: counterchanged)",
+        "color": "mdRed",
+        "points": [
+          [
+            0.139,
+            0.137
+          ],
+          [
+            0.307,
+            0.102
+          ],
+          [
+            0.307,
+            -0.019
+          ],
+          [
+            0.139,
+            -0.016
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2
+        ],
+        "side": "right"
+      },
+      {
+        "name": "cross bottony: forward arm's bottony end, lower half (right side: counterchanged)",
+        "color": "mdRed",
+        "points": [
+          [
+            0.102,
+            0.157,
+            1
+          ],
+          [
+            0.103,
+            0.017
+          ],
+          [
+            0.107,
+            -0.11
+          ],
+          [
+            0.112,
+            -0.219
+          ],
+          [
+            0.119,
+            -0.304
+          ],
+          [
+            0.127,
+            -0.354
+          ],
+          [
+            0.136,
+            -0.366
+          ],
+          [
+            0.145,
+            -0.339
+          ],
+          [
+            0.153,
+            -0.281
+          ],
+          [
+            0.16,
+            -0.199
+          ],
+          [
+            0.165,
+            -0.101
+          ],
+          [
+            0.168,
+            0.008
+          ],
+          [
+            0.17,
+            0.124,
+            1
+          ],
+          [
+            0.136,
+            0.139
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2
+        ],
+        "smooth": true,
+        "side": "right"
+      },
+      {
+        "name": "cross bottony: upper arm, forward half (right side: counterchanged)",
+        "color": "mdWhite",
+        "points": [
+          [
+            0.293,
+            1.0
+          ],
+          [
+            0.307,
+            1.0
+          ],
+          [
+            0.307,
+            0.102
+          ],
+          [
+            0.293,
+            0.103
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2
+        ],
+        "side": "right"
+      },
+      {
+        "name": "cross bottony: upper arm's bottony end, forward half (right side: counterchanged)",
+        "color": "mdWhite",
+        "points": [
+          [
+            0.307,
+            1.0,
+            1
+          ],
+          [
+            0.294,
+            1.0
+          ],
+          [
+            0.283,
+            1.0
+          ],
+          [
+            0.273,
+            1.0
+          ],
+          [
+            0.265,
+            1.0
+          ],
+          [
+            0.26,
+            1.0
+          ],
+          [
+            0.259,
+            0.893
+          ],
+          [
+            0.26,
+            0.752
+          ],
+          [
+            0.265,
+            0.667
+          ],
+          [
+            0.273,
+            0.606
+          ],
+          [
+            0.283,
+            0.562
+          ],
+          [
+            0.294,
+            0.534
+          ],
+          [
+            0.307,
+            0.521,
+            1
+          ],
+          [
+            0.307,
+            0.804
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2
+        ],
+        "smooth": true,
+        "side": "right"
+      },
+      {
+        "name": "cross bottony: upper arm, aft half (right side: counterchanged)",
+        "color": "mdRed",
+        "points": [
+          [
+            0.307,
+            1.0
+          ],
+          [
+            0.32,
+            1.0
+          ],
+          [
+            0.32,
+            0.101
+          ],
+          [
+            0.307,
+            0.102
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2
+        ],
+        "side": "right"
+      },
+      {
+        "name": "cross bottony: upper arm's bottony end, aft half (right side: counterchanged)",
+        "color": "mdRed",
+        "points": [
+          [
+            0.307,
+            0.521,
+            1
+          ],
+          [
+            0.315,
+            0.524
+          ],
+          [
+            0.323,
+            0.541
+          ],
+          [
+            0.329,
+            0.572
+          ],
+          [
+            0.334,
+            0.618
+          ],
+          [
+            0.337,
+            0.68
+          ],
+          [
+            0.339,
+            0.764
+          ],
+          [
+            0.337,
+            0.907
+          ],
+          [
+            0.334,
+            1.0
+          ],
+          [
+            0.329,
+            1.0
+          ],
+          [
+            0.323,
+            1.0
+          ],
+          [
+            0.315,
+            1.0
+          ],
+          [
+            0.307,
+            1.0,
+            1
+          ],
+          [
+            0.307,
+            0.804
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2
+        ],
+        "smooth": true,
+        "side": "right"
+      },
+      {
+        "name": "cross bottony: aft arm, upper half (right side: counterchanged)",
+        "color": "mdRed",
+        "points": [
+          [
+            0.307,
+            0.226
+          ],
+          [
+            0.431,
+            0.261
+          ],
+          [
+            0.431,
+            0.139
+          ],
+          [
+            0.307,
+            0.102
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2
+        ],
+        "side": "right"
+      },
+      {
+        "name": "cross bottony: aft arm's bottony end, upper half (right side: counterchanged)",
+        "color": "mdRed",
+        "points": [
+          [
+            0.459,
+            0.154,
+            1
+          ],
+          [
+            0.459,
+            0.245
+          ],
+          [
+            0.457,
+            0.334
+          ],
+          [
+            0.453,
+            0.415
+          ],
+          [
+            0.449,
+            0.482
+          ],
+          [
+            0.444,
+            0.526
+          ],
+          [
+            0.438,
+            0.539
+          ],
+          [
+            0.433,
+            0.518
+          ],
+          [
+            0.427,
+            0.468
+          ],
+          [
+            0.423,
+            0.396
+          ],
+          [
+            0.42,
+            0.313
+          ],
+          [
+            0.418,
+            0.223
+          ],
+          [
+            0.417,
+            0.132,
+            1
+          ],
+          [
+            0.438,
+            0.143
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2
+        ],
+        "smooth": true,
+        "side": "right"
+      },
+      {
+        "name": "cross bottony: aft arm, lower half (right side: counterchanged)",
+        "color": "mdWhite",
+        "points": [
+          [
+            0.307,
+            0.102
+          ],
+          [
+            0.431,
+            0.139
+          ],
+          [
+            0.431,
+            0.023
+          ],
+          [
+            0.307,
+            -0.019
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2
+        ],
+        "side": "right"
+      },
+      {
+        "name": "cross bottony: aft arm's bottony end, lower half (right side: counterchanged)",
+        "color": "mdWhite",
+        "points": [
+          [
+            0.422,
+            0.135,
+            1
+          ],
+          [
+            0.423,
+            0.087
+          ],
+          [
+            0.424,
+            0.043
+          ],
+          [
+            0.427,
+            0.007
+          ],
+          [
+            0.43,
+            -0.02
+          ],
+          [
+            0.434,
+            -0.037
+          ],
+          [
+            0.438,
+            -0.041
+          ],
+          [
+            0.442,
+            -0.032
+          ],
+          [
+            0.446,
+            -0.012
+          ],
+          [
+            0.449,
+            0.019
+          ],
+          [
+            0.452,
+            0.058
+          ],
+          [
+            0.454,
+            0.103
+          ],
+          [
+            0.454,
+            0.152,
+            1
+          ],
+          [
+            0.438,
+            0.143
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2
+        ],
+        "smooth": true,
+        "side": "right"
+      },
+      {
+        "name": "cross bottony: lower arm, forward half (right side: counterchanged)",
+        "color": "mdRed",
+        "points": [
+          [
+            0.293,
+            0.103
+          ],
+          [
+            0.307,
+            0.102
+          ],
+          [
+            0.307,
+            -1.0
+          ],
+          [
+            0.293,
+            -1.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2
+        ],
+        "side": "right"
+      },
+      {
+        "name": "cross bottony: lower arm's bottony end, forward half (right side: counterchanged)",
+        "color": "mdRed",
+        "points": [
+          [
+            0.307,
+            -0.288,
+            1
+          ],
+          [
+            0.294,
+            -0.297
+          ],
+          [
+            0.282,
+            -0.32
+          ],
+          [
+            0.271,
+            -0.355
+          ],
+          [
+            0.263,
+            -0.403
+          ],
+          [
+            0.258,
+            -0.46
+          ],
+          [
+            0.257,
+            -0.526
+          ],
+          [
+            0.258,
+            -0.598
+          ],
+          [
+            0.263,
+            -0.675
+          ],
+          [
+            0.271,
+            -0.753
+          ],
+          [
+            0.282,
+            -0.826
+          ],
+          [
+            0.294,
+            -0.88
+          ],
+          [
+            0.307,
+            -0.881,
+            1
+          ],
+          [
+            0.307,
+            -0.502
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2
+        ],
+        "smooth": true,
+        "side": "right"
+      },
+      {
+        "name": "cross bottony: lower arm, aft half (right side: counterchanged)",
+        "color": "mdWhite",
+        "points": [
+          [
+            0.307,
+            0.102
+          ],
+          [
+            0.32,
+            0.101
+          ],
+          [
+            0.32,
+            -1.0
+          ],
+          [
+            0.307,
+            -1.0
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2
+        ],
+        "side": "right"
+      },
+      {
+        "name": "cross bottony: lower arm's bottony end, aft half (right side: counterchanged)",
+        "color": "mdWhite",
+        "points": [
+          [
+            0.307,
+            -0.881,
+            1
+          ],
+          [
+            0.319,
+            -0.83
+          ],
+          [
+            0.331,
+            -0.76
+          ],
+          [
+            0.342,
+            -0.686
+          ],
+          [
+            0.35,
+            -0.614
+          ],
+          [
+            0.355,
+            -0.544
+          ],
+          [
+            0.356,
+            -0.48
+          ],
+          [
+            0.355,
+            -0.424
+          ],
+          [
+            0.35,
+            -0.376
+          ],
+          [
+            0.342,
+            -0.336
+          ],
+          [
+            0.331,
+            -0.308
+          ],
+          [
+            0.319,
+            -0.291
+          ],
+          [
+            0.307,
+            -0.288,
+            1
+          ],
+          [
+            0.307,
+            -0.502
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2
+        ],
+        "smooth": true,
+        "side": "right"
       },
       {
         "name": "blue dorsal fillet, the fin's blue run forward",
@@ -1453,7 +2374,7 @@
         -0.21
       ],
       "height": 0.05,
-      "color": "white",
+      "color": "mdRed",
       "style": "The state's name, small under the cockpit windows, semi-bold; 'One' follows it in a lighter weight. On the right it reads from the aft end: the name aft, 'One' forward. The right side isn't legible in a photo: placed as the left's mirror.",
       "confidence": "low",
       "sourceRefs": [
@@ -1483,7 +2404,7 @@
         -0.21
       ],
       "height": 0.05,
-      "color": "white",
+      "color": "mdRed",
       "style": "'One' after the name, lighter.",
       "confidence": "low",
       "sourceRefs": [
@@ -1506,5 +2427,5 @@
       "side": "right"
     }
   ],
-  "notes": "Has carried the scheme since 2005 (repainted from Canyon Blue to Heart-era tail). Drawn from 2026 photos of N214WN, both from the left and below (levelled; the aft end is foreshortened). The cross bottony's trefoil ends are drawn as rounded lobes. Both 2026 photos show the left engine unpainted silver-white and the right engine red. The right side is not seen. Re-checked 2026-11-15: the fin is the state jets' Heart fin as re-measured on Colorado One (the same fin on every 737), copied with its 'Southwest' title and flag. 'Maryland One' measured on the January 2026 left photo against the nose and the forward door (1.4-2.4 m back: further forward than on the other state jets, on the red), two weights, a pair of titles per side (the right mirrored: both photos are of the left side), on the red, lower than on the other state jets (y -0.21, as first drawn). The cross bottony's round ends made smooth, the corners where they meet the arms kept sharp. Drawn on the 737-700."
+  "notes": "Has carried the scheme since 2005 (repainted from Canyon Blue to Heart-era tail). Drawn from 2026 photos of N214WN, both from the left and below (levelled; the aft end is foreshortened). The cross bottony's trefoil ends are drawn as rounded lobes. Both 2026 photos show the left engine unpainted silver-white and the right engine red. The right side is not seen. Re-checked 2026-11-15: the fin is the state jets' Heart fin as re-measured on Colorado One (the same fin on every 737), copied with its 'Southwest' title and flag. 'Maryland One' measured on the January 2026 left photo against the nose and the forward door (1.4-2.4 m back: further forward than on the other state jets, on the red), two weights, a pair of titles per side (the right mirrored: both photos are of the left side), on the red, lower than on the other state jets (y -0.21, as first drawn). The cross bottony's round ends made smooth, the corners where they meet the arms kept sharp. Drawn on the 737-700. Nose re-checked 2026-11-27 (N214WN side-on and from the left, October 2025 and January 2026): the red quarter's top edge runs from under the forward door nearly level, just under the windscreen, to the nose tip, so the lower nose and chin are red; it had been a diagonal from the cockpit down to the chin, leaving the nose white with red running down beside it from ahead. Both sides checked separately 2026-11-27 on the owner's review: the right side (LAX 2011-10-11 climbing out, Orlando 2016 from ahead, the 2021 ramp photo) carries the Crossland half counterchanged, red where the left is white and white where it's red: the upper forward fuselage and the crown over the cockpit red, the lower nose and chin white, the flag's arms swapped too. So the chin is red on the left and white on the right, meeting on the belly's centerline, and the crown over the cockpit is white on the left, red on the right. Drawn as left and right areas with the same outlines. The right side's 'Maryland One' is red on the white lower nose (LAX 2011-10-11), white on the red on the left."
 }

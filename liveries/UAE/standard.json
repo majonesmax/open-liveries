@@ -411,13 +411,13 @@
       "place": "engines",
       "at": [
         0.55,
-        0.05
+        0.0
       ],
-      "height": 0.36,
+      "height": 0.9,
       "colors": [
         "gold"
       ],
-      "description": "The Emirates logo: the name in Arabic calligraphy (Diwani-style), a compact knot of strokes about as tall as wide, in gold on the outboard side of each cowling.",
+      "description": "The Emirates logo: the name in Arabic calligraphy (Diwani-style), a compact knot of strokes a little taller than wide, about half the cowling's height, in gold on the outboard side of each cowling.",
       "reference": "https://commons.wikimedia.org/wiki/File:Emirates_logo.svg",
       "confidence": "medium",
       "sourceRefs": [

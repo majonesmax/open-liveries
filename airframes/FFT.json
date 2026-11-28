@@ -3833,7 +3833,7 @@
       "registration": "N604FR",
       "hex": "a7d6a8",
       "type": "A21N",
-      "livery": "FFT/standard",
+      "livery": "americas-green-airline",
       "confidence": "high",
       "sources": [
         {
@@ -3868,13 +3868,13 @@
           "#E0B030"
         ]
       },
-      "notes": "Commons photo 2026-02-11 nose 'Maria the Bald Eagle';  wears Frontier's green 'America's Green Airline / Powered by Pratt & Whitney' scheme (rear fuselage and fin green, the eagle on a green fin), not the sky-blue standard; recorded as 'standard' until that scheme has its own livery file"
+      "notes": "Wears Frontier's green 'America's Green Airline / Powered by Pratt & Whitney' special (FFT/americas-green-airline) in both open photos, 2023-02-06 and 2026-02-11; 'Maria the Bald Eagle' on the nose and the eagle on its green fin."
     },
     {
       "registration": "N605FR",
       "hex": "a7da5f",
       "type": "A21N",
-      "livery": "FFT/standard",
+      "livery": "americas-green-airline",
       "confidence": "medium",
       "sources": [
         {
@@ -3909,7 +3909,7 @@
           "#E0B030"
         ]
       },
-      "notes": "Commons photo 2026-04-30 nose 'Edward the Bald Eagle';  wears Frontier's green 'America's Green Airline / Powered by Pratt & Whitney' scheme (rear fuselage and fin green, the eagle on a green fin), not the sky-blue standard; recorded as 'standard' until that scheme has its own livery file; Frontier page gives Edward's registration as N603FR (typo)"
+      "notes": "Wears Frontier's green 'America's Green Airline / Powered by Pratt & Whitney' special (FFT/americas-green-airline) in both open photos, 2023-01-22 and 2026-04-30; 'Edward the Bald Eagle' on the nose and the eagle on its green fin. Frontier's page gives Edward's registration as N603FR (typo)."
     },
     {
       "registration": "N606FR",
@@ -7051,12 +7051,22 @@
         {
           "url": "https://www.lockonaviation.net/html/fleets.php?fli_shortname=f9",
           "title": "Lockon Aviation: Frontier Airlines fleet list",
-          "accessed": "2026-11-13",
+          "accessed": "2026-11-27",
           "note": "Spotter fleet list; name only, as evidence."
         }
       ],
       "hexSource": "FAA Registry Mode S code (releasable database, 2026-11-12); matches the value derived from the N-number",
-      "notes": "Registered to a Frontier trustee 2026-10-30; no name or photo found yet."
+      "art": {
+        "name": "Rain the Glass Frog",
+        "subject": "Glass frog",
+        "family": "reptile",
+        "colors": [
+          "#7FB83A",
+          "#C8DC6A",
+          "#E6EED8"
+        ]
+      },
+      "notes": "Registered to a Frontier trustee 2026-10-30. No openly licensed photo found; name from a spotter fleet list only (not on Frontier's plane-tails pages as of 2026-11-27). Colors are the species' usual colors, not checked against a photo."
     },
     {
       "registration": "N687FR",
@@ -7073,12 +7083,22 @@
         {
           "url": "https://www.lockonaviation.net/html/fleets.php?fli_shortname=f9",
           "title": "Lockon Aviation: Frontier Airlines fleet list",
-          "accessed": "2026-11-13",
+          "accessed": "2026-11-27",
           "note": "Spotter fleet list; name only, as evidence."
         }
       ],
       "hexSource": "FAA Registry Mode S code (releasable database, 2026-11-12); matches the value derived from the N-number",
-      "notes": "FAA registration not yet certificated (status 4); no name or photo found yet; may not be in service."
+      "art": {
+        "name": "Clipper the Polar Bear",
+        "subject": "Polar bear",
+        "family": "bear",
+        "colors": [
+          "#F0EEE6",
+          "#D8D0BE",
+          "#2A2A2A"
+        ]
+      },
+      "notes": "FAA registration not yet certificated (status 4) in the 2026-11-12 database; may not be in service yet. No openly licensed photo found; name from a spotter fleet list only (not on Frontier's plane-tails pages as of 2026-11-27). Colors are the species' usual colors, not checked against a photo."
     }
   ]
 }

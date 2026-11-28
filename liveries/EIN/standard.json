@@ -30,6 +30,24 @@
       "accessed": "2026-11-13",
       "title": "Aer Lingus Airbus A321neo EI-LRH IAD VA1 (CC BY-SA 4.0)",
       "note": "Left side, 2025-04-30."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:EI-DES_AIRCRAFT_Airbus_A320-214.jpg",
+      "accessed": "2026-11-27",
+      "title": "EI-DES AIRCRAFT Airbus A320-214.jpg (CC BY-SA 4.0, Sg1959)",
+      "note": "EI-DES left side, 2026-07-23: 'Aer Lingus' then the shamrock, aft."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A320-214_(c-n_2635,_EI-DES)_2026-04-16_Andre_Gerwing_Collection_ID_028456.jpg",
+      "accessed": "2026-11-27",
+      "title": "EI-DES, 2026-04-16 (CC BY-SA 4.0, André Gerwing)",
+      "note": "EI-DES right side: the shamrock forward of the title, behind door 1."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:EI-DES_AIRCRAFT_Airbus_A320-214.jpg",
+      "accessed": "2026-11-27",
+      "title": "EI-DES AIRCRAFT Airbus A320-214.jpg (CC BY-SA 4.0, Sg1959)",
+      "note": "Fitted to the A320 shape (tools/photo_trace.py, doors pinned, camera 4 degrees below): the fin's shamrock measured, its leaves x 0.24-0.71 and y 0.03-0.60 at its middle, centered at x 0.53, y 0.315."
     }
   ],
   "palette": {
@@ -153,40 +171,58 @@
       "mark": "EIN/shamrock",
       "place": "fin",
       "at": [
-        0.36,
-        0.33
+        0.54,
+        0.315
       ],
-      "height": 0.48,
+      "height": 0.565,
       "colors": [
         "shamrock"
       ],
-      "description": "The Aer Lingus shamrock, simplified in 2019: three heart-shaped leaves round a point with a short curved stem, flat light green, large on the teal fin.",
+      "description": "The Aer Lingus shamrock, simplified in 2019: three heart-shaped leaves round a point with a short curved stem, flat light green, large on the teal fin. Measured 2026-11-27 on EI-LRH (A321neo) and EI-DES (A320), left sides fitted to their shapes: the same on both, its leaves x 0.28-0.70 and y 0.03-0.60 at its middle, centered at x 0.54, y 0.315. Not symmetric: the top leaf leans aft, the stem curves down toward the leading edge, the same picture on both sides (not mirrored).",
       "reference": "https://commons.wikimedia.org/wiki/File:Aer_Lingus_Airbus_A321neo_EI-LRH_IAD_VA2.jpg",
       "confidence": "high",
       "sourceRefs": [
         1,
-        2,
-        3
+        6
       ]
     },
     {
       "mark": "EIN/shamrock",
       "place": "fuselage",
       "at": [
-        0.28,
-        0.53
+        0.29,
+        0.5
       ],
       "height": 0.3,
       "colors": [
         "shamrock"
       ],
-      "description": "The shamrock again, small, just after the 'Aer Lingus' title.",
+      "description": "The shamrock again, small, just after the 'Aer Lingus' title: aft of it on the left.",
       "reference": "https://commons.wikimedia.org/wiki/File:Aer_Lingus_Airbus_A321neo_EI-LRH_IAD_VA2.jpg",
       "confidence": "medium",
       "sourceRefs": [
-        1,
-        3
-      ]
+        4
+      ],
+      "side": "left"
+    },
+    {
+      "mark": "EIN/shamrock",
+      "place": "fuselage",
+      "at": [
+        0.12,
+        0.5
+      ],
+      "height": 0.3,
+      "colors": [
+        "shamrock"
+      ],
+      "description": "The same after the title as read from the right: forward of it, just behind door 1.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Aer_Lingus_Airbus_A321neo_EI-LRH_IAD_VA2.jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        5
+      ],
+      "side": "right"
     },
     {
       "mark": "EIN/flag",
@@ -240,6 +276,94 @@
       "length": 0.119
     }
   ],
-  "notes": "Measured on A321neo EI-LRH (left side side-on, right side from below). The diagonal is a straight line in side view. The aircraft names under the forward windows and the reg on the fin tip are not drawn. A330s and A320s share the scheme; some A320ceos may still wear the 1990s scheme (white over green belly, 'aer lingus' in green, green fin with the white shamrock) until repainted. Re-checked 2026-11-15 on EI-LRH (left side, near side-on, 2025-04-30): the title runs x 0.143-0.262, its baseline about 0.25 m over the window tops and its capitals about 0.5 m tall (it had sat higher, y 0.47); lowercase 0.63 of the capitals; the straight diagonal reduced to its ends.",
-  "history": "Replaced Skyarium v1's approximation (2026-11). The 2019 scheme replaced the green-belly livery with the white shamrock on a green tail."
+  "notes": "Measured on A321neo EI-LRH (left side side-on, right side from below). The diagonal is a straight line in side view. The aircraft names under the forward windows and the reg on the fin tip are not drawn. A330s and A320s share the scheme; some A320ceos may still wear the 1990s scheme (white over green belly, 'aer lingus' in green, green fin with the white shamrock) until repainted. Re-checked 2026-11-15 on EI-LRH (left side, near side-on, 2025-04-30): the title runs x 0.143-0.262, its baseline about 0.25 m over the window tops and its capitals about 0.5 m tall (it had sat higher, y 0.47); lowercase 0.63 of the capitals; the straight diagonal reduced to its ends. 2026-11-27: the small shamrock after the title placed per side, as EI-DES shows it (A320, left 2026-07-23, right 2026-04-16): aft of the title on the left, forward of it on the right, just behind door 1 (one place for both had it sitting on the title's 'g'); on the A320 the left one further aft (types.A320). 2026-11-27: the fin's shamrock re-placed from the photos: bigger (its leaves 0.56 of the fin's height) and further aft (centered x 0.54, y 0.315), the same on the A320 (EI-DES) and the A321neo (EI-LRH); it had sat small and forward at x 0.36. Its mark (Skyarium's EIN/shamrock) is now traced off EI-LRH.",
+  "history": "Replaced Skyarium v1's approximation (2026-11). The 2019 scheme replaced the green-belly livery with the white shamrock on a green tail.",
+  "types": {
+    "A320": {
+      "note": "On the A320 the title runs further aft for its length (x 0.167 to 0.33 on EI-DES's left side, 2026-07-23), so the small shamrock after it on the left sits at x 0.35.",
+      "confidence": "medium",
+      "sourceRefs": [
+        4
+      ],
+      "logos": [
+        {
+          "mark": "EIN/shamrock",
+          "place": "fin",
+          "at": [
+            0.54,
+            0.315
+          ],
+          "height": 0.565,
+          "colors": [
+            "shamrock"
+          ],
+          "description": "The Aer Lingus shamrock, simplified in 2019: three heart-shaped leaves round a point with a short curved stem, flat light green, large on the teal fin.",
+          "reference": "https://commons.wikimedia.org/wiki/File:Aer_Lingus_Airbus_A321neo_EI-LRH_IAD_VA2.jpg",
+          "confidence": "high",
+          "sourceRefs": [
+            1,
+            6
+          ]
+        },
+        {
+          "mark": "EIN/shamrock",
+          "place": "fuselage",
+          "at": [
+            0.35,
+            0.5
+          ],
+          "height": 0.3,
+          "colors": [
+            "shamrock"
+          ],
+          "description": "The shamrock again, small, just after the 'Aer Lingus' title: aft of it on the left.",
+          "reference": "https://commons.wikimedia.org/wiki/File:Aer_Lingus_Airbus_A321neo_EI-LRH_IAD_VA2.jpg",
+          "confidence": "medium",
+          "sourceRefs": [
+            4
+          ],
+          "side": "left"
+        },
+        {
+          "mark": "EIN/shamrock",
+          "place": "fuselage",
+          "at": [
+            0.12,
+            0.5
+          ],
+          "height": 0.3,
+          "colors": [
+            "shamrock"
+          ],
+          "description": "The same after the title as read from the right: forward of it, just behind door 1.",
+          "reference": "https://commons.wikimedia.org/wiki/File:Aer_Lingus_Airbus_A321neo_EI-LRH_IAD_VA2.jpg",
+          "confidence": "medium",
+          "sourceRefs": [
+            5
+          ],
+          "side": "right"
+        },
+        {
+          "mark": "EIN/flag",
+          "place": "fuselage",
+          "at": [
+            0.712,
+            0.08
+          ],
+          "height": 0.06,
+          "colors": [
+            "#169B62",
+            "white",
+            "#FF883E"
+          ],
+          "description": "A small Irish tricolor just after the registration, under the rear windows.",
+          "reference": "https://commons.wikimedia.org/wiki/File:Flag_of_Ireland.svg",
+          "confidence": "low",
+          "sourceRefs": [
+            1
+          ]
+        }
+      ]
+    }
+  }
 }

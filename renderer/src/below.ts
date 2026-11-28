@@ -6,7 +6,7 @@ import type { Livery, Point } from './scheme.js';
 import { fromHeight, HALVES, halfSign } from './geometry.js';
 import type { Geometry, Half } from './geometry.js';
 import { drawLogo, drawTitle } from './labels.js';
-import { stubPylonPaint } from './paint.js';
+import { areaFill, stubPylonPaint } from './paint.js';
 import { areaPolygon, createCanvas, densify, densifyArea, showsOn, svgElement } from './svg.js';
 import type { Canvas, DrawOptions, Element } from './svg.js';
 
@@ -133,11 +133,8 @@ function drawFuselage(livery: Livery, canvas: Canvas, geometry: Geometry): void 
       if (!showsOn(area, half)) continue;
       const outline = areaPolygon(area, -1, 1, [-1, 1], true);
       const dense = area.smooth === true ? densifyArea(outline) : densify(outline);
-      polygon(
-        dense.map(([x, h]) => onHalf([x, fromHeight(h)])),
-        color(area.color),
-        group,
-      );
+      const drawn = dense.map(([x, h]) => onHalf([x, fromHeight(h)]));
+      polygon(drawn, areaFill(area, dense, drawn, canvas, true), group);
     }
     if (fuselage.radome) {
       const to = fuselage.radome.to ?? 0.025;

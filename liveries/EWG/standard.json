@@ -35,6 +35,12 @@
       "url": "https://commons.wikimedia.org/wiki/Category:D-AENH_(aircraft)",
       "accessed": "2026-11-13",
       "note": "A320neo D-AENH, 2025-10 to 2026-05: same scheme."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A320-214_(c-n_7439,_D-AEWS)_2026-02-27_Andre_Gerwing_Collection_ID_027960.jpg",
+      "accessed": "2026-11-27",
+      "title": "D-AEWS, 2026-02-27 (CC BY-SA 4.0, André Gerwing)",
+      "note": "A320 left side in sun, fitted to the A320 shape (tools/photo_trace.py, doors pinned): the burgundy's top edge followed column by column in fin space: a curve, rising from the leading edge's light strip and flattening toward the trailing edge."
     }
   ],
   "palette": {
@@ -419,8 +425,8 @@
             0.33
           ],
           [
-            0.107,
-            0.388
+            0.085,
+            0.3
           ],
           [
             0.083,
@@ -437,29 +443,73 @@
         ]
       },
       {
-        "name": "burgundy sweep",
+        "name": "burgundy sweep: its top edge a curve, rounding down into the leading edge's light strip and flattening as it runs aft to the trailing edge",
         "color": "burgundy",
         "points": [
           [
-            0.107,
-            0.388
+            0.16,
+            -0.073,
+            1
+          ],
+          [
+            0.19,
+            0.03
+          ],
+          [
+            0.197,
+            0.15
+          ],
+          [
+            0.208,
+            0.24
+          ],
+          [
+            0.218,
+            0.296
+          ],
+          [
+            0.24,
+            0.34
+          ],
+          [
+            0.276,
+            0.387
+          ],
+          [
+            0.316,
+            0.415
+          ],
+          [
+            0.38,
+            0.436
+          ],
+          [
+            0.467,
+            0.453
+          ],
+          [
+            0.6,
+            0.462
+          ],
+          [
+            0.764,
+            0.468
           ],
           [
             0.994,
-            0.476
+            0.478,
+            1
           ],
           [
             0.735,
-            -0.073
-          ],
-          [
-            0.097,
-            -0.073
-          ],
-          [
-            0.092,
-            0.073
+            -0.073,
+            1
           ]
+        ],
+        "smooth": true,
+        "sourceRefs": [
+          0,
+          5
         ]
       },
       {
@@ -467,7 +517,7 @@
         "color": "magenta",
         "points": [
           [
-            0.172,
+            0.2,
             -0.073
           ],
           [
@@ -589,6 +639,6 @@
       "length": 0.045
     }
   ],
-  "notes": "Left side drawn from D-AEWS (A320, 2025-10-17, Düsseldorf); right side seen on D-AENI and D-AENH. A320neos also carry a temporary 'A320neo – less noise, less fuel, less CO2' sticker under the title (not drawn). The registration is preceded by small EU and German flags. The belly isn't seen in the photos used: left white. A June 2026 brand refresh (new logo and typeface) hasn't reached the paint on aircraft photographed through September 2026. Re-checked 2026-11-15 on D-AEWS fitted to the A320 shape: the title's baseline is just above the windows (y 0.34; it had been drawn across them), cap 0.35, running x 0.158-0.321; lowercase 0.68 of the E; the swooshes drawn as curves.",
+  "notes": "Left side drawn from D-AEWS (A320, 2025-10-17, Düsseldorf); right side seen on D-AENI and D-AENH. A320neos also carry a temporary 'A320neo – less noise, less fuel, less CO2' sticker under the title (not drawn). The registration is preceded by small EU and German flags. The belly isn't seen in the photos used: left white. A June 2026 brand refresh (new logo and typeface) hasn't reached the paint on aircraft photographed through September 2026. Re-checked 2026-11-15 on D-AEWS fitted to the A320 shape: the title's baseline is just above the windows (y 0.34; it had been drawn across them), cap 0.35, running x 0.158-0.321; lowercase 0.68 of the E; the swooshes drawn as curves. 2026-11-27: the burgundy's top on the fin is a curve, not the straight diagonal with a corner at the leading edge it had been: measured on D-AEWS (left, 2026-02-27) and checked on the right side (D-AENI), its front edge runs up about 0.2 of the chord behind the leading edge (white ahead of it, the thin gray line on the leading edge kept), rounds over at y 0.3-0.4 and runs aft nearly level, meeting the trailing edge at y 0.48.",
   "history": "Replaces Skyarium v1's approximation (a purple fin with a magenta band). The 2015 scheme replaced Germanwings' and the old Eurowings' liveries."
 }

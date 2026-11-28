@@ -155,10 +155,6 @@
         "smooth": true
       }
     ],
-    "radome": {
-      "color": "white",
-      "to": 0.025
-    },
     "windows": "plain",
     "confidence": "medium",
     "sourceRefs": [
@@ -876,5 +872,5 @@
       "length": 0.089
     }
   ],
-  "notes": "Drawn from one left-side photo (Tampa, Nov 2023), the newest on Commons; no 2024-2026 photo found. Faint pale-gray zigzag bands show on the white aft fuselage (continuing the fin's pattern); too faint to place, not drawn. The fin's zigzag bands are approximate in count and tooth shape. The right side and belly are not seen: the teal is taken to wrap the belly. Re-checked 2026-11-15 on N580UW (2023-11-09): 'American' x 0.152-0.241; the red/teal split's rise at the nose and drop to the belly aft drawn as curves. No measured A321 shape yet."
+  "notes": "Drawn from one left-side photo (Tampa, Nov 2023), the newest on Commons; no 2024-2026 photo found. Faint pale-gray zigzag bands show on the white aft fuselage (continuing the fin's pattern); too faint to place, not drawn. The fin's zigzag bands are approximate in count and tooth shape. The right side and belly are not seen: the teal is taken to wrap the belly. Re-checked 2026-11-15 on N580UW (2023-11-09): 'American' x 0.152-0.241; the red/teal split's rise at the nose and drop to the belly aft drawn as curves. No measured A321 shape yet. Nose re-checked 2026-11-27 head-on and from below (N838AW, the same scheme on an A319, 2013-2017 Commons photos, and N580UW 2023): the nose cone is not a separate white cap. The red pinstripe runs to the nose front and crosses it just under the tip, and the teal wraps the chin."
 }

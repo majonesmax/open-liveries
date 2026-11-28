@@ -49,3 +49,37 @@ export function partOutlines(parts) {
 export function finFaceX(livery, side) {
     return livery.fin?.mirrored === false && side === 'right' ? (x) => 1 - x : (x) => x;
 }
+/**
+ * Where a fin's logos and lettering may show, besides inside its outline (which runs on down inside the body, under
+ * the fuselage): above the fuselage's crown, as they're drawn over it; and on a fin with a fillet, not below its
+ * root aft of the leading edge, the tail cone's top, which the fin's own paint leaves to the crown's (`drawFin`).
+ * Ahead of the leading edge is the fillet, faired into the fin: the fin's art runs onto it (United's globe).
+ */
+export function finLabelClips(parts) {
+    const { measured } = parts.geometry;
+    const far = 10 * VIEW_WIDTH;
+    const xs = measured?.fuselageSamples ?? Array.from({ length: 121 }, (_, i) => i / 120);
+    const crown = xs.map((x) => parts.fuselage(x, 1));
+    const [nose, tail] = [crown[0], crown.at(-1)];
+    const aft = Math.sign(tail[0] - nose[0]);
+    const aboveCrown = [
+        [nose[0], far],
+        ...crown,
+        [tail[0], far],
+        [tail[0] + aft * far, far],
+        [tail[0] + aft * far, -far],
+        [nose[0] - aft * far, -far],
+        [nose[0] - aft * far, far],
+    ];
+    if (!measured?.finFillet)
+        return [aboveCrown];
+    const offTheFoot = [
+        [-3, -1],
+        [0, -1],
+        [0, 0],
+        [3, 0],
+        [3, 2],
+        [-3, 2],
+    ];
+    return [aboveCrown, densify(offTheFoot).map(([x, y]) => parts.fin(x, y))];
+}

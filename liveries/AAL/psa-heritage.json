@@ -82,15 +82,41 @@
         "points": [
           [
             0.0,
-            0.05
+            1.0
           ],
           [
-            0.02,
-            0.18
+            0.0304,
+            1.0
           ],
           [
-            0.05,
-            0.25
+            0.03258,
+            0.77471,
+            1
+          ],
+          [
+            0.03932,
+            0.89484,
+            1
+          ],
+          [
+            0.04601,
+            0.59144,
+            1
+          ],
+          [
+            0.05073,
+            0.51778,
+            1
+          ],
+          [
+            0.06464,
+            0.40827,
+            1
+          ],
+          [
+            0.08111,
+            0.34207,
+            1
           ],
           [
             0.1,
@@ -119,16 +145,34 @@
             0.04
           ],
           [
-            0.06,
-            -0.06
+            0.07504,
+            0.07399,
+            1
           ],
           [
-            0.03,
-            -0.2
+            0.05073,
+            0.14488,
+            1
           ],
           [
-            0.005,
-            -0.2
+            0.04223,
+            0.21283,
+            1
+          ],
+          [
+            0.03116,
+            0.38187,
+            1
+          ],
+          [
+            0.0202,
+            0.52502,
+            1
+          ],
+          [
+            0.012,
+            0.78464,
+            1
           ]
         ],
         "confidence": "medium",
@@ -140,20 +184,38 @@
         "smooth": true
       },
       {
-        "name": "red cheatline under the windows, sweeping down round the chin",
+        "name": "red cheatline under the windows, its foot level to the smile; ahead of the smile it runs down to the chin",
         "color": "red",
         "points": [
           [
-            0.005,
-            -0.2
+            0.012,
+            0.78464,
+            1
           ],
           [
-            0.03,
-            -0.2
+            0.0202,
+            0.52502,
+            1
           ],
           [
-            0.06,
-            -0.06
+            0.03116,
+            0.38187,
+            1
+          ],
+          [
+            0.04223,
+            0.21283,
+            1
+          ],
+          [
+            0.05073,
+            0.14488,
+            1
+          ],
+          [
+            0.07504,
+            0.07399,
+            1
           ],
           [
             0.1,
@@ -182,20 +244,36 @@
             -0.28
           ],
           [
-            0.075,
-            -0.33
+            0.047,
+            -0.25635,
+            1
           ],
           [
-            0.05,
-            -0.5
+            0.04534,
+            -0.27378,
+            1
           ],
           [
-            0.03,
-            -0.72
+            0.03577,
+            -0.3992,
+            1
+          ],
+          [
+            0.02952,
+            -0.54637,
+            1
+          ],
+          [
+            0.02323,
+            -1.0
+          ],
+          [
+            0.022,
+            -1.0
           ],
           [
             0.012,
-            -0.6
+            -1.0
           ]
         ],
         "confidence": "medium",
@@ -207,47 +285,71 @@
         "smooth": true
       },
       {
-        "name": "the PSA smile: a thin black curve under the red on the lower nose",
+        "name": "the PSA smile: a thin black line from the red's foot about 2.1 m back, running down and forward to the chin",
         "color": "black",
         "points": [
           [
-            0.028,
-            -0.8
+            0.047,
+            -0.25635,
+            1
           ],
           [
-            0.048,
-            -0.56
+            0.04534,
+            -0.27378,
+            1
           ],
           [
-            0.072,
-            -0.36
+            0.03577,
+            -0.3992,
+            1
           ],
           [
-            0.1,
-            -0.3
+            0.02952,
+            -0.54637,
+            1
           ],
           [
-            0.1,
-            -0.325
+            0.02323,
+            -1.0
           ],
           [
-            0.075,
-            -0.39
+            0.022,
+            -1.0
           ],
           [
-            0.052,
-            -0.6
+            0.0247,
+            -1.0
           ],
           [
-            0.034,
-            -0.83
+            0.02588,
+            -1.0
+          ],
+          [
+            0.03116,
+            -0.58709,
+            1
+          ],
+          [
+            0.03577,
+            -0.4614,
+            1
+          ],
+          [
+            0.04316,
+            -0.33924,
+            1
+          ],
+          [
+            0.0497,
+            -0.25895,
+            1
           ]
         ],
         "confidence": "medium",
         "sourceRefs": [
           4
         ],
-        "smooth": true
+        "smooth": false
       }
     ],
     "radome": {
@@ -479,6 +581,6 @@
       }
     }
   ],
-  "notes": "Drawn from three dated photos of N582UW (2024-02-15, 2025-11-18), all of the left side. The fin title shows only as 'PS' before the tailplane; 'PSA' is from the scheme's description. The belly is plain silver in the departing shots; the right side not seen. Re-checked 2026-11-15: the cheatlines' wrap round the nose, the smile and the fin's sweeping bands drawn as curves (straight runs kept straight by corners at their aft ends); 'American' (x 0.20-0.285) agrees with the doors on the 2024-02-15 photo; 'PSA' on the fin is given a length of 0.35 of the chord, an estimate, since the tailplane hides its end in every photo. No measured A321 shape yet.",
+  "notes": "Drawn from three dated photos of N582UW (2024-02-15, 2025-11-18), all of the left side. The fin title shows only as 'PS' before the tailplane; 'PSA' is from the scheme's description. The belly is plain silver in the departing shots; the right side not seen. Re-checked 2026-11-15: the cheatlines' wrap round the nose, the smile and the fin's sweeping bands drawn as curves (straight runs kept straight by corners at their aft ends); 'American' (x 0.20-0.285) agrees with the doors on the 2024-02-15 photo; 'PSA' on the fin is given a length of 0.35 of the chord, an estimate, since the tailplane hides its end in every photo. No measured A321 shape yet. Nose re-checked 2026-11-27 (front three-quarter at Charlotte 2024-02-15, side-on departing Boston 2025-11-18): the orange runs level just over the cabin windows to the windscreen and down its front edge to the nose cone, so the cockpit windows sit in the orange and it crosses the nose front under the windscreen; the nose cone is black, as at Charlotte in 2024 and per the owner (the November 2025 photos, lit by a low sun, show it unpainted). Re-checked once more on the owner's review: the red's foot runs level along the side, unbroken (owner's review), and from it, about 2.1 m back, the smile runs nearly straight down and forward to the chin about 1 m back, with red ahead of it: it had been drawn sweeping down and forward from the red's foot the other way.",
   "history": "Previously on A319 N742PS."
 }

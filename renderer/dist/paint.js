@@ -18,8 +18,74 @@ heights = false) {
         // A curve's own points are close already; a straight outline gets points along every edge, as always.
         const dense = area.smooth === true ? densifyArea(outline) : densify(outline);
         const polygon = dense.map(([x, y]) => mapping(x, heights ? fromHeight(y) : y));
-        canvas.polygon(polygon, canvas.color(area.color), parent);
+        canvas.polygon(polygon, areaFill(area, dense, polygon, canvas, heights), parent);
     }
+}
+/**
+ * An area's fill: its color, or its gradient (docs/COORDINATES.md › Gradients) laid over the drawing. `outline` is
+ * the area's outline in its part's space (side-view heights on the fuselage, `heights`) and `drawn` the same points
+ * where they're drawn. The part's space is mapped to the drawing by the affine map that fits those points best, so
+ * the fade's lines across it fall where they are in the part's space: exactly where the mapping is affine (a flat
+ * texture, a straight-edged fin's band), within the area's bend elsewhere.
+ */
+export function areaFill(area, outline, drawn, canvas, heights = false) {
+    const g = area.gradient;
+    const fallback = canvas.color(area.color);
+    if (!g || g.stops.length === 0)
+        return fallback;
+    const stops = g.stops.map(([offset, color]) => [offset, canvas.color(color, fallback)]);
+    const own = (p) => [p[0], heights ? toHeight(p[1]) : p[1]];
+    const ends = gradientEnds(outline, drawn, own(g.from), own(g.to));
+    return ends ? canvas.gradient(stops, ...ends) : fallback;
+}
+/**
+ * Where a gradient from `from` to `to` in a part's space runs in a drawing, given points of the part (`source`) and
+ * where they're drawn (`drawn`): through the best-fitting affine map, so its lines of one paint stay those of the
+ * part's space. Undefined when the points don't span an area or the gradient has no length.
+ */
+export function gradientEnds(source, drawn, from, to) {
+    const pairs = source.slice(0, drawn.length).map((p, i) => [p, drawn[i] ?? p]);
+    const n = pairs.length;
+    if (n < 3)
+        return undefined;
+    // Least squares, centered: drawn − its mean = A (source − its mean).
+    const mean = (k, c) => pairs.reduce((sum, pair) => sum + pair[k][c], 0) / n;
+    const [sx, sy, dx, dy] = [mean(0, 0), mean(0, 1), mean(1, 0), mean(1, 1)];
+    let [xx, xy, yy, ux, uy, vx, vy] = [0, 0, 0, 0, 0, 0, 0];
+    for (const [[px, py], [qx, qy]] of pairs) {
+        const [a, b, u, v] = [px - sx, py - sy, qx - dx, qy - dy];
+        xx += a * a;
+        xy += a * b;
+        yy += b * b;
+        ux += u * a;
+        uy += u * b;
+        vx += v * a;
+        vy += v * b;
+    }
+    const det = xx * yy - xy * xy;
+    if (Math.abs(det) < 1e-12 * (xx * yy || 1))
+        return undefined;
+    // A = [[a11, a12], [a21, a22]], each row solving its drawn coordinate.
+    const a11 = (ux * yy - uy * xy) / det, a12 = (uy * xx - ux * xy) / det;
+    const a21 = (vx * yy - vy * xy) / det, a22 = (vy * xx - vx * xy) / det;
+    const at = (p) => [
+        dx + a11 * (p[0] - sx) + a12 * (p[1] - sy),
+        dy + a21 * (p[0] - sx) + a22 * (p[1] - sy),
+    ];
+    // The fade's direction in the part's space, d = to − from, carried over as A^−T d / |d|²: the drawing's gradient
+    // vector, square to its lines of one paint.
+    const ex = to[0] - from[0], ey = to[1] - from[1];
+    const length2 = ex * ex + ey * ey;
+    const aDet = a11 * a22 - a12 * a21;
+    if (length2 === 0 || Math.abs(aDet) < 1e-12)
+        return undefined;
+    const gx = (a22 * ex - a21 * ey) / aDet / length2;
+    const gy = (-a12 * ex + a11 * ey) / aDet / length2;
+    const g2 = gx * gx + gy * gy;
+    if (g2 === 0)
+        return undefined;
+    const start = at(from);
+    return [start, [start[0] + gx / g2, start[1] + gy / g2]];
 }
 /** The fuselage's paint at (x, y), as the scheme names it: its last area there, else its base. */
 function bodyPaint(livery, side, x, y) {

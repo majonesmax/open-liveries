@@ -7,7 +7,7 @@
   "from": "2014",
   "confidence": "medium",
   "drawnOn": "B738",
-  "description": "Fuselage: Silver fuselage. Cheatlines: Stacked stripes along the window line full length: yellow (top), orange/red, magenta/purple, then dark navy (bottom). Tail: Silver fin with the same stripes (yellow, orange-red, magenta) fanning up the lower aft fin; 'AirCal' in navy italic capitals above them. Engines: Silver. Winglets: Silver. Titles: Standard 'American' forward. Artwork: none. Colors hex: approximate.",
+  "description": "Fuselage: Silver fuselage. Cheatlines: Stacked stripes along the window line full length: yellow (top), orange/red, magenta/purple, then dark navy (bottom). Tail: Silver fin with level magenta, orange-red and yellow bands up the lower aft fin, cut forward by one straight diagonal rising aft from just behind the leading edge's foot to the trailing edge at about 0.6 up; 'AirCal' in navy italic capitals sitting on that diagonal, parallel to it. Engines: Silver. Winglets: Silver. Titles: Standard 'American' forward. Artwork: none. Colors hex: approximate.",
   "sources": [
     {
       "url": "https://simpleflying.com/american-special-liveries/",
@@ -343,20 +343,32 @@
     "base": "silver",
     "areas": [
       {
-        "name": "magenta band at the root, behind a diagonal from the leading edge's foot",
+        "name": "magenta band at the root, level, up to 0.22; its forward end cut by the diagonal rising aft from just behind the leading edge's foot",
         "color": "magenta",
         "points": [
           [
-            0.03,
+            0.052,
             0
           ],
           [
-            0.22,
-            0.16
+            0.095,
+            0.05
+          ],
+          [
+            0.14,
+            0.1
+          ],
+          [
+            0.19,
+            0.15
+          ],
+          [
+            0.268,
+            0.218
           ],
           [
             1,
-            0.22
+            0.218
           ],
           [
             1,
@@ -366,61 +378,80 @@
         "confidence": "medium",
         "sourceRefs": [
           2,
-          3
+          3,
+          5
         ]
       },
       {
-        "name": "orange-red band",
+        "name": "orange-red band, level, 0.22 to 0.41, cut forward by the same diagonal",
         "color": "orange",
         "points": [
           [
-            0.22,
-            0.16
+            0.268,
+            0.218
           ],
           [
-            0.55,
-            0.37
+            0.37,
+            0.3
+          ],
+          [
+            0.443,
+            0.35
+          ],
+          [
+            0.536,
+            0.407
           ],
           [
             1,
-            0.4
+            0.407
           ],
           [
             1,
-            0.22
+            0.218
           ]
         ],
         "confidence": "medium",
         "sourceRefs": [
           2,
-          3
+          3,
+          5
         ]
       },
       {
-        "name": "yellow band, a wedge reaching the trailing edge",
+        "name": "yellow band on top, level underneath from 0.41; the diagonal over it reaches the trailing edge at 0.61",
         "color": "yellow",
         "points": [
           [
-            0.55,
-            0.37
+            0.536,
+            0.407
           ],
           [
-            0.95,
-            0.54
+            0.615,
+            0.45
+          ],
+          [
+            0.717,
+            0.5
+          ],
+          [
+            0.834,
+            0.55
           ],
           [
             1,
-            0.56
+            0.611
           ],
           [
             1,
-            0.4
+            0.407
           ]
         ],
         "confidence": "medium",
         "sourceRefs": [
           2,
-          3
+          3,
+          5
         ]
       }
     ],
@@ -483,15 +514,15 @@
   ],
   "titles": [
     {
-      "text": "AirCal",
+      "text": "AIRCAL",
       "place": "fin",
       "at": [
-        0.1,
-        0.12
+        0.172,
+        0.173
       ],
-      "height": 0.12,
+      "height": 0.097,
       "color": "navy",
-      "style": "AirCal's logotype in heavy, wide italic capitals (the I small), set at an angle rising aft along the leading edge's sweep, above the bands; start at the foot of the leading edge, end near the trailing edge at about 0.45 up.",
+      "style": "AirCal's logotype in heavy, wide italic capitals, the I a little shorter than the rest, the A without a crossbar and a small tricolor wedge inside it (not drawn). Its baseline sits on the diagonal that cuts the fin's bands, parallel to it, about 0.13 m above the paint. On the left it starts just ahead of where the orange band meets the diagonal and ends short of the trailing edge above the yellow; on the right the A starts above the yellow near the trailing edge and the L ends near the leading edge.",
       "confidence": "medium",
       "sourceRefs": [
         3,
@@ -508,8 +539,8 @@
         "strokes": "uniform",
         "case": "upper"
       },
-      "rotationDeg": 36,
-      "length": 0.9
+      "rotationDeg": 38.5,
+      "length": 0.935
     },
     {
       "text": "American",
@@ -543,5 +574,5 @@
       }
     }
   ],
-  "notes": "Drawn from three dated photos of N917NN, all of the left side (2023-02-26, 2024-06-23, 2025-04-11). The tail cone under the tailplane is partly hidden in every shot. The stripes run lower forward of about x 0.33, clearing room for the American title, and step up aft of it. Colors in the 2024 shot are film-shifted; the 2025 shot set them. Belly and the right side not seen. Re-checked 2026-11-15 on the right side (N917NN, 2023): 'AirCal' on the fin is turned about 36 degrees, rising aft from the leading edge's foot (fin x 0.02, y 0.15) to mid-chord at about half height; the fuselage title runs x 0.214-0.324 measured against the doors (737-800), as drawn."
+  "notes": "Drawn from three dated photos of N917NN, all of the left side (2023-02-26, 2024-06-23, 2025-04-11). The tail cone under the tailplane is partly hidden in every shot. The stripes run lower forward of about x 0.33, clearing room for the American title, and step up aft of it. Colors in the 2024 shot are film-shifted; the 2025 shot set them. Belly and the right side not seen. Re-checked 2026-11-15 on the right side (N917NN, 2023): 'AirCal' on the fin is turned about 36 degrees, rising aft from the leading edge's foot (fin x 0.02, y 0.15) to mid-chord at about half height; the fuselage title runs x 0.214-0.324 measured against the doors (737-800), as drawn. Measured again 2026-11-27 on the right-side photo (2023) with the fin's edges traced row by row, checked against the 2024, 2025 and Boston (2023) left sides: the bands are level (magenta 0 to 0.22, orange 0.22 to 0.41, yellow 0.41 up), and their forward ends are one straight diagonal at about 38.5 degrees on the fin as built, from x 0.05 at the root to the trailing edge at 0.61. AIRCAL's baseline sits on it about 0.13 m above, parallel, about 4.2 m long, cap height about 0.75 m. The left side's photos put the A a little further from the leading edge than the right side's L; the title is placed between the two."
 }

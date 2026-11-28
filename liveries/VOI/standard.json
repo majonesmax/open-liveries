@@ -6,7 +6,7 @@
   "kind": "standard",
   "confidence": "medium",
   "drawnOn": "A21N",
-  "description": "White fuselage; 'volaris' in large navy lower case over the forward windows and 'volaris.com' small over the rear windows; the fin navy with a mosaic of square 'pixels' in magenta, green, cyan and white forming a V; magenta engines with a white star; navy winglets.",
+  "description": "White fuselage; 'volaris' in large navy lower case over the forward windows and 'volaris.com' small over the rear windows; the fin near-black with a cross of square 'pixels' round a white centre: magenta and pink on the left, greens on the right, blues above; magenta engines with a white star; navy winglets.",
   "sources": [
     {
       "url": "https://en.wikipedia.org/wiki/Volaris",
@@ -24,6 +24,24 @@
       "title": "Volaris A321-271NX (XA-VST) at MLM.jpg (CC BY 4.0)",
       "accessed": "2026-11-13",
       "note": "XA-VST at Morelia, 2026-10-24: the scheme in use in late 2026."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Volaris_A321-271(NX),_XA-VUT,_MSN_12487_(06_2025),_as_Y4_1713_Los_Angeles_(LAX)_-_Guadalajara_(GDL),_Flight_time_2_32_(55283008411).jpg",
+      "title": "Volaris A321-271(NX), XA-VUT ... Los Angeles (LAX) (55283008411).jpg (CC0)",
+      "accessed": "2026-11-27",
+      "note": "XA-VUT right side at LAX, 2026-05-03, side-on: the pixel cross, its colours and size on the fin."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:AIRBUS_A320_AI_UPN_(cropped).jpg",
+      "title": "AIRBUS A320 AI UPN (cropped).jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-27",
+      "note": "A Volaris A320 right side close, 2025-04-11: the pixel cross close (a special on the fuselage; the fin is the standard's)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:XA-VLW_@_LAX,_2023-11-02.jpg",
+      "title": "XA-VLW @ LAX, 2023-11-02.jpg (CC BY-SA 2.0)",
+      "accessed": "2026-11-27",
+      "note": "XA-VLW left side: the cross isn't flipped on the right (magenta on the picture's left on both sides)."
     }
   ],
   "palette": {
@@ -37,16 +55,16 @@
       "name": "Volaris navy"
     },
     "pink": {
-      "hex": "#E6007E",
+      "hex": "#D2369F",
       "official": false,
       "name": "magenta"
     },
     "green": {
-      "hex": "#7AC143",
+      "hex": "#62C92A",
       "official": false
     },
     "cyan": {
-      "hex": "#00AEEF",
+      "hex": "#4FA8F2",
       "official": false
     },
     "wingGray": {
@@ -64,6 +82,31 @@
     "flagRed": {
       "hex": "#CE1126",
       "official": false
+    },
+    "finBlack": {
+      "hex": "#15171F",
+      "official": false,
+      "name": "fin near-black"
+    },
+    "pinkLight": {
+      "hex": "#F0A6E6",
+      "official": false,
+      "name": "light pink pixel"
+    },
+    "greenLight": {
+      "hex": "#B6E57D",
+      "official": false,
+      "name": "light green pixel"
+    },
+    "paleBlue": {
+      "hex": "#C9E3F4",
+      "official": false,
+      "name": "pale blue pixel"
+    },
+    "skyBlue": {
+      "hex": "#7EC0F2",
+      "official": false,
+      "name": "sky blue pixel"
     }
   },
   "finish": "gloss",
@@ -81,257 +124,15 @@
     ]
   },
   "fin": {
-    "base": "navy",
-    "areas": [
-      {
-        "name": "mosaic square",
-        "color": "pink",
-        "points": [
-          [
-            -0.049,
-            0.641
-          ],
-          [
-            0.191,
-            0.641
-          ],
-          [
-            0.281,
-            0.541
-          ],
-          [
-            0.064,
-            0.541
-          ]
-        ],
-        "confidence": "low",
-        "sourceRefs": [
-          1,
-          2
-        ]
-      },
-      {
-        "name": "mosaic square",
-        "color": "green",
-        "points": [
-          [
-            0.191,
-            0.641
-          ],
-          [
-            0.431,
-            0.641
-          ],
-          [
-            0.498,
-            0.541
-          ],
-          [
-            0.281,
-            0.541
-          ]
-        ],
-        "confidence": "low",
-        "sourceRefs": [
-          1,
-          2
-        ]
-      },
-      {
-        "name": "mosaic square",
-        "color": "cyan",
-        "points": [
-          [
-            0.173,
-            0.541
-          ],
-          [
-            0.39,
-            0.541
-          ],
-          [
-            0.455,
-            0.441
-          ],
-          [
-            0.257,
-            0.441
-          ]
-        ],
-        "confidence": "low",
-        "sourceRefs": [
-          1,
-          2
-        ]
-      },
-      {
-        "name": "mosaic square",
-        "color": "white",
-        "points": [
-          [
-            0.39,
-            0.541
-          ],
-          [
-            0.606,
-            0.541
-          ],
-          [
-            0.652,
-            0.441
-          ],
-          [
-            0.455,
-            0.441
-          ]
-        ],
-        "confidence": "low",
-        "sourceRefs": [
-          1,
-          2
-        ]
-      },
-      {
-        "name": "mosaic square",
-        "color": "pink",
-        "points": [
-          [
-            -0.044,
-            0.541
-          ],
-          [
-            0.173,
-            0.541
-          ],
-          [
-            0.257,
-            0.441
-          ],
-          [
-            0.059,
-            0.441
-          ]
-        ],
-        "confidence": "low",
-        "sourceRefs": [
-          1,
-          2
-        ]
-      },
-      {
-        "name": "mosaic square",
-        "color": "green",
-        "points": [
-          [
-            0.158,
-            0.441
-          ],
-          [
-            0.356,
-            0.441
-          ],
-          [
-            0.418,
-            0.34
-          ],
-          [
-            0.236,
-            0.34
-          ]
-        ],
-        "confidence": "low",
-        "sourceRefs": [
-          1,
-          2
-        ]
-      },
-      {
-        "name": "mosaic square",
-        "color": "white",
-        "points": [
-          [
-            0.356,
-            0.441
-          ],
-          [
-            0.553,
-            0.441
-          ],
-          [
-            0.6,
-            0.34
-          ],
-          [
-            0.418,
-            0.34
-          ]
-        ],
-        "confidence": "low",
-        "sourceRefs": [
-          1,
-          2
-        ]
-      },
-      {
-        "name": "mosaic square",
-        "color": "cyan",
-        "points": [
-          [
-            0.327,
-            0.34
-          ],
-          [
-            0.509,
-            0.34
-          ],
-          [
-            0.556,
-            0.24
-          ],
-          [
-            0.387,
-            0.24
-          ]
-        ],
-        "confidence": "low",
-        "sourceRefs": [
-          1,
-          2
-        ]
-      },
-      {
-        "name": "mosaic square",
-        "color": "pink",
-        "points": [
-          [
-            0.431,
-            0.641
-          ],
-          [
-            0.67,
-            0.641
-          ],
-          [
-            0.715,
-            0.541
-          ],
-          [
-            0.498,
-            0.541
-          ]
-        ],
-        "confidence": "low",
-        "sourceRefs": [
-          1,
-          2
-        ]
-      }
-    ],
+    "base": "finBlack",
     "mirrored": true,
-    "confidence": "medium",
+    "confidence": "high",
     "sourceRefs": [
       1,
-      2
+      2,
+      3,
+      4,
+      5
     ]
   },
   "wings": {
@@ -385,22 +186,29 @@
       "mark": "VOI/pixel-v",
       "place": "fin",
       "at": [
-        0.356,
-        0.441
+        0.41,
+        0.43
       ],
-      "height": 0.4,
+      "height": 0.78,
       "colors": [
         "pink",
         "green",
         "cyan",
-        "white"
+        "white",
+        "pinkLight",
+        "greenLight",
+        "paleBlue",
+        "skyBlue"
       ],
-      "description": "Volaris's tail mark: square pixels in magenta, green, cyan and white stacked in a stepped V on the navy fin.",
+      "description": "Volaris's pixel cross: square pixels in a plus round a white centre, magenta and pink to the left, light green and green to the right, blues above, magenta below, with two dark-grey shade pixels (left of the magenta, under the foot), on the near-black fin. The same picture on both sides (not flipped), so on the right the magenta is toward the trailing edge.",
       "reference": "https://commons.wikimedia.org/wiki/File:Volaris_logo.svg",
-      "confidence": "medium",
+      "confidence": "high",
       "sourceRefs": [
         1,
-        2
+        2,
+        3,
+        4,
+        5
       ]
     },
     {
@@ -501,6 +309,6 @@
       "length": 0.108
     }
   ],
-  "notes": "Drawn from XA-VSK (Sept 2025, from below); the pixel mosaic is sketched with a few squares, not traced. Year of the scheme's introduction not confirmed here, so 'from' is left out. Specials (e.g. the '20 años' A321neo XA-XXV, 2026) aren't this scheme. Re-checked 2026-11-15 on XA-VSK, measured by its windows (the photo is from ahead and below, so a straight scale along the fuselage doesn't hold): 'volaris' starts about 1.1 m aft of the forward door's middle (x 0.139; it had been drawn 1.4 m further aft) and spans 19 window pitches (10.2 m, length 0.23); baseline about 0.75 m under the windows' middle, the l's top 0.77 m over it (y -0.023, height 0.51), lowercase 0.79 of the l. 'volaris.com' spans 4.8 m (0.108); its start is left as drawn. Volaris's commonest type is the A320neo; this was measured on the A321neo, where the title sits the same distance behind the door.",
+  "notes": "Drawn from XA-VSK (Sept 2025, from below); the pixel cross was redrawn 2026-11-27 from XA-VUT (side-on, right side) and checked on XA-VLW (left): 15 pixels in a plus, the same picture on both sides (not flipped). Year of the scheme's introduction not confirmed here, so 'from' is left out. Specials (e.g. the '20 años' A321neo XA-XXV, 2026) aren't this scheme. Re-checked 2026-11-15 on XA-VSK, measured by its windows (the photo is from ahead and below, so a straight scale along the fuselage doesn't hold): 'volaris' starts about 1.1 m aft of the forward door's middle (x 0.139; it had been drawn 1.4 m further aft) and spans 19 window pitches (10.2 m, length 0.23); baseline about 0.75 m under the windows' middle, the l's top 0.77 m over it (y -0.023, height 0.51), lowercase 0.79 of the l. 'volaris.com' spans 4.8 m (0.108); its start is left as drawn. Volaris's commonest type is the A320neo; this was measured on the A321neo, where the title sits the same distance behind the door.",
   "history": "Replaces Skyarium v1's approximate standard (a few colors from memory)."
 }

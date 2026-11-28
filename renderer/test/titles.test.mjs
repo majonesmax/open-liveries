@@ -57,3 +57,38 @@ test('a title with a mark is drawn by the painter in its box, else as text', () 
   }
   assert.ok(renderSide(withMark, { shape: b738, side: 'left' }).includes('>UNITED<'));
 });
+
+// A title spread wider than its stand-in sets it is thickened by a stroke, and a stroke grows a letter all round:
+// half of it over the cap line and half under the baseline. Two lines set close (FedEx's retro FEDERAL over EXPRESS,
+// a tenth of a cap height apart on the aircraft) ran together. The stroked letters are set smaller and lifted, so the
+// ink stays between the baseline and the measured cap height.
+test("a stroked title's ink stays within its measured cap height", () => {
+  const CAP = 0.71;
+  const s = scheme('FDX/federal-express-retro');
+  const unspread = { ...s, titles: s.titles.map((t) => ({ ...t, length: undefined })) };
+  const b77l = shape('B77L');
+  const texts = (svg) =>
+    [...svg.matchAll(/<text\b([^>]*)>([^<]*)<\/text>/g)].map(([, attrs, text]) => {
+      const num = (name) => Number(attrs.match(new RegExp(`\\s${name}="([^"]*)"`))?.[1] ?? 0);
+      return { text, y: num('y'), size: num('font-size'), stroke: num('stroke-width') };
+    });
+  for (const side of ['left', 'right']) {
+    const plain = Object.fromEntries(texts(renderSide(unspread, { shape: b77l, side })).map((t) => [t.text, t]));
+    const lettering = new Set(s.titles.map((t) => t.text));
+    const set = texts(renderSide(s, { shape: b77l, side })).filter((t) => lettering.has(t.text));
+    assert.ok(
+      set.some((t) => t.stroke > 0),
+      `${side}: a stroked title`,
+    );
+    for (const t of set) {
+      // Its ink: from the cap line less half the stroke to the baseline plus half the stroke.
+      assert.ok(t.y + t.stroke / 2 <= 0.06, `${side} ${t.text}: ink below its baseline (${t.y}, stroke ${t.stroke})`);
+      const ink = t.size * CAP + t.stroke;
+      const cap = plain[t.text].size * CAP;
+      assert.ok(
+        Math.abs(ink - cap) < 0.15,
+        `${side} ${t.text}: ink ${ink.toFixed(2)} tall for a cap height of ${cap.toFixed(2)}`,
+      );
+    }
+  }
+});

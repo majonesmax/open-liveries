@@ -292,5 +292,20 @@ export function createCanvas(livery, label, height, options) {
         polygon(outline, '#000', svgElement('clipPath', { id }, defs));
         return `url(#${id})`;
     };
-    return { svg, color, polygon, clipTo, logoPainter: options.logo };
+    let gradients = 0;
+    const gradient = (stops, from, to) => {
+        const id = `${ID_MARK}fade${gradients++}`;
+        const element = svgElement('linearGradient', {
+            id,
+            gradientUnits: 'userSpaceOnUse',
+            x1: round1(from[0]),
+            y1: round1(from[1]),
+            x2: round1(to[0]),
+            y2: round1(to[1]),
+        }, defs);
+        for (const [offset, hex] of stops)
+            svgElement('stop', { offset: Math.round(offset * 1000) / 1000, 'stop-color': hex }, element);
+        return `url(#${id})`;
+    };
+    return { svg, color, polygon, clipTo, gradient, logoPainter: options.logo };
 }

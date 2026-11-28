@@ -6,7 +6,7 @@
   "kind": "retro",
   "confidence": "medium",
   "drawnOn": "A321",
-  "description": "Fuselage: American's metallic silver overall. Cheatlines: A navy band through the windows, with a thin white pinstripe under it, from a point under the windscreen (the cockpit windows sit in it, with a black mask below them) to the end of the tail cone, where it widens down over the cone. Tail: Silver fin with the Allegheny mark (a red-orange swept wedge over a navy triangle) and 'ALLEGHENY' in red-orange slanted capitals below it. Engines: Silver, polished lips. Winglets: Navy wingtip fences. Titles: American's 'American' and flight symbol on top of the band forward; 'Vistajet' small in red under the cockpit. Artwork: none. Colors hex: matched by eye from photos.",
+  "description": "Fuselage: American's metallic silver overall. Cheatlines: A navy band through the windows, with a thin white pinstripe under it, from the cockpit's aft side window (a black anti-glare strip under the cockpit windows ahead of it) to the end of the tail cone, where it widens down over the cone. Nose: a black nose cone in a white ring. Tail: Silver fin with the Allegheny mark (a red-orange swept wedge over a navy triangle) and 'ALLEGHENY' in red-orange slanted capitals below it. Engines: Silver, polished lips. Winglets: Navy wingtip fences. Titles: American's 'American' and flight symbol on top of the band forward; 'Vistajet' small in red under the cockpit. Artwork: none. Colors hex: matched by eye from photos.",
   "sources": [
     {
       "url": "https://airlinegeeks.com/2023/10/11/first-look-american-debuts-refreshed-allegheny-retro-jet/",
@@ -75,6 +75,11 @@
     "flightNavy": {
       "hex": "#36495A",
       "official": false
+    },
+    "black": {
+      "hex": "#17191E",
+      "name": "the strip and mask round the windscreen (matched by eye)",
+      "official": false
     }
   },
   "finish": "metallic",
@@ -82,12 +87,33 @@
     "base": "silver",
     "areas": [
       {
-        "name": "white pinstripe under the band",
+        "name": "white pinstripe under the band, from the white ring round the nose cone to the tail cone",
         "color": "white",
         "below": [
           [
-            0.035,
-            0.05
+            0.029,
+            0.51127,
+            1
+          ],
+          [
+            0.04601,
+            0.23097,
+            1
+          ],
+          [
+            0.06464,
+            0.14302,
+            1
+          ],
+          [
+            0.09742,
+            0.08272,
+            1
+          ],
+          [
+            0.13828,
+            0.05265,
+            1
           ],
           [
             0.8,
@@ -108,8 +134,29 @@
         ],
         "above": [
           [
-            0.035,
-            0.025
+            0.029,
+            0.44271,
+            1
+          ],
+          [
+            0.04601,
+            0.19345,
+            1
+          ],
+          [
+            0.06464,
+            0.11257,
+            1
+          ],
+          [
+            0.09742,
+            0.0562,
+            1
+          ],
+          [
+            0.13828,
+            0.02753,
+            1
           ],
           [
             0.8,
@@ -137,16 +184,92 @@
         "smooth": true
       },
       {
-        "name": "navy window band, from a point under the windscreen to the tail cone",
+        "name": "white ring round the black nose cone",
+        "color": "white",
+        "points": [
+          [
+            0.0218,
+            -1
+          ],
+          [
+            0.0218,
+            1
+          ],
+          [
+            0.029,
+            1
+          ],
+          [
+            0.029,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1
+        ]
+      },
+      {
+        "name": "black anti-glare strip under the cockpit windows, from the band's front end forward to the white ring, level with the band's lower edge",
+        "color": "black",
+        "points": [
+          [
+            0.029,
+            0.51127,
+            1
+          ],
+          [
+            0.04601,
+            0.23097
+          ],
+          [
+            0.06,
+            0.15879,
+            1
+          ],
+          [
+            0.06,
+            0.261,
+            1
+          ],
+          [
+            0.04601,
+            0.35518
+          ],
+          [
+            0.04039,
+            0.45094
+          ],
+          [
+            0.029,
+            0.83483,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          4
+        ]
+      },
+      {
+        "name": "navy window band, from the cockpit's aft side window to the tail cone",
         "color": "navy",
         "points": [
           [
-            0.02,
-            0.2
+            0.06,
+            0.15879,
+            1
           ],
           [
-            0.035,
-            0.05
+            0.09742,
+            0.08272,
+            1
+          ],
+          [
+            0.15491,
+            0.05001,
+            1
           ],
           [
             0.8,
@@ -177,12 +300,29 @@
             0.31
           ],
           [
-            0.035,
-            0.31
+            0.15491,
+            0.31001,
+            1
           ],
           [
-            0.02,
-            0.2
+            0.13828,
+            0.31408,
+            1
+          ],
+          [
+            0.09742,
+            0.36357,
+            1
+          ],
+          [
+            0.07504,
+            0.42903,
+            1
+          ],
+          [
+            0.06,
+            0.51862,
+            1
           ]
         ],
         "confidence": "medium",
@@ -195,11 +335,8 @@
       }
     ],
     "radome": {
-      "color": "silver",
-      "to": 0.025
-    },
-    "cockpitWindows": {
-      "mask": "navy"
+      "color": "black",
+      "to": 0.0218
     },
     "windows": "plain",
     "confidence": "medium",
@@ -376,5 +513,5 @@
       "length": 0.02
     }
   ],
-  "notes": "Drawn from left-side photos (2025). The band's end over the tail cone is approximate: it's seen only from below and at an angle. The cockpit windows sit inside the band on the real aircraft, with a black strip under the windscreen (not drawn; the mask stands for the band round the windscreen). The right side isn't in these photos; taken as the same. Belly: silver as far as the June 2025 view from below shows. Re-checked 2026-11-15 on N579UW (left, 2025-04-05, side on): 'American' x 0.188-0.278, 'Vistajet' x 0.06-0.08, 'ALLEGHENY' on the fin from 0.18 to 0.82 of the chord with its baseline at 0.125, the logo above it (centre 0.32 up); the band's sweep down to the tail cone drawn as a curve. No measured A321 shape yet."
+  "notes": "Drawn from left-side photos (2025). The band's end over the tail cone is approximate: it's seen only from below and at an angle. The cockpit windows sit inside the band on the real aircraft, with a black strip under the windscreen (not drawn; the mask stands for the band round the windscreen). The right side isn't in these photos; taken as the same. Belly: silver as far as the June 2025 view from below shows. Re-checked 2026-11-15 on N579UW (left, 2025-04-05, side on): 'American' x 0.188-0.278, 'Vistajet' x 0.06-0.08, 'ALLEGHENY' on the fin from 0.18 to 0.82 of the chord with its baseline at 0.125, the logo above it (centre 0.32 up); the band's sweep down to the tail cone drawn as a curve. No measured A321 shape yet. Nose re-checked 2026-11-27 head-on and front three-quarter (N579UW at O'Hare, 2025-06-10, from ahead on the right): the navy band ends at the cockpit's aft side window; ahead of it a black strip runs under the windscreen and across the nose front above the radome, its lower edge level with the band's; the white pinstripe runs on to the radome. The band's edges near the nose are written at constant heights (straight on the aircraft), no longer at constant y, which bent them down the nose taper. Nose re-checked again 2026-11-27 on the owner's review, against N579UW side-on (2024-03-02) and from the front right (O'Hare 2025-06-10): no painted surround round the cockpit windows; the navy band stops on the side at the cockpit's aft side window; a black anti-glare strip runs forward under the cockpit windows (its top at their sills, its foot level with the band's) to a white ring about 0.3 m wide round a black nose cone that reaches about 1 m back. The April and June 2025 photos show a plain white nose cone instead (a replacement radome, apparently); the black cone and white ring follow the 2024 photo and the owner."
 }

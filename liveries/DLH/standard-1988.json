@@ -1,0 +1,199 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard-1988",
+  "airline": "DLH",
+  "name": "1988 livery (pre-2018)",
+  "kind": "standard",
+  "from": "1988",
+  "confidence": "medium",
+  "drawnOn": "B748",
+  "description": "Otl Aicher's 1988 scheme as the 747-8s still wear it: white fuselage; the fin Lufthansa blue with a large yellow disc carrying the blue crane in a thin blue ring; 'Lufthansa' in blue Helvetica over the forward windows, 'lufthansa.com' small over the rear windows; a small blue crane in a ring by the cockpit; light gray engines.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:D-ABYK_AIRCRAFT_Boeing_747-830.jpg",
+      "title": "D-ABYK AIRCRAFT Boeing 747-830.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-27",
+      "note": "D-ABYK right side in sun, 2025-01-23: fin, disc, titles, nose crane, all-white fuselage, gray engines. Fitted to shapes/B748-passenger.json (flipped nose-left) and probed: the disc's middle at fin (0.56, 0.48), 0.5 of the fin's height; 'lufthansa.com' x 0.715-0.793."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Lufthansa_Boeing_747-8_D-ABYK_MD1.jpg",
+      "title": "Lufthansa Boeing 747-8 D-ABYK MD1.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-27",
+      "note": "D-ABYK from below-right, 2025-06-21: still in this scheme; the fin's blue and the disc."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Boeing_747-8i_D-ABYK_on_final_approach_to_Boston.jpg",
+      "title": "Boeing 747-8i D-ABYK on final approach to Boston.jpg (CC BY 4.0)",
+      "accessed": "2026-11-27",
+      "note": "D-ABYK, 2019-05-27: the same scheme."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Lufthansa#Corporate_identity",
+      "title": "Wikipedia: Lufthansa, corporate identity",
+      "accessed": "2026-11-27",
+      "note": "The 1988 livery; replaced in 2018 by a darker blue scheme without the yellow."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F6",
+      "official": false
+    },
+    "blue": {
+      "hex": "#13286E",
+      "name": "Lufthansa blue (pre-2018)",
+      "official": false
+    },
+    "yellow": {
+      "hex": "#F9B000",
+      "name": "Lufthansa yellow",
+      "official": false
+    },
+    "cowl": {
+      "hex": "#C9CDD1",
+      "name": "light gray engines",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [],
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "fin": {
+    "base": "blue",
+    "mirrored": true,
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "engines": {
+    "cowling": "cowl",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "logos": [
+    {
+      "mark": "DLH/crane-disc",
+      "place": "fin",
+      "at": [
+        0.56,
+        0.48
+      ],
+      "height": 0.5,
+      "colors": [
+        "yellow",
+        "blue"
+      ],
+      "description": "The pre-2018 tail: a large yellow disc with the blue Lufthansa crane (wings raised in a V, neck forward) inside a thin blue ring.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Lufthansa_Logo_2018.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "DLH/crane-ring",
+      "place": "fuselage",
+      "at": [
+        0.065,
+        0.34
+      ],
+      "height": 0.2,
+      "colors": [
+        "blue"
+      ],
+      "description": "Small blue crane in a ring behind the cockpit windows.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Lufthansa_Logo_2018.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "Lufthansa",
+      "place": "fuselage",
+      "at": [
+        0.132,
+        0.2
+      ],
+      "height": 0.29,
+      "length": 0.141,
+      "color": "blue",
+      "style": "Helvetica Bold, Lufthansa blue, mixed case, over the forward windows.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ],
+      "type": {
+        "official": "Helvetica (Lufthansa's pre-2018 typeface)",
+        "similar": [
+          "Helvetica Neue Bold",
+          "Arial Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed"
+      }
+    },
+    {
+      "text": "lufthansa.com",
+      "place": "fuselage",
+      "at": [
+        0.715,
+        0.24
+      ],
+      "height": 0.13,
+      "length": 0.078,
+      "color": "blue",
+      "style": "Small lower-case web address over the rear windows, the same blue.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Helvetica Neue Bold",
+          "Arial Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.72
+      }
+    }
+  ],
+  "notes": "Dark colours (checked 2026-11-27 in sun): the fin, the titles and the nose crane are one blue, a navy that reads clearly blue in sunlit photos, lighter and bluer than the 2018 scheme's Lufthansa Blue (#05164D): set by eye from D-ABYK's photos (2025-01-23, 2025-06-21) at #13286E, between the sampled fin (#08144E in the shade of a below view, #3B4066 in haze); the registration is black (not drawn). Not drawn: the small Star Alliance star by the cockpit, the type and name under the forward windows, the registration letters at the fin's tip. The passenger jets had a gray belly in earlier years; D-ABYK's is white in the 2025 photos. The title's place is from a three-quarter photo (perspective): medium.",
+  "history": "Lufthansa's scheme from 1988 to 2018 (Otl Aicher's identity); most of the fleet is repainted in the 2018 scheme (DLH/standard), but some 747-8s still wear this one in 2025. Lufthansa Cargo's 777Fs wear its freighter version (GEC/standard-1988)."
+}

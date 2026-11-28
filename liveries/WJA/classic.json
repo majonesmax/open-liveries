@@ -1,0 +1,330 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "classic",
+  "airline": "WJA",
+  "name": "Teal 'tail' livery (2000s)",
+  "kind": "standard",
+  "confidence": "medium",
+  "drawnOn": "B737",
+  "description": "WestJet's scheme before 2018, still on some 737-700s: a white fuselage with 'WEST' in navy and 'JET' in teal, heavy slanted capitals over the forward windows, followed by a small teal-and-navy flag of the tail; a teal fin with a white chevron pointing aft from the trailing edge, navy in the chevron's fork down to the root and along the dorsal fin, teal again behind it; a thin white line up the leading edge. White engines; winglets teal over navy.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:C-FGWJ_(32854076854).jpg",
+      "title": "C-FGWJ (32854076854).jpg (CC BY-SA 2.0)",
+      "accessed": "2026-11-27",
+      "note": "C-FGWJ (737-700) right side on the ground, square on, in sun, 2017-02-11: flipped and fitted to the measured 737-700 shape (tools/photo_trace.py, doors pinned); the fin's navy and white chevron traced by color, the title and its mark. The winglet's outer face shows too: teal over navy with a white band between."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:C-FGWJ_YVR_(18225545532).jpg",
+      "title": "C-FGWJ YVR (18225545532).jpg (CC BY-SA 2.0)",
+      "accessed": "2026-11-27",
+      "note": "C-FGWJ left side climbing, 2015-04-17: the fin's design faces forward on the left too (mirrored); the navy reads blue against the sky."
+    },
+    {
+      "url": "https://www.planespotters.net/photo/1828586/c-fgwj-westjet-boeing-737-7ct-wl",
+      "title": "C-FGWJ on Planespotters.net (evidence only, not openly licensed)",
+      "accessed": "2026-11-27",
+      "note": "Right side, recent (2025): still in this scheme; winglets teal over navy with a white band."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F6",
+      "official": false
+    },
+    "teal": {
+      "hex": "#0B6D8C",
+      "official": false,
+      "name": "WestJet's older teal (#03547A-#105468 in sun and sky light, #007395 on the 2025 photo): deeper than the 2018 teal"
+    },
+    "navy": {
+      "hex": "#14235E",
+      "official": false,
+      "name": "navy: a dark blue that still reads blue in sun (#07174D in shade, #233053 against the sky, #002159 on the 2025 photo), not black"
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false,
+      "name": "bare metal inlet lip"
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "windows": "plain",
+    "confidence": "medium",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "fin": {
+    "base": "teal",
+    "fillet": "navy",
+    "mirrored": true,
+    "areas": [
+      {
+        "name": "thin white line up the leading edge, above the chevron",
+        "color": "white",
+        "points": [
+          [
+            -0.05,
+            0.44
+          ],
+          [
+            0.025,
+            0.45
+          ],
+          [
+            0.02,
+            1.05
+          ],
+          [
+            -0.05,
+            1.05
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "white chevron: its upper arm from the leading edge rising to a point at the trailing edge, its lower arm from there down to the root",
+        "color": "white",
+        "points": [
+          [
+            -0.05,
+            0.448
+          ],
+          [
+            0.217,
+            0.485
+          ],
+          [
+            0.552,
+            0.527
+          ],
+          [
+            0.68,
+            0.542
+          ],
+          [
+            1.05,
+            0.584
+          ],
+          [
+            1.05,
+            0.53
+          ],
+          [
+            0.483,
+            -0.05
+          ],
+          [
+            0.4,
+            -0.05
+          ],
+          [
+            -0.05,
+            0.39
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "navy in the chevron's fork, down to the root (the dorsal fin ahead of it navy too)",
+        "color": "navy",
+        "points": [
+          [
+            -0.03,
+            0.398
+          ],
+          [
+            0.187,
+            0.424
+          ],
+          [
+            0.657,
+            0.462,
+            1
+          ],
+          [
+            0.508,
+            0.175
+          ],
+          [
+            0.43,
+            -0.05
+          ],
+          [
+            -0.05,
+            -0.05
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "wings": {
+    "top": "#B9BEC5",
+    "under": "#C9CDD2"
+  },
+  "winglets": {
+    "outer": "navy",
+    "inner": "navy",
+    "areas": [
+      {
+        "name": "teal upper half",
+        "color": "teal",
+        "points": [
+          [
+            0,
+            0.6
+          ],
+          [
+            1,
+            0.5
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "name": "white band",
+        "color": "white",
+        "points": [
+          [
+            0,
+            0.52
+          ],
+          [
+            1,
+            0.42
+          ],
+          [
+            1,
+            0.5
+          ],
+          [
+            0,
+            0.6
+          ]
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "logos": [
+    {
+      "mark": "WJA/tail-classic",
+      "place": "fuselage",
+      "at": [
+        0.21,
+        0.5
+      ],
+      "height": 0.34,
+      "colors": [
+        "teal",
+        "navy"
+      ],
+      "side": "right",
+      "description": "The tail in miniature, as a little flag after 'WESTJET' (forward of it on the right).",
+      "confidence": "high",
+      "sourceRefs": [
+        0
+      ]
+    },
+    {
+      "mark": "WJA/tail-classic",
+      "place": "fuselage",
+      "at": [
+        0.607,
+        0.5
+      ],
+      "height": 0.34,
+      "colors": [
+        "teal",
+        "navy"
+      ],
+      "side": "left",
+      "description": "The same after the title on the left (aft of it).",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "WESTJET",
+      "place": "fuselage",
+      "at": [
+        0.248,
+        0.28
+      ],
+      "height": 0.33,
+      "length": 0.321,
+      "color": "navy",
+      "parts": [
+        {
+          "text": "WEST",
+          "color": "navy"
+        },
+        {
+          "text": "JET",
+          "color": "teal"
+        }
+      ],
+      "style": "Heavy slanted capitals, 'WEST' navy and 'JET' teal, the J dropping below the line; over the forward windows, a little above them.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Rockwell Extra Bold",
+          "Avenir Next Heavy Italic"
+        ],
+        "weight": 850,
+        "slantDeg": 12,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Measured on C-FGWJ's right side (flipped); the left side's fin matches mirrored (2015 photo). On the right the title reads 'WESTJET' then the flag, forward; the left is taken as the mirror, the flag aft of the title (its place not measured: medium). The fit to the 737-700 left the title's height above the windows uncertain by about 0.1 m. The Canadian flag and 'Proudly Canadian' over the aft windows aren't drawn.",
+  "history": "WestJet's scheme through the 2000s and 2010s, replaced from 2018 by the current one; some 737-700s still wear it in 2025."
+}

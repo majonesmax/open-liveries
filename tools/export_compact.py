@@ -1,5 +1,6 @@
 """A compact file for apps: every drawn livery with its colors resolved to hex and its `below`/`above`
-lines turned into polygons, and the airframes wearing one now, by ICAO address and by registration.
+lines turned into polygons (a gradient as bands of flat color across it), and the airframes wearing one now,
+by ICAO address and by registration.
 A scheme's paint for one type (`types`, docs/COORDINATES.md) comes along as `types`: for each key (a shape's id or
 an ICAO designator), the compact keys that differ on it, the entry laid over the scheme's paint (`paint_for`) and
 compacted the same way; an app drawing on a measured shape (tools/export_shapes.py) takes the shape's id's entry,
@@ -22,7 +23,10 @@ from common import (
     airframe_paths,
     area_polygon,
     ceased_airlines,
+    from_heights,
+    fuselage_heights,
     fuselage_polygon,
+    gradient_bands,
     load_airframes,
     load_operators,
     operator_scheme,
@@ -45,15 +49,26 @@ def areas(livery: Livery, items: list[Area] | None, lo: float, hi: float, fusela
     the points."""
     out = []
     for area in items or []:
-        # The fuselage's edges run straight as seen from the side: pointed along and thinned like a curve.
-        polygon = fuselage_polygon(area, lo, hi) if fuselage else area_polygon(area, lo, hi)
-        entry: Compact = {
-            "c": resolve_color(livery, area["color"]),
-            "p": [[round(x, 4), round(y, 4)] for x, y in thin([*polygon, polygon[0]])[:-1]],
-        }
-        if area.get("side", "both") != "both":
-            entry["s"] = area["side"]
-        out.append(entry)
+        # The fuselage's edges run straight as seen from the side: pointed along and thinned like a curve. A gradient
+        # comes as bands across it, each a flat color (docs/COORDINATES.md › Gradients), cut where its edges are
+        # straight as seen from the side too.
+        if "gradient" in area:
+            outline = fuselage_heights(area, lo, hi) if fuselage else area_polygon(area, lo, hi)
+            bands = [
+                (c, from_heights(band) if fuselage else band)
+                for c, band in gradient_bands(livery, area, outline, heights=fuselage)
+            ]
+        else:
+            polygon = fuselage_polygon(area, lo, hi) if fuselage else area_polygon(area, lo, hi)
+            bands = [(resolve_color(livery, area["color"]) or "", polygon)]
+        for c, polygon in bands:
+            entry: Compact = {
+                "c": c,
+                "p": [[round(x, 4), round(y, 4)] for x, y in thin([*polygon, polygon[0]])[:-1]],
+            }
+            if area.get("side", "both") != "both":
+                entry["s"] = area["side"]
+            out.append(entry)
     return out
 
 

@@ -13,7 +13,16 @@ from pathlib import Path
 from typing import Literal, TypedDict
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from common import ROOT, area_polygon, fuselage_polygon, livery_paths, load_livery, resolve_color
+from common import (
+    ROOT,
+    area_polygon,
+    fuselage_polygon,
+    gradient_ends,
+    livery_paths,
+    load_livery,
+    resolve_color,
+    to_height,
+)
 from shapes import Area, Livery, Logo, Point, Title
 
 OUT = ROOT / "build/preview"
@@ -181,12 +190,34 @@ def draw_areas(
     svg: list[str],
     clip: str = "",
     fuselage: bool = False,
+    heights: bool | None = None,
 ) -> None:
+    """`heights`: a gradient's ends are in side-view heights (the fuselage's; by default when `fuselage`)."""
     edges = (float(round(lo)), float(round(hi)))  # the part's own edges (the fin's lo/hi run a little past them)
+    lift = to_height if (fuselage if heights is None else heights) else (lambda y: y)
     for a in areas or []:
         attr = f' clip-path="url(#{clip})"' if clip else ""
         poly = fuselage_polygon(a, lo, hi) if fuselage else area_polygon(a, lo, hi, edges)
-        svg.append(f'<path d="{mapped(mapper, poly)}" fill="{color(d, a["color"])}"{attr}/>')
+        fill = color(d, a["color"])
+        g = a.get("gradient")
+        if g:
+            dense = densify(poly)
+            ends = gradient_ends(
+                [(x, lift(y)) for x, y in dense],
+                [mapper(*p) for p in dense],
+                (g["from"][0], lift(g["from"][1])),
+                (g["to"][0], lift(g["to"][1])),
+            )
+            if ends:
+                gid = f"fade{len(svg)}"
+                (x1, y1), (x2, y2) = ends
+                stops = "".join(f'<stop offset="{o}" stop-color="{color(d, c, fill)}"/>' for o, c in g["stops"])
+                svg.append(
+                    f'<linearGradient id="{gid}" gradientUnits="userSpaceOnUse" x1="{x1:.1f}" y1="{y1:.1f}" '
+                    f'x2="{x2:.1f}" y2="{y2:.1f}">{stops}</linearGradient>'
+                )
+                fill = f"url(#{gid})"
+        svg.append(f'<path d="{mapped(mapper, poly)}" fill="{fill}"{attr}/>')
 
 
 def box(c: str, points: list[Point]) -> Area:
@@ -280,7 +311,9 @@ def draw_below(d: Livery, svg: list[str]) -> None:
             poly = clip_half(fuselage_polygon(a, -1, 1), lambda p: -p[1])
             if len(poly) >= 3:
                 clipped.append(box(a["color"], [list(p) for p in poly]))
-        draw_areas(d, clipped, below_mapper(side), -1, 0, svg, f"fus-below-{side}")
+                if "gradient" in a:
+                    clipped[-1]["gradient"] = a["gradient"]
+        draw_areas(d, clipped, below_mapper(side), -1, 0, svg, f"fus-below-{side}", heights=True)
         svg.append(f'<path d="{path(outline_below(side))}" fill="none" {STROKE}/>')
     draw_marks(d, svg, view="below")
 

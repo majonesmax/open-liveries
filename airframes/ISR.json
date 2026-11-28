@@ -1,0 +1,31 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "ISR",
+  "airframes": [
+    {
+      "registration": "HA-TSO",
+      "hex": "47340e",
+      "type": "B738",
+      "livery": "TVS/standard",
+      "from": "2025-11",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://www.planespotters.net/photo/1977774/ha-tso-smartwings-hungary-boeing-737-8gq-wl",
+          "title": "planespotters.net photo of HA-TSO",
+          "accessed": "2026-11-27",
+          "note": "HA-TSO (ex OK-TSO, c/n 35793) in full Smartwings paint as Smartwings Hungary; Planespotters lists it under ICAO address 47340E."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Boeing_737-8GQ_(c-n_35793,_OK-TSO)_2025-10-17_Andre_Gerwing_Collection_ID_026994.jpg",
+          "title": "Boeing 737-8GQ (c-n 35793, OK-TSO) 2025-10-17 (CC BY-SA 4.0)",
+          "accessed": "2026-11-27",
+          "note": "Still OK-TSO on 2025-10-17, on a Eurowings wet-lease."
+        }
+      ],
+      "hexSource": "planespotters.net's address lookup (47340E → HA-TSO), 2026-11-27; adsbdb still has the address on HA-LPN, a Wizz Air A320 that used it before",
+      "lastSeen": "2026-11-27",
+      "status": "Wet-leased to Israir: the app saw it as ISR349 into Rome on 2026-11-27, still in Smartwings paint (Israir leases jets in their owners' colors). Medium: no open photo of it as HA-TSO."
+    }
+  ]
+}

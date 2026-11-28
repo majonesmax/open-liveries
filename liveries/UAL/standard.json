@@ -43,6 +43,18 @@
       "title": "United Boeing 737-8 MAX N47275 on final approach to Boston April 2025.jpg (CC BY 4.0)",
       "accessed": "2026-11-15",
       "note": "The same photo as source 2, fitted to the measured 737-800 shape (doors and windows pinned): the navy line's path, the title's ends and baseline, the globe's edge."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N19141_757_United_tailfin_ARN.jpg",
+      "title": "N19141 757 United tailfin ARN.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-27",
+      "note": "A 757's fin close, left side, 2023-08-12: the globe's light disc, its dark latitude lines and the meridian bars that stop short of each line."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N37556_@_DEN,_2025-07-03.jpg",
+      "title": "N37556 @ DEN, 2025-07-03.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-27",
+      "note": "737 MAX 9 right side: the globe mirrored (its pole toward the leading edge on both sides)."
     }
   ],
   "palette": {
@@ -656,14 +668,16 @@
       "height": 1.283,
       "colors": [
         "globe",
-        "navy"
+        "finBlue"
       ],
-      "description": "United's globe (from Continental's 1991 globe): a light-blue disc crossed by navy latitude bands and radiating longitude bars, set low on the aft fin, cut by the root and leading edge, with a thin pale arc along its upper edge; the fin above deep blue with fine halftone dots.",
+      "description": "United's globe (from Continental's 1991 globe): a light-blue disc seen from above the front, its pole up near the leading edge; dark latitude lines round the pole and dark meridian bars between them, each bar stopping short of the lines; a thin light rim inside a dark ring at its edge. Low on the aft fin, cut by the root and leading edge; mirrored on the right.",
       "reference": "https://commons.wikimedia.org/wiki/File:United_Airlines_Logo.svg",
       "confidence": "high",
       "sourceRefs": [
         2,
-        3
+        3,
+        6,
+        7
       ]
     },
     {
@@ -736,6 +750,6 @@
       }
     }
   ],
-  "notes": "Drawn from the 737-8 MAX N47275 (left, Apr 2025), checked on the A321neo N24513 (Aug 2026). The belly is in shadow in both photos: its gray is from United's description, the navy line's path from the photos. The globe's lines aren't traced. Many aircraft still fly the 2010 scheme (gold line, gold globe): see standard-2010. Re-checked 2026-11-15 on the 737-8 MAX (same fuselage as the 737-800, so on the measured 737-800 shape): two photos (N47275, N17306) fitted with the doors and windows pinned agree the navy line runs 0.1-0.25 lower than first drawn (it crosses the aft door's lower part about 0.25 m above its sill, and runs about 0.4 m under the forward door's sill) and dips to about y -0.44 behind the wing; the title runs x 0.179-0.445, its baseline about 0.2 m under the windows' bottom. On the longer 737-900ER and MAX 9 (and the A321neo) the same 10 m title covers a smaller share. The title's face measured 2026-11-20 on N47275 (each face set as the title, its letter outlines against the photo's): Helvetica Neue Bold follows the letters closely, Open Sans ExtraBold's run narrower, so Helvetica comes first.",
+  "notes": "Drawn from the 737-8 MAX N47275 (left, Apr 2025), checked on the A321neo N24513 (Aug 2026). The belly is in shadow in both photos: its gray is from United's description, the navy line's path from the photos. The globe's lines aren't traced. Many aircraft still fly the 2010 scheme (gold line, gold globe): see standard-2010. Re-checked 2026-11-15 on the 737-8 MAX (same fuselage as the 737-800, so on the measured 737-800 shape): two photos (N47275, N17306) fitted with the doors and windows pinned agree the navy line runs 0.1-0.25 lower than first drawn (it crosses the aft door's lower part about 0.25 m above its sill, and runs about 0.4 m under the forward door's sill) and dips to about y -0.44 behind the wing; the title runs x 0.179-0.445, its baseline about 0.2 m under the windows' bottom. On the longer 737-900ER and MAX 9 (and the A321neo) the same 10 m title covers a smaller share. The title's face measured 2026-11-20 on N47275 (each face set as the title, its letter outlines against the photo's): Helvetica Neue Bold follows the letters closely, Open Sans ExtraBold's run narrower, so Helvetica comes first. The globe mark redrawn 2026-11-27 (our own drawing of a sphere's latitude lines and meridian bars, checked on N19141, N77571 and the right side of N37556); its lines are in the fin blue. The fin's halftone darkening toward the tip isn't drawn.",
   "history": "Replaces Skyarium v1's approximate standard (a few colors from memory). The 2019 'Evo Blue' livery replaced the 2010 post-merger scheme (Continental's colors with United titles); repainting is gradual, so both fly."
 }

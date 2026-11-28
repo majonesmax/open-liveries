@@ -11,6 +11,20 @@ edges?: [number, number],
 /** The fuselage: edges straight as seen from the side, not in y (an angle round it). */
 heights?: boolean): void;
 /**
+ * An area's fill: its color, or its gradient (docs/COORDINATES.md › Gradients) laid over the drawing. `outline` is
+ * the area's outline in its part's space (side-view heights on the fuselage, `heights`) and `drawn` the same points
+ * where they're drawn. The part's space is mapped to the drawing by the affine map that fits those points best, so
+ * the fade's lines across it fall where they are in the part's space: exactly where the mapping is affine (a flat
+ * texture, a straight-edged fin's band), within the area's bend elsewhere.
+ */
+export declare function areaFill(area: Area, outline: readonly Point[], drawn: readonly Point[], canvas: Canvas, heights?: boolean): string;
+/**
+ * Where a gradient from `from` to `to` in a part's space runs in a drawing, given points of the part (`source`) and
+ * where they're drawn (`drawn`): through the best-fitting affine map, so its lines of one paint stay those of the
+ * part's space. Undefined when the points don't span an area or the gradient has no length.
+ */
+export declare function gradientEnds(source: readonly Point[], drawn: readonly Point[], from: Point, to: Point): [Point, Point] | undefined;
+/**
  * A rear-mounted engine's stub pylon, as the scheme names its paint: `engines.pylon`, else the fuselage's paint where
  * it meets the fuselage (it's faired into the body: QantasLink's red tail runs onto it).
  */

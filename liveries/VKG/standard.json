@@ -1,0 +1,372 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "VKG",
+  "name": "Sunclass (2019)",
+  "kind": "standard",
+  "from": "2019",
+  "confidence": "medium",
+  "drawnOn": "A321",
+  "description": "White all over. The fin white with two wavy ribbons across it: an orange one from the trailing edge high up that bends down and forward, turning yellow as it narrows and reaching the leading edge low down, and a yellow one from the trailing edge low down that ends in a curve mid-fin. A broad orange swoosh round the rear fuselage under the fin, from the crown ahead of the fin down and aft to below the window line, ending in a point under the tailplane. 'SUNCLASS' in orange inline capitals (each stroke two thin lines) over the forward windows with two small waves after it. White engines, orange sharklets.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Sunclass_Airlines,_OY-TCF,_Airbus_A321-211_(52887015141).jpg",
+      "title": "Sunclass Airlines, OY-TCF, Airbus A321-211 (52887015141).jpg (CC BY-SA 2.0)",
+      "accessed": "2026-11-27",
+      "note": "OY-TCF right side, level, 2023-05-09: flipped nose-left and fitted to shapes/A321.json (six landmarks, within 7 px); the fin's bands, the body swoosh and the title measured off it (tools/photo_trace.py probe)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:OY-TCD_A321_Sunclass_tailfin_VBY_01.jpg",
+      "title": "OY-TCD A321 Sunclass tailfin VBY 01.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-27",
+      "note": "OY-TCD's tail close up in sun, right side, 2025-04-29: the bands' colours and how the orange ribbon turns yellow where it narrows."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:OY-TCN_A321_Sunclass_VBY_01.jpg",
+      "title": "OY-TCN A321 Sunclass VBY 01.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-27",
+      "note": "OY-TCN from below-right, 2023-09-03: the same scheme; orange sharklets."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:OY-TCE_A321_Sunclass_VBY.jpg",
+      "title": "OY-TCE A321 Sunclass VBY.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-27",
+      "note": "OY-TCE from below-left, 2021-09-28: the left side, the fin's design the same way round relative to the nose (mirrored), the title reading nose to tail with the waves aft."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:OY-TCH_A321_Sunclass_ARN_01.jpg",
+      "title": "OY-TCH A321 Sunclass ARN 01.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-27",
+      "note": "OY-TCH, right side, 2024-01-05: the same scheme."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#EEF0F3",
+      "official": false
+    },
+    "orange": {
+      "hex": "#DC541C",
+      "name": "Sunclass orange",
+      "official": false
+    },
+    "yellow": {
+      "hex": "#EDA52A",
+      "name": "Sunclass yellow",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "orange swoosh round the rear fuselage",
+        "color": "orange",
+        "smooth": true,
+        "points": [
+          [
+            0.718,
+            1.0
+          ],
+          [
+            0.742,
+            1.0
+          ],
+          [
+            0.7482,
+            0.7705
+          ],
+          [
+            0.8007,
+            0.4284
+          ],
+          [
+            0.8358,
+            0.235
+          ],
+          [
+            0.862,
+            0.1954
+          ],
+          [
+            0.8969,
+            0.2904
+          ],
+          [
+            0.9056,
+            0.5694,
+            1
+          ],
+          [
+            0.9074,
+            0.4231
+          ],
+          [
+            0.9058,
+            -0.1861
+          ],
+          [
+            0.8972,
+            -0.462
+          ],
+          [
+            0.8597,
+            -0.4885
+          ],
+          [
+            0.8422,
+            -0.4112
+          ],
+          [
+            0.8124,
+            -0.1917
+          ],
+          [
+            0.7834,
+            0.0689
+          ],
+          [
+            0.7544,
+            0.3943
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "mirrored": true,
+    "areas": [
+      {
+        "name": "yellow lower-forward part of the upper ribbon",
+        "color": "yellow",
+        "smooth": true,
+        "points": [
+          [
+            0.3156,
+            0.3874
+          ],
+          [
+            0.2453,
+            0.3159
+          ],
+          [
+            0.1011,
+            0.2419
+          ],
+          [
+            0.0,
+            0.14
+          ],
+          [
+            0.0,
+            0.0357
+          ],
+          [
+            0.1743,
+            0.0344
+          ],
+          [
+            0.4079,
+            0.0632
+          ],
+          [
+            0.4872,
+            0.1144
+          ],
+          [
+            0.5104,
+            0.1983
+          ],
+          [
+            0.4983,
+            0.2881
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "orange upper ribbon",
+        "color": "orange",
+        "smooth": true,
+        "points": [
+          [
+            1.0,
+            0.774
+          ],
+          [
+            0.5634,
+            0.7677
+          ],
+          [
+            0.3193,
+            0.7357
+          ],
+          [
+            0.2192,
+            0.6641
+          ],
+          [
+            0.2346,
+            0.5598
+          ],
+          [
+            0.2963,
+            0.4566
+          ],
+          [
+            0.3156,
+            0.3874
+          ],
+          [
+            0.4983,
+            0.2881
+          ],
+          [
+            0.4742,
+            0.3915
+          ],
+          [
+            0.5456,
+            0.4626
+          ],
+          [
+            0.7345,
+            0.4878
+          ],
+          [
+            1.0,
+            0.4938
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "yellow lower ribbon",
+        "color": "yellow",
+        "smooth": true,
+        "points": [
+          [
+            1.0,
+            0.2812
+          ],
+          [
+            0.6773,
+            0.2655
+          ],
+          [
+            0.5858,
+            0.2075
+          ],
+          [
+            0.577,
+            0.1173
+          ],
+          [
+            0.6302,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      3
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "orange",
+    "inner": "orange",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      2
+    ]
+  },
+  "logos": [],
+  "titles": [
+    {
+      "text": "SUNCLASS",
+      "place": "fuselage",
+      "at": [
+        0.19,
+        -0.08
+      ],
+      "height": 0.54,
+      "length": 0.32,
+      "color": "orange",
+      "mark": "VKG/wordmark",
+      "style": "Geometric capitals drawn inline, each stroke two thin orange lines with white between, round S, U and C, a pointed A; two small waves after the last S at cap height; over the forward windows, the windows running through it. Reads normally on both sides.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Bauhaus-style inline display capitals"
+        ],
+        "weight": 400,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "The fin's ribbons and the swoosh were probed point by point off OY-TCF (a right side, flipped), so the right side is measured and the left follows by the mirror, which OY-TCE (left, from below) agrees with. The orange's change to yellow in the upper ribbon is drawn as a sharp line at its narrowest; in photos it changes there quickly. Colours: OY-TCD in sun; the evening photo of OY-TCF reads redder. The title's waves sit after the last S in reading order, so forward on the right side and aft on the left. Not drawn: the registration on the swoosh (white), small flags.",
+  "history": "Sunclass Airlines is the former Thomas Cook Airlines Scandinavia, renamed in 2019 when Thomas Cook failed; its A321s and A330s were repainted from the Thomas Cook heart scheme into this one."
+}

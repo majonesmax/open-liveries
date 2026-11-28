@@ -83,14 +83,19 @@ export function drawTitle(title: Title, placement: TitlePlacement, parent: Eleme
   const lower = Array.from(title.text).filter((c) => c !== c.toUpperCase()).length;
   const letters = Array.from(title.text).filter((c) => c.toLowerCase() !== c.toUpperCase()).length;
   const xMatch = type.xHeight && lower * 2 > letters ? type.xHeight / STAND_IN_X_HEIGHT : 1;
-  const fontSize = (capHeight / CAP_HEIGHT_PER_EM) * xMatch;
+  const setSize = (capHeight / CAP_HEIGHT_PER_EM) * xMatch;
   // Spread to its measured length, a stand-in typeface's letters are stretched and their upright strokes stay thin:
   // a wide display face (easyJet's Cooper Black, Lufthansa's own) came out thin and spaced. Thicken them to match.
-  const spread = length ? length / (title.text.length * ADVANCE_PER_EM * fontSize) : 1;
-  const stroke = spread > 1.1 ? Math.min((spread - 1) * STROKE_PER_SPREAD, 0.06) * fontSize : 0;
+  const spread = length ? length / (title.text.length * ADVANCE_PER_EM * setSize) : 1;
+  const strokePerEm = spread > 1.1 ? Math.min((spread - 1) * STROKE_PER_SPREAD, 0.06) : 0;
+  // A stroke thickens a letter all round, so it also stands taller (half the stroke over the cap line, half under
+  // the baseline): the letters are set that much smaller and lifted by half the stroke, so the ink stays between the
+  // measured baseline and cap height. Otherwise two lines set close (FedEx's FEDERAL over EXPRESS) run together.
+  const fontSize = setSize * (CAP_HEIGHT_PER_EM / (CAP_HEIGHT_PER_EM + strokePerEm));
+  const stroke = strokePerEm * fontSize;
   const attributes = (color: string, x: number, spreadTo: number) => ({
     x: round1(x),
-    y: centeredOnLine ? round1(capHeight / 2) : 0,
+    y: round1((centeredOnLine ? capHeight / 2 : 0) - stroke / 2),
     fill: color,
     'font-family': fontFamilyFor(title),
     'font-size': round1(fontSize),

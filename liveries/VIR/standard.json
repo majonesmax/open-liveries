@@ -201,16 +201,16 @@
       "mark": "VIR/flying-lady",
       "place": "fuselage",
       "at": [
-        0.08,
-        -0.12
+        0.077,
+        -0.02
       ],
-      "height": 0.22,
+      "height": 0.32,
       "colors": [
         "red",
         "#1F2A5C",
         "white"
       ],
-      "description": "The flying lady nose art: a pin-up figure in red reclining, holding a Union flag, under the cockpit windows; the aircraft's name in small script beside her.",
+      "description": "The flying lady nose art (2019): a woman leaping forward, one arm raised, the other holding a big Union flag that waves aft of her, behind the cockpit windows at about the windows' height; the aircraft's name in small script under her.",
       "reference": "https://commons.wikimedia.org/wiki/File:G-VTEA.jpg",
       "confidence": "medium",
       "sourceRefs": [

@@ -229,11 +229,61 @@
           1,
           2
         ]
+      },
+      {
+        "name": "red nose cap: the radome, its seam rising from the chin to a point at the cheatline and up to the windscreen's lower front corner",
+        "color": "red",
+        "points": [
+          [
+            0.0171,
+            0.65637,
+            1
+          ],
+          [
+            0.01396,
+            1.0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            0.02194,
+            -1.0
+          ],
+          [
+            0.02582,
+            -0.32058
+          ],
+          [
+            0.02942,
+            -0.054,
+            1
+          ],
+          [
+            0.02371,
+            0.16175
+          ],
+          [
+            0.0208,
+            0.32557
+          ],
+          [
+            0.01744,
+            0.61401
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          1,
+          2
+        ]
       }
     ],
-    "radome": {
-      "color": "red"
-    },
     "windows": "plain",
     "confidence": "medium",
     "sourceRefs": [
@@ -376,13 +426,13 @@
   },
   "logos": [
     {
-      "mark": "AAL/aa-eagle",
+      "mark": "AAL/aa-eagle-roundel",
       "place": "fuselage",
       "at": [
-        0.761,
-        -0.02
+        0.748,
+        -0.12
       ],
-      "height": 0.85,
+      "height": 0.95,
       "colors": [
         "navy",
         "red",
@@ -500,5 +550,5 @@
       }
     }
   ],
-  "notes": "Measured on N735AT's left side at Haneda, 2026-05-30 (from the terminal roof, nearly side-on), checked on two more that day and on the right side at Miami, 2026-02-20. The cheatline is about 0.25 m deep, its steps straight (corners), the long run following the windows' foot to the tail cone. The base reads as a light silver-gray paint in every photo (not polished metal). The fin's red band is about 0.7 m wide, so it takes most of the tip's short chord. The Flagship script's underline, 'THE', 'FLAGSHIP DFW' under the cockpit, the registration and small flag on the fin aren't drawn; the script is set in a stand-in, not drawn as a mark."
+  "notes": "Measured on N735AT's left side at Haneda, 2026-05-30 (from the terminal roof, nearly side-on), checked on two more that day and on the right side at Miami, 2026-02-20. The cheatline is about 0.25 m deep, its steps straight (corners), the long run following the windows' foot to the tail cone. The base reads as a light silver-gray paint in every photo (not polished metal). The fin's red band is about 0.7 m wide, so it takes most of the tip's short chord. The Flagship script's underline, 'THE', 'FLAGSHIP DFW' under the cockpit, the registration and small flag on the fin aren't drawn; the script is set in a stand-in, not drawn as a mark. Nose re-checked 2026-11-27 (N735AT side-on at Haneda and Heathrow, 2026, and from ahead at Miami): the red cap is the radome, its aft edge a point at the cheatline's start about 2.1 m back, rising forward to the windscreen's lower front corner and dropping forward to the chin; drawn as an area, level under the windscreen across the nose front."
 }

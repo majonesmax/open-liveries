@@ -541,9 +541,9 @@
       "place": "fuselage",
       "at": [
         0.284,
-        -0.228
+        -0.08
       ],
-      "height": 1.4,
+      "height": 1.9,
       "colors": [
         "#4E9A3A",
         "gold"

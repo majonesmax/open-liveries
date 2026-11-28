@@ -6,7 +6,7 @@
   "kind": "special",
   "confidence": "medium",
   "drawnOn": "A320",
-  "description": "Fuselage: Fire-engine red all over, belly included. Tail: Red fin; its lower half a navy panel edged in gold along the top and the forward side, carrying 'FIRE DEPARTMENT' in an arc of gold capitals, 'CITY OF NEW YORK' in white and a white skyline with the twin towers along the root. The gold edge runs on down the aft fuselage, and behind it a US flag (navy canton with white stars at the top, red and white stripes) wraps the fuselage under the fin; red tail-cone tip. Engines: Red with white 'jetblue.com', polished lips. Winglets: Red wingtip fences. Titles: Large white 'jetBlue' forward; 'Blue Bravest' small below the cockpit. Artwork: FDNY panel and US flag.",
+  "description": "Fuselage: Fire-engine red all over, belly included. Tail: Red fin; its lower half a blue FDNY panel edged in gold (a thin red line inside the gold) along the top, a chamfered aft corner and the forward side, carrying 'FIRE DEPARTMENT' in an arc of gold capitals, 'CITY OF NEW YORK' in white and a white skyline with the twin towers along the root. The forward gold edge runs on down the aft fuselage behind the aft door, and a second gold line runs from the rudder's foot down to the tail cone; the two close in toward the belly like a badge's sides, and between them, under the skyline, the badge's white field carries FDNY's Maltese cross (blue-outlined arms, red ring). Red tail-cone tip. Engines: Red with white 'jetblue.com', polished lips. Winglets: Red wingtip fences. Titles: Large white 'jetBlue' forward; 'Blue Bravest' small below the cockpit. Artwork: FDNY panel and Maltese cross.",
   "sources": [
     {
       "url": "https://simpleflying.com/jetblue-special-liveries-guide/",
@@ -33,6 +33,24 @@
       "title": "JetBlue Airways A320-232, N615JB, named Blue Bravest ... (53745536769) (CC BY 2.0)",
       "accessed": "2026-11-12",
       "note": "From below, 2024-05-24: red underside and wings' fences, the flag under the tail."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N615JB_tailfin_special_FDNY.jpg",
+      "title": "N615JB tailfin special FDNY (CC BY-SA 2.0)",
+      "accessed": "2026-11-27",
+      "note": "Left side of the tail close up, 2014-04-17: the panel's gold and red edging, the skyline and the Maltese cross with its red ring on the aft fuselage between the gold lines."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N615JB_jetBlue_Airways_Airbus_A320-232_C-N_2461_%22Blue_Bravest%22.jpg",
+      "title": "N615JB jetBlue Airways Airbus A320-232 C-N 2461 \"Blue Bravest\" (CC BY-SA 4.0)",
+      "accessed": "2026-11-27",
+      "note": "Right side, 2016-07-02, sunlit: the same panel and lettering as the left (not reversed), the gold lines on the aft fuselage."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N615JB_LAX_22.11.22_(52593676562).jpg",
+      "title": "N615JB LAX 22.11.22 (52593676562) (CC BY-SA 2.0)",
+      "accessed": "2026-11-27",
+      "note": "Left side nearly square on, 2022: where the gold lines run on the aft fuselage, measured from the aft door and the tail cone."
     }
   ],
   "from": "2012",
@@ -43,7 +61,8 @@
       "official": false
     },
     "navy": {
-      "hex": "#1E2F66",
+      "hex": "#24447F",
+      "name": "FDNY blue",
       "official": false
     },
     "gold": {
@@ -69,181 +88,564 @@
     "base": "red",
     "areas": [
       {
-        "name": "gold edge running down from the fin",
-        "color": "gold",
-        "points": [
-          [
-            0.795,
-            1
-          ],
-          [
-            0.811,
-            1
-          ],
-          [
-            0.82,
-            0.0
-          ],
-          [
-            0.869,
-            -0.6
-          ],
-          [
-            0.853,
-            -0.62
-          ],
-          [
-            0.803,
-            0.0
-          ]
-        ],
-        "confidence": "medium",
-        "sourceRefs": [
-          2,
-          3
-        ]
-      },
-      {
-        "name": "US flag: white",
+        "name": "the badge's white field on the aft fuselage, between the gold lines under the skyline",
         "color": "white",
+        "smooth": true,
         "points": [
           [
-            0.811,
+            0.8468,
             1
           ],
           [
-            0.94,
+            0.8598,
+            0
+          ],
+          [
+            0.8728,
+            -1
+          ],
+          [
+            0.9082,
+            -1
+          ],
+          [
+            0.9272,
+            0
+          ],
+          [
+            0.9355,
             1
-          ],
-          [
-            0.953,
-            0.2
-          ],
-          [
-            0.933,
-            -0.5
-          ],
-          [
-            0.869,
-            -0.6
-          ],
-          [
-            0.82,
-            0.0
           ]
         ],
         "confidence": "medium",
         "sourceRefs": [
-          2,
-          3
+          5,
+          6,
+          7
         ]
       },
       {
-        "name": "US flag: navy canton along the top",
+        "name": "the badge's blue carried on down below the fin root round the skyline, to the ring",
         "color": "navy",
         "points": [
           [
-            0.811,
+            0.8468,
             1
           ],
           [
-            0.94,
+            0.8539,
+            0.45
+          ],
+          [
+            0.9309,
+            0.45
+          ],
+          [
+            0.9355,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "name": "skyline carried on down to the cross",
+        "color": "white",
+        "side": "left",
+        "points": [
+          [
+            0.8594,
             1
           ],
           [
-            0.944,
-            0.75
+            0.8705,
+            1
           ],
           [
-            0.813,
-            0.75
-          ]
-        ],
-        "confidence": "low",
-        "sourceRefs": [
-          2,
-          3
-        ]
-      },
-      {
-        "name": "US flag: red stripe",
-        "color": "red",
-        "points": [
-          [
-            0.815,
+            0.8705,
             0.45
           ],
           [
-            0.949,
+            0.8594,
+            0.45
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "name": "skyline carried on down to the cross",
+        "color": "white",
+        "side": "left",
+        "points": [
+          [
+            0.8771,
+            1
+          ],
+          [
+            0.8879,
+            1
+          ],
+          [
+            0.8879,
             0.45
           ],
           [
-            0.951,
-            0.3
-          ],
-          [
-            0.816,
-            0.3
+            0.8771,
+            0.45
           ]
         ],
         "confidence": "low",
         "sourceRefs": [
-          2,
-          3
+          5,
+          6,
+          7
         ]
       },
       {
-        "name": "US flag: red stripe",
-        "color": "red",
+        "name": "skyline carried on down to the cross",
+        "color": "white",
+        "side": "left",
         "points": [
           [
-            0.819,
-            0.1
+            0.8987,
+            1
           ],
           [
-            0.953,
-            0.1
+            0.9059,
+            1
           ],
           [
-            0.952,
-            -0.05
+            0.9059,
+            0.45
           ],
           [
-            0.821,
-            -0.05
+            0.8987,
+            0.45
           ]
         ],
         "confidence": "low",
         "sourceRefs": [
-          2,
-          3
+          5,
+          6,
+          7
         ]
       },
       {
-        "name": "US flag: red stripe",
-        "color": "red",
+        "name": "skyline carried on down to the cross",
+        "color": "white",
+        "side": "left",
         "points": [
           [
-            0.837,
-            -0.3
+            0.9117,
+            1
           ],
           [
-            0.943,
-            -0.3
+            0.9165,
+            1
           ],
           [
-            0.937,
-            -0.45
+            0.9165,
+            0.45
           ],
           [
-            0.851,
-            -0.45
+            0.9117,
+            0.45
           ]
         ],
         "confidence": "low",
         "sourceRefs": [
-          2,
-          3
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "name": "skyline carried on down to the cross",
+        "color": "white",
+        "side": "left",
+        "points": [
+          [
+            0.9173,
+            1
+          ],
+          [
+            0.9226,
+            1
+          ],
+          [
+            0.9226,
+            0.45
+          ],
+          [
+            0.9173,
+            0.45
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "name": "skyline carried on down to the cross",
+        "color": "white",
+        "side": "left",
+        "points": [
+          [
+            0.9264,
+            1
+          ],
+          [
+            0.9323,
+            1
+          ],
+          [
+            0.9323,
+            0.45
+          ],
+          [
+            0.9264,
+            0.45
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "name": "skyline carried on down to the cross",
+        "color": "white",
+        "side": "right",
+        "points": [
+          [
+            0.9156,
+            1
+          ],
+          [
+            0.9267,
+            1
+          ],
+          [
+            0.9267,
+            0.45
+          ],
+          [
+            0.9156,
+            0.45
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "name": "skyline carried on down to the cross",
+        "color": "white",
+        "side": "right",
+        "points": [
+          [
+            0.8982,
+            1
+          ],
+          [
+            0.909,
+            1
+          ],
+          [
+            0.909,
+            0.45
+          ],
+          [
+            0.8982,
+            0.45
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "name": "skyline carried on down to the cross",
+        "color": "white",
+        "side": "right",
+        "points": [
+          [
+            0.8801,
+            1
+          ],
+          [
+            0.8874,
+            1
+          ],
+          [
+            0.8874,
+            0.45
+          ],
+          [
+            0.8801,
+            0.45
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "name": "skyline carried on down to the cross",
+        "color": "white",
+        "side": "right",
+        "points": [
+          [
+            0.8696,
+            1
+          ],
+          [
+            0.8743,
+            1
+          ],
+          [
+            0.8743,
+            0.45
+          ],
+          [
+            0.8696,
+            0.45
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "name": "skyline carried on down to the cross",
+        "color": "white",
+        "side": "right",
+        "points": [
+          [
+            0.8635,
+            1
+          ],
+          [
+            0.8688,
+            1
+          ],
+          [
+            0.8688,
+            0.45
+          ],
+          [
+            0.8635,
+            0.45
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "name": "skyline carried on down to the cross",
+        "color": "white",
+        "side": "right",
+        "points": [
+          [
+            0.8538,
+            1
+          ],
+          [
+            0.8596,
+            1
+          ],
+          [
+            0.8596,
+            0.45
+          ],
+          [
+            0.8538,
+            0.45
+          ]
+        ],
+        "confidence": "low",
+        "sourceRefs": [
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "name": "gold edge of the badge running on down from the fin, behind the aft door, closing in toward the belly",
+        "color": "gold",
+        "smooth": true,
+        "points": [
+          [
+            0.84,
+            1
+          ],
+          [
+            0.853,
+            0
+          ],
+          [
+            0.866,
+            -1
+          ],
+          [
+            0.8708,
+            -1
+          ],
+          [
+            0.8578,
+            0
+          ],
+          [
+            0.8448,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "name": "red line inside the forward gold edge",
+        "color": "red",
+        "smooth": true,
+        "points": [
+          [
+            0.8448,
+            1
+          ],
+          [
+            0.8578,
+            0
+          ],
+          [
+            0.8708,
+            -1
+          ],
+          [
+            0.8728,
+            -1
+          ],
+          [
+            0.8598,
+            0
+          ],
+          [
+            0.8468,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "name": "gold edge of the badge from the rudder's foot down, closing in toward the belly",
+        "color": "gold",
+        "smooth": true,
+        "points": [
+          [
+            0.9375,
+            1
+          ],
+          [
+            0.9292,
+            0
+          ],
+          [
+            0.9102,
+            -1
+          ],
+          [
+            0.915,
+            -1
+          ],
+          [
+            0.934,
+            0
+          ],
+          [
+            0.9423,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "name": "red line inside the aft gold edge",
+        "color": "red",
+        "smooth": true,
+        "points": [
+          [
+            0.9355,
+            1
+          ],
+          [
+            0.9272,
+            0
+          ],
+          [
+            0.9082,
+            -1
+          ],
+          [
+            0.9102,
+            -1
+          ],
+          [
+            0.9292,
+            0
+          ],
+          [
+            0.9375,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          5,
+          6,
+          7
         ]
       }
     ],
@@ -255,7 +657,8 @@
     "sourceRefs": [
       2,
       3,
-      4
+      4,
+      7
     ]
   },
   "fin": {
@@ -267,68 +670,106 @@
         "points": [
           [
             0.0,
-            0.53
+            0.52
           ],
           [
-            0.73,
-            0.53
+            0.68,
+            0.52
           ],
           [
             1.0,
-            0.37
+            0.335
           ],
           [
             1.0,
             0.0
           ],
           [
-            0.12,
+            0.285,
             0.0
           ],
           [
-            0.03,
-            0.27
+            0.0,
+            0.3
           ]
         ],
         "confidence": "medium",
         "sourceRefs": [
           2,
-          3
+          5,
+          6
         ]
       },
       {
-        "name": "navy FDNY panel",
-        "color": "navy",
+        "name": "red line inside the gold",
+        "color": "red",
         "points": [
           [
-            0.02,
-            0.51
+            0.03,
+            0.49
           ],
           [
-            0.72,
-            0.51
+            0.665,
+            0.49
           ],
           [
             1.0,
-            0.35
+            0.305
           ],
           [
             1.0,
             0.0
           ],
           [
-            0.15,
+            0.318,
             0.0
           ],
           [
-            0.06,
-            0.27
+            0.034,
+            0.296
           ]
         ],
         "confidence": "medium",
         "sourceRefs": [
           2,
-          3
+          5,
+          6
+        ]
+      },
+      {
+        "name": "blue FDNY badge",
+        "color": "navy",
+        "points": [
+          [
+            0.042,
+            0.481
+          ],
+          [
+            0.66,
+            0.481
+          ],
+          [
+            1.0,
+            0.296
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.332,
+            0.0
+          ],
+          [
+            0.046,
+            0.294
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          2,
+          5,
+          6
         ]
       }
     ],
@@ -336,7 +777,8 @@
     "confidence": "medium",
     "sourceRefs": [
       2,
-      3
+      5,
+      6
     ]
   },
   "wings": {
@@ -366,40 +808,41 @@
       "mark": "JBU/fdny-panel",
       "place": "fin",
       "at": [
-        0.5,
-        0.26
+        0.54,
+        0.215
       ],
-      "height": 0.48,
+      "height": 0.43,
       "colors": [
-        "navy",
         "gold",
         "white"
       ],
-      "description": "On the navy panel: 'FIRE DEPARTMENT' in gold capitals arched across the top, 'CITY OF' and 'NEW YORK' in white capitals in the middle, and along the root a white Manhattan skyline with the twin towers standing tallest, forward.",
+      "description": "On the blue panel: 'FIRE DEPARTMENT' in gold capitals arched across the top, 'CITY OF' and 'NEW YORK' in white capitals in the middle, and along the root a white Manhattan skyline with the twin towers standing tallest, forward. The same picture on both sides (not reversed).",
       "confidence": "medium",
       "sourceRefs": [
         2,
-        3
+        5,
+        6
       ]
     },
     {
-      "mark": "JBU/us-flag",
+      "mark": "JBU/fdny-cross",
       "place": "fuselage",
       "at": [
-        0.88,
-        0.2
+        0.8935,
+        0.12
       ],
-      "height": 1.5,
+      "height": 2.5,
       "colors": [
         "white",
         "red",
         "navy"
       ],
-      "description": "A US flag wrapped round the aft fuselage under the fin, behind the gold edge: the navy star field along the top by the fin root, red and white stripes below, ending ahead of the red tail-cone tip. The stripe layout is approximate.",
-      "confidence": "low",
+      "description": "FDNY's Maltese cross in the badge's white field on the aft fuselage, under the skyline: white arms outlined in blue, a red ring, red at its center. Its detail (the ladders, the hydrant) isn't drawn.",
+      "confidence": "medium",
       "sourceRefs": [
-        2,
-        3
+        5,
+        6,
+        7
       ]
     }
   ],
@@ -491,5 +934,5 @@
       "length": 0.36
     }
   ],
-  "notes": "Drawn from left-side photos (2023-05-16, 2024-02-25); a 2021 left-side shot agrees. The flag round the tail cone is partly hidden by the tailplane in every photo, so its stripes are low confidence. Small markings not drawn: an FDNY patch and a US flag by the forward door, 'Honored to support New York's Bravest' near the aft door. Re-checked 2026-11-15: 'jetBlue' placed as on the standard (measured in metres on the A321neo N2017J and checked on A320s: x 0.174-0.356 of an A320, cap 1.57 m, lowercase 0.76 of the capitals); 'jetblue.com' on the A320's nacelle x 0.43-0.79 (read off N615JB and N627JB); the name under the cockpit given its length."
+  "notes": "Drawn from left-side photos (2023-05-16, 2024-02-25); a 2021 left-side shot agrees. Redrawn 2026-11-27 from the 2014 tail close-up and the 2016 right-side photo: what wraps the aft fuselage is FDNY's Maltese cross between two thin gold lines, not a US flag; the panel is a mid blue in sunlight, lighter than navy. Small markings not drawn: an FDNY patch and a US flag by the forward door, 'Honored to support New York's Bravest' near the aft door. Re-checked 2026-11-15: 'jetBlue' placed as on the standard (measured in metres on the A321neo N2017J and checked on A320s: x 0.174-0.356 of an A320, cap 1.57 m, lowercase 0.76 of the capitals); 'jetblue.com' on the A320's nacelle x 0.43-0.79 (read off N615JB and N627JB); the name under the cockpit given its length. Re-checked 2026-11-27 (second pass): the panel is FDNY's badge, its gold edges (a red line inside them) running on down the aft fuselage and closing in toward the belly; under the skyline the badge is white, not red, round the stabilizer (both sides, 2014-2022 photos)."
 }

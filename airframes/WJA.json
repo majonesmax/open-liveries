@@ -187,6 +187,30 @@
       ],
       "hexSource": "Transport Canada's Canadian Civil Aircraft Register (24 Bit Address, 2026-11-22); hexdb.io and adsbdb don't know the mark yet",
       "status": "The maintainer saw it in the children's drawings scheme (tail 340, logged 2026-11-22); no photo or press source."
+    },
+    {
+      "registration": "C-FGWJ",
+      "hex": "c0121e",
+      "type": "B737",
+      "livery": "classic",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://www.planespotters.net/photo/1828586/c-fgwj-westjet-boeing-737-7ct-wl",
+          "title": "planespotters.net photo of C-FGWJ",
+          "accessed": "2026-11-27",
+          "note": "Recent photo (2025), in the pre-2018 scheme."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:C-FGWJ_(32854076854).jpg",
+          "title": "C-FGWJ (32854076854).jpg (CC BY-SA 2.0)",
+          "accessed": "2026-11-27",
+          "note": "Photo 2017-02-11."
+        }
+      ],
+      "hexSource": "aircraft database (adsbdb) via the app's saved flight, 2026-11-27",
+      "lastSeen": "2026-11-27",
+      "status": "Still in the pre-2018 scheme on its newest photo (2025); the owner saw it into Toronto on 2026-11-27."
     }
   ]
 }

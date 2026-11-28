@@ -284,15 +284,15 @@
       "mark": "AFR/seahorse",
       "place": "engines",
       "at": [
-        0.45,
-        0.2
+        0.3,
+        0.1
       ],
-      "height": 0.35,
+      "height": 0.5,
       "colors": [
         "navy",
         "white"
       ],
-      "description": "The same seahorse roundel on the engine cowling.",
+      "description": "The same seahorse roundel on the forward part of the cowling, about a quarter of its height across.",
       "confidence": "medium",
       "sourceRefs": [
         0,

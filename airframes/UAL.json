@@ -365,6 +365,31 @@
       "type": "B764",
       "lastSeen": "2026-10-17",
       "status": "active: Commons photo 17 Oct 2026."
+    },
+    {
+      "registration": "N79521",
+      "livery": "standard-2010",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N79521_-_Boeing_737-824_-_United_Airlines_(52837159659).jpg",
+          "title": "N79521 - Boeing 737-824 - United Airlines (52837159659).jpg (CC BY 2.0)",
+          "accessed": "2026-11-27",
+          "note": "In the 2010 scheme (white over gray, gold line, globe on a blue fin), 2023-04-16."
+        },
+        {
+          "url": "https://www.planespotters.net/photo/1709847/n79521-united-airlines-boeing-737-824-wl",
+          "title": "N79521 on planespotters.net (photo 1709847, all rights reserved: evidence only)",
+          "accessed": "2026-11-27",
+          "note": "The photo the app showed when the maintainer saved it on 2026-11-27: still the 2010 scheme."
+        }
+      ],
+      "hex": "aacd50",
+      "hexSource": "derived from the N-number (tools/nnumber.py), 2026-11-27; the maintainer saw it with this hex 2026-11-27",
+      "type": "B738",
+      "lastSeen": "2026-11-27",
+      "status": "active: the maintainer saw it at Washington National 2026-11-27 (UAL1073); newest open photo 2023-04-16.",
+      "notes": "Not yet repainted into the 2019 Evolution scheme as of the newest photos; tagged medium until a 2025-2026 photo confirms it."
     }
   ]
 }

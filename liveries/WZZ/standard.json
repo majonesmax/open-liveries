@@ -31,6 +31,12 @@
       "url": "https://commons.wikimedia.org/wiki/File:Wizz_Air_logo_2015.svg",
       "accessed": "2026-11-13",
       "title": "Wizz Air logo 2015 (Commons)"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A321-271NX_(c-n_9564,_9H-WAO)_2025-11-07_Andre_Gerwing_Collection_ID_027324.jpg",
+      "accessed": "2026-11-27",
+      "title": "9H-WAO, 2025-11-07 (CC BY-SA 4.0, André Gerwing)",
+      "note": "A321neo right side, sharp: the outlined 'wizz' (the outline magenta in its upper half, blue-violet below), read the same way from the right."
     }
   ],
   "palette": {
@@ -181,6 +187,26 @@
   },
   "logos": [
     {
+      "mark": "WZZ/wordmark",
+      "place": "fuselage",
+      "at": [
+        0.194,
+        0.207
+      ],
+      "height": 0.667,
+      "colors": [
+        "magenta",
+        "violet"
+      ],
+      "description": "The 'wizz' wordmark by the forward door, painted in outline only: big slanted letters drawn as a line, magenta in their upper half turning blue-violet below, white inside; the i's dot a ring under the line, joined to the last z's foot. A logo entry because a title can't be drawn in outline. It covers the stretch the letters were measured over (x 0.133 to 0.255, the letters' feet at y -0.06, their tops at 0.54) on both sides, reading the same way.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Wizz_Air_logo_2015.svg",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        4
+      ]
+    },
+    {
       "mark": "WZZ/wizzair-com",
       "place": "winglets",
       "at": [
@@ -200,36 +226,6 @@
     }
   ],
   "titles": [
-    {
-      "text": "wizz",
-      "place": "fuselage",
-      "at": [
-        0.133,
-        -0.06
-      ],
-      "height": 0.6,
-      "length": 0.122,
-      "color": "violet",
-      "style": "The Wizz wordmark: big, heavy, slanted lowercase drawn in outline only (a blue-violet outline with a thin magenta inner line, white inside); the 'i' a stem with the dot below as a ring. Re-measured 2026-11-15 on 9H-WDS (side-on): the letters run from just under the window line to about halfway to the crown; they are nearly all one height (the i's stem a little taller), hence xHeight 0.9.",
-      "confidence": "high",
-      "sourceRefs": [
-        0,
-        1,
-        2
-      ],
-      "type": {
-        "similar": [
-          "Futura Extra Bold Oblique (outlined)",
-          "Avenir Next Heavy Italic (outlined)"
-        ],
-        "weight": 800,
-        "slantDeg": 12,
-        "width": "normal",
-        "strokes": "uniform",
-        "case": "lower",
-        "xHeight": 0.9
-      }
-    },
     {
       "text": "wizzair.com",
       "place": "fuselage",
@@ -303,6 +299,6 @@
       ]
     }
   ],
-  "notes": "Measured on A321neos (2025); A320s/A321ceos wear the same. Wizz Air Malta (9H-) and Wizz Air UK (G-) aircraft wear it unchanged. Where the magenta begins under the wing is hidden in the photos; the belly is only glimpsed (blurred) on approach. Re-checked 2026-11-15 on 9H-WDS (A321neo, side-on): 'wizz' and the aft 'wizzair.com' given measured lengths; the belly title has no photo that shows it clearly enough to measure its length.",
+  "notes": "Measured on A321neos (2025); A320s/A321ceos wear the same. Wizz Air Malta (9H-) and Wizz Air UK (G-) aircraft wear it unchanged. Where the magenta begins under the wing is hidden in the photos; the belly is only glimpsed (blurred) on approach. Re-checked 2026-11-15 on 9H-WDS (A321neo, side-on): 'wizz' and the aft 'wizzair.com' given measured lengths; the belly title has no photo that shows it clearly enough to measure its length. 2026-11-27: the outlined 'wizz' moved from a title to a logo entry (WZZ/wordmark), because a title is drawn as solid letters and the real wordmark is an outline; checked on 9H-WAO (right side, 2025-11-07).",
   "history": "Replaced Skyarium v1's approximation. The 2015 scheme replaced Wizz's earlier white aircraft with a purple fin and magenta 'wizzair.com' titles."
 }

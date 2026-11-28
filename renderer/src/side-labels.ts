@@ -6,7 +6,7 @@ import type { Mapping } from './geometry.js';
 import { drawLogo, drawTitle } from './labels.js';
 import { onThePaint, PAINT_MARGIN } from './paint.js';
 import type { Livery, Logo, Point, Title } from './scheme.js';
-import { finFaceX } from './side-parts.js';
+import { finFaceX, finLabelClips } from './side-parts.js';
 import type { Outlines, Parts } from './side-parts.js';
 import { showsOn, svgElement } from './svg.js';
 import type { Canvas, Element } from './svg.js';
@@ -137,7 +137,14 @@ export function drawLabels(
       fuselageLayer ??= svgElement('g', { 'clip-path': canvas.clipTo('fusLabels', outlines.fuselage) }, canvas.svg);
       return fuselageLayer;
     }
-    finLayer ??= svgElement('g', { 'clip-path': canvas.clipTo('finLabels', outlines.fin) }, canvas.svg);
+    finLayer ??= svgElement(
+      'g',
+      { 'clip-path': canvas.clipTo('finLabels', outlines.fin) },
+      finLabelClips(parts).reduce(
+        (parent: Element, clip, i) => svgElement('g', { 'clip-path': canvas.clipTo(`finShown${i}`, clip) }, parent),
+        canvas.svg,
+      ),
+    );
     return finLayer;
   };
   const deferred: ((parent: Element) => void)[] & { behind: ((parent: Element) => void)[][] } = Object.assign([], {

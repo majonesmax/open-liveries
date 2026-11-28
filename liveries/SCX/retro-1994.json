@@ -45,7 +45,7 @@
       "note": "Airline press photo (static.wixstatic.com/media/50dacc_f67f6ea0622b4f65b0d4d0705c2ddf98~mv2.png): checked the cheatline's layout and the title by eye; and its left side from ahead (50dacc_f7021963442748dd8c3f75ba857a9812~mv2.png), the title and fin partly hidden by the stairs. Not measured."
     }
   ],
-  "notes": "Measured off Sun Country's own press photo of N826SY's right side (May 2026, flipped nose-left), fitted to shapes/B738.json. The photo is a little from behind with a short lens, and one fit couldn't hold both ends (the nose came out 15-30 px off), so the forward fuselage was read through a fit on the nose, forward door, first window and the crown and belly at 4 and 10 m, the aft fuselage through one on the tail, fin tip, aft door and the crown and belly at 23 and 32 m: positions about 0.01-0.015 of the length either way. The wing and engine hide the stripes from about x 0.34 to 0.52: drawn straight through. The orange over the nose is in shade and its lowest edge near the nose tip is the least sure part. The fin was measured off its own outline in the photo (its edges are the fin space, so the fit's narrower 737 fin didn't matter): the white tip from 0.885 of the height at the leading edge to 0.755 at the trailing edge; the sun-and-S centered at x 0.656, 0.354 up, 0.74 tall to its rays' tips; white at the leading edge's foot behind the white fillet. The leading edge shows a thin white edge (paint or the bare boot, unclear): not drawn. The red band is lit unevenly (bright under the white line, darker at the windows): one red. Titles: the right side shows 'Sun Country' from x 0.093 to 0.409 and it's drawn over the same stretch on the left (the left-side press photos show 'Country' running aft toward the wing, its start hidden by the stairs). Its white outline shows only where the y crosses the orange and isn't drawn. Not drawn: 'BOEING 737-800' small above the aft windows, the Jim Olsen dedication decal by the forward door. The 2026-09-11 Commons photo (right side from ahead) agrees with the press photos but was too foreshortened to fit.",
+  "notes": "Measured off Sun Country's own press photo of N826SY's right side (May 2026, flipped nose-left), fitted to shapes/B738.json. The photo is a little from behind with a short lens, and one fit couldn't hold both ends (the nose came out 15-30 px off), so the forward fuselage was read through a fit on the nose, forward door, first window and the crown and belly at 4 and 10 m, the aft fuselage through one on the tail, fin tip, aft door and the crown and belly at 23 and 32 m: positions about 0.01-0.015 of the length either way. The wing and engine hide the stripes from about x 0.34 to 0.52: drawn straight through. The orange over the nose is in shade and its lowest edge near the nose tip is the least sure part. The fin was measured off its own outline in the photo (its edges are the fin space, so the fit's narrower 737 fin didn't matter): the white tip from 0.885 of the height at the leading edge to 0.755 at the trailing edge; the sun-and-S centered at x 0.656, 0.354 up, 0.74 tall to its rays' tips; white at the leading edge's foot behind the white fillet. The leading edge shows a thin white edge (paint or the bare boot, unclear): not drawn. The red band is lit unevenly (bright under the white line, darker at the windows): one red. Titles: the right side shows 'Sun Country' from x 0.093 to 0.409 and it's drawn over the same stretch on the left (the left-side press photos show 'Country' running aft toward the wing, its start hidden by the stairs). Its white outline shows only where the y crosses the orange and isn't drawn. Not drawn: 'BOEING 737-800' small above the aft windows, the Jim Olsen dedication decal by the forward door. The 2026-09-11 Commons photo (right side from ahead) agrees with the press photos but was too foreshortened to fit. Nose re-checked 2026-11-27 (N826SY from ahead on the right, Syracuse 2026-09-11): the orange's top edge runs level to the nose and over its tip, and the orange covers the chin back to under the cockpit; it had been drawn with both edges closing on the nose tip, leaving a white tip and a white chin.",
   "drawnOn": "B738",
   "palette": {
     "white": {
@@ -89,16 +89,38 @@
         "smooth": true,
         "points": [
           [
-            0,
-            -0.12
+            0.00028,
+            1.0
           ],
           [
-            0.023,
-            -0.118
+            0.00071,
+            0.32901,
+            1
           ],
           [
-            0.058,
-            -0.113
+            0.00176,
+            0.18924,
+            1
+          ],
+          [
+            0.00477,
+            0.12654,
+            1
+          ],
+          [
+            0.01502,
+            0.06972,
+            1
+          ],
+          [
+            0.04701,
+            -0.04824,
+            1
+          ],
+          [
+            0.07002,
+            -0.08345,
+            1
           ],
           [
             0.1,
@@ -217,16 +239,17 @@
             -0.6
           ],
           [
-            0.039,
-            -0.46
+            0.04335,
+            -0.70068,
+            1
           ],
           [
-            0.02,
-            -0.3
+            0.03336,
+            -1.0
           ],
           [
-            0,
-            -0.15
+            1e-05,
+            -1.0
           ]
         ],
         "confidence": "medium",

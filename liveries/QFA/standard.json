@@ -42,6 +42,12 @@
       "title": "VH-OQJ sitting at DFW 20261026 (6) (CC0, Designism)",
       "accessed": "2026-11-15",
       "note": "A380, right front quarter, 2026-10-26: QANTAS and 'Spirit of Australia' between the two decks' windows."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:VH-ZNC(QF10_B787-9Dreamliner).jpg",
+      "title": "VH-ZNC (QF10 B787-9 Dreamliner) (CC BY-SA 4.0)",
+      "accessed": "2026-11-27",
+      "note": "Left side in the air, sharp: the fin's kangaroo, its size and place (the tail running off the trailing edge near the tip)."
     }
   ],
   "palette": {
@@ -181,20 +187,21 @@
       "mark": "QFA/kangaroo",
       "place": "fin",
       "at": [
-        0.42,
-        0.53
+        0.6,
+        0.44
       ],
-      "height": 0.75,
+      "height": 0.9,
       "colors": [
         "white"
       ],
-      "description": "The 2016 flying kangaroo: a white, sleek leaping kangaroo, head up toward the fin's leading edge near the tip, forelegs reaching forward, the long tail sweeping down and aft to the fin's root; on the red fin, facing forward on both sides.",
+      "description": "The 2016 flying kangaroo in white on the red fin: leaping forward, head and ear low toward the leading edge, the hind leg down to the root, the long tail sweeping up and aft to the trailing edge near the tip, where the fin's edge cuts it. Facing forward on both sides.",
       "reference": "https://commons.wikimedia.org/wiki/File:Qantas_Airways_logo_2016.svg",
       "side": "both",
       "confidence": "high",
       "sourceRefs": [
         1,
-        2
+        2,
+        6
       ]
     },
     {

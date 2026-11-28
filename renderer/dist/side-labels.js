@@ -3,7 +3,7 @@
 import { inside } from './geometry.js';
 import { drawLogo, drawTitle } from './labels.js';
 import { onThePaint, PAINT_MARGIN } from './paint.js';
-import { finFaceX } from './side-parts.js';
+import { finFaceX, finLabelClips } from './side-parts.js';
 import { showsOn, svgElement } from './svg.js';
 /**
  * A logo on a small part (a winglet) kept inside its outline: about as wide as it's tall (its mark's width isn't known
@@ -100,7 +100,7 @@ export function drawLabels(livery, side, canvas, parts, outlines, only, finParen
             fuselageLayer ??= svgElement('g', { 'clip-path': canvas.clipTo('fusLabels', outlines.fuselage) }, canvas.svg);
             return fuselageLayer;
         }
-        finLayer ??= svgElement('g', { 'clip-path': canvas.clipTo('finLabels', outlines.fin) }, canvas.svg);
+        finLayer ??= svgElement('g', { 'clip-path': canvas.clipTo('finLabels', outlines.fin) }, finLabelClips(parts).reduce((parent, clip, i) => svgElement('g', { 'clip-path': canvas.clipTo(`finShown${i}`, clip) }, parent), canvas.svg));
         return finLayer;
     };
     const deferred = Object.assign([], {

@@ -145,6 +145,37 @@
       "from": "2026-02",
       "lastSeen": "2026-09-03",
       "status": "active: Commons photo at Singapore 3 Sep 2026."
+    },
+    {
+      "registration": "D-ABYK",
+      "livery": "standard-1988",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Lufthansa_Boeing_747-8_D-ABYK_MD1.jpg",
+          "title": "Lufthansa Boeing 747-8 D-ABYK MD1.jpg (CC BY-SA 4.0)",
+          "accessed": "2026-11-27",
+          "note": "In the 1988 scheme (yellow disc on the blue fin), 2025-06-21."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:D-ABYK_AIRCRAFT_Boeing_747-830.jpg",
+          "title": "D-ABYK AIRCRAFT Boeing 747-830.jpg (CC BY-SA 4.0)",
+          "accessed": "2026-11-27",
+          "note": "The same, 2025-01-23."
+        },
+        {
+          "url": "https://www.planespotters.net/photo/1996670/d-abyk-lufthansa-boeing-747-830",
+          "title": "D-ABYK on planespotters.net (photo 1996670, all rights reserved: evidence only)",
+          "accessed": "2026-11-27",
+          "note": "The photo the app showed when the maintainer saved it on 2026-11-27: the 1988 scheme."
+        }
+      ],
+      "hex": "3c4b2b",
+      "hexSource": "seen: the maintainer's ADS-B sighting 2026-11-27 (DLH499 at Heathrow) with this registration",
+      "type": "B748",
+      "lastSeen": "2026-11-27",
+      "status": "active: the maintainer saw it at Heathrow 2026-11-27; Commons photos 2025-01-23 and 2025-06-21.",
+      "notes": "Named Rheinland-Pfalz. Not repainted into the 2018 scheme as of 2025."
     }
   ]
 }

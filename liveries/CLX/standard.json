@@ -261,9 +261,9 @@
       ],
       "height": 0.06,
       "colors": [
-        "red",
-        "white",
-        "blue"
+        "#EF3340",
+        "#FFFFFF",
+        "#00A3E0"
       ],
       "description": "The Luxembourg flag (red, white, light blue horizontal bands), small, at the top of the fin by the trailing edge.",
       "reference": "https://commons.wikimedia.org/wiki/File:Flag_of_Luxembourg.svg",

@@ -3,7 +3,7 @@
 import { NEUTRAL, NOZZLE, OUTLINE, OUTLINE_DARK, PROPELLER, spinnerPaint, UNPAINTED_FUSELAGE } from './colors.js';
 import { fromHeight, HALVES, halfSign } from './geometry.js';
 import { drawLogo, drawTitle } from './labels.js';
-import { stubPylonPaint } from './paint.js';
+import { areaFill, stubPylonPaint } from './paint.js';
 import { areaPolygon, createCanvas, densify, densifyArea, showsOn, svgElement } from './svg.js';
 export function drawBelow(livery, geometry, options = {}) {
     const label = `${livery.airline} ${livery.name}, from below`;
@@ -126,7 +126,8 @@ function drawFuselage(livery, canvas, geometry) {
                 continue;
             const outline = areaPolygon(area, -1, 1, [-1, 1], true);
             const dense = area.smooth === true ? densifyArea(outline) : densify(outline);
-            polygon(dense.map(([x, h]) => onHalf([x, fromHeight(h)])), color(area.color), group);
+            const drawn = dense.map(([x, h]) => onHalf([x, fromHeight(h)]));
+            polygon(drawn, areaFill(area, dense, drawn, canvas, true), group);
         }
         if (fuselage.radome) {
             const to = fuselage.radome.to ?? 0.025;

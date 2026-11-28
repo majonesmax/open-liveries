@@ -36,9 +36,15 @@
       "title": "N492AS @ SFO.jpg (CC BY-SA 2.0)",
       "accessed": "2026-11-14",
       "note": "Left side taxiing, SFO 2022-09: the same layout."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Alaska_Airlines_Boeing_737-900ER_N492AS_lined_up_at_Seattle-Tacoma_May_2026.jpg",
+      "title": "Alaska Airlines Boeing 737-900ER N492AS lined up at Seattle-Tacoma May 2026.jpg (CC BY 4.0)",
+      "accessed": "2026-11-27",
+      "note": "Left side side-on and near level (about 3 degrees above), 2026-05: King's quote measured against the windows. 'DO WHAT' sits wholly below the window line, 'ALWAYS RIGHT TO' just above it."
     }
   ],
-  "notes": "Drawn from the left side (2026-05-30, side-on) and Alaska's photo of the right side. The two sides carry different quotes (titles marked by side); the right side's quote is placed from Alaska's three-quarter photo, so its position is less sure. The profiles are drawn as one copper field with an amber front: each face is in the logo entry. The 'UNCF' logo on the engines and the small quote attributions aren't drawn.",
+  "notes": "Drawn from the left side (2026-05-30, side-on; the quote's heights from the near-level 2026-05 photo at Seattle, as the approach photo from below lifted them about a tenth of the body's half-height, onto the windows) and Alaska's photo of the right side. The two sides carry different quotes (titles marked by side); the right side's quote is placed from Alaska's three-quarter photo, so its position is less sure. The profiles are drawn as one copper field with an amber front: each face is in the logo entry. The 'UNCF' logo on the engines and the small quote attributions aren't drawn.",
   "from": "2021-04",
   "palette": {
     "black": {
@@ -310,17 +316,17 @@
       "place": "fuselage",
       "at": [
         0.198,
-        0.52
+        0.385
       ],
-      "height": 0.12,
+      "height": 0.084,
       "color": "orange",
       "style": "Small condensed capitals in orange, the first line of King's quote.",
       "side": "left",
       "confidence": "medium",
       "sourceRefs": [
-        3
+        5
       ],
-      "length": 0.055,
+      "length": 0.065,
       "type": {
         "similar": [
           "Futura Extra Bold Condensed",
@@ -338,15 +344,15 @@
       "place": "fuselage",
       "at": [
         0.188,
-        0.36
+        0.251
       ],
-      "height": 0.14,
+      "height": 0.126,
       "color": "orange",
       "style": "Condensed capitals in orange.",
       "side": "left",
       "confidence": "medium",
       "sourceRefs": [
-        3
+        5
       ],
       "length": 0.14,
       "type": {
@@ -366,15 +372,15 @@
       "place": "fuselage",
       "at": [
         0.198,
-        0.03
+        -0.09
       ],
-      "height": 0.19,
+      "height": 0.196,
       "color": "bone",
       "style": "Big heavy condensed capitals in off-white.",
       "side": "left",
       "confidence": "medium",
       "sourceRefs": [
-        3
+        5
       ],
       "length": 0.11,
       "type": {
@@ -394,15 +400,15 @@
       "place": "fuselage",
       "at": [
         0.228,
-        -0.26
+        -0.365
       ],
-      "height": 0.26,
+      "height": 0.242,
       "color": "bone",
       "style": "The biggest line, off-white; a small 'IS' sits between it and 'DO WHAT'.",
       "side": "left",
       "confidence": "medium",
       "sourceRefs": [
-        3
+        5
       ],
       "length": 0.105,
       "type": {

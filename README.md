@@ -48,6 +48,8 @@ goes. Then it draws the plane.
 - `shapes/<ICAO type>.json`: real types' outlines in meters, measured from the manufacturers' airport-planning
   drawings (`schema/shape.schema.json`, `docs/SHAPES.md`). They show what a scheme's parts are on an A320 or a 737-800.
 - `docs/LOGOS.md`: how logos are described (and why the artwork isn't here).
+- `CHANGELOG.md`: what each release changed. Releases are dated git tags like `2026.11.27`, with `.2` for a second
+  one that day. Their notes are generated from the data by `tools/release_notes.py`.
 - `docs/UPDATING.md`: where the data comes from and how it's kept current. `CONTRIBUTING.md` covers how to add or fix
   a scheme and the sourcing rules.
 - `renderer/`: draws a scheme as SVG from either side or below. It draws on a built-in narrowbody, widebody or
@@ -63,37 +65,37 @@ goes. Then it draws the plane.
 ## What's in it
 
 <!-- stats:start -->
-*Counted by `tools/stats.py` on 2026-11-26.*
+*Counted by `tools/stats.py` on 2026-11-27.*
 
-- **381 schemes** from **196 airlines**: 272 standard, 80 special, 24 retro, 5 alliance.
-- **328 drawn** with colored areas you can reproduce. The other 53 are described in words only so far. 357 have their titles set out, 325 their logos placed.
-- **196 airlines' everyday schemes** (272 with freighter and older variants), plus **93 operators** that fly in another airline's paint (regionals in their mainline's).
-- **1488 airframes tagged** (registration, usually its ICAO address, and the scheme it wears): 1478 current and 10 past. 191 have their own tail art.
+- **389 schemes** from **198 airlines**: 279 standard, 81 special, 24 retro, 5 alliance.
+- **332 drawn** with colored areas you can reproduce. The other 57 are described in words only so far. 365 have their titles set out, 332 their logos placed.
+- **198 airlines' everyday schemes** (279 with freighter and older variants), plus **93 operators** that fly in another airline's paint (regionals in their mainline's).
+- **1500 airframes tagged** (registration, usually its ICAO address, and the scheme it wears): 1490 current and 10 past. 193 have their own tail art.
 - **86 leads**: special schemes seen on public lists, not yet researched.
 
 | Scheme confidence | Schemes |
 |---|--:|
-| medium | 268 |
+| medium | 276 |
 | high | 83 |
 | low | 30 |
 
 | Airframe confidence | Airframes |
 |---|--:|
-| medium | 739 |
-| high | 402 |
-| low | 347 |
+| medium | 744 |
+| high | 408 |
+| low | 348 |
 
 Evidence behind each airframe's tag, by its first source (most have more than one):
 
 | Evidence | Airframes |
 |---|--:|
-| dated photo (Wikimedia Commons) | 599 |
+| dated photo (Wikimedia Commons) | 609 |
 | aircraft database (adsbdb) | 250 |
 | where it flies (adsb.lol flight history) | 238 |
 | the airline or its press release | 161 |
 | Wikipedia | 76 |
+| aviation press and other | 64 |
 | FAA aircraft registry | 63 |
-| aviation press and other | 62 |
 | spotter fleet list (names only) | 31 |
 | aircraft database (hexdb) | 8 |
 
@@ -101,9 +103,9 @@ Sources cited by the schemes:
 
 | Source | Citations |
 |---|--:|
-| dated photo (Wikimedia Commons) | 1750 |
-| aviation press and other | 226 |
-| Wikipedia | 163 |
+| dated photo (Wikimedia Commons) | 1829 |
+| aviation press and other | 231 |
+| Wikipedia | 165 |
 | the airline or its press release | 57 |
 | aircraft database (hexdb) | 1 |
 

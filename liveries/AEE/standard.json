@@ -31,6 +31,30 @@
       "title": "SX-NEB, London Heathrow, September 27th 2021.jpg (CC BY-SA 4.0)",
       "accessed": "2026-11-13",
       "note": "SX-NEB from below left, 2021-09-27: engines, wings, sharklets."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:AEGEAN_AIRLINES_AIRBUS_A320NEO_SX-NEE_(52945420025).jpg",
+      "title": "AEGEAN AIRLINES AIRBUS A320NEO SX-NEE (52945420025).jpg (CC BY 2.0)",
+      "accessed": "2026-11-27",
+      "note": "SX-NEE left side, 2023-05-30: fitted to shapes/A20N.json (the fin within 8 px) and the bird probed point by point: the white feathers end square on one level line, the pale blue below them curving the other way (each feather an S, white above the line, pale blue below), the upper one running on over the tail cone; a pale blue sliver ahead of the navy's diagonal."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:AEGEAN_AIRLINES_AIRBUS_A320NEO_SX-NEK_(53011352710).jpg",
+      "title": "AEGEAN AIRLINES AIRBUS A320NEO SX-NEK (53011352710).jpg (CC BY 2.0)",
+      "accessed": "2026-11-27",
+      "note": "SX-NEK right side, 2023-06-27: the bird mirrored, the tail-cone stroke and the diagonal's sliver on the right."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A321-271NX_(c-n_10305,_SX-NAD)_2024-11-02_Andre_Gerwing_Collection_ID_022427.jpg",
+      "accessed": "2026-11-27",
+      "title": "SX-NAD, 2024-11-02 (CC BY-SA 4.0, Andre Gerwing)",
+      "note": "A321neo right side, square on and sharp: the bird's feathers and pale strokes traced off it on the A21N shape (tools/photo_trace.py), mirrored to the left."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Airbus_A321-271NX_(c-n_10305,_SX-NAD)_2024-11-02_Andre_Gerwing_Collection_ID_022428.jpg",
+      "accessed": "2026-11-27",
+      "title": "SX-NAD, 2024-11-02 (CC BY-SA 4.0, Andre Gerwing)",
+      "note": "The same in low sun: the fin's blue reads a deep blue, not black."
     }
   ],
   "palette": {
@@ -39,11 +63,12 @@
       "official": false
     },
     "navy": {
-      "hex": "#15205E",
-      "official": false
+      "hex": "#1A2766",
+      "official": false,
+      "name": "Aegean blue (a deep blue that reads blue in sun and overcast, never black)"
     },
     "pale": {
-      "hex": "#8EA4CE",
+      "hex": "#97A7C1",
       "official": false
     },
     "lip": {
@@ -55,6 +80,33 @@
     "base": "white",
     "windows": "plain",
     "areas": [
+      {
+        "name": "pale blue sliver ahead of the navy's diagonal",
+        "color": "pale",
+        "points": [
+          [
+            0.618,
+            -1
+          ],
+          [
+            0.803,
+            1
+          ],
+          [
+            0.815,
+            1
+          ],
+          [
+            0.63,
+            -1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          4,
+          5
+        ]
+      },
       {
         "name": "navy aft section behind a diagonal",
         "color": "navy",
@@ -83,6 +135,70 @@
           2,
           3
         ]
+      },
+      {
+        "name": "the forward pale stroke carried on from the fin's root down across the tail cone, under the tailplane, to a point low on the side",
+        "color": "pale",
+        "points": [
+          [
+            0.928,
+            1
+          ],
+          [
+            0.952,
+            1
+          ],
+          [
+            0.954,
+            0.72
+          ],
+          [
+            0.962,
+            0.36
+          ],
+          [
+            0.971,
+            0.15
+          ],
+          [
+            0.978,
+            0.0
+          ],
+          [
+            0.982,
+            -0.12,
+            1
+          ],
+          [
+            0.972,
+            -0.015
+          ],
+          [
+            0.962,
+            0.08
+          ],
+          [
+            0.955,
+            0.2
+          ],
+          [
+            0.945,
+            0.33
+          ],
+          [
+            0.936,
+            0.5
+          ],
+          [
+            0.932,
+            0.7
+          ]
+        ],
+        "smooth": true,
+        "confidence": "medium",
+        "sourceRefs": [
+          6
+        ]
       }
     ],
     "confidence": "high",
@@ -97,118 +213,324 @@
     "base": "navy",
     "areas": [
       {
-        "name": "pale blue under the upper feather",
+        "name": "pale blue stroke under the upper feather, from its point down to the fin's root",
         "color": "pale",
         "points": [
           [
-            0.13,
-            0.35
+            0.4,
+            0.357
           ],
           [
-            0.21,
-            0.35
+            0.147,
+            0.357,
+            1
           ],
           [
-            0.68,
-            0.02
+            0.149,
+            0.352
           ],
           [
-            0.58,
-            0.02
-          ]
-        ]
-      },
-      {
-        "name": "pale blue under the lower feather",
-        "color": "pale",
-        "points": [
-          [
-            0.53,
-            0.34
+            0.337,
+            0.29
           ],
           [
-            0.6,
-            0.34
+            0.49,
+            0.218
+          ],
+          [
+            0.588,
+            0.158
+          ],
+          [
+            0.705,
+            0.063
+          ],
+          [
+            0.794,
+            -0.004
+          ],
+          [
+            0.824,
+            -0.025
+          ],
+          [
+            0.848,
+            -0.034
+          ],
+          [
+            1.009,
+            -0.041
+          ],
+          [
+            0.944,
+            0.011
           ],
           [
             0.89,
-            0.02
+            0.06
           ],
           [
-            0.77,
-            0.02
+            0.819,
+            0.132
+          ],
+          [
+            0.695,
+            0.226
+          ],
+          [
+            0.529,
+            0.312
           ]
-        ]
+        ],
+        "smooth": true,
+        "sourceRefs": [
+          4,
+          5,
+          6
+        ],
+        "confidence": "high"
       },
       {
-        "name": "upper white feather",
+        "name": "pale blue stroke under the lower feather, narrowing down the rudder to the root",
+        "color": "pale",
+        "points": [
+          [
+            0.831,
+            0.358
+          ],
+          [
+            0.648,
+            0.359
+          ],
+          [
+            0.625,
+            0.355,
+            1
+          ],
+          [
+            0.744,
+            0.313
+          ],
+          [
+            0.827,
+            0.271
+          ],
+          [
+            0.9,
+            0.221
+          ],
+          [
+            0.969,
+            0.156
+          ],
+          [
+            1.023,
+            0.111
+          ],
+          [
+            1.023,
+            0.25
+          ],
+          [
+            1.016,
+            0.266
+          ],
+          [
+            0.975,
+            0.3
+          ],
+          [
+            0.909,
+            0.335
+          ]
+        ],
+        "smooth": true,
+        "sourceRefs": [
+          4,
+          5,
+          6
+        ],
+        "confidence": "high"
+      },
+      {
+        "name": "upper white feather, from the tip's trailing corner sweeping down and forward to a point",
         "color": "white",
         "points": [
           [
-            0.13,
-            0.35
+            0.903,
+            0.926
           ],
           [
-            0.19,
-            0.6
+            0.677,
+            0.914
           ],
           [
-            0.34,
-            0.8
+            0.519,
+            0.894
           ],
           [
-            0.86,
-            0.92
+            0.389,
+            0.868
+          ],
+          [
+            0.239,
+            0.807
+          ],
+          [
+            0.187,
+            0.739
+          ],
+          [
+            0.18,
+            0.698
+          ],
+          [
+            0.223,
+            0.544
+          ],
+          [
+            0.221,
+            0.501
+          ],
+          [
+            0.193,
+            0.425
+          ],
+          [
+            0.133,
+            0.359,
+            1
+          ],
+          [
+            0.385,
+            0.358
+          ],
+          [
+            0.417,
+            0.374
+          ],
+          [
+            0.467,
+            0.433
+          ],
+          [
+            0.488,
+            0.486
+          ],
+          [
+            0.501,
+            0.575
+          ],
+          [
+            0.485,
+            0.637
+          ],
+          [
+            0.483,
+            0.69
+          ],
+          [
+            0.523,
+            0.767
+          ],
+          [
+            0.655,
+            0.852
           ],
           [
             0.76,
-            0.78
+            0.884
           ],
           [
-            0.55,
-            0.6
+            0.895,
+            0.912
           ],
           [
-            0.37,
-            0.41
-          ],
-          [
-            0.21,
-            0.35
+            0.911,
+            0.92
           ]
         ],
-        "smooth": true
+        "smooth": true,
+        "sourceRefs": [
+          4,
+          5,
+          6
+        ],
+        "confidence": "high"
       },
       {
         "name": "lower white feather",
         "color": "white",
         "points": [
           [
-            0.53,
-            0.34
+            1.003,
+            0.739
           ],
           [
-            0.66,
-            0.53
+            0.895,
+            0.709
           ],
           [
-            0.88,
-            0.71
+            0.803,
+            0.659
           ],
           [
-            0.87,
-            0.6
+            0.747,
+            0.577
           ],
           [
-            0.75,
-            0.46
+            0.74,
+            0.496
           ],
           [
-            0.6,
-            0.34
+            0.719,
+            0.451
+          ],
+          [
+            0.676,
+            0.403
+          ],
+          [
+            0.611,
+            0.36,
+            1
+          ],
+          [
+            0.829,
+            0.361
+          ],
+          [
+            0.881,
+            0.386
+          ],
+          [
+            0.918,
+            0.415
+          ],
+          [
+            0.958,
+            0.472
+          ],
+          [
+            0.981,
+            0.537
+          ],
+          [
+            1.007,
+            0.656
+          ],
+          [
+            1.013,
+            0.711
           ]
         ],
-        "smooth": true
+        "smooth": true,
+        "sourceRefs": [
+          4,
+          5,
+          6
+        ],
+        "confidence": "high"
       }
     ],
     "confidence": "high",
@@ -244,28 +566,6 @@
     ]
   },
   "logos": [
-    {
-      "mark": "AEE/bird",
-      "place": "fin",
-      "at": [
-        0.5,
-        0.5
-      ],
-      "height": 0.9,
-      "colors": [
-        "white",
-        "pale"
-      ],
-      "description": "The Aegean bird: two white crescent strokes sweeping up and aft to the trailing edge like a gull's wings, each trailing a paler blue stroke down to the fin root. Drawn as fin areas here; this entry marks the symbol.",
-      "reference": "https://en.wikipedia.org/wiki/Aegean_Airlines",
-      "confidence": "high",
-      "sourceRefs": [
-        0,
-        1,
-        2,
-        3
-      ]
-    },
     {
       "mark": "SAL/star-alliance",
       "place": "fuselage",
@@ -345,6 +645,6 @@
       "length": 0.084
     }
   ],
-  "notes": "The bird logo is drawn as fin areas (its feathers) plus a logo entry, so a renderer can use either. When the scheme was introduced isn't dated here; it came with the A320neo family deliveries. The earlier scheme (white with a navy-and-blue fin) remains on A320ceo-family aircraft; not drawn. Belly under the forward fuselage white; aft navy. Re-checked 2026-11-15 on SX-NEB (A320neo, fitted to the A320 shape): 'AEGEAN' sits right on the window tops (y 0.28, it had floated higher), x 0.164-0.37; 'aegeanair.com' x 0.673-0.757; the diagonal agrees (reduced to its ends); the feathers drawn as curves.",
+  "notes": "The Aegean bird is drawn as fin areas only (a logo entry as well had renderers draw it twice, the two never lining up): two white crescent feathers sweeping up and aft to the trailing edge, cut square on one level line, each going on below it in pale blue curving the other way, an S. When the scheme was introduced isn't dated here; it came with the A320neo family deliveries. The earlier scheme (white with a navy-and-blue fin) remains on A320ceo-family aircraft; not drawn. Belly under the forward fuselage white; aft navy. Re-checked 2026-11-15 on SX-NEB (A320neo, fitted to the A320 shape): 'AEGEAN' sits right on the window tops (y 0.28, it had floated higher), x 0.164-0.37; 'aegeanair.com' x 0.673-0.757; the diagonal agrees (reduced to its ends); the feathers drawn as curves. Re-measured 2026-11-27 on SX-NEE (left) and SX-NEK (right): the pale blue strokes were drawn leaning the wrong way; they curve down and aft as the feathers' S, the upper one running on over the tail cone; a pale blue sliver ahead of the navy's diagonal added. Dark colours checked in sun (SX-NET, 2025-05-01): the fin, the aft block, the engines and the titles are one navy, which reads blue, not black. Reconciled 2026-11-27 with a trace off SX-NAD (A321neo, right side, sharp and square on, fitted to the A21N shape, tools/photo_trace.py): the bird's feathers and pale strokes are those traced curves, in fin space, so the one set fits the A320neo and the A321neo alike (their fins are the same and the art sits the same on SX-NEE, SX-NEK and SX-NAD); SX-NEE's measure had the upper feather a little narrower than SX-NAD shows it. The forward pale stroke on the tail cone is SX-NAD's trace too. Still no logo entry: the areas are the bird. Colours re-sampled on SX-NAD in sun and in low light: the blue #142665-#252F6A, a deep blue (#1A2766) a little lighter and bluer than it was; the pale strokes #909EB8-#97A6BD (#97A7C1).",
   "history": "Replaced Skyarium v1's approximation (blue belly, navy bands)."
 }

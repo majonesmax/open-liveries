@@ -46,9 +46,22 @@ export interface PaletteColor {
 /** A point of an area's outline: [x, y], or [x, y, 1] for a sharp corner (docs/COORDINATES.md). */
 export type AreaPoint = readonly [x: number, y: number, corner?: 1];
 
+/**
+ * A smooth fade across an area: the paint goes from stop to stop along the line from `from` to `to` in the part's own
+ * space (on the fuselage as seen from the side, as its edges run), the same along every line square to it there.
+ */
+export interface Gradient {
+  from: readonly [x: number, y: number];
+  to: readonly [x: number, y: number];
+  /** [offset, color]: offsets from 0 (at `from`) to 1 (at `to`), ascending. */
+  stops: readonly (readonly [offset: number, color: Color])[];
+}
+
 interface AreaCommon extends Evidence {
   name?: string;
+  /** Its paint; with a `gradient`, what a renderer without gradients (and the paint under lettering) uses. */
   color: Color;
+  gradient?: Gradient;
   side?: Side;
   /** true: a smooth curve through the points, sharp at the part's edges and at [x, y, 1]. Default: straight lines. */
   smooth?: boolean;

@@ -30,4 +30,11 @@ export declare function sideParts(geometry: Geometry, side: Side): Parts;
 export declare function partOutlines(parts: Parts): Outlines;
 /** With `mirrored: false` the right face shows the left face's picture unreversed: (x, y) → (1 − x, y). */
 export declare function finFaceX(livery: Livery, side: Side): (x: number) => number;
+/**
+ * Where a fin's logos and lettering may show, besides inside its outline (which runs on down inside the body, under
+ * the fuselage): above the fuselage's crown, as they're drawn over it; and on a fin with a fillet, not below its
+ * root aft of the leading edge, the tail cone's top, which the fin's own paint leaves to the crown's (`drawFin`).
+ * Ahead of the leading edge is the fillet, faired into the fin: the fin's art runs onto it (United's globe).
+ */
+export declare function finLabelClips(parts: Parts): Point[][];
 export {};

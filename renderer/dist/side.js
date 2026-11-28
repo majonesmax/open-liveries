@@ -321,7 +321,9 @@ function paintFilletFromCrown(livery, side, canvas, parts, own, group) {
     });
     if (pairs.length && top.length === low.length)
         slant = pairs.reduce((a, b) => a + b, 0) / pairs.length;
-    const base = parts.fuselage(root, 0.9)[1];
+    // Down to the belly: under the fin's root the crown can fall away well below its height at the root (a 777's or
+    // an A320's tail cone sloping up under the fin), and the fin's own paint would show in the gap.
+    const base = parts.fuselage(root, -1)[1];
     const along = (x, y) => px(x) + slant * (y - yTop);
     top.forEach((run, k) => {
         const end = top[k + 1]?.x ?? to;

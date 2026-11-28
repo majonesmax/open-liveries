@@ -90,12 +90,46 @@
         "color": "red",
         "above": [
           [
-            0,
-            -0.06
+            1e-05,
+            1.0
           ],
           [
-            0.06,
-            -0.04
+            0.00615,
+            1.0
+          ],
+          [
+            0.007,
+            0.781
+          ],
+          [
+            0.01384,
+            0.49862,
+            1
+          ],
+          [
+            0.02146,
+            0.3708,
+            1
+          ],
+          [
+            0.04253,
+            0.1611,
+            1
+          ],
+          [
+            0.05068,
+            0.11709,
+            1
+          ],
+          [
+            0.07002,
+            0.06382,
+            1
+          ],
+          [
+            0.13764,
+            0.0057,
+            1
           ],
           [
             0.2,
@@ -124,12 +158,42 @@
         ],
         "below": [
           [
-            0,
-            -0.03
+            1e-05,
+            1.0
           ],
           [
-            0.06,
-            -0.01
+            0.01237,
+            1.0
+          ],
+          [
+            0.02225,
+            0.52022,
+            1
+          ],
+          [
+            0.03538,
+            0.32439,
+            1
+          ],
+          [
+            0.04885,
+            0.20224,
+            1
+          ],
+          [
+            0.06049,
+            0.15095,
+            1
+          ],
+          [
+            0.07756,
+            0.1116,
+            1
+          ],
+          [
+            0.15405,
+            0.04701,
+            1
           ],
           [
             0.2,
@@ -161,12 +225,42 @@
         "color": "red",
         "above": [
           [
-            0,
-            -0.11
+            1e-05,
+            1.0
           ],
           [
-            0.06,
-            -0.12
+            0.00055,
+            1.0
+          ],
+          [
+            0.00176,
+            0.36996,
+            1
+          ],
+          [
+            0.00387,
+            0.25396,
+            1
+          ],
+          [
+            0.01266,
+            0.14939,
+            1
+          ],
+          [
+            0.03791,
+            0.02202,
+            1
+          ],
+          [
+            0.05068,
+            -0.0261,
+            1
+          ],
+          [
+            0.07002,
+            -0.0567,
+            1
           ],
           [
             0.2,
@@ -199,12 +293,42 @@
         ],
         "below": [
           [
-            0,
-            -0.08
+            1e-05,
+            1.0
           ],
           [
-            0.06,
-            -0.07
+            0.00356,
+            1.0
+          ],
+          [
+            0.007,
+            0.53849,
+            1
+          ],
+          [
+            0.01031,
+            0.44179,
+            1
+          ],
+          [
+            0.01905,
+            0.30971,
+            1
+          ],
+          [
+            0.04253,
+            0.11176,
+            1
+          ],
+          [
+            0.07002,
+            0.02742,
+            1
+          ],
+          [
+            0.13764,
+            -0.02551,
+            1
           ],
           [
             0.2,
@@ -240,10 +364,6 @@
         "smooth": true
       }
     ],
-    "radome": {
-      "color": "silver",
-      "to": 0.02
-    },
     "windows": "plain",
     "confidence": "medium",
     "sourceRefs": [
@@ -417,5 +537,5 @@
       "length": 0.7
     }
   ],
-  "notes": "Drawn from 2022–2024 left-side photos. The two cheatlines meet near the nose tip and diverge aft with a silver gap between them; their exact heights at the tail cone, and whether they continue under the belly, aren't clear in the photos. The right side and the belly weren't checked. Re-checked 2026-11-15 on N915NN (left, 2022-12-18, near level), measured against the doors: 'American' x 0.208-0.330 and the Flight Symbol at 0.195, further aft than first drawn (as on the AirCal and Reno Air 737s); 'TWA' on the fin with baseline 0.33, cap 0.14; the cheatlines' sweeps drawn as curves. The title's cap height measures about 0.67 m (0.33), a little over the 0.24 drawn: left as noise. 'TWA' re-measured 2026-11-15 on the level 2017 photo (N915NN at Miami): at its baseline the lettering runs from x 0.21 (the T's crossbar, the italic's left end) to 0.91 of the chord, so its T clears the red panel's leading edge at the cap height on the swept 737 fin; it had started at 0.10, the T poking past the panel's edge. The right side isn't photographed: the title covers the same stretch there, its A close to the panel's leading edge."
+  "notes": "Drawn from 2022–2024 left-side photos. The two cheatlines meet near the nose tip and diverge aft with a silver gap between them; their exact heights at the tail cone, and whether they continue under the belly, aren't clear in the photos. The right side and the belly weren't checked. Re-checked 2026-11-15 on N915NN (left, 2022-12-18, near level), measured against the doors: 'American' x 0.208-0.330 and the Flight Symbol at 0.195, further aft than first drawn (as on the AirCal and Reno Air 737s); 'TWA' on the fin with baseline 0.33, cap 0.14; the cheatlines' sweeps drawn as curves. The title's cap height measures about 0.67 m (0.33), a little over the 0.24 drawn: left as noise. 'TWA' re-measured 2026-11-15 on the level 2017 photo (N915NN at Miami): at its baseline the lettering runs from x 0.21 (the T's crossbar, the italic's left end) to 0.91 of the chord, so its T clears the red panel's leading edge at the cap height on the swept 737 fin; it had started at 0.10, the T poking past the panel's edge. The right side isn't photographed: the title covers the same stretch there, its A close to the panel's leading edge. Nose re-checked 2026-11-27 (N915NN from ahead at O'Hare 2017-02-14 and front three-quarter 2024-08-28): the two cheatlines run on level under the cockpit and cross the nose front just under the windscreen, meeting the other side's; they had been drawn falling to the nose tip under a silver nose cap."
 }

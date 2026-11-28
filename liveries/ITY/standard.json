@@ -257,10 +257,10 @@
       "mark": "ITY/tricolor-flash",
       "place": "engines",
       "at": [
-        0.3,
-        0.1
+        0.4,
+        0.05
       ],
-      "height": 0.4,
+      "height": 0.9,
       "colors": [
         "green",
         "red"
@@ -336,6 +336,6 @@
       }
     }
   ],
-  "notes": "The fin carries a faint pattern of small line icons (Italian landmarks and symbols) in a slightly lighter blue; not drawn. The ITA wordmark is lettering, so it's a title; its red crossbar wedge is described, not drawn. The tricolor on the fin runs parallel to the trailing edge, constant in width (so wider as a share near the tip). Winglets not seen clearly. Re-checked 2026-11-15 on EI-HOM (A320neo, fitted to the A320 shape): the fin's tricolor is narrower and further aft than drawn (at the root x 0.72-0.94, at the tip 0.37-0.99; about 0.4 m at the root); the tail-cone stripes agree. The titles start about 0.9 m further aft than drawn: ITA x 0.177-0.289, its foot on the window bottoms; AIRWAYS x 0.188-0.28 under the windows.",
+  "notes": "The fin carries a faint pattern of small line icons (Italian landmarks and symbols) in a slightly lighter blue; not drawn. The ITA wordmark is lettering, so it's a title; its red crossbar wedge is described, not drawn. The tricolor on the fin runs parallel to the trailing edge, constant in width (so wider as a share near the tip). Winglets not seen clearly. Re-checked 2026-11-15 on EI-HOM (A320neo, fitted to the A320 shape): the fin's tricolor is narrower and further aft than drawn (at the root x 0.72-0.94, at the tip 0.37-0.99; about 0.4 m at the root); the tail-cone stripes agree. The titles start about 0.9 m further aft than drawn: ITA x 0.177-0.289, its foot on the window bottoms; AIRWAYS x 0.188-0.28 under the windows. Re-checked 2026-11-27 on I-ADVA and EI-HLE (A220-100, left sides): the engines' tricolor flash is about half the cowling's height, in its middle (it was drawn at a fifth).",
   "history": "Replaced Skyarium v1's approximation (green and navy). ITA Airways launched in October 2021 as Alitalia's successor with this blue scheme; ex-Alitalia aircraft were repainted into it."
 }

@@ -1,0 +1,78 @@
+{
+  "$schema": "../schema/airframes.schema.json",
+  "airline": "GXA",
+  "airframes": [
+    {
+      "registration": "N276GX",
+      "type": "A320",
+      "livery": "standard",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Airbus_A320-214_-_N276GX_-_Global_X_-_Guatemala_-_La_Aurora_(GUA_-_MGGT).jpg",
+          "title": "Airbus A320-214 - N276GX - Global X - Guatemala - La Aurora (GUA - MGGT).jpg",
+          "accessed": "2026-11-27",
+          "note": "Dated 2026-03-17: wears the blue and green swoosh (checked by eye)."
+        }
+      ],
+      "hex": "a2bd72",
+      "hexSource": "computed from the N-number (tools/nnumber.py)",
+      "lastSeen": "2026-03-17",
+      "status": "Commons photo 2026-03-17"
+    },
+    {
+      "registration": "N630VA",
+      "type": "A320",
+      "livery": "standard",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N630VA_A320,_GlobalX_(Topflight),_Miami_02-20-26_(55147796653).jpg",
+          "title": "N630VA A320, GlobalX (Topflight), Miami 02-20-26 (55147796653).jpg",
+          "accessed": "2026-11-27",
+          "note": "Dated 2026-02-20: wears the blue and green swoosh, with an extra TOPFLIGHT title for a charter customer (checked by eye)."
+        }
+      ],
+      "hex": "a83f98",
+      "hexSource": "computed from the N-number (tools/nnumber.py)",
+      "lastSeen": "2026-02-20",
+      "status": "Commons photo 2026-02-20"
+    },
+    {
+      "registration": "N284GX",
+      "type": "A320",
+      "livery": "standard",
+      "confidence": "low",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N284GX_-_KHPN_-_11-10-23.jpg",
+          "title": "N284GX - KHPN - 11-10-23.jpg",
+          "accessed": "2026-11-27",
+          "note": "Dated 2023-10-12: wears the blue and green swoosh (checked by eye); no later photo."
+        }
+      ],
+      "hex": "a2dd83",
+      "hexSource": "computed from the N-number (tools/nnumber.py)",
+      "lastSeen": "2023-10-12",
+      "status": "Commons photo 2023-10-12"
+    },
+    {
+      "registration": "N278GX",
+      "type": "A320",
+      "livery": "brush-x-blue",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:N278GX_A320,_GlobalX,_El_Paso_02-04-26_(55102942707).jpg",
+          "title": "N278GX A320, GlobalX, El Paso 02-04-26 (55102942707).jpg",
+          "accessed": "2026-11-27",
+          "note": "Dated 2026-02-04: all blue with the white brushed X (checked by eye); the same in 2023 (N278GX - KHPN - 19-2-23)."
+        }
+      ],
+      "hex": "a2c4e0",
+      "hexSource": "computed from the N-number (tools/nnumber.py)",
+      "lastSeen": "2026-02-04",
+      "status": "Commons photo 2026-02-04"
+    }
+  ]
+}

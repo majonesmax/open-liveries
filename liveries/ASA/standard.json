@@ -56,6 +56,18 @@
       "title": "N782HA B787 ALASKA AIRLINES, 2026-04-23 (CC BY-SA 4.0, Jonathan Payne)",
       "accessed": "2026-11-22",
       "note": "N782HA left side, level, long lens, 2026-04-23: fitted to the 787-9's measured shape; the aft sweep's edges, the window band and the title probed off it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Alaska_Boeing_737-900ER_N214AK_BWI_MD1.jpg",
+      "title": "Alaska Boeing 737-900ER N214AK BWI MD1.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-27",
+      "note": "N214AK left side, 2026-09-24, the fin close: the hood's light-blue fur band under the lime, the pale wisp by the trailing edge, the portrait's light and dark shapes."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Alaska_Airlines_Boeing_737-900ER_N431AS_on_final_approach_to_Boston_December_2024.jpg",
+      "title": "Alaska Airlines Boeing 737-900ER N431AS on final approach to Boston December 2024.jpg (CC BY 4.0)",
+      "accessed": "2026-11-27",
+      "note": "N431AS right side, 2024-12-27: the portrait and the hood are mirrored on the right (the hair's lock and the wisp toward the trailing edge on both sides)."
     }
   ],
   "palette": {
@@ -91,6 +103,11 @@
       "hex": "#C3C8CE",
       "name": "silver-grey stripe",
       "official": false
+    },
+    "ice": {
+      "hex": "#9CC8EA",
+      "official": false,
+      "name": "pale blue fur wisp"
     }
   },
   "finish": "gloss",
@@ -429,6 +446,82 @@
         ]
       },
       {
+        "name": "light-blue fur band under the upper lime stripe (the hood's ruff), its lower edge in soft tufts",
+        "color": "atlas",
+        "smooth": true,
+        "points": [
+          [
+            0,
+            0.86
+          ],
+          [
+            0.5,
+            0.8
+          ],
+          [
+            0.93,
+            0.71
+          ],
+          [
+            0.96,
+            0.62
+          ],
+          [
+            0.9,
+            0.638
+          ],
+          [
+            0.8,
+            0.663
+          ],
+          [
+            0.7,
+            0.69
+          ],
+          [
+            0.62,
+            0.722
+          ],
+          [
+            0.55,
+            0.728
+          ],
+          [
+            0.48,
+            0.748
+          ],
+          [
+            0.4,
+            0.768
+          ],
+          [
+            0.33,
+            0.766
+          ],
+          [
+            0.26,
+            0.787
+          ],
+          [
+            0.18,
+            0.79
+          ],
+          [
+            0.1,
+            0.8
+          ],
+          [
+            0,
+            0.805
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          8,
+          9
+        ]
+      },
+      {
         "name": "upper lime stripe near the tip",
         "color": "lime",
         "points": [
@@ -464,30 +557,47 @@
         ]
       },
       {
-        "name": "Atlas-blue sliver under the upper stripe",
-        "color": "atlas",
+        "name": "pale fur wisp below the hood, near the trailing edge",
+        "color": "ice",
+        "smooth": true,
         "points": [
           [
-            0.55,
-            0.76
+            0.63,
+            0.69
+          ],
+          [
+            0.75,
+            0.656
+          ],
+          [
+            0.86,
+            0.612
           ],
           [
             0.95,
-            0.68
+            0.572
           ],
           [
-            0.95,
-            0.63
+            0.93,
+            0.562
           ],
           [
-            0.65,
-            0.71
+            0.84,
+            0.592
+          ],
+          [
+            0.72,
+            0.633
+          ],
+          [
+            0.64,
+            0.672
           ]
         ],
+        "confidence": "medium",
         "sourceRefs": [
-          1,
-          2,
-          3
+          8,
+          9
         ]
       }
     ],
@@ -717,12 +827,14 @@
         "cream",
         "midnight"
       ],
-      "description": "Alaska's Eskimo (the 'Alaska Native man'): a smiling face in a fur-trimmed parka hood, cream on the midnight-blue fin, facing forward, large on the aft fin.",
+      "description": "Alaska's portrait of an Alaska Native man in a fur-trimmed parka hood: cream shapes on the midnight fin with no outline, as light falls on the face (the forehead and hair under the hood, the brows, closed eyes, the nose's bridge, the shadow of the moustache round a smile, the cheeks and jaw), large on the aft fin. Mirrored on the right side.",
       "confidence": "high",
       "sourceRefs": [
         1,
         2,
-        3
+        3,
+        8,
+        9
       ],
       "reference": "https://commons.wikimedia.org/wiki/File:Alaska_Airlines_logo.svg"
     }

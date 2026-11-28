@@ -36,9 +36,15 @@
       "title": "AirlineGeeks: Livery of the Week: Horizon Air 'Meatball' Retro Livery",
       "accessed": "2026-11-14",
       "note": "The burgundy and orange cheatlines and the meatball; the scheme first came back on a Q400 (retired 2023)."
+    },
+    {
+      "url": "https://news.alaskaair.com/alaska-airlines/with-the-e175-flying-horizons-future-we-bid-farewell-to-the-q400/#jp-carousel-46083",
+      "title": "Alaska Airlines News: N652MK's delivery at Seattle, 2022-12-12 (airline press image, front three-quarter left)",
+      "accessed": "2026-11-27",
+      "note": "From ahead on the left: the bands run straight and level along the forward fuselage and across the top of the nose, above a white tip and chin; no bends."
     }
   ],
-  "notes": "Embraer delivered N652MK in these colors on 18 November 2022 ('MK' for founder Milt Kuolt); the same retro scheme flew earlier on a Q400. Flown by Horizon (QXE). Drawn from Alaska's photo of the left side and checked on the right (2026-03-14): the stripes, titles and tail are the same both sides, 'HORIZON AIR' aft of 'Alaska' on both. Re-checked 2026-11-15 on the March 2026 side-on photo of N652MK (right side; doors as the check: the forward door at x 0.115-0.135, the aft at 0.74-0.77 of the E175's length), drawn on the E175: the stripes had been drawn rising to the tail cone, as on a 737; on the E175 they run level in metres, just under the windows, crossing the aft door's lower half, and so fall as shares of the fuselage aft where the tail cone sweeps up, running off the belly at about x 0.93. Re-measured as smooth curves (the three bands about equal), their front ends square at the nose tip. 'Alaska' runs 0.106-0.28 (its end over the forward door) and 'HORIZON AIR' 0.288-0.383, about 1.2 m further forward than first drawn from Alaska's photo; 'Alaska' lowercase about 0.55 of its A.",
+  "notes": "Embraer delivered N652MK in these colors on 18 November 2022 ('MK' for founder Milt Kuolt); the same retro scheme flew earlier on a Q400. Flown by Horizon (QXE). Drawn from Alaska's photo of the left side and checked on the right (2026-03-14): the stripes, titles and tail are the same both sides, 'HORIZON AIR' aft of 'Alaska' on both. Re-checked 2026-11-15 on the March 2026 side-on photo of N652MK (right side; doors as the check: the forward door at x 0.115-0.135, the aft at 0.74-0.77 of the E175's length), drawn on the E175: the stripes had been drawn rising to the tail cone, as on a 737; on the E175 they run level in metres, just under the windows, crossing the aft door's lower half, and so fall as shares of the fuselage aft where the tail cone sweeps up, running off the belly at about x 0.93. Re-measured as smooth curves (the three bands about equal), their front ends square at the nose tip. 'Alaska' runs 0.106-0.28 (its end over the forward door) and 'HORIZON AIR' 0.288-0.383, about 1.2 m further forward than first drawn from Alaska's photo; 'Alaska' lowercase about 0.55 of its A. Nose re-checked 2026-11-27 (N652MK from ahead at Santa Barbara, 2025-03-04, and side-on 2026-03-14): the three bands run on level to the nose and cross its front just under the windscreen, meeting the other side's; they had been drawn dropping to square ends at the nose tip. Nose redone 2026-11-27 on the owner's review, from N652MK side-on (2026-03-14) and from ahead and below (2023-09-22, 2025-03-04): the bands slope gently down toward the nose, the top edge falling about 0.3 m over the last 2.5 m and the foot staying level, and cross the nose front just above the tip, well below the windscreen; the nose cone's tip and the chin are white. They had been drawn level, crossing just under the windscreen. Redrawn again 2026-11-27 from Alaska's press image of N652MK's delivery (2022-12-12, front three-quarter left): the three bands run straight and level along the forward fuselage, without the bends and steps they had drawn as y shares, and cross the top of the nose above a white tip, the band from about 0.06 m to -0.68 m about the centerline (orange to -0.19, red-orange to -0.44), easing to the measured aft heights between x 0.47 and 0.64. The slope added earlier the same day is withdrawn.",
   "from": "2022-11",
   "palette": {
     "white": {
@@ -83,25 +89,71 @@
         "color": "orange",
         "points": [
           [
-            0.0,
-            -0.12,
+            0.00016,
+            1.0
+          ],
+          [
+            0.03281,
+            1.0
+          ],
+          [
+            0.03974,
+            0.62616,
             1
           ],
           [
-            0.078,
-            0.072
+            0.05429,
+            0.41472,
+            1
           ],
           [
-            0.2,
-            0.05
+            0.06432,
+            0.30112,
+            1
           ],
           [
-            0.35,
-            0.03
+            0.07743,
+            0.19676,
+            1
+          ],
+          [
+            0.0893,
+            0.13003,
+            1
+          ],
+          [
+            0.1011,
+            0.0914,
+            1
+          ],
+          [
+            0.11806,
+            0.05968,
+            1
+          ],
+          [
+            0.14268,
+            0.04138,
+            1
+          ],
+          [
+            0.17642,
+            0.03401,
+            1
+          ],
+          [
+            0.2702,
+            0.03527,
+            1
+          ],
+          [
+            0.32598,
+            0.05107,
+            1
           ],
           [
             0.47,
-            0.014
+            0.02726
           ],
           [
             0.64,
@@ -145,24 +197,70 @@
           ],
           [
             0.47,
-            -0.06
+            -0.06766
           ],
           [
-            0.35,
-            -0.053
-          ],
-          [
-            0.2,
-            -0.047
-          ],
-          [
-            0.078,
-            -0.037
-          ],
-          [
-            0.004,
-            -0.19,
+            0.32598,
+            -0.04016,
             1
+          ],
+          [
+            0.2702,
+            -0.05845,
+            1
+          ],
+          [
+            0.15278,
+            -0.05879,
+            1
+          ],
+          [
+            0.11806,
+            -0.04061,
+            1
+          ],
+          [
+            0.10641,
+            -0.02354,
+            1
+          ],
+          [
+            0.0893,
+            0.01585,
+            1
+          ],
+          [
+            0.07743,
+            0.06926,
+            1
+          ],
+          [
+            0.06432,
+            0.14873,
+            1
+          ],
+          [
+            0.03974,
+            0.3565,
+            1
+          ],
+          [
+            0.03359,
+            0.44821,
+            1
+          ],
+          [
+            0.02614,
+            0.61522,
+            1
+          ],
+          [
+            0.02081,
+            1.0
+          ],
+          [
+            0.00016,
+            1.0
           ]
         ],
         "sourceRefs": [
@@ -177,25 +275,71 @@
         "color": "redOrange",
         "points": [
           [
-            0.004,
-            -0.19,
+            0.00016,
+            1.0
+          ],
+          [
+            0.02081,
+            1.0
+          ],
+          [
+            0.02614,
+            0.61522,
             1
           ],
           [
-            0.078,
-            -0.037
+            0.03359,
+            0.44821,
+            1
           ],
           [
-            0.2,
-            -0.047
+            0.03974,
+            0.3565,
+            1
           ],
           [
-            0.35,
-            -0.053
+            0.06432,
+            0.14873,
+            1
+          ],
+          [
+            0.07743,
+            0.06926,
+            1
+          ],
+          [
+            0.0893,
+            0.01585,
+            1
+          ],
+          [
+            0.10641,
+            -0.02354,
+            1
+          ],
+          [
+            0.11806,
+            -0.04061,
+            1
+          ],
+          [
+            0.15278,
+            -0.05879,
+            1
+          ],
+          [
+            0.2702,
+            -0.05845,
+            1
+          ],
+          [
+            0.32598,
+            -0.04016,
+            1
           ],
           [
             0.47,
-            -0.06
+            -0.06766
           ],
           [
             0.64,
@@ -239,24 +383,70 @@
           ],
           [
             0.47,
-            -0.135
+            -0.16413
           ],
           [
-            0.35,
-            -0.137
-          ],
-          [
-            0.2,
-            -0.143
-          ],
-          [
-            0.078,
-            -0.147
-          ],
-          [
-            0.008,
-            -0.27,
+            0.32598,
+            -0.13223,
             1
+          ],
+          [
+            0.2702,
+            -0.15348,
+            1
+          ],
+          [
+            0.15278,
+            -0.15507,
+            1
+          ],
+          [
+            0.11806,
+            -0.14193,
+            1
+          ],
+          [
+            0.1011,
+            -0.1221,
+            1
+          ],
+          [
+            0.08327,
+            -0.07896,
+            1
+          ],
+          [
+            0.06432,
+            0.00474,
+            1
+          ],
+          [
+            0.03974,
+            0.14767,
+            1
+          ],
+          [
+            0.02614,
+            0.29076,
+            1
+          ],
+          [
+            0.02068,
+            0.38613,
+            1
+          ],
+          [
+            0.0179,
+            0.46347,
+            1
+          ],
+          [
+            0.0109,
+            1.0
+          ],
+          [
+            0.00016,
+            1.0
           ]
         ],
         "sourceRefs": [
@@ -271,25 +461,71 @@
         "color": "burgundy",
         "points": [
           [
-            0.008,
-            -0.27,
+            0.00016,
+            1.0
+          ],
+          [
+            0.0109,
+            1.0
+          ],
+          [
+            0.0179,
+            0.46347,
             1
           ],
           [
-            0.078,
-            -0.147
+            0.02068,
+            0.38613,
+            1
           ],
           [
-            0.2,
-            -0.143
+            0.02614,
+            0.29076,
+            1
           ],
           [
-            0.35,
-            -0.137
+            0.03974,
+            0.14767,
+            1
+          ],
+          [
+            0.06432,
+            0.00474,
+            1
+          ],
+          [
+            0.08327,
+            -0.07896,
+            1
+          ],
+          [
+            0.1011,
+            -0.1221,
+            1
+          ],
+          [
+            0.11806,
+            -0.14193,
+            1
+          ],
+          [
+            0.15278,
+            -0.15507,
+            1
+          ],
+          [
+            0.2702,
+            -0.15348,
+            1
+          ],
+          [
+            0.32598,
+            -0.13223,
+            1
           ],
           [
             0.47,
-            -0.135
+            -0.16413
           ],
           [
             0.64,
@@ -329,24 +565,70 @@
           ],
           [
             0.47,
-            -0.209
+            -0.26052
           ],
           [
-            0.35,
-            -0.22
-          ],
-          [
-            0.2,
-            -0.24
-          ],
-          [
-            0.078,
-            -0.256
-          ],
-          [
-            0.012,
-            -0.36,
+            0.32598,
+            -0.22334,
             1
+          ],
+          [
+            0.2702,
+            -0.24812,
+            1
+          ],
+          [
+            0.17642,
+            -0.25025,
+            1
+          ],
+          [
+            0.11806,
+            -0.24277,
+            1
+          ],
+          [
+            0.09498,
+            -0.22025,
+            1
+          ],
+          [
+            0.07743,
+            -0.1772,
+            1
+          ],
+          [
+            0.03974,
+            -0.03781,
+            1
+          ],
+          [
+            0.02614,
+            0.04745,
+            1
+          ],
+          [
+            0.0179,
+            0.13547,
+            1
+          ],
+          [
+            0.01007,
+            0.28684,
+            1
+          ],
+          [
+            0.00483,
+            0.5566,
+            1
+          ],
+          [
+            0.00322,
+            1.0
+          ],
+          [
+            0.00016,
+            1.0
           ]
         ],
         "sourceRefs": [
@@ -357,9 +639,6 @@
         "smooth": true
       }
     ],
-    "radome": {
-      "color": "white"
-    },
     "windows": "plain",
     "confidence": "high",
     "sourceRefs": [

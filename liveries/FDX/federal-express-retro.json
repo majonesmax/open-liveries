@@ -817,7 +817,7 @@
       "place": "fuselage",
       "at": [
         0.12,
-        0.043
+        0.012
       ],
       "height": 0.28,
       "length": 0.178,
@@ -844,7 +844,7 @@
       "place": "fuselage",
       "at": [
         0.117,
-        -0.27
+        -0.323
       ],
       "height": 0.28,
       "length": 0.181,
@@ -888,5 +888,5 @@
       ]
     }
   ],
-  "notes": "Measured on N884FD's left side at Beijing, 2026-10-30 (side-on, warm evening light: the colors are judged, not sampled). The stripe's long run is drawn straight in meters on the 777F (tools/edge_straightness.py straight_edge, fitted to four probes; it rises about 0.6 m nose to tail on the photo, kept). A thin white line separates the purple from the stripe; it's the base showing between them. The right side and the belly from below aren't measured; the second photo shows a white belly. The fin is taken as mirrored (as the paint sweeps) without a right-side photo. When it was painted isn't found: still in FedEx colors at Taipei 2026-01-11, in these by 2026-10-30. It recalls the original Federal Express scheme (purple, white and red-orange, 1973-1994); FedEx's own announcement wasn't found."
+  "notes": "Measured on N884FD's left side at Beijing, 2026-10-30 (side-on, warm evening light: the colors are judged, not sampled). The stripe's long run is drawn straight in meters on the 777F (tools/edge_straightness.py straight_edge, fitted to four probes; it rises about 0.6 m nose to tail on the photo, kept). A thin white line separates the purple from the stripe; it's the base showing between them. The right side and the belly from below aren't measured; the second photo shows a white belly. The fin is taken as mirrored (as the paint sweeps) without a right-side photo. When it was painted isn't found: still in FedEx colors at Taipei 2026-01-11, in these by 2026-10-30. It recalls the original Federal Express scheme (purple, white and red-orange, 1973-1994); FedEx's own announcement wasn't found. The titles sit on the stripe as on the photo: FEDERAL's foot on the purple's lower edge, EXPRESS's top level with the stripe's top, a white line between them (they had run together: FEDERAL a tenth of a cap height too high, EXPRESS a fifth)."
 }

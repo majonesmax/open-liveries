@@ -1,0 +1,1746 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "prism",
+  "airline": "JBU",
+  "name": "Blue/Blue Belly (2014 refresh), Prism tail",
+  "kind": "standard",
+  "from": "2013",
+  "confidence": "medium",
+  "drawnOn": "A320",
+  "description": "The Blue/Blue Belly scheme with the Prism tail, JetBlue's design for its A321s (2013): the fin cut into big triangular facets, mostly navy and royal blue, light blue at the tip and the root, three green facets (two on the trailing edge, one along the leading edge), with 'jetBlue' in white across it. Mirrored on the right side.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/JetBlue#Livery",
+      "title": "Wikipedia: JetBlue livery",
+      "accessed": "2026-11-13",
+      "note": "The 2014 'blue belly' refresh and the family of tail designs."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:JetBlue_Airways_Airbus_A321neo_N2017J_on_final_approach_to_Boston_December_2025.jpg",
+      "title": "JetBlue Airways Airbus A321neo N2017J on final approach to Boston December 2025.jpg (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "N2017J left side, 2025-12-31: geometry, titles, belly, engine, fin (Bubbles design)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:JetBlue_Airways_Airbus_A321neo_N4064J_departing_Boston_August_2025.jpg",
+      "title": "JetBlue Airways Airbus A321neo N4064J departing Boston August 2025.jpg (CC BY 4.0)",
+      "accessed": "2026-11-13",
+      "note": "N4064J from below, 2025-08-23: the navy belly seen from under."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:JetBlue_N627JB_Airbus_A320_ATL1022.jpg",
+      "title": "JetBlue N627JB Airbus A320 ATL1022.jpg (CC BY-SA 2.0)",
+      "accessed": "2026-11-15",
+      "note": "A320 N627JB right side at dusk, 2022-10-24, three-quarter view: the title's place behind the forward door and the fin title's size and place on the A320's fin."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:JetBlue_A321_D-AVSA_(9788705585).jpg",
+      "title": "JetBlue A321 D-AVSA (9788705585).jpg (CC BY-SA 2.0)",
+      "accessed": "2026-11-27",
+      "note": "A new A321 at Hamburg before delivery, left side, 2013-09-17, side-on: the Prism facets."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:JetBlue_A321-200_(N999JQ)_arriving_at_San_Juan.jpg",
+      "title": "JetBlue A321-200 (N999JQ) arriving at San Juan.jpg (CC0)",
+      "accessed": "2026-11-27",
+      "note": "N999JQ right side, 2023-02-06: the facets mirrored on the right."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N989JT.jpg",
+      "title": "N989JT.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-27",
+      "note": "N989JT (A321, Mint) right side at LAX, 2026-09-07, still in Prism."
+    },
+    {
+      "url": "https://www.aviationpros.com/news/11186635/prism-to-join-jetblues-design-line-up",
+      "title": "Aviation Pros: Prism to join JetBlue's design line-up (2013)",
+      "accessed": "2026-11-27",
+      "note": "Prism, after Cubism, for the A321s."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#EEF0F3",
+      "official": false
+    },
+    "navy": {
+      "hex": "#14275A",
+      "official": false,
+      "name": "jetBlue navy"
+    },
+    "finBlue": {
+      "hex": "#2E86C8",
+      "official": false,
+      "name": "tail mid blue"
+    },
+    "lightBlue": {
+      "hex": "#1E8FE0",
+      "official": false,
+      "name": "Prism light blue"
+    },
+    "finNavy": {
+      "hex": "#1D4F9C",
+      "official": false,
+      "name": "tail dark blue"
+    },
+    "wingGray": {
+      "hex": "#B9BEC6",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C9CDD2",
+      "official": false,
+      "name": "polished inlet lip"
+    },
+    "flagRed": {
+      "hex": "#B22234",
+      "official": false
+    },
+    "sky": {
+      "hex": "#3E9FE3",
+      "official": false,
+      "name": "tail sky blue"
+    },
+    "royal": {
+      "hex": "#1647A6",
+      "official": false,
+      "name": "Prism royal blue"
+    },
+    "mid": {
+      "hex": "#2563C6",
+      "official": false,
+      "name": "Prism mid blue"
+    },
+    "green": {
+      "hex": "#2E9C48",
+      "official": false,
+      "name": "Prism green"
+    },
+    "navy2": {
+      "hex": "#0E2A78",
+      "official": false,
+      "name": "Prism navy"
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "navy belly from the nose to behind the wing",
+        "color": "navy",
+        "points": [
+          [
+            0.012,
+            -0.55
+          ],
+          [
+            0.06,
+            -0.5
+          ],
+          [
+            0.3,
+            -0.48
+          ],
+          [
+            0.55,
+            -0.5
+          ],
+          [
+            0.66,
+            -0.62
+          ],
+          [
+            0.78,
+            -0.85
+          ],
+          [
+            0.82,
+            -1
+          ],
+          [
+            0.0,
+            -1
+          ]
+        ],
+        "sourceRefs": [
+          1,
+          2
+        ]
+      }
+    ],
+    "radome": {
+      "color": "white"
+    },
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "fin": {
+    "base": "royal",
+    "fillet": "navy2",
+    "areas": [
+      {
+        "name": "light-blue facet at the tip's leading edge",
+        "color": "lightBlue",
+        "points": [
+          [
+            0.0,
+            0.995
+          ],
+          [
+            0.042,
+            0.996
+          ],
+          [
+            0.083,
+            0.997
+          ],
+          [
+            0.125,
+            0.998
+          ],
+          [
+            0.167,
+            0.998
+          ],
+          [
+            0.209,
+            0.999
+          ],
+          [
+            0.252,
+            1.0
+          ],
+          [
+            0.352,
+            0.959
+          ],
+          [
+            0.437,
+            0.919
+          ],
+          [
+            0.512,
+            0.878
+          ],
+          [
+            0.576,
+            0.837
+          ],
+          [
+            0.633,
+            0.797
+          ],
+          [
+            0.684,
+            0.756
+          ],
+          [
+            0.572,
+            0.759
+          ],
+          [
+            0.459,
+            0.761
+          ],
+          [
+            0.346,
+            0.764
+          ],
+          [
+            0.231,
+            0.766
+          ],
+          [
+            0.116,
+            0.769
+          ],
+          [
+            0.0,
+            0.771
+          ],
+          [
+            -0.086,
+            0.792
+          ],
+          [
+            -0.177,
+            0.813
+          ],
+          [
+            -0.274,
+            0.833
+          ],
+          [
+            -0.378,
+            0.854
+          ],
+          [
+            -0.489,
+            0.875
+          ],
+          [
+            -0.607,
+            0.896
+          ],
+          [
+            -0.521,
+            0.912
+          ],
+          [
+            -0.429,
+            0.929
+          ],
+          [
+            -0.332,
+            0.945
+          ],
+          [
+            -0.228,
+            0.962
+          ],
+          [
+            -0.118,
+            0.978
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "name": "navy facets along the tip's trailing edge",
+        "color": "navy2",
+        "points": [
+          [
+            0.252,
+            1.0
+          ],
+          [
+            0.385,
+            1.0
+          ],
+          [
+            0.518,
+            1.0
+          ],
+          [
+            0.651,
+            1.0
+          ],
+          [
+            0.784,
+            1.0
+          ],
+          [
+            0.917,
+            1.0
+          ],
+          [
+            1.05,
+            1.0
+          ],
+          [
+            1.038,
+            0.956
+          ],
+          [
+            1.028,
+            0.912
+          ],
+          [
+            1.019,
+            0.868
+          ],
+          [
+            1.011,
+            0.824
+          ],
+          [
+            1.005,
+            0.78
+          ],
+          [
+            0.999,
+            0.736
+          ],
+          [
+            0.957,
+            0.736
+          ],
+          [
+            0.915,
+            0.736
+          ],
+          [
+            0.872,
+            0.736
+          ],
+          [
+            0.83,
+            0.736
+          ],
+          [
+            0.788,
+            0.736
+          ],
+          [
+            0.746,
+            0.736
+          ],
+          [
+            0.689,
+            0.78
+          ],
+          [
+            0.625,
+            0.824
+          ],
+          [
+            0.552,
+            0.868
+          ],
+          [
+            0.467,
+            0.912
+          ],
+          [
+            0.369,
+            0.956
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "name": "dark facet across the upper middle",
+        "color": "navy2",
+        "points": [
+          [
+            -0.001,
+            0.736
+          ],
+          [
+            0.124,
+            0.736
+          ],
+          [
+            0.248,
+            0.736
+          ],
+          [
+            0.373,
+            0.736
+          ],
+          [
+            0.497,
+            0.736
+          ],
+          [
+            0.621,
+            0.736
+          ],
+          [
+            0.746,
+            0.736
+          ],
+          [
+            0.71,
+            0.71
+          ],
+          [
+            0.676,
+            0.683
+          ],
+          [
+            0.645,
+            0.657
+          ],
+          [
+            0.615,
+            0.63
+          ],
+          [
+            0.588,
+            0.604
+          ],
+          [
+            0.561,
+            0.577
+          ],
+          [
+            0.482,
+            0.604
+          ],
+          [
+            0.398,
+            0.63
+          ],
+          [
+            0.308,
+            0.657
+          ],
+          [
+            0.212,
+            0.683
+          ],
+          [
+            0.109,
+            0.71
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "name": "green facet on the trailing edge, upper",
+        "color": "green",
+        "points": [
+          [
+            0.746,
+            0.736
+          ],
+          [
+            0.794,
+            0.73
+          ],
+          [
+            0.842,
+            0.723
+          ],
+          [
+            0.888,
+            0.716
+          ],
+          [
+            0.934,
+            0.71
+          ],
+          [
+            0.979,
+            0.703
+          ],
+          [
+            1.024,
+            0.697
+          ],
+          [
+            1.018,
+            0.65
+          ],
+          [
+            1.014,
+            0.604
+          ],
+          [
+            1.01,
+            0.557
+          ],
+          [
+            1.006,
+            0.511
+          ],
+          [
+            1.003,
+            0.464
+          ],
+          [
+            1.0,
+            0.418
+          ],
+          [
+            0.969,
+            0.419
+          ],
+          [
+            0.937,
+            0.42
+          ],
+          [
+            0.906,
+            0.42
+          ],
+          [
+            0.875,
+            0.421
+          ],
+          [
+            0.844,
+            0.422
+          ],
+          [
+            0.812,
+            0.423
+          ],
+          [
+            0.804,
+            0.475
+          ],
+          [
+            0.795,
+            0.527
+          ],
+          [
+            0.785,
+            0.58
+          ],
+          [
+            0.774,
+            0.632
+          ],
+          [
+            0.761,
+            0.684
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "name": "green facet on the leading edge, middle",
+        "color": "green",
+        "points": [
+          [
+            0.001,
+            0.756
+          ],
+          [
+            0.0,
+            0.753
+          ],
+          [
+            0.0,
+            0.75
+          ],
+          [
+            0.0,
+            0.746
+          ],
+          [
+            -0.0,
+            0.743
+          ],
+          [
+            -0.0,
+            0.74
+          ],
+          [
+            -0.001,
+            0.736
+          ],
+          [
+            0.069,
+            0.695
+          ],
+          [
+            0.132,
+            0.653
+          ],
+          [
+            0.189,
+            0.611
+          ],
+          [
+            0.241,
+            0.569
+          ],
+          [
+            0.288,
+            0.527
+          ],
+          [
+            0.331,
+            0.486
+          ],
+          [
+            0.322,
+            0.465
+          ],
+          [
+            0.313,
+            0.445
+          ],
+          [
+            0.304,
+            0.424
+          ],
+          [
+            0.296,
+            0.404
+          ],
+          [
+            0.288,
+            0.384
+          ],
+          [
+            0.28,
+            0.363
+          ],
+          [
+            0.235,
+            0.386
+          ],
+          [
+            0.189,
+            0.408
+          ],
+          [
+            0.14,
+            0.43
+          ],
+          [
+            0.089,
+            0.453
+          ],
+          [
+            0.036,
+            0.475
+          ],
+          [
+            -0.019,
+            0.498
+          ],
+          [
+            -0.017,
+            0.541
+          ],
+          [
+            -0.014,
+            0.584
+          ],
+          [
+            -0.011,
+            0.627
+          ],
+          [
+            -0.008,
+            0.67
+          ],
+          [
+            -0.004,
+            0.713
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "name": "mid-blue facet in the middle",
+        "color": "mid",
+        "points": [
+          [
+            0.331,
+            0.486
+          ],
+          [
+            0.366,
+            0.501
+          ],
+          [
+            0.403,
+            0.516
+          ],
+          [
+            0.441,
+            0.531
+          ],
+          [
+            0.48,
+            0.547
+          ],
+          [
+            0.52,
+            0.562
+          ],
+          [
+            0.561,
+            0.577
+          ],
+          [
+            0.609,
+            0.551
+          ],
+          [
+            0.654,
+            0.526
+          ],
+          [
+            0.697,
+            0.5
+          ],
+          [
+            0.737,
+            0.474
+          ],
+          [
+            0.776,
+            0.449
+          ],
+          [
+            0.812,
+            0.423
+          ],
+          [
+            0.786,
+            0.405
+          ],
+          [
+            0.761,
+            0.388
+          ],
+          [
+            0.736,
+            0.371
+          ],
+          [
+            0.712,
+            0.353
+          ],
+          [
+            0.689,
+            0.336
+          ],
+          [
+            0.666,
+            0.318
+          ],
+          [
+            0.617,
+            0.346
+          ],
+          [
+            0.566,
+            0.374
+          ],
+          [
+            0.512,
+            0.402
+          ],
+          [
+            0.455,
+            0.43
+          ],
+          [
+            0.395,
+            0.458
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "name": "dark facet under the title",
+        "color": "navy2",
+        "points": [
+          [
+            0.28,
+            0.363
+          ],
+          [
+            0.347,
+            0.356
+          ],
+          [
+            0.412,
+            0.348
+          ],
+          [
+            0.477,
+            0.341
+          ],
+          [
+            0.541,
+            0.333
+          ],
+          [
+            0.604,
+            0.326
+          ],
+          [
+            0.666,
+            0.318
+          ],
+          [
+            0.705,
+            0.297
+          ],
+          [
+            0.741,
+            0.275
+          ],
+          [
+            0.777,
+            0.254
+          ],
+          [
+            0.811,
+            0.232
+          ],
+          [
+            0.844,
+            0.211
+          ],
+          [
+            0.876,
+            0.189
+          ],
+          [
+            0.848,
+            0.158
+          ],
+          [
+            0.821,
+            0.128
+          ],
+          [
+            0.796,
+            0.097
+          ],
+          [
+            0.771,
+            0.066
+          ],
+          [
+            0.748,
+            0.036
+          ],
+          [
+            0.726,
+            0.005
+          ],
+          [
+            0.693,
+            0.04
+          ],
+          [
+            0.658,
+            0.075
+          ],
+          [
+            0.622,
+            0.109
+          ],
+          [
+            0.583,
+            0.144
+          ],
+          [
+            0.543,
+            0.179
+          ],
+          [
+            0.501,
+            0.214
+          ],
+          [
+            0.468,
+            0.239
+          ],
+          [
+            0.433,
+            0.264
+          ],
+          [
+            0.397,
+            0.289
+          ],
+          [
+            0.36,
+            0.313
+          ],
+          [
+            0.321,
+            0.338
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "name": "navy facets on the lower leading edge",
+        "color": "navy2",
+        "points": [
+          [
+            -0.019,
+            0.498
+          ],
+          [
+            0.036,
+            0.475
+          ],
+          [
+            0.089,
+            0.453
+          ],
+          [
+            0.14,
+            0.43
+          ],
+          [
+            0.189,
+            0.408
+          ],
+          [
+            0.235,
+            0.386
+          ],
+          [
+            0.28,
+            0.363
+          ],
+          [
+            0.281,
+            0.337
+          ],
+          [
+            0.282,
+            0.312
+          ],
+          [
+            0.283,
+            0.286
+          ],
+          [
+            0.283,
+            0.26
+          ],
+          [
+            0.284,
+            0.235
+          ],
+          [
+            0.285,
+            0.209
+          ],
+          [
+            0.24,
+            0.191
+          ],
+          [
+            0.196,
+            0.172
+          ],
+          [
+            0.154,
+            0.154
+          ],
+          [
+            0.112,
+            0.136
+          ],
+          [
+            0.072,
+            0.118
+          ],
+          [
+            0.033,
+            0.1
+          ],
+          [
+            0.032,
+            0.081
+          ],
+          [
+            0.031,
+            0.063
+          ],
+          [
+            0.03,
+            0.045
+          ],
+          [
+            0.028,
+            0.027
+          ],
+          [
+            0.027,
+            0.008
+          ],
+          [
+            0.026,
+            -0.01
+          ],
+          [
+            0.01,
+            0.075
+          ],
+          [
+            -0.009,
+            0.159
+          ],
+          [
+            -0.03,
+            0.244
+          ],
+          [
+            -0.055,
+            0.328
+          ],
+          [
+            -0.083,
+            0.413
+          ],
+          [
+            -0.117,
+            0.498
+          ],
+          [
+            -0.101,
+            0.498
+          ],
+          [
+            -0.084,
+            0.498
+          ],
+          [
+            -0.068,
+            0.498
+          ],
+          [
+            -0.052,
+            0.498
+          ],
+          [
+            -0.036,
+            0.498
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "name": "mid-blue facet at the root's leading edge",
+        "color": "mid",
+        "points": [
+          [
+            0.033,
+            0.1
+          ],
+          [
+            0.072,
+            0.118
+          ],
+          [
+            0.112,
+            0.136
+          ],
+          [
+            0.154,
+            0.154
+          ],
+          [
+            0.196,
+            0.172
+          ],
+          [
+            0.24,
+            0.191
+          ],
+          [
+            0.285,
+            0.209
+          ],
+          [
+            0.305,
+            0.172
+          ],
+          [
+            0.324,
+            0.136
+          ],
+          [
+            0.342,
+            0.1
+          ],
+          [
+            0.359,
+            0.063
+          ],
+          [
+            0.375,
+            0.027
+          ],
+          [
+            0.39,
+            -0.01
+          ],
+          [
+            0.321,
+            -0.011
+          ],
+          [
+            0.252,
+            -0.012
+          ],
+          [
+            0.184,
+            -0.012
+          ],
+          [
+            0.115,
+            -0.013
+          ],
+          [
+            0.046,
+            -0.014
+          ],
+          [
+            -0.022,
+            -0.015
+          ],
+          [
+            -0.014,
+            0.004
+          ],
+          [
+            -0.005,
+            0.023
+          ],
+          [
+            0.004,
+            0.042
+          ],
+          [
+            0.013,
+            0.061
+          ],
+          [
+            0.023,
+            0.08
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "name": "light-blue facet at the root",
+        "color": "lightBlue",
+        "points": [
+          [
+            0.285,
+            0.209
+          ],
+          [
+            0.321,
+            0.21
+          ],
+          [
+            0.356,
+            0.211
+          ],
+          [
+            0.392,
+            0.211
+          ],
+          [
+            0.428,
+            0.212
+          ],
+          [
+            0.464,
+            0.213
+          ],
+          [
+            0.501,
+            0.214
+          ],
+          [
+            0.545,
+            0.177
+          ],
+          [
+            0.586,
+            0.139
+          ],
+          [
+            0.626,
+            0.102
+          ],
+          [
+            0.663,
+            0.065
+          ],
+          [
+            0.699,
+            0.027
+          ],
+          [
+            0.732,
+            -0.01
+          ],
+          [
+            0.675,
+            -0.01
+          ],
+          [
+            0.618,
+            -0.01
+          ],
+          [
+            0.561,
+            -0.01
+          ],
+          [
+            0.504,
+            -0.01
+          ],
+          [
+            0.447,
+            -0.01
+          ],
+          [
+            0.39,
+            -0.01
+          ],
+          [
+            0.375,
+            0.027
+          ],
+          [
+            0.359,
+            0.063
+          ],
+          [
+            0.342,
+            0.1
+          ],
+          [
+            0.324,
+            0.136
+          ],
+          [
+            0.305,
+            0.172
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "name": "navy facet on the lower trailing edge",
+        "color": "navy2",
+        "points": [
+          [
+            0.812,
+            0.423
+          ],
+          [
+            0.844,
+            0.422
+          ],
+          [
+            0.875,
+            0.421
+          ],
+          [
+            0.906,
+            0.42
+          ],
+          [
+            0.937,
+            0.42
+          ],
+          [
+            0.969,
+            0.419
+          ],
+          [
+            1.0,
+            0.418
+          ],
+          [
+            1.0,
+            0.38
+          ],
+          [
+            1.0,
+            0.342
+          ],
+          [
+            1.0,
+            0.303
+          ],
+          [
+            1.0,
+            0.265
+          ],
+          [
+            1.0,
+            0.227
+          ],
+          [
+            0.999,
+            0.189
+          ],
+          [
+            0.979,
+            0.189
+          ],
+          [
+            0.958,
+            0.189
+          ],
+          [
+            0.938,
+            0.189
+          ],
+          [
+            0.917,
+            0.189
+          ],
+          [
+            0.897,
+            0.189
+          ],
+          [
+            0.876,
+            0.189
+          ],
+          [
+            0.844,
+            0.211
+          ],
+          [
+            0.811,
+            0.232
+          ],
+          [
+            0.777,
+            0.254
+          ],
+          [
+            0.741,
+            0.275
+          ],
+          [
+            0.705,
+            0.297
+          ],
+          [
+            0.666,
+            0.318
+          ],
+          [
+            0.689,
+            0.336
+          ],
+          [
+            0.712,
+            0.353
+          ],
+          [
+            0.736,
+            0.371
+          ],
+          [
+            0.761,
+            0.388
+          ],
+          [
+            0.786,
+            0.405
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "name": "green facet at the trailing edge's root",
+        "color": "green",
+        "points": [
+          [
+            0.876,
+            0.189
+          ],
+          [
+            0.897,
+            0.189
+          ],
+          [
+            0.917,
+            0.189
+          ],
+          [
+            0.938,
+            0.189
+          ],
+          [
+            0.958,
+            0.189
+          ],
+          [
+            0.979,
+            0.189
+          ],
+          [
+            0.999,
+            0.189
+          ],
+          [
+            1.0,
+            0.155
+          ],
+          [
+            1.0,
+            0.121
+          ],
+          [
+            1.0,
+            0.087
+          ],
+          [
+            1.001,
+            0.053
+          ],
+          [
+            1.001,
+            0.019
+          ],
+          [
+            1.001,
+            -0.015
+          ],
+          [
+            0.962,
+            -0.015
+          ],
+          [
+            0.923,
+            -0.015
+          ],
+          [
+            0.884,
+            -0.015
+          ],
+          [
+            0.845,
+            -0.015
+          ],
+          [
+            0.806,
+            -0.015
+          ],
+          [
+            0.767,
+            -0.015
+          ],
+          [
+            0.783,
+            0.019
+          ],
+          [
+            0.8,
+            0.053
+          ],
+          [
+            0.817,
+            0.087
+          ],
+          [
+            0.836,
+            0.121
+          ],
+          [
+            0.855,
+            0.155
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          4,
+          5,
+          6
+        ]
+      }
+    ],
+    "mirrored": true,
+    "confidence": "medium",
+    "sourceRefs": [
+      4,
+      5,
+      6
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "navy",
+    "inner": "navy",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "navy",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      1,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "JBU/us-flag",
+      "place": "fuselage",
+      "at": [
+        0.724,
+        0.315
+      ],
+      "height": 0.138,
+      "colors": [
+        "flagRed",
+        "white",
+        "navy"
+      ],
+      "description": "A small US flag ahead of the registration over the rear windows.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "jetBlue",
+      "place": "fuselage",
+      "at": [
+        0.174,
+        0.0
+      ],
+      "height": 0.76,
+      "color": "navy",
+      "style": "The jetBlue wordmark: heavy rounded geometric sans, lower case with a capital B, navy, over the forward windows behind the door; a small ® after it.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Gotham Rounded Bold",
+          "VAG Rounded Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.76
+      },
+      "length": 0.182
+    },
+    {
+      "text": "jetBlue",
+      "place": "fin",
+      "at": [
+        0.31,
+        0.18
+      ],
+      "height": 0.16,
+      "color": "white",
+      "style": "The wordmark in white across the middle of the fin.",
+      "confidence": "high",
+      "sourceRefs": [
+        1,
+        3
+      ],
+      "type": {
+        "similar": [
+          "Gotham Rounded Bold",
+          "VAG Rounded Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.76
+      },
+      "length": 0.53
+    },
+    {
+      "text": "jetblue.com",
+      "place": "engines",
+      "at": [
+        0.43,
+        0.0
+      ],
+      "height": 0.25,
+      "color": "white",
+      "style": "Bold rounded lower case along the cowling's side.",
+      "confidence": "medium",
+      "sourceRefs": [
+        1,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Gotham Rounded Bold",
+          "VAG Rounded Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.72
+      },
+      "length": 0.36
+    }
+  ],
+  "notes": "The fuselage, titles and engines are the standard's (drawn from the A321neo N2017J and the A320s). The fin is Prism, read off D-AVSA's left side (2013) and checked mirrored on N999JQ and N989JT: the facets are placed by eye on the fin as built, simplified (some of the smaller facet lines inside the navy are left out). JetBlue's A321s carry Prism or Balloons; tagged airframes only.",
+  "history": "Prism was unveiled in October 2013 for JetBlue's A321s, the first tail design not shared with the A320s."
+}

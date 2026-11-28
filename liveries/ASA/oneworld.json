@@ -43,6 +43,18 @@
       "title": "N486AS JFK Landing 13L AS B737 990 ER One World (CC BY-SA 2.0)",
       "accessed": "2026-11-12",
       "note": "Right side, 2022-06-25: winglet bands and engine swoosh."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Alaska_Boeing_737-900ER_N214AK_BWI_MD1.jpg",
+      "title": "Alaska Boeing 737-900ER N214AK BWI MD1.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-27",
+      "note": "N214AK left side, 2026-09-24, the fin close: the hood's light-blue fur band under the lime, the pale wisp by the trailing edge, the portrait's light and dark shapes."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Alaska_Airlines_Boeing_737-900ER_N431AS_on_final_approach_to_Boston_December_2024.jpg",
+      "title": "Alaska Airlines Boeing 737-900ER N431AS on final approach to Boston December 2024.jpg (CC BY 4.0)",
+      "accessed": "2026-11-27",
+      "note": "N431AS right side, 2024-12-27: the portrait and the hood are mirrored on the right (the hair's lock and the wisp toward the trailing edge on both sides)."
     }
   ],
   "notes": "N487AS also wears the oneworld scheme (Commons photo Anchorage 6 Jun 2025). N491AS is listed by Scramble.nl but not independently confirmed. Drawn from N486AS (left, 2026-02-19) and checked on N487AS (right, 2025-06-06): the aft sweep, fin and engines are Alaska's standard (2016) scheme; 'member of oneworld' and the gray Alaska title replace the standard navy 'Alaska' title. Registration in navy above the rear windows (not drawn). The wordmark's parts are titles of their own, so each side has its own set: on the right 'one' is aft of 'world' (N487AS, 2025-06-06). Re-checked 2026-11-15 (drawn on the 737-900ER, N486AS): the titles' lengths and places agree with the broadside 2026 photo; 'oneworld' is all lowercase, its x-height about 0.65 of the l's and d's height (recorded as xHeight, the title's height being the ascenders'); 'Alaska' lowercase about 0.55 of its A. The aft sweep is the standard's: its edges made smooth, with the silver-grey stripe ahead of the lime that the standard now has.",
@@ -84,6 +96,11 @@
     "wingGray": {
       "hex": "#B9BEC5",
       "official": false
+    },
+    "ice": {
+      "hex": "#9CC8EA",
+      "official": false,
+      "name": "pale blue fur wisp"
     }
   },
   "finish": "gloss",
@@ -406,6 +423,82 @@
         ]
       },
       {
+        "name": "light-blue fur band under the upper lime stripe (the hood's ruff), its lower edge in soft tufts",
+        "color": "atlas",
+        "smooth": true,
+        "points": [
+          [
+            0,
+            0.86
+          ],
+          [
+            0.5,
+            0.8
+          ],
+          [
+            0.93,
+            0.71
+          ],
+          [
+            0.96,
+            0.62
+          ],
+          [
+            0.9,
+            0.638
+          ],
+          [
+            0.8,
+            0.663
+          ],
+          [
+            0.7,
+            0.69
+          ],
+          [
+            0.62,
+            0.722
+          ],
+          [
+            0.55,
+            0.728
+          ],
+          [
+            0.48,
+            0.748
+          ],
+          [
+            0.4,
+            0.768
+          ],
+          [
+            0.33,
+            0.766
+          ],
+          [
+            0.26,
+            0.787
+          ],
+          [
+            0.18,
+            0.79
+          ],
+          [
+            0.1,
+            0.8
+          ],
+          [
+            0,
+            0.805
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          7,
+          8
+        ]
+      },
+      {
         "name": "upper lime stripe near the tip",
         "color": "lime",
         "points": [
@@ -436,25 +529,47 @@
         ]
       },
       {
-        "name": "Atlas-blue sliver under the upper stripe",
-        "color": "atlas",
+        "name": "pale fur wisp below the hood, near the trailing edge",
+        "color": "ice",
+        "smooth": true,
         "points": [
           [
-            0.55,
-            0.76
+            0.63,
+            0.69
+          ],
+          [
+            0.75,
+            0.656
+          ],
+          [
+            0.86,
+            0.612
           ],
           [
             0.95,
-            0.68
+            0.572
           ],
           [
-            0.95,
-            0.63
+            0.93,
+            0.562
           ],
           [
-            0.65,
-            0.71
+            0.84,
+            0.592
+          ],
+          [
+            0.72,
+            0.633
+          ],
+          [
+            0.64,
+            0.672
           ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          7,
+          8
         ]
       }
     ],

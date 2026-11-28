@@ -242,10 +242,6 @@
         ]
       }
     ],
-    "radome": {
-      "color": "desertGold",
-      "to": 0.025
-    },
     "windows": "plain",
     "confidence": "medium",
     "sourceRefs": [
@@ -527,6 +523,6 @@
       "length": 0.0364
     }
   ],
-  "notes": "Drawn from the March 2025 photo of N871HK (left side); the March 2026 photo shows it unchanged. The pinstripe along the gold/red line is white in the photos (the earlier description's orange line is not seen). Re-checked 2026-11-15 on the March 2025 left photo: the fin's 'SOUTHWEST' runs up the gold band at about 50 degrees, from just above the root (x 0.31) for 1.25 of the root's chord, cap height about 0.11 of the fin (it had been drawn level); the gold band is a straight, even band along the leading edge, wider than first drawn at mid-height (its aft edge at x 0.45 of the chord at half height and 0.82 near the tip, where it had been 0.32 and 0.63), meeting the trailing edge just below the tip (the right-side 2026 photo agrees). 'The Herbert D. Kelleher' measured against the nose and the forward door (1.85-3.2 m back). The gold/red line along the fuselage, curving up to the crown at the fin, made smooth. The orange band at the fin's root is left as drawn (the two photos don't agree on where its upper edge meets the trailing edge). Drawn on the 737-8.",
+  "notes": "Drawn from the March 2025 photo of N871HK (left side); the March 2026 photo shows it unchanged. The pinstripe along the gold/red line is white in the photos (the earlier description's orange line is not seen). Re-checked 2026-11-15 on the March 2025 left photo: the fin's 'SOUTHWEST' runs up the gold band at about 50 degrees, from just above the root (x 0.31) for 1.25 of the root's chord, cap height about 0.11 of the fin (it had been drawn level); the gold band is a straight, even band along the leading edge, wider than first drawn at mid-height (its aft edge at x 0.45 of the chord at half height and 0.82 near the tip, where it had been 0.32 and 0.63), meeting the trailing edge just below the tip (the right-side 2026 photo agrees). 'The Herbert D. Kelleher' measured against the nose and the forward door (1.85-3.2 m back). The gold/red line along the fuselage, curving up to the crown at the fin, made smooth. The orange band at the fin's root is left as drawn (the two photos don't agree on where its upper edge meets the trailing edge). Drawn on the 737-8. Nose re-checked 2026-11-27 (N871HK from the left and right, Boston 2025-03-27 and Cancun 2026-03-08): the red and its white pinstripe run on to the front of the nose, the pinstripe meeting it just under the tip; a gold nose cap had cut them off short of it.",
   "history": "Herb Kelleher tribute previously on N52SW, N365SW, N711HK."
 }

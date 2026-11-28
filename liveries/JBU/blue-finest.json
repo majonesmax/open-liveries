@@ -27,9 +27,15 @@
       "title": "JetBlue Airways A320-232, N531JL, named Blue Finest ... (51271700737) (CC BY 2.0)",
       "accessed": "2026-11-12",
       "note": "From below and behind, 2021-06-18: the green bands on the white aft fuselage seen from underneath."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:JetBlue_Airways_A320-232,_N531JL,_named_Blue_Finest,_MSN_1650_(12_2001),_as_B6_1145_Richmond_(RIC)_-_Fort_Lauderdale_(FLL),_Flight_time_1_45_(49144020272).jpg",
+      "title": "JetBlue Airways A320-232, N531JL, named Blue Finest, MSN 1650 (12 2001), as B6 1145 Richmond (RIC) - Fort Lauderdale (FLL), Flight time 1 45 (49144020272) (CC BY 2.0)",
+      "accessed": "2026-11-27",
+      "note": "Left side square on at the gate: the fin's 24 stars (traced), blue dorsal fillet, white aft fuselage with the green bands."
     }
   ],
-  "notes": "Registration settled: the 2024-07-26 photo shows N531JL with 'Blue Finest' under the cockpit (the N569JB pairing in a hobbyist list is wrong). Drawn from one right-side photo; the left side wasn't seen clearly, and the lower green band is only seen from below (low). Re-checked 2026-11-15: 'jetBlue' placed as on the standard (measured in metres on the A321neo N2017J and checked on A320s: x 0.174-0.356 of an A320, cap 1.57 m, lowercase 0.76 of the capitals); 'jetblue.com' on the A320's nacelle x 0.43-0.79 (read off N615JB and N627JB); the name under the cockpit given its length.",
+  "notes": "Registration settled: the 2024-07-26 photo shows N531JL with 'Blue Finest' under the cockpit (the N569JB pairing in a hobbyist list is wrong). Drawn from one right-side photo; the left side wasn't seen clearly, and the lower green band is only seen from below (low). Re-checked 2026-11-15: 'jetBlue' placed as on the standard (measured in metres on the A321neo N2017J and checked on A320s: x 0.174-0.356 of an A320, cap 1.57 m, lowercase 0.76 of the capitals); 'jetblue.com' on the A320's nacelle x 0.43-0.79 (read off N615JB and N627JB); the name under the cockpit given its length. Re-checked 2026-11-27 on a left-side photo (2019): the stars traced (24, not a ring of 12 round a big one), the dorsal fillet blue.",
   "from": "2014",
   "palette": {
     "blue": {
@@ -60,11 +66,11 @@
     "base": "blue",
     "areas": [
       {
-        "name": "white aft fuselage behind the aft door",
+        "name": "white aft fuselage behind the aft door (the dorsal fillet stays blue)",
         "color": "white",
         "points": [
           [
-            0.785,
+            0.805,
             1
           ],
           [
@@ -90,7 +96,7 @@
         "color": "green",
         "points": [
           [
-            0.786,
+            0.7994,
             0.25
           ],
           [
@@ -102,7 +108,7 @@
             -0.11
           ],
           [
-            0.787,
+            0.7967,
             -0.11
           ]
         ],
@@ -116,7 +122,7 @@
         "color": "green",
         "points": [
           [
-            0.788,
+            0.7941,
             -0.45
           ],
           [
@@ -128,7 +134,7 @@
             -0.75
           ],
           [
-            0.789,
+            0.7919,
             -0.75
           ]
         ],
@@ -181,17 +187,18 @@
       "mark": "JBU/nypd-stars",
       "place": "fin",
       "at": [
-        0.6,
-        0.37
+        0.61,
+        0.34
       ],
-      "height": 0.5,
+      "height": 0.53,
       "colors": [
         "white"
       ],
-      "description": "About twenty small white five-pointed stars in a rounded cluster (loosely a ring with stars inside), across the middle of the fin a little aft of center; the stars of the NYPD flag.",
+      "description": "24 equal small white five-pointed stars, a loose ring with more inside, low across the fin a little aft of center (traced from the left side).",
       "confidence": "medium",
       "sourceRefs": [
-        2
+        2,
+        4
       ]
     }
   ],

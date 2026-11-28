@@ -1,0 +1,254 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "brush-x",
+  "airline": "GXA",
+  "name": "Brushed X",
+  "kind": "standard",
+  "confidence": "medium",
+  "drawnOn": "A321",
+  "description": "All white. 'GLOBAL' in big thin light blue capitals across the forward windows (the G a ring with a bar across it), a light blue brushed X after it, a big light blue brushed X across the fin running off its leading edge, and the G in light blue on the white engines.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N530FL_A321,_GlobalX,_El_Paso_02-04-26_(55104041379).jpg",
+      "title": "N530FL A321, GlobalX, El Paso 02-04-26 (CC BY 4.0, Duncan Kirk)",
+      "accessed": "2026-11-27",
+      "note": "A321 N530FL, left side, level, 2026-02-04: the whole scheme measured here (fin X, title, X, engine G)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N570TA.jpg",
+      "title": "N570TA (CC BY-SA 4.0, Liam Thompson)",
+      "accessed": "2026-11-27",
+      "note": "A321 N570TA, left side, landing, 2026-07-11: the same scheme."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N282GX_-_KHPN_-_7-2-23.jpg",
+      "title": "N282GX - KHPN - 7-2-23 (CC BY-SA 4.0, Dave Montiverdi)",
+      "accessed": "2026-11-27",
+      "note": "A320 N282GX, left side, 2023-02-07: the same scheme on an A320."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N281GX_-_KHPN_-_19-5-23.jpg",
+      "title": "N281GX - KHPN - 19-5-23 (CC BY-SA 4.0, Dave Montiverdi)",
+      "accessed": "2026-11-27",
+      "note": "A320 N281GX, left side, 2023-05-19: the same scheme."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N278GX_A320,_GlobalX,_El_Paso_02-04-26_(55102942707).jpg",
+      "title": "N278GX A320, GlobalX, El Paso 02-04-26 (CC BY 4.0, Duncan Kirk)",
+      "accessed": "2026-11-27",
+      "note": "A320 N278GX, left side, level, 2026-02-04: the blue version (blue body, fin and engines; the X, lettering and G in white)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Global_Crossing_Airbus_A321_N570TA_BWI_MD2.jpg",
+      "title": "Global Crossing Airbus A321 N570TA BWI MD2 (CC BY-SA 4.0)",
+      "accessed": "2026-11-27",
+      "note": "A321 N570TA from below, 2025-03-13: the right side's title reads GLOBAL X with the X forward, about x 0.12-0.19, GLOBAL from about 0.21 to 0.53."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F5",
+      "official": false
+    },
+    "blue": {
+      "hex": "#6AB0E0",
+      "name": "GlobalX light blue",
+      "official": false
+    },
+    "wingGray": {
+      "hex": "#C3C7CC",
+      "official": false
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false
+    }
+  },
+  "finish": "gloss",
+  "fuselage": {
+    "base": "white",
+    "windows": "plain",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "mirrored": true,
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "wings": {
+    "top": "wingGray",
+    "under": "wingGray"
+  },
+  "winglets": {
+    "outer": "blue",
+    "inner": "blue",
+    "confidence": "low",
+    "sourceRefs": [
+      0
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "GXA/brush-x-fin",
+      "place": "fin",
+      "at": [
+        0.48,
+        0.36
+      ],
+      "height": 0.77,
+      "colors": [
+        "blue"
+      ],
+      "description": "The brushed X, big across the fin: a broad stroke rising from the root toward the trailing edge's top, ending in a ragged brush tip under the tip, crossed by one running down from the leading edge (off it) to the trailing edge near the root.",
+      "reference": "https://commons.wikimedia.org/wiki/File:N530FL_A321,_GlobalX,_El_Paso_02-04-26_(55104041379).jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "GXA/brush-x",
+      "place": "fuselage",
+      "side": "left",
+      "at": [
+        0.476,
+        0.17
+      ],
+      "height": 0.92,
+      "colors": [
+        "blue"
+      ],
+      "description": "The brushed X after GLOBAL, a little higher than the letters and about as tall as their capitals.",
+      "reference": "https://commons.wikimedia.org/wiki/File:N530FL_A321,_GlobalX,_El_Paso_02-04-26_(55104041379).jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "GXA/brush-x",
+      "place": "fuselage",
+      "side": "right",
+      "at": [
+        0.16,
+        0.17
+      ],
+      "height": 0.92,
+      "colors": [
+        "blue"
+      ],
+      "description": "On the right side the X comes first from the nose, ahead of GLOBAL, so the name reads GLOBAL X there too.",
+      "reference": "https://commons.wikimedia.org/wiki/File:N530FL_A321,_GlobalX,_El_Paso_02-04-26_(55104041379).jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ]
+    },
+    {
+      "mark": "GXA/g",
+      "place": "engines",
+      "at": [
+        0.3,
+        -0.1
+      ],
+      "height": 1.4,
+      "colors": [
+        "blue"
+      ],
+      "description": "The G (a ring open at the top right with a bar across it) big on the side of each cowl.",
+      "reference": "https://commons.wikimedia.org/wiki/File:N530FL_A321,_GlobalX,_El_Paso_02-04-26_(55104041379).jpg",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "GLOBAL",
+      "mark": "GXA/wordmark",
+      "place": "fuselage",
+      "side": "left",
+      "at": [
+        0.1375,
+        -0.38
+      ],
+      "height": 0.83,
+      "length": 0.287,
+      "color": "blue",
+      "style": "Big thin geometric capitals across the forward windows from just behind the forward door: the G a ring with a bar across its middle running out past it on the left, an A without a crossbar.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "type": {
+        "similar": [
+          "Montserrat Light",
+          "Avenir Next Ultra Light"
+        ],
+        "weight": 300,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "GLOBAL",
+      "mark": "GXA/wordmark",
+      "place": "fuselage",
+      "side": "right",
+      "at": [
+        0.205,
+        -0.38
+      ],
+      "height": 0.83,
+      "length": 0.287,
+      "color": "blue",
+      "style": "The same lettering on the right side, aft of the X so the name reads GLOBAL X (N570TA from below, 2025-03-13).",
+      "confidence": "low",
+      "sourceRefs": [
+        5
+      ],
+      "type": {
+        "similar": [
+          "Montserrat Light",
+          "Avenir Next Ultra Light"
+        ],
+        "weight": 300,
+        "slantDeg": 0,
+        "width": "extended",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    }
+  ],
+  "notes": "Measured on N530FL (A321, left side, El Paso, 2026-02-04), checked on N570TA (A321, 2026-07-11) and the A320s N282GX and N281GX (2023). The fin's X: the rising stroke from about a third of the root's chord to under the tip at the trailing edge, ending in a ragged brush tip; the falling one from off the leading edge at about 60% of the height to the trailing edge just above the root. GLOBAL runs from x 0.14 to 0.43, capitals from y -0.38 to 0.72 (the windows through its middle); the X after it at x 0.44-0.51, y 0.0-0.82. The G on the cowl is about three quarters of its height. A small US flag above the windows over the wing and the registration aren't drawn. The right side was seen only from below (N570TA, 2025-03-13): the X comes first from the nose there, GLOBAL after it; the fin's right side wasn't seen.",
+  "history": "GlobalX's newer scheme, on its A321s and some A320s since 2023 while others keep the blue and green swoosh (GXA/standard, still on N276GX and N630VA in 2026) and a few are all blue (GXA/brush-x-blue).",
+  "commonest": true
+}

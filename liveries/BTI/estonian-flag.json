@@ -1,0 +1,644 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "estonian-flag",
+  "airline": "BTI",
+  "name": "Estonian flag",
+  "kind": "special",
+  "from": "2019",
+  "confidence": "medium",
+  "drawnOn": "BCS3",
+  "description": "One of airBaltic's three Baltic flag A220-300s, for Estonia: the fin in the flag's level bands (blue over black over white), and the fuselage wrapped in waves of the same colors, a blue band through the window line and a black one under it, rolling from the nose (black at its tip) to the tail, with white above and a white belly ahead of the black's sweep down behind the wing; the tail cone blue over a black keel. Lime engines and winglets with dark 'airBaltic' as on the standard scheme, a small white 'airBaltic' on the black under the cockpit. No fuselage or fin title.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:YL-CSJ,_airBaltic_AIRBUS_A220-300,_Estonian_flag_livery.jpg",
+      "title": "YL-CSJ, airBaltic AIRBUS A220-300, Estonian flag livery.jpg (CC BY-SA 2.0)",
+      "accessed": "2026-11-27",
+      "note": "YL-CSJ left side on the ground, square on, in sun, 2020-01-04: fitted to the measured A220-300 shape (tools/photo_trace.py, doors pinned); the three bands' edges found column by column along the fuselage, the fin's flag bands, the nose title."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Air_Baltic_(Estonian_Flag_Livery),_YL-CSJ,_Airbus_A220-300_(49601383568).jpg",
+      "title": "Air Baltic (Estonian Flag Livery), YL-CSJ, Airbus A220-300 (49601383568).jpg (CC BY-SA 2.0)",
+      "accessed": "2026-11-27",
+      "note": "YL-CSJ left side, 2019-06-30: the same, checked against it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:AirBaltic%27s_Estonian_livery.jpg",
+      "title": "AirBaltic's Estonian livery.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-27",
+      "note": "YL-CSJ climbing, left side from below, 2021-08-25: lime engines and winglets with dark 'airBaltic'."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Air_Baltic,_YL-CSJ,_Airbus_A220-300_(32789713288).jpg",
+      "title": "Air Baltic, YL-CSJ, Airbus A220-300 (32789713288).jpg (CC BY-SA 2.0)",
+      "accessed": "2026-11-27",
+      "note": "YL-CSJ in the standard livery, 2018-12-22: the flag scheme came after."
+    },
+    {
+      "url": "https://www.planespotters.net/photo/2009909/yl-csj-airbaltic-airbus-a220-300-bd-500-1a11",
+      "title": "YL-CSJ on Planespotters.net (evidence only, not openly licensed)",
+      "accessed": "2026-11-27",
+      "note": "A recent left-side photo, still in the Estonian flag scheme."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F4F5F7",
+      "official": false
+    },
+    "blue": {
+      "hex": "#0880C6",
+      "official": false,
+      "name": "Estonian flag blue (sinine), as photographed in sun (#0083C8 on the side)"
+    },
+    "black": {
+      "hex": "#111214",
+      "official": false,
+      "name": "the flag's black: true black, no blue in it in sun (#0C0C0C-#141414 sampled)"
+    },
+    "green": {
+      "hex": "#84BD00",
+      "official": false,
+      "name": "airBaltic lime green"
+    },
+    "dark": {
+      "hex": "#2F3237",
+      "official": false,
+      "name": "dark gray titles"
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false,
+      "name": "bare metal inlet lip"
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "windows": "plain",
+    "areas": [
+      {
+        "name": "blue: everything under the blue wave's upper edge, which dips under the forward windows and climbs over the aft door",
+        "color": "blue",
+        "below": [
+          [
+            0,
+            0.12
+          ],
+          [
+            0.02,
+            0.22
+          ],
+          [
+            0.045,
+            0.25
+          ],
+          [
+            0.075,
+            0.33
+          ],
+          [
+            0.093,
+            0.37
+          ],
+          [
+            0.122,
+            0.31
+          ],
+          [
+            0.152,
+            0.258
+          ],
+          [
+            0.182,
+            0.19
+          ],
+          [
+            0.208,
+            0.119
+          ],
+          [
+            0.234,
+            0.027
+          ],
+          [
+            0.247,
+            0.014
+          ],
+          [
+            0.272,
+            0.092
+          ],
+          [
+            0.298,
+            0.126
+          ],
+          [
+            0.33,
+            0.17
+          ],
+          [
+            0.37,
+            0.24
+          ],
+          [
+            0.44,
+            0.29
+          ],
+          [
+            0.5,
+            0.33
+          ],
+          [
+            0.548,
+            0.366
+          ],
+          [
+            0.6,
+            0.41
+          ],
+          [
+            0.65,
+            0.446
+          ],
+          [
+            0.689,
+            0.483
+          ],
+          [
+            0.714,
+            0.543
+          ],
+          [
+            0.739,
+            0.668
+          ],
+          [
+            0.765,
+            0.823
+          ],
+          [
+            0.79,
+            0.734
+          ],
+          [
+            0.816,
+            0.683
+          ],
+          [
+            0.855,
+            0.67
+          ],
+          [
+            0.906,
+            0.658
+          ],
+          [
+            0.931,
+            0.655
+          ],
+          [
+            0.957,
+            0.783
+          ],
+          [
+            0.975,
+            0.9
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "smooth": true,
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "black: under the black wave's upper edge, sweeping down behind the wing to a narrow keel under the blue tail cone",
+        "color": "black",
+        "below": [
+          [
+            0,
+            0.15
+          ],
+          [
+            0.013,
+            0.205
+          ],
+          [
+            0.047,
+            0.139
+          ],
+          [
+            0.077,
+            0.081
+          ],
+          [
+            0.102,
+            0.06
+          ],
+          [
+            0.145,
+            0.05
+          ],
+          [
+            0.17,
+            0.02
+          ],
+          [
+            0.196,
+            -0.049
+          ],
+          [
+            0.222,
+            -0.168
+          ],
+          [
+            0.248,
+            -0.257
+          ],
+          [
+            0.261,
+            -0.262
+          ],
+          [
+            0.286,
+            -0.168
+          ],
+          [
+            0.311,
+            -0.071
+          ],
+          [
+            0.337,
+            -0.011
+          ],
+          [
+            0.362,
+            -0.004
+          ],
+          [
+            0.42,
+            0.02
+          ],
+          [
+            0.5,
+            0.05
+          ],
+          [
+            0.558,
+            0.065
+          ],
+          [
+            0.6,
+            0.07
+          ],
+          [
+            0.656,
+            0.067
+          ],
+          [
+            0.703,
+            0.039
+          ],
+          [
+            0.72,
+            -0.019
+          ],
+          [
+            0.746,
+            -0.155
+          ],
+          [
+            0.76,
+            -0.319
+          ],
+          [
+            0.785,
+            -0.34
+          ],
+          [
+            0.81,
+            -0.366
+          ],
+          [
+            0.836,
+            -0.41
+          ],
+          [
+            0.862,
+            -0.497
+          ],
+          [
+            0.887,
+            -0.643
+          ],
+          [
+            0.9,
+            -0.75
+          ],
+          [
+            0.94,
+            -0.86
+          ],
+          [
+            1,
+            -0.95
+          ]
+        ],
+        "smooth": true,
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "white belly, from under the nose to the black's sweep down behind the wing",
+        "color": "white",
+        "below": [
+          [
+            0.03,
+            -1
+          ],
+          [
+            0.04,
+            -0.6
+          ],
+          [
+            0.061,
+            -0.431
+          ],
+          [
+            0.095,
+            -0.356
+          ],
+          [
+            0.125,
+            -0.331
+          ],
+          [
+            0.14,
+            -0.326
+          ],
+          [
+            0.168,
+            -0.351
+          ],
+          [
+            0.193,
+            -0.421
+          ],
+          [
+            0.215,
+            -0.48
+          ],
+          [
+            0.25,
+            -0.47
+          ],
+          [
+            0.285,
+            -0.33
+          ],
+          [
+            0.312,
+            -0.234
+          ],
+          [
+            0.338,
+            -0.198
+          ],
+          [
+            0.363,
+            -0.197
+          ],
+          [
+            0.45,
+            -0.25
+          ],
+          [
+            0.52,
+            -0.33
+          ],
+          [
+            0.564,
+            -0.36
+          ],
+          [
+            0.589,
+            -0.288
+          ],
+          [
+            0.615,
+            -0.251
+          ],
+          [
+            0.65,
+            -0.25
+          ],
+          [
+            0.692,
+            -0.338
+          ],
+          [
+            0.713,
+            -0.427
+          ],
+          [
+            0.726,
+            -0.51
+          ],
+          [
+            0.745,
+            -0.75
+          ],
+          [
+            0.76,
+            -1
+          ]
+        ],
+        "smooth": true,
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "areas": [
+      {
+        "name": "the flag's blue band, the top third",
+        "color": "blue",
+        "points": [
+          [
+            -0.05,
+            0.665
+          ],
+          [
+            1.05,
+            0.665
+          ],
+          [
+            1.05,
+            1.05
+          ],
+          [
+            -0.05,
+            1.05
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "the flag's black band, level across the middle",
+        "color": "black",
+        "points": [
+          [
+            -0.05,
+            0.315
+          ],
+          [
+            1.05,
+            0.315
+          ],
+          [
+            1.05,
+            0.665
+          ],
+          [
+            -0.05,
+            0.665
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "wings": {
+    "top": "#B9BEC5",
+    "under": "#C9CDD2"
+  },
+  "winglets": {
+    "outer": "green",
+    "inner": "green",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      2
+    ]
+  },
+  "engines": {
+    "cowling": "green",
+    "inletLip": "lip",
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      2
+    ]
+  },
+  "logos": [
+    {
+      "mark": "BTI/wordmark",
+      "place": "winglets",
+      "at": [
+        0.4,
+        0.3
+      ],
+      "height": 0.12,
+      "colors": [
+        "dark"
+      ],
+      "description": "Small 'airBaltic' in dark gray near the winglet's root. Lettering; a logo entry only because titles can't sit on winglets.",
+      "reference": "https://commons.wikimedia.org/wiki/File:AirBaltic_logo.svg",
+      "confidence": "medium",
+      "sourceRefs": [
+        2
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "airBaltic",
+      "place": "fuselage",
+      "at": [
+        0.073,
+        -0.081
+      ],
+      "height": 0.08,
+      "length": 0.02,
+      "color": "white",
+      "style": "Small white title on the black under the cockpit, 'AIRBUS A220-300' under it.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ],
+      "type": {
+        "similar": [
+          "Gotham Bold",
+          "Montserrat Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.73
+      }
+    },
+    {
+      "text": "airBaltic",
+      "place": "engines",
+      "at": [
+        0.25,
+        0.1
+      ],
+      "height": 0.3,
+      "length": 0.5,
+      "color": "dark",
+      "style": "As the fuselage title, across the outboard side of the green cowling.",
+      "confidence": "high",
+      "sourceRefs": [
+        0,
+        2
+      ],
+      "type": {
+        "similar": [
+          "Gotham Bold",
+          "Montserrat Bold"
+        ],
+        "weight": 700,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "mixed",
+        "xHeight": 0.73
+      }
+    }
+  ],
+  "notes": "Left side only in open photos (2019-2021); the right side is taken to match (mirrored), as on the Latvian and Lithuanian flag jets. The fin's bands measured level at 0.315 and 0.665 of its height. The waves' edges were found column by column on the 2020 photo; under the wing and engine (x 0.38-0.55) they're joined smoothly between what shows either side: low confidence there. The registration with the EU and Latvian flags sits on the black aft of the wing (white); not drawn.",
+  "history": "Applied in 2019 to YL-CSJ (in the standard scheme in December 2018), alongside a Latvian and a Lithuanian flag jet for the Baltic states' centenaries."
+}

@@ -6,7 +6,7 @@
   "kind": "special",
   "from": "2026",
   "confidence": "medium",
-  "drawnOn": "A21N",
+  "drawnOn": "B738",
   "description": "American's standard (2013) scheme with the America250 emblem added as a decal: a large '250' drawn as a looping red, white and blue ribbon across the windows aft of the wing (seen on the right side). Sources also mention 'American 100' markings, which no photo shows.",
   "sources": [
     {
@@ -530,8 +530,8 @@
       "mark": "AAL/america250",
       "place": "fuselage",
       "at": [
-        0.628,
-        0.14
+        0.665,
+        0.1
       ],
       "height": 1.1,
       "colors": [
@@ -579,7 +579,7 @@
       "length": 0.202
     }
   ],
-  "notes": "The standard scheme's geometry as AAL/standard (drawn on the A321neo; see its notes), with the America250 emblem measured on N953NN, a 737-800, seen only from the right (the left side isn't in any open photo, so the emblem is given for the right side only). Its middle is about 0.63 of the 737-800's length, a shade lower than the window line, 1.1 tall (2 the fuselage's height): 'at' is that share, so on other types it lands about as far aft. Sources (Simple Flying, a fan fleet list) name N840NN too, with 'American 100' markings; no photo shows either. Previously described only (no drawing).",
+  "notes": "The standard scheme's geometry as AAL/standard (drawn on the A321neo; see its notes), with the America250 emblem measured on N953NN, a 737-800, seen only from the right (the left side isn't in any open photo, so the emblem is given for the right side only). Its middle is about 0.665 (between the wing's trailing edge and the aft door) of the 737-800's length, a shade lower than the window line, 1.1 tall (2 the fuselage's height): 'at' is that share, so on other types it lands about as far aft. Sources (Simple Flying, a fan fleet list) name N840NN too, with 'American 100' markings; no photo shows either. Previously described only (no drawing). Drawn on the 737-800 its tails are (2026-11-27), not the A321neo.",
   "history": "Was a words-only entry (2026-11-12) pending a photo; drawn 2026-11-22 from N953NN.",
   "commemorates": "The 250th anniversary of the United States (America250, 2026)."
 }

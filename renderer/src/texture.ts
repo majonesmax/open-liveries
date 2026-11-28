@@ -8,6 +8,7 @@
 // keeps its proportions on the model. Belly titles and logos aren't drawn on it (they sit across the seam).
 
 import { NEUTRAL, NOZZLE, UNPAINTED_FUSELAGE } from './colors.js';
+import { fuselageRadiusAt } from './geometry.js';
 import type { Geometry, Mapping } from './geometry.js';
 import { drawLogo, drawTitle } from './labels.js';
 import { drawAreas, onThePaint, PAINT_MARGIN, paintDoors, paintFuselage, paintGlass } from './paint.js';
@@ -44,6 +45,13 @@ function unrolled(side: 'left' | 'right', width: number, height: number): { mapp
  * A part's titles and logos on one side's half of its texture, through `mapping`: a y unit is a quarter of the half's
  * height, and the part's length is the texture's `width`. On paint that ends short of the part's end (`paintedTo`: an
  * engine's fan cowl) they stay ahead of its end, as from the side.
+ *
+ * `girth` (the fuselage's) is the part's radius at x as a share of the radius the texture's rows are scaled to. Rows
+ * are a share of the way round, so on a tapering tail the mesh wraps them round less: a logo or a title set at its
+ * natural width, drawn as wide as at the cabin, would come out too wide for its height there by 1 / girth (Blue
+ * Bravest's Maltese cross at the tail cone, about twice). Each is squeezed along the part by `girth` at its anchor,
+ * so on the model it keeps the proportions it has from the side. Areas need nothing: their points are mapped one by
+ * one, and a spread title's length is already a share of the part's.
  */
 function drawTextureLabels(
   livery: Livery,
@@ -51,9 +59,26 @@ function drawTextureLabels(
   side: 'left' | 'right',
   canvas: Canvas,
   group: Element,
-  { mapping, height, width, paintedTo }: { mapping: Mapping; height: number; width: number; paintedTo?: number },
+  {
+    mapping,
+    height,
+    width,
+    paintedTo,
+    girth = () => 1,
+  }: { mapping: Mapping; height: number; width: number; paintedTo?: number; girth?: (x: number) => number },
 ): void {
   const yUnit = height / 2 / 2;
+  // Drawn into a group squeezed along the part about `at` (see above); a full-girth one draws as it always has.
+  const squeezed = (x: number, at: Point): Element => {
+    const k = girth(x);
+    if (!(k > 0 && k < 0.999)) return group;
+    const [ax, ay] = at;
+    return svgElement(
+      'g',
+      { transform: `translate(${ax},${ay}) scale(${k.toFixed(4)},1) translate(${-ax},${-ay})` },
+      group,
+    );
+  };
   for (const title of livery.titles ?? []) {
     if (title.place !== place || !showsOn(title, side)) continue;
     const fitted = paintedTo !== undefined ? onThePaint(title, paintedTo) : title;
@@ -63,14 +88,15 @@ function drawTextureLabels(
       length: fitted.length ? fitted.length * width : 0,
       side,
     };
-    drawTitle(fitted, placement, group, canvas);
+    drawTitle(fitted, placement, fitted.length ? group : squeezed(fitted.at[0], placement.at), canvas);
   }
   for (const logo of livery.logos ?? []) {
     if (logo.place !== place || !showsOn(logo, side)) continue;
     // Kept ahead of the paint's end by about half its width (as wide as it's tall: its mark's width isn't known here).
     const half = (logo.height * yUnit) / 2 / width;
     const x = paintedTo !== undefined ? Math.min(logo.at[0], paintedTo - PAINT_MARGIN - half) : logo.at[0];
-    drawLogo(logo, mapping(x, logo.at[1]), logo.height * yUnit, side, group, canvas);
+    const at = mapping(x, logo.at[1]);
+    drawLogo(logo, at, logo.height * yUnit, side, squeezed(x, at), canvas);
   }
 }
 
@@ -94,7 +120,9 @@ export function drawFuselageTexture(livery: Livery, geometry: Geometry, options:
     const outer = svgElement('g', { transform }, canvas.svg);
     const group = svgElement('g', { 'clip-path': canvas.clipTo(`tex${side}`, frame) }, outer);
     paintFuselage(livery, side, canvas, geometry, mapping, group);
-    drawTextureLabels(livery, 'fuselage', side, canvas, group, { mapping, height, width });
+    const cabin = geometry.shape.fuselage.radius;
+    const girth = (x: number): number => Math.min(1, fuselageRadiusAt(geometry, x) / cabin);
+    drawTextureLabels(livery, 'fuselage', side, canvas, group, { mapping, height, width, girth });
     paintGlass(livery, canvas, geometry, mapping, group);
     paintDoors(canvas, geometry, side, mapping, group);
   }

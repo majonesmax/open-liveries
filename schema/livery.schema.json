@@ -350,7 +350,11 @@
           "type": "string"
         },
         "color": {
-          "$ref": "#/$defs/color"
+          "$ref": "#/$defs/color",
+          "description": "Its paint; with a `gradient`, the paint a renderer without gradients uses (the fade's middle tone, or what reads from afar)."
+        },
+        "gradient": {
+          "$ref": "#/$defs/gradient"
         },
         "points": {
           "description": "The area's outline, in its part's coordinates (docs/COORDINATES.md).",
@@ -816,6 +820,46 @@
       ],
       "minItems": 2,
       "maxItems": 3
+    },
+    "gradient": {
+      "description": "A smooth fade across the area (docs/COORDINATES.md › Gradients): the paint changes from stop to stop along the line from `from` to `to`, in the part's own space, and is the same along every line square to it there. Before `from` it's the first stop's paint, past `to` the last's. `color` stays the area's paint for a renderer without gradients.",
+      "type": "object",
+      "required": [
+        "from",
+        "to",
+        "stops"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "from": {
+          "description": "Where the fade starts ([x, y] in the part's space; on the fuselage y as written, the fade running straight as seen from the side like an area's edges).",
+          "$ref": "#/$defs/point"
+        },
+        "to": {
+          "description": "Where it ends.",
+          "$ref": "#/$defs/point"
+        },
+        "stops": {
+          "description": "[offset, color] pairs, offsets from 0 (at `from`) to 1 (at `to`), ascending.",
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "array",
+            "prefixItems": [
+              {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              },
+              {
+                "$ref": "#/$defs/color"
+              }
+            ],
+            "minItems": 2,
+            "maxItems": 2
+          }
+        }
+      }
     }
   }
 }

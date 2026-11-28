@@ -106,6 +106,9 @@ fin's areas in fin space. Titles and logos get their positions and heights. Give
      lines between points are the default.
    - **Both:** a smooth area with a real corner inside it marks that point `[x, y, 1]`. Points on the part's edge
      (x 0 or 1, the crown or the belly) are sharp already.
+   - **It fades** (a half-tone screen of dots, an airbrushed blend): one area with a `gradient` from one color to
+     the other, not a stack of tone bands, which read as stripes (COORDINATES.md › Gradients). Keep its `color` the
+     tone that reads from a distance.
    - **It continues onto another part** (a swoop running up the fin, a band round the engine): measure where it
      meets that part's edge on both parts so the two line up. The fin's band starts at the fin's root where the
      fuselage's reaches the crown.

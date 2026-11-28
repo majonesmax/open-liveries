@@ -55,6 +55,39 @@ because most areas here were measured as polygons with real corners (window band
 renderer and `tools/common.py` (`area_polygon`) draw the same curve. `tools/export_compact.py` writes it out already
 curved.
 
+## Gradients
+
+A paint that fades smoothly from one color to another across an area (a half-tone screen seen from a distance, an
+airbrushed blend) is one area with a `gradient`:
+
+```json
+{
+  "color": "dotsMid",
+  "points": [[0, 0.3], [1, 0.38], [1, 0.8], [0, 0.8]],
+  "gradient": { "from": [0.3, 0.38], "to": [0.3, 0.8], "stops": [[0, "teal"], [0.6, "dotsMid"], [1, "white"]] }
+}
+```
+
+- **`from` and `to`** are points in the area's own part's space, as its points are: fin space on the fin, fuselage
+  space on the fuselage. The paint at a point is set by how far along the line from `from` to `to` it lies, taken
+  square to that line in the part's space (x and y as written; on the fuselage y as side-view height, so the fade runs
+  straight as seen from the side, as an area's edges do). So it fits every type and both sides as the area does. A fin
+  fade from `[x, 0.3]` to `[x, 0.8]` changes with height only, level across the fin whatever its sweep.
+- **`stops`** are `[offset, color]` pairs: offset 0 at `from`, 1 at `to`, ascending, two or more. Before `from` the
+  area is the first stop's color and past `to` the last's. Colors are palette names or hex, as anywhere else.
+- **`color` stays.** It's what a renderer without gradients paints the whole area with, and the paint lettering and
+  logos sit on where they're placed by the paint under them. Make it the tone that reads from a distance (about the
+  fade's middle).
+
+A renderer maps `from` and `to` into its drawing through the affine map that best fits the area's outline, so the
+lines of one paint fall where they are in the part's space: exactly where the part's mapping is affine (a texture, a
+fin band level from root to tip), within the part's bend elsewhere. The reference renderer draws an SVG
+`linearGradient`. One that can only paint flat colors may cut the area into bands, each at the color of its middle,
+fine enough not to read as stripes (`tools/export_compact.py` does, for apps), or paint `color`.
+
+Use a gradient only where the paint really fades. A stepped design with hard edges between its tones (a sunset of
+stripes) stays separate areas.
+
 ## Fin
 
 The left face as seen from the left. **x** is 0 at the leading edge → 1 at the trailing edge, measured at each height,
@@ -183,6 +216,10 @@ paints it with the fuselage's paint on the crown under it, carried up along the 
 stripe flowing from the body into the tail passes through it unbroken. `fin.fillet` gives it one color instead where the
 photos show that (easyJet's white). The fin's own areas stop at its leading edge.
 
+Below the fin's root, behind its leading edge, is the body too: where the tail cone falls away under the fin (an A320,
+a 777) it shows the crown's paint, not the fin's. The fin's titles and logos stop at the root and the crown. They may
+run onto the fillet ahead (United's globe reaches it) but never onto the tail cone under the rudder.
+
 ## Doors
 
 Doors belong to the aircraft, not the scheme. A renderer draws them from the shape. A measured type's doors are drawn
@@ -195,7 +232,8 @@ A title's `type` block says how its lettering looks, measured off photos. It giv
 slant, width, strokes, case and `xHeight`. That's the lowercase letters' height as a share of the capitals'. A renderer
 without the airline's own typeface sets the title in a stand-in. It keeps the measured cap height, except that a mostly
 lowercase wordmark is sized so its lowercase matches `xHeight` (the capitals then come out a little tall). A title
-spread to its measured `length` wider than the stand-in sets it is drawn heavier, not letter-spaced.
+spread to its measured `length` wider than the stand-in sets it is drawn heavier, not letter-spaced. The extra weight
+stays inside the measured cap height and on the baseline, so two lines set close together don't run into each other.
 
 A title marked `registration` is the aircraft's own number, like the Coast Guard's serials lettered below the flight
 deck. Its `text` is the number on the photo it was measured from. An app that knows the aircraft's registration letters

@@ -26,6 +26,18 @@
       "title": "Air New Zealand (Wikipedia)",
       "accessed": "2026-11-13",
       "note": "Black and white livery with the fern introduced 2012."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Zk-nzn_Air_New_Zealand_Boeing_787-9_Dreamliner_landing_at_Los_Angeles_International,_September_2023.jpg",
+      "title": "ZK-NZN Air New Zealand Boeing 787-9 landing at Los Angeles International, September 2023 (CC BY-SA 4.0)",
+      "accessed": "2026-11-27",
+      "note": "Left side, level and sharp: the koru (its bars run to the trailing edge) and the fern's size and place."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Air_New_Zealand%27s_Boeing_787-9_ZK-NZG_(51621040831).jpg",
+      "title": "Air New Zealand's Boeing 787-9 ZK-NZG (CC BY-SA 2.0)",
+      "accessed": "2026-11-27",
+      "note": "Right side: the koru mirrored (curls toward the tail), the fern toward the fin."
     }
   ],
   "palette": {
@@ -144,30 +156,32 @@
       "mark": "ANZ/koru",
       "place": "fin",
       "at": [
-        0.58,
-        0.36
+        0.748,
+        0.404
       ],
-      "height": 0.62,
+      "height": 0.632,
       "colors": [
         "white"
       ],
-      "description": "The Air New Zealand koru: a white Maori spiral curl above a horizontal bar, with a smaller curl below, standing upright in the lower-middle of the black fin.",
+      "description": "The Air New Zealand koru in white on the black fin: an upper curl turning aft into a spiral and a lower one mirroring it, joined at a point toward the leading edge, two parallel bars running aft from the point to the trailing edge. Mirrored on the right.",
       "reference": "https://commons.wikimedia.org/wiki/File:Air_New_Zealand_logo.svg",
       "side": "both",
       "confidence": "high",
       "sourceRefs": [
         0,
-        1
+        1,
+        3,
+        4
       ]
     },
     {
       "mark": "ANZ/fern",
       "place": "fuselage",
       "at": [
-        0.73,
+        0.765,
         0.0
       ],
-      "height": 1.7,
+      "height": 2.2,
       "colors": [
         "white"
       ],
@@ -177,7 +191,8 @@
       "confidence": "medium",
       "sourceRefs": [
         0,
-        1
+        1,
+        3
       ]
     },
     {

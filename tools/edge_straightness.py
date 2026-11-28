@@ -37,7 +37,7 @@ from common import LIVERIES, ROOT, fuselage_polygon, load_livery, paint_for, typ
 # the B722 on the passenger 727, the 747 on the B742, the Convair 580 on CVLT, Pan Am's 747SP and L-1011-500).
 GHOSTFLIGHTS: dict[str, list[str]] = {
     "NWA/orient-red-tail": ["B752", "B722-passenger", "DC10", "B742"],
-    "RC1979/herman": ["MD82", "DC93", "CVLT"],
+    "RC1979/herman": ["MD82", "DC91", "DC93", "DC95", "CVLT", "B722-passenger"],
     "EA1926/hockey-stick-1985": ["B722-passenger", "DC93", "DC95", "B752", "A30B", "L101"],
     "WA1926/silver-1980s": ["B722-passenger", "B733"],
     "WA1926/w-1970s": ["DC10"],

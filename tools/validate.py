@@ -44,6 +44,10 @@ def _colors_under(value: object, path: str) -> Iterator[tuple[str, str]]:
             if k == "colors" and isinstance(x, list):
                 for i, c in enumerate(x):
                     yield f"{path}.colors[{i}]", c
+            if k == "gradient" and isinstance(x, dict):
+                for i, stop in enumerate(x.get("stops", [])):
+                    if isinstance(stop, list) and len(stop) == 2 and isinstance(stop[1], str):
+                        yield f"{path}.gradient.stops[{i}]", stop[1]
             yield from _colors_under(x, f"{path}.{k}")
     elif isinstance(value, list):
         for i, x in enumerate(value):
@@ -71,6 +75,24 @@ def source_refs_in(value: object, path: str = "") -> Iterator[tuple[str, int]]:
     elif isinstance(value, list):
         for i, x in enumerate(value):
             yield from source_refs_in(x, f"{path}[{i}]")
+
+
+def gradient_problems(value: object, path: str = "") -> Iterator[str]:
+    """Gradients whose stops go backwards or whose line has no length (docs/COORDINATES.md › Gradients)."""
+    if isinstance(value, dict):
+        g = value.get("gradient")
+        if isinstance(g, dict):
+            offsets = [s[0] for s in g.get("stops", []) if isinstance(s, list) and s]
+            if any(b < a for a, b in pairwise(offsets)):
+                yield f"{path}.gradient: its stops' offsets must ascend"
+            a, b = g.get("from"), g.get("to")
+            if isinstance(a, list) and a == b:
+                yield f"{path}.gradient: 'from' and 'to' are the same point"
+        for k, x in value.items():
+            yield from gradient_problems(x, f"{path}.{k}" if path else k)
+    elif isinstance(value, list):
+        for i, x in enumerate(value):
+            yield from gradient_problems(x, f"{path}[{i}]")
 
 
 def title_problems(titles: list[Any]) -> list[str]:
@@ -180,6 +202,7 @@ def check_livery(
                 f"{rel}: {where}: measured from {sources[i]['url']}, which is evidence only (CONTRIBUTING.md)"
             )
     problems += [f"{rel}: {p}" for p in title_problems(d.get("titles", []))]
+    problems += [f"{rel}: {p}" for p in gradient_problems({k: d[k] for k in (*PARTS, "types") if k in d})]
     if d.get("from") and d.get("to") and d["to"] < d["from"]:
         problems.append(f"{rel}: 'to' is before 'from'")
     if d.get("airline") not in airlines.get("airlines", {}):

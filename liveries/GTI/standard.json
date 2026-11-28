@@ -116,7 +116,7 @@
   },
   "fin": {
     "base": "navy",
-    "mirrored": false,
+    "mirrored": true,
     "confidence": "medium",
     "sourceRefs": [
       1,
@@ -141,20 +141,21 @@
       "mark": "GTI/atlas-globe",
       "place": "fin",
       "at": [
-        0.5,
-        0.55
+        0.15,
+        0.6
       ],
-      "height": 0.7,
+      "height": 1.35,
       "colors": [
         "gold",
         "navy"
       ],
-      "description": "Atlas Air's mark in gold on the navy fin: a large globe drawn as latitude and longitude lines, the Titan Atlas kneeling under it and holding it up.",
+      "description": "Atlas Air's mark in gold on the navy fin: a big wire globe (thick latitude and longitude lines, the fin's navy through them) running off the tip, and under it the Titan Atlas standing, arms spread up to the globe's underside, head bowed, his feet at the root.",
       "reference": "https://commons.wikimedia.org/wiki/File:Atlas_Air_logo.svg",
       "confidence": "high",
       "sourceRefs": [
         1,
-        2
+        2,
+        3
       ]
     }
   ],
@@ -234,6 +235,6 @@
       "length": 0.25
     }
   ],
-  "notes": "Drawn only from right-side photos taken from below during climb-out (747-400s in 2024 and 2026), so positions are approximate and the left side is assumed to mirror it. Atlas also flies aircraft for Amazon (Prime Air), DHL and others in their customers' liveries; those aren't this scheme. Re-checked 2026-11-15: no side-on photo of an Atlas 747 in this scheme is on Commons (all from below or well ahead), so the titles and the navy's edge are left as drawn. On N476MC (2026) the title's cap height is about 2.4 m and it runs about 17 m (0.24 of the fuselage, close to the drawn 0.22); the belly title's length (0.25) is an estimate from N322SG seen from below. N476MC suggests the navy may start further aft near the crown than drawn (a near-vertical edge under the fin's leading edge); not changed without a side-on photo.",
+  "notes": "Drawn only from right-side photos taken from below during climb-out (747-400s in 2024 and 2026), so positions are approximate and the left side is assumed to mirror it. Atlas also flies aircraft for Amazon (Prime Air), DHL and others in their customers' liveries; those aren't this scheme. Re-checked 2026-11-15: no side-on photo of an Atlas 747 in this scheme is on Commons (all from below or well ahead), so the titles and the navy's edge are left as drawn. On N476MC (2026) the title's cap height is about 2.4 m and it runs about 17 m (0.24 of the fuselage, close to the drawn 0.22); the belly title's length (0.25) is an estimate from N322SG seen from below. N476MC suggests the navy may start further aft near the crown than drawn (a near-vertical edge under the fin's leading edge); not changed without a side-on photo. The tail mark redrawn 2026-11-27 from N476MC's left side (2026-06-24): the figure stands under the globe's lower-left with the globe running up the fin along its sweep and off the tip; the fin now mirrored, as right-side photos (N722GT, N431GT) show the globe running the same way along the sweep.",
   "history": "Replaces Skyarium v1's approximate standard (a few colors from memory)."
 }

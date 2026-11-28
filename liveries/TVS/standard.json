@@ -1,0 +1,954 @@
+{
+  "$schema": "../../schema/livery.schema.json",
+  "id": "standard",
+  "airline": "TVS",
+  "name": "smartwings.com livery",
+  "kind": "standard",
+  "confidence": "medium",
+  "drawnOn": "B738",
+  "description": "White, with an orange line starting thin under the cockpit and running aft under the windows, widening behind the wing and sweeping up to the fin, a royal blue hairline under it from the forward windows, widening behind the wing to the tail; the fin white under a blue tip, with orange and blue wing-like spikes and a big orange sweep round a white loop at its foot. 'smartwings' in bold blue italic lower case over the forward windows, an orange scribbled 's' for the dot, then 'com'.",
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Smartwings_-_Boeing_737-8GQ_-_OK-TSO_-_Cologne_Bonn_Airport-7328.jpg",
+      "title": "Smartwings - Boeing 737-8GQ - OK-TSO - Cologne Bonn Airport-7328.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-27",
+      "note": "OK-TSO (now HA-TSO) left side from a little above, 2021-11-18: fitted to the measured 737-800 shape (tools/photo_trace.py, doors pinned); the fin's stripes traced by color, the fuselage sweep's edges column by column, the title and its orange mark."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Boeing_737-8GQ_(c-n_35793,_OK-TSO)_2025-10-17_Andre_Gerwing_Collection_ID_026994.jpg",
+      "title": "Boeing 737-8GQ (c-n 35793, OK-TSO) 2025-10-17 Andre Gerwing Collection ID 026994.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-27",
+      "note": "The same jet's right side, 2025-10-17, on a Eurowings wet-lease (Eurowings titles, the fuselage sweep covered): the fin is the left's mirrored."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Smartwings,_OK-TSO,_Boeing_737-8GQ_(49589713717).jpg",
+      "title": "Smartwings, OK-TSO, Boeing 737-8GQ (49589713717).jpg (CC BY-SA 2.0)",
+      "accessed": "2026-11-27",
+      "note": "Left side, 2019-06-19: the same scheme."
+    },
+    {
+      "url": "https://www.planespotters.net/photo/1977774/ha-tso-smartwings-hungary-boeing-737-8gq-wl",
+      "title": "HA-TSO on Planespotters.net (evidence only, not openly licensed)",
+      "accessed": "2026-11-27",
+      "note": "Right side, re-registered in Hungary: the full scheme with 'smartwings[mark]com' read the same way from the right."
+    }
+  ],
+  "palette": {
+    "white": {
+      "hex": "#F3F4F6",
+      "official": false
+    },
+    "blue": {
+      "hex": "#0E479C",
+      "official": false,
+      "name": "Smartwings blue: a royal blue (the title #04459D, the fin's spikes #043F93-#1C499B, the fuselage band #1751AB, in sun)"
+    },
+    "orange": {
+      "hex": "#F76327",
+      "official": false,
+      "name": "Smartwings orange"
+    },
+    "lip": {
+      "hex": "#C3C7CC",
+      "official": false,
+      "name": "bare metal inlet lip"
+    },
+    "navy": {
+      "hex": "#0A2458",
+      "official": false,
+      "name": "the fin tip's navy: darker than the spikes in the same sun (#001C4E-#00225D), still blue, not black"
+    }
+  },
+  "fuselage": {
+    "base": "white",
+    "windows": "plain",
+    "areas": [
+      {
+        "name": "orange line: thin from under the cockpit, under the windows, widening behind the wing and sweeping up to the crown ahead of the fin",
+        "color": "orange",
+        "smooth": true,
+        "points": [
+          [
+            0.088,
+            -0.017,
+            1
+          ],
+          [
+            0.111,
+            -0.087
+          ],
+          [
+            0.146,
+            -0.178
+          ],
+          [
+            0.17,
+            -0.232
+          ],
+          [
+            0.203,
+            -0.246
+          ],
+          [
+            0.236,
+            -0.236
+          ],
+          [
+            0.27,
+            -0.208
+          ],
+          [
+            0.303,
+            -0.175
+          ],
+          [
+            0.365,
+            -0.101
+          ],
+          [
+            0.398,
+            -0.084
+          ],
+          [
+            0.48,
+            0.09
+          ],
+          [
+            0.564,
+            0.283
+          ],
+          [
+            0.6,
+            0.36
+          ],
+          [
+            0.647,
+            0.487
+          ],
+          [
+            0.696,
+            0.637
+          ],
+          [
+            0.73,
+            0.774
+          ],
+          [
+            0.745,
+            1
+          ],
+          [
+            0.829,
+            1
+          ],
+          [
+            0.813,
+            0.855
+          ],
+          [
+            0.796,
+            0.759
+          ],
+          [
+            0.763,
+            0.616
+          ],
+          [
+            0.713,
+            0.476
+          ],
+          [
+            0.664,
+            0.354
+          ],
+          [
+            0.614,
+            0.246
+          ],
+          [
+            0.564,
+            0.179
+          ],
+          [
+            0.5,
+            0.07
+          ],
+          [
+            0.427,
+            -0.029
+          ],
+          [
+            0.398,
+            -0.094
+          ],
+          [
+            0.365,
+            -0.135
+          ],
+          [
+            0.32,
+            -0.179
+          ],
+          [
+            0.286,
+            -0.216
+          ],
+          [
+            0.253,
+            -0.239
+          ],
+          [
+            0.203,
+            -0.267
+          ],
+          [
+            0.17,
+            -0.247
+          ],
+          [
+            0.146,
+            -0.209
+          ],
+          [
+            0.111,
+            -0.112
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          2
+        ]
+      },
+      {
+        "name": "blue band under the orange: a hairline from a point under the windows ahead of the wing, widening behind it to the fin's base and ending under its trailing edge",
+        "color": "blue",
+        "smooth": true,
+        "points": [
+          [
+            0.239,
+            0.087,
+            1
+          ],
+          [
+            0.305,
+            -0.036
+          ],
+          [
+            0.389,
+            -0.052
+          ],
+          [
+            0.493,
+            -0.04
+          ],
+          [
+            0.61,
+            0.203
+          ],
+          [
+            0.66,
+            0.291
+          ],
+          [
+            0.71,
+            0.375
+          ],
+          [
+            0.759,
+            0.461
+          ],
+          [
+            0.809,
+            0.564
+          ],
+          [
+            0.842,
+            0.659
+          ],
+          [
+            0.87,
+            1
+          ],
+          [
+            0.96,
+            1
+          ],
+          [
+            0.974,
+            0.74,
+            1
+          ],
+          [
+            0.942,
+            0.5
+          ],
+          [
+            0.873,
+            0.48
+          ],
+          [
+            0.843,
+            0.425
+          ],
+          [
+            0.809,
+            0.366
+          ],
+          [
+            0.76,
+            0.309
+          ],
+          [
+            0.71,
+            0.252
+          ],
+          [
+            0.66,
+            0.186
+          ],
+          [
+            0.61,
+            0.131
+          ],
+          [
+            0.493,
+            -0.08
+          ],
+          [
+            0.389,
+            -0.075
+          ],
+          [
+            0.305,
+            -0.044
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          2
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      2
+    ]
+  },
+  "fin": {
+    "base": "white",
+    "mirrored": true,
+    "areas": [
+      {
+        "name": "navy tip, its lower edge rising a little aft: a darker blue than the spikes",
+        "color": "navy",
+        "points": [
+          [
+            -0.05,
+            0.764
+          ],
+          [
+            0.544,
+            0.794
+          ],
+          [
+            1.05,
+            0.806
+          ],
+          [
+            1.05,
+            1.05
+          ],
+          [
+            -0.05,
+            1.05
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "upper orange spike: wide at the leading edge, to a point at the trailing edge",
+        "color": "orange",
+        "points": [
+          [
+            1.0,
+            0.7,
+            1
+          ],
+          [
+            0.46,
+            0.626
+          ],
+          [
+            0.087,
+            0.551
+          ],
+          [
+            -0.08,
+            0.507
+          ],
+          [
+            -0.09,
+            0.637
+          ],
+          [
+            0.4,
+            0.672
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "upper blue spike from the trailing edge to a point mid-chord",
+        "color": "blue",
+        "points": [
+          [
+            0.576,
+            0.507,
+            1
+          ],
+          [
+            0.788,
+            0.518
+          ],
+          [
+            1.05,
+            0.53
+          ],
+          [
+            1.05,
+            0.578
+          ],
+          [
+            0.75,
+            0.537
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "the big orange sweep: a spike from the leading edge, round the white loop, and a spike under it, carried down the fillet onto the fuselage's orange",
+        "color": "orange",
+        "points": [
+          [
+            0.576,
+            0.399
+          ],
+          [
+            0.17,
+            0.307
+          ],
+          [
+            0.138,
+            0.309
+          ],
+          [
+            0.124,
+            0.292
+          ],
+          [
+            -0.02,
+            0.243
+          ],
+          [
+            -0.023,
+            0.226
+          ],
+          [
+            -0.013,
+            0.215
+          ],
+          [
+            0.039,
+            0.174
+          ],
+          [
+            0.082,
+            0.148
+          ],
+          [
+            0.111,
+            0.135
+          ],
+          [
+            0.137,
+            0.127
+          ],
+          [
+            0.554,
+            0.134
+          ],
+          [
+            0.563,
+            0.134
+          ],
+          [
+            0.563,
+            0.13
+          ],
+          [
+            0.024,
+            0.011
+          ],
+          [
+            -0.192,
+            -0.006
+          ],
+          [
+            -0.365,
+            -0.002
+          ],
+          [
+            -0.445,
+            0.052
+          ],
+          [
+            -0.447,
+            0.058
+          ],
+          [
+            -0.342,
+            0.116
+          ],
+          [
+            -0.238,
+            0.142
+          ],
+          [
+            -0.157,
+            0.17
+          ],
+          [
+            -0.099,
+            0.211
+          ],
+          [
+            -0.072,
+            0.205
+          ],
+          [
+            -0.059,
+            0.219
+          ],
+          [
+            -0.055,
+            0.254
+          ],
+          [
+            -0.061,
+            0.321
+          ],
+          [
+            0.288,
+            0.372
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "lower blue: a spike from the trailing edge to a point, round the loop's aft end and along the root",
+        "color": "blue",
+        "points": [
+          [
+            0.995,
+            0.353
+          ],
+          [
+            1.012,
+            0.35
+          ],
+          [
+            1.009,
+            0.134
+          ],
+          [
+            1.001,
+            0.095
+          ],
+          [
+            1.008,
+            0.084
+          ],
+          [
+            0.996,
+            -0.018
+          ],
+          [
+            0.79,
+            -0.016
+          ],
+          [
+            0.737,
+            -0.009
+          ],
+          [
+            0.73,
+            -0.015
+          ],
+          [
+            0.677,
+            -0.015
+          ],
+          [
+            0.642,
+            -0.009
+          ],
+          [
+            0.629,
+            -0.014
+          ],
+          [
+            0.459,
+            -0.013
+          ],
+          [
+            0.447,
+            -0.009
+          ],
+          [
+            0.453,
+            -0.003
+          ],
+          [
+            0.611,
+            0.026
+          ],
+          [
+            0.623,
+            0.025
+          ],
+          [
+            0.927,
+            0.09
+          ],
+          [
+            0.964,
+            0.104
+          ],
+          [
+            0.983,
+            0.119
+          ],
+          [
+            0.986,
+            0.13
+          ],
+          [
+            0.971,
+            0.169
+          ],
+          [
+            0.947,
+            0.206
+          ],
+          [
+            0.926,
+            0.22
+          ],
+          [
+            0.88,
+            0.236
+          ],
+          [
+            0.727,
+            0.243
+          ],
+          [
+            0.383,
+            0.246
+          ],
+          [
+            0.61,
+            0.294
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "confidence": "high",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "wings": {
+    "top": "#B9BEC5",
+    "under": "#C9CDD2"
+  },
+  "winglets": {
+    "outer": "white",
+    "inner": "white",
+    "areas": [
+      {
+        "name": "blue tip",
+        "color": "blue",
+        "points": [
+          [
+            0,
+            0.82
+          ],
+          [
+            1,
+            0.86
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "name": "orange spike",
+        "color": "orange",
+        "points": [
+          [
+            0,
+            0.52
+          ],
+          [
+            1,
+            0.68
+          ],
+          [
+            0,
+            0.66
+          ]
+        ]
+      },
+      {
+        "name": "blue spike",
+        "color": "blue",
+        "points": [
+          [
+            1,
+            0.36
+          ],
+          [
+            0.2,
+            0.44
+          ],
+          [
+            1,
+            0.5
+          ]
+        ]
+      },
+      {
+        "name": "orange spike",
+        "color": "orange",
+        "points": [
+          [
+            0,
+            0.12
+          ],
+          [
+            1,
+            0.28
+          ],
+          [
+            0,
+            0.3
+          ]
+        ]
+      }
+    ],
+    "confidence": "low",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "engines": {
+    "cowling": "white",
+    "inletLip": "lip",
+    "confidence": "medium",
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "logos": [
+    {
+      "mark": "TVS/logo",
+      "place": "fuselage",
+      "at": [
+        0.347,
+        0.368
+      ],
+      "height": 0.47,
+      "colors": [
+        "orange"
+      ],
+      "side": "left",
+      "description": "The orange scribbled 's' (a zigzag of four strokes) standing for the dot in 'smartwings.com'.",
+      "confidence": "high",
+      "sourceRefs": [
+        0
+      ]
+    },
+    {
+      "mark": "TVS/logo",
+      "place": "fuselage",
+      "at": [
+        0.227,
+        0.368
+      ],
+      "height": 0.47,
+      "colors": [
+        "orange"
+      ],
+      "side": "right",
+      "description": "The same between 'smartwings' and 'com' as read from the right.",
+      "confidence": "medium",
+      "sourceRefs": [
+        0
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "text": "smartwings",
+      "place": "fuselage",
+      "at": [
+        0.155,
+        0.24
+      ],
+      "height": 0.26,
+      "length": 0.177,
+      "color": "blue",
+      "side": "left",
+      "style": "Heavy italic lower case, rounded.",
+      "confidence": "high",
+      "sourceRefs": [
+        0
+      ],
+      "type": {
+        "similar": [
+          "Futura Extra Bold Oblique",
+          "Nunito Black Italic"
+        ],
+        "weight": 900,
+        "slantDeg": 12,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.78
+      }
+    },
+    {
+      "text": "com",
+      "place": "fuselage",
+      "at": [
+        0.367,
+        0.24
+      ],
+      "height": 0.26,
+      "length": 0.052,
+      "color": "blue",
+      "side": "left",
+      "style": "Heavy italic lower case, rounded.",
+      "confidence": "high",
+      "sourceRefs": [
+        0
+      ],
+      "type": {
+        "similar": [
+          "Futura Extra Bold Oblique",
+          "Nunito Black Italic"
+        ],
+        "weight": 900,
+        "slantDeg": 12,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.78
+      }
+    },
+    {
+      "text": "smartwings",
+      "place": "fuselage",
+      "at": [
+        0.242,
+        0.24
+      ],
+      "height": 0.26,
+      "length": 0.177,
+      "color": "blue",
+      "side": "right",
+      "style": "Heavy italic lower case, rounded.",
+      "confidence": "high",
+      "sourceRefs": [
+        0
+      ],
+      "type": {
+        "similar": [
+          "Futura Extra Bold Oblique",
+          "Nunito Black Italic"
+        ],
+        "weight": 900,
+        "slantDeg": 12,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.78
+      }
+    },
+    {
+      "text": "com",
+      "place": "fuselage",
+      "at": [
+        0.155,
+        0.24
+      ],
+      "height": 0.26,
+      "length": 0.052,
+      "color": "blue",
+      "side": "right",
+      "style": "Heavy italic lower case, rounded.",
+      "confidence": "high",
+      "sourceRefs": [
+        0
+      ],
+      "type": {
+        "similar": [
+          "Futura Extra Bold Oblique",
+          "Nunito Black Italic"
+        ],
+        "weight": 900,
+        "slantDeg": 12,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "lower",
+        "xHeight": 0.78
+      }
+    }
+  ],
+  "notes": "OK-TSO (c/n 35793), the jet measured, became HA-TSO with Smartwings Hungary in late 2025 and keeps the scheme. On Eurowings wet-leases (2025) it flew with the fuselage sweep covered and Eurowings titles; not drawn. The winglets' art (the fin's spikes again) is only sketched: low. The fin's stripes and loop were traced by color on the left photo and match the right side's mirrored. The title and its mark sit on the same stretch on both sides, read from each side's own aft end. Two blues: the fin tip is a darker navy than the royal blue of the spikes, band and titles, on both sides in the same light.",
+  "history": "Smartwings (Travel Service until 2019) has worn this scheme on its 737s since the 2010s."
+}
