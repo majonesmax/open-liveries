@@ -27,6 +27,12 @@
       "title": "Airbus A320-232 'Bear Force One' (N632JB, cn 2647) (3-11-2024).jpg (CC BY-SA 4.0)",
       "accessed": "2026-11-22",
       "note": "N632JB right side, 2024-03-11, three-quarter front: the same layout, checked by eye (too oblique to fit)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Jet_Blue_Airbus_A320_N632JB_%22Bear_Force_One%22_L1080398_(52329851682).jpg",
+      "title": "Jet Blue Airbus A320 N632JB \"Bear Force One\" L1080398 (52329851682).jpg (CC BY-SA 2.0)",
+      "accessed": "2026-11-27",
+      "note": "N632JB left side, 2022-08-11 (before the centennial badge): the spoked B the same way round as on the right, the B not mirrored."
     }
   ],
   "palette": {
@@ -412,11 +418,12 @@
         "white",
         "gold"
       ],
-      "description": "The Bruins' spoked B filling the fin: a black ring round a white disc with gold spokes, the black B outlined in gold in its middle; the leading edge cuts its upper left and its foot runs onto the fuselage by the stabilizer.",
+      "description": "The Bruins' spoked B filling the fin: a black ring round a cream-white disc, eight gold spokes edged in black, and in the middle the black slab-serif B outlined in gold, its two counters white framed in gold; the leading edge cuts its upper left and its foot runs onto the fuselage by the stabilizer. Not mirrored: the B reads the right way on both sides.",
       "reference": "https://en.wikipedia.org/wiki/Boston_Bruins",
       "confidence": "medium",
       "sourceRefs": [
-        1
+        1,
+        3
       ]
     },
     {
@@ -517,5 +524,5 @@
       }
     }
   ],
-  "notes": "Measured on the right side only (no left-side photo on Commons): N632JB at Boston 2023-10-10, flipped and fitted; the left side is taken to be the same. The gold's edge is a smooth sweep (three or four points would kink it), its white pinstripe about 0.1 m. The ring's foot over the fuselage by the stabilizer is clipped at the fin's root. 'Bear Force One' (small white script under the cockpit), the gold door outlines and the registration aren't drawn. The newest open photo is 2024-03-11; AirlineGeeks (2025-12-22) still counts the Bruins livery among JetBlue's Boston liveries."
+  "notes": "Measured on the right side: N632JB at Boston 2023-10-10, flipped and fitted; a left-side photo (2022-08-11) shows the fin the same. The gold's edge is a smooth sweep (three or four points would kink it), its white pinstripe about 0.1 m. The ring's foot over the fuselage by the stabilizer is clipped at the fin's root. 'Bear Force One' (small white script under the cockpit), the gold door outlines and the registration aren't drawn. The newest open photo is 2024-03-11; AirlineGeeks (2025-12-22) still counts the Bruins livery among JetBlue's Boston liveries."
 }

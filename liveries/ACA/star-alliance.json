@@ -109,7 +109,7 @@
         0.06
       ],
       "height": 0.58,
-      "length": 0.505,
+      "length": 0.485,
       "color": "starBlack",
       "style": "The Star Alliance wordmark: very large, thin, widely spaced geometric capitals along the upper fuselage from just behind the forward door to over the wing's trailing edge, the windows through their lower half.",
       "type": {
@@ -217,6 +217,6 @@
       ]
     }
   ],
-  "notes": "Measured on the left side (2019-03-06), the paint unchanged in the newest open photo (2025-03-17). The wordmark's aft end is read from the right side by eye (the wing hides it on the left), so its length is medium. Not drawn: the registration, the fleet number and the small flag. Air Canada's other Star Alliance jets (767s C-FMWY, C-GAUB, A320s C-FDRH and C-FDRK, A321 C-GITU, Jazz CRJs) have no open photo in it since 2016 at the latest and aren't tagged; C-GHLM is the only one seen in it recently.",
+  "notes": "Measured on the left side (2019-03-06), the paint unchanged in the newest open photo (2025-03-17). The wordmark's aft end is read from the right side (the wing hides it on the left): re-read 2026-11-27 on the side-on Heathrow photo (2019-10-03) against 'AIR CANADA' and the nose, it ends at x 0.60, well ahead of the winglet, not 0.62 as first drawn. Not drawn: the registration, the fleet number and the small flag. Air Canada's other Star Alliance jets (767s C-FMWY, C-GAUB, A320s C-FDRH and C-FDRK, A321 C-GITU, Jazz CRJs) have no open photo in it since 2016 at the latest and aren't tagged; C-GHLM is the only one seen in it recently.",
   "history": "New 2026-11-22. C-GHLM has worn Star Alliance's scheme since at least 2015 (Commons), updated with Air Canada's 2017 title and roundel."
 }

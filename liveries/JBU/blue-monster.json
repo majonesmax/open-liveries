@@ -33,6 +33,12 @@
       "title": "Airbus A320-232 'Blue Monster' (N605JB, cn 2368) (5-15-2023) (CC BY-SA 4.0)",
       "accessed": "2026-11-12",
       "note": "Left side from behind, 2023-05-15: the left fin sock and the aft-fuselage sock, the split's sweep, title and roundel on the left."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N605JB_JFK_Tow_To_Hangar_B6_A320_232_Blue_Monster_Boston_Red_Sox_Small_(52743017763).png",
+      "title": "N605JB JFK Tow To Hangar B6 A320 232 Blue Monster Boston Red Sox Small (52743017763).png (CC BY-SA 2.0)",
+      "accessed": "2026-11-27",
+      "note": "Left side side-on, 2023-03-12: the fin's hanging socks traced from it: the front sock's cuff high on the fin with five white stripes, a white outline and a white line between the two socks, the rear sock running off the leading edge."
     }
   ],
   "from": "2012",
@@ -71,223 +77,238 @@
         "name": "navy lower fuselage, sweeping up to the crown ahead of the fin",
         "color": "navy",
         "points": [
-          [
-            0.02,
-            -0.8
-          ],
-          [
-            0.05,
-            -0.45
-          ],
-          [
-            0.1,
-            -0.32
-          ],
-          [
-            0.45,
-            -0.3
-          ],
-          [
-            0.55,
-            -0.22
-          ],
-          [
-            0.62,
-            -0.05
-          ],
-          [
-            0.68,
-            0.15
-          ],
-          [
-            0.72,
-            0.6
-          ],
-          [
-            0.75,
-            1.0
-          ],
-          [
-            1,
-            1
-          ],
-          [
-            1,
-            -1
-          ],
-          [
-            0.0,
-            -1
-          ]
+          [0.02, -0.8],
+          [0.05, -0.45],
+          [0.1, -0.32],
+          [0.45, -0.3],
+          [0.55, -0.22],
+          [0.62, -0.05],
+          [0.68, 0.15],
+          [0.72, 0.6],
+          [0.75, 1.0],
+          [1, 1],
+          [1, -1],
+          [0.0, -1]
         ],
         "confidence": "medium",
-        "sourceRefs": [
-          2,
-          3,
-          4
-        ],
+        "sourceRefs": [2, 3, 4],
         "smooth": true
       },
       {
         "name": "bright-blue stripe along the split",
         "color": "brightBlue",
         "points": [
-          [
-            0.02,
-            -0.8
-          ],
-          [
-            0.05,
-            -0.45
-          ],
-          [
-            0.1,
-            -0.32
-          ],
-          [
-            0.45,
-            -0.3
-          ],
-          [
-            0.55,
-            -0.22
-          ],
-          [
-            0.62,
-            -0.05
-          ],
-          [
-            0.68,
-            0.15
-          ],
-          [
-            0.72,
-            0.6
-          ],
-          [
-            0.75,
-            1.0
-          ],
-          [
-            0.775,
-            1.0
-          ],
-          [
-            0.745,
-            0.6
-          ],
-          [
-            0.705,
-            0.1
-          ],
-          [
-            0.64,
-            -0.13
-          ],
-          [
-            0.56,
-            -0.3
-          ],
-          [
-            0.45,
-            -0.38
-          ],
-          [
-            0.1,
-            -0.4
-          ],
-          [
-            0.06,
-            -0.53
-          ],
-          [
-            0.03,
-            -0.9
-          ]
+          [0.02, -0.8],
+          [0.05, -0.45],
+          [0.1, -0.32],
+          [0.45, -0.3],
+          [0.55, -0.22],
+          [0.62, -0.05],
+          [0.68, 0.15],
+          [0.72, 0.6],
+          [0.75, 1.0],
+          [0.775, 1.0],
+          [0.745, 0.6],
+          [0.705, 0.1],
+          [0.64, -0.13],
+          [0.56, -0.3],
+          [0.45, -0.38],
+          [0.1, -0.4],
+          [0.06, -0.53],
+          [0.03, -0.9]
         ],
         "confidence": "medium",
-        "sourceRefs": [
-          2,
-          3,
-          4
-        ],
+        "sourceRefs": [2, 3, 4],
         "smooth": true
       },
       {
-        "name": "red sock round the aft door and tail cone",
-        "color": "red",
-        "points": [
-          [
-            0.754,
-            1
-          ],
-          [
-            0.935,
-            1
-          ],
-          [
-            0.935,
-            0.3
-          ],
-          [
-            0.961,
-            -0.2
-          ],
-          [
-            0.935,
-            -0.6
-          ],
-          [
-            0.896,
-            -1
-          ],
-          [
-            0.845,
-            -1
-          ],
-          [
-            0.832,
-            -0.4
-          ],
-          [
-            0.793,
-            -0.1
-          ],
-          [
-            0.754,
-            0.0
-          ]
-        ],
+        "color": "white",
+        "name": "white outline round the front sock's foot, forward round the aft door",
+        "smooth": true,
         "confidence": "medium",
-        "sourceRefs": [
-          3,
-          4
+        "sourceRefs": [2, 3, 5],
+        "points": [
+          [0.83, 1.0],
+          [0.828, 1.0],
+          [0.794, 1.0],
+          [0.777, 0.74],
+          [0.767, 0.412],
+          [0.766, 0.212],
+          [0.772, 0.061],
+          [0.788, -0.004],
+          [0.821, -0.017],
+          [0.85, 0.05],
+          [0.865, 0.105],
+          [0.9, 0.122],
+          [0.898, 1.0]
         ]
       },
       {
-        "name": "white patch in the tail-cone sock",
-        "color": "white",
+        "color": "red",
+        "name": "the front sock's foot, its toe round the aft door",
+        "smooth": true,
+        "confidence": "medium",
+        "sourceRefs": [2, 3, 5],
         "points": [
-          [
-            0.854,
-            0.29
-          ],
-          [
-            0.899,
-            0.29
-          ],
-          [
-            0.899,
-            -0.12
-          ],
-          [
-            0.854,
-            -0.12
-          ]
-        ],
-        "confidence": "low",
-        "sourceRefs": [
-          4
+          [0.835, 1.0],
+          [0.83, 1.0],
+          [0.796, 1.0],
+          [0.781, 0.663],
+          [0.772, 0.399],
+          [0.771, 0.218],
+          [0.776, 0.108],
+          [0.788, 0.055],
+          [0.821, 0.044],
+          [0.849, 0.118],
+          [0.864, 0.178],
+          [0.9, 0.211],
+          [0.898, 1.0]
+        ]
+      },
+      {
+        "color": "white",
+        "name": "white toe of the front sock, over the aft door",
+        "smooth": false,
+        "confidence": "medium",
+        "sourceRefs": [2, 3, 5],
+        "points": [
+          [0.775, 0.438],
+          [0.785, 0.518],
+          [0.802, 0.465],
+          [0.803, 0.212],
+          [0.794, 0.073],
+          [0.779, 0.133],
+          [0.774, 0.254]
+        ]
+      },
+      {
+        "color": "white",
+        "name": "white outline round the rear sock behind the fin, to the tail cone",
+        "smooth": true,
+        "confidence": "medium",
+        "sourceRefs": [2, 3, 5],
+        "points": [
+          [0.893, 1.0],
+          [0.942, 1.0],
+          [0.943, 1.0],
+          [0.972, 1.0],
+          [0.973, -0.003],
+          [0.895, 0.113]
+        ]
+      },
+      {
+        "color": "red",
+        "name": "the rear sock behind the fin",
+        "smooth": true,
+        "confidence": "medium",
+        "sourceRefs": [2, 3, 5],
+        "points": [
+          [0.897, 1.0],
+          [0.94, 1.0],
+          [0.94, 1.0],
+          [0.966, 1.0],
+          [0.967, 0.012],
+          [0.899, 0.108]
+        ]
+      },
+      {
+        "color": "white",
+        "name": "white heel of the rear sock, behind the fin",
+        "smooth": false,
+        "confidence": "medium",
+        "sourceRefs": [2, 3, 5],
+        "points": [
+          [0.937, 0.838],
+          [0.955, 1.0],
+          [0.963, 1.0],
+          [0.963, 0.294],
+          [0.942, 0.253],
+          [0.938, 0.38]
+        ]
+      },
+      {
+        "color": "white",
+        "name": "white line closing the rear sock's leg at the front sock's heel",
+        "smooth": true,
+        "confidence": "medium",
+        "sourceRefs": [2, 3, 5],
+        "points": [
+          [0.893, 1.0],
+          [0.896, 0.618],
+          [0.897, 0.258],
+          [0.9, 0.258],
+          [0.899, 0.653],
+          [0.897, 1.0]
+        ]
+      },
+      {
+        "color": "white",
+        "name": "white heel of the front sock, at the fin's root",
+        "smooth": false,
+        "confidence": "medium",
+        "sourceRefs": [2, 3, 5],
+        "points": [
+          [0.871, 0.753],
+          [0.891, 1.0],
+          [0.894, 0.312],
+          [0.881, 0.268],
+          [0.873, 0.313]
+        ]
+      },
+      {
+        "color": "white",
+        "name": "white outline round the rear sock's foot, down under the stabilizer to the belly",
+        "smooth": true,
+        "confidence": "medium",
+        "sourceRefs": [2, 3, 5],
+        "points": [
+          [0.864, 0.154],
+          [0.969, 0.033],
+          [0.969, -0.124],
+          [0.956, -0.549],
+          [0.938, -1.0],
+          [0.907, -1.0],
+          [0.873, -1.0],
+          [0.847, -0.865],
+          [0.836, -0.701],
+          [0.837, -0.378],
+          [0.844, -0.165],
+          [0.857, -0.015]
+        ]
+      },
+      {
+        "color": "red",
+        "name": "the rear sock's foot under the stabilizer",
+        "smooth": true,
+        "confidence": "medium",
+        "sourceRefs": [2, 3, 5],
+        "points": [
+          [0.865, 0.105],
+          [0.965, -0.058],
+          [0.954, -0.409],
+          [0.936, -0.659],
+          [0.906, -1.0],
+          [0.872, -0.756],
+          [0.848, -0.684],
+          [0.841, -0.622],
+          [0.842, -0.405],
+          [0.848, -0.209],
+          [0.86, -0.067]
+        ]
+      },
+      {
+        "color": "white",
+        "name": "white toe of the rear sock, low behind the aft door",
+        "smooth": false,
+        "confidence": "medium",
+        "sourceRefs": [2, 3, 5],
+        "points": [
+          [0.848, -0.275],
+          [0.862, -0.266],
+          [0.872, -0.368],
+          [0.871, -0.721],
+          [0.856, -0.67],
+          [0.848, -0.581]
         ]
       }
     ],
@@ -296,69 +317,206 @@
     },
     "windows": "plain",
     "confidence": "medium",
-    "sourceRefs": [
-      2,
-      3,
-      4
-    ]
+    "sourceRefs": [2, 3, 4]
   },
   "fin": {
     "base": "navy",
     "areas": [
       {
-        "name": "red sock (leg and foot)",
-        "color": "red",
-        "points": [
-          [
-            0.0,
-            0.78
-          ],
-          [
-            0.12,
-            0.72
-          ],
-          [
-            0.18,
-            0.68
-          ],
-          [
-            0.45,
-            0.55
-          ],
-          [
-            0.68,
-            0.41
-          ],
-          [
-            0.94,
-            0.14
-          ],
-          [
-            1.0,
-            0.05
-          ],
-          [
-            1.0,
-            0.0
-          ],
-          [
-            0.0,
-            0.0
-          ]
-        ],
+        "color": "white",
+        "name": "white outline round both socks: the front sock's leg leaves the leading edge low down, the rear sock's cuff and leg along the trailing side",
+        "smooth": true,
         "confidence": "medium",
-        "sourceRefs": [
-          3,
-          4
+        "sourceRefs": [2, 3, 5],
+        "points": [
+          [-0.238, 0.485],
+          [-0.26, 0.772],
+          [-0.085, 0.757],
+          [0.004, 0.767],
+          [0.144, 0.738],
+          [0.271, 0.697],
+          [0.336, 0.68],
+          [0.47, 0.604],
+          [0.541, 0.562],
+          [0.652, 0.525],
+          [0.816, 0.408],
+          [0.934, 0.282],
+          [1.002, 0.177],
+          [1.043, 0.122],
+          [1.112, -0.09],
+          [-0.231, -0.228],
+          [-0.213, -0.206],
+          [-0.207, -0.121],
+          [-0.14, -0.024],
+          [-0.043, 0.026, 1],
+          [0.153, 0.07],
+          [0.17, 0.12],
+          [0.141, 0.184],
+          [0.062, 0.26],
+          [-0.008, 0.341]
+        ]
+      },
+      {
+        "color": "red",
+        "name": "red socks inside the outline; the front sock's leg runs into the leading edge above the outline",
+        "smooth": true,
+        "confidence": "medium",
+        "sourceRefs": [2, 3, 5],
+        "points": [
+          [-0.204, 0.464],
+          [-0.207, 0.738],
+          [-0.007, 0.719],
+          [0.082, 0.725],
+          [0.177, 0.704],
+          [0.271, 0.675],
+          [0.41, 0.599],
+          [0.5, 0.545],
+          [0.607, 0.508],
+          [0.767, 0.394],
+          [0.884, 0.272],
+          [0.948, 0.175],
+          [0.979, 0.12],
+          [1.078, 0.101],
+          [1.117, -0.089],
+          [-0.181, -0.201],
+          [-0.177, -0.124],
+          [-0.11, -0.04],
+          [-0.009, 0.003, 1],
+          [0.187, 0.044],
+          [0.218, 0.099],
+          [0.182, 0.176],
+          [0.102, 0.257],
+          [0.025, 0.351],
+          [-0.092, 0.388]
+        ]
+      },
+      {
+        "color": "white",
+        "name": "white line along the rear sock's cuff and leg, between the two socks, down to the front sock's heel",
+        "smooth": true,
+        "confidence": "medium",
+        "sourceRefs": [2, 3, 5],
+        "points": [
+          [-0.071, 0.725],
+          [-0.069, 0.677],
+          [-0.059, 0.625],
+          [-0.043, 0.577],
+          [-0.014, 0.537],
+          [0.096, 0.467],
+          [0.222, 0.387],
+          [0.355, 0.292],
+          [0.476, 0.195],
+          [0.576, 0.101],
+          [0.648, 0.017],
+          [0.681, -0.064],
+          [0.704, -0.059],
+          [0.669, 0.021],
+          [0.598, 0.106],
+          [0.496, 0.204],
+          [0.376, 0.301],
+          [0.248, 0.392],
+          [0.124, 0.472],
+          [0.021, 0.537],
+          [0.006, 0.565],
+          [-0.008, 0.613],
+          [-0.014, 0.665],
+          [-0.013, 0.712]
+        ]
+      },
+      {
+        "color": "white",
+        "name": "white stripe 1 of 6 on the rear sock's cuff",
+        "smooth": true,
+        "confidence": "medium",
+        "sourceRefs": [2, 3, 5],
+        "points": [
+          [0.024, 0.568],
+          [0.151, 0.505],
+          [0.26, 0.444],
+          [0.274, 0.448],
+          [0.163, 0.511],
+          [0.04, 0.572]
+        ]
+      },
+      {
+        "color": "white",
+        "name": "white stripe 2 of 6 on the rear sock's cuff",
+        "smooth": true,
+        "confidence": "medium",
+        "sourceRefs": [2, 3, 5],
+        "points": [
+          [0.068, 0.581],
+          [0.193, 0.518],
+          [0.3, 0.455],
+          [0.316, 0.462],
+          [0.206, 0.525],
+          [0.08, 0.588]
+        ]
+      },
+      {
+        "color": "white",
+        "name": "white stripe 3 of 6 on the rear sock's cuff",
+        "smooth": true,
+        "confidence": "medium",
+        "sourceRefs": [2, 3, 5],
+        "points": [
+          [0.109, 0.597],
+          [0.233, 0.532],
+          [0.342, 0.469],
+          [0.361, 0.473],
+          [0.25, 0.539],
+          [0.126, 0.602]
+        ]
+      },
+      {
+        "color": "white",
+        "name": "white stripe 4 of 6 on the rear sock's cuff",
+        "smooth": true,
+        "confidence": "medium",
+        "sourceRefs": [2, 3, 5],
+        "points": [
+          [0.152, 0.613],
+          [0.278, 0.545],
+          [0.384, 0.48],
+          [0.403, 0.485],
+          [0.295, 0.552],
+          [0.169, 0.617]
+        ]
+      },
+      {
+        "color": "white",
+        "name": "white stripe 5 of 6 on the rear sock's cuff",
+        "smooth": true,
+        "confidence": "medium",
+        "sourceRefs": [2, 3, 5],
+        "points": [
+          [0.2, 0.626],
+          [0.324, 0.559],
+          [0.429, 0.494],
+          [0.448, 0.499],
+          [0.342, 0.566],
+          [0.217, 0.631]
+        ]
+      },
+      {
+        "color": "white",
+        "name": "white stripe 6 of 6 on the rear sock's cuff",
+        "smooth": true,
+        "confidence": "medium",
+        "sourceRefs": [2, 3, 5],
+        "points": [
+          [0.246, 0.642],
+          [0.371, 0.573],
+          [0.476, 0.505],
+          [0.493, 0.51],
+          [0.386, 0.58],
+          [0.264, 0.647]
         ]
       }
     ],
     "mirrored": true,
     "confidence": "medium",
-    "sourceRefs": [
-      3,
-      4
-    ]
+    "sourceRefs": [3, 4]
   },
   "wings": {
     "top": "wingGray",
@@ -368,119 +526,59 @@
     "outer": "red",
     "inner": "red",
     "confidence": "medium",
-    "sourceRefs": [
-      2,
-      3
-    ]
+    "sourceRefs": [2, 3]
   },
   "engines": {
     "cowling": "navy",
     "inletLip": "metal",
     "confidence": "medium",
-    "sourceRefs": [
-      2,
-      3,
-      4
-    ]
+    "sourceRefs": [2, 3, 4]
   },
   "logos": [
     {
-      "mark": "JBU/red-sox-sock",
-      "place": "fin",
-      "at": [
-        0.45,
-        0.4
-      ],
-      "height": 0.8,
-      "colors": [
-        "red",
-        "white"
-      ],
-      "description": "The Red Sox hanging-socks mark, one sock: a red sock outlined in white, standing with its cuff near the fin's top (white vertical stripes across the cuff) and its foot pointing forward along the root; navy shows above it and along the upper trailing edge.",
-      "confidence": "medium",
-      "sourceRefs": [
-        3,
-        4
-      ]
-    },
-    {
       "mark": "JBU/red-sox-roundel",
       "place": "fuselage",
-      "at": [
-        0.375,
-        0.25
-      ],
-      "height": 0.55,
-      "colors": [
-        "white",
-        "red"
-      ],
-      "description": "The 'BOSTON RED SOX' round logo: a white disc ringed in red with the name in red round it and the hanging socks in the middle, just aft of the 'jetBlue' title over the windows.",
+      "at": [0.393, 0.2],
+      "height": 0.8,
+      "colors": ["white", "red"],
+      "description": "The 'BOSTON RED SOX' round logo just aft of the 'jetBlue' title, on the windows: a white disc ringed in red, 'BOSTON' over the top and 'RED SOX' under it in red serif capitals, the hanging socks in a thin navy ring in the middle.",
       "confidence": "medium",
-      "sourceRefs": [
-        3,
-        4
-      ]
+      "sourceRefs": [3, 4]
     },
     {
       "mark": "JBU/red-sox-sock",
       "place": "fuselage",
-      "at": [
-        0.2,
-        -0.6
-      ],
+      "at": [0.2, -0.6],
       "height": 0.2,
-      "colors": [
-        "red",
-        "white"
-      ],
+      "colors": ["red", "white"],
       "description": "Small red sock logos low on the navy: one ahead of the wing, one behind it.",
       "side": "right",
       "confidence": "medium",
-      "sourceRefs": [
-        2
-      ]
+      "sourceRefs": [2]
     },
     {
       "mark": "JBU/red-sox-b",
       "place": "winglets",
-      "at": [
-        0.5,
-        0.5
-      ],
+      "at": [0.5, 0.5],
       "height": 0.4,
-      "colors": [
-        "white"
-      ],
+      "colors": ["white"],
       "description": "The Red Sox gothic 'B' in white on each red wingtip fence.",
       "confidence": "low",
-      "sourceRefs": [
-        2
-      ]
+      "sourceRefs": [2]
     }
   ],
   "titles": [
     {
       "text": "jetBlue",
       "place": "fuselage",
-      "at": [
-        0.174,
-        0.0
-      ],
+      "at": [0.174, 0.0],
       "height": 0.76,
       "color": "navy",
       "style": "The jetBlue logotype: heavy rounded sans, lower-case 'jet' and capital B, over the forward windows just aft of the forward door.",
       "confidence": "medium",
-      "sourceRefs": [
-        2,
-        3,
-        4
-      ],
+      "sourceRefs": [2, 3, 4],
       "type": {
-        "similar": [
-          "Gotham Rounded Bold",
-          "VAG Rounded Bold"
-        ],
+        "similar": ["Gotham Rounded Bold", "VAG Rounded Bold"],
         "weight": 700,
         "slantDeg": 0,
         "width": "normal",
@@ -493,25 +591,16 @@
     {
       "text": "BLUE MONSTER",
       "place": "fuselage",
-      "at": [
-        0.235,
-        -0.75
-      ],
+      "at": [0.235, -0.75],
       "height": 0.35,
       "color": "red",
       "style": "Red varsity capitals with bracketed serifs (the Red Sox lettering style), thinly outlined, widely spaced along the navy lower side from ahead of the wing to behind it. Seen on the right side; the left side's lower fuselage isn't visible in any photo used.",
       "side": "right",
       "confidence": "medium",
-      "sourceRefs": [
-        2,
-        3
-      ],
+      "sourceRefs": [2, 3],
       "length": 0.3,
       "type": {
-        "similar": [
-          "Clarendon Bold",
-          "Rockwell Extra Bold"
-        ],
+        "similar": ["Clarendon Bold", "Rockwell Extra Bold"],
         "weight": 800,
         "slantDeg": 0,
         "width": "extended",
@@ -522,22 +611,14 @@
     {
       "text": "Blue Monster",
       "place": "fuselage",
-      "at": [
-        0.06,
-        -0.15
-      ],
+      "at": [0.06, -0.15],
       "height": 0.08,
       "color": "navy",
       "style": "Small italic sans below and behind the cockpit windows (the aircraft's name, as on all JetBlue aircraft).",
       "confidence": "medium",
-      "sourceRefs": [
-        2,
-        3
-      ],
+      "sourceRefs": [2, 3],
       "type": {
-        "similar": [
-          "Gotham Medium Italic"
-        ],
+        "similar": ["Gotham Medium Italic"],
         "weight": 500,
         "slantDeg": 10,
         "width": "normal",
@@ -550,24 +631,14 @@
     {
       "text": "jetblue.com",
       "place": "engines",
-      "at": [
-        0.43,
-        0.0
-      ],
+      "at": [0.43, 0.0],
       "height": 0.25,
       "color": "white",
       "style": "Bold rounded lower case along the cowling's side.",
       "confidence": "medium",
-      "sourceRefs": [
-        2,
-        3,
-        4
-      ],
+      "sourceRefs": [2, 3, 4],
       "type": {
-        "similar": [
-          "Gotham Rounded Bold",
-          "VAG Rounded Bold"
-        ],
+        "similar": ["Gotham Rounded Bold", "VAG Rounded Bold"],
         "weight": 700,
         "slantDeg": 0,
         "width": "normal",
@@ -578,5 +649,5 @@
       "length": 0.36
     }
   ],
-  "notes": "Body split drawn from right-side photos (2023-07, 2025-03) and the left from behind (2023-05); the split's top end, where it meets the crown, is hidden by the wing in most shots (medium-low). 'BLUE MONSTER' and the small socks are drawn for the right side only: no photo used shows the lower left fuselage. Re-checked 2026-11-15: 'jetBlue' placed as on the standard (measured in metres on the A321neo N2017J and checked on A320s: x 0.174-0.356 of an A320, cap 1.57 m, lowercase 0.76 of the capitals); 'jetblue.com' on the A320's nacelle x 0.43-0.79 (read off N615JB and N627JB); the name under the cockpit given its length. The roundel moved aft to x 0.375 to sit just behind the title's end, as on the photos."
+  "notes": "Body split drawn from right-side photos (2023-07, 2025-03) and the left from behind (2023-05); the split's top end, where it meets the crown, is hidden by the wing in most shots (medium-low). 'BLUE MONSTER' and the small socks are drawn for the right side only: no photo used shows the lower left fuselage. Re-checked 2026-11-15: 'jetBlue' placed as on the standard (measured in metres on the A321neo N2017J and checked on A320s: x 0.174-0.356 of an A320, cap 1.57 m, lowercase 0.76 of the capitals); 'jetblue.com' on the A320's nacelle x 0.43-0.79 (read off N615JB and N627JB); the name under the cockpit given its length. The roundel moved aft to x 0.375 to sit just behind the title's end, as on the photos. 2026-11-27: the fin's red area redrawn as the socks' outline (was a block under a diagonal) and the sock mark placed over it from the 2023-03-12 left-side photo; the roundel made bigger (about the title's cap height) and centered on the windows, clear of the title's end. 2026-11-28: the socks' feet on the aft fuselage redrawn from the 2023-03-12 left-side photo (fitted to shapes/A320.json with tools/photo_trace.py): the front sock's foot round the top of the aft door with its white heel and toe, the rear sock's foot below the stabilizer down to the belly with its white toe, both in a white outline, the white line between the socks carried down from the fin. The right side (2025-03 from below) shows the same. Later the same day the fin's socks were redrawn as fin areas traced on the same fitted photo instead of a placed mark, so the fin and the body meet: the rear sock's leg along the leading edge in its white outline, the front sock's cuff with six white stripes and its leg in front, the white line between them carried down to the front sock's heel on the body. 2026-11-28: only the rear sock continues onto the body (round the aft door and down under the stabilizer to the belly); the front sock, with the striped cuff, ends on the fin, its foot along the root with a white heel and toe and a white line closing it."
 }

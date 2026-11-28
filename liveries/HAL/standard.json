@@ -7,7 +7,7 @@
   "from": "2017-01",
   "confidence": "medium",
   "drawnOn": "A21N",
-  "description": "White fuselage with a silver-gray lei of flowers across the middle; behind the wing the aft fuselage turns purple, its front a fringe of magenta flowers, wrapping the tail cone; 'HAWAIIAN' in widely spaced purple capitals over the forward windows; the fin purple shading to magenta at the tip, with Pualani (a woman's face in profile, a coral hibiscus in her dark hair) in white, facing forward.",
+  "description": "White fuselage with a silver-gray lei of flowers across the middle; behind the wing the aft fuselage turns purple, its front a fringe of magenta flowers, wrapping the tail cone; 'HAWAIIAN' in widely spaced purple capitals over the forward windows; the fin purple shading to magenta at the tip, with Pualani (a woman's face in profile, a red hibiscus in her dark hair) in white, facing forward.",
   "sources": [
     {
       "url": "https://en.wikipedia.org/wiki/Hawaiian_Airlines",
@@ -44,6 +44,18 @@
       "title": "Boeing 717, N483HA, Hawaiian Airlines, 2019-03-23 (CC BY-SA 2.0, Bill Abbott)",
       "accessed": "2026-11-15",
       "note": "717-200, left side, level, 2019-03-23, flat light: no lei visible on the body; the purple with lilac flowers starts at the engine, no magenta fringe on the body."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Hawaiian_Airlines_Airbus_A321neo_N226HA.jpg",
+      "title": "Hawaiian Airlines Airbus A321neo N226HA.jpg (public domain)",
+      "accessed": "2026-11-27",
+      "note": "N226HA (A321neo) left side, level, 2020-08-07: Pualani traced and placed on the fin. Right-side photos (N228HA 2019-12-31, N382HA 2025-08-15) show her mirrored, facing forward."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N230HA_Hawaiian_20210628_2.jpg",
+      "title": "N230HA Hawaiian 20210628 2.jpg (CC BY-SA 4.0, Ganbaruby)",
+      "accessed": "2026-11-27",
+      "note": "N230HA (A321neo) left side in flight in sun, 2021-06-28: the fin's colors sampled from the root to the tip (deep purple #370C58 at the root, #7A1661 at mid height, wine-magenta #98034C near the tip). N223HA (2023-03-09) shows the same level fade."
     }
   ],
   "palette": {
@@ -52,7 +64,7 @@
       "official": false
     },
     "purple": {
-      "hex": "#46276F",
+      "hex": "#3A0D5A",
       "official": false,
       "name": "Hawaiian purple"
     },
@@ -61,10 +73,25 @@
       "official": false,
       "name": "magenta (flowers, fin tip)"
     },
-    "coral": {
-      "hex": "#F05A4F",
+    "finPlum": {
+      "hex": "#7B1761",
       "official": false,
-      "name": "hibiscus coral"
+      "name": "fin plum (middle of the fin's fade)"
+    },
+    "finWine": {
+      "hex": "#9A054E",
+      "official": false,
+      "name": "fin wine-magenta (tip)"
+    },
+    "coral": {
+      "hex": "#E0262E",
+      "official": false,
+      "name": "hibiscus red"
+    },
+    "hair": {
+      "hex": "#2B1A4A",
+      "official": false,
+      "name": "Pualani's hair (deep indigo)"
     },
     "gray": {
       "hex": "#DEDCD9",
@@ -241,16 +268,16 @@
     "base": "purple",
     "areas": [
       {
-        "name": "magenta toward the tip (a gradient)",
-        "color": "magenta",
+        "name": "the fin's fade: deep purple at the root to wine-magenta toward the tip, level across the fin (measured on N230HA in sun)",
+        "color": "finPlum",
         "points": [
           [
             0,
-            0.8
+            0
           ],
           [
             1,
-            0.82
+            0
           ],
           [
             1,
@@ -261,10 +288,43 @@
             1
           ]
         ],
+        "gradient": {
+          "from": [
+            0.5,
+            0
+          ],
+          "to": [
+            0.5,
+            0.85
+          ],
+          "stops": [
+            [
+              0,
+              "purple"
+            ],
+            [
+              0.25,
+              "#521862"
+            ],
+            [
+              0.5,
+              "#7B1761"
+            ],
+            [
+              0.7,
+              "#8F1259"
+            ],
+            [
+              1,
+              "finWine"
+            ]
+          ]
+        },
         "confidence": "medium",
         "sourceRefs": [
           1,
-          2
+          2,
+          7
         ]
       }
     ],
@@ -302,21 +362,22 @@
       "mark": "HAL/pualani",
       "place": "fin",
       "at": [
-        0.431,
-        0.564
+        0.78,
+        0.31
       ],
-      "height": 0.75,
+      "height": 0.962,
       "colors": [
         "white",
         "coral",
-        "purple"
+        "hair"
       ],
-      "description": "Pualani ('flower of the sky'): a Hawaiian woman's face in profile, white, facing forward, her dark-purple hair framing it with a coral hibiscus behind her ear, filling the aft fin.",
-      "reference": "https://commons.wikimedia.org/wiki/File:Hawaiian_Airlines_logo_2017.svg",
+      "description": "Pualani ('flower of the sky'): a Hawaiian woman's face and neck in profile in white, facing forward and a little up with a calm slight smile. Her deep indigo hair is drawn back from the forehead and falls down her back off the trailing edge. A red hibiscus with a dark heart sits behind her ear and runs off the trailing edge too. Mirrored on the right side.",
+      "reference": "https://commons.wikimedia.org/wiki/File:Hawaiian_Airlines_Airbus_A321neo_N226HA.jpg",
       "confidence": "high",
       "sourceRefs": [
         1,
-        2
+        2,
+        6
       ]
     }
   ],
@@ -597,6 +658,28 @@
             "strokes": "uniform",
             "case": "upper"
           }
+        }
+      ],
+      "logos": [
+        {
+          "mark": "HAL/pualani",
+          "place": "fin",
+          "at": [
+            0.76,
+            0.37
+          ],
+          "height": 0.95,
+          "colors": [
+            "white",
+            "coral",
+            "hair"
+          ],
+          "description": "Pualani as on the 717 (N483HA, 2019-03-23): her head just under the tailplane and the whole flower on the fin, her neck running down to the root.",
+          "reference": "https://commons.wikimedia.org/wiki/File:Boeing_717,_N483HA,_Hawaiian_Airlines.jpg",
+          "confidence": "medium",
+          "sourceRefs": [
+            5
+          ]
         }
       ]
     }

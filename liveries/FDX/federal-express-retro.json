@@ -645,6 +645,32 @@
           0,
           1
         ]
+      },
+      {
+        "name": "the cheatline's break behind 'EXPRESS', from the forward door to the last S",
+        "color": "white",
+        "points": [
+          [
+            0.1107,
+            -0.015
+          ],
+          [
+            0.2748,
+            -0.005
+          ],
+          [
+            0.2748,
+            -0.125
+          ],
+          [
+            0.1107,
+            -0.125
+          ]
+        ],
+        "confidence": "high",
+        "sourceRefs": [
+          0
+        ]
       }
     ],
     "windows": "hidden",
@@ -814,15 +840,16 @@
   "titles": [
     {
       "text": "FEDERAL",
+      "mark": "FDX/federal-1973",
       "place": "fuselage",
       "at": [
-        0.12,
-        0.012
+        0.1184,
+        -0.013
       ],
-      "height": 0.28,
-      "length": 0.178,
+      "height": 0.275,
+      "length": 0.1773,
       "color": "white",
-      "style": "Heavy extended capitals in white on the purple, the A's crossbar a slash; the 1970s Federal Express logotype.",
+      "style": "The 1970s Federal Express logotype: heavy extended capitals with rounded corners, the A an open slash with no crossbar, white on the purple with their feet on its lower edge.",
       "confidence": "medium",
       "sourceRefs": [
         0
@@ -841,15 +868,16 @@
     },
     {
       "text": "EXPRESS",
+      "mark": "FDX/express-1973",
       "place": "fuselage",
       "at": [
-        0.117,
-        -0.323
+        0.1147,
+        -0.3255
       ],
-      "height": 0.28,
-      "length": 0.181,
+      "height": 0.2831,
+      "length": 0.1776,
       "color": "red",
-      "style": "The same heavy extended capitals in red-orange under 'FEDERAL', the two S's drawn as slanted strokes.",
+      "style": "The same logotype in red-orange: its top level with the cheatline's, the two S's slanted strokes, the last one's top running aft into the cheatline, which breaks for the word from the forward door.",
       "confidence": "medium",
       "sourceRefs": [
         0
@@ -888,5 +916,5 @@
       ]
     }
   ],
-  "notes": "Measured on N884FD's left side at Beijing, 2026-10-30 (side-on, warm evening light: the colors are judged, not sampled). The stripe's long run is drawn straight in meters on the 777F (tools/edge_straightness.py straight_edge, fitted to four probes; it rises about 0.6 m nose to tail on the photo, kept). A thin white line separates the purple from the stripe; it's the base showing between them. The right side and the belly from below aren't measured; the second photo shows a white belly. The fin is taken as mirrored (as the paint sweeps) without a right-side photo. When it was painted isn't found: still in FedEx colors at Taipei 2026-01-11, in these by 2026-10-30. It recalls the original Federal Express scheme (purple, white and red-orange, 1973-1994); FedEx's own announcement wasn't found. The titles sit on the stripe as on the photo: FEDERAL's foot on the purple's lower edge, EXPRESS's top level with the stripe's top, a white line between them (they had run together: FEDERAL a tenth of a cap height too high, EXPRESS a fifth)."
+  "notes": "Measured on N884FD's left side at Beijing, 2026-10-30 (side-on, warm evening light: the colors are judged, not sampled). The stripe's long run is drawn straight in meters on the 777F (tools/edge_straightness.py straight_edge, fitted to four probes; it rises about 0.6 m nose to tail on the photo, kept). A thin white line separates the purple from the stripe; it's the base showing between them. The right side and the belly from below aren't measured; the second photo shows a white belly. The fin is taken as mirrored (as the paint sweeps) without a right-side photo. When it was painted isn't found: still in FedEx colors at Taipei 2026-01-11, in these by 2026-10-30. It recalls the original Federal Express scheme (purple, white and red-orange, 1973-1994); FedEx's own announcement wasn't found. The titles sit on the stripe as on the photo: FEDERAL's foot on the purple's lower edge, EXPRESS's top level with the stripe's top, a white line between them (they had run together: FEDERAL a tenth of a cap height too high, EXPRESS a fifth). 2026-11-28: 'FEDERAL' and 'EXPRESS' are the 1970s logotype, drawn as marks (FDX/federal-1973, FDX/express-1973) traced from the side-on photo, rectified on the 777F (tools/photo_trace.py, within about 20 px) and set relative to the paint edges: FEDERAL x 0.118-0.296, EXPRESS x 0.115-0.292. The cheatline isn't painted under the word: it stops at the forward door's aft edge (x 0.111) and starts again from the last S's top (x 0.275), drawn as a white break over it."
 }

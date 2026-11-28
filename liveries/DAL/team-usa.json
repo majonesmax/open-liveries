@@ -20,19 +20,25 @@
       "url": "https://commons.wikimedia.org/wiki/File:Delta_Air_Lines_Airbus_A330-900_N411DX_Team_USA_at_Boston_June_2025.jpg",
       "title": "Delta Air Lines Airbus A330-900 N411DX Team USA at Boston June 2025.jpg (CC BY 4.0)",
       "accessed": "2026-11-22",
-      "note": "N411DX left side at Boston, 2025-06-16 (the newest open photo): the same scheme, still flying."
+      "note": "N411DX right side at Boston, 2025-06-16 (the newest open photo): the same scheme, still flying."
     },
     {
       "url": "https://commons.wikimedia.org/wiki/File:Airbus_A330-941N_(N411DX,_cn_1991)_(3-11-2024).jpg",
       "title": "Airbus A330-941N (N411DX, cn 1991) (3-11-2024).jpg (CC BY-SA 4.0)",
       "accessed": "2026-11-22",
-      "note": "N411DX left side, 2024-03-11: the same."
+      "note": "N411DX right side, 2024-03-11: the same; shows the light-blue field behind the title from ahead."
     },
     {
       "url": "https://commons.wikimedia.org/wiki/Category:N411DX_(aircraft)",
       "title": "N411DX on Commons",
       "accessed": "2026-11-22",
       "note": "Photos 2022-2025 in the Team USA scheme, both sides."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N411DX_JFK_Take_Off_Roll_22R_DL_A330_941_Team_USA_Beacon_Small_(53259833480).png",
+      "title": "N411DX JFK Take Off Roll 22R DL A330 941 Team USA Beacon Small (53259833480).png (CC BY-SA 2.0, Mark Bess)",
+      "accessed": "2026-11-27",
+      "note": "N411DX right side on its take-off roll at JFK, 2023-10-15, side-on in low sun: the light-blue field behind 'TEAM USA' read off it against the doors and windows."
     }
   ],
   "palette": {
@@ -93,7 +99,7 @@
     "base": "white",
     "areas": [
       {
-        "name": "sky light-blue sweep, from the belly behind the nose up over the wing to the crown",
+        "name": "sky light-blue field behind 'TEAM USA', from the belly behind the nose up to the crown over the title",
         "color": "lightBlue",
         "smooth": true,
         "points": [
@@ -110,48 +116,44 @@
             -0.244
           ],
           [
-            0.332,
-            0.044
+            0.31,
+            -0.02
           ],
           [
-            0.407,
-            0.297
+            0.335,
+            0.25
           ],
           [
-            0.495,
-            0.485
+            0.342,
+            0.6
           ],
           [
-            0.596,
-            0.669
-          ],
-          [
-            0.685,
-            0.804
-          ],
-          [
-            0.799,
-            0.919
-          ],
-          [
-            0.84,
+            0.346,
             1.0
           ],
           [
-            0.82,
+            0.655,
             1.0
           ],
           [
-            0.72,
-            0.62
+            0.645,
+            0.6
           ],
           [
-            0.6,
-            0.38
+            0.635,
+            0.2
+          ],
+          [
+            0.625,
+            -0.2
+          ],
+          [
+            0.55,
+            -0.1
           ],
           [
             0.5,
-            0.17
+            0.0
           ],
           [
             0.4,
@@ -172,6 +174,7 @@
         ],
         "confidence": "low",
         "sourceRefs": [
+          4,
           1,
           2
         ]
@@ -645,5 +648,5 @@
       }
     }
   ],
-  "notes": "Measured on N411DX's left side (Haneda 2023-08-27, from above; checked on Boston 2025-06-16 and 2024-03-11). The sweeps' edges are read off by hand and drawn smooth through a few points each; the wing and engine hide their middles, so between x 0.4 and 0.55 low on the body they're estimated (low). The light blue is a gradient on the aircraft, lighter toward the crown; drawn flat. 'TEAM USA' is the scheme's lettering, not a typeface: its stand-in is close in weight and slant only. The fin is Delta's standard (copied from DAL/standard). The right side isn't measured; the photos show it mirrored. The Olympic rings are the IOC's: a renderer may leave them out (no simplified mark proposed). Fin re-measured 2026-11-26 on N572DT (A321neo, left, 2025-02-01) fitted to shapes/A21N.json and read in fin space: the upper facet reaches the leading edge (it had stopped short), the shaded facet meets the root at x 0.53-0.715 and the lower-right one at 0.8 (both had been drawn 0.06-0.09 aft), the navy Y's stem between them (the edges carried on a little past the root, as the paint runs onto the fairing). The fin's widget logo entry is gone: the areas are the widget, cropped by the fin's edges, and a widget mark centred on the fin drew a second, wrong triangle over them."
+  "notes": "Measured on N411DX's left side (Haneda 2023-08-27, from above; checked on the right side at Boston 2025-06-16 and 2024-03-11). The sweeps' edges are read off by hand and drawn smooth through a few points each; the wing and engine hide their middles, so between x 0.4 and 0.55 low on the body they're estimated (low). The light blue is a gradient on the aircraft, lighter toward the crown; drawn flat. 'TEAM USA' is the scheme's lettering, not a typeface: its stand-in is close in weight and slant only. The fin is Delta's standard (copied from DAL/standard). The right side isn't measured; the photos show it mirrored. The Olympic rings are the IOC's: a renderer may leave them out (no simplified mark proposed). Fin re-measured 2026-11-26 on N572DT (A321neo, left, 2025-02-01) fitted to shapes/A21N.json and read in fin space: the upper facet reaches the leading edge (it had stopped short), the shaded facet meets the root at x 0.53-0.715 and the lower-right one at 0.8 (both had been drawn 0.06-0.09 aft), the navy Y's stem between them (the edges carried on a little past the root, as the paint runs onto the fairing). The fin's widget logo entry is gone: the areas are the widget, cropped by the fin's edges, and a widget mark centred on the fin drew a second, wrong triangle over them. 2026-11-27, on the right side at JFK (2023-10-15, side-on), 2024-03-11 and Boston (2025-06-16): the light blue is a broad field, not a band under the title. Its forward edge rises steeply from the mid-blue to the crown right at the forward end of 'TEAM USA' (x 0.34), it fills the upper fuselage behind the whole title, and its aft edge comes down from the crown at x 0.655 to the red, so the title stands on light blue, not white. Read by eye against the doors and windows (low). The paler streaks through it (the gradient) aren't drawn; it's drawn flat. Under the wing the field's lower edge isn't seen."
 }

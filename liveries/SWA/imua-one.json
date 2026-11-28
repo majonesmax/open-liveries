@@ -34,6 +34,12 @@
       "title": "Southwest Airlines Boeing 737-8 MAX N8710M \"Imua One\" on final approach to Santa Barbara.jpg (CC BY 2.0)",
       "accessed": "2026-11-12",
       "note": "N8710M from the right, 2023-10-19: the right side carries the same sequence."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Imua_One_Departs_Santa_Barbara_(53981372594).jpg",
+      "title": "Imua One Departs Santa Barbara (53981372594).jpg (CC BY 2.0)",
+      "accessed": "2026-11-28",
+      "note": "N8710M from the right, climbing out, 2024-09-08: the whole right side nearly side-on; the right pattern traced from this one."
     }
   ],
   "palette": {
@@ -72,11 +78,11 @@
       "official": false
     },
     "imuaPurple": {
-      "hex": "#A85BB0",
+      "hex": "#B852B0",
       "official": false
     },
     "imuaCoral": {
-      "hex": "#EE5468",
+      "hex": "#EE4A5E",
       "official": false
     },
     "imuaOrange": {
@@ -97,54 +103,74 @@
     "base": "imuaBlue",
     "areas": [
       {
-        "name": "sunrise gradient, purple-magenta from here aft",
-        "color": "imuaPurple",
-        "points": [
-          [
-            0.17,
-            1
-          ],
-          [
-            1,
-            1
-          ],
-          [
-            1,
-            -1
-          ],
-          [
-            0.2,
-            -1
-          ]
-        ],
-        "confidence": "medium",
-        "sourceRefs": [
-          2,
-          3,
-          4
-        ]
-      },
-      {
-        "name": "sunrise gradient, coral pink from here aft",
+        "name": "the sunrise, one smooth fade from periwinkle at the nose through a short purple-magenta into a long coral red over the middle (x 0.37 to 0.56), then orange to yellow at the tail",
         "color": "imuaCoral",
         "points": [
           [
-            0.27,
+            0.15,
             1
           ],
           [
-            1,
+            0.72,
             1
           ],
           [
-            1,
+            0.72,
             -1
           ],
           [
-            0.3,
+            0.15,
             -1
           ]
         ],
+        "gradient": {
+          "from": [
+            0.15,
+            0
+          ],
+          "to": [
+            0.75,
+            0
+          ],
+          "stops": [
+            [
+              0,
+              "imuaBlue"
+            ],
+            [
+              0.18,
+              "imuaBlue"
+            ],
+            [
+              0.27,
+              "imuaPurple"
+            ],
+            [
+              0.37,
+              "imuaCoral"
+            ],
+            [
+              0.68,
+              "imuaCoral"
+            ],
+            [
+              0.8,
+              "imuaOrange"
+            ],
+            [
+              0.87,
+              "imuaGold"
+            ],
+            [
+              0.95,
+              "imuaYellow"
+            ],
+            [
+              1,
+              "imuaYellow"
+            ]
+          ]
+        },
         "confidence": "medium",
         "sourceRefs": [
           2,
@@ -153,67 +179,11 @@
         ]
       },
       {
-        "name": "sunrise gradient, orange from here aft",
-        "color": "imuaOrange",
-        "points": [
-          [
-            0.45,
-            1
-          ],
-          [
-            1,
-            1
-          ],
-          [
-            1,
-            -1
-          ],
-          [
-            0.47,
-            -1
-          ]
-        ],
-        "confidence": "medium",
-        "sourceRefs": [
-          2,
-          3,
-          4
-        ]
-      },
-      {
-        "name": "sunrise gradient, golden orange from here aft",
-        "color": "imuaGold",
-        "points": [
-          [
-            0.58,
-            1
-          ],
-          [
-            1,
-            1
-          ],
-          [
-            1,
-            -1
-          ],
-          [
-            0.6,
-            -1
-          ]
-        ],
-        "confidence": "medium",
-        "sourceRefs": [
-          2,
-          3,
-          4
-        ]
-      },
-      {
-        "name": "sunrise gradient, yellow from here aft",
+        "name": "the sunrise's yellow, from where the fade ends aft to the tail",
         "color": "imuaYellow",
         "points": [
           [
-            0.7,
+            0.72,
             1
           ],
           [
@@ -225,7 +195,7 @@
             -1
           ],
           [
-            0.71,
+            0.72,
             -1
           ]
         ],
@@ -504,36 +474,302 @@
       ]
     },
     {
-      "mark": "SWA/imua-pattern",
+      "mark": "SWA/imua-left-1",
       "place": "fuselage",
       "at": [
-        0.55,
-        0
+        0.185,
+        -0.0542
       ],
-      "height": 2,
+      "height": 1.1977,
       "colors": [
         "#111111"
       ],
-      "description": "Black Polynesian-style patterns over the whole sunrise from the forward door aft: large hibiscus or plumeria flowers on the blue at the nose, then bold triangles, chevrons, waves, spirals, turtles and ladder bands, covering roughly a third to a half of the surface; the tail cone in black and yellow diagonal bars.",
+      "description": "Left side, nose to the forward cabin: black five-petal flowers with dotted centers on the periwinkle (one big flower low behind the nose gear, smaller ones up by the door and the first windows), then the forward ends of big black hooked curls on the purple.",
+      "side": "left",
       "confidence": "medium",
       "sourceRefs": [
         2,
-        3,
-        4
+        3
+      ]
+    },
+    {
+      "mark": "SWA/imua-left-2",
+      "place": "fuselage",
+      "at": [
+        0.4223,
+        -0.0132
+      ],
+      "height": 1.6944,
+      "colors": [
+        "#111111"
+      ],
+      "description": "Left side, forward cabin to the wing: bold black triangles and zigzag bands over the coral, and the hooked curls' aft ends.",
+      "side": "left",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ]
+    },
+    {
+      "mark": "SWA/imua-left-3",
+      "place": "fuselage",
+      "at": [
+        0.4758,
+        -0.0266
+      ],
+      "height": 1.1851,
+      "colors": [
+        "#111111"
+      ],
+      "description": "Left side, over the wing root (hidden by the wing in the side-on photo, from the rear photo): the triangle bands continued.",
+      "side": "left",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ]
+    },
+    {
+      "mark": "SWA/imua-left-4",
+      "place": "fuselage",
+      "at": [
+        0.6445,
+        0.0015
+      ],
+      "height": 1.8447,
+      "colors": [
+        "#111111"
+      ],
+      "description": "Left side, behind the wing: three black sea turtles seen from above with spiral shells on the orange, swimming forward among curls, and the start of a broad curved band filled with arrowhead chevrons.",
+      "side": "left",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ]
+    },
+    {
+      "mark": "SWA/imua-left-5",
+      "place": "fuselage",
+      "at": [
+        0.7722,
+        -0.0003
+      ],
+      "height": 1.7958,
+      "colors": [
+        "#111111"
+      ],
+      "description": "Left side, ahead of the aft door: the chevron band curving down and bold black cross shapes on the gold.",
+      "side": "left",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ]
+    },
+    {
+      "mark": "SWA/imua-left-6",
+      "place": "fuselage",
+      "at": [
+        0.8612,
+        0.0035
+      ],
+      "height": 1.7952,
+      "colors": [
+        "#111111"
+      ],
+      "description": "Left side, at the aft door: the chevron band's aft edge and ladder stripes.",
+      "side": "left",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ]
+    },
+    {
+      "mark": "SWA/imua-left-7",
+      "place": "fuselage",
+      "at": [
+        0.9333,
+        0.0025
+      ],
+      "height": 1.7237,
+      "colors": [
+        "#111111"
+      ],
+      "description": "Left side, the tail cone: wide black diagonal bars across the yellow.",
+      "side": "left",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ]
+    },
+    {
+      "mark": "SWA/imua-left-8",
+      "place": "fuselage",
+      "at": [
+        0.9732,
+        -0.0482
+      ],
+      "height": 0.485,
+      "colors": [
+        "#111111"
+      ],
+      "description": "Left side, the tail cone's tip: the last diagonal bars.",
+      "side": "left",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ]
+    },
+    {
+      "mark": "SWA/imua-right-1",
+      "place": "fuselage",
+      "at": [
+        0.1613,
+        0.0372
+      ],
+      "height": 1.4891,
+      "colors": [
+        "#111111"
+      ],
+      "description": "Right side, nose to the forward cabin: black five-petal flowers with dotted centers on the periwinkle, small ones up by the forward door and windows and a big one low behind the nose gear, a fan of long black petals or leaves around the first windows, then the forward ends of the big black hooked curls.",
+      "side": "right",
+      "confidence": "medium",
+      "sourceRefs": [
+        4,
+        5
+      ]
+    },
+    {
+      "mark": "SWA/imua-right-2",
+      "place": "fuselage",
+      "at": [
+        0.422,
+        -0.0007
+      ],
+      "height": 1.7039,
+      "colors": [
+        "#111111"
+      ],
+      "description": "Right side, forward cabin to the wing: black spiral curls and bold triangle bands over the purple and coral.",
+      "side": "right",
+      "confidence": "medium",
+      "sourceRefs": [
+        4,
+        5
+      ]
+    },
+    {
+      "mark": "SWA/imua-right-3",
+      "place": "fuselage",
+      "at": [
+        0.6452,
+        -0.0504
+      ],
+      "height": 1.3052,
+      "colors": [
+        "#111111"
+      ],
+      "description": "Right side, behind the wing: swirling curls on the orange and the start of the curved chevron band.",
+      "side": "right",
+      "confidence": "medium",
+      "sourceRefs": [
+        4,
+        5
+      ]
+    },
+    {
+      "mark": "SWA/imua-right-4",
+      "place": "fuselage",
+      "at": [
+        0.7722,
+        0.0045
+      ],
+      "height": 1.7624,
+      "colors": [
+        "#111111"
+      ],
+      "description": "Right side, ahead of the aft door: arrowhead chevrons in a curved band and bold black cross shapes on the gold.",
+      "side": "right",
+      "confidence": "medium",
+      "sourceRefs": [
+        4,
+        5
+      ]
+    },
+    {
+      "mark": "SWA/imua-right-5",
+      "place": "fuselage",
+      "at": [
+        0.861,
+        0.0034
+      ],
+      "height": 1.7917,
+      "colors": [
+        "#111111"
+      ],
+      "description": "Right side, at the aft door: cross shapes and ladder stripes.",
+      "side": "right",
+      "confidence": "medium",
+      "sourceRefs": [
+        4,
+        5
+      ]
+    },
+    {
+      "mark": "SWA/imua-right-6",
+      "place": "fuselage",
+      "at": [
+        0.9333,
+        0.0077
+      ],
+      "height": 1.7208,
+      "colors": [
+        "#111111"
+      ],
+      "description": "Right side, the tail cone: wide black diagonal bars across the yellow.",
+      "side": "right",
+      "confidence": "medium",
+      "sourceRefs": [
+        4,
+        5
+      ]
+    },
+    {
+      "mark": "SWA/imua-right-7",
+      "place": "fuselage",
+      "at": [
+        0.9775,
+        0.1151
+      ],
+      "height": 1.014,
+      "colors": [
+        "#111111"
+      ],
+      "description": "Right side, the tail cone's tip: the last diagonal bars.",
+      "side": "right",
+      "confidence": "medium",
+      "sourceRefs": [
+        4,
+        5
       ]
     },
     {
       "mark": "SWA/imua-pattern",
       "place": "engines",
       "at": [
-        0.5,
-        0
+        0.476,
+        -0.03
       ],
-      "height": 1.6,
+      "height": 2.02,
       "colors": [
         "#111111"
       ],
-      "description": "Black triangles and bands over the coral cowlings.",
+      "description": "Black diagonal bands and triangles over the coral cowlings, ending in a sawtooth at the cowl's aft edge (traced on the left engine; the right one mirrored, its photo too oblique).",
       "confidence": "medium",
       "sourceRefs": [
         2,
@@ -697,5 +933,5 @@
       "side": "right"
     }
   ],
-  "notes": "Drawn from Feb 2026 photos of N8710M. The fuselage is a continuous sunrise gradient (periwinkle at the nose through magenta, coral and orange to yellow at the tail): drawn here as bands at where each color is strongest. The black patterns are described, not drawn. Re-checked 2026-11-15: the fin is the state jets' Heart fin as re-measured on Colorado One (the same fin on every 737), copied with its 'Southwest' title and flag. 'Imua One' measured on the 2023 right-side photo against the nose and the forward door (2.5-3.45 m back), two weights, a pair of titles per side (the left mirrored; the 2026 photos are from behind and too oblique to read it), on Colorado One's line under the cockpit windows. The sunrise bands are a gradient, kept as straight cuts. Drawn on the 737-8 (no measured shape; it's within 0.1 m of the 737-800's fuselage, so shapes/B738.json is close)."
+  "notes": "Drawn from Feb 2026 photos of N8710M. The fuselage is a continuous sunrise gradient (periwinkle at the nose through magenta, coral and orange to yellow at the tail): drawn as one gradient. Re-checked 2026-11-15: the fin is the state jets' Heart fin as re-measured on Colorado One (the same fin on every 737), copied with its 'Southwest' title and flag. 'Imua One' measured on the 2023 right-side photo against the nose and the forward door (2.5-3.45 m back), two weights, a pair of titles per side (the left mirrored; the 2026 photos are from behind and too oblique to read it), on Colorado One's line under the cockpit windows. The sunrise bands are a gradient, kept as straight cuts. Drawn on the 737-8 (no measured shape; it's within 0.1 m of the 737-800's fuselage, so shapes/B738.json is close). Redrawn 2026-11-28: the black pattern is traced per side in short stretches along the body (left from the Feb 2026 photos, right from the Sept 2024 Santa Barbara photo; the two sides differ in detail). The sunrise is one gradient, yellow aft of x 0.72 (ahead of the fin root). The belly between the engines is not seen; the pattern stops above it."
 }

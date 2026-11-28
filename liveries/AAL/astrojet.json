@@ -7,7 +7,7 @@
   "from": "2013",
   "confidence": "medium",
   "drawnOn": "B738",
-  "description": "Fuselage: Polished silver, white crown above the windows. Cheatlines: A red/orange cheatline below the windows starting in an arrow/chevron at the nose (blue edge), running aft. Tail: Silver fin with the 1960s AA eagle roundel (red ring, white disc, blue 'A A' with eagle) and 'ASTROJET' in black capitals below it. Engines: Silver. Winglets: Silver. Titles: 'AMERICAN AIRLINES' in widely spaced dark-blue capitals above the windows; 'ASTROJET' small by the nose. Artwork: none. Colors hex: approximate.",
+  "description": "Fuselage: Silver all over, the crown too. Cheatlines: A red cheatline under the windows, edged with a white and a thin navy pinstripe, that drops in a Z-shaped bolt ahead of the wing and runs on lower to a point at the nose. Tail: Light gray-white fin and fillet with the 1960s AA eagle roundel (red ring, white disc, blue 'A A' with eagle) and 'ASTROJET' in black capitals below it. Engines: Silver. Winglets: Silver. Nose cone: light gray-white. Titles: 'AMERICAN AIRLINES' in widely spaced dark-blue capitals above the windows; 'ASTROJET' small by the nose. Artwork: none. Colors hex: approximate.",
   "sources": [
     {
       "url": "https://simpleflying.com/american-special-liveries/",
@@ -28,6 +28,12 @@
       "title": "Astro Departing LAX (CC BY 4.0)",
       "accessed": "2026-11-12",
       "note": "Right side, 2025-09-14: the bolt at the nose, titles, fin."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N905NN_(55049162263).jpg",
+      "title": "N905NN (55049162263).jpg (CC BY-SA 4.0, Liam Thompson)",
+      "accessed": "2026-11-27",
+      "note": "Left side taxiing at Los Angeles, 2026-01-17, side-on in sun at full resolution: the silver crown, the bolt (red with a white then a thin navy pinstripe), the nose title. Positions read against the forward door and the windows."
     }
   ],
   "palette": {
@@ -59,82 +65,60 @@
   },
   "finish": "metallic",
   "fuselage": {
-    "base": "white",
+    "base": "metal",
     "areas": [
       {
-        "name": "lower fuselage",
-        "color": "metal",
+        "name": "white pinstripe round the cheatline and its bolt",
+        "color": "white",
         "points": [
           [
-            0,
-            -0.38
+            0.93,
+            0.038
           ],
           [
-            0.25,
-            -0.38
+            0.1595,
+            0.049
           ],
           [
-            0.215,
-            -0.04
+            0.1875,
+            -0.163
           ],
           [
-            1,
-            -0.04
+            0.15,
+            -0.15
           ],
           [
-            1,
-            -1
+            0.083,
+            -0.134
           ],
           [
-            0,
-            -1
+            0.031,
+            -0.17
+          ],
+          [
+            0.083,
+            -0.219
+          ],
+          [
+            0.15,
+            -0.244
+          ],
+          [
+            0.2165,
+            -0.259
+          ],
+          [
+            0.1875,
+            -0.054
+          ],
+          [
+            0.93,
+            -0.058
           ]
         ],
         "confidence": "medium",
         "sourceRefs": [
-          2,
-          3
-        ]
-      },
-      {
-        "name": "blue line under the cheatline",
-        "color": "blue",
-        "points": [
-          [
-            0.93,
-            -0.01
-          ],
-          [
-            0.195,
-            -0.01
-          ],
-          [
-            0.23,
-            -0.35
-          ],
-          [
-            0.045,
-            -0.35
-          ],
-          [
-            0.05,
-            -0.38
-          ],
-          [
-            0.25,
-            -0.38
-          ],
-          [
-            0.215,
-            -0.04
-          ],
-          [
-            0.93,
-            -0.04
-          ]
-        ],
-        "confidence": "medium",
-        "sourceRefs": [
+          4,
           2,
           3
         ]
@@ -145,47 +129,60 @@
         "points": [
           [
             0.93,
-            0.04
+            0.025
           ],
           [
-            0.17,
-            0.04
+            0.1629,
+            0.036
           ],
           [
-            0.205,
-            -0.3
+            0.1902,
+            -0.176
           ],
           [
-            0.04,
-            -0.3
+            0.15,
+            -0.163
           ],
           [
-            0.045,
-            -0.35
+            0.083,
+            -0.147
           ],
           [
-            0.23,
-            -0.35
+            0.036,
+            -0.17
           ],
           [
-            0.195,
-            -0.01
+            0.083,
+            -0.206
+          ],
+          [
+            0.15,
+            -0.231
+          ],
+          [
+            0.212,
+            -0.246
+          ],
+          [
+            0.1841,
+            -0.041
           ],
           [
             0.93,
-            -0.01
+            -0.045
           ]
         ],
         "confidence": "medium",
         "sourceRefs": [
+          4,
           2,
           3
         ]
       }
     ],
     "radome": {
-      "color": "metal",
-      "to": 0.02
+      "color": "white",
+      "to": 0.034
     },
     "confidence": "medium",
     "sourceRefs": [
@@ -199,7 +196,8 @@
     "sourceRefs": [
       2,
       3
-    ]
+    ],
+    "fillet": "white"
   },
   "wings": {
     "top": "metal",
@@ -273,14 +271,15 @@
       "text": "ASTROJET",
       "place": "fuselage",
       "at": [
-        0.05,
-        -0.12
+        0.048,
+        -0.05
       ],
-      "height": 0.15,
+      "height": 0.12,
       "color": "navy",
       "style": "Heavy geometric italic capitals: a round O, the J dropping below the line.",
       "confidence": "high",
       "sourceRefs": [
+        4,
         2,
         3
       ],
@@ -295,7 +294,7 @@
         "strokes": "uniform",
         "case": "upper"
       },
-      "length": 0.065
+      "length": 0.056
     },
     {
       "text": "ASTROJET",
@@ -326,5 +325,5 @@
       "length": 0.41
     }
   ],
-  "notes": "Re-checked 2026-11-15 on N905NN (2026-10-26): 'ASTROJET' on the fin is small, just above the root under the eagle disc (fin x 0.23-0.64, cap 0.05), not the large title first drawn; the nose title runs x 0.05-0.115; 'AMERICAN AIRLINES' x 0.24-0.73 as drawn. Shares read off a three-quarter view, so within about 0.02. Re-checked 2026-11-23 on N905NN (2026-10-26, 2021-09-22): the roundel is centred mid-chord about 0.4 up the fin (x 0.5, y 0.4), not high by the trailing edge."
+  "notes": "Re-checked 2026-11-15 on N905NN (2026-10-26): 'ASTROJET' on the fin is small, just above the root under the eagle disc (fin x 0.23-0.64, cap 0.05), not the large title first drawn; the nose title runs x 0.05-0.115; 'AMERICAN AIRLINES' x 0.24-0.73 as drawn. Shares read off a three-quarter view, so within about 0.02. Re-checked 2026-11-23 on N905NN (2026-10-26, 2021-09-22): the roundel is centred mid-chord about 0.4 up the fin (x 0.5, y 0.4), not high by the trailing edge. Re-checked 2026-11-27 on N905NN side-on at Los Angeles (2026-01-17): the crown is silver like the rest (it had been drawn white), and the cheatline is a red band about 0.2 m deep edged by a white and a thin navy pinstripe, not a red line over a blue one. Its bolt: the upper band ends in a point at x 0.163, the Z's stroke runs down and aft to x 0.21, and the lower band runs forward about 0.55-0.75 m under the centerline to a point at x 0.036 (it had been drawn about 0.35 m lower and thinner). The white pinstripe is drawn; the navy one outside it, a few centimeters wide, isn't. The nose title sits just above the lower band (x 0.048-0.104). The nose cone is painted a light gray-white like the fin, to x 0.034 (it had been drawn silver), and the dorsal fillet is white with the fin (it had taken the fuselage's color)."
 }

@@ -32,6 +32,18 @@
       "title": "N375HA, 2026-01-17 (CC BY-SA 4.0, Liam Thompson)",
       "accessed": "2026-11-22",
       "note": "N375HA in the standard Pualani livery on 2026-01-17, before this scheme."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Hawaiian_Airlines_Airbus_A321neo_N226HA.jpg",
+      "title": "Hawaiian Airlines Airbus A321neo N226HA.jpg (public domain)",
+      "accessed": "2026-11-27",
+      "note": "N226HA (A321neo) left side, level, 2020-08-07: Pualani traced and placed on the fin. Right-side photos (N228HA 2019-12-31, N382HA 2025-08-15) show her mirrored, facing forward."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N230HA_Hawaiian_20210628_2.jpg",
+      "title": "N230HA Hawaiian 20210628 2.jpg (CC BY-SA 4.0, Ganbaruby)",
+      "accessed": "2026-11-27",
+      "note": "N230HA (A321neo) left side in flight in sun, 2021-06-28: the fin's colors sampled from the root to the tip (deep purple #370C58 at the root, #7A1661 at mid height, wine-magenta #98034C near the tip). N223HA (2023-03-09) shows the same level fade."
     }
   ],
   "palette": {
@@ -40,7 +52,7 @@
       "official": false
     },
     "purple": {
-      "hex": "#46276F",
+      "hex": "#3A0D5A",
       "official": false,
       "name": "Hawaiian purple"
     },
@@ -49,10 +61,25 @@
       "official": false,
       "name": "magenta (flowers, fin tip)"
     },
-    "coral": {
-      "hex": "#F05A4F",
+    "finPlum": {
+      "hex": "#7B1761",
       "official": false,
-      "name": "hibiscus coral"
+      "name": "fin plum (middle of the fin's fade)"
+    },
+    "finWine": {
+      "hex": "#9A054E",
+      "official": false,
+      "name": "fin wine-magenta (tip)"
+    },
+    "coral": {
+      "hex": "#E0262E",
+      "official": false,
+      "name": "hibiscus red"
+    },
+    "hair": {
+      "hex": "#2B1A4A",
+      "official": false,
+      "name": "Pualani's hair (deep indigo)"
     },
     "gray": {
       "hex": "#DEDCD9",
@@ -275,16 +302,16 @@
     "base": "purple",
     "areas": [
       {
-        "name": "magenta toward the tip (a gradient)",
-        "color": "magenta",
+        "name": "the fin's fade: deep purple at the root to wine-magenta toward the tip, level across the fin (measured on N230HA in sun)",
+        "color": "finPlum",
         "points": [
           [
             0,
-            0.8
+            0
           ],
           [
             1,
-            0.82
+            0
           ],
           [
             1,
@@ -295,10 +322,43 @@
             1
           ]
         ],
+        "gradient": {
+          "from": [
+            0.5,
+            0
+          ],
+          "to": [
+            0.5,
+            0.85
+          ],
+          "stops": [
+            [
+              0,
+              "purple"
+            ],
+            [
+              0.25,
+              "#521862"
+            ],
+            [
+              0.5,
+              "#7B1761"
+            ],
+            [
+              0.7,
+              "#8F1259"
+            ],
+            [
+              1,
+              "finWine"
+            ]
+          ]
+        },
         "confidence": "medium",
         "sourceRefs": [
           1,
-          2
+          2,
+          5
         ]
       }
     ],
@@ -336,22 +396,23 @@
       "mark": "HAL/pualani",
       "place": "fin",
       "at": [
-        0.431,
-        0.564
+        0.78,
+        0.31
       ],
-      "height": 0.75,
+      "height": 0.962,
       "colors": [
         "white",
         "coral",
-        "purple"
+        "hair"
       ],
-      "description": "Pualani ('flower of the sky'): a Hawaiian woman's face in profile, white, facing forward, her dark-purple hair framing it with a coral hibiscus behind her ear, filling the aft fin.",
+      "description": "Pualani ('flower of the sky'): a Hawaiian woman's face and neck in profile in white, facing forward and a little up with a calm slight smile. Her deep indigo hair is drawn back from the forehead and falls down her back off the trailing edge. A red hibiscus with a dark heart sits behind her ear and runs off the trailing edge too. Mirrored on the right side.",
       "confidence": "high",
       "sourceRefs": [
         1,
-        2
+        2,
+        4
       ],
-      "reference": "https://commons.wikimedia.org/wiki/File:Hawaiian_Airlines_logo_2017.svg"
+      "reference": "https://commons.wikimedia.org/wiki/File:Hawaiian_Airlines_Airbus_A321neo_N226HA.jpg"
     },
     {
       "mark": "ONE/oneworld-roundel",

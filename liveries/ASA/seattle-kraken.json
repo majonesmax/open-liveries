@@ -51,7 +51,7 @@
       "note": "N431AS right side, 2024-12-27: the portrait and the hood are mirrored on the right (the hair's lock and the wisp toward the trailing edge on both sides)."
     }
   ],
-  "notes": "Drawn from N933AK's right side (2025-09-06 and 2026-02-27) and checked on the left in Alaska's own photo: the left side carries the same layout, so nothing is marked by side. Replaced the 2021 Kraken jet N915AK, which is back in standard colors; N915AK's 2021 design was different (white body with 'SEATTLE KRAKEN' titles over the windows and a smaller S with its eye at the aft door, per a 2022 Commons photo), so this geometry fits N933AK only. Re-checked 2026-11-15 (drawn on the 737-9): the cyan swoosh and the lime stripe behind it curve, made smooth; the three leaning bands and the red stripe are straight as seen from the side and kept as corners only. Titles' lengths kept; 'Alaska' lowercase about 0.55 of its A.",
+  "notes": "Drawn from N933AK's right side (2025-09-06 and 2026-02-27) and checked on the left in Alaska's own photo: the left side carries the same layout, so nothing is marked by side. Replaced the 2021 Kraken jet N915AK, which is back in standard colors; N915AK's 2021 design was different (white body with 'SEATTLE KRAKEN' titles over the windows and a smaller S with its eye at the aft door, per a 2022 Commons photo), so this geometry fits N933AK only. Re-checked 2026-11-15 (drawn on the 737-9): the cyan swoosh and the lime stripe behind it curve, made smooth; the three leaning bands and the red stripe are straight as seen from the side and kept as corners only. Titles' lengths kept; 'Alaska' lowercase about 0.55 of its A. 2026-11-27: the Kraken S traced from the right side at LAX (2026-02-27), where it's side-on and clear of the wing; its outline is a darker navy than the body (krakenDeep) and each stroke's outer edge a duller blue (krakenShadow).",
   "from": "2024-10",
   "palette": {
     "white": {
@@ -95,6 +95,16 @@
     },
     "wingGray": {
       "hex": "#B9BEC5",
+      "official": false
+    },
+    "krakenShadow": {
+      "hex": "#5A8FBF",
+      "name": "the Kraken S's darker tentacle edge (team Shadow Blue #68A2B9; paint matched by eye)",
+      "official": false
+    },
+    "krakenDeep": {
+      "hex": "#0D1626",
+      "name": "the Kraken S's outline, darker than the body's navy (team Deep Sea #001628)",
       "official": false
     }
   },
@@ -759,15 +769,14 @@
       "height": 1.9,
       "colors": [
         "ice",
-        "cyan",
-        "deepSea",
+        "krakenShadow",
+        "krakenDeep",
         "redAlert"
       ],
-      "description": "The Seattle Kraken 'S' (a tentacle-formed S in ice blue and cyan outlined in deep-sea navy, with a red eye), big, on the navy just aft of the red stripe, from near the belly to the crown.",
+      "description": "The Seattle Kraken 'S': three tentacle strokes, each ice blue with a darker blue outer edge, in a thick outline darker than the body's navy, with a red eye under the top stroke. Big, on the navy just aft of the red stripe, from near the belly to the crown. A letter, so it reads the same way on both sides.",
       "confidence": "medium",
       "sourceRefs": [
         0,
-        4,
         5
       ]
     }

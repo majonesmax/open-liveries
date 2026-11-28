@@ -6,7 +6,7 @@
   "kind": "special",
   "confidence": "medium",
   "drawnOn": "B39M",
-  "description": "Fuselage: Deep ocean blue all over. Cheatlines: None; from over the wing aft, a lighter sea-blue band of water with whitecaps runs along the middle of the fuselage to the tail, and a pod of orcas swims in it, the largest by the aft door. Tail: A printed photograph: Pacific Northwest forest at the top, a waterfall, and an orca breaching from blue water at the root. Engines: Ocean blue. Winglets: Alaska's standard (white with midnight, Atlas-blue and lime bands). Titles: The 2016 'Alaska' wordmark in white, large, forward of the wing. Artwork: Orcas (the Southern Resident pods) on the water band; the tail is inkjet-printed, the first image Boeing applied that way. Colors hex: not published; matched by eye.",
+  "description": "Fuselage: Deep ocean blue all over. Cheatlines: None; from over the wing aft, a lighter sea-blue band of water with whitecaps runs along the middle of the fuselage to the tail, and three orcas swim in it heading aft: one at the window line ahead of the wing, one diving behind the wing root and the largest rising across the aft door. Tail: A printed photograph: Pacific Northwest forest at the top and an orca breaching nose-up from blue water at the root, white water pouring off it. Engines: Ocean blue. Winglets: Alaska's standard (white with midnight, Atlas-blue and lime bands). Titles: The 2016 'Alaska' wordmark in white, large, forward of the wing. Artwork: Orcas (the Southern Resident pods) on the water band; the tail is inkjet-printed, the first image Boeing applied that way. Colors hex: not published; matched by eye.",
   "sources": [
     {
       "url": "https://www.alaskaair.com/content/travel-info/our-aircraft/737-9-max-west-coast-wonders",
@@ -42,9 +42,15 @@
       "title": "The Points Guy: Alaska's whale livery",
       "accessed": "2026-11-14",
       "note": "The tail is inkjet-printed (Boeing's first)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N932AK_(53375428372).jpg",
+      "title": "N932AK (CC BY-SA 2.0)",
+      "accessed": "2026-11-28",
+      "note": "Left side nearly side-on, 2023-11-02: the three orcas on the left and the tail's breaching orca measured from it, registered by the nose, both main doors and the fin tip."
     }
   ],
-  "notes": "Drawn from Alaska's photo of the left side (side-on, approaching) and checked on the right side (Commons 2022 and 2023): the same layout both sides. The water band's edges are wavy whitecaps, drawn as a smooth band; the orcas are logo entries. The tail is a photograph: drawn as forest over water with the breaching orca as a logo. Re-checked 2026-11-15 (drawn on the 737-9): the water band's rounded outline made smooth (its whitecaps stay described, not drawn). 'Alaska' lowercase about 0.55 of its A; its length kept.",
+  "notes": "Drawn from Alaska's photo of the left side (side-on, approaching) and checked on the right side (Commons 2022 and 2023): the same layout both sides. The water band's edges are wavy whitecaps, drawn as a smooth band; the orcas are logo entries. The tail is a photograph: drawn as forest over water with the breaching orca as a logo. Re-checked 2026-11-15 (drawn on the 737-9): the water band's rounded outline made smooth (its whitecaps stay described, not drawn). 'Alaska' lowercase about 0.55 of its A; its length kept. Re-drawn 2026-11-28: the orcas measured on the 2023-11-02 left-side photo (Commons), three each side as the right side shows them too, replacing five guessed positions; each is its own logo (surfacing, diving, rising) since their poses differ. The tail's orca is one animal breaching, its pectoral fin out to the left: what was described as a second orca is that fin. The white water at the root added as an area. Refined 2026-11-28: each orca's markings checked against the photo and real orcas (eye patch, white chin and belly to the flank, grey saddle, rounded dorsal fin, paddle pectorals); a saddle gray added to the logos' colors. The surfacing orca redrawn the same day from the right side's photo at its full body depth (it had been traced thin from the left, where the wing hides it), and the tail's orca at the photo's detail.",
   "from": "2021-12",
   "palette": {
     "ocean": {
@@ -97,6 +103,26 @@
     },
     "wingGray": {
       "hex": "#B9BEC5",
+      "official": false
+    },
+    "black": {
+      "hex": "#15181E",
+      "name": "Orca black",
+      "official": false
+    },
+    "foam": {
+      "hex": "#E8F1F5",
+      "name": "White water",
+      "official": false
+    },
+    "saddle": {
+      "hex": "#9AA3AA",
+      "name": "Saddle gray",
+      "official": false
+    },
+    "spray": {
+      "hex": "#B4C6D2",
+      "name": "Spray",
       "official": false
     }
   },
@@ -223,6 +249,48 @@
           2,
           3
         ]
+      },
+      {
+        "name": "white water where the orca breaks the surface",
+        "color": "foam",
+        "smooth": true,
+        "points": [
+          [
+            0.3,
+            0.25
+          ],
+          [
+            0.36,
+            0.285
+          ],
+          [
+            0.42,
+            0.26
+          ],
+          [
+            0.455,
+            0.15
+          ],
+          [
+            0.47,
+            -0.02,
+            1
+          ],
+          [
+            0.33,
+            -0.02,
+            1
+          ],
+          [
+            0.305,
+            0.12
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          0,
+          6
+        ]
       }
     ],
     "confidence": "medium",
@@ -348,121 +416,89 @@
       "mark": "ASA/west-coast-wonders-tail",
       "place": "fin",
       "at": [
-        0.52,
-        0.42
+        0.4929,
+        0.2517
       ],
-      "height": 0.75,
+      "height": 0.51,
       "colors": [
-        "forest",
-        "water",
-        "white"
-      ],
-      "description": "The printed tail: dark evergreen forest at the top, a white waterfall, and an orca breaching from the water at the root, its head up toward the leading edge.",
-      "confidence": "medium",
-      "sourceRefs": [
-        0,
-        2,
-        3
-      ]
-    },
-    {
-      "mark": "ASA/west-coast-wonders-orca",
-      "place": "fuselage",
-      "at": [
-        0.47,
-        0.3
-      ],
-      "height": 0.55,
-      "colors": [
+        "black",
         "white",
-        "midnight"
+        "saddle",
+        "spray"
       ],
-      "description": "An orca surfacing in the water band behind the forward overwing windows.",
+      "description": "An orca breaching nose-up from the water at the root: its near pectoral fin out as a long paddle toward the leading edge, white eye patch and throat, pale belly, water pouring off its left side in broken white streaks with spray droplets and splashing at the root; evergreen forest above (the fin's areas).",
       "confidence": "medium",
       "sourceRefs": [
         0,
         2,
-        3
+        3,
+        6
       ]
     },
     {
-      "mark": "ASA/west-coast-wonders-orca",
+      "mark": "ASA/west-coast-wonders-orca-surfacing",
       "place": "fuselage",
       "at": [
-        0.57,
-        0.32
-      ],
-      "height": 0.5,
-      "colors": [
-        "white",
-        "midnight"
-      ],
-      "description": "A second orca just behind the first, over the wing.",
-      "confidence": "medium",
-      "sourceRefs": [
-        0,
-        2,
-        3
-      ]
-    },
-    {
-      "mark": "ASA/west-coast-wonders-orca",
-      "place": "fuselage",
-      "at": [
-        0.66,
-        -0.45
+        0.4495,
+        0.2992
       ],
       "height": 0.65,
       "colors": [
+        "black",
         "white",
-        "midnight"
+        "saddle"
       ],
-      "description": "An orca low in the water behind the wing root.",
+      "description": "An orca swimming level at the window line ahead of the wing, heading aft: a deep black body with a tall dorsal fin, white flank patch, eye patch and chin, a paddle pectoral fin under it and white flukes forward. The wing hides much of it from the left; the right side shows it whole.",
       "confidence": "medium",
       "sourceRefs": [
         0,
         2,
-        3
+        3,
+        6
       ]
     },
     {
-      "mark": "ASA/west-coast-wonders-orca",
+      "mark": "ASA/west-coast-wonders-orca-diving",
       "place": "fuselage",
       "at": [
-        0.76,
-        -0.4
+        0.6342,
+        -0.1058
       ],
-      "height": 0.7,
+      "height": 1.21,
       "colors": [
+        "black",
         "white",
-        "midnight"
+        "saddle"
       ],
-      "description": "Another orca low down ahead of the aft door.",
+      "description": "An orca diving behind the wing root, nose down and aft, dorsal fin up, white belly and eye patch.",
       "confidence": "medium",
       "sourceRefs": [
         0,
         2,
-        3
+        3,
+        6
       ]
     },
     {
-      "mark": "ASA/west-coast-wonders-orca",
+      "mark": "ASA/west-coast-wonders-orca-rising",
       "place": "fuselage",
       "at": [
-        0.855,
-        0.05
+        0.7883,
+        0.014
       ],
-      "height": 1.1,
+      "height": 1.28,
       "colors": [
+        "black",
         "white",
-        "midnight"
+        "saddle"
       ],
-      "description": "The largest orca, rising across the aft door.",
+      "description": "The largest orca, rising across the aft door: flukes forward with their white undersides, its white chin raised toward the tail.",
       "confidence": "medium",
       "sourceRefs": [
         0,
         2,
-        3
+        3,
+        6
       ]
     }
   ],

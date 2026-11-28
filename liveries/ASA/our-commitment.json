@@ -6,7 +6,7 @@
   "kind": "special",
   "confidence": "medium",
   "drawnOn": "B739",
-  "description": "Fuselage: Black all over. Cheatlines: None; from just ahead of the wing to ahead of the tail, the profiles of 14 young people (children, grandchildren and mentees of Alaska employees) in copper, amber and brown silhouettes, from the crown down to the belly behind the wing. Tail: Black with 'Alaska' in dark gray reading up the fin. Engines: Black with the UNCF logo. Winglets: Black. Titles: A quote on each side ahead of the profiles, in condensed capitals in orange and off-white: on the left Dr. Martin Luther King Jr.'s 'The time is always right to do what is right.', on the right Nelson Mandela's 'Education is the most powerful weapon we can use to change the world.' Typography by Adé Hogue. Colors hex: not published; matched by eye.",
+  "description": "Fuselage: Black all over. Cheatlines: None; from just ahead of the wing to ahead of the tail, the profiles of 14 young people (children, grandchildren and mentees of Alaska employees) in copper, amber and brown silhouettes, from the crown down to the belly behind the wing. Tail: Black with 'Alaska' in dark gray reading up the fin. Engines: Black with the UNCF logo. Winglets: Black. Titles: A quote on each side ahead of the profiles, in condensed capitals in orange and off-white: on the left Dr. Martin Luther King Jr.'s 'The time is always right to do what is right.', on the right Nelson Mandela's 'Education is the most powerful weapon we can use to change the world.' Each quote is stacked in lines of different sizes, small lines over the windows and the big closing words under them, its attribution small in orange below Typography by Adé Hogue. Colors hex: not published; matched by eye.",
   "sources": [
     {
       "url": "https://www.alaskaair.com/content/travel-info/our-aircraft/737-900-er-our-commitment",
@@ -42,9 +42,15 @@
       "title": "Alaska Airlines Boeing 737-900ER N492AS lined up at Seattle-Tacoma May 2026.jpg (CC BY 4.0)",
       "accessed": "2026-11-27",
       "note": "Left side side-on and near level (about 3 degrees above), 2026-05: King's quote measured against the windows. 'DO WHAT' sits wholly below the window line, 'ALWAYS RIGHT TO' just above it."
+    },
+    {
+      "url": "https://news.alaskaair.com/newsroom/alaska-airlines-reveals-our-commitment-aircraft-in-partnership-with-uncf/",
+      "title": "Alaska Airlines reveals 'Our Commitment' aircraft in partnership with UNCF (photo 210416_OC_004hr)",
+      "accessed": "2026-11-28",
+      "note": "The press release's photo (mma.prnewswire.com/media/1499222/210416_OC_004hr.jpg): the right side from ahead, sunlit. Mandela's quote and the profiles measured from it, registered by the forward door, both overwing exits and the aft door; heights below the door sills scaled to the body's belly."
     }
   ],
-  "notes": "Drawn from the left side (2026-05-30, side-on; the quote's heights from the near-level 2026-05 photo at Seattle, as the approach photo from below lifted them about a tenth of the body's half-height, onto the windows) and Alaska's photo of the right side. The two sides carry different quotes (titles marked by side); the right side's quote is placed from Alaska's three-quarter photo, so its position is less sure. The profiles are drawn as one copper field with an amber front: each face is in the logo entry. The 'UNCF' logo on the engines and the small quote attributions aren't drawn.",
+  "notes": "Drawn from the left side (2026-05-30, side-on; the quote's heights from the near-level 2026-05 photo at Seattle, as the approach photo from below lifted them about a tenth of the body's half-height, onto the windows) and Alaska's photo of the right side. The two sides carry different quotes (titles marked by side); the right side's quote is placed from Alaska's three-quarter photo, so its position is less sure. The profiles are drawn as one copper field with an amber front: each face is in the logo entry. The 'UNCF' logo on the engines and the small quote attributions aren't drawn. Re-drawn 2026-11-28: the right side from Alaska's press photo (sunlit, right side from ahead), registered by the forward door, the overwing exits and the aft door, heights under the door sills scaled to the belly. Mandela's quote had been one guessed block across the windows: it's three italic lines over the windows ('EDUCATION' off-white, 'IS THE MOST POWERFUL' and 'WEAPON WE' orange, 'CAN' off-white) and two under them ('USE TO' orange, 'CHANGE' off-white, then a small 'THE' and the big 'WORLD.'). Two-color lines are two titles each. The small 'IS' on the left and both attributions are now drawn. The profiles' areas are the photo's big color fields (amber, copper, dark brown, the black between the heads) from over the wing to the aft door, mirrored on the left as the left-side photos show; under the wing, which hides them, the necks and shoulders are carried straight down. Color changes: 'amber' #E8892F to #F4A12E (the sunlit press photo); 'plum' #4A3236 added for the dark brown heads at the crown. Cleaned up 2026-11-28 after review: the fin's 'Alaska' measured against the fin on the left-side photo (2026-05-30) and Alaska's press photo: about 0.25 of the fin's span tall, running from near the root at mid-chord toward the tip at about 61 degrees, ending clear of the tip and the leading edge as both sides' photos show (it had been half that size). Color change: 'bone' #DAD6CE to #F1EDE2, the quotes' off-white as the sunlit press photo shows it (it read grey by the nose).",
   "from": "2021-04",
   "palette": {
     "black": {
@@ -58,7 +64,7 @@
       "official": false
     },
     "amber": {
-      "hex": "#E8892F",
+      "hex": "#F4A12E",
       "name": "Amber",
       "official": false
     },
@@ -77,7 +83,7 @@
       "official": false
     },
     "bone": {
-      "hex": "#DAD6CE",
+      "hex": "#F1EDE2",
       "name": "Off-white",
       "official": false
     },
@@ -93,6 +99,11 @@
     "lip": {
       "hex": "#C3C7CC",
       "official": false
+    },
+    "plum": {
+      "hex": "#4A3236",
+      "name": "Dark brown",
+      "official": false
     }
   },
   "finish": "gloss",
@@ -100,127 +111,1784 @@
     "base": "black",
     "areas": [
       {
-        "name": "copper profiles from ahead of the wing to ahead of the fin, reaching the belly behind the wing",
-        "color": "copper",
+        "name": "black between the heads",
+        "color": "black",
+        "smooth": true,
         "points": [
           [
-            0.372,
-            0.2
+            1.01,
+            -1.03
           ],
           [
-            0.378,
-            0.8
+            0.9906,
+            -0.8845
           ],
           [
-            0.6,
-            0.85
+            0.9511,
+            -1.03
           ],
           [
-            0.76,
-            0.8
+            0.8456,
+            -1.03,
+            1
           ],
           [
-            0.862,
-            0.7
+            0.8489,
+            -0.5911
           ],
           [
-            0.87,
-            0.1
+            0.8583,
+            -0.3931
           ],
           [
-            0.84,
-            -0.6
+            0.86,
+            -0.1253
           ],
           [
-            0.8,
-            -0.92
+            0.8633,
+            -0.113
           ],
           [
-            0.6,
-            -0.92
+            0.8683,
+            -0.1867,
+            1
           ],
           [
-            0.53,
-            -0.6
+            0.8717,
+            -0.0845,
+            1
           ],
           [
-            0.47,
-            -0.2
+            0.8606,
+            0.0277
           ],
           [
-            0.41,
-            0.12
+            0.8494,
+            -0.0752
+          ],
+          [
+            0.8444,
+            -0.075
+          ],
+          [
+            0.8417,
+            -0.1343,
+            1
+          ],
+          [
+            0.8506,
+            -0.2213,
+            1
+          ],
+          [
+            0.8489,
+            -0.4548
+          ],
+          [
+            0.8456,
+            -0.4919,
+            1
+          ],
+          [
+            0.8339,
+            -0.1827
+          ],
+          [
+            0.8344,
+            -0.0477
+          ],
+          [
+            0.8389,
+            0.0437,
+            1
+          ],
+          [
+            0.83,
+            0.2197
+          ],
+          [
+            0.8206,
+            0.3343
+          ],
+          [
+            0.8117,
+            0.273
+          ],
+          [
+            0.8033,
+            0.2879
+          ],
+          [
+            0.7878,
+            0.6714,
+            1
+          ],
+          [
+            0.8022,
+            0.6076
+          ],
+          [
+            0.8367,
+            0.3306,
+            1
+          ],
+          [
+            0.8383,
+            0.3932
+          ],
+          [
+            0.83,
+            0.6469,
+            1
+          ],
+          [
+            0.8433,
+            0.6786,
+            1
+          ],
+          [
+            0.8356,
+            1.03,
+            1
+          ],
+          [
+            0.9583,
+            1.03
+          ],
+          [
+            1.01,
+            1.03,
+            1
           ]
         ],
         "confidence": "medium",
         "sourceRefs": [
-          0,
+          6,
           3
         ]
       },
       {
-        "name": "amber faces at the front of the profiles",
+        "name": "amber profiles",
         "color": "amber",
+        "smooth": true,
         "points": [
           [
-            0.372,
-            0.2
+            0.7133,
+            0.1308
           ],
           [
-            0.378,
-            0.8
+            0.7133,
+            0.0931,
+            1
           ],
+          [
+            0.7083,
+            0.1251,
+            1
+          ],
+          [
+            0.7061,
+            0.0885
+          ],
+          [
+            0.705,
+            -0.1335
+          ],
+          [
+            0.7094,
+            -0.1895,
+            1
+          ],
+          [
+            0.7111,
+            -0.0993,
+            1
+          ],
+          [
+            0.7133,
+            -0.1005,
+            1
+          ],
+          [
+            0.7133,
+            -0.2795
+          ],
+          [
+            0.7194,
+            -1.03,
+            1
+          ],
+          [
+            0.6072,
+            -1.03,
+            1
+          ],
+          [
+            0.6044,
+            -0.1257
+          ],
+          [
+            0.6089,
+            0.0284
+          ],
+          [
+            0.6061,
+            0.1092
+          ],
+          [
+            0.6106,
+            0.1918
+          ],
+          [
+            0.5972,
+            0.5565
+          ],
+          [
+            0.5989,
+            0.6575,
+            1
+          ],
+          [
+            0.6039,
+            0.6042
+          ],
+          [
+            0.6083,
+            0.6574
+          ],
+          [
+            0.62,
+            0.5126
+          ],
+          [
+            0.6378,
+            0.1914,
+            1
+          ],
+          [
+            0.6422,
+            0.23
+          ],
+          [
+            0.6478,
+            0.2144,
+            1
+          ],
+          [
+            0.65,
+            0.3184
+          ],
+          [
+            0.6578,
+            0.3351
+          ],
+          [
+            0.6644,
+            0.2854
+          ],
+          [
+            0.6656,
+            0.2141
+          ],
+          [
+            0.6722,
+            0.1833,
+            1
+          ],
+          [
+            0.6717,
+            -0.3745
+          ],
+          [
+            0.6733,
+            -0.5744
+          ],
+          [
+            0.6767,
+            -0.6515,
+            1
+          ],
+          [
+            0.68,
+            -0.5631
+          ],
+          [
+            0.6822,
+            -0.3488
+          ],
+          [
+            0.6822,
+            0.0269
+          ],
+          [
+            0.68,
+            0.108
+          ],
+          [
+            0.6833,
+            0.2294
+          ],
+          [
+            0.6756,
+            0.4914
+          ],
+          [
+            0.6672,
+            0.7193
+          ],
+          [
+            0.6672,
+            1.03,
+            1
+          ],
+          [
+            0.6844,
+            0.643
+          ],
+          [
+            0.6972,
+            0.3685
+          ],
+          [
+            0.7017,
+            0.2037
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6,
+          3
+        ]
+      },
+      {
+        "name": "copper profiles",
+        "color": "copper",
+        "smooth": true,
+        "points": [
+          [
+            0.8428,
+            0.6787,
+            1
+          ],
+          [
+            0.8294,
+            0.6471,
+            1
+          ],
+          [
+            0.8361,
+            0.4638
+          ],
+          [
+            0.8367,
+            0.341,
+            1
+          ],
+          [
+            0.7917,
+            0.6877
+          ],
+          [
+            0.7872,
+            0.6715,
+            1
+          ],
+          [
+            0.7906,
+            0.5444,
+            1
+          ],
+          [
+            0.7839,
+            0.626
+          ],
+          [
+            0.7783,
+            0.6132,
+            1
+          ],
+          [
+            0.7794,
+            0.4788,
+            1
+          ],
+          [
+            0.7672,
+            0.6161
+          ],
+          [
+            0.7589,
+            0.5664
+          ],
+          [
+            0.7572,
+            0.4868
+          ],
+          [
+            0.7672,
+            0.257
+          ],
+          [
+            0.7628,
+            0.1205,
+            1
+          ],
+          [
+            0.7717,
+            -0.0045
+          ],
+          [
+            0.7694,
+            -1.03,
+            1
+          ],
+          [
+            0.72,
+            -1.03,
+            1
+          ],
+          [
+            0.7139,
+            -0.2799
+          ],
+          [
+            0.7139,
+            -0.1008,
+            1
+          ],
+          [
+            0.7106,
+            -0.099,
+            1
+          ],
+          [
+            0.7094,
+            -0.1818,
+            1
+          ],
+          [
+            0.7056,
+            -0.1338
+          ],
+          [
+            0.7067,
+            0.0883
+          ],
+          [
+            0.7083,
+            0.1176,
+            1
+          ],
+          [
+            0.7133,
+            0.0856,
+            1
+          ],
+          [
+            0.7139,
+            0.1306
+          ],
+          [
+            0.7083,
+            0.1938
+          ],
+          [
+            0.7022,
+            0.2035
+          ],
+          [
+            0.6978,
+            0.3684
+          ],
+          [
+            0.6844,
+            0.657
+          ],
+          [
+            0.6694,
+            1.03,
+            1
+          ],
+          [
+            0.7311,
+            1.03
+          ],
+          [
+            0.7456,
+            0.6801,
+            1
+          ],
+          [
+            0.7472,
+            0.7712,
+            1
+          ],
+          [
+            0.7439,
+            1.03,
+            1
+          ],
+          [
+            0.835,
+            1.03
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6,
+          3
+        ]
+      },
+      {
+        "name": "amber profiles",
+        "color": "amber",
+        "smooth": true,
+        "points": [
+          [
+            0.5156,
+            0.6305,
+            1
+          ],
+          [
+            0.5411,
+            0.4725
+          ],
+          [
+            0.5561,
+            0.1926,
+            1
+          ],
+          [
+            0.5656,
+            0.3362
+          ],
+          [
+            0.5694,
+            0.3446
+          ],
+          [
+            0.5794,
+            0.1999
+          ],
+          [
+            0.5856,
+            0.1694
+          ],
+          [
+            0.5911,
+            -1.03,
+            1
+          ],
+          [
+            0.5222,
+            -1.03,
+            1
+          ],
+          [
+            0.52,
+            -0.1385
+          ],
+          [
+            0.5228,
+            0.0009
+          ],
+          [
+            0.5194,
+            0.096
+          ],
+          [
+            0.5267,
+            0.2084
+          ],
+          [
+            0.5267,
+            0.2551
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6,
+          3
+        ]
+      },
+      {
+        "name": "amber profiles",
+        "color": "amber",
+        "smooth": true,
+        "points": [
+          [
+            0.7578,
+            0.531,
+            1
+          ],
+          [
+            0.7672,
+            0.6025
+          ],
+          [
+            0.7794,
+            0.468,
+            1
+          ],
+          [
+            0.7783,
+            0.5995,
+            1
+          ],
+          [
+            0.7839,
+            0.6118
+          ],
+          [
+            0.7922,
+            0.5196
+          ],
+          [
+            0.8033,
+            0.2787
+          ],
+          [
+            0.8117,
+            0.2637
+          ],
+          [
+            0.8194,
+            0.3252
+          ],
+          [
+            0.8267,
+            0.2705
+          ],
+          [
+            0.8339,
+            0.096
+          ],
+          [
+            0.8344,
+            -0.012
+          ],
+          [
+            0.8294,
+            -0.3156
+          ],
+          [
+            0.8278,
+            -1.03,
+            1
+          ],
+          [
+            0.77,
+            -1.03,
+            1
+          ],
+          [
+            0.7722,
+            -0.005
+          ],
+          [
+            0.7633,
+            0.1201,
+            1
+          ],
+          [
+            0.7678,
+            0.2567
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6,
+          3
+        ]
+      },
+      {
+        "name": "amber profiles",
+        "color": "amber",
+        "smooth": true,
+        "points": [
+          [
+            0.4561,
+            0.4538,
+            1
+          ],
+          [
+            0.4817,
+            0.1635
+          ],
+          [
+            0.4828,
+            0.1261
+          ],
+          [
+            0.4789,
+            0.0309
+          ],
+          [
+            0.4833,
+            -0.042,
+            1
+          ],
+          [
+            0.4872,
+            -0.0202
+          ],
+          [
+            0.4894,
+            0.1558,
+            1
+          ],
+          [
+            0.4978,
+            0.1632
+          ],
+          [
+            0.5006,
+            0.1333
+          ],
+          [
+            0.5039,
+            -0.0424
+          ],
+          [
+            0.5006,
+            -0.2059
+          ],
+          [
+            0.5017,
+            -1.03,
+            1
+          ],
+          [
+            0.4556,
+            -1.03,
+            1
+          ],
+          [
+            0.45,
+            -0.2202
+          ],
+          [
+            0.4511,
+            -0.1295
+          ],
+          [
+            0.4478,
+            -0.0561,
+            1
+          ],
+          [
+            0.4572,
+            0.0531
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6,
+          3
+        ]
+      },
+      {
+        "name": "copper profiles",
+        "color": "copper",
+        "smooth": true,
+        "points": [
+          [
+            0.5117,
+            1.03,
+            1
+          ],
+          [
+            0.5689,
+            1.03
+          ],
+          [
+            0.5983,
+            0.5234
+          ],
+          [
+            0.61,
+            0.1918
+          ],
+          [
+            0.6056,
+            0.1092
+          ],
+          [
+            0.6083,
+            0.0284
+          ],
+          [
+            0.6039,
+            -0.1256
+          ],
+          [
+            0.6067,
+            -1.03,
+            1
+          ],
+          [
+            0.5917,
+            -1.03,
+            1
+          ],
+          [
+            0.5861,
+            0.1694
+          ],
+          [
+            0.5794,
+            0.2076
+          ],
+          [
+            0.5694,
+            0.3532
+          ],
+          [
+            0.5656,
+            0.3447
+          ],
+          [
+            0.5561,
+            0.2003,
+            1
+          ],
+          [
+            0.5433,
+            0.453
+          ],
+          [
+            0.5139,
+            0.658
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6,
+          3
+        ]
+      },
+      {
+        "name": "dark brown profiles",
+        "color": "ember",
+        "smooth": true,
+        "points": [
+          [
+            0.5228,
+            0.2395
+          ],
+          [
+            0.5133,
+            0.1781
+          ],
+          [
+            0.4828,
+            0.2014
+          ],
+          [
+            0.4439,
+            0.6308
+          ],
+          [
+            0.4361,
+            1.03,
+            1
+          ],
+          [
+            0.4939,
+            1.03
+          ],
+          [
+            0.5083,
+            0.644
+          ],
+          [
+            0.5128,
+            0.6725,
+            1
+          ],
+          [
+            0.5228,
+            0.32
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6,
+          3
+        ]
+      },
+      {
+        "name": "copper profiles",
+        "color": "copper",
+        "smooth": true,
+        "points": [
+          [
+            0.3778,
+            0.6047
+          ],
+          [
+            0.3839,
+            0.5924
+          ],
+          [
+            0.3917,
+            0.3887
+          ],
+          [
+            0.4,
+            0.3285
+          ],
+          [
+            0.4011,
+            0.1782
+          ],
+          [
+            0.4061,
+            0.0159,
+            1
+          ],
+          [
+            0.4017,
+            -0.006,
+            1
+          ],
+          [
+            0.4039,
+            -0.0716,
+            1
+          ],
+          [
+            0.4,
+            -0.101
+          ],
+          [
+            0.3967,
+            -0.2215
+          ],
+          [
+            0.3967,
+            -1.03,
+            1
+          ],
+          [
+            0.3917,
+            -1.03
+          ],
+          [
+            0.3733,
+            -0.369
+          ],
+          [
+            0.3767,
+            -0.0575
+          ],
+          [
+            0.3711,
+            0.0445
+          ],
+          [
+            0.3722,
+            0.1403
+          ],
+          [
+            0.3783,
+            0.2473
+          ],
+          [
+            0.3761,
+            0.5458
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6,
+          3
+        ]
+      },
+      {
+        "name": "amber profiles",
+        "color": "amber",
+        "smooth": true,
+        "points": [
+          [
+            0.435,
+            0.1411
+          ],
+          [
+            0.4378,
+            0.0529
+          ],
+          [
+            0.4322,
+            -0.0491
+          ],
+          [
+            0.4311,
+            -0.1673
+          ],
+          [
+            0.4244,
+            -0.2286
+          ],
+          [
+            0.4239,
+            -1.03,
+            1
+          ],
+          [
+            0.3972,
+            -1.03,
+            1
+          ],
+          [
+            0.3972,
+            -0.2215
+          ],
+          [
+            0.4006,
+            -0.101
+          ],
+          [
+            0.4044,
+            -0.0715,
+            1
+          ],
+          [
+            0.4022,
+            -0.006,
+            1
+          ],
+          [
+            0.4067,
+            0.0159,
+            1
+          ],
+          [
+            0.4039,
+            0.0816,
+            1
+          ],
+          [
+            0.4106,
+            0.089
+          ],
+          [
+            0.4156,
+            0.1483
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6,
+          3
+        ]
+      },
+      {
+        "name": "dark brown profiles",
+        "color": "ember",
+        "smooth": true,
+        "points": [
+          [
+            0.6794,
+            0.2611
+          ],
+          [
+            0.6756,
+            0.2062,
+            1
+          ],
+          [
+            0.6594,
+            0.3351
+          ],
+          [
+            0.6517,
+            0.3437
+          ],
+          [
+            0.645,
+            0.2378
+          ],
+          [
+            0.6383,
+            0.23
+          ],
+          [
+            0.62,
+            0.5233
+          ],
+          [
+            0.6044,
+            0.703
+          ],
+          [
+            0.5956,
+            0.6435
+          ],
+          [
+            0.5917,
+            0.7373
+          ],
+          [
+            0.5917,
+            1.03,
+            1
+          ],
+          [
+            0.6472,
+            1.03
+          ],
+          [
+            0.6628,
+            0.6717
+          ],
+          [
+            0.6672,
+            0.7027
+          ],
+          [
+            0.6783,
+            0.3781
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6,
+          3
+        ]
+      },
+      {
+        "name": "copper profiles",
+        "color": "copper",
+        "smooth": true,
+        "points": [
           [
             0.46,
-            0.82
+            0.4348,
+            1
           ],
           [
-            0.47,
-            0.25
+            0.475,
+            0.248
           ],
           [
-            0.43,
-            0.05
+            0.4856,
+            0.1861
+          ],
+          [
+            0.5133,
+            0.1705
+          ],
+          [
+            0.52,
+            0.1932
+          ],
+          [
+            0.5239,
+            0.3034,
+            1
+          ],
+          [
+            0.5261,
+            0.2084
+          ],
+          [
+            0.5189,
+            0.096
+          ],
+          [
+            0.5222,
+            0.0009
+          ],
+          [
+            0.5194,
+            -0.1384
+          ],
+          [
+            0.5217,
+            -1.03,
+            1
+          ],
+          [
+            0.5022,
+            -1.03,
+            1
+          ],
+          [
+            0.5011,
+            -0.2059
+          ],
+          [
+            0.5044,
+            -0.0424
+          ],
+          [
+            0.5011,
+            0.1333
+          ],
+          [
+            0.4978,
+            0.1707
+          ],
+          [
+            0.4894,
+            0.1633,
+            1
+          ],
+          [
+            0.4867,
+            -0.0202
+          ],
+          [
+            0.4833,
+            -0.0347,
+            1
+          ],
+          [
+            0.4794,
+            0.0309
+          ],
+          [
+            0.4833,
+            0.1261
+          ],
+          [
+            0.4822,
+            0.1635
           ]
         ],
-        "confidence": "low",
+        "confidence": "medium",
         "sourceRefs": [
-          0,
+          6,
           3
         ]
       },
       {
-        "name": "dark brown profiles low behind the wing",
-        "color": "ember",
+        "name": "copper profiles",
+        "color": "copper",
+        "smooth": true,
         "points": [
           [
-            0.63,
-            -0.2
+            0.68,
+            0.3015,
+            1
           ],
           [
-            0.7,
-            0.25
+            0.6828,
+            0.2294
           ],
           [
-            0.78,
-            0.2
+            0.6794,
+            0.108
           ],
           [
-            0.82,
-            -0.5
+            0.6817,
+            0.0269
           ],
           [
-            0.78,
-            -0.92
+            0.6817,
+            -0.3488
           ],
           [
-            0.64,
-            -0.92
+            0.6767,
+            -0.6377,
+            1
+          ],
+          [
+            0.6739,
+            -0.5744
+          ],
+          [
+            0.6722,
+            -0.3745
+          ],
+          [
+            0.6739,
+            -0.0977
+          ],
+          [
+            0.6711,
+            0.0272
+          ],
+          [
+            0.6733,
+            0.168,
+            1
+          ],
+          [
+            0.6656,
+            0.2219
+          ],
+          [
+            0.665,
+            0.2773,
+            1
+          ],
+          [
+            0.6761,
+            0.1985,
+            1
           ]
         ],
-        "confidence": "low",
+        "confidence": "medium",
         "sourceRefs": [
-          0,
+          6,
+          3
+        ]
+      },
+      {
+        "name": "dark brown profiles",
+        "color": "ember",
+        "smooth": true,
+        "points": [
+          [
+            0.8694,
+            -0.049
+          ],
+          [
+            0.8711,
+            -0.1233
+          ],
+          [
+            0.8683,
+            -0.1764,
+            1
+          ],
+          [
+            0.8633,
+            -0.1032
+          ],
+          [
+            0.8594,
+            -0.1241
+          ],
+          [
+            0.8561,
+            -0.4576
+          ],
+          [
+            0.8483,
+            -0.5883
+          ],
+          [
+            0.845,
+            -1.03
+          ],
+          [
+            0.84,
+            -1.03,
+            1
+          ],
+          [
+            0.8344,
+            -0.2026,
+            1
+          ],
+          [
+            0.8422,
+            -0.4304
+          ],
+          [
+            0.8472,
+            -0.5119,
+            1
+          ],
+          [
+            0.8511,
+            -0.2227,
+            1
+          ],
+          [
+            0.8422,
+            -0.1169,
+            1
+          ],
+          [
+            0.8578,
+            0.0133
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6,
+          3
+        ]
+      },
+      {
+        "name": "copper profiles",
+        "color": "copper",
+        "smooth": true,
+        "points": [
+          [
+            0.4339,
+            -0.0345,
+            1
+          ],
+          [
+            0.4389,
+            -1.03,
+            1
+          ],
+          [
+            0.4244,
+            -1.03,
+            1
+          ],
+          [
+            0.425,
+            -0.2286
+          ],
+          [
+            0.4317,
+            -0.1673
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6,
+          3
+        ]
+      },
+      {
+        "name": "dark brown profiles",
+        "color": "ember",
+        "smooth": true,
+        "points": [
+          [
+            0.435,
+            -0.1899,
+            1
+          ],
+          [
+            0.4411,
+            -0.4112,
+            1
+          ],
+          [
+            0.445,
+            -0.3754
+          ],
+          [
+            0.4478,
+            -0.2673,
+            1
+          ],
+          [
+            0.4444,
+            -1.03,
+            1
+          ],
+          [
+            0.4394,
+            -1.03,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6,
+          3
+        ]
+      },
+      {
+        "name": "copper profiles",
+        "color": "copper",
+        "smooth": true,
+        "points": [
+          [
+            0.8339,
+            -0.192,
+            1
+          ],
+          [
+            0.8394,
+            -1.03,
+            1
+          ],
+          [
+            0.8283,
+            -1.03,
+            1
+          ],
+          [
+            0.83,
+            -0.3171
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6,
+          3
+        ]
+      },
+      {
+        "name": "copper profiles",
+        "color": "copper",
+        "smooth": true,
+        "points": [
+          [
+            0.4494,
+            -0.2279,
+            1
+          ],
+          [
+            0.455,
+            -1.03,
+            1
+          ],
+          [
+            0.445,
+            -1.03,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6,
+          3
+        ]
+      },
+      {
+        "name": "dark brown profiles",
+        "color": "ember",
+        "smooth": true,
+        "points": [
+          [
+            0.4539,
+            0.2017,
+            1
+          ],
+          [
+            0.455,
+            0.0677
+          ],
+          [
+            0.4528,
+            0.024,
+            1
+          ],
+          [
+            0.45,
+            0.0531
+          ],
+          [
+            0.4378,
+            0.0602,
+            1
+          ],
+          [
+            0.4378,
+            0.1787,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6,
+          3
+        ]
+      },
+      {
+        "name": "black between the heads",
+        "color": "black",
+        "smooth": true,
+        "points": [
+          [
+            0.435,
+            -0.1522,
+            1
+          ],
+          [
+            0.45,
+            -0.182,
+            1
+          ],
+          [
+            0.4428,
+            -0.4021,
+            1
+          ],
+          [
+            0.44,
+            -0.3843
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6,
+          3
+        ]
+      },
+      {
+        "name": "black between the heads",
+        "color": "black",
+        "smooth": true,
+        "points": [
+          [
+            0.5956,
+            0.5919,
+            1
+          ],
+          [
+            0.5694,
+            1.03,
+            1
+          ],
+          [
+            0.5911,
+            1.03,
+            1
+          ],
+          [
+            0.5911,
+            0.7373
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6,
+          3
+        ]
+      },
+      {
+        "name": "copper profiles",
+        "color": "copper",
+        "smooth": true,
+        "points": [
+          [
+            0.7872,
+            0.3257,
+            1
+          ],
+          [
+            0.7922,
+            0.2241
+          ],
+          [
+            0.7922,
+            0.1559
+          ],
+          [
+            0.7972,
+            0.093
+          ],
+          [
+            0.795,
+            -0.0444,
+            1
+          ],
+          [
+            0.7856,
+            0.2993
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6,
+          3
+        ]
+      },
+      {
+        "name": "dark brown profiles",
+        "color": "ember",
+        "smooth": true,
+        "points": [
+          [
+            0.4506,
+            -0.1295
+          ],
+          [
+            0.45,
+            -0.1669,
+            1
+          ],
+          [
+            0.4372,
+            -0.1596
+          ],
+          [
+            0.435,
+            -0.0856,
+            1
+          ],
+          [
+            0.4456,
+            -0.0416,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6,
+          3
+        ]
+      },
+      {
+        "name": "black between the heads",
+        "color": "black",
+        "smooth": true,
+        "points": [
+          [
+            0.4522,
+            0.0167,
+            1
+          ],
+          [
+            0.4472,
+            0.0021
+          ],
+          [
+            0.4433,
+            -0.0562
+          ],
+          [
+            0.4344,
+            -0.071,
+            1
+          ],
+          [
+            0.4378,
+            0.0456
+          ],
+          [
+            0.45,
+            0.0458
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6,
+          3
+        ]
+      },
+      {
+        "name": "black between the heads",
+        "color": "black",
+        "smooth": true,
+        "points": [
+          [
+            0.5122,
+            0.6725,
+            1
+          ],
+          [
+            0.5006,
+            0.7377
+          ],
+          [
+            0.4944,
+            1.03,
+            1
+          ],
+          [
+            0.5111,
+            1.03,
+            1
+          ]
+        ],
+        "confidence": "medium",
+        "sourceRefs": [
+          6,
           3
         ]
       }
@@ -275,20 +1943,24 @@
       "mark": "ASA/our-commitment-profiles",
       "place": "fuselage",
       "at": [
-        0.62,
+        0.617,
         0.0
       ],
-      "height": 1.9,
+      "height": 2.0,
       "colors": [
+        "plum",
+        "ember",
         "copper",
-        "amber",
-        "ember"
+        "orange",
+        "amber"
       ],
-      "description": "Fourteen profiles of young people facing forward, overlapping like a crowd, in copper, amber and brown on the black.",
+      "description": "Fourteen profiles of young people (children, grandchildren and mentees of Alaska employees), each a flat head-and-shoulders silhouette facing forward: forehead, nose, lips and chin on the forward edge, hair in many styles on top, the neck and shoulders running down toward the belly. They overlap like a crowd from over the wing's leading edge to the aft door, heads at different heights, in amber, orange, copper, brown and a dark plum-brown on the black. The design is by an Alaska employee whose child is one of the profiles.",
       "confidence": "medium",
       "sourceRefs": [
         0,
-        3
+        2,
+        3,
+        6
       ]
     },
     {
@@ -396,6 +2068,35 @@
       }
     },
     {
+      "text": "IS",
+      "place": "fuselage",
+      "at": [
+        0.214,
+        -0.2
+      ],
+      "height": 0.1,
+      "color": "bone",
+      "style": "Small condensed capitals in off-white, tucked between 'DO WHAT' and 'RIGHT.'",
+      "side": "left",
+      "confidence": "medium",
+      "sourceRefs": [
+        3,
+        5
+      ],
+      "length": 0.013,
+      "type": {
+        "similar": [
+          "Futura Extra Bold Condensed",
+          "Helvetica Neue Condensed Black"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
       "text": "RIGHT.",
       "place": "fuselage",
       "at": [
@@ -404,7 +2105,7 @@
       ],
       "height": 0.242,
       "color": "bone",
-      "style": "The biggest line, off-white; a small 'IS' sits between it and 'DO WHAT'.",
+      "style": "The biggest line, off-white, a small 'IS' just ahead of it.",
       "side": "left",
       "confidence": "medium",
       "sourceRefs": [
@@ -424,77 +2125,166 @@
       }
     },
     {
+      "text": "-DR. MARTIN LUTHER KING JR.",
+      "place": "fuselage",
+      "at": [
+        0.237,
+        -0.43
+      ],
+      "height": 0.05,
+      "color": "orange",
+      "style": "The attribution in small orange capitals under 'RIGHT.'",
+      "side": "left",
+      "confidence": "medium",
+      "sourceRefs": [
+        3
+      ],
+      "length": 0.085,
+      "type": {
+        "similar": [
+          "Futura Extra Bold Condensed",
+          "Helvetica Neue Condensed Black"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
       "text": "EDUCATION",
       "place": "fuselage",
       "at": [
-        0.25,
-        0.5
+        0.231,
+        0.513
       ],
-      "height": 0.14,
-      "color": "orange",
-      "style": "Condensed capitals in orange, the first line of Mandela's quote.",
-      "side": "right",
-      "confidence": "low",
-      "sourceRefs": [
-        0
-      ],
-      "length": 0.08,
-      "type": {
-        "similar": [
-          "Futura Extra Bold Condensed",
-          "Helvetica Neue Condensed Black"
-        ],
-        "weight": 800,
-        "slantDeg": 0,
-        "width": "normal",
-        "strokes": "uniform",
-        "case": "upper"
-      }
-    },
-    {
-      "text": "IS THE MOST POWERFUL WEAPON WE CAN",
-      "place": "fuselage",
-      "at": [
-        0.23,
-        0.36
-      ],
-      "height": 0.08,
-      "color": "orange",
-      "style": "Small condensed capitals in orange.",
-      "side": "right",
-      "confidence": "low",
-      "sourceRefs": [
-        0
-      ],
-      "length": 0.11,
-      "type": {
-        "similar": [
-          "Futura Extra Bold Condensed",
-          "Helvetica Neue Condensed Black"
-        ],
-        "weight": 800,
-        "slantDeg": 0,
-        "width": "normal",
-        "strokes": "uniform",
-        "case": "upper"
-      }
-    },
-    {
-      "text": "USE TO CHANGE",
-      "place": "fuselage",
-      "at": [
-        0.23,
-        0.05
-      ],
-      "height": 0.17,
+      "height": 0.159,
       "color": "bone",
-      "style": "Heavy condensed capitals, 'CHANGE' in off-white.",
+      "style": "Heavy italic condensed capitals in off-white, the first line of Mandela's quote, its top near the crown.",
       "side": "right",
-      "confidence": "low",
+      "confidence": "medium",
       "sourceRefs": [
-        0
+        0,
+        6
       ],
-      "length": 0.11,
+      "length": 0.097,
+      "type": {
+        "similar": [
+          "Futura Extra Bold Condensed",
+          "Helvetica Neue Condensed Black"
+        ],
+        "weight": 800,
+        "slantDeg": 12,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "IS THE MOST POWERFUL",
+      "place": "fuselage",
+      "at": [
+        0.211,
+        0.406
+      ],
+      "height": 0.086,
+      "color": "orange",
+      "style": "Italic condensed capitals in orange.",
+      "side": "right",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        6
+      ],
+      "length": 0.129,
+      "type": {
+        "similar": [
+          "Futura Extra Bold Condensed",
+          "Helvetica Neue Condensed Black"
+        ],
+        "weight": 800,
+        "slantDeg": 12,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "WEAPON WE",
+      "place": "fuselage",
+      "at": [
+        0.256,
+        0.294
+      ],
+      "height": 0.102,
+      "color": "orange",
+      "style": "Italic condensed capitals in orange just over the windows, 'CAN' after them in off-white.",
+      "side": "right",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        6
+      ],
+      "length": 0.068,
+      "type": {
+        "similar": [
+          "Futura Extra Bold Condensed",
+          "Helvetica Neue Condensed Black"
+        ],
+        "weight": 800,
+        "slantDeg": 12,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "CAN",
+      "place": "fuselage",
+      "at": [
+        0.229,
+        0.294
+      ],
+      "height": 0.102,
+      "color": "bone",
+      "style": "Italic condensed capitals in off-white ending the line.",
+      "side": "right",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        6
+      ],
+      "length": 0.021,
+      "type": {
+        "similar": [
+          "Futura Extra Bold Condensed",
+          "Helvetica Neue Condensed Black"
+        ],
+        "weight": 800,
+        "slantDeg": 12,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "USE TO",
+      "place": "fuselage",
+      "at": [
+        0.286,
+        -0.059
+      ],
+      "height": 0.169,
+      "color": "orange",
+      "style": "Heavy condensed capitals in orange just under the windows, 'CHANGE' after them in off-white.",
+      "side": "right",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        6
+      ],
+      "length": 0.052,
       "type": {
         "similar": [
           "Futura Extra Bold Condensed",
@@ -508,21 +2298,109 @@
       }
     },
     {
-      "text": "THE WORLD.",
+      "text": "CHANGE",
       "place": "fuselage",
       "at": [
-        0.23,
-        -0.27
+        0.206,
+        -0.059
       ],
-      "height": 0.26,
+      "height": 0.169,
       "color": "bone",
-      "style": "The biggest line, off-white.",
+      "style": "Heavy condensed capitals in off-white ending the line.",
       "side": "right",
-      "confidence": "low",
+      "confidence": "medium",
       "sourceRefs": [
-        0
+        0,
+        6
       ],
-      "length": 0.12,
+      "length": 0.075,
+      "type": {
+        "similar": [
+          "Futura Extra Bold Condensed",
+          "Helvetica Neue Condensed Black"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "THE",
+      "place": "fuselage",
+      "at": [
+        0.317,
+        -0.155
+      ],
+      "height": 0.125,
+      "color": "bone",
+      "style": "Small heavy capitals in off-white, aft of 'WORLD.'",
+      "side": "right",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        6
+      ],
+      "length": 0.025,
+      "type": {
+        "similar": [
+          "Futura Extra Bold Condensed",
+          "Helvetica Neue Condensed Black"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "WORLD.",
+      "place": "fuselage",
+      "at": [
+        0.182,
+        -0.323
+      ],
+      "height": 0.315,
+      "color": "bone",
+      "style": "The biggest line, heavy condensed capitals in off-white.",
+      "side": "right",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        6
+      ],
+      "length": 0.13,
+      "type": {
+        "similar": [
+          "Futura Extra Bold Condensed",
+          "Helvetica Neue Condensed Black"
+        ],
+        "weight": 800,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "uniform",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "-NELSON MANDELA",
+      "place": "fuselage",
+      "at": [
+        0.182,
+        -0.37
+      ],
+      "height": 0.045,
+      "color": "orange",
+      "style": "The attribution in small orange capitals under the forward end of 'WORLD.'",
+      "side": "right",
+      "confidence": "medium",
+      "sourceRefs": [
+        0,
+        6
+      ],
+      "length": 0.057,
       "type": {
         "similar": [
           "Futura Extra Bold Condensed",
@@ -539,10 +2417,10 @@
       "text": "Alaska",
       "place": "fin",
       "at": [
-        0.3,
-        0.06
+        0.46,
+        0.0
       ],
-      "height": 0.15,
+      "height": 0.25,
       "color": "slate",
       "style": "The 2016 Alaska wordmark in dark gray, reading up the fin from near the root toward the tip.",
       "confidence": "medium",
@@ -550,7 +2428,7 @@
         0,
         3
       ],
-      "length": 0.6,
+      "length": 1.38,
       "type": {
         "similar": [
           "Kaufmann Bold",
@@ -563,7 +2441,7 @@
         "case": "mixed",
         "xHeight": 0.55
       },
-      "rotationDeg": 55
+      "rotationDeg": 61.0
     }
   ]
 }

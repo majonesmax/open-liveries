@@ -26,6 +26,12 @@
       "title": "Southwest Boeing 737-8 MAX N1776R BWI MD1.jpg (CC BY-SA 4.0)",
       "accessed": "2026-11-12",
       "note": "N1776R from the left and below, 2026-04-30: the same, and the navy winglets with the 250 mark."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Southwest_Boeing_737-8_MAX_N1776R_BWI_MD3.jpg",
+      "title": "Southwest Boeing 737-8 MAX N1776R BWI MD3.jpg (CC BY-SA 4.0)",
+      "accessed": "2026-11-27",
+      "note": "N1776R from behind on the left, 2026-04-30, sharp at full resolution: the thirteen fuselage stars, placed against the overwing exits and the rear door."
     }
   ],
   "palette": {
@@ -430,14 +436,14 @@
       "place": "fuselage",
       "at": [
         0.069,
-        -0.105
+        -0.11
       ],
-      "height": 0.4,
+      "height": 0.2,
       "colors": [
         "white",
         "sweepRed"
       ],
-      "description": "The America250 mark under the cockpit: 'AMERICA' in small white serif capitals over a large red, white and blue '250'.",
+      "description": "The America250 mark under the cockpit windows: the red, white and blue '250', with 'AMERICA' in small white serif capitals over it (a title here).",
       "reference": "https://www.prnewswire.com/news-releases/southwest-airlines-announces-partnership-with-america250-and-unveils-independence-one-in-celebration-of-giving-people-the-freedom-to-fly-for-55-years-302754776.html",
       "confidence": "medium",
       "sourceRefs": [
@@ -488,16 +494,17 @@
       "mark": "SWA/independence-stars",
       "place": "fuselage",
       "at": [
-        0.58,
-        0.29
+        0.616,
+        0.28
       ],
-      "height": 0.6,
+      "height": 0.708,
       "colors": [
         "white"
       ],
-      "description": "White five-pointed stars of mixed sizes scattered over the navy from the forward cabin to the tail, round the script.",
+      "description": "Thirteen white five-pointed stars of mixed sizes scattered over the navy, from behind '1776' to aft of the rear door: ten above the window line, three under it. One box from x 0.358 to 0.874, from 0.3 m under the centerline to 1.6 m over it.",
       "confidence": "medium",
       "sourceRefs": [
+        4,
         3
       ]
     },
@@ -508,11 +515,11 @@
         0.45,
         0
       ],
-      "height": 1.2,
+      "height": 1.35,
       "colors": [
         "white"
       ],
-      "description": "A ring of 13 white stars on each navy cowling, as in the Betsy Ross flag.",
+      "description": "A ring of 13 white stars on each navy cowling, as in the Betsy Ross flag, about two thirds of the cowling's height.",
       "confidence": "medium",
       "sourceRefs": [
         3
@@ -566,16 +573,44 @@
       "length": 0.86
     },
     {
-      "text": "1776",
+      "text": "AMERICA",
       "place": "fuselage",
       "at": [
-        0.164,
-        -0.276
+        0.062,
+        0.01
       ],
-      "height": 1.3,
-      "length": 0.17,
+      "height": 0.07,
+      "length": 0.019,
+      "color": "white",
+      "style": "Small white serif capitals over the '250' under the cockpit windows, part of the America250 mark.",
+      "confidence": "medium",
+      "sourceRefs": [
+        3
+      ],
+      "type": {
+        "similar": [
+          "Trajan",
+          "Cinzel"
+        ],
+        "weight": 500,
+        "slantDeg": 0,
+        "width": "normal",
+        "strokes": "contrast",
+        "case": "upper"
+      }
+    },
+    {
+      "text": "1776",
+      "mark": "SWA/script-1776",
+      "place": "fuselage",
+      "at": [
+        0.154,
+        -0.245
+      ],
+      "height": 0.805,
+      "length": 0.16,
       "color": "cream",
-      "style": "Huge hand-written quill numerals, as on the Declaration, over the forward cabin from the forward door to the wing; the 7s' tails drop through the red sweep.",
+      "style": "Huge quill numerals as on the Declaration: thick slanting downstrokes, the 7s' wavy tops and stems dropping through the red sweep, the 6 a long stroke into a loop. Box from the 6's foot to its top; the 7s run below it.",
       "confidence": "medium",
       "sourceRefs": [
         3
@@ -594,14 +629,15 @@
     },
     {
       "text": "Life, Liberty and the",
+      "mark": "SWA/script-life-liberty",
       "place": "fuselage",
       "at": [
-        0.575,
-        0.211
+        0.599,
+        0.265
       ],
-      "height": 0.28,
+      "height": 0.187,
       "color": "white",
-      "style": "Copperplate script in two lines over the aft cabin, the second set further aft.",
+      "style": "The engrossed hand of the Declaration (1776): a slanted copperplate with looped capitals, just over the windows. Box from the baseline to the L's top.",
       "confidence": "medium",
       "sourceRefs": [
         3
@@ -618,18 +654,19 @@
         "case": "mixed",
         "xHeight": 0.45
       },
-      "length": 0.196
+      "length": 0.154
     },
     {
       "text": "pursuit of Happiness.",
+      "mark": "SWA/script-pursuit",
       "place": "fuselage",
       "at": [
-        0.646,
-        -0.134
+        0.637,
+        -0.033
       ],
-      "height": 0.28,
+      "height": 0.141,
       "color": "white",
-      "style": "Copperplate script, the second line.",
+      "style": "The same hand, the second line, under the windows and set further aft. Box from the baseline to the H's top.",
       "confidence": "medium",
       "sourceRefs": [
         3
@@ -646,8 +683,8 @@
         "case": "mixed",
         "xHeight": 0.45
       },
-      "length": 0.17
+      "length": 0.157
     }
   ],
-  "notes": "Whether it stays after 2026 not stated. Drawn from April 2026 photos of N1776R (left side). Not the Heart fin: navy, white and red bands on the same lines as the Heart's. The right side is not seen in these photos. Re-checked 2026-11-15 on the April 2026 broadside photo (doors as the scale: 45 px/m): the quotation's two lines had no length and ran far too long; measured, 'Life, Liberty and the' runs 21.9-29.3 m back (x 0.575-0.771) above the windows, 'pursuit of Happiness.' 24.6-31.0 m (0.646-0.816) just under them, the script's lowercase about 0.45 of its capitals. '1776' checked (6.3-12.4 m, as drawn). The red sweep and the cream under it, traced as points along curves, made smooth. The fin's bands put on the Heart fin's lines as re-measured on Colorado One (the white where the Heart's red is, the red where its yellow is), with the same 'Southwest' title; drawn on the 737-8. 2026-11-15: a Commons photo whose source is airliners.net was dropped (the dataset doesn't draw from photo sites); its parts now cite the other photo."
+  "notes": "Whether it stays after 2026 not stated. Drawn from April 2026 photos of N1776R (left side). Not the Heart fin: navy, white and red bands on the same lines as the Heart's. The right side is not seen in these photos. Re-checked 2026-11-15 on the April 2026 broadside photo (doors as the scale: 45 px/m): the quotation's two lines had no length and ran far too long; measured, 'Life, Liberty and the' runs 21.9-29.3 m back (x 0.575-0.771) above the windows, 'pursuit of Happiness.' 24.6-31.0 m (0.646-0.816) just under them, the script's lowercase about 0.45 of its capitals. '1776' checked (6.3-12.4 m, as drawn). The red sweep and the cream under it, traced as points along curves, made smooth. The fin's bands put on the Heart fin's lines as re-measured on Colorado One (the white where the Heart's red is, the red where its yellow is), with the same 'Southwest' title; drawn on the 737-8. 2026-11-15: a Commons photo whose source is airliners.net was dropped (the dataset doesn't draw from photo sites); its parts now cite the other photo. Re-checked 2026-11-27 on the BWI photos (2026-04-30) at full resolution: the '250' under the cockpit is about 0.5 m tall, not 1 m (height 0.2, was 0.4), with 'AMERICA' small over it; the thirteen fuselage stars measured one by one against the overwing exits and the rear door (MD3); the cowling's star ring spans about two thirds of its height (1.35, was 1.2). 2026-11-28, on the owner's review: '1776' and the two lines of the quotation are drawn as marks (SWA/script-1776, SWA/script-life-liberty, SWA/script-pursuit), the lettering traced off the BWI photo (MD1) rather than set in a stand-in script. Their places were re-measured on it against the forward and aft doors and the window row. 'Life, Liberty and the' runs x 0.599-0.753 just over the windows; it had been drawn from x 0.575, too far forward and too long. 'pursuit of Happiness.' runs 0.637-0.794 under them, and '1776' runs 0.154-0.314. Lettering isn't mirrored. The right side isn't in any open photo."
 }

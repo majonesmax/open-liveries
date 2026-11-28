@@ -23,10 +23,10 @@
       "url": "https://commons.wikimedia.org/wiki/File:N661QX_@_LAX,_2024-01-20.jpg",
       "title": "N661QX @ LAX, 2024-01-20.jpg (CC0)",
       "accessed": "2026-11-14",
-      "note": "Left side landing at LAX, 2024-01-20: the same layout."
+      "note": "Right side landing at LAX, 2024-01-20 (nose to the right): the same layout, 'HORIZON' forward of 'Alaska'; the Cougar head traced from it."
     }
   ],
-  "notes": "Flown by Horizon (QXE) on the E175. No photo of the right side was found: it's drawn like the left, with 'HORIZON' forward of 'Alaska' as on Horizon's standard E175s and the sister jet N662QX. 'WASHINGTON STATE UNIVERSITY' (small, behind the wing) isn't drawn.",
+  "notes": "Flown by Horizon (QXE) on the E175. The right side (the CC0 photo at LAX) carries the same layout, with 'HORIZON' forward of 'Alaska'. 'WASHINGTON STATE UNIVERSITY' (small, behind the wing) isn't drawn.",
   "from": "2023-09",
   "palette": {
     "crimson": {
@@ -215,15 +215,15 @@
       "mark": "WSU/cougar-head",
       "place": "fin",
       "at": [
-        0.6,
-        0.38
+        0.66,
+        0.28
       ],
-      "height": 0.4,
+      "height": 0.5,
       "colors": [
         "white",
         "cougGray"
       ],
-      "description": "WSU's Cougar head logo in white on the gray fin.",
+      "description": "WSU's Cougar head in white on the gray fin, low and aft, facing forward on both sides; its foot near the tailplane.",
       "confidence": "high",
       "sourceRefs": [
         0,

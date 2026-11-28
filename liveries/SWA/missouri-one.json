@@ -62,23 +62,39 @@
       "official": false
     },
     "moRed": {
-      "hex": "#E8192F",
+      "hex": "#E31B23",
       "official": false
     },
     "moBlue": {
-      "hex": "#0A3CBE",
+      "hex": "#1048C8",
       "official": false
     },
     "sealGold": {
-      "hex": "#D99A1A",
+      "hex": "#F2B20F",
       "official": false
     },
     "shieldBlue": {
-      "hex": "#1E6FD9",
+      "hex": "#0A3CD0",
       "official": false
     },
     "bearBrown": {
-      "hex": "#B98A5E",
+      "hex": "#B8723E",
+      "official": false
+    },
+    "bearDark": {
+      "hex": "#62350F",
+      "official": false
+    },
+    "sealInk": {
+      "hex": "#231A14",
+      "official": false
+    },
+    "shieldSilver": {
+      "hex": "#C9CED6",
+      "official": false
+    },
+    "cowlBlue": {
+      "hex": "#0A7AF0",
       "official": false
     }
   },
@@ -235,7 +251,7 @@
         ]
       },
       {
-        "name": "starred blue circle, forward side (white stars)",
+        "name": "starred blue circle, forward side",
         "color": "moBlue",
         "points": [
           [
@@ -278,7 +294,7 @@
         ]
       },
       {
-        "name": "starred blue circle, aft side (white stars)",
+        "name": "starred blue circle, aft side",
         "color": "moBlue",
         "points": [
           [
@@ -312,444 +328,6 @@
           [
             0.551,
             1
-          ]
-        ],
-        "confidence": "medium",
-        "sourceRefs": [
-          2,
-          3
-        ]
-      },
-      {
-        "name": "coat of arms: gold ring ('UNITED WE STAND')",
-        "color": "sealGold",
-        "points": [
-          [
-            0.454,
-            -0.634
-          ],
-          [
-            0.453,
-            -0.437
-          ],
-          [
-            0.449,
-            -0.289
-          ],
-          [
-            0.444,
-            -0.167
-          ],
-          [
-            0.436,
-            -0.065
-          ],
-          [
-            0.426,
-            0.019
-          ],
-          [
-            0.415,
-            0.084
-          ],
-          [
-            0.403,
-            0.128
-          ],
-          [
-            0.389,
-            0.15
-          ],
-          [
-            0.376,
-            0.148
-          ],
-          [
-            0.362,
-            0.123
-          ],
-          [
-            0.349,
-            0.076
-          ],
-          [
-            0.337,
-            0.009
-          ],
-          [
-            0.325,
-            -0.075
-          ],
-          [
-            0.316,
-            -0.178
-          ],
-          [
-            0.308,
-            -0.299
-          ],
-          [
-            0.302,
-            -0.445
-          ],
-          [
-            0.299,
-            -0.64
-          ],
-          [
-            0.297,
-            -1.0
-          ],
-          [
-            0.299,
-            -1.0
-          ],
-          [
-            0.302,
-            -1.0
-          ],
-          [
-            0.308,
-            -1.0
-          ],
-          [
-            0.316,
-            -1.0
-          ],
-          [
-            0.325,
-            -1.0
-          ],
-          [
-            0.337,
-            -1.0
-          ],
-          [
-            0.349,
-            -1.0
-          ],
-          [
-            0.362,
-            -1.0
-          ],
-          [
-            0.376,
-            -1.0
-          ],
-          [
-            0.389,
-            -1.0
-          ],
-          [
-            0.403,
-            -1.0
-          ],
-          [
-            0.415,
-            -1.0
-          ],
-          [
-            0.426,
-            -1.0
-          ],
-          [
-            0.436,
-            -1.0
-          ],
-          [
-            0.444,
-            -1.0
-          ],
-          [
-            0.449,
-            -1.0
-          ],
-          [
-            0.453,
-            -1.0
-          ]
-        ],
-        "confidence": "medium",
-        "sourceRefs": [
-          2,
-          3
-        ],
-        "smooth": true
-      },
-      {
-        "name": "coat of arms: shield inside the ring",
-        "color": "shieldBlue",
-        "points": [
-          [
-            0.436,
-            -0.663
-          ],
-          [
-            0.435,
-            -0.499
-          ],
-          [
-            0.432,
-            -0.375
-          ],
-          [
-            0.428,
-            -0.274
-          ],
-          [
-            0.422,
-            -0.191
-          ],
-          [
-            0.415,
-            -0.124
-          ],
-          [
-            0.406,
-            -0.073
-          ],
-          [
-            0.396,
-            -0.039
-          ],
-          [
-            0.386,
-            -0.023
-          ],
-          [
-            0.376,
-            -0.024
-          ],
-          [
-            0.365,
-            -0.042
-          ],
-          [
-            0.355,
-            -0.078
-          ],
-          [
-            0.346,
-            -0.13
-          ],
-          [
-            0.337,
-            -0.197
-          ],
-          [
-            0.33,
-            -0.28
-          ],
-          [
-            0.324,
-            -0.381
-          ],
-          [
-            0.319,
-            -0.504
-          ],
-          [
-            0.316,
-            -0.667
-          ],
-          [
-            0.315,
-            -1.0
-          ],
-          [
-            0.316,
-            -1.0
-          ],
-          [
-            0.319,
-            -1.0
-          ],
-          [
-            0.324,
-            -1.0
-          ],
-          [
-            0.33,
-            -1.0
-          ],
-          [
-            0.337,
-            -1.0
-          ],
-          [
-            0.346,
-            -1.0
-          ],
-          [
-            0.355,
-            -1.0
-          ],
-          [
-            0.365,
-            -1.0
-          ],
-          [
-            0.376,
-            -1.0
-          ],
-          [
-            0.386,
-            -1.0
-          ],
-          [
-            0.396,
-            -1.0
-          ],
-          [
-            0.406,
-            -1.0
-          ],
-          [
-            0.415,
-            -1.0
-          ],
-          [
-            0.422,
-            -1.0
-          ],
-          [
-            0.428,
-            -1.0
-          ],
-          [
-            0.432,
-            -1.0
-          ],
-          [
-            0.435,
-            -1.0
-          ]
-        ],
-        "confidence": "medium",
-        "sourceRefs": [
-          2,
-          3
-        ],
-        "smooth": true
-      },
-      {
-        "name": "grizzly holding the shield, forward",
-        "color": "bearBrown",
-        "points": [
-          [
-            0.246,
-            0.41
-          ],
-          [
-            0.273,
-            0.536
-          ],
-          [
-            0.297,
-            0.535
-          ],
-          [
-            0.321,
-            0.443
-          ],
-          [
-            0.324,
-            0.268
-          ],
-          [
-            0.358,
-            0.238
-          ],
-          [
-            0.358,
-            0.142
-          ],
-          [
-            0.321,
-            0.047
-          ],
-          [
-            0.315,
-            -0.408
-          ],
-          [
-            0.309,
-            -1.0
-          ],
-          [
-            0.255,
-            -1.0
-          ],
-          [
-            0.246,
-            -0.46
-          ],
-          [
-            0.24,
-            -0.052
-          ]
-        ],
-        "confidence": "medium",
-        "sourceRefs": [
-          2,
-          3
-        ]
-      },
-      {
-        "name": "grizzly holding the shield, aft",
-        "color": "bearBrown",
-        "points": [
-          [
-            0.448,
-            0.411
-          ],
-          [
-            0.46,
-            0.509
-          ],
-          [
-            0.475,
-            0.487
-          ],
-          [
-            0.484,
-            0.38
-          ],
-          [
-            0.496,
-            0.219
-          ],
-          [
-            0.508,
-            0.041
-          ],
-          [
-            0.508,
-            -0.211
-          ],
-          [
-            0.49,
-            -0.262
-          ],
-          [
-            0.472,
-            -0.247
-          ],
-          [
-            0.454,
-            -0.199
-          ],
-          [
-            0.442,
-            0.07
-          ],
-          [
-            0.43,
-            0.151
-          ],
-          [
-            0.448,
-            0.234
           ]
         ],
         "confidence": "medium",
@@ -974,7 +552,7 @@
     "areas": [
       {
         "name": "seal quarter: blue with a white crescent moon",
-        "color": "shieldBlue",
+        "color": "cowlBlue",
         "points": [
           [
             0.04,
@@ -1067,21 +645,90 @@
       ]
     },
     {
+      "mark": "SWA/missouri-stars",
+      "place": "fuselage",
+      "at": [
+        0.3847,
+        0.0109
+      ],
+      "height": 1.5599,
+      "colors": [
+        "white"
+      ],
+      "description": "The flag's white five-point stars, six down each starred blue band from crown to belly, upright, in the band's middle.",
+      "side": "both",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ]
+    },
+    {
       "mark": "SWA/missouri-arms",
       "place": "fuselage",
       "at": [
-        0.376,
-        -0.085
+        0.3733,
+        -0.025
       ],
-      "height": 1.6,
+      "height": 1.6355,
       "colors": [
         "bearBrown",
         "sealGold",
         "shieldBlue",
         "moRed",
-        "#2E9E4A"
+        "#1DB86E",
+        "bearDark",
+        "sealInk",
+        "shieldSilver"
       ],
       "description": "The Missouri coat of arms over the wing root: two brown grizzlies standing either side of a round shield (blue with a crescent, red with a bear, the US arms), a gold helmet with green leaves above it on the crown, the gold ring lettered 'UNITED WE STAND' in dark capitals; inside the flag's blue circle of white stars.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ],
+      "side": "left"
+    },
+    {
+      "mark": "SWA/missouri-arms-right",
+      "place": "fuselage",
+      "at": [
+        0.3733,
+        -0.025
+      ],
+      "height": 1.6355,
+      "colors": [
+        "bearBrown",
+        "sealGold",
+        "shieldBlue",
+        "moRed",
+        "#1DB86E",
+        "bearDark",
+        "sealInk",
+        "shieldSilver"
+      ],
+      "description": "The coat of arms on the right side, laid out the other way round (the forward grizzly toward the nose, its body to the belly), the ring lettered 'DIVIDED WE FALL' (2020 LAS photo, right side).",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ],
+      "side": "right"
+    },
+    {
+      "mark": "SWA/missouri-crescent-bear",
+      "place": "engines",
+      "at": [
+        0.306,
+        0.04
+      ],
+      "height": 1.52,
+      "colors": [
+        "sealGold",
+        "white",
+        "bearBrown"
+      ],
+      "description": "The arms' two charges on the cowling's seal quarters: a white crescent moon, horns up, on the blue, and a brown grizzly walking aft on the red, with the gold line between them and the gold edge aft.",
       "confidence": "medium",
       "sourceRefs": [
         2,
@@ -1092,15 +739,19 @@
       "mark": "SWA/us-arms",
       "place": "engines",
       "at": [
-        0.77,
-        0.0
+        0.689,
+        0.056
       ],
-      "height": 0.7,
+      "height": 1.07,
       "colors": [
         "#7A4A1E",
         "white",
         "moRed",
-        "shieldBlue"
+        "shieldBlue",
+        "sealGold",
+        "#2A9A3E",
+        "#8C9096",
+        "#E8B0B8"
       ],
       "description": "The US eagle and shield on the aft cowling (the seal's third quarter).",
       "confidence": "medium",
@@ -1260,6 +911,6 @@
       "side": "right"
     }
   ],
-  "notes": "Drawn from the May 2026 photo of N280WN (left side, slightly tilted on take-off). The lower part of the aft blue circle and the arms are hidden by the engine and wing: drawn on to the belly by the circle's shape. The bears, helmet, leaves and lettering are simplified or described. Re-checked 2026-11-15: the fin is the state jets' Heart fin as re-measured on Colorado One (the same fin on every 737), copied with its 'Southwest' title and flag. 'Missouri One' (in red) measured on the May 2026 left photo against the nose and the forward door (2.4-3.2 m back), two weights, a pair of titles per side (the right mirrored: both photos show the left), on Colorado One's line under the cockpit windows. The coat of arms' ring and shield made smooth. Drawn on the 737-700.",
+  "notes": "Drawn from the May 2026 photo of N280WN (left side, slightly tilted on take-off). The lower part of the aft blue circle and the arms are hidden by the engine and wing: drawn on to the belly by the circle's shape. Re-checked 2026-11-15: the fin is the state jets' Heart fin as re-measured on Colorado One (the same fin on every 737), copied with its 'Southwest' title and flag. 'Missouri One' (in red) measured on the May 2026 left photo against the nose and the forward door (2.4-3.2 m back), two weights, a pair of titles per side (the right mirrored: both photos show the left), on Colorado One's line under the cockpit windows. The coat of arms' ring and shield made smooth. Drawn on the 737-700. Redrawn 2026-11-28: the coat of arms (two grizzlies, the gold helmet with its green mantling, the ring) is now our trace of the May 2026 left photo in place of the ring, shield and bear blocks; the ring's lettering shows only as its gold. The cowling's crescent and bear (on the seal quarters) and the US arms aft of them are drawn too. The arms aren't mirrored: both sides show the same way round, the left photo's. Redrawn 2026-11-28 (round 3): the arms is traced from the May 2026 left photo with every part inside its outline in an art color (white no longer shows through the bears and the ring), the parts the wing and engine hide taken from the arms' own symmetry; the ring and the shield are drawn by their geometry and the ring's lettering set along it. The right side is its own logo, mirrored so the forward bear is forward, its ring reading 'DIVIDED WE FALL' as the 2020 LAS photo shows.",
   "history": "Same airframe was Penguin One (SeaWorld) before 2015."
 }

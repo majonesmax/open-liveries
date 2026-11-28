@@ -65,11 +65,11 @@
       "official": false
     },
     "bear": {
-      "hex": "#E58C2C",
+      "hex": "#C2681E",
       "official": false
     },
     "bearDark": {
-      "hex": "#8B1E2E",
+      "hex": "#6A1A1C",
       "official": false
     },
     "grass": {
@@ -192,105 +192,6 @@
           3
         ],
         "smooth": true
-      },
-      {
-        "name": "grizzly bear walking forward, over the window line",
-        "color": "bear",
-        "points": [
-          [
-            0.613,
-            0.763
-          ],
-          [
-            0.384,
-            1
-          ],
-          [
-            0.368,
-            0.456
-          ],
-          [
-            0.353,
-            0.277
-          ],
-          [
-            0.352,
-            0.062
-          ],
-          [
-            0.342,
-            -0.232
-          ],
-          [
-            0.357,
-            -0.333
-          ],
-          [
-            0.373,
-            -0.38
-          ],
-          [
-            0.387,
-            -0.268
-          ],
-          [
-            0.4,
-            -0.236
-          ],
-          [
-            0.416,
-            -0.28
-          ],
-          [
-            0.431,
-            -0.175
-          ],
-          [
-            0.454,
-            -0.166
-          ],
-          [
-            0.479,
-            -0.14
-          ],
-          [
-            0.498,
-            -0.129
-          ],
-          [
-            0.511,
-            -0.17
-          ],
-          [
-            0.533,
-            -0.142
-          ],
-          [
-            0.549,
-            -0.113
-          ],
-          [
-            0.562,
-            0.056
-          ],
-          [
-            0.581,
-            0.191
-          ],
-          [
-            0.597,
-            0.297
-          ],
-          [
-            0.61,
-            0.415
-          ]
-        ],
-        "confidence": "medium",
-        "sourceRefs": [
-          2,
-          3
-        ]
       },
       {
         "name": "red star aft of the forward door",
@@ -586,36 +487,6 @@
             -0.4
           ]
         ]
-      },
-      {
-        "name": "the bear's hind paw, continued",
-        "color": "bearDark",
-        "points": [
-          [
-            0.44,
-            1
-          ],
-          [
-            0.72,
-            1
-          ],
-          [
-            0.76,
-            0.6
-          ],
-          [
-            0.68,
-            -0.3
-          ],
-          [
-            0.55,
-            -0.6
-          ],
-          [
-            0.46,
-            0.0
-          ]
-        ]
       }
     ],
     "confidence": "medium",
@@ -671,15 +542,36 @@
       "mark": "SWA/california-bear",
       "place": "fuselage",
       "at": [
-        0.505,
-        0.295
+        0.4405,
+        0.1338
       ],
-      "height": 1.0,
+      "height": 1.0998,
       "colors": [
         "bear",
         "bearDark"
       ],
-      "description": "The flag's grizzly, stylised in blocky fur: orange-ochre with maroon shading over roughly a third of the body (back, legs, belly), a few white highlights; walking forward, head just aft of the overwing exits' forward end, its back along the crown.",
+      "description": "The flag's grizzly as painted on the jet, in its blocky fur: orange with large maroon fur shading, walking forward with its head low under the window line ahead of the wing root, its back along the crown, the hind paw's white claws on the grass. Its legs run on under the wing root and onto the engine.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ]
+    },
+    {
+      "mark": "SWA/california-paw",
+      "place": "engines",
+      "at": [
+        0.56,
+        0.02
+      ],
+      "height": 1.9,
+      "colors": [
+        "bear",
+        "bearDark",
+        "white"
+      ],
+      "description": "The bear's near foreleg carried down the cowling: orange fur shaded maroon behind, the paw's white claws on the grass green at the cowl's foot.",
+      "side": "both",
       "confidence": "medium",
       "sourceRefs": [
         2,
@@ -837,6 +729,6 @@
       "side": "right"
     }
   ],
-  "notes": "Drawn from July 2026 photos of N8653A (both sides; the design is mirrored, so the bear walks forward on each). The bear is drawn as one silhouette; its maroon shading is described. Belly between the engines not seen squarely. Re-checked 2026-11-15: the fin is the state jets' Heart fin as re-measured on Colorado One, copied with its title and flag. 'California One' measured on the July 2026 right-side photo against the nose and the forward door (2.2-3.5 m back), two weights, a pair of titles per side (the left side mirrored, reading nose to tail), on Colorado One's line under the cockpit windows. The red bar's and the grass band's curved edges made smooth.",
+  "notes": "Drawn from July 2026 photos of N8653A (both sides; the design is mirrored, so the bear walks forward on each). The bear is a logo (SWA/california-bear) traced on the July 2026 right-side photo over the art's whole extent above the wing; the foreleg and paw on the cowling are a second logo (SWA/california-paw) in place of the old paw area. Belly between the engines not seen squarely. Re-checked 2026-11-15: the fin is the state jets' Heart fin as re-measured on Colorado One, copied with its title and flag. 'California One' measured on the July 2026 right-side photo against the nose and the forward door (2.2-3.5 m back), two weights, a pair of titles per side (the left side mirrored, reading nose to tail), on Colorado One's line under the cockpit windows. The red bar's and the grass band's curved edges made smooth. Re-colored 2026-11-28: the bear's fur from the photos in even light (the 2025 dusk photo #A44004 and #420A07, the July 2026 left photo in daylight #A45614 and #4B1417) against the bright-sun ones (#F79C02, #780316), which read orange: bear #E58C2C to #C2681E, bearDark #8B1E2E to #6A1A1C.",
   "history": "Previously on N609SW and N943WN."
 }

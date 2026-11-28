@@ -60,6 +60,31 @@
     "navy": {
       "hex": "#14275A",
       "official": false
+    },
+    "linePink": {
+      "hex": "#E8407A",
+      "official": false,
+      "name": "pink linework (the surfboard, the bike's frame)"
+    },
+    "lineCyan": {
+      "hex": "#5CC6D6",
+      "official": false,
+      "name": "cyan linework"
+    },
+    "lineOrange": {
+      "hex": "#F07D3C",
+      "official": false,
+      "name": "orange linework"
+    },
+    "lineYellow": {
+      "hex": "#E9D27E",
+      "official": false,
+      "name": "pale yellow linework"
+    },
+    "lineLavender": {
+      "hex": "#B48FE0",
+      "official": false,
+      "name": "lavender line on the fin"
     }
   },
   "finish": "gloss",
@@ -115,15 +140,38 @@
       "mark": "JBU/blueprint-lines",
       "place": "fuselage",
       "at": [
-        0.5,
-        -0.3
+        0.4457,
+        0.004
       ],
-      "height": 1.0,
+      "height": 1.6546,
       "colors": [
         "white",
-        "blue"
+        "linePink",
+        "lineCyan",
+        "lineOrange",
+        "lineYellow"
       ],
       "description": "The blueprint line art over the whole fuselage: a thin white floor line under the windows nose to tail, frames and doors in outline, and below them outlines of seats, bags, bikes, musical instruments and other things carried, mostly white with touches of pink, red and orange. Linework only: the fuselage stays blue.",
+      "confidence": "medium",
+      "sourceRefs": [
+        2,
+        3
+      ]
+    },
+    {
+      "mark": "JBU/blueprint-fin",
+      "place": "fin",
+      "at": [
+        0.6548,
+        0.4949
+      ],
+      "height": 1.0101,
+      "colors": [
+        "white",
+        "lineLavender",
+        "lineCyan"
+      ],
+      "description": "The fin's construction lines: a white line curving up the rear of the fin to the tip, a white line along the tip, and a thin cyan and a thin lavender-pink line rising side by side through the middle of the fin.",
       "confidence": "medium",
       "sourceRefs": [
         2,

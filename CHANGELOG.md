@@ -3,6 +3,42 @@
 Releases are dated: YYYY.MM.DD, with .2 and .3 for later releases the same day. Each entry is generated
 from the data by `tools/release_notes.py` and compares the release with the one before it. Newest first.
 
+## 2026.11.28
+
+Compared with 2026.11.27. Totals: 389 schemes (366 drawn) from 206 airlines. 1490 tagged airframes. 83 shapes.
+
+### Schemes
+
+- Changes 28 schemes (the fields that differ):
+  - `AAL/astrojet` Astrojet (1960s retro): description, sources, fuselage, fin, titles, notes
+  - `ACA/star-alliance` Star Alliance: titles, notes
+  - `ASA/go-cougs` Go Cougs (Washington State University): sources, notes, logos
+  - `ASA/go-dawgs` Go Dawgs! (University of Washington): sources, notes, logos, titles
+  - `ASA/our-commitment` Our Commitment (UNCF): description, sources, notes, palette, fuselage, logos, titles
+  - `ASA/seattle-kraken` Seattle Kraken (2024): notes, palette, logos
+  - `ASA/seattle-mariners` Seattle Mariners: sources, notes, logos, titles
+  - `ASA/west-coast-wonders` West Coast Wonders (orcas): description, sources, notes, palette, fin, logos
+  - `ASA/x-at-kw-ani` Xáat Kwáani ("Salmon People"): description, sources, notes, fuselage, fin, engines, logos
+  - `DAL/team-usa` Team USA (A330-900): sources, fuselage, notes
+  - `FDX/federal-express-retro` Federal Express retro (1970s-1994 colors): fuselage, titles, notes
+  - `FFT/americas-green-airline` America's Green Airline (Powered by Pratt & Whitney): logos
+  - `HAL/moana-live-action` Disney's live-action Moana: sources, palette, fin, logos
+  - `HAL/oneworld` oneworld (Aloha a puni ka honua): sources, palette, fin, logos
+  - `HAL/standard` Pualani (2017 livery): description, sources, palette, fin, logos, types
+  - `JBU/blue-monster` Blue Monster (Boston Red Sox): sources, fuselage, fin, logos, notes
+  - `JBU/blueprint-ii` Blueprint II: palette, logos
+  - `JBU/boston-bruins` Boston Bruins (Bear Force One): sources, logos, notes
+  - `JBU/boston-celtics` Boston Celtics (Lucky Blue): description, sources, logos
+  - `JBU/dunkin` Dunkin' (Brewing Altitude): description, logos, notes
+  - `JBU/isla-del-bluencanto` Isla del Bluencanto (Puerto Rico): palette, fuselage, fin, logos, notes
+  - `SWA/california-one` California One (California flag): palette, fuselage, engines, logos, notes
+  - `SWA/florida-one` Florida One (Florida flag): palette, fuselage, logos, notes
+  - `SWA/illinois-one` Illinois One (Illinois flag): fuselage, logos, notes
+  - `SWA/imua-one` Imua One (Hawaii): sources, palette, fuselage, logos, notes
+  - `SWA/independence-one` Independence One (America250): sources, logos, titles, notes
+  - `SWA/missouri-one` Missouri One (Missouri flag): palette, fuselage, engines, logos, notes
+  - `WA1926/silver-1980s` Bare metal with the big W (1980s): types
+
 ## 2026.11.27
 
 Compared with `5523c5e`. Totals: 389 schemes (366 drawn) from 206 airlines. 1490 tagged airframes. 83 shapes.

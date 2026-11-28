@@ -7,7 +7,7 @@
   "confidence": "medium",
   "drawnOn": "A320",
   "from": "2025-05",
-  "description": "Fuselage: Dunkin' orange crown and belly with a broad raspberry-pink wave sweeping through the middle from the pink nose: its upper edge crests above the forward windows and again over the wing and dips to the window line between and aft of the wing, its lower edge rises from the chin to the forward door's foot, falls low behind the wing and rises again aft; behind the aft door the pink takes the whole tail cone, with orange round the stabilizer's root. Titles: 'jetBlue', an arrow and a small airplane, then 'DUNKIN'' in white along the forward windows. Tail: a tilted Dunkin' coffee cup: a pink cup outlined in thick white with a big white 'D', its white lid band across the fin and a white sip hole in the pink lid above; orange outside the cup at the fin's root and along the trailing edge. The cup's rounded white outline runs from the fin down onto the rear fuselage as one shape, its foot at the belly under the stabilizer. Engines and wingtip fences orange.",
+  "description": "Fuselage: Dunkin' orange crown and belly with a broad raspberry-pink wave sweeping through the middle from the pink nose: its upper edge crests above the forward windows and again over the wing and dips to the window line between and aft of the wing, its lower edge rises from the chin to the forward door's foot, falls low behind the wing and rises again aft; behind the aft door the pink takes the whole tail cone, with orange round the stabilizer's root. Titles: 'jetBlue', a white airplane seen from above, then 'DUNKIN'' in white along the forward windows. Tail: a tilted Dunkin' coffee cup: a pink cup outlined in thick white with a big white 'D', its white lid band across the fin and a white sip hole in the pink lid above; orange outside the cup at the fin's root and along the trailing edge. The cup's rounded white outline runs from the fin down onto the rear fuselage as one shape, its foot at the belly under the stabilizer. Engines and wingtip fences orange.",
   "sources": [
     {
       "url": "https://www.businesswire.com/news/home/20250512190550/en/JetBlue-Runs-on-Dunkin-With-New-Special-Livery",
@@ -1375,14 +1375,14 @@
       "mark": "JBU/arrow-plane",
       "place": "fuselage",
       "at": [
-        0.38,
-        0.23
+        0.387,
+        0.25
       ],
-      "height": 0.33,
+      "height": 0.62,
       "colors": [
         "white"
       ],
-      "description": "A white arrow into a small airplane between 'jetBlue' and 'DUNKIN'', over the windows.",
+      "description": "A white airplane seen from above, flying aft, centered between 'jetBlue' and 'DUNKIN'': as tall as the titles' capitals and more (its wingtips from above the windows to below them), its fuselage along the window line.",
       "confidence": "medium",
       "sourceRefs": [
         1
@@ -1465,5 +1465,5 @@
       }
     }
   ],
-  "notes": "Drawn from one photo, N643JB's left side at O'Hare on 2026-09-11 (the newest; Commons has no right side). Redrawn 2026-11-22: the pink sweep's edges read off the photo column by column on the measured A320 (tools/photo_trace.py fit, within 10 px) and drawn as smooth curves; its lower edge behind the engine and under the wing isn't seen and is interpolated. The cup's walls, foot and lid band are lines fitted to the photo's edges in side-view meters, rounded at the corners as painted, and split at the fin's root into fin areas and fuselage areas from the same outline, so the two meet there (on other types the fin's part isn't fitted and the joint is approximate). The wave's paler swirl inside the pink (under the wing's trailing edge and aft) is left out; the cup's foot behind the stabilizer and under the belly is carried on from the edges either side. The small lettering by the nose and forward door (the aircraft's name, 'Brewing Altitude', per JetBlue) isn't drawn. Colours set against the photo's whites (overcast: the paint reads darker than it is)."
+  "notes": "Drawn from one photo, N643JB's left side at O'Hare on 2026-09-11 (the newest; Commons has no right side). Redrawn 2026-11-22: the pink sweep's edges read off the photo column by column on the measured A320 (tools/photo_trace.py fit, within 10 px) and drawn as smooth curves; its lower edge behind the engine and under the wing isn't seen and is interpolated. The cup's walls, foot and lid band are lines fitted to the photo's edges in side-view meters, rounded at the corners as painted, and split at the fin's root into fin areas and fuselage areas from the same outline, so the two meet there (on other types the fin's part isn't fitted and the joint is approximate). The wave's paler swirl inside the pink (under the wing's trailing edge and aft) is left out; the cup's foot behind the stabilizer and under the belly is carried on from the edges either side. The small lettering by the nose and forward door (the aircraft's name, 'Brewing Altitude', per JetBlue) isn't drawn. Colours set against the photo's whites (overcast: the paint reads darker than it is). 2026-11-27: the emblem between the titles is one airplane seen from above, flying aft toward 'DUNKIN'' (not an arrow): traced from the 2026-09-11 left-side photo, about 0.6 of the body's height, over the overwing exits. 2026-11-28: the airplane re-measured on the photo fitted to shapes/A320.json (tools/photo_trace.py): it is 1.8 m tall, from 1.6 m above the centerline to 0.2 m below, centered between the end of 'jetBlue' and the D (x 0.387); it had been drawn a third smaller and low. Commons has no right side; there it is mirrored, still flying aft toward 'DUNKIN''."
 }

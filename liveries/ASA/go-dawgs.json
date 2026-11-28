@@ -36,9 +36,21 @@
       "title": "N661QX @ LAX, 2024-01-20.jpg (CC0)",
       "accessed": "2026-11-14",
       "note": "The sister jet N661QX (Go Cougs) side-on: the same design in WSU's colors; positions along the fuselage measured from it."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Go_Dawgs!_(55242138497).jpg",
+      "title": "Go Dawgs! (55242138497).jpg (CC BY 4.0)",
+      "accessed": "2026-11-27",
+      "note": "Left side from below, 2025-12-22, the fin close: the block W in purple with a thin white outline; traced from it."
+    },
+    {
+      "url": "https://news.alaskaair.com/images-videos/go-dawgs-aircraft/",
+      "title": "Alaska Airlines News: Go Dawgs aircraft images (2023-10-03)",
+      "accessed": "2026-11-28",
+      "note": "Alaska's own press images of N662QX: the left side side-on (the 'GO DAWGS!' lettering, gold capitals in a white outline that grow smaller from the G to the '!', and the fin's W centered in the gold), the right side's tail, and the winglet's small W near its root."
     }
   ],
-  "notes": "Flown by Horizon (QXE) on the E175. Alaska's photo is from behind the wing, so positions along the fuselage were measured on the side-on photo of its sister jet N661QX ('Go Cougs', the same design in WSU's colors) and checked against this one's. 'PROUD SPONSOR OF UW ATHLETICS' isn't drawn. On the right, 'HORIZON' is forward of 'Alaska' (as on Horizon's standard E175s).",
+  "notes": "Flown by Horizon (QXE) on the E175. Alaska's photo is from behind the wing, so positions along the fuselage were measured on the side-on photo of its sister jet N661QX ('Go Cougs', the same design in WSU's colors) and checked against this one's. 'PROUD SPONSOR OF UW ATHLETICS' isn't drawn. On the right, 'HORIZON' is forward of 'Alaska' (as on Horizon's standard E175s). 2026-11-28: from Alaska's press images, 'GO DAWGS!' drawn as the painted lettering (a mark: slanted gold slab capitals in a white outline, all one height; the left-side press photo's shrinking letters are its perspective, the side-on right-side photo shows them even), the fin's W moved to the middle of the gold and the winglets' small W added.",
   "from": "2023-09",
   "palette": {
     "purple": {
@@ -235,20 +247,40 @@
       "mark": "ASA/uw-block-w",
       "place": "fin",
       "at": [
-        0.58,
-        0.45
+        0.64,
+        0.32
       ],
-      "height": 0.35,
+      "height": 0.4,
       "colors": [
         "purple",
         "white"
       ],
-      "description": "UW's block 'W' in purple outlined in white, on the gold fin.",
+      "description": "UW's block 'W' in purple outlined in white, centered in the gold between the purple leading-edge stripe and the trailing edge, low on the fin; the same on both sides.",
       "confidence": "high",
       "sourceRefs": [
         0,
         2,
-        4
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "mark": "ASA/uw-block-w",
+      "place": "winglets",
+      "at": [
+        0.5,
+        0.22
+      ],
+      "height": 0.22,
+      "colors": [
+        "purple",
+        "white"
+      ],
+      "description": "A small block 'W' near the root of each gold winglet.",
+      "confidence": "medium",
+      "sourceRefs": [
+        6
       ]
     }
   ],
@@ -348,16 +380,17 @@
       "place": "fuselage",
       "at": [
         0.37,
-        -0.09
+        -0.16
       ],
-      "height": 0.85,
+      "height": 0.8,
       "color": "gold",
-      "style": "Heavy slanted slab capitals in gold with a dark outline, across the windows from ahead of the wing to the aft door.",
+      "style": "Heavy slab capitals slanted forward about 11 degrees, in gold, each in a broad white outline, all the same height on one baseline, across the windows from ahead of the wing to the aft door.",
       "confidence": "high",
       "sourceRefs": [
         0,
         2,
-        4
+        4,
+        6
       ],
       "length": 0.355,
       "type": {
@@ -366,11 +399,12 @@
           "Clarendon Black"
         ],
         "weight": 800,
-        "slantDeg": 10,
+        "slantDeg": 11,
         "width": "normal",
         "strokes": "uniform",
         "case": "upper"
-      }
+      },
+      "mark": "ASA/go-dawgs-wordmark"
     }
   ]
 }

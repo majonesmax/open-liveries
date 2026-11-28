@@ -42,9 +42,15 @@
       "title": "Alaska Airlines Boeing 737-900ER N431AS on final approach to Boston December 2024.jpg (CC BY 4.0)",
       "accessed": "2026-11-27",
       "note": "N431AS right side, 2024-12-27: the portrait and the hood are mirrored on the right (the hair's lock and the wisp toward the trailing edge on both sides)."
+    },
+    {
+      "url": "https://news.alaskaair.com/community/seattle-mariners-alaska-airlines-aircraft-2024/",
+      "title": "Alaska Airlines News: Seattle Mariners aircraft (2024)",
+      "accessed": "2026-11-28",
+      "note": "Alaska's own press images, the close-ups of the right side and one side-on photo of the left (2024-09-26): the moose close up (2024-09-26: head and antlers over the windows, his whole upper body in the white Mariners jersey with MARINERS across the chest, a fist up by the forward door and a thumbs-up by the Alaska title), the jet side-on, and the 'MARINERS' wordmark (navy letters, teal outline, white gap, outer teal line)."
     }
   ],
-  "notes": "Drawn from Alaska's photo of the left side; the right side (two 2026 Commons photos) carries the same layout. The rest of the scheme is Alaska's standard (ASA/standard), whose sweep, fin, engines and winglets are copied. Re-checked 2026-11-15 (drawn on the 737-9): titles' lengths kept (measured on Alaska's side-on photo); 'Alaska' lowercase about 0.55 of its A. The Atlas-blue swoosh and the standard's aft sweep made smooth curves (the swoosh's pointed aft tip kept a corner), with the silver-grey stripe ahead of the lime that the standard now has.",
+  "notes": "Drawn from Alaska's photo of the left side; the right side (two 2026 Commons photos) carries the same layout. The rest of the scheme is Alaska's standard (ASA/standard), whose sweep, fin, engines and winglets are copied. Re-checked 2026-11-15 (drawn on the 737-9): titles' lengths kept (measured on Alaska's side-on photo); 'Alaska' lowercase about 0.55 of its A. The Atlas-blue swoosh and the standard's aft sweep made smooth curves (the swoosh's pointed aft tip kept a corner), with the silver-grey stripe ahead of the lime that the standard now has. 2026-11-27: the moose and the compass placed and sized from the right side at SFO (2026-10-24, side-on): the moose about 1.2 of the body's height a little above its middle, the compass about 1.6 just below the windows. 2026-11-28: the moose redrawn from Alaska's press close-up (rectified on the window row) with his whole upper body in the jersey; 'MARINERS' drawn as the painted wordmark mark (navy, teal outline, white gap, outer teal). Alaska's side-on photo of the left shows the same moose mirrored (thumbs-up forward by the Alaska title on both sides), so the mark is mirrored with the jersey's lettering kept readable. Placement re-measured 2026-11-28 on the side-on SFO photo against the 737-9's crown (2.0 m) and window line (0.53 m): the antlers' tips 0.27 m under the crown, the hands' foot 0.39 m under the centerline.",
   "from": "2024-09",
   "palette": {
     "white": {
@@ -849,40 +855,41 @@
       "mark": "SEA/mariner-moose",
       "place": "fuselage",
       "at": [
-        0.385,
-        0.15
+        0.38,
+        0.2
       ],
-      "height": 1.4,
+      "height": 0.92,
       "colors": [
         "brown",
         "white",
         "marinersNavy"
       ],
-      "description": "Mariner Moose in a Mariners jersey, waving, between the Alaska title and 'MARINERS', from the crown to below the windows.",
+      "description": "Mariner Moose, as photographed: his big brown head with pale antlers and wide white eyes over the windows, his upper body below in the white Mariners home jersey with 'MARINERS' across the chest in navy outlined in teal and the compass star above it, a brown fist raised by the forward door and a thumbs-up by the Alaska title.",
       "confidence": "medium",
       "sourceRefs": [
         0,
-        3
+        2,
+        6
       ]
     },
     {
       "mark": "SEA/mariners-compass",
       "place": "fuselage",
       "at": [
-        0.735,
-        -0.15
+        0.7,
+        -0.16
       ],
-      "height": 0.8,
+      "height": 1.65,
       "colors": [
         "marinersTeal",
         "silver",
         "marinersNavy"
       ],
-      "description": "The Mariners compass rose at the end of 'MARINERS', in the sweep's leading band.",
+      "description": "The Mariners compass rose (four long points and four short ones, each half teal and half white, over a white baseball) at the aft end of 'MARINERS', from above the windows to near the belly.",
       "confidence": "medium",
       "sourceRefs": [
         0,
-        3
+        2
       ]
     }
   ],
@@ -925,11 +932,12 @@
       ],
       "height": 0.86,
       "color": "marinersNavy",
-      "style": "The Mariners wordmark: serifed capitals in navy outlined in teal and silver, from over the wing to the sweep.",
+      "style": "The Mariners wordmark as painted: heavy bracketed-serif capitals in navy, each outlined in teal, then a white gap and an outer teal line, from over the wing to the sweep.",
       "confidence": "high",
       "sourceRefs": [
         0,
-        3
+        3,
+        6
       ],
       "length": 0.26,
       "type": {
@@ -942,7 +950,8 @@
         "width": "normal",
         "strokes": "uniform",
         "case": "upper"
-      }
+      },
+      "mark": "SEA/mariners-wordmark"
     }
   ]
 }

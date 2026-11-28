@@ -8,7 +8,7 @@
   "drawnOn": "A320",
   "from": "2018",
   "commemorates": "JetBlue's sponsorship of the Boston Celtics (official airline).",
-  "description": "Fuselage: Celtics green all over. Titles: 'jetBlue' in white over the forward windows with the small Celtics roundel after it. Tail: green fin with the Celtics' Lucky the Leprechaun roundel huge across its lower aft part: a white disc with the leprechaun, a green ring lettered 'BOSTON CELTICS' in white, a thin white rim; it runs off the trailing edge and down by the stabilizer. Engines black with 'jetblue.com' in white.",
+  "description": "Fuselage: Celtics green all over. Titles: 'jetBlue' in white over the forward windows with the Celtics' logo small after it, in full color. Tail: green fin with the Celtics' logo huge across its lower aft part in plain green and white: Lucky the Leprechaun drawn in green line on a white disc, a green ring lettered 'BOSTON CELTICS' in white, a thin white rim; it runs off the trailing edge and down by the stabilizer. Engines black with 'jetblue.com' in white.",
   "sources": [
     {
       "url": "https://airlinegeeks.com/2025/12/22/jetblue-rolls-out-boston-themed-livery/",
@@ -27,6 +27,12 @@
       "title": "Lucky Blue (aircraft) on Commons",
       "accessed": "2026-11-22",
       "note": "N595JB in the Celtics scheme 2018-2021, left and right sides: the same layout."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:N595JB_Celtics_Lucky_Blue_Departs_FLL_JTPI_7265_(42288634582).jpg",
+      "title": "N595JB Celtics Lucky Blue Departs FLL JTPI 7265 (42288634582).jpg (CC BY-SA 2.0)",
+      "accessed": "2026-11-27",
+      "note": "N595JB right side departing Fort Lauderdale, 2018-05-23, near side-on: the fin logo traced off it (the ring fits a circle within a pixel). 'BOSTON' and the ball's edge from the SJU photo's left side; the legs under the stabilizer from the full-color logo on the fuselage."
     }
   ],
   "palette": {
@@ -384,31 +390,33 @@
         0.62,
         0.12
       ],
-      "height": 1.06,
+      "height": 1.269,
       "colors": [
         "green",
         "white"
       ],
-      "description": "The Celtics' roundel: Lucky the Leprechaun (in a bowler hat with a shamrock, a pipe, a shamrock-patterned waistcoat, leaning on a shillelagh, a basketball at his feet) on a white disc, in a green ring lettered 'BOSTON CELTICS'; across the fin's lower aft part, running off the trailing edge.",
+      "description": "The Celtics' logo in its plain green-and-white form: on a white disc, Lucky the Leprechaun drawn in green line (bowler hat with a shamrock band, winking, pipe in his mouth, bow tie and shamrock waistcoat), spinning a basketball on his raised finger and leaning on his shillelagh, his legs crossed; a green ring round it lettered 'BOSTON' up the left and 'CELTICS' down the right in white, a thin white rim. The ball and hat break the ring at the top, the stick and shoes at the bottom. Across the fin's lower aft part, running off the trailing edge; not mirrored (the right side shows it the same way round).",
       "reference": "https://en.wikipedia.org/wiki/Boston_Celtics",
       "confidence": "medium",
       "sourceRefs": [
-        1
+        1,
+        3
       ]
     },
     {
-      "mark": "JBU/celtics-roundel",
+      "mark": "JBU/celtics-lucky",
       "place": "fuselage",
       "at": [
         0.359,
         0.19
       ],
-      "height": 0.5,
+      "height": 0.595,
       "colors": [
         "green",
-        "white"
+        "white",
+        "black"
       ],
-      "description": "The same roundel small after 'jetBlue', over the windows.",
+      "description": "The Celtics' logo in full color, small after 'jetBlue' over the windows: Lucky with an orange basketball, black bowler hat, tan face, green bow tie and shamrock waistcoat, black trousers, white spats and a brown shillelagh, on a white disc in a green ring with white 'BOSTON CELTICS' lettering, edged in black; his shoes and stick reach below the ring.",
       "confidence": "high",
       "sourceRefs": [
         1
